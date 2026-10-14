@@ -1,0 +1,30 @@
+{
+	"_comment": "Where the three repos live. 'local' is the owner's Windows machine; in a cloud session clone 'github' into a scratch dir and ignore 'local'. Scripts read resourceslist.local (override with RL_REPO or --repo).",
+	"automation": {
+		"github": "mrqurious/automation",
+		"local": "D:/production/automation",
+		"default_branch": "main",
+		"role": "control plane: playbooks, templates, skills, per-video run logs"
+	},
+	"resourceslist": {
+		"github": "mrqurious/resourceslist",
+		"local": "D:/production/resourceslist",
+		"default_branch": "main",
+		"role": "the directory site (Astro + Cloudflare Workers); one markdown file per resource",
+		"package_manager": "bun",
+		"ci": ["bun run check:content", "bun run check", "bun run build"]
+	},
+	"videoediting": {
+		"github": "mrqurious/videoediting",
+		"local": "D:/production/videoediting",
+		"default_branch": "main",
+		"role": "HyperFrames video workspace; one video = one folder under videos/",
+		"package_manager": "npm (per-video project)",
+		"renders_are_gitignored": true
+	},
+	"branch_naming": {
+		"resourceslist": "resource/<slug>",
+		"videoediting": "video/<slug>",
+		"automation": "run/<slug>"
+	}
+}

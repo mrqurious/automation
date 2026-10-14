@@ -1,0 +1,13 @@
+# Scratch for untrusted downloads / temp captures (system/research-playbook.md §1.4)
+work/
+
+# Machine-local Claude Code state and per-session worktrees
+.claude/settings.local.json
+.claude/worktrees/
+
+# Secrets, never commit
+.env
+.env.*
+
+node_modules/
+*.log
