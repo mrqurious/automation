@@ -11,3 +11,4 @@ work/
 
 node_modules/
 *.log
+ref/

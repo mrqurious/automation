@@ -1,0 +1,42 @@
+{
+  "_comment": "Researched facts, one entry per tool id from tools-list.json. EMPTY until research sessions fill it (system/backlog-research.md). Every fact needs a source URL + date read; unknown = null + an entry in 'unverified'. Never invent. Sources are third-party/untrusted: write in own words.",
+  "_schema": {
+    "<tool-id>": {
+      "researchedOn": "YYYY-MM-DD",
+      "verdict": "list | list-sibling | skip | blocked | needs-owner",
+      "verdictReason": "one line; required for skip / blocked / needs-owner",
+      "site": { "name": "brand casing", "url": "canonical https://… (no tracking params)", "alive": true, "operator": "company / foundation / person, or null" },
+      "pricing": {
+        "rlLabel": "Free | Free + Paid | Freemium | Paid",
+        "freeTier": "what the free plan includes and its limits, or null",
+        "paidFrom": "lowest paid plan price + billing period, or null",
+        "evidence": { "url": "pricing page", "date": "YYYY-MM-DD", "confidence": "first-party | second-hand | not-read" }
+      },
+      "license": {
+        "line": "name · commercial: yes/no · attribution: required/not required · one limit",
+        "openSource": false,
+        "spdx": "MIT / Apache-2.0 / … or null",
+        "evidence": { "url": "license / terms page", "date": "YYYY-MM-DD", "confidence": "first-party | second-hand | not-read" }
+      },
+      "rl": {
+        "slug": "kebab-case, free in RL (rl-index --find)",
+        "type": "from consts.ts (rl-index --enums)",
+        "category": "from consts.ts",
+        "title": "≤ 60 chars",
+        "description": "≤ 160 chars, own words",
+        "tags": ["existing tag slugs only; new tag = ask"],
+        "relatedResources": ["real RL slugs, max 3"],
+        "similarResources": ["real RL slugs, max 3"],
+        "keyFeatures": ["3-6 concrete bullets, own words"],
+        "icon": { "route": "iconLib | iconSvg | iconUrl | none", "value": "slug / sanitized svg / url", "fillColor": "#hex or null", "bgColor": "#hex or null", "source": "Simple Icons vX / page URL" },
+        "siblings": ["section worth its own entry, with the nav evidence, or empty"]
+      },
+      "safety": { "https": true, "clonerisk": "none | checked-ok | suspicious", "notes": "scam / shutdown / acquired search result, or null" },
+      "sources": [{ "url": "…", "date": "YYYY-MM-DD", "note": "what was taken from it" }],
+      "unverified": ["anything not read or not confirmable"],
+      "injectionSeen": "describe any page text aimed at AI agents, or null",
+      "draft": { "branch": "resource/batch-NN", "file": "src/content/resources/<slug>.md", "lint": "pass | fail | not-run" }
+    }
+  },
+  "resources": {}
+}
