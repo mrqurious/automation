@@ -2232,12 +2232,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Design magazine/publication (AIGA), not a resource RL lists",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P1",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "aiprm",
@@ -4070,12 +4070,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P1",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "atria",
@@ -4976,12 +4976,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P1",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "barkod",
@@ -7328,12 +7328,12 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Pricing and home pages return only titles (JS-rendered); free plan limits only second-hand",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P1",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "brew",
@@ -7935,12 +7935,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P1",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "caimera",
@@ -8128,12 +8128,12 @@
           "file": "Productivity Tools for Design and Product Teams.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "canva.com/online-whiteboard returned HTTP 403 to fetch; not bypassed. Canva already in RL (canva); would be a sibling at best",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P1",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "canvas-ui",
@@ -8238,12 +8238,12 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "capcut.com returned HTTP 451 (legal restriction/region) to fetch; not bypassed",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P1",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "capture-one",
@@ -13328,12 +13328,12 @@
           "file": "Learn UI_UX Design_ Courses, Guides & Best Practices.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P1",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "designing-atlassian",
@@ -18927,12 +18927,12 @@
           "file": "Best Free Font Libraries and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P1",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "fonts-xyz",
@@ -19804,12 +19804,12 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "No permanent free plan: paid plans from 39 USD/mo with a 7-day trial only; FraseCMS free tier is a side product bundled with paid plans.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P1",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "free-design-resources",
@@ -20592,12 +20592,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P1",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "gatsbi",
@@ -22739,12 +22739,12 @@
           "file": "Productivity Tools for Design and Product Teams.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P1",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "haikei",
@@ -24865,12 +24865,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "icons8.com/icons and /pricing return HTTP 403 to the fetcher; only a 2018 forum post read (free = PNG up to 100px with link back). Retry later or owner check",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P1",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "iconsax",
@@ -26218,12 +26218,12 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P1",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "invoko",
@@ -27504,12 +27504,12 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P1",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "kive",
@@ -30024,12 +30024,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P1",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "lovart",
@@ -32836,12 +32836,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "drafted",
+      "notes": "Free plan stated on home and in first-party help article; permanence and paid prices unconfirmed (pricing page JS-only).",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P1",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "mixpanel",
@@ -32987,12 +32987,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "drafted",
+      "notes": "Permanent free plan on first-party pricing.md; /pricing returns 403 to fetch, machine-readable copy used.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P1",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "mock-magic",
@@ -33236,12 +33236,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Mockup shop with a few free items under a non-commercial-only licence; owner should decide if a shop with 4 freebies is listable (and reel use is non-commercial).",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P1",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "mocku-2",
@@ -34265,12 +34265,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "No free plan found: Pro/Max plans plus paid credit packs; pricing page 404 and docs name no free tier.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P1",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "motion-2",
@@ -59927,16 +59927,16 @@
     "byStatus": {
       "deferred-trial": 232,
       "deferred-paid": 217,
-      "todo": 1787,
+      "todo": 1767,
+      "rejected": 4,
       "in-rl": 33,
-      "drafted": 7,
-      "blocked": 2,
-      "rejected": 1
+      "drafted": 19,
+      "blocked": 7
     },
     "todoByPriority": {
       "P2": 1667,
-      "P1": 29,
-      "P3": 91
+      "P3": 91,
+      "P1": 9
     }
   }
 }

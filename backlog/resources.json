@@ -783,6 +783,1520 @@
         "file": "src/content/resources/descript.md",
         "lint": "pass"
       }
+    },
+    "aiga-eye-on-design": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Design magazine/publication (AIGA), not a resource RL lists",
+      "site": {
+        "name": "AIGA Eye on Design",
+        "url": "https://eyeondesign.aiga.org",
+        "alive": true,
+        "operator": "AIGA (professional association for design)"
+      },
+      "sources": [
+        {
+          "url": "https://eyeondesign.aiga.org",
+          "date": "2026-10-16",
+          "note": "editorial design publication, articles on branding, typography, design history"
+        },
+        {
+          "url": "https://eyeondesign.aiga.org/about/",
+          "date": "2026-10-16",
+          "note": "published by AIGA; no paywall mentioned; print magazine sold; newsletter"
+        }
+      ],
+      "unverified": [
+        "paywall status not explicit",
+        "no safety search run (not needed for skip)"
+      ],
+      "injectionSeen": null
+    },
+    "atoms": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Atoms",
+        "url": "https://atoms.dev",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan at 0 USD/month, described as forever free: 15 credits per day and 25 per month",
+        "paidFrom": "Pro from 20 USD/month (100 credits); yearly billing saves up to 21%",
+        "evidence": {
+          "url": "https://atoms.dev/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: not read · attribution: n/a · limit: terms page not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://atoms.dev",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "atoms",
+        "type": "AI Tool",
+        "category": "Development",
+        "title": "Atoms",
+        "description": "AI no-code builder where a team of agents plans, builds and publishes websites and full-stack apps from a prompt; free plan with daily credits.",
+        "tags": [
+          "ai-tool",
+          "no-code",
+          "website-builder",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "framer",
+          "webflow"
+        ],
+        "keyFeatures": [
+          "Multi-agent team covering research, architecture, engineering, SEO and ads",
+          "Visual editor for adjusting layouts and components",
+          "Atoms Cloud backend with login, database and hosting",
+          "Code export and GitHub sync",
+          "One-click publish to a live URL",
+          "Free plan: 15 credits per day, 25 per month"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Search found no scam or shutdown reports; reviews mostly affiliate-supported"
+      },
+      "sources": [
+        {
+          "url": "https://atoms.dev/pricing",
+          "date": "2026-10-16",
+          "note": "plans, free tier credits"
+        },
+        {
+          "url": "https://atoms.dev",
+          "date": "2026-10-16",
+          "note": "features, FoundationAgents links"
+        },
+        {
+          "url": "https://www.unite.ai/atoms-dev-review",
+          "date": "2026-10-16",
+          "note": "safety search result"
+        }
+      ],
+      "unverified": [
+        "terms and commercial use not read",
+        "legal operator not named on page",
+        "pricing page ambiguous on how daily credits apply to paid plans"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-02",
+        "file": "src/content/resources/atoms.md",
+        "lint": "pass"
+      }
+    },
+    "banani": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Banani",
+        "url": "https://www.banani.co",
+        "alive": true,
+        "operator": "Founders Vlad Solomakha and Vova Parkhomchuk (no legal entity named)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan does not expire, no card: 12 monthly credits, 3 daily refills, private projects",
+        "paidFrom": "Plus 12 USD/month yearly (20 monthly) - which price maps to which period not stated on page",
+        "evidence": {
+          "url": "https://www.banani.co/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: not read · attribution: n/a · limit: terms page not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.banani.co/pricing",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "banani",
+        "type": "AI Tool",
+        "category": "Design",
+        "title": "Banani",
+        "description": "AI UI design tool that turns text prompts, screenshots or PRDs into editable multi-screen prototypes, exportable to Figma or HTML; small free plan.",
+        "tags": [
+          "ai-tool",
+          "ui-ux",
+          "prototyping",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "figma",
+          "framer"
+        ],
+        "keyFeatures": [
+          "Generates editable multi-screen UI from text, images or PRDs",
+          "Imports style from screenshots or Figma links",
+          "Click an element to generate the next screen",
+          "Canvas editing with AI chat or manual tweaks",
+          "Export to Figma, HTML/CSS or images, plus MCP for coding agents",
+          "Free plan: 12 monthly credits and 3 daily refills"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons (fuzzy only), 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://www.banani.co/pricing",
+          "date": "2026-10-16",
+          "note": "plans, free tier, FAQ plan does not expire"
+        },
+        {
+          "url": "https://www.banani.co",
+          "date": "2026-10-16",
+          "note": "what it is, features, founders"
+        }
+      ],
+      "unverified": [
+        "terms and commercial use not read",
+        "no dedicated safety search",
+        "monthly vs yearly price mapping unclear",
+        "site field was affiliate link getbanani.link; clean URL banani.co taken from fetch"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-02",
+        "file": "src/content/resources/banani.md",
+        "lint": "pass"
+      }
+    },
+    "brevo": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "Pricing and home pages return only titles (JS-rendered); free plan limits only second-hand",
+      "site": {
+        "name": "Brevo",
+        "url": "https://www.brevo.com",
+        "alive": true,
+        "operator": null
+      },
+      "icon": {
+        "route": "iconLib",
+        "value": "brevo",
+        "fillColor": "#0B996E",
+        "source": "Simple Icons via check-icon.mjs, 2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://www.brevo.com/pricing/",
+          "date": "2026-10-16",
+          "note": "title only"
+        },
+        {
+          "url": "https://ecommerce-platforms.com/email-marketing-services-reviews/sendinblue-pricing",
+          "date": "2026-10-16",
+          "note": "second-hand: free plan about 300 emails/day, Starter about 9 USD/month"
+        }
+      ],
+      "unverified": [
+        "free plan limits first-party",
+        "contact cap on free plan",
+        "license/terms",
+        "safety search"
+      ],
+      "injectionSeen": null
+    },
+    "byq": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "BYQ",
+        "url": "https://byq.supply",
+        "alive": true,
+        "operator": "BYQ Supply (Poland per footer; legal entity not named)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free ($0, no card): 5 one-time AI tokens, 5 one-time code conversions, limited sections, Gems, Design Systems and Skeletons, limited support; no MCP, Chrome extension, Sections Lab exports or template credits",
+        "paidFrom": "Pro 25 USD/month billed quarterly; Ultra 59 USD/month billed quarterly (annual -20%, lifetime option, prices not shown)",
+        "evidence": {
+          "url": "https://byq.supply/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary terms · commercial: yes (client, personal and commercial projects, clause 6.1; free-plan coverage not explicit) · attribution: not required · limit: assets cannot be resold or redistributed as standalone/derivative kits or marketplace products",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://byq.supply/legal/terms-conditions",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "byq",
+        "type": "Library",
+        "category": "Design",
+        "title": "BYQ Supply",
+        "description": "Library of copy-paste website sections, skeletons and templates for Webflow, Figma and some Framer templates. Free plan gives limited access.",
+        "tags": [
+          "website-builder",
+          "design-templates",
+          "ui-ux",
+          "no-code"
+        ],
+        "relatedResources": [
+          "webflow",
+          "framer"
+        ],
+        "similarResources": [
+          "webflow-templates",
+          "framer-templates"
+        ],
+        "keyFeatures": [
+          "Handcrafted website sections, Gems, Design Systems and Skeletons",
+          "Copy into Webflow and Figma; selected templates for Framer",
+          "Free plan: limited library access, 5 one-time AI tokens and 5 code conversions",
+          "Paid plans add a Chrome extension, MCP access and template credits"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Search found no scam/shutdown hits; only first-party and listing pages, no independent reviews"
+      },
+      "sources": [
+        {
+          "url": "https://app.byq.supply",
+          "date": "2026-10-16",
+          "note": "app feed, library, login partly required"
+        },
+        {
+          "url": "https://byq.supply",
+          "date": "2026-10-16",
+          "note": "home, footer Made in Poland"
+        },
+        {
+          "url": "https://byq.supply/pricing",
+          "date": "2026-10-16",
+          "note": "plans and free tier"
+        },
+        {
+          "url": "https://byq.supply/legal/terms-conditions",
+          "date": "2026-10-16",
+          "note": "license clauses 6 and 7"
+        },
+        {
+          "url": "https://www.producthunt.com/posts/1239726",
+          "date": "2026-10-16",
+          "note": "search result: product listing, section counts"
+        }
+      ],
+      "unverified": [
+        "legal operator not named",
+        "whether free-plan assets are covered by the commercial license",
+        "free section count not stated; 'limited'",
+        "AI token numbers inconsistent on pricing page",
+        "no independent reviews"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-02",
+        "file": "src/content/resources/byq.md",
+        "lint": "pass"
+      }
+    },
+    "canva-whiteboards": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "canva.com/online-whiteboard returned HTTP 403 to fetch; not bypassed. Canva already in RL (canva); would be a sibling at best",
+      "site": {
+        "name": "Canva Whiteboards",
+        "url": "https://www.canva.com/online-whiteboard/",
+        "alive": true,
+        "operator": "Canva"
+      },
+      "sources": [
+        {
+          "url": "https://www.canva.com/online-whiteboard/",
+          "date": "2026-10-16",
+          "note": "HTTP 403"
+        }
+      ],
+      "unverified": [
+        "free plan limits for whiteboards",
+        "license/terms",
+        "whether a separate entry from existing canva is wanted"
+      ],
+      "injectionSeen": null
+    },
+    "capcut": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "capcut.com returned HTTP 451 (legal restriction/region) to fetch; not bypassed",
+      "site": {
+        "name": "CapCut",
+        "url": "https://www.capcut.com",
+        "alive": true,
+        "operator": "ByteDance/Bytedance Pte (not verified)"
+      },
+      "sources": [
+        {
+          "url": "https://www.capcut.com/tools/desktop-video-editor",
+          "date": "2026-10-16",
+          "note": "HTTP 451"
+        }
+      ],
+      "unverified": [
+        "free tier limits (watermark, export)",
+        "pricing",
+        "terms",
+        "safety search not run"
+      ],
+      "injectionSeen": null
+    },
+    "designerup": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "DesignerUp",
+        "url": "https://designerup.co",
+        "alive": true,
+        "operator": "DesignerUp (self-described bootstrapped, female-owned; legal entity not named)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Five free crash courses: New to Product Design (13 video lessons), UI Design Crash Course (12), UX/UI Portfolio (6), Color in UI Design (9), Design Systems (8); plus free video lesson library, blog and podcast. Paid: Product Design (UX/UI) course, price not shown on page",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://designerup.co/free-lessons/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary educational content · commercial: n/a · attribution: n/a · terms page not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://designerup.co",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "designerup",
+        "type": "Course",
+        "category": "Design",
+        "title": "DesignerUp",
+        "description": "UX/UI and product design school with free video crash courses on UI, color, portfolios and design systems, plus a paid full course.",
+        "tags": [
+          "ui-ux",
+          "visual-design",
+          "design-systems"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "figma",
+          "dribbble"
+        ],
+        "keyFeatures": [
+          "Five free crash courses totalling 48 video lessons",
+          "Free video lesson library, design articles and podcast",
+          "Topics: product design basics, UI, color, portfolio, design systems",
+          "Paid self-paced Product Design (UX/UI) course for deeper study"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Search: no scam hits; mixed small positive reviews on SwitchUp/Course Report"
+      },
+      "sources": [
+        {
+          "url": "https://designerup.co",
+          "date": "2026-10-16",
+          "note": "what it offers, free vs paid"
+        },
+        {
+          "url": "https://designerup.co/free-lessons/",
+          "date": "2026-10-16",
+          "note": "five free crash courses and lesson counts"
+        },
+        {
+          "url": "https://www.coursereport.com/courses/product-design-ui-ux-bootcamp-designerup",
+          "date": "2026-10-16",
+          "note": "search result: reviews"
+        }
+      ],
+      "unverified": [
+        "whether email signup is needed for free lessons",
+        "paid course price",
+        "terms not read",
+        "free lessons page last 2210 chars unread",
+        "similarResources figma and dribbble are only loosely related (no course in RL checked)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-02",
+        "file": "src/content/resources/designerup.md",
+        "lint": "pass"
+      }
+    },
+    "fonts-ninja-typefaces": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Fonts Ninja",
+        "url": "https://fonts.ninja",
+        "alive": true,
+        "operator": "Emdash (Paris, France; per site footer)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Browser extension is described as free (Chrome, Safari, Firefox, Edge, plus iPhone Safari); no paid tier or usage limit mentioned on the help page. Fonts themselves are sold by their foundries.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.fonts.ninja/help",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary free extension · commercial: not read · attribution: n/a · limit: terms page not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://fonts.ninja",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "fonts-ninja",
+        "type": "Extension",
+        "category": "Design",
+        "title": "Fonts Ninja",
+        "description": "Free browser extension that identifies any font on a web page by hovering, shows its details and suggests similar typefaces, with boards to save favorites.",
+        "tags": [
+          "typography",
+          "extensions",
+          "inspiration",
+          "web"
+        ],
+        "relatedResources": [
+          "google-fonts",
+          "fontpair"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Hover over text on any site to identify the font, size, line height and colors",
+          "Typeface details: designer, pricing, extra styles and supported languages",
+          "AI-powered suggestions for similar-looking fonts",
+          "Save fonts to personal boards",
+          "Works in Chrome, Safari, Firefox and Edge, with an iPhone Safari extension"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Not in Simple Icons (check-icon exit 1, 2026-10-16)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Search for the extension found reviews and a help page only, no scam hits. Not confused with the older Fontface Ninja."
+      },
+      "sources": [
+        {
+          "url": "https://fonts.ninja",
+          "date": "2026-10-16",
+          "note": "what it is, operator footer"
+        },
+        {
+          "url": "https://www.fonts.ninja/help",
+          "date": "2026-10-16",
+          "note": "extension free, browsers, features"
+        },
+        {
+          "url": "https://fonts.ninja/extension",
+          "date": "2026-10-16",
+          "note": "404"
+        }
+      ],
+      "unverified": [
+        "terms of service not read",
+        "commercial-use answer not read",
+        "no dedicated scam/shutdown search (extension search only)",
+        "exact legal name of Emdash",
+        "slug fonts-ninja chosen; entry is the extension plus font index"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-02",
+        "file": "src/content/resources/fonts-ninja.md",
+        "lint": "pass"
+      }
+    },
+    "frase": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "No permanent free plan: paid plans from 39 USD/mo with a 7-day trial only; FraseCMS free tier is a side product bundled with paid plans.",
+      "site": {
+        "name": "Frase",
+        "url": "https://frase.io",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "39 USD/month billed yearly (49 USD monthly) for Starter",
+        "evidence": {
+          "url": "https://frase.io/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://frase.io/pricing",
+          "date": "2026-10-16",
+          "note": "Starter 39/49, Professional 103/129, Scale 239/299 USD; 7-day free trial, no permanent free plan; FraseCMS free 100k page views and 25 GB bandwidth, included with any Frase plan"
+        }
+      ],
+      "unverified": [
+        "terms not read",
+        "no safety search run (skipped after pricing screen)"
+      ],
+      "injectionSeen": null
+    },
+    "gamma": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Gamma",
+        "url": "https://gamma.app",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "New accounts get 400 credits that do not expire and do not refresh monthly; hold up to 2,000 credits; +200 per referral. Up to 10 cards per prompt and 50k input tokens for initial generation; AI Agent access and basic image models; no credit card needed. Free very likely keeps the Made with Gamma badge (implied, not stated).",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://help.gamma.app/en/articles/8077107-gamma-pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: not read · attribution: free plan likely shows a Made with Gamma badge · limit: terms not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://help.gamma.app/en/articles/8077107-gamma-pricing",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "gamma",
+        "type": "AI Tool",
+        "category": "Design",
+        "title": "Gamma",
+        "description": "AI tool that generates presentations, documents and simple websites from a prompt; the free plan gives a one-time credit balance and 10 cards per prompt.",
+        "tags": [
+          "ai-tool",
+          "design-templates",
+          "website-builder",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "canva-templates"
+        ],
+        "keyFeatures": [
+          "Generate presentations, documents and websites from a text prompt",
+          "AI Agent access and basic image models on the free plan",
+          "Free plan: 400 non-expiring starter credits, up to 10 cards per prompt",
+          "Earn 200 extra credits per referred friend (balance cap 2,000)",
+          "Paid tiers add monthly credits (Plus 1,000, Pro 4,000, Ultra 20,000) and remove the badge"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Not in Simple Icons (check-icon exit 2, 2026-10-16)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Search surfaced official help center and third-party pricing reviews; no scam or shutdown hits seen. Third-party sites cite the older 400-credit figure inconsistently with a 2,000 cap (cap is accumulation limit)."
+      },
+      "sources": [
+        {
+          "url": "https://help.gamma.app/en/articles/8077107-gamma-pricing",
+          "date": "2026-10-16",
+          "note": "free plan credits and limits, paid credit tiers"
+        },
+        {
+          "url": "https://gamma.app/pricing",
+          "date": "2026-10-16",
+          "note": "403 Forbidden to fetch; gamma.app home also 403"
+        },
+        {
+          "url": "web search: Gamma.app free plan credits limits pricing",
+          "date": "2026-10-16",
+          "note": "second-hand corroboration, credits do not refresh"
+        }
+      ],
+      "unverified": [
+        "paid plan prices (pricing page returned 403, not bypassed)",
+        "home page not read (403)",
+        "terms and commercial use not read",
+        "watermark on free plan implied not stated",
+        "export limits on free",
+        "operator name",
+        "site clean URL: tools-list uses try.gamma.app affiliate link, gamma.app assumed canonical"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-02",
+        "file": "src/content/resources/gamma.md",
+        "lint": "pass"
+      }
+    },
+    "guideless": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Guideless",
+        "url": "https://guideless.ai",
+        "alive": true,
+        "operator": "Guideless (governed by Lithuanian law; no full legal name)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free: 0 USD per creator/month; up to 3 published guides, 1 user, 1 workspace, unlimited guide views, AI narration and voiceover, share by link and embed. FAQ states the Free plan is not a time-limited trial. MP4 export up to 4K and no-watermark are listed under Pro.",
+        "paidFrom": "Pro 29 USD per creator/month (yearly billing 25% off, yearly price not stated)",
+        "evidence": {
+          "url": "https://guideless.ai/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: unclear, license is for internal business purposes only · attribution: n/a · limit: you own guides you create, but terms do not address public distribution",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://guideless.ai/terms",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "guideless",
+        "type": "AI Tool",
+        "category": "Productivity",
+        "title": "Guideless",
+        "description": "Records a software workflow once, then turns it into a narrated video guide with written steps; free plan covers 3 published guides.",
+        "tags": [
+          "ai-tool",
+          "productivity",
+          "automation",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Captures your clicks automatically, no live narration needed",
+          "AI writes step-by-step instructions, voiceover and captions",
+          "Editor can blur sensitive data, annotate screenshots and translate (42+ languages)",
+          "Share by link or embed; export to MP4, PDF or Markdown",
+          "Free plan: 3 published guides, 1 user, unlimited views"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Not in Simple Icons (check-icon exit 1, 2026-10-16)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Safety search returned unrelated results only (Google Bard malware stories), nothing about Guideless. Site claims 3,000+ users and a G2 rating (self-reported)."
+      },
+      "sources": [
+        {
+          "url": "https://guideless.ai",
+          "date": "2026-10-16",
+          "note": "what it does, features, exports, Chrome extension"
+        },
+        {
+          "url": "https://guideless.ai/pricing",
+          "date": "2026-10-16",
+          "note": "Free, Pro, Enterprise plans"
+        },
+        {
+          "url": "https://guideless.ai/terms",
+          "date": "2026-10-16",
+          "note": "ownership, internal-use license, no listing ban"
+        },
+        {
+          "url": "web search: Guideless scam/malware/acquired",
+          "date": "2026-10-16",
+          "note": "no hits"
+        }
+      ],
+      "unverified": [
+        "Free plan export limits (MP4 listed under Pro, free export not confirmed)",
+        "yearly prices",
+        "G2 rating and user count are self-reported",
+        "full legal entity name",
+        "tools-list site was affiliate r.guideless.ai, clean URL guideless.ai assumed canonical",
+        "terms say internal business purposes only: owner may want to decide on reel/commercial use"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-02",
+        "file": "src/content/resources/guideless.md",
+        "lint": "pass"
+      }
+    },
+    "icons8": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "icons8.com/icons and /pricing return HTTP 403 to the fetcher; only a 2018 forum post read (free = PNG up to 100px with link back). Retry later or owner check",
+      "site": {
+        "name": "Icons8",
+        "url": "https://icons8.com/icons/",
+        "alive": true,
+        "operator": null
+      },
+      "sources": [
+        {
+          "url": "https://icons8.com/pricing",
+          "date": "2026-10-16",
+          "note": "HTTP 403"
+        },
+        {
+          "url": "https://icons8.com/icons/",
+          "date": "2026-10-16",
+          "note": "HTTP 403"
+        },
+        {
+          "url": "https://community.icons8.com/t/can-i-use-icons8-for-free/30",
+          "date": "2026-10-16",
+          "note": "staff post dated 2018-07-12: free icons PNG up to 100x100px, link to Icons8 required, commercial use allowed with link; Popular/Logos categories free in all formats; paid removes link requirement"
+        }
+      ],
+      "unverified": [
+        "current pricing page and plan prices",
+        "current free-tier limits (2018 post may be outdated)",
+        "terms/license page not read",
+        "no safety search done",
+        "Simple Icons has an exact icons8 match (iconLib icons8, fillColor #1FB141) if later listed"
+      ],
+      "injectionSeen": null
+    },
+    "invideo-ai": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Invideo AI",
+        "url": "https://invideo.io",
+        "alive": true,
+        "operator": "invideo"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan needs no card; limited credits across features, quota resets weekly on Monday 12 a.m. UTC; exact credit amount not stated by first-party pages; watermark on free exports reported by invideo marketing page only",
+        "paidFrom": "Basic 4 USD/seat/month billed annually (comparison table on same page shows 5)",
+        "evidence": {
+          "url": "https://help.invideo.io/en/articles/9380226-can-i-use-invideo-ai-for-free",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: yes (Terms 4(h): perpetual licence to commercialise Outputs; third-party Licensed Content keeps its own terms) · attribution: n/a · limit: no use of Invideo names/logos without written permission; no competing product",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://invideo.io/terms-and-conditions",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "invideo-ai",
+        "type": "AI Tool",
+        "category": "Filming",
+        "title": "Invideo AI",
+        "description": "AI video editor that drafts scripts and storyboards, generates footage, images and audio, and edits on a multitrack timeline. Free plan with weekly credits.",
+        "tags": [
+          "ai-tool",
+          "social-media-design",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "mixkit"
+        ],
+        "keyFeatures": [
+          "AI agents that edit footage on a multitrack timeline",
+          "Storyboarding and script writing inside the tool",
+          "Generates images, video and audio from prompts",
+          "Free plan without a card, with a weekly credit quota",
+          "Output licence allows commercial use per the terms"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "not in Simple Icons (check-icon.mjs exit 1), 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Safety search: no invideo-specific scam/breach/shutdown hits; generic 2025 reports of fake AI-video-tool sites on lookalike domains, so use invideo.io only"
+      },
+      "sources": [
+        {
+          "url": "https://invideo.io/",
+          "date": "2026-10-16",
+          "note": "what it is, copyright 2026 invideo"
+        },
+        {
+          "url": "https://invideo.io/pricing",
+          "date": "2026-10-16",
+          "note": "paid prices; no free plan details on page"
+        },
+        {
+          "url": "https://help.invideo.io/en/articles/9380226-can-i-use-invideo-ai-for-free",
+          "date": "2026-10-16",
+          "note": "free without card, weekly quota reset"
+        },
+        {
+          "url": "https://invideo.io/terms-and-conditions",
+          "date": "2026-10-16",
+          "note": "free tier mention, output licence, branding clause, no linking restriction"
+        }
+      ],
+      "unverified": [
+        "exact free credit amount (third parties disagree: 4 exports / 10 min / 5 credits)",
+        "free export watermark and resolution (not in help article or terms)",
+        "pricing page shows no free plan; Basic is 4 vs 5 USD inconsistent",
+        "monthly (non-annual) prices not read",
+        "site in tools-list was a sjv.io affiliate link; clean URL used"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-02",
+        "file": "src/content/resources/invideo-ai.md",
+        "lint": "pass"
+      }
+    },
+    "kittl": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Kittl",
+        "url": "https://www.kittl.com",
+        "alive": true,
+        "operator": "Kittl"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "No expiry; 100 AI tokens (help article; older search snippet said 200), 5 active projects, 500 MB uploads, PNG/JPG export up to 800px at 72dpi, free templates/fonts/elements only, personal use only (no commercial rights); AI images shared publicly with the Kittl community",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://help.kittl.com/subscription-billing/about-free-plan",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: free plan no (personal use only); Pro/Expert include a commercial licence up to 500,000 copies · attribution: not read · limit: free = personal use only",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.kittl.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "kittl",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Kittl",
+        "description": "Browser design platform for graphics, typography and vectors with AI image and vector generation, templates and mockups. Free plan is personal use only.",
+        "tags": [
+          "graphic-design",
+          "ai-tool",
+          "typography",
+          "design-templates",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "canva-templates",
+          "figma"
+        ],
+        "keyFeatures": [
+          "AI image, vector and video generators plus background remover and upscaler",
+          "Infinite canvas editor with real-time collaboration and text effects",
+          "Library of templates, mockups, fonts and graphics",
+          "Brand Studio for brand-consistent ads and posts",
+          "Free plan: 5 projects, 800px PNG/JPG export, personal use only"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "not in Simple Icons (check-icon.mjs exit 1), 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Safety search returned nothing about Kittl (broad results unrelated)"
+      },
+      "sources": [
+        {
+          "url": "https://www.kittl.com/",
+          "date": "2026-10-16",
+          "note": "what it is, features, copyright 2026 Kittl"
+        },
+        {
+          "url": "https://www.kittl.com/pricing",
+          "date": "2026-10-16",
+          "note": "free = personal use only; Pro/Expert commercial licence 500,000 copies; plan tables did not render"
+        },
+        {
+          "url": "https://help.kittl.com/subscription-billing/about-free-plan",
+          "date": "2026-10-16",
+          "note": "free plan limits"
+        }
+      ],
+      "unverified": [
+        "paid plan prices (third-party sources conflict; pricing table did not render)",
+        "token count: help article 100 vs search snippet 200",
+        "terms of service not read (listing/linking clause)",
+        "site in tools-list was a pxf.io affiliate link; clean URL used"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-02",
+        "file": "src/content/resources/kittl.md",
+        "lint": "pass"
+      }
+    },
+    "lovable": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Lovable",
+        "url": "https://lovable.dev",
+        "alive": true,
+        "operator": "Lovable (Swedish company)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "5 build credits per day (max 30 per month, resets 00:00 UTC), 20 Cloud credits per month, 4 AI credits per month, 1 connector credit per month, daily chat allowance included; no project limit stated",
+        "paidFrom": "Pro 25 USD/month (second-hand; about 21 USD/month annual); Business 50 USD/month (second-hand)",
+        "evidence": {
+          "url": "https://docs.lovable.dev/introduction/plans-and-credits",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: not read · attribution: not read · limit: terms page not read; Pro adds badge removal and custom domains (second-hand)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://lovable.dev/pricing",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "lovable",
+        "type": "AI Tool",
+        "category": "Development",
+        "title": "Lovable",
+        "description": "Chat with an AI to build and publish web apps and websites without coding. Free plan gives 5 build credits a day, capped at 30 a month.",
+        "tags": [
+          "ai-tool",
+          "no-code",
+          "website-builder",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "framer",
+          "webflow"
+        ],
+        "keyFeatures": [
+          "Describe an app or site in chat and the AI builds it",
+          "Free plan: 5 build credits a day, up to 30 a month",
+          "Monthly free grants for Cloud (20), AI (4) and connectors (1)",
+          "Workspace-based plans with shared credits",
+          "Paid tiers add custom domains and badge removal (second-hand)"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "not in Simple Icons (check-icon.mjs exit 1), 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Safety search: no shutdown/acquisition; platform abused by third parties for phishing sites (Proofpoint, Dark Reading); April 2026 unverified data-exposure claim, company denied a breach; funding reported ~500M USD"
+      },
+      "sources": [
+        {
+          "url": "https://lovable.dev/pricing",
+          "date": "2026-10-16",
+          "note": "FAQ: daily 5 build credits up to 30 a month; cards did not render"
+        },
+        {
+          "url": "https://docs.lovable.dev/introduction/plans-and-credits",
+          "date": "2026-10-16",
+          "note": "free/Pro/Business credit grants, top-up prices"
+        },
+        {
+          "url": "https://eesel.ai/blog/lovable-pricing",
+          "date": "2026-10-16",
+          "note": "second-hand Pro 25 / Business 50 USD via web search summary"
+        },
+        {
+          "url": "https://hackread.com/ai-website-builder-lovable-phishing-malware-scams/",
+          "date": "2026-10-16",
+          "note": "abuse by third parties (search result only)"
+        }
+      ],
+      "unverified": [
+        "Pro/Business monthly prices are second-hand (search summary), pricing cards did not render",
+        "terms of service and commercial-use clause not read",
+        "app-level features list not read from a features page",
+        "April 2026 data-exposure claim unverified",
+        "site in tools-list was a pxf.io affiliate link; clean URL used"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-02",
+        "file": "src/content/resources/lovable.md",
+        "lint": "pass"
+      }
+    },
+    "mixo": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "Free plan stated on home and in first-party help article; permanence and paid prices unconfirmed (pricing page JS-only).",
+      "site": {
+        "name": "Mixo",
+        "url": "https://www.mixo.io",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "One page with Mixo branding, published on a yoursite.mixo.io subdomain; hosting, SSL and AI-generated content included; no custom domain",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.mixo.io/help/does-mixo-have-a-free-plan/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: not read · attribution: free plan carries Mixo branding · limit: terms page not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.mixo.io",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "mixo",
+        "type": "AI Tool",
+        "category": "Design",
+        "title": "Mixo",
+        "description": "AI website builder for small businesses: describe your business and get a hosted site with pages, forms and blog; the free plan publishes one branded page.",
+        "tags": [
+          "ai-tool",
+          "website-builder",
+          "no-code"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "framer",
+          "webflow",
+          "squarespace"
+        ],
+        "keyFeatures": [
+          "Generates site copy and design from a short business description",
+          "Hosting and SSL included, even on the free plan",
+          "Free plan: one page on a mixo.io subdomain with Mixo branding",
+          "Custom domains, extra pages and blog on paid plans",
+          "Built-in sharing tools for promoting the site"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Search found no scam/shutdown reports; Trustpilot mostly positive. Some negative reviews belong to a different product, mixo.dj."
+      },
+      "sources": [
+        {
+          "url": "https://www.mixo.io",
+          "date": "2026-10-16",
+          "note": "what it is, 'Free plan available, no credit card'"
+        },
+        {
+          "url": "https://www.mixo.io/help/does-mixo-have-a-free-plan/",
+          "date": "2026-10-16",
+          "note": "free plan contents and limits"
+        },
+        {
+          "url": "https://app.mixo.io/pricing",
+          "date": "2026-10-16",
+          "note": "redirect target of /pricing; returned empty (JS)"
+        },
+        {
+          "url": "https://www.mixo.io/help",
+          "date": "2026-10-16",
+          "note": "help centre, no prices"
+        }
+      ],
+      "unverified": [
+        "free plan permanence not stated",
+        "current paid prices: third-party sources conflict ($9/19/39 vs $20/$40 per month); not read first-party",
+        "terms/commercial use not read",
+        "listed as Free Trial in one directory"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-02",
+        "file": "src/content/resources/mixo.md",
+        "lint": "pass"
+      }
+    },
+    "mobbin": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "Permanent free plan on first-party pricing.md; /pricing returns 403 to fetch, machine-readable copy used.",
+      "site": {
+        "name": "Mobbin",
+        "url": "https://mobbin.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Individual account; limited access to apps and sites; max 3 collections; limited copy, download and version history; no flows/animations, no Search or Deep Search, no MCP or API",
+        "paidFrom": "Pro 10 USD/month billed 120 USD yearly (15 USD/month billed 45 USD quarterly); no monthly billing",
+        "evidence": {
+          "url": "https://mobbin.com/pricing.md",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary service · commercial: not stated · attribution: n/a · limit: content-use terms not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://mobbin.com/pricing.md",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "mobbin",
+        "type": "Website",
+        "category": "Design",
+        "title": "Mobbin",
+        "description": "Searchable library of real mobile and web app screens and flows for UI and UX research; the free plan gives limited access and three collections.",
+        "tags": [
+          "ui-ux",
+          "inspiration",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "dribbble",
+          "behance"
+        ],
+        "similarResources": [
+          "dribbble",
+          "awwwards"
+        ],
+        "keyFeatures": [
+          "Screenshots of real apps, sites and multi-step flows from live products",
+          "Save screens into collections (3 on the free plan)",
+          "Copy and download screens (limited on free)",
+          "Paid plans add flows, animations, search, MCP access and team sharing",
+          "Started in 2018 as a founder's screenshot folder"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated scam/shutdown search; search results show only pricing coverage. Site alive with pricing dated 2026-09-11."
+      },
+      "sources": [
+        {
+          "url": "https://mobbin.com",
+          "date": "2026-10-16",
+          "note": "what it is; free account has limited access"
+        },
+        {
+          "url": "https://mobbin.com/pricing",
+          "date": "2026-10-16",
+          "note": "HTTP 403 to fetcher; not bypassed"
+        },
+        {
+          "url": "https://mobbin.com/pricing.md",
+          "date": "2026-10-16",
+          "note": "plans and free limits, dated 2026-09-11"
+        }
+      ],
+      "unverified": [
+        "exact numbers of apps/sites on free plan ('limited'; third-party says latest 4 apps and 4 sites)",
+        "operator/company name",
+        "terms on using screenshots not read",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": "Home page has a section 'How agents should use Mobbin evidence' and links to llms.txt aimed at AI agents; informational, not followed.",
+      "draft": {
+        "branch": "resource/batch-02",
+        "file": "src/content/resources/mobbin.md",
+        "lint": "pass"
+      }
+    },
+    "mocku": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Mockup shop with a few free items under a non-commercial-only licence; owner should decide if a shop with 4 freebies is listable (and reel use is non-commercial).",
+      "site": {
+        "name": "Hello Mocku",
+        "url": "https://www.hellomocku.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Freebies at 0 EUR (4 items seen on home: napkin mockups, retro trading cards mini toolkit, newsprint folded poster set demo, Gelato t-shirt mockup); non-commercial use only",
+        "paidFrom": "20 EUR per mockup pack (range 20-28 EUR seen on home)",
+        "evidence": {
+          "url": "https://www.hellomocku.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Mocku product licenses · commercial: freebies no, paid Commercial/Extended yes · attribution: not mentioned · no resale or sharing of source files",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.hellomocku.com/pages/product-licenses",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "mocku",
+        "type": "Stock Media",
+        "category": "Design",
+        "title": "Hello Mocku",
+        "description": "Handcrafted photo and 3D mockup shop for designers; a handful of free mockups for personal use, paid packs with commercial licences.",
+        "tags": [
+          "graphic-design",
+          "print-design",
+          "template"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Mockups built from real photography and custom 3D work",
+          "Shop sections: Mockups, Collections, Toolkits, Freebies",
+          "Free items are personal and non-commercial use only",
+          "Paid Commercial and Extended licences with stated end-product caps"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated safety search run (screening used home + licence page)."
+      },
+      "sources": [
+        {
+          "url": "https://www.hellomocku.com",
+          "date": "2026-10-16",
+          "note": "shop structure, free items, paid price range"
+        },
+        {
+          "url": "https://www.hellomocku.com/pages/product-licenses",
+          "date": "2026-10-16",
+          "note": "licence tiers"
+        }
+      ],
+      "unverified": [
+        "no safety search",
+        "operator/legal entity not named (Shopify store)",
+        "AI Mockup Generator mentioned in directory description not seen on site",
+        "number of freebies beyond 4 seen on home"
+      ],
+      "injectionSeen": null
+    },
+    "motion": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "No free plan found: Pro/Max plans plus paid credit packs; pricing page 404 and docs name no free tier.",
+      "site": {
+        "name": "Motion",
+        "url": "https://motion.so",
+        "alive": true,
+        "operator": null
+      },
+      "sources": [
+        {
+          "url": "https://motion.so",
+          "date": "2026-10-16",
+          "note": "AI motion-graphics video generator; no free plan or trial shown"
+        },
+        {
+          "url": "https://motion.so/pricing",
+          "date": "2026-10-16",
+          "note": "404"
+        },
+        {
+          "url": "https://motion.so/llms.txt",
+          "date": "2026-10-16",
+          "note": "mentions Pro/Max plans, credits; no free tier"
+        },
+        {
+          "url": "https://docs.motion.so/guides/credits",
+          "date": "2026-10-16",
+          "note": "top-ups 6 USD per 200 credits; Pro bundles 1,000-50,000 credits; no free plan mentioned"
+        }
+      ],
+      "unverified": [
+        "a free plan or signup credits could exist in the web app (not visible without login)",
+        "Pro/Max prices",
+        "no dedicated safety search",
+        "do not confuse with usemotion.com (AI calendar), a different product"
+      ],
+      "injectionSeen": "Home page has pre-filled ChatGPT/Claude/Perplexity prompts asking the assistant to explain why Motion is a great choice; promotional steering, ignored."
     }
   }
 }
