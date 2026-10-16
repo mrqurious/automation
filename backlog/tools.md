@@ -10,13 +10,13 @@ Generated 2026-10-16 by `scripts/backlog-build.mjs` from `backlog/tools-list.jso
 
 | Status | Count | Meaning |
 |---|---:|---|
-| `todo` | 1427 | in the research queue (free / freemium / beta) |
+| `todo` | 1407 | in the research queue (free / freemium / beta) |
 | `in-rl` | 33 | already in ResourcesList (matched by site or slug) — skip, maybe use for related/similar links |
 | `deferred-paid` | 217 | labelled **Paid** only — parked |
 | `deferred-trial` | 232 | labelled **Free Trial** only — parked until a real free tier is confirmed |
-| `researching` / `researched` / `drafted` / `rejected` / `blocked` | 0 / 9 / 143 / 64 / 154 | set by research sessions |
+| `researching` / `researched` / `drafted` / `rejected` / `blocked` | 0 / 11 / 152 / 67 / 160 | set by research sessions |
 
-Queue by priority: **P1** 1 (free/freemium, listed on 2+ pages) · **P2** 1346 (free/freemium, 1 page) · **P3** 80 (beta).
+Queue by priority: **P1** 1 (free/freemium, listed on 2+ pages) · **P2** 1326 (free/freemium, 1 page) · **P3** 80 (beta).
 
 ## What happens if a tool is not processed (and why)
 
@@ -361,20 +361,40 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | CreativePro | creativepro.com | Free | 1 | P2 | blocked |
 | CreatorKit | creatorkit.com | Freemium | 1 | P2 | rejected |
 | CreatorStock | creatorstock.io | Free + Paid | 1 | P2 | blocked |
-| CrewAI | crewai.com | Freemium | 1 | P2 | researched |
-| Crypto Design Club | cryptodesign.club | Free | 1 | P2 | researched |
-| CSS Gradient | cssgradient.io | Free | 1 | P2 | researched |
+| CrewAI | crewai.com | Freemium | 1 | P2 | drafted |
+| Crypto Design Club | cryptodesign.club | Free | 1 | P2 | drafted |
+| CSS Gradient | cssgradient.io | Free | 1 | P2 | drafted |
 | CSS Icons | css.gg |  | 1 | P3 | blocked |
-| CSS Text Effects | text-effects.colorion.co | Free | 1 | P2 | researched |
-| CSS Type Studio | csstypestudio.com | Free | 1 | P2 | researched |
-| CTA Examples | ctaexamples.com | Free | 1 | P2 | researched |
-| CTA Gallery | cta.gallery | Free | 1 | P2 | researched |
+| CSS Text Effects | text-effects.colorion.co | Free | 1 | P2 | drafted |
+| CSS Type Studio | csstypestudio.com | Free | 1 | P2 | drafted |
+| CTA Examples | ctaexamples.com | Free | 1 | P2 | drafted |
+| CTA Gallery | cta.gallery | Free | 1 | P2 | drafted |
 | ctrlc.ai | ctrlc.ai | Free | 1 | P2 | blocked |
 | Ctruh Studio | ctruh.com | Freemium | 1 | P2 | blocked |
-| Cursor | cursor.com | Freemium | 1 | P2 | researched |
+| Cursor | cursor.com | Freemium | 1 | P2 | drafted |
 | Cursor | cursor.design | Free | 1 | P2 | blocked |
-| CursorUp | cursorup.com | Free | 1 | P2 | researched |
+| CursorUp | cursorup.com | Free | 1 | P2 | drafted |
 | cutefolio | cutefol.io | Freemium | 1 | P2 | blocked |
+| DaFont | dafont.com | Free | 1 | P2 | researched |
+| Daily Delights | delights.design | Free | 1 | P2 | researched |
+| Daily Designer | dailydesigner.net | Free | 1 | P2 | researched |
+| Daily UI | dailyui.co | Free | 1 | P2 | researched |
+| Dark | dark.design | Free | 1 | P2 | researched |
+| Dark Mode Design | darkmodedesign.com | Free | 1 | P2 | researched |
+| Dark Patterns Tip Line | darkpatternstipline.org | Free | 1 | P2 | researched |
+| darktable | darktable.org | Free | 1 | P2 | researched |
+| Data Viz Project | datavizproject.com | Free | 1 | P2 | blocked |
+| Datatype | franktisellano.github.io | Free | 1 | P2 | researched |
+| DaVinci Resolve | blackmagicdesign.com | Freemium | 1 | P2 | researched |
+| Dayflow | dayflow.blush.design | Freemium | 1 | P2 | blocked |
+| Dazl | dazl.dev | Freemium | 1 | P2 | rejected |
+| Decart | decart.ai | Freemium | 1 | P2 | rejected |
+| Deck.gallery | deck.gallery | Free | 1 | P2 | blocked |
+| Decktopus | decktopus.com | Freemium | 1 | P2 | rejected |
+| Decode by Entropik | entropik.io | Freemium | 1 | P2 | blocked |
+| Decofy | decofy.ai | Free + Paid | 1 | P2 | blocked |
+| Decoy Font | mixfont.com | Free | 1 | P2 | researched |
+| Delesign Illustrations | free-designs.delesign.com | Free | 1 | P2 | blocked |
 | Descript | get.descript.com | Freemium | 2 | P1 | drafted |
 | DesignerUp | designerup.co | Free tier listed / Paid | 2 | P1 | drafted |
 | Fabric | fabric.so | Freemium | 2 | P1 | blocked |
@@ -407,14 +427,12 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Visily | visily.ai | Freemium | 2 | P1 | drafted |
 | Wispr Flow | ref.wisprflow.ai | Free tier listed / Freemium | 2 | P1 | drafted |
 
-## Research queue (1427)
+## Research queue (1407)
 
-### Best AI Design Tools for Designers (177)
+### Best AI Design Tools for Designers (175)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Dazl | dazl.dev | Freemium | 1 | P2 |
-| Decart | decart.ai | Freemium | 1 | P2 |
 | Design / AI Workflows | yummy-design-sprint.notion.site | Free | 1 | P2 |
 | Design Arena | designarena.ai | Free | 1 | P2 |
 | Design Systems Repo AI | designsystemsrepo.ai | Free | 1 | P2 |
@@ -743,14 +761,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | WeLoveProduct | weloveproduct.co | Freemium | 1 | P2 |
 | Woody | woodyjobs.com | Freemium | 1 | P2 |
 
-### Best Design Tools Across Disciplines (168)
+### Best Design Tools Across Disciplines (164)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| darktable | darktable.org | Free | 1 | P2 |
-| DaVinci Resolve | blackmagicdesign.com | Freemium | 1 | P2 |
-| Decktopus | decktopus.com | Freemium | 1 | P2 |
-| Decofy | decofy.ai | Free + Paid | 1 | P2 |
 | Dembrandt | dembrandt.com | Free | 1 | P2 |
 | Design System Concierge | kickstartds.com | Free | 1 | P2 |
 | Design Systems Surf | designsystems.surf | Free + Paid | 1 | P2 |
@@ -916,13 +930,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Sesame | sesame.design | Beta | 1 | P3 |
 | Visual | visual.app | Beta | 1 | P3 |
 
-### Best Free Font Libraries and Inspiration for Designers (74)
+### Best Free Font Libraries and Inspiration for Designers (71)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| DaFont | dafont.com | Free | 1 | P2 |
-| Datatype | franktisellano.github.io | Free | 1 | P2 |
-| Decoy Font | mixfont.com | Free | 1 | P2 |
 | Featured Type | featuredtype.com | Free | 1 | P2 |
 | Figma Font Pairings | figma.com | Free | 1 | P2 |
 | Figtree | github.com | Free | 1 | P2 |
@@ -1234,12 +1245,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Revyme | revyme.com | Beta | 1 | P3 |
 | Zoah | zoah.com | Beta | 1 | P3 |
 
-### Best Open Source Illustration Libraries (78)
+### Best Open Source Illustration Libraries (76)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Dayflow | dayflow.blush.design | Freemium | 1 | P2 |
-| Delesign Illustrations | free-designs.delesign.com | Free | 1 | P2 |
 | Doodle Ipsum | doodleipsum.com | Free | 1 | P2 |
 | DrawKit | drawkit.com | Free + Paid | 1 | P2 |
 | Durves | durves.com | Free | 1 | P2 |
@@ -1317,11 +1326,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | UI8 - Illustrations | ui8.net | Free + Paid | 1 | P2 |
 | Vackground | vackground.com | Free + Paid | 1 | P2 |
 
-### Best UX Tools for Designers (66)
+### Best UX Tools for Designers (65)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Decode by Entropik | entropik.io | Freemium | 1 | P2 |
 | Dovetail | dovetail.com | Freemium | 1 | P2 |
 | Draw.io | drawio.com | Free | 1 | P2 |
 | Eraser | eraser.io | Freemium | 1 | P2 |
@@ -1388,16 +1396,11 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Zen Flowchart | zenflowchart.com | Freemium | 1 | P2 |
 | Stratify | trystratify.com | Beta | 1 | P3 |
 
-### Design Inspiration Sites for UI, Web, Graphic & Branding (136)
+### Design Inspiration Sites for UI, Web, Graphic & Branding (131)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
 | Nicelydone | nicelydone.club | Free Trial / Free tier listed | 2 | P1 |
-| Daily Delights | delights.design | Free | 1 | P2 |
-| Dark | dark.design | Free | 1 | P2 |
-| Dark Mode Design | darkmodedesign.com | Free | 1 | P2 |
-| Data Viz Project | datavizproject.com | Free | 1 | P2 |
-| Deck.gallery | deck.gallery | Free | 1 | P2 |
 | Design Everywhere | designeverywhere.co | Free | 1 | P2 |
 | Design Spells | designspells.com | Free | 1 | P2 |
 | Designspiration | designspiration.com | Free + Paid | 1 | P2 |
@@ -1703,13 +1706,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Xano | via Digitool | Free tier listed | 1 | P2 |
 | Xero | via Digitool | Free tier listed (Digitool "Premium" badge) | 1 | P2 |
 
-### Learn UI/UX Design: Courses, Guides & Best Practices (78)
+### Learn UI/UX Design: Courses, Guides & Best Practices (75)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Daily Designer | dailydesigner.net | Free | 1 | P2 |
-| Daily UI | dailyui.co | Free | 1 | P2 |
-| Dark Patterns Tip Line | darkpatternstipline.org | Free | 1 | P2 |
 | Design Beyond Barriers | designbeyondbarriers.com | Free | 1 | P2 |
 | Design Champs | designchamps.io | Free + Paid | 1 | P2 |
 | Design Engineer (d×e) | designengineer.xyz | Freemium | 1 | P2 |

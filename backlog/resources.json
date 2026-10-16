@@ -25067,6 +25067,1436 @@
         "everything; only the input directory label (Freemium) known"
       ],
       "injectionSeen": null
+    },
+    "dafont": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "DaFont",
+        "url": "https://www.dafont.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Browse and download fonts without payment; per-font licenses vary (freeware, shareware, demo, public domain)",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.dafont.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Per-font licenses (freeware, shareware, demo, public domain) · commercial: depends on each font, many are personal-use only · attribution: per font · check the readme or author site",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.dafont.com/faq.php",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "dafont",
+        "type": "Font",
+        "category": "Design",
+        "title": "DaFont",
+        "description": "Large archive of downloadable fonts sorted by theme, with a license label on each font; many are free for personal use only.",
+        "tags": [
+          "typography",
+          "graphic-design",
+          "inspiration"
+        ],
+        "relatedResources": [
+          "google-fonts",
+          "fontpair"
+        ],
+        "similarResources": [
+          "google-fonts"
+        ],
+        "keyFeatures": [
+          "Over 100,000 fonts listed on the home page",
+          "Browse by theme and alphabetical lists",
+          "License label shown on each font page",
+          "Download counts and author info per font",
+          "New fonts added regularly"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-16: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated scam/shutdown search run; long-running well-known site"
+      },
+      "sources": [
+        {
+          "url": "https://www.dafont.com",
+          "date": "2026-10-16",
+          "note": "font count, license wording"
+        },
+        {
+          "url": "https://www.dafont.com/faq.php",
+          "date": "2026-10-16",
+          "note": "license disclaimer, no operator named"
+        }
+      ],
+      "unverified": [
+        "operator not named on site",
+        "no dedicated safety search",
+        "commercial-use terms are per font, not site-wide",
+        "no pricing page exists; free from home page and directory label"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/dafont.md",
+        "lint": "pass"
+      }
+    },
+    "daily-delights": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Daily Delights",
+        "url": "https://delights.design",
+        "alive": true,
+        "operator": "Félix Péault (art director and digital designer)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All curated links open to read; no paywall or sign-up seen; optional Ko-fi donation",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://delights.design",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Curated link collection, no license stated · commercial: n/a (links to third-party content) · attribution: n/a",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://delights.design",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "daily-delights",
+        "type": "Website",
+        "category": "Design",
+        "title": "Daily Delights",
+        "description": "A near-daily curated feed of links about art, design and development, with a form to submit your own finds.",
+        "tags": [
+          "inspiration",
+          "web"
+        ],
+        "relatedResources": [
+          "awwwards"
+        ],
+        "similarResources": [
+          "awwwards"
+        ],
+        "keyFeatures": [
+          "Hand-picked links on art, design and development",
+          "New entries almost every day (latest dated 16 Oct 2026)",
+          "Submit-a-link form for readers",
+          "Optional Ko-fi support, no paywall"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-16: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated scam/shutdown search; site active on fetch date"
+      },
+      "sources": [
+        {
+          "url": "https://delights.design",
+          "date": "2026-10-16",
+          "note": "description, author, latest entry date, Ko-fi link"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "no terms page read",
+        "no pricing page; free inferred from absence of paywall"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/daily-delights.md",
+        "lint": "pass"
+      }
+    },
+    "daily-designer": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Daily Designer",
+        "url": "https://www.dailydesigner.net",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All numbered quotes readable with source links; no paywall seen",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.dailydesigner.net",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Quotes from third-party designers, no license stated · commercial: n/a · attribution: each quote links its source",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.dailydesigner.net",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "daily-designer",
+        "type": "Website",
+        "category": "Design",
+        "title": "Daily Designer",
+        "description": "A numbered collection of quotes from well-known designers, each linked to the interview or talk it came from.",
+        "tags": [
+          "inspiration",
+          "graphic-design"
+        ],
+        "relatedResources": [
+          "awwwards"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Numbered quotes from established designers",
+          "Each quote links to its original source",
+          "RSS plus Instagram, Threads and Bluesky feeds"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-16: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated scam/shutdown search"
+      },
+      "sources": [
+        {
+          "url": "https://www.dailydesigner.net",
+          "date": "2026-10-16",
+          "note": "quotes, source links, feed links"
+        }
+      ],
+      "unverified": [
+        "operator not named (header links to arun.is/blog/daily-designer)",
+        "free is inferred, not stated",
+        "fetch was truncated",
+        "no dedicated safety search",
+        "last update date not shown"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/daily-designer.md",
+        "lint": "pass"
+      }
+    },
+    "daily-ui": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Daily UI",
+        "url": "https://www.dailyui.co",
+        "alive": true,
+        "operator": "Remote Jobs (remotejobs.com)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Described as 100% free: one design challenge each weekday for 100 days, by email; random rewards; sponsor-funded",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.dailyui.co",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Free email challenge program · commercial: n/a · attribution: n/a · signup requires replying to a welcome email",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.dailyui.co",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "daily-ui",
+        "type": "Website",
+        "category": "Design",
+        "title": "Daily UI",
+        "description": "A free 100-day email series of daily UI design challenges, with prompts to share your work and occasional prize drops.",
+        "tags": [
+          "ui-ux",
+          "inspiration"
+        ],
+        "relatedResources": [
+          "awwwards"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "One UI design challenge per weekday for 100 days",
+          "Share work with the #dailyui hashtag",
+          "Random rewards such as design resources and discount codes",
+          "Sponsor-funded, no paid plan listed"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-16: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated scam/shutdown search; page shows rewards expired since 2023 and inconsistent member counts"
+      },
+      "sources": [
+        {
+          "url": "https://www.dailyui.co",
+          "date": "2026-10-16",
+          "note": "free claim, operator, schedule, sponsors"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "terms page not read",
+        "member counts inconsistent (449,371+ vs 340,000+)",
+        "reward info looks stale (Summer 2023)",
+        "email signup required"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/daily-ui.md",
+        "lint": "pass"
+      }
+    },
+    "dark": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Dark",
+        "url": "https://www.dark.design",
+        "alive": true,
+        "operator": "Y5K LLC"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Browsing the curated gallery shows no paywall or fee text; submit, sponsor and account links exist",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.dark.design",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No terms found on the page · commercial: unknown · attribution: n/a · links to third-party sites",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.dark.design",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "dark",
+        "type": "Website",
+        "category": "Design",
+        "title": "Dark",
+        "description": "Hand-picked gallery of dark-themed websites, sorted by category such as agency, AI, software and personal, for UI and web design inspiration.",
+        "tags": [
+          "inspiration",
+          "web",
+          "visual-design",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "awwwards",
+          "mobbin"
+        ],
+        "similarResources": [
+          "dark-mode-design"
+        ],
+        "keyFeatures": [
+          "Curated dark-themed sites, handpicked",
+          "Browse by category (Agency, AI, Software, Personal and more)",
+          "Submit your own site",
+          "Monthly picks newsletter call to action",
+          "Free templates section linked in the nav"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search run; footer names Y5K LLC; shows sponsored placements"
+      },
+      "sources": [
+        {
+          "url": "https://www.dark.design",
+          "date": "2026-10-16",
+          "note": "tagline, categories, operator, nav"
+        },
+        {
+          "url": "https://www.dark.design/submit",
+          "date": "2026-10-16",
+          "note": "no fee text"
+        }
+      ],
+      "unverified": [
+        "no explicit pricing/terms page read; free is inferred from no paywall",
+        "no dedicated safety search",
+        "TemplatesFree section not opened"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/dark.md",
+        "lint": "pass"
+      }
+    },
+    "dark-mode-design": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Dark Mode Design",
+        "url": "https://www.darkmodedesign.com",
+        "alive": true,
+        "operator": "Cai Cardenas"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Gallery browsable with no paywall or pricing text; submissions by email",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.darkmodedesign.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No terms stated · commercial: unknown · attribution: n/a · screenshots (c) their respective owners",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.darkmodedesign.com/about",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "dark-mode-design",
+        "type": "Website",
+        "category": "Design",
+        "title": "Dark Mode Design",
+        "description": "Handpicked showcase of dark-mode websites, each linking out to the live site, for web design inspiration.",
+        "tags": [
+          "inspiration",
+          "web",
+          "visual-design",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "awwwards",
+          "mobbin"
+        ],
+        "similarResources": [
+          "dark"
+        ],
+        "keyFeatures": [
+          "Handpicked dark-mode website examples",
+          "Each entry links to the live site",
+          "Paginated gallery",
+          "Submit a site by email",
+          "About page names the curator"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "not checked in Simple Icons beyond name search, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search run; one Sponsored listing (Mobbin) on home"
+      },
+      "sources": [
+        {
+          "url": "https://www.darkmodedesign.com",
+          "date": "2026-10-16",
+          "note": "gallery, nav, sponsor"
+        },
+        {
+          "url": "https://www.darkmodedesign.com/about",
+          "date": "2026-10-16",
+          "note": "curator, copyright line"
+        }
+      ],
+      "unverified": [
+        "no explicit free statement; inferred from no paywall",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/dark-mode-design.md",
+        "lint": "pass"
+      }
+    },
+    "dark-patterns-tip-line": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Dark Patterns Tip Line",
+        "url": "https://darkpatternstipline.org",
+        "alive": true,
+        "operator": "Stanford Digital Civil Society Lab"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Viewing sightings and reporting have no fees shown",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://darkpatternstipline.org",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No content license stated · commercial: unknown · submissions governed by the Data Use Policy · submissions may be edited or not published",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://darkpatternstipline.org",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "dark-patterns-tip-line",
+        "type": "Resource",
+        "category": "Design",
+        "title": "Dark Patterns Tip Line",
+        "description": "Stanford-run crowdsourced collection of manipulative design examples, with a form to report them, harm categories and resources for researchers.",
+        "tags": [
+          "ui-ux",
+          "inspiration",
+          "web"
+        ],
+        "relatedResources": [
+          "biased-by-design"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Report a dark pattern with description, screenshots and company",
+          "Sightings browsable by sector (social media, finance, health, education)",
+          "Seven harm categories such as lost money or lost privacy",
+          "Resources for the public, policymakers, enforcers and researchers"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "none found, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Operator identified in footer; no dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://darkpatternstipline.org",
+          "date": "2026-10-16",
+          "note": "operator, sections, data policy note"
+        }
+      ],
+      "unverified": [
+        "content reuse license not stated",
+        "Data Use Policy not read",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/dark-patterns-tip-line.md",
+        "lint": "pass"
+      }
+    },
+    "darktable": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "darktable",
+        "url": "https://www.darktable.org",
+        "alive": true,
+        "operator": "The darktable team"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Fully free open source app; no price on the site",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.darktable.org",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "GPL 3.0 · commercial: yes (GPL terms) · attribution: per GPL · website content is CC BY-NC-SA 3.0",
+        "openSource": true,
+        "spdx": "GPL-3.0-only",
+        "evidence": {
+          "url": "https://www.darktable.org",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "darktable",
+        "type": "Software",
+        "category": "Photography",
+        "title": "darktable",
+        "description": "Free open source RAW photo developer and image library with non-destructive editing, a lighttable and a darkroom, for Linux, Windows and macOS.",
+        "tags": [
+          "open-source",
+          "linux",
+          "mac",
+          "windows"
+        ],
+        "relatedResources": [
+          "affinity"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Non-destructive editing across the whole pipeline",
+          "Lighttable for browsing and managing a library of negatives",
+          "Darkroom for developing RAW images",
+          "Colour management aimed at print fidelity",
+          "GPU-accelerated processing",
+          "Installers for Linux, Windows (x64, ARM) and macOS Apple silicon"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Long-running project; no dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://www.darktable.org",
+          "date": "2026-10-16",
+          "note": "description, GPL 3.0, features"
+        },
+        {
+          "url": "https://www.darktable.org/install/",
+          "date": "2026-10-16",
+          "note": "platforms, version 5.6.2 listed, no Intel Mac releases"
+        }
+      ],
+      "unverified": [
+        "SPDX variant (only/or-later) not confirmed",
+        "no dedicated safety search",
+        "release date not stated"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/darktable.md",
+        "lint": "pass"
+      }
+    },
+    "data-viz-project": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Site shows no pricing, ads or license/terms at all; it is Ferdio's agency catalogue. Free is plausible but unstated; owner decides if listing without terms is OK.",
+      "site": {
+        "name": "Data Viz Project",
+        "url": "https://datavizproject.com",
+        "alive": true,
+        "operator": "Ferdio (infographic and data visualization agency)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Searchable catalogue of chart types, no sign-in, ads or paywall seen; 'free' not stated explicitly",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://datavizproject.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No license or terms stated on the page · commercial: unknown · attribution: unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://datavizproject.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "data-viz-project",
+        "type": "Website",
+        "category": "Design",
+        "title": "Data Viz Project",
+        "description": "Browsable catalogue of chart and diagram types, filterable by family, input, function and shape, to find the right visualization for your data.",
+        "tags": [
+          "inspiration",
+          "graphic-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Catalogue of many data visualization types with a page each",
+          "Filters by family, input, function and shape",
+          "Helps pick a chart type for a given dataset",
+          "Made by the Ferdio agency"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Operated by a real agency; no dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://datavizproject.com",
+          "date": "2026-10-16",
+          "note": "home: description, operator, no terms"
+        }
+      ],
+      "unverified": [
+        "no explicit statement that the site is free",
+        "no license or terms page found",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null
+    },
+    "datatype": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Datatype",
+        "url": "https://franktisellano.github.io/datatype/",
+        "alive": true,
+        "operator": "Frank Tisellano"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Fully free open-source font (SIL OFL)",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://franktisellano.github.io/datatype/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "SIL Open Font License 1.1 · commercial: yes · attribution: not required · font may not be sold on its own",
+        "openSource": true,
+        "spdx": "OFL-1.1",
+        "evidence": {
+          "url": "https://github.com/franktisellano/datatype",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "datatype",
+        "type": "Font",
+        "category": "Design",
+        "title": "Datatype",
+        "description": "Open-source variable font that turns typed expressions like {b:30,70,50} into inline bar, line and pie charts, with no JavaScript or images.",
+        "tags": [
+          "typography",
+          "open-source",
+          "web"
+        ],
+        "relatedResources": [
+          "google-fonts"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Bar, sparkline and pie charts typed as text expressions",
+          "Values 0 to 100, up to 20 bars or points",
+          "Width and weight variable axes",
+          "Works with plain CSS @font-face, no scripts",
+          "Also listed on Google Fonts"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "GitHub repo with ~1.5k stars; no dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://franktisellano.github.io/datatype/",
+          "date": "2026-10-16",
+          "note": "description, license line, usage"
+        },
+        {
+          "url": "https://github.com/franktisellano/datatype",
+          "date": "2026-10-16",
+          "note": "OFL.txt, stars"
+        }
+      ],
+      "unverified": [
+        "Google Fonts listing claim not checked",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/datatype.md",
+        "lint": "pass"
+      }
+    },
+    "davinci-resolve": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "DaVinci Resolve",
+        "url": "https://www.blackmagicdesign.com/products/davinciresolve",
+        "alive": true,
+        "operator": "Blackmagic Design Pty. Ltd."
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free version, no listed price: 8-bit video up to 60fps and UHD 3840x2160, multi-user collaboration, HDR grading",
+        "paidFrom": "Studio $295 one-time (MSRP, excl. sales tax and shipping)",
+        "evidence": {
+          "url": "https://www.blackmagicdesign.com/products/davinciresolve",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary (Blackmagic EULA) · commercial: not read · attribution: n/a · EULA not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.blackmagicdesign.com/products/davinciresolve",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "davinci-resolve",
+        "type": "Software",
+        "category": "Filming",
+        "title": "DaVinci Resolve",
+        "description": "Professional editing, color grading, VFX and audio post in one app for Mac, Windows and Linux, with a capable free version.",
+        "tags": [
+          "mac",
+          "windows",
+          "linux"
+        ],
+        "relatedResources": [
+          "clipchamp"
+        ],
+        "similarResources": [
+          "clipchamp"
+        ],
+        "keyFeatures": [
+          "Editing, color, effects and audio in one application",
+          "Free version handles UHD at up to 60fps in 8-bit",
+          "HDR grading and multi-user collaboration",
+          "Studio adds AI Neural Engine, Magic Mask and 10-bit up to 120fps",
+          "Runs on Mac, Windows and Linux"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "davinciresolve",
+          "fillColor": "#233A51",
+          "bgColor": "#ffffff",
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Official Blackmagic Design site"
+      },
+      "sources": [
+        {
+          "url": "https://www.blackmagicdesign.com/products/davinciresolve",
+          "date": "2026-10-16",
+          "note": "free vs Studio, price, platforms"
+        }
+      ],
+      "unverified": [
+        "EULA / commercial-use terms not read",
+        "free version limits beyond those listed",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/davinci-resolve.md",
+        "lint": "pass"
+      }
+    },
+    "dayflow": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Dayflow is an artist illustration pack distributed via Blush; page states no plan, license or commercial-use terms and blush.design/pricing returned 403, so free-tier permanence and license are unknown.",
+      "site": {
+        "name": "Dayflow",
+        "url": "https://dayflow.blush.design",
+        "alive": true,
+        "operator": "Pau Barbaro (art), distributed through Blush"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Page offers 'Try It - It's Free!' in the Blush builder; plan limits not stated",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://dayflow.blush.design",
+          "date": "2026-10-16",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "Not stated on the page · commercial: unknown · attribution: unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://blush.design/pricing",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "dayflow",
+        "type": "Stock Media",
+        "category": "Design",
+        "title": "Dayflow",
+        "description": "Colorful mix-and-match vector illustration set by Pau Barbaro for building characters and scenes in the Blush editor.",
+        "tags": [
+          "stock-illustrations",
+          "stock-vectors"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Vector arms, legs and emotions to mix into characters",
+          "Ready-made characters, scenes and stickers to download",
+          "Customizable in the Blush builder"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Blush-hosted artist collection"
+      },
+      "sources": [
+        {
+          "url": "https://dayflow.blush.design",
+          "date": "2026-10-16",
+          "note": "description, credit"
+        },
+        {
+          "url": "https://blush.design/pricing",
+          "date": "2026-10-16",
+          "note": "HTTP 403, not read"
+        }
+      ],
+      "unverified": [
+        "free plan limits and permanence",
+        "license and commercial-use terms",
+        "Blush pricing page returned 403",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null
+    },
+    "dazl": {
+      "researchedOn": "2026-10-16",
+      "injectionSeen": null,
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "no dedicated safety search"
+      },
+      "verdict": "skip",
+      "verdictReason": "Site states it is not accepting new sign-ups; no pricing or free tier published.",
+      "site": {
+        "name": "Dazl",
+        "url": "https://dazl.dev",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://dazl.dev",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://dazl.dev",
+          "date": "2026-10-16",
+          "note": "AI product workspace; sign-ups closed; no pricing; /terms and /privacy linked"
+        }
+      ],
+      "unverified": [
+        "legal operator not named",
+        "license/terms not read",
+        "directory label said Freemium; not confirmed"
+      ]
+    },
+    "decart": {
+      "researchedOn": "2026-10-16",
+      "injectionSeen": null,
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "no dedicated safety search"
+      },
+      "verdict": "skip",
+      "verdictReason": "Pay-as-you-go API; only free credits for new accounts with no stated amount or permanence, so no confirmed permanent free tier.",
+      "site": {
+        "name": "Decart",
+        "url": "https://decart.ai",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": "New accounts receive free credits to test the API (amount and permanence not stated)",
+        "paidFrom": "Pay-as-you-go, e.g. $0.01-$0.04 per second of video; no subscription",
+        "evidence": {
+          "url": "https://docs.platform.decart.ai/getting-started/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://decart.ai",
+          "date": "2026-10-16",
+          "note": "products Lucy, Oasis, DOS; links"
+        },
+        {
+          "url": "https://docs.platform.decart.ai/getting-started/pricing",
+          "date": "2026-10-16",
+          "note": "per-second pricing, free credits statement"
+        }
+      ],
+      "unverified": [
+        "legal operator not named on page",
+        "terms not read",
+        "free credit amount/permanence"
+      ]
+    },
+    "deck-gallery": {
+      "researchedOn": "2026-10-16",
+      "injectionSeen": null,
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "no dedicated safety search"
+      },
+      "verdict": "needs-owner",
+      "verdictReason": "Free plan ($0: only the daily deck and 6 slides per archived deck) has no stated end, but permanence is unconfirmed and it is a limited preview of a paid Pro library; owner to decide if it counts as freemium.",
+      "site": {
+        "name": "Deck.gallery",
+        "url": "https://deck.gallery",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free $0: today's new deck and 6 slides per archived deck",
+        "paidFrom": "Pro $12/month billed yearly ($144/year)",
+        "evidence": {
+          "url": "https://deck.gallery/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://deck.gallery",
+          "date": "2026-10-16",
+          "note": "curated deck library, categories, sign-in prompt"
+        },
+        {
+          "url": "https://deck.gallery/pricing",
+          "date": "2026-10-16",
+          "note": "Free and Pro plan details"
+        }
+      ],
+      "unverified": [
+        "operator not named",
+        "no terms page found",
+        "free plan permanence",
+        "whether free decks need an account"
+      ]
+    },
+    "decktopus": {
+      "researchedOn": "2026-10-16",
+      "injectionSeen": null,
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "no dedicated safety search"
+      },
+      "verdict": "skip",
+      "verdictReason": "Official pricing page lists only paid plans (Pro from $9.99/mo annual); no free plan shown. Help center and third parties mention limited free use, but limits conflict.",
+      "site": {
+        "name": "Decktopus",
+        "url": "https://www.decktopus.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": "Pro $9.99/month billed annually ($119.88/year); $24.99 monthly",
+        "evidence": {
+          "url": "https://www.decktopus.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.decktopus.com/pricing",
+          "date": "2026-10-16",
+          "note": "plans: Pro, Business, Enterprise; no free plan listed"
+        },
+        {
+          "url": "https://help.decktopus.com/en/articles/56-can-i-use-decktopus-without-a-subscription",
+          "date": "2026-10-16",
+          "note": "via search summary: usable free; AI via referral credits"
+        }
+      ],
+      "unverified": [
+        "free-use limits (sources conflict)",
+        "terms not read",
+        "operator"
+      ]
+    },
+    "decode-by-entropik": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Enterprise emotion-AI research platform; pricing page shows a $0 Free plan but its limits are not stated and the product is enterprise-sales oriented; owner to decide fit.",
+      "site": {
+        "name": "Decode by Entropik",
+        "url": "https://www.entropik.io/decode",
+        "alive": true,
+        "operator": "Entropik"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Pricing page lists a Free plan 'for getting started', $0 annual platform fee, no card required; limits not shown",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.entropik.io/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": null,
+      "sources": [
+        {
+          "url": "https://www.entropik.io/decode",
+          "date": "2026-10-16",
+          "note": "product description; no free/trial statement"
+        },
+        {
+          "url": "https://www.entropik.io/pricing",
+          "date": "2026-10-16",
+          "note": "Free plan $0, Enterprise Contact Sales"
+        }
+      ],
+      "unverified": [
+        "Free plan limits",
+        "license/terms not read",
+        "no safety search run",
+        "whether the free plan covers Decode or the whole Entropik platform"
+      ],
+      "injectionSeen": null
+    },
+    "decofy": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "Home page is JS-only and returned just 'Loading...'; pricing and terms unreadable. Search shows an iOS app with trial/subscriptions only (weekly PRO 3-day trial $9.99, yearly $39.99/$79.99), no confirmed permanent free tier.",
+      "site": {
+        "name": "Decofy",
+        "url": "https://www.decofy.ai",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://apps.apple.com/app/id6746599956",
+          "date": "2026-10-16",
+          "confidence": "second-hand"
+        }
+      },
+      "license": null,
+      "sources": [
+        {
+          "url": "https://www.decofy.ai",
+          "date": "2026-10-16",
+          "note": "JS shell, Loading only"
+        },
+        {
+          "url": "https://apps.apple.com/app/id6746599956",
+          "date": "2026-10-16",
+          "note": "web search snippet: App Store subscription prices"
+        }
+      ],
+      "unverified": [
+        "free tier",
+        "terms",
+        "operator",
+        "safety"
+      ],
+      "injectionSeen": null
+    },
+    "decoy-font": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Decoy Font",
+        "url": "https://www.mixfont.com/experiments/decoy-font",
+        "alive": true,
+        "operator": "Mixfont (San Francisco); built by Eric Lu"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Free TTF download, no account noted",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.mixfont.com/experiments/decoy-font",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Free to use in personal, commercial and client projects · attribution: copyright/permission notices must stay with copies (DejaVu/Bitstream Vera/Arev terms) · limit: cannot be sold standalone; modified versions must be renamed",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.mixfont.com/experiments/decoy-font/DecoyFont-LICENSE.txt",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "decoy-font",
+        "type": "Font",
+        "category": "Design",
+        "title": "Decoy Font",
+        "description": "Free experimental monospace font that mixes each letter with a hidden one, so text reads differently up close than from afar and is harder for AI to read.",
+        "tags": [
+          "typography",
+          "royalty-free",
+          "graphic-design"
+        ],
+        "relatedResources": [
+          "google-fonts",
+          "collletttivo"
+        ],
+        "similarResources": [
+          "google-fonts"
+        ],
+        "keyFeatures": [
+          "Each glyph blends a decoy letter with a hidden letter using the hybrid-image technique",
+          "Hidden text becomes readable from a distance",
+          "Free TTF download you can install and type with",
+          "Free for personal, commercial and client projects",
+          "Letterforms derived from DejaVu Sans Mono"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no Simple Icons match for Mixfont, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated scam search run; first-party experiment page"
+      },
+      "sources": [
+        {
+          "url": "https://www.mixfont.com/experiments/decoy-font",
+          "date": "2026-10-16",
+          "note": "description, free-use statement, download"
+        },
+        {
+          "url": "https://www.mixfont.com/experiments/decoy-font/DecoyFont-LICENSE.txt",
+          "date": "2026-10-16",
+          "note": "license terms summary"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "effectiveness against AI not verified",
+        "Mixfont ToS not read",
+        "novelty/experimental font"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/decoy-font.md",
+        "lint": "pass"
+      }
+    },
+    "delesign-illustrations": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Free royalty-free illustrations, but downloads require name, company and email; license page not read; permanence and commercial terms unconfirmed.",
+      "site": {
+        "name": "Delesign Illustrations",
+        "url": "https://free-designs.delesign.com/free-designs/graphics",
+        "alive": true,
+        "operator": "Delesign"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Free graphics section, royalty-free; download needs name, company, email",
+        "paidFrom": null,
+        "evidence": {
+          "url": "http://free-designs.delesign.com/free-designs/graphics/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": null,
+      "sources": [
+        {
+          "url": "http://free-designs.delesign.com/free-designs/graphics/",
+          "date": "2026-10-16",
+          "note": "royalty-free claim, email gate (after 301 from https)"
+        }
+      ],
+      "unverified": [
+        "license text and commercial use",
+        "attribution",
+        "asset count and formats",
+        "permanence of free offer",
+        "no safety search run",
+        "https URL redirects to http"
+      ],
+      "injectionSeen": null
     }
   }
 }
