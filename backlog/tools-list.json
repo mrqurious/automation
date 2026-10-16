@@ -7064,7 +7064,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "branding-style-guides",
       "priority": "P2",
       "hasResearch": true
     },
@@ -7168,7 +7168,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "brands-in-motion",
       "priority": "P2",
       "hasResearch": true
     },
@@ -7194,7 +7194,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "brandy",
       "priority": "P2",
       "hasResearch": true
     },
@@ -7270,7 +7270,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "bravemark",
       "priority": "P2",
       "hasResearch": true
     },
@@ -7296,7 +7296,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "bravo-studio",
       "priority": "P2",
       "hasResearch": true
     },
@@ -7435,7 +7435,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "brilliant",
       "priority": "P2",
       "hasResearch": true
     },
@@ -7539,7 +7539,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "brrranding",
       "priority": "P2",
       "hasResearch": true
     },
@@ -7619,7 +7619,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "bubbles",
       "priority": "P2",
       "hasResearch": true
     },
@@ -7645,7 +7645,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "bubbleshift",
       "priority": "P2",
       "hasResearch": true
     },
@@ -7668,12 +7668,12 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "builder-io",
@@ -7694,12 +7694,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Free plan exists (15 agent credits/day, 60/month) but pricing page does not say it is permanent and states plans/limits are subject to change; credit-capped free tier",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "buildship",
@@ -7722,12 +7722,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Pricing page lists Starter $19/month and up, each with a 7-day free trial; no ongoing free tier (Digitool label 'Free tier listed' not confirmed first-party)",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "built-for-mars",
@@ -7748,12 +7748,12 @@
           "file": "Learn UI_UX Design_ Courses, Guides & Best Practices.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Library is subscription-only; only a newsletter, a Figma plugin (account needed) and two case studies are free; no free tier on the pricing page",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "burst",
@@ -7774,12 +7774,12 @@
           "file": "Free Stock Images & Video Websites _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "business-characters",
@@ -7800,12 +7800,12 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "icons8.com/l/3d/ returned HTTP 403 to fetch; not bypassed. Search snippets suggest free Icons8 assets need a link back; free 3D terms unclear.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "butternut-ai",
@@ -7826,12 +7826,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Home page says 'Start for free' with no credit card but does not state a permanent free plan or limits; domain linking needs paid plan; AppSumo users report plan/credit changes and support complaints.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "button-buddy",
@@ -7852,12 +7852,12 @@
           "file": "Best Color Tools and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Accessible button-contrast generator by Stephanie Eckles, but site never states it is free or gives a license; GitHub repo license not shown; footer 2022, activity unclear.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "bx-museum",
@@ -7878,12 +7878,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Free and alive, but no operator named (Instagram handle only), no terms/license text, forms show errors; owner to decide whether to list. Content is third-party brand artifacts (copyright unknown).",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "bynder",
@@ -7961,12 +7961,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "No permanent free tier: Free plan is 20 credits one time; paid from $15/user/month.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "cal-com",
@@ -7989,12 +7989,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "drafted",
+      "notes": "Hosted Free plan stated as 'Free forever' (1 user) on first-party pricing page; open source. Terms page and safety search not read.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "cambium-ai-marketing",
@@ -8017,12 +8017,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Listing links via hubs.ly to app.cambium.ai/marketing, which returned only a title (JS app); cambium.ai home shows no pricing or free plan and describes a different product (synthetic populations). Cannot confirm a free tier.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "canva",
@@ -8069,12 +8069,12 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Canva returns HTTP 403 to automated fetch (bot check); not bypassed. Also a sub-feature of existing RL entry canva; sibling decision for owner.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "canva-websites",
@@ -8095,12 +8095,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Canva returns HTTP 403 to automated fetch (bot check); not bypassed. Also a sub-feature of existing RL entry canva; sibling decision for owner.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "canva-whiteboards",
@@ -8154,12 +8154,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "License is MIT + Commons Clause (source-available, not OSI open source; forbids reselling/redistributing the components). Free for personal and commercial use per site. Owner to confirm it is listable as 'open source'; no operator named; no safety search run.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "canvy",
@@ -8180,12 +8180,12 @@
           "file": "Best Mockup Sites for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Home and /pricing return only a navigation menu (JS-rendered); no plans, free-tier limits or operator readable. Not bypassed.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "capacity",
@@ -8342,12 +8342,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "case-study-club",
@@ -8368,12 +8368,12 @@
           "file": "Learn UI_UX Design_ Courses, Guides & Best Practices.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Weekly design newsletter (Jan Haaland, Norway); home page shows no pricing or free/paid info and /subscribe 404s, so free permanence unclear",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "catdoes",
@@ -8420,12 +8420,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "cavalry",
@@ -8446,12 +8446,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Free for individuals only (Canva account required; studios/enterprise via sales); license terms and commercial-use answer only second-hand (EULA not read), owner should confirm",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "chakra-ui",
@@ -59927,15 +59927,15 @@
     "byStatus": {
       "deferred-trial": 232,
       "deferred-paid": 217,
-      "blocked": 84,
-      "drafted": 104,
-      "rejected": 53,
+      "blocked": 96,
+      "drafted": 113,
+      "rejected": 56,
       "in-rl": 33,
-      "researched": 9,
-      "todo": 1547
+      "researched": 5,
+      "todo": 1527
     },
     "todoByPriority": {
-      "P2": 1462,
+      "P2": 1442,
       "P3": 84,
       "P1": 1
     }

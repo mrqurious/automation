@@ -16960,6 +16960,1296 @@
         "file": "src/content/resources/bubbleshift.md",
         "lint": "pass"
       }
+    },
+    "buffer": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Buffer",
+        "url": "https://buffer.com",
+        "alive": true,
+        "operator": "Buffer, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free forever card: up to 3 channels, 10 scheduled posts per channel, 1 user, 100 ideas, 1 API key, 3,000 API requests/month",
+        "paidFrom": "Essentials $5/month per channel ($60 billed yearly)",
+        "evidence": {
+          "url": "https://buffer.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS (Buffer Terms of Use) · commercial: not stated in read portion · attribution: n/a · limit: no clause against linking in the read portion",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://buffer.com/terms",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "buffer",
+        "type": "Tool",
+        "category": "Marketing",
+        "title": "Buffer",
+        "description": "Schedule and publish social posts across major networks from one queue, with an ideas library, basic analytics and a free plan for three channels.",
+        "tags": [
+          "productivity",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Queue and schedule posts to Instagram, Facebook, LinkedIn, X, TikTok, YouTube Shorts and more",
+          "Ideas library to draft and repurpose content per channel",
+          "AI assistant for post ideas and rewrites",
+          "Shared inbox to reply to comments across accounts",
+          "Basic analytics and reports",
+          "Link-in-bio Start Page"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "buffer",
+          "fillColor": "#231F20",
+          "bgColor": "#ffffff",
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search found only an old security breach post-mortem; no scam, shutdown or acquisition hits"
+      },
+      "sources": [
+        {
+          "url": "https://buffer.com/pricing",
+          "date": "2026-10-16",
+          "note": "free plan limits and paid prices"
+        },
+        {
+          "url": "https://buffer.com",
+          "date": "2026-10-16",
+          "note": "feature list"
+        },
+        {
+          "url": "https://buffer.com/terms",
+          "date": "2026-10-16",
+          "note": "operator, listing clauses (first 100k chars only)"
+        }
+      ],
+      "unverified": [
+        "commercial-use wording in Terms (page truncated; API Terms/brand sections not read)",
+        "free plan permanence rests on the 'Free forever' card label only",
+        "no relatedResources: no social-media scheduler in RL"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/buffer.md",
+        "lint": "pass"
+      }
+    },
+    "builder-io": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Free plan exists (15 agent credits/day, 60/month) but pricing page does not say it is permanent and states plans/limits are subject to change; credit-capped free tier",
+      "site": {
+        "name": "Builder.io",
+        "url": "https://www.builder.io",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Code plan $0/user/month: 1 user (up to 5 per space), 15 agent credits/day capped at 60/month, 1 space, 1 design system, community support",
+        "paidFrom": "Pro $24/user/month (500 monthly agent credits; billing period not stated)",
+        "evidence": {
+          "url": "https://www.builder.io/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://www.builder.io/pricing",
+          "date": "2026-10-16",
+          "note": "free plan and Pro price"
+        }
+      ],
+      "unverified": [
+        "free plan permanence",
+        "terms/license not read",
+        "no safety search",
+        "icon: not in Simple Icons"
+      ],
+      "injectionSeen": null
+    },
+    "buildship": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Pricing page lists Starter $19/month and up, each with a 7-day free trial; no ongoing free tier (Digitool label 'Free tier listed' not confirmed first-party)",
+      "site": {
+        "name": "BuildShip",
+        "url": "https://buildship.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "Starter $19/month ($225/year)",
+        "evidence": {
+          "url": "https://buildship.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/buildship/",
+          "date": "2026-10-16",
+          "note": "resolved official site buildship.com"
+        },
+        {
+          "url": "https://buildship.com/pricing",
+          "date": "2026-10-16",
+          "note": "plans: Starter, Pro, Business, Enterprise; 7-day trials"
+        }
+      ],
+      "unverified": [
+        "terms not read",
+        "no safety search"
+      ],
+      "injectionSeen": null
+    },
+    "built-for-mars": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Library is subscription-only; only a newsletter, a Figma plugin (account needed) and two case studies are free; no free tier on the pricing page",
+      "site": {
+        "name": "Built for Mars",
+        "url": "https://builtformars.com",
+        "alive": true,
+        "operator": "Built for Mars Ltd (England and Wales, Company No. 12731987)"
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": "Free newsletter, free Figma plugin (requires account), two free case studies (Granola, Twitch); rest behind subscription",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://builtformars.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://builtformars.com",
+          "date": "2026-10-16",
+          "note": "free vs locked content, operator"
+        },
+        {
+          "url": "https://builtformars.com/pricing",
+          "date": "2026-10-16",
+          "note": "Individual and Teams plans, no free tier, prices not shown"
+        }
+      ],
+      "unverified": [
+        "exact subscription price",
+        "terms not read",
+        "no safety search"
+      ],
+      "injectionSeen": null
+    },
+    "burst": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Burst",
+        "url": "https://www.shopify.com/stock-photos",
+        "alive": true,
+        "operator": "Shopify"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All photos free to download; low-res direct, high-res after entering an email address",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.shopify.com/stock-photos",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Burst Free Photo Terms · commercial: yes · attribution: not required (encouraged) · limit: full terms page not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.shopify.com/stock-photos",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "burst",
+        "type": "Stock Media",
+        "category": "Photography",
+        "title": "Burst",
+        "description": "Shopify's free stock photo library for websites and online stores, with commercial use allowed and no attribution needed.",
+        "tags": [
+          "stock-photos",
+          "royalty-free",
+          "stock"
+        ],
+        "relatedResources": [
+          "unsplash",
+          "pexels",
+          "pixabay"
+        ],
+        "similarResources": [
+          "barnimages",
+          "all-in-frame"
+        ],
+        "keyFeatures": [
+          "Free stock photos usable commercially",
+          "No attribution required, credit encouraged",
+          "Photos may be cropped, resized and filtered",
+          "Usable on any online store platform or marketplace",
+          "High-res download after entering an email"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "shopify",
+          "fillColor": "#7AB55C",
+          "bgColor": "#ffffff",
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-16 (Shopify parent brand, not Burst's own mark)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Official Shopify property; no shutdown notice on page; no dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://www.shopify.com/stock-photos",
+          "date": "2026-10-16",
+          "note": "free, license wording, alive"
+        }
+      ],
+      "unverified": [
+        "full Free Photo Terms text not read (guessed terms URL returned 404)",
+        "no dedicated safety search",
+        "icon is Shopify's, not Burst's"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/burst.md",
+        "lint": "pass"
+      }
+    },
+    "business-characters": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "icons8.com/l/3d/ returned HTTP 403 to fetch; not bypassed. Search snippets suggest free Icons8 assets need a link back; free 3D terms unclear.",
+      "site": {
+        "name": "Business Characters (Icons8 3D)",
+        "url": "https://icons8.com/l/3d/",
+        "alive": true,
+        "operator": "Icons8"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://icons8.com/l/3d/",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://icons8.com/l/3d/",
+          "date": "2026-10-16",
+          "note": "403 Forbidden"
+        },
+        {
+          "url": "https://icons8.com/illustrations/pricing",
+          "date": "2026-10-16",
+          "note": "search snippet only: free use needs link to Icons8"
+        }
+      ],
+      "unverified": [
+        "free tier limits",
+        "license for 3D",
+        "whether Business Characters is a distinct product vs Icons8 3D"
+      ],
+      "injectionSeen": null
+    },
+    "butternut-ai": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Home page says 'Start for free' with no credit card but does not state a permanent free plan or limits; domain linking needs paid plan; AppSumo users report plan/credit changes and support complaints.",
+      "site": {
+        "name": "Butternut AI",
+        "url": "https://butternut.ai",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": null,
+        "paidFrom": "$20/month (Starter, monthly billing); Pro $69/month",
+        "evidence": {
+          "url": "https://butternut.ai",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://butternut.ai",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search: no shutdown reports; AppSumo lifetime-deal buyers complain of lost unlimited generations (now 100 credits) and slow support; some call it a scam (unverified opinion)"
+      },
+      "sources": [
+        {
+          "url": "https://butternut.ai",
+          "date": "2026-10-16",
+          "note": "AI website builder, plans, no operator named"
+        },
+        {
+          "url": "https://appsumo.com/products/butternut-ai/questions/",
+          "date": "2026-10-16",
+          "note": "search snippets of complaints"
+        }
+      ],
+      "unverified": [
+        "free tier permanence and limits",
+        "operator",
+        "terms of service"
+      ],
+      "injectionSeen": null
+    },
+    "button-buddy": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Accessible button-contrast generator by Stephanie Eckles, but site never states it is free or gives a license; GitHub repo license not shown; footer 2022, activity unclear.",
+      "site": {
+        "name": "Button Buddy",
+        "url": "https://buttonbuddy.dev",
+        "alive": true,
+        "operator": "Stephanie Eckles (@5t3ph)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "No prices or paid tiers listed; optional Buy Me a Coffee link",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://buttonbuddy.dev",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "not stated on site or repo page",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://github.com/5t3ph/buttonbuddy",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Public GitHub repo 5t3ph/buttonbuddy, 24 commits, 71 stars; no dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://buttonbuddy.dev",
+          "date": "2026-10-16",
+          "note": "purpose, operator, no pricing"
+        },
+        {
+          "url": "https://github.com/5t3ph/buttonbuddy",
+          "date": "2026-10-16",
+          "note": "repo, no license shown"
+        }
+      ],
+      "unverified": [
+        "explicit free statement",
+        "license",
+        "last commit date",
+        "safety search"
+      ],
+      "injectionSeen": null
+    },
+    "bx-museum": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Free and alive, but no operator named (Instagram handle only), no terms/license text, forms show errors; owner to decide whether to list. Content is third-party brand artifacts (copyright unknown).",
+      "site": {
+        "name": "BX Museum",
+        "url": "https://www.bxmuseum.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Browsable brand/artifact catalog; no pricing, login or paywall seen on home page (a 'Download BX Cheatsheet' link is unclear)",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.bxmuseum.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No terms or license text found",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.bxmuseum.com",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "bx-museum",
+        "type": "Resource",
+        "category": "Design",
+        "title": "BX Museum",
+        "description": "A museum-style catalog of brand experience artifacts from well-known brands, browsable by brand and category such as tech, cafes and airlines.",
+        "tags": [
+          "inspiration",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Brands shown as museum-style collections with artifact counts",
+          "Filter by category (home essentials, tech, cafes, airlines)",
+          "Artifacts tab and Learn BX section",
+          "BX cheatsheet download link"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "not checked in Simple Icons; no invented logo"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search run (Tier A limited); operator unidentified"
+      },
+      "sources": [
+        {
+          "url": "https://www.bxmuseum.com",
+          "date": "2026-10-16",
+          "note": "home page content, operator, sections"
+        }
+      ],
+      "unverified": [
+        "operator",
+        "terms/licensing of displayed brand artifacts",
+        "whether cheatsheet is free",
+        "safety search",
+        "pricing page"
+      ],
+      "injectionSeen": null
+    },
+    "caimera": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "No permanent free tier: Free plan is 20 credits one time; paid from $15/user/month.",
+      "site": {
+        "name": "Caimera",
+        "url": "https://www.caimera.ai",
+        "alive": true,
+        "operator": "Bahaal Technologies Pvt. Ltd."
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": "Free plan: 20 credits (one time), not recurring",
+        "paidFrom": "Mini $15/user/month billed monthly (120 credits/month)",
+        "evidence": {
+          "url": "https://www.caimera.ai/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS; terms not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.caimera.ai/terms-conditions",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No safety search run; verdict skip on pricing"
+      },
+      "sources": [
+        {
+          "url": "https://www.caimera.ai",
+          "date": "2026-10-16",
+          "note": "product, operator"
+        },
+        {
+          "url": "https://www.caimera.ai/pricing",
+          "date": "2026-10-16",
+          "note": "plans: Free 20 one-time credits; Mini $15; Starter $45; Pro $117; Enterprise from $1,500"
+        }
+      ],
+      "unverified": [
+        "terms",
+        "safety search"
+      ],
+      "injectionSeen": null
+    },
+    "cal-com": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "Hosted Free plan stated as 'Free forever' (1 user) on first-party pricing page; open source. Terms page and safety search not read.",
+      "site": {
+        "name": "Cal.com",
+        "url": "https://cal.com",
+        "alive": true,
+        "operator": "Cal.com, Inc. (name not verified on page)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free forever, 1 user: unlimited event types and calendars, email and SMS notifications, 100+ app integrations, mobile app and browser extension, Stripe and PayPal payments, Calendly import",
+        "paidFrom": "Teams $12/user/month (billed yearly, 14 day free trial)",
+        "evidence": {
+          "url": "https://cal.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "GitHub repo calcom/cal.com now describes itself as 'Cal.diy', 100% MIT, self-hosted only with enterprise features removed · commercial: yes under MIT · hosted service under Cal.com terms (not read)",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/calcom/cal.com",
+          "date": "2026-10-16",
+          "confidence": "second-hand"
+        }
+      },
+      "rl": {
+        "slug": "cal-com",
+        "type": "Tool",
+        "category": "Productivity",
+        "title": "Cal.com",
+        "description": "Open-source scheduling platform for booking meetings, with a free plan for one user, calendar sync, payments and 100+ integrations.",
+        "tags": [
+          "productivity",
+          "open-source",
+          "automation"
+        ],
+        "relatedResources": [
+          "calendly"
+        ],
+        "similarResources": [
+          "calendly"
+        ],
+        "keyFeatures": [
+          "Unlimited event types and calendar connections on the free plan",
+          "Email and SMS notifications",
+          "Stripe and PayPal payments for bookings",
+          "100+ app integrations incl. Salesforce and HubSpot sync",
+          "One-click import of Calendly events",
+          "Self-host option via the open-source repo"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "caldotcom",
+          "fillColor": "#292929",
+          "bgColor": "#ffffff",
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Well-known product (49.1k GitHub stars); no dedicated scam/shutdown search run"
+      },
+      "sources": [
+        {
+          "url": "https://cal.com/pricing",
+          "date": "2026-10-16",
+          "note": "plans and free tier"
+        },
+        {
+          "url": "https://github.com/calcom/cal.com",
+          "date": "2026-10-16",
+          "note": "license, stars, self-hosting"
+        },
+        {
+          "url": "https://digitool.co/tool/cal-com/",
+          "date": "2026-10-16",
+          "note": "directory listing; site link is a redirect, cal.com named"
+        }
+      ],
+      "unverified": [
+        "Cal.com terms of service and commercial-use answer for hosted service",
+        "safety search",
+        "operator legal name",
+        "whether the hosted product shares the MIT 'Cal.diy' code",
+        "billing period of paid plans (page inconsistent)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/cal-com.md",
+        "lint": "pass"
+      }
+    },
+    "cambium-ai-marketing": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "Listing links via hubs.ly to app.cambium.ai/marketing, which returned only a title (JS app); cambium.ai home shows no pricing or free plan and describes a different product (synthetic populations). Cannot confirm a free tier.",
+      "site": {
+        "name": "Cambium AI Marketing",
+        "url": "https://app.cambium.ai/marketing",
+        "alive": true,
+        "operator": "Cambium AI"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://app.cambium.ai/marketing",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": "Terms not read (cambium.ai/terms-of-use exists)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://cambium.ai",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/cambium-ai-marketing/",
+          "date": "2026-10-16",
+          "note": "directory page; label Free; link hubs.ly redirect to app.cambium.ai/marketing"
+        },
+        {
+          "url": "https://cambium.ai",
+          "date": "2026-10-16",
+          "note": "home: synthetic populations, demo/pilot CTAs, no pricing"
+        }
+      ],
+      "unverified": [
+        "what the marketing product is",
+        "pricing and free tier",
+        "terms",
+        "safety search"
+      ],
+      "injectionSeen": null
+    },
+    "canva-qr-code-generator": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "Canva returns HTTP 403 to automated fetch (bot check); not bypassed. Also a sub-feature of existing RL entry canva; sibling decision for owner.",
+      "site": {
+        "name": "Canva QR Code Generator",
+        "url": "https://www.canva.com/qr-code-generator",
+        "alive": true,
+        "operator": "Canva Pty Ltd"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.canva.com/qr-code-generator",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.canva.com/qr-code-generator",
+          "date": "2026-10-16",
+          "note": "HTTP 403"
+        },
+        {
+          "url": "https://www.canva.com/pricing/",
+          "date": "2026-10-16",
+          "note": "HTTP 403"
+        }
+      ],
+      "unverified": [
+        "free limits, static vs dynamic QR, terms all unread",
+        "operator name from general knowledge, not read on page"
+      ],
+      "injectionSeen": null
+    },
+    "canva-websites": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "Canva returns HTTP 403 to automated fetch (bot check); not bypassed. Also a sub-feature of existing RL entry canva; sibling decision for owner.",
+      "site": {
+        "name": "Canva Websites",
+        "url": "https://www.canva.com/website-builder/",
+        "alive": true,
+        "operator": "Canva Pty Ltd"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.canva.com/website-builder/",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.canva.com/website-builder/",
+          "date": "2026-10-16",
+          "note": "HTTP 403"
+        },
+        {
+          "url": "https://www.canva.com/pricing/",
+          "date": "2026-10-16",
+          "note": "HTTP 403"
+        }
+      ],
+      "unverified": [
+        "free-plan limits (pages, domain), paid prices, terms all unread",
+        "operator name from general knowledge, not read on page"
+      ],
+      "injectionSeen": null
+    },
+    "canvy": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "Home and /pricing return only a navigation menu (JS-rendered); no plans, free-tier limits or operator readable. Not bypassed.",
+      "site": {
+        "name": "Canvy",
+        "url": "https://canvy.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://canvy.com",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://canvy.com",
+          "date": "2026-10-16",
+          "note": "title: online tool for fine art painters and poster designers; nav only"
+        },
+        {
+          "url": "https://canvy.com/pricing",
+          "date": "2026-10-16",
+          "note": "nav only, no plan data"
+        }
+      ],
+      "unverified": [
+        "pricing, free tier permanence, license/terms, operator, safety search not done"
+      ],
+      "injectionSeen": null
+    },
+    "canvas-ui": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "License is MIT + Commons Clause (source-available, not OSI open source; forbids reselling/redistributing the components). Free for personal and commercial use per site. Owner to confirm it is listable as 'open source'; no operator named; no safety search run.",
+      "site": {
+        "name": "Canvas UI",
+        "url": "https://canvasui.dev",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Site states 'Free forever'; all 35 listed components free, no paid tier mentioned",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://canvasui.dev",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT + Commons Clause · commercial: yes in your own apps · attribution: not read · limit: no reselling or redistributing components alone, in a bundle, or as a port",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://canvasui.dev",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "canvas-ui",
+        "type": "Library",
+        "category": "Development",
+        "title": "Canvas UI",
+        "description": "Free library of 35 copy-in WebGL and WebGPU effect components that run over real HTML, for React, Vue, Svelte, Solid and plain TypeScript.",
+        "tags": [
+          "web",
+          "ui-ux"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "35 effect components such as Blaze, Liquid, Glass, Shatter, Particle Reveal and VHS",
+          "Installed by copying code into your repo via the shadcn CLI",
+          "Variants for React, Solid, Preact, Vue, Svelte and vanilla TypeScript",
+          "WebGL and WebGPU builds; pauses off-screen and respects reduced motion",
+          "Live-DOM effects need an experimental Chrome flag; other browsers fall back to plain HTML"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon: Canvas UI not found in Simple Icons (closest 'canvas' is a different product)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "GitHub DavidHDev/canvas-ui, about 5k stars, 175 commits; no scam/shutdown search run"
+      },
+      "sources": [
+        {
+          "url": "https://canvasui.dev",
+          "date": "2026-10-16",
+          "note": "license summary, pricing, features, install"
+        },
+        {
+          "url": "https://github.com/DavidHDev/canvas-ui",
+          "date": "2026-10-16",
+          "note": "description, 5k stars, 175 commits, MIT + Commons Clause"
+        }
+      ],
+      "unverified": [
+        "full Commons Clause text / LICENSE.md not read",
+        "operator is inferred from GitHub account DavidHDev only",
+        "last commit date not seen",
+        "no dedicated safety search",
+        "tag fit: no webgl/animation tag exists, only web, ui-ux used"
+      ],
+      "injectionSeen": null
+    },
+    "carrd": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Carrd",
+        "url": "https://carrd.com",
+        "alive": true,
+        "operator": "Carrd Inc."
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free plan: up to three sites per account with core features; Pro removes 'Made with Carrd' footer branding and adds custom domains, forms, widgets",
+        "paidFrom": "$9 per year (Pro Lite, 3 sites, billed yearly)",
+        "evidence": {
+          "url": "https://carrd.com/pro",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS terms (not read) · commercial: unverified · attribution: free sites show Made with Carrd footer · limit: terms not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://carrd.com/terms",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "carrd",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Carrd",
+        "description": "Simple one-page website builder for profiles, portfolios and landing pages, with a permanent free plan of up to three sites.",
+        "tags": [
+          "website-builder",
+          "no-code",
+          "web"
+        ],
+        "relatedResources": [
+          "typedream",
+          "webflow",
+          "framer"
+        ],
+        "similarResources": [
+          "typedream"
+        ],
+        "keyFeatures": [
+          "Builds responsive one-page sites in a visual editor",
+          "Free plan allows up to three sites per account",
+          "Paid plans add custom domains, forms, widgets and analytics",
+          "Paid plans remove the Made with Carrd footer branding"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "carrd",
+          "fillColor": "#596CAF",
+          "bgColor": "#ffffff",
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Site redirects carrd.co to carrd.com; no dedicated scam search run"
+      },
+      "sources": [
+        {
+          "url": "https://carrd.com",
+          "date": "2026-10-16",
+          "note": "free plan wording, operator"
+        },
+        {
+          "url": "https://carrd.com/pro",
+          "date": "2026-10-16",
+          "note": "paid plan prices"
+        }
+      ],
+      "unverified": [
+        "terms of service not read (fetch failed)",
+        "commercial use of free sites",
+        "no dedicated safety search",
+        "free-plan branding inferred from Pro feature list"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/carrd.md",
+        "lint": "pass"
+      }
+    },
+    "case-study-club": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Weekly design newsletter (Jan Haaland, Norway); home page shows no pricing or free/paid info and /subscribe 404s, so free permanence unclear",
+      "site": {
+        "name": "Case Study Club",
+        "url": "https://www.casestudy.club",
+        "alive": true,
+        "operator": "Jan Haaland (individual, Norway)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.casestudy.club",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.casestudy.club",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "case-study-club",
+        "type": "Website",
+        "category": "Design",
+        "title": "Case Study Club",
+        "description": "Weekly newsletter for product designers with essays, field notes, a portfolio spotlight and a tool feature, plus a back-issue archive.",
+        "tags": [
+          "inspiration",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "ai-design-field-guide",
+          "mobbin"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Weekly Monday issue for product designers",
+          "Essays and Field Notes",
+          "Portfolio spotlight and tool feature",
+          "Archive of back issues"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no icon checked"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Web search for the name returned nothing relevant"
+      },
+      "sources": [
+        {
+          "url": "https://www.casestudy.club",
+          "date": "2026-10-16",
+          "note": "publisher, 27,200 subscribers, 18 back issues, weekly cadence"
+        }
+      ],
+      "unverified": [
+        "whether newsletter and archive are free; any paid tier",
+        "terms/license",
+        "subscriber count is self-reported"
+      ],
+      "injectionSeen": null
+    },
+    "causal": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Causal",
+        "url": "https://causal.so",
+        "alive": true,
+        "operator": "Causal Software Limited (England and Wales, company 17280800)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free forever, no card: 100 notes/images/links, 10 files, 5 widgets, 50 AI requests per month, unlimited canvases and shares, Mac app and MCP connection",
+        "paidFrom": "GBP 8 per month (Pro; yearly price not shown)",
+        "evidence": {
+          "url": "https://causal.so/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS terms · commercial: not explicitly banned, not clearly granted · attribution: n/a · limit: no reselling; macOS app has a personal licence",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://causal.so/terms",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "causal",
+        "type": "AI Tool",
+        "category": "Design",
+        "title": "Causal",
+        "description": "Infinite AI canvas for arranging notes, images, files and links spatially, with an AI agent to organise and brainstorm; permanent free plan.",
+        "tags": [
+          "ai-tool",
+          "whiteboard",
+          "inspiration"
+        ],
+        "relatedResources": [
+          "milanote",
+          "mural",
+          "tldraw"
+        ],
+        "similarResources": [
+          "milanote"
+        ],
+        "keyFeatures": [
+          "Infinite canvas for notes, images, files and links",
+          "AI agent to organise and brainstorm on the board",
+          "Read-only share links for canvases",
+          "Free Mac app and Chrome extension",
+          "Free plan with unlimited canvases"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Not in Simple Icons (check-icon.mjs 2026-10-16)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search found no scam/shutdown/acquisition reports; unrelated to causaLens and the Causal financial-modelling product"
+      },
+      "sources": [
+        {
+          "url": "https://causal.so",
+          "date": "2026-10-16",
+          "note": "product description, free plan limits"
+        },
+        {
+          "url": "https://causal.so/pricing",
+          "date": "2026-10-16",
+          "note": "plans and prices"
+        },
+        {
+          "url": "https://causal.so/terms",
+          "date": "2026-10-16",
+          "note": "operator, listing and commercial clauses"
+        }
+      ],
+      "unverified": [
+        "commercial use of free plan is not stated",
+        "yearly Pro price",
+        "launch date only from third-party write-up",
+        "site logo not collected"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/causal.md",
+        "lint": "pass"
+      }
+    },
+    "cavalry": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Free for individuals only (Canva account required; studios/enterprise via sales); license terms and commercial-use answer only second-hand (EULA not read), owner should confirm",
+      "site": {
+        "name": "Cavalry",
+        "url": "https://cavalry.studio",
+        "alive": true,
+        "operator": "Canva (acquired Cavalry/Scene Group, Feb 2026 per secondary coverage)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Home page: free for individuals, no restrictions or payment needed; Canva account required; Mac and Windows",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://cavalry.studio",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary · commercial: yes for individuals per press coverage (not first-party) · attribution: n/a · limit: studios/enterprise need a paid Canva account",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.cgchannel.com/2026/04/canva-makes-motion-graphics-and-animation-app-cavalry-free/",
+          "date": "2026-10-16",
+          "confidence": "second-hand"
+        }
+      },
+      "rl": {
+        "slug": "cavalry",
+        "type": "Software",
+        "category": "Design",
+        "title": "Cavalry",
+        "description": "Professional 2D animation and motion graphics app with procedural tools and Lottie and SVG export, free for individuals on Mac and Windows.",
+        "tags": [
+          "graphic-design",
+          "visual-design",
+          "mac",
+          "windows"
+        ],
+        "relatedResources": [
+          "affinity"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Real-time 2D animation and motion graphics",
+          "Procedural animation tools",
+          "Lottie and SVG export",
+          "Free for individuals on Mac and Windows"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Not in Simple Icons (check-icon.mjs 2026-10-16)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Acquired by Canva Feb 2026, still active and made free Apr 2026 per CGChannel/80.lv; not closed"
+      },
+      "sources": [
+        {
+          "url": "https://cavalry.studio",
+          "date": "2026-10-16",
+          "note": "free for individuals, Canva account, platforms"
+        },
+        {
+          "url": "https://www.cgchannel.com/2026/04/canva-makes-motion-graphics-and-animation-app-cavalry-free/",
+          "date": "2026-10-16",
+          "note": "acquisition and commercial-use coverage (secondary)"
+        }
+      ],
+      "unverified": [
+        "EULA/commercial-use terms first-party",
+        "/pricing and /faq 404",
+        "Lottie/SVG export and procedural claim from input description, not re-checked",
+        "Canva account requirement details"
+      ],
+      "injectionSeen": null
     }
   }
 }
