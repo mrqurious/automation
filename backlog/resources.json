@@ -22322,6 +22322,1399 @@
         "safety search not run"
       ],
       "injectionSeen": null
+    },
+    "constraint-systems": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Free experimental tools, but no terms/pricing page; repo licenses mixed (csOS and image-paint MIT, others unlicensed); operator unnamed; possible new tag/type.",
+      "site": {
+        "name": "Constraint Systems",
+        "url": "https://constraint.systems",
+        "alive": true,
+        "operator": "Unnamed (GitHub org lists @GrantCuster)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Tools run in browser; no pricing page found",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://github.com/constraint-systems",
+          "date": "2026-10-16",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "Mixed: csOS and image-paint MIT; other repos show no license",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://github.com/constraint-systems",
+          "date": "2026-10-16",
+          "confidence": "second-hand"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Web search found nothing about the site; no scam hits"
+      },
+      "sources": [
+        {
+          "url": "https://constraint.systems",
+          "date": "2026-10-16",
+          "note": "home returned title only"
+        },
+        {
+          "url": "https://github.com/constraint-systems",
+          "date": "2026-10-16",
+          "note": "org description, repos (flow, collapse, sift, mosaic, hex, face, csOS...), licenses"
+        }
+      ],
+      "unverified": [
+        "site home content not readable via fetch",
+        "operator identity",
+        "commercial-use terms",
+        "free permanence (no pricing page)"
+      ],
+      "injectionSeen": null
+    },
+    "contra": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Freelance network/marketplace with a $0 plan but client-payment and digital-product fees on Free; fit as a design resource and free-tier limits unclear.",
+      "site": {
+        "name": "Contra",
+        "url": "https://www.contra.com",
+        "alive": true,
+        "operator": "Contra (company)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan $0/month, commission-free; fees apply on client payments and digital products (table garbled; limits 'Limited' unspecified)",
+        "paidFrom": "Pro $29/month or $199/year",
+        "evidence": {
+          "url": "https://www.contra.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": null,
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Active site with recent posts; no dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://www.contra.com",
+          "date": "2026-10-16",
+          "note": "what it is, activity"
+        },
+        {
+          "url": "https://www.contra.com/pricing",
+          "date": "2026-10-16",
+          "note": "plans and fees"
+        }
+      ],
+      "unverified": [
+        "exact free-tier limits and fee mapping per tier",
+        "terms of service",
+        "safety search not run"
+      ],
+      "injectionSeen": null
+    },
+    "contrast": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Price and license not stated on site; macOS v1 source README forbids redistribution and says no longer developed; Figma plugin page returned 403 so free status unconfirmed.",
+      "site": {
+        "name": "Contrast",
+        "url": "https://usecontrast.com",
+        "alive": true,
+        "operator": "@mds, @gusso, @soffes (credited individuals)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Not stated on site; listed Free by directory only",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://usecontrast.com",
+          "date": "2026-10-16",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "Proprietary: macOS v1 README says no permission to redistribute source or binaries",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://github.com/soffes/contrast",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "macOS v1 repo says no longer under active development; no scam search run"
+      },
+      "sources": [
+        {
+          "url": "https://usecontrast.com",
+          "date": "2026-10-16",
+          "note": "description, credits, WCAG ratio example"
+        },
+        {
+          "url": "https://github.com/soffes/contrast",
+          "date": "2026-10-16",
+          "note": "license text, v1 status"
+        }
+      ],
+      "unverified": [
+        "price of Figma plugin and macOS v2",
+        "current maintenance",
+        "terms page (404)",
+        "safety search"
+      ],
+      "siblings": [
+        "contrast-plugin is the Figma plugin of the same product; likely merge into one entry"
+      ],
+      "injectionSeen": null
+    },
+    "contrast-plugin": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "Figma Community page returned HTTP 403 to fetch; not bypassed. Likely the same product as 'contrast' (usecontrast.com links to it).",
+      "site": {
+        "name": "Contrast Plugin",
+        "url": "https://www.figma.com/community/plugin/748533339900865323/Contrast",
+        "alive": null,
+        "operator": "Unknown (likely the usecontrast.com team)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.figma.com/community/plugin/748533339900865323/Contrast",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "license": null,
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": null
+      },
+      "sources": [
+        {
+          "url": "https://www.figma.com/community/plugin/748533339900865323/Contrast",
+          "date": "2026-10-16",
+          "note": "403"
+        },
+        {
+          "url": "https://usecontrast.com",
+          "date": "2026-10-16",
+          "note": "links to this plugin"
+        }
+      ],
+      "unverified": [
+        "everything on the Figma page",
+        "price"
+      ],
+      "injectionSeen": null
+    },
+    "control": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Home page says \"TRY FREE\" and \"No credit card required\" but shows no plan names, prices or limits; /pricing and /plans return 404. Permanent free tier not confirmed (may be a trial).",
+      "site": {
+        "name": "Control",
+        "url": "https://cntrl.site",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://cntrl.site",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://cntrl.site",
+          "date": "2026-10-16",
+          "note": "freehand website builder for creatives; CTAs only, no pricing"
+        },
+        {
+          "url": "https://cntrl.site/pricing",
+          "date": "2026-10-16",
+          "note": "404"
+        },
+        {
+          "url": "https://cntrl.site/plans",
+          "date": "2026-10-16",
+          "note": "404"
+        }
+      ],
+      "unverified": [
+        "plan names, prices, free tier permanence",
+        "terms of service",
+        "operator",
+        "safety search not run"
+      ],
+      "injectionSeen": null
+    },
+    "coolhue-2-0": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "CoolHue 2.0",
+        "url": "https://webkul.github.io/coolhue/",
+        "alive": true,
+        "operator": "Webkul.Design"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Free gradient collection and plugins, MIT-licensed open source repo",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://github.com/webkul/coolhue",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT (GitHub repo) · commercial: yes · attribution: keep MIT notice · limit: site footer says All rights reserved, no separate site terms",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/webkul/coolhue",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "coolhue",
+        "type": "Tool",
+        "category": "Design",
+        "title": "CoolHue 2.0",
+        "description": "Open-source collection of ready-made gradient color swatches to copy, with plugins for Figma, Sketch and a Photoshop palette.",
+        "tags": [
+          "color-palette",
+          "graphic-design",
+          "open-source",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "anygradient",
+          "adobe-color"
+        ],
+        "similarResources": [
+          "anygradient",
+          "color-hunt"
+        ],
+        "keyFeatures": [
+          "Curated gradient swatches ready to copy",
+          "Figma plugin",
+          "Sketch plugin",
+          "Photoshop palette",
+          "Customizable palette option",
+          "MIT-licensed source on GitHub"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Official Webkul GitHub org project; no dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://webkul.github.io/coolhue/",
+          "date": "2026-10-16",
+          "note": "features, operator, footer copyright"
+        },
+        {
+          "url": "https://github.com/webkul/coolhue",
+          "date": "2026-10-16",
+          "note": "MIT license, 49 commits"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "last commit date / maintenance status not shown"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/coolhue.md",
+        "lint": "pass"
+      }
+    },
+    "coolicons": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Coolicons",
+        "url": "https://coolicons.cool",
+        "alive": true,
+        "operator": "Kryston Schwarze"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Fully free icon set, \"Free for your personal and commercial projects\"",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://coolicons.cool",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "CC BY 4.0 · commercial: yes · attribution: required under CC BY 4.0 · limit: page content itself needs owner consent to reproduce",
+        "openSource": false,
+        "spdx": "CC-BY-4.0",
+        "evidence": {
+          "url": "https://coolicons.cool/impress",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "coolicons",
+        "type": "Icon Set",
+        "category": "Design",
+        "title": "Coolicons",
+        "description": "Free set of 1,320+ icons in line, duotone and duocolor styles, with a Figma file and a GitHub download, usable commercially under CC BY 4.0.",
+        "tags": [
+          "icon-library",
+          "ui-ux",
+          "graphic-design"
+        ],
+        "relatedResources": [
+          "lucide-icons",
+          "remix-icon"
+        ],
+        "similarResources": [
+          "akar-icons",
+          "boxicons",
+          "bootstrap-icons"
+        ],
+        "keyFeatures": [
+          "1,320+ icons (v4.1)",
+          "Line, Duotone and Duocolor styles",
+          "Figma file with variants",
+          "Zip download from GitHub",
+          "Personal and commercial use under CC BY 4.0"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Independent designer site; no dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://coolicons.cool",
+          "date": "2026-10-16",
+          "note": "icon count, styles, free statement, operator"
+        },
+        {
+          "url": "https://coolicons.cool/impress",
+          "date": "2026-10-16",
+          "note": "CC BY 4.0 license text"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "export formats (SVG etc.) not named on page"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/coolicons.md",
+        "lint": "pass"
+      }
+    },
+    "coolors": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "coolors.co and /pricing returned HTTP 403 to automated fetch (bot protection); not bypassed. Free tier unconfirmed.",
+      "site": {
+        "name": "Coolors",
+        "url": "https://coolors.co",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://coolors.co/pricing",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Not checked"
+      },
+      "sources": [
+        {
+          "url": "https://coolors.co",
+          "date": "2026-10-16",
+          "note": "403"
+        },
+        {
+          "url": "https://coolors.co/pricing",
+          "date": "2026-10-16",
+          "note": "403"
+        }
+      ],
+      "unverified": [
+        "everything: pricing, license, terms, safety"
+      ],
+      "injectionSeen": null
+    },
+    "copychar": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Free web utility, but operator is not stated on the site (terms/privacy links point to zedge.net / help.zedge.net, a 2021 article credits an individual developer) and no content/usage licence is given; owner to decide whether to list.",
+      "site": {
+        "name": "CopyChar",
+        "url": "https://copychar.cc",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Whole site free to use; no pricing or paid tier mentioned on the page",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://copychar.cc",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Search found no scam/malware reports for copychar.cc; a 2021 Hongkiat article describes it as a free click-to-copy webapp."
+      },
+      "sources": [
+        {
+          "url": "https://copychar.cc",
+          "date": "2026-10-16",
+          "note": "Click-to-copy special characters in categories (letters, punctuation, math, currency, arrows, emoji); each shows name, Unicode code point, HTML entity; footer links to zedge terms/privacy"
+        },
+        {
+          "url": "https://copychar.cc/about",
+          "date": "2026-10-16",
+          "note": "About text does not name an operator"
+        },
+        {
+          "url": "https://hongkiat.com/blog/copychar-special-characters-webapp",
+          "date": "2026-10-16",
+          "note": "Third-party 2021 review: free webapp"
+        }
+      ],
+      "unverified": [
+        "Operator/owner (Zedge vs individual)",
+        "Terms of use and any listing restriction",
+        "Ads",
+        "Recent maintenance activity"
+      ],
+      "injectionSeen": null
+    },
+    "cosmos": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Free sign-up (\"Join Cosmos for free\") but no pricing page; permanence of free access, operator entity and whether browsing works without an account are unconfirmed. Terms bar mirroring/framing without consent (not linking).",
+      "site": {
+        "name": "Cosmos",
+        "url": "https://www.cosmos.so",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Sign-up described as free; no plans or prices published on the home page",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.cosmos.so",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Cosmos Terms and Conditions · commercial: not stated · attribution: not stated · limit: no mirroring or framing of the service without written consent; age 13+",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.cosmos.so/legal/terms-conditions",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Web search for scam/shutdown/acquired returned only unrelated Cosmos crypto projects; nothing about cosmos.so."
+      },
+      "sources": [
+        {
+          "url": "https://www.cosmos.so",
+          "date": "2026-10-16",
+          "note": "Visual discovery platform: search by colour, save to collections, similar items, shop section, explore public profiles, hide-AI filter"
+        },
+        {
+          "url": "https://www.cosmos.so/legal/terms-conditions",
+          "date": "2026-10-16",
+          "note": "Terms: operator named only as Cosmos, 13+, no framing/mirroring"
+        }
+      ],
+      "unverified": [
+        "Legal operator",
+        "Whether a paid tier exists or the free tier is permanent",
+        "Browsing without login",
+        "Icon (not checked)"
+      ],
+      "injectionSeen": null
+    },
+    "coursera": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Freemium learning platform, alive and well known, but the pages read show only a free preview of the first module and a 7-day trial for paid plans, not a confirmed permanent audit tier; given site is an affiliate redirect (use coursera.org) and it is a course marketplace, owner to decide fit and clean URL.",
+      "site": {
+        "name": "Coursera",
+        "url": "https://www.coursera.org",
+        "alive": true,
+        "operator": "Coursera, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Some courses free to preview (first module incl. videos, readings, graded assignments); certificates and full access need upgrade or financial aid. A 7-day free trial applies to Specializations and Coursera Plus.",
+        "paidFrom": "Coursera Plus INR 2,099/month or INR 13,999/year; individual courses/programs INR 1,699/month (India pricing shown)",
+        "evidence": {
+          "url": "https://www.coursera.org/courseraplus",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Established public company; no safety search run beyond page reads (budget)."
+      },
+      "sources": [
+        {
+          "url": "https://www.coursera.org/courseraplus",
+          "date": "2026-10-16",
+          "note": "Plus and course prices in INR; 7-day trial; 14-day money-back on annual"
+        },
+        {
+          "url": "https://www.coursera.org/courses?query=free",
+          "date": "2026-10-16",
+          "note": "Free preview of first module of many courses; certificate needs upgrade or financial aid"
+        },
+        {
+          "url": "https://imp.i384100.net/xk4Xbv",
+          "date": "2026-10-16",
+          "note": "Original affiliate redirect, not used"
+        }
+      ],
+      "unverified": [
+        "Whether a free audit option still exists",
+        "USD pricing",
+        "Terms regarding listing",
+        "Icon (not checked)",
+        "Safety search not run"
+      ],
+      "injectionSeen": null
+    },
+    "courtside": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Editorial blog section of Dribbble (Courtside: The Dribbble Blog), not a tool; Dribbble is already in RL (published) so this would be a duplicate/thin sibling.",
+      "site": {
+        "name": "Courtside",
+        "url": "https://dribbble.com/stories",
+        "alive": true,
+        "operator": "Dribbble"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Articles appear openly readable; no paywall mentioned",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://dribbble.com/stories",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Posts dated up to 2026-10-14; first-party Dribbble site."
+      },
+      "sources": [
+        {
+          "url": "https://dribbble.com/stories",
+          "date": "2026-10-16",
+          "note": "Dribbble blog; latest article 2026-10-14"
+        }
+      ],
+      "unverified": [
+        "Terms on listing a blog section"
+      ],
+      "injectionSeen": null
+    },
+    "coverr": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Coverr",
+        "url": "https://coverr.co",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free stock footage and music downloads under the Coverr license, no attribution needed; AI generation is paid-only",
+        "paidFrom": "Basic $5/month shown on toggle (about $4.2 with annual toggle; label not explicit)",
+        "evidence": {
+          "url": "https://coverr.co/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Coverr License · commercial: yes · attribution: not required · limit: no AI training, no resale, no competing service, no brand/trademark use",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://coverr.co/license",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "coverr",
+        "type": "Stock Media",
+        "category": "Filming",
+        "title": "Coverr",
+        "description": "Free stock videos and music for commercial use without attribution, plus paid AI video, image and audio generation tools.",
+        "tags": [
+          "stock-videos",
+          "stock-music",
+          "royalty-free",
+          "stock",
+          "ai-tool"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "pexels",
+          "pixabay"
+        ],
+        "keyFeatures": [
+          "Free stock video clips and music downloadable without attribution",
+          "Commercial use allowed under the Coverr license",
+          "Paid AI generation for video, image, music, voiceover and sound effects",
+          "Premium stock library for paying members",
+          "Production API listed on the site"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-16: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated scam/shutdown search; site current (copyright 2026)"
+      },
+      "sources": [
+        {
+          "url": "https://coverr.co/pricing",
+          "date": "2026-10-16",
+          "note": "plans: four paid tiers, free stock section linked"
+        },
+        {
+          "url": "https://coverr.co/license",
+          "date": "2026-10-16",
+          "note": "license terms"
+        }
+      ],
+      "unverified": [
+        "pricing page 100000 of 185644 chars read",
+        "monthly vs annual price labelling unclear",
+        "operator not named",
+        "no dedicated safety search run",
+        "free stock page itself not opened",
+        "category Filming chosen by judgment (alt Design)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/coverr.md",
+        "lint": "pass"
+      }
+    },
+    "craft": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Craft",
+        "url": "https://craft.gustavofior.com",
+        "alive": true,
+        "operator": "Gustavo Fior (individual)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire site and the installable skill are free; no pricing shown",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://craft.gustavofior.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT · commercial: yes · attribution: keep notice · fonts keep own licenses (Inter, Redaction under SIL OFL)",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/gustavo-fior/craft",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "craft",
+        "type": "Resource",
+        "category": "Design",
+        "title": "Craft",
+        "description": "Short design engineering essays on typography, color, layout, motion and sound, also installable as an agent skill. Open source.",
+        "tags": [
+          "ui-ux",
+          "typography",
+          "visual-design",
+          "open-source",
+          "inspiration"
+        ],
+        "relatedResources": [
+          "emilkowalski-skills"
+        ],
+        "similarResources": [
+          "ai-design-field-guide"
+        ],
+        "keyFeatures": [
+          "Essays grouped by Typography, Color, Layout, Motion, Sound and Data",
+          "Published topics such as tabular numbers, optical alignment and nested border radius",
+          "Installable as a skill with npx skills add gustavo-fior/craft",
+          "Concept search across the collection",
+          "Open source on GitHub with contributions invited"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-16: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated scam search; GitHub repo with 339 stars matches the site"
+      },
+      "sources": [
+        {
+          "url": "https://craft.gustavofior.com",
+          "date": "2026-10-16",
+          "note": "description, skill install, topics"
+        },
+        {
+          "url": "https://github.com/gustavo-fior/craft",
+          "date": "2026-10-16",
+          "note": "MIT license, stars"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search run",
+        "many topics still marked Soon",
+        "unreleased repo articles are AI placeholders per site"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/craft.md",
+        "lint": "pass"
+      }
+    },
+    "creately": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Creately",
+        "url": "https://creately.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free forever plan: up to 40 shapes per diagram, all diagram types, real-time collaboration; no PNG/JPEG/PDF/SVG export, no private links, static data import only",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://creately.com/plans/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · terms not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://creately.com/plans/",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "creately",
+        "type": "Tool",
+        "category": "Productivity",
+        "title": "Creately",
+        "description": "Visual workspace for diagrams, whiteboards and planning with data-connected canvases. Free plan is limited; paid plans add exports.",
+        "tags": [
+          "whiteboard",
+          "collaboration",
+          "productivity",
+          "visual-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "excalidraw",
+          "tldraw"
+        ],
+        "keyFeatures": [
+          "Many diagram types available on the free plan",
+          "Real-time collaboration and team link sharing",
+          "Data-connected visuals (static import only on free)",
+          "Free plan capped at 40 shapes per diagram",
+          "Exports and private links need a paid plan"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-16: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated scam/shutdown search; established site"
+      },
+      "sources": [
+        {
+          "url": "https://creately.com/plans/",
+          "date": "2026-10-16",
+          "note": "plan names and free limits"
+        },
+        {
+          "url": "https://creately.com/pricing/",
+          "date": "2026-10-16",
+          "note": "404"
+        }
+      ],
+      "unverified": [
+        "Pro and Business prices not shown",
+        "terms of service not read",
+        "operator not named",
+        "no dedicated safety search run",
+        "board/user limits not stated"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/creately.md",
+        "lint": "pass"
+      }
+    },
+    "createos": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Enterprise AI execution layer with usage-based pricing; no free tier or trial stated on home or pricing page, and it is not a creator tool.",
+      "site": {
+        "name": "CreateOS",
+        "url": "https://createos.sh",
+        "alive": true,
+        "operator": "NodeOps, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://createos.sh/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://createos.sh",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "createos",
+        "type": "Tool",
+        "category": "Development",
+        "title": "CreateOS",
+        "description": "AI execution layer for deploying and governing agents, with sandboxes and an AI gateway; usage-based pricing.",
+        "tags": [
+          "ai-tool"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-16: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam search run"
+      },
+      "sources": [
+        {
+          "url": "https://createos.sh",
+          "date": "2026-10-16",
+          "note": "positioning, operator"
+        },
+        {
+          "url": "https://createos.sh/pricing",
+          "date": "2026-10-16",
+          "note": "usage-based: AI gateway 2.5% fee, sandbox per second; no free tier listed"
+        }
+      ],
+      "unverified": [
+        "free tier/credits existence",
+        "terms",
+        "no safety search run",
+        "directory 'Freemium' label not confirmed"
+      ],
+      "injectionSeen": null
+    },
+    "creatica": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Creatica",
+        "url": "https://creatica.app",
+        "alive": true,
+        "operator": "Creatica (no legal entity named)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Web editor with all 59 generators and unlimited SVG/PNG export (PNG up to 4096x4096), no account; CLI/MCP local renders unlimited; hosted API Local plan $0 with 200 renders/month",
+        "paidFrom": "$7/month (Pro, hosted API, 20,000 renders/month; optional)",
+        "evidence": {
+          "url": "https://creatica.app/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Engine/CLI/MCP MIT; generated backgrounds free for personal and commercial use · attribution: welcomed, not required · Terms page not read",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://creatica.app",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "creatica",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Creatica",
+        "description": "Free web tool and open-source engine for generating SVG and PNG vector backgrounds and patterns from 59 generators, with a CLI and MCP server.",
+        "tags": [
+          "graphic-design",
+          "open-source",
+          "web"
+        ],
+        "relatedResources": [
+          "boring-avatars",
+          "bubbleshift"
+        ],
+        "similarResources": [
+          "bubbleshift"
+        ],
+        "keyFeatures": [
+          "59 background and pattern generators",
+          "Unlimited SVG and PNG export, PNG up to 4096x4096",
+          "No account needed for the editor",
+          "MIT-licensed engine, CLI and MCP server",
+          "Optional paid hosted API with cacheable image URLs"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons: no match (check-icon exit 1)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Dedicated scam/shutdown search not run; home and pricing pages read, no red flags"
+      },
+      "sources": [
+        {
+          "url": "https://creatica.app",
+          "date": "2026-10-16",
+          "note": "product, free tier, license, contact"
+        },
+        {
+          "url": "https://creatica.app/pricing",
+          "date": "2026-10-16",
+          "note": "plans and prices"
+        }
+      ],
+      "unverified": [
+        "Terms & attribution page not read",
+        "No legal operator name",
+        "Safety search not run",
+        "Whether the hosted-API free tier is permanent"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/creatica.md",
+        "lint": "pass"
+      }
+    },
+    "creatify": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Creatify",
+        "url": "https://creatify.ai",
+        "alive": true,
+        "operator": "Creatify Labs Inc. (inferred from footer and G2 slug)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan with 10 credits that renew monthly: up to 2 video ads or 20 image ads, 300 AI actors, 10 premium models, 40 templates; exports watermarked",
+        "paidFrom": "$12/month (Standard, 55 credits; likely annual billing, $15 monthly struck through)",
+        "evidence": {
+          "url": "https://creatify.ai/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Not read · commercial use of free-plan output unknown · exports watermarked on free plan",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://creatify.ai/pricing",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "creatify",
+        "type": "AI Tool",
+        "category": "Marketing",
+        "title": "Creatify",
+        "description": "AI tool that turns a product URL into video and image ads, with AI avatars, ad cloning and one-click launch to ad platforms.",
+        "tags": [
+          "ai-tool",
+          "social-media-design",
+          "video-template"
+        ],
+        "relatedResources": [
+          "invideo-ai"
+        ],
+        "similarResources": [
+          "invideo-ai"
+        ],
+        "keyFeatures": [
+          "Product URL to video ad generation",
+          "AI avatars and ad cloning",
+          "Static image ads",
+          "Ad analytics and publishing to Meta, TikTok, YouTube and more",
+          "Free plan with monthly credits"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons: no match (check-icon exit 1)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Dedicated scam/shutdown search not run"
+      },
+      "sources": [
+        {
+          "url": "https://creatify.ai",
+          "date": "2026-10-16",
+          "note": "product, operator"
+        },
+        {
+          "url": "https://creatify.ai/pricing",
+          "date": "2026-10-16",
+          "note": "free plan FAQ, Standard price"
+        }
+      ],
+      "unverified": [
+        "Terms/commercial-use for free output not read",
+        "Whether $12 needs annual billing",
+        "Safety search not run",
+        "Free plan described only in FAQ, not in plan grid"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/creatify.md",
+        "lint": "pass"
+      }
+    },
+    "creative-bloq": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Creative Bloq",
+        "url": "https://www.creativebloq.com",
+        "alive": true,
+        "operator": "Future plc"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Articles readable without payment (no paywall seen on home page); free Join The Club membership; optional ad-free app and magazine subscriptions",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.creativebloq.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Editorial site; content copyright Future plc · terms not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.creativebloq.com",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "creative-bloq",
+        "type": "Website",
+        "category": "Design",
+        "title": "Creative Bloq",
+        "description": "Daily art and design news, tutorials, software guides and buying advice for creatives, from branding and illustration to 3D and AI.",
+        "tags": [
+          "inspiration",
+          "graphic-design"
+        ],
+        "relatedResources": [
+          "awwwards"
+        ],
+        "similarResources": [
+          "awwwards"
+        ],
+        "keyFeatures": [
+          "Daily design, art and 3D news",
+          "Tutorials and creative inspiration",
+          "Software and hardware buying guides and deals",
+          "Sections for branding, app design, illustration and AI"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons: no match (check-icon exit 1)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Active, articles dated 15-16 Oct 2026; safety search not run"
+      },
+      "sources": [
+        {
+          "url": "https://www.creativebloq.com",
+          "date": "2026-10-16",
+          "note": "publisher, nav, recent articles, membership"
+        }
+      ],
+      "unverified": [
+        "Metered paywall not individually tested",
+        "Terms not read",
+        "Safety search not run"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/creative-bloq.md",
+        "lint": "pass"
+      }
+    },
+    "creative-boom": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Creative Boom",
+        "url": "https://www.creativeboom.com",
+        "alive": true,
+        "operator": "Creative Boom Ltd (England and Wales, 07437294)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Articles, news and advice readable free; free weekly newsletter; The Studio is a separate private community (terms unread)",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.creativeboom.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Editorial site · terms not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.creativeboom.com",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "creative-boom",
+        "type": "Website",
+        "category": "Design",
+        "title": "Creative Boom",
+        "description": "Independent art and design publication since 2009 with creative news, inspiration, career advice, jobs and a community for designers and artists.",
+        "tags": [
+          "inspiration",
+          "graphic-design"
+        ],
+        "relatedResources": [
+          "awwwards"
+        ],
+        "similarResources": [
+          "behance"
+        ],
+        "keyFeatures": [
+          "News and inspiration from emerging artists and designers",
+          "Advice and career tips",
+          "Creative job listings",
+          "Podcast and community events"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons: no match (check-icon exit 1)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Active, articles dated up to 15 Oct 2026; safety search not run"
+      },
+      "sources": [
+        {
+          "url": "https://www.creativeboom.com",
+          "date": "2026-10-16",
+          "note": "publisher, nav, recent articles"
+        }
+      ],
+      "unverified": [
+        "The Studio community pricing not read",
+        "Terms not read",
+        "Safety search not run"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/creative-boom.md",
+        "lint": "pass"
+      }
     }
   }
 }

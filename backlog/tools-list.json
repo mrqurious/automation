@@ -9757,7 +9757,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "colorffy",
       "priority": "P2",
       "hasResearch": true
     },
@@ -9887,7 +9887,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "colormind",
       "priority": "P2",
       "hasResearch": true
     },
@@ -10043,7 +10043,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "colorway",
       "priority": "P2",
       "hasResearch": true
     },
@@ -10095,7 +10095,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "colour-contrast-analyser",
       "priority": "P2",
       "hasResearch": true
     },
@@ -10147,7 +10147,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "comfyui",
       "priority": "P2",
       "hasResearch": true
     },
@@ -10305,7 +10305,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "conductor",
       "priority": "P2",
       "hasResearch": true
     },
@@ -10354,12 +10354,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Free experimental tools, but no terms/pricing page; repo licenses mixed (csOS and image-paint MIT, others unlicensed); operator unnamed; possible new tag/type.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "contentbot-ai",
@@ -10406,12 +10406,12 @@
           "file": "Best Design Communities for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Freelance network/marketplace with a $0 plan but client-payment and digital-product fees on Free; fit as a design resource and free-tier limits unclear.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "contrast",
@@ -10432,12 +10432,12 @@
           "file": "Best Color Tools and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Price and license not stated on site; macOS v1 source README forbids redistribution and says no longer developed; Figma plugin page returned 403 so free status unconfirmed.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "contrast-plugin",
@@ -10458,12 +10458,12 @@
           "file": "Best Color Tools and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Figma Community page returned HTTP 403 to fetch; not bypassed. Likely the same product as 'contrast' (usecontrast.com links to it).",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "control",
@@ -10484,12 +10484,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Home page says \"TRY FREE\" and \"No credit card required\" but shows no plan names, prices or limits; /pricing and /plans return 404. Permanent free tier not confirmed (may be a trial).",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "cooldock",
@@ -10536,12 +10536,12 @@
           "file": "Best Color Tools and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "coolicons",
@@ -10560,12 +10560,12 @@
           "file": "Best Free Open Source Icon Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "beta",
       "rlSlug": null,
       "priority": "P3",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "coolors",
@@ -10586,12 +10586,12 @@
           "file": "Best Color Tools and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "coolors.co and /pricing returned HTTP 403 to automated fetch (bot protection); not bypassed. Free tier unconfirmed.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "copy-ai",
@@ -10638,12 +10638,12 @@
           "file": "Best Free Font Libraries and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Free web utility, but operator is not stated on the site (terms/privacy links point to zedge.net / help.zedge.net, a 2021 article credits an individual developer) and no content/usage licence is given; owner to decide whether to list.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "corebook",
@@ -10742,12 +10742,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Free sign-up (\"Join Cosmos for free\") but no pricing page; permanence of free access, operator entity and whether browsing works without an account are unconfirmed. Terms bar mirroring/framing without consent (not linking).",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "coursera",
@@ -10768,12 +10768,12 @@
           "file": "Learn UI_UX Design_ Courses, Guides & Best Practices.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Freemium learning platform, alive and well known, but the pages read show only a free preview of the first module and a 7-day trial for paid plans, not a confirmed permanent audit tier; given site is an affiliate redirect (use coursera.org) and it is a course marketplace, owner to decide fit and clean URL.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "courtside",
@@ -10794,12 +10794,12 @@
           "file": "Best Design Blogs & Magazines for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Editorial blog section of Dribbble (Courtside: The Dribbble Blog), not a tool; Dribbble is already in RL (published) so this would be a duplicate/thin sibling.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "coverr",
@@ -10820,12 +10820,12 @@
           "file": "Free Stock Images & Video Websites _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "craft",
@@ -10846,12 +10846,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "craft-2",
@@ -10898,12 +10898,12 @@
           "file": "Productivity Tools for Design and Product Teams.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "createos",
@@ -10924,12 +10924,12 @@
           "file": "Productivity Tools for Design and Product Teams.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Enterprise AI execution layer with usage-based pricing; no free tier or trial stated on home or pricing page, and it is not a creator tool.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "creati-ai",
@@ -10976,12 +10976,12 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "creatify",
@@ -11002,12 +11002,12 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "creative-bloq",
@@ -11028,12 +11028,12 @@
           "file": "Best Design Blogs & Magazines for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "creative-boom",
@@ -11054,12 +11054,12 @@
           "file": "Best Design Blogs & Magazines for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "creative-flow",
@@ -59927,16 +59927,16 @@
     "byStatus": {
       "deferred-trial": 232,
       "deferred-paid": 217,
-      "blocked": 135,
-      "drafted": 128,
-      "rejected": 61,
+      "blocked": 145,
+      "drafted": 134,
+      "rejected": 62,
       "in-rl": 33,
-      "researched": 6,
-      "todo": 1467
+      "researched": 9,
+      "todo": 1447
     },
     "todoByPriority": {
-      "P2": 1384,
-      "P3": 82,
+      "P2": 1365,
+      "P3": 81,
       "P1": 1
     }
   }
