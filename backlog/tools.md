@@ -10,13 +10,13 @@ Generated 2026-10-16 by `scripts/backlog-build.mjs` from `backlog/tools-list.jso
 
 | Status | Count | Meaning |
 |---|---:|---|
-| `todo` | 1747 | in the research queue (free / freemium / beta) |
+| `todo` | 1727 | in the research queue (free / freemium / beta) |
 | `in-rl` | 33 | already in ResourcesList (matched by site or slug) — skip, maybe use for related/similar links |
 | `deferred-paid` | 217 | labelled **Paid** only — parked |
 | `deferred-trial` | 232 | labelled **Free Trial** only — parked until a real free tier is confirmed |
-| `researching` / `researched` / `drafted` / `rejected` / `blocked` | 0 / 0 / 26 / 11 / 13 | set by research sessions |
+| `researching` / `researched` / `drafted` / `rejected` / `blocked` | 0 / 0 / 34 / 15 / 21 | set by research sessions |
 
-Queue by priority: **P1** 1 (free/freemium, listed on 2+ pages) · **P2** 1655 (free/freemium, 1 page) · **P3** 91 (beta).
+Queue by priority: **P1** 1 (free/freemium, listed on 2+ pages) · **P2** 1635 (free/freemium, 1 page) · **P3** 91 (beta).
 
 ## What happens if a tool is not processed (and why)
 
@@ -48,6 +48,26 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | 99designs | 99designs.com | Free + Paid | 1 | P2 | rejected |
 | A fresh website | a-fresh.website | Free | 1 | P2 | rejected |
 | A List Apart | alistapart.com | Free | 1 | P2 | rejected |
+| a0.dev | a0.dev | Freemium | 1 | P2 | blocked |
+| A1 | a1.gallery | Free | 1 | P2 | drafted |
+| A11Y Project | a11yproject.com | Free | 1 | P2 | drafted |
+| Aaply | aaply.app | Freemium | 1 | P2 | drafted |
+| Abduzeedo | abduzeedo.com | Free | 1 | P2 | blocked |
+| Abovethefold.fyi | abovethefold.fyi | Free | 1 | P2 | rejected |
+| Absurd Illustrations | absurd.design | Free + Paid | 1 | P2 | drafted |
+| Abun | via Digitool | Free tier listed | 1 | P2 | rejected |
+| Academy | academyux.com | Free | 1 | P2 | rejected |
+| Accented | accented.dev | Free | 1 | P2 | drafted |
+| Access Guide | accessguide.io | Free | 1 | P2 | blocked |
+| Accessibility Not-Checklist | not-checklist.intopia.digital | Free | 1 | P2 | blocked |
+| Accessible Brand Colors | abc.useallfive.com | Free | 1 | P2 | blocked |
+| Accessible Color Matrix | toolness.github.io | Free | 1 | P2 | blocked |
+| Aceternity UI | via Digitool | Free tier listed | 1 | P2 | drafted |
+| Adalo | adalo.com | Freemium | 1 | P2 | drafted |
+| Adam CAD Copilot | adam.new | Freemium | 1 | P2 | blocked |
+| Adele | adele.uxpin.com | Free | 1 | P2 | drafted |
+| Adfolio | adfolio.design | Free | 1 | P2 | blocked |
+| Adobe Blog | blog.adobe.com | Free | 1 | P2 | rejected |
 | AIGA Eye on Design | eyeondesign.aiga.org | Free | 2 | P1 | rejected |
 | Atoms | atoms.dev | Freemium | 2 | P1 | drafted |
 | Banani | getbanani.link | Freemium / Free tier listed | 2 | P1 | drafted |
@@ -87,13 +107,12 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Visily | visily.ai | Freemium | 2 | P1 | drafted |
 | Wispr Flow | ref.wisprflow.ai | Free tier listed / Freemium | 2 | P1 | drafted |
 
-## Research queue (1747)
+## Research queue (1727)
 
-### Best AI Design Tools for Designers (206)
+### Best AI Design Tools for Designers (205)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Adam CAD Copilot | adam.new | Freemium | 1 | P2 |
 | Adobe Firefly | firefly.adobe.com | Freemium | 1 | P2 |
 | Adobe Podcast | podcast.adobe.com | Freemium | 1 | P2 |
 | AI Design Field Guide | aidesignfieldguide.com | Free | 1 | P2 |
@@ -300,13 +319,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | PromptBase | promptbase.com |  | 1 | P3 |
 | Stitch | stitch.withgoogle.com | Beta | 1 | P3 |
 
-### Best Color Tools and Inspiration for Designers (88)
+### Best Color Tools and Inspiration for Designers (85)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Accented | accented.dev | Free | 1 | P2 |
-| Accessible Brand Colors | abc.useallfive.com | Free | 1 | P2 |
-| Accessible Color Matrix | toolness.github.io | Free | 1 | P2 |
 | Adobe Color | color.adobe.com | Free | 1 | P2 |
 | Alphredo | alphredo.app | Free | 1 | P2 |
 | AnyGradient | anygradient.com | Free | 1 | P2 |
@@ -393,11 +409,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | WebGradients | webgradients.com | Free | 1 | P2 |
 | Who Can Use | whocanuse.com | Free | 1 | P2 |
 
-### Best Design Blogs & Magazines for Designers (63)
+### Best Design Blogs & Magazines for Designers (62)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Adobe Blog | blog.adobe.com | Free | 1 | P2 |
 | Adobe Design | adobe.design | Free | 1 | P2 |
 | Adweek | adweek.com | Free + Paid | 1 | P2 |
 | Awwwards Blog | awwwards.com | Free | 1 | P2 |
@@ -461,11 +476,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Webflow Blog | webflow.partnerlinks.io | Free | 1 | P2 |
 | Wepresent | wepresent.wetransfer.com | Free | 1 | P2 |
 
-### Best Design Communities for Designers (46)
+### Best Design Communities for Designers (45)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Academy | academyux.com | Free | 1 | P2 |
 | AIGA Design Jobs | designjobs.aiga.org | Free + Paid | 1 | P2 |
 | ArtNetwork | artnetwork.io | Free | 1 | P2 |
 | Authentic Jobs | authenticjobs.com | Free + Paid | 1 | P2 |
@@ -512,11 +526,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | WeLoveProduct | weloveproduct.co | Freemium | 1 | P2 |
 | Woody | woodyjobs.com | Freemium | 1 | P2 |
 
-### Best Design Tools Across Disciplines (204)
+### Best Design Tools Across Disciplines (203)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Adele | adele.uxpin.com | Free | 1 | P2 |
 | Affinity Page Layout | affinity.studio | Free | 1 | P2 |
 | Affinity Photo Editing | affinity.studio | Free | 1 | P2 |
 | Affinity Vector Studio | affinity.studio | Free | 1 | P2 |
@@ -962,12 +975,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Wannathis Mockups | wannathis.one | Free + Paid | 1 | P2 |
 | WhiteUI.Store | gumroad.com | Free + Paid | 1 | P2 |
 
-### Best No-Code Website Builders (122)
+### Best No-Code Website Builders (120)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| a0.dev | a0.dev | Freemium | 1 | P2 |
-| Adalo | adalo.com | Freemium | 1 | P2 |
 | Airship | airship.design | Free | 1 | P2 |
 | Anima | animaapp.com | Freemium | 1 | P2 |
 | Ant Design | ant.design | Free | 1 | P2 |
@@ -1089,11 +1100,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Revyme | revyme.com | Beta | 1 | P3 |
 | Zoah | zoah.com | Beta | 1 | P3 |
 
-### Best Open Source Illustration Libraries (97)
+### Best Open Source Illustration Libraries (96)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Absurd Illustrations | absurd.design | Free + Paid | 1 | P2 |
 | ambientCG | ambientcg.com | Free | 1 | P2 |
 | Ava Maker | avamake.com | Free | 1 | P2 |
 | Avataaars | avataaars.com | Free | 1 | P2 |
@@ -1191,11 +1201,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | UI8 - Illustrations | ui8.net | Free + Paid | 1 | P2 |
 | Vackground | vackground.com | Free + Paid | 1 | P2 |
 
-### Best UX Tools for Designers (72)
+### Best UX Tools for Designers (71)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Aaply | aaply.app | Freemium | 1 | P2 |
 | Amplitude | use.amplitude.com | Freemium | 1 | P2 |
 | Bhava | bhava.app | Freemium | 1 | P2 |
 | blokdots | blokdots.com | Freemium | 1 | P2 |
@@ -1268,14 +1277,11 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Zen Flowchart | zenflowchart.com | Freemium | 1 | P2 |
 | Stratify | trystratify.com | Beta | 1 | P3 |
 
-### Design Inspiration Sites for UI, Web, Graphic & Branding (166)
+### Design Inspiration Sites for UI, Web, Graphic & Branding (163)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
 | Nicelydone | nicelydone.club | Free Trial / Free tier listed | 2 | P1 |
-| A1 | a1.gallery | Free | 1 | P2 |
-| Abduzeedo | abduzeedo.com | Free | 1 | P2 |
-| Adfolio | adfolio.design | Free | 1 | P2 |
 | Ads of the World | adsoftheworld.com | Free | 1 | P2 |
 | Appshots | appshots.design | Free + Paid | 1 | P2 |
 | Archives.design | archives.design | Free | 1 | P2 |
@@ -1495,12 +1501,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Vidsplay | vidsplay.com | Free | 1 | P2 |
 | ZapSplat | zapsplat.com | Freemium | 1 | P2 |
 
-### Free Tools (145)
+### Free Tools (143)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Abun | via Digitool | Free tier listed | 1 | P2 |
-| Aceternity UI | via Digitool | Free tier listed | 1 | P2 |
 | Ahrefs AI | via Digitool | Free tier listed | 1 | P2 |
 | AI Renamer | via Digitool | Free tier listed | 1 | P2 |
 | AirOps | via Digitool | Free tier listed | 1 | P2 |
@@ -1645,14 +1649,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Xano | via Digitool | Free tier listed | 1 | P2 |
 | Xero | via Digitool | Free tier listed (Digitool "Premium" badge) | 1 | P2 |
 
-### Learn UI/UX Design: Courses, Guides & Best Practices (98)
+### Learn UI/UX Design: Courses, Guides & Best Practices (94)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| A11Y Project | a11yproject.com | Free | 1 | P2 |
-| Abovethefold.fyi | abovethefold.fyi | Free | 1 | P2 |
-| Access Guide | accessguide.io | Free | 1 | P2 |
-| Accessibility Not-Checklist | not-checklist.intopia.digital | Free | 1 | P2 |
 | AJ Smart | youtube.com | Free | 1 | P2 |
 | Android Design Hub | developer.android.com | Free | 1 | P2 |
 | Awwwards Conference Talks | awwwards.com | Free + Paid | 1 | P2 |

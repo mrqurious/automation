@@ -3432,6 +3432,1100 @@
         "no safety search for scam/shutdown"
       ],
       "injectionSeen": null
+    },
+    "a0-dev": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "Pricing page is JS-rendered and shows only 'Choose your plan'; free tier limits and permanence cannot be confirmed. Retry with rendered page or owner check.",
+      "site": {
+        "name": "a0.dev",
+        "url": "https://a0.dev",
+        "alive": true,
+        "operator": "a0.dev (Y Combinator W25 per Dealroom; legal entity not named on site)"
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Search found no scam/shutdown/acquisition reports; profiles list it as active YC W25 startup."
+      },
+      "sources": [
+        {
+          "url": "https://a0.dev",
+          "date": "2026-10-16",
+          "note": "AI chat-based mobile app builder; no legal entity, no terms link, only /privacy"
+        },
+        {
+          "url": "https://a0.dev/pricing",
+          "date": "2026-10-16",
+          "note": "no plan details returned"
+        },
+        {
+          "url": "https://app.dealroom.co/companies/a0_dev_yc_w25_",
+          "date": "2026-10-16",
+          "note": "YC W25, San Francisco (second-hand); search summary says free tier plus paid Pro (second-hand)"
+        }
+      ],
+      "unverified": [
+        "free plan existence and limits (second-hand only)",
+        "paid prices",
+        "terms of service",
+        "license"
+      ],
+      "injectionSeen": null
+    },
+    "a1": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "A1",
+        "url": "https://www.a1.gallery",
+        "alive": true,
+        "operator": "Bryn (bryntaylor.co.uk), individual"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Browsing the gallery needs no login; a free account allows saving sites, making boards and submitting sites (free submission review takes about 3-4 weeks). Exact free save limit not stated.",
+        "paidFrom": "Pro 9 USD/month, or 6 USD/month billed yearly; 49 USD to skip the submission queue",
+        "evidence": {
+          "url": "https://www.a1.gallery",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary site terms · commercial: not stated · attribution: n/a · limit: no bulk downloading, mirroring or reusing gallery data (e.g. for AI training); linking/listing not mentioned or forbidden",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.a1.gallery/terms",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "a1-gallery",
+        "type": "Website",
+        "category": "Design",
+        "title": "A1 Gallery",
+        "description": "Curated gallery of well-designed websites for web design inspiration, with free browsing and optional saving to boards.",
+        "tags": [
+          "inspiration",
+          "ui-ux",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "awwwards",
+          "dribbble",
+          "behance"
+        ],
+        "keyFeatures": [
+          "Curated showcase of well-designed websites",
+          "Browse without logging in",
+          "Free account to save sites and build boards",
+          "Submit your own site for review",
+          "Optional Pro plan with unlimited saves"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Not in Simple Icons (check-icon, 2026-10-16)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://www.a1.gallery",
+          "date": "2026-10-16",
+          "note": "what it is, free account, Pro and queue-skip prices, operator"
+        },
+        {
+          "url": "https://www.a1.gallery/terms",
+          "date": "2026-10-16",
+          "note": "no linking ban; bulk download/data reuse banned"
+        }
+      ],
+      "unverified": [
+        "free account save limit",
+        "commercial use of screenshots",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-04",
+        "file": "src/content/resources/a1-gallery.md",
+        "lint": "pass"
+      }
+    },
+    "a11y-project": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "The A11Y Project",
+        "url": "https://www.a11yproject.com",
+        "alive": true,
+        "operator": "The Accessibility Project (community, open source on GitHub); no legal entity named"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire site (checklist, posts, resources directory) is free to read; donations via sponsorship/Open Collective are optional.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.a11yproject.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Apache-2.0 (repository) · commercial: yes for the repo code · attribution: per Apache-2.0 · limit: separate license for written content not confirmed",
+        "openSource": true,
+        "spdx": "Apache-2.0",
+        "evidence": {
+          "url": "https://github.com/a11yproject/a11yproject.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "a11y-project",
+        "type": "Resource",
+        "category": "Development",
+        "title": "The A11Y Project",
+        "description": "Community-run, open source accessibility hub with a WCAG-based checklist, articles and a directory of tools and learning material.",
+        "tags": [
+          "open-source",
+          "ui-ux",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Accessibility checklist based on WCAG",
+          "Posts explaining accessibility concepts and myths",
+          "Resources directory of tools, books and courses",
+          "Open source site with community contributions"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Not in Simple Icons (check-icon, 2026-10-16)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated safety search; well-known open source project with 2,441 commits on GitHub"
+      },
+      "sources": [
+        {
+          "url": "https://www.a11yproject.com",
+          "date": "2026-10-16",
+          "note": "what it is, checklist/posts/resources, footer APLv2 link"
+        },
+        {
+          "url": "https://github.com/a11yproject/a11yproject.com",
+          "date": "2026-10-16",
+          "note": "Apache-2.0, 2,441 commits"
+        }
+      ],
+      "unverified": [
+        "license for written content (about/license 404'd)",
+        "last commit date",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-04",
+        "file": "src/content/resources/a11y-project.md",
+        "lint": "pass"
+      }
+    },
+    "aaply": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Aaply",
+        "url": "https://aaply.app",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan: 1 active project, 20 mobile screens, all features. Permanence not stated explicitly.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://aaply.app/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: not read · attribution: n/a · limit: no terms page found",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://aaply.app",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "aaply",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Aaply",
+        "description": "Web tool for wireframing mobile app screens and mapping user journeys on an infinite canvas, with Figma export; free plan limited to one project.",
+        "tags": [
+          "prototyping",
+          "ui-ux",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "figma",
+          "figjam"
+        ],
+        "keyFeatures": [
+          "Infinite canvas for mobile app wireframes",
+          "Templates and a demo sandbox",
+          "Plan user journeys before moving to Figma",
+          "Free plan: 1 project, 20 screens, all features"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Not in Simple Icons (check-icon, 2026-10-16)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Search found only directory listings (AlternativeTo, Serchen), no scam or shutdown reports; no user reviews."
+      },
+      "sources": [
+        {
+          "url": "https://aaply.app",
+          "date": "2026-10-16",
+          "note": "what it is, no terms link, operator unnamed, contact email"
+        },
+        {
+          "url": "https://aaply.app/pricing",
+          "date": "2026-10-16",
+          "note": "Free plan 1 project/20 screens; Plus unlimited; price figures garbled"
+        },
+        {
+          "url": "https://alternativeto.net/software/aaply",
+          "date": "2026-10-16",
+          "note": "second-hand: listed as free and proprietary"
+        }
+      ],
+      "unverified": [
+        "Plus plan price (page text garbled: 11 and 17 per month, labels unclear)",
+        "free plan permanence",
+        "terms/commercial use",
+        "operator"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-04",
+        "file": "src/content/resources/aaply.md",
+        "lint": "pass"
+      }
+    },
+    "abduzeedo": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Design inspiration blog/gallery; free access implied but terms page unread and article-blog vs resource fit is an owner call",
+      "site": {
+        "name": "Abduzeedo",
+        "url": "https://abduzeedo.com",
+        "alive": true,
+        "operator": "Steale LLC"
+      },
+      "sources": [
+        {
+          "url": "https://abduzeedo.com",
+          "date": "2026-10-16",
+          "note": "design inspiration since 2006; footer (c) 2026 Steale LLC; Get featured submissions; no paywall mentioned"
+        },
+        {
+          "url": "web search: Abduzeedo Steale LLC acquired OR shutting down",
+          "date": "2026-10-16",
+          "note": "no relevant hits"
+        }
+      ],
+      "unverified": [
+        "Privacy & Terms of Service page not read",
+        "no explicit statement that content is free",
+        "safety search returned only unrelated results"
+      ],
+      "injectionSeen": null
+    },
+    "abovethefold-fyi": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Novelty one-page side project, not a resource RL lists",
+      "site": {
+        "name": "Abovethefold.fyi",
+        "url": "https://abovethefold.fyi",
+        "alive": true,
+        "operator": "Rob (roblafratta.com)"
+      },
+      "sources": [
+        {
+          "url": "https://abovethefold.fyi",
+          "date": "2026-10-16",
+          "note": "novelty page arguing the fold is a myth; made by Rob; no pricing or terms"
+        }
+      ],
+      "unverified": [
+        "license/terms none found",
+        "no safety search run"
+      ],
+      "injectionSeen": null
+    },
+    "absurd-illustrations": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "Free illustrations with paid membership; free licence is non-commercial only with required attribution (owner should know, matters for reels)",
+      "site": {
+        "name": "Absurd Design",
+        "url": "https://absurd.design",
+        "alive": true,
+        "operator": "The Absurd Project (governing law Spain)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free hand-drawn illustrations for personal and non-commercial use with attribution; Monthly and Yearly membership offered for more variety (prices not seen)",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://absurd.design/chapter/intro",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Absurd free licence · commercial: no · attribution: required (link 'Illustration(s) from absurd.design') · no AI training, no resale/templates, terms changeable",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://absurd.design/freelicense",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "absurd-design",
+        "type": "Stock Media",
+        "category": "Design",
+        "title": "Absurd Design",
+        "description": "Quirky hand-drawn illustration library, free for non-commercial use with credit, plus a paid membership for more variety and commercial licensing.",
+        "tags": [
+          "stock-illustrations",
+          "graphic-design",
+          "inspiration"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "undraw"
+        ],
+        "keyFeatures": [
+          "Hand-drawn illustrations in a surreal, humorous style",
+          "Free downloads for personal and non-commercial projects",
+          "Attribution link to absurd.design required on free works",
+          "Paid monthly or yearly membership for more variety (membership licence)",
+          "Free licence forbids resale, templates, merch and AI training"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "not in Simple Icons (not checked by exact name 'Absurd'); site SVG not fetched"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://absurd.design/chapter/intro",
+          "date": "2026-10-16",
+          "note": "what it is, free vs membership"
+        },
+        {
+          "url": "https://absurd.design/license",
+          "date": "2026-10-16",
+          "note": "points to free and paid licence pages"
+        },
+        {
+          "url": "https://absurd.design/freelicense",
+          "date": "2026-10-16",
+          "note": "free licence terms"
+        }
+      ],
+      "unverified": [
+        "membership prices and paid licence (paidlicense page not read)",
+        "no safety search",
+        "Simple Icons check not run for this name",
+        "operator individual names unknown"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-04",
+        "file": "src/content/resources/absurd-design.md",
+        "lint": "pass"
+      }
+    },
+    "abun": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Only a limited-time 2-credit trial; paid from $24/month",
+      "site": {
+        "name": "Abun",
+        "url": "https://abun.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "Seed 24 USD/month list (12 first month; annual 12/month)",
+        "evidence": {
+          "url": "https://abun.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/abun/",
+          "date": "2026-10-16",
+          "note": "resolved real site abun.com"
+        },
+        {
+          "url": "https://abun.com",
+          "date": "2026-10-16",
+          "note": "plans; Trial plan $0 with 2 credits, 'Free Accounts available only for a Limited Time'"
+        },
+        {
+          "url": "https://abun.com/pricing",
+          "date": "2026-10-16",
+          "note": "404"
+        }
+      ],
+      "unverified": [
+        "license/terms not read",
+        "no safety search"
+      ],
+      "injectionSeen": null
+    },
+    "academy": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "UX staffing/recruiting agency, not a resource RL lists",
+      "site": {
+        "name": "Academy",
+        "url": "https://www.academyux.com",
+        "alive": true,
+        "operator": "Academy (UX staffing agency)"
+      },
+      "sources": [
+        {
+          "url": "https://www.academyux.com",
+          "date": "2026-10-16",
+          "note": "agency services, no prices, free blog/podcast only as extras"
+        }
+      ],
+      "unverified": [
+        "pricing",
+        "terms",
+        "safety search not run"
+      ],
+      "injectionSeen": null
+    },
+    "accented": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Accented",
+        "url": "https://accented.dev",
+        "alive": true,
+        "operator": "Pavel Pomerantsev"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Fully free, open-source library",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://accented.dev",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT · commercial: yes · attribution: license notice kept · limit: none stated",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/pomerantsev/accented",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "accented",
+        "type": "Library",
+        "category": "Development",
+        "title": "Accented",
+        "description": "Open-source frontend library that highlights accessibility issues right on the page while you develop, built on axe-core.",
+        "tags": [
+          "open-source",
+          "ui-ux",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Shows interactive callouts next to elements with accessibility issues",
+          "Built on axe-core, reports on the current page state",
+          "Console-only mode that leaves the DOM untouched",
+          "Framework-agnostic: React, Vue, Svelte or none",
+          "Works with server-rendered and client-rendered content"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "GitHub repo with 835 commits, 78 stars; no dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://accented.dev",
+          "date": "2026-10-16",
+          "note": "features, MIT, author"
+        },
+        {
+          "url": "https://github.com/pomerantsev/accented",
+          "date": "2026-10-16",
+          "note": "MIT, monorepo, stars"
+        }
+      ],
+      "unverified": [
+        "last commit/release date not shown",
+        "install command not read",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-04",
+        "file": "src/content/resources/accented.md",
+        "lint": "pass"
+      }
+    },
+    "access-guide": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Free WCAG guides, CC BY-NC, but author says site will be taken down 2027-07-31",
+      "site": {
+        "name": "Access Guide",
+        "url": "https://www.accessguide.io",
+        "alive": true,
+        "operator": "Alex Chen"
+      },
+      "sources": [
+        {
+          "url": "https://www.accessguide.io",
+          "date": "2026-10-16",
+          "note": "about 50 WCAG 2.1 guides, glossary, checklist, CC BY-NC, takedown notice"
+        }
+      ],
+      "unverified": [
+        "safety search not run",
+        "exact About page license wording"
+      ],
+      "injectionSeen": null
+    },
+    "accessibility-not-checklist": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "JS-only page shows just Loading; intopia.digital refused connection",
+      "site": {
+        "name": "Accessibility Not-Checklist",
+        "url": "https://not-checklist.intopia.digital",
+        "alive": true,
+        "operator": "Intopia"
+      },
+      "sources": [
+        {
+          "url": "https://not-checklist.intopia.digital",
+          "date": "2026-10-16",
+          "note": "only title and Loading shown"
+        }
+      ],
+      "unverified": [
+        "content",
+        "license",
+        "free status"
+      ],
+      "injectionSeen": null
+    },
+    "accessible-brand-colors": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "abc.useallfive.com returned only a page title (JS-rendered); function, pricing and terms unreadable. Agency parent site alive but does not link the tool",
+      "site": {
+        "name": "Accessible Brand Colors",
+        "url": "https://abc.useallfive.com",
+        "alive": true,
+        "operator": "Use All Five (design and technology agency)"
+      },
+      "sources": [
+        {
+          "url": "https://abc.useallfive.com",
+          "date": "2026-10-16",
+          "note": "title only"
+        },
+        {
+          "url": "https://useallfive.com",
+          "date": "2026-10-16",
+          "note": "agency active (2026 copyright, post 2026-04-27); no link to the tool"
+        }
+      ],
+      "unverified": [
+        "whether the tool still works",
+        "free terms",
+        "license"
+      ],
+      "injectionSeen": null
+    },
+    "accessible-color-matrix": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Free static GitHub Pages prototype (Elm) with no stated license or pricing page; repo activity dates unknown. Owner to decide if an unlicensed prototype is worth listing",
+      "site": {
+        "name": "Accessible Color Matrix",
+        "url": "https://toolness.github.io/accessible-color-matrix/",
+        "alive": true,
+        "operator": "toolness (GitHub user)"
+      },
+      "sources": [
+        {
+          "url": "https://toolness.github.io/accessible-color-matrix/",
+          "date": "2026-10-16",
+          "note": "described as accessible color palette builder"
+        },
+        {
+          "url": "https://github.com/toolness/accessible-color-matrix",
+          "date": "2026-10-16",
+          "note": "Elm-based prototype, 65 commits, public, no license shown"
+        }
+      ],
+      "unverified": [
+        "license",
+        "last commit date / maintenance",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null
+    },
+    "aceternity-ui": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Aceternity UI",
+        "url": "https://ui.aceternity.com",
+        "alive": true,
+        "operator": "Aceternity Labs LLC"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Access to all free components (listed as 117+ free) - copy and paste, React/Next.js, Tailwind CSS, Motion; blocks, templates and pages are premium",
+        "paidFrom": "169 USD/year (Annual Access); 199 USD one-time (Lifetime); Team 1590 USD one-time for 10 members",
+        "evidence": {
+          "url": "https://ui.aceternity.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary/unknown · commercial: not read · attribution: not read · limit: /licence page not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://ui.aceternity.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "aceternity-ui",
+        "type": "Library",
+        "category": "Development",
+        "title": "Aceternity UI",
+        "description": "Copy-paste animated React and Next.js components styled with Tailwind CSS for landing pages; free component set, premium blocks and templates.",
+        "tags": [
+          "ui-ux",
+          "design-systems",
+          "web",
+          "template"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Animated React components built on Tailwind CSS and Motion",
+          "Copy and paste into Next.js projects, fully customizable",
+          "Free tier covers the whole components section (117+ listed)",
+          "Premium blocks, templates and pages via paid access",
+          "Documentation and examples included"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated safety search; footer shows 2026 copyright, Aceternity Labs LLC"
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/aceternity-ui/",
+          "date": "2026-10-16",
+          "note": "directory listing, no direct vendor link; free and paid"
+        },
+        {
+          "url": "https://ui.aceternity.com",
+          "date": "2026-10-16",
+          "note": "what it is, free vs premium split, operator"
+        },
+        {
+          "url": "https://ui.aceternity.com/pricing",
+          "date": "2026-10-16",
+          "note": "free plan and paid prices"
+        }
+      ],
+      "unverified": [
+        "license and commercial-use terms of free components (/licence not read)",
+        "no dedicated safety search",
+        "117+ count is from the home page"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-04",
+        "file": "src/content/resources/aceternity-ui.md",
+        "lint": "pass"
+      }
+    },
+    "adalo": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Adalo",
+        "url": "https://www.adalo.com",
+        "alive": true,
+        "operator": "Adalo Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free forever plan: build and test, 500 records per app, 1 app editor, unlimited screens and test apps, hosted Postgres, preview on mobile; 0 published apps (publishing is paid)",
+        "paidFrom": "36 USD/month billed annually (Starter); monthly billing costs 20% more",
+        "evidence": {
+          "url": "https://www.adalo.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: not read · attribution: n/a · limit: terms page not read; free plan cannot publish apps",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.adalo.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "adalo",
+        "type": "Tool",
+        "category": "Development",
+        "title": "Adalo",
+        "description": "No-code builder for mobile and web apps with a drag-and-drop canvas and built-in database; free plan for building and testing, publishing is paid.",
+        "tags": [
+          "no-code",
+          "ios",
+          "android",
+          "web"
+        ],
+        "relatedResources": [
+          "webflow"
+        ],
+        "similarResources": [
+          "airtable",
+          "coda"
+        ],
+        "keyFeatures": [
+          "Drag-and-drop multi-screen canvas for app design",
+          "Hosted database included, 500 records per app on Free",
+          "Preview on a mobile device and share test apps",
+          "Ada AI assistant (beta) for prompt-based app building",
+          "Publishing to web, App Store and Google Play on paid plans"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Search found no shutdown, acquisition or scam reports; Crunchbase notes a Series A (undated)"
+      },
+      "sources": [
+        {
+          "url": "https://www.adalo.com/pricing",
+          "date": "2026-10-16",
+          "note": "plans and free tier"
+        },
+        {
+          "url": "https://www.adalo.com",
+          "date": "2026-10-16",
+          "note": "directory link, what it is"
+        },
+        {
+          "url": "https://news.crunchbase.com/enterprise/no-code-app-builder-adalo-closes-tiger-global-led-series-a/",
+          "date": "2026-10-16",
+          "note": "safety search result, funding"
+        }
+      ],
+      "unverified": [
+        "terms and commercial use not read",
+        "operator legal name (Adalo Inc.) not confirmed on a terms page",
+        "free plan cannot publish, so usefulness limited; owner may prefer skip"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-04",
+        "file": "src/content/resources/adalo.md",
+        "lint": "pass"
+      }
+    },
+    "adam-cad-copilot": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "Pricing page lists a Free plan but figures and limits not readable; owner check",
+      "site": {
+        "name": "Adam CAD Copilot",
+        "url": "https://adam.new/copilot",
+        "alive": true,
+        "operator": "Adam (adam.new); legal entity not named on page"
+      },
+      "sources": [
+        {
+          "url": "https://adam.new/copilot",
+          "date": "2026-10-16",
+          "note": "AI CAD copilot inside Onshape and Fusion; no pricing"
+        },
+        {
+          "url": "https://adam.new/pricing",
+          "date": "2026-10-16",
+          "note": "Plans named: Free, Pro, Max, Team, Enterprise; no prices or limits returned"
+        },
+        {
+          "url": "https://www.toolworthy.ai/tool/adam-cad-copilot",
+          "date": "2026-10-16",
+          "note": "second-hand: Free + paid from 40 USD/mo, unconfirmed"
+        }
+      ],
+      "unverified": [
+        "free plan limits",
+        "paid prices",
+        "license/terms",
+        "legal operator",
+        "copilot-specific usage limits"
+      ],
+      "injectionSeen": null
+    },
+    "adele": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Adele",
+        "url": "https://adele.uxpin.com",
+        "alive": true,
+        "operator": "UXPin"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Free public repository of design systems; no account or paywall seen on the page",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://adele.uxpin.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT · commercial: yes · attribution: keep license notice · limit: applies to the GitHub repo data; linked design systems keep their own licenses",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/uxpin/adele",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "adele",
+        "type": "Website",
+        "category": "Design",
+        "title": "Adele",
+        "description": "Open-source directory of public design systems and pattern libraries, compared by components, tokens and accessibility guidance.",
+        "tags": [
+          "design-systems",
+          "ui-ux",
+          "inspiration",
+          "open-source",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Table of dozens of public design systems such as GOV.UK, Atlassian and Shopify Polaris",
+          "Columns show whether each has components, design tokens and accessibility guidelines",
+          "Open data on GitHub in human-readable and JSON formats",
+          "Maintained by UXPin; some entries are flagged deprecated"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: Adele/UXPin not in Simple Icons, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated safety search; official UXPin-branded site linking to github.com/uxpin/adele"
+      },
+      "sources": [
+        {
+          "url": "https://adele.uxpin.com",
+          "date": "2026-10-16",
+          "note": "what it is, operator, columns"
+        },
+        {
+          "url": "https://github.com/uxpin/adele",
+          "date": "2026-10-16",
+          "note": "MIT license, 388 commits, not archived"
+        }
+      ],
+      "unverified": [
+        "last update date (none shown on site; last commit date not read)",
+        "no dedicated safety search",
+        "some entries are deprecated or placeholders"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-04",
+        "file": "src/content/resources/adele.md",
+        "lint": "pass"
+      }
+    },
+    "adfolio": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "Site returned HTTP 429 twice; could not read content",
+      "site": {
+        "name": "Adfolio",
+        "url": "https://www.adfolio.design",
+        "alive": false,
+        "operator": null
+      },
+      "sources": [
+        {
+          "url": "https://www.adfolio.design",
+          "date": "2026-10-16",
+          "note": "HTTP 429 on two attempts"
+        },
+        {
+          "url": "https://uiuxshowcase.com/resources/adfolio-hand-picked-meta-linkedin-ads-for-inspiration/",
+          "date": "2026-10-16",
+          "note": "second-hand: curated gallery of Meta and LinkedIn ads"
+        }
+      ],
+      "unverified": [
+        "aliveness",
+        "free access and limits",
+        "login requirement",
+        "operator",
+        "license/terms"
+      ],
+      "injectionSeen": null
+    },
+    "adobe-blog": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Corporate news blog, not a resource RL lists",
+      "site": {
+        "name": "Adobe Blog",
+        "url": "https://blog.adobe.com",
+        "alive": true,
+        "operator": "Adobe"
+      },
+      "sources": [
+        {
+          "url": "https://blog.adobe.com",
+          "date": "2026-10-16",
+          "note": "Adobe official news blog: product and company updates; no paywall seen"
+        }
+      ],
+      "unverified": [
+        "terms"
+      ],
+      "injectionSeen": null
     }
   }
 }
