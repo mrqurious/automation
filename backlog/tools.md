@@ -10,13 +10,13 @@ Generated 2026-10-16 by `scripts/backlog-build.mjs` from `backlog/tools-list.jso
 
 | Status | Count | Meaning |
 |---|---:|---|
-| `todo` | 1727 | in the research queue (free / freemium / beta) |
+| `todo` | 1707 | in the research queue (free / freemium / beta) |
 | `in-rl` | 33 | already in ResourcesList (matched by site or slug) — skip, maybe use for related/similar links |
 | `deferred-paid` | 217 | labelled **Paid** only — parked |
 | `deferred-trial` | 232 | labelled **Free Trial** only — parked until a real free tier is confirmed |
-| `researching` / `researched` / `drafted` / `rejected` / `blocked` | 0 / 0 / 34 / 15 / 21 | set by research sessions |
+| `researching` / `researched` / `drafted` / `rejected` / `blocked` | 0 / 0 / 46 / 22 / 22 | set by research sessions |
 
-Queue by priority: **P1** 1 (free/freemium, listed on 2+ pages) · **P2** 1635 (free/freemium, 1 page) · **P3** 91 (beta).
+Queue by priority: **P1** 1 (free/freemium, listed on 2+ pages) · **P2** 1615 (free/freemium, 1 page) · **P3** 91 (beta).
 
 ## What happens if a tool is not processed (and why)
 
@@ -68,6 +68,26 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Adele | adele.uxpin.com | Free | 1 | P2 | drafted |
 | Adfolio | adfolio.design | Free | 1 | P2 | blocked |
 | Adobe Blog | blog.adobe.com | Free | 1 | P2 | rejected |
+| Adobe Color | color.adobe.com | Free | 1 | P2 | drafted |
+| Adobe Design | adobe.design | Free | 1 | P2 | rejected |
+| Adobe Express | adobe.com | Freemium | 1 | P2 | drafted |
+| Adobe Express QR Code Generator | adobe.com | Free | 1 | P2 | drafted |
+| Adobe Firefly | firefly.adobe.com | Freemium | 1 | P2 | drafted |
+| Adobe Podcast | podcast.adobe.com | Freemium | 1 | P2 | blocked |
+| Ads of the World | adsoftheworld.com | Free | 1 | P2 | drafted |
+| Adweek | adweek.com | Free + Paid | 1 | P2 | rejected |
+| AFFiNE | affine.pro | Freemium | 1 | P2 | drafted |
+| Affinity Page Layout | affinity.studio | Free | 1 | P2 | rejected |
+| Affinity Photo Editing | affinity.studio | Free | 1 | P2 | rejected |
+| Affinity Vector Studio | affinity.studio | Free | 1 | P2 | drafted |
+| Afluencer | afluencer.com | Freemium | 1 | P2 | drafted |
+| Afterimage Tools | afterimage.cc | Free | 1 | P2 | drafted |
+| Ahrefs | ahrefs.com | Freemium | 1 | P2 | drafted |
+| Ahrefs AI | via Digitool | Free tier listed | 1 | P2 | rejected |
+| AI Design Field Guide | aidesignfieldguide.com | Free | 1 | P2 | drafted |
+| AI Interaction Atlas | ai-interaction.com | Free | 1 | P2 | drafted |
+| AI Line Art | ailineart.com | Freemium | 1 | P2 | rejected |
+| AI Renamer | via Digitool | Free tier listed | 1 | P2 | rejected |
 | AIGA Eye on Design | eyeondesign.aiga.org | Free | 2 | P1 | rejected |
 | Atoms | atoms.dev | Freemium | 2 | P1 | drafted |
 | Banani | getbanani.link | Freemium / Free tier listed | 2 | P1 | drafted |
@@ -107,17 +127,12 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Visily | visily.ai | Freemium | 2 | P1 | drafted |
 | Wispr Flow | ref.wisprflow.ai | Free tier listed / Freemium | 2 | P1 | drafted |
 
-## Research queue (1727)
+## Research queue (1707)
 
-### Best AI Design Tools for Designers (205)
+### Best AI Design Tools for Designers (200)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Adobe Firefly | firefly.adobe.com | Freemium | 1 | P2 |
-| Adobe Podcast | podcast.adobe.com | Freemium | 1 | P2 |
-| AI Design Field Guide | aidesignfieldguide.com | Free | 1 | P2 |
-| AI Interaction Atlas | ai-interaction.com | Free | 1 | P2 |
-| AI Line Art | ailineart.com | Freemium | 1 | P2 |
 | AI Skills for Design Engineers | github.com | Free | 1 | P2 |
 | AI UX Playground | aiuxplayground.com | Free | 1 | P2 |
 | AIDesigner | aidesigner.ai | Freemium | 1 | P2 |
@@ -319,11 +334,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | PromptBase | promptbase.com |  | 1 | P3 |
 | Stitch | stitch.withgoogle.com | Beta | 1 | P3 |
 
-### Best Color Tools and Inspiration for Designers (85)
+### Best Color Tools and Inspiration for Designers (84)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Adobe Color | color.adobe.com | Free | 1 | P2 |
 | Alphredo | alphredo.app | Free | 1 | P2 |
 | AnyGradient | anygradient.com | Free | 1 | P2 |
 | Button Buddy | buttonbuddy.dev | Free | 1 | P2 |
@@ -409,12 +423,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | WebGradients | webgradients.com | Free | 1 | P2 |
 | Who Can Use | whocanuse.com | Free | 1 | P2 |
 
-### Best Design Blogs & Magazines for Designers (62)
+### Best Design Blogs & Magazines for Designers (60)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Adobe Design | adobe.design | Free | 1 | P2 |
-| Adweek | adweek.com | Free + Paid | 1 | P2 |
 | Awwwards Blog | awwwards.com | Free | 1 | P2 |
 | BP&O Articles | bpando.org | Free + Paid | 1 | P2 |
 | Codrops | tympanus.net | Free | 1 | P2 |
@@ -526,14 +538,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | WeLoveProduct | weloveproduct.co | Freemium | 1 | P2 |
 | Woody | woodyjobs.com | Freemium | 1 | P2 |
 
-### Best Design Tools Across Disciplines (203)
+### Best Design Tools Across Disciplines (199)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Affinity Page Layout | affinity.studio | Free | 1 | P2 |
-| Affinity Photo Editing | affinity.studio | Free | 1 | P2 |
-| Affinity Vector Studio | affinity.studio | Free | 1 | P2 |
-| Afterimage Tools | afterimage.cc | Free | 1 | P2 |
 | Air | air.inc | Freemium | 1 | P2 |
 | Airbrush Studio | airbrush.com | Freemium | 1 | P2 |
 | Alai 2.0 | getalai.com | Freemium | 1 | P2 |
@@ -1277,12 +1285,11 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Zen Flowchart | zenflowchart.com | Freemium | 1 | P2 |
 | Stratify | trystratify.com | Beta | 1 | P3 |
 
-### Design Inspiration Sites for UI, Web, Graphic & Branding (163)
+### Design Inspiration Sites for UI, Web, Graphic & Branding (162)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
 | Nicelydone | nicelydone.club | Free Trial / Free tier listed | 2 | P1 |
-| Ads of the World | adsoftheworld.com | Free | 1 | P2 |
 | Appshots | appshots.design | Free + Paid | 1 | P2 |
 | Archives.design | archives.design | Free | 1 | P2 |
 | Art of the Title | artofthetitle.com | Free | 1 | P2 |
@@ -1501,12 +1508,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Vidsplay | vidsplay.com | Free | 1 | P2 |
 | ZapSplat | zapsplat.com | Freemium | 1 | P2 |
 
-### Free Tools (143)
+### Free Tools (141)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Ahrefs AI | via Digitool | Free tier listed | 1 | P2 |
-| AI Renamer | via Digitool | Free tier listed | 1 | P2 |
 | AirOps | via Digitool | Free tier listed | 1 | P2 |
 | Alcove | via Digitool | Free tier listed | 1 | P2 |
 | Amie | via Digitool | Free tier listed | 1 | P2 |
@@ -1748,14 +1753,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | uxtoast | uxtoast.com | Free | 1 | P2 |
 | We are Colorblind | wearecolorblind.com | Free | 1 | P2 |
 
-### Marketing Tools for Designers & Creative Teams (96)
+### Marketing Tools for Designers & Creative Teams (92)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Adobe Express | adobe.com | Freemium | 1 | P2 |
-| Adobe Express QR Code Generator | adobe.com | Free | 1 | P2 |
-| Afluencer | afluencer.com | Freemium | 1 | P2 |
-| Ahrefs | ahrefs.com | Freemium | 1 | P2 |
 | Animoto | animoto.com | Freemium | 1 | P2 |
 | Arcads | arcads.ai | Freemium | 1 | P2 |
 | Audienceful | audienceful.com | Freemium | 1 | P2 |
@@ -1849,11 +1850,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Flodesk Studio | studio.flodesk.com | Beta | 1 | P3 |
 | Pomelli | labs.google.com | Beta | 1 | P3 |
 
-### Productivity Tools for Design and Product Teams (67)
+### Productivity Tools for Design and Product Teams (66)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| AFFiNE | affine.pro | Freemium | 1 | P2 |
 | Applaunchpad | theapplaunchpad.com | Freemium | 1 | P2 |
 | Arky | arky.so | Freemium | 1 | P2 |
 | Basecamp | basecamp.com | Freemium | 1 | P2 |

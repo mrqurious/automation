@@ -4526,6 +4526,1378 @@
         "terms"
       ],
       "injectionSeen": null
+    },
+    "adobe-color": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Adobe Color",
+        "url": "https://color.adobe.com",
+        "alive": true,
+        "operator": "Adobe"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Color wheel, trending palettes and themes, contrast checker and image palette/gradient extraction are offered via a free Get Started button; no limits listed. Auto-applying palettes to designs needs a paid plan.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://color.adobe.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary Adobe service · commercial: not read · attribution: n/a · limit: terms not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://color.adobe.com",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "adobe-color",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Adobe Color",
+        "description": "Build color palettes on a color wheel, browse trending themes, check contrast and pull palettes or gradients out of images.",
+        "tags": [
+          "color-palette",
+          "graphic-design",
+          "inspiration",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Color wheel for building custom palettes",
+          "Browse trending palettes and themes",
+          "Contrast checker for accessibility",
+          "Extract palettes and gradients from images",
+          "Save palettes to a Creative Cloud library"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Adobe first-party; no dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://color.adobe.com",
+          "date": "2026-10-16",
+          "note": "features, paid note on auto-applying palettes"
+        }
+      ],
+      "unverified": [
+        "whether sign-in is needed to save palettes",
+        "terms and commercial use",
+        "no dedicated safety search",
+        "page now appears to be an Adobe Express page for color tools"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-05",
+        "file": "src/content/resources/adobe-color.md",
+        "lint": "pass"
+      }
+    },
+    "adobe-design": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Editorial magazine and careers site, not a resource RL lists",
+      "site": {
+        "name": "Adobe Design",
+        "url": "https://adobe.design",
+        "alive": true,
+        "operator": "Adobe"
+      },
+      "sources": [
+        {
+          "url": "https://adobe.design",
+          "date": "2026-10-16",
+          "note": "editorial stories by Adobe, also promotes careers"
+        }
+      ],
+      "unverified": [
+        "terms",
+        "safety search not run"
+      ],
+      "injectionSeen": null
+    },
+    "adobe-express": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Adobe Express",
+        "url": "https://www.adobe.com/express/",
+        "alive": true,
+        "operator": "Adobe"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free, no credit card: 100,000+ templates (table says 268,000+), Adobe Fonts 4,000+, 5GB storage, video up to 30 min, limited generative AI (5 lifetime Generate Presentations, 2 lifetime 5-second videos), 10-day version history, 10 PDF quick actions/month",
+        "paidFrom": "Premium US$9.99/month billed monthly (page says as of May 2026); Teams US$7.99 per license",
+        "evidence": {
+          "url": "https://www.adobe.com/express/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary Adobe service · commercial: not read · attribution: n/a · limit: terms not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.adobe.com/express/pricing",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "adobe-express",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Adobe Express",
+        "description": "Browser and mobile design app for social posts, flyers, short videos and PDFs, with templates, Adobe Fonts and a limited free plan.",
+        "tags": [
+          "graphic-design",
+          "design-templates",
+          "social-media-design",
+          "template",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Large library of static and video templates",
+          "Adobe Fonts included on the free plan",
+          "Video editing up to 30 minutes",
+          "Limited generative AI on free, credits on Premium",
+          "5GB storage and 10-day version history on free",
+          "Works in desktop browsers and on mobile"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-16"
+        },
+        "siblings": [
+          "adobe-express-qr-code-generator (own feature page)"
+        ]
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Adobe first-party; no dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://www.adobe.com/express/pricing",
+          "date": "2026-10-16",
+          "note": "free and paid plan details"
+        }
+      ],
+      "unverified": [
+        "pricing page internally inconsistent (template counts, Premium storage)",
+        "terms and commercial use",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-05",
+        "file": "src/content/resources/adobe-express.md",
+        "lint": "pass"
+      }
+    },
+    "adobe-express-qr-code-generator": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Adobe Express QR Code Generator",
+        "url": "https://www.adobe.com/express/feature/image/qr-code-generator",
+        "alive": true,
+        "operator": "Adobe"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Page says free QR code for any URL; codes never expire; URLs only; no limits or watermark mentioned",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.adobe.com/express/feature/image/qr-code-generator",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary Adobe service · commercial: not read · attribution: n/a · limit: URLs only",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.adobe.com/express/feature/image/qr-code-generator",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "adobe-express-qr-code-generator",
+        "type": "Utility",
+        "category": "Marketing",
+        "title": "Adobe Express QR Code Generator",
+        "description": "Turn any URL into a QR code that does not expire; part of Adobe Express, with no limits listed on the page.",
+        "tags": [
+          "graphic-design",
+          "web"
+        ],
+        "relatedResources": [
+          "adobe-express"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Generate a QR code for any URL",
+          "Codes never expire per the page",
+          "Supports URLs only",
+          "Customize and place the code in Adobe Express designs"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Adobe first-party; no dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://www.adobe.com/express/feature/image/qr-code-generator",
+          "date": "2026-10-16",
+          "note": "free, never expire, URLs only"
+        }
+      ],
+      "unverified": [
+        "sign-in requirement",
+        "watermark or download limits",
+        "customization features not read",
+        "terms",
+        "relatedResources adobe-express is a sibling in this batch, not yet in RL",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-05",
+        "file": "src/content/resources/adobe-express-qr-code-generator.md",
+        "lint": "pass"
+      }
+    },
+    "adobe-firefly": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Adobe Firefly",
+        "url": "https://firefly.adobe.com",
+        "alive": true,
+        "operator": "Adobe"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Limited free daily generations across image, video and audio, select models included; limits refresh every day (exact numbers not published on the page)",
+        "paidFrom": "Firefly Standard 11.26 EUR/month incl. VAT (monthly billing), 2,000 generative credits/month",
+        "evidence": {
+          "url": "https://www.adobe.com/products/firefly/plans.html",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: yes for Adobe Firefly model outputs (partner-model outputs: user must check) · attribution: not read · limit: partner models have own terms",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.adobe.com/products/firefly/plans.html",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "adobe-firefly",
+        "type": "AI Tool",
+        "category": "Design",
+        "title": "Adobe Firefly",
+        "description": "Adobe's generative AI studio for images, video, audio and vectors, with editing tools and partner models; free daily generations, paid credits for more.",
+        "tags": [
+          "ai-tool",
+          "graphic-design",
+          "web",
+          "ios",
+          "android"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Text-to-image, image-to-image and sketch-to-image generation",
+          "Text-to-video and image-to-video, plus video editing and upscaling",
+          "Audio tools: text-to-speech, music, sound effects, dubbing",
+          "Photo tools: background removal, object removal, upscale, expand",
+          "Firefly Boards for mood boards and storyboards",
+          "Free daily generations; web plus iOS and Android apps"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "First-party Adobe domain; no dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://firefly.adobe.com",
+          "date": "2026-10-16",
+          "note": "site from tools-list"
+        },
+        {
+          "url": "https://www.adobe.com/products/firefly/plans.html",
+          "date": "2026-10-16",
+          "note": "free daily generations, Standard price and credits, commercial-use FAQ"
+        },
+        {
+          "url": "https://www.adobe.com/products/firefly.html",
+          "date": "2026-10-16",
+          "note": "feature list, web and mobile apps"
+        }
+      ],
+      "unverified": [
+        "exact free daily generation numbers",
+        "USD price (EUR seen)",
+        "terms page not read",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-05",
+        "file": "src/content/resources/adobe-firefly.md",
+        "lint": "pass"
+      }
+    },
+    "adobe-podcast": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Free tier only confirmed second-hand (reviews: Enhance Speech 1h/day, 30 min and 500 MB per file); Adobe pages gave no free-vs-paid table. Owner to confirm or allow",
+      "site": {
+        "name": "Adobe Podcast",
+        "url": "https://podcast.adobe.com",
+        "alive": true,
+        "operator": "Adobe"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Second-hand only: Enhance Speech free up to 1 hour/day, files up to 30 min and 500 MB, audio only",
+        "paidFrom": "Second-hand: Premium 9.99 USD/month or 99.99 USD/year; Adobe plans page says Firefly Pro includes Podcast Premium",
+        "evidence": {
+          "url": "https://podcast.adobe.com/en/plans",
+          "date": "2026-10-16",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: not read · attribution: n/a · limit: terms not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://podcast.adobe.com/en/plans",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "First-party Adobe domain; no scam/shutdown hits in search results seen"
+      },
+      "sources": [
+        {
+          "url": "https://podcast.adobe.com",
+          "date": "2026-10-16",
+          "note": "tagline: AI audio recording and editing on the web"
+        },
+        {
+          "url": "https://podcast.adobe.com/en/plans",
+          "date": "2026-10-16",
+          "note": "mentions 4 h/day, 1 GB (likely Premium), Firefly Pro bundle; no prices or free column"
+        },
+        {
+          "url": "https://www.therundown.ai/tools/adobe-podcast",
+          "date": "2026-10-16",
+          "note": "second-hand free limits and price (via web search summary)"
+        }
+      ],
+      "unverified": [
+        "free tier limits (first-party)",
+        "paid price (first-party)",
+        "terms/commercial use",
+        "Studio access may be invite-only"
+      ],
+      "injectionSeen": null
+    },
+    "ads-of-the-world": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Ads of the World",
+        "url": "https://www.adsoftheworld.com",
+        "alive": true,
+        "operator": "Clio Awards (The Clio Network)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Browsing campaigns, brands and agencies needs no login; account only for bookmarking, watchlist and submitting. No pricing or paywall shown",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.adsoftheworld.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Editorial showcase of third-party ads · commercial: n/a (content belongs to agencies/brands) · attribution: n/a · limit: terms page not read (/terms returned 404)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.adsoftheworld.com/terms",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "ads-of-the-world",
+        "type": "Website",
+        "category": "Marketing",
+        "title": "Ads of the World",
+        "description": "Free archive of creative ad campaigns from around the world, browsable by brand and agency, run by the Clio Network; a source of campaign inspiration.",
+        "tags": [
+          "inspiration",
+          "graphic-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "awwwards",
+          "behance"
+        ],
+        "keyFeatures": [
+          "Large archive of campaigns (about 88,500 items shown on the home page)",
+          "Browse by campaign, brand and agency without logging in",
+          "Curated picks by the site team and a Top 5 Ads of the Week feature",
+          "Free account for bookmarks, watchlist and submitting work",
+          "Newsletter signup"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Footer 2026 Clio Awards; no dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://www.adsoftheworld.com",
+          "date": "2026-10-16",
+          "note": "what it is, no login to browse, operator, archive size"
+        },
+        {
+          "url": "https://www.adsoftheworld.com/terms",
+          "date": "2026-10-16",
+          "note": "404"
+        }
+      ],
+      "unverified": [
+        "terms of use",
+        "Professional/Student/Collections sections not explained (may be paid)",
+        "feed recency dates",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-05",
+        "file": "src/content/resources/ads-of-the-world.md",
+        "lint": "pass"
+      }
+    },
+    "adweek": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "News publication with Subscribe/Sign In; not a resource RL lists, paywall status unclear",
+      "site": {
+        "name": "Adweek",
+        "url": "https://www.adweek.com",
+        "alive": true,
+        "operator": null
+      },
+      "sources": [
+        {
+          "url": "https://www.adweek.com",
+          "date": "2026-10-16",
+          "note": "marketing/media news site, Subscribe and Sign In buttons, no prices, no operator named"
+        }
+      ],
+      "unverified": [
+        "whether articles are free or metered",
+        "subscription price",
+        "operator"
+      ],
+      "injectionSeen": null
+    },
+    "affine": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "AFFiNE",
+        "url": "https://affine.pro",
+        "alive": true,
+        "operator": "AFFiNE (ToEverything / Universal Theory Technology)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Cloud Basic: 10 GB storage, 10 MB max file size, up to 3 members per workspace, 7 days version history, 3 login devices; free self-hosted FOSS tier with unlimited local workspaces",
+        "paidFrom": "Pro 6.75 USD/month (billing period unclear on page); Team 10 USD/seat/month; AI add-on 8.90 USD/month billed annually",
+        "evidence": {
+          "url": "https://affine.pro/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Dual license: editor, desktop app and most code MIT; backend under AFFiNE Enterprise Edition license (source review only without a commercial agreement) · commercial use of the hosted app: not read · attribution: n/a",
+        "openSource": true,
+        "spdx": "MIT (client); backend EE license",
+        "evidence": {
+          "url": "https://affine.pro/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "affine",
+        "type": "Tool",
+        "category": "Productivity",
+        "title": "AFFiNE",
+        "description": "Local-first workspace that merges docs, whiteboards and databases in one canvas; free cloud plan with 10 GB, plus a self-hosted open-source option.",
+        "tags": [
+          "whiteboard",
+          "productivity",
+          "open-source",
+          "collaboration",
+          "writing"
+        ],
+        "relatedResources": [
+          "notion"
+        ],
+        "similarResources": [
+          "notion",
+          "miro",
+          "excalidraw"
+        ],
+        "keyFeatures": [
+          "Docs, whiteboards and databases switch within the same workspace",
+          "Local-first storage with optional cloud sync",
+          "Free cloud plan: 10 GB, 3 members per workspace, 7-day version history",
+          "Self-hosting available on a free open-source tier",
+          "Optional paid AI add-on"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "affine",
+          "fillColor": "#1E96EB",
+          "bgColor": "#ffffff",
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Search found no scam, shutdown or acquisition. Founder left May 2026 (leadership change per AFFiNE blog). A review site disputes the open-source claim because the backend is under a non-FOSS enterprise license."
+      },
+      "sources": [
+        {
+          "url": "https://affine.pro/pricing",
+          "date": "2026-10-16",
+          "note": "plans, free tier limits, licensing, self-hosting"
+        },
+        {
+          "url": "https://affine.pro",
+          "date": "2026-10-16",
+          "note": "tool site and description (tools-list)"
+        },
+        {
+          "url": "https://affine.pro/blog/next-chapter-of-affine",
+          "date": "2026-10-16",
+          "note": "leadership change, via search result summary"
+        },
+        {
+          "url": "https://isitreallyfoss.com/projects/affine/",
+          "date": "2026-10-16",
+          "note": "licensing criticism, via search result summary"
+        }
+      ],
+      "unverified": [
+        "pricing page has inconsistent seat counts for self-hosting",
+        "Pro billing period unclear",
+        "AI usage limits on free plan not stated",
+        "terms of service not read",
+        "home page not fetched separately"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-05",
+        "file": "src/content/resources/affine.md",
+        "lint": "pass"
+      }
+    },
+    "affinity-vector-studio": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Affinity",
+        "url": "https://www.affinity.studio",
+        "alive": true,
+        "operator": "Canva (Affinity by Canva)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Whole app free: Pixel, Vector and Layout studios, export and free updates, no stated usage limits; requires a free Canva account to sign in. Canva AI features need a premium Canva plan (Pro, Business, Enterprise, Education)",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.affinity.studio/graphic-design-software",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary freeware (Affinity by Canva) · commercial: not read · attribution: n/a · limit: free Canva account required to sign in",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.canva.com/help/free-affinity-access/",
+          "date": "2026-10-16",
+          "confidence": "second-hand"
+        }
+      },
+      "rl": {
+        "slug": "affinity",
+        "type": "Software",
+        "category": "Design",
+        "title": "Affinity (Vector, Photo and Layout studios)",
+        "description": "Free desktop design app for Mac and Windows combining vector, photo editing and page layout in one app; needs a free Canva account to sign in.",
+        "tags": [
+          "graphic-design",
+          "visual-design",
+          "print-design",
+          "windows",
+          "mac"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "figma",
+          "canva-templates"
+        ],
+        "keyFeatures": [
+          "Vector, Pixel and Layout studios in one app",
+          "Non-destructive photo editing with RAW development and retouching",
+          "Master pages, data merge and typography controls for layout",
+          "Export to PDF with bleed and crop marks, SVG, JPEG, PNG, TIFF, EPUB",
+          "Free updates; AI tools only with a premium Canva plan"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Not in Simple Icons (check-icon exit 2)"
+        },
+        "siblings": [
+          "Affinity is a single app; the Photo and Page Layout product pages (affinity-photo-editing, affinity-page-layout) are the same free app, so they are not separate entries."
+        ]
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Search found no scam or shutdown. Operator is Canva. Free-access terms confirmed on Canva help page via search summary."
+      },
+      "sources": [
+        {
+          "url": "https://www.affinity.studio/graphic-design-software",
+          "date": "2026-10-16",
+          "note": "free terms, Canva account, platforms, AI tier"
+        },
+        {
+          "url": "https://www.affinity.studio/photo-editing-software",
+          "date": "2026-10-16",
+          "note": "single-app confirmation, photo features"
+        },
+        {
+          "url": "https://www.affinity.studio/page-layout-software",
+          "date": "2026-10-16",
+          "note": "layout features, export formats"
+        },
+        {
+          "url": "https://www.canva.com/help/free-affinity-access/",
+          "date": "2026-10-16",
+          "note": "free access with Canva account, via search summary"
+        }
+      ],
+      "unverified": [
+        "terms of service / commercial use not read",
+        "whether free access is permanent (no end date stated)",
+        "iPad version reported as planned for 2026 by third party, not confirmed",
+        "exact vector feature list not extracted (graphic-design page answered on pricing only)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-05",
+        "file": "src/content/resources/affinity.md",
+        "lint": "pass"
+      }
+    },
+    "affinity-photo-editing": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Duplicate: same single free Affinity app, listed as affinity",
+      "site": {
+        "name": "Affinity",
+        "url": "https://www.affinity.studio/photo-editing-software",
+        "alive": true,
+        "operator": "Canva (Affinity by Canva)"
+      },
+      "sources": [
+        {
+          "url": "https://www.affinity.studio/photo-editing-software",
+          "date": "2026-10-16",
+          "note": "FAQ says it is one app with photo, layout, vector"
+        }
+      ],
+      "unverified": [],
+      "injectionSeen": null
+    },
+    "affinity-page-layout": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Duplicate: same single free Affinity app, listed as affinity",
+      "site": {
+        "name": "Affinity",
+        "url": "https://www.affinity.studio/page-layout-software",
+        "alive": true,
+        "operator": "Canva (Affinity by Canva)"
+      },
+      "sources": [
+        {
+          "url": "https://www.affinity.studio/page-layout-software",
+          "date": "2026-10-16",
+          "note": "Layout is a studio inside the single Affinity app"
+        }
+      ],
+      "unverified": [],
+      "injectionSeen": null
+    },
+    "afluencer": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Afluencer",
+        "url": "https://afluencer.com",
+        "alive": true,
+        "operator": "Influencer Hero (acquired July 2026, runs as separate product)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Micro plan $0, described as free forever: influencer profile, apply to and get invited to collabs, message brands directly; brands can post unlimited collabs and search the creator directory. No numeric caps stated.",
+        "paidFrom": "29 USD/month (Macro, influencers); brands from 49 USD/month (Afluencer Marketplace)",
+        "evidence": {
+          "url": "https://afluencer.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS marketplace · commercial: not read · attribution: n/a · limit: terms page not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://afluencer.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "afluencer",
+        "type": "Website",
+        "category": "Marketing",
+        "title": "Afluencer",
+        "description": "Influencer marketplace where brands post collabs and verified creators apply, then chat and manage the collaboration in one place; free plan for both sides.",
+        "tags": [
+          "web",
+          "social-media-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Brands post collabs and search a creator directory",
+          "Creators build a profile and apply to or get invited to collabs",
+          "Direct messaging between brands and creators",
+          "Free plan: unlimited collab posts for brands, free profile for creators",
+          "Paid tiers add application and invitation credits"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Not in Simple Icons (check-icon exit 1), 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Search 2026-10-16: acquired by Influencer Hero July 2026, continues operating; no scam or shutdown hits"
+      },
+      "sources": [
+        {
+          "url": "https://afluencer.com",
+          "date": "2026-10-16",
+          "note": "what it is, free plan"
+        },
+        {
+          "url": "https://afluencer.com/pricing",
+          "date": "2026-10-16",
+          "note": "plans and prices"
+        },
+        {
+          "url": "https://www.influencer-hero.com/blogs/afluencer-joins-influencer-hero",
+          "date": "2026-10-16",
+          "note": "acquisition (via search result)"
+        }
+      ],
+      "unverified": [
+        "terms of service / commercial use not read",
+        "exact free plan caps not stated",
+        "tag fit is loose (no marketing tag exists)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-05",
+        "file": "src/content/resources/afluencer.md",
+        "lint": "pass"
+      }
+    },
+    "afterimage-tools": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Afterimage Tools",
+        "url": "https://afterimage.cc/tools/",
+        "alive": true,
+        "operator": "afterimage (computational design studio)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Both tools are free-to-use in the browser; optional donations via Buy Me a Coffee",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://afterimage.cc/tools/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary free-to-use · commercial: not stated · attribution: not stated · limit: no terms page; copyright Anatoly Grashchenko, Afterimage",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://gradientor.afterimage.cc",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "afterimage-tools",
+        "type": "Website",
+        "category": "Design",
+        "title": "Afterimage Tools",
+        "description": "Free browser tools from a design studio: Gradientor for drawing with gradients and a marbling simulator for turning pictures into marbled art.",
+        "tags": [
+          "graphic-design",
+          "visual-design",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Gradientor: draw with gradients, undo/redo, export PNG or SVG plot",
+          "Marbling tool: in-browser marbling simulator for your own pictures",
+          "Runs in the browser, no install",
+          "Made by a computational design studio"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "not checked in Simple Icons; small studio"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://afterimage.cc/tools/",
+          "date": "2026-10-16",
+          "note": "tools list, free-to-use, maker"
+        },
+        {
+          "url": "https://gradientor.afterimage.cc",
+          "date": "2026-10-16",
+          "note": "Gradientor features, copyright"
+        }
+      ],
+      "unverified": [
+        "commercial use of exports not stated",
+        "marbling tool page not opened",
+        "no dedicated safety search",
+        "no login or signup status checked"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-05",
+        "file": "src/content/resources/afterimage-tools.md",
+        "lint": "pass"
+      }
+    },
+    "ahrefs": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Ahrefs",
+        "url": "https://ahrefs.com",
+        "alive": true,
+        "operator": "Ahrefs Pte. Ltd. (not confirmed on page)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Ahrefs Free, free-forever limited access: unlimited verified websites; Site Audit 5K crawl credits/month per project; Site Explorer shows 1K backlinks and keywords at once; Web Analytics up to 1M events per project; AI Content Helper 1 free doc/month; Social Media Manager (beta); SEO Toolbar. Site Explorer, Site Audit and Web Analytics require verifying site ownership.",
+        "paidFrom": "129 USD/month (Lite, monthly billing)",
+        "evidence": {
+          "url": "https://ahrefs.com/free",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: not read · attribution: n/a · limit: terms page not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://ahrefs.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "ahrefs",
+        "type": "Tool",
+        "category": "Marketing",
+        "title": "Ahrefs",
+        "description": "SEO toolset for backlinks, keywords, site audits and rank tracking; the free plan covers your own verified sites with capped crawl and data limits.",
+        "tags": [
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Site Explorer for backlink and keyword data",
+          "Site Audit crawler for technical SEO issues",
+          "Web Analytics and SEO Toolbar",
+          "AI Content Helper and AI assistant features",
+          "Free plan for verified sites with monthly caps"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Not in Simple Icons (check-icon exit 1), 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search; widely known established vendor"
+      },
+      "sources": [
+        {
+          "url": "https://ahrefs.com/pricing",
+          "date": "2026-10-16",
+          "note": "paid plans, Ahrefs Free listed"
+        },
+        {
+          "url": "https://ahrefs.com/free",
+          "date": "2026-10-16",
+          "note": "free plan limits"
+        }
+      ],
+      "unverified": [
+        "terms/commercial use not read",
+        "operator legal entity not confirmed",
+        "no dedicated safety search",
+        "free plan limits are from a page summary"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-05",
+        "file": "src/content/resources/ahrefs.md",
+        "lint": "pass"
+      }
+    },
+    "ahrefs-ai": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Feature layer of Ahrefs, duplicate of ahrefs entry; no separate free tier",
+      "site": {
+        "name": "Ahrefs AI",
+        "url": "https://ahrefs.com/ai",
+        "alive": true,
+        "operator": "Ahrefs"
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/ahrefs-ai/",
+          "date": "2026-10-16",
+          "note": "describes AI features within Ahrefs, pricing 129-449 USD/month"
+        }
+      ],
+      "unverified": [
+        "separate free tier not found; covered by Ahrefs Free entry"
+      ],
+      "injectionSeen": null
+    },
+    "ai-design-field-guide": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "AI Design Field Guide",
+        "url": "https://www.aidesignfieldguide.com",
+        "alive": true,
+        "operator": "Ryan Mather, Robin Chen, Federico Villa (credited project team)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All articles readable without login or paywall; optional email sign-up for monthly updates",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.aidesignfieldguide.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "All rights reserved (footer: (c) 2025, no license stated) · commercial: n/a (reading) · attribution: n/a · limit: content not reusable without permission",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.aidesignfieldguide.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "ai-design-field-guide",
+        "type": "Resource",
+        "category": "Design",
+        "title": "AI Design Field Guide",
+        "description": "Essays and notes from designers working with AI, collecting lessons, tips and opinions for people becoming AI designers; new articles monthly.",
+        "tags": [
+          "ai-tool",
+          "inspiration",
+          "ui-ux",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Articles by designers and builders from companies such as Figma and Anthropic",
+          "Covers learnings, tips, fears and opinions on designing with AI",
+          "Free to read, no login or paywall",
+          "Monthly article cadence with an email update sign-up"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Not in Simple Icons (check-icon exit 1), 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated safety search run (screening budget spent on content check); live, featured article dated Oct 2026"
+      },
+      "sources": [
+        {
+          "url": "https://www.aidesignfieldguide.com",
+          "date": "2026-10-16",
+          "note": "what it is, authors, no paywall, footer"
+        }
+      ],
+      "unverified": [
+        "legal operator entity not named",
+        "no dedicated scam/shutdown search",
+        "no explicit statement that content is free (inferred from no paywall)",
+        "no terms page read"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-05",
+        "file": "src/content/resources/ai-design-field-guide.md",
+        "lint": "pass"
+      }
+    },
+    "ai-interaction-atlas": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "AI Interaction Atlas",
+        "url": "https://ai-interaction.com/atlas",
+        "alive": true,
+        "operator": "quietloudlab (design and research studio)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Fully free and open source; no paid plan found",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://ai-interaction.com/",
+          "date": "2026-10-16",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "Apache-2.0 · commercial: yes (Apache-2.0) · attribution: required (keep notices) · limit: per-file notices apply; verify repo LICENSE",
+        "openSource": true,
+        "spdx": "Apache-2.0",
+        "evidence": {
+          "url": "https://github.com/quietloudlab/ai-interaction-atlas",
+          "date": "2026-10-16",
+          "confidence": "second-hand"
+        }
+      },
+      "rl": {
+        "slug": "ai-interaction-atlas",
+        "type": "Resource",
+        "category": "Design",
+        "title": "AI Interaction Atlas",
+        "description": "Open source reference library of interaction patterns and a shared vocabulary for designing and communicating human-centered AI experiences.",
+        "tags": [
+          "ai-tool",
+          "ui-ux",
+          "open-source",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Library of interaction patterns for human-centered AI systems",
+          "Shared taxonomy for communicating AI experiences across teams",
+          "Open source under Apache-2.0 with a public GitHub repo",
+          "Companion AI Interaction Studio site from the same makers"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Not in Simple Icons (check-icon exit 1), 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Search showed consistent GitHub, site and third-party listings; no scam/shutdown hits"
+      },
+      "sources": [
+        {
+          "url": "https://ai-interaction.com/atlas",
+          "date": "2026-10-16",
+          "note": "page title only (summary returned no body)"
+        },
+        {
+          "url": "https://github.com/quietloudlab/ai-interaction-atlas",
+          "date": "2026-10-16",
+          "note": "repo and Apache-2.0 license, via web search result"
+        }
+      ],
+      "unverified": [
+        "site body text not read directly (fetch returned title only); description and features derived from search-result summaries",
+        "pattern count unknown",
+        "repo LICENSE file not opened"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-05",
+        "file": "src/content/resources/ai-interaction-atlas.md",
+        "lint": "pass"
+      }
+    },
+    "ai-line-art": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Free trial credits only; free output non-commercial; no permanent free plan",
+      "site": {
+        "name": "AI Line Art",
+        "url": "https://ailineart.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "5.99 USD/month (Basic, 100 credits; shown discounted from 11.99)",
+        "evidence": {
+          "url": "https://ailineart.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary · commercial: members only · attribution: n/a · limit: free users personal non-commercial only",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://ailineart.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://ailineart.com",
+          "date": "2026-10-16",
+          "note": "free trial credits, plans, commercial terms"
+        }
+      ],
+      "unverified": [
+        "trial credit amount",
+        "legal entity (footer says London, UK)",
+        "no safety search"
+      ],
+      "injectionSeen": null
+    },
+    "ai-renamer": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Paid only; 10 sign-up credits, no free plan",
+      "site": {
+        "name": "AI Renamer",
+        "url": "https://airenamer.app",
+        "alive": true,
+        "operator": "Ozgur (individual, per footer link to ozgur.work; not explicit)"
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "19 USD one-time (Local Mode); Cloud Mode 10 USD for 200 credits",
+        "evidence": {
+          "url": "https://airenamer.app/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary, all rights reserved · commercial: not read · attribution: n/a · limit: terms page not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://airenamer.app/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/ai-renamer/",
+          "date": "2026-10-16",
+          "note": "resolved real site airenamer.app; Digitool lists as Paid"
+        },
+        {
+          "url": "https://airenamer.app/",
+          "date": "2026-10-16",
+          "note": "pricing, 10 sign-up credits"
+        }
+      ],
+      "unverified": [
+        "whether the 10 credits are one-time",
+        "terms page",
+        "no safety search"
+      ],
+      "injectionSeen": null
     }
   }
 }
