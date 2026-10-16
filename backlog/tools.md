@@ -10,13 +10,13 @@ Generated 2026-10-16 by `scripts/backlog-build.mjs` from `backlog/tools-list.jso
 
 | Status | Count | Meaning |
 |---|---:|---|
-| `todo` | 1407 | in the research queue (free / freemium / beta) |
+| `todo` | 1367 | in the research queue (free / freemium / beta) |
 | `in-rl` | 33 | already in ResourcesList (matched by site or slug) — skip, maybe use for related/similar links |
 | `deferred-paid` | 217 | labelled **Paid** only — parked |
 | `deferred-trial` | 232 | labelled **Free Trial** only — parked until a real free tier is confirmed |
-| `researching` / `researched` / `drafted` / `rejected` / `blocked` | 0 / 11 / 152 / 67 / 160 | set by research sessions |
+| `researching` / `researched` / `drafted` / `rejected` / `blocked` | 0 / 18 / 163 / 71 / 178 | set by research sessions |
 
-Queue by priority: **P1** 1 (free/freemium, listed on 2+ pages) · **P2** 1326 (free/freemium, 1 page) · **P3** 80 (beta).
+Queue by priority: **P1** 1 (free/freemium, listed on 2+ pages) · **P2** 1288 (free/freemium, 1 page) · **P3** 78 (beta).
 
 ## What happens if a tool is not processed (and why)
 
@@ -375,17 +375,17 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Cursor | cursor.design | Free | 1 | P2 | blocked |
 | CursorUp | cursorup.com | Free | 1 | P2 | drafted |
 | cutefolio | cutefol.io | Freemium | 1 | P2 | blocked |
-| DaFont | dafont.com | Free | 1 | P2 | researched |
-| Daily Delights | delights.design | Free | 1 | P2 | researched |
-| Daily Designer | dailydesigner.net | Free | 1 | P2 | researched |
-| Daily UI | dailyui.co | Free | 1 | P2 | researched |
-| Dark | dark.design | Free | 1 | P2 | researched |
-| Dark Mode Design | darkmodedesign.com | Free | 1 | P2 | researched |
-| Dark Patterns Tip Line | darkpatternstipline.org | Free | 1 | P2 | researched |
-| darktable | darktable.org | Free | 1 | P2 | researched |
+| DaFont | dafont.com | Free | 1 | P2 | drafted |
+| Daily Delights | delights.design | Free | 1 | P2 | drafted |
+| Daily Designer | dailydesigner.net | Free | 1 | P2 | drafted |
+| Daily UI | dailyui.co | Free | 1 | P2 | drafted |
+| Dark | dark.design | Free | 1 | P2 | drafted |
+| Dark Mode Design | darkmodedesign.com | Free | 1 | P2 | drafted |
+| Dark Patterns Tip Line | darkpatternstipline.org | Free | 1 | P2 | drafted |
+| darktable | darktable.org | Free | 1 | P2 | drafted |
 | Data Viz Project | datavizproject.com | Free | 1 | P2 | blocked |
-| Datatype | franktisellano.github.io | Free | 1 | P2 | researched |
-| DaVinci Resolve | blackmagicdesign.com | Freemium | 1 | P2 | researched |
+| Datatype | franktisellano.github.io | Free | 1 | P2 | drafted |
+| DaVinci Resolve | blackmagicdesign.com | Freemium | 1 | P2 | drafted |
 | Dayflow | dayflow.blush.design | Freemium | 1 | P2 | blocked |
 | Dazl | dazl.dev | Freemium | 1 | P2 | rejected |
 | Decart | decart.ai | Freemium | 1 | P2 | rejected |
@@ -393,10 +393,50 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Decktopus | decktopus.com | Freemium | 1 | P2 | rejected |
 | Decode by Entropik | entropik.io | Freemium | 1 | P2 | blocked |
 | Decofy | decofy.ai | Free + Paid | 1 | P2 | blocked |
-| Decoy Font | mixfont.com | Free | 1 | P2 | researched |
+| Decoy Font | mixfont.com | Free | 1 | P2 | drafted |
 | Delesign Illustrations | free-designs.delesign.com | Free | 1 | P2 | blocked |
+| Dembrandt | dembrandt.com | Free | 1 | P2 | researched |
 | Descript | get.descript.com | Freemium | 2 | P1 | drafted |
+| Design / AI Workflows | yummy-design-sprint.notion.site | Free | 1 | P2 | blocked |
+| Design Arena | designarena.ai | Free | 1 | P2 | blocked |
+| Design Beyond Barriers | designbeyondbarriers.com | Free | 1 | P2 | researched |
+| Design Buddies | designbuddies.community | Free | 1 | P2 | researched |
+| Design Champs | designchamps.io | Free + Paid | 1 | P2 | blocked |
+| Design Engineer (d×e) | designengineer.xyz | Freemium | 1 | P2 | blocked |
+| Design Engineer IO | designengineer.io | Free | 1 | P2 | blocked |
+| Design Events Guide | designevents.guide | Free | 1 | P2 | researched |
+| Design Everywhere | designeverywhere.co | Free | 1 | P2 | rejected |
+| Design Gradients | designgradients.com | Free | 1 | P2 | researched |
+| Design is a Party | courses.designisaparty.com | Free + Paid | 1 | P2 | blocked |
+| Design Jobs | designjobs.careers | Free | 1 | P2 | researched |
+| Design Jobs Board | designjobsboard.com | Free + Paid | 1 | P2 | blocked |
+| Design Milk | design-milk.com | Free | 1 | P2 | researched |
+| Design Observer | designobserver.com | Free | 1 | P2 | researched |
+| Design Principles | principles.design | Free | 1 | P2 | researched |
+| Design Seeds | design-seeds.com | Free | 1 | P2 | researched |
+| Design Spells | designspells.com | Free | 1 | P2 | researched |
+| Design System Concierge | kickstartds.com | Free | 1 | P2 | blocked |
+| Design Systems | designsystems.com | Free | 1 | P2 | researched |
+| Design Systems Repo AI | designsystemsrepo.ai | Free | 1 | P2 | blocked |
+| Design Systems Surf | designsystems.surf | Free + Paid | 1 | P2 | blocked |
+| Design Week | designweek.co.uk | Free | 1 | P2 | blocked |
+| Design+Code | designcode.io | Freemium | 1 | P2 | blocked |
+| Designed | designed.org | Free | 1 | P2 | blocked |
+| Designeer | designeer.xyz | Free | 1 | P2 | researched |
+| Designer Founders | designerfounders.com | Free | 1 | P2 | researched |
+| Designer Slack Communities | designerslack.community | Free | 1 | P2 | researched |
+| Designer.tips | designer.tips | Free + Paid | 1 | P2 | blocked |
+| DesignerMill | designermill.com | Free | 1 | P2 | blocked |
 | DesignerUp | designerup.co | Free tier listed / Paid | 2 | P1 | drafted |
+| Designing Atlassian | atlassian.design | Free | 1 | P2 | researched |
+| Designshot | designshot.co | Free | 1 | P2 | rejected |
+| Designspiration | designspiration.com | Free + Paid | 1 | P2 | researched |
+| DesignX | designx.community | Free + Paid | 1 | P2 | blocked |
+| DESK Magazine | vanschneider.com | Free | 1 | P2 | blocked |
+| Desqk | desqk.com | Beta | 1 | P3 | rejected |
+| Dessn | dessn.ai | Beta | 1 | P3 | rejected |
+| Detail | detail.design | Free | 1 | P2 | researched |
+| Details Matter | detailsmatter.framer.website | Free | 1 | P2 | blocked |
 | Fabric | fabric.so | Freemium | 2 | P1 | blocked |
 | Fonts Ninja Typefaces | fonts.ninja | Free | 2 | P1 | drafted |
 | Frase | frase.io | Free tier listed / Free Trial | 2 | P1 | rejected |
@@ -427,15 +467,12 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Visily | visily.ai | Freemium | 2 | P1 | drafted |
 | Wispr Flow | ref.wisprflow.ai | Free tier listed / Freemium | 2 | P1 | drafted |
 
-## Research queue (1407)
+## Research queue (1367)
 
-### Best AI Design Tools for Designers (175)
+### Best AI Design Tools for Designers (172)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Design / AI Workflows | yummy-design-sprint.notion.site | Free | 1 | P2 |
-| Design Arena | designarena.ai | Free | 1 | P2 |
-| Design Systems Repo AI | designsystemsrepo.ai | Free | 1 | P2 |
 | Drawww | drawww.app | Freemium | 1 | P2 |
 | Dreamina | dreamina.capcut.com | Freemium | 1 | P2 |
 | Dualite | dualite.dev | Freemium | 1 | P2 |
@@ -609,12 +646,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | PromptBase | promptbase.com |  | 1 | P3 |
 | Stitch | stitch.withgoogle.com | Beta | 1 | P3 |
 
-### Best Color Tools and Inspiration for Designers (50)
+### Best Color Tools and Inspiration for Designers (48)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Design Gradients | designgradients.com | Free | 1 | P2 |
-| Design Seeds | design-seeds.com | Free | 1 | P2 |
 | DevAlly | devally.com | Freemium | 1 | P2 |
 | Duo | duo.alexpate.com | Free | 1 | P2 |
 | Goodpalette | goodpalette.io | Free | 1 | P2 |
@@ -664,17 +699,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | WebGradients | webgradients.com | Free | 1 | P2 |
 | Who Can Use | whocanuse.com | Free | 1 | P2 |
 
-### Best Design Blogs & Magazines for Designers (52)
+### Best Design Blogs & Magazines for Designers (45)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Design Milk | design-milk.com | Free | 1 | P2 |
-| Design Observer | designobserver.com | Free | 1 | P2 |
-| Design Systems | designsystems.com | Free | 1 | P2 |
-| Design Week | designweek.co.uk | Free | 1 | P2 |
-| Designer Founders | designerfounders.com | Free | 1 | P2 |
-| Designing Atlassian | atlassian.design | Free | 1 | P2 |
-| DESK Magazine | vanschneider.com | Free | 1 | P2 |
 | Dezeen | dezeen.com | Free | 1 | P2 |
 | DIELINE | thedieline.com | Free | 1 | P2 |
 | DOC | doc.cc | Free | 1 | P2 |
@@ -721,19 +749,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Webflow Blog | webflow.partnerlinks.io | Free | 1 | P2 |
 | Wepresent | wepresent.wetransfer.com | Free | 1 | P2 |
 
-### Best Design Communities for Designers (35)
+### Best Design Communities for Designers (26)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Design Buddies | designbuddies.community | Free | 1 | P2 |
-| Design Engineer IO | designengineer.io | Free | 1 | P2 |
-| Design Events Guide | designevents.guide | Free | 1 | P2 |
-| Design Jobs | designjobs.careers | Free | 1 | P2 |
-| Design Jobs Board | designjobsboard.com | Free + Paid | 1 | P2 |
-| Designed | designed.org | Free | 1 | P2 |
-| Designer Slack Communities | designerslack.community | Free | 1 | P2 |
-| Designshot | designshot.co | Free | 1 | P2 |
-| DesignX | designx.community | Free + Paid | 1 | P2 |
 | Dezeen Events Guide | dezeen.com | Free | 1 | P2 |
 | Dribbble Job Board | dribbble.com | Free + Paid | 1 | P2 |
 | Drr. | drawerrr.com | Free | 1 | P2 |
@@ -761,13 +780,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | WeLoveProduct | weloveproduct.co | Freemium | 1 | P2 |
 | Woody | woodyjobs.com | Freemium | 1 | P2 |
 
-### Best Design Tools Across Disciplines (164)
+### Best Design Tools Across Disciplines (161)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Dembrandt | dembrandt.com | Free | 1 | P2 |
-| Design System Concierge | kickstartds.com | Free | 1 | P2 |
-| Design Systems Surf | designsystems.surf | Free + Paid | 1 | P2 |
 | Dither it! | ditherit.com | Free | 1 | P2 |
 | Ditther | ditther.com | Free + Paid | 1 | P2 |
 | Dokie | dokie.ai | Freemium | 1 | P2 |
@@ -1082,11 +1098,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Unicode Arrows | unicodearrows.com |  | 1 | P3 |
 | Vzy Icons | icons.vzy.co |  | 1 | P3 |
 
-### Best Mockup Sites for Designers (53)
+### Best Mockup Sites for Designers (52)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| DesignerMill | designermill.com | Free | 1 | P2 |
 | Device Shots | deviceshots.com | Free | 1 | P2 |
 | Dynamic Mockups | dynamicmockups.com | Freemium | 1 | P2 |
 | Fluent 2 | fluent2.microsoft.design | Free | 1 | P2 |
@@ -1140,7 +1155,7 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Wannathis Mockups | wannathis.one | Free + Paid | 1 | P2 |
 | WhiteUI.Store | gumroad.com | Free + Paid | 1 | P2 |
 
-### Best No-Code Website Builders (100)
+### Best No-Code Website Builders (99)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
@@ -1239,7 +1254,6 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Wized | wized.com | Freemium | 1 | P2 |
 | Ycode | ycode.com | Free + Paid | 1 | P2 |
 | Zapier | zapier.com | Freemium | 1 | P2 |
-| Dessn | dessn.ai | Beta | 1 | P3 |
 | Projekt | getprojekt.com | Beta | 1 | P3 |
 | Prototo | prototo.app | Beta | 1 | P3 |
 | Revyme | revyme.com | Beta | 1 | P3 |
@@ -1396,16 +1410,11 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Zen Flowchart | zenflowchart.com | Freemium | 1 | P2 |
 | Stratify | trystratify.com | Beta | 1 | P3 |
 
-### Design Inspiration Sites for UI, Web, Graphic & Branding (131)
+### Design Inspiration Sites for UI, Web, Graphic & Branding (126)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
 | Nicelydone | nicelydone.club | Free Trial / Free tier listed | 2 | P1 |
-| Design Everywhere | designeverywhere.co | Free | 1 | P2 |
-| Design Spells | designspells.com | Free | 1 | P2 |
-| Designspiration | designspiration.com | Free + Paid | 1 | P2 |
-| Detail | detail.design | Free | 1 | P2 |
-| Details Matter | detailsmatter.framer.website | Free | 1 | P2 |
 | Details.so | details.so | Freemium | 1 | P2 |
 | Dragdropship | dragdropship.com | Free | 1 | P2 |
 | Drams | drams.framer.website | Free | 1 | P2 |
@@ -1706,18 +1715,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Xano | via Digitool | Free tier listed | 1 | P2 |
 | Xero | via Digitool | Free tier listed (Digitool "Premium" badge) | 1 | P2 |
 
-### Learn UI/UX Design: Courses, Guides & Best Practices (75)
+### Learn UI/UX Design: Courses, Guides & Best Practices (67)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Design Beyond Barriers | designbeyondbarriers.com | Free | 1 | P2 |
-| Design Champs | designchamps.io | Free + Paid | 1 | P2 |
-| Design Engineer (d×e) | designengineer.xyz | Freemium | 1 | P2 |
-| Design is a Party | courses.designisaparty.com | Free + Paid | 1 | P2 |
-| Design Principles | principles.design | Free | 1 | P2 |
-| Design+Code | designcode.io | Freemium | 1 | P2 |
-| Designeer | designeer.xyz | Free | 1 | P2 |
-| Designer.tips | designer.tips | Free + Paid | 1 | P2 |
 | Ethical Design Guide | ethicaldesign.guide | Free | 1 | P2 |
 | Ethical Design Resources | ethicaldesignresources.com | Free | 1 | P2 |
 | FakeClients | fakeclients.com | Freemium | 1 | P2 |
@@ -1862,7 +1863,7 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Flodesk Studio | studio.flodesk.com | Beta | 1 | P3 |
 | Pomelli | labs.google.com | Beta | 1 | P3 |
 
-### Productivity Tools for Design and Product Teams (54)
+### Productivity Tools for Design and Product Teams (53)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
@@ -1916,7 +1917,6 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | World Time Buddy | worldtimebuddy.com | Free | 1 | P2 |
 | Xnapper | xnapper.com | Freemium | 1 | P2 |
 | Zoom | zoom.us | Freemium | 1 | P2 |
-| Desqk | desqk.com | Beta | 1 | P3 |
 | Integrity | integrity.sh | Beta | 1 | P3 |
 | MonoDesk | monodesk.com | Beta | 1 | P3 |
 | Qudemo | qudemo.com | Beta | 1 | P3 |

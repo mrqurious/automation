@@ -26497,6 +26497,2815 @@
         "https URL redirects to http"
       ],
       "injectionSeen": null
+    },
+    "dembrandt": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Dembrandt",
+        "url": "https://www.dembrandt.com",
+        "alive": true,
+        "operator": "dembrandt GitHub organization (maintainer not labelled)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "CLI and MCP server are free and MIT licensed; a beta Dembrandt App (drift tracking) works locally without login, GitHub sign-in adds cloud sync. A separate fixed-price design system audit service is advertised.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.dembrandt.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT · commercial: yes · attribution: license notice kept · limit: site says use only on sites you own or have permission for",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/dembrandt/dembrandt",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "dembrandt",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Dembrandt",
+        "description": "Open-source CLI that reads a live website's styles and exports design tokens, DESIGN.md, Tailwind or shadcn themes, with contrast checks and drift tracking.",
+        "tags": [
+          "design-systems",
+          "open-source",
+          "ui-ux",
+          "ai-tool"
+        ],
+        "relatedResources": [
+          "typeui"
+        ],
+        "similarResources": [
+          "typeui"
+        ],
+        "keyFeatures": [
+          "Extracts colors, type, spacing, radius, shadows and motion from any URL",
+          "Exports W3C DTCG tokens, DESIGN.md, Tailwind v4 CSS and shadcn/ui themes",
+          "WCAG contrast checks and --compare drift gate for CI",
+          "MCP server for use inside AI coding agents",
+          "Run with npx dembrandt example.com"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons: no match via check-icon.mjs, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated scam/shutdown search run; GitHub repo 3.7k stars, 392 commits"
+      },
+      "sources": [
+        {
+          "url": "https://www.dembrandt.com",
+          "date": "2026-10-16",
+          "note": "features, MIT, CLI usage, permission caveat"
+        },
+        {
+          "url": "https://github.com/dembrandt/dembrandt",
+          "date": "2026-10-16",
+          "note": "license, stars, README"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "last commit date not shown",
+        "LICENSE file text not read (README says MIT)",
+        "site contradiction: 'any public URL works' vs 'only sites you own or have permission for'",
+        "App beta pricing not stated"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/dembrandt.md",
+        "lint": "pass"
+      }
+    },
+    "design-ai-workflows": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "Notion public page is JS-rendered; fetch returned only the word 'Notion', no content readable. Not bypassed.",
+      "site": {
+        "name": "Design / AI Workflows",
+        "url": "https://yummy-design-sprint.notion.site/32762791470980f79c59f4580d377f3f",
+        "alive": null,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://yummy-design-sprint.notion.site/32762791470980f79c59f4580d377f3f",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://yummy-design-sprint.notion.site/32762791470980f79c59f4580d377f3f",
+          "date": "2026-10-16",
+          "note": "fetch returned no content"
+        }
+      ],
+      "unverified": [
+        "page content",
+        "author",
+        "pricing/access",
+        "license"
+      ],
+      "injectionSeen": null
+    },
+    "design-arena": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Site alive and appears free to use, but no first-party pricing page (/pricing 404) and a third-party review says its terms bar commercial use of generated output; terms not read. Owner to decide.",
+      "site": {
+        "name": "Design Arena",
+        "url": "https://www.designarena.ai",
+        "alive": true,
+        "operator": "Intelligence (per footer)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Home page states no pricing; third-party sources say voting, leaderboards and building are free with no paid plan (unconfirmed)",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.designarena.ai",
+          "date": "2026-10-16",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "Terms not read · commercial: unknown (a review claims no commercial use of outputs)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://justbeingresourceful.com/2026/09/08/design-arena-review-the-free-ai-model-battle-royale-and-the-fine-print-on-who-owns-what-you-build/",
+          "date": "2026-10-16",
+          "confidence": "second-hand"
+        }
+      },
+      "rl": {
+        "slug": "design-arena",
+        "type": "AI Tool",
+        "category": "Design",
+        "title": "Design Arena",
+        "description": "Crowdsourced benchmark where you prompt AI models to make sites, slides, images, logos and more, compare results and vote on leaderboards.",
+        "tags": [
+          "ai-tool",
+          "design-templates",
+          "inspiration"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Generate websites, slides, images, logos, SVG, 3D assets, video and more",
+          "Compare outputs of several AI models side by side",
+          "Leaderboards across code, slides, image, video and audio",
+          "Directory of all benchmarked models"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons: no match via check-icon.mjs, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/shutdown hits in one web search"
+      },
+      "sources": [
+        {
+          "url": "https://www.designarena.ai",
+          "date": "2026-10-16",
+          "note": "features, operator"
+        },
+        {
+          "url": "https://www.designarena.ai/pricing",
+          "date": "2026-10-16",
+          "note": "404"
+        },
+        {
+          "url": "https://aisotools.com/pricing/design-arena",
+          "date": "2026-10-16",
+          "note": "search snippet: no paid plan published (second-hand)"
+        }
+      ],
+      "unverified": [
+        "first-party pricing",
+        "terms of service / output ownership",
+        "whether login is required"
+      ],
+      "injectionSeen": null
+    },
+    "design-beyond-barriers": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Design Beyond Barriers",
+        "url": "https://designbeyondbarriers.com",
+        "alive": true,
+        "operator": "Anton & Irene (studio); development by Astroshock"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "About 30 accessibility articles are free to read online; the same studio sells a separate book on Amazon.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://designbeyondbarriers.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Content license not stated · commercial: n/a (reading resource) · link-only listing",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://designbeyondbarriers.com",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "design-beyond-barriers",
+        "type": "Resource",
+        "category": "Design",
+        "title": "Design Beyond Barriers",
+        "description": "Free question-and-answer guide to accessible design: typography, color, interaction, content, testing and regulation, written for designers.",
+        "tags": [
+          "ui-ux",
+          "visual-design",
+          "typography"
+        ],
+        "relatedResources": [
+          "a11y-project"
+        ],
+        "similarResources": [
+          "a11y-project"
+        ],
+        "keyFeatures": [
+          "About 30 accessibility questions answered as readable articles",
+          "Covers type, color and color blindness, forms, gestures, animation",
+          "Guidance on captions, testing, free tools and the European Accessibility Act",
+          "Companion to the studio's paid reference book"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons: no match via check-icon.mjs, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://designbeyondbarriers.com",
+          "date": "2026-10-16",
+          "note": "contents, authorship, free articles, book link"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "terms/license page not read",
+        "last-updated date"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/design-beyond-barriers.md",
+        "lint": "pass"
+      }
+    },
+    "design-buddies": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Design Buddies",
+        "url": "https://www.designbuddies.community",
+        "alive": true,
+        "operator": "Design Buddies (community; legal entity not stated)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Home page states 'All of our programs will remain free to be inclusive'; community via Discord, events via lu.ma, newsletter, job board. Some linked offerings (10-week cohorts and membership on ux-go.com, Hop mentorship) are external and their cost is unknown.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.designbuddies.community",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No license or terms page found (only a Code of Conduct on Notion) · commercial: n/a (community, not content/software) · attribution: n/a",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.designbuddies.community",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "design-buddies",
+        "type": "Website",
+        "category": "Design",
+        "title": "Design Buddies",
+        "description": "Free online and in-person design community with events, challenges, project cohorts, a job board and a newsletter to grow your craft and career.",
+        "tags": [
+          "inspiration",
+          "ui-ux",
+          "collaboration"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Discord community for designers",
+          "Online and in-person events, including San Francisco",
+          "Design challenges and 10-week project cohorts",
+          "Job board for designers",
+          "Ask-a-professional access and Hop mentorship",
+          "Substack newsletter"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Not in Simple Icons (check-icon exit 1), 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Web search found no scam/shutdown/acquisition reports; Substack and Luma presence active, newest dated post about 211 days old"
+      },
+      "sources": [
+        {
+          "url": "https://www.designbuddies.community",
+          "date": "2026-10-16",
+          "note": "pricing statement, features, links"
+        },
+        {
+          "url": "https://designbuddies.substack.com/p/metaverse",
+          "date": "2026-10-16",
+          "note": "search result: newsletter activity"
+        }
+      ],
+      "unverified": [
+        "legal operator",
+        "cost of ux-go.com cohorts/membership and Hop",
+        "no ToS page",
+        "current activity level beyond newsletter"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/design-buddies.md",
+        "lint": "pass"
+      }
+    },
+    "design-champs": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Free tier permanence and contents not stated on home or terms (only 'Sign up for free' buttons, no prices); terms prohibit 'unauthorized or commercial purpose' use and say all course sales are final.",
+      "site": {
+        "name": "Design Champs",
+        "url": "https://designchamps.io",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://designchamps.io",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Terms last updated 2025-04-21 · commercial: unclear · does not address linking · contains unfilled placeholders",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://designchamps.io/terms",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://designchamps.io",
+          "date": "2026-10-16",
+          "note": "community, courses, events, free sign-up buttons; no prices"
+        },
+        {
+          "url": "https://designchamps.io/terms",
+          "date": "2026-10-16",
+          "note": "terms sections 2, 3, 5"
+        }
+      ],
+      "unverified": [
+        "what is free and whether permanent",
+        "paid prices",
+        "operator",
+        "safety search"
+      ],
+      "injectionSeen": null
+    },
+    "design-engineer-d-e": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "HTTP 403 Forbidden on both www.designengineer.xyz and designengineer.xyz via WebFetch; not bypassed.",
+      "site": {
+        "name": "Design Engineer (d×e)",
+        "url": "https://www.designengineer.xyz",
+        "alive": false,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.designengineer.xyz",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "not checked"
+      },
+      "sources": [
+        {
+          "url": "https://www.designengineer.xyz",
+          "date": "2026-10-16",
+          "note": "403 Forbidden"
+        }
+      ],
+      "unverified": [
+        "everything: pricing, free toolkit, license, operator"
+      ],
+      "injectionSeen": null
+    },
+    "design-engineer-io": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Job board; home shows employer posting price 'Submit · $225' but does not state that job seekers browse free, and no terms page is linked. Free label unconfirmed; listings 2-8 months old.",
+      "site": {
+        "name": "Design Engineer IO",
+        "url": "https://designengineer.io",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Browsing listings appears open (no login seen); not explicitly stated",
+        "paidFrom": "Employer job post: $225 (button text 'Submit · $225'; billing scope not explained)",
+        "evidence": {
+          "url": "https://designengineer.io",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No terms page linked · unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://designengineer.io",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://designengineer.io",
+          "date": "2026-10-16",
+          "note": "job board, $225 submit button, 45 listings, newest ~2 months old"
+        }
+      ],
+      "unverified": [
+        "free for seekers",
+        "terms",
+        "operator",
+        "what $225 covers",
+        "safety search"
+      ],
+      "injectionSeen": null
+    },
+    "design-events-guide": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Design Events Guide",
+        "url": "https://designevents.guide",
+        "alive": true,
+        "operator": "Thomas Dahm (independent)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Whole event calendar is public; no paywall, sign-in or fee mentioned. Optional Ko-fi tip link and an Advertise link in the footer.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://designevents.guide",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No terms or license published (footer only has a copyright line) · commercial: not stated · attribution: not stated · event listing data, link only",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://designevents.guide",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "design-events-guide",
+        "type": "Website",
+        "category": "Design",
+        "title": "Design Events Guide",
+        "description": "A free calendar of UX/UI, motion and graphic design events worldwide, browsable by month and continent, with a form to submit your own event.",
+        "tags": [
+          "inspiration",
+          "ui-ux",
+          "graphic-design"
+        ],
+        "relatedResources": [
+          "awwwards",
+          "behance"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Calendar of UX/UI, motion and graphic design events worldwide",
+          "Events grouped by month",
+          "Filter by continent",
+          "City pages such as Amsterdam and Berlin",
+          "Public form to submit an event"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no Simple Icons match, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Search shows a Product Hunt launch (Jan 2023) and One Page Love listing by the same maker; no scam/shutdown hits. designweekguide.com is a different, unrelated project."
+      },
+      "sources": [
+        {
+          "url": "https://designevents.guide",
+          "date": "2026-10-16",
+          "note": "purpose, features, maker, footer links, no paywall"
+        },
+        {
+          "url": "https://www.producthunt.com/products/design-events-guide",
+          "date": "2026-10-16",
+          "note": "search result: maker and 2023 launch (second-hand)"
+        }
+      ],
+      "unverified": [
+        "page footer says last updated 3 January 2025 while some events run into 2026; freshness unclear",
+        "no terms or license page; commercial-use answer not stated",
+        "not every ticket link on listed events was checked",
+        "event submission form (Airtable) not opened; no fee seen"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/design-events-guide.md",
+        "lint": "pass"
+      }
+    },
+    "design-everywhere": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Terms of Use section 4 prohibits 'unauthorised framing of or linking to the Site' and compiling a directory of its content without written permission; also a paid 'Club' membership with unclear free access.",
+      "site": {
+        "name": "Design Everywhere",
+        "url": "https://designeverywhere.co",
+        "alive": true,
+        "operator": "Design Everywhere (registered in Singapore, per its Terms of Use)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": null,
+        "paidFrom": "Club 'Friend' $2.50/month shown, or $30 billed annually (club page, USD)",
+        "evidence": {
+          "url": "https://designeverywhere.co/club",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary Terms of Use · commercial: no without written permission · attribution: n/a · linking and directory-style compilation prohibited (section 4)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://designeverywhere.co/other/terms-of-use",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search run (stopped at the terms clause)."
+      },
+      "sources": [
+        {
+          "url": "https://designeverywhere.co",
+          "date": "2026-10-16",
+          "note": "curated design showcase, Log In / Join, club link"
+        },
+        {
+          "url": "https://designeverywhere.co/club",
+          "date": "2026-10-16",
+          "note": "paid tiers, no free trial"
+        },
+        {
+          "url": "https://designeverywhere.co/other/terms-of-use",
+          "date": "2026-10-16",
+          "note": "linking and directory clauses"
+        }
+      ],
+      "unverified": [
+        "whether browsing the library is free without an account",
+        "no safety search run",
+        "terms read through a model summary, not verbatim"
+      ],
+      "injectionSeen": null
+    },
+    "design-gradients": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Design Gradients",
+        "url": "https://www.designgradients.com",
+        "alive": true,
+        "operator": "guzmanbarquin and isma (independent makers)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Site calls itself free: 48 curated linear gradients (dg-01 to dg-48) with two hex colors each, plus a dark-mode toggle. No paid tier mentioned.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.designgradients.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No license or terms published · commercial: not stated (site says to use them 'anywhere you want') · attribution: not stated · hex values are not copyrightable but terms are absent",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.designgradients.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "design-gradients",
+        "type": "Website",
+        "category": "Design",
+        "title": "Design Gradients",
+        "description": "A small free collection of 48 designer-curated linear gradients with hex values, ready to use as backgrounds in digital work.",
+        "tags": [
+          "color-palette",
+          "graphic-design",
+          "web"
+        ],
+        "relatedResources": [
+          "css-gradient",
+          "anygradient"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "48 curated linear gradients",
+          "Two hex color codes shown for each gradient",
+          "Numbered gradients (dg-01 to dg-48) for easy reference",
+          "Dark mode toggle",
+          "Also published as a Figma community file"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no Simple Icons match, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Search: Product Hunt listing (launched 2022), 2026 roundup still lists it; no scam, shutdown or acquisition hits."
+      },
+      "sources": [
+        {
+          "url": "https://www.designgradients.com",
+          "date": "2026-10-16",
+          "note": "description, 48 gradients, credits, no pricing"
+        },
+        {
+          "url": "https://www.producthunt.com/products/design-gradients",
+          "date": "2026-10-16",
+          "note": "search result: still listed as free (second-hand)"
+        }
+      ],
+      "unverified": [
+        "no license or terms page; commercial-use rights not stated beyond 'use anywhere'",
+        "whether the page offers CSS copy or export was not seen in the summary",
+        "Figma community file not opened",
+        "small static collection; update activity unknown"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/design-gradients.md",
+        "lint": "pass"
+      }
+    },
+    "design-is-a-party": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Two courses are labelled FREE and two paid ($350, $700), but the page does not say the free ones are permanent, requires sign-in, has no terms link, and the course pages load with JS only; also the paid ones live on other domains.",
+      "site": {
+        "name": "Design is a Party",
+        "url": "https://courses.designisaparty.com",
+        "alive": true,
+        "operator": "Elizabeth Lin"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Labelled FREE: 'Elizabeth's Declassified Guide to Product Design' and 'Elizabeth's Portfolio Guide'. Permanence and sign-in requirement not stated.",
+        "paidFrom": "Prototyping with Cursor $350; The Art of Visual Design $700 (one-time prices as listed, billing not stated)",
+        "evidence": {
+          "url": "https://courses.designisaparty.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No terms or license published · commercial: n/a (courses) · attribution: n/a",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://courses.designisaparty.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "design-is-a-party",
+        "type": "Course",
+        "category": "Design",
+        "title": "Design is a Party",
+        "description": "Design courses by Elizabeth Lin on product design, portfolios, prototyping with Cursor and visual design, with two free guides and two paid courses.",
+        "tags": [
+          "ui-ux",
+          "prototyping",
+          "visual-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Free product design guide course",
+          "Free portfolio guide course",
+          "Paid course on prototyping with Cursor",
+          "Paid course on visual design"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no Simple Icons match, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search run."
+      },
+      "sources": [
+        {
+          "url": "https://courses.designisaparty.com",
+          "date": "2026-10-16",
+          "note": "course list, prices, maker credit"
+        },
+        {
+          "url": "https://courses.designisaparty.com/course/course_509e41bf-765a-4051-90a3-ead86c7ca1d0",
+          "date": "2026-10-16",
+          "note": "page returned only 'Loading...' (JS-rendered), nothing usable"
+        }
+      ],
+      "unverified": [
+        "whether the two free courses are permanently free and whether an account is needed",
+        "no terms or privacy link seen",
+        "no safety search run",
+        "paid courses are hosted on other domains (designisaparty.com, artofvisualdesign.com); relation unconfirmed beyond links",
+        "owner decision: list as Course with the free ones as the free tier, or skip"
+      ],
+      "injectionSeen": null
+    },
+    "design-jobs": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Design Jobs",
+        "url": "https://designjobs.careers",
+        "alive": true,
+        "operator": "Designjobs (founder Carlos Palma per site; no legal entity listed)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Browsing and applying is free for job seekers; only companies pay to post listings (FAQ)",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://designjobs.careers",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Site terms at /terms (not read) · commercial: n/a (job board) · attribution: n/a · limit: terms unread",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://designjobs.careers/terms",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "design-jobs",
+        "type": "Website",
+        "category": "Design",
+        "title": "Design Jobs",
+        "description": "Job board for UI/UX, product and graphic designers; browsing and applying are free, employers pay to post.",
+        "tags": [
+          "ui-ux",
+          "graphic-design"
+        ],
+        "relatedResources": [
+          "behance"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Listings for UI/UX, product and graphic design roles",
+          "Free browsing and applying for job seekers",
+          "Job Matcher feature mentioned on the home page",
+          "Employers pay only to post listings"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search run; home page contact link points to localhost (minor site bug)"
+      },
+      "sources": [
+        {
+          "url": "https://designjobs.careers",
+          "date": "2026-10-16",
+          "note": "purpose, FAQ free statement, operator, footer links"
+        }
+      ],
+      "unverified": [
+        "terms of service not read",
+        "no safety search",
+        "employer pricing not listed",
+        "free-tier permanence rests on FAQ statement only",
+        "operator legal entity unknown"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/design-jobs.md",
+        "lint": "pass"
+      }
+    },
+    "design-jobs-board": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Pages read do not state that job seekers use it free; only employer packages (GBP 49-799 ex VAT) are shown; operator and terms not found. Owner call on whether it counts as Free.",
+      "site": {
+        "name": "Design Jobs Board",
+        "url": "https://www.designjobsboard.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": null,
+        "paidFrom": "Internship GBP 49 (ex VAT); Standard 99, Premium 199, Multi 399, Recruitment 499 per month (3-month minimum), Resourcing 799",
+        "evidence": {
+          "url": "https://designjobsboard.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.designjobsboard.com",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": null,
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://www.designjobsboard.com",
+          "date": "2026-10-16",
+          "note": "nav and listings (first 100k chars)"
+        },
+        {
+          "url": "https://designjobsboard.com/pricing",
+          "date": "2026-10-16",
+          "note": "employer prices"
+        }
+      ],
+      "unverified": [
+        "job seeker cost not stated",
+        "operator unknown",
+        "terms not found",
+        "home page read only partially (252k chars)",
+        "no safety search"
+      ],
+      "injectionSeen": null
+    },
+    "design-milk": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Design Milk",
+        "url": "https://design-milk.com",
+        "alive": true,
+        "operator": "Design Milk (Design Milk Co.)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Articles openly readable, no paywall or membership gate seen on home page",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://design-milk.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Editorial content (c) 2026 Design Milk; photos retained by owners · commercial: n/a (read-only publication) · attribution: n/a · limit: no linking restriction found, but Terms of Use page showed no actual terms text",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://design-milk.com/terms-of-use/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "design-milk",
+        "type": "Website",
+        "category": "Design",
+        "title": "Design Milk",
+        "description": "Contemporary design publication covering architecture, interiors, furniture, art, technology and modern lifestyle, with a focus on emerging talent.",
+        "tags": [
+          "inspiration",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "creative-boom",
+          "creative-bloq"
+        ],
+        "similarResources": [
+          "creative-bloq"
+        ],
+        "keyFeatures": [
+          "Articles on architecture, interiors, furniture and art",
+          "Spotlights emerging designers and studios",
+          "Open reading, no paywall seen",
+          "Companion online shop at shop.design-milk.com"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Long-running publication; no dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://design-milk.com",
+          "date": "2026-10-16",
+          "note": "purpose, footer, no paywall"
+        },
+        {
+          "url": "https://design-milk.com/terms-of-use/",
+          "date": "2026-10-16",
+          "note": "linking/commercial clauses"
+        }
+      ],
+      "unverified": [
+        "actual terms text not shown on Terms of Use page",
+        "no safety search",
+        "post dates not shown (inferred October 2026 from image paths)",
+        "paywall absence seen on home page only"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/design-milk.md",
+        "lint": "pass"
+      }
+    },
+    "design-observer": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Design Observer",
+        "url": "https://designobserver.com",
+        "alive": true,
+        "operator": "Observer Omnimedia LLC"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Articles, podcasts and channels openly accessible on home page; newsletter 'The Observatory' by subscription",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://designobserver.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "(c) 2003-2026 Observer Omnimedia LLC; trademark registered · commercial: n/a (read-only publication) · attribution: n/a · limit: Terms allow links to home pages; inner-page links must clearly identify Design Observer Group Sites; no framing without written consent",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://designobserver.com/terms-of-use/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "design-observer",
+        "type": "Website",
+        "category": "Design",
+        "title": "Design Observer",
+        "description": "Long-running design publication with essays, podcasts and newsletters on design, culture, business, sustainability and AI.",
+        "tags": [
+          "inspiration",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "creative-boom",
+          "creative-bloq"
+        ],
+        "similarResources": [
+          "design-milk"
+        ],
+        "keyFeatures": [
+          "Channels such as Arts + Culture, Business and Sustainability",
+          "Podcasts and the Design Juice series",
+          "AI Observer section on design and AI",
+          "Newsletter The Observatory and a jobs board"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Established site since 2003; no dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://designobserver.com",
+          "date": "2026-10-16",
+          "note": "purpose, operator, sections"
+        },
+        {
+          "url": "https://designobserver.com/terms-of-use/",
+          "date": "2026-10-16",
+          "note": "linking clause"
+        }
+      ],
+      "unverified": [
+        "no safety search",
+        "whether any content is member-only",
+        "post dates not shown"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/design-observer.md",
+        "lint": "pass"
+      }
+    },
+    "design-principles": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Design Principles",
+        "url": "https://principles.design",
+        "alive": true,
+        "operator": "Ben Brignell (Brignell Ltd, England and Wales no. 9282895)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Library of design principles is described as free, no ads or sign-in seen; the operator separately sells consulting and a field guide",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://principles.design",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No license stated (footer: (c) Brignell Ltd) · commercial: unknown · attribution: unknown · limit: all rights presumably reserved; link only",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://principles.design",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "design-principles",
+        "type": "Resource",
+        "category": "Design",
+        "title": "Design Principles",
+        "description": "A free, curated library of real-world design principles from companies, teams and individuals, browsable by context and source.",
+        "tags": [
+          "inspiration",
+          "ui-ux",
+          "design-systems"
+        ],
+        "relatedResources": [
+          "biased-by-design",
+          "bitcoin-design",
+          "android-design-hub"
+        ],
+        "similarResources": [
+          "biased-by-design"
+        ],
+        "keyFeatures": [
+          "About 236 example sets and 1,600+ individual principles",
+          "Browse by context (universal, organisations, design systems, software) and by source",
+          "Principles from large companies such as Google, Microsoft, IBM and Apple",
+          "Submit your own example through the site"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Founded 2017 per search summary; no scam or shutdown hits seen"
+      },
+      "sources": [
+        {
+          "url": "https://principles.design",
+          "date": "2026-10-16",
+          "note": "description, counts, operator, free wording, footer"
+        },
+        {
+          "url": "https://principles.design/browse/",
+          "date": "2026-10-16",
+          "note": "browse structure via search summary"
+        }
+      ],
+      "unverified": [
+        "no license or terms page found",
+        "exact paid/free split of the field guide",
+        "free wording only from home page",
+        "icon not in Simple Icons"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/design-principles.md",
+        "lint": "pass"
+      }
+    },
+    "design-seeds": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Design Seeds",
+        "url": "https://www.design-seeds.com",
+        "alive": true,
+        "operator": "Design Seeds (founder Jessica Colaluca per 2017 trade article); operator not named on site"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Browsable palette blog, no pricing, shop or paywall seen",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.design-seeds.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Site terms · commercial: yes, colors may be used in designs, illustrations or crafts · attribution: required when sharing (credit and link to original post) · limit: images may not be modified or collaged; name may not be used in your product title",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.design-seeds.com/p/terms-privacy.html",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "design-seeds",
+        "type": "Website",
+        "category": "Design",
+        "title": "Design Seeds",
+        "description": "Color palette inspiration blog where photos are broken down into matching swatch sets, with search by color.",
+        "tags": [
+          "color-palette",
+          "inspiration"
+        ],
+        "relatedResources": [
+          "color-hunt",
+          "adobe-color",
+          "brrranding"
+        ],
+        "similarResources": [
+          "color-hunt"
+        ],
+        "keyFeatures": [
+          "Palettes derived from photographs, each shown as a swatch strip",
+          "Posts grouped by theme and filterable by label",
+          "Search by color page",
+          "Terms allow using the colors in your own designs"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No acquisition or scam hits; a 2023 article calls the site mostly an archive with newer palettes on Instagram"
+      },
+      "sources": [
+        {
+          "url": "https://www.design-seeds.com",
+          "date": "2026-10-16",
+          "note": "latest post Nature Tones 2024-08-12, no pricing, footer"
+        },
+        {
+          "url": "https://www.design-seeds.com/p/terms-privacy.html",
+          "date": "2026-10-16",
+          "note": "terms quotes"
+        },
+        {
+          "url": "https://scrapbookcampus.com/2023/08/featured-resource-design-seeds/",
+          "date": "2026-10-16",
+          "note": "archive status (via search summary)"
+        }
+      ],
+      "unverified": [
+        "site may be dormant: last blog post seen 2024-08-12",
+        "operator identity not stated on site",
+        "exact palette count",
+        "icon not in Simple Icons"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/design-seeds.md",
+        "lint": "pass"
+      }
+    },
+    "design-spells": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Design Spells",
+        "url": "https://www.designspells.com",
+        "alive": true,
+        "operator": "Chester and Duncan (individuals; surnames not stated on page)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entries browsable without sign-in; no pricing or paywall seen; newsletter, sponsor and submit links",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.designspells.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No terms read · commercial: unknown · attribution: unknown · limit: entries show third-party app UI; link only",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.designspells.com",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "design-spells",
+        "type": "Website",
+        "category": "Design",
+        "title": "Design Spells",
+        "description": "A gallery of small, delightful UI details from real apps, each with a short write-up and preview.",
+        "tags": [
+          "inspiration",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "daily-delights",
+          "mobbin",
+          "collect-ui"
+        ],
+        "similarResources": [
+          "daily-delights"
+        ],
+        "keyFeatures": [
+          "Numbered entries (about 342 seen) showing one UI detail each",
+          "Examples from well-known apps such as Spotify, ChatGPT and Instagram",
+          "Newsletter subscription",
+          "Open submissions by email"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Footer shows 2026 copyright; no safety search run beyond page read"
+      },
+      "sources": [
+        {
+          "url": "https://www.designspells.com",
+          "date": "2026-10-16",
+          "note": "description, authors, entry count, sponsor/subscribe/submit links"
+        }
+      ],
+      "unverified": [
+        "terms/privacy not read",
+        "no dedicated safety search",
+        "latest entry date not shown",
+        "icon not in Simple Icons"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/design-spells.md",
+        "lint": "pass"
+      }
+    },
+    "design-system-concierge": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Free use, limits and terms are not stated on the page; the page calls it an early idea powered by OpenAI, so permanence of a free tier is unclear.",
+      "site": {
+        "name": "Design System Concierge",
+        "url": "https://www.kickstartds.com/concierge/",
+        "alive": true,
+        "operator": "kickstartDS"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Question box with no sign-in seen; no pricing or limits stated",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.kickstartds.com/concierge/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Not stated · commercial: unknown · attribution: unknown · limit: kickstartDS GitHub repo linked, its license not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.kickstartds.com/concierge/",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "design-system-concierge",
+        "type": "AI Tool",
+        "category": "Design",
+        "title": "Design System Concierge",
+        "description": "An AI assistant that answers design-system questions using a curated set of 52 design-system and frontend documentation sites.",
+        "tags": [
+          "ai-tool",
+          "chatbot",
+          "design-systems"
+        ],
+        "relatedResources": [
+          "design-principles",
+          "a11y-project"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Ask free-form questions about design systems",
+          "Answers drawn from a listed knowledge base of 52 sites (Polaris, Primer, GOV.UK and others)",
+          "Shows which sources were relevant to a question",
+          "No sign-in seen"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Operated by kickstartDS; page says early idea, powered by OpenAI, answers should be verified"
+      },
+      "sources": [
+        {
+          "url": "https://www.kickstartds.com/concierge/",
+          "date": "2026-10-16",
+          "note": "description, knowledge base list, disclaimers, GitHub link"
+        }
+      ],
+      "unverified": [
+        "free tier permanence",
+        "usage limits",
+        "legal notice and privacy pages not read",
+        "no dedicated safety search",
+        "icon not in Simple Icons"
+      ],
+      "injectionSeen": null
+    },
+    "design-systems": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Design Systems",
+        "url": "https://www.designsystems.com",
+        "alive": true,
+        "operator": "Figma"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Articles, talks and the open design systems directory are readable with no sign-in, paywall or fee shown; only an optional newsletter signup",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.designsystems.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Figma Terms of Service · commercial: unknown · attribution: unknown · limit: editorial content copyright Figma; linked files carry their own Figma Community licenses",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.designsystems.com",
+          "date": "2026-10-16",
+          "confidence": "second-hand"
+        }
+      },
+      "rl": {
+        "slug": "designsystems-com",
+        "type": "Resource",
+        "category": "Design",
+        "title": "Design Systems by Figma",
+        "description": "Figma's free publication on design systems: articles, talks and getting-started guides, plus a directory of open design system files from major companies.",
+        "tags": [
+          "design-systems",
+          "ui-ux",
+          "inspiration"
+        ],
+        "relatedResources": [
+          "figma-community",
+          "figma",
+          "adele"
+        ],
+        "similarResources": [
+          "adele"
+        ],
+        "keyFeatures": [
+          "Articles and guides on building and running design systems",
+          "Talks and conversations series (Schema by Figma)",
+          "Getting-started section covering the basics",
+          "Open design systems repo linking to files from IBM, GitHub, Atlassian, Salesforce and others in Figma Community",
+          "Newsletter for new articles"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "figma",
+          "fillColor": "#F24E1E",
+          "bgColor": "#ffffff",
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-16 (operator is Figma)"
+        },
+        "siblings": [
+          "Open design systems repo (https://www.designsystems.com/open-design-systems/): a directory that could be its own entry"
+        ]
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Official Figma publication; search shows mirror uwarp.design and unrelated similarly named sites (designsystems.surf, designsystemsforfigma.com)"
+      },
+      "sources": [
+        {
+          "url": "https://www.designsystems.com",
+          "date": "2026-10-16",
+          "note": "publisher, sections, no pricing"
+        },
+        {
+          "url": "https://www.designsystems.com/open-design-systems/",
+          "date": "2026-10-16",
+          "note": "directory features, nav"
+        },
+        {
+          "url": "web search: designsystems.com Figma publication",
+          "date": "2026-10-16",
+          "note": "operator confirmation, clone check"
+        }
+      ],
+      "unverified": [
+        "Figma ToS commercial-use terms for editorial content not read",
+        "exact entry count of the directory",
+        "no dedicated scam/shutdown search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/designsystems-com.md",
+        "lint": "pass"
+      }
+    },
+    "design-systems-repo-ai": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "Page returns only the heading 'Design Systems repo for the AI Era' (JS-rendered); no operator, pricing, license or content readable after two fetches. Not bypassed.",
+      "site": {
+        "name": "Design Systems Repo AI",
+        "url": "https://designsystemsrepo.ai",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://designsystemsrepo.ai",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://designsystemsrepo.ai",
+          "date": "2026-10-16",
+          "note": "only heading returned, twice"
+        }
+      ],
+      "unverified": [
+        "operator",
+        "pricing",
+        "license",
+        "content and sections"
+      ],
+      "injectionSeen": null
+    },
+    "design-systems-surf": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Pricing page shows only Pro ($99/yr) and Team, no free plan mentioned; home page shows a free database and a free roadmap download. Permanence of free access unclear; operator unnamed (footer links Ilya Greben).",
+      "site": {
+        "name": "Design Systems Surf",
+        "url": "https://designsystems.surf",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Design systems database and FAQs appear freely accessible, plus a free 'AI-ready Design System' roadmap; limits not stated",
+        "paidFrom": "Pro $8.25/month billed yearly at $99 (Team: custom)",
+        "evidence": {
+          "url": "https://designsystems.surf/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "unknown · terms page not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://designsystems.surf",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "design-systems-surf",
+        "type": "Website",
+        "category": "Design",
+        "title": "Design Systems Surf",
+        "description": "Browsable database of design systems from tech companies with component and foundation references, plus paid Pro guides and Figma files.",
+        "tags": [
+          "design-systems",
+          "ui-ux",
+          "inspiration"
+        ],
+        "relatedResources": [
+          "adele",
+          "figma-community"
+        ],
+        "similarResources": [
+          "adele"
+        ],
+        "keyFeatures": [
+          "Database of design systems (Apple HIG, Material, Fluent and more)",
+          "Component and foundation references",
+          "FAQ and submission route for new design systems",
+          "Pro tier: 350+ guides, Figma system files, AI skills"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "not checked"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search run; distinct from Figma's designsystems.com"
+      },
+      "sources": [
+        {
+          "url": "https://designsystems.surf/design-systems",
+          "date": "2026-10-16",
+          "note": "home content, free roadmap, Pricing/Get Pro links"
+        },
+        {
+          "url": "https://designsystems.surf/pricing",
+          "date": "2026-10-16",
+          "note": "Pro/Team prices; no free plan mentioned"
+        }
+      ],
+      "unverified": [
+        "what exactly stays free vs gated",
+        "operator and terms",
+        "license for listing",
+        "safety search not run"
+      ],
+      "injectionSeen": null
+    },
+    "design-week": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "HTTP 403 Forbidden on https://www.designweek.co.uk (bot protection); not bypassed.",
+      "site": {
+        "name": "Design Week",
+        "url": "https://www.designweek.co.uk",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.designweek.co.uk",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.designweek.co.uk",
+          "date": "2026-10-16",
+          "note": "403 Forbidden"
+        }
+      ],
+      "unverified": [
+        "paywall/subscription status",
+        "operator",
+        "terms",
+        "safety"
+      ],
+      "injectionSeen": null
+    },
+    "design-code": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Freemium, but the permanent free tier is only public course previews, tutorial excerpts and template browsing; Pro $349/yr or $99/mo, Lifetime $499. Owner to decide if that counts as free. Pages returned only titles to WebFetch; figures are from a search summary of the pricing page.",
+      "site": {
+        "name": "Design+Code",
+        "url": "https://designcode.io",
+        "alive": true,
+        "operator": "DesignCode IO Pte. Ltd. (Singapore, per recordowl listing)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free $0, no card: public course previews, tutorial excerpts, template gallery browsing; limited source files, PDFs and AI chat; no build-ready projects or Pro templates",
+        "paidFrom": "$99 per month or $349 per year (Pro); Lifetime $499 one-time",
+        "evidence": {
+          "url": "https://designcode.io/pricing",
+          "date": "2026-10-16",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://designcode.io",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Established course site; no scam/shutdown hit seen in search"
+      },
+      "sources": [
+        {
+          "url": "https://designcode.io",
+          "date": "2026-10-16",
+          "note": "home fetch returned title only: 'Prompt Better User Interfaces and Apps'"
+        },
+        {
+          "url": "https://designcode.io/pricing",
+          "date": "2026-10-16",
+          "note": "pricing tiers via web search summary (fetch returned title only)"
+        },
+        {
+          "url": "https://recordowl.com/company/designcode-io-pte-ltd",
+          "date": "2026-10-16",
+          "note": "operator entity name"
+        }
+      ],
+      "unverified": [
+        "pricing read only via search summary, not page body",
+        "terms/license not read",
+        "no dedicated safety search",
+        "free tier is thin so Free+Paid vs Freemium and listing worth is owner's call"
+      ],
+      "injectionSeen": null
+    },
+    "designed": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "https://www.designed.org returned HTTP 403 Forbidden to fetch; bot check not bypassed.",
+      "site": {
+        "name": "Designed",
+        "url": "https://www.designed.org",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.designed.org",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.designed.org",
+          "date": "2026-10-16",
+          "note": "HTTP 403, nothing read"
+        }
+      ],
+      "unverified": [
+        "everything: site content, operator, pricing, license, safety"
+      ],
+      "injectionSeen": null
+    },
+    "designeer": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Designeer",
+        "url": "https://designeer.xyz",
+        "alive": true,
+        "operator": "Dhruv Jaradi (individual)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Public curated catalogue browsable without payment; no pricing shown. Sponsored listings are paid by tool makers, not users.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://designeer.xyz/info",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "All Rights Reserved (site content) · commercial: n/a (links to third-party resources) · attribution: n/a · limit: no reuse licence stated",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://designeer.xyz/info",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "designeer",
+        "type": "Website",
+        "category": "Design",
+        "title": "Designeer",
+        "description": "Curated index of design-engineering tools, component libraries, AI tools, inspiration and designers to follow, grouped into six sections.",
+        "tags": [
+          "inspiration",
+          "ui-ux",
+          "web"
+        ],
+        "relatedResources": [
+          "awwwards",
+          "mobbin",
+          "collect-ui"
+        ],
+        "similarResources": [
+          "awwwards"
+        ],
+        "keyFeatures": [
+          "Six sections: Inspiration, Components, Build, Visuals, Utilities, Design Engineers",
+          "Hundreds of hand-picked external links (about 550 items across sections on 2026-10-16)",
+          "Design galleries, interface design tools and reading lists",
+          "Standard listings are merit-based and cannot be bought; sponsored ones are labelled",
+          "Exposes llms.txt and mcp.json for AI tools"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons: not found, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "New site (launch Sept 2026, dates disagree); Product Hunt listing exists; no scam hit in search"
+      },
+      "sources": [
+        {
+          "url": "https://designeer.xyz",
+          "date": "2026-10-16",
+          "note": "sections, counts, sponsored labels, operator"
+        },
+        {
+          "url": "https://designeer.xyz/info",
+          "date": "2026-10-16",
+          "note": "maintainer, merit-based listings, copyright"
+        },
+        {
+          "url": "https://www.producthunt.com/products/designeer",
+          "date": "2026-10-16",
+          "note": "maker and launch (via search summary)"
+        }
+      ],
+      "unverified": [
+        "free access not explicitly stated on site; Log in feature unexplained",
+        "no terms page found",
+        "launch date unconfirmed",
+        "no dedicated safety search beyond one name search",
+        "llms.txt and mcp.json contents not read"
+      ],
+      "injectionSeen": "Footer links llms.txt and mcp.json (not read, no instruction seen in page text)",
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/designeer.md",
+        "lint": "pass"
+      }
+    },
+    "designer-founders": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Designer Founders",
+        "url": "https://designerfounders.com",
+        "alive": true,
+        "operator": "Designer Fund (maintainer); sponsored by Framer"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Public showcase of designer-founders and newsletter signup; no pricing or paywall shown",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://designerfounders.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "© Designer Founders 2026 · commercial: n/a (editorial showcase) · attribution: n/a · limit: no terms page found",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://designerfounders.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "designer-founders",
+        "type": "Website",
+        "category": "Design",
+        "title": "Designer Founders",
+        "description": "A showcase of designers who became founders, from Airbnb to Notion, with a nomination form and a newsletter to follow new additions.",
+        "tags": [
+          "inspiration"
+        ],
+        "relatedResources": [
+          "daily-designer",
+          "creative-boom"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Featured profiles of 20 designer-founders linking to their companies",
+          "Alphabetical directory of about 121 founders",
+          "Nominate form for designers the list missed",
+          "Substack newsletter",
+          "Maintained by Designer Fund"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons: Designer Fund not found, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Backed by Designer Fund; no dedicated scam search"
+      },
+      "sources": [
+        {
+          "url": "https://designerfounders.com",
+          "date": "2026-10-16",
+          "note": "description, operator, counts, nominate, substack"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "no terms page",
+        "nominate and newsletter URLs not seen",
+        "only one existing tag (inspiration) fits"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/designer-founders.md",
+        "lint": "pass"
+      }
+    },
+    "designer-slack-communities": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Designer Slack Communities",
+        "url": "https://www.designerslack.community",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Browsing and submitting communities has no visible paywall or login; the page states no pricing.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.designerslack.community",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Directory of links - no downloadable assets; no license terms stated",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.designerslack.community",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "designer-slack-communities",
+        "type": "Website",
+        "category": "Design",
+        "title": "Designer Slack Communities",
+        "description": "A directory of Slack communities for designers worldwide, filterable by location and group type, with a form to submit new communities.",
+        "tags": [
+          "collaboration",
+          "ui-ux",
+          "inspiration"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Curated list of designer-focused Slack communities",
+          "Filter by location and group type",
+          "Open submission form for adding a community",
+          "RSS feed for new listings"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Slack not in Simple Icons (check-icon exit 2)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam or shutdown search run (Tier A budget used on the home page only)."
+      },
+      "sources": [
+        {
+          "url": "https://www.designerslack.community",
+          "date": "2026-10-16",
+          "note": "Home page: purpose, filters, submission form, 2026 footer, no AI-agent text"
+        }
+      ],
+      "unverified": [
+        "Operator/owner not identified",
+        "Last update date of listings",
+        "Pricing not stated on page; Free label from input list",
+        "No dedicated safety search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/designer-slack-communities.md",
+        "lint": "pass"
+      }
+    },
+    "designer-tips": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Mixed free/paid (1 free tip per 2 weeks, paid lists $4.90-$12.90, membership out of stock); liveness unclear (sample tip, no dates). Owner to decide if free tier is permanent/listing-worthy.",
+      "site": {
+        "name": "Designer.tips",
+        "url": "https://www.designer.tips",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "One free tip every 2 weeks and a free newsletter (home page says twice a month)",
+        "paidFrom": "$4.90 one-off per list (sale price); Premium Membership listed at $6.50/month on a yearly plan, shown out of stock",
+        "evidence": {
+          "url": "https://www.designer.tips",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Not read - no license terms checked",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.designer.tips",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "designer-tips",
+        "type": "Website",
+        "category": "Design",
+        "title": "Designer.tips",
+        "description": "Curated time-saving tips, tool lists, intro courses and practices for designers, with a free tip every two weeks and paid downloadable lists.",
+        "tags": [
+          "inspiration",
+          "ui-ux"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Curated tools, intro courses and practices for designers",
+          "Free tip every two weeks",
+          "Paid downloadable lists",
+          "Newsletter"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "not checked"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No safety search run."
+      },
+      "sources": [
+        {
+          "url": "https://www.designer.tips",
+          "date": "2026-10-16",
+          "note": "Home page: pricing, free tip cadence, out-of-stock membership"
+        }
+      ],
+      "unverified": [
+        "Whether the site is actively maintained",
+        "Terms/license",
+        "Which products the EARLY50 promo applies to",
+        "Operator",
+        "No safety search"
+      ],
+      "injectionSeen": null
+    },
+    "designermill": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Free resource site but no site-wide license; terms differ per download (only Google Sans Flex stated personal+commercial). Owner to decide whether to list without a license line.",
+      "site": {
+        "name": "DesignerMill",
+        "url": "https://www.designermill.com",
+        "alive": true,
+        "operator": "Robert Anitei (credited as creator in footer)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Listed items (Figma templates, PSD mockups, fonts) are described as free; no site-wide policy statement found",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.designermill.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Per-item terms; no site-wide license found",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.designermill.com",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "designermill",
+        "type": "Website",
+        "category": "Design",
+        "title": "DesignerMill",
+        "description": "A blog-style collection of free Figma templates, PSD mockups, fonts and other design resources for designers.",
+        "tags": [
+          "design-templates",
+          "template",
+          "inspiration"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Free Figma templates and PSD mockups",
+          "Free fonts",
+          "Large archive (99 pages) with posts through March 2026",
+          "Mixed resource types from many creators"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "not checked"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No safety search run."
+      },
+      "sources": [
+        {
+          "url": "https://www.designermill.com",
+          "date": "2026-10-16",
+          "note": "Home page: contents, newest post 2026-03-30, footer credit"
+        }
+      ],
+      "unverified": [
+        "License terms per resource",
+        "Privacy/terms pages not read",
+        "Whether any items are paid",
+        "No safety search"
+      ],
+      "injectionSeen": null
+    },
+    "designing-atlassian": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Designing Atlassian",
+        "url": "https://atlassian.design/news",
+        "alive": true,
+        "operator": "Atlassian"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Articles, leadership talks and team stories readable with no paywall or login seen",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://atlassian.design/news",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Editorial content (c) Atlassian - read-only; no reuse license read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://atlassian.design/news",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "designing-atlassian",
+        "type": "Website",
+        "category": "Design",
+        "title": "Designing Atlassian",
+        "description": "The news section of the Atlassian Design System: design blog posts, leadership talks and team stories from Atlassian's design team.",
+        "tags": [
+          "design-systems",
+          "ui-ux",
+          "inspiration"
+        ],
+        "relatedResources": [
+          "adele",
+          "android-design-hub"
+        ],
+        "similarResources": [
+          "adele"
+        ],
+        "keyFeatures": [
+          "Design blog posts from the Atlassian team",
+          "Leadership talks",
+          "Team stories",
+          "Links back to the Atlassian Design System"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons has Atlassian (#0052CC) but this is a design-system sub-brand; not used without owner OK"
+        },
+        "siblings": [
+          "Atlassian Design System itself (atlassian.design) - not researched"
+        ]
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "First-party Atlassian domain; no safety search run."
+      },
+      "sources": [
+        {
+          "url": "https://atlassian.design/news",
+          "date": "2026-10-16",
+          "note": "News page: sections, late-2026 items, (c) 2026 Atlassian, no paywall"
+        }
+      ],
+      "unverified": [
+        "Content reuse license",
+        "Atlassian Design System pricing/licence not read",
+        "No safety search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/designing-atlassian.md",
+        "lint": "pass"
+      }
+    },
+    "designshot": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Design talent/consulting agency (hiring, staffing, brand design); no free tool or resource, no pricing, several sections not yet launched.",
+      "site": {
+        "name": "Designshot",
+        "url": "https://www.designshot.co",
+        "alive": true,
+        "operator": "Designshot (Paris; founder Alex; no legal entity named)"
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.designshot.co",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.designshot.co",
+          "date": "2026-10-16",
+          "note": "services, no pricing, footer 2026"
+        }
+      ],
+      "unverified": [
+        "terms of use not read",
+        "directory 'Free' label does not match a services business"
+      ],
+      "injectionSeen": null
+    },
+    "designspiration": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Designspiration",
+        "url": "https://www.designspiration.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free (Basic) account: search inspiration, save inspiration, create and collaborate on collections",
+        "paidFrom": "Pro $5/month billed monthly or $50/year (unlimited vision mood boards, deeper searches, hide profile from search engines, early access, ad-free)",
+        "evidence": {
+          "url": "https://www.designspiration.com/pro/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Site terms not read · commercial: unknown · attribution: unknown · images belong to their original creators (not verified)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.designspiration.com",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "designspiration",
+        "type": "Website",
+        "category": "Design",
+        "title": "Designspiration",
+        "description": "Image and color search site for saving inspiration into collections and mood boards, with a browser extension; free basic account, paid Pro.",
+        "tags": [
+          "inspiration",
+          "color-palette",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "milanote",
+          "mobbin",
+          "color-hunt"
+        ],
+        "similarResources": [
+          "behance",
+          "dribbble",
+          "awwwards"
+        ],
+        "keyFeatures": [
+          "Search images, art, photography and typography for inspiration",
+          "Save finds into collections you can share and collaborate on",
+          "Browser extension to save images, colors, links, notes and screenshots",
+          "Pro adds unlimited vision mood boards and an ad-free experience"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no Simple Icons match, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated scam/shutdown hits found (one general search returned nothing on it); homepage and Pro page loaded"
+      },
+      "sources": [
+        {
+          "url": "https://www.designspiration.com",
+          "date": "2026-10-16",
+          "note": "what it is, extension, Get Pro link"
+        },
+        {
+          "url": "https://www.designspiration.com/pro/",
+          "date": "2026-10-16",
+          "note": "Pro $5/mo or $50/yr, free Basic features"
+        }
+      ],
+      "unverified": [
+        "operator not named on pages read",
+        "recent activity not confirmed",
+        "terms of service not read",
+        "free-tier caps (e.g. save limits) not stated"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/designspiration.md",
+        "lint": "pass"
+      }
+    },
+    "designx": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Designer community (Slack, events, job board) plus a US$699 summit; whether Slack membership is free is not stated and no operator named. A community rather than a tool, so type/category fit is unclear.",
+      "site": {
+        "name": "DesignX",
+        "url": "https://designx.community",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://designx.community",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://designx.community",
+          "date": "2026-10-16",
+          "note": "Slack, events, job board, DLS 26 Nov 17-19 Toronto US$699, footer 2026"
+        }
+      ],
+      "unverified": [
+        "membership cost not stated",
+        "terms not read",
+        "operator unnamed",
+        "safety search returned nothing about it"
+      ],
+      "injectionSeen": null
+    },
+    "desk-magazine": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Personal essay blog by Tobias van Schneider; mostly free but some essays are Members only, and writing has slowed. Owner to decide if a part-paywalled personal blog fits RL.",
+      "site": {
+        "name": "DESK Magazine",
+        "url": "https://vanschneider.com/blog/",
+        "alive": true,
+        "operator": "Tobias van Schneider"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Most essays free to read; some tagged Members only; weekly newsletter signup",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://vanschneider.com/blog/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://vanschneider.com/blog/",
+          "date": "2026-10-16",
+          "note": "665 entries, latest 2026-10-12, Ghost, members-only tags"
+        }
+      ],
+      "unverified": [
+        "membership price not read",
+        "terms not read",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null
+    },
+    "desqk": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Free only during beta ('completely free during testing'); page proposes $10/mo after beta, no permanent free tier.",
+      "site": {
+        "name": "Desqk",
+        "url": "https://www.desqk.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": "Free during beta testing only",
+        "paidFrom": "$10/mo (proposed 'Future pricing suggestion', not final)",
+        "evidence": {
+          "url": "https://www.desqk.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.desqk.com",
+          "date": "2026-10-16",
+          "note": "Workspace for freelancers; free during testing; proposed $10/mo"
+        }
+      ],
+      "unverified": [
+        "Terms of Service not read",
+        "operator not named",
+        "final pricing"
+      ],
+      "injectionSeen": null
+    },
+    "dessn": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Visual design-in-codebase tool for product teams; access is request-based ('Get access'), no free tier or prices found on home page.",
+      "site": {
+        "name": "Dessn",
+        "url": "https://www.dessn.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.dessn.com/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.dessn.ai",
+          "date": "2026-10-16",
+          "note": "308 redirect to dessn.com"
+        },
+        {
+          "url": "https://www.dessn.com/",
+          "date": "2026-10-16",
+          "note": "Product description, 'Get access' CTA, no prices shown"
+        }
+      ],
+      "unverified": [
+        "pricing page content not visible",
+        "free tier existence",
+        "terms",
+        "operator"
+      ],
+      "injectionSeen": null
+    },
+    "detail": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Detail",
+        "url": "https://detail.design",
+        "alive": true,
+        "operator": "Rene Wang (design engineer, independent curator)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Browsable gallery of UI details; no pricing, paywall or pro tier mentioned (a Sign in link and sponsor option exist, purpose unexplained)",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://detail.design",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No terms stated · commercial: n/a (reference gallery) · attribution: n/a · limit: entry images belong to their creators",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://detail.design/about",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "detail",
+        "type": "Website",
+        "category": "Design",
+        "title": "Detail",
+        "description": "Curated gallery of small product-design details across design, interaction, motion, copywriting and accessibility, each with an image and short note.",
+        "tags": [
+          "inspiration",
+          "ui-ux"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Entries grouped by Design, Interactivity, Motion, Copywriting, Accessibility and Easter Egg",
+          "Each detail shown with an image and a short explanation",
+          "Resources and About pages",
+          "Curated by a single design engineer"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no Simple Icons route used; no hex invented"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://detail.design",
+          "date": "2026-10-16",
+          "note": "Scope, categories, sign-in and sponsor links"
+        },
+        {
+          "url": "https://detail.design/about",
+          "date": "2026-10-16",
+          "note": "Curator Rene Wang, since 2025"
+        }
+      ],
+      "unverified": [
+        "what Sign in unlocks / any exclusive paid content",
+        "no dedicated safety search",
+        "no terms page found",
+        "related/similar slugs left empty; choose from inspiration drafts at draft time"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/detail.md",
+        "lint": "pass"
+      }
+    },
+    "details-matter": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Anonymous side-project on a framer.website subdomain; operator, terms and permanence of free access not stated; videos are third-party brand content.",
+      "site": {
+        "name": "Details Matter",
+        "url": "https://detailsmatter.framer.website",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Gallery of micro-interaction videos; no pricing mentioned",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://detailsmatter.framer.website",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://detailsmatter.framer.website",
+          "date": "2026-10-16",
+          "note": "Gallery of micro-interaction videos from apps; submit form"
+        }
+      ],
+      "unverified": [
+        "operator",
+        "terms / rights to embedded videos",
+        "permanence",
+        "safety search"
+      ],
+      "injectionSeen": null
     }
   }
 }
