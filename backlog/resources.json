@@ -14155,6 +14155,1419 @@
         "file": "src/content/resources/blokdots.md",
         "lint": "pass"
       }
+    },
+    "bloom": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Product renamed Rainbrand; pricing page lists only paid plans (Plus $20/mo, 5,000 credits) and no free plan.",
+      "site": {
+        "name": "Bloom (now Rainbrand)",
+        "url": "https://www.trybloom.ai",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "$20/month (Plus, 5,000 credits, monthly billing)",
+        "evidence": {
+          "url": "https://www.trybloom.ai/pricing/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.trybloom.ai",
+          "date": "2026-10-16",
+          "note": "renamed Rainbrand, brand layer for AI agents"
+        },
+        {
+          "url": "https://www.trybloom.ai/pricing/",
+          "date": "2026-10-16",
+          "note": "paid plans only, no free plan listed"
+        }
+      ],
+      "unverified": [
+        "no license/terms read",
+        "no safety search",
+        "directory label said Freemium; not confirmed on pricing page"
+      ],
+      "injectionSeen": null
+    },
+    "bluedot": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Bluedot",
+        "url": "https://www.bluedothq.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan: 5 meetings total over the life of the account, Chrome extension, desktop and mobile apps; page says 'Start free, forever'",
+        "paidFrom": "$14/user/month (Basic, probably annual billing; $18 monthly)",
+        "evidence": {
+          "url": "https://www.bluedothq.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: not checked · attribution: n/a · terms not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.bluedothq.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "bluedot",
+        "type": "AI Tool",
+        "category": "Productivity",
+        "title": "Bluedot",
+        "description": "AI meeting recorder that captures and summarises calls without a bot joining, on desktop, browser and mobile. Free plan covers 5 meetings.",
+        "tags": [
+          "ai-tool",
+          "productivity"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Records meetings without a bot joining the call",
+          "AI summaries and notes of each meeting",
+          "Works on desktop app, Chrome extension and mobile",
+          "Paid plans add video, custom note templates, webhooks and MCP"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "not in Simple Icons (check-icon, 2026-10-16)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Combined search returned no relevant hits; not a dedicated per-name search"
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/bluedot/",
+          "date": "2026-10-16",
+          "note": "resolved site bluedothq.com"
+        },
+        {
+          "url": "https://www.bluedothq.com/pricing",
+          "date": "2026-10-16",
+          "note": "plans and free limits"
+        }
+      ],
+      "unverified": [
+        "operator/company name",
+        "terms of service and commercial use",
+        "exact annual vs monthly labelling of paid prices",
+        "free plan is a lifetime cap of 5 meetings, thin; owner may prefer to skip",
+        "no clean safety search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/bluedot.md",
+        "lint": "pass"
+      }
+    },
+    "blush": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Home and /plans returned HTTP 403, so the free plan and pricing are not confirmed first-party. License docs say illustrations are free for commercial use without credit.",
+      "site": {
+        "name": "Blush",
+        "url": "https://blush.design",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Per license docs, illustrations usable free for personal and commercial use; Pro unlocks higher-quality PNG, SVG and extra packs (second-hand search summary, limits unconfirmed)",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://blush.design/plans",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": "Blush License · commercial: yes · attribution: not required · limits: no products letting others customize illustrations, cannot trademark, not recommended for logos, packs may differ",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://docs.blush.design/welcome-to-blush/blush-license",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "blush",
+        "type": "Website",
+        "category": "Design",
+        "title": "Blush",
+        "description": "Mix and customise illustrations from artists worldwide, with free commercial use and no credit required under the Blush license.",
+        "tags": [
+          "stock-illustrations",
+          "graphic-design"
+        ],
+        "relatedResources": [
+          "undraw"
+        ],
+        "similarResources": [
+          "undraw"
+        ],
+        "keyFeatures": [
+          "Illustration packs by artists around the world",
+          "Mix and customise illustration components",
+          "Free personal and commercial use without credit",
+          "Pro plan adds SVG and higher-quality PNG downloads"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "not in Simple Icons (check-icon, 2026-10-16)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Site returns 403 to the fetcher; no safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://docs.blush.design/welcome-to-blush/blush-license",
+          "date": "2026-10-16",
+          "note": "license terms"
+        },
+        {
+          "url": "https://blush.design",
+          "date": "2026-10-16",
+          "note": "HTTP 403"
+        },
+        {
+          "url": "https://blush.design/plans",
+          "date": "2026-10-16",
+          "note": "HTTP 403"
+        }
+      ],
+      "unverified": [
+        "pricing and free-tier limits (403)",
+        "operator",
+        "Pro price (third-party sources conflict, $5 vs $12)",
+        "safety search"
+      ],
+      "injectionSeen": null
+    },
+    "bolt": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Bolt",
+        "url": "https://bolt.new",
+        "alive": true,
+        "operator": "StackBlitz (inferred from footer legal links)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free: 300K tokens daily, 1M tokens monthly, unlimited databases, up to 333K web requests",
+        "paidFrom": "$25/month (Pro, 10M tokens monthly, monthly billing)",
+        "evidence": {
+          "url": "https://bolt.new/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "StackBlitz Terms of Service · commercial: not checked · attribution: n/a · terms not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://stackblitz.com/terms-of-service",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "bolt",
+        "type": "AI Tool",
+        "category": "Development",
+        "title": "Bolt",
+        "description": "AI builder that turns chat prompts into websites, apps and prototypes, with hosting, databases and auth built in. Free plan has daily token limits.",
+        "tags": [
+          "ai-tool",
+          "website-builder",
+          "no-code"
+        ],
+        "relatedResources": [
+          "lovable"
+        ],
+        "similarResources": [
+          "lovable"
+        ],
+        "keyFeatures": [
+          "Build apps and sites by chatting with AI",
+          "Bolt Cloud: hosting, databases, authentication, custom domains",
+          "Free plan with daily and monthly token allowance",
+          "Paid plans raise token limits and add team features"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "not in Simple Icons (check-icon, 2026-10-16)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Combined search returned no relevant hits; not a dedicated per-name search"
+      },
+      "sources": [
+        {
+          "url": "https://bolt.new",
+          "date": "2026-10-16",
+          "note": "product description, legal links"
+        },
+        {
+          "url": "https://bolt.new/pricing",
+          "date": "2026-10-16",
+          "note": "plans and free limits"
+        }
+      ],
+      "unverified": [
+        "terms of service and commercial use not read",
+        "operator inferred, not stated",
+        "yearly prices",
+        "no clean safety search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/bolt.md",
+        "lint": "pass"
+      }
+    },
+    "book-cover-archive": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Book Cover Archive",
+        "url": "https://bookcoverarchive.com",
+        "alive": true,
+        "operator": "Ben Pieratt & Eric Jacobsen"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Browsing the archive needs no login or paywall; no pricing mentioned",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://bookcoverarchive.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No licence: covers are copyright of their owners (footer) · commercial: n/a (browse only) · attribution: n/a · limit: do not reuse covers",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://bookcoverarchive.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "book-cover-archive",
+        "type": "Website",
+        "category": "Design",
+        "title": "Book Cover Archive",
+        "description": "Curated gallery of well-designed book covers, browsable by genre, designer, illustrator and photographer.",
+        "tags": [
+          "inspiration",
+          "graphic-design",
+          "print-design",
+          "visual-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Large catalog of book covers shown in paged galleries",
+          "Browse by genre, designer, illustrator or photographer",
+          "Covers credited to their creators",
+          "RSS feed and social accounts for new additions"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search; no login, ads or download prompts seen"
+      },
+      "sources": [
+        {
+          "url": "https://bookcoverarchive.com",
+          "date": "2026-10-16",
+          "note": "purpose, operators, footer copyright, no paywall"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "last update date of the archive not shown",
+        "approx number of covers not read"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/book-cover-archive.md",
+        "lint": "pass"
+      }
+    },
+    "book-of-shapes": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Book of Shapes",
+        "url": "https://bookofshapes.com",
+        "alive": true,
+        "operator": "Nikolaj Sokolowski"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Patterns are free to use; licence page says no fee, no permission, no attribution",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://bookofshapes.com/license",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Custom free licence · commercial: yes · attribution: not required · limit: cannot redistribute patterns as patterns (packs, clipart, template libraries, generators); three recreated works (Joy Division, Joy Division Mesh, Brockmann Beethoven Arcs) not for publication or sale",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://bookofshapes.com/license",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "book-of-shapes",
+        "type": "Website",
+        "category": "Design",
+        "title": "Book of Shapes",
+        "description": "Collection of minimal, generative, customizable SVG patterns, free for commercial use without attribution.",
+        "tags": [
+          "graphic-design",
+          "visual-design",
+          "stock-vectors",
+          "royalty-free"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Generative SVG patterns grouped by grid, flow, radial, noise and isometric",
+          "Patterns can be customized before download",
+          "Sort by recent, popular or liked",
+          "Free commercial use, no attribution needed"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons (no exact match), 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search; personal creator site"
+      },
+      "sources": [
+        {
+          "url": "https://bookofshapes.com",
+          "date": "2026-10-16",
+          "note": "description, creator, categories"
+        },
+        {
+          "url": "https://bookofshapes.com/license",
+          "date": "2026-10-16",
+          "note": "licence terms, last changed Sep 2026 (via summary)"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "customization options inferred from the site tagline",
+        "licence read via model summary, not verbatim"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/book-of-shapes.md",
+        "lint": "pass"
+      }
+    },
+    "boom-library": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Products are paid (buyout/subscription); only a monthly free pack via newsletter signup, no permanent free tier, and free-pack terms not confirmed first-party. Owner to decide if a newsletter freebie counts.",
+      "site": {
+        "name": "BOOM Library",
+        "url": "https://www.boomlibrary.com",
+        "alive": true,
+        "operator": "BOOM Library GmbH"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Newsletter signup gives a free monthly sound pack, commercial use allowed (per site newsletter blurb); no standing free library",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.boomlibrary.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "EULA · commercial: yes for licensed customers · attribution: unknown · limit: no resale, trading or sharing of raw or processed files",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.boomlibrary.com/terms-conditions-regular/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Established German company; copyright 2026; web search found only freebie coverage, no scam hits"
+      },
+      "sources": [
+        {
+          "url": "https://www.boomlibrary.com",
+          "date": "2026-10-16",
+          "note": "products, newsletter free sounds, operator"
+        },
+        {
+          "url": "https://www.boomlibrary.com/terms-conditions-regular/",
+          "date": "2026-10-16",
+          "note": "EULA, first 100000 chars only"
+        },
+        {
+          "url": "https://www.toolfarm.com/news/freebie_boom_library_free_sound_effects/",
+          "date": "2026-10-16",
+          "note": "search result: monthly freebies (2024 coverage)"
+        }
+      ],
+      "unverified": [
+        "prices not shown",
+        "terms of free monthly packs not read (final 23k chars of EULA unread)",
+        "current month's free pack unknown"
+      ],
+      "injectionSeen": null
+    },
+    "bootstrap-icons": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Bootstrap Icons",
+        "url": "https://icons.getbootstrap.com",
+        "alive": true,
+        "operator": "The Bootstrap Authors (twbs)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Fully free open source icon library",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://icons.getbootstrap.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT · commercial: yes · attribution: not required beyond keeping the licence notice · limit: none notable",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://raw.githubusercontent.com/twbs/icons/main/LICENSE",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "bootstrap-icons",
+        "type": "Icon Set",
+        "category": "Design",
+        "title": "Bootstrap Icons",
+        "description": "Free open source icon library from the Bootstrap team, with 2,000+ icons as SVGs, an SVG sprite or a web font.",
+        "tags": [
+          "icon-library",
+          "open-source",
+          "web"
+        ],
+        "relatedResources": [
+          "simple-icons",
+          "material-symbols",
+          "akar-icons"
+        ],
+        "similarResources": [
+          "material-symbols",
+          "akar-icons",
+          "thesvg"
+        ],
+        "keyFeatures": [
+          "Over 2,000 icons (site says 2,078+)",
+          "Use as individual SVGs, an SVG sprite or web fonts",
+          "Install via npm (bootstrap-icons)",
+          "MIT licensed, maintained in the twbs GitHub org"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "bootstrap",
+          "fillColor": "#7952B3",
+          "bgColor": "#ffffff",
+          "source": "Simple Icons via scripts/check-icon.mjs (Bootstrap), 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Official Bootstrap project; no dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://icons.getbootstrap.com",
+          "date": "2026-10-16",
+          "note": "count 2,078, formats, npm, v1.13.2"
+        },
+        {
+          "url": "https://github.com/twbs/icons",
+          "date": "2026-10-16",
+          "note": "MIT, 1,308 commits"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/twbs/icons/main/LICENSE",
+          "date": "2026-10-16",
+          "note": "MIT, (c) 2019-2024 The Bootstrap Authors"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "latest commit/release date not shown"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/bootstrap-icons.md",
+        "lint": "pass"
+      }
+    },
+    "boring-avatars": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Boring Avatars",
+        "url": "https://boringavatars.com",
+        "alive": true,
+        "operator": "Boring Designers (Hayk An, Javi Sanchez-Marin, Enric Pallerols, Josep Martins)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "The open source React library is free (MIT). The hosted API service is a paid subscription with no free tier shown.",
+        "paidFrom": "$4.99/month (Basic, up to 100K monthly requests); Pro $9.99/month (500K requests)",
+        "evidence": {
+          "url": "https://boringavatars.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT (library) · commercial: yes · attribution: license notice kept in copies · limit: hosted API is a separate paid service",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/boringdesigners/boring-avatars",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "boring-avatars",
+        "type": "Library",
+        "category": "Development",
+        "title": "Boring Avatars",
+        "description": "Open source React library that turns any username, email or string into a unique SVG avatar, with several styles and custom palettes. Paid hosted API available.",
+        "tags": [
+          "open-source",
+          "graphic-design",
+          "web"
+        ],
+        "relatedResources": [
+          "avatune",
+          "avvvatars"
+        ],
+        "similarResources": [
+          "avatune",
+          "avvvatars"
+        ],
+        "keyFeatures": [
+          "Generates SVG profile avatars from usernames, emails or any string",
+          "Several avatar variants chosen with a variant prop",
+          "Custom colors array for brand palettes",
+          "Gallery of styles on the site",
+          "Optional paid API service for large-scale generation without the React library"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-16: no Simple Icons match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Open GitHub repo with 238 commits; no dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://boringavatars.com",
+          "date": "2026-10-16",
+          "note": "description, authors, sponsor, links"
+        },
+        {
+          "url": "https://boringavatars.com/pricing",
+          "date": "2026-10-16",
+          "note": "API plans and prices"
+        },
+        {
+          "url": "https://github.com/boringdesigners/boring-avatars",
+          "date": "2026-10-16",
+          "note": "MIT license, API sold via Gumroad"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "latest commit date not shown",
+        "API free tier: none shown on pricing page",
+        "npm package URL not read"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/boring-avatars.md",
+        "lint": "pass"
+      }
+    },
+    "boring-websites": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "Home page fetch returned only the heading 'Directory of Boring Websites' (likely JS-rendered); content, pricing and operator could not be read. Search found nothing about the site.",
+      "site": {
+        "name": "Boring Websites",
+        "url": "https://www.boringwebsites.info",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.boringwebsites.info",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.boringwebsites.info",
+          "date": "2026-10-16",
+          "note": "only heading returned"
+        },
+        {
+          "url": "web search 'Directory of Boring Websites'",
+          "date": "2026-10-16",
+          "note": "no results for the site"
+        }
+      ],
+      "unverified": [
+        "free vs paywalled",
+        "operator",
+        "content",
+        "license/terms",
+        "safety"
+      ],
+      "injectionSeen": null
+    },
+    "bottts": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "bottts.com TLS certificate has expired (fetch failed on https and http); not bypassed. Second-hand: free Sketch library by Pablo Stanley (2018), free for commercial use per Product Hunt.",
+      "site": {
+        "name": "Bottts",
+        "url": "https://bottts.com",
+        "alive": false,
+        "operator": "Pablo Stanley (second-hand)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Second-hand: free Sketch library",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.producthunt.com/p/bottts",
+          "date": "2026-10-16",
+          "confidence": "second-hand"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://bottts.com",
+          "date": "2026-10-16",
+          "note": "fetch failed: certificate has expired"
+        },
+        {
+          "url": "https://www.producthunt.com/p/bottts",
+          "date": "2026-10-16",
+          "note": "description, author, license summary via web search"
+        }
+      ],
+      "unverified": [
+        "site live state",
+        "license text first-party",
+        "current download availability"
+      ],
+      "injectionSeen": null
+    },
+    "bouffont": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "bouffont",
+        "url": "https://meodai.github.io/bouffont/",
+        "alive": true,
+        "operator": "David Aerne (meodai)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Fully free open source library, no paid tier",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://github.com/meodai/bouffont",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT · commercial: yes · attribution: license notice kept in copies · limit: none beyond MIT terms",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/meodai/bouffont",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "bouffont",
+        "type": "Library",
+        "category": "Design",
+        "title": "bouffont",
+        "description": "Creative-coding JavaScript library that grows any font into puffy, bubbly lettering rendered as SVG, with presets and effects like shine and shade.",
+        "tags": [
+          "open-source",
+          "typography",
+          "graphic-design"
+        ],
+        "relatedResources": [
+          "atom-type-lab"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Reduces each glyph to center lines and grows them into puffy letters",
+          "Growth strategies such as swelling, circle packing and wrinkling, plus presets",
+          "Effects including shine, shade, depth and inline",
+          "Works with TTF, OTF and WOFF fonts via npm install bouffont",
+          "piece.dom() returns the SVG with handles to parts for styling or animation"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no Simple Icons match for this small project; none"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Author's GitHub Pages demo and repo (53 commits); no dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://meodai.github.io/bouffont/",
+          "date": "2026-10-16",
+          "note": "description, features, install"
+        },
+        {
+          "url": "https://github.com/meodai/bouffont",
+          "date": "2026-10-16",
+          "note": "MIT license, description"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "latest commit date not shown",
+        "npm page not read",
+        "check-icon not run for this name"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/bouffont.md",
+        "lint": "pass"
+      }
+    },
+    "boxicons": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Boxicons",
+        "url": "https://boxicons.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan at $0 with 3500+ icons, explorer, SVG libraries, Figma/Framer plugins, React/Vue/Svelte/JS packages; listed for personal and commercial projects",
+        "paidFrom": "Pro $39/year",
+        "evidence": {
+          "url": "https://boxicons.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Free icons: personal and commercial projects per pricing page; GitHub repo labelled MIT · attribution: not stated",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/atisawd/boxicons",
+          "date": "2026-10-16",
+          "confidence": "second-hand"
+        }
+      },
+      "rl": {
+        "slug": "boxicons",
+        "type": "Icon Set",
+        "category": "Design",
+        "title": "Boxicons",
+        "description": "Icon library with 3,500+ free icons for web projects, plus a Pro tier, with SVG files, an explorer and framework packages.",
+        "tags": [
+          "icon-library",
+          "web",
+          "ui-ux"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "3,500+ icons on the free plan",
+          "Icon explorer to browse and copy SVGs",
+          "React, Vue, Svelte and plain JS packages",
+          "Figma and Framer plugins",
+          "Pro plan adds extra icons and web fonts"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Not in Simple Icons (check-icon, 2026-10-16)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": null
+      },
+      "sources": [
+        {
+          "url": "https://boxicons.com",
+          "date": "2026-10-16",
+          "note": "home, nav, footer"
+        },
+        {
+          "url": "https://boxicons.com/pricing",
+          "date": "2026-10-16",
+          "note": "plans and free contents"
+        },
+        {
+          "url": "https://github.com/atisawd/boxicons",
+          "date": "2026-10-16",
+          "note": "MIT label, not archived"
+        }
+      ],
+      "unverified": [
+        "Operator/legal entity not named",
+        "Exact license terms and attribution for the current free set (pricing page links only a Pro license)",
+        "Safety search not run",
+        "Related/similar slugs not looked up"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/boxicons.md",
+        "lint": "pass"
+      }
+    },
+    "bp-and-o-articles": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Articles appear partly gated behind BP&O Plus (GBP 50/yr); which content stays free is not stated, and no terms page found.",
+      "site": {
+        "name": "BP&O Articles",
+        "url": "https://bpando.org/articles/",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": null,
+        "paidFrom": "BP&O Plus GBP 6/month or GBP 50/year",
+        "evidence": {
+          "url": "https://bpando.org/plus/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://bpando.org/articles/",
+          "date": "2026-10-16",
+          "note": "brand identity publication; Plus Extended filter, login"
+        },
+        {
+          "url": "https://bpando.org/plus/",
+          "date": "2026-10-16",
+          "note": "Plus pricing"
+        }
+      ],
+      "unverified": [
+        "Which articles are free to read",
+        "Operator",
+        "Terms/reuse",
+        "Safety search not run"
+      ],
+      "injectionSeen": null
+    },
+    "brand-archive": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "Site returned HTTP 403 Forbidden to fetch; not bypassed.",
+      "site": {
+        "name": "Brand Archive",
+        "url": "https://brandarchive.xyz",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://brandarchive.xyz",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://brandarchive.xyz",
+          "date": "2026-10-16",
+          "note": "403 Forbidden"
+        }
+      ],
+      "unverified": [
+        "Everything beyond the directory description and Freemium label"
+      ],
+      "injectionSeen": null
+    },
+    "brand-ai": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Commercial brand platform with no pricing and only a Book a demo CTA; no free tier or beta signup found.",
+      "site": {
+        "name": "brand.ai",
+        "url": "https://brand.ai",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://brand.ai",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://brand.ai",
+          "date": "2026-10-16",
+          "note": "Brand OS and Brand Studio products, demo-only CTA"
+        }
+      ],
+      "unverified": [
+        "Operator",
+        "Pricing page not found",
+        "Safety search not run"
+      ],
+      "injectionSeen": null
+    },
+    "branda": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Free offer is 200 one-time signup credits; all ongoing use needs paid plans ($19/$49/$99 per month). Not a permanent free tier.",
+      "site": {
+        "name": "Branda",
+        "url": "https://branda.co",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": "200 free credits on signup, no card (one-time; not stated as recurring)",
+        "paidFrom": "$19/month (Solo, 500 credits/month)",
+        "evidence": {
+          "url": "https://branda.co",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No safety search run (skipped after pricing verdict)"
+      },
+      "sources": [
+        {
+          "url": "https://branda.co",
+          "date": "2026-10-16",
+          "note": "product, credits, plan prices"
+        }
+      ],
+      "unverified": [
+        "operator not named on home page",
+        "terms not read",
+        "no safety search"
+      ],
+      "injectionSeen": null
+    },
+    "brandbird": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Home says '100% free' with core features, Pro $15/month, but free-plan permanence, limits and watermark are not stated; Terms not read.",
+      "site": {
+        "name": "BrandBird",
+        "url": "https://www.brandbird.app",
+        "alive": true,
+        "operator": "BrandFlow EE (founder Jim Raptis)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Core editing features free per home FAQ; no numeric limits stated; watermark status unclear (listed in both Free and Pro feature lists)",
+        "paidFrom": "$15/month Pro; Lifetime Deal $179 (was $348)",
+        "evidence": {
+          "url": "https://www.brandbird.app/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Terms not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.brandbird.app/legal/terms",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "brandbird",
+        "type": "Tool",
+        "category": "Design",
+        "title": "BrandBird",
+        "description": "Browser screenshot and image editor for social posts, changelogs and landing visuals, with backgrounds, mockups and annotations.",
+        "tags": [
+          "social-media-design",
+          "graphic-design",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Backgrounds, 3D effects and mockups for screenshots",
+          "Annotations and presets",
+          "Figma, Chrome and Mac extensions"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not found"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://www.brandbird.app",
+          "date": "2026-10-16",
+          "note": "product, operator, 100% free claim"
+        },
+        {
+          "url": "https://www.brandbird.app/pricing",
+          "date": "2026-10-16",
+          "note": "Pro $15/mo, LTD $179"
+        }
+      ],
+      "unverified": [
+        "free plan permanence and limits",
+        "watermark on free exports",
+        "terms/commercial use",
+        "no safety search"
+      ],
+      "injectionSeen": null
+    },
+    "brandfetch": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Free plan exists (100 brand fetches, believed one-time per secondary report; Logo CDN and Brand Search up to 500K requests/month each) but the pricing page does not state it is permanent, and commercial/sublicensing terms apply.",
+      "site": {
+        "name": "Brandfetch",
+        "url": "https://brandfetch.com",
+        "alive": true,
+        "operator": "Brandfetch"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan: 100 fetches plus free Logo CDN and Brand Search up to 500K requests/month each, no card; brand page hosting free",
+        "paidFrom": "$129/month or $1,188/year (2,500 fetches/month; $0.10 overage)",
+        "evidence": {
+          "url": "https://brandfetch.com/developers/pricing.md",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "API terms · internal use (e.g. showing a logo in your app) yes · sublicensing data or re-serving it in your own API needs agreement · terms page not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://brandfetch.com/developers/pricing.md",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "brandfetch",
+        "type": "API",
+        "category": "Design",
+        "title": "Brandfetch",
+        "description": "Brand data platform and API for looking up company logos, colors and fonts by name or domain, with a free tier.",
+        "tags": [
+          "graphic-design",
+          "color-palette",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Search brands by name or URL for logos, colors and fonts",
+          "Logo and Brand APIs for developers",
+          "Brand owners can claim and edit their page",
+          "Logos in SVG and PNG variants"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "brandfetch",
+          "fillColor": "#0084FF",
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-16"
+        },
+        "siblings": [
+          "Developer API (brandfetch.com/developers) could be its own entry"
+        ]
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "brandfetch.io redirects 301 to brandfetch.com; no safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://brandfetch.com/",
+          "date": "2026-10-16",
+          "note": "product, features"
+        },
+        {
+          "url": "https://brandfetch.com/developers/pricing.md",
+          "date": "2026-10-16",
+          "note": "free plan and paid price"
+        },
+        {
+          "url": "web search 'Brandfetch pricing free plan Logo API'",
+          "date": "2026-10-16",
+          "note": "second-hand: 100 fetches one-time; sources conflict on Logo API quota"
+        }
+      ],
+      "unverified": [
+        "free plan permanence",
+        "Logo API quota conflicts across pages (500K vs 1M)",
+        "site terms page not read",
+        "no safety search"
+      ],
+      "injectionSeen": null
+    },
+    "brandguidelines": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "BrandGuidelines",
+        "url": "https://www.brandguidelines.net",
+        "alive": true,
+        "operator": "Ten Forty Two GmbH (1042 Studio), Dusseldorf"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Directory of brand guideline links is browsable with no login or paywall; optional premium guideline/template packs sold at $14-$30",
+        "paidFrom": "$14 (one-off premium templates)",
+        "evidence": {
+          "url": "https://www.brandguidelines.net",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Site Terms of Service v1.0 (Feb 2024) · commercial: no reuse of site material for selling/advertising · attribution: n/a · terms do not mention linking; no data mining",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.brandguidelines.net/legal/terms-of-service",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "brandguidelines",
+        "type": "Website",
+        "category": "Design",
+        "title": "BrandGuidelines",
+        "description": "Curated directory of brand guideline documents and style guides from companies and agencies worldwide, for identity design inspiration.",
+        "tags": [
+          "inspiration",
+          "graphic-design",
+          "design-templates"
+        ],
+        "relatedResources": [
+          "dribbble"
+        ],
+        "similarResources": [
+          "awwwards",
+          "behance"
+        ],
+        "keyFeatures": [
+          "Curated brand guidelines, many as PDFs",
+          "Search and load-more browsing",
+          "Optional premium guideline templates",
+          "Submit your own guidelines by email"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not found"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Identifiable German GmbH with register entry; no safety search run; some listings marked Promoted"
+      },
+      "sources": [
+        {
+          "url": "https://www.brandguidelines.net",
+          "date": "2026-10-16",
+          "note": "features, operator, premium prices"
+        },
+        {
+          "url": "https://www.brandguidelines.net/legal/terms-of-service",
+          "date": "2026-10-16",
+          "note": "terms, operator"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "linked guideline PDFs belong to their brand owners",
+        "search feature only per description"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/brandguidelines.md",
+        "lint": "pass"
+      }
     }
   }
 }
