@@ -15568,6 +15568,1398 @@
         "file": "src/content/resources/brandguidelines.md",
         "lint": "pass"
       }
+    },
+    "branding-guidelines-archive": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Branding Style Guides",
+        "url": "https://brandingstyleguides.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Browsing and searching the archive shows no pricing or paywall; optional sign-in for favorites",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://brandingstyleguides.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No licence stated · commercial: unknown · attribution: n/a · footer: all rights owned by authors and brand owners; documents provided for educational purposes",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://brandingstyleguides.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "branding-style-guides",
+        "type": "Website",
+        "category": "Design",
+        "title": "Branding Style Guides",
+        "description": "Searchable archive of brand style guide and design standards manuals, filterable by year, region, language and page count.",
+        "tags": [
+          "inspiration",
+          "graphic-design",
+          "design-systems"
+        ],
+        "relatedResources": [
+          "dribbble"
+        ],
+        "similarResources": [
+          "brandguidelines"
+        ],
+        "keyFeatures": [
+          "Archive of brand style guide documents from many countries",
+          "Filters by letter, language, year, page count, region and tags",
+          "Latest additions through 2026",
+          "Submit your own guide",
+          "Optional sign-in to save favorites"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Not in Simple Icons (check-icon.mjs, 2026-10-16)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated safety search; separate site from brandguidelines.net (existing draft brandguidelines), similar concept. Sponsor banner and Google Analytics noted."
+      },
+      "sources": [
+        {
+          "url": "https://brandingstyleguides.com",
+          "date": "2026-10-16",
+          "note": "purpose, filters, latest additions, footer rights text, no pricing seen"
+        }
+      ],
+      "unverified": [
+        "operator not named on home page",
+        "no terms page read",
+        "no dedicated safety search",
+        "pricing page not read (none seen)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/branding-style-guides.md",
+        "lint": "pass"
+      }
+    },
+    "brandnew": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Paywalled since 2020: post content beyond header image requires a paid subscription (free access only on request for those who cannot afford it); not a permanent free tier.",
+      "site": {
+        "name": "Brand New",
+        "url": "https://www.underconsideration.com/brandnew/",
+        "alive": true,
+        "operator": "UnderConsideration (Bryony Gomez-Palacio and Armin Vit)"
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "$2.50/month or $25/year (per 2025 announcement, via search summary, not read on the page)",
+        "evidence": {
+          "url": "https://www.underconsideration.com/brandnew/",
+          "date": "2026-10-16",
+          "confidence": "second-hand"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.underconsideration.com/brandnew/",
+          "date": "2026-10-16",
+          "note": "operator, active (post dated 2026-10-16), subscribe/log in links"
+        },
+        {
+          "url": "https://www.underconsideration.com/brandnew/archives/brand_new_will_shift_to_subscription_model.php",
+          "date": "2026-10-16",
+          "note": "paywall announcement (search summary only)"
+        }
+      ],
+      "unverified": [
+        "subscription page and current prices not fetched directly",
+        "current paywall extent not confirmed first-hand"
+      ],
+      "injectionSeen": null
+    },
+    "brandpad": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Trial only: help center describes a 3-week free trial, then brands are locked until a paid plan; no permanent free plan found (a third-party post mentions a $0 Starter plan, undated and unconfirmed).",
+      "site": {
+        "name": "Brandpad",
+        "url": "https://brandpad.io",
+        "alive": true,
+        "operator": "Brandpad (Papirfly handles Enterprise)"
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "$50/month or $500/year (Brand plan, 2 brands); Portfolio $125/month or $1250/year",
+        "evidence": {
+          "url": "https://help.brandpad.io/en/articles/3272044-pricing-and-subscriptions",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://help.brandpad.io/en/articles/3272044-pricing-and-subscriptions",
+          "date": "2026-10-16",
+          "note": "trial and plan prices"
+        },
+        {
+          "url": "https://brandpad.io/pricing",
+          "date": "2026-10-16",
+          "note": "page returned title only (JS)"
+        },
+        {
+          "url": "https://the-brandidentity.com/resource/move-brand-guidelines-cloud-free-brandpads-0-starter-plan",
+          "date": "2026-10-16",
+          "note": "third-party mention of $0 Starter plan, undated"
+        }
+      ],
+      "unverified": [
+        "whether a $0 Starter plan still exists (pricing page returned no content)"
+      ],
+      "injectionSeen": null
+    },
+    "brands-in-motion": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Brands in Motion",
+        "url": "https://www.brandsinmotion.xyz",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Articles, case studies and interviews readable with no login or paywall; a Shop link exists but no products or prices were seen",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.brandsinmotion.xyz",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No licence stated · commercial: unknown · attribution: n/a · footer: all images belong to their respective owners",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.brandsinmotion.xyz",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "brands-in-motion",
+        "type": "Website",
+        "category": "Design",
+        "title": "Brands in Motion",
+        "description": "Motion design in branding: project case studies, interviews, tips and a directory of studios and designers.",
+        "tags": [
+          "inspiration",
+          "graphic-design",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "art-of-the-title"
+        ],
+        "similarResources": [
+          "dribbble"
+        ],
+        "keyFeatures": [
+          "Case studies of motion identity projects",
+          "Interviews and Q&As with designers and studios",
+          "Tips and tricks posts",
+          "Directory of motion design talent",
+          "Active: newest post 2026-10-13"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Not in Simple Icons (check-icon.mjs, 2026-10-16)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://www.brandsinmotion.xyz",
+          "date": "2026-10-16",
+          "note": "categories, directory, post dates, footer, no paywall seen"
+        }
+      ],
+      "unverified": [
+        "operator not named",
+        "no terms page found",
+        "Shop contents unknown",
+        "no dedicated safety search",
+        "directory may involve paid listings (not checked)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/brands-in-motion.md",
+        "lint": "pass"
+      }
+    },
+    "brandy": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Brandy",
+        "url": "https://brandyhq.com",
+        "alive": true,
+        "operator": "Stylebase Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free Forever plan: 1 brand space, 100MB storage, 20 assets, unlimited editors, collections and shareable brand links",
+        "paidFrom": "$5/month (Pro, monthly billing)",
+        "evidence": {
+          "url": "https://brandyhq.com/pricing/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: yes (own brand assets) · attribution: not applicable · terms not read in full",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://brandyhq.com/legal/terms-of-services/",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "brandy",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Brandy",
+        "description": "Brand asset manager that keeps logos, colors, fonts and guidelines in one place and shares them through a single link; free plan holds 20 assets.",
+        "tags": [
+          "design-systems",
+          "graphic-design",
+          "collaboration",
+          "ai-tool"
+        ],
+        "relatedResources": [
+          "figma"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Store logos, colors and fonts in one brand space",
+          "Share guidelines through a single link",
+          "Unlimited editors and collections on the free plan",
+          "White-label brand portals on paid plans",
+          "AI features built on the vendor's brandOS framework"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search found only vendor content and G2/AppSumo listings; no scam, shutdown or acquisition hits"
+      },
+      "sources": [
+        {
+          "url": "https://brandyhq.com",
+          "date": "2026-10-16",
+          "note": "product, operator, free plan 20 assets"
+        },
+        {
+          "url": "https://brandyhq.com/pricing/",
+          "date": "2026-10-16",
+          "note": "plan table and prices"
+        },
+        {
+          "url": "https://www.g2.com/products/brandy/reviews",
+          "date": "2026-10-16",
+          "note": "safety search result"
+        }
+      ],
+      "unverified": [
+        "terms of service not read",
+        "annual prices not shown",
+        "vendor blog claims Adobe backing, not independently confirmed",
+        "paid plan feature lists not read in full"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/brandy.md",
+        "lint": "pass"
+      }
+    },
+    "branition": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Marketplace of logos for sale (listed $150-$2,200); only the platform is free, the logos are paid, no licence terms stated, operator unidentified",
+      "site": {
+        "name": "Branition",
+        "url": "https://branition.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://branition.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://branition.com",
+          "date": "2026-10-16",
+          "note": "marketplace, prices, no operator named"
+        }
+      ],
+      "unverified": [
+        "terms page https://branition.com/terms not read",
+        "no safety search done"
+      ],
+      "injectionSeen": null
+    },
+    "braun-linear": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Single typeface showcase page by iconwerk for Braun; no download, price or licence info, not a free resource",
+      "site": {
+        "name": "Braun Linear",
+        "url": "https://www.iconwerk.com/braun-font.html",
+        "alive": true,
+        "operator": "iconwerk"
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.iconwerk.com/braun-font.html",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.iconwerk.com/braun-font.html",
+          "date": "2026-10-16",
+          "note": "showcase page; no licence or pricing"
+        }
+      ],
+      "unverified": [
+        "whether the font is publicly available at all"
+      ],
+      "injectionSeen": null
+    },
+    "bravemark": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Bravemark",
+        "url": "https://www.bravemark.co",
+        "alive": true,
+        "operator": "Bravemark Inc. (office in Spain per terms)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Forever Free $0: 5 projects and portfolio publishing; downloads count on the free plan not stated",
+        "paidFrom": "$8/month (One, monthly billing)",
+        "evidence": {
+          "url": "https://www.bravemark.co",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: yes (own brand guidelines) · attribution: not applicable · terms do not forbid linking; bar framing, mirroring and scrapers",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.bravemark.co/terms-conditions/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "bravemark",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Bravemark",
+        "description": "No-code builder for publishing responsive online brand guidelines with downloadable assets, shared with clients as one link. Free plan has 5 projects.",
+        "tags": [
+          "design-systems",
+          "graphic-design",
+          "no-code"
+        ],
+        "relatedResources": [
+          "figma"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Build brand guidelines pages without code",
+          "Publish as one shareable, responsive URL",
+          "Offer downloadable brand assets to clients",
+          "Portfolio publishing included on the free plan",
+          "Update the live guidelines at any time"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Safety search returned nothing about Bravemark (no scam, shutdown or acquisition hits)"
+      },
+      "sources": [
+        {
+          "url": "https://www.bravemark.co",
+          "date": "2026-10-16",
+          "note": "product, plans, operator"
+        },
+        {
+          "url": "https://www.bravemark.co/terms-conditions/",
+          "date": "2026-10-16",
+          "note": "terms: no listing ban"
+        }
+      ],
+      "unverified": [
+        "separate pricing page not read; plan details come from home page summary",
+        "free plan limit on downloadable projects not stated",
+        "annual prices not shown"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/bravemark.md",
+        "lint": "pass"
+      }
+    },
+    "bravo": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Bravo",
+        "url": "https://www.bravostudio.app",
+        "alive": true,
+        "operator": "App Foundry S.L. (per site copyright line)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Starter plan at $0/mo, labelled free forever: a limited number of apps (count not stated), up to 15 screens per app, basic API authentication, phone preview, no App Store / Play Store builds. A separate time-limited trial of Solo exists.",
+        "paidFrom": "Solo $22/month billed monthly (annual price not shown); Bravo To Go concierge build $999 one-time",
+        "evidence": {
+          "url": "https://www.bravostudio.app/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Bravo Terms of Service · commercial: allowed for apps you build (site content itself may not be commercially exploited) · attribution: not stated · limit: no building a competing service; brand marks need written consent",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.bravostudio.app/terms",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "bravo-studio",
+        "type": "Tool",
+        "category": "Development",
+        "title": "Bravo Studio",
+        "description": "No-code tool that turns Figma designs into native iOS and Android apps, with a free Starter plan for small projects and paid plans for store builds.",
+        "tags": [
+          "no-code",
+          "ios",
+          "android",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "figma",
+          "adalo"
+        ],
+        "similarResources": [
+          "adalo"
+        ],
+        "keyFeatures": [
+          "Turns Figma designs into working native mobile apps",
+          "Phone preview of the app while you build",
+          "Connects to APIs and services such as Stripe, OAuth and Firebase on paid plans",
+          "Free Starter plan capped at 15 screens per app and no store builds",
+          "Paid Solo plan adds native app builds and more screens per app"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Search 2026-10-16 found no scam, shutdown or acquisition reports; a third-party migration guide says the company is moving toward a beta product, Bravo MCP (unverified)."
+      },
+      "sources": [
+        {
+          "url": "https://www.bravostudio.app",
+          "date": "2026-10-16",
+          "note": "alive (Bravo 4.0 announced, 2026 copyright), operator"
+        },
+        {
+          "url": "https://www.bravostudio.app/pricing",
+          "date": "2026-10-16",
+          "note": "plans, free-forever Starter limits"
+        },
+        {
+          "url": "https://www.bravostudio.app/terms",
+          "date": "2026-10-16",
+          "note": "no listing ban, commercial clauses"
+        },
+        {
+          "url": "https://www.rapidevelopers.com/md/no-code-to-code/how-to-migrate-bravo-studio-project-to-code",
+          "date": "2026-10-16",
+          "note": "third-party, status only, low trust"
+        }
+      ],
+      "unverified": [
+        "exact number of apps allowed on Starter (page says limited)",
+        "annual price of Solo",
+        "free Solo trial length",
+        "Bravo MCP beta direction is from a third-party page",
+        "logo/icon: none found in Simple Icons"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/bravo-studio.md",
+        "lint": "pass"
+      }
+    },
+    "brew": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Free plan is listed ($0, 1,000 sends/month) but pages never say it is permanent; also a new product (introduced Dec 2025 per third party) with unclear operator. Owner decides whether to list; if yes, pricing Freemium.",
+      "site": {
+        "name": "Brew",
+        "url": "https://brew.new",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free $0: 1,000 email sends/month, 500 AI credits/month, unlimited sending domains, 3 brand workspaces, Brew watermark on emails; no card needed. Contact limit not stated. Permanence not stated.",
+        "paidFrom": "Growth $99/month (Pro $249/month, Enterprise from $999/month)",
+        "evidence": {
+          "url": "https://brew.new/pricing.md",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://brew.new",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search 2026-10-16: only aggregator listings, no scam/shutdown/acquisition reports."
+      },
+      "sources": [
+        {
+          "url": "https://brew.new",
+          "date": "2026-10-16",
+          "note": "product, plan names, sign-up without card"
+        },
+        {
+          "url": "https://brew.new/pricing.md",
+          "date": "2026-10-16",
+          "note": "prices and free limits"
+        },
+        {
+          "url": "https://www.stork.ai/tool/brew",
+          "date": "2026-10-16",
+          "note": "third-party, launch timing only"
+        }
+      ],
+      "unverified": [
+        "whether the Free plan is permanent",
+        "operator / company behind Brew",
+        "terms of service not read",
+        "contact limit on Free",
+        "live sends require a custom domain you own (home page)"
+      ],
+      "injectionSeen": null
+    },
+    "briefbox": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Paid course only: the-course page shows $16/mo, $199 annual ($149 once) and a lifetime tier; no free tier or free briefs found on the pages read.",
+      "site": {
+        "name": "Briefbox",
+        "url": "https://www.briefbox.me",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "$16/month",
+        "evidence": {
+          "url": "https://www.briefbox.me/the-course",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.briefbox.me",
+          "date": "2026-10-16",
+          "note": "practice briefs, course, community; updated for 2026"
+        },
+        {
+          "url": "https://www.briefbox.me/the-course",
+          "date": "2026-10-16",
+          "note": "paid options, no free tier listed"
+        }
+      ],
+      "unverified": [
+        "whether any briefs are free without enrolling (source label said Freemium)",
+        "operator",
+        "terms and safety search not run (skipped as paid)"
+      ],
+      "injectionSeen": null
+    },
+    "brik": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Home page shows a $0 Free plan (80 credits/month, 20/day) but does not say it is permanent, and terms were not read; the /pricing page returned no plan text.",
+      "site": {
+        "name": "Brik",
+        "url": "https://brik.space",
+        "alive": true,
+        "operator": "Wix.com (footer: Brik by Wix.com)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free $0/month: 80 credits/month, max 20/day, export as image or video only. Permanence not stated.",
+        "paidFrom": "Standard $15/month (240 credits/month, no daily limit, code export, embed, branding removal, video rendering); 20% discount yearly",
+        "evidence": {
+          "url": "https://brik.space",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://brik.space/pricing",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Search 2026-10-16: press coverage links Brik to Wix (started as internal Wix Design Guild tool); no scam/shutdown reports. Not the same as Wixel."
+      },
+      "sources": [
+        {
+          "url": "https://brik.space",
+          "date": "2026-10-16",
+          "note": "plans, credits, operator footer"
+        },
+        {
+          "url": "https://brik.space/pricing",
+          "date": "2026-10-16",
+          "note": "page text had no plan details"
+        },
+        {
+          "url": "https://dev.ua/en/news/brik-1781081438",
+          "date": "2026-10-16",
+          "note": "third-party/partner article, origin only"
+        }
+      ],
+      "unverified": [
+        "whether Free plan is permanent",
+        "terms and commercial use of outputs not read",
+        "plan values come from the home page only, pricing page gave nothing",
+        "icon/type/category not decided (would be AI Tool, Design, tags ai-tool, graphic-design, no icon in Simple Icons)"
+      ],
+      "injectionSeen": null
+    },
+    "brilliant": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Brilliant",
+        "url": "https://brilliant.design",
+        "alive": true,
+        "operator": "Brilliant (CEO Amichai Mantinband per site)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free $0 forever: every design feature, public projects and drops up to 2 GB, unlimited canvas work via your own agents over MCP, bring-your-own-AI chat limited to 10 messages a day, Brilliant AI to try",
+        "paidFrom": "$20 per month (Personal); Max $100 per month",
+        "evidence": {
+          "url": "https://brilliant.design/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary app, Terms of Service · commercial: yes (you own your outputs) · attribution: not required · limit: no AI-model training on platform content; public projects viewable/cloneable but reuse needs a license file",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://brilliant.design/terms",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "brilliant",
+        "type": "AI Tool",
+        "category": "Design",
+        "title": "Brilliant",
+        "description": "Vector design tool for macOS and Windows with a plain-text design language, built to be driven by AI agents over MCP; free editor with a paid AI allowance.",
+        "tags": [
+          "ai-tool",
+          "ui-ux",
+          "graphic-design",
+          "design-systems",
+          "mac",
+          "windows"
+        ],
+        "relatedResources": [
+          "figma",
+          "banani"
+        ],
+        "similarResources": [
+          "figma",
+          "visily"
+        ],
+        "keyFeatures": [
+          "Vector canvas that external agents can drive as an MCP server, and that can also connect to other MCP servers",
+          "Plain-text design language called Blueprint",
+          "Design systems and Figma import",
+          "Export to code, images, video and PDF",
+          "Built-in chat with Claude Code, Codex, Claude, Gemini, OpenRouter or a custom endpoint"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons has no match (check-icon.mjs, 2026-10-16)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated scam/shutdown search run; site shows 2026 copyright and legal pages (Terms, Privacy, DPA, Subprocessors)"
+      },
+      "sources": [
+        {
+          "url": "https://brilliant.design",
+          "date": "2026-10-16",
+          "note": "product, MCP, platforms, operator"
+        },
+        {
+          "url": "https://brilliant.design/pricing",
+          "date": "2026-10-16",
+          "note": "plans and prices"
+        },
+        {
+          "url": "https://brilliant.design/terms",
+          "date": "2026-10-16",
+          "note": "listing, outputs, free tier limits"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "Team plan details not read",
+        "Brilliant AI free allowance size not stated",
+        "not the same product as brilliant.org"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/brilliant.md",
+        "lint": "pass"
+      }
+    },
+    "bring-out-your-design-dead": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "Notion page is JS-rendered; fetch returned only the word \"Notion\", so content, author and terms could not be read. Not bypassed.",
+      "site": {
+        "name": "Bring Out Your Design Dead",
+        "url": "https://secondwavedive.notion.site/Bring-Out-Your-Design-Dead-1c3b5a0d3230802aa96eed6bb5e1861a",
+        "alive": true,
+        "operator": "secondwavedive (Notion workspace name from URL; unconfirmed)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://secondwavedive.notion.site/Bring-Out-Your-Design-Dead-1c3b5a0d3230802aa96eed6bb5e1861a",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://secondwavedive.notion.site/Bring-Out-Your-Design-Dead-1c3b5a0d3230802aa96eed6bb5e1861a",
+          "date": "2026-10-16",
+          "note": "fetch returned only \"Notion\""
+        }
+      ],
+      "unverified": [
+        "page content",
+        "author",
+        "number of entries",
+        "license",
+        "safety"
+      ],
+      "injectionSeen": null
+    },
+    "browsing-mode": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Home page states no pricing and no operator; it looks free (no paywall seen) but this is not confirmed on a pricing or terms page. Owner to accept the source label \"Free\".",
+      "site": {
+        "name": "Browsing Mode",
+        "url": "https://browsingmode.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Browsing the curated gallery; no pricing shown on home page",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://browsingmode.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No terms read · commercial: unknown · attribution: unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://browsingmode.com",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "browsing-mode",
+        "type": "Website",
+        "category": "Design",
+        "title": "Browsing Mode",
+        "description": "Curated gallery of favourite websites chosen for design and function, browsable by type (agency, e-commerce, portfolio) and subject.",
+        "tags": [
+          "inspiration",
+          "web",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "awwwards",
+          "a1-gallery"
+        ],
+        "similarResources": [
+          "a1-gallery",
+          "mobbin"
+        ],
+        "keyFeatures": [
+          "Hand-picked website design inspiration",
+          "Browse by type: Agency, E-commerce, Portfolio",
+          "Browse by subject: Beauty, Fashion, Food & Drink, Home, Media, Technology",
+          "Weekly \"Site of the Week\" feature"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons has no match (check-icon.mjs, 2026-10-16)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://browsingmode.com",
+          "date": "2026-10-16",
+          "note": "description, categories"
+        }
+      ],
+      "unverified": [
+        "operator",
+        "terms and sponsorship page",
+        "free status beyond home page",
+        "no safety search"
+      ],
+      "injectionSeen": null
+    },
+    "brrranding": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "BRRRANDING",
+        "url": "https://www.brrranding.com",
+        "alive": true,
+        "operator": "Vadim Carazan (formerly Daily Branding)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Browse the full gallery and newsletter; site states no ads, sponsor slots booked monthly; no paywall seen",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.brrranding.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No terms page found (cookies notice only) · commercial: n/a (gallery of third-party projects) · attribution: n/a · limit: project copyright belongs to their creators",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.brrranding.com",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "brrranding",
+        "type": "Website",
+        "category": "Design",
+        "title": "BRRRANDING",
+        "description": "Hand-picked gallery of branding projects, logos, palettes and visuals, filterable by industry, year, color and typography, with a weekly newsletter.",
+        "tags": [
+          "inspiration",
+          "graphic-design",
+          "color-palette"
+        ],
+        "relatedResources": [
+          "brandguidelines",
+          "logoipsum"
+        ],
+        "similarResources": [
+          "brandguidelines"
+        ],
+        "keyFeatures": [
+          "Branding projects (230), logos (67) and palettes (78) as of 2026-10-16",
+          "Filters by industry, year, color, elements and typography",
+          "Sort by newest, release year or shuffle",
+          "Weekly Thursday theme newsletter",
+          "Submit-for-feature link"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons has no match (check-icon.mjs, 2026-10-16)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No safety search run; uses Google Analytics"
+      },
+      "sources": [
+        {
+          "url": "https://www.brrranding.com",
+          "date": "2026-10-16",
+          "note": "description, counts, operator, features"
+        }
+      ],
+      "unverified": [
+        "no terms page",
+        "no dedicated safety search",
+        "free status inferred from no paywall"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/brrranding.md",
+        "lint": "pass"
+      }
+    },
+    "bryn-taylor": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Digitool page labels it Paid (Webflow/Framer/Notion/Figma templates, store appears to be Lemon Squeezy); no free tier confirmed and no own site resolved (only a digitool.co/go redirect).",
+      "site": {
+        "name": "Bryn Taylor",
+        "url": null,
+        "alive": null,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://digitool.co/tool/bryn-taylor/",
+          "date": "2026-10-16",
+          "confidence": "second-hand"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/bryn-taylor/",
+          "date": "2026-10-16",
+          "note": "listed as Paid; template collection; own site not given"
+        }
+      ],
+      "unverified": [
+        "own website URL",
+        "whether any free templates exist (source label said Free tier listed, detail page says Paid)",
+        "license",
+        "safety"
+      ],
+      "injectionSeen": null
+    },
+    "bubble": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Free plan is development-only (no live site or custom domain; live deploy needs paid Starter $59/mo billed annually). Page does not say 'permanent'. Owner to decide if this counts as a free tier.",
+      "site": {
+        "name": "Bubble",
+        "url": "https://bubble.io",
+        "alive": true,
+        "operator": "Bubble Group, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan, no stated time limit: development version, API connector, 1 app editor, 50K workload units/month, 6 hours of server logs; cannot deploy a live app",
+        "paidFrom": "Starter $59/month billed annually",
+        "evidence": {
+          "url": "https://bubble.io/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: n/a (terms not read)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://bubble.io/terms",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "bubble",
+        "type": "Tool",
+        "category": "Development",
+        "title": "Bubble",
+        "description": "No-code platform for building and hosting full web and mobile apps visually, with a free development plan.",
+        "tags": [
+          "no-code",
+          "website-builder",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Visual editor for web apps without code",
+          "API connector for external services",
+          "Native mobile editor and on-device testing",
+          "Component library and debugger"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "scripts/check-icon.mjs, 2026-10-16: no Simple Icons match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search run; well-known product"
+      },
+      "sources": [
+        {
+          "url": "https://bubble.io/pricing",
+          "date": "2026-10-16",
+          "note": "plans and free plan limits"
+        }
+      ],
+      "unverified": [
+        "terms/license page not read",
+        "no safety search",
+        "'permanent' not stated for Free plan",
+        "operator name not taken from a page",
+        "category choice (Development vs Productivity)"
+      ],
+      "injectionSeen": null
+    },
+    "bubbles": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Bubbles",
+        "url": "https://www.usebubbles.com",
+        "alive": true,
+        "operator": "Bubbles (San Francisco, CA)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Basic plan listed as Free: recordings capped at 30 min each, 5 meeting recordings per week, unlimited screen recordings, bubbles lock after 2 weeks, 2 channels",
+        "paidFrom": "Pro Teams $12/member/month billed yearly ($15 monthly)",
+        "evidence": {
+          "url": "https://www.usebubbles.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: yes (terms not read) · attribution: n/a",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.usebubbles.com/terms",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "bubbles",
+        "type": "AI Tool",
+        "category": "Productivity",
+        "title": "Bubbles",
+        "description": "AI meeting notetaker and screen recorder that joins Zoom, Meet and Teams, writes summaries and action items, and shares async video.",
+        "tags": [
+          "ai-tool",
+          "productivity",
+          "collaboration"
+        ],
+        "relatedResources": [
+          "bluedot",
+          "guideless"
+        ],
+        "similarResources": [
+          "bluedot"
+        ],
+        "keyFeatures": [
+          "Notetaker bot joins Zoom, Google Meet and Teams meetings via calendar",
+          "Transcripts, summaries and action items by email",
+          "Chat with meeting content through ChatGPT and Claude integrations",
+          "Browser extension for screen and voice recording",
+          "Async video replies and shareable meeting library",
+          "Zapier integration and public API"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "scripts/check-icon.mjs, 2026-10-16: no Simple Icons match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search 2026-10-16 found no acquisition, shutdown or scam reports"
+      },
+      "sources": [
+        {
+          "url": "https://www.usebubbles.com",
+          "date": "2026-10-16",
+          "note": "features, company address, footer links"
+        },
+        {
+          "url": "https://www.usebubbles.com/pricing",
+          "date": "2026-10-16",
+          "note": "plans and free limits"
+        },
+        {
+          "url": "web search: Bubbles usebubbles.com acquired OR shutting down OR scam",
+          "date": "2026-10-16",
+          "note": "no negative hits; Chrome Web Store listing active"
+        }
+      ],
+      "unverified": [
+        "terms of service not read (commercial use, listing)",
+        "free plan permanence not stated explicitly",
+        "SOC 2 claim is vendor's own",
+        "icon: none in Simple Icons, site SVG not extracted"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/bubbles.md",
+        "lint": "pass"
+      }
+    },
+    "bubbleshift": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Bubbleshift",
+        "url": "https://bubbleshift.xyz",
+        "alive": true,
+        "operator": "Sara Soltis (GitHub: saralsoltis)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Free browser tool, no account or signup mentioned; open source on GitHub",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://bubbleshift.xyz",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "GPL-3.0 · commercial: code license permits (output terms not stated) · attribution: not stated for output · copyleft applies to the code",
+        "openSource": true,
+        "spdx": "GPL-3.0",
+        "evidence": {
+          "url": "https://github.com/saralsoltis/Bubble-Shift-Type-Tool",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "bubbleshift",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Bubbleshift",
+        "description": "Free open-source web tool that applies liquid bubble distortion to text and exports the result as JPG or PNG.",
+        "tags": [
+          "typography",
+          "graphic-design",
+          "open-source"
+        ],
+        "relatedResources": [
+          "atom-type-lab"
+        ],
+        "similarResources": [
+          "atom-type-lab"
+        ],
+        "keyFeatures": [
+          "Type your own text, pick or upload a font, set colors",
+          "Animated bubble distortion with adjustable count, size, speed and opacity",
+          "Several canvas resolutions",
+          "Export to JPG or PNG"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "scripts/check-icon.mjs, 2026-10-16: no Simple Icons match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search run; open-source repo with 18 commits"
+      },
+      "sources": [
+        {
+          "url": "https://bubbleshift.xyz",
+          "date": "2026-10-16",
+          "note": "what it is, export formats, no signup"
+        },
+        {
+          "url": "https://github.com/saralsoltis/Bubble-Shift-Type-Tool",
+          "date": "2026-10-16",
+          "note": "GPL-3.0, features, author"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "last commit date",
+        "site gives no pricing statement; free inferred from open-source repo",
+        "no video export confirmed (directory called it kinetic typography)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/bubbleshift.md",
+        "lint": "pass"
+      }
     }
   }
 }
