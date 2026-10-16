@@ -17704,7 +17704,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "flodesk",
       "priority": "P2",
       "hasResearch": true
     },
@@ -17782,7 +17782,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "flora",
       "priority": "P2",
       "hasResearch": true
     },
@@ -17834,7 +17834,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "flowbase",
       "priority": "P2",
       "hasResearch": true
     },
@@ -17858,7 +17858,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "beta",
-      "rlSlug": null,
+      "rlSlug": "flowbite-icons",
       "priority": "P3",
       "hasResearch": true
     },
@@ -17936,7 +17936,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "flowmapp",
       "priority": "P2",
       "hasResearch": true
     },
@@ -17964,7 +17964,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "flowsavvy",
       "priority": "P2",
       "hasResearch": true
     },
@@ -18094,7 +18094,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "fluent-emoji",
       "priority": "P2",
       "hasResearch": true
     },
@@ -18276,7 +18276,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "foca",
       "priority": "P2",
       "hasResearch": true
     },
@@ -18456,7 +18456,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "font-mojo",
       "priority": "P2",
       "hasResearch": true
     },
@@ -18534,7 +18534,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "font-tester",
       "priority": "P2",
       "hasResearch": true
     },
@@ -18560,7 +18560,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "fontalternatives",
       "priority": "P2",
       "hasResearch": true
     },
@@ -18612,7 +18612,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "fontbase",
       "priority": "P2",
       "hasResearch": true
     },
@@ -18664,7 +18664,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "fontcraft",
       "priority": "P2",
       "hasResearch": true
     },
@@ -18768,7 +18768,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "fontforge",
       "priority": "P2",
       "hasResearch": true
     },
@@ -18794,7 +18794,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "fontgoggles",
       "priority": "P2",
       "hasResearch": true
     },
@@ -18898,7 +18898,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "fonts-in-use",
       "priority": "P2",
       "hasResearch": true
     },
@@ -19005,12 +19005,12 @@
           "file": "Best Free Font Libraries and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Home page is JS-rendered and returned only 'Quality Fonts. Free.'; first-party license (ITF Free Font License vs OFL per font) not read; third-party sources say commercial use allowed but no redistribution.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "fontspring",
@@ -19057,12 +19057,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "foreplay",
@@ -19107,12 +19107,12 @@
           "file": "Best Free Open Source Icon Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Free 300+ SVG icon pack download but no license or attribution terms stated anywhere found; a separate paid Travel Pack ($9, 40 icons) exists.",
       "pricingBucket": "beta",
       "rlSlug": null,
       "priority": "P3",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "formaly",
@@ -19133,12 +19133,12 @@
           "file": "Best UX Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Home page shows Free $0 'forever' with 50 credits, but credits look like a one-time allotment and the terms do not describe the free plan; permanence unclear.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "format",
@@ -19185,12 +19185,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Home and /pricing fetches return only the page title (JS-rendered); no pricing, terms or operator readable. Not bypassed.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "fotor",
@@ -19211,12 +19211,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "four-modes-think-with-ai",
@@ -19237,12 +19237,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "frame-rate",
@@ -19263,12 +19263,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "frame-io",
@@ -19289,12 +19289,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Free plan exists (2 members, 2GB, 2 projects) but pricing page does not say whether it is permanent; owner to decide.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "frame0",
@@ -19315,12 +19315,12 @@
           "file": "Best UX Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "frameauth",
@@ -19395,12 +19395,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Official site frameblox.com sells one-time paid licenses (Pro $49, Premium $99) and shows no free plan; Digitool 'free tier' label not confirmed.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "framepad",
@@ -19447,12 +19447,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "frameplugins",
@@ -19473,12 +19473,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "framer",
@@ -19531,12 +19531,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "duplicate: Framer already in RL as 'framer' (in review); URL is an affiliate redirect to framer.com/design",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "framer-overrides",
@@ -19557,12 +19557,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Free vs paid split unclear (only $9.99/month shown; page does not say which overrides are paid) and no license terms for the code; operator is an individual",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "framer-text-effects",
@@ -19583,12 +19583,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Price and license not stated, no author named; Framer-hosted gallery of 27 effects (copy prompt or CSS); overlaps css-text-effects already in RL drafts",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "framerauth",
@@ -19611,12 +19611,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Renamed FrameAuth (frameauth.com); pricing shows only a 14-day free trial then $19.99/mo or $129.99/yr, no permanent free tier confirmed.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "framerfuel",
@@ -19639,12 +19639,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "framerfuel.com redirects to a parked-style host (ww547.framerfuel.com), web search finds no product; appears dead. Digitool lists it as Paid.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "framesketch",
@@ -19665,12 +19665,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "framestack",
@@ -19717,12 +19717,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Free plan exists ($0/mo with daily/monthly limits) but site shows copyrighted film stills 'for commentary, education and reference' with rights held by owners and no named operator; owner should decide whether to list.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "framezero",
@@ -59927,16 +59927,16 @@
     "byStatus": {
       "deferred-trial": 232,
       "deferred-paid": 217,
-      "blocked": 249,
-      "drafted": 241,
-      "rejected": 84,
+      "blocked": 257,
+      "drafted": 257,
+      "rejected": 88,
       "in-rl": 33,
-      "researched": 16,
-      "todo": 1207
+      "researched": 8,
+      "todo": 1187
     },
     "todoByPriority": {
-      "P2": 1140,
-      "P3": 66,
+      "P2": 1121,
+      "P3": 65,
       "P1": 1
     }
   }

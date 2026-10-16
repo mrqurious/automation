@@ -40796,6 +40796,1338 @@
         "file": "src/content/resources/fonts-in-use.md",
         "lint": "pass"
       }
+    },
+    "fontshare": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Home page is JS-rendered and returned only 'Quality Fonts. Free.'; first-party license (ITF Free Font License vs OFL per font) not read; third-party sources say commercial use allowed but no redistribution.",
+      "site": {
+        "name": "Fontshare",
+        "url": "https://www.fontshare.com",
+        "alive": true,
+        "operator": "Indian Type Foundry (per third-party sources)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Fonts free of charge per home page tagline; details not read",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.fontshare.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.fontshare.com",
+          "date": "2026-10-17",
+          "note": "tagline only"
+        },
+        {
+          "url": "https://www.indiantypefoundry.com/news/introducing-fontshare",
+          "date": "2026-10-17",
+          "note": "search result: operator ITF"
+        },
+        {
+          "url": "https://licenseorg.com/guide/fonts/fontshare",
+          "date": "2026-10-17",
+          "note": "search summary of license, second-hand"
+        }
+      ],
+      "unverified": [
+        "license text (ITF Free Font License / OFL) not read first-hand",
+        "operator confirmed only second-hand",
+        "no safety search",
+        "Simple Icons has no match (check-icon exit 1)"
+      ],
+      "injectionSeen": null
+    },
+    "footer": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Footer",
+        "url": "https://www.footer.design",
+        "alive": true,
+        "operator": "Side project by Benten Woodring, Devin Fountain, Matt Cram; site by NOOON Studio"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Public gallery, no sign-in or pricing shown; one sponsored listing",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.footer.design",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No terms published · commercial: n/a (inspiration gallery linking out to sites) · attribution: n/a · limit: no terms page found",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.footer.design/info",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "footer",
+        "type": "Website",
+        "category": "Design",
+        "title": "Footer",
+        "description": "Curated gallery of website footer designs you can browse by type and style, from typographic and grid to dark and bold layouts.",
+        "tags": [
+          "inspiration",
+          "web",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "cta-gallery",
+          "dark"
+        ],
+        "similarResources": [
+          "a1-gallery",
+          "cta-gallery"
+        ],
+        "keyFeatures": [
+          "Curated collection of real website footers",
+          "Filter by type and style such as Typographic, Grid, Dark and Bold",
+          "Submit your own find via a Submit page",
+          "Runs as a spare-time project by its makers"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-17: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated scam/shutdown search run"
+      },
+      "sources": [
+        {
+          "url": "https://www.footer.design",
+          "date": "2026-10-17",
+          "note": "description, categories, sponsored listing"
+        },
+        {
+          "url": "https://www.footer.design/info",
+          "date": "2026-10-17",
+          "note": "makers and spare-time statement"
+        }
+      ],
+      "unverified": [
+        "no safety search",
+        "no terms page found",
+        "submission cost unknown",
+        "icon not in Simple Icons"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/footer.md",
+        "lint": "pass"
+      }
+    },
+    "forge-icons": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Free 300+ SVG icon pack download but no license or attribution terms stated anywhere found; a separate paid Travel Pack ($9, 40 icons) exists.",
+      "site": {
+        "name": "Forge Icons",
+        "url": "https://icons.theforgesmith.com",
+        "alive": true,
+        "operator": "TheForgesmith"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Main pack of 300+ SVG icons with a Download link (explicit 'free' wording not seen)",
+        "paidFrom": "Travel Pack $9 (40 icons), one-time",
+        "evidence": {
+          "url": "https://icons.theforgesmith.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://icons.theforgesmith.com",
+          "date": "2026-10-17",
+          "note": "300+ icons, Travel Pack $9, operator footer"
+        },
+        {
+          "url": "https://uiuxjobsboard.com/resources/icons/forge-icons",
+          "date": "2026-10-17",
+          "note": "search result: free download of 300+ SVG icons, second-hand"
+        }
+      ],
+      "unverified": [
+        "license/commercial use not stated",
+        "free status of main pack inferred",
+        "no safety search",
+        "no Simple Icons match"
+      ],
+      "injectionSeen": null
+    },
+    "formaly": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Home page shows Free $0 'forever' with 50 credits, but credits look like a one-time allotment and the terms do not describe the free plan; permanence unclear.",
+      "site": {
+        "name": "Formaly",
+        "url": "https://www.formaly.io",
+        "alive": true,
+        "operator": "Arindam Majumder (individual, per terms)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free: 50 credits, AI form creation, basic analytics, chat responses; no unlimited forms or export. Generating a form costs 10 credits",
+        "paidFrom": "Starter $3.50 one-time for 60 credits; credit packs never expire",
+        "evidence": {
+          "url": "https://www.formaly.io",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS terms · commercial: not stated · attribution: n/a · limit: acceptable-use clause; plans may change",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.formaly.io/terms",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://www.formaly.io",
+          "date": "2026-10-17",
+          "note": "features and pricing"
+        },
+        {
+          "url": "https://www.formaly.io/terms",
+          "date": "2026-10-17",
+          "note": "operator, no listing clause"
+        }
+      ],
+      "unverified": [
+        "whether the 50 free credits recur or are one-time",
+        "no safety search",
+        "no Simple Icons match"
+      ],
+      "injectionSeen": "Home page has a 'For developers and AI agents' section pointing to /api/mcp, /AGENTS.md, /llms.txt; informational, not followed."
+    },
+    "formia": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "Home and /pricing fetches return only the page title (JS-rendered); no pricing, terms or operator readable. Not bypassed.",
+      "site": {
+        "name": "Formia",
+        "url": "https://www.formia.so",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.formia.so/pricing",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Web search returned nothing about formia.so"
+      },
+      "sources": [
+        {
+          "url": "https://www.formia.so",
+          "date": "2026-10-17",
+          "note": "title only: Formia - 2D to 3D Logo Maker"
+        },
+        {
+          "url": "https://www.formia.so/pricing",
+          "date": "2026-10-17",
+          "note": "returned title only"
+        }
+      ],
+      "unverified": [
+        "pricing and free tier",
+        "license/terms",
+        "operator",
+        "safety search found nothing specific"
+      ],
+      "injectionSeen": null
+    },
+    "fotor": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Fotor",
+        "url": "https://www.fotor.com",
+        "alive": true,
+        "operator": "Everimaging (footer: (c) 2026 Everimaging)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Basic plan: limited free AI credits, 1 concurrent generation, 50 AI Agent chats, 1 AI Agent task, 7-day message history, 512MB cloud storage, 100 project folders, JPG/PNG/PDF export. Home page says free users can edit unlimited images and export without watermarks.",
+        "paidFrom": "Fotor Pro, billed annually; price not shown in fetched text (placeholder)",
+        "evidence": {
+          "url": "https://www.fotor.com/pricing/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary web service · commercial: not confirmed · attribution: n/a · terms page not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.fotor.com/terms-of-use/",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "fotor",
+        "type": "AI Tool",
+        "category": "Design",
+        "title": "Fotor",
+        "description": "Online photo editor with AI retouching, background and object removal, 4x upscaling and design templates, plus a free plan with limited AI credits.",
+        "tags": [
+          "ai-tool",
+          "graphic-design",
+          "design-templates"
+        ],
+        "relatedResources": [
+          "adobe-express",
+          "kittl"
+        ],
+        "similarResources": [
+          "adobe-firefly"
+        ],
+        "keyFeatures": [
+          "Browser photo editing: crop, resize, colour, retouch, text and overlays",
+          "AI background removal, object removal and replacement",
+          "AI image upscaling up to 4x and text-to-image generation",
+          "Filters, AI effects, stickers, 100+ fonts and collage templates",
+          "Export to JPG, PNG or PDF; apps for Windows, Mac, iOS, Android"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-17: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search for scam/malware/shutdown/acquired found nothing about Fotor; company profile lists it active (data from ~2021)"
+      },
+      "sources": [
+        {
+          "url": "https://www.fotor.com",
+          "date": "2026-10-17",
+          "note": "features, operator, free-plan claim"
+        },
+        {
+          "url": "https://www.fotor.com/pricing/",
+          "date": "2026-10-17",
+          "note": "Basic plan limits"
+        },
+        {
+          "url": "https://www.fotor.com/terms-of-use/",
+          "date": "2026-10-17",
+          "note": "404"
+        },
+        {
+          "url": "web search: Fotor Everimaging scam OR malware OR shutting down OR acquired",
+          "date": "2026-10-17",
+          "note": "no hits"
+        }
+      ],
+      "unverified": [
+        "terms of use (URL 404)",
+        "commercial use of free-plan output",
+        "whether Basic exports are watermark-free (pricing text ambiguous)",
+        "Pro price",
+        "number of free AI credits"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/fotor.md",
+        "lint": "pass"
+      }
+    },
+    "four-modes-think-with-ai": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Four Modes: Think With AI",
+        "url": "https://fourmodes.teybannerman.com",
+        "alive": true,
+        "operator": "Tey Bannerman (individual)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Free site with a two-minute diagnostic and 100+ scenarios; no payment or sign-up mentioned; says it collects no personal data and uses no cookies. Optional Substack subscription.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://fourmodes.teybannerman.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No licence stated · commercial: unknown · attribution: unknown · content by Tey Bannerman",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://fourmodes.teybannerman.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "four-modes-think-with-ai",
+        "type": "Resource",
+        "category": "Productivity",
+        "title": "Four Modes: Think With AI",
+        "description": "A framework by Tey Bannerman that sorts AI use into four modes, with a short diagnostic and scenario library to get better results from AI tools.",
+        "tags": [
+          "ai-tool",
+          "productivity"
+        ],
+        "relatedResources": [
+          "ai-design-field-guide"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Four modes: Compression, Expansion, Reflection, Execution",
+          "Two-minute diagnostic to find your mode",
+          "Library of 100+ scenarios",
+          "No cookies or personal data collected, per the site"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-17: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Personal project of a named creator; no dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://fourmodes.teybannerman.com",
+          "date": "2026-10-17",
+          "note": "framework, creator, free/no-data statements"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "no licence/terms page read",
+        "free inferred from absence of any payment mention"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/four-modes-think-with-ai.md",
+        "lint": "pass"
+      }
+    },
+    "frame-rate": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "FrameRate",
+        "url": "https://framerate.tv",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan at $0/month, described as 'Free forever': 500 MB storage, 500 MB max file size, 1 seat, unlimited videos.",
+        "paidFrom": "Plus $10/month ($120/year billed annually, 7-day trial); student plan $6/month",
+        "evidence": {
+          "url": "https://framerate.tv/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary service · commercial: site materials personal non-commercial viewing only; uploads licensed to FrameRate only to run the service · attribution: n/a · no clause on linking/listing",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://framerate.tv/terms",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "frame-rate",
+        "type": "Website",
+        "category": "Filming",
+        "title": "FrameRate",
+        "description": "Video platform for filmmakers and motion designers: hosting, review with feedback, portfolios, client presentations and embeds, with a free forever plan.",
+        "tags": [
+          "web",
+          "collaboration"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Video hosting and embeds",
+          "Review and feedback on videos",
+          "Portfolios and client presentations",
+          "Migrator to import existing libraries",
+          "Free plan with 500 MB storage"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-17: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search; no legal entity named on terms page"
+      },
+      "sources": [
+        {
+          "url": "https://framerate.tv",
+          "date": "2026-10-17",
+          "note": "platform description, nav"
+        },
+        {
+          "url": "https://framerate.tv/pricing",
+          "date": "2026-10-17",
+          "note": "plans and prices"
+        },
+        {
+          "url": "https://framerate.tv/terms",
+          "date": "2026-10-17",
+          "note": "licence, no listing clause"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "operator legal entity not named",
+        "review/feedback feature wording from model summary"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/frame-rate.md",
+        "lint": "pass"
+      }
+    },
+    "frame-io": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Free plan exists (2 members, 2GB, 2 projects) but pricing page does not say whether it is permanent; owner to decide.",
+      "site": {
+        "name": "Frame.io",
+        "url": "https://frame.io",
+        "alive": true,
+        "operator": "Adobe Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan: 2 members, 2GB storage, 2GB mounted storage, 2 projects, Camera to Cloud, transcription and captions; no credit card required",
+        "paidFrom": "Pro $15 per member per month (Team $25)",
+        "evidence": {
+          "url": "https://frame.io/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS (Adobe) · commercial: not read · attribution: n/a · terms not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://frame.io",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "frame-io",
+        "type": "Tool",
+        "category": "Filming",
+        "title": "Frame.io",
+        "description": "Cloud platform for video teams to upload, organize, review and approve footage, with a free plan for two members and two projects.",
+        "tags": [
+          "collaboration",
+          "productivity"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Frame-accurate review and approval on video, images and documents",
+          "Shared and branded presentations",
+          "Camera to Cloud upload from supported cameras",
+          "Mounted storage and a desktop drive",
+          "Task and metadata workflows"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons has no match (check-icon.mjs, 2026-10-17)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Adobe-owned (footer 2025 Adobe Inc.); no dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://frame.io/pricing",
+          "date": "2026-10-17",
+          "note": "plans, free limits"
+        },
+        {
+          "url": "https://frame.io",
+          "date": "2026-10-17",
+          "note": "features, owner"
+        }
+      ],
+      "unverified": [
+        "free plan permanence",
+        "terms of service and commercial use",
+        "no safety search"
+      ],
+      "injectionSeen": null
+    },
+    "frame0": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "site": {
+        "name": "Frame0",
+        "url": "https://frame0.app",
+        "alive": true,
+        "operator": "MKLabs Co., Ltd."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan, no time limit, all non-premium features, all built-in shapes and 1,500 icons, usable for any purpose incl. commercial; exports watermarked; no libraries or templates",
+        "paidFrom": "Solo $99 one-time for 1 device (Duo $159, Team $79 per device)",
+        "evidence": {
+          "url": "https://frame0.app/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary desktop app · commercial: yes (per pricing FAQ) · attribution: not required · limit: no reverse engineering or redistribution; free exports watermarked",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://frame0.app/legals/license",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "frame0",
+        "type": "App",
+        "category": "Design",
+        "title": "Frame0",
+        "description": "Desktop app for quick hand-drawn style wireframes with ready UI components, icons and an optional bring-your-own-key AI agent.",
+        "tags": [
+          "ui-ux",
+          "prototyping",
+          "mac",
+          "windows",
+          "linux"
+        ],
+        "relatedResources": [
+          "excalidraw",
+          "figma"
+        ],
+        "similarResources": [
+          "visily",
+          "flowmapp"
+        ],
+        "keyFeatures": [
+          "Sketch-style wireframes for web, mobile, desktop and smartwatch",
+          "1,500+ icons adapted from Lucide",
+          "Mirrored frames that sync edits across copies",
+          "AI agent using your own OpenAI, Anthropic, Gemini or Grok key, or an MCP server",
+          "Export to PNG, SVG, JPEG or WebP",
+          "Windows, macOS and Linux"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons has no match (check-icon.mjs, 2026-10-17)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Safety-style search found only directory listings, no scam or shutdown hits"
+      },
+      "sources": [
+        {
+          "url": "https://frame0.app",
+          "date": "2026-10-17",
+          "note": "features, maker"
+        },
+        {
+          "url": "https://frame0.app/pricing",
+          "date": "2026-10-17",
+          "note": "free plan and prices"
+        },
+        {
+          "url": "https://frame0.app/legals/license",
+          "date": "2026-10-17",
+          "note": "license restrictions"
+        }
+      ],
+      "unverified": [
+        "premium feature list not defined on pricing page",
+        "terms of service not read",
+        "no logo asset obtained"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/frame0.md",
+        "lint": "pass"
+      }
+    },
+    "frameblox-ui": {
+      "researchedOn": "2026-10-17",
+      "verdict": "skip",
+      "verdictReason": "Official site frameblox.com sells one-time paid licenses (Pro $49, Premium $99) and shows no free plan; Digitool 'free tier' label not confirmed.",
+      "site": {
+        "name": "Frameblox UI",
+        "url": "https://frameblox.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "Pro $49 one-time (Premium $99), shown at 50% off during a sale",
+        "evidence": {
+          "url": "https://frameblox.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Commercial license · not fully read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://frameblox.com",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": null
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/frameblox-ui/",
+          "date": "2026-10-17",
+          "note": "resolved site link frameblox.com"
+        },
+        {
+          "url": "https://frameblox.com",
+          "date": "2026-10-17",
+          "note": "pricing, no free plan"
+        }
+      ],
+      "unverified": [
+        "license agreement text",
+        "no safety search"
+      ],
+      "injectionSeen": null
+    },
+    "frameplate": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "site": {
+        "name": "Frameplate",
+        "url": "https://frameplate.co",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Browsing the directory needs no payment; it lists both free and paid Framer resources",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://frameplate.co",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No site license or terms for Frameplate found on home page (only Framer Terms and Privacy Policy links) · commercial: n/a · listed items carry their own licenses",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://frameplate.co",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "frameplate",
+        "type": "Website",
+        "category": "Design",
+        "title": "Frameplate",
+        "description": "Curated directory of Framer templates, plugins, component libraries and deals, with a template finder quiz and free and paid picks.",
+        "tags": [
+          "website-templates",
+          "inspiration",
+          "design-templates"
+        ],
+        "relatedResources": [
+          "framer"
+        ],
+        "similarResources": [
+          "webflow-templates"
+        ],
+        "keyFeatures": [
+          "Browse Framer templates and plugins by category",
+          "Resource sections: integrations, component libraries, remixes, courses",
+          "Template finder quiz and template previewer",
+          "Deals and discount codes for Framer plans",
+          "Free and paid resources, submission form"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons has no match (check-icon.mjs, 2026-10-17)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Safety search returned only AlternativeTo listing (500+ templates claimed, free); page carries affiliate promo codes"
+      },
+      "sources": [
+        {
+          "url": "https://frameplate.co",
+          "date": "2026-10-17",
+          "note": "sections, deals"
+        },
+        {
+          "url": "https://www.alternativeto.net/software/frameplate/about/",
+          "date": "2026-10-17",
+          "note": "second-hand: directory, free"
+        }
+      ],
+      "unverified": [
+        "operator identity (creator may be 'Julien V', unconfirmed)",
+        "exact count of free templates",
+        "no terms page read",
+        "no logo asset obtained"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/frameplate.md",
+        "lint": "pass"
+      }
+    },
+    "frameplugins": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Frameplugins",
+        "url": "https://frameplugins.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Browsing the directory needs no sign-in; it lists free and paid third-party plugins (78 free, 53 paid on home page)",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://frameplugins.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No terms published on home page · commercial: n/a (directory) · attribution: n/a · no clause forbidding listing seen",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://frameplugins.com",
+          "date": "2026-10-17",
+          "confidence": "second-hand"
+        }
+      },
+      "rl": {
+        "slug": "frameplugins",
+        "type": "Website",
+        "category": "Design",
+        "title": "Frameplugins",
+        "description": "Curated directory of Framer plugins, sorted by category such as animations, SEO and CMS, with free and paid groups, deals and a submission form.",
+        "tags": [
+          "website-builder",
+          "no-code",
+          "extensions"
+        ],
+        "relatedResources": [
+          "framer"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Directory of about 131 Framer plugins",
+          "Categories including animations, SEO and CMS",
+          "Free and paid plugin groups",
+          "Deals section and blog",
+          "Form to submit a plugin"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search run; contact email domain 88pixels.co suggests a link to 88 Pixels, not stated on page"
+      },
+      "sources": [
+        {
+          "url": "https://frameplugins.com",
+          "date": "2026-10-17",
+          "note": "counts, categories, footer, submit link"
+        }
+      ],
+      "unverified": [
+        "operator not named on page",
+        "no safety search",
+        "no terms page read",
+        "directory itself being free is implied, not stated"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/frameplugins.md",
+        "lint": "pass"
+      }
+    },
+    "framer-design": {
+      "researchedOn": "2026-10-17",
+      "verdict": "skip",
+      "verdictReason": "duplicate: Framer already in RL as 'framer' (in review); URL is an affiliate redirect to framer.com/design",
+      "site": {
+        "name": "Framer Design",
+        "url": "https://www.framer.com/design/",
+        "alive": true,
+        "operator": "Framer"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://framer.link/design_via_toools",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://framer.link/design_via_toools",
+          "date": "2026-10-17",
+          "note": "302 redirect to framer.com/design with referral params; target not fetched"
+        }
+      ],
+      "unverified": [
+        "free plan limits not read",
+        "operator inferred from domain"
+      ],
+      "injectionSeen": null
+    },
+    "framer-overrides": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Free vs paid split unclear (only $9.99/month shown; page does not say which overrides are paid) and no license terms for the code; operator is an individual",
+      "site": {
+        "name": "Framer Overrides",
+        "url": "https://frameroverrides.com",
+        "alive": true,
+        "operator": "Danny Sapio (inferred from header link)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Sign Up Free button and demos; which overrides are free is not stated",
+        "paidFrom": "$9.99 per month (billed monthly, cancel anytime)",
+        "evidence": {
+          "url": "https://frameroverrides.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Not stated on home page",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://frameroverrides.com",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://frameroverrides.com",
+          "date": "2026-10-17",
+          "note": "about 100 overrides, price, credits to third parties"
+        }
+      ],
+      "unverified": [
+        "permanent free tier scope",
+        "license and commercial use",
+        "yearly price",
+        "no safety search"
+      ],
+      "injectionSeen": null
+    },
+    "framer-text-effects": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Price and license not stated, no author named; Framer-hosted gallery of 27 effects (copy prompt or CSS); overlaps css-text-effects already in RL drafts",
+      "site": {
+        "name": "Framer Text Effects",
+        "url": "https://texteffects.framer.ai",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Gallery viewable without sign-in; copy prompt or CSS per effect; no price stated",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://texteffects.framer.ai",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Not stated",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://texteffects.framer.ai",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://texteffects.framer.ai",
+          "date": "2026-10-17",
+          "note": "27 effects, copy prompt/CSS, no author or terms"
+        }
+      ],
+      "unverified": [
+        "author/operator",
+        "license",
+        "no safety search"
+      ],
+      "injectionSeen": null
+    },
+    "framerauth": {
+      "researchedOn": "2026-10-17",
+      "verdict": "skip",
+      "verdictReason": "Renamed FrameAuth (frameauth.com); pricing shows only a 14-day free trial then $19.99/mo or $129.99/yr, no permanent free tier confirmed.",
+      "site": {
+        "name": "FrameAuth",
+        "url": "https://frameauth.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "$19.99 per month (monthly) / $129.99 per year",
+        "evidence": {
+          "url": "https://frameauth.com/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/framerauth/",
+          "date": "2026-10-17",
+          "note": "tool site link framerauth.com; Digitool says free plan available"
+        },
+        {
+          "url": "https://framerauth.com",
+          "date": "2026-10-17",
+          "note": "301 redirect to frameauth.com"
+        },
+        {
+          "url": "https://frameauth.com/",
+          "date": "2026-10-17",
+          "note": "pricing: Free 14-Day Trial, $19.99 monthly, $129.99 annual"
+        }
+      ],
+      "unverified": [
+        "no permanent free plan found on the pricing page (Digitool label 'Free tier listed' not confirmed)",
+        "no safety search",
+        "license/terms not read in detail (terms via iubenda link)"
+      ],
+      "injectionSeen": null
+    },
+    "framerfuel": {
+      "researchedOn": "2026-10-17",
+      "verdict": "skip",
+      "verdictReason": "framerfuel.com redirects to a parked-style host (ww547.framerfuel.com), web search finds no product; appears dead. Digitool lists it as Paid.",
+      "site": {
+        "name": "FramerFuel",
+        "url": "https://framerfuel.com",
+        "alive": false,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://digitool.co/tool/framerfuel/",
+          "date": "2026-10-17",
+          "confidence": "second-hand"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/framerfuel/",
+          "date": "2026-10-17",
+          "note": "site link framerfuel.com; Digitool says Paid"
+        },
+        {
+          "url": "https://framerfuel.com",
+          "date": "2026-10-17",
+          "note": "302 redirect to parked-style host ww547.framerfuel.com (not followed)"
+        },
+        {
+          "url": "web search: FramerFuel Framer components overrides",
+          "date": "2026-10-17",
+          "note": "no results mentioning FramerFuel"
+        }
+      ],
+      "unverified": [
+        "redirect target not fetched",
+        "pricing not read first-party"
+      ],
+      "injectionSeen": null
+    },
+    "framesketch": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "FrameSketch",
+        "url": "https://framesketch.xyz",
+        "alive": true,
+        "operator": "Zamarmar Design"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Page says 'Free to use'; no paid tiers or usage limits stated; browser app, optional cloud sync of annotations",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://framesketch.xyz",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary, all rights reserved (c) 2026 Zamarmar Design · commercial: not stated · attribution: not stated · terms only ban illegal use; no linking restriction",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://framesketch.xyz/terms",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "framesketch",
+        "type": "Tool",
+        "category": "Filming",
+        "title": "FrameSketch",
+        "description": "Free browser tool for sketching on top of video footage frame by frame, built for animators checking arcs, poses and timing.",
+        "tags": [
+          "web",
+          "visual-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Draw directly over video, frame-accurate and in sync with playback",
+          "Onion skinning of neighbouring frames with adjustable ghosting",
+          "Layers, sticky notes and pinned comment markers",
+          "Rectangular or isometric grids, rulers and guides",
+          "Looped range playback; footage stays on device, cloud sync optional for annotations only"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Dedicated safety search not run; no red flags on page"
+      },
+      "sources": [
+        {
+          "url": "https://framesketch.xyz",
+          "date": "2026-10-17",
+          "note": "description, features, 'Free to use', operator, version 1.1.0"
+        },
+        {
+          "url": "https://framesketch.xyz/terms",
+          "date": "2026-10-17",
+          "note": "terms: no pricing, no listing restriction"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "privacy page not read",
+        "sign-in requirement not stated",
+        "commercial-use answer not stated",
+        "desktop apps 'coming soon' - future pricing unknown",
+        "free permanence not promised (no 'free forever')"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/framesketch.md",
+        "lint": "pass"
+      }
+    },
+    "framethrower": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Free plan exists ($0/mo with daily/monthly limits) but site shows copyrighted film stills 'for commentary, education and reference' with rights held by owners and no named operator; owner should decide whether to list.",
+      "site": {
+        "name": "FrameThrower",
+        "url": "https://framethrower.ai",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free $0/month: browse full catalog, 50 searches/day, 20 HD downloads/month, 10 image searches/month, up to 3 moodboards. API/MCP metered per call; new accounts get 2,000 free credits (renewal not stated)",
+        "paidFrom": "Pro $7/month billed annually ($84/yr) with 7-day trial; Studio $345/year (3-10 seats)",
+        "evidence": {
+          "url": "https://framethrower.ai/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Not read; footer says stills shown for commentary, education and reference, rights stay with owners · commercial: unknown · attribution: unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://framethrower.ai",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Web search for scam/shutdown/acquired found nothing relevant to FrameThrower"
+      },
+      "sources": [
+        {
+          "url": "https://framethrower.ai",
+          "date": "2026-10-17",
+          "note": "description, API/MCP, footer rights note"
+        },
+        {
+          "url": "https://framethrower.ai/pricing",
+          "date": "2026-10-17",
+          "note": "plans and free limits"
+        },
+        {
+          "url": "web search: FrameThrower film stills library scam OR shutting down OR acquired",
+          "date": "2026-10-17",
+          "note": "no relevant results"
+        }
+      ],
+      "unverified": [
+        "operator not named",
+        "/legal/intended-use and terms not read",
+        "copyright status of stills and whether linking is fine",
+        "whether free plan is permanent",
+        "no Tier B write-up done"
+      ],
+      "injectionSeen": "None aimed at agents; home page has ordinary MCP setup instructions (claude mcp add) as developer onboarding."
     }
   }
 }
