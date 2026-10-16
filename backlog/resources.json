@@ -5898,6 +5898,1322 @@
         "no safety search"
       ],
       "injectionSeen": null
+    },
+    "ai-skills-for-design-engineers": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Emil Kowalski Skills",
+        "url": "https://github.com/emilkowalski/skills",
+        "alive": true,
+        "operator": "Emil Kowalski (individual)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Fully free, open source repository",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://github.com/emilkowalski/skills",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT · commercial: yes · attribution: keep copyright notice · limit: provided as is",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/emilkowalski/skills/blob/main/LICENSE",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "emilkowalski-skills",
+        "type": "Library",
+        "category": "Design",
+        "title": "Emil Kowalski Skills for AI Agents",
+        "description": "Open-source skill pack that teaches AI coding agents better UI and animation decisions, from easing choices to animation audits and performance fixes.",
+        "tags": [
+          "ai-tool",
+          "ui-ux",
+          "open-source"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "15 skills covering animation, review, performance and UI polish",
+          "Skills to build, audit and improve animations in an existing codebase",
+          "Extra skills for Apple-style design, mobile-native feel and stress-testing UI with worst-case data",
+          "Install with npx skills@latest add emilkowalski/skills",
+          "MIT licensed"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No Simple Icons check run for this repo; GitHub-hosted, no own logo read"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Public repo by named author; no dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://github.com/emilkowalski/skills",
+          "date": "2026-10-16",
+          "note": "description, skill list, install, MIT label"
+        },
+        {
+          "url": "https://github.com/emilkowalski/skills/blob/main/LICENSE",
+          "date": "2026-10-16",
+          "note": "MIT, Copyright (c) 2026 Emil Kowalski"
+        }
+      ],
+      "unverified": [
+        "last commit date not shown",
+        "star count (about 46.5k) as reported by page summary, not independently verified",
+        "no dedicated safety search",
+        "icon not checked"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-06",
+        "file": "src/content/resources/emilkowalski-skills.md",
+        "lint": "pass"
+      }
+    },
+    "ai-ux-playground": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "AI UX Playground",
+        "url": "https://www.aiuxplayground.com",
+        "alive": true,
+        "operator": "Bestfolios.com (per site FAQ)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Browsing patterns, teardowns, guides, prompts and skills is free; no login or paywall seen",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.aiuxplayground.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Editorial catalog · commercial: not stated · attribution: required when citing or linking · limit: each skill has its own license; no full terms page read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.aiuxplayground.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "ai-ux-playground",
+        "type": "Website",
+        "category": "Design",
+        "title": "AI UX Playground",
+        "description": "Free reference for designing AI products: interface patterns with demos, product teardowns, guides, prompts, a glossary and agent skills.",
+        "tags": [
+          "ai-tool",
+          "ui-ux",
+          "inspiration"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "150+ AI interface patterns grouped by workflow (agentic, chat, trust, commerce)",
+          "47 product teardowns and 65 inspiration projects",
+          "224 prompts including multi-step prompt packs",
+          "181 agent skills and a 92-term glossary",
+          "Optional Substack newsletter"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no Simple Icons match, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://www.aiuxplayground.com",
+          "date": "2026-10-16",
+          "note": "what it is, counts, free access, operator, citation terms"
+        }
+      ],
+      "unverified": [
+        "counts are from the FAQ as summarised",
+        "full terms of use not found",
+        "iOS UI Kit price not stated",
+        "some tool listings marked Sponsored",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-06",
+        "file": "src/content/resources/ai-ux-playground.md",
+        "lint": "pass"
+      }
+    },
+    "aidesigner": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Free credits exist but the amount, limits and Terms were not readable; Free plan not documented on pricing page",
+      "site": {
+        "name": "AIDesigner",
+        "url": "https://aidesigner.ai",
+        "alive": true,
+        "operator": "AIDesigner Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Home page says new users get free credits, no credit card; amount and limits not stated",
+        "paidFrom": "Pro 25 USD/month (yearly price not shown)",
+        "evidence": {
+          "url": "https://aidesigner.ai/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: designs usable commercially subject to Terms (Terms not read)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://aidesigner.ai",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://aidesigner.ai",
+          "date": "2026-10-16",
+          "note": "product, free credits, features, operator"
+        },
+        {
+          "url": "https://aidesigner.ai/pricing",
+          "date": "2026-10-16",
+          "note": "Pro 25 USD/month, 100 credits; Free plan limits not listed"
+        }
+      ],
+      "unverified": [
+        "free credit amount and whether permanent or one-time",
+        "Terms of service",
+        "yearly price",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null
+    },
+    "aiga-design-jobs": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "DNS error (ENOTFOUND designjobs.aiga.org) twice; also a job board, likely not a resource RL lists",
+      "site": {
+        "name": "AIGA Design Jobs",
+        "url": "https://designjobs.aiga.org",
+        "alive": false,
+        "operator": "AIGA"
+      },
+      "sources": [
+        {
+          "url": "https://designjobs.aiga.org",
+          "date": "2026-10-16",
+          "note": "fetch failed twice with DNS ENOTFOUND"
+        }
+      ],
+      "unverified": [
+        "site liveness",
+        "pricing",
+        "terms"
+      ],
+      "injectionSeen": null
+    },
+    "air": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Air",
+        "url": "https://air.inc",
+        "alive": true,
+        "operator": "Air Labs, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan with no time limit: 120 credits per month (roughly 20GB of enriched storage or 24 AI-generated images), all features, unlimited users; credits reset monthly and do not roll over",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://air.inc/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS (Terms of Service) · commercial: personal or internal business use only · attribution: n/a · limit: no commercial exploitation of the Services or building a competing service",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://air.inc/terms",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "air-inc",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Air",
+        "description": "Creative asset platform to store, search, review and share images, video and design files with your team; free plan with 120 monthly credits.",
+        "tags": [
+          "collaboration",
+          "productivity",
+          "web",
+          "ai-tool"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Stores and organizes images, video, design files and documents in one workspace",
+          "Searches assets by their content",
+          "Review and approval tools plus shareable links",
+          "Canvas AI workspace for resizing, variations and background removal",
+          "Free plan: 120 credits per month, unlimited users"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No Simple Icons match (check-icon.mjs, 2026-10-16)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Search found no scam, shutdown or acquisition reports; Series B reported by Axios Jan 2025"
+      },
+      "sources": [
+        {
+          "url": "https://air.inc/pricing",
+          "date": "2026-10-16",
+          "note": "free plan, credits, product description"
+        },
+        {
+          "url": "https://air.inc/terms",
+          "date": "2026-10-16",
+          "note": "operator, usage limits, no listing ban"
+        },
+        {
+          "url": "https://www.axios.com/pro/media-deals/2025/01/09/exclusive-creative-ops-platform-air-raises-35m-series-b",
+          "date": "2026-10-16",
+          "note": "search result: funding, company active"
+        }
+      ],
+      "unverified": [
+        "paid plan prices not shown on pricing page"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-06",
+        "file": "src/content/resources/air-inc.md",
+        "lint": "pass"
+      }
+    },
+    "airbrush-studio": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Free plan limits unconfirmed; desktop is 7-day trial",
+      "site": {
+        "name": "Airbrush Studio",
+        "url": "https://airbrush.com/airbrush-studio",
+        "alive": true,
+        "operator": null
+      },
+      "sources": [
+        {
+          "url": "https://airbrush.com/airbrush-studio",
+          "date": "2026-10-16",
+          "note": "AI desktop photo editor; FAQ mentions free Basic plan with credits (no numbers) and a 7-day free trial"
+        },
+        {
+          "url": "https://airbrush.com/pricing",
+          "date": "2026-10-16",
+          "note": "web plans only: 10 credits $9, Web Plus $15.95/month; Free column has no credit amount"
+        }
+      ],
+      "unverified": [
+        "free Basic plan credit amount and permanence",
+        "desktop pricing",
+        "terms",
+        "safety search not run"
+      ],
+      "injectionSeen": null
+    },
+    "airops": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Start-for-free is a 14-day trial; no permanent free plan stated",
+      "site": {
+        "name": "AirOps",
+        "url": "https://www.airops.com",
+        "alive": true,
+        "operator": null
+      },
+      "sources": [
+        {
+          "url": "https://www.airops.com/pricing",
+          "date": "2026-10-16",
+          "note": "Solo/Pro/Enterprise, no prices; FAQ mentions 14-day trial and 50,000 free workflow credits; Solo overage $0.025 per task"
+        }
+      ],
+      "unverified": [
+        "whether any permanent free plan exists",
+        "terms",
+        "safety search not run"
+      ],
+      "injectionSeen": null
+    },
+    "airship": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Airship",
+        "url": "https://www.airship.design",
+        "alive": true,
+        "operator": "0xnyn (GitHub user, Airship Labs npm scope)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Open source (MIT), runs locally with no account, telemetry or hosted service; you need your own coding agent (Claude Code, Codex or OpenCode) and Node 22.13+",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://github.com/0xnyn/airship",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT · commercial: yes · attribution: keep license notice · limit: provided as is",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/0xnyn/airship",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "airship-design",
+        "type": "Tool",
+        "category": "Development",
+        "title": "Airship",
+        "description": "Open-source visual editor that sits in front of your dev server: click an element, describe a change, and a coding agent edits the source.",
+        "tags": [
+          "ai-tool",
+          "open-source",
+          "ui-ux",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Select an element in the running app and map it to its source file and line",
+          "Runs as a local reverse proxy; no plugin or build changes",
+          "Works with Claude Code, Codex or OpenCode",
+          "Side-by-side desktop, tablet and mobile viewports",
+          "Undo for edits without Git; safe mode limits edits to the project"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No Simple Icons match (check-icon.mjs, 2026-10-16)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated safety search; repo has 723 stars, 124 commits"
+      },
+      "sources": [
+        {
+          "url": "https://www.airship.design",
+          "date": "2026-10-16",
+          "note": "what it is, features, local-only claim"
+        },
+        {
+          "url": "https://github.com/0xnyn/airship",
+          "date": "2026-10-16",
+          "note": "MIT license, install, stars"
+        }
+      ],
+      "unverified": [
+        "last commit date",
+        "full LICENSE text not read",
+        "no dedicated safety search",
+        "operator identity is an individual GitHub account",
+        "supported OS"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-06",
+        "file": "src/content/resources/airship-design.md",
+        "lint": "pass"
+      }
+    },
+    "aj-smart": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "YouTube channel on facilitation; not a resource RL lists",
+      "site": {
+        "name": "AJ Smart",
+        "url": "https://www.youtube.com/channel/UCeB_OpLspKJGiKv1CYkWFFw",
+        "alive": null,
+        "operator": "AJ Smart"
+      },
+      "sources": [
+        {
+          "url": "https://www.youtube.com/channel/UCeB_OpLspKJGiKv1CYkWFFw",
+          "date": "2026-10-16",
+          "note": "channel URL and description from tools-list.json; not fetched"
+        }
+      ],
+      "unverified": [
+        "channel not fetched; skipped by type"
+      ],
+      "injectionSeen": null
+    },
+    "akar-icons": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Akar Icons",
+        "url": "https://akaricons.com",
+        "alive": true,
+        "operator": "Arturo Wibawa"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Fully free, open-source icon set; free for personal and commercial projects (per package listing)",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://github.com/artcoholic/akar-icons",
+          "date": "2026-10-16",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "MIT · commercial: yes · attribution: not required beyond keeping the license notice · limit: npm core package flagged inactive by Snyk",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/artcoholic/akar-icons",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "akar-icons",
+        "type": "Icon Set",
+        "category": "Design",
+        "title": "Akar Icons",
+        "description": "Open-source set of rounded, consistent SVG icons for designers and developers, with packages for React and other frameworks. MIT licensed.",
+        "tags": [
+          "icon-library",
+          "open-source",
+          "ui-ux"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "lucide-icons",
+          "remix-icon",
+          "material-symbols"
+        ],
+        "keyFeatures": [
+          "Rounded, consistent line icon style",
+          "MIT license, free for personal and commercial use",
+          "React components available",
+          "Community wrappers for Svelte, Flutter, Angular and Laravel Blade",
+          "Roughly 450 SVG icons per third-party listings"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "scripts/check-icon.mjs: not in Simple Icons, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated safety search; Snyk lists npm core package maintenance as inactive"
+      },
+      "sources": [
+        {
+          "url": "https://akaricons.com",
+          "date": "2026-10-16",
+          "note": "title only returned (JS page); tagline from tools-list"
+        },
+        {
+          "url": "https://github.com/artcoholic/akar-icons",
+          "date": "2026-10-16",
+          "note": "MIT, author Arturo Wibawa, React components, 413 commits"
+        },
+        {
+          "url": "https://security.snyk.io/package/npm/akar-icons",
+          "date": "2026-10-16",
+          "note": "via web search: MIT, maintenance inactive"
+        }
+      ],
+      "unverified": [
+        "exact icon count (about 454 per third-party listings)",
+        "last commit date",
+        "akaricons.com page content not readable",
+        "no dedicated scam search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-06",
+        "file": "src/content/resources/akar-icons.md",
+        "lint": "pass"
+      }
+    },
+    "alai-2-0": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Alai",
+        "url": "https://getalai.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan at $0/month, described as free forever: unlimited presentations, PDF/PPT export, up to 10 AI slides per prompt, 300 AI credits (page also shows 200; unclear which), no renewals, watermark stays",
+        "paidFrom": "Plus 20 USD/month billed monthly",
+        "evidence": {
+          "url": "https://getalai.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: not read · attribution: n/a · limit: free plan keeps watermark; terms page not found (404)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://getalai.com/terms",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "alai",
+        "type": "AI Tool",
+        "category": "Design",
+        "title": "Alai",
+        "description": "AI presentation maker that builds on-brand decks, social posts and infographics from a prompt; free plan with watermarked export.",
+        "tags": [
+          "ai-tool",
+          "design-templates",
+          "graphic-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "canva-templates"
+        ],
+        "keyFeatures": [
+          "Builds a design system from your brand assets",
+          "Generates decks, social posts and infographics",
+          "Refine by prompting or manual editing",
+          "Export to PDF and PPT",
+          "Free plan: up to 10 AI slides per prompt, watermark stays"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "scripts/check-icon.mjs: not in Simple Icons, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Search for scam/malware/shutdown/acquired returned nothing about Alai; site says backed by Y Combinator (unverified); contact founders@getalai.com"
+      },
+      "sources": [
+        {
+          "url": "https://getalai.com",
+          "date": "2026-10-16",
+          "note": "what it is, contact email, 2025 copyright"
+        },
+        {
+          "url": "https://getalai.com/pricing",
+          "date": "2026-10-16",
+          "note": "plans and free plan limits"
+        },
+        {
+          "url": "https://getalai.com/terms",
+          "date": "2026-10-16",
+          "note": "404"
+        }
+      ],
+      "unverified": [
+        "terms and commercial use not read",
+        "legal operator unknown",
+        "free credits ambiguous: 300 vs 200",
+        "no results about the tool in safety search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-06",
+        "file": "src/content/resources/alai.md",
+        "lint": "pass"
+      }
+    },
+    "alcove": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Paid only, 14.99 USD purchase, no free tier",
+      "site": {
+        "name": "Alcove",
+        "url": "https://tryalcove.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "14.99 USD (listed as one-time on Digitool; not stated on the product site)",
+        "evidence": {
+          "url": "https://tryalcove.com/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/alcove/",
+          "date": "2026-10-16",
+          "note": "official site link tryalcove.com, macOS notch app, From $14.99"
+        },
+        {
+          "url": "https://tryalcove.com/",
+          "date": "2026-10-16",
+          "note": "price 14.99 with Purchase button, macOS 15+, no trial or free tier mentioned"
+        }
+      ],
+      "unverified": [
+        "whether a free trial exists",
+        "one-time vs subscription on product site",
+        "no safety search run"
+      ],
+      "injectionSeen": null
+    },
+    "all-free-fonts": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "No operator or license terms; thin affiliate funnel to Creative Fabrica; fonts personal-use only",
+      "site": {
+        "name": "All Free Fonts",
+        "url": "https://www.allfreefonts.co",
+        "alive": true,
+        "operator": null
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "suspicious",
+        "notes": "Footer says reader supported, may be paid for promoted products; Free Fonts nav links to a creativefabrica.com page; About link is a dead anchor; web search found nothing about the domain"
+      },
+      "sources": [
+        {
+          "url": "https://www.allfreefonts.co",
+          "date": "2026-10-16",
+          "note": "15,000 free fonts claim; example listing says personal projects only; no terms or license link; no operator named"
+        },
+        {
+          "url": "https://www.google.com/search?q=allfreefonts.co",
+          "date": "2026-10-16",
+          "note": "safety search returned nothing about the domain"
+        }
+      ],
+      "unverified": [
+        "operator identity",
+        "commercial-use terms per font",
+        "whether fonts are legitimately licensed"
+      ],
+      "injectionSeen": null
+    },
+    "all-hands": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "All Hands (Nappy)",
+        "url": "https://nappy.co/all-hands",
+        "alive": true,
+        "operator": "Nappy (SHADE, Chery Maids and Boogie Brands), collection made with MetaLab"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "The All Hands Collection is free to download; page says it is free and available now. Count of mockups not stated on the page (directory claims 25).",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://nappy.co/all-hands",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Nappy license (CC0 per nappy.co/license) · commercial: yes · attribution: not required (credit encouraged) · no reselling without substantial changes, no reposting on other stock sites, no demeaning use",
+        "openSource": false,
+        "spdx": "CC0-1.0",
+        "evidence": {
+          "url": "https://nappy.co/license",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "nappy-all-hands",
+        "type": "Stock Media",
+        "category": "Design",
+        "title": "All Hands Mockups by Nappy",
+        "description": "Free photo mockups of Black and Brown hands holding devices, with layered PSDs for dropping your screen designs in.",
+        "tags": [
+          "stock-photos",
+          "royalty-free",
+          "design-templates",
+          "inspiration"
+        ],
+        "relatedResources": [
+          "unsplash",
+          "pexels"
+        ],
+        "similarResources": [
+          "pixabay"
+        ],
+        "keyFeatures": [
+          "Hi-res photos of hands in a range of skin tones holding devices",
+          "Layered PSD files for placing designs on device screens",
+          "Made with 9 models in partnership with MetaLab",
+          "Free download; Nappy states photos are for commercial and personal use"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No Simple Icons match (check-icon exit 2), 2026-10-16"
+        },
+        "siblings": [
+          "Nappy main stock photo library (nappy.co) could be its own entry"
+        ]
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://nappy.co/all-hands",
+          "date": "2026-10-16",
+          "note": "collection description, 9 models, free, operators"
+        },
+        {
+          "url": "https://nappy.co/license",
+          "date": "2026-10-16",
+          "note": "CC0 terms and restrictions"
+        }
+      ],
+      "unverified": [
+        "25 mockups count (directory claim only)",
+        "that the CC0 license page applies to the PSD files",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-06",
+        "file": "src/content/resources/nappy-all-hands.md",
+        "lint": "pass"
+      }
+    },
+    "all-in-frame": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "All In Frame",
+        "url": "https://allinframestock.com",
+        "alive": true,
+        "operator": "All in Frame Stock Collection (photographer credited: Justin Kaneps)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire collection free to download (138 photos on the home page); no paid plans mentioned",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://allinframestock.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "All in Frame Terms of Use license (non-exclusive, royalty-free) · commercial: yes · attribution: not required (strongly encouraged) · no resale/redistribution, no AI/ML training, no demeaning use",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://allinframestock.com/legal/terms-of-use",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "all-in-frame",
+        "type": "Stock Media",
+        "category": "Photography",
+        "title": "All In Frame",
+        "description": "Free stock photos showing disability authentically, led by disabled creatives, for commercial, editorial and advocacy use.",
+        "tags": [
+          "stock-photos",
+          "royalty-free",
+          "stock"
+        ],
+        "relatedResources": [
+          "unsplash",
+          "pexels",
+          "pixabay"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Collection of 138 photos led by disabled creatives",
+          "Commercial, editorial, advertising and educational use allowed",
+          "Attribution not required but encouraged",
+          "Terms bar AI training, resale and demeaning depictions"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No Simple Icons match (check-icon exit 1), 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://allinframestock.com",
+          "date": "2026-10-16",
+          "note": "what it is, 138 photos, free, footer links"
+        },
+        {
+          "url": "https://allinframestock.com/legal/terms-of-use",
+          "date": "2026-10-16",
+          "note": "license, restrictions, operator"
+        }
+      ],
+      "unverified": [
+        "legal entity behind the collection",
+        "per-image detail-page limits",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-06",
+        "file": "src/content/resources/all-in-frame.md",
+        "lint": "pass"
+      }
+    },
+    "alphredo": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Free not stated on the site (no pricing page); listed only if owner confirms it is free",
+      "site": {
+        "name": "Alphredo",
+        "url": "https://alphredo.app",
+        "alive": true,
+        "operator": "Adam Przewoski (@adamprzewoski)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Web app with no sign-up, paywall or pricing mentioned on the page; also offered as a Figma plugin",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://alphredo.app",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No license stated · commercial: not stated · attribution: n/a · limit: no terms page found",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://alphredo.app",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Safety search found no scam/shutdown hits; only a third-party directory listing (uiuxshowcase.com)"
+      },
+      "sources": [
+        {
+          "url": "https://alphredo.app",
+          "date": "2026-10-16",
+          "note": "what it does, creator, Figma plugin link, no pricing"
+        },
+        {
+          "url": "https://uiuxshowcase.com/resources/alphredo/",
+          "date": "2026-10-16",
+          "note": "second-hand listing: web app plus Figma plugin"
+        }
+      ],
+      "unverified": [
+        "no explicit statement that it is free or free forever (no pricing page)",
+        "license / open source status",
+        "Figma plugin page not opened",
+        "site is a single page, update recency unknown"
+      ],
+      "injectionSeen": null
+    },
+    "ambientcg": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "ambientCG",
+        "url": "https://ambientcg.com",
+        "alive": true,
+        "operator": "Independent creator (unnamed on home page; Patreon/Ko-fi supported)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All assets free to download; optional Patreon/Ko-fi support (patrons get perks such as ad-free browsing and early access)",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://ambientcg.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "CC0 · commercial: yes · attribution: not required · limit: asset terms only, site content not covered",
+        "openSource": true,
+        "spdx": "CC0-1.0",
+        "evidence": {
+          "url": "https://ambientcg.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "ambientcg",
+        "type": "Stock Media",
+        "category": "Design",
+        "title": "ambientCG",
+        "description": "Large library of CC0 PBR materials, HDRIs and 3D models for 3D art, games and VFX, free to use commercially without credit.",
+        "tags": [
+          "royalty-free",
+          "stock-3d-models",
+          "stock",
+          "open-source"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "pixabay"
+        ],
+        "keyFeatures": [
+          "PBR texture materials ready for 3D renderers and game engines",
+          "HDRI environment maps for lighting scenes",
+          "3D models under the same license",
+          "Everything released under CC0, no attribution needed",
+          "Optional Patreon or Ko-fi support, with perks like ad-free browsing"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://ambientcg.com",
+          "date": "2026-10-16",
+          "note": "what it is, CC0 license, support options"
+        }
+      ],
+      "unverified": [
+        "total asset count",
+        "operator name",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-06",
+        "file": "src/content/resources/ambientcg.md",
+        "lint": "pass"
+      }
+    },
+    "amie": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Trial only, no free plan found",
+      "site": {
+        "name": "Amie",
+        "url": "https://amie.so",
+        "alive": true,
+        "operator": "Amie (Berlin; founder Dennis Mueller per site testimonial)"
+      },
+      "sources": [
+        {
+          "url": "https://amie.so",
+          "date": "2026-10-16",
+          "note": "AI notes/calendar app, Start free trial, no permanent free plan mentioned"
+        },
+        {
+          "url": "https://amie.so/pricing",
+          "date": "2026-10-16",
+          "note": "Pro and Business plans, 7-day trial, no free plan mentioned, prices not shown"
+        },
+        {
+          "url": "web search",
+          "date": "2026-10-16",
+          "note": "no shutdown/acquisition/scam reports found"
+        }
+      ],
+      "unverified": [
+        "exact prices",
+        "whether any free tier exists beyond the trial"
+      ],
+      "injectionSeen": null
+    },
+    "amplitude": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Amplitude",
+        "url": "https://amplitude.com",
+        "alive": true,
+        "operator": "Amplitude, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Starter plan, $0, no credit card: up to 2M events/month, 1 year data access, 10 saved charts per org, 10,000 monthly session replays, 5,000 monthly agent sessions, 1 active experiment",
+        "paidFrom": "Plus plan starts at $0 for the first 2M events (card required); paid price beyond that not shown. Growth and Enterprise are custom priced",
+        "evidence": {
+          "url": "https://amplitude.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: not read · attribution: n/a · limit: terms page not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://amplitude.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "amplitude",
+        "type": "Tool",
+        "category": "Business",
+        "title": "Amplitude",
+        "description": "Product analytics platform for tracking user behavior, funnels and experiments; free Starter plan covers up to 2M events a month.",
+        "tags": [
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Event-based product analytics with saved charts",
+          "Session replay on the free plan (10,000 per month)",
+          "Experimentation and guides/surveys",
+          "Free Starter plan: 2M events per month, no card",
+          "Paid plans scale by event volume"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Well-known company; no dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://amplitude.com/pricing",
+          "date": "2026-10-16",
+          "note": "Starter and Plus plan limits"
+        },
+        {
+          "url": "https://use.amplitude.com/ggk7koq6e75e",
+          "date": "2026-10-16",
+          "note": "source site was a partner/referral link; clean home used"
+        }
+      ],
+      "unverified": [
+        "terms/commercial use not read",
+        "paid price beyond the free event allowance",
+        "no dedicated safety search",
+        "tool-list site was a referral link (partner)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-06",
+        "file": "src/content/resources/amplitude.md",
+        "lint": "pass"
+      }
+    },
+    "android-design-hub": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Android Design Hub",
+        "url": "https://developer.android.com/design/ui",
+        "alive": true,
+        "operator": "Google (Android Developers)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Public documentation, no sign-in or paywall",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://developer.android.com/design/ui",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Apache 2.0 (docs content and samples) / CC BY 2.5 (other site content) · commercial: yes · attribution: required for CC BY content · limit: Android logo and trademarks excluded",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://developer.android.com/license",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "android-design-hub",
+        "type": "Resource",
+        "category": "Design",
+        "title": "Android Design Hub",
+        "description": "Google's official guidance for designing Android apps across phones, tablets, foldables, wearables, TV and cars, with Figma kits.",
+        "tags": [
+          "android",
+          "ui-ux",
+          "design-systems",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "material-symbols",
+          "figma-community"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Design guidance per form factor: mobile, desktop, XR, Wear OS, TV, cars",
+          "Adaptive layout, themes and component advice",
+          "Widget design guidance",
+          "Links to Figma design kits and the Now in Android case study"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "android",
+          "fillColor": "#3DDC84",
+          "bgColor": "#ffffff",
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Official Google site"
+      },
+      "sources": [
+        {
+          "url": "https://developer.android.com/design/ui",
+          "date": "2026-10-16",
+          "note": "sections and publisher"
+        },
+        {
+          "url": "https://developer.android.com/license",
+          "date": "2026-10-16",
+          "note": "content licenses"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "terms of linked Figma kits set by Figma"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-06",
+        "file": "src/content/resources/android-design-hub.md",
+        "lint": "pass"
+      }
     }
   }
 }

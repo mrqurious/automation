@@ -2096,12 +2096,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "ai-ux-playground",
@@ -2122,12 +2122,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "aiarty",
@@ -2174,12 +2174,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Free credits exist but the amount, limits and Terms were not readable; Free plan not documented on pricing page",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "aiga-design-jobs",
@@ -2200,12 +2200,12 @@
           "file": "Best Design Communities for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "DNS error (ENOTFOUND designjobs.aiga.org) twice; also a job board, likely not a resource RL lists",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "aiga-eye-on-design",
@@ -2284,12 +2284,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "airbrush-studio",
@@ -2310,12 +2310,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Free plan limits unconfirmed; desktop is 7-day trial",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "airops",
@@ -2338,12 +2338,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Start-for-free is a 14-day trial; no permanent free plan stated",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "airship",
@@ -2364,12 +2364,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "aj-smart",
@@ -2390,12 +2390,12 @@
           "file": "Learn UI_UX Design_ Courses, Guides & Best Practices.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "YouTube channel on facilitation; not a resource RL lists",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "akar-icons",
@@ -2414,12 +2414,12 @@
           "file": "Best Free Open Source Icon Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "beta",
       "rlSlug": null,
       "priority": "P3",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "akrivi-guideit",
@@ -2466,12 +2466,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "alamy",
@@ -2520,12 +2520,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Paid only, 14.99 USD purchase, no free tier",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "all-free-fonts",
@@ -2546,12 +2546,12 @@
           "file": "Best Free Font Libraries and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "No operator or license terms; thin affiliate funnel to Creative Fabrica; fonts personal-use only",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "all-hands",
@@ -2572,12 +2572,12 @@
           "file": "Best Mockup Sites for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "all-in-frame",
@@ -2598,12 +2598,12 @@
           "file": "Free Stock Images & Video Websites _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "alphredo",
@@ -2624,12 +2624,12 @@
           "file": "Best Color Tools and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Free not stated on the site (no pricing page); listed only if owner confirms it is free",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "amadine",
@@ -2676,12 +2676,12 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "amie",
@@ -2704,12 +2704,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Trial only, no free plan found",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "amplitude",
@@ -2730,12 +2730,12 @@
           "file": "Best UX Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "android-design-hub",
@@ -2756,12 +2756,12 @@
           "file": "Learn UI_UX Design_ Courses, Guides & Best Practices.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "angle",
@@ -59927,15 +59927,15 @@
     "byStatus": {
       "deferred-trial": 232,
       "deferred-paid": 217,
-      "blocked": 22,
-      "drafted": 46,
-      "rejected": 22,
-      "todo": 1707,
+      "blocked": 25,
+      "drafted": 57,
+      "rejected": 28,
+      "todo": 1687,
       "in-rl": 33
     },
     "todoByPriority": {
-      "P2": 1615,
-      "P3": 91,
+      "P2": 1596,
+      "P3": 90,
       "P1": 1
     }
   }
