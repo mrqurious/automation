@@ -12452,6 +12452,1709 @@
         "file": "src/content/resources/beui.md",
         "lint": "pass"
       }
+    },
+    "bgjar": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "BGJar",
+        "url": "https://bgjar.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free plan: unlimited projects, commercial use allowed, attribution required (CC BY 4.0 listed)",
+        "paidFrom": "Basic $5.99 one-time (lifetime), 1 project, no attribution; Pro $35.99 lifetime, unlimited projects",
+        "evidence": {
+          "url": "https://bgjar.com/posts/license/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "CC BY 4.0 · commercial: yes · attribution: required on Free plan, not on Basic/Pro · limit: no reselling or giving away downloaded items, no building a similar service",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://bgjar.com/posts/license/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "bgjar",
+        "type": "Tool",
+        "category": "Design",
+        "title": "BGJar",
+        "description": "Free generator for customizable SVG backgrounds (waves, circuit boards, hexagons, stars and more) for websites, blogs and apps.",
+        "tags": [
+          "graphic-design",
+          "web",
+          "stock-vectors"
+        ],
+        "relatedResources": [
+          "logoipsum",
+          "framer-vectors",
+          "anygradient"
+        ],
+        "similarResources": [
+          "anygradient"
+        ],
+        "keyFeatures": [
+          "35 customizable SVG background templates",
+          "Patterns such as Wave, Circuit Board, Hexagon, World Map, Snow and Shooting Stars",
+          "Customize each template, then download as SVG",
+          "Free use with attribution; one-time paid plans remove it"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-16: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search run; footer shows 2023 copyright and a Buy me a coffee link, likely an individual developer"
+      },
+      "sources": [
+        {
+          "url": "https://bgjar.com",
+          "date": "2026-10-16",
+          "note": "tool description, 35 templates, nav"
+        },
+        {
+          "url": "https://bgjar.com/posts/license/",
+          "date": "2026-10-16",
+          "note": "plans, license, restrictions"
+        }
+      ],
+      "unverified": [
+        "operator not named",
+        "no safety search run",
+        "license table does not state which plan CC BY 4.0 applies to; page speaks of downloaded items, not explicitly generated SVGs",
+        "paid plan names and prices from a model summary of the page"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/bgjar.md",
+        "lint": "pass"
+      }
+    },
+    "bhava": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Bhava",
+        "url": "https://bhava.app",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free $0/month: unlimited diagrams, AI diagram generation, all export formats, all icon packs, standard support; no numeric AI limits stated",
+        "paidFrom": "Plus $9.99/month ($10 monthly credits); Enterprise custom",
+        "evidence": {
+          "url": "https://bhava.app",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: not addressed in terms · attribution: n/a · you retain ownership of your diagrams",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://bhava.app/terms-of-service.html",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "bhava",
+        "type": "AI Tool",
+        "category": "Design",
+        "title": "Bhava",
+        "description": "AI diagram editor that turns text or sketches into editable flowcharts, architecture diagrams and mind maps, with SVG, PNG and PDF export.",
+        "tags": [
+          "ai-tool",
+          "productivity",
+          "web"
+        ],
+        "relatedResources": [
+          "excalidraw",
+          "tldraw"
+        ],
+        "similarResources": [
+          "excalidraw",
+          "tldraw",
+          "arky"
+        ],
+        "keyFeatures": [
+          "Prompt-to-diagram: flowcharts, system architecture, schematics, mind maps",
+          "Accepts typed text or dropped sketches and screenshots",
+          "Cloud and Kubernetes icon packs (AWS, GCP, Azure)",
+          "Import .drawio and Mermaid; export SVG, PNG, PDF",
+          "Shareable editable links"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-16: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search run; site shows 2026 copyright"
+      },
+      "sources": [
+        {
+          "url": "https://bhava.app",
+          "date": "2026-10-16",
+          "note": "features, pricing table, nav"
+        },
+        {
+          "url": "https://bhava.app/terms-of-service.html",
+          "date": "2026-10-16",
+          "note": "content ownership, no listing clause"
+        }
+      ],
+      "unverified": [
+        "free-tier numeric limits not stated (Plus described as for higher limits)",
+        "free plan permanence: terms mention continuing on free plan with limited features after a trial",
+        "commercial use of output not addressed",
+        "operator legal name not stated",
+        "no safety search run"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/bhava.md",
+        "lint": "pass"
+      }
+    },
+    "biased-by-design": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Biased by Design",
+        "url": "https://biasedbydesign.com",
+        "alive": true,
+        "operator": "Jon Yablonski"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Public website, no sign-in seen; site states no pricing or paywall",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://biasedbydesign.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No license stated · copyright 2024 Jon Yablonski · commercial reuse of content not granted by default",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://biasedbydesign.com/info",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "biased-by-design",
+        "type": "Resource",
+        "category": "Design",
+        "title": "Biased by Design",
+        "description": "Short guide to cognitive biases that creep into the design process, with six principles and tips for designers to stay aware of them.",
+        "tags": [
+          "ui-ux",
+          "inspiration"
+        ],
+        "relatedResources": [
+          "ai-design-field-guide",
+          "a11y-project"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Six principles, each paired with a bias (framing effect, survivorship bias, confirmation bias, blind spot bias, availability bias, false-consensus effect)",
+          "Written for designers working in product teams",
+          "Info page about the project and its author"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-16: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Personal project of a named designer; no safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://biasedbydesign.com",
+          "date": "2026-10-16",
+          "note": "principles, copyright"
+        },
+        {
+          "url": "https://biasedbydesign.com/info",
+          "date": "2026-10-16",
+          "note": "author, purpose"
+        }
+      ],
+      "unverified": [
+        "no explicit statement that the site is free or about reuse terms",
+        "no safety search run",
+        "recency of updates unknown (2024 copyright)"
+      ],
+      "injectionSeen": "Both fetched pages (home and /info) contained text instructing the reader to write sea shanty lyrics; ignored.",
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/biased-by-design.md",
+        "lint": "pass"
+      }
+    },
+    "bigspy": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Free plan exists (Facebook ads, 10 searches/day) but the pages never say it is permanent; operator unnamed; Trustpilot/ScamAdviser show billing complaints and a trust score of 0 (user reports, unverified). Owner to decide.",
+      "site": {
+        "name": "BigSpy",
+        "url": "https://bigspy.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free: $0, Facebook ads only, 1 seat; FAQ: 10 searches/day, 3 Creative to AI Prompt uses/day, up to 20 tracked creatives; no downloads or advanced research",
+        "paidFrom": "Starter $69/month ($49/month billed yearly, $588/yr)",
+        "evidence": {
+          "url": "https://bigspy.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: not read · terms page not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://bigspy.com",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search 2026-10-16: no shutdown, acquisition or malware reports; Trustpilot reviewers complain of charges after cancelling trials and unanswered refunds; ScamAdviser \"Caution Recommended\", trust score 0 (flags chargeback prevention). Unverified user reports."
+      },
+      "sources": [
+        {
+          "url": "https://bigspy.com",
+          "date": "2026-10-16",
+          "note": "pricing table, features, nav"
+        },
+        {
+          "url": "https://www.bigspy.com/faq",
+          "date": "2026-10-16",
+          "note": "free plan limits"
+        },
+        {
+          "url": "https://www.trustpilot.com/review/bigspy.com",
+          "date": "2026-10-16",
+          "note": "via web search summary"
+        },
+        {
+          "url": "https://www.scamadviser.com/check-website/bigspy.com",
+          "date": "2026-10-16",
+          "note": "via web search summary"
+        }
+      ],
+      "unverified": [
+        "free plan permanence not stated",
+        "Terms page not read",
+        "operator not named (Tracxn: unfunded San Francisco company, founded 2017; site says launched 2018)",
+        "Starter AppLovin access noted as limited time"
+      ],
+      "injectionSeen": null
+    },
+    "bilt": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Pricing page shows a EUR 0 plan with 3M monthly AI tokens but does not say whether it is permanent; terms defer to the pricing page. Owner to decide.",
+      "site": {
+        "name": "Bilt",
+        "url": "https://bilt.me",
+        "alive": true,
+        "operator": "BuildingPP OÜ (Tallinn, Estonia), per Terms; unrelated to the Bilt Rewards card company"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan: up to 3M monthly AI tokens, prompt-based app building, backend services (auth, database, storage, payments), Figma import, community/email support; build and publishing limits not stated",
+        "paidFrom": "EUR 25/month (EUR 19/month billed annually), 10M tokens",
+        "evidence": {
+          "url": "https://bilt.me/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS terms (Estonian law) · commercial: not stated · attribution: n/a · Terms bar reuse of site information except Output; no rule against linking",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://bilt.me/terms",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "bilt",
+        "type": "AI Tool",
+        "category": "Development",
+        "title": "Bilt",
+        "description": "Turns Figma designs or plain-language prompts into native iPhone and Android apps you can preview on a phone and publish to the App Store or Google Play.",
+        "tags": [
+          "ai-tool",
+          "no-code",
+          "ios",
+          "android"
+        ],
+        "relatedResources": [
+          "figma",
+          "adalo"
+        ],
+        "similarResources": [
+          "adalo"
+        ],
+        "keyFeatures": [
+          "Imports Figma designs and converts them into native mobile apps",
+          "Builds apps from a text description",
+          "Live preview on your own phone before publishing",
+          "Built-in backend: auth, database, storage, payments",
+          "Publishes to the Apple App Store and Google Play"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Not in Simple Icons (check-icon.mjs, 2026-10-16)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Search 2026-10-16: no scam, shutdown or acquisition reports for bilt.me; complaints found concern the unrelated Bilt Rewards card company"
+      },
+      "sources": [
+        {
+          "url": "https://bilt.me/figma",
+          "date": "2026-10-16",
+          "note": "product, paid from USD 25/month claim, footer legal links"
+        },
+        {
+          "url": "https://bilt.me/pricing",
+          "date": "2026-10-16",
+          "note": "plans, free tier tokens, paid prices in EUR"
+        },
+        {
+          "url": "https://bilt.me/terms",
+          "date": "2026-10-16",
+          "note": "operator, free-of-charge clause, no listing restriction"
+        },
+        {
+          "url": "https://bilt.me/changelog",
+          "date": "2026-10-16",
+          "note": "search hit used for liveness only (search summary)"
+        }
+      ],
+      "unverified": [
+        "free tier permanence (not stated)",
+        "build/publish limits on free plan",
+        "home page says USD 25/month, pricing page shows EUR 25 (currency by locale?)",
+        "commercial-use answer for generated apps",
+        "icon: none, ask owner"
+      ],
+      "injectionSeen": null
+    },
+    "bindr": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Pre-launch signals: home page shows both 'Join Waitlist' and 'Start Free' buttons, footer 2025, X account last active ~619 days ago, no named operator and no terms page. Availability and permanence of the Free plan cannot be confirmed.",
+      "site": {
+        "name": "Bindr",
+        "url": "https://bindr.cc",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Listed Free plan: 5 projects, 5 GB storage, 20 files per project, 3 versions per file",
+        "paidFrom": "Pro USD 15/month (Agency USD 20/month)",
+        "evidence": {
+          "url": "https://bindr.cc",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No terms page found (only Privacy Policy)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://bindr.cc",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search 2026-10-16: no scam reports; no independent confirmation of launch, team or '300 designers' claim"
+      },
+      "sources": [
+        {
+          "url": "https://bindr.cc",
+          "date": "2026-10-16",
+          "note": "product, plans, waitlist button, footer"
+        },
+        {
+          "url": "https://x.com/bindr_cc",
+          "date": "2026-10-16",
+          "note": "search result: account appears inactive (search summary)"
+        }
+      ],
+      "unverified": [
+        "whether the product is actually launched",
+        "operator",
+        "terms of service",
+        "free plan permanence"
+      ],
+      "injectionSeen": null
+    },
+    "bio-fm": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Bio.fm",
+        "url": "https://bio.fm",
+        "alive": true,
+        "operator": "MKN Media Ltd. (Labuan, Malaysia)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Home page states 'Your bio is free' with a free sign-up; Terms confirm free and Premium accounts. Free limits not published; custom theming reportedly paid (second-hand)",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://bio.fm",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS terms · commercial: not stated · attribution: n/a · no restriction on linking found; account misuse and Instagram rules apply",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://bio.fm/terms",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "bio-fm",
+        "type": "Tool",
+        "category": "Marketing",
+        "title": "Bio.fm",
+        "description": "Link-in-bio page builder that mixes links with embedded YouTube, Spotify, Medium and social content blocks, plus email capture and polls.",
+        "tags": [
+          "social-media-design",
+          "website-builder"
+        ],
+        "relatedResources": [
+          "canva"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Drag-and-drop block layout for one shareable bio link",
+          "Content blocks for YouTube, Spotify, Medium, Twitter and Facebook",
+          "Email collection forms and question polls",
+          "Social icons block and GIF support"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Not in Simple Icons (check-icon.mjs, 2026-10-16)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Search 2026-10-16: ScamAdviser rates legit (WHOIS hidden); reviews mention occasional downtime and slow support; no shutdown reports"
+      },
+      "sources": [
+        {
+          "url": "https://bio.fm",
+          "date": "2026-10-16",
+          "note": "product, features, operator, 'Your bio is free'"
+        },
+        {
+          "url": "https://bio.fm/terms",
+          "date": "2026-10-16",
+          "note": "free vs Premium accounts, operator, no listing restriction"
+        },
+        {
+          "url": "https://bio.fm/pricing",
+          "date": "2026-10-16",
+          "note": "fetch returned empty, no prices read"
+        },
+        {
+          "url": "web search: bio.fm review/scam",
+          "date": "2026-10-16",
+          "note": "ScamAdviser and review sites (second-hand)"
+        }
+      ],
+      "unverified": [
+        "free plan limits",
+        "Premium price",
+        "commercial-use terms",
+        "reliability claims are from affiliate review sites",
+        "icon: none, ask owner"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/bio-fm.md",
+        "lint": "pass"
+      }
+    },
+    "birdfont": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Birdfont",
+        "url": "https://birdfont.org",
+        "alive": true,
+        "operator": "Johan Mattsson"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Site offers free downloads ('-free' builds) for Windows, Linux, Mac OS X and BSD; source on GitHub",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://birdfont.org/purchase.php",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Source: GNU GPL v3 (README) · site builds: 'EULA Birdfont (Free)' · commercial: font-output terms not read · attribution: n/a",
+        "openSource": true,
+        "spdx": "GPL-3.0-only",
+        "evidence": {
+          "url": "https://github.com/johanmattssonm/birdfont",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "birdfont",
+        "type": "Software",
+        "category": "Design",
+        "title": "Birdfont",
+        "description": "Free desktop font editor for drawing vector glyphs and exporting TTF, OTF and SVG fonts, with variable and color font support.",
+        "tags": [
+          "typography",
+          "open-source",
+          "windows",
+          "mac",
+          "linux"
+        ],
+        "relatedResources": [
+          "google-fonts"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Draw glyphs with vector tools and export TTF, OTF and SVG fonts",
+          "Monochrome and color fonts, plus variable font support",
+          "Ligatures, stylistic alternates, kerning and spacing classes",
+          "Autotrace of raster images and SVG import from Illustrator or Inkscape",
+          "Layers, guides, ruler, Unicode browser and a dark canvas theme"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Not in Simple Icons (check-icon.mjs, 2026-10-16)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Long-running project (3,471 commits on GitHub); version 6.15.x builds dated 2025-2026 on download sites; no safety search hits beyond the standard one"
+      },
+      "sources": [
+        {
+          "url": "https://birdfont.org",
+          "date": "2026-10-16",
+          "note": "description, features, platforms, version 6.15"
+        },
+        {
+          "url": "https://birdfont.org/purchase.php",
+          "date": "2026-10-16",
+          "note": "free EULA builds; Steam and Mac App Store mentioned"
+        },
+        {
+          "url": "https://github.com/johanmattssonm/birdfont",
+          "date": "2026-10-16",
+          "note": "GPL v3 license, 3,471 commits"
+        },
+        {
+          "url": "web search: Birdfont 6.15",
+          "date": "2026-10-16",
+          "note": "release timing from store listings (second-hand)"
+        }
+      ],
+      "unverified": [
+        "exact price of paid store versions (Mac App Store, Steam) and what the paid/subscription option adds",
+        "terms for fonts made with the free EULA build",
+        "exact release date of 6.15",
+        "icon: none, ask owner"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/birdfont.md",
+        "lint": "pass"
+      }
+    },
+    "bitcoin-design": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Bitcoin Design",
+        "url": "https://bitcoin.design",
+        "alive": true,
+        "operator": "Bitcoin Design Community (open-source, GitHub org BitcoinDesign)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Public open-source design guide and community site; no sign-in or paywall seen",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://bitcoin.design/guide/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "GitHub repo Guide carries Apache-2.0, CC-BY-4.0 and MIT license files · commercial: not confirmed per file · attribution: required for CC-BY content · which license covers which part not confirmed",
+        "openSource": true,
+        "spdx": null,
+        "evidence": {
+          "url": "https://github.com/BitcoinDesign/Guide",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "bitcoin-design",
+        "type": "Resource",
+        "category": "Design",
+        "title": "Bitcoin Design",
+        "description": "Open-source community and design guide for building non-custodial bitcoin products, with reference wallet designs, case studies and explainers.",
+        "tags": [
+          "ui-ux",
+          "design-systems",
+          "open-source",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "android-design-hub",
+          "apple-design-resources"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Design guide covering principles, visual language and a technology primer",
+          "Reference designs for daily spending, savings, shared and inheritance wallets",
+          "How-it-works explainers on keys, backups, transactions and privacy",
+          "Case studies, glossary and contribution guidelines",
+          "Open community on Discord and GitHub"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Not in Simple Icons (check-icon.mjs, 2026-10-16); site SVG not fetched"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search; community site linked to the BitcoinDesign GitHub org"
+      },
+      "sources": [
+        {
+          "url": "https://bitcoin.design",
+          "date": "2026-10-16",
+          "note": "sections, community, 2026 theme"
+        },
+        {
+          "url": "https://bitcoin.design/guide/",
+          "date": "2026-10-16",
+          "note": "guide contents"
+        },
+        {
+          "url": "https://github.com/BitcoinDesign/Guide",
+          "date": "2026-10-16",
+          "note": "license files, org"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "legal operator not named on site",
+        "which license applies to guide text vs code",
+        "last-update date not shown"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/bitcoin-design.md",
+        "lint": "pass"
+      }
+    },
+    "bitgrain": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Bitgrain",
+        "url": "https://bitgrain.app",
+        "alive": true,
+        "operator": "Diptanshu Mahish (small independent team, India); old URL bitgrain.diptanshumahish.in redirects (308) to bitgrain.app"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Page says free tier is not a trial and has no time limit: unlimited exports capped at 1500px long edge with a small watermark; all effects, templates, studio and video timeline included",
+        "paidFrom": "Pro $6.99/month or one-time $69.00 (10-year licence), USD column",
+        "evidence": {
+          "url": "https://bitgrain.app/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary web app (terms page summary only) · commercial: not confirmed · attribution: n/a · free exports carry a watermark",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://bitgrain.app/terms",
+          "date": "2026-10-16",
+          "confidence": "second-hand"
+        }
+      },
+      "rl": {
+        "slug": "bitgrain",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Bitgrain",
+        "description": "Browser-based photo editor, print studio, design canvas and video timeline with dithering, LUTs and film effects; runs locally, no AI.",
+        "tags": [
+          "graphic-design",
+          "print-design",
+          "visual-design",
+          "web"
+        ],
+        "relatedResources": [
+          "ascii-magic"
+        ],
+        "similarResources": [
+          "ascii-magic"
+        ],
+        "keyFeatures": [
+          "14 dither algorithms and 29 stackable effects",
+          "38 film LUTs and 24 hardware palettes",
+          "Camera RAW, HEIC, TIFF and DNG import",
+          "Risograph export with up to four inks",
+          "Multi-page design studio and multi-track video timeline",
+          "Processing runs locally in the browser"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Not in Simple Icons (check-icon.mjs, 2026-10-16)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search found only maker materials (Product Hunt, GitHub desktop repo); no scam or shutdown hits; no independent reviews"
+      },
+      "sources": [
+        {
+          "url": "https://bitgrain.app/",
+          "date": "2026-10-16",
+          "note": "features, maker"
+        },
+        {
+          "url": "https://bitgrain.app/pricing",
+          "date": "2026-10-16",
+          "note": "free tier limits and Pro prices"
+        },
+        {
+          "url": "https://bitgrain.app/terms",
+          "date": "2026-10-16",
+          "note": "summary only"
+        },
+        {
+          "url": "https://www.producthunt.com/products/bitgrain",
+          "date": "2026-10-16",
+          "note": "maker listing, seen via search"
+        }
+      ],
+      "unverified": [
+        "terms of use and commercial use of outputs not read in full",
+        "free-tier wording is 'not a trial' with no time limit, not the word 'permanent'",
+        "early-stage product per maker, long-term stability unknown",
+        "old-site redirect target was server-supplied"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/bitgrain.md",
+        "lint": "pass"
+      }
+    },
+    "bitly": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Bitly",
+        "url": "https://bitly.com",
+        "alive": true,
+        "operator": "Bitly, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan $0/month (labeled 'With Ads'): 5 short links/month, 2 QR codes/month, 3 custom back-halves/month, 2 custom landing pages; Bitly says use it 'as long as you want'; third-party reports say no click analytics",
+        "paidFrom": "Core $10/month billed annually ($120/year)",
+        "evidence": {
+          "url": "https://bitly.com/pages/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: not read · attribution: n/a · free links may show an ad page",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://bitly.com/pages/pricing",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "bitly",
+        "type": "Tool",
+        "category": "Marketing",
+        "title": "Bitly",
+        "description": "Link shortener with branded short links, custom back-halves, landing pages and QR codes; the free plan allows a handful of new links each month.",
+        "tags": [
+          "web",
+          "social-media-design"
+        ],
+        "relatedResources": [
+          "bitly-qr-codes"
+        ],
+        "similarResources": [
+          "adobe-express-qr-code-generator"
+        ],
+        "keyFeatures": [
+          "Shorten long URLs into short links",
+          "Custom back-halves for branded links",
+          "Custom landing pages",
+          "QR code generation",
+          "Unlimited clicks on links"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "bitly",
+          "fillColor": "#EE6123",
+          "bgColor": "#ffffff",
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-16"
+        },
+        "siblings": [
+          "Bitly QR Codes (own product page at /pages/products/qr-codes)"
+        ]
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Established company; search 2026-10-16 found no acquisition or shutdown (only a retired Bundles feature); Trustpilot complaints about QR codes stopping without a paid plan, and support"
+      },
+      "sources": [
+        {
+          "url": "https://bitly.com/pages/pricing",
+          "date": "2026-10-16",
+          "note": "plans and free limits"
+        },
+        {
+          "url": "https://bitly.com/pages/products/qr-codes",
+          "date": "2026-10-16",
+          "note": "free plan wording"
+        },
+        {
+          "url": "https://bitly.com/blog/bitly-free-plan/",
+          "date": "2026-10-16",
+          "note": "free plan limits, via search summary"
+        }
+      ],
+      "unverified": [
+        "terms of service not read",
+        "commercial-use terms not read",
+        "unlimited clicks, 1,000 API requests/month and no-analytics claims come from search summaries",
+        "https://bitly.com/pricing/ returned 404; /pages/pricing loaded"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/bitly.md",
+        "lint": "pass"
+      }
+    },
+    "bitly-qr-codes": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list-sibling",
+      "verdictReason": "",
+      "site": {
+        "name": "Bitly QR Codes",
+        "url": "https://bitly.com/pages/products/qr-codes",
+        "alive": true,
+        "operator": "Bitly, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan includes 2 QR codes/month (pricing page); scans unlimited on every plan per FAQ; advanced design, branding, expiry and scan tracking are paid",
+        "paidFrom": "Core $10/month billed annually ($120/year), 5 QR codes/month",
+        "evidence": {
+          "url": "https://bitly.com/pages/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: not read · attribution: n/a · dynamic QR codes depend on an active link/plan (user complaints)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://bitly.com/pages/pricing",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "bitly-qr-codes",
+        "type": "Utility",
+        "category": "Marketing",
+        "title": "Bitly QR Codes",
+        "description": "Make QR codes you can redirect later and download as PNG, JPEG or SVG, with scan tracking and branding on paid plans.",
+        "tags": [
+          "web",
+          "graphic-design"
+        ],
+        "relatedResources": [
+          "bitly"
+        ],
+        "similarResources": [
+          "adobe-express-qr-code-generator"
+        ],
+        "keyFeatures": [
+          "Generate QR codes and download as PNG, JPEG or SVG",
+          "Change the destination URL later",
+          "Unlimited scans on every plan",
+          "Colors, patterns, frames and logo on paid plans",
+          "Scan analytics on paid plans"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "bitly",
+          "fillColor": "#EE6123",
+          "bgColor": "#ffffff",
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Same operator as Bitly; Trustpilot complaints that QR codes stop working without a paid subscription"
+      },
+      "sources": [
+        {
+          "url": "https://bitly.com/pages/products/qr-codes",
+          "date": "2026-10-16",
+          "note": "features and free wording"
+        },
+        {
+          "url": "https://bitly.com/pages/pricing",
+          "date": "2026-10-16",
+          "note": "QR limits per plan"
+        }
+      ],
+      "unverified": [
+        "ToS not read",
+        "which design options are free is not specified",
+        "whether free QR codes keep working long term not confirmed"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/bitly-qr-codes.md",
+        "lint": "pass"
+      }
+    },
+    "black-illustrations": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Free tier not confirmed: pricing page lists only a $89/quarter subscription and per-pack prices (apparently $38); the 'free' claim is unexplained. License page covers purchased items only.",
+      "site": {
+        "name": "Black Illustrations",
+        "url": "https://www.blackillustrations.com",
+        "alive": true,
+        "operator": "John D. Saunders (founder); site by 5Four Digital"
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": "$89 per quarter subscription (library of 10,000+ images); packs shown at about $38 each (inferred)",
+        "evidence": {
+          "url": "https://www.blackillustrations.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Ongoing non-exclusive worldwide multi-use license · commercial: yes · attribution: not required · no redistribution as stock or source files",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.blackillustrations.com/licensing-agreement",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://www.blackillustrations.com",
+          "date": "2026-10-16",
+          "note": "home, operator, pack cards"
+        },
+        {
+          "url": "https://www.blackillustrations.com/pricing",
+          "date": "2026-10-16",
+          "note": "plans"
+        },
+        {
+          "url": "https://www.blackillustrations.com/licensing-agreement",
+          "date": "2026-10-16",
+          "note": "license"
+        }
+      ],
+      "unverified": [
+        "whether any pack is permanently free (one shows pay what you want)",
+        "meaning of '38' on cards",
+        "no safety search"
+      ],
+      "injectionSeen": null
+    },
+    "blend": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Permanent free plan not confirmed: pricing page shows only paid PRO/MAX plans; 'Start creating for free' button gives no limits (may be a trial). Free tier details live in app.blendnow.com.",
+      "site": {
+        "name": "Blend",
+        "url": "https://www.blendnow.com",
+        "alive": true,
+        "operator": "BlendIt Studios Pvt Ltd"
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": "INR 1,499/month (PRO, 1000 credits/month)",
+        "evidence": {
+          "url": "https://www.blendnow.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": null,
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search; slug 'blender' is a different product"
+      },
+      "sources": [
+        {
+          "url": "https://www.blendnow.com",
+          "date": "2026-10-16",
+          "note": "home: AI product shots for e-commerce"
+        },
+        {
+          "url": "https://www.blendnow.com/pricing",
+          "date": "2026-10-16",
+          "note": "paid plans"
+        }
+      ],
+      "unverified": [
+        "free tier existence and limits",
+        "terms/license",
+        "no safety search"
+      ],
+      "injectionSeen": null
+    },
+    "blink": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Blink",
+        "url": "https://blink.new",
+        "alive": true,
+        "operator": "Blink Inc. / 1Flow, Inc. (California)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan $0/month, no time limit, no credit card: 5 credits/day, up to 30 a month; projects public by default on Free",
+        "paidFrom": "Starter $25/month billed monthly ($13/month billed yearly, $150/year)",
+        "evidence": {
+          "url": "https://blink.new/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Blink Terms · commercial: yes · attribution: not required · limit: Free-plan projects are public by default; you own what you build",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://blink.new/terms",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "blink",
+        "type": "AI Tool",
+        "category": "Development",
+        "title": "Blink",
+        "description": "AI app builder: describe the software you need and it generates, hosts and publishes a web or mobile app with database, sign-in and payments.",
+        "tags": [
+          "ai-tool",
+          "no-code",
+          "website-builder"
+        ],
+        "relatedResources": [
+          "lovable",
+          "base44",
+          "atoms"
+        ],
+        "similarResources": [
+          "lovable",
+          "base44"
+        ],
+        "keyFeatures": [
+          "Builds apps from a chat prompt",
+          "Each app gets its own SQL database",
+          "Email, Google and Apple sign-in with roles",
+          "Stripe checkout, subscriptions and invoices",
+          "Hosting with SSL and custom domains",
+          "Ships to web, iOS and Android"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-16: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "One search 2026-10-16: no scam/shutdown/acquisition reports; young company (founded 2025 per directory), reviews partly affiliate"
+      },
+      "sources": [
+        {
+          "url": "https://blink.new",
+          "date": "2026-10-16",
+          "note": "features, operator"
+        },
+        {
+          "url": "https://blink.new/pricing",
+          "date": "2026-10-16",
+          "note": "free plan and prices"
+        },
+        {
+          "url": "https://blink.new/terms",
+          "date": "2026-10-16",
+          "note": "ownership, commercial use"
+        },
+        {
+          "url": "web search",
+          "date": "2026-10-16",
+          "note": "safety"
+        }
+      ],
+      "unverified": [
+        "credit costs per action",
+        "terms-page operator name (1Flow, Inc.) differs from footer (Blink Inc.)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/blink.md",
+        "lint": "pass"
+      }
+    },
+    "blobmaker": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Blobmaker",
+        "url": "https://www.blobmaker.app",
+        "alive": true,
+        "operator": "z creative labs"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Free web generator, no account; SVG download or copy code",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.blobmaker.app",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No license stated for generated shapes · commercial: unknown · attribution: unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://haikei.app/terms",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "blobmaker",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Blobmaker",
+        "description": "Free generator for random, organic-looking SVG blob shapes with adjustable complexity and contrast; download the SVG or copy the code.",
+        "tags": [
+          "graphic-design",
+          "stock-vectors"
+        ],
+        "relatedResources": [
+          "logoipsum"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Adjust complexity (number of points)",
+          "Adjust contrast between points",
+          "Dice button for random shapes",
+          "Export as SVG or copy the code"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-16: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Site is now part of Haikei.app (same team); copyright 2021; no scam hits in one search"
+      },
+      "sources": [
+        {
+          "url": "https://www.blobmaker.app",
+          "date": "2026-10-16",
+          "note": "description, features, operator"
+        },
+        {
+          "url": "https://haikei.app/terms",
+          "date": "2026-10-16",
+          "note": "no terms for generated assets"
+        },
+        {
+          "url": "web search",
+          "date": "2026-10-16",
+          "note": "relation to Haikei, free claims"
+        }
+      ],
+      "unverified": [
+        "license/commercial use of generated shapes",
+        "current maintenance (footer 2021)",
+        "no dedicated safety search beyond license query"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/blobmaker.md",
+        "lint": "pass"
+      }
+    },
+    "blocs": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Pricing page shows a $0 \"Blocs 6 Free\" version with limits (no code export, no publish to hosting) but links it to a trial page and does not say it is permanent; EULA not read.",
+      "site": {
+        "name": "Blocs",
+        "url": "https://blocsapp.com",
+        "alive": true,
+        "operator": "Cazoobi (inferred from footer links)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Blocs 6 Free, $0: build unlimited websites; lacks export to code, publish to own hosting, custom fonts, browser preview",
+        "paidFrom": "Standard $112.99 one-off incl. tax (1 Mac); Plus $179.99 (2 Macs)",
+        "evidence": {
+          "url": "https://blocsapp.com/pricing/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary Mac app, EULA not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://blocsapp.com",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://blocsapp.com",
+          "date": "2026-10-16",
+          "note": "home: alive, links to pricing/trial/EULA"
+        },
+        {
+          "url": "https://blocsapp.com/pricing/",
+          "date": "2026-10-16",
+          "note": "plans and prices"
+        }
+      ],
+      "unverified": [
+        "free version permanence (page links Free to a trial page)",
+        "EULA / commercial-use terms",
+        "operator only inferred",
+        "no safety search",
+        "iPad/iPhone claim from directory description not confirmed on site"
+      ],
+      "injectionSeen": null
+    },
+    "blogbowl": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "BlogBowl",
+        "url": "https://www.blogbowl.io",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Starter $0/month, no card: 1 blog, 250 page views/month, 1 author, 50 subscribers; core is open source and self-hostable",
+        "paidFrom": "Standard $19/month (monthly price shown)",
+        "evidence": {
+          "url": "https://www.blogbowl.io/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT (open-source core, GitHub BlogBowl/BlogBowl) · commercial: yes under MIT · attribution: keep license notice · limit: hosted plans have page-view/subscriber caps",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/BlogBowl/BlogBowl",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "blogbowl",
+        "type": "Software",
+        "category": "Marketing",
+        "title": "BlogBowl",
+        "description": "Open-source blogging platform for blogs, changelogs and help docs with SEO templates, built-in analytics and newsletters; free starter plan or self-host.",
+        "tags": [
+          "open-source",
+          "website-builder",
+          "writing"
+        ],
+        "relatedResources": [
+          "beehiiv"
+        ],
+        "similarResources": [
+          "beehiiv"
+        ],
+        "keyFeatures": [
+          "Blogs, changelogs and help docs from one platform",
+          "SEO-friendly templates customizable without code",
+          "Built-in analytics powered by Umami",
+          "Newsletter with scheduling and subscriber management",
+          "Custom domain or subpath on an existing site",
+          "Self-hostable open-source core (Rails, PostgreSQL)"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons: no match, check-icon.mjs 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/blogbowl/",
+          "date": "2026-10-16",
+          "note": "resolved official site"
+        },
+        {
+          "url": "https://www.blogbowl.io/",
+          "date": "2026-10-16",
+          "note": "plans, features"
+        },
+        {
+          "url": "https://github.com/BlogBowl/BlogBowl",
+          "date": "2026-10-16",
+          "note": "MIT license, 163 stars, 89 commits"
+        }
+      ],
+      "unverified": [
+        "free Starter permanence (no explicit wording)",
+        "yearly pricing not shown",
+        "operator name not found",
+        "last commit date not shown",
+        "no dedicated safety search",
+        "fetch summary of home page contained odd self-referential text; re-check home figures",
+        "tag \"seo\" does not exist; used website-builder/writing"
+      ],
+      "injectionSeen": "WebFetch summary of blogbowl.io included a stray sentence claiming to be an active Claude agent; no instruction followed, likely summarizer artifact.",
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/blogbowl.md",
+        "lint": "pass"
+      }
+    },
+    "blogie": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "Home and /pricing fetches returned only the page title (JS-rendered); no pricing, operator or terms readable. Not bypassed.",
+      "site": {
+        "name": "Blogie",
+        "url": "https://blogie.ai",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://blogie.ai/pricing",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://blogie.ai",
+          "date": "2026-10-16",
+          "note": "title only: \"Blogie AI - AI Writer & Blogging Platform\""
+        },
+        {
+          "url": "https://blogie.ai/pricing",
+          "date": "2026-10-16",
+          "note": "title only"
+        }
+      ],
+      "unverified": [
+        "pricing",
+        "free tier",
+        "operator",
+        "license/terms",
+        "safety"
+      ],
+      "injectionSeen": null
+    },
+    "blokdots": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "blokdots",
+        "url": "https://blokdots.com",
+        "alive": true,
+        "operator": "blokdots (legal entity not stated)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Basic: Free, 1 seat, Components and Logic; no trial mentioned",
+        "paidFrom": "Education EUR 30/year (verified students/educators); Pro EUR 200/year; Studio EUR 500/year for 3 seats; incl. VAT",
+        "evidence": {
+          "url": "https://blokdots.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary desktop app, terms at /legal (not read) · commercial: not stated · attribution: not stated",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://blokdots.com/legal",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "blokdots",
+        "type": "Software",
+        "category": "Development",
+        "title": "blokdots",
+        "description": "No-code desktop app for building interactive Arduino hardware prototypes with Grove components; free Basic plan, paid plans add code export.",
+        "tags": [
+          "prototyping",
+          "no-code",
+          "mac",
+          "windows"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Live view of component values in real time",
+          "Plug-and-play hardware connection with a wiring guide",
+          "If-this-then-that trigger logic between components",
+          "Map inputs to outputs with value control",
+          "Integrations with Figma plugin, ProtoPie and Socket.IO (paid)",
+          "JavaScript and Arduino C++ code export (paid)"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons: no match, check-icon.mjs 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Third-party aggregator (webclaw.io, 2026-08-28) lists free Basic and no trial; no dedicated scam search"
+      },
+      "sources": [
+        {
+          "url": "https://blokdots.com",
+          "date": "2026-10-16",
+          "note": "home: v3.0.3, (c) 2017-2026, features, platforms"
+        },
+        {
+          "url": "https://blokdots.com/pricing",
+          "date": "2026-10-16",
+          "note": "plans"
+        },
+        {
+          "url": "https://webclaw.io/data/startups/company/blokdots.com",
+          "date": "2026-10-16",
+          "note": "second-hand pricing cross-check (search snippet)"
+        }
+      ],
+      "unverified": [
+        "free Basic permanence not stated",
+        "terms/commercial use at /legal not read",
+        "legal operator unknown",
+        "Integrations availability on Basic inferred from tier table",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/blokdots.md",
+        "lint": "pass"
+      }
     }
   }
 }
