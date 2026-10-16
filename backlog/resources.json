@@ -20990,6 +20990,1338 @@
         "AI tools may have limits not shown"
       ],
       "injectionSeen": null
+    },
+    "colorffy": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Colorffy",
+        "url": "https://colorffy.com",
+        "alive": true,
+        "operator": "Gian and Eli (Monterrey, MX), per footer"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Basic plan, listed as Free \"Forever\", no card: all tools, unlimited gradients and palettes, image download (jpg/png/svg), share collections publicly; up to 3 collections; ads shown",
+        "paidFrom": "Pro $5/month or $40/year",
+        "evidence": {
+          "url": "https://colorffy.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Terms not read · commercial: unknown · attribution: unknown · limit: unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://colorffy.com",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "colorffy",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Colorffy",
+        "description": "Web app for building color palettes, UI themes and CSS gradients, with a free plan and a paid Pro tier for advanced exports.",
+        "tags": [
+          "color-palette",
+          "visual-design",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "anygradient",
+          "color-hunt",
+          "adobe-color"
+        ],
+        "similarResources": [
+          "anygradient",
+          "adobe-color"
+        ],
+        "keyFeatures": [
+          "Dark theme and color scheme generators for UI work",
+          "CSS gradient, mesh gradient and text gradient generators",
+          "Color mixer and library of curated palettes and gradients",
+          "Free plan saves up to 3 collections and shares them publicly",
+          "Pro adds AI palettes, app token exports and 4K wallpapers"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Not in Simple Icons (check-icon.mjs, 2026-10-16)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Safety search returned nothing relevant (unrelated npm advisories); footer shows v4.17.3 and 2026 copyright"
+      },
+      "sources": [
+        {
+          "url": "https://colorffy.com",
+          "date": "2026-10-16",
+          "note": "tools, footer, Pro feature list"
+        },
+        {
+          "url": "https://colorffy.com/pricing",
+          "date": "2026-10-16",
+          "note": "Basic free forever, 3 collections, Pro $5/mo or $40/yr"
+        }
+      ],
+      "unverified": [
+        "Terms of service and commercial-use rights not read",
+        "Free plan ads not confirmed beyond the Pro \"ad-free\" bullet",
+        "Exact per-plan comparison table unreadable in fetch"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/colorffy.md",
+        "lint": "pass"
+      }
+    },
+    "colorflow": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "Page returns only a title (JS-rendered); no pricing, terms or features readable.",
+      "site": {
+        "name": "ColorFlow",
+        "url": "https://colorflow.ls.graphics",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://colorflow.ls.graphics",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://colorflow.ls.graphics",
+          "date": "2026-10-16",
+          "note": "only title \"ColorFlow - Advanced Mesh Gradient Generator & Editor\" returned, twice"
+        }
+      ],
+      "unverified": [
+        "Pricing, license, operator, export options, safety all unread"
+      ],
+      "injectionSeen": null
+    },
+    "colorhexa": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "HTTP 403 Forbidden on www.colorhexa.com (bot protection); not bypassed.",
+      "site": {
+        "name": "ColorHexa",
+        "url": "https://www.colorhexa.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.colorhexa.com",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.colorhexa.com",
+          "date": "2026-10-16",
+          "note": "403 Forbidden twice"
+        }
+      ],
+      "unverified": [
+        "Everything: content, ads, terms, operator, safety"
+      ],
+      "injectionSeen": null
+    },
+    "colorizer": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Free in practice (no paid tier, donation request) but page states no license/terms, only \"use at your own risk\"; operator is an individual. Owner to confirm listing.",
+      "site": {
+        "name": "Colorizer",
+        "url": "https://colorizer.org",
+        "alive": true,
+        "operator": "Individual developer (contact sebastian.loncar at gmail.com on page)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Whole tool free; no paid tier or login mentioned; donation (\"buy a coffee\") requested",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://colorizer.org",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No license or copyright notice · commercial: unknown · attribution: unknown · \"Use this at your own risk\" disclaimer",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://colorizer.org",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "colorizer",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Colorizer",
+        "description": "Free web color picker and converter across RGB, HSL, HSV, CMYK and CIE-LAB, with a contrast test and color themes.",
+        "tags": [
+          "color-palette",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "adobe-color",
+          "color-hunt"
+        ],
+        "similarResources": [
+          "adobe-color"
+        ],
+        "keyFeatures": [
+          "Converts colors between RGB, HSL, HSV/HSB, CMYK, CIE-LAB and more",
+          "Color picker and generator with high precision",
+          "Built-in contrast test",
+          "Color themes"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Not in Simple Icons (check-icon.mjs, 2026-10-16)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Safety search returned nothing relevant; page contains a PayPal tracking pixel"
+      },
+      "sources": [
+        {
+          "url": "https://colorizer.org",
+          "date": "2026-10-16",
+          "note": "features, donation text, disclaimer, contact"
+        }
+      ],
+      "unverified": [
+        "No terms page; commercial use unknown",
+        "Whether ads are shown",
+        "Last-updated date of site"
+      ],
+      "injectionSeen": null
+    },
+    "colorkit": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "JS-only single-page app: fetch and raw HTML return no content, so pricing, terms and features are unreadable. Search snippets mention colorkit.co, which returned HTTP 403 to fetch; not bypassed.",
+      "site": {
+        "name": "ColorKit",
+        "url": "https://colorkit.io",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://colorkit.io",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://colorkit.io",
+          "date": "2026-10-16",
+          "note": "raw HTML is an empty Vue app shell"
+        },
+        {
+          "url": "https://colorkit.co",
+          "date": "2026-10-16",
+          "note": "HTTP 403 to fetch"
+        },
+        {
+          "url": "https://alternativeto.net/software/colorkit",
+          "date": "2026-10-16",
+          "note": "search snippet only, second-hand: described as free"
+        }
+      ],
+      "unverified": [
+        "pricing, license and features not readable (JS-only app)",
+        "relationship between colorkit.io and colorkit.co",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null
+    },
+    "colormind": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Colormind",
+        "url": "http://colormind.io",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Web palette generator usable with no sign-in mentioned; API free for personal and non-commercial use, commercial use by contacting the owner by email. No rate limits stated.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "http://colormind.io/api-access/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary web tool, no license page found · commercial: API requires contacting owner, web tool not stated · attribution: not mentioned · limit: API free only for personal/non-commercial use",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "http://colormind.io/api-access/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "colormind",
+        "type": "Website",
+        "category": "Design",
+        "title": "Colormind",
+        "description": "Deep-learning color palette generator: lock the colors you like and let a model fill in the rest, drawing on photos, films and art.",
+        "tags": [
+          "color-palette",
+          "ai-tool",
+          "inspiration",
+          "web"
+        ],
+        "relatedResources": [
+          "adobe-color",
+          "color-hunt"
+        ],
+        "similarResources": [
+          "adobe-color",
+          "color-hunt"
+        ],
+        "keyFeatures": [
+          "Generates palettes with a neural network trained on photos, movies and art",
+          "Lock any colors and regenerate the rest",
+          "Training datasets change daily; preset palettes included",
+          "Preview palettes on a Bootstrap site and a dashboard template",
+          "Palette extraction from an uploaded image",
+          "Free API for personal, non-commercial use"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": false,
+        "clonerisk": "none",
+        "notes": "Listed URL is http (fetch upgrades to https); one search found no shutdown, scam or acquisition reports (absence of evidence only)"
+      },
+      "sources": [
+        {
+          "url": "http://colormind.io",
+          "date": "2026-10-16",
+          "note": "description, features, author's other projects"
+        },
+        {
+          "url": "http://colormind.io/api-access/",
+          "date": "2026-10-16",
+          "note": "API terms: free for personal/non-commercial use"
+        },
+        {
+          "url": "https://public-api.org/api/64/colormind",
+          "date": "2026-10-16",
+          "note": "search snippet, second-hand: free for non-commercial"
+        }
+      ],
+      "unverified": [
+        "operator not named on the page",
+        "no terms-of-service or privacy page found",
+        "whether https is served natively",
+        "web UI commercial-use terms not stated"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/colormind.md",
+        "lint": "pass"
+      }
+    },
+    "colors-lol": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "JS-only Angular app: fetch returns only the page title, no pricing, terms or features readable.",
+      "site": {
+        "name": "Colors.lol",
+        "url": "https://colors.lol",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://colors.lol",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://colors.lol",
+          "date": "2026-10-16",
+          "note": "title and meta description only (A fun way to discover interesting color combinations.)"
+        }
+      ],
+      "unverified": [
+        "pricing, license and features not readable (JS-only app)",
+        "operator unknown",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null
+    },
+    "colorsinspo": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "No pricing page or free-tier statement found (only individual tools called free); Terms of Use grant personal non-commercial viewing, with copying hex codes allowed. Owner should decide on listing.",
+      "site": {
+        "name": "Colorsinspo",
+        "url": "https://colorsinspo.com",
+        "alive": true,
+        "operator": "Hexorial Studio"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Home page calls the contrast checker and color game free; no pricing, tiers or sign-in mentioned",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://colorsinspo.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Terms of Use: personal, non-commercial transitory viewing · commercial: not for materials without rights to underlying assets; copying hex codes for your projects allowed · attribution: not mentioned · limit: no clause on linking/listing found",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://colorsinspo.com/terms-of-service",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "colorsinspo",
+        "type": "Website",
+        "category": "Design",
+        "title": "Colorsinspo",
+        "description": "Color tools and curated palettes in one place: image palette extractor, contrast checker, gradients, Tailwind generator and a Figma plugin.",
+        "tags": [
+          "color-palette",
+          "inspiration",
+          "web",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "color-hunt",
+          "adobe-color"
+        ],
+        "similarResources": [
+          "color-hunt"
+        ],
+        "keyFeatures": [
+          "Image color palette generator that runs in the browser",
+          "Contrast checker for WCAG 2.2 and APCA",
+          "Tailwind CSS color and brand color guide generators",
+          "Gradient Studio and gradient palettes",
+          "Colorsinspo plugin for Figma",
+          "Curated palettes, blog and freebies"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Footer copyright 2019-2026 Hexorial Studio; no dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://colorsinspo.com",
+          "date": "2026-10-16",
+          "note": "features, operator, links"
+        },
+        {
+          "url": "https://colorsinspo.com/terms-of-service",
+          "date": "2026-10-16",
+          "note": "use license"
+        }
+      ],
+      "unverified": [
+        "no pricing page; permanence of free access unconfirmed",
+        "no dedicated safety search",
+        "Figma plugin terms set by Figma"
+      ],
+      "injectionSeen": null
+    },
+    "colorslurp": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Mac/iOS app is free to download with a Pro yearly in-app purchase, but neither the site nor the App Store listing states what the free tier includes or its limits, so permanent-free scope is unclear.",
+      "site": {
+        "name": "ColorSlurp",
+        "url": "https://colorslurp.com",
+        "alive": true,
+        "operator": "IdeaPunch, LLC"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free download on Mac and iOS; free-tier limits not stated",
+        "paidFrom": "ColorSlurp Pro Yearly $19.99 (US App Store in-app purchase); legacy one-time Pro purchases still unlock Pro",
+        "evidence": {
+          "url": "https://apps.apple.com/us/app/colorslurp/id1287239339",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary app, terms at /legal and /palette-license (not read)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://colorslurp.com/legal",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Footer: (c) 2026 IdeaPunch, LLC; App Store listing exists. No dedicated safety search."
+      },
+      "sources": [
+        {
+          "url": "https://colorslurp.com",
+          "date": "2026-10-16",
+          "note": "features, maker, platforms (Mac, iOS), links"
+        },
+        {
+          "url": "https://apps.apple.com/us/app/colorslurp/id1287239339",
+          "date": "2026-10-16",
+          "note": "Free app; Pro Yearly $19.99; Pro features list"
+        }
+      ],
+      "unverified": [
+        "free tier feature list and limits",
+        "Pro price outside the US (regional prices differ)",
+        "terms /legal and /palette-license not read",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null
+    },
+    "colorspace-2": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "https://www.colorspace.dev and https://colorspace.dev both returned empty content to the fetcher (likely JS-only page); a web search found no page describing it. Not bypassed.",
+      "site": {
+        "name": "Colorspace",
+        "url": "https://www.colorspace.dev",
+        "alive": false,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.colorspace.dev",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.colorspace.dev",
+          "date": "2026-10-16",
+          "note": "fetched twice (www and apex): empty"
+        },
+        {
+          "url": "web search colorspace.dev",
+          "date": "2026-10-16",
+          "note": "no results for the site"
+        }
+      ],
+      "unverified": [
+        "everything: operator, pricing, license, features"
+      ],
+      "injectionSeen": null
+    },
+    "colorspace": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Page shows no pricing or ads and the directory says Free, but free status is never stated and the info page says site works are under German copyright, private reproduction only; owner should decide.",
+      "site": {
+        "name": "ColorSpace",
+        "url": "https://mycolor.space",
+        "alive": true,
+        "operator": "Michaela Lavicka (Rikku), Leinfelden-Echterdingen, Germany"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Palette generator and gradient tools usable without any shown price or sign-in; free status not stated explicitly",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://mycolor.space",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No license stated · German copyright on site content, private reproduction only (generated palettes not addressed) · commercial: unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://mycolor.space/info.php",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "mycolor-space",
+        "type": "Website",
+        "category": "Design",
+        "title": "ColorSpace",
+        "description": "Web tool that builds color palettes and 2-3 color gradients from a single color you enter.",
+        "tags": [
+          "color-palette",
+          "web",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "color-hunt",
+          "adobe-color"
+        ],
+        "similarResources": [
+          "color-hunt",
+          "adobe-color"
+        ],
+        "keyFeatures": [
+          "Generate palettes from one entered color",
+          "Gradient tool",
+          "3-color gradient tool"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Named operator in legal disclosure; no dedicated safety search. Different product from RL's color-space (color-space.io)."
+      },
+      "sources": [
+        {
+          "url": "https://mycolor.space",
+          "date": "2026-10-16",
+          "note": "features, nav, no pricing shown"
+        },
+        {
+          "url": "https://mycolor.space/info.php",
+          "date": "2026-10-16",
+          "note": "operator and copyright notice"
+        }
+      ],
+      "unverified": [
+        "explicit free statement",
+        "palette reuse/commercial terms",
+        "no dedicated safety search",
+        "last update date"
+      ],
+      "injectionSeen": null
+    },
+    "colorway": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Colorway",
+        "url": "https://chroma.dev",
+        "alive": true,
+        "operator": "Amino LLC DBA Colorway"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Free on Chrome, Edge and Brave; no account needed; palettes capped at five colors; no paid plans mentioned",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://colorway.app",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary, Terms of use (Amino LLC DBA Colorway) · commercial: not addressed · attribution: not addressed · no clause on linking/listing",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://colorway.app/terms",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "colorway",
+        "type": "Extension",
+        "category": "Design",
+        "title": "Colorway",
+        "description": "Free browser extension and web app for picking colors from any page, building palettes and tint scales, and checking WCAG contrast.",
+        "tags": [
+          "color-palette",
+          "extensions",
+          "web",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "color-hunt",
+          "adobe-color"
+        ],
+        "similarResources": [
+          "adobe-color"
+        ],
+        "keyFeatures": [
+          "Pick any pixel on a page, including images and canvases, as HEX",
+          "Palettes of up to five colors, shareable by link",
+          "Tints, shades and gradients exported as CSS variables",
+          "WCAG contrast checker that suggests fixes",
+          "Color history synced between extension and web app",
+          "Extension works offline"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Operator named in Terms. Listed site chroma.dev and product domain colorway.app differ; chroma.dev content matched. No dedicated safety search."
+      },
+      "sources": [
+        {
+          "url": "https://chroma.dev",
+          "date": "2026-10-16",
+          "note": "headline, features, free statement"
+        },
+        {
+          "url": "https://colorway.app",
+          "date": "2026-10-16",
+          "note": "free on Chrome/Edge/Brave, no account, terms links"
+        },
+        {
+          "url": "https://colorway.app/terms",
+          "date": "2026-10-16",
+          "note": "operator Amino LLC DBA Colorway"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "long-term free permanence (no pricing page)",
+        "commercial-use terms",
+        "relationship of chroma.dev to colorway.app domain (which URL to use in RL)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/colorway.md",
+        "lint": "pass"
+      }
+    },
+    "colorzilla": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Pages never state that the extension is free or what it costs; terms page not read. Confirm via Chrome Web Store listing.",
+      "site": {
+        "name": "ColorZilla",
+        "url": "https://www.colorzilla.com/chrome/",
+        "alive": true,
+        "operator": "iosart labs llc"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.colorzilla.com/chrome/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "not stated on page; terms of use not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.colorzilla.com/",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Says it does not collect data; no dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://www.colorzilla.com/chrome/",
+          "date": "2026-10-16",
+          "note": "features: eyedropper, color picker, palette analyzer, gradient generator; operator; MV3 v4.1"
+        },
+        {
+          "url": "https://www.colorzilla.com/",
+          "date": "2026-10-16",
+          "note": "product blurb, no price"
+        }
+      ],
+      "unverified": [
+        "free status/price",
+        "terms of use",
+        "last update date",
+        "safety search"
+      ],
+      "injectionSeen": null
+    },
+    "colour-contrast-analyser": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Colour Contrast Analyser",
+        "url": "https://www.tpgi.com/color-contrast-checker/",
+        "alive": true,
+        "operator": "Vispero (TPGi)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Free desktop app for Windows and Mac, no paid tiers mentioned",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://vispero.com/color-contrast-checker/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "GNU GPL (per page) plus a separate EULA on GitHub · commercial: not checked · attribution: not checked · limit: EULA text not read",
+        "openSource": true,
+        "spdx": null,
+        "evidence": {
+          "url": "https://vispero.com/color-contrast-checker/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "colour-contrast-analyser",
+        "type": "Software",
+        "category": "Design",
+        "title": "Colour Contrast Analyser",
+        "description": "Free desktop app from TPGi that checks text and UI colour contrast against WCAG 2.0, 2.1 and 2.2, with an on-screen eyedropper.",
+        "tags": [
+          "ui-ux",
+          "color-palette",
+          "open-source",
+          "windows",
+          "mac"
+        ],
+        "relatedResources": [
+          "a11y-project",
+          "adobe-color"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Foreground and background pickers with a screen eyedropper",
+          "Results for WCAG 2.0, 2.1 and 2.2 at levels A, AA and AAA",
+          "Enter or paste HEX, RGB, HSV and HSL, with alpha support",
+          "Sliders to tweak colours until a target ratio passes",
+          "Colour-blindness simulator with eight vision settings",
+          "Copy results in short or long format"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-16: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Official vendor page; site moved tpgi.com to vispero.com (301); no dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://www.tpgi.com/color-contrast-checker/",
+          "date": "2026-10-16",
+          "note": "301 to vispero.com"
+        },
+        {
+          "url": "https://vispero.com/color-contrast-checker/",
+          "date": "2026-10-16",
+          "note": "features, platforms, v3.5.5, GPL mention, repo github.com/ThePacielloGroup/CCAe"
+        }
+      ],
+      "unverified": [
+        "EULA terms and commercial use",
+        "release date of v3.5.5",
+        "no dedicated safety search",
+        "GitHub repo not opened"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/colour-contrast-analyser.md",
+        "lint": "pass"
+      }
+    },
+    "colour-contrast-checker": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Web tool with no stated price, operator or license; linked GitHub repo not found (404 on guessed URLs). Likely free but unconfirmed.",
+      "site": {
+        "name": "Colour Contrast Checker",
+        "url": "https://colourcontrast.cc",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "No price, ads or sign-up seen; donation link (Buy Me a Coffee)",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://colourcontrast.cc",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "not stated",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://colourcontrast.cc",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://colourcontrast.cc",
+          "date": "2026-10-16",
+          "note": "contrast ratio, AA/AAA pass grades, RGB/HSL inputs, reverse colours, Google font picker, Chrome extension badge"
+        }
+      ],
+      "unverified": [
+        "operator",
+        "license and repo URL",
+        "free permanence",
+        "safety search",
+        "last update"
+      ],
+      "injectionSeen": null
+    },
+    "comfyui": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "ComfyUI",
+        "url": "https://www.comfy.org",
+        "alive": true,
+        "operator": "Comfy Org"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Open-source app free to run locally; a paid cloud service is mentioned by the repo",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://github.com/Comfy-Org/ComfyUI",
+          "date": "2026-10-16",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "GPL-3.0 · commercial: not checked · attribution: not checked · limit: copyleft applies to derivatives",
+        "openSource": true,
+        "spdx": "GPL-3.0",
+        "evidence": {
+          "url": "https://github.com/Comfy-Org/ComfyUI",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "comfyui",
+        "type": "Software",
+        "category": "Design",
+        "title": "ComfyUI",
+        "description": "Open-source node-graph app for building generative AI workflows for images, video, audio and 3D, running locally on your own hardware.",
+        "tags": [
+          "ai-tool",
+          "open-source",
+          "no-code",
+          "windows",
+          "mac",
+          "linux"
+        ],
+        "relatedResources": [
+          "blender"
+        ],
+        "similarResources": [
+          "adobe-firefly"
+        ],
+        "keyFeatures": [
+          "Visual node graph for building reusable workflows without code",
+          "Runs locally and offline with queueing and memory offloading",
+          "Supports many models such as Stable Diffusion, Flux and Wan",
+          "Inpainting, upscaling and frame interpolation built in",
+          "Custom nodes and a local API",
+          "Workflows saved as JSON or recovered from generated media"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-16: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Official GitHub org Comfy-Org links comfy.org; no dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://github.com/Comfy-Org/ComfyUI",
+          "date": "2026-10-16",
+          "note": "license GPL-3.0, features, cloud mention"
+        },
+        {
+          "url": "https://github.com/ComfyUI/ComfyUI",
+          "date": "2026-10-16",
+          "note": "404"
+        }
+      ],
+      "unverified": [
+        "comfy.org not fetchable (domain safety check failed), pricing page not read",
+        "cloud plan prices and any free credits",
+        "latest release date",
+        "commercial terms of generated output",
+        "OS support tags inferred from repo, platform list not read",
+        "safety search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/comfyui.md",
+        "lint": "pass"
+      }
+    },
+    "communication-arts": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Home page shows subscription prompts (Subscribe/Student/Gift) and a free-account pop-up; which content is free and whether it stays free was not confirmable.",
+      "site": {
+        "name": "Communication Arts",
+        "url": "https://www.commarts.com",
+        "alive": true,
+        "operator": "Coyne & Blanchard, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Some content free; free account unlocks more per site pop-up; unlimited access needs a subscription",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.commarts.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://www.commarts.com",
+          "date": "2026-10-16",
+          "note": "magazine since 1959, subscription and free-account prompts, copyright 2026 Coyne & Blanchard"
+        }
+      ],
+      "unverified": [
+        "which articles/galleries are free",
+        "subscription price",
+        "terms of use / listing",
+        "safety search not run"
+      ],
+      "injectionSeen": null
+    },
+    "compresto": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Desktop app is paid only (one-time $49 Personal / $69 Standard, macOS); only a small free web tool (PNG/JPEG/WebP up to 5MB) exists, not a free tier of the product.",
+      "site": {
+        "name": "Compresto",
+        "url": "https://compresto.app",
+        "alive": true,
+        "operator": "Dinh Quang Hieu (per footer)"
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": "Free web tool, no signup, PNG/JPEG/WebP up to 5MB; app itself has no free plan found",
+        "paidFrom": "$49 one-time (Personal, 1 macOS device); Standard $69 one-time, 2 devices",
+        "evidence": {
+          "url": "https://compresto.app/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/compresto/",
+          "date": "2026-10-16",
+          "note": "resolved official site compresto.app"
+        },
+        {
+          "url": "https://compresto.app/",
+          "date": "2026-10-16",
+          "note": "macOS 13+, Windows waitlist, operator footer"
+        },
+        {
+          "url": "https://compresto.app/pricing",
+          "date": "2026-10-16",
+          "note": "one-time prices, free web tool limit"
+        }
+      ],
+      "unverified": [
+        "subscription plan prices (tab shown, no content)",
+        "license terms",
+        "safety search not run"
+      ],
+      "injectionSeen": null
+    },
+    "conductor": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Conductor",
+        "url": "https://www.conductor.build",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free $0 plan: run multiple coding agents in parallel, local workspaces on Mac, bring your own subscriptions or API keys",
+        "paidFrom": "Pro $50/month per person; Teams $60/month per user; Enterprise custom",
+        "evidence": {
+          "url": "https://www.conductor.build/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary Mac app · commercial: not confirmed · attribution: n/a · terms page not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.conductor.build",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "conductor",
+        "type": "App",
+        "category": "Development",
+        "title": "Conductor",
+        "description": "Mac app that runs several AI coding agents in parallel, each in its own isolated workspace, with review and merge. Free plan; paid cloud and team tiers.",
+        "tags": [
+          "ai-tool",
+          "mac",
+          "productivity"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Runs multiple coding agents side by side on a Mac",
+          "Each agent works in an isolated workspace",
+          "Supports Claude Code, Codex and Cursor",
+          "See each agent's progress, then review and merge changes",
+          "Free plan uses your own subscriptions or API keys; Pro adds cloud workspaces"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no Simple Icons match, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No safety search run; operator not named on home page"
+      },
+      "sources": [
+        {
+          "url": "https://www.conductor.build",
+          "date": "2026-10-16",
+          "note": "what it is, supported agents, macOS"
+        },
+        {
+          "url": "https://www.conductor.build/pricing",
+          "date": "2026-10-16",
+          "note": "plans and prices"
+        }
+      ],
+      "unverified": [
+        "operator/company not named",
+        "terms of service and commercial use",
+        "safety search not run",
+        "free plan permanence/limits beyond listed",
+        "Pro cloud hours not specified"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/conductor.md",
+        "lint": "pass"
+      }
+    },
+    "confluence": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Home page offers a free edition ('Get Confluence free') but the pricing page returned no readable limits or prices, so free-plan permanence and limits are unconfirmed.",
+      "site": {
+        "name": "Confluence",
+        "url": "https://www.atlassian.com/software/confluence",
+        "alive": true,
+        "operator": "Atlassian"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free edition advertised on product page; user/storage limits not read",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.atlassian.com/software/confluence/pricing",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.atlassian.com/software/confluence",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Major vendor; no safety search run"
+      },
+      "icon": {
+        "route": "iconLib",
+        "value": "confluence",
+        "fillColor": "#172B4D",
+        "bgColor": null,
+        "source": "Simple Icons via check-icon.mjs, 2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://www.atlassian.com/software/confluence",
+          "date": "2026-10-16",
+          "note": "Get it free CTA, pricing links"
+        },
+        {
+          "url": "https://www.atlassian.com/software/confluence/pricing",
+          "date": "2026-10-16",
+          "note": "fetch returned title only"
+        }
+      ],
+      "unverified": [
+        "free plan user and storage limits",
+        "paid price",
+        "terms",
+        "safety search not run"
+      ],
+      "injectionSeen": null
     }
   }
 }

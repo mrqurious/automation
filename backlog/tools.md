@@ -10,13 +10,13 @@ Generated 2026-10-16 by `scripts/backlog-build.mjs` from `backlog/tools-list.jso
 
 | Status | Count | Meaning |
 |---|---:|---|
-| `todo` | 1487 | in the research queue (free / freemium / beta) |
+| `todo` | 1467 | in the research queue (free / freemium / beta) |
 | `in-rl` | 33 | already in ResourcesList (matched by site or slug) — skip, maybe use for related/similar links |
 | `deferred-paid` | 217 | labelled **Paid** only — parked |
 | `deferred-trial` | 232 | labelled **Free Trial** only — parked until a real free tier is confirmed |
-| `researching` / `researched` / `drafted` / `rejected` / `blocked` | 0 / 4 / 124 / 60 / 122 | set by research sessions |
+| `researching` / `researched` / `drafted` / `rejected` / `blocked` | 0 / 6 / 128 / 61 / 135 | set by research sessions |
 
-Queue by priority: **P1** 1 (free/freemium, listed on 2+ pages) · **P2** 1404 (free/freemium, 1 page) · **P3** 82 (beta).
+Queue by priority: **P1** 1 (free/freemium, listed on 2+ pages) · **P2** 1384 (free/freemium, 1 page) · **P3** 82 (beta).
 
 ## What happens if a tool is not processed (and why)
 
@@ -299,22 +299,42 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Cognitive Bias Index | cognitivebiasindex.com | Free | 1 | P2 | blocked |
 | Colir | colir.space | Freemium | 1 | P2 | blocked |
 | Collabstr | collabstr.com | Freemium | 1 | P2 | blocked |
-| Collect UI | collectui.com | Free | 1 | P2 | researched |
+| Collect UI | collectui.com | Free | 1 | P2 | drafted |
 | Collecta | collecta.space | Freemium | 1 | P2 | blocked |
-| Collletttivo | collletttivo.it | Free | 1 | P2 | researched |
+| Collletttivo | collletttivo.it | Free | 1 | P2 | drafted |
 | Color & Contrast | colorandcontrast.com | Free | 1 | P2 | blocked |
 | Color Designer | colordesigner.io | Free + Paid | 1 | P2 | blocked |
 | Color Fuse AI | colorfuseai.com | Freemium | 1 | P2 | blocked |
-| Color Hunt | colorhunt.co | Free | 1 | P2 | researched |
+| Color Hunt | colorhunt.co | Free | 1 | P2 | drafted |
 | Color Leap | colorleap.app | Free | 1 | P2 | blocked |
 | Color Pal | color-pal.com | Free | 1 | P2 | blocked |
 | Color Ramp | color-ramp.com | Free | 1 | P2 | blocked |
 | Color Review | color.review | Free | 1 | P2 | blocked |
 | Color Selector | color-selector.com | Free | 1 | P2 | blocked |
-| color-space | color-space.io | Free | 1 | P2 | researched |
+| color-space | color-space.io | Free | 1 | P2 | drafted |
 | ColorBox | colorbox.io | Free | 1 | P2 | blocked |
 | Colorca | colorca.org | Free | 1 | P2 | blocked |
 | ColorDrop | colordrop.io | Free | 1 | P2 | blocked |
+| Colorffy | colorffy.com | Freemium | 1 | P2 | researched |
+| ColorFlow | colorflow.ls.graphics | Free | 1 | P2 | blocked |
+| ColorHexa | colorhexa.com | Free | 1 | P2 | blocked |
+| Colorizer | colorizer.org | Free | 1 | P2 | blocked |
+| ColorKit | colorkit.io | Free | 1 | P2 | blocked |
+| Colormind | colormind.io | Free | 1 | P2 | researched |
+| Colors.lol | colors.lol | Free | 1 | P2 | blocked |
+| Colorsinspo | colorsinspo.com | Free | 1 | P2 | blocked |
+| ColorSlurp | colorslurp.com | Freemium | 1 | P2 | blocked |
+| Colorspace | colorspace.dev | Free | 1 | P2 | blocked |
+| ColorSpace | mycolor.space | Free | 1 | P2 | blocked |
+| Colorway | chroma.dev | Free | 1 | P2 | researched |
+| ColorZilla | colorzilla.com | Free | 1 | P2 | blocked |
+| Colour Contrast Analyser | tpgi.com | Free | 1 | P2 | researched |
+| Colour Contrast Checker | colourcontrast.cc | Free | 1 | P2 | blocked |
+| ComfyUI | comfy.org | Free | 1 | P2 | researched |
+| Communication Arts | commarts.com | Free | 1 | P2 | blocked |
+| Compresto | via Digitool | Free tier listed | 1 | P2 | rejected |
+| Conductor | conductor.build | Freemium | 1 | P2 | researched |
+| Confluence | atlassian.com | Freemium | 1 | P2 | blocked |
 | Descript | get.descript.com | Freemium | 2 | P1 | drafted |
 | DesignerUp | designerup.co | Free tier listed / Paid | 2 | P1 | drafted |
 | Fabric | fabric.so | Freemium | 2 | P1 | blocked |
@@ -347,13 +367,12 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Visily | visily.ai | Freemium | 2 | P1 | drafted |
 | Wispr Flow | ref.wisprflow.ai | Free tier listed / Freemium | 2 | P1 | drafted |
 
-## Research queue (1487)
+## Research queue (1467)
 
-### Best AI Design Tools for Designers (181)
+### Best AI Design Tools for Designers (180)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| ComfyUI | comfy.org | Free | 1 | P2 |
 | Craft | craft.gustavofior.com | Free | 1 | P2 |
 | ctrlc.ai | ctrlc.ai | Free | 1 | P2 |
 | Cursor | cursor.com | Freemium | 1 | P2 |
@@ -535,24 +554,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | PromptBase | promptbase.com |  | 1 | P3 |
 | Stitch | stitch.withgoogle.com | Beta | 1 | P3 |
 
-### Best Color Tools and Inspiration for Designers (69)
+### Best Color Tools and Inspiration for Designers (55)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Colorffy | colorffy.com | Freemium | 1 | P2 |
-| ColorHexa | colorhexa.com | Free | 1 | P2 |
-| Colorizer | colorizer.org | Free | 1 | P2 |
-| ColorKit | colorkit.io | Free | 1 | P2 |
-| Colormind | colormind.io | Free | 1 | P2 |
-| Colors.lol | colors.lol | Free | 1 | P2 |
-| Colorsinspo | colorsinspo.com | Free | 1 | P2 |
-| ColorSlurp | colorslurp.com | Freemium | 1 | P2 |
-| Colorspace | colorspace.dev | Free | 1 | P2 |
-| ColorSpace | mycolor.space | Free | 1 | P2 |
-| Colorway | chroma.dev | Free | 1 | P2 |
-| ColorZilla | colorzilla.com | Free | 1 | P2 |
-| Colour Contrast Analyser | tpgi.com | Free | 1 | P2 |
-| Colour Contrast Checker | colourcontrast.cc | Free | 1 | P2 |
 | Contrast | usecontrast.com | Free | 1 | P2 |
 | Contrast Plugin | figma.com | Free | 1 | P2 |
 | CoolHue 2.0 | webkul.github.io | Free | 1 | P2 |
@@ -609,11 +614,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | WebGradients | webgradients.com | Free | 1 | P2 |
 | Who Can Use | whocanuse.com | Free | 1 | P2 |
 
-### Best Design Blogs & Magazines for Designers (57)
+### Best Design Blogs & Magazines for Designers (56)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Communication Arts | commarts.com | Free | 1 | P2 |
 | Courtside | dribbble.com | Free | 1 | P2 |
 | Creative Bloq | creativebloq.com | Free | 1 | P2 |
 | Creative Boom | creativeboom.com | Free | 1 | P2 |
@@ -1215,11 +1219,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Revyme | revyme.com | Beta | 1 | P3 |
 | Zoah | zoah.com | Beta | 1 | P3 |
 
-### Best Open Source Illustration Libraries (80)
+### Best Open Source Illustration Libraries (79)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| ColorFlow | colorflow.ls.graphics | Free | 1 | P2 |
 | Creatica | creatica.app | Freemium | 1 | P2 |
 | Dayflow | dayflow.blush.design | Freemium | 1 | P2 |
 | Delesign Illustrations | free-designs.delesign.com | Free | 1 | P2 |
@@ -1565,11 +1568,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Vidsplay | vidsplay.com | Free | 1 | P2 |
 | ZapSplat | zapsplat.com | Freemium | 1 | P2 |
 
-### Free Tools (123)
+### Free Tools (122)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Compresto | via Digitool | Free tier listed | 1 | P2 |
 | DevHub | via Digitool | Free tier listed | 1 | P2 |
 | Dext | via Digitool | Free tier listed | 1 | P2 |
 | Digg | via Digitool | Free tier listed | 1 | P2 |
@@ -1857,12 +1859,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Flodesk Studio | studio.flodesk.com | Beta | 1 | P3 |
 | Pomelli | labs.google.com | Beta | 1 | P3 |
 
-### Productivity Tools for Design and Product Teams (59)
+### Productivity Tools for Design and Product Teams (57)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Conductor | conductor.build | Freemium | 1 | P2 |
-| Confluence | atlassian.com | Freemium | 1 | P2 |
 | Creately | creately.com | Freemium | 1 | P2 |
 | CreateOS | createos.sh | Freemium | 1 | P2 |
 | CrewAI | crewai.com | Freemium | 1 | P2 |
