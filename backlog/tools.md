@@ -10,13 +10,13 @@ Generated 2026-10-16 by `scripts/backlog-build.mjs` from `backlog/tools-list.jso
 
 | Status | Count | Meaning |
 |---|---:|---|
-| `todo` | 1367 | in the research queue (free / freemium / beta) |
+| `todo` | 1327 | in the research queue (free / freemium / beta) |
 | `in-rl` | 33 | already in ResourcesList (matched by site or slug) — skip, maybe use for related/similar links |
 | `deferred-paid` | 217 | labelled **Paid** only — parked |
 | `deferred-trial` | 232 | labelled **Free Trial** only — parked until a real free tier is confirmed |
-| `researching` / `researched` / `drafted` / `rejected` / `blocked` | 0 / 18 / 163 / 71 / 178 | set by research sessions |
+| `researching` / `researched` / `drafted` / `rejected` / `blocked` | 0 / 17 / 181 / 74 / 198 | set by research sessions |
 
-Queue by priority: **P1** 1 (free/freemium, listed on 2+ pages) · **P2** 1288 (free/freemium, 1 page) · **P3** 78 (beta).
+Queue by priority: **P1** 1 (free/freemium, listed on 2+ pages) · **P2** 1251 (free/freemium, 1 page) · **P3** 75 (beta).
 
 ## What happens if a tool is not processed (and why)
 
@@ -395,48 +395,88 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Decofy | decofy.ai | Free + Paid | 1 | P2 | blocked |
 | Decoy Font | mixfont.com | Free | 1 | P2 | drafted |
 | Delesign Illustrations | free-designs.delesign.com | Free | 1 | P2 | blocked |
-| Dembrandt | dembrandt.com | Free | 1 | P2 | researched |
+| Dembrandt | dembrandt.com | Free | 1 | P2 | drafted |
 | Descript | get.descript.com | Freemium | 2 | P1 | drafted |
 | Design / AI Workflows | yummy-design-sprint.notion.site | Free | 1 | P2 | blocked |
 | Design Arena | designarena.ai | Free | 1 | P2 | blocked |
-| Design Beyond Barriers | designbeyondbarriers.com | Free | 1 | P2 | researched |
-| Design Buddies | designbuddies.community | Free | 1 | P2 | researched |
+| Design Beyond Barriers | designbeyondbarriers.com | Free | 1 | P2 | drafted |
+| Design Buddies | designbuddies.community | Free | 1 | P2 | drafted |
 | Design Champs | designchamps.io | Free + Paid | 1 | P2 | blocked |
 | Design Engineer (d×e) | designengineer.xyz | Freemium | 1 | P2 | blocked |
 | Design Engineer IO | designengineer.io | Free | 1 | P2 | blocked |
-| Design Events Guide | designevents.guide | Free | 1 | P2 | researched |
+| Design Events Guide | designevents.guide | Free | 1 | P2 | drafted |
 | Design Everywhere | designeverywhere.co | Free | 1 | P2 | rejected |
-| Design Gradients | designgradients.com | Free | 1 | P2 | researched |
+| Design Gradients | designgradients.com | Free | 1 | P2 | drafted |
 | Design is a Party | courses.designisaparty.com | Free + Paid | 1 | P2 | blocked |
-| Design Jobs | designjobs.careers | Free | 1 | P2 | researched |
+| Design Jobs | designjobs.careers | Free | 1 | P2 | drafted |
 | Design Jobs Board | designjobsboard.com | Free + Paid | 1 | P2 | blocked |
-| Design Milk | design-milk.com | Free | 1 | P2 | researched |
-| Design Observer | designobserver.com | Free | 1 | P2 | researched |
-| Design Principles | principles.design | Free | 1 | P2 | researched |
-| Design Seeds | design-seeds.com | Free | 1 | P2 | researched |
-| Design Spells | designspells.com | Free | 1 | P2 | researched |
+| Design Milk | design-milk.com | Free | 1 | P2 | drafted |
+| Design Observer | designobserver.com | Free | 1 | P2 | drafted |
+| Design Principles | principles.design | Free | 1 | P2 | drafted |
+| Design Seeds | design-seeds.com | Free | 1 | P2 | drafted |
+| Design Spells | designspells.com | Free | 1 | P2 | drafted |
 | Design System Concierge | kickstartds.com | Free | 1 | P2 | blocked |
-| Design Systems | designsystems.com | Free | 1 | P2 | researched |
+| Design Systems | designsystems.com | Free | 1 | P2 | drafted |
 | Design Systems Repo AI | designsystemsrepo.ai | Free | 1 | P2 | blocked |
 | Design Systems Surf | designsystems.surf | Free + Paid | 1 | P2 | blocked |
 | Design Week | designweek.co.uk | Free | 1 | P2 | blocked |
 | Design+Code | designcode.io | Freemium | 1 | P2 | blocked |
 | Designed | designed.org | Free | 1 | P2 | blocked |
-| Designeer | designeer.xyz | Free | 1 | P2 | researched |
-| Designer Founders | designerfounders.com | Free | 1 | P2 | researched |
-| Designer Slack Communities | designerslack.community | Free | 1 | P2 | researched |
+| Designeer | designeer.xyz | Free | 1 | P2 | drafted |
+| Designer Founders | designerfounders.com | Free | 1 | P2 | drafted |
+| Designer Slack Communities | designerslack.community | Free | 1 | P2 | drafted |
 | Designer.tips | designer.tips | Free + Paid | 1 | P2 | blocked |
 | DesignerMill | designermill.com | Free | 1 | P2 | blocked |
 | DesignerUp | designerup.co | Free tier listed / Paid | 2 | P1 | drafted |
-| Designing Atlassian | atlassian.design | Free | 1 | P2 | researched |
+| Designing Atlassian | atlassian.design | Free | 1 | P2 | drafted |
 | Designshot | designshot.co | Free | 1 | P2 | rejected |
-| Designspiration | designspiration.com | Free + Paid | 1 | P2 | researched |
+| Designspiration | designspiration.com | Free + Paid | 1 | P2 | drafted |
 | DesignX | designx.community | Free + Paid | 1 | P2 | blocked |
 | DESK Magazine | vanschneider.com | Free | 1 | P2 | blocked |
 | Desqk | desqk.com | Beta | 1 | P3 | rejected |
 | Dessn | dessn.ai | Beta | 1 | P3 | rejected |
-| Detail | detail.design | Free | 1 | P2 | researched |
+| Detail | detail.design | Free | 1 | P2 | drafted |
 | Details Matter | detailsmatter.framer.website | Free | 1 | P2 | blocked |
+| Details.so | details.so | Freemium | 1 | P2 | blocked |
+| DetailsPro | detailspro.app | Freemium | 1 | P2 | blocked |
+| DevAlly | devally.com | Freemium | 1 | P2 | researched |
+| DevHub | via Digitool | Free tier listed | 1 | P2 | blocked |
+| Device Shots | deviceshots.com | Free | 1 | P2 | researched |
+| Dext | via Digitool | Free tier listed | 1 | P2 | rejected |
+| Dezeen | dezeen.com | Free | 1 | P2 | researched |
+| Dezeen Events Guide | dezeen.com | Free | 1 | P2 | blocked |
+| DIELINE | thedieline.com | Free | 1 | P2 | blocked |
+| Diez | diez.org | Free | 1 | P2 | blocked |
+| Digg | via Digitool | Free tier listed | 1 | P2 | rejected |
+| Dither it! | ditherit.com | Free | 1 | P2 | researched |
+| Ditther | ditther.com | Free + Paid | 1 | P2 | researched |
+| Diverse UI | diverseui.com | Free | 1 | P2 | researched |
+| Divhunt | divhunt.com | Freemium | 1 | P2 | blocked |
+| DOC | doc.cc | Free | 1 | P2 | researched |
+| Dokie | dokie.ai | Freemium | 1 | P2 | researched |
+| Doodle Icons | khushmeen.com |  | 1 | P3 | researched |
+| Doodle Icons | oreoui.com | Freemium | 1 | P2 | researched |
+| Doodle Ipsum | doodleipsum.com | Free | 1 | P2 | blocked |
+| Doodlicons | rahulbhadoriya.notion.site |  | 1 | P3 | blocked |
+| Doop | doop.design | Beta | 1 | P3 | researched |
+| Dosmos | dosmos.app | Free | 1 | P2 | researched |
+| DotForge | dotforge.vercel.app | Free | 1 | P2 | blocked |
+| Dovetail | dovetail.com | Freemium | 1 | P2 | researched |
+| Draftbit | draftbit.com | Freemium | 1 | P2 | researched |
+| Dragdropship | dragdropship.com | Free | 1 | P2 | blocked |
+| Drams | drams.framer.website | Free | 1 | P2 | blocked |
+| Draw.io | drawio.com | Free | 1 | P2 | researched |
+| DrawKit | drawkit.com | Free + Paid | 1 | P2 | blocked |
+| Drawww | drawww.app | Freemium | 1 | P2 | blocked |
+| DreamCut | dreamcut.ai | Freemium | 1 | P2 | blocked |
+| Dreamflow | dreamflow.app | Freemium | 1 | P2 | blocked |
+| Dreamina | dreamina.capcut.com | Freemium | 1 | P2 | blocked |
+| Dreamstime | dreamstime.com | Free + Paid | 1 | P2 | blocked |
+| Dribbble Animation | dribbble.com | Free | 1 | P2 | rejected |
+| Dribbble Job Board | dribbble.com | Free + Paid | 1 | P2 | researched |
+| Drr. | drawerrr.com | Free | 1 | P2 | blocked |
+| DSS Dead Simple Sites | deadsimplesites.com | Free | 1 | P2 | researched |
+| Dualite | dualite.dev | Freemium | 1 | P2 | blocked |
 | Fabric | fabric.so | Freemium | 2 | P1 | blocked |
 | Fonts Ninja Typefaces | fonts.ninja | Free | 2 | P1 | drafted |
 | Frase | frase.io | Free tier listed / Free Trial | 2 | P1 | rejected |
@@ -467,15 +507,12 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Visily | visily.ai | Freemium | 2 | P1 | drafted |
 | Wispr Flow | ref.wisprflow.ai | Free tier listed / Freemium | 2 | P1 | drafted |
 
-## Research queue (1367)
+## Research queue (1327)
 
-### Best AI Design Tools for Designers (172)
+### Best AI Design Tools for Designers (168)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Drawww | drawww.app | Freemium | 1 | P2 |
-| Dreamina | dreamina.capcut.com | Freemium | 1 | P2 |
-| Dualite | dualite.dev | Freemium | 1 | P2 |
 | Durable | durableai.link | Freemium | 1 | P2 |
 | Dyad | dyad.sh | Free + Paid | 1 | P2 |
 | Dzine | dzine.ai | Freemium | 1 | P2 |
@@ -637,7 +674,6 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Wonder | wonder.design | Freemium | 1 | P2 |
 | YouWare | youware.com | Freemium | 1 | P2 |
 | Zawa | zawa.ai | Freemium | 1 | P2 |
-| Doop | doop.design | Beta | 1 | P3 |
 | Invoko | invoko.ai | Beta | 1 | P3 |
 | Jev | typesafe.ai | Beta | 1 | P3 |
 | Lunagraph | lunagraph.com | Beta | 1 | P3 |
@@ -646,11 +682,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | PromptBase | promptbase.com |  | 1 | P3 |
 | Stitch | stitch.withgoogle.com | Beta | 1 | P3 |
 
-### Best Color Tools and Inspiration for Designers (48)
+### Best Color Tools and Inspiration for Designers (47)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| DevAlly | devally.com | Freemium | 1 | P2 |
 | Duo | duo.alexpate.com | Free | 1 | P2 |
 | Goodpalette | goodpalette.io | Free | 1 | P2 |
 | Grabient | grabient.com | Free | 1 | P2 |
@@ -699,13 +734,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | WebGradients | webgradients.com | Free | 1 | P2 |
 | Who Can Use | whocanuse.com | Free | 1 | P2 |
 
-### Best Design Blogs & Magazines for Designers (45)
+### Best Design Blogs & Magazines for Designers (42)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Dezeen | dezeen.com | Free | 1 | P2 |
-| DIELINE | thedieline.com | Free | 1 | P2 |
-| DOC | doc.cc | Free | 1 | P2 |
 | Google Design | design.google | Free | 1 | P2 |
 | Growth Design | growth.design | Free | 1 | P2 |
 | IDEO Blog | ideo.com | Free | 1 | P2 |
@@ -749,13 +781,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Webflow Blog | webflow.partnerlinks.io | Free | 1 | P2 |
 | Wepresent | wepresent.wetransfer.com | Free | 1 | P2 |
 
-### Best Design Communities for Designers (26)
+### Best Design Communities for Designers (23)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Dezeen Events Guide | dezeen.com | Free | 1 | P2 |
-| Dribbble Job Board | dribbble.com | Free + Paid | 1 | P2 |
-| Drr. | drawerrr.com | Free | 1 | P2 |
 | Freelancer | freelancer.com | Free + Paid | 1 | P2 |
 | Glass | glass.photo | Free | 1 | P2 |
 | Graphic Design Forum | graphicdesignforum.com | Free | 1 | P2 |
@@ -780,14 +809,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | WeLoveProduct | weloveproduct.co | Freemium | 1 | P2 |
 | Woody | woodyjobs.com | Freemium | 1 | P2 |
 
-### Best Design Tools Across Disciplines (161)
+### Best Design Tools Across Disciplines (157)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Dither it! | ditherit.com | Free | 1 | P2 |
-| Ditther | ditther.com | Free + Paid | 1 | P2 |
-| Dokie | dokie.ai | Freemium | 1 | P2 |
-| DotForge | dotforge.vercel.app | Free | 1 | P2 |
 | Easing Wizard | easingwizard.com | Free | 1 | P2 |
 | Easings | easings.net | Free | 1 | P2 |
 | Endless Tools | endlesstools.io | Freemium | 1 | P2 |
@@ -1022,11 +1047,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | What the Font | apps.apple.com | Free | 1 | P2 |
 | Words of Type | wiki.wordsoftype.com | Free | 1 | P2 |
 
-### Best Free Open Source Icon Libraries (71)
+### Best Free Open Source Icon Libraries (68)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Doodle Icons | oreoui.com | Freemium | 1 | P2 |
 | IcoMoon | icomoon.io | Freemium | 1 | P2 |
 | Icon Shelf | icon-shelf.github.io | Free | 1 | P2 |
 | Icônes | icones.js.org | Free | 1 | P2 |
@@ -1041,8 +1065,6 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Unicorn Icons | unicornicons.com | Freemium | 1 | P2 |
 | useAnimations | useanimations.com | Free | 1 | P2 |
 | Webfont | webfontapp.com | Free + Paid | 1 | P2 |
-| Doodle Icons | khushmeen.com |  | 1 | P3 |
-| Doodlicons | rahulbhadoriya.notion.site |  | 1 | P3 |
 | ElastoUI | elastoui.com |  | 1 | P3 |
 | Energy Icons | energyicons.com |  | 1 | P3 |
 | Eva Icons | akveo.github.io |  | 1 | P3 |
@@ -1098,11 +1120,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Unicode Arrows | unicodearrows.com |  | 1 | P3 |
 | Vzy Icons | icons.vzy.co |  | 1 | P3 |
 
-### Best Mockup Sites for Designers (52)
+### Best Mockup Sites for Designers (51)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Device Shots | deviceshots.com | Free | 1 | P2 |
 | Dynamic Mockups | dynamicmockups.com | Freemium | 1 | P2 |
 | Fluent 2 | fluent2.microsoft.design | Free | 1 | P2 |
 | Flyerwrk | flyerwrk.com | Free + Paid | 1 | P2 |
@@ -1155,16 +1176,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Wannathis Mockups | wannathis.one | Free + Paid | 1 | P2 |
 | WhiteUI.Store | gumroad.com | Free + Paid | 1 | P2 |
 
-### Best No-Code Website Builders (99)
+### Best No-Code Website Builders (93)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| DetailsPro | detailspro.app | Freemium | 1 | P2 |
-| Diez | diez.org | Free | 1 | P2 |
-| Divhunt | divhunt.com | Freemium | 1 | P2 |
-| Dosmos | dosmos.app | Free | 1 | P2 |
-| Draftbit | draftbit.com | Freemium | 1 | P2 |
-| Dreamflow | dreamflow.app | Freemium | 1 | P2 |
 | Elastic UI | eui.elastic.co | Free | 1 | P2 |
 | Evil Buttons | evilbuttons.com | Free | 1 | P2 |
 | Experimently | experimently.io | Freemium | 1 | P2 |
@@ -1259,12 +1274,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Revyme | revyme.com | Beta | 1 | P3 |
 | Zoah | zoah.com | Beta | 1 | P3 |
 
-### Best Open Source Illustration Libraries (76)
+### Best Open Source Illustration Libraries (74)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Doodle Ipsum | doodleipsum.com | Free | 1 | P2 |
-| DrawKit | drawkit.com | Free + Paid | 1 | P2 |
 | Durves | durves.com | Free | 1 | P2 |
 | Faticons Medicine | minima.market | Free | 1 | P2 |
 | fffuel | fffuel.co | Free | 1 | P2 |
@@ -1340,12 +1353,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | UI8 - Illustrations | ui8.net | Free + Paid | 1 | P2 |
 | Vackground | vackground.com | Free + Paid | 1 | P2 |
 
-### Best UX Tools for Designers (65)
+### Best UX Tools for Designers (63)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Dovetail | dovetail.com | Freemium | 1 | P2 |
-| Draw.io | drawio.com | Free | 1 | P2 |
 | Eraser | eraser.io | Freemium | 1 | P2 |
 | Fake Name Generator | fakenamegenerator.com | Free | 1 | P2 |
 | Featurebase | featurebase.app | Freemium | 1 | P2 |
@@ -1410,16 +1421,11 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Zen Flowchart | zenflowchart.com | Freemium | 1 | P2 |
 | Stratify | trystratify.com | Beta | 1 | P3 |
 
-### Design Inspiration Sites for UI, Web, Graphic & Branding (126)
+### Design Inspiration Sites for UI, Web, Graphic & Branding (121)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
 | Nicelydone | nicelydone.club | Free Trial / Free tier listed | 2 | P1 |
-| Details.so | details.so | Freemium | 1 | P2 |
-| Dragdropship | dragdropship.com | Free | 1 | P2 |
-| Drams | drams.framer.website | Free | 1 | P2 |
-| Dribbble Animation | dribbble.com | Free | 1 | P2 |
-| DSS Dead Simple Sites | deadsimplesites.com | Free | 1 | P2 |
 | ecomm.design | ecomm.design | Free | 1 | P2 |
 | Email Gallery | email-gallery.com | Free | 1 | P2 |
 | Email Love | emaillove.com | Free | 1 | P2 |
@@ -1541,12 +1547,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | World Brand Design Society | worldbranddesign.com | Free | 1 | P2 |
 | YouPic | youpic.com | Free | 1 | P2 |
 
-### Free Stock Images & Video Websites (42)
+### Free Stock Images & Video Websites (40)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Diverse UI | diverseui.com | Free | 1 | P2 |
-| Dreamstime | dreamstime.com | Free + Paid | 1 | P2 |
 | FOCA | focastock.com | Free | 1 | P2 |
 | Freesound | freesound.org | Free | 1 | P2 |
 | Generated Photos | generated.photos | Freemium | 1 | P2 |
@@ -1588,13 +1592,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Vidsplay | vidsplay.com | Free | 1 | P2 |
 | ZapSplat | zapsplat.com | Freemium | 1 | P2 |
 
-### Free Tools (122)
+### Free Tools (119)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| DevHub | via Digitool | Free tier listed | 1 | P2 |
-| Dext | via Digitool | Free tier listed | 1 | P2 |
-| Digg | via Digitool | Free tier listed | 1 | P2 |
 | Factors.ai | via Digitool | Free tier listed | 1 | P2 |
 | Fenn | via Digitool | Free tier listed | 1 | P2 |
 | Fillout | via Digitool | Free tier listed (Digitool "Premium" badge) | 1 | P2 |
@@ -1863,11 +1864,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Flodesk Studio | studio.flodesk.com | Beta | 1 | P3 |
 | Pomelli | labs.google.com | Beta | 1 | P3 |
 
-### Productivity Tools for Design and Product Teams (53)
+### Productivity Tools for Design and Product Teams (52)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| DreamCut | dreamcut.ai | Freemium | 1 | P2 |
 | Every Time Zone | everytimezone.com | Free | 1 | P2 |
 | ExcaliClaw | excaliclaw.com | Freemium | 1 | P2 |
 | Fabrie | fabrie.com | Freemium | 1 | P2 |

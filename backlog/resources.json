@@ -29306,6 +29306,2893 @@
         "safety search"
       ],
       "injectionSeen": null
+    },
+    "details-so": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Free Starter plan exists but only browse/preview of recent items with no stated limits or permanence; most library is paid (Pro $9/mo, Max $19/mo); Terms not read.",
+      "site": {
+        "name": "Details.so",
+        "url": "https://www.details.so",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Starter (free): browse recent Inspo references, category and Vault previews, selected free resources; no numeric limits stated",
+        "paidFrom": "Pro $9/month (struck through from $12); Max $19/month; Team $22/seat/month; Lifetime $490 sold out",
+        "evidence": {
+          "url": "https://www.details.so/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.details.so",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No safety search run (Tier A screen stopped at needs-owner)"
+      },
+      "sources": [
+        {
+          "url": "https://www.details.so",
+          "date": "2026-10-16",
+          "note": "what it is, contact, plans"
+        },
+        {
+          "url": "https://www.details.so/pricing",
+          "date": "2026-10-16",
+          "note": "Starter and paid prices"
+        }
+      ],
+      "unverified": [
+        "operator not named (Imprint page not read)",
+        "free tier limits and permanence",
+        "Terms of service",
+        "safety search not run"
+      ],
+      "injectionSeen": null
+    },
+    "detailspro": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Site shows no pricing or free plan, only 'one universal subscription' and App Store link; free tier existence unconfirmed (App Store listing not fetched).",
+      "site": {
+        "name": "DetailsPro",
+        "url": "https://detailspro.app",
+        "alive": true,
+        "operator": "Fun Focus Software LLC"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://detailspro.app/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://detailspro.app",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Site active (copyright 2020-2026, changelog, Vision Pro release); no safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://detailspro.app",
+          "date": "2026-10-16",
+          "note": "SwiftUI visual design app for iPhone, iPad, Mac, Vision Pro; operator"
+        },
+        {
+          "url": "https://detailspro.app/pricing",
+          "date": "2026-10-16",
+          "note": "no prices listed; points to App Store listing"
+        }
+      ],
+      "unverified": [
+        "free plan and its limits",
+        "subscription price",
+        "terms",
+        "safety search not run"
+      ],
+      "injectionSeen": null
+    },
+    "devally": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "DevAlly",
+        "url": "https://devally.com",
+        "alive": true,
+        "operator": "DevA11y Limited (Dublin)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Basic: free, no credit card; up to 5 site audits/week, up to 5 workflow audits/week, 1 product, 1 workspace, up to 3 user seats",
+        "paidFrom": "Starter $399/month (unlimited audits and workflows, 5 seats); Growth and Compliance custom",
+        "evidence": {
+          "url": "https://devally.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: not stated · attribution: n/a · limit: Terms page not found (404 at /terms)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://devally.com/terms",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "devally",
+        "type": "Tool",
+        "category": "Development",
+        "title": "DevAlly",
+        "description": "AI accessibility compliance platform that audits sites and workflows, suggests code fixes, and generates compliance docs for fast-shipping teams.",
+        "tags": [
+          "web",
+          "ui-ux"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Audits websites and user workflows for accessibility issues",
+          "Prioritizes issues and suggests code fixes",
+          "Integrates with GitHub and CI/CD",
+          "Generates accessibility compliance documentation",
+          "Free Basic plan with weekly audit quota"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search 2026-10-16: no scam/shutdown/acquisition hits; EUR 2M pre-seed Oct 2025 (TechCrunch), Product Hunt launch May 2026 (secondary)"
+      },
+      "sources": [
+        {
+          "url": "https://devally.com",
+          "date": "2026-10-16",
+          "note": "product, operator, free start"
+        },
+        {
+          "url": "https://devally.com/pricing",
+          "date": "2026-10-16",
+          "note": "plans and limits"
+        },
+        {
+          "url": "https://techcrunch.com/2025/10/09/battlefield-alum-devally-raises-e2m-to-help-companies-with-europes-feisty-new-accessibility-law",
+          "date": "2026-10-16",
+          "note": "funding, via search result"
+        }
+      ],
+      "unverified": [
+        "Terms of service not found (404 /terms)",
+        "free plan permanence not stated in words",
+        "no related RL slugs found for accessibility",
+        "icon: none"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/devally.md",
+        "lint": "pass"
+      }
+    },
+    "devhub": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Thin product-launch directory (devhub.best, built by DirEasy); free browsing and 'Submit For Free' shown but no operator, pricing page or terms read; paid Outbid placements; value for RL unclear.",
+      "site": {
+        "name": "DevHub",
+        "url": "https://devhub.best",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Browsing and free submission appear open; paid Outbid placements from $10",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://devhub.best",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://devhub.best",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/devhub/",
+          "date": "2026-10-16",
+          "note": "resolved site link devhub.best"
+        },
+        {
+          "url": "https://devhub.best",
+          "date": "2026-10-16",
+          "note": "what it is, placements, free submit"
+        }
+      ],
+      "unverified": [
+        "operator",
+        "/pricing and terms not read",
+        "safety search not run",
+        "value over existing directories"
+      ],
+      "injectionSeen": null
+    },
+    "device-shots": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Device Shots",
+        "url": "https://deviceshots.com",
+        "alive": true,
+        "operator": "Diogo Capela (independent developer)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Whole service free: no sign-up, no watermark, runs in the browser; custom canvas up to 6000 px, export up to 4x",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://deviceshots.com/legal/terms/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Site terms · commercial: yes (mockups usable for personal and commercial purposes) · attribution: not required · limit: you must hold rights to the screenshots you add; frames are illustrative, not affiliated with device makers",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://deviceshots.com/legal/terms/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "device-shots",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Device Shots",
+        "description": "Free browser-based device mockup generator: drop a screenshot into phone, tablet, laptop or browser frames, add text, and export an image. No sign-up.",
+        "tags": [
+          "graphic-design",
+          "social-media-design",
+          "web"
+        ],
+        "relatedResources": [
+          "figma"
+        ],
+        "similarResources": [
+          "adobe-express"
+        ],
+        "keyFeatures": [
+          "Screenshot placed into device frames (site claims 76) and browser window styles",
+          "Add text and set a custom canvas size",
+          "Exports up to 4x scale with no watermark",
+          "No account needed; runs entirely in the browser",
+          "Social media size presets in the 2.0 app (from a search snippet)"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no Simple Icons match, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Solo-maintained since 2020 (Product Hunt launch per search results); no scam or shutdown reports found"
+      },
+      "sources": [
+        {
+          "url": "https://deviceshots.com",
+          "date": "2026-10-16",
+          "note": "home: features, free claims, operator"
+        },
+        {
+          "url": "https://deviceshots.com/legal/terms/",
+          "date": "2026-10-16",
+          "note": "terms: free of charge, commercial use, no listing clause"
+        },
+        {
+          "url": "https://www.producthunt.com/products/device-shots",
+          "date": "2026-10-16",
+          "note": "web search result only: launch history"
+        }
+      ],
+      "unverified": [
+        "frame count and 6000 px / 4x limits are the site's own claims, not tested",
+        "no pricing page exists; free status from home and terms",
+        "Product Hunt page not opened directly"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/device-shots.md",
+        "lint": "pass"
+      }
+    },
+    "dext": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Trial-only: 14-day free trial, no permanent free plan on dext.com; paid accounting-automation product",
+      "site": {
+        "name": "Dext",
+        "url": "https://dext.com/",
+        "alive": true,
+        "operator": "Dext"
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "about $25.21/month billed annually (business plan, 250 documents, 5 users) per Digitool listing, second-hand",
+        "evidence": {
+          "url": "https://dext.com/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Established accounting software vendor; no dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/dext/",
+          "date": "2026-10-16",
+          "note": "directory: site link, price, Paid tag"
+        },
+        {
+          "url": "https://dext.com/",
+          "date": "2026-10-16",
+          "note": "home: 14-day trial, no card, account paused after"
+        }
+      ],
+      "unverified": [
+        "dext.com/en/pricing returned 404; first-party price list not read",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null
+    },
+    "dezeen": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Dezeen",
+        "url": "https://www.dezeen.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Articles openly readable on the home page with no paywall or login seen; newsletters are free-looking sign-up forms",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.dezeen.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Editorial site, terms not read · commercial: n/a (reading only) · attribution: n/a · limit: content copyright presumed with publisher",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.dezeen.com",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "dezeen",
+        "type": "Website",
+        "category": "Design",
+        "title": "Dezeen",
+        "description": "Architecture, interiors and design magazine with news, features, interviews and project coverage, plus jobs, awards and events sections.",
+        "tags": [
+          "inspiration",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "design-milk"
+        ],
+        "similarResources": [
+          "design-milk",
+          "design-observer",
+          "designspiration"
+        ],
+        "keyFeatures": [
+          "Daily news and features across architecture, interiors, design and technology",
+          "Interviews, opinion and in-depth newsletters",
+          "Sister sections: Awards, Jobs, Events Guide, Showroom, School Shows",
+          "Free-looking newsletters: Daily, Agenda, Debate, In Depth"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no Simple Icons match, 2026-10-16"
+        },
+        "siblings": [
+          "Dezeen Events Guide (home nav link; separate entry dezeen-events-guide)"
+        ]
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Long-running well-known publication; no dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://www.dezeen.com",
+          "date": "2026-10-16",
+          "note": "home: sections, no paywall seen, newsletters, footer links"
+        }
+      ],
+      "unverified": [
+        "operator/company not stated on home page; /about returned 403",
+        "no terms-of-use link found on home",
+        "some articles may be gated; only home page checked",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/dezeen.md",
+        "lint": "pass"
+      }
+    },
+    "dezeen-events-guide": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "Events guide URL returned HTTP 403 to fetch; content not readable (not bypassed). A section of Dezeen, so consider as sibling of dezeen; owner also to check overlap with existing design-events-guide",
+      "site": {
+        "name": "Dezeen Events Guide",
+        "url": "https://www.dezeen.com/eventsguide/type/conferences/",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.dezeen.com/eventsguide/type/conferences/",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.dezeen.com/eventsguide/type/conferences/",
+          "date": "2026-10-16",
+          "note": "fetch returned 403"
+        },
+        {
+          "url": "https://www.dezeen.com",
+          "date": "2026-10-16",
+          "note": "home lists Events Guide as a Dezeen section"
+        }
+      ],
+      "unverified": [
+        "page content",
+        "fees for listing events",
+        "whether reading is free"
+      ],
+      "injectionSeen": null
+    },
+    "dieline": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Packaging-design news publication and supplier directory, not a tool; articles appear readable without paywall but Subscribe/membership exists with no prices read, and Terms page (thedieline.com/terms/) not read.",
+      "site": {
+        "name": "DIELINE",
+        "url": "https://thedieline.com",
+        "alive": true,
+        "operator": "Dieline Media, LLC (founded 2007 by Andrew Gibbs)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Articles visible without paywall notice on home page; free weekly newsletter; account lets you save posts",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://thedieline.com",
+          "date": "2026-10-16",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "unknown - Terms & Conditions not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://thedieline.com/terms/",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://thedieline.com",
+          "date": "2026-10-16",
+          "note": "description, memberships links, newsletter"
+        },
+        {
+          "url": "https://thedieline.com/about-us",
+          "date": "2026-10-16",
+          "note": "operator, founding"
+        }
+      ],
+      "unverified": [
+        "what the memberships cost/unlock",
+        "whether any content is paywalled",
+        "Terms & Conditions",
+        "safety search not run",
+        "fit as Resource/Website vs tool"
+      ],
+      "injectionSeen": null
+    },
+    "diez": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Free/open-source design-token toolkit, but license is unnamed on the site (directory says 'other'; LICENSE.md not read) and the project looks inactive (last push Dec 2022, npm 10.6.0 about 5 years old, listed under legacy/inactive in an awesome list).",
+      "site": {
+        "name": "Diez",
+        "url": "https://diez.org",
+        "alive": true,
+        "operator": "Haiku Team (haikuforteams.com)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Site says 'free & open-source'; no paid tiers mentioned",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://diez.org",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "unverified - site says free and open source without naming a license; ecosyste.ms lists 'other'",
+        "openSource": true,
+        "spdx": null,
+        "evidence": {
+          "url": "https://diez.org",
+          "date": "2026-10-16",
+          "confidence": "second-hand"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search shows stale activity, not scam/malware; no shutdown notice found"
+      },
+      "sources": [
+        {
+          "url": "https://diez.org",
+          "date": "2026-10-16",
+          "note": "description, maintainers, free and open source"
+        },
+        {
+          "url": "https://awesome.ecosyste.ms/projects/github.com%2Fdiez%2Fdiez",
+          "date": "2026-10-16",
+          "note": "license 'other', last push Dec 2022 (via search summary)"
+        },
+        {
+          "url": "https://npmjs.com/package/diez",
+          "date": "2026-10-16",
+          "note": "version 10.6.0 (via search summary)"
+        }
+      ],
+      "unverified": [
+        "actual license text",
+        "current maintenance status",
+        "GitHub repo not opened"
+      ],
+      "injectionSeen": null
+    },
+    "digg": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "digg.now is not open to the public yet (waitlist; 'Digg opens to the public soon'), no pricing or free tier published, no terms; directory 'Free tier listed' unconfirmed.",
+      "site": {
+        "name": "Digg",
+        "url": "https://digg.now",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://digg.now",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "unknown - no terms linked",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://digg.now",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Not searched; site shows only a waitlist page"
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/digg/",
+          "date": "2026-10-16",
+          "note": "resolved site digg.now, listed price Free"
+        },
+        {
+          "url": "https://digg.now",
+          "date": "2026-10-16",
+          "note": "waitlist, gated access, copyright only"
+        }
+      ],
+      "unverified": [
+        "operator",
+        "pricing",
+        "public launch date",
+        "safety search not run"
+      ],
+      "injectionSeen": null
+    },
+    "dither-it": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Dither it!",
+        "url": "https://ditherit.com",
+        "alive": true,
+        "operator": "Alex Harris (second-hand, not named on the page)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Page calls it a 'free online image dithering tool'; no paid plans or limits shown; has a Support link",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://ditherit.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Free web app, no terms page read · commercial: unknown · attribution: unknown · second-hand reports MIT source on GitHub",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.drweb.de/dither-it-dithering-tool-browser/",
+          "date": "2026-10-16",
+          "confidence": "second-hand"
+        }
+      },
+      "rl": {
+        "slug": "dither-it",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Dither it!",
+        "description": "Free browser-based image dithering tool with palette presets, adjustable colors and pixel scale for retro, low-colour looks.",
+        "tags": [
+          "graphic-design",
+          "visual-design",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Error-diffusion dithering including Floyd-Steinberg",
+          "Palette presets, or colors taken from the image",
+          "Adjustable number of colors and pixel scale",
+          "Save, export and import palettes",
+          "Download All button for processed images"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search found third-party reviews (drweb.de, Product Hunt Jan 2020); no scam/shutdown hits"
+      },
+      "sources": [
+        {
+          "url": "https://ditherit.com",
+          "date": "2026-10-16",
+          "note": "free tool, features, links"
+        },
+        {
+          "url": "https://www.drweb.de/dither-it-dithering-tool-browser/",
+          "date": "2026-10-16",
+          "note": "in-browser, no upload, MIT (via search summary)"
+        },
+        {
+          "url": "https://aiuxplayground.com/playground/ditherit-com",
+          "date": "2026-10-16",
+          "note": "author, algorithms (via search summary)"
+        }
+      ],
+      "unverified": [
+        "terms/commercial use",
+        "operator and MIT claim are second-hand",
+        "runs fully in browser is second-hand",
+        "Bayer/Atkinson modes not seen on page",
+        "no related RL slugs found"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/dither-it.md",
+        "lint": "pass"
+      }
+    },
+    "ditther": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Ditther",
+        "url": "https://ditther.com",
+        "alive": true,
+        "operator": "Aashish (aashish.me)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free in browser: all 8 pixel effects, 9 look presets, 2 animation presets, 100+ built-in backgrounds, video export up to 1080p; media processed locally. Watermark removal is a Pro feature (implied).",
+        "paidFrom": "Pro $8/mo (struck-through 15/mo); Pro+ $69 (struck-through $139); billing wording inconsistent on page",
+        "evidence": {
+          "url": "https://ditther.com/#pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary web app · commercial: not confirmed · attribution: n/a · terms page not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://ditther.com/terms.html",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "ditther",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Ditther",
+        "description": "Browser-based editor that turns images and video into dither, halftone, ASCII and pixel-art looks, processed locally, with a free tier.",
+        "tags": [
+          "graphic-design",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "ascii-magic"
+        ],
+        "similarResources": [
+          "ascii-magic"
+        ],
+        "keyFeatures": [
+          "Pixel, dither, halftone and ASCII effects on images and video",
+          "Look and animation presets",
+          "100+ built-in backgrounds",
+          "Free video export up to 1080p",
+          "Media processed locally in the browser, not uploaded"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-16: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://ditther.com",
+          "date": "2026-10-16",
+          "note": "features, plans, operator"
+        }
+      ],
+      "unverified": [
+        "terms page not readable (redirect loop); commercial-use rights of exports unconfirmed",
+        "pricing page inconsistent (Pro monthly vs one-time wording; 500+ vs 700+ backgrounds)",
+        "free-plan watermark only implied",
+        "no safety search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/ditther.md",
+        "lint": "pass"
+      }
+    },
+    "diverse-ui": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Diverse UI",
+        "url": "https://diverseui.com",
+        "alive": true,
+        "operator": "Renee and Yefim (San Francisco)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Free downloadable set of user portrait images; no paid plans mentioned",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://diverseui.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Site terms · commercial: yes (personal or commercial use) · attribution: not required · limit: no redistribution or mirroring, copyright notices must stay",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://diverseui.com/terms",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "diverse-ui",
+        "type": "Stock Media",
+        "category": "Design",
+        "title": "Diverse UI",
+        "description": "Free library of diverse people portraits for UI mockups and prototypes, filterable by size and sex, with a Sketch plugin.",
+        "tags": [
+          "stock-photos",
+          "royalty-free",
+          "ui-ux"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Portrait images of diverse people for UI mockups",
+          "Filters for size and sex",
+          "Downloads for personal or commercial projects",
+          "Sketch plugin"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-16: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Copyright line 2017; recent activity not confirmed; no safety search"
+      },
+      "sources": [
+        {
+          "url": "https://diverseui.com",
+          "date": "2026-10-16",
+          "note": "purpose, operators, filters"
+        },
+        {
+          "url": "https://diverseui.com/terms",
+          "date": "2026-10-16",
+          "note": "general materials license"
+        }
+      ],
+      "unverified": [
+        "terms are generic site terms, not image-specific",
+        "recent activity not confirmed (copyright 2017)",
+        "no safety search",
+        "related slugs not chosen"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/diverse-ui.md",
+        "lint": "pass"
+      }
+    },
+    "divhunt": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "home page fetch failed twice (socket closed); pricing and terms not readable",
+      "site": {
+        "name": "Divhunt",
+        "url": "https://divhunt.com",
+        "alive": false,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://divhunt.com",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://divhunt.com",
+          "date": "2026-10-16",
+          "note": "fetch failed twice: socket closed"
+        }
+      ],
+      "unverified": [
+        "everything; retry later"
+      ],
+      "injectionSeen": null
+    },
+    "doc": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "DOC",
+        "url": "https://www.doc.cc",
+        "alive": true,
+        "operator": "Team behind UX Collective"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Articles readable via Read story links; no paywall or pricing mentioned on the home page",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.doc.cc",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Editorial content, rights reserved presumably · no terms page found",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.doc.cc",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "doc",
+        "type": "Website",
+        "category": "Design",
+        "title": "DOC",
+        "description": "Experimental editorial publication from the UX Collective team, with essays on design craft, meaning, AI and ethics.",
+        "tags": [
+          "inspiration",
+          "ui-ux",
+          "writing"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Long-form design essays",
+          "Run by the UX Collective team",
+          "RSS feed",
+          "Newsletter sign-up"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-16: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Footer shows 2026 copyright; post dates not shown; /rss fetch 404"
+      },
+      "sources": [
+        {
+          "url": "https://www.doc.cc",
+          "date": "2026-10-16",
+          "note": "home page, operator, article list"
+        }
+      ],
+      "unverified": [
+        "post dates / activity",
+        "paywall status of individual articles",
+        "terms/license",
+        "no safety search",
+        "related slugs not chosen"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/doc.md",
+        "lint": "pass"
+      }
+    },
+    "dokie": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Dokie",
+        "url": "https://dokie.ai",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Starter plan $0: 200 credits per day (expire after one day) plus 300 welcome credits on sign-up (expire after one year)",
+        "paidFrom": "$19/month (Plus, 2,000 credits/month)",
+        "evidence": {
+          "url": "https://dokie.ai/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS terms not readable (terms page returned no text) · commercial: unknown · attribution: unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://dokie.ai/terms",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "dokie",
+        "type": "AI Tool",
+        "category": "Productivity",
+        "title": "Dokie",
+        "description": "AI presentation maker that turns a prompt into a polished slide deck, with a free plan that refills with daily credits.",
+        "tags": [
+          "ai-tool",
+          "productivity"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Generates slide decks from a prompt",
+          "Free Starter plan with daily credits plus welcome credits",
+          "Paid tiers add larger monthly credit pools"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no Simple Icons match, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Safety search returned only generic fake-AI-tool malware articles, nothing naming Dokie; operator not identified on pages read"
+      },
+      "sources": [
+        {
+          "url": "https://dokie.ai",
+          "date": "2026-10-16",
+          "note": "home; title 'Best AI Presentation Maker & Slides Generator'"
+        },
+        {
+          "url": "https://dokie.ai/pricing",
+          "date": "2026-10-16",
+          "note": "plans and credits"
+        },
+        {
+          "url": "https://dokie.ai/terms",
+          "date": "2026-10-16",
+          "note": "returned no usable text"
+        }
+      ],
+      "unverified": [
+        "operator/company not stated",
+        "terms of service not readable: commercial use, listing clause",
+        "feature list taken from page title and pricing only",
+        "daily-credit permanence is as stated on pricing page"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/dokie.md",
+        "lint": "pass"
+      }
+    },
+    "doodle-icons": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Doodle Icons",
+        "url": "https://khushmeen.com/icons.html",
+        "alive": true,
+        "operator": "Khushmeen (individual designer)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All 400+ icons free for personal and commercial use; no price shown on page",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://khushmeen.com/icons.html",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "CC0 · commercial: yes · attribution: not required · limit: downloads via external Gumroad/Figma Community links",
+        "openSource": false,
+        "spdx": "CC0-1.0",
+        "evidence": {
+          "url": "https://khushmeen.com/icons.html",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "doodle-icons",
+        "type": "Icon Set",
+        "category": "Design",
+        "title": "Doodle Icons",
+        "description": "400+ hand-drawn doodle-style icons in 15 categories, free under CC0 as PNG, SVG and Figma files.",
+        "tags": [
+          "icon-library",
+          "graphic-design"
+        ],
+        "relatedResources": [
+          "coolicons",
+          "iconmonster"
+        ],
+        "similarResources": [
+          "boxicons"
+        ],
+        "keyFeatures": [
+          "400+ handcrafted icons across 15 categories",
+          "PNG, SVG and Figma formats",
+          "CC0 license, no attribution needed",
+          "Link to a separate animated icon set"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no Simple Icons match, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Personal portfolio site of the designer; no dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://khushmeen.com/icons.html",
+          "date": "2026-10-16",
+          "note": "count, formats, CC0 statement, download links"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "Gumroad download page not read (could show a price or pay-what-you-want)",
+        "icon count is the page claim"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/doodle-icons.md",
+        "lint": "pass"
+      }
+    },
+    "doodle-icons-2": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Oreo Doodle Icons",
+        "url": "https://doodle.oreoui.com",
+        "alive": true,
+        "operator": "Oreo UI"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "152 icons free forever: animated SVG export from the site, npm package, personal and commercial use",
+        "paidFrom": "$39 one-time Pro (struck through from $69; founding price for first 100 buyers)",
+        "evidence": {
+          "url": "https://doodle.oreoui.com/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Terms page not read · commercial: yes per pricing page (Free and Pro) · attribution: unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://doodle.oreoui.com/",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "oreo-doodle-icons",
+        "type": "Icon Set",
+        "category": "Design",
+        "title": "Oreo Doodle Icons",
+        "description": "Hand-drawn animated SVG icons that draw themselves in; 152 free with an npm package, more in a one-time Pro pack.",
+        "tags": [
+          "icon-library",
+          "graphic-design"
+        ],
+        "relatedResources": [
+          "doodle-icons"
+        ],
+        "similarResources": [
+          "coolicons"
+        ],
+        "keyFeatures": [
+          "Hand-drawn icons with draw-in animation",
+          "152 icons free, animated SVG export from the site",
+          "npm package @oreo-design/doodle-icons",
+          "Pro adds React components and 551+ more icons"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no Simple Icons match, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "oreoui.com/doodle-icons redirects (308) to doodle.oreoui.com; no dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://oreoui.com/doodle-icons",
+          "date": "2026-10-16",
+          "note": "308 redirect to doodle.oreoui.com"
+        },
+        {
+          "url": "https://doodle.oreoui.com/",
+          "date": "2026-10-16",
+          "note": "free vs Pro, counts, npm"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "terms/license text not read",
+        "counts include 'coming soon' claims",
+        "free tier permanence beyond 'free forever' wording"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/oreo-doodle-icons.md",
+        "lint": "pass"
+      }
+    },
+    "doodle-ipsum": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Page does not state price or commercial-use terms; it points to the Blush License Agreement, which returned HTTP 403, so license could not be confirmed.",
+      "site": {
+        "name": "Doodle Ipsum",
+        "url": "https://doodleipsum.com",
+        "alive": true,
+        "operator": "Blush Design Inc."
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Directory label Free; page itself does not state cost. URL-based placeholder illustrations in styles Flat, Hand drawn, Outline, Abstract, Avatar",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://doodleipsum.com",
+          "date": "2026-10-16",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "Blush License Agreement (not read) · commercial: unknown · attribution: unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.blush.design/license",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "doodle-ipsum",
+        "type": "Website",
+        "category": "Design",
+        "title": "Doodle Ipsum",
+        "description": "Placeholder illustration generator: pick a style, size and colour, then embed doodles by URL in prototypes and landing pages.",
+        "tags": [
+          "stock-illustrations",
+          "design-templates"
+        ],
+        "relatedResources": [
+          "undraw"
+        ],
+        "similarResources": [
+          "absurd-design"
+        ],
+        "keyFeatures": [
+          "Illustration styles: flat, hand drawn, outline, abstract, avatars",
+          "URL format /[width]x[height]/[category]",
+          "Options for background colour, circle, grayscale, blur"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs not run; not invented"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Made by Blush (blush.design); no dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://doodleipsum.com",
+          "date": "2026-10-16",
+          "note": "description, styles, URL format, Blush credit"
+        },
+        {
+          "url": "https://www.blush.design/license",
+          "date": "2026-10-16",
+          "note": "HTTP 403"
+        }
+      ],
+      "unverified": [
+        "pricing/usage limits not stated on page",
+        "license terms unread (403)",
+        "no safety search"
+      ],
+      "injectionSeen": null
+    },
+    "doodlicons": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "Notion-hosted page returns only the word 'Notion' (JS-rendered); pricing, license and contents unreadable. Not bypassed.",
+      "site": {
+        "name": "Doodlicons",
+        "url": "https://rahulbhadoriya.notion.site/Doodlicons-519314a92ed3474093a10e44946bbb72",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://rahulbhadoriya.notion.site/Doodlicons-519314a92ed3474093a10e44946bbb72",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://rahulbhadoriya.notion.site/Doodlicons-519314a92ed3474093a10e44946bbb72",
+          "date": "2026-10-16",
+          "note": "fetch returned only 'Notion'"
+        }
+      ],
+      "unverified": [
+        "pricing",
+        "license",
+        "icon count and download method",
+        "operator (notion subdomain suggests a person named Rahul Bhadoriya, unconfirmed)",
+        "safety search not run"
+      ],
+      "injectionSeen": null
+    },
+    "doop": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Doop",
+        "url": "https://doop.design",
+        "alive": true,
+        "operator": "Individual maintainer (GitHub user kgoedecke); page names no company"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Site FAQ: free while in beta; the code is open source under AGPL-3.0, so it can be self-hosted at no cost. No paid plan listed by Doop itself.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://doop.design",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "AGPL-3.0 · commercial: not stated on site (AGPL permits it with source-sharing) · attribution: not stated · limit: copyleft network clause",
+        "openSource": true,
+        "spdx": "AGPL-3.0",
+        "evidence": {
+          "url": "https://github.com/kgoedecke/doop",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "doop",
+        "type": "AI Tool",
+        "category": "Design",
+        "title": "Doop",
+        "description": "Open source infinite design canvas where you and AI agents (via MCP) design together, in the browser and as macOS and iOS apps.",
+        "tags": [
+          "ai-tool",
+          "open-source",
+          "whiteboard",
+          "prototyping"
+        ],
+        "relatedResources": [
+          "ai-interaction-atlas"
+        ],
+        "similarResources": [
+          "causal"
+        ],
+        "keyFeatures": [
+          "Infinite multiplayer canvas shared by people and AI agents",
+          "Agents connect over MCP and use your own models and subscriptions",
+          "Runs in the browser, on macOS and on iOS",
+          "Source on GitHub under AGPL-3.0",
+          "Positioned by its repo as an open-source alternative to Paper.design"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No safety search run; 869 GitHub stars, 218 commits"
+      },
+      "sources": [
+        {
+          "url": "https://doop.design",
+          "date": "2026-10-16",
+          "note": "product, beta/free FAQ, MCP"
+        },
+        {
+          "url": "https://github.com/kgoedecke/doop",
+          "date": "2026-10-16",
+          "note": "AGPL-3.0, stars, description"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "free after beta ends unknown (open source regardless)",
+        "last commit date",
+        "operator identity",
+        "commercial-use wording"
+      ],
+      "injectionSeen": "Page has agent onboarding text (add https://doop.design/mcp to Claude Code); product documentation, not acted on.",
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/doop.md",
+        "lint": "pass"
+      }
+    },
+    "dosmos": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Dosmos",
+        "url": "https://dosmos.app",
+        "alive": true,
+        "operator": "Individual maintainer (GitHub user assentorp); page names no company"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Site: free and open source, no account, no subscription; no paid tier listed. User pays for their own AI coding agent.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://dosmos.app",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT · commercial: yes (MIT) · attribution: keep license notice · limit: none beyond MIT terms",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/assentorp/dosmos",
+          "date": "2026-10-16",
+          "confidence": "second-hand"
+        }
+      },
+      "rl": {
+        "slug": "dosmos",
+        "type": "App",
+        "category": "Development",
+        "title": "Dosmos",
+        "description": "Free open source desktop app: click an element in your running site and send its source file and line to Claude Code, Cursor or Codex.",
+        "tags": [
+          "ai-tool",
+          "open-source",
+          "mac",
+          "windows"
+        ],
+        "relatedResources": [
+          "airship-design"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Browser, code editor, terminal and Chrome DevTools in one window",
+          "Point-and-click or area select to give the AI agent visual context",
+          "Smart source matching finds the file and line behind an element",
+          "Multi-edit queue and reference image drag-and-drop",
+          "Design tokens, CSS inspector, grids and responsive testing",
+          "Code, projects and API keys stay on the device; analytics opt-in"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No safety search run; 283 commits, v2.0.0 release"
+      },
+      "sources": [
+        {
+          "url": "https://dosmos.app",
+          "date": "2026-10-16",
+          "note": "pricing, features, platforms, privacy"
+        },
+        {
+          "url": "https://github.com/assentorp/dosmos",
+          "date": "2026-10-16",
+          "note": "MIT license (from repo summary), commits"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "MIT read from GitHub page summary; LICENSE file not opened",
+        "site itself does not name license",
+        "last commit date",
+        "operator identity",
+        "airship-design relation not checked in detail"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/dosmos.md",
+        "lint": "pass"
+      }
+    },
+    "dotforge": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Free web tool in BETA but the site states no pricing, license or operator; free-tier permanence and reuse terms of exports unknown.",
+      "site": {
+        "name": "DotForge",
+        "url": "https://dotforge.vercel.app",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Site shows no paywall or pricing; exports PNG, WebM/MP4 and embed HTML. No pricing statement either way.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://dotforge.vercel.app",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "not stated",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://dotforge.vercel.app",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "dotforge",
+        "type": "Tool",
+        "category": "Design",
+        "title": "DotForge",
+        "description": "Browser-based real-time builder for dithered visuals and animations, with Bayer, halftone and ASCII effects, exportable as PNG, video or embed code.",
+        "tags": [
+          "web",
+          "visual-design",
+          "graphic-design"
+        ],
+        "relatedResources": [
+          "ascii-magic"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Dither effects: Bayer, halftone, blue noise, crosshatch, spiral, ASCII",
+          "Animation controls for speed, intensity, scale and FPS",
+          "Colors, palettes, blend modes and post-processing",
+          "Text input with 3D rotation",
+          "Export PNG, 5-15 s WebM/MP4, or embed HTML"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Vercel-hosted; no safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://dotforge.vercel.app",
+          "date": "2026-10-16",
+          "note": "features, export options, beta label"
+        }
+      ],
+      "unverified": [
+        "pricing",
+        "license/terms",
+        "operator",
+        "safety search",
+        "whether it stays free after beta"
+      ],
+      "injectionSeen": null
+    },
+    "dovetail": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Dovetail",
+        "url": "https://dovetail.com",
+        "alive": true,
+        "operator": "Dovetail Research Pty. Ltd."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan, $0, no card: 1 channel, 1 project, chat and AI summaries limited to a single project; no dashboards or unlimited channels/projects",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://dovetail.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS (Dovetail terms) · commercial: n/a (hosted service) · attribution: n/a · limit: terms bar framing/embedding or mirroring the service; plain linking not prohibited",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://dovetail.com/terms",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "dovetail",
+        "type": "Software",
+        "category": "Business",
+        "title": "Dovetail",
+        "description": "Customer research repository: store interviews and feedback, tag them, and pull searchable insights, with a free plan for one project.",
+        "tags": [
+          "productivity",
+          "collaboration",
+          "ai-tool"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Central repository for interviews, calls and feedback",
+          "Chat and AI summaries across a project's research",
+          "Channels to collect ongoing customer feedback",
+          "Free plan covers 1 project and 1 channel"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "dovetail",
+          "fillColor": "#190041",
+          "bgColor": "#ffffff",
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search 2026-10-16: no acquisition/shutdown reports; 2026 copyright on site"
+      },
+      "sources": [
+        {
+          "url": "https://dovetail.com/pricing",
+          "date": "2026-10-16",
+          "note": "plans and free limits"
+        },
+        {
+          "url": "https://dovetail.com/terms",
+          "date": "2026-10-16",
+          "note": "operator and linking clauses"
+        },
+        {
+          "url": "https://dovetail.com",
+          "date": "2026-10-16",
+          "note": "home"
+        }
+      ],
+      "unverified": [
+        "paid plan names/prices not shown on page (third-party figures conflict)",
+        "free plan permanence inferred from FAQ 'downgrading to Free is available any time'",
+        "Business category chosen by judgement; confirm type/category"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/dovetail.md",
+        "lint": "pass"
+      }
+    },
+    "draftbit": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Draftbit",
+        "url": "https://draftbit.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free ($0, labelled 'Free Forever'): 3,000 one-time credits expiring after a year, 3 projects with 2 apps each, 1 sandbox, 1 agent, 1 editor seat, web publishing to a draftbit.dev address only; no code export, custom domains or iOS/Android publishing",
+        "paidFrom": "Standard $12/month (monthly billing; page structured data says $15, mismatch)",
+        "evidence": {
+          "url": "https://draftbit.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: not read · attribution: n/a · limit: terms not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://draftbit.com/terms",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "draftbit",
+        "type": "Tool",
+        "category": "Development",
+        "title": "Draftbit",
+        "description": "Visual builder for native mobile apps, now with AI agents, with a free plan for 3 projects published on the web.",
+        "tags": [
+          "no-code",
+          "ai-tool",
+          "ios",
+          "android"
+        ],
+        "relatedResources": [
+          "bravo-studio",
+          "adalo"
+        ],
+        "similarResources": [
+          "bravo-studio",
+          "adalo"
+        ],
+        "keyFeatures": [
+          "Visual editor for building native mobile apps",
+          "AI coding agents working in sandboxes",
+          "REST API integration per project",
+          "Free plan: 3 projects, web publishing to a draftbit.dev address"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Not in Simple Icons (check-icon.mjs, 2026-10-16)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search 2026-10-16: no acquisition/shutdown; one uncorroborated 2023 Capterra review alleging fraud; support complaints"
+      },
+      "sources": [
+        {
+          "url": "https://draftbit.com/pricing",
+          "date": "2026-10-16",
+          "note": "plans and free limits"
+        }
+      ],
+      "unverified": [
+        "terms/license page not read",
+        "operator not identified",
+        "free credits are one-time, so 'permanent free' means the plan, not the credits",
+        "third-party claim that product relaunched as AI-agent sandbox not checked on first-party home"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/draftbit.md",
+        "lint": "pass"
+      }
+    },
+    "dragdropship": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Free gallery per FAQ, but operator unnamed, no dates found to prove it is maintained, and page shows untranslated Czech placeholders (possibly incomplete render); owner to decide.",
+      "site": {
+        "name": "Dragdropship",
+        "url": "https://dragdropship.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Browsing gallery free; FAQ says submissions are free",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://dragdropship.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://dragdropship.com",
+          "date": "2026-10-16",
+          "note": "home and FAQ (two fetches)"
+        }
+      ],
+      "unverified": [
+        "operator",
+        "last update / activity dates",
+        "terms page not read",
+        "whether render was incomplete"
+      ],
+      "injectionSeen": null
+    },
+    "drams": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Free Framer components by 1042.Studio with commercial use allowed and a shoutout requested, but no named license, 'Terms' link points to the Imprint, and a Framer-hosted subdomain page; owner to confirm license/listing.",
+      "site": {
+        "name": "Drams",
+        "url": "https://drams.framer.website",
+        "alive": true,
+        "operator": "1042.Studio"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Page says assets may be used for personal or commercial projects with a shoutout; remix via Framer duplicate links",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://drams.framer.website",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No named license · commercial: yes (per page) · attribution: shoutout requested · limit: do not redistribute as your own",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://drams.framer.website",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "drams",
+        "type": "Template",
+        "category": "Design",
+        "title": "Drams",
+        "description": "Free Framer components (dials, switches, sliders, radios) inspired by Dieter Rams, remixable for personal or commercial projects.",
+        "tags": [
+          "design-templates",
+          "inspiration"
+        ],
+        "relatedResources": [
+          "framer"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Rams-inspired interactive Framer components",
+          "Remix links duplicate each asset into a new Framer project",
+          "Commercial use allowed, shoutout requested"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "framer",
+          "fillColor": "#0055FF",
+          "bgColor": "#ffffff",
+          "source": "Simple Icons Framer via check-icon.mjs, 2026-10-16 (platform logo, not Drams' own)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://drams.framer.website",
+          "date": "2026-10-16",
+          "note": "terms, credits, remix links"
+        }
+      ],
+      "unverified": [
+        "no named license",
+        "total component count",
+        "store at 1042.studio/store not read",
+        "no safety search"
+      ],
+      "injectionSeen": null
+    },
+    "draw-io": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Draw.io",
+        "url": "https://www.drawio.com",
+        "alive": true,
+        "operator": "draw.io Ltd / draw.io AG"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Home page states 'Free forever', no sign-up required, no paywalls, no enterprise tier",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.drawio.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Apache-2.0 source code · commercial: yes (per Apache-2.0) · attribution: notices kept per licence · limit: applies to source code; hosted app terms not read",
+        "openSource": true,
+        "spdx": "Apache-2.0",
+        "evidence": {
+          "url": "https://www.drawio.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "draw-io",
+        "type": "Tool",
+        "category": "Productivity",
+        "title": "Draw.io",
+        "description": "Free, open-source diagramming tool for flowcharts and diagrams in the browser or desktop app, saving to Google, Microsoft, GitHub and more.",
+        "tags": [
+          "open-source",
+          "productivity",
+          "collaboration"
+        ],
+        "relatedResources": [
+          "tldraw",
+          "creately"
+        ],
+        "similarResources": [
+          "tldraw",
+          "creately"
+        ],
+        "keyFeatures": [
+          "Create flowcharts and diagrams in the browser with no sign-up",
+          "Desktop app for saving files locally",
+          "Integrations with Google, Microsoft, Atlassian, GitHub, VS Code and Notion",
+          "Embed interactive diagrams in docs and wikis",
+          "Apache 2.0 licensed source code on GitHub"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "diagramsdotnet",
+          "fillColor": "#F08705",
+          "bgColor": "#ffffff",
+          "source": "Simple Icons via scripts/check-icon.mjs (diagrams.net), 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated scam/shutdown search run; site current (2026 copyright)"
+      },
+      "sources": [
+        {
+          "url": "https://www.drawio.com",
+          "date": "2026-10-16",
+          "note": "free forever, Apache 2.0, integrations, desktop app, operator"
+        }
+      ],
+      "unverified": [
+        "no safety search run",
+        "hosted-app terms of service not read",
+        "Simple Icons entry is named diagrams.net (same product)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/draw-io.md",
+        "lint": "pass"
+      }
+    },
+    "drawkit": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Free tier is a Basic plan (no account) covering only free-tagged packs; license forbids redistribution, AI training and use in templates. Owner to confirm listing; no icon.",
+      "site": {
+        "name": "DrawKit",
+        "url": "https://www.drawkit.com",
+        "alive": true,
+        "operator": "DesignStripe"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Basic plan free, no account required; download free-tagged packs, favorites list",
+        "paidFrom": "Pro $79/year; Pro Lifetime $295",
+        "evidence": {
+          "url": "https://www.drawkit.com/plans",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "DrawKit license · commercial: yes · attribution: not required · limit: no resale/redistribution, no AI training, no use in stock sites or design templates, no merchandise",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.drawkit.com/license",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "drawkit",
+        "type": "Stock Media",
+        "category": "Design",
+        "title": "DrawKit",
+        "description": "Hand-drawn 2D and 3D illustrations, icons and animations; a set of free packs is downloadable without an account, with a Pro tier for the rest.",
+        "tags": [
+          "stock-illustrations",
+          "stock-vectors",
+          "graphic-design"
+        ],
+        "relatedResources": [
+          "undraw",
+          "absurd-design"
+        ],
+        "similarResources": [
+          "undraw",
+          "absurd-design"
+        ],
+        "keyFeatures": [
+          "Free-tagged illustration packs downloadable without an account",
+          "2D and 3D illustrations, icons and animations",
+          "Editable vector packs",
+          "Pro plan unlocks the full library"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons: no match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated scam search; site current"
+      },
+      "sources": [
+        {
+          "url": "https://www.drawkit.com",
+          "date": "2026-10-16",
+          "note": "free vs Pro packs"
+        },
+        {
+          "url": "https://www.drawkit.com/plans",
+          "date": "2026-10-16",
+          "note": "prices"
+        },
+        {
+          "url": "https://www.drawkit.com/license",
+          "date": "2026-10-16",
+          "note": "license"
+        }
+      ],
+      "unverified": [
+        "no safety search run",
+        "home page truncated; free pack count unknown",
+        "Product Hunt badge alt text says MIT SVG, not confirmed"
+      ],
+      "injectionSeen": null
+    },
+    "drawww": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "drawww.app home now shows a differently branded app (DRO, drawing learning); no first-party Drawww pricing readable. Third parties conflict (free basic vs $49.99 pro).",
+      "site": {
+        "name": "Drawww",
+        "url": "https://www.drawww.app",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.drawww.app",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": "unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.drawww.app",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Domain content differs from the described app (rebrand or repurposed); search found creativebloq/Product Hunt coverage of Drawww iPad app, Dec 2023"
+      },
+      "sources": [
+        {
+          "url": "https://www.drawww.app",
+          "date": "2026-10-16",
+          "note": "shows DRO app, no Drawww mention"
+        },
+        {
+          "url": "https://www.creativebloq.com/news/drawww-ipad-app",
+          "date": "2026-10-16",
+          "note": "search result only, not fetched"
+        }
+      ],
+      "unverified": [
+        "pricing and free tier",
+        "whether DRO is a rebrand",
+        "operator",
+        "license/terms"
+      ],
+      "injectionSeen": null
+    },
+    "dreamcut": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "Home and /pricing return only a title (JS-rendered); pricing, free tier and terms unreadable. Not bypassed.",
+      "site": {
+        "name": "DreamCut",
+        "url": "https://dreamcut.ai",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://dreamcut.ai/pricing",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": "unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://dreamcut.ai",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "not searched"
+      },
+      "sources": [
+        {
+          "url": "https://dreamcut.ai",
+          "date": "2026-10-16",
+          "note": "title only"
+        },
+        {
+          "url": "https://dreamcut.ai/pricing",
+          "date": "2026-10-16",
+          "note": "title only"
+        }
+      ],
+      "unverified": [
+        "pricing",
+        "free tier and watermark",
+        "terms",
+        "operator"
+      ],
+      "injectionSeen": null
+    },
+    "dreamflow": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "$0 Free plan is permanent but AI credits are a one-time 10-credit starter, so core use is trial-like; no store deploy or code export on free. Owner to decide if it counts as free. Terms are hosted by FlutterFlow and not read.",
+      "site": {
+        "name": "Dreamflow",
+        "url": "https://dreamflow.app",
+        "alive": true,
+        "operator": "FlutterFlow team (legal entity not named on page; Terms/Privacy hosted on flutterflow.io)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free $0/month: private projects with visual and code editing, managed Firebase/Supabase integrations, 1-click web deployment, AI-assisted development with 10 credits (one-time starter)",
+        "paidFrom": "Hobby $20/month (100 credits/mo)",
+        "evidence": {
+          "url": "https://dreamflow.app/#pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS; terms at flutterflow.io/tos (not read) · commercial: unknown · attribution: unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.flutterflow.io/tos",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Page says it is from the FlutterFlow team; no dedicated scam search run. Third-party sites confirm the same plan figures."
+      },
+      "sources": [
+        {
+          "url": "https://dreamflow.app",
+          "date": "2026-10-16",
+          "note": "home and pricing section: plans, free tier, links"
+        },
+        {
+          "url": "https://vp0.com/blogs/dreamflow-pricing-2026-explained",
+          "date": "2026-10-16",
+          "note": "second-hand confirmation of Free/10 credits (search snippet)"
+        }
+      ],
+      "unverified": [
+        "ToS not read (commercial use, listing)",
+        "legal operator not named",
+        "no dedicated safety search",
+        "whether the 10 free credits ever renew"
+      ],
+      "injectionSeen": null
+    },
+    "dreamina": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "FAQ says free daily credits exist but no amounts or permanence stated on readable pages; pricing page gave no numbers. CapCut terms review needed.",
+      "site": {
+        "name": "Dreamina",
+        "url": "https://dreamina.capcut.com",
+        "alive": true,
+        "operator": "CapCut (inferred from Terms/Privacy links on capcut.com; not confirmed)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "FAQ: 'Dreamina provides free daily credits for generating images and videos.' Amount not stated.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://dreamina.capcut.com/pricing/dreamina-price",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary; Dreamina Terms of Service on capcut.com (not read) · commercial: unknown · attribution: unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.capcut.com/clause/dreamina-terms-of-service?region=US&lang=en",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search run."
+      },
+      "sources": [
+        {
+          "url": "https://dreamina.capcut.com",
+          "date": "2026-10-16",
+          "note": "home: product description and FAQ on free daily credits"
+        },
+        {
+          "url": "https://dreamina.capcut.com/pricing/dreamina-price",
+          "date": "2026-10-16",
+          "note": "pricing page: only says a free option with available credits"
+        }
+      ],
+      "unverified": [
+        "daily credit amount",
+        "paid prices",
+        "terms and commercial use of outputs",
+        "operator confirmation",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null
+    },
+    "dreamstime": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "Home page returned HTTP 403 Forbidden to fetch (bot protection); not bypassed. Second-hand sources suggest a daily-renewing free collection (RF-LL license) and a $4.99 unlimited plan, unconfirmed first-party; retry later or owner check.",
+      "site": {
+        "name": "Dreamstime",
+        "url": "https://www.dreamstime.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Unconfirmed: second-hand reports a free collection (~3.2M files in 2022) under a limited royalty-free license",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.businesswire.com/news/home/20221101005733/en/Dreamstime-Adds-Unlimited-Freemium-Plan-and-Contributor-Sponsorship-Feature.",
+          "date": "2026-10-16",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "Unconfirmed: Limited Royalty-Free (RF-LL) for free files per 2022 press release; attribution requirement disputed by third-party guides",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.dreamstime.com",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Well-known stock agency; site fetch returned 403."
+      },
+      "sources": [
+        {
+          "url": "https://www.dreamstime.com",
+          "date": "2026-10-16",
+          "note": "fetch returned 403"
+        },
+        {
+          "url": "https://www.businesswire.com/news/home/20221101005733/en/Dreamstime-Adds-Unlimited-Freemium-Plan-and-Contributor-Sponsorship-Feature.",
+          "date": "2026-10-16",
+          "note": "search snippet: free collection and license, 2022"
+        }
+      ],
+      "unverified": [
+        "everything first-party: free tier, license, attribution, pricing, operator"
+      ],
+      "injectionSeen": null
+    },
+    "dribbble-animation": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Duplicate: Dribbble (https://dribbble.com/) is already published in RL; this is only the popular/animation listing page of the same site. Page fetch returned empty. Dribbble terms s7.1 also prohibit copying site content.",
+      "site": {
+        "name": "Dribbble Animation",
+        "url": "https://dribbble.com/shots/popular/animation",
+        "alive": true,
+        "operator": "Dribbble Holdings Ltd."
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://dribbble.com/shots/popular/animation",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://dribbble.com/terms",
+          "date": "2026-10-16",
+          "note": "operator and scraping/content clauses"
+        },
+        {
+          "url": "rl-index --find dribbble",
+          "date": "2026-10-16",
+          "note": "existing published resource dribbble"
+        }
+      ],
+      "unverified": [
+        "page content not readable via fetch",
+        "free browsing without login"
+      ],
+      "injectionSeen": null
+    },
+    "dribbble-job-board": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list-sibling",
+      "verdictReason": "Section of Dribbble (already published as 'dribbble'); jobs page is a distinct job board with its own URL.",
+      "site": {
+        "name": "Dribbble Job Board",
+        "url": "https://dribbble.com/jobs",
+        "alive": true,
+        "operator": "Dribbble"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Listings browsable without sign-in; page states no explicit price for browsing",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://dribbble.com/jobs",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Terms not read · commercial: unknown · attribution: unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://dribbble.com/jobs",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "dribbble-job-board",
+        "type": "Website",
+        "category": "Design",
+        "title": "Dribbble Job Board",
+        "description": "Dribbble's job board for graphic and design roles, with featured listings from Hiring Suite subscribers and a post-a-job option for employers.",
+        "tags": [
+          "graphic-design",
+          "web"
+        ],
+        "relatedResources": [
+          "dribbble",
+          "behance"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Design job listings from Dribbble's job board",
+          "Featured listings from Hiring Suite subscribers",
+          "Post a full-time job option for employers",
+          "Help article on how hiring works"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "dribbble",
+          "fillColor": "#EA4C89",
+          "bgColor": "#ffffff",
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Official Dribbble page; no dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://dribbble.com/jobs",
+          "date": "2026-10-16",
+          "note": "tagline, post-a-job and Hiring Suite wording"
+        },
+        {
+          "url": "scripts/rl-index.mjs --find dribbble",
+          "date": "2026-10-16",
+          "note": "existing 'dribbble' Website entry"
+        }
+      ],
+      "unverified": [
+        "pricing for employers",
+        "whether job-seeker access is permanently free",
+        "terms",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/dribbble-job-board.md",
+        "lint": "pass"
+      }
+    },
+    "drr": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Free per FAQ, but no operator named and no terms page (only Privacy Policy); fit/category (sustainability challenge community) unclear.",
+      "site": {
+        "name": "Drr.",
+        "url": "https://drawerrr.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "FAQ: \"Yes, participation is completely free.\"",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://drawerrr.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No terms or license page found; only a Privacy Policy link",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://drawerrr.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "drr",
+        "type": "Website",
+        "category": "Business",
+        "title": "Drr.",
+        "description": "Community platform where emerging talent and professionals team up on real-world sustainability challenges aligned with UN and USAID Sustainable Development Goals.",
+        "tags": [
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Team-based real-world challenges",
+          "Challenges tied to social, environmental and governance themes",
+          "Aligned with UN and USAID Sustainable Development Goals",
+          "Pairs emerging talent with experienced professionals"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no icon source found"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search; operator unnamed"
+      },
+      "sources": [
+        {
+          "url": "https://drawerrr.com",
+          "date": "2026-10-16",
+          "note": "mission, free FAQ, footer links"
+        }
+      ],
+      "unverified": [
+        "operator",
+        "terms of use",
+        "fit for RL (design-focused directory)",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null
+    },
+    "dss-dead-simple-sites": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Dead Simple Sites",
+        "url": "https://deadsimplesites.com",
+        "alive": true,
+        "operator": "Arcade Labs"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Gallery browsable without sign-in or paywall; no prices shown",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://deadsimplesites.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Curated gallery · site states 'All content © original owners' · linked sites belong to their owners",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://deadsimplesites.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "dss-dead-simple-sites",
+        "type": "Website",
+        "category": "Design",
+        "title": "Dead Simple Sites",
+        "description": "Weekly-updated gallery of minimal website designs, curated by Arcade Labs, with visit links and a submit option.",
+        "tags": [
+          "inspiration",
+          "web",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "awwwards",
+          "designspiration"
+        ],
+        "similarResources": [
+          "awwwards"
+        ],
+        "keyFeatures": [
+          "Curated gallery of minimal websites",
+          "Updated weekly",
+          "Direct visit links to each site",
+          "Submit button for suggesting sites"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no icon sourced"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://deadsimplesites.com",
+          "date": "2026-10-16",
+          "note": "description, operator, copyright line, submit button"
+        },
+        {
+          "url": "https://deadsimplesites.com/about",
+          "date": "2026-10-16",
+          "note": "404"
+        }
+      ],
+      "unverified": [
+        "submission rules",
+        "price of DSS Template 01 on Gumroad (separate paid add-on)",
+        "no dedicated safety search",
+        "icon"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/dss-dead-simple-sites.md",
+        "lint": "pass"
+      }
+    },
+    "dualite": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Starter plan is $0 but limited to 5 messages with no stated period; terms mention waitlist access and fees, so permanence of the free tier is unclear.",
+      "site": {
+        "name": "Dualite",
+        "url": "https://dualite.dev",
+        "alive": true,
+        "operator": "Dualite Technology Private Limited (India)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Starter $0/month: 5 messages, web and mobile app building, AI code generation, auth, code download, templates, backend database",
+        "paidFrom": "Pro $29/month (200 messages); Launch $79/month (unlimited); Enterprise custom",
+        "evidence": {
+          "url": "https://dualite.dev/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS terms · commercial: not stated · attribution: not stated · fees at Dualite's discretion; access via waitlist per terms",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://dualite.dev/legal/terms-of-use",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "dualite",
+        "type": "AI Tool",
+        "category": "Development",
+        "title": "Dualite",
+        "description": "No-code AI builder for web and mobile apps, AI agents and dashboards, with code download, a backend database and optional expert-guided builds.",
+        "tags": [
+          "ai-tool",
+          "no-code",
+          "website-builder"
+        ],
+        "relatedResources": [
+          "lovable",
+          "bolt"
+        ],
+        "similarResources": [
+          "lovable",
+          "bolt",
+          "base44"
+        ],
+        "keyFeatures": [
+          "Build web and mobile apps from prompts",
+          "AI agents and dashboards",
+          "Authentication and backend database included",
+          "Code download and GitHub import",
+          "Expert-guided builds from prototype to product"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not found in Simple Icons, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search; Studio Maydit link in nav, relation unconfirmed"
+      },
+      "sources": [
+        {
+          "url": "https://dualite.dev",
+          "date": "2026-10-16",
+          "note": "product description"
+        },
+        {
+          "url": "https://dualite.dev/pricing",
+          "date": "2026-10-16",
+          "note": "plans"
+        },
+        {
+          "url": "https://dualite.dev/legal/terms-of-use",
+          "date": "2026-10-16",
+          "note": "operator, fees, waitlist"
+        }
+      ],
+      "unverified": [
+        "period of the 5-message limit",
+        "whether Starter is permanent",
+        "Studio Maydit relation",
+        "no dedicated safety search",
+        "terms may describe an older 'Dualite Alpha' product"
+      ],
+      "injectionSeen": null
     }
   }
 }

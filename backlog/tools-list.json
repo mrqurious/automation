@@ -12407,7 +12407,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "dembrandt",
       "priority": "P2",
       "hasResearch": true
     },
@@ -12568,7 +12568,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "design-beyond-barriers",
       "priority": "P2",
       "hasResearch": true
     },
@@ -12594,7 +12594,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "design-buddies",
       "priority": "P2",
       "hasResearch": true
     },
@@ -12724,7 +12724,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "design-events-guide",
       "priority": "P2",
       "hasResearch": true
     },
@@ -12776,7 +12776,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "design-gradients",
       "priority": "P2",
       "hasResearch": true
     },
@@ -12828,7 +12828,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "design-jobs",
       "priority": "P2",
       "hasResearch": true
     },
@@ -12880,7 +12880,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "design-milk",
       "priority": "P2",
       "hasResearch": true
     },
@@ -12906,7 +12906,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "design-observer",
       "priority": "P2",
       "hasResearch": true
     },
@@ -12932,7 +12932,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "design-principles",
       "priority": "P2",
       "hasResearch": true
     },
@@ -12958,7 +12958,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "design-seeds",
       "priority": "P2",
       "hasResearch": true
     },
@@ -12984,7 +12984,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "design-spells",
       "priority": "P2",
       "hasResearch": true
     },
@@ -13036,7 +13036,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "designsystems-com",
       "priority": "P2",
       "hasResearch": true
     },
@@ -13192,7 +13192,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "designeer",
       "priority": "P2",
       "hasResearch": true
     },
@@ -13218,7 +13218,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "designer-founders",
       "priority": "P2",
       "hasResearch": true
     },
@@ -13244,7 +13244,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "designer-slack-communities",
       "priority": "P2",
       "hasResearch": true
     },
@@ -13357,7 +13357,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "designing-atlassian",
       "priority": "P2",
       "hasResearch": true
     },
@@ -13435,7 +13435,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "designspiration",
       "priority": "P2",
       "hasResearch": true
     },
@@ -13565,7 +13565,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "detail",
       "priority": "P2",
       "hasResearch": true
     },
@@ -13614,12 +13614,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Free Starter plan exists but only browse/preview of recent items with no stated limits or permanence; most library is paid (Pro $9/mo, Max $19/mo); Terms not read.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "detailspro",
@@ -13640,12 +13640,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Site shows no pricing or free plan, only 'one universal subscription' and App Store link; free tier existence unconfirmed (App Store listing not fetched).",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "devally",
@@ -13666,12 +13666,12 @@
           "file": "Best Color Tools and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "devhub",
@@ -13694,12 +13694,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Thin product-launch directory (devhub.best, built by DirEasy); free browsing and 'Submit For Free' shown but no operator, pricing page or terms read; paid Outbid placements; value for RL unclear.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "device-shots",
@@ -13720,12 +13720,12 @@
           "file": "Best Mockup Sites for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "dext",
@@ -13748,12 +13748,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Trial-only: 14-day free trial, no permanent free plan on dext.com; paid accounting-automation product",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "dezeen",
@@ -13774,12 +13774,12 @@
           "file": "Best Design Blogs & Magazines for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "dezeen-events-guide",
@@ -13800,12 +13800,12 @@
           "file": "Best Design Communities for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Events guide URL returned HTTP 403 to fetch; content not readable (not bypassed). A section of Dezeen, so consider as sibling of dezeen; owner also to check overlap with existing design-events-guide",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "dieline",
@@ -13826,12 +13826,12 @@
           "file": "Best Design Blogs & Magazines for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Packaging-design news publication and supplier directory, not a tool; articles appear readable without paywall but Subscribe/membership exists with no prices read, and Terms page (thedieline.com/terms/) not read.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "diez",
@@ -13852,12 +13852,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Free/open-source design-token toolkit, but license is unnamed on the site (directory says 'other'; LICENSE.md not read) and the project looks inactive (last push Dec 2022, npm 10.6.0 about 5 years old, listed under legacy/inactive in an awesome list).",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "digg",
@@ -13880,12 +13880,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "digg.now is not open to the public yet (waitlist; 'Digg opens to the public soon'), no pricing or free tier published, no terms; directory 'Free tier listed' unconfirmed.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "dina",
@@ -14010,12 +14010,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "ditther",
@@ -14036,12 +14036,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "ditto",
@@ -14088,12 +14088,12 @@
           "file": "Free Stock Images & Video Websites _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "divhunt",
@@ -14114,12 +14114,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "home page fetch failed twice (socket closed); pricing and terms not readable",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "doc",
@@ -14140,12 +14140,12 @@
           "file": "Best Design Blogs & Magazines for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "dokie",
@@ -14166,12 +14166,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "domestika",
@@ -14216,12 +14216,12 @@
           "file": "Best Free Open Source Icon Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "beta",
       "rlSlug": null,
       "priority": "P3",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "doodle-icons-2",
@@ -14242,12 +14242,12 @@
           "file": "Best Free Open Source Icon Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "doodle-ipsum",
@@ -14268,12 +14268,12 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Page does not state price or commercial-use terms; it points to the Blush License Agreement, which returned HTTP 403, so license could not be confirmed.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "doodlicons",
@@ -14292,12 +14292,12 @@
           "file": "Best Free Open Source Icon Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Notion-hosted page returns only the word 'Notion' (JS-rendered); pricing, license and contents unreadable. Not bypassed.",
       "pricingBucket": "beta",
       "rlSlug": null,
       "priority": "P3",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "doop",
@@ -14318,12 +14318,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "beta",
       "rlSlug": null,
       "priority": "P3",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "dorik",
@@ -14375,12 +14375,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "dotforge",
@@ -14401,12 +14401,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Free web tool in BETA but the site states no pricing, license or operator; free-tier permanence and reuse terms of exports unknown.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "dovetail",
@@ -14427,12 +14427,12 @@
           "file": "Best UX Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "draftbit",
@@ -14453,12 +14453,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "dragdropship",
@@ -14479,12 +14479,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Free gallery per FAQ, but operator unnamed, no dates found to prove it is maintained, and page shows untranslated Czech placeholders (possibly incomplete render); owner to decide.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "drama",
@@ -14531,12 +14531,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Free Framer components by 1042.Studio with commercial use allowed and a shoutout requested, but no named license, 'Terms' link points to the Imprint, and a Framer-hosted subdomain page; owner to confirm license/listing.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "draw-io",
@@ -14557,12 +14557,12 @@
           "file": "Best UX Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "drawkit",
@@ -14583,12 +14583,12 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Free tier is a Basic plan (no account) covering only free-tagged packs; license forbids redistribution, AI training and use in templates. Owner to confirm listing; no icon.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "drawww",
@@ -14609,12 +14609,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "drawww.app home now shows a differently branded app (DRO, drawing learning); no first-party Drawww pricing readable. Third parties conflict (free basic vs $49.99 pro).",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "dreamcut",
@@ -14635,12 +14635,12 @@
           "file": "Productivity Tools for Design and Product Teams.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Home and /pricing return only a title (JS-rendered); pricing, free tier and terms unreadable. Not bypassed.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "dreamflow",
@@ -14661,12 +14661,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "$0 Free plan is permanent but AI credits are a one-time 10-credit starter, so core use is trial-like; no store deploy or code export on free. Owner to decide if it counts as free. Terms are hosted by FlutterFlow and not read.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "dreamina",
@@ -14687,12 +14687,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "FAQ says free daily credits exist but no amounts or permanence stated on readable pages; pricing page gave no numbers. CapCut terms review needed.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "dreamstime",
@@ -14713,12 +14713,12 @@
           "file": "Free Stock Images & Video Websites _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Home page returned HTTP 403 Forbidden to fetch (bot protection); not bypassed. Second-hand sources suggest a daily-renewing free collection (RF-LL license) and a $4.99 unlimited plan, unconfirmed first-party; retry later or owner check.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "dribbble",
@@ -14772,12 +14772,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Duplicate: Dribbble (https://dribbble.com/) is already published in RL; this is only the popular/animation listing page of the same site. Page fetch returned empty. Dribbble terms s7.1 also prohibit copying site content.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "dribbble-job-board",
@@ -14798,12 +14798,12 @@
           "file": "Best Design Communities for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "drafted",
+      "notes": "Section of Dribbble (already published as 'dribbble'); jobs page is a distinct job board with its own URL.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "drr",
@@ -14824,12 +14824,12 @@
           "file": "Best Design Communities for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Free per FAQ, but no operator named and no terms page (only Privacy Policy); fit/category (sustainability challenge community) unclear.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "dss-dead-simple-sites",
@@ -14850,12 +14850,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "dualite",
@@ -14876,12 +14876,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Starter plan is $0 but limited to 5 messages with no stated period; terms mention waitlist access and fees, so permanence of the free tier is unclear.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "dub",
@@ -59927,16 +59927,16 @@
     "byStatus": {
       "deferred-trial": 232,
       "deferred-paid": 217,
-      "blocked": 178,
-      "drafted": 163,
-      "rejected": 71,
+      "blocked": 198,
+      "drafted": 181,
+      "rejected": 74,
       "in-rl": 33,
-      "researched": 18,
-      "todo": 1367
+      "researched": 17,
+      "todo": 1327
     },
     "todoByPriority": {
-      "P2": 1288,
-      "P3": 78,
+      "P2": 1251,
+      "P3": 75,
       "P1": 1
     }
   }
