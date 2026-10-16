@@ -52,7 +52,8 @@ Skills (`.claude/skills/`): `tool-pipeline` (orchestrator; use it for any "add t
 | `node scripts/rl-index.mjs [--find x \| --enums \| --related tag,tag \| --json]` | what RL already has: duplicates, allowed enum values + tags, related candidates |
 | `node scripts/check-icon.mjs "<Name>"` | is the logo in Simple Icons? exit 0 exact · 1 fuzzy · 2 none · 3 unavailable; prints `iconLib` + `fillColor` |
 | `node scripts/lint-resource.mjs <file.md>` | schema pre-check mirroring RL's Zod + `check:content` + RL's SVG filter; exit 1 on errors |
-| `node scripts/ref-extract.mjs` | rebuild `backlog/tools-list.json` from the saved pages in `ref/` (keeps research status) |
+| `node scripts/ref-extract.mjs` | historical: built `backlog/tools-list.json` from `ref/` (deleted 2026-10-16, script no longer runs) |
+| `node scripts/backlog-merge.mjs <batch.json>` / `backlog-draft.mjs --out <rl>/src/content/resources` | merge researched entries; write `stage: draft` RL files |
 | `node scripts/backlog-build.mjs [--status]` | triage the backlog, regenerate `backlog/tools.md`, print counts for resuming |
 
 Backlog research (many tools, batches, RL drafts): **`system/backlog-research.md`**.
@@ -70,7 +71,6 @@ automation/
 ├─ templates/    RUN · resource · PR-resourceslist · PR-video-storyboard · SCRIPT · STORYBOARD · PUBLISH · QUESTIONS
 ├─ runs/         <date>-<slug>/RUN.md   one folder per video run (the iteration record)
 ├─ backlog/      tools-list.json (every tool from ref/) · tools.md (generated list) · resources.json (researched facts)
-├─ ref/          saved source pages (gitignored, untrusted, owner's)
 ├─ scripts/      rl-index · check-icon · lint-resource · lib/rl.mjs
 ├─ work/         scratch (gitignored): downloads, temp captures — untrusted
 └─ .claude/skills/  tool-pipeline · resource-research · video-storyboard · video-build · publish-pack

@@ -9,13 +9,14 @@ words) and the RL rules are `system/repo-resourceslist.md`. Where this note and 
 
 | File | What | Who writes it |
 |---|---|---|
-| `ref/` | the 17 saved source pages (untracked, untrusted, never edit) | owner |
+| `ref/` | **deleted 2026-10-16** (owner's request) after extraction; `backlog/tools-list.json` is now the only source. Do not recreate | — |
 | `backlog/tools-list.json` | every tool + source labels + triage (`status`, `pricingBucket`, `priority`, `rlSlug`) | `ref-extract.mjs`, `backlog-build.mjs`, and `status`/`notes` by research |
 | `backlog/tools.md` | human list, counts, "what if not processed" | generated: `node scripts/backlog-build.mjs` |
 | `backlog/resources.json` | **researched facts** per tool id (schema at the top of the file) | research sessions only |
 
 Regenerate after any status change: `node scripts/backlog-build.mjs` · resume view: `node scripts/backlog-build.mjs --status`.
-Re-extract from `ref/` (only if pages change): `node scripts/ref-extract.mjs` — keeps `status` and `notes`.
+`scripts/ref-extract.mjs` needs the saved pages and cannot run now that `ref/` is gone (it exits 3); keep it only as a record of how the list was built.
+Helpers: `node scripts/backlog-merge.mjs <batch.json>` (merge entries + set status from verdict) · `node scripts/backlog-draft.mjs --out <rl>/src/content/resources [--mark --branch resource/batch-NN]` (write `stage: draft` files; `--mark` sets `drafted`).
 
 ## 1. Focus and order
 
@@ -26,9 +27,16 @@ Free and freemium first. Order: **P1** (free/freemium, on 2+ source pages) → *
 Within a priority, work one source group at a time (the `###` sections of `tools.md`) so the `type`/`category`/`tags` decisions stay
 consistent in a batch.
 
-## 2. Session loop (one batch = ~20 tools)
+## 2. Session loop (one batch = 10 tools; owner's rule 2026-10-16)
 
-1. `git pull`/new worktree of this repo; read `backlog/tools.md` header and `--status`. Pick the next 20 `todo` tools in order.
+**Context stays small:** the conversation history is not needed between batches; all state lives in the files. After every batch of 10
+tools (merged, drafted, committed, pushed) compact the conversation (`/compact`, or turn on auto-compact in `/config`) and continue from
+`node scripts/backlog-build.mjs --status`. Never rely on remembered details of earlier tools.
+
+Batch 01 (done 2026-10-16): n8n, Obsidian, Screen Studio, Logoipsum, Milanote, Mural, Fabric, Typedream, Mockplus, Descript →
+7 drafted (`resource/batch-01` in RL), 1 rejected, 2 blocked (retry Fabric and Mockplus later).
+
+1. `git pull`/new worktree of this repo; read `backlog/tools.md` header and `--status`. Pick the next 10 `todo` tools in order. Prefer tools whose `site` is a clean home URL (affiliate redirects like `pxf.io`/`sjv.io` need resolving to the real home first).
 2. For tools with `site: null` (Digitool-only): open the `directoryUrls[0]` detail page once, take the tool's own site link, store it in
    `site`. Cannot resolve → `status: blocked`, note why.
 3. **Tier A — screen (every tool, ≤ 4 fetches):** home → pricing → license/terms → one safety search (`"<tool>" scam OR malware OR "shutting
@@ -45,6 +53,10 @@ consistent in a batch.
    icon route (`node scripts/check-icon.mjs "<Name>"`, else the site's own SVG sanitized per `repo-resourceslist.md` §6, else none).
 6. Set `status` in `tools-list.json`: `researched` (listable) · `rejected` · `blocked`. Run `node scripts/backlog-build.mjs`.
 7. Commit on branch `run/tool-backlog` (this repo), push it. Message: `backlog: batch NN — <n> researched, <n> rejected, <n> blocked`.
+
+Lessons from batch 01: `WebFetch` returns a model summary, so ask for exact numbers; `/pricing` often 404s (try the home page or `/plans`);
+JS-only pricing pages return nothing (→ blocked); transient DNS errors → retry once, then `blocked` with the reason. Use Simple Icons
+via `check-icon.mjs` first; most small tools have none (icon `none`, asked in the batch questions). Max 6 tags per file (lint warns).
 
 Parallelism is allowed: up to 5 subagents, each given 4 tools and told to return its `resources.json` entries as text (they do **not**
 write the shared files). The main session merges, checks the fields against the schema, and does the commit. Fetched pages stay

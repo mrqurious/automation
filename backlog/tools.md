@@ -10,13 +10,13 @@ Generated 2026-10-16 by `scripts/backlog-build.mjs` from `backlog/tools-list.jso
 
 | Status | Count | Meaning |
 |---|---:|---|
-| `todo` | 1797 | in the research queue (free / freemium / beta) |
+| `todo` | 1787 | in the research queue (free / freemium / beta) |
 | `in-rl` | 33 | already in ResourcesList (matched by site or slug) — skip, maybe use for related/similar links |
 | `deferred-paid` | 217 | labelled **Paid** only — parked |
 | `deferred-trial` | 232 | labelled **Free Trial** only — parked until a real free tier is confirmed |
-| `researching` / `researched` / `drafted` / `rejected` / `blocked` | 0 / 0 / 0 / 0 / 0 | set by research sessions |
+| `researching` / `researched` / `drafted` / `rejected` / `blocked` | 0 / 0 / 7 / 1 / 2 | set by research sessions |
 
-Queue by priority: **P1** 39 (free/freemium, listed on 2+ pages) · **P2** 1667 (free/freemium, 1 page) · **P3** 91 (beta).
+Queue by priority: **P1** 29 (free/freemium, listed on 2+ pages) · **P2** 1667 (free/freemium, 1 page) · **P3** 91 (beta).
 
 ## What happens if a tool is not processed (and why)
 
@@ -32,22 +32,35 @@ Queue by priority: **P1** 39 (free/freemium, listed on 2+ pages) · **P2** 1667 
 
 Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow and the tool-to-video pipeline has no pre-vetted candidates; the owner has to pick tools one by one.
 
-## Research queue (1797)
+## In progress / finished
 
-### Best AI Design Tools for Designers (218)
+| Tool | Site | Pricing label | Pages | Pri | Status |
+|---|---|---|---:|---|---|
+| Descript | get.descript.com | Freemium | 2 | P1 | drafted |
+| Fabric | fabric.so | Freemium | 2 | P1 | blocked |
+| Logoipsum | logoipsum.com | Free / Free tier listed | 2 | P1 | drafted |
+| Milanote | milanote.com | Freemium | 2 | P1 | drafted |
+| Mockplus | mockplus.com | Freemium | 2 | P1 | blocked |
+| Mural | mural.co | Freemium | 2 | P1 | drafted |
+| n8n | n8n.io | Paid / Free tier listed | 2 | P1 | drafted |
+| Obsidian Canvas | obsidian.md | Free + Paid | 2 | P1 | drafted |
+| Screen Studio | screen.studio | Free tier listed / Paid | 2 | P1 | rejected |
+| Typedream | typedream.com | Freemium | 2 | P1 | drafted |
+
+## Research queue (1787)
+
+### Best AI Design Tools for Designers (216)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
 | Atoms | atoms.dev | Freemium | 2 | P1 |
 | Banani | getbanani.link | Freemium / Free tier listed | 2 | P1 |
-| Descript | get.descript.com | Freemium | 2 | P1 |
 | Gamma | try.gamma.app | Freemium | 2 | P1 |
 | Invideo AI | invideo.sjv.io | Freemium | 2 | P1 |
 | Kittl | kittl.pxf.io | Freemium | 2 | P1 |
 | Lovable | lovablelabs.pxf.io | Freemium | 2 | P1 |
 | Mixo | mixo.io | Free Trial / Free tier listed | 2 | P1 |
 | Motion | motion.so | Paid / Free tier listed | 2 | P1 |
-| Typedream | typedream.com | Freemium | 2 | P1 |
 | typeui.sh | typeui.sh | Free + Paid / Freemium | 2 | P1 |
 | Visily | visily.ai | Freemium | 2 | P1 |
 | Adam CAD Copilot | adam.new | Freemium | 1 | P2 |
@@ -473,12 +486,11 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | WeLoveProduct | weloveproduct.co | Freemium | 1 | P2 |
 | Woody | woodyjobs.com | Freemium | 1 | P2 |
 
-### Best Design Tools Across Disciplines (206)
+### Best Design Tools Across Disciplines (205)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
 | CapCut | capcut.com | Free + Paid | 2 | P1 |
-| Mockplus | mockplus.com | Freemium | 2 | P1 |
 | Adele | adele.uxpin.com | Free | 1 | P2 |
 | Affinity Page Layout | affinity.studio | Free | 1 | P2 |
 | Affinity Photo Editing | affinity.studio | Free | 1 | P2 |
@@ -928,12 +940,11 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Wannathis Mockups | wannathis.one | Free + Paid | 1 | P2 |
 | WhiteUI.Store | gumroad.com | Free + Paid | 1 | P2 |
 
-### Best No-Code Website Builders (125)
+### Best No-Code Website Builders (124)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
 | BYQ | app.byq.supply | Free + Paid | 2 | P1 |
-| n8n | n8n.io | Paid / Free tier listed | 2 | P1 |
 | Shopify | shopify.pxf.io | Free Trial / Free tier listed | 2 | P1 |
 | a0.dev | a0.dev | Freemium | 1 | P2 |
 | Adalo | adalo.com | Freemium | 1 | P2 |
@@ -1162,15 +1173,11 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | UI8 - Illustrations | ui8.net | Free + Paid | 1 | P2 |
 | Vackground | vackground.com | Free + Paid | 1 | P2 |
 
-### Best UX Tools for Designers (77)
+### Best UX Tools for Designers (73)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
 | Canva Whiteboards | canva.com | Free + Paid / Freemium | 2 | P1 |
-| Logoipsum | logoipsum.com | Free / Free tier listed | 2 | P1 |
-| Milanote | milanote.com | Freemium | 2 | P1 |
-| Mural | mural.co | Freemium | 2 | P1 |
-| Obsidian Canvas | obsidian.md | Free + Paid | 2 | P1 |
 | Aaply | aaply.app | Freemium | 1 | P2 |
 | Amplitude | use.amplitude.com | Freemium | 1 | P2 |
 | Bhava | bhava.app | Freemium | 1 | P2 |
@@ -1244,11 +1251,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Zen Flowchart | zenflowchart.com | Freemium | 1 | P2 |
 | Stratify | trystratify.com | Beta | 1 | P3 |
 
-### Design Inspiration Sites for UI, Web, Graphic & Branding (174)
+### Design Inspiration Sites for UI, Web, Graphic & Branding (173)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Fabric | fabric.so | Freemium | 2 | P1 |
 | Mobbin | mobbin.com | Free + Paid / Free tier listed | 4 | P1 |
 | Nicelydone | nicelydone.club | Free Trial / Free tier listed | 2 | P1 |
 | SaaSFrame | saasframe.io | Free + Paid | 5 | P1 |
@@ -1479,7 +1485,7 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Vidsplay | vidsplay.com | Free | 1 | P2 |
 | ZapSplat | zapsplat.com | Freemium | 1 | P2 |
 
-### Free Tools (155)
+### Free Tools (154)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
@@ -1487,7 +1493,6 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | DesignerUp | designerup.co | Free tier listed / Paid | 2 | P1 |
 | Frase | frase.io | Free tier listed / Free Trial | 2 | P1 |
 | Guideless | r.guideless.ai | Free tier listed / Freemium | 2 | P1 |
-| Screen Studio | screen.studio | Free tier listed / Paid | 2 | P1 |
 | SE Ranking | seranking.com | Free tier listed / Free Trial | 2 | P1 |
 | Shortpen | shortpen.com | Free tier listed / Freemium | 2 | P1 |
 | Wispr Flow | ref.wisprflow.ai | Free tier listed / Freemium | 2 | P1 |

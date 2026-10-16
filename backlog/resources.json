@@ -5,18 +5,31 @@
       "researchedOn": "YYYY-MM-DD",
       "verdict": "list | list-sibling | skip | blocked | needs-owner",
       "verdictReason": "one line; required for skip / blocked / needs-owner",
-      "site": { "name": "brand casing", "url": "canonical https://… (no tracking params)", "alive": true, "operator": "company / foundation / person, or null" },
+      "site": {
+        "name": "brand casing",
+        "url": "canonical https://… (no tracking params)",
+        "alive": true,
+        "operator": "company / foundation / person, or null"
+      },
       "pricing": {
         "rlLabel": "Free | Free + Paid | Freemium | Paid",
         "freeTier": "what the free plan includes and its limits, or null",
         "paidFrom": "lowest paid plan price + billing period, or null",
-        "evidence": { "url": "pricing page", "date": "YYYY-MM-DD", "confidence": "first-party | second-hand | not-read" }
+        "evidence": {
+          "url": "pricing page",
+          "date": "YYYY-MM-DD",
+          "confidence": "first-party | second-hand | not-read"
+        }
       },
       "license": {
         "line": "name · commercial: yes/no · attribution: required/not required · one limit",
         "openSource": false,
         "spdx": "MIT / Apache-2.0 / … or null",
-        "evidence": { "url": "license / terms page", "date": "YYYY-MM-DD", "confidence": "first-party | second-hand | not-read" }
+        "evidence": {
+          "url": "license / terms page",
+          "date": "YYYY-MM-DD",
+          "confidence": "first-party | second-hand | not-read"
+        }
       },
       "rl": {
         "slug": "kebab-case, free in RL (rl-index --find)",
@@ -24,19 +37,752 @@
         "category": "from consts.ts",
         "title": "≤ 60 chars",
         "description": "≤ 160 chars, own words",
-        "tags": ["existing tag slugs only; new tag = ask"],
-        "relatedResources": ["real RL slugs, max 3"],
-        "similarResources": ["real RL slugs, max 3"],
-        "keyFeatures": ["3-6 concrete bullets, own words"],
-        "icon": { "route": "iconLib | iconSvg | iconUrl | none", "value": "slug / sanitized svg / url", "fillColor": "#hex or null", "bgColor": "#hex or null", "source": "Simple Icons vX / page URL" },
-        "siblings": ["section worth its own entry, with the nav evidence, or empty"]
+        "tags": [
+          "existing tag slugs only; new tag = ask"
+        ],
+        "relatedResources": [
+          "real RL slugs, max 3"
+        ],
+        "similarResources": [
+          "real RL slugs, max 3"
+        ],
+        "keyFeatures": [
+          "3-6 concrete bullets, own words"
+        ],
+        "icon": {
+          "route": "iconLib | iconSvg | iconUrl | none",
+          "value": "slug / sanitized svg / url",
+          "fillColor": "#hex or null",
+          "bgColor": "#hex or null",
+          "source": "Simple Icons vX / page URL"
+        },
+        "siblings": [
+          "section worth its own entry, with the nav evidence, or empty"
+        ]
       },
-      "safety": { "https": true, "clonerisk": "none | checked-ok | suspicious", "notes": "scam / shutdown / acquired search result, or null" },
-      "sources": [{ "url": "…", "date": "YYYY-MM-DD", "note": "what was taken from it" }],
-      "unverified": ["anything not read or not confirmable"],
+      "safety": {
+        "https": true,
+        "clonerisk": "none | checked-ok | suspicious",
+        "notes": "scam / shutdown / acquired search result, or null"
+      },
+      "sources": [
+        {
+          "url": "…",
+          "date": "YYYY-MM-DD",
+          "note": "what was taken from it"
+        }
+      ],
+      "unverified": [
+        "anything not read or not confirmable"
+      ],
       "injectionSeen": "describe any page text aimed at AI agents, or null",
-      "draft": { "branch": "resource/batch-NN", "file": "src/content/resources/<slug>.md", "lint": "pass | fail | not-run" }
+      "draft": {
+        "branch": "resource/batch-NN",
+        "file": "src/content/resources/<slug>.md",
+        "lint": "pass | fail | not-run"
+      }
     }
   },
-  "resources": {}
+  "resources": {
+    "n8n": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "n8n",
+        "url": "https://n8n.io",
+        "alive": true,
+        "operator": "n8n GmbH"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Self-hosted Community Edition is free; hosted Cloud has only a free trial (1,000 executions, no card)",
+        "paidFrom": "Cloud Starter 20 EUR/month billed annually (2.5K executions)",
+        "evidence": {
+          "url": "https://n8n.io/pricing/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Sustainable Use License 1.0 (fair-code, not OSI open source) · commercial: internal business use only · attribution: notices must be kept · limit: no selling or paid hosting of n8n to others",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://github.com/n8n-io/n8n/blob/master/LICENSE.md",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "n8n",
+        "type": "Tool",
+        "category": "Productivity",
+        "title": "n8n",
+        "description": "Workflow automation tool you can self-host for free; connect apps and APIs with a visual editor, with paid cloud and business plans.",
+        "tags": [
+          "automation",
+          "no-code",
+          "productivity"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Visual node editor for building automations between apps and APIs",
+          "Self-hosted Community Edition available from GitHub",
+          "Hosted Cloud plans with a free trial",
+          "Paid Business and Enterprise tiers add SSO, queue mode and Git version control"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "n8n",
+          "fillColor": "#EA4B71",
+          "bgColor": "#ffffff",
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated scam/shutdown search; pricing page current"
+      },
+      "sources": [
+        {
+          "url": "https://n8n.io/pricing/",
+          "date": "2026-10-16",
+          "note": "plans, trial, Community Edition"
+        },
+        {
+          "url": "https://github.com/n8n-io/n8n/blob/master/LICENSE.md",
+          "date": "2026-10-16",
+          "note": "license"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search run",
+        "Community Edition limits not listed on pricing page",
+        "tool-list URL was an affiliate-free home; mentioned Paid label in one directory is wrong for self-host"
+      ],
+      "injectionSeen": "docs page contained instructions for querying docs (ignored)",
+      "draft": {
+        "branch": "resource/batch-01",
+        "file": "src/content/resources/n8n.md",
+        "lint": "pass"
+      }
+    },
+    "obsidian-canvas": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "Entry is for Obsidian itself; Canvas is a feature of it",
+      "site": {
+        "name": "Obsidian",
+        "url": "https://obsidian.md",
+        "alive": true,
+        "operator": "Obsidian (Dynalist Inc.), operator name not read on page"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "App is free for personal, commercial and non-profit use, no account needed",
+        "paidFrom": "Sync 4 USD/user/month billed annually; Publish 8 USD/site/month billed annually",
+        "evidence": {
+          "url": "https://obsidian.md/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary, free for all purposes incl. commercial · commercial: yes · attribution: not required · limit: app is closed source, rights reserved",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://obsidian.md/license",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "obsidian",
+        "type": "App",
+        "category": "Productivity",
+        "title": "Obsidian",
+        "description": "Private note-taking app that stores notes as local Markdown files, with linking, a graph view and infinite canvases; free to use.",
+        "tags": [
+          "productivity",
+          "writing",
+          "mac",
+          "windows",
+          "linux",
+          "ios"
+        ],
+        "relatedResources": [
+          "notion"
+        ],
+        "similarResources": [
+          "notion",
+          "coda"
+        ],
+        "keyFeatures": [
+          "Notes stored as plain Markdown files on your device",
+          "Linked notes and graph view",
+          "Canvas for arranging notes and media on an infinite board",
+          "Optional paid Sync and Publish services"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "obsidian",
+          "fillColor": "#7C3AED",
+          "bgColor": "#ffffff",
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated scam/shutdown search"
+      },
+      "sources": [
+        {
+          "url": "https://obsidian.md/pricing",
+          "date": "2026-10-16",
+          "note": "pricing"
+        },
+        {
+          "url": "https://obsidian.md/license",
+          "date": "2026-10-16",
+          "note": "license"
+        }
+      ],
+      "unverified": [
+        "platform list taken from general knowledge, not read on a page: confirm on download page before publishing",
+        "no dedicated safety search",
+        "Canvas feature page not read"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-01",
+        "file": "src/content/resources/obsidian.md",
+        "lint": "pass"
+      }
+    },
+    "screen-studio": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Pricing page shows only paid plans (9 USD/month annual, 29 monthly), no free plan or trial mentioned; macOS only",
+      "site": {
+        "name": "Screen Studio",
+        "url": "https://screen.studio",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "9 USD/month billed yearly",
+        "evidence": {
+          "url": "https://screen.studio",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://screen.studio",
+          "date": "2026-10-16",
+          "note": "pricing on home page; /pricing returned 404"
+        }
+      ],
+      "unverified": [
+        "license not read",
+        "free trial may exist outside the page"
+      ],
+      "injectionSeen": null
+    },
+    "logoipsum": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Logoipsum",
+        "url": "https://logoipsum.com",
+        "alive": true,
+        "operator": "SignalSupply"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "207 placeholder logos, free to copy or download as SVG/PNG",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://logoipsum.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Logoipsum logo license · commercial: yes in mockups and templates · attribution: not required · limit: unaltered logos are placeholders only, no redistribution or resale as-is",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://logoipsum.com/license",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "logoipsum",
+        "type": "Resource",
+        "category": "Design",
+        "title": "Logoipsum",
+        "description": "Free placeholder logos for mockups and UI designs, downloadable as SVG or PNG, so layouts look real before a brand exists.",
+        "tags": [
+          "graphic-design",
+          "ui-ux",
+          "stock-vectors",
+          "royalty-free"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "undraw"
+        ],
+        "keyFeatures": [
+          "207 dummy logos for mockups",
+          "Copy or download as SVG or PNG",
+          "Commercial use in mockups and templates allowed, no attribution needed",
+          "Separate font license covers one project per license"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "not in Simple Icons; site SVG not fetched"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://logoipsum.com",
+          "date": "2026-10-16",
+          "note": "what it is"
+        },
+        {
+          "url": "https://logoipsum.com/license",
+          "date": "2026-10-16",
+          "note": "license"
+        }
+      ],
+      "unverified": [
+        "logo icon missing: ask owner or fetch site SVG",
+        "no dedicated safety search",
+        "tool list URL had no tracking; fine"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-01",
+        "file": "src/content/resources/logoipsum.md",
+        "lint": "pass"
+      }
+    },
+    "milanote": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Milanote",
+        "url": "https://milanote.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Up to 100 notes, images or links and 10 file uploads, no time limit; unlimited shared boards",
+        "paidFrom": "9.99 USD/person/month billed annually (12.50 monthly)",
+        "evidence": {
+          "url": "https://milanote.com/plans",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: not read · attribution: n/a · limit: terms page not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://milanote.com/plans",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "milanote",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Milanote",
+        "description": "Visual boards for creative projects: combine notes, images, links and sketches, share with others; free plan with a 100-item cap.",
+        "tags": [
+          "collaboration",
+          "inspiration",
+          "productivity",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "miro",
+          "figjam"
+        ],
+        "keyFeatures": [
+          "Boards that mix notes, images, videos and sketches",
+          "Web clipper plus desktop and mobile apps",
+          "Free plan: 100 notes/images/links, 10 uploads, unlimited shared boards",
+          "Invite others to view or edit"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "milanote",
+          "fillColor": "#31303A",
+          "bgColor": "#ffffff",
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://milanote.com",
+          "date": "2026-10-16",
+          "note": "what it is"
+        },
+        {
+          "url": "https://milanote.com/plans",
+          "date": "2026-10-16",
+          "note": "plans"
+        }
+      ],
+      "unverified": [
+        "terms/commercial use not read",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-01",
+        "file": "src/content/resources/milanote.md",
+        "lint": "pass"
+      }
+    },
+    "mural": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Mural",
+        "url": "https://www.mural.co",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan at 0 USD: 3 editable murals at a time, unlimited view-only visitors, 1 workspace, open rooms only",
+        "paidFrom": "Team+ 9.99 USD/member/month billed annually (12 monthly)",
+        "evidence": {
+          "url": "https://www.mural.co/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: not read · attribution: n/a · limit: terms page not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.mural.co/pricing",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "mural",
+        "type": "Tool",
+        "category": "Productivity",
+        "title": "Mural",
+        "description": "Online whiteboard for team workshops and brainstorms with templates and AI help; free plan allows 3 editable murals.",
+        "tags": [
+          "whiteboard",
+          "collaboration",
+          "ai-tool",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "miro",
+          "figjam",
+          "tldraw"
+        ],
+        "keyFeatures": [
+          "Shared infinite canvas for real-time collaboration",
+          "Expert-designed templates and facilitation workflows",
+          "AI tools for brainstorming and analyzing feedback",
+          "Free plan: 3 editable murals, unlimited view-only visitors"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "mural",
+          "fillColor": "#FF4B4B",
+          "bgColor": "#ffffff",
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://www.mural.co/pricing",
+          "date": "2026-10-16",
+          "note": "plans"
+        },
+        {
+          "url": "https://www.mural.co",
+          "date": "2026-10-16",
+          "note": "what it is"
+        }
+      ],
+      "unverified": [
+        "terms/commercial use not read",
+        "no dedicated safety search",
+        "page does not say 'permanent' for free plan"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-01",
+        "file": "src/content/resources/mural.md",
+        "lint": "pass"
+      }
+    },
+    "fabric": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "fabric.so/pricing returned only a title (JS-rendered); home says 'Try for $0' without terms. Retry with a rendered page or owner check",
+      "site": {
+        "name": "Fabric",
+        "url": "https://fabric.so",
+        "alive": true,
+        "operator": null
+      },
+      "sources": [
+        {
+          "url": "https://fabric.so",
+          "date": "2026-10-16",
+          "note": "AI workspace, no pricing figures"
+        }
+      ],
+      "unverified": [
+        "free plan terms",
+        "license"
+      ],
+      "injectionSeen": null
+    },
+    "typedream": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "Acquired by beehiiv (June 2024) but pricing page is live with 2025 footer; no shutdown found",
+      "site": {
+        "name": "Typedream",
+        "url": "https://typedream.com",
+        "alive": true,
+        "operator": "beehiiv, Inc. (acquired 2024)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan: 1 published page, 1 seat, typedream.app domain with badge, 5% transaction fee",
+        "paidFrom": "Launch 15 USD/month billed annually (20 monthly)",
+        "evidence": {
+          "url": "https://typedream.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: not read · attribution: free plan shows Typedream badge · limit: terms not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://typedream.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "typedream",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Typedream",
+        "description": "Notion-style website builder with AI help; free plan publishes one page on a typedream.app domain, paid plans add custom domains.",
+        "tags": [
+          "no-code",
+          "website-builder",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "framer",
+          "webflow"
+        ],
+        "keyFeatures": [
+          "Build and publish sites without code",
+          "Free plan: 1 page, 1 seat, typedream.app domain",
+          "Paid plans add unlimited pages, custom domain, analytics, blog and forms",
+          "14-day money-back guarantee on paid plans"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Search found acquisition by beehiiv (2024-06-25), no shutdown notice; no 2026 news found"
+      },
+      "sources": [
+        {
+          "url": "https://typedream.com/pricing",
+          "date": "2026-10-16",
+          "note": "plans"
+        },
+        {
+          "url": "https://www.beehiiv.com/blog/beehiiv-acquires-ai-based-website-builder-typedream",
+          "date": "2026-10-16",
+          "note": "acquisition (search result, page not read)"
+        }
+      ],
+      "unverified": [
+        "current product direction after acquisition",
+        "terms not read",
+        "icon missing"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-01",
+        "file": "src/content/resources/typedream.md",
+        "lint": "pass"
+      }
+    },
+    "mockplus": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "mockplus.com fetch failed twice (DNS error EAI_AGAIN) and /pricing 404; retry later",
+      "site": {
+        "name": "Mockplus",
+        "url": "https://www.mockplus.com",
+        "alive": null,
+        "operator": null
+      },
+      "sources": [],
+      "unverified": [
+        "everything"
+      ],
+      "injectionSeen": null
+    },
+    "descript": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Descript",
+        "url": "https://www.descript.com",
+        "alive": true,
+        "operator": "Descript, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan: 60 media minutes/month, 720p export with watermark, 1 editor, 5 GB storage, one-time 100 AI credits",
+        "paidFrom": "Hobbyist 16 USD/month (likely annual; page does not label it)",
+        "evidence": {
+          "url": "https://www.descript.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: not read (ToS URL 404) · attribution: n/a · limit: free exports are watermarked",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.descript.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "descript",
+        "type": "AI Tool",
+        "category": "Filming",
+        "title": "Descript",
+        "description": "Edit video and podcasts by editing the transcript, with AI tools; free plan gives 60 media minutes a month, 720p with watermark.",
+        "tags": [
+          "ai-tool",
+          "video-template",
+          "writing"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Transcript-based editing of audio and video",
+          "Transcription in 25 languages with speaker detection",
+          "Free plan: 60 media minutes/month, 720p watermarked export",
+          "Paid plans add 1080p/4K export without watermark and more AI credits"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://www.descript.com/pricing",
+          "date": "2026-10-16",
+          "note": "plans"
+        }
+      ],
+      "unverified": [
+        "ToS/commercial use not read",
+        "what it is taken from pricing page and general knowledge: confirm on home page",
+        "no dedicated safety search",
+        "icon missing",
+        "tags: video-template is a poor fit, no better existing tag; ask owner for a video-editing tag"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-01",
+        "file": "src/content/resources/descript.md",
+        "lint": "pass"
+      }
+    }
+  }
 }

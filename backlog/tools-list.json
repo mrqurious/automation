@@ -12487,12 +12487,12 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P1",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "design-ai-workflows",
@@ -16199,12 +16199,12 @@
           "file": "Productivity Tools for Design and Product Teams.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "fabric.so/pricing returned only a title (JS-rendered); home says 'Try for $0' without terms. Retry with a rendered page or owner check",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P1",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "fabrie",
@@ -29471,12 +29471,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P1",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "logollama",
@@ -32346,12 +32346,12 @@
           "file": "Productivity Tools for Design and Product Teams.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P1",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "milkshake",
@@ -33175,12 +33175,12 @@
           "file": "Best UX Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "mockplus.com fetch failed twice (DNS error EAI_AGAIN) and /pricing 404; retry later",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P1",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "mockrocket",
@@ -34871,12 +34871,12 @@
           "file": "Productivity Tools for Design and Product Teams.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P1",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "murf",
@@ -35270,12 +35270,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P1",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "nabla",
@@ -36388,12 +36388,12 @@
           "file": "Productivity Tools for Design and Product Teams.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "drafted",
+      "notes": "Entry is for Obsidian itself; Canvas is a feature of it",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P1",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "octanerender",
@@ -45211,12 +45211,12 @@
           "file": "Productivity Tools for Design and Product Teams.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Pricing page shows only paid plans (9 USD/month annual, 29 monthly), no free plan or trial mentioned; macOS only",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P1",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "scribbles",
@@ -53546,12 +53546,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "drafted",
+      "notes": "Acquired by beehiiv (June 2024) but pricing page is live with 2025 footer; no shutdown found",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P1",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "typeface",
@@ -59927,12 +59927,15 @@
     "byStatus": {
       "deferred-trial": 232,
       "deferred-paid": 217,
-      "todo": 1797,
-      "in-rl": 33
+      "todo": 1787,
+      "in-rl": 33,
+      "drafted": 7,
+      "blocked": 2,
+      "rejected": 1
     },
     "todoByPriority": {
       "P2": 1667,
-      "P1": 39,
+      "P1": 29,
       "P3": 91
     }
   }
