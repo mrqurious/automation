@@ -14905,7 +14905,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "dub",
       "priority": "P2",
       "hasResearch": true
     },
@@ -15035,7 +15035,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "dyad",
       "priority": "P2",
       "hasResearch": true
     },
@@ -15061,7 +15061,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "dynamic-mockups",
       "priority": "P2",
       "hasResearch": true
     },
@@ -15165,7 +15165,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "easings",
       "priority": "P2",
       "hasResearch": true
     },
@@ -15191,7 +15191,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "ecomm-design",
       "priority": "P2",
       "hasResearch": true
     },
@@ -15295,7 +15295,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "elastic-ui",
       "priority": "P2",
       "hasResearch": true
     },
@@ -15319,7 +15319,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "beta",
-      "rlSlug": null,
+      "rlSlug": "elastoui",
       "priority": "P3",
       "hasResearch": true
     },
@@ -15371,7 +15371,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "elevenlabs",
       "priority": "P2",
       "hasResearch": true
     },
@@ -15397,7 +15397,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "email-gallery",
       "priority": "P2",
       "hasResearch": true
     },
@@ -15423,7 +15423,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "email-love",
       "priority": "P2",
       "hasResearch": true
     },
@@ -15449,7 +15449,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "embeddable",
       "priority": "P2",
       "hasResearch": true
     },
@@ -15551,7 +15551,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "beta",
-      "rlSlug": null,
+      "rlSlug": "energy-icons",
       "priority": "P3",
       "hasResearch": true
     },
@@ -15733,7 +15733,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "eraser",
       "priority": "P2",
       "hasResearch": true
     },
@@ -15759,7 +15759,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "ethical-design-guide",
       "priority": "P2",
       "hasResearch": true
     },
@@ -15785,7 +15785,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "ethical-design-resources",
       "priority": "P2",
       "hasResearch": true
     },
@@ -15861,7 +15861,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "beta",
-      "rlSlug": null,
+      "rlSlug": "eva-icons",
       "priority": "P3",
       "hasResearch": true
     },
@@ -15965,7 +15965,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "evil-buttons",
       "priority": "P2",
       "hasResearch": true
     },
@@ -15991,7 +15991,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "evilcharts",
       "priority": "P2",
       "hasResearch": true
     },
@@ -16017,7 +16017,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "exactly-ai",
       "priority": "P2",
       "hasResearch": true
     },
@@ -16334,7 +16334,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "fake-name-generator",
       "priority": "P2",
       "hasResearch": true
     },
@@ -16360,7 +16360,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "fakeclients",
       "priority": "P2",
       "hasResearch": true
     },
@@ -16383,12 +16383,12 @@
           "file": "Productivity Tools for Design and Product Teams.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "fal",
@@ -16409,12 +16409,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Pricing page shows pay-per-use only; no permanent free tier or free credits confirmed (only a footer 'Free Tools' link).",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "faticons-medicine",
@@ -16435,12 +16435,12 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "feather",
@@ -16485,12 +16485,12 @@
           "file": "Best Free Open Source Icon Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "beta",
       "rlSlug": null,
       "priority": "P3",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "featurebase",
@@ -16511,12 +16511,12 @@
           "file": "Best UX Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "featured-type",
@@ -16537,12 +16537,12 @@
           "file": "Best Free Font Libraries and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "feedback-fish",
@@ -16563,12 +16563,12 @@
           "file": "Best UX Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Free plan is capped at 25 total feedback submissions (apparently lifetime), closer to a trial than a usable permanent free tier; owner to decide.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "femke-design",
@@ -16589,12 +16589,12 @@
           "file": "Learn UI_UX Design_ Courses, Guides & Best Practices.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "fenn",
@@ -16617,12 +16617,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Paid only: usefenn.com pricing shows Flex $9/mo, Lifetime $249, Teams $999; no free plan listed (Digitool says free plan available, first-party page lists none).",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "fffuel",
@@ -16643,12 +16643,12 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "figjam",
@@ -16759,12 +16759,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Feature set of Figma (already in RL as slug figma), not a standalone product; free via Starter credits (150/day, max 500/month) but limited. Owner to decide sibling vs skip as duplicate.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "figma-buzz",
@@ -16785,12 +16785,12 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Part of Figma (existing RL slug figma), labelled Beta; pricing page does not say whether Starter (free) includes Buzz or its limits. Owner to decide sibling vs skip.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "figma-community",
@@ -16837,12 +16837,12 @@
           "file": "Learn UI_UX Design_ Courses, Guides & Best Practices.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "figma-draw",
@@ -16863,12 +16863,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Draw is a feature of Figma Design (already in RL as 'figma'), not a standalone product; plan availability not stated on the page.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "figma-font-pairings",
@@ -16889,12 +16889,12 @@
           "file": "Best Free Font Libraries and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "figma-make",
@@ -16915,12 +16915,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "figma-motion",
@@ -16941,12 +16941,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Free availability conflicts: help article says 'Available on any plan' (open beta) but pricing page lists Motion as beta on Full seats only; it is also a feature of Figma (already in RL as 'figma'), so owner should decide on a sibling entry.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "figma-sites",
@@ -16967,12 +16967,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Free tier is unclear/weak: pricing page lists Sites as beta on Full seats; help center summary says Starter can build but not publish (publishing needs paid plan). Also a Figma feature (figma already in RL).",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "figma-slides",
@@ -16993,12 +16993,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "figma-to-webflow",
@@ -17019,12 +17019,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Webflow page could not be fetched (header overflow error twice); free pricing not confirmed first-party; site URL is an affiliate redirect (real page webflow.com/figma-to-webflow, Webflow Labs plugin+app). Likely a feature of Webflow (already in RL), so owner should decide.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "figma-weave",
@@ -17045,12 +17045,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "figprompt",
@@ -17071,12 +17071,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Home and /pricing return only the page title (JS page); no pricing, terms or operator readable. Not bypassed.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "figr",
@@ -17097,12 +17097,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "figside",
@@ -17123,12 +17123,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Free 'Chill' plan exists (1 site, 1 page) but footer is (c) 2024, no named operator, and terms restrict commercial use of site materials; confirm aliveness and listing.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "figtree",
@@ -17149,12 +17149,12 @@
           "file": "Best Free Font Libraries and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "fillout",
@@ -17177,12 +17177,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "fimo",
@@ -17203,12 +17203,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "final-cut-pro",
@@ -17257,12 +17257,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Paid dataset ($99 one-time, listed $149); only a free sample file, no permanent free tier; operator unnamed",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "findlytools",
@@ -17285,12 +17285,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Curated directory of tools; operator unnamed, no pricing for visitors shown, free-tier permanence unclear, and it is a directory competing with RL's own purpose.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "firecrawl",
@@ -17313,12 +17313,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "fireflies-ai",
@@ -17341,12 +17341,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Free plan exists but first-party pricing page gave no limits or prices (fetch of home also truncated); limits only second-hand and sources disagree (400 vs 800 min storage); permanence of limits unconfirmed.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "fiverr",
@@ -17391,12 +17391,12 @@
           "file": "Best Free Open Source Icon Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "beta",
       "rlSlug": null,
       "priority": "P3",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "flair",
@@ -17417,12 +17417,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "flashdocs",
@@ -17467,12 +17467,12 @@
           "file": "Best Free Open Source Icon Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "beta",
       "rlSlug": null,
       "priority": "P3",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "fleck-ai",
@@ -17493,12 +17493,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Free plan is $0 but gives one-time starter credits (100) with a card required at signup; unclear whether it is a permanent free tier.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "flickr",
@@ -17519,12 +17519,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "flickr.com and its pricing/upgrade pages returned HTTP 502 Bad Gateway on three attempts; free tier could not be confirmed first-party.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "fliiipbook",
@@ -17545,12 +17545,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Site describes a GIF animation app (Start Animating button, GIF export) but states no pricing, terms or operator company; free status rests on the directory label only.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "fliki",
@@ -17571,12 +17571,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "flint",
@@ -17597,12 +17597,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Enterprise marketing product (landing pages and Google Ads agent); pricing page lists only custom-priced Enterprise plans, no free tier. Site moved from tryflint.com to flint.com.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "flinto",
@@ -17649,12 +17649,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "float",
@@ -59927,16 +59927,16 @@
     "byStatus": {
       "deferred-trial": 232,
       "deferred-paid": 217,
-      "blocked": 213,
-      "drafted": 198,
-      "rejected": 78,
+      "blocked": 226,
+      "drafted": 219,
+      "rejected": 83,
       "in-rl": 33,
-      "researched": 21,
-      "todo": 1287
+      "researched": 22,
+      "todo": 1247
     },
     "todoByPriority": {
-      "P2": 1215,
-      "P3": 71,
+      "P2": 1178,
+      "P3": 68,
       "P1": 1
     }
   }

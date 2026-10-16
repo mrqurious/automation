@@ -35165,6 +35165,2888 @@
         "file": "src/content/resources/fakeclients.md",
         "lint": "pass"
       }
+    },
+    "faktor": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Faktor",
+        "url": "https://www.faktor.so",
+        "alive": true,
+        "operator": "Three individuals (Rebecca Russell, Rebecca Balogh, Daniel Gremme), Vienna; no registered legal entity per imprint"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Calculator described as free; independently funded with optional donation; no tiers or limits stated",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.faktor.so",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Free web tool, no terms page found · commercial: n/a · attribution: n/a",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.faktor.so",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "faktor",
+        "type": "Tool",
+        "category": "Business",
+        "title": "Faktor",
+        "description": "Free pricing calculator for creative freelancers and studios that suggests project prices from value, experience, client size and location instead of hours.",
+        "tags": [
+          "productivity",
+          "graphic-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Value-based project price instead of hourly rate",
+          "Inputs include experience level, company size and location",
+          "Covers branding, web design, illustration and UX work",
+          "Free to use; optional donation"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated scam/shutdown search run; imprint and privacy policy present"
+      },
+      "sources": [
+        {
+          "url": "https://www.faktor.so",
+          "date": "2026-10-16",
+          "note": "home: description, free, donation"
+        },
+        {
+          "url": "https://www.faktor.so/imprint",
+          "date": "2026-10-16",
+          "note": "operator"
+        }
+      ],
+      "unverified": [
+        "Terms of use (none linked)",
+        "Usage limits",
+        "Safety search not run"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/faktor.md",
+        "lint": "pass"
+      }
+    },
+    "fal": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Pricing page shows pay-per-use only; no permanent free tier or free credits confirmed (only a footer 'Free Tools' link).",
+      "site": {
+        "name": "fal",
+        "url": "https://fal.ai",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "Pay-per-use; GPUs from $2.49/hr (H100)",
+        "evidence": {
+          "url": "https://fal.ai/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://fal.ai/pricing",
+          "date": "2026-10-16",
+          "note": "pay-per-use, no free tier stated"
+        }
+      ],
+      "unverified": [
+        "Free credits on signup (dashboard not checked)",
+        "Free Tools page"
+      ],
+      "injectionSeen": null
+    },
+    "faticons-medicine": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Faticons Medicine",
+        "url": "https://minima.market/faticons-medicine",
+        "alive": true,
+        "operator": "minima.market, made by palapa.tech"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Free download of 21 hi-res PNG low-poly 3D medical icons (Figma/Sketch compatible); other packs on the site are paid (e.g. Faticons Space $9.00)",
+        "paidFrom": null,
+        "evidence": {
+          "url": "http://minima.market/faticons-medicine",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "minima.market license · commercial: yes (royalty free, personal and commercial) · attribution: not required · limit: no redistribution, resale or sublicensing",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "http://minima.market/license",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "faticons-medicine",
+        "type": "Icon Set",
+        "category": "Design",
+        "title": "Faticons Medicine",
+        "description": "Free pack of 21 low-poly 3D medical icons as hi-res PNGs, easy to customize and usable in Figma and Sketch, free for commercial projects.",
+        "tags": [
+          "icon-library",
+          "royalty-free",
+          "stock-3d-models"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "21 low-poly 3D icons in hi-res PNG",
+          "Works with Figma and Sketch",
+          "Instructions included in the download",
+          "Royalty free for personal and commercial use, no attribution"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Input URL was http, upgrades to https; no dedicated scam search run"
+      },
+      "sources": [
+        {
+          "url": "http://minima.market/faticons-medicine",
+          "date": "2026-10-16",
+          "note": "product, free download, 21 icons"
+        },
+        {
+          "url": "http://minima.market/license",
+          "date": "2026-10-16",
+          "note": "license terms"
+        }
+      ],
+      "unverified": [
+        "Safety search not run",
+        "Whether the license page covers the free pack explicitly"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/faticons-medicine.md",
+        "lint": "pass"
+      }
+    },
+    "feather-2": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Feather",
+        "url": "https://feathericons.com",
+        "alive": true,
+        "operator": "Cole Bemis (@colebemis)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Fully free open source icon set",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://github.com/feathericons/feather",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT · commercial: yes · attribution: license notice must be kept · limit: provided as is",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/feathericons/feather",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "feather-icons",
+        "type": "Icon Set",
+        "category": "Design",
+        "title": "Feather",
+        "description": "Open source set of simple, consistent stroke icons with adjustable size, stroke width and color, available to download all at once.",
+        "tags": [
+          "icon-library",
+          "open-source",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "lucide-icons"
+        ],
+        "similarResources": [
+          "lucide-icons",
+          "bootstrap-icons",
+          "eva-icons"
+        ],
+        "keyFeatures": [
+          "Open source MIT-licensed icons",
+          "Customize size, stroke width and color on the site",
+          "Download all icons at once",
+          "Source on GitHub"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "GitHub repo not archived, issues and PRs open; site shows v4.29.0; no dedicated scam search run"
+      },
+      "sources": [
+        {
+          "url": "https://feathericons.com",
+          "date": "2026-10-16",
+          "note": "features, v4.29.0, author"
+        },
+        {
+          "url": "https://github.com/feathericons/feather",
+          "date": "2026-10-16",
+          "note": "MIT license, not archived"
+        }
+      ],
+      "unverified": [
+        "Icon count",
+        "Date of last release/commit",
+        "Safety search not run"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/feather-icons.md",
+        "lint": "pass"
+      }
+    },
+    "featurebase": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Featurebase",
+        "url": "https://www.featurebase.app",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan, $0 'Forever', 1 seat, no AI; live chat, unlimited conversations, unified inbox with ticketing, mobile app, internal notes; feedback listed as included",
+        "paidFrom": "$29/seat/month (Growth, billed yearly) + $0.49 per AI resolution",
+        "evidence": {
+          "url": "https://www.featurebase.app/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: yes (terms not read) · attribution: not required · limit: free plan is 1 seat",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.featurebase.app/pricing",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "featurebase",
+        "type": "Tool",
+        "category": "Business",
+        "title": "Featurebase",
+        "description": "Customer feedback and support platform: collect and prioritize user feedback, run live chat and a ticketing inbox. Free plan for one seat.",
+        "tags": [
+          "collaboration",
+          "roadmaps",
+          "productivity"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Collect and organize user feedback in one place",
+          "Prioritize what to build next",
+          "Live chat and unified inbox with ticketing",
+          "Free plan with unlimited conversations for one seat",
+          "Mobile app, conversation assignment, snoozing and internal notes"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no Simple Icons match, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "One search: no scam/shutdown/acquisition reports found"
+      },
+      "sources": [
+        {
+          "url": "https://www.featurebase.app/pricing",
+          "date": "2026-10-16",
+          "note": "free plan and paid prices"
+        },
+        {
+          "url": "web search: Featurebase scam OR shutting down OR acquired",
+          "date": "2026-10-16",
+          "note": "safety; notes pivot toward support platform"
+        }
+      ],
+      "unverified": [
+        "legal operator not named on pricing page",
+        "terms of service and commercial use not read",
+        "free plan feedback-board limits not stated (only 'included')",
+        "whether a separate feedback-only free tier still exists"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/featurebase.md",
+        "lint": "pass"
+      }
+    },
+    "featured-type": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Featured Type",
+        "url": "https://www.featuredtype.com",
+        "alive": true,
+        "operator": "okay bueno (footer: made for fun at okaybueno.com)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Gallery browsable with no login or fees listed; only an optional newsletter sign-up",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.featuredtype.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Website, no license stated · commercial: n/a (typefaces belong to their foundries) · attribution: n/a · limit: legal page at okaybueno.com/legal not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.featuredtype.com",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "featured-type",
+        "type": "Website",
+        "category": "Design",
+        "title": "Featured Type",
+        "description": "Curated gallery of typefaces to discover new fonts and foundries, browsable by category, with top-100 and latest lists.",
+        "tags": [
+          "typography",
+          "inspiration",
+          "graphic-design"
+        ],
+        "relatedResources": [
+          "beautiful-web-type",
+          "fontpair",
+          "google-fonts"
+        ],
+        "similarResources": [
+          "beautiful-web-type"
+        ],
+        "keyFeatures": [
+          "Browse by category: serif, sans serif, slab, blackletter, display, monospaced",
+          "Top 100 and hot-right-now rankings",
+          "Latest typefaces and fresh foundries sections",
+          "Each typeface links to its own page with foundry",
+          "Free fonts section"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no Simple Icons match, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search (Tier A screen limited)"
+      },
+      "sources": [
+        {
+          "url": "https://www.featuredtype.com",
+          "date": "2026-10-16",
+          "note": "description, sections, operator, no fees seen"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "legal page not read",
+        "last-update freshness not checked",
+        "what the free fonts section links to"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/featured-type.md",
+        "lint": "pass"
+      }
+    },
+    "feedback-fish": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Free plan is capped at 25 total feedback submissions (apparently lifetime), closer to a trial than a usable permanent free tier; owner to decide.",
+      "site": {
+        "name": "Feedback Fish",
+        "url": "https://feedback.fish",
+        "alive": true,
+        "operator": "Four-person team (Max, Tobi, Timo, Laurids), Vienna; no legal entity named"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Limited to '25 total feedback submissions'",
+        "paidFrom": "$19/month (unlimited submissions); Enterprise custom",
+        "evidence": {
+          "url": "https://feedback.fish",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: yes (terms not read) · attribution: not read · limit: 25 total submissions on free",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://feedback.fish",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Page shows (c) 2026; no shutdown notice seen; no dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://feedback.fish",
+          "date": "2026-10-16",
+          "note": "pricing and team"
+        }
+      ],
+      "unverified": [
+        "terms not read",
+        "no safety search",
+        "whether the 25 limit is lifetime or resets",
+        "legal operator"
+      ],
+      "injectionSeen": null
+    },
+    "femke-design": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "femke.design",
+        "url": "https://www.youtube.com/channel/UCWUGGwfTfJ0-2jUS3dZqOJA",
+        "alive": true,
+        "operator": "Femke van Schoonhoven (per search results)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Free YouTube channel (videos free to watch); creator's site also sells courses, not part of this entry",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.youtube.com/channel/UCWUGGwfTfJ0-2jUS3dZqOJA",
+          "date": "2026-10-16",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "YouTube channel, standard YouTube Terms · commercial: n/a · attribution: n/a · limit: content owned by the creator",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.youtube.com/channel/UCWUGGwfTfJ0-2jUS3dZqOJA",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "femke-design",
+        "type": "Resource",
+        "category": "Design",
+        "title": "femke.design (YouTube)",
+        "description": "YouTube channel by product designer Femke van Schoonhoven on UX, user research, prototyping and working as a designer in tech.",
+        "tags": [
+          "ui-ux",
+          "inspiration"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Videos on UX design, user research and prototyping",
+          "Career and day-to-day experience of a product designer in tech",
+          "Free to watch; creator also runs a newsletter and a podcast (Design Life)"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "youtube",
+          "fillColor": "#FF0000",
+          "bgColor": "#ffffff",
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search shows a consistent creator identity across profiles; no scam reports seen"
+      },
+      "sources": [
+        {
+          "url": "https://www.youtube.com/channel/UCWUGGwfTfJ0-2jUS3dZqOJA",
+          "date": "2026-10-16",
+          "note": "only channel name readable (JS page)"
+        },
+        {
+          "url": "web search: femke.design product designer YouTube",
+          "date": "2026-10-16",
+          "note": "creator name, topics, second-hand claims"
+        }
+      ],
+      "unverified": [
+        "channel page returned only the name; description and upload dates not read",
+        "subscriber counts second-hand, not used",
+        "femke.design own site not fetched"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/femke-design.md",
+        "lint": "pass"
+      }
+    },
+    "fenn": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Paid only: usefenn.com pricing shows Flex $9/mo, Lifetime $249, Teams $999; no free plan listed (Digitool says free plan available, first-party page lists none).",
+      "site": {
+        "name": "Fenn",
+        "url": "https://usefenn.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "$9/month (Flex)",
+        "evidence": {
+          "url": "https://usefenn.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/fenn/",
+          "date": "2026-10-16",
+          "note": "site link usefenn.com; Digitool claims free plan"
+        },
+        {
+          "url": "https://usefenn.com",
+          "date": "2026-10-16",
+          "note": "pricing: Flex $9/mo, Lifetime $249, Teams $999, no free tier"
+        }
+      ],
+      "unverified": [
+        "operator not named",
+        "no safety search run",
+        "a hidden free/trial option not ruled out"
+      ],
+      "injectionSeen": null
+    },
+    "fffuel": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "fffuel",
+        "url": "https://fffuel.co",
+        "alive": true,
+        "operator": "Sentry.io / Syntax.fm (footer, 2024); author-run"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All generators free; no plan or sign-in mentioned",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://fffuel.co",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "fffuel license · commercial: yes · attribution: not required (mention appreciated) · images cannot be sublicensed, resold, shared or redistributed",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://fffuel.co/license",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "fffuel",
+        "type": "Tool",
+        "category": "Design",
+        "title": "fffuel",
+        "description": "Collection of free SVG generators and colour tools: gradients, blobs, patterns, textures, palettes and converters for web and design work.",
+        "tags": [
+          "graphic-design",
+          "color-palette",
+          "stock-vectors",
+          "web"
+        ],
+        "relatedResources": [
+          "blobmaker",
+          "anygradient",
+          "coolhue"
+        ],
+        "similarResources": [
+          "bgjar",
+          "css-gradient",
+          "book-of-shapes"
+        ],
+        "keyFeatures": [
+          "Colour picker, palette generator and curated palettes",
+          "Grainy, fluid and mesh gradient generators",
+          "Blob, line and decorative shape makers",
+          "Isometric patterns, grunge textures and noise",
+          "SVG to PNG and SVG to Base64 converters"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search; author-run site tied to Syntax.fm"
+      },
+      "sources": [
+        {
+          "url": "https://fffuel.co",
+          "date": "2026-10-16",
+          "note": "tool list, operator, free"
+        },
+        {
+          "url": "https://fffuel.co/license",
+          "date": "2026-10-16",
+          "note": "license terms"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "exact number of generators",
+        "recent activity not checked"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/fffuel.md",
+        "lint": "pass"
+      }
+    },
+    "figma-ai": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Feature set of Figma (already in RL as slug figma), not a standalone product; free via Starter credits (150/day, max 500/month) but limited. Owner to decide sibling vs skip as duplicate.",
+      "site": {
+        "name": "Figma AI",
+        "url": "https://www.figma.com/ai/",
+        "alive": true,
+        "operator": "Figma, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Starter plan: 150 AI credits per day, up to 500 per month",
+        "paidFrom": "Professional $16/month per Full seat (3,000 credits/month)",
+        "evidence": {
+          "url": "https://www.figma.com/pricing/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.figma.com/ai/",
+          "date": "2026-10-16",
+          "note": "AI features list, credit numbers"
+        },
+        {
+          "url": "https://www.figma.com/pricing/",
+          "date": "2026-10-16",
+          "note": "Starter credits and paid prices"
+        }
+      ],
+      "unverified": [
+        "license/terms not read",
+        "no safety search",
+        "permanence of free credits"
+      ],
+      "injectionSeen": null
+    },
+    "figma-buzz": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Part of Figma (existing RL slug figma), labelled Beta; pricing page does not say whether Starter (free) includes Buzz or its limits. Owner to decide sibling vs skip.",
+      "site": {
+        "name": "Figma Buzz",
+        "url": "https://www.figma.com/buzz/",
+        "alive": true,
+        "operator": "Figma, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.figma.com/pricing/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.figma.com/buzz/",
+          "date": "2026-10-16",
+          "note": "brand templates, locked edits, multi-edit, AI tools, video; beta"
+        },
+        {
+          "url": "https://www.figma.com/pricing/",
+          "date": "2026-10-16",
+          "note": "Buzz listed as beta on all seats; Starter specifics absent"
+        }
+      ],
+      "unverified": [
+        "Starter inclusion and limits for Buzz",
+        "license/terms not read",
+        "no safety search"
+      ],
+      "injectionSeen": null
+    },
+    "figma-design-for-beginners": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Figma Design for beginners",
+        "url": "https://help.figma.com/hc/en-us/sections/30880632542743",
+        "alive": true,
+        "operator": "Figma, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Help Center course content; no pricing or sign-in wall mentioned on the section page",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://help.figma.com/hc/en-us/sections/30880632542743",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Figma Help Center content · commercial: unknown · attribution: unknown · terms not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://help.figma.com/hc/en-us/sections/30880632542743",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "figma-design-for-beginners",
+        "type": "Course",
+        "category": "Design",
+        "title": "Figma Design for Beginners",
+        "description": "Figma's own beginner course in the Help Center: learn the Figma Design tool by building a portfolio website from scratch.",
+        "tags": [
+          "ui-ux",
+          "prototyping",
+          "web"
+        ],
+        "relatedResources": [
+          "figma",
+          "figma-community"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Hands-on course published by Figma in its Learn Help Center",
+          "Project-based: design a portfolio website from scratch",
+          "Sits in Figma's skill-based courses collection",
+          "Multi-page section of lessons"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "figma",
+          "fillColor": "#F24E1E",
+          "bgColor": "#ffffff",
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Official Figma Help Center; no dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://help.figma.com/hc/en-us/sections/30880632542743",
+          "date": "2026-10-16",
+          "note": "section, publisher, breadcrumb"
+        },
+        {
+          "url": "input description",
+          "date": "2026-10-16",
+          "note": "portfolio website course description (directory text)"
+        }
+      ],
+      "unverified": [
+        "lesson titles and count not listed on the fetched page",
+        "free access inferred (no gate seen), not stated",
+        "Help Center content terms not read",
+        "no dedicated safety search",
+        "hands-on portfolio project per directory text only"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/figma-design-for-beginners.md",
+        "lint": "pass"
+      }
+    },
+    "figma-draw": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Draw is a feature of Figma Design (already in RL as 'figma'), not a standalone product; plan availability not stated on the page.",
+      "site": {
+        "name": "Figma Draw",
+        "url": "https://www.figma.com/draw/",
+        "alive": true,
+        "operator": "Figma, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.figma.com/draw/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.figma.com/draw/",
+          "date": "2026-10-16",
+          "note": "features: brushes, vectorization, text on path; no plan info"
+        },
+        {
+          "url": "https://www.figma.com/pricing/",
+          "date": "2026-10-16",
+          "note": "Draw access on Starter not stated"
+        }
+      ],
+      "unverified": [
+        "Starter plan access to Draw not stated"
+      ],
+      "injectionSeen": null
+    },
+    "figma-font-pairings": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Figma Font Pairings",
+        "url": "https://www.figma.com/resource-library/font-pairings/",
+        "alive": true,
+        "operator": "Figma, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Article readable without sign-in or paywall",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.figma.com/resource-library/font-pairings/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Figma Resource Library article · commercial: unknown · attribution: unknown · terms not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.figma.com/resource-library/font-pairings/",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "figma-font-pairings",
+        "type": "Resource",
+        "category": "Design",
+        "title": "Figma Font Pairings",
+        "description": "Figma's article of 39 curated font pairings, each with a best-for use case and font credits, plus tips for combining typefaces.",
+        "tags": [
+          "typography",
+          "inspiration",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "fontpair",
+          "google-fonts"
+        ],
+        "similarResources": [
+          "fontpair"
+        ],
+        "keyFeatures": [
+          "39 font pairings with short descriptions",
+          "Each pairing has a 'Best for' use case",
+          "Font credits listed per pairing",
+          "Five tips for pairing fonts"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "figma",
+          "fillColor": "#F24E1E",
+          "bgColor": "#ffffff",
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Official Figma site; no dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://www.figma.com/resource-library/font-pairings/",
+          "date": "2026-10-16",
+          "note": "article content, 39 pairings, no sign-in"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "content reuse terms not read",
+        "page carries Figma promotional CTA"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/figma-font-pairings.md",
+        "lint": "pass"
+      }
+    },
+    "figma-make": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Figma Make",
+        "url": "https://www.figma.com/make/",
+        "alive": true,
+        "operator": "Figma, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Starter plan: 'Free limited access to Figma products'; unlimited drafts, 150 AI credits/day up to 500/month",
+        "paidFrom": "Professional full seat $16/mo (monthly; annual price not read)",
+        "evidence": {
+          "url": "https://www.figma.com/pricing/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Figma Terms of Service · commercial: unknown · attribution: n/a · terms not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.figma.com/make/",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "figma-make",
+        "type": "AI Tool",
+        "category": "Design",
+        "title": "Figma Make",
+        "description": "Figma's prompt-to-code tool: describe an app or interaction, start from your designs, and refine the working prototype on the canvas.",
+        "tags": [
+          "ai-tool",
+          "prototyping",
+          "no-code",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "figma"
+        ],
+        "similarResources": [
+          "banani",
+          "visily"
+        ],
+        "keyFeatures": [
+          "Prompt to a working prototype, starting from design context",
+          "Plan mode to review an editable plan before generation",
+          "Attach designs, images, video, audio, text files and PDFs",
+          "Make kits sync npm packages, library styles and guidelines",
+          "Point-and-edit, comments and version history",
+          "Custom skills and MCP connectors"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "figma",
+          "fillColor": "#F24E1E",
+          "bgColor": "#ffffff",
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Official Figma product; no dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://www.figma.com/make/",
+          "date": "2026-10-16",
+          "note": "features; no plan/credit info"
+        },
+        {
+          "url": "https://www.figma.com/pricing/",
+          "date": "2026-10-16",
+          "note": "Starter free plan, AI credits, Professional $16/mo"
+        }
+      ],
+      "unverified": [
+        "Make-specific free usage limits not stated (only AI credits: 150/day, 500/mo)",
+        "Starter plan access to Make not explicitly confirmed",
+        "Terms not read",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/figma-make.md",
+        "lint": "pass"
+      }
+    },
+    "figma-motion": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Free availability conflicts: help article says 'Available on any plan' (open beta) but pricing page lists Motion as beta on Full seats only; it is also a feature of Figma (already in RL as 'figma'), so owner should decide on a sibling entry.",
+      "site": {
+        "name": "Figma Motion",
+        "url": "https://www.figma.com/motion/",
+        "alive": true,
+        "operator": "Figma, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Help center: available on any plan, anyone with can-edit access; per search summary of Config 2026 article, publishing animated components, agent-generated animations and high-res video export need a paid Full seat",
+        "paidFrom": "Professional Full seat $16/mo (monthly billing; annual price not shown)",
+        "evidence": {
+          "url": "https://www.figma.com/pricing/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "First-party Figma product; no safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://www.figma.com/motion/",
+          "date": "2026-10-16",
+          "note": "product description; no plan info"
+        },
+        {
+          "url": "https://www.figma.com/pricing/",
+          "date": "2026-10-16",
+          "note": "Motion/Sites beta Full seats; Professional Full $16/mo"
+        },
+        {
+          "url": "https://help.figma.com/hc/en-us/articles/41274629073303-Explore-Figma-Motion",
+          "date": "2026-10-16",
+          "note": "'Available on any plan'"
+        }
+      ],
+      "unverified": [
+        "Conflict between pricing page (Full seats only, beta) and help center (any plan)",
+        "License/terms not read",
+        "Beta status may change",
+        "Config 2026 article details came via search summary, not read directly"
+      ],
+      "injectionSeen": null
+    },
+    "figma-sites": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Free tier is unclear/weak: pricing page lists Sites as beta on Full seats; help center summary says Starter can build but not publish (publishing needs paid plan). Also a Figma feature (figma already in RL).",
+      "site": {
+        "name": "Figma Sites",
+        "url": "https://www.figma.com/sites/",
+        "alive": true,
+        "operator": "Figma, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Unclear: Starter may design sites but publishing to a live domain reportedly needs a paid plan (search summary of help center, not read directly)",
+        "paidFrom": "Professional Full seat $16/mo (monthly billing)",
+        "evidence": {
+          "url": "https://www.figma.com/pricing/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "First-party Figma product; no safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://www.figma.com/sites/",
+          "date": "2026-10-16",
+          "note": "product description, Beta label, no plan info"
+        },
+        {
+          "url": "https://www.figma.com/pricing/",
+          "date": "2026-10-16",
+          "note": "Sites beta Full seats"
+        },
+        {
+          "url": "https://help.figma.com/hc/en-us/articles/35895970131479-Figma-Sites-collection-Publish-your-Figma-site",
+          "date": "2026-10-16",
+          "note": "publishing limit, via search summary only"
+        }
+      ],
+      "unverified": [
+        "Whether Starter can publish at all (sources conflict)",
+        "License/terms not read",
+        "Beta status"
+      ],
+      "injectionSeen": null
+    },
+    "figma-slides": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Figma Slides",
+        "url": "https://www.figma.com/slides/",
+        "alive": true,
+        "operator": "Figma, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Slides page: 'included with all seats on every plan', so available on free Starter; Starter comparison table shows 5 custom templates; AI features free during beta with usage limits, to become paid at GA; Starter AI credits 150/day, up to 500/mo",
+        "paidFrom": "Professional Full seat $16/mo (monthly billing; annual price not shown)",
+        "evidence": {
+          "url": "https://www.figma.com/pricing/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "First-party Figma product; no safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://www.figma.com/slides/",
+          "date": "2026-10-16",
+          "note": "description, included on every plan, AI beta note"
+        },
+        {
+          "url": "https://www.figma.com/pricing/",
+          "date": "2026-10-16",
+          "note": "Starter limits, Full seat $16/mo"
+        }
+      ],
+      "unverified": [
+        "Exact Starter limits for Slides (only the 5-template line seen)",
+        "License/terms not read (Figma ToS)",
+        "Commercial-use answer not recorded",
+        "Whether the 5 templates figure refers to Starter (inferred from column order)"
+      ],
+      "injectionSeen": null,
+      "license": {
+        "line": "Figma Terms of Service (proprietary) - commercial: not read - attribution: not read - limit: not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.figma.com/slides/",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "figma-slides",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Figma Slides",
+        "description": "Presentation maker inside Figma for design teams, with Figma design tools, plugins, live polls and AI help for copy and notes; free on the Starter plan.",
+        "tags": [
+          "collaboration",
+          "visual-design",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "figma",
+          "figjam"
+        ],
+        "similarResources": [
+          "gamma",
+          "canva"
+        ],
+        "keyFeatures": [
+          "Build decks with Figma's design tools, components and plugins",
+          "Turn a FigJam board into a slide outline",
+          "Embed interactive prototypes in slides",
+          "Run live polls while presenting",
+          "AI tools to edit copy and add presenter notes (free in beta, usage limits)"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "figma",
+          "fillColor": "#F24E1E",
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs (Figma exact match)"
+        },
+        "siblings": []
+      },
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/figma-slides.md",
+        "lint": "pass"
+      }
+    },
+    "figma-to-webflow": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Webflow page could not be fetched (header overflow error twice); free pricing not confirmed first-party; site URL is an affiliate redirect (real page webflow.com/figma-to-webflow, Webflow Labs plugin+app). Likely a feature of Webflow (already in RL), so owner should decide.",
+      "site": {
+        "name": "Figma to Webflow",
+        "url": "https://webflow.com/figma-to-webflow",
+        "alive": true,
+        "operator": "Webflow, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Not confirmed first-party; a third-party blog says plugin works with free Figma",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://webflow.com/figma-to-webflow",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Affiliate link redirects (302) to webflow.com; official Webflow Labs plugin per help center via search"
+      },
+      "sources": [
+        {
+          "url": "https://webflow.partnerlinks.io/toools-figma-webflow",
+          "date": "2026-10-16",
+          "note": "302 redirect to webflow.com/figma-to-webflow with affiliate params"
+        },
+        {
+          "url": "https://help.webflow.com/hc/en-us/articles/33961219609875",
+          "date": "2026-10-16",
+          "note": "plugin and app syncing components/variables/styles, auto layout required, not Safari (search summary)"
+        }
+      ],
+      "unverified": [
+        "Pricing/free status",
+        "License/terms",
+        "Whether Webflow account plan is required"
+      ],
+      "injectionSeen": null
+    },
+    "figma-weave": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Figma Weave",
+        "url": "https://weave.figma.com",
+        "alive": true,
+        "operator": "Figma (inferred from Figma-hosted subdomain; not named on page)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan: 150 monthly credits (about 375 images), 5 workflows, image models; no top-ups, no rollover; video models not on free plan (search summary)",
+        "paidFrom": "Starter $24/month ($202 billed annually per pricing page)",
+        "evidence": {
+          "url": "https://weave.figma.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Platform terms · commercial: yes (page: platform provides full commercial rights; per-model status in Trust Center) · attribution: not stated · limit: individual models have own commercial status",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://weave.figma.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "figma-weave",
+        "type": "AI Tool",
+        "category": "Design",
+        "title": "Figma Weave",
+        "description": "Node-based AI canvas for building repeatable image and creative workflows across many AI models, with editing tools; free plan with monthly credits.",
+        "tags": [
+          "ai-tool",
+          "graphic-design",
+          "automation"
+        ],
+        "relatedResources": [
+          "figma"
+        ],
+        "similarResources": [
+          "adobe-firefly"
+        ],
+        "keyFeatures": [
+          "Node-based workflow canvas for chaining AI generation steps",
+          "Access to multiple AI image models in one place",
+          "Built-in professional editing tools",
+          "Free plan with 150 monthly credits and 5 workflows"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-16: no exact Simple Icons match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Figma-hosted; no dedicated scam search"
+      },
+      "sources": [
+        {
+          "url": "https://weave.figma.com",
+          "date": "2026-10-16",
+          "note": "product description"
+        },
+        {
+          "url": "https://weave.figma.com/pricing",
+          "date": "2026-10-16",
+          "note": "free plan, prices, commercial rights"
+        }
+      ],
+      "unverified": [
+        "operator legal entity not named on page",
+        "no dedicated safety search",
+        "free-plan video restriction from search summary only",
+        "annual price differs between sources; pricing page figure used"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/figma-weave.md",
+        "lint": "pass"
+      }
+    },
+    "figprompt": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "Home and /pricing return only the page title (JS page); no pricing, terms or operator readable. Not bypassed.",
+      "site": {
+        "name": "FigPrompt",
+        "url": "https://figprompt.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://figprompt.com",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://figprompt.com",
+          "date": "2026-10-16",
+          "note": "title only: AI Figma Plugin Architect"
+        },
+        {
+          "url": "https://figprompt.com/pricing",
+          "date": "2026-10-16",
+          "note": "title only"
+        }
+      ],
+      "unverified": [
+        "pricing",
+        "license/terms",
+        "operator",
+        "safety"
+      ],
+      "injectionSeen": null
+    },
+    "figr": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Figr",
+        "url": "https://figr.design",
+        "alive": true,
+        "operator": "Figrfast systems Private Limited"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan $0: 10 credits refreshed monthly, 3 canvases, 1 read-only Context Pod, 500 MB storage, export to Figma/PNG/JPG",
+        "paidFrom": "Starter $32/month (likely yearly billing; $39 monthly)",
+        "evidence": {
+          "url": "https://figr.design/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Terms not read · commercial: unknown · attribution: unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://figr.design",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "figr",
+        "type": "AI Tool",
+        "category": "Design",
+        "title": "Figr",
+        "description": "AI design assistant for product teams that works from your product context to map flows, review UX and produce prototypes and Figma-ready output.",
+        "tags": [
+          "ai-tool",
+          "ui-ux",
+          "prototyping"
+        ],
+        "relatedResources": [
+          "figma"
+        ],
+        "similarResources": [
+          "banani",
+          "visily"
+        ],
+        "keyFeatures": [
+          "Uses product context to ground designs",
+          "Maps user flows and finds edge cases",
+          "UX review of designs",
+          "Prototypes and export to Figma, PNG, JPG",
+          "Free plan with monthly credits"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-16: no exact Simple Icons match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search; pricing FAQ contains unfinished placeholder text about billing"
+      },
+      "sources": [
+        {
+          "url": "https://figr.design",
+          "date": "2026-10-16",
+          "note": "product description, operator"
+        },
+        {
+          "url": "https://figr.design/pricing",
+          "date": "2026-10-16",
+          "note": "plans and free limits"
+        }
+      ],
+      "unverified": [
+        "terms of service and commercial use not read",
+        "free plan permanence not stated explicitly",
+        "monthly vs yearly price labelling ambiguous",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/figr.md",
+        "lint": "pass"
+      }
+    },
+    "figside": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Free 'Chill' plan exists (1 site, 1 page) but footer is (c) 2024, no named operator, and terms restrict commercial use of site materials; confirm aliveness and listing.",
+      "site": {
+        "name": "Figside",
+        "url": "https://figside.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Chill (Free): 1 website, max 1 page per website, one-click publishing, no credit card required",
+        "paidFrom": "Pro $7/month",
+        "evidence": {
+          "url": "https://figside.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Website terms · commercial: site materials restricted to personal non-commercial viewing · attribution: n/a",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://figside.com/terms",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "figside",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Figside",
+        "description": "Turn a Figma design into a live website: paste the project URL and publish in one click. Free plan covers one single-page site.",
+        "tags": [
+          "website-builder",
+          "no-code",
+          "web"
+        ],
+        "relatedResources": [
+          "figma",
+          "framer"
+        ],
+        "similarResources": [
+          "framer",
+          "webflow"
+        ],
+        "keyFeatures": [
+          "Import a Figma project by pasting its URL",
+          "One-click publishing",
+          "Custom domains on Pro",
+          "Free plan: 1 website, 1 page"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-16: no exact Simple Icons match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No named operator; copyright 2024; no safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://figside.com",
+          "date": "2026-10-16",
+          "note": "product, pricing"
+        },
+        {
+          "url": "https://figside.com/terms",
+          "date": "2026-10-16",
+          "note": "terms: links, commercial use"
+        }
+      ],
+      "unverified": [
+        "activity/maintenance status",
+        "operator identity",
+        "safety search not run",
+        "no listing clause found"
+      ],
+      "injectionSeen": null
+    },
+    "figtree": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Figtree",
+        "url": "https://github.com/erikdkennedy/figtree",
+        "alive": true,
+        "operator": "Erik D. Kennedy (GitHub repo owner)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Free open-source font family under the SIL Open Font License 1.1",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://github.com/erikdkennedy/figtree",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "SIL OFL 1.1 · commercial: yes (OFL permits; terms text not read) · attribution: not read · limit: font cannot be sold on its own",
+        "openSource": true,
+        "spdx": "OFL-1.1",
+        "evidence": {
+          "url": "https://github.com/erikdkennedy/figtree",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "figtree",
+        "type": "Font",
+        "category": "Design",
+        "title": "Figtree",
+        "description": "Friendly, open-source geometric sans serif font family released under the SIL Open Font License, free to download from GitHub.",
+        "tags": [
+          "typography",
+          "open-source"
+        ],
+        "relatedResources": [
+          "google-fonts"
+        ],
+        "similarResources": [
+          "datatype",
+          "collletttivo"
+        ],
+        "keyFeatures": [
+          "Friendly sans serif for UI and web text",
+          "Source files hosted openly on GitHub",
+          "Licensed under SIL OFL 1.1",
+          "Free to use in your own projects"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-16: no Simple Icons match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "GitHub repo with 270 commits; no dedicated scam search"
+      },
+      "sources": [
+        {
+          "url": "https://github.com/erikdkennedy/figtree",
+          "date": "2026-10-16",
+          "note": "repo page, OFL-1.1 license, 270 commits"
+        }
+      ],
+      "unverified": [
+        "designer attribution not on page",
+        "last commit date",
+        "OFL full terms not read",
+        "Google Fonts availability not confirmed (page returned no detail)",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/figtree.md",
+        "lint": "pass"
+      }
+    },
+    "fillout": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Fillout",
+        "url": "https://www.fillout.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free forever plan: unlimited forms and seats, up to 1,000 responses/month, unlimited uploads (20 MB max file), Fillout branding; no CAPTCHA, premium fields, custom themes",
+        "paidFrom": "Starter $15/month, or $180 billed annually",
+        "evidence": {
+          "url": "https://www.fillout.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: not read · terms not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.fillout.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "fillout",
+        "type": "Tool",
+        "category": "Productivity",
+        "title": "Fillout",
+        "description": "Form, survey and quiz builder that also covers scheduling, payments, e-signatures and PDFs, with a free plan of up to 1,000 responses a month.",
+        "tags": [
+          "no-code",
+          "productivity"
+        ],
+        "relatedResources": [
+          "airtable"
+        ],
+        "similarResources": [
+          "coda"
+        ],
+        "keyFeatures": [
+          "Build forms, surveys and quizzes",
+          "Scheduling, payments, e-signatures and PDF handling",
+          "Free plan with unlimited forms and seats",
+          "Up to 1,000 responses per month on the free plan"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "fillout",
+          "fillColor": "#FFC738",
+          "bgColor": null,
+          "source": "Simple Icons via check-icon.mjs 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/fillout/",
+          "date": "2026-10-16",
+          "note": "own site link fillout.com"
+        },
+        {
+          "url": "https://www.fillout.com/pricing",
+          "date": "2026-10-16",
+          "note": "free plan limits, Starter price"
+        }
+      ],
+      "unverified": [
+        "terms/commercial use not read",
+        "operator name",
+        "no dedicated safety search",
+        "feature list taken from directory description, not features page",
+        "bgColor to be chosen"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/fillout.md",
+        "lint": "pass"
+      }
+    },
+    "fimo": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Fimo",
+        "url": "https://fimo.ai",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free $0/mo: up to 3 sites and 3 members, 5,000 AI credits, 1 agent-hour, 5 GB bandwidth, 1 GB media storage monthly; usage pauses at limits",
+        "paidFrom": "Pro $149/month (Pay as you go $0 plus usage)",
+        "evidence": {
+          "url": "https://fimo.ai/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: not read · terms not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://fimo.ai",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "fimo",
+        "type": "AI Tool",
+        "category": "Design",
+        "title": "Fimo",
+        "description": "AI website builder where agents handle SEO, translations and content refreshes, with visual editing, a CMS and a free plan for up to 3 sites.",
+        "tags": [
+          "ai-tool",
+          "website-builder",
+          "no-code"
+        ],
+        "relatedResources": [
+          "framer"
+        ],
+        "similarResources": [
+          "lovable",
+          "typedream"
+        ],
+        "keyFeatures": [
+          "Visual editing of multi-page, content-rich sites",
+          "AI agents for SEO, translations and content refreshes",
+          "Agent changes land in a branch for review",
+          "Code stays in a repo you control",
+          "Free plan with up to 3 sites"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-16: no Simple Icons match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://fimo.ai",
+          "date": "2026-10-16",
+          "note": "what it is, free sign-up"
+        },
+        {
+          "url": "https://fimo.ai/pricing",
+          "date": "2026-10-16",
+          "note": "plans and free limits"
+        }
+      ],
+      "unverified": [
+        "operator not named",
+        "terms/commercial use not read",
+        "no dedicated safety search",
+        "site logo not fetched"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/fimo.md",
+        "lint": "pass"
+      }
+    },
+    "finddataset": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Paid dataset ($99 one-time, listed $149); only a free sample file, no permanent free tier; operator unnamed",
+      "site": {
+        "name": "FindDataSet",
+        "url": "https://finddataset.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": "Free sample file only (5,000+ rows, 41 columns; page also says 5,000-row)",
+        "paidFrom": "$99 one-time (founder deal; regular $149)",
+        "evidence": {
+          "url": "https://finddataset.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Operator not identified; data scraped from public directories (own claim); no dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/finddataset/",
+          "date": "2026-10-16",
+          "note": "own site link"
+        },
+        {
+          "url": "https://finddataset.com",
+          "date": "2026-10-16",
+          "note": "pricing, sample, FAQ"
+        }
+      ],
+      "unverified": [
+        "operator identity",
+        "data provenance/legality",
+        "license/terms"
+      ],
+      "injectionSeen": null
+    },
+    "findlytools": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Curated directory of tools; operator unnamed, no pricing for visitors shown, free-tier permanence unclear, and it is a directory competing with RL's own purpose.",
+      "site": {
+        "name": "FindlyTools",
+        "url": "https://findly.tools/",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Digitool lists 'Free plan available'; findly.tools home shows paid submission/review services ($59 / $79) and no clear visitor plan",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://findly.tools/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://findly.tools/",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated safety search; operator not named"
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/findlytools-2/",
+          "date": "2026-10-16",
+          "note": "resolved own site"
+        },
+        {
+          "url": "https://findly.tools/",
+          "date": "2026-10-16",
+          "note": "description, paid services"
+        }
+      ],
+      "unverified": [
+        "operator",
+        "terms page",
+        "free plan details",
+        "safety search"
+      ],
+      "injectionSeen": null
+    },
+    "firecrawl": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Firecrawl",
+        "url": "https://www.firecrawl.dev",
+        "alive": true,
+        "operator": "SideGuide Technologies, Inc. d/b/a Firecrawl (Delaware)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "1,000 credits per month, refreshed monthly, no credit card (about 500 searches or 1,000 pages scraped); 2 concurrent requests/browsers; rate limits 10/min scrape, map, search and 2/min crawl, agent, interact",
+        "paidFrom": "Hobby $16/month billed annually ($19 monthly), 5,000 credits",
+        "evidence": {
+          "url": "https://www.firecrawl.dev/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "AGPL-3.0 for the open-source repo (SDKs and some UI components MIT); hosted service under Firecrawl Terms of Service · commercial: per ToS, not read in detail · attribution: n/a · limit: ToS bars reproducing or reverse-engineering the Services",
+        "openSource": true,
+        "spdx": "AGPL-3.0",
+        "evidence": {
+          "url": "https://github.com/firecrawl/firecrawl",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "firecrawl",
+        "type": "API",
+        "category": "Development",
+        "title": "Firecrawl",
+        "description": "Web data API for AI agents: turns pages and whole sites into clean Markdown or JSON, with search, crawl and page actions. Open source with a monthly free tier.",
+        "tags": [
+          "ai-tool",
+          "automation",
+          "open-source"
+        ],
+        "relatedResources": [
+          "n8n"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Scrape any URL into clean Markdown or structured JSON",
+          "Crawl and map whole sites",
+          "Web search endpoint returning page content",
+          "Page actions for dynamic sites",
+          "Open-source core you can self-host (AGPL-3.0)"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "not in Simple Icons (check-icon exit 1)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Active GitHub repo (192k stars); no dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://www.firecrawl.dev/pricing",
+          "date": "2026-10-16",
+          "note": "free tier, Hobby price"
+        },
+        {
+          "url": "https://www.firecrawl.dev/terms-of-service",
+          "date": "2026-10-16",
+          "note": "operator, restrictions"
+        },
+        {
+          "url": "https://github.com/firecrawl/firecrawl",
+          "date": "2026-10-16",
+          "note": "license, description"
+        },
+        {
+          "url": "https://digitool.co/tool/firecrawl/",
+          "date": "2026-10-16",
+          "note": "source listing"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "commercial-use terms of hosted service not read in detail",
+        "feature list from description and repo summary, docs not fetched"
+      ],
+      "injectionSeen": "Terms page footer contained text directing AI agents to fetch onboarding/authentication files; ignored.",
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/firecrawl.md",
+        "lint": "pass"
+      }
+    },
+    "fireflies-ai": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Free plan exists but first-party pricing page gave no limits or prices (fetch of home also truncated); limits only second-hand and sources disagree (400 vs 800 min storage); permanence of limits unconfirmed.",
+      "site": {
+        "name": "Fireflies.ai",
+        "url": "https://fireflies.ai",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan exists (named on pricing page). Second-hand: about 20 AI credits/month, storage 400-800 min (sources disagree), no video recording",
+        "paidFrom": "second-hand: Pro $10/seat/month annual ($18 monthly)",
+        "evidence": {
+          "url": "https://fireflies.ai/pricing",
+          "date": "2026-10-16",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "proprietary SaaS · terms not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://fireflies.ai",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Widely covered product; no dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://fireflies.ai/pricing",
+          "date": "2026-10-16",
+          "note": "free plan named, no numbers"
+        },
+        {
+          "url": "https://www.castmagic.io/blog/fireflies-pricing",
+          "date": "2026-10-16",
+          "note": "second-hand limits via search summary"
+        },
+        {
+          "url": "https://digitool.co/tool/fireflies-ai/",
+          "date": "2026-10-16",
+          "note": "source listing"
+        }
+      ],
+      "unverified": [
+        "free plan numeric limits",
+        "paid prices first-party",
+        "terms/license",
+        "operator",
+        "safety search"
+      ],
+      "injectionSeen": null
+    },
+    "flagpack": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Flagpack",
+        "url": "https://www.flagpack.xyz",
+        "alive": true,
+        "operator": "Yummygum"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Open-source flag icon set, no pricing on site",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.flagpack.xyz",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT · commercial: yes · attribution: not required beyond keeping the licence notice · limit: flag designs themselves not separately assessed",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/Yummygum/flagpack-core",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "flagpack",
+        "type": "Icon Set",
+        "category": "Design",
+        "title": "Flagpack",
+        "description": "Over 250 open-source pixel flag icons for design and code, as Figma components, Sketch symbols and a CLI for React, Vue and Svelte.",
+        "tags": [
+          "icon-library",
+          "open-source",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "iconmonster"
+        ],
+        "similarResources": [
+          "akar-icons",
+          "bootstrap-icons"
+        ],
+        "keyFeatures": [
+          "250+ country flag icons in a consistent pixel style",
+          "Figma components and Sketch symbols",
+          "CLI for React, Vue and Svelte projects",
+          "SVG source in an MIT-licensed GitHub repo"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "not in Simple Icons (check-icon exit 1)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Maintained by Yummygum, 2026 copyright; repo 650 stars, 163 commits; no dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://www.flagpack.xyz",
+          "date": "2026-10-16",
+          "note": "description, formats, operator"
+        },
+        {
+          "url": "https://github.com/Yummygum/flagpack-core",
+          "date": "2026-10-16",
+          "note": "MIT licence"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "last commit date",
+        "SVG export format wording not confirmed on site",
+        "Adobe XD version listed as coming soon"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/flagpack.md",
+        "lint": "pass"
+      }
+    },
+    "flair": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Flair",
+        "url": "https://flair.ai",
+        "alive": true,
+        "operator": "Flair AI (per page footer; legal entity not named)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan shown as $0 forever: 1 custom model, 5 generated images, 1 video generation; instant image and ad generation count 4x against the image quota",
+        "paidFrom": "Pro $8/month (monthly price; annual discount mentioned but not priced)",
+        "evidence": {
+          "url": "https://flair.ai/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: a company commercial license is listed only on Scale ($38/mo) and Enterprise; free-plan commercial rights not stated · attribution: not stated",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://flair.ai/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "flair",
+        "type": "AI Tool",
+        "category": "Design",
+        "title": "Flair",
+        "description": "AI product photography and mockup tool: stage products in generated scenes with drag-and-drop, on-model shots and ads. Small free plan, paid tiers from $8/mo.",
+        "tags": [
+          "ai-tool",
+          "graphic-design",
+          "social-media-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "dynamic-mockups",
+          "adobe-firefly",
+          "alai"
+        ],
+        "keyFeatures": [
+          "Drag-and-drop staging of product photos in AI-generated scenes",
+          "On-model fashion photography with AI human models",
+          "Ad and product video generation",
+          "Templates and real-time team collaboration",
+          "Custom models trained on your products (1 on the free plan)"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-16: no Simple Icons match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Search 2026-10-16 found no scam/shutdown/acquisition news; Trustpilot (Mar 2026) shows mixed reviews on pricing and support, company replies publicly."
+      },
+      "sources": [
+        {
+          "url": "https://flair.ai",
+          "date": "2026-10-16",
+          "note": "product description, copyright 2025 Flair AI"
+        },
+        {
+          "url": "https://flair.ai/pricing",
+          "date": "2026-10-16",
+          "note": "plans, free tier limits, prices"
+        },
+        {
+          "url": "https://ca.trustpilot.com/review/flair.ai",
+          "date": "2026-10-16",
+          "note": "search hit only, second-hand"
+        }
+      ],
+      "unverified": [
+        "Terms of service not read; whether free-plan output may be used commercially",
+        "Legal entity and location of operator",
+        "Annual prices"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/flair.md",
+        "lint": "pass"
+      }
+    },
+    "flaticon": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Flaticon",
+        "url": "https://www.flaticon.com",
+        "alive": true,
+        "operator": "Freepik Company (not confirmed on pages read)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free accounts: PNG downloads only, 3 collections of up to 50 icons each, ads shown, must credit Flaticon and the author; exact daily free download cap not stated",
+        "paidFrom": "Premium 637.42 INR/month billed 7,649.00 INR per 12 months (849.00 INR monthly); page showed INR for the fetch locale",
+        "evidence": {
+          "url": "https://www.flaticon.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Flaticon free license · commercial: allowed within the usage rules (client work mentioned) · attribution: required on free plan ('Designed by Flaticon' / author credit) · limit: PNG only, no SVG on free",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.flaticon.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "flaticon",
+        "type": "Icon Set",
+        "category": "Design",
+        "title": "Flaticon",
+        "description": "Huge library of vector icons in packs. Free accounts download PNGs with attribution; Premium unlocks SVG and no ads.",
+        "tags": [
+          "icon-library",
+          "stock-vectors",
+          "royalty-free"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "boxicons",
+          "bootstrap-icons",
+          "akar-icons"
+        ],
+        "keyFeatures": [
+          "Over 2 million icons grouped in tens of thousands of packs (home page count)",
+          "Free account downloads in PNG with author credit",
+          "Premium adds SVG, EPS, PSD and BASE64 formats",
+          "Collections to organise icons, 3 on the free plan",
+          "Built-in icon editor"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-16: no Simple Icons match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Long-running well-known site; dedicated safety search not run (Tier A budget)."
+      },
+      "sources": [
+        {
+          "url": "https://www.flaticon.com/pricing",
+          "date": "2026-10-16",
+          "note": "free vs premium limits, attribution, prices"
+        },
+        {
+          "url": "https://www.flaticon.com",
+          "date": "2026-10-16",
+          "note": "icon and pack counts from input description (not re-fetched)"
+        }
+      ],
+      "unverified": [
+        "Terms of use returned HTTP 403; linking/listing clause not read",
+        "Exact free daily download limit",
+        "Operator name",
+        "Home page not fetched; counts come from input description",
+        "Safety search not run"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/flaticon.md",
+        "lint": "pass"
+      }
+    },
+    "fleck-ai": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Free plan is $0 but gives one-time starter credits (100) with a card required at signup; unclear whether it is a permanent free tier.",
+      "site": {
+        "name": "Fleck AI",
+        "url": "https://fleck.ai",
+        "alive": true,
+        "operator": "Fleck AI Ltd (Company No. 16802778, London UK, per footer)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free $0 'no subscription': 100 starter credits one time, up to 5 AI screens, 1 project, no daily credits, 1 idea analysis/month, 25 mentor messages, 1 portfolio. Page says 'Card required' (hero: never charged; pricing: $0 today)",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://fleck.ai",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://fleck.ai",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://fleck.ai",
+          "date": "2026-10-16",
+          "note": "product, free plan, footer entity"
+        }
+      ],
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Search 2026-10-16 returned nothing about Fleck AI (no scam or shutdown hits, also no independent coverage)."
+      },
+      "unverified": [
+        "Paid plan prices",
+        "Terms of service not read",
+        "Whether free credits recur or are one-time only",
+        "Card-required wording inconsistent on page"
+      ],
+      "injectionSeen": null
+    },
+    "flickr": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "flickr.com and its pricing/upgrade pages returned HTTP 502 Bad Gateway on three attempts; free tier could not be confirmed first-party.",
+      "site": {
+        "name": "Flickr",
+        "url": "https://www.flickr.com",
+        "alive": null,
+        "operator": "SmugMug (per 2018 TechCrunch; not confirmed first-party)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Second-hand only: a 2026 third-party guide says free accounts are capped at 1,000 items; not confirmed on Flickr",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.multcloud.com/tutorials/flickr-upload-limit-1003.html",
+          "date": "2026-10-16",
+          "confidence": "second-hand"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.flickr.com",
+          "date": "2026-10-16",
+          "note": "HTTP 502"
+        },
+        {
+          "url": "https://www.flickr.com/pricing",
+          "date": "2026-10-16",
+          "note": "HTTP 502"
+        },
+        {
+          "url": "https://www.flickr.com/account/upgrade/pro",
+          "date": "2026-10-16",
+          "note": "HTTP 502"
+        },
+        {
+          "url": "https://www.multcloud.com/tutorials/flickr-upload-limit-1003.html",
+          "date": "2026-10-16",
+          "note": "third-party search result on free cap"
+        }
+      ],
+      "unverified": [
+        "Free tier limits",
+        "Pro price",
+        "Terms",
+        "Current operator",
+        "Site availability (502 may be transient); Simple Icons has 'flickr' (#0063DC) if retried and listed"
+      ],
+      "injectionSeen": null
+    },
+    "fliiipbook": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Site describes a GIF animation app (Start Animating button, GIF export) but states no pricing, terms or operator company; free status rests on the directory label only.",
+      "site": {
+        "name": "FliiipBook",
+        "url": "https://www.fliiipbook.com",
+        "alive": true,
+        "operator": "Personal project (links to jonathan.now); no company named"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.fliiipbook.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.fliiipbook.com",
+          "date": "2026-10-16",
+          "note": "tagline, 24 frames, onion skinning, GIF export"
+        },
+        {
+          "url": "https://www.fliiipbook.com/animate",
+          "date": "2026-10-16",
+          "note": "Export GIF option; no paywall text seen"
+        }
+      ],
+      "unverified": [
+        "free status (no pricing statement)",
+        "terms/privacy",
+        "sign-in requirement",
+        "no safety search run"
+      ],
+      "injectionSeen": null
+    },
+    "fliki": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Fliki",
+        "url": "https://fliki.ai",
+        "alive": true,
+        "operator": "Nine Thirty Five LLC (Delaware, USA)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free forever plan: 3 credits/month, 5 minutes of free audio and video per month, 720p export with Fliki watermark, up to 100 scenes per video, 300 standard voices in 80+ languages, no credit card. Commercial rights not included.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://fliki.ai/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS (Fliki Terms) · commercial: not on free plan (subscription plans only) · attribution: Fliki watermark on free exports · limit: users keep rights to their content; Fliki trademarks may not be used",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://fliki.ai/terms",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "fliki",
+        "type": "AI Tool",
+        "category": "Filming",
+        "title": "Fliki",
+        "description": "Turns text, scripts or blog posts into videos with AI voiceover in 80+ languages; free plan gives 5 minutes of 720p export per month with a watermark.",
+        "tags": [
+          "ai-tool",
+          "social-media-design"
+        ],
+        "relatedResources": [
+          "invideo-ai",
+          "creatify"
+        ],
+        "similarResources": [
+          "invideo-ai"
+        ],
+        "keyFeatures": [
+          "Text-to-video with a scene-based editor (up to 100 scenes on free)",
+          "300 standard AI voices across 80+ languages on the free plan",
+          "Free plan exports 720p with a Fliki watermark",
+          "Commercial rights only on paid subscriptions"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No shutdown/acquisition found; customer-service and refund complaints on Trustpilot/AppSumo (self-reported)"
+      },
+      "sources": [
+        {
+          "url": "https://fliki.ai/pricing",
+          "date": "2026-10-16",
+          "note": "free plan limits"
+        },
+        {
+          "url": "https://fliki.ai/terms",
+          "date": "2026-10-16",
+          "note": "operator, content rights, trademark clause"
+        },
+        {
+          "url": "https://www.trustpilot.com/review/fliki.ai",
+          "date": "2026-10-16",
+          "note": "web search: no scam/shutdown hits, support complaints"
+        }
+      ],
+      "unverified": [
+        "lowest paid price not shown in fetched page",
+        "commercial rights on free plan taken from comparison table/FAQ summary"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/fliki.md",
+        "lint": "pass"
+      }
+    },
+    "flint": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Enterprise marketing product (landing pages and Google Ads agent); pricing page lists only custom-priced Enterprise plans, no free tier. Site moved from tryflint.com to flint.com.",
+      "site": {
+        "name": "Flint",
+        "url": "https://www.flint.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.flint.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.tryflint.com",
+          "date": "2026-10-16",
+          "note": "308 redirect to flint.com"
+        },
+        {
+          "url": "https://www.flint.com/",
+          "date": "2026-10-16",
+          "note": "product description"
+        },
+        {
+          "url": "https://www.flint.com/pricing",
+          "date": "2026-10-16",
+          "note": "only Enterprise 360 and Enterprise, custom pricing"
+        }
+      ],
+      "unverified": [
+        "last 7.6k chars of home page not read",
+        "operator",
+        "no safety search"
+      ],
+      "injectionSeen": null
+    },
+    "flixier": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Flixier",
+        "url": "https://flixier.com",
+        "alive": true,
+        "operator": "Flixier SRL (Iasi, Romania)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan: 10 min video export/month, 5 min subtitles/month, 720p, 2 GB storage, 500 AI credits, limited stock library, Flixier watermark. Page does not say 'permanent' but says the watermark is how the free plan is kept free.",
+        "paidFrom": "Starter listed at INR 813 per seat per month on the India-localised page; billing period unclear",
+        "evidence": {
+          "url": "https://flixier.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS (Flixier Terms) · commercial: not stated for free exports; Flixier may limit commercial use of some AI outputs · attribution: Flixier watermark on free exports · limit: no reselling platform access, no scraping",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://flixier.com/terms",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "flixier",
+        "type": "Tool",
+        "category": "Filming",
+        "title": "Flixier",
+        "description": "Browser-based video editor with cloud rendering, subtitles and AI tools; the free plan exports 10 minutes a month in 720p with a watermark.",
+        "tags": [
+          "ai-tool",
+          "social-media-design"
+        ],
+        "relatedResources": [
+          "invideo-ai",
+          "adobe-express"
+        ],
+        "similarResources": [
+          "invideo-ai"
+        ],
+        "keyFeatures": [
+          "Timeline video editor that runs in the browser",
+          "Free plan: 10 min export and 5 min subtitles per month, 720p",
+          "500 AI credits and 2 GB storage on the free plan",
+          "Stock library (limited on free)"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://flixier.com/pricing",
+          "date": "2026-10-16",
+          "note": "free plan limits, starter price"
+        },
+        {
+          "url": "https://flixier.com/terms",
+          "date": "2026-10-16",
+          "note": "operator, AI output clause"
+        }
+      ],
+      "unverified": [
+        "free plan permanence not explicitly stated",
+        "commercial use of free exports",
+        "paid price in USD and billing period",
+        "no safety search",
+        "tags approximate; no video-editing tag exists"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/flixier.md",
+        "lint": "pass"
+      }
     }
   }
 }
