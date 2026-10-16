@@ -11227,6 +11227,1231 @@
         "feature list based on pricing page and input description"
       ],
       "injectionSeen": null
+    },
+    "beautiful-things": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Free tier not stated on site or terms; terms grant only personal non-commercial viewing of content and mention paid subscriptions/credits; operator unnamed.",
+      "site": {
+        "name": "Beautiful Things",
+        "url": "https://www.beautifulthings.xyz",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.beautifulthings.xyz/terms",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Site terms · commercial: no (content licensed for personal non-commercial viewing) · attribution: n/a · no reproduction or distribution without written permission",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.beautifulthings.xyz/terms",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://www.beautifulthings.xyz",
+          "date": "2026-10-16",
+          "note": "catalog of 3D objects for Apple Vision Pro; links to App Store app, Discord"
+        },
+        {
+          "url": "https://www.beautifulthings.xyz/terms",
+          "date": "2026-10-16",
+          "note": "paying subscriber/credits clause; personal non-commercial content license"
+        }
+      ],
+      "unverified": [
+        "what is free vs paid",
+        "operator identity",
+        "pricing amounts",
+        "whether 3D models can be downloaded free",
+        "no safety search"
+      ],
+      "injectionSeen": null
+    },
+    "beautiful-ui": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Beautiful UI",
+        "url": "https://beautifului.dev",
+        "alive": true,
+        "operator": "Turbo (product design studio); copyright holder Shane Levine"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All 21 components free to copy; no plans or prices shown on the site",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://beautifului.dev",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT · commercial: yes · attribution: copyright and permission notice must be kept in copies · limit: no warranty",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://beautifului.dev/license",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "beautiful-ui",
+        "type": "Library",
+        "category": "Development",
+        "title": "Beautiful UI",
+        "description": "Copy-paste UI components for AI-native interfaces: chat, streaming text, approval cards, tool chips, diff tables and agent screens. MIT licensed.",
+        "tags": [
+          "ui-ux",
+          "open-source",
+          "ai-tool"
+        ],
+        "relatedResources": [
+          "typeui",
+          "aceternity-ui",
+          "ai-interaction-atlas"
+        ],
+        "similarResources": [
+          "aceternity-ui",
+          "arc-ui"
+        ],
+        "keyFeatures": [
+          "21 components built for AI product interfaces",
+          "Chat, prompt bar and streaming text patterns",
+          "Approval cards, tool chips and task rows for agent workflows",
+          "Diff, records and filter tables",
+          "Agent screen and flowchart examples",
+          "MIT licensed and free to copy"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-16: no Simple Icons match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search run; built by Turbo studio"
+      },
+      "sources": [
+        {
+          "url": "https://beautifului.dev",
+          "date": "2026-10-16",
+          "note": "component list, tagline, Turbo credit, no prices"
+        },
+        {
+          "url": "https://beautifului.dev/license",
+          "date": "2026-10-16",
+          "note": "MIT, Copyright 2026 Shane Levine"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "install method (copy-paste vs registry) not read",
+        "logo/icon not found"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/beautiful-ui.md",
+        "lint": "pass"
+      }
+    },
+    "beautiful-web-type": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Beautiful Web Type",
+        "url": "https://beautifulwebtype.com",
+        "alive": true,
+        "operator": "Chad Mazzola"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Curated guide to open-source typefaces; no sign-in, no prices",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://beautifulwebtype.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Site source MIT (GitHub ubuwaits/beautiful-web-type) · commercial: yes for listed fonts, which the site says are SIL Open Font License · attribution: per font · limit: font terms set by each foundry",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/ubuwaits/beautiful-web-type",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "beautiful-web-type",
+        "type": "Website",
+        "category": "Design",
+        "title": "Beautiful Web Type",
+        "description": "A curated guide to open-source typefaces for the web, sorted into serif, sans-serif, display and mono, with example font pairings.",
+        "tags": [
+          "typography",
+          "open-source",
+          "inspiration"
+        ],
+        "relatedResources": [
+          "google-fonts",
+          "fontpair"
+        ],
+        "similarResources": [
+          "fontpair"
+        ],
+        "keyFeatures": [
+          "About 41 typefaces grouped as serif, sans-serif, display and monospaced",
+          "Each font credited to its designer or foundry",
+          "Latest pairings shown in sample layouts",
+          "Atom feed and an archived v1 of the site",
+          "Source on GitHub"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-16: no Simple Icons match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search run; changelog entry 20 Mar 2026 seen"
+      },
+      "sources": [
+        {
+          "url": "https://beautifulwebtype.com",
+          "date": "2026-10-16",
+          "note": "sections, counts (Serif 9, Sans 19, Display 9, Mono 4), operator"
+        },
+        {
+          "url": "https://github.com/ubuwaits/beautiful-web-type",
+          "date": "2026-10-16",
+          "note": "MIT repo; fonts under SIL OFL per page"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "OFL claim for all fonts is the site's statement, not checked per font",
+        "MIT covers site code, not fonts",
+        "no icon found"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/beautiful-web-type.md",
+        "lint": "pass"
+      }
+    },
+    "bee-free": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Beefree email builder is now RGE Studio (Really Good Emails); Starter $0 plan exists but the pricing page does not say it is permanent, and a 15-day trial is also offered. Owner to decide on rename and listing.",
+      "site": {
+        "name": "BEE Free (now RGE Studio)",
+        "url": "https://beefree.io",
+        "alive": true,
+        "operator": "Bee Content Design, Inc. (part of Growens); RGE Studio under Really Good Emails"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Starter $0: up to 10 designs, 6 exports per month, landing page builder, custom subdomain (permanence not stated)",
+        "paidFrom": "Professional $25/mo billed yearly ($30/mo monthly)",
+        "evidence": {
+          "url": "https://reallygoodemails.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: not read · attribution: n/a",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://reallygoodemails.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "beefree.io banner: The Beefree email builder is now RGE Studio; /pricing 301s to reallygoodemails.com; no dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://beefree.io",
+          "date": "2026-10-16",
+          "note": "rename banner, operator footer"
+        },
+        {
+          "url": "https://reallygoodemails.com/pricing",
+          "date": "2026-10-16",
+          "note": "plans and prices"
+        }
+      ],
+      "unverified": [
+        "free plan permanence",
+        "terms/license not read",
+        "no safety search"
+      ],
+      "injectionSeen": null
+    },
+    "beehiiv": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "beehiiv",
+        "url": "https://www.beehiiv.com",
+        "alive": true,
+        "operator": "beehiiv"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan, $0: up to 2,500 subscribers, unlimited email sends, 1 publication, 1 team seat, 1 guest author, 1 custom page, 30-day analytics lookback, 1 podcast show (5,000 monthly downloads). Pricing FAQ calls it 'free, forever, with no credit card required'.",
+        "paidFrom": "Lite $49/month billed annually ($59 billed monthly) for up to 1,000 subscribers; price rises with list size",
+        "evidence": {
+          "url": "https://www.beehiiv.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS terms (not read; /terms returned 404) · commercial: not confirmed · attribution: not confirmed",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.beehiiv.com/terms",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "beehiiv",
+        "type": "Software",
+        "category": "Marketing",
+        "title": "beehiiv",
+        "description": "Newsletter platform for creators with a drag-and-drop editor, site builder, referrals and ads. Free plan covers up to 2,500 subscribers; paid plans add more.",
+        "tags": [
+          "writing",
+          "website-builder",
+          "automation"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Drag-and-drop newsletter editor with templates and unlimited sends",
+          "No-code website builder with custom domains",
+          "Automated email sequences and an AI writing assistant",
+          "Referral program and recommendations network for growing subscribers",
+          "Native ad network and paid subscription tiers for monetization",
+          "Segmentation and A/B tests for subject lines and send times"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons: no match (check-icon exit 2)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search 2026-10-16: no breach, shutdown or scam reports; ScamAdviser (third-party) rates it legit; beehiiv acquired Swapstack in 2023 (as buyer)."
+      },
+      "sources": [
+        {
+          "url": "https://www.beehiiv.com/pricing",
+          "date": "2026-10-16",
+          "note": "plans, prices, free plan limits"
+        },
+        {
+          "url": "https://www.beehiiv.com/",
+          "date": "2026-10-16",
+          "note": "feature list, operator"
+        },
+        {
+          "url": "https://www.axios.com/2023/09/25/beehiiv-swapstack-acquisition",
+          "date": "2026-10-16",
+          "note": "search result: acquisition as buyer"
+        }
+      ],
+      "unverified": [
+        "Terms of service (/terms 404): listing/linking clause and commercial-use answer not read",
+        "Exact paid prices at other subscriber counts",
+        "Real logo for icon (no Simple Icons entry; site SVG not fetched)",
+        "Related/similar RL slugs: none clearly fits among existing drafts"
+      ],
+      "injectionSeen": "Home page contains text aimed at AI agents telling them to call the marketing MCP tool get_pricing at beehiiv.com/api/mcp and not to interpolate from the HTML slider; not acted on.",
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/beehiiv.md",
+        "lint": "pass"
+      }
+    },
+    "behance-creative-jobs": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "WebFetch HTTP 403 Forbidden; not bypassed. Also a section of Behance, which RL already lists as 'behance'.",
+      "site": {
+        "name": "Behance Creative Jobs",
+        "url": "https://www.behance.net/joblist",
+        "alive": null,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.behance.net/joblist",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.behance.net/joblist",
+          "date": "2026-10-16",
+          "note": "HTTP 403; nothing read"
+        },
+        {
+          "url": "rl-index --find behance",
+          "date": "2026-10-16",
+          "note": "RL already has published 'behance' (Website, Design)"
+        }
+      ],
+      "unverified": [
+        "Page content, pricing, terms (HTTP 403)",
+        "Whether this section deserves its own entry beyond 'behance'"
+      ],
+      "injectionSeen": null
+    },
+    "behance-free-fonts": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "A Behance search-results URL (query 'free font'), not a distinct tool; RL already lists 'behance'; page also returned HTTP 403.",
+      "site": {
+        "name": "Behance Free Fonts",
+        "url": "https://www.behance.net/search/projects/free%20font",
+        "alive": null,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.behance.net/search/projects/free%20font",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.behance.net/search/projects/free%20font",
+          "date": "2026-10-16",
+          "note": "HTTP 403 (same host as Behance); nothing read"
+        },
+        {
+          "url": "rl-index --find behance",
+          "date": "2026-10-16",
+          "note": "RL already has published 'behance'"
+        }
+      ],
+      "unverified": [
+        "Page content (HTTP 403)"
+      ],
+      "injectionSeen": null
+    },
+    "behance-motion": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "WebFetch HTTP 403 Forbidden; not bypassed. Gallery section of Behance, which RL already lists as 'behance'.",
+      "site": {
+        "name": "Behance Motion",
+        "url": "https://www.behance.net/galleries/motion",
+        "alive": null,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.behance.net/galleries/motion",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.behance.net/galleries/motion",
+          "date": "2026-10-16",
+          "note": "HTTP 403; nothing read"
+        },
+        {
+          "url": "rl-index --find behance",
+          "date": "2026-10-16",
+          "note": "RL already has published 'behance'"
+        }
+      ],
+      "unverified": [
+        "Page content, pricing, terms (HTTP 403)",
+        "Whether this section deserves its own entry beyond 'behance'"
+      ],
+      "injectionSeen": null
+    },
+    "behance-photography": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Gallery section of Behance, which RL already lists as 'behance' (published); the page also returns HTTP 403 to fetch, not bypassed.",
+      "site": {
+        "name": "Behance Photography",
+        "url": "https://www.behance.net/galleries/photography",
+        "alive": true,
+        "operator": "Adobe (Behance)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.behance.net/galleries/photography",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.behance.net/galleries/photography",
+          "date": "2026-10-16",
+          "note": "HTTP 403 on fetch"
+        },
+        {
+          "url": "scripts/rl-index.mjs --find Behance",
+          "date": "2026-10-16",
+          "note": "existing RL resource 'behance'"
+        }
+      ],
+      "unverified": [
+        "page content not read (403)",
+        "no safety search"
+      ],
+      "injectionSeen": null
+    },
+    "bencho": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "Site is JS-rendered: fetches of home and /pricing return only the page title, so pricing and license could not be read first-party. Third-party listings call it freemium, unconfirmed.",
+      "site": {
+        "name": "Bencho",
+        "url": "https://bencho.dev",
+        "alive": true,
+        "operator": "Lorenzo Cabra (per third-party listing, unconfirmed)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://bencho.dev",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://bencho.dev",
+          "date": "2026-10-16",
+          "note": "title only: Interactive React UI Components & Micro-interactions"
+        },
+        {
+          "url": "https://bencho.dev/pricing",
+          "date": "2026-10-16",
+          "note": "title only"
+        },
+        {
+          "url": "https://www.nocodesupply.co/item/bencho",
+          "date": "2026-10-16",
+          "note": "second-hand description, no pricing"
+        },
+        {
+          "url": "web search: Bencho bencho.dev",
+          "date": "2026-10-16",
+          "note": "third-party listings: freemium, creator Lorenzo Cabra"
+        }
+      ],
+      "unverified": [
+        "pricing and free-tier limits",
+        "license for copied code",
+        "operator",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null
+    },
+    "bento-craft": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Native iPad/Mac/Vision app, not a web resource. App Store lists it Free with in-app purchases (weekly/monthly/lifetime passes); what the free tier allows is not stated, so a permanent usable free tier is unconfirmed. Owner to decide type fit.",
+      "site": {
+        "name": "Bento|Craft",
+        "url": "https://thatvirtualboy.com/bentocraft",
+        "alive": true,
+        "operator": "rakTech LLC (App Store seller; support@raktech.app on page)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "App download is free; free-tier feature limits not stated on the pages read",
+        "paidFrom": "Weekly Pass $1.99; Monthly Pass $4.99; Lifetime Pass $59.99; icon packs $0.99 each (App Store US, 2026-10-16)",
+        "evidence": {
+          "url": "https://apps.apple.com/us/app/bento-craft/id6468541457",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Not stated (App Store app; EULA not read)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://apps.apple.com/us/app/bento-craft/id6468541457",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://thatvirtualboy.com/bentocraft",
+          "date": "2026-10-16",
+          "note": "Apple-style bento graphics maker: templates, Canvas, PNG/JPEG/PDF export; iPad and Vision Pro"
+        },
+        {
+          "url": "https://apps.apple.com/us/app/bento-craft/id6468541457",
+          "date": "2026-10-16",
+          "note": "Free, in-app purchases list, iPadOS 17 / macOS 14 (M1+), version 2026.6.1 Jun 3"
+        }
+      ],
+      "unverified": [
+        "what the free tier includes",
+        "export watermark or limits",
+        "commercial use of output",
+        "safety search"
+      ],
+      "injectionSeen": null
+    },
+    "bentogrids": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "JS-rendered: home and /templates return only the page title; /terms is 404. A web search snippet claims a 2024 creator post said the site may shut down (unconfirmed), so liveness and free terms cannot be verified.",
+      "site": {
+        "name": "BentoGrids",
+        "url": "https://bentogrids.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://bentogrids.com",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://bentogrids.com",
+          "date": "2026-10-16",
+          "note": "title only"
+        },
+        {
+          "url": "https://bentogrids.com/templates",
+          "date": "2026-10-16",
+          "note": "title only"
+        },
+        {
+          "url": "https://bentogrids.com/terms",
+          "date": "2026-10-16",
+          "note": "HTTP 404"
+        },
+        {
+          "url": "web search: bentogrids.com",
+          "date": "2026-10-16",
+          "note": "second-hand: curated bento gallery, free templates page, possible shutdown note on X (unconfirmed; X fetch returned 402)"
+        }
+      ],
+      "unverified": [
+        "operator",
+        "pricing and terms",
+        "whether the site is being shut down",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null
+    },
+    "berd": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Berd",
+        "url": "https://berd.xyz",
+        "alive": true,
+        "operator": "Block (open source, github.com/block/berd)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Open-source desktop app, free to read, build and fork; connected AI agent backends may have their own costs",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://github.com/block/berd",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Apache-2.0 · commercial: yes · attribution: license and notices must be kept · limit: no warranty; reports say external pull requests are not accepted",
+        "openSource": true,
+        "spdx": "Apache-2.0",
+        "evidence": {
+          "url": "https://github.com/block/berd",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "berd",
+        "type": "App",
+        "category": "Development",
+        "title": "Berd",
+        "description": "Open-source desktop app from Block for working with AI agents, with projects, sessions and playful agent characters. Apache-2.0.",
+        "tags": [
+          "ai-tool",
+          "open-source",
+          "productivity"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Desktop app built with Tauri 2 and React 19",
+          "Connects to a Goose backend over an ACP WebSocket (press reports also name Claude Code and Codex)",
+          "Groups conversations, files, instructions and skills into persistent projects (press report)",
+          "Gives each agent a distinct visual character (press report)",
+          "Source on GitHub under Apache-2.0"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Not in Simple Icons (check-icon, 2026-10-16)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Web search shows coverage of Block open-sourcing Berd in Aug 2026; no scam or shutdown hits"
+      },
+      "sources": [
+        {
+          "url": "https://berd.xyz",
+          "date": "2026-10-16",
+          "note": "tagline: weird, playful desktop app for building with AI agents"
+        },
+        {
+          "url": "https://github.com/block/berd",
+          "date": "2026-10-16",
+          "note": "Apache-2.0, Block org, Tauri 2 + React 19, Goose via ACP"
+        },
+        {
+          "url": "https://cryptobriefing.com/block-open-sources-berd-ai-agent-app/",
+          "date": "2026-10-16",
+          "note": "second-hand: open-sourced Aug 18 2026, platforms, features (via search summary)"
+        }
+      ],
+      "unverified": [
+        "supported OS list (press says macOS, Windows, Linux; repo does not state it)",
+        "Claude Code/Codex support and Gloopies characters are second-hand",
+        "no releases listed on GitHub page",
+        "berd.xyz shows no pricing page"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/berd.md",
+        "lint": "pass"
+      }
+    },
+    "berlin-design-conferences": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Events listing of external Berlin conferences, not a tool or resource with its own free tier; page has no pricing; ticket prices are per external event",
+      "site": {
+        "name": "Berlin Design Network",
+        "url": "https://berlin-design-network.org/events/conferences",
+        "alive": true,
+        "operator": "Berlin Design e.V."
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://berlin-design-network.org/events/conferences",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://berlin-design-network.org/events/conferences",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://berlin-design-network.org/events/conferences",
+          "date": "2026-10-16",
+          "note": "listing of 2026/2027 Berlin events linking to organizers; footer Berlin Design e.V."
+        }
+      ],
+      "unverified": [
+        "whether any listed event is free",
+        "terms/imprint not read"
+      ],
+      "injectionSeen": null
+    },
+    "best-website-gallery": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Curated web-design gallery (since 2008, ~2643 sites, by David Hellmann); Free label from directory only, page states no pricing and Legal notice/Privacy were not read. Looks free to browse; confirm it is acceptable to list as free",
+      "site": {
+        "name": "Best Website Gallery",
+        "url": "https://bestwebsite.gallery",
+        "alive": true,
+        "operator": "David Hellmann"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Browsing appears open; no paywall or plans visible on home page",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://bestwebsite.gallery",
+          "date": "2026-10-16",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://bestwebsite.gallery",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "best-website-gallery",
+        "type": "Website",
+        "category": "Design",
+        "title": "Best Website Gallery",
+        "description": "Hand-picked gallery of well-designed websites, curated since 2008, with a Site of the Day and a links section for web design inspiration.",
+        "tags": [
+          "inspiration",
+          "web",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "awwwards",
+          "dribbble",
+          "a1-gallery"
+        ],
+        "similarResources": [
+          "awwwards",
+          "a1-gallery",
+          "archives-design"
+        ],
+        "keyFeatures": [
+          "Curated sites section (about 2,643 listed per footer)",
+          "Site of the Day feature",
+          "Separate Links section",
+          "Tag browsing (tag list failed to load when read)"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "not checked in Simple Icons beyond name; none assumed"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://bestwebsite.gallery",
+          "date": "2026-10-16",
+          "note": "home: Sites/Links nav, managed by David Hellmann, 2008-2026, 2643 sites"
+        }
+      ],
+      "unverified": [
+        "free permanence and terms",
+        "no safety search",
+        "icon not checked",
+        "subpages not read"
+      ],
+      "injectionSeen": null
+    },
+    "bestfolios": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "www.bestfolios.com returned empty content to fetch; bare host has a Squarespace certificate mismatch; not bypassed. Second-hand sources (Hongkiat, AlternativeTo) call it a free portfolio/resume gallery",
+      "site": {
+        "name": "Bestfolios",
+        "url": "https://www.bestfolios.com",
+        "alive": null,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.alternativeto.net/software/bestfolios/about/",
+          "date": "2026-10-16",
+          "confidence": "second-hand"
+        }
+      },
+      "safety": {
+        "https": false,
+        "clonerisk": "checked-ok",
+        "notes": "Bare host bestfolios.com cert mismatch (Squarespace wildcard); www page empty"
+      },
+      "sources": [
+        {
+          "url": "https://www.hongkiat.com/blog/bestfolios-inspiration/",
+          "date": "2026-10-16",
+          "note": "second-hand: gallery of designer portfolios by UX/graphic/motion category"
+        },
+        {
+          "url": "https://www.alternativeto.net/software/bestfolios/about/",
+          "date": "2026-10-16",
+          "note": "second-hand: listed as free"
+        }
+      ],
+      "unverified": [
+        "site alive and content",
+        "pricing and terms first-party",
+        "operator"
+      ],
+      "injectionSeen": null
+    },
+    "betalist": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Browsing and newsletter are free, but submitting a startup is paid per BetaList's support page (older guides say free); owner should decide if a free-to-browse directory with paid submissions fits the Free label.",
+      "site": {
+        "name": "BetaList",
+        "url": "https://betalist.com",
+        "alive": true,
+        "operator": "Marc Köhlbrugge (founder, per his 10-year retrospective; not stated on the site)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Browsing, search and daily newsletter appear without paywall; no sign-in seen for browsing",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://betalist.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "[not read] terms page not fetched",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://betalist.com",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Long-running directory (founder says 10 years); no scam hits seen in one search"
+      },
+      "sources": [
+        {
+          "url": "https://betalist.com",
+          "date": "2026-10-16",
+          "note": "home: startup discovery, newsletter, categories, jobs"
+        },
+        {
+          "url": "https://betalist.com/submit",
+          "date": "2026-10-16",
+          "note": "submit leads to login, no fee shown"
+        },
+        {
+          "url": "https://betalist.com/support",
+          "date": "2026-10-16",
+          "note": "via search: all submissions paid"
+        },
+        {
+          "url": "https://typefully.com/marckohlbrugge/10-years-of-betalist-Uq3vYQJ",
+          "date": "2026-10-16",
+          "note": "via search: founder, paid review history"
+        }
+      ],
+      "unverified": [
+        "terms/license page not read",
+        "current submission price (only shown inside form; search gave conflicting figures)",
+        "operator not stated on site itself"
+      ],
+      "injectionSeen": null
+    },
+    "better-studio": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "No permanent free plan visible: only a one-time free sample pack on request; pricing page not read; product is now a footwear-brand content pack service.",
+      "site": {
+        "name": "Better Studio",
+        "url": "https://www.betterstudio.io",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "One-time free sample pack from one 3D shoe scan; no permanent free plan stated",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.betterstudio.io",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Search: no shutdown reports for betterstudio.io; a different company (betterstudio.com, WordPress vendor) has scam complaints, not this one; ScamAdviser notes hidden WHOIS owner and recent registration (second-hand)"
+      },
+      "sources": [
+        {
+          "url": "https://www.betterstudio.io",
+          "date": "2026-10-16",
+          "note": "home: product, free sample pack only"
+        },
+        {
+          "url": "https://www.scamadviser.com/check-website/betterstudio.io",
+          "date": "2026-10-16",
+          "note": "via search: WHOIS hidden, recent registration"
+        }
+      ],
+      "unverified": [
+        "/pricing not read",
+        "operator not named",
+        "third-party listing says freemium, not confirmed first-party"
+      ],
+      "injectionSeen": null
+    },
+    "better-web-type": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "The free 7-day email course is offline ('back in 2027'); remaining offer is a paid book (search: $49.95 digital, $79.95 print, date unconfirmed).",
+      "site": {
+        "name": "Better Web Type",
+        "url": "https://betterwebtype.com",
+        "alive": true,
+        "operator": "Matej Latin"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free course temporarily offline; blog/resources pages, whether free not stated",
+        "paidFrom": "Book $49.95 digital (second-hand, may be outdated)",
+        "evidence": {
+          "url": "https://betterwebtype.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Site copyright 2026; no safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://betterwebtype.com",
+          "date": "2026-10-16",
+          "note": "home: course offline, book, author"
+        },
+        {
+          "url": "https://betterwebtype.com/web-typography-book/",
+          "date": "2026-10-16",
+          "note": "via search: book prices"
+        }
+      ],
+      "unverified": [
+        "book price current",
+        "no dedicated safety search",
+        "terms not read"
+      ],
+      "injectionSeen": null
+    },
+    "beui": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "beUI",
+        "url": "https://beui.dev",
+        "alive": true,
+        "operator": "Saurabh Chauhan (starc007), per site footer 'Created by Saurabh' and GitHub; no legal entity named"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free MIT library: components, blocks, charts and AI interface components via a public shadcn registry; site lists 143 components",
+        "paidFrom": "beUI Pro lifetime: $179 on beui.dev, but pro.beui.dev shows $149 (sale) and $129 on its pricing page; unresolved",
+        "evidence": {
+          "url": "https://beui.dev",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT (free library) · commercial: yes · attribution: copyright and license notice must stay in copies · limit: Pro is a separate paid license",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/starc007/ui-components",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "beui",
+        "type": "Library",
+        "category": "Development",
+        "title": "beUI",
+        "description": "Free MIT-licensed animated React components built on Motion and Tailwind, copied into your project or installed through the shadcn CLI.",
+        "tags": [
+          "open-source",
+          "ui-ux",
+          "design-systems",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Copy-paste animated React components for React 19 and Tailwind CSS 4",
+          "Install through a public shadcn registry with one CLI command",
+          "Blocks, charts and AI agent interface components alongside motion components",
+          "Docs for coding agents with registry endpoints and llms.txt",
+          "Optional paid beUI Pro adds 300+ blocks and templates"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Not in Simple Icons (check-icon exit 1, 2026-10-16)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Active repo (639 commits, 1.8k stars); no dedicated scam search; pricing inconsistency noted"
+      },
+      "sources": [
+        {
+          "url": "https://beui.dev",
+          "date": "2026-10-16",
+          "note": "home: free vs Pro, MIT, shadcn install, creator"
+        },
+        {
+          "url": "https://beui.dev/docs/ai-agents",
+          "date": "2026-10-16",
+          "note": "component counts, Pro $179 lifetime, agent guide"
+        },
+        {
+          "url": "https://github.com/starc007/ui-components",
+          "date": "2026-10-16",
+          "note": "LICENSE MIT, author, stars"
+        },
+        {
+          "url": "https://pro.beui.dev/components/pricing",
+          "date": "2026-10-16",
+          "note": "via search: conflicting Pro prices"
+        }
+      ],
+      "unverified": [
+        "Pro price (179/149/129 conflict)",
+        "no dedicated safety search",
+        "last commit date",
+        "pro.beui.dev license terms"
+      ],
+      "injectionSeen": "Site has a 'For coding agents' guide (/docs/ai-agents) and llms.txt telling agents which install slugs to pick; ordinary docs, not followed.",
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/beui.md",
+        "lint": "pass"
+      }
     }
   }
 }

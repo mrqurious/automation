@@ -4547,7 +4547,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "avatune",
       "priority": "P2",
       "hasResearch": true
     },
@@ -4599,7 +4599,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "avvvatars",
       "priority": "P2",
       "hasResearch": true
     },
@@ -5031,7 +5031,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "barnimages",
       "priority": "P2",
       "hasResearch": true
     },
@@ -5057,7 +5057,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "base44",
       "priority": "P2",
       "hasResearch": true
     },
@@ -5083,7 +5083,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "basecamp",
       "priority": "P2",
       "hasResearch": true
     },
@@ -5182,12 +5182,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Free tier not stated on site or terms; terms grant only personal non-commercial viewing of content and mention paid subscriptions/credits; operator unnamed.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "beautiful-ui",
@@ -5208,12 +5208,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "beautiful-web-type",
@@ -5234,12 +5234,12 @@
           "file": "Best Free Font Libraries and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "beautiful-ai",
@@ -5286,12 +5286,12 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Beefree email builder is now RGE Studio (Really Good Emails); Starter $0 plan exists but the pricing page does not say it is permanent, and a 15-day trial is also offered. Owner to decide on rename and listing.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "beehiiv",
@@ -5312,12 +5312,12 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "behance",
@@ -5371,12 +5371,12 @@
           "file": "Best Design Communities for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "WebFetch HTTP 403 Forbidden; not bypassed. Also a section of Behance, which RL already lists as 'behance'.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "behance-free-fonts",
@@ -5397,12 +5397,12 @@
           "file": "Best Free Font Libraries and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "A Behance search-results URL (query 'free font'), not a distinct tool; RL already lists 'behance'; page also returned HTTP 403.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "behance-motion",
@@ -5423,12 +5423,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "WebFetch HTTP 403 Forbidden; not bypassed. Gallery section of Behance, which RL already lists as 'behance'.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "behance-photography",
@@ -5449,12 +5449,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Gallery section of Behance, which RL already lists as 'behance' (published); the page also returns HTTP 403 to fetch, not bypassed.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "bencho",
@@ -5475,12 +5475,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Site is JS-rendered: fetches of home and /pricing return only the page title, so pricing and license could not be read first-party. Third-party listings call it freemium, unconfirmed.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "bento-craft",
@@ -5501,12 +5501,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Native iPad/Mac/Vision app, not a web resource. App Store lists it Free with in-app purchases (weekly/monthly/lifetime passes); what the free tier allows is not stated, so a permanent usable free tier is unconfirmed. Owner to decide type fit.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "bentogrids",
@@ -5527,12 +5527,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "JS-rendered: home and /templates return only the page title; /terms is 404. A web search snippet claims a 2024 creator post said the site may shut down (unconfirmed), so liveness and free terms cannot be verified.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "berd",
@@ -5553,12 +5553,12 @@
           "file": "Productivity Tools for Design and Product Teams.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "berlin-design-conferences",
@@ -5579,12 +5579,12 @@
           "file": "Best Design Communities for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Events listing of external Berlin conferences, not a tool or resource with its own free tier; page has no pricing; ticket prices are per external event",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "best-website-gallery",
@@ -5605,12 +5605,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Curated web-design gallery (since 2008, ~2643 sites, by David Hellmann); Free label from directory only, page states no pricing and Legal notice/Privacy were not read. Looks free to browse; confirm it is acceptable to list as free",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "bestfolios",
@@ -5631,12 +5631,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "www.bestfolios.com returned empty content to fetch; bare host has a Squarespace certificate mismatch; not bypassed. Second-hand sources (Hongkiat, AlternativeTo) call it a free portfolio/resume gallery",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "betalist",
@@ -5657,12 +5657,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Browsing and newsletter are free, but submitting a startup is paid per BetaList's support page (older guides say free); owner should decide if a free-to-browse directory with paid submissions fits the Free label.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "better-studio",
@@ -5683,12 +5683,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "No permanent free plan visible: only a one-time free sample pack on request; pricing page not read; product is now a footwear-brand content pack service.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "better-web-type",
@@ -5709,12 +5709,12 @@
           "file": "Best Free Font Libraries and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "The free 7-day email course is offline ('back in 2027'); remaining offer is a paid book (search: $49.95 digital, $79.95 print, date unconfirmed).",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "beui",
@@ -5735,12 +5735,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "beyond-ui",
@@ -59927,15 +59927,15 @@
     "byStatus": {
       "deferred-trial": 232,
       "deferred-paid": 217,
-      "blocked": 55,
-      "drafted": 72,
-      "rejected": 38,
+      "blocked": 65,
+      "drafted": 77,
+      "rejected": 43,
       "in-rl": 33,
       "researched": 5,
-      "todo": 1627
+      "todo": 1607
     },
     "todoByPriority": {
-      "P2": 1537,
+      "P2": 1517,
       "P3": 89,
       "P1": 1
     }

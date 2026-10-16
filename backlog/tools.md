@@ -10,13 +10,13 @@ Generated 2026-10-16 by `scripts/backlog-build.mjs` from `backlog/tools-list.jso
 
 | Status | Count | Meaning |
 |---|---:|---|
-| `todo` | 1627 | in the research queue (free / freemium / beta) |
+| `todo` | 1607 | in the research queue (free / freemium / beta) |
 | `in-rl` | 33 | already in ResourcesList (matched by site or slug) — skip, maybe use for related/similar links |
 | `deferred-paid` | 217 | labelled **Paid** only — parked |
 | `deferred-trial` | 232 | labelled **Free Trial** only — parked until a real free tier is confirmed |
-| `researching` / `researched` / `drafted` / `rejected` / `blocked` | 0 / 5 / 72 / 38 / 55 | set by research sessions |
+| `researching` / `researched` / `drafted` / `rejected` / `blocked` | 0 / 5 / 77 / 43 / 65 | set by research sessions |
 
-Queue by priority: **P1** 1 (free/freemium, listed on 2+ pages) · **P2** 1537 (free/freemium, 1 page) · **P3** 89 (beta).
+Queue by priority: **P1** 1 (free/freemium, listed on 2+ pages) · **P2** 1517 (free/freemium, 1 page) · **P3** 89 (beta).
 
 ## What happens if a tool is not processed (and why)
 
@@ -153,8 +153,8 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Ava Studio | avastudio.com | Freemium | 1 | P2 | blocked |
 | Avaaatars | avaaatars.com | Free | 1 | P2 | blocked |
 | Avataaars | avataaars.com | Free | 1 | P2 | blocked |
-| Avatune | avatune.dev | Free | 1 | P2 | researched |
-| Avvvatars | avvvatars.com | Free | 1 | P2 | researched |
+| Avatune | avatune.dev | Free | 1 | P2 | drafted |
+| Avvvatars | avvvatars.com | Free | 1 | P2 | drafted |
 | Awin | awin.com | Free + Paid | 1 | P2 | rejected |
 | Awwwards Blog | awwwards.com | Free | 1 | P2 | blocked |
 | Awwwards Conference Talks | awwwards.com | Free + Paid | 1 | P2 | blocked |
@@ -165,12 +165,32 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Balsa UI | balsa-ui.com | Free | 1 | P2 | blocked |
 | Banani | getbanani.link | Freemium / Free tier listed | 2 | P1 | drafted |
 | BARKOD | barkod.studio | Free | 1 | P2 | blocked |
-| Barnimages | barnimages.com | Free | 1 | P2 | researched |
-| Base44 | base44.pxf.io | Freemium | 1 | P2 | researched |
-| Basecamp | basecamp.com | Freemium | 1 | P2 | researched |
+| Barnimages | barnimages.com | Free | 1 | P2 | drafted |
+| Base44 | base44.pxf.io | Freemium | 1 | P2 | drafted |
+| Basecamp | basecamp.com | Freemium | 1 | P2 | drafted |
 | Basic Pattern Repository | patterns.helloyes.dev | Free | 1 | P2 | blocked |
 | Basicons | basicons.com |  | 1 | P3 | blocked |
 | Beacons | beacons.ai | Freemium | 1 | P2 | blocked |
+| Beautiful Things | beautifulthings.xyz | Free + Paid | 1 | P2 | blocked |
+| Beautiful UI | beautifului.dev | Free | 1 | P2 | researched |
+| Beautiful Web Type | beautifulwebtype.com | Free | 1 | P2 | researched |
+| BEE Free | beefree.io | Freemium | 1 | P2 | blocked |
+| beehiiv | beehiiv.com | Freemium | 1 | P2 | researched |
+| Behance Creative Jobs | behance.net | Free + Paid | 1 | P2 | blocked |
+| Behance Free Fonts | behance.net | Free | 1 | P2 | rejected |
+| Behance Motion | behance.net | Free | 1 | P2 | blocked |
+| Behance Photography | behance.net | Free | 1 | P2 | rejected |
+| Bencho | bencho.dev | Free | 1 | P2 | blocked |
+| Bento\|Craft | thatvirtualboy.com | Free + Paid | 1 | P2 | blocked |
+| BentoGrids | bentogrids.com | Free | 1 | P2 | blocked |
+| Berd | berd.xyz | Free | 1 | P2 | researched |
+| Berlin Design Conferences | berlin-design-network.org | Free | 1 | P2 | rejected |
+| Best Website Gallery | bestwebsite.gallery | Free | 1 | P2 | blocked |
+| Bestfolios | bestfolios.com | Free | 1 | P2 | blocked |
+| BetaList | betalist.com | Free | 1 | P2 | blocked |
+| Better Studio | betterstudio.io | Freemium | 1 | P2 | rejected |
+| Better Web Type | betterwebtype.com | Free + Paid | 1 | P2 | rejected |
+| beUI | beui.dev | Free + Paid | 1 | P2 | researched |
 | Brevo | brevo.com | Free tier listed / Freemium | 2 | P1 | blocked |
 | BYQ | app.byq.supply | Free + Paid | 2 | P1 | drafted |
 | Canva Whiteboards | canva.com | Free + Paid / Freemium | 2 | P1 | blocked |
@@ -207,13 +227,12 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Visily | visily.ai | Freemium | 2 | P1 | drafted |
 | Wispr Flow | ref.wisprflow.ai | Free tier listed / Freemium | 2 | P1 | drafted |
 
-## Research queue (1627)
+## Research queue (1607)
 
-### Best AI Design Tools for Designers (193)
+### Best AI Design Tools for Designers (192)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Better Studio | betterstudio.io | Freemium | 1 | P2 |
 | Blend | blendnow.com | Freemium | 1 | P2 |
 | Blink | blink.new | Freemium | 1 | P2 |
 | Bloom | trybloom.ai | Freemium | 1 | P2 |
@@ -558,12 +577,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Webflow Blog | webflow.partnerlinks.io | Free | 1 | P2 |
 | Wepresent | wepresent.wetransfer.com | Free | 1 | P2 |
 
-### Best Design Communities for Designers (41)
+### Best Design Communities for Designers (39)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Behance Creative Jobs | behance.net | Free + Paid | 1 | P2 |
-| Berlin Design Conferences | berlin-design-network.org | Free | 1 | P2 |
 | Contra | contra.com | Free | 1 | P2 |
 | Creative Lunch Club | creativelunchclub.com | Free | 1 | P2 |
 | Creative Mornings | creativemornings.com | Free | 1 | P2 |
@@ -604,12 +621,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | WeLoveProduct | weloveproduct.co | Freemium | 1 | P2 |
 | Woody | woodyjobs.com | Freemium | 1 | P2 |
 
-### Best Design Tools Across Disciplines (186)
+### Best Design Tools Across Disciplines (184)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Beautiful Things | beautifulthings.xyz | Free + Paid | 1 | P2 |
-| Bento\|Craft | thatvirtualboy.com | Free + Paid | 1 | P2 |
 | Bitgrain | bitgrain.diptanshumahish.in | Freemium | 1 | P2 |
 | Brandfetch | brandfetch.io | Freemium | 1 | P2 |
 | Brandpad | brandpad.io | Freemium | 1 | P2 |
@@ -795,13 +810,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Sesame | sesame.design | Beta | 1 | P3 |
 | Visual | visual.app | Beta | 1 | P3 |
 
-### Best Free Font Libraries and Inspiration for Designers (84)
+### Best Free Font Libraries and Inspiration for Designers (81)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Beautiful Web Type | beautifulwebtype.com | Free | 1 | P2 |
-| Behance Free Fonts | behance.net | Free | 1 | P2 |
-| Better Web Type | betterwebtype.com | Free + Paid | 1 | P2 |
 | Birdfont | birdfont.org | Free + Paid | 1 | P2 |
 | bouffont | meodai.github.io | Free | 1 | P2 |
 | Collletttivo | collletttivo.it | Free | 1 | P2 |
@@ -1024,13 +1036,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Wannathis Mockups | wannathis.one | Free + Paid | 1 | P2 |
 | WhiteUI.Store | gumroad.com | Free + Paid | 1 | P2 |
 
-### Best No-Code Website Builders (113)
+### Best No-Code Website Builders (110)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Beautiful UI | beautifului.dev | Free | 1 | P2 |
-| Bencho | bencho.dev | Free | 1 | P2 |
-| beUI | beui.dev | Free + Paid | 1 | P2 |
 | Bilt | bilt.me | Freemium | 1 | P2 |
 | Blocs | blocsapp.com | Freemium | 1 | P2 |
 | Bravo | bravostudio.app | Freemium | 1 | P2 |
@@ -1310,17 +1319,11 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Zen Flowchart | zenflowchart.com | Freemium | 1 | P2 |
 | Stratify | trystratify.com | Beta | 1 | P3 |
 
-### Design Inspiration Sites for UI, Web, Graphic & Branding (159)
+### Design Inspiration Sites for UI, Web, Graphic & Branding (153)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
 | Nicelydone | nicelydone.club | Free Trial / Free tier listed | 2 | P1 |
-| Behance Motion | behance.net | Free | 1 | P2 |
-| Behance Photography | behance.net | Free | 1 | P2 |
-| BentoGrids | bentogrids.com | Free | 1 | P2 |
-| Best Website Gallery | bestwebsite.gallery | Free | 1 | P2 |
-| Bestfolios | bestfolios.com | Free | 1 | P2 |
-| BetaList | betalist.com | Free | 1 | P2 |
 | Book Cover Archive | bookcoverarchive.com | Free | 1 | P2 |
 | Boring Websites | boringwebsites.info | Free | 1 | P2 |
 | Brand Archive | brandarchive.xyz | Freemium | 1 | P2 |
@@ -1761,12 +1764,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | uxtoast | uxtoast.com | Free | 1 | P2 |
 | We are Colorblind | wearecolorblind.com | Free | 1 | P2 |
 
-### Marketing Tools for Designers & Creative Teams (87)
+### Marketing Tools for Designers & Creative Teams (85)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| BEE Free | beefree.io | Freemium | 1 | P2 |
-| beehiiv | beehiiv.com | Freemium | 1 | P2 |
 | BigSpy | bigspy.com | Freemium | 1 | P2 |
 | Bio.fm | bio.fm | Freemium | 1 | P2 |
 | Bitly | bitly.com | Freemium | 1 | P2 |
@@ -1853,11 +1854,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Flodesk Studio | studio.flodesk.com | Beta | 1 | P3 |
 | Pomelli | labs.google.com | Beta | 1 | P3 |
 
-### Productivity Tools for Design and Product Teams (63)
+### Productivity Tools for Design and Product Teams (62)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Berd | berd.xyz | Free | 1 | P2 |
 | BrandBird | brandbird.app | Freemium | 1 | P2 |
 | Bubbles | usebubbles.com | Freemium | 1 | P2 |
 | Clueso | clueso.io | Freemium | 1 | P2 |
