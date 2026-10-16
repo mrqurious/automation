@@ -7214,6 +7214,1252 @@
         "file": "src/content/resources/android-design-hub.md",
         "lint": "pass"
       }
+    },
+    "anima": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Free plan exists (5 chat messages, 5 Figma imports/website clones, 5 plugin code generations) but pricing page does not say whether it is permanent or one-time; ToS is a PDF not read.",
+      "site": {
+        "name": "Anima",
+        "url": "https://www.animaapp.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan: 5 chat messages in AI Playground, 5 Figma design imports or website clones, 5 code generations in Figma plugin; permanence not stated",
+        "paidFrom": "Enterprise from $500/mo paid annually (only paid plan shown)",
+        "evidence": {
+          "url": "https://www.animaapp.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": null
+      },
+      "sources": [
+        {
+          "url": "https://www.animaapp.com/pricing",
+          "date": "2026-10-16",
+          "note": "plans and free limits"
+        },
+        {
+          "url": "https://www.animaapp.com",
+          "date": "2026-10-16",
+          "note": "product description; terms link is a PDF"
+        }
+      ],
+      "unverified": [
+        "Whether free plan limits are lifetime or recurring",
+        "Terms of Use PDF not read",
+        "Operator legal entity",
+        "Simple Icons has no Anima logo (check-icon exit 1)"
+      ],
+      "injectionSeen": null
+    },
+    "animant": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "iOS app (App Store CTA); no pricing, free plan or trial shown; Animant Cloud only on Enterprise plans. No permanent free tier confirmed.",
+      "site": {
+        "name": "Animant",
+        "url": "https://animantlabs.com/animant/",
+        "alive": true,
+        "operator": "Animant Labs"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://animantlabs.com/animant/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "animant.co 301-redirects to animantlabs.com"
+      },
+      "sources": [
+        {
+          "url": "https://animantlabs.com/animant/",
+          "date": "2026-10-16",
+          "note": "product page, no pricing"
+        }
+      ],
+      "unverified": [
+        "App Store pricing / in-app purchases not checked"
+      ],
+      "injectionSeen": null
+    },
+    "animate-anything": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Anything World Individual plan is $0 but limited to students/personal and orgs under $100K revenue/funding; permanence not stated; domain moved to everythinguniver.se (Everything Universe).",
+      "site": {
+        "name": "Animate Anything (Anything World)",
+        "url": "https://app.anything.world/animation-rigging",
+        "alive": true,
+        "operator": "Anything World"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Individual $0, 1 seat, 'Free for Students & personal', no stated cap on 3D models/animations; requires revenue or funding under $100K in last 12 months",
+        "paidFrom": "Micro $50/mo (5 seats)",
+        "evidence": {
+          "url": "https://everythinguniver.se/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "anything.world 301-redirects to everythinguniver.se"
+      },
+      "sources": [
+        {
+          "url": "https://everythinguniver.se/pricing",
+          "date": "2026-10-16",
+          "note": "plan table"
+        },
+        {
+          "url": "https://app.anything.world/animation-rigging",
+          "date": "2026-10-16",
+          "note": "page returned only 'Everything Universe'"
+        }
+      ],
+      "unverified": [
+        "Free plan permanence",
+        "Terms not read",
+        "Whether animation-rigging is still offered as a separate product",
+        "Icon not checked"
+      ],
+      "injectionSeen": null
+    },
+    "animateai": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "No permanent free plan: Standard is $5.99 first-week trial then $39.99/mo, Pro $99.99/mo, plus one-time credit packs; free only as daily-login bonus on paid plans.",
+      "site": {
+        "name": "AnimateAI",
+        "url": "https://animateai.pro",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "$5.99 first week trial, then $39.99/month",
+        "evidence": {
+          "url": "https://animateai.pro/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "operator not named on site"
+      },
+      "sources": [
+        {
+          "url": "https://animateai.pro/pricing",
+          "date": "2026-10-16",
+          "note": "plans"
+        },
+        {
+          "url": "https://animateai.pro",
+          "date": "2026-10-16",
+          "note": "home"
+        }
+      ],
+      "unverified": [
+        "Operator",
+        "Whether 'Get Started for Free' grants any free credits"
+      ],
+      "injectionSeen": null
+    },
+    "animejs": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Anime.js",
+        "url": "https://animejs.com",
+        "alive": true,
+        "operator": "Julian Garnier"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Fully free open-source library; home page says it is 100% free and funded by sponsors.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://animejs.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT · commercial: yes · attribution: license notice kept in copies · no stated limit",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://raw.githubusercontent.com/juliangarnier/anime/master/LICENSE.md",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "animejs",
+        "type": "Library",
+        "category": "Development",
+        "title": "Anime.js",
+        "description": "Free, MIT-licensed JavaScript animation library for the web: CSS properties, SVG, DOM attributes and JS objects, with timelines, stagger and scroll sync.",
+        "tags": [
+          "web",
+          "open-source",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "aceternity-ui",
+          "codepen"
+        ],
+        "similarResources": [
+          "emilkowalski-skills"
+        ],
+        "keyFeatures": [
+          "Simple animation API for CSS, SVG, DOM attributes and JS objects",
+          "Individual CSS transform properties that can be blended",
+          "Scroll Observer to sync or trigger animations on scroll",
+          "Built-in stagger utility for sequenced effects",
+          "SVG toolset: shape morphing, motion paths and line drawing"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "animedotjs",
+          "fillColor": "#000000",
+          "bgColor": null,
+          "source": "Simple Icons (check-icon.mjs 2026-10-16)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Official GitHub repo juliangarnier/anime (73.6k stars) matches the site; no shutdown reports seen (no dedicated scam search run)."
+      },
+      "sources": [
+        {
+          "url": "https://animejs.com",
+          "date": "2026-10-16",
+          "note": "tagline, 100% free, sponsors, features, (c) 2026 Julian Garnier"
+        },
+        {
+          "url": "https://github.com/juliangarnier/anime",
+          "date": "2026-10-16",
+          "note": "MIT label, 73.6k stars"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/juliangarnier/anime/master/LICENSE.md",
+          "date": "2026-10-16",
+          "note": "MIT, Julian Garnier"
+        }
+      ],
+      "unverified": [
+        "Latest version number not labelled (page header lists 4.0.0, 3.2.2, 2.1.0)",
+        "Last commit date not shown",
+        "No separate scam/shutdown search done"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/animejs.md",
+        "lint": "pass"
+      }
+    },
+    "animos": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "Home and /pricing return only a title (JS-rendered page); pricing and terms unreadable. Third-party sources conflict (free 'for the next while' vs paid).",
+      "site": {
+        "name": "Animos",
+        "url": "https://animos.app",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://animos.app/pricing",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://animos.app",
+          "date": "2026-10-16",
+          "note": "only page title returned"
+        },
+        {
+          "url": "https://animos.app/pricing",
+          "date": "2026-10-16",
+          "note": "no content returned"
+        },
+        {
+          "url": "https://toolradar.com/tools/animos-app",
+          "date": "2026-10-16",
+          "note": "second-hand, conflicting pricing claims via web search"
+        }
+      ],
+      "unverified": [
+        "Pricing, free plan and limits",
+        "License/terms",
+        "Operator",
+        "Retry later or ask owner to check in a browser"
+      ],
+      "injectionSeen": null
+    },
+    "animoto": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "animoto.com returned HTTP 403 to fetch (bot check); pricing and free tier unreadable. Not bypassed.",
+      "site": {
+        "name": "Animoto",
+        "url": "https://animoto.com",
+        "alive": true,
+        "operator": "Redbrick (acquired Aug 2023)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://animoto.com",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://animoto.com",
+          "date": "2026-10-16",
+          "note": "HTTP 403"
+        },
+        {
+          "url": "https://www.businesswire.com/news/home/20230822853290/en/Redbrick-Acquires-Animoto-Cloud-based-Video-Creation-Platform",
+          "date": "2026-10-16",
+          "note": "second-hand: acquired by Redbrick Aug 2023, no closure reported"
+        }
+      ],
+      "unverified": [
+        "Whether a permanent free plan exists (it may be trial only)",
+        "Terms/license",
+        "Current 2024-2026 status"
+      ],
+      "injectionSeen": null
+    },
+    "ant-design": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Ant Design",
+        "url": "https://ant.design",
+        "alive": true,
+        "operator": "Ant Group (Ant UED copyright holder)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Open-source React UI library and design language, free to use.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://github.com/ant-design/ant-design",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT · commercial: yes · attribution: license notice kept in copies · no stated limit",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://raw.githubusercontent.com/ant-design/ant-design/master/LICENSE",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "ant-design",
+        "type": "Library",
+        "category": "Development",
+        "title": "Ant Design",
+        "description": "Open-source React UI library and enterprise design language with a large component set, CSS-in-JS theming and customizable styles.",
+        "tags": [
+          "web",
+          "open-source",
+          "ui-ux",
+          "design-systems"
+        ],
+        "relatedResources": [
+          "aceternity-ui",
+          "typeui"
+        ],
+        "similarResources": [
+          "aceternity-ui",
+          "adele"
+        ],
+        "keyFeatures": [
+          "Practical, customizable React component library",
+          "CSS-in-JS theming with dynamic and mixed themes",
+          "Open style algorithms and semantic structure for theme customization",
+          "Enterprise-class design language with stated values of certainty, meaningfulness, growth, naturalness",
+          "Supporting ecosystem for building web apps quickly"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "antdesign",
+          "fillColor": "#0170FE",
+          "bgColor": null,
+          "source": "Simple Icons (check-icon.mjs 2026-10-16)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Repo ant-design/ant-design (33,100 commits) matches site; no scam search run."
+      },
+      "sources": [
+        {
+          "url": "https://ant.design",
+          "date": "2026-10-16",
+          "note": "tagline, features"
+        },
+        {
+          "url": "https://github.com/ant-design/ant-design",
+          "date": "2026-10-16",
+          "note": "description, 33.1k commits"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/ant-design/ant-design/master/LICENSE",
+          "date": "2026-10-16",
+          "note": "MIT, Ant UED"
+        }
+      ],
+      "unverified": [
+        "Latest version and last release date not shown",
+        "Home page mentions a 'free 7-day trial' sign-up form, unrelated to the library, not investigated",
+        "No separate scam/shutdown search done"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/ant-design.md",
+        "lint": "pass"
+      }
+    },
+    "antlii": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Portfolio of five generative-art web tools; free status stated only by the source directory, not on the site (no pricing, license or terms page); operator not named on the page.",
+      "site": {
+        "name": "Antlii",
+        "url": "https://antlii.work",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://antlii.work",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Safety search not run (screen stopped at needs-owner). Site links to a Behance profile (behance.net/AnatoliiBabii)."
+      },
+      "sources": [
+        {
+          "url": "https://antlii.work",
+          "date": "2026-10-16",
+          "note": "Home lists WIP, BOIDS, FLAKE, SAMPL, TEXTR tools; no pricing, license, terms or privacy text"
+        }
+      ],
+      "unverified": [
+        "Whether the tools are free (only the directory label says Free)",
+        "Operator (likely Anatolii Babii per Behance link, not stated)",
+        "License/terms",
+        "Safety search not run"
+      ],
+      "injectionSeen": null
+    },
+    "anygradient": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "AnyGradient",
+        "url": "https://anygradient.com",
+        "alive": true,
+        "operator": "AnyGradient (no legal entity named; 'Made in Spain')"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Building gradients, image-to-gradient, noise and code export need no sign-up; a free account adds saving gradients and favorites. No paid plans or usage caps shown on the page.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://anygradient.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Terms of Service · commercial: yes (exported gradients) · attribution: not required · source images you lack rights to are excluded",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://anygradient.com/terms",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "anygradient",
+        "type": "Tool",
+        "category": "Design",
+        "title": "AnyGradient",
+        "description": "Browser gradient generator with OKLCH interpolation, Display-P3 colors, noise and export to CSS, Tailwind, React, SwiftUI, Android, Flutter and Figma.",
+        "tags": [
+          "web",
+          "visual-design",
+          "graphic-design",
+          "color-palette"
+        ],
+        "relatedResources": [
+          "adobe-color"
+        ],
+        "similarResources": [
+          "adobe-color"
+        ],
+        "keyFeatures": [
+          "Linear, radial and conic gradients with custom easing and color stops",
+          "OKLCH interpolation to avoid dull midpoints",
+          "Display-P3 colors with automatic sRGB fallback",
+          "Adjustable noise and grain to reduce banding",
+          "Image to gradient and import of existing CSS or Tailwind",
+          "Export to CSS, Tailwind, React, SwiftUI, Android, Flutter, Figma and images"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Search found launch listings (Product Hunt, Indie Hackers, Jul-Aug 2026); no scam or shutdown hits. Young product."
+      },
+      "sources": [
+        {
+          "url": "https://anygradient.com",
+          "date": "2026-10-16",
+          "note": "Features, export targets, free/no-signup statements"
+        },
+        {
+          "url": "https://anygradient.com/terms",
+          "date": "2026-10-16",
+          "note": "Commercial use of exports, no listing clause"
+        },
+        {
+          "url": "https://www.indiehackers.com/product/anygradient",
+          "date": "2026-10-16",
+          "note": "Third-party launch listing (search snippet)"
+        }
+      ],
+      "unverified": [
+        "Operator legal entity",
+        "Whether paid plans are planned (none listed)",
+        "No dedicated pricing page read"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/anygradient.md",
+        "lint": "pass"
+      }
+    },
+    "anything": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Free tier unclear: official credits docs (via search) say a one-time 3k credit allotment, pricing page hints at daily credits; a one-time allotment is not a permanent free tier. Owner to decide.",
+      "site": {
+        "name": "Anything",
+        "url": "https://www.anything.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Unclear: 3K credits (one-time per docs; pricing page may add daily credits up to 10K/month per search summary)",
+        "paidFrom": "Pro $19/mo (pricing page read; search summary says annual billing, $24/mo monthly) for 20K credits",
+        "evidence": {
+          "url": "https://www.anything.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "second-hand"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "AI app builder, alive in 2026 (App Store listing). Legacy domains create.xyz / createanything.com seen in search."
+      },
+      "sources": [
+        {
+          "url": "https://www.anything.com/pricing",
+          "date": "2026-10-16",
+          "note": "Pro $19/mo, 20K credits; free plan limits not shown"
+        },
+        {
+          "url": "https://www.anything.com",
+          "date": "2026-10-16",
+          "note": "AI app builder description; no terms link visible"
+        },
+        {
+          "url": "https://www.anything.com/docs/account/credits.md",
+          "date": "2026-10-16",
+          "note": "Search snippet only: free credits one-time (not fetched)"
+        }
+      ],
+      "unverified": [
+        "Exact free plan limits and whether renewing",
+        "Terms of service",
+        "Operator legal entity"
+      ],
+      "injectionSeen": null
+    },
+    "apollo-io": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Apollo.io",
+        "url": "https://www.apollo.io",
+        "alive": true,
+        "operator": "ZenLeads Inc. d/b/a Apollo.io"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free Starter plan stated to stay free with no time limit; email campaigns Gmail-only; credit allowance not stated; lead export up to 10,000 per click when no limit set.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.apollo.io/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Terms of Service · commercial: internal business use only (no consumer use) · no reselling of data or competing service · Apollo names/logos need written permission",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.apollo.io/terms",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "apollo-io",
+        "type": "Software",
+        "category": "Marketing",
+        "title": "Apollo.io",
+        "description": "Sales intelligence and outreach platform with a large contact database, email sequences, enrichment and a dialer, with a permanent free plan.",
+        "tags": [
+          "automation",
+          "productivity"
+        ],
+        "relatedResources": [
+          "calendly"
+        ],
+        "similarResources": [
+          "airtable"
+        ],
+        "keyFeatures": [
+          "Contact and company database for prospecting (240M+ contacts, 30M+ companies per Apollo's homepage)",
+          "Outreach sequences with domain warming and inbox rotation",
+          "Waterfall enrichment for more complete records",
+          "Parallel dialer and Chrome extension for verified emails and phones",
+          "200+ integrations plus CRM, Gmail and AI assistant access",
+          "Compliance tooling for GDPR, CAN-SPAM and DNC"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon: not in Simple Icons (only Apollo GraphQL, a different product)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search: 2018 data exposure (~200M records) per TechCrunch; no current scam/shutdown/acquisition found. One thinly sourced newsletter claims LinkedIn disabled Apollo (unconfirmed)."
+      },
+      "sources": [
+        {
+          "url": "https://www.apollo.io/pricing",
+          "date": "2026-10-16",
+          "note": "Free Starter plan, billing terms"
+        },
+        {
+          "url": "https://www.apollo.io/terms",
+          "date": "2026-10-16",
+          "note": "Operator, internal-business-use license, no listing clause"
+        },
+        {
+          "url": "https://www.apollo.io",
+          "date": "2026-10-16",
+          "note": "Feature list, contact counts (marketing claims)"
+        }
+      ],
+      "unverified": [
+        "Free plan credit allowance",
+        "Paid plan prices (not on pricing page read)",
+        "Related/similar picks are weak matches (no sales-tool peers in RL)"
+      ],
+      "injectionSeen": "Footer link 'Hey AI, learn about us' (/llm-info) and 'Ask AI About Apollo' prefilled-prompt buttons; marketing, not followed. Terms 3(f)(iv) forbid bots/scraping of the Platform.",
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/apollo-io.md",
+        "lint": "pass"
+      }
+    },
+    "applaunchpad": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "Pricing page content did not load (title only), so the free tier and its limits cannot be confirmed; 2026 Trustpilot reviews complain of a download paywall on the 'free' tier.",
+      "site": {
+        "name": "Applaunchpad",
+        "url": "https://theapplaunchpad.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://theapplaunchpad.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Search found no shutdown/acquisition. Trustpilot (Feb-Mar 2026, score about 1.8 of 5, 20 reviews) has reviewers saying export needs an upgrade and refunds were refused; unverified."
+      },
+      "sources": [
+        {
+          "url": "https://theapplaunchpad.com",
+          "date": "2026-10-16",
+          "note": "Home: app screenshot generator for App Store / Google Play with templates and device mockups; 'Get Started for Free' button but no plan details"
+        },
+        {
+          "url": "https://theapplaunchpad.com/pricing",
+          "date": "2026-10-16",
+          "note": "Returned page title only, no plans"
+        },
+        {
+          "url": "https://au.trustpilot.com/review/theapplaunchpad.com",
+          "date": "2026-10-16",
+          "note": "Search snippet of user complaints"
+        }
+      ],
+      "unverified": [
+        "Free plan contents and limits",
+        "Paid prices",
+        "Terms of service (not read)",
+        "Operator"
+      ],
+      "injectionSeen": null
+    },
+    "apple-design-resources": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Apple Design Resources",
+        "url": "https://developer.apple.com/design/resources/",
+        "alive": true,
+        "operator": "Apple Inc."
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Downloads listed with no price and none marked paid; no account requirement stated on the page. Some files need Figma/Sketch, SF Symbols needs macOS Sonoma or later.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://developer.apple.com/design/resources/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Apple's own terms (not stated on the page) · commercial: unverified · attribution: unverified · Apple trademarks and product bezels are subject to Apple's marketing guidelines",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://developer.apple.com/design/resources/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "apple-design-resources",
+        "type": "Resource",
+        "category": "Design",
+        "title": "Apple Design Resources",
+        "description": "Apple's free UI kits, app icon templates, SF fonts, SF Symbols and product bezels for designing iOS, macOS, watchOS, tvOS and visionOS apps.",
+        "tags": [
+          "ios",
+          "mac",
+          "ui-ux",
+          "design-systems",
+          "design-templates",
+          "typography"
+        ],
+        "relatedResources": [
+          "android-design-hub",
+          "figma-community",
+          "60fps"
+        ],
+        "similarResources": [
+          "android-design-hub"
+        ],
+        "keyFeatures": [
+          "UI kits for iOS/iPadOS, macOS, watchOS, tvOS and visionOS in Figma and Sketch",
+          "App icon and technology templates (App Clips, Apple Pay, Live Activities, Wallet and more)",
+          "Apple system fonts: SF Pro, SF Mono, New York and regional SF variants",
+          "SF Symbols, Icon Composer and Parallax Previewer design tools for macOS",
+          "Product bezels for iPhone, iPad, Mac, Watch and Apple TV mockups"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "apple",
+          "fillColor": "#000000",
+          "bgColor": null,
+          "source": "Simple Icons (check-icon.mjs exact match 'Apple')"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "First-party Apple developer site. Safety search not run (first-party)."
+      },
+      "sources": [
+        {
+          "url": "https://developer.apple.com/design/resources/",
+          "date": "2026-10-16",
+          "note": "Resource list, no stated prices, fonts/tools/bezels, macOS requirements"
+        },
+        {
+          "url": "https://developer.apple.com/support/terms/",
+          "date": "2026-10-16",
+          "note": "No license clause for design resources on this page; links to marketing guidelines and trademark pages"
+        }
+      ],
+      "unverified": [
+        "License terms for the individual kits and fonts (e.g. commercial use, font redistribution) not read; the downloads likely carry their own license/Apple Developer Agreement",
+        "Whether any download requires a signed-in Apple ID",
+        "Latest versions (iOS 27 etc.) as listed on the fetch date"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/apple-design-resources.md",
+        "lint": "pass"
+      }
+    },
+    "appmaster": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "No permanent free plan: paid plans start at $195/mo; the only free option is a trial subscription mentioned in the FAQ.",
+      "site": {
+        "name": "AppMaster",
+        "url": "https://appmaster.io",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "Startup from $195/mo (monthly billing shown)",
+        "evidence": {
+          "url": "https://appmaster.io/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Safety search not run (skipped on pricing)."
+      },
+      "sources": [
+        {
+          "url": "https://appmaster.io/pricing",
+          "date": "2026-10-16",
+          "note": "Startup $195/mo, Startup+ $299/mo, Business $955/mo, Enterprise quote; free only as trial per FAQ, duration not stated"
+        }
+      ],
+      "unverified": [
+        "Trial length and limits",
+        "Yearly prices"
+      ],
+      "injectionSeen": null
+    },
+    "appshots": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "appshots.design returned no content to the fetcher (JS page), so free vs paid cannot be confirmed; the name is shared by several unrelated products.",
+      "site": {
+        "name": "Appshots",
+        "url": "https://appshots.design",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://appshots.design",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/shutdown hits, but no first-party confirmation either; search results were for other products named Appshots."
+      },
+      "sources": [
+        {
+          "url": "https://appshots.design",
+          "date": "2026-10-16",
+          "note": "Fetched twice, empty content"
+        },
+        {
+          "url": "https://webcatalog.io/apps/appshots",
+          "date": "2026-10-16",
+          "note": "Search snippet only: AI-written description of a library of 100+ iOS/Android app screenshots; unverified"
+        }
+      ],
+      "unverified": [
+        "Free tier contents and limits",
+        "Paid price",
+        "Terms of use for the screenshots",
+        "Operator"
+      ],
+      "injectionSeen": null
+    },
+    "appstruct": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "Home and /pricing return only a page title (JS-rendered); no pricing, plans or terms readable. Not bypassed.",
+      "site": {
+        "name": "AppStruct",
+        "url": "https://appstruct.ai",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://appstruct.ai/pricing",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://appstruct.ai",
+          "date": "2026-10-16",
+          "note": "title only: Create Mobile & Web Apps without coding"
+        },
+        {
+          "url": "https://appstruct.ai/pricing",
+          "date": "2026-10-16",
+          "note": "title only, no plans"
+        }
+      ],
+      "unverified": [
+        "free tier existence",
+        "pricing",
+        "license/terms",
+        "safety search not run"
+      ],
+      "injectionSeen": null
+    },
+    "arc": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "site": {
+        "name": "Arc",
+        "url": "https://uiarc.dev",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Open core, $0 forever, no account: 111 components and 22 blocks plus CLI, MCP and AI docs. Excludes 54 Pro motion components, 69 Pro blocks and future Pro releases.",
+        "paidFrom": "Pro $129/year or $199 lifetime one-time; Team $599 once or $349/year (up to 10 people)",
+        "evidence": {
+          "url": "https://uiarc.dev/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT (free source) · commercial: yes · attribution: keep copyright notice · Pro source may not be resold as a UI kit or template",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://uiarc.dev/license",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "arc-ui",
+        "type": "Library",
+        "category": "Development",
+        "title": "Arc - Animated React UI Components",
+        "description": "React component library with animated components and full-page blocks you install via the shadcn CLI or MCP server, with a free MIT core and a paid Pro tier.",
+        "tags": [
+          "ui-ux",
+          "open-source",
+          "ai-tool"
+        ],
+        "relatedResources": [
+          "aceternity-ui",
+          "emilkowalski-skills"
+        ],
+        "similarResources": [
+          "aceternity-ui"
+        ],
+        "keyFeatures": [
+          "Animated React components and ready-made multi-component blocks",
+          "Install through the shadcn CLI or an MCP server",
+          "Free core of 111 components and 22 blocks, MIT licensed",
+          "Per-component Markdown pages and llms.txt so AI coding tools can use them",
+          "Pro tier adds motion-heavy components and more blocks"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons 'arc' is the Arc browser, not this library; not used"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Search did not surface uiarc.dev itself; a 21st.dev listing 'witharc' mentions a witharc.co registry. Operator and domain relation unconfirmed. No scam/shutdown reports found."
+      },
+      "sources": [
+        {
+          "url": "https://uiarc.dev",
+          "date": "2026-10-16",
+          "note": "product description, counts, Pro banner"
+        },
+        {
+          "url": "https://uiarc.dev/pricing",
+          "date": "2026-10-16",
+          "note": "free tier and Pro prices"
+        },
+        {
+          "url": "https://uiarc.dev/license",
+          "date": "2026-10-16",
+          "note": "MIT free source, Pro resale limit"
+        },
+        {
+          "url": "https://21st.dev/@witharc/library/arc",
+          "date": "2026-10-16",
+          "note": "safety search result, secondary"
+        }
+      ],
+      "unverified": [
+        "operator/company",
+        "relation between uiarc.dev and witharc.co",
+        "GitHub repo URL",
+        "icon (none)"
+      ],
+      "injectionSeen": "None hidden; site markets a 'Give Arc to your AI' button and llms.txt (marketing, not instructions).",
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/arc-ui.md",
+        "lint": "pass"
+      }
+    },
+    "arcade-2": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "site": {
+        "name": "Arcade",
+        "url": "https://www.arcade.software",
+        "alive": true,
+        "operator": "Arcade (arcade.software)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free $0/month: 1 user, 1 published demo and 1 published AI video, 200 AI credits/month, Arcade MCP; no basic insights, no credit top-ups. Demos are credit-free; videos and visuals cost 50 credits each.",
+        "paidFrom": "Growth $50/month per seat (shown $42.50 on yearly toggle, -15%)",
+        "evidence": {
+          "url": "https://www.arcade.software/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · terms not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.arcade.software/pricing",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "arcade-demos",
+        "type": "AI Tool",
+        "category": "Marketing",
+        "title": "Arcade - Interactive Product Demos",
+        "description": "Build click-through interactive product demos and short AI product videos, with hotspots, branching, brand kits, embeds and analytics. Free plan available.",
+        "tags": [
+          "ai-tool",
+          "productivity"
+        ],
+        "relatedResources": [
+          "guideless",
+          "descript"
+        ],
+        "similarResources": [
+          "guideless"
+        ],
+        "keyFeatures": [
+          "AI-assisted editor for click-through interactive demos with hotspots, callouts and branching",
+          "Capture with a browser extension, desktop app or Figma plugin",
+          "Brand Kit pulls logos, colors and fonts from your website",
+          "Export as video or GIF, embed on a site or share a link",
+          "Integrations with analytics tools such as Mixpanel, Amplitude and PostHog"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Search: no shutdown/acquisition/scam reports; generic low URLert score; past ISP blocks of demo.arcade.software in Feb 2023 (none active). Unrelated to Arcade1Up."
+      },
+      "sources": [
+        {
+          "url": "https://www.arcade.software/pricing",
+          "date": "2026-10-16",
+          "note": "plans and limits"
+        },
+        {
+          "url": "https://www.arcade.software",
+          "date": "2026-10-16",
+          "note": "features"
+        },
+        {
+          "url": "https://www.urlert.com/domains/arcade.software",
+          "date": "2026-10-16",
+          "note": "safety search, secondary"
+        }
+      ],
+      "unverified": [
+        "terms of service/listing clause",
+        "whether Free plan is permanent (not stated outright; FAQ implies ongoing)",
+        "Growth yearly vs monthly price",
+        "legal entity name",
+        "icon (none)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/arcade-demos.md",
+        "lint": "pass"
+      }
+    },
+    "arcads": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Home advertises a free trial only; no plan names, prices or permanent free plan found (/pricing 404). Only a standalone free AI Hook Generator mentioned.",
+      "site": {
+        "name": "Arcads",
+        "url": "https://www.arcads.ai",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.arcads.ai",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.arcads.ai",
+          "date": "2026-10-16",
+          "note": "AI actor video ads; Free trial available"
+        },
+        {
+          "url": "https://www.arcads.ai/pricing",
+          "date": "2026-10-16",
+          "note": "HTTP 404"
+        }
+      ],
+      "unverified": [
+        "actual plan prices",
+        "safety search not run"
+      ],
+      "injectionSeen": null
     }
   }
 }

@@ -10,13 +10,13 @@ Generated 2026-10-16 by `scripts/backlog-build.mjs` from `backlog/tools-list.jso
 
 | Status | Count | Meaning |
 |---|---:|---|
-| `todo` | 1687 | in the research queue (free / freemium / beta) |
+| `todo` | 1667 | in the research queue (free / freemium / beta) |
 | `in-rl` | 33 | already in ResourcesList (matched by site or slug) — skip, maybe use for related/similar links |
 | `deferred-paid` | 217 | labelled **Paid** only — parked |
 | `deferred-trial` | 232 | labelled **Free Trial** only — parked until a real free tier is confirmed |
-| `researching` / `researched` / `drafted` / `rejected` / `blocked` | 0 / 0 / 57 / 28 / 25 | set by research sessions |
+| `researching` / `researched` / `drafted` / `rejected` / `blocked` | 0 / 7 / 57 / 32 / 34 | set by research sessions |
 
-Queue by priority: **P1** 1 (free/freemium, listed on 2+ pages) · **P2** 1596 (free/freemium, 1 page) · **P3** 90 (beta).
+Queue by priority: **P1** 1 (free/freemium, listed on 2+ pages) · **P2** 1576 (free/freemium, 1 page) · **P3** 90 (beta).
 
 ## What happens if a tool is not processed (and why)
 
@@ -109,6 +109,26 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Amie | via Digitool | Free tier listed | 1 | P2 | rejected |
 | Amplitude | use.amplitude.com | Freemium | 1 | P2 | drafted |
 | Android Design Hub | developer.android.com | Free | 1 | P2 | drafted |
+| Anima | animaapp.com | Freemium | 1 | P2 | blocked |
+| Animant | animant.co | Freemium | 1 | P2 | rejected |
+| Animate Anything | app.anything.world | Freemium | 1 | P2 | blocked |
+| AnimateAI | animateai.pro | Freemium | 1 | P2 | rejected |
+| Animejs | animejs.com | Free | 1 | P2 | researched |
+| Animos | animos.app | Free | 1 | P2 | blocked |
+| Animoto | animoto.com | Freemium | 1 | P2 | blocked |
+| Ant Design | ant.design | Free | 1 | P2 | researched |
+| Antlii | antlii.work | Free | 1 | P2 | blocked |
+| AnyGradient | anygradient.com | Free | 1 | P2 | researched |
+| Anything | anything.link | Freemium | 1 | P2 | blocked |
+| Apollo.io | via Digitool | Free tier listed | 1 | P2 | researched |
+| Applaunchpad | theapplaunchpad.com | Freemium | 1 | P2 | blocked |
+| Apple Design Resources | developer.apple.com | Free | 1 | P2 | researched |
+| AppMaster | appmaster.io | Freemium | 1 | P2 | rejected |
+| Appshots | appshots.design | Free + Paid | 1 | P2 | blocked |
+| AppStruct | appstruct.ai | Freemium | 1 | P2 | blocked |
+| Arc | uiarc.dev | Free + Paid | 1 | P2 | researched |
+| Arcade | arcade.software | Freemium | 1 | P2 | researched |
+| Arcads | arcads.ai | Freemium | 1 | P2 | rejected |
 | Atoms | atoms.dev | Freemium | 2 | P1 | drafted |
 | Banani | getbanani.link | Freemium / Free tier listed | 2 | P1 | drafted |
 | Brevo | brevo.com | Free tier listed / Freemium | 2 | P1 | blocked |
@@ -147,14 +167,12 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Visily | visily.ai | Freemium | 2 | P1 | drafted |
 | Wispr Flow | ref.wisprflow.ai | Free tier listed / Freemium | 2 | P1 | drafted |
 
-## Research queue (1687)
+## Research queue (1667)
 
-### Best AI Design Tools for Designers (197)
+### Best AI Design Tools for Designers (195)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| AnimateAI | animateai.pro | Freemium | 1 | P2 |
-| Anything | anything.link | Freemium | 1 | P2 |
 | Ava Studio | avastudio.com | Freemium | 1 | P2 |
 | Base44 | base44.pxf.io | Freemium | 1 | P2 |
 | Better Studio | betterstudio.io | Freemium | 1 | P2 |
@@ -351,11 +369,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | PromptBase | promptbase.com |  | 1 | P3 |
 | Stitch | stitch.withgoogle.com | Beta | 1 | P3 |
 
-### Best Color Tools and Inspiration for Designers (83)
+### Best Color Tools and Inspiration for Designers (82)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| AnyGradient | anygradient.com | Free | 1 | P2 |
 | Button Buddy | buttonbuddy.dev | Free | 1 | P2 |
 | Color Designer | colordesigner.io | Free + Paid | 1 | P2 |
 | Color Fuse AI | colorfuseai.com | Freemium | 1 | P2 |
@@ -553,16 +570,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | WeLoveProduct | weloveproduct.co | Freemium | 1 | P2 |
 | Woody | woodyjobs.com | Freemium | 1 | P2 |
 
-### Best Design Tools Across Disciplines (196)
+### Best Design Tools Across Disciplines (190)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Animant | animant.co | Freemium | 1 | P2 |
-| Animate Anything | app.anything.world | Freemium | 1 | P2 |
-| Animejs | animejs.com | Free | 1 | P2 |
-| Animos | animos.app | Free | 1 | P2 |
-| Antlii | antlii.work | Free | 1 | P2 |
-| Arcade | arcade.software | Freemium | 1 | P2 |
 | Arcol | arcol.io | Freemium | 1 | P2 |
 | Ascii Magic | ascii-magic.com | Free | 1 | P2 |
 | Astryx | astryx.atmeta.com | Free | 1 | P2 |
@@ -929,11 +940,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Unicode Arrows | unicodearrows.com |  | 1 | P3 |
 | Vzy Icons | icons.vzy.co |  | 1 | P3 |
 
-### Best Mockup Sites for Designers (58)
+### Best Mockup Sites for Designers (57)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Apple Design Resources | developer.apple.com | Free | 1 | P2 |
 | Art Directed | artdirected.design | Free + Paid | 1 | P2 |
 | Artboard Studio | artboard.studio | Freemium | 1 | P2 |
 | Artboard Studio Mockup Generator | artboard.studio | Freemium | 1 | P2 |
@@ -992,15 +1002,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Wannathis Mockups | wannathis.one | Free + Paid | 1 | P2 |
 | WhiteUI.Store | gumroad.com | Free + Paid | 1 | P2 |
 
-### Best No-Code Website Builders (119)
+### Best No-Code Website Builders (114)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Anima | animaapp.com | Freemium | 1 | P2 |
-| Ant Design | ant.design | Free | 1 | P2 |
-| AppMaster | appmaster.io | Freemium | 1 | P2 |
-| AppStruct | appstruct.ai | Freemium | 1 | P2 |
-| Arc | uiarc.dev | Free + Paid | 1 | P2 |
 | Balsa UI | balsa-ui.com | Free | 1 | P2 |
 | Beautiful UI | beautifului.dev | Free | 1 | P2 |
 | Bencho | bencho.dev | Free | 1 | P2 |
@@ -1291,12 +1296,11 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Zen Flowchart | zenflowchart.com | Freemium | 1 | P2 |
 | Stratify | trystratify.com | Beta | 1 | P3 |
 
-### Design Inspiration Sites for UI, Web, Graphic & Branding (162)
+### Design Inspiration Sites for UI, Web, Graphic & Branding (161)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
 | Nicelydone | nicelydone.club | Free Trial / Free tier listed | 2 | P1 |
-| Appshots | appshots.design | Free + Paid | 1 | P2 |
 | Archives.design | archives.design | Free | 1 | P2 |
 | Art of the Title | artofthetitle.com | Free | 1 | P2 |
 | Behance Motion | behance.net | Free | 1 | P2 |
@@ -1513,11 +1517,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Vidsplay | vidsplay.com | Free | 1 | P2 |
 | ZapSplat | zapsplat.com | Freemium | 1 | P2 |
 
-### Free Tools (138)
+### Free Tools (137)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Apollo.io | via Digitool | Free tier listed | 1 | P2 |
 | Atria | via Digitool | Free tier listed | 1 | P2 |
 | August | via Digitool | Free tier listed | 1 | P2 |
 | Autodraft AI | via Digitool | Free tier listed | 1 | P2 |
@@ -1753,12 +1756,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | uxtoast | uxtoast.com | Free | 1 | P2 |
 | We are Colorblind | wearecolorblind.com | Free | 1 | P2 |
 
-### Marketing Tools for Designers & Creative Teams (92)
+### Marketing Tools for Designers & Creative Teams (90)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Animoto | animoto.com | Freemium | 1 | P2 |
-| Arcads | arcads.ai | Freemium | 1 | P2 |
 | Audienceful | audienceful.com | Freemium | 1 | P2 |
 | Awin | awin.com | Free + Paid | 1 | P2 |
 | Beacons | beacons.ai | Freemium | 1 | P2 |
@@ -1850,11 +1851,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Flodesk Studio | studio.flodesk.com | Beta | 1 | P3 |
 | Pomelli | labs.google.com | Beta | 1 | P3 |
 
-### Productivity Tools for Design and Product Teams (66)
+### Productivity Tools for Design and Product Teams (65)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Applaunchpad | theapplaunchpad.com | Freemium | 1 | P2 |
 | Arky | arky.so | Freemium | 1 | P2 |
 | Basecamp | basecamp.com | Freemium | 1 | P2 |
 | Berd | berd.xyz | Free | 1 | P2 |
