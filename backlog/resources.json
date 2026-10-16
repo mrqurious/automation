@@ -23715,6 +23715,1358 @@
         "file": "src/content/resources/creative-boom.md",
         "lint": "pass"
       }
+    },
+    "creative-lunch-club": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Paid membership: 7.50 EUR per month or 15 EUR per 3 months plus VAT (home page); input label 'Free' is wrong.",
+      "site": {
+        "name": "Creative Lunch Club",
+        "url": "https://www.creativelunchclub.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "7.50 EUR per month (plus VAT)",
+        "evidence": {
+          "url": "https://www.creativelunchclub.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.creativelunchclub.com",
+          "date": "2026-10-16",
+          "note": "membership fee quote"
+        }
+      ],
+      "unverified": [
+        "terms page not read",
+        "no safety search",
+        "operator not stated"
+      ],
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": null
+      },
+      "injectionSeen": null
+    },
+    "creative-mornings": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "Home page (with and without www) returned empty content to the fetcher (likely JS-rendered); nothing readable to confirm free tier or terms. Not bypassed.",
+      "site": {
+        "name": "Creative Mornings",
+        "url": "https://creativemornings.com",
+        "alive": null,
+        "operator": "CreativeMornings (not confirmed)"
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://creativemornings.com",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://creativemornings.com",
+          "date": "2026-10-16",
+          "note": "fetched twice, empty"
+        }
+      ],
+      "unverified": [
+        "pricing, terms, free access of talks and events, safety all unread"
+      ],
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": null
+      },
+      "injectionSeen": null
+    },
+    "creative-review": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Magazine site mixes free articles with premium content behind a subscription ('unlimited access to all premium content'); which content is free and subscription prices are not stated. Freemium vs paid label and fit need an owner call.",
+      "site": {
+        "name": "Creative Review",
+        "url": "https://www.creativereview.co.uk",
+        "alive": true,
+        "operator": "Haymarket Media Group Ltd"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Some articles appear readable; extent of free content unconfirmed",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.creativereview.co.uk/subscription-faqs/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.creativereview.co.uk",
+          "date": "2026-10-16",
+          "note": "publisher footer, sections"
+        },
+        {
+          "url": "https://www.creativereview.co.uk/subscription-faqs/",
+          "date": "2026-10-16",
+          "note": "premium content and archive subscription"
+        },
+        {
+          "url": "https://creativereview.co.uk/subscription-options/",
+          "date": "2026-10-16",
+          "note": "no prices shown to fetcher"
+        }
+      ],
+      "unverified": [
+        "free vs premium article split",
+        "subscription price",
+        "terms of use",
+        "no safety search"
+      ],
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Official Haymarket site"
+      },
+      "injectionSeen": null
+    },
+    "creativepro": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "Home page returned HTTP 403 Forbidden to the fetcher; not bypassed.",
+      "site": {
+        "name": "CreativePro",
+        "url": "https://creativepro.com",
+        "alive": null,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://creativepro.com",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://creativepro.com",
+          "date": "2026-10-16",
+          "note": "HTTP 403"
+        }
+      ],
+      "unverified": [
+        "everything: pricing, membership, terms, operator, safety"
+      ],
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": null
+      },
+      "injectionSeen": null
+    },
+    "creatorkit": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Pricing page shows a $0 Free plan but its button and FAQ say free trial; permanence not confirmed, paid-led AI video product.",
+      "site": {
+        "name": "CreatorKit",
+        "url": "https://creatorkit.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "Pro $39/month (or $32/month on the second, unlabeled price set)",
+        "evidence": {
+          "url": "https://creatorkit.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No safety search run (skipped after verdict)"
+      },
+      "sources": [
+        {
+          "url": "https://creatorkit.com",
+          "date": "2026-10-16",
+          "note": "product description; start free trial CTAs"
+        },
+        {
+          "url": "https://creatorkit.com/pricing",
+          "date": "2026-10-16",
+          "note": "Free $0, Pro $39/$32, Business $99/$82, Business Plus $134/$115, Enterprise demo"
+        }
+      ],
+      "unverified": [
+        "whether the $0 Free plan is permanent or a trial",
+        "which price set is monthly vs annual",
+        "operator not named"
+      ],
+      "injectionSeen": null
+    },
+    "creatorstock": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Paid stock marketplace; terms confirm some Free Content with commercial use, but how much is free and whether it is permanent is unclear.",
+      "site": {
+        "name": "CreatorStock",
+        "url": "https://creatorstock.io",
+        "alive": true,
+        "operator": "CreatorStock Ltd (UK)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Some clips labeled Free (e.g. in Trending Reels); amount not stated",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://creatorstock.io",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "CreatorStock site terms · commercial: yes (free content free for personal and commercial use) · attribution: not required for free content · limit: no recognizable people, logos or trademarks; no redistribution of the stand-alone file (paid)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://creatorstock.io/terms",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "creatorstock",
+        "type": "Stock Media",
+        "category": "Filming",
+        "title": "CreatorStock",
+        "description": "Marketplace of creator-shot vertical video and imagery for social campaigns, with some free clips and a commercial license.",
+        "tags": [
+          "stock-videos",
+          "stock",
+          "social-media-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Vertical footage shot by creators for social content",
+          "Some clips offered free with commercial use",
+          "AI search over the library",
+          "Creators keep copyright and can sell clips or folders",
+          "New footage added weekly per the site"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Web search found no reviews or scam/shutdown reports for the name"
+      },
+      "sources": [
+        {
+          "url": "https://creatorstock.io",
+          "date": "2026-10-16",
+          "note": "description, free-labeled clips"
+        },
+        {
+          "url": "https://creatorstock.io/terms",
+          "date": "2026-10-16",
+          "note": "operator and license terms"
+        },
+        {
+          "url": "https://creatorstock.io/pricing",
+          "date": "2026-10-16",
+          "note": "404"
+        }
+      ],
+      "unverified": [
+        "share of library that is free and permanence",
+        "paid prices",
+        "no independent reviews found"
+      ],
+      "injectionSeen": null
+    },
+    "crewai": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "CrewAI",
+        "url": "https://crewai.com",
+        "alive": true,
+        "operator": "CrewAI, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Basic plan listed as Free with 50 workflow executions per month; open-source framework is free to self-run",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://crewai.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT (framework) · commercial: yes · attribution: license notice kept · limit: hosted platform terms not read",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/crewAIInc/crewAI",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "crewai",
+        "type": "Library",
+        "category": "Development",
+        "title": "CrewAI",
+        "description": "Open-source Python framework and hosted platform for building teams of autonomous AI agents and event-driven workflows.",
+        "tags": [
+          "ai-tool",
+          "automation",
+          "open-source"
+        ],
+        "relatedResources": [
+          "n8n"
+        ],
+        "similarResources": [
+          "n8n"
+        ],
+        "keyFeatures": [
+          "Crews: role-based AI agents collaborating on tasks",
+          "Flows: event-driven workflows with state and branching",
+          "Tools, memory, knowledge and MCP/A2A support",
+          "Structured outputs and human-in-the-loop steps",
+          "Works with hosted or local models such as Ollama",
+          "Free Basic platform plan at 50 executions a month"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "crewai",
+          "fillColor": "#FF5A50",
+          "bgColor": "#ffffff",
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated scam/shutdown search; repo active (2,986 commits)"
+      },
+      "sources": [
+        {
+          "url": "https://crewai.com/pricing",
+          "date": "2026-10-16",
+          "note": "Basic free 50 executions/month, Enterprise custom"
+        },
+        {
+          "url": "https://github.com/crewAIInc/crewAI",
+          "date": "2026-10-16",
+          "note": "MIT license, features"
+        }
+      ],
+      "unverified": [
+        "free plan permanence not stated",
+        "seat limit",
+        "no dedicated safety search",
+        "paid plan prices (only Basic and Enterprise listed)",
+        "commit recency dates"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/crewai.md",
+        "lint": "pass"
+      }
+    },
+    "crypto-design-club": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Crypto Design Club",
+        "url": "https://cryptodesign.club",
+        "alive": true,
+        "operator": "CDC (not further named)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Gallery browsable with no paywall or pricing shown",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://cryptodesign.club",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No license stated · gallery of third-party project designs; link only",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://cryptodesign.club",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "crypto-design-club",
+        "type": "Website",
+        "category": "Design",
+        "title": "Crypto Design Club",
+        "description": "Handpicked gallery of well-designed crypto and web3 sites, filterable by DeFi, NFT, wallet, layer-2 and more.",
+        "tags": [
+          "inspiration",
+          "ui-ux",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Curated gallery of crypto project designs",
+          "Filters for DeFi, NFT, DAO, wallet, gaming, layer-2 and more",
+          "Submit your own project",
+          "Roadmap and about pages"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://cryptodesign.club",
+          "date": "2026-10-16",
+          "note": "description, nav, categories"
+        }
+      ],
+      "unverified": [
+        "footer shows 2025; recent updates not confirmed",
+        "terms page not read",
+        "operator identity",
+        "gallery items are third-party designs"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/crypto-design-club.md",
+        "lint": "pass"
+      }
+    },
+    "css-gradient": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "CSS Gradient",
+        "url": "https://cssgradient.io",
+        "alive": true,
+        "operator": "Designstripe project"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Gradient generator, swatches, examples and blog usable without sign-in; home page shows no paid plan",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://cssgradient.io",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No terms or license page found (privacy policy only) · commercial: not stated · attribution: not stated · limit: none stated",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://cssgradient.io",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "css-gradient",
+        "type": "Tool",
+        "category": "Design",
+        "title": "CSS Gradient",
+        "description": "Free web generator for linear and radial CSS gradients with color stops, copy-ready code, ready-made swatches and gradient guides.",
+        "tags": [
+          "web",
+          "color-palette",
+          "graphic-design"
+        ],
+        "relatedResources": [
+          "anygradient"
+        ],
+        "similarResources": [
+          "anygradient"
+        ],
+        "keyFeatures": [
+          "Linear and radial gradient picker with adjustable color stops",
+          "Hex and RGBA color inputs with live preview",
+          "Copy-ready CSS output with an optional older-browser compatibility mode",
+          "Gallery of ready-made gradient swatches and examples",
+          "Blog and reference articles on gradients"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact Simple Icons match, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Footer shows 2017-2026 and recent blog posts; one web search found no scam or shutdown reports"
+      },
+      "sources": [
+        {
+          "url": "https://cssgradient.io",
+          "date": "2026-10-16",
+          "note": "features, operator, free wording"
+        },
+        {
+          "url": "web search: cssgradient.io Designstripe",
+          "date": "2026-10-16",
+          "note": "third-party listings agree it is a free Designstripe tool"
+        }
+      ],
+      "unverified": [
+        "no terms of use page found; commercial use of generated CSS not stated",
+        "only one general safety search",
+        "logo not sourced"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/css-gradient.md",
+        "lint": "pass"
+      }
+    },
+    "css-icons": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Free to use, but the current LICENSE.md is a custom agreement: personal non-commercial use with credit only, commercial use needs permission, no derivatives (MIT applies only to versions before 2.1.2). Owner should decide whether to list.",
+      "site": {
+        "name": "CSS.GG",
+        "url": "https://css.gg",
+        "alive": true,
+        "operator": "Astrit (GitHub user astrit)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Icon library (700+ icons per GitHub README) as CSS, SVG, sprite, styled-components, npm and Figma; no paid plan seen",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://github.com/astrit/css.gg",
+          "date": "2026-10-16",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "Custom License Agreement for CSS.GG & GLYF.APP · commercial: needs explicit permission · attribution: required, keep brand names · limit: no derivatives or copying features without written permission",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://github.com/astrit/css.gg/blob/master/LICENSE.md",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "css-gg",
+        "type": "Icon Set",
+        "category": "Design",
+        "title": "CSS.GG icon library",
+        "description": "Library of 700+ pure CSS and SVG UI icons, usable as CSS, SVG sprite, styled-components or npm package, with a Figma set.",
+        "tags": [
+          "icon-library",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "700+ UI icons drawn in pure CSS and SVG",
+          "Delivery as CSS, SVG sprite, styled-components, npm and JSON",
+          "Figma UI icon set linked from the repo"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact Simple Icons match, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Active GitHub repo with a 2024-08-26 update note; no deprecation notice seen"
+      },
+      "sources": [
+        {
+          "url": "https://css.gg",
+          "date": "2026-10-16",
+          "note": "title and 700 count (excerpt thin)"
+        },
+        {
+          "url": "https://github.com/astrit/css.gg",
+          "date": "2026-10-16",
+          "note": "icon count, formats, author"
+        },
+        {
+          "url": "https://github.com/astrit/css.gg/blob/master/LICENSE.md",
+          "date": "2026-10-16",
+          "note": "license terms"
+        }
+      ],
+      "unverified": [
+        "site home page returned little text; formats taken from the GitHub README",
+        "last commit date not seen",
+        "no dedicated safety search",
+        "logo not sourced"
+      ],
+      "injectionSeen": null
+    },
+    "css-text-effects": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "CSS Text Effects",
+        "url": "https://text-effects.colorion.co",
+        "alive": true,
+        "operator": "Colorion Tools (GitHub user ckissi)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All effects free to copy; no paywall or sign-in mentioned",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://text-effects.colorion.co",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT (stated on the page) · commercial: yes · attribution: not stated on page · limit: LICENSE file not opened",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://text-effects.colorion.co",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "css-text-effects",
+        "type": "Library",
+        "category": "Development",
+        "title": "CSS Text Effects",
+        "description": "Collection of animated text effects in pure CSS, grouped in categories, each with self-contained copy-and-paste code and no dependencies.",
+        "tags": [
+          "web",
+          "typography",
+          "open-source"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "117 animated text effects across eight categories (page, 2026-10-16)",
+          "Self-contained CSS with no dependencies",
+          "Copy button per effect, plus a prompt for AI coding agents",
+          "MIT-licensed for personal and commercial projects"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact Simple Icons match, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Working site with FAQ and GitHub link; no dedicated scam search"
+      },
+      "sources": [
+        {
+          "url": "https://text-effects.colorion.co",
+          "date": "2026-10-16",
+          "note": "count, license claim, features"
+        }
+      ],
+      "unverified": [
+        "directory said 66 effects, page says 117",
+        "GitHub repo and LICENSE file not reachable (404 on guessed URLs)",
+        "operator not explicitly stated",
+        "no dedicated safety search",
+        "logo not sourced"
+      ],
+      "injectionSeen": "Page has a 'Prompt' button that generates instructions for coding agents (Claude Code, Cursor, Copilot); a user feature, not an instruction to this agent. Ignored.",
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/css-text-effects.md",
+        "lint": "pass"
+      }
+    },
+    "css-type-studio": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "CSS Type Studio",
+        "url": "https://www.csstypestudio.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Core typography editor and CSS export free; free account saves up to 3 designs; Google Fonts preview",
+        "paidFrom": "Pro about $4/month per third-party listings (not confirmed first-party)",
+        "evidence": {
+          "url": "https://www.csstypestudio.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Terms of Service linked, not read · commercial: not stated · attribution: not stated · limit: 1,900+ typefaces need Pro",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.csstypestudio.com",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "css-type-studio",
+        "type": "Tool",
+        "category": "Design",
+        "title": "CSS Type Studio",
+        "description": "Web editor for fine typography in CSS: style headings and text, tune OpenType features, preview fonts and export the CSS. Free core, Pro adds fonts.",
+        "tags": [
+          "typography",
+          "web",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "atom-type-lab"
+        ],
+        "similarResources": [
+          "atom-type-lab"
+        ],
+        "keyFeatures": [
+          "Per-element styling for headings, paragraphs and lists",
+          "Controls for kerning, ligatures, numerals and optical sizing",
+          "Light, dim, dark, cool and warm preview modes",
+          "Get Code export with only non-default properties",
+          "Save, load and share designs with a free account (3 saves)"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact Simple Icons match, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Listed on AlternativeTo and SaaSHub; no scam or shutdown reports seen"
+      },
+      "sources": [
+        {
+          "url": "https://www.csstypestudio.com",
+          "date": "2026-10-16",
+          "note": "features, free vs Pro, 3 saves"
+        },
+        {
+          "url": "web search: CSS Type Studio Pro",
+          "date": "2026-10-16",
+          "note": "third-party listings give about $4/month Pro"
+        }
+      ],
+      "unverified": [
+        "Pro price only from third-party listings; /pricing is 404",
+        "Terms of Service not read",
+        "operator not stated",
+        "commercial-use statement for exported CSS missing",
+        "logo not sourced"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/css-type-studio.md",
+        "lint": "pass"
+      }
+    },
+    "cta-examples": {
+      "researchedOn": "2026-10-16",
+      "verdictReason": "",
+      "verdict": "list",
+      "site": {
+        "name": "CTA Examples",
+        "url": "https://ctaexamples.com",
+        "alive": true,
+        "operator": "Nordic Landing OÜ"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Library browsable without login or paywall on the home page; no pricing stated",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://ctaexamples.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No licence stated for the examples · commercial: unknown · attribution: unknown · Terms page not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://ctaexamples.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "cta-examples",
+        "type": "Website",
+        "category": "Marketing",
+        "title": "CTA Examples",
+        "description": "Browsable library of call-to-action examples sorted by goal such as e-commerce, SaaS and newsletters, with writing tips and an AI CTA generator.",
+        "tags": [
+          "inspiration",
+          "web",
+          "writing"
+        ],
+        "relatedResources": [
+          "collect-ui"
+        ],
+        "similarResources": [
+          "collect-ui",
+          "ads-of-the-world"
+        ],
+        "keyFeatures": [
+          "Call-to-action examples grouped by category (e-commerce, SaaS, newsletters)",
+          "Link to an AI call-to-action generator",
+          "CTA writing tips and a blog",
+          "Submit form for adding your own example"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-16: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated scam/shutdown search run"
+      },
+      "sources": [
+        {
+          "url": "https://ctaexamples.com",
+          "date": "2026-10-16",
+          "note": "home: description, operator (copyright line), features"
+        },
+        {
+          "url": "https://ctaexamples.com/terms",
+          "date": "2026-10-16",
+          "note": "404 at guessed path"
+        }
+      ],
+      "unverified": [
+        "pricing/terms not stated on pages read",
+        "commercial use of examples",
+        "no safety search run",
+        "update recency (only 2025 copyright)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/cta-examples.md",
+        "lint": "pass"
+      }
+    },
+    "cta-gallery": {
+      "researchedOn": "2026-10-16",
+      "verdictReason": "",
+      "verdict": "list",
+      "site": {
+        "name": "CTA Gallery",
+        "url": "https://www.cta.gallery",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Gallery browsable without login; sponsor/ad supported, no pricing stated",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.cta.gallery",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No terms found · commercial: unknown · attribution: unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.cta.gallery",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "cta-gallery",
+        "type": "Website",
+        "category": "Design",
+        "title": "CTA Gallery",
+        "description": "Curated gallery of call-to-action designs such as buttons, forms, modals and pricing blocks, filterable by industry and mode, to inspire web design.",
+        "tags": [
+          "inspiration",
+          "web",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "collect-ui"
+        ],
+        "similarResources": [
+          "collect-ui",
+          "cta-examples"
+        ],
+        "keyFeatures": [
+          "Curated call-to-action designs",
+          "Filter by type: button, form, modal, newsletter, pricing",
+          "Select by industry and by mode",
+          "Submit your own CTA",
+          "CTA writing tips and templates sections"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-16: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated scam/shutdown search run"
+      },
+      "sources": [
+        {
+          "url": "https://www.cta.gallery",
+          "date": "2026-10-16",
+          "note": "home: features, filters, sponsor/advertise links"
+        }
+      ],
+      "unverified": [
+        "operator not named",
+        "no terms/privacy page seen",
+        "commercial use",
+        "no safety search run"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/cta-gallery.md",
+        "lint": "pass"
+      }
+    },
+    "ctrlc-ai": {
+      "researchedOn": "2026-10-16",
+      "verdictReason": "ctrlc.ai returned HTTP 429 Too Many Requests twice; nothing readable. Retry later.",
+      "verdict": "blocked",
+      "site": {
+        "name": "ctrlc.ai",
+        "url": "https://ctrlc.ai",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://ctrlc.ai",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://ctrlc.ai",
+          "date": "2026-10-16",
+          "note": "HTTP 429 twice"
+        }
+      ],
+      "unverified": [
+        "everything; only directory label Free"
+      ],
+      "injectionSeen": null
+    },
+    "ctruh-studio": {
+      "researchedOn": "2026-10-16",
+      "verdictReason": "Product URL 301s to studio.ctruh.com which returned only a page title (JS page); /pricing 404. Pricing and free tier unreadable.",
+      "verdict": "blocked",
+      "site": {
+        "name": "Ctruh Studio",
+        "url": "https://studio.ctruh.com/",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://studio.ctruh.com/",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.ctruh.com/products/studio",
+          "date": "2026-10-16",
+          "note": "301 to studio.ctruh.com"
+        },
+        {
+          "url": "https://studio.ctruh.com/",
+          "date": "2026-10-16",
+          "note": "title only: XR Commerce Suite for Every Brand"
+        },
+        {
+          "url": "https://www.ctruh.com/pricing",
+          "date": "2026-10-16",
+          "note": "404"
+        }
+      ],
+      "unverified": [
+        "free tier vs trial",
+        "operator",
+        "pricing"
+      ],
+      "injectionSeen": null
+    },
+    "cursor": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Cursor",
+        "url": "https://cursor.com",
+        "alive": true,
+        "operator": "Anysphere, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan at $0 with limited agent and chat requests (no exact numbers on page)",
+        "paidFrom": "$8/month (Plus, Grok models only); Premium $30/month",
+        "evidence": {
+          "url": "https://cursor.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS (Anysphere Terms of Service) · commercial: per terms · attribution: n/a · limit: free accounts inactive over a year may be closed",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://cursor.com/terms-of-service",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "cursor",
+        "type": "AI Tool",
+        "category": "Development",
+        "title": "Cursor",
+        "description": "AI-first code editor with chat, agents and codebase-aware edits, with a limited free plan and paid tiers for heavier use.",
+        "tags": [
+          "ai-tool",
+          "productivity"
+        ],
+        "relatedResources": [
+          "chatgpt",
+          "claude-ai"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Code editor with built-in AI chat",
+          "Agent mode for multi-file edits",
+          "Paid tiers add cloud agents and AI code review",
+          "Team plans with SSO and usage analytics"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "cursor",
+          "fillColor": "#000000",
+          "bgColor": "#ffffff",
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Well-known product by Anysphere; no dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://cursor.com/pricing",
+          "date": "2026-10-16",
+          "note": "plans and prices"
+        },
+        {
+          "url": "https://cursor.com/terms-of-service",
+          "date": "2026-10-16",
+          "note": "operator, no listing prohibition seen"
+        }
+      ],
+      "unverified": [
+        "exact free plan limits",
+        "free plan permanence not stated on page",
+        "Acceptable Use Policy not read",
+        "no dedicated safety search",
+        "no coding-specific tag exists in RL; used ai-tool + productivity"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/cursor.md",
+        "lint": "pass"
+      }
+    },
+    "cursor-2": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Offers Apple macOS cursor designs as SVG; footer says Apple owns them, no license or terms stated; owner should decide on listing.",
+      "site": {
+        "name": "cursor.design",
+        "url": "https://cursor.design",
+        "alive": true,
+        "operator": "credited to @jamiebrittain and @stuartregan"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Copy SVG cursors or download full set; no price shown",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://cursor.design",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No license stated; footer: designs owned by Apple Inc., not affiliated",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://cursor.design",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "IP risk: Apple-owned designs"
+      },
+      "sources": [
+        {
+          "url": "https://cursor.design",
+          "date": "2026-10-16",
+          "note": "purpose, footer disclaimer"
+        }
+      ],
+      "unverified": [
+        "license/terms",
+        "explicit statement that it is free",
+        "no safety search"
+      ],
+      "injectionSeen": null
+    },
+    "cursorup": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "CursorUp",
+        "url": "https://cursorup.com",
+        "alive": true,
+        "operator": "Craig Barber (founder)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Website design inspiration gallery, resources and blog; no price shown",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://cursorup.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No terms found on site",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://cursorup.com",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "cursorup",
+        "type": "Website",
+        "category": "Design",
+        "title": "CursorUp",
+        "description": "Daily-curated website design inspiration gallery by category, plus resources and a blog for digital product designers.",
+        "tags": [
+          "inspiration",
+          "ui-ux",
+          "web"
+        ],
+        "relatedResources": [
+          "a1-gallery",
+          "adele"
+        ],
+        "similarResources": [
+          "a1-gallery"
+        ],
+        "keyFeatures": [
+          "Daily showcase of website designs",
+          "Filter by Portfolio, Agency, Startup, eCommerce",
+          "Free resources for product designers",
+          "Blog and sponsor-supported listings"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Founder-named personal site; no dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://cursorup.com",
+          "date": "2026-10-16",
+          "note": "sections, pricing absent"
+        },
+        {
+          "url": "https://cursorup.com/about",
+          "date": "2026-10-16",
+          "note": "operator"
+        }
+      ],
+      "unverified": [
+        "gallery cost not explicitly stated",
+        "playbooks may be paid",
+        "terms",
+        "no safety search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/cursorup.md",
+        "lint": "pass"
+      }
+    },
+    "cutefolio": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "Site returned HTTP 503 twice on 2026-10-16; could not read pricing. Retry later.",
+      "site": {
+        "name": "cutefolio",
+        "url": "https://www.cutefol.io",
+        "alive": false,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.cutefol.io",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.cutefol.io",
+          "date": "2026-10-16",
+          "note": "HTTP 503 on two attempts"
+        }
+      ],
+      "unverified": [
+        "everything; only the input directory label (Freemium) known"
+      ],
+      "injectionSeen": null
     }
   }
 }

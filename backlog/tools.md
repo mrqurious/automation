@@ -10,13 +10,13 @@ Generated 2026-10-16 by `scripts/backlog-build.mjs` from `backlog/tools-list.jso
 
 | Status | Count | Meaning |
 |---|---:|---|
-| `todo` | 1447 | in the research queue (free / freemium / beta) |
+| `todo` | 1427 | in the research queue (free / freemium / beta) |
 | `in-rl` | 33 | already in ResourcesList (matched by site or slug) — skip, maybe use for related/similar links |
 | `deferred-paid` | 217 | labelled **Paid** only — parked |
 | `deferred-trial` | 232 | labelled **Free Trial** only — parked until a real free tier is confirmed |
-| `researching` / `researched` / `drafted` / `rejected` / `blocked` | 0 / 9 / 134 / 62 / 145 | set by research sessions |
+| `researching` / `researched` / `drafted` / `rejected` / `blocked` | 0 / 9 / 143 / 64 / 154 | set by research sessions |
 
-Queue by priority: **P1** 1 (free/freemium, listed on 2+ pages) · **P2** 1365 (free/freemium, 1 page) · **P3** 81 (beta).
+Queue by priority: **P1** 1 (free/freemium, listed on 2+ pages) · **P2** 1346 (free/freemium, 1 page) · **P3** 80 (beta).
 
 ## What happens if a tool is not processed (and why)
 
@@ -340,21 +340,41 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Contrast | usecontrast.com | Free | 1 | P2 | blocked |
 | Contrast Plugin | figma.com | Free | 1 | P2 | blocked |
 | Control | cntrl.site | Freemium | 1 | P2 | blocked |
-| CoolHue 2.0 | webkul.github.io | Free | 1 | P2 | researched |
-| Coolicons | coolicons.cool |  | 1 | P3 | researched |
+| CoolHue 2.0 | webkul.github.io | Free | 1 | P2 | drafted |
+| Coolicons | coolicons.cool |  | 1 | P3 | drafted |
 | Coolors | coolors.co | Freemium | 1 | P2 | blocked |
 | CopyChar | copychar.cc | Free | 1 | P2 | blocked |
 | Cosmos | cosmos.so | Free | 1 | P2 | blocked |
 | Coursera | imp.i384100.net | Free + Paid | 1 | P2 | blocked |
 | Courtside | dribbble.com | Free | 1 | P2 | rejected |
-| Coverr | coverr.co | Free + Paid | 1 | P2 | researched |
-| Craft | craft.gustavofior.com | Free | 1 | P2 | researched |
-| Creately | creately.com | Freemium | 1 | P2 | researched |
+| Coverr | coverr.co | Free + Paid | 1 | P2 | drafted |
+| Craft | craft.gustavofior.com | Free | 1 | P2 | drafted |
+| Creately | creately.com | Freemium | 1 | P2 | drafted |
 | CreateOS | createos.sh | Freemium | 1 | P2 | blocked |
-| Creatica | creatica.app | Freemium | 1 | P2 | researched |
-| Creatify | creatify.ai | Freemium | 1 | P2 | researched |
-| Creative Bloq | creativebloq.com | Free | 1 | P2 | researched |
-| Creative Boom | creativeboom.com | Free | 1 | P2 | researched |
+| Creatica | creatica.app | Freemium | 1 | P2 | drafted |
+| Creatify | creatify.ai | Freemium | 1 | P2 | drafted |
+| Creative Bloq | creativebloq.com | Free | 1 | P2 | drafted |
+| Creative Boom | creativeboom.com | Free | 1 | P2 | drafted |
+| Creative Lunch Club | creativelunchclub.com | Free | 1 | P2 | rejected |
+| Creative Mornings | creativemornings.com | Free | 1 | P2 | blocked |
+| Creative Review | creativereview.co.uk | Free | 1 | P2 | blocked |
+| CreativePro | creativepro.com | Free | 1 | P2 | blocked |
+| CreatorKit | creatorkit.com | Freemium | 1 | P2 | rejected |
+| CreatorStock | creatorstock.io | Free + Paid | 1 | P2 | blocked |
+| CrewAI | crewai.com | Freemium | 1 | P2 | researched |
+| Crypto Design Club | cryptodesign.club | Free | 1 | P2 | researched |
+| CSS Gradient | cssgradient.io | Free | 1 | P2 | researched |
+| CSS Icons | css.gg |  | 1 | P3 | blocked |
+| CSS Text Effects | text-effects.colorion.co | Free | 1 | P2 | researched |
+| CSS Type Studio | csstypestudio.com | Free | 1 | P2 | researched |
+| CTA Examples | ctaexamples.com | Free | 1 | P2 | researched |
+| CTA Gallery | cta.gallery | Free | 1 | P2 | researched |
+| ctrlc.ai | ctrlc.ai | Free | 1 | P2 | blocked |
+| Ctruh Studio | ctruh.com | Freemium | 1 | P2 | blocked |
+| Cursor | cursor.com | Freemium | 1 | P2 | researched |
+| Cursor | cursor.design | Free | 1 | P2 | blocked |
+| CursorUp | cursorup.com | Free | 1 | P2 | researched |
+| cutefolio | cutefol.io | Freemium | 1 | P2 | blocked |
 | Descript | get.descript.com | Freemium | 2 | P1 | drafted |
 | DesignerUp | designerup.co | Free tier listed / Paid | 2 | P1 | drafted |
 | Fabric | fabric.so | Freemium | 2 | P1 | blocked |
@@ -387,14 +407,12 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Visily | visily.ai | Freemium | 2 | P1 | drafted |
 | Wispr Flow | ref.wisprflow.ai | Free tier listed / Freemium | 2 | P1 | drafted |
 
-## Research queue (1447)
+## Research queue (1427)
 
-### Best AI Design Tools for Designers (179)
+### Best AI Design Tools for Designers (177)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| ctrlc.ai | ctrlc.ai | Free | 1 | P2 |
-| Cursor | cursor.com | Freemium | 1 | P2 |
 | Dazl | dazl.dev | Freemium | 1 | P2 |
 | Decart | decart.ai | Freemium | 1 | P2 |
 | Design / AI Workflows | yummy-design-sprint.notion.site | Free | 1 | P2 |
@@ -573,11 +591,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | PromptBase | promptbase.com |  | 1 | P3 |
 | Stitch | stitch.withgoogle.com | Beta | 1 | P3 |
 
-### Best Color Tools and Inspiration for Designers (51)
+### Best Color Tools and Inspiration for Designers (50)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| CSS Gradient | cssgradient.io | Free | 1 | P2 |
 | Design Gradients | designgradients.com | Free | 1 | P2 |
 | Design Seeds | design-seeds.com | Free | 1 | P2 |
 | DevAlly | devally.com | Freemium | 1 | P2 |
@@ -629,11 +646,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | WebGradients | webgradients.com | Free | 1 | P2 |
 | Who Can Use | whocanuse.com | Free | 1 | P2 |
 
-### Best Design Blogs & Magazines for Designers (53)
+### Best Design Blogs & Magazines for Designers (52)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Creative Review | creativereview.co.uk | Free | 1 | P2 |
 | Design Milk | design-milk.com | Free | 1 | P2 |
 | Design Observer | designobserver.com | Free | 1 | P2 |
 | Design Systems | designsystems.com | Free | 1 | P2 |
@@ -687,13 +703,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Webflow Blog | webflow.partnerlinks.io | Free | 1 | P2 |
 | Wepresent | wepresent.wetransfer.com | Free | 1 | P2 |
 
-### Best Design Communities for Designers (38)
+### Best Design Communities for Designers (35)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Creative Lunch Club | creativelunchclub.com | Free | 1 | P2 |
-| Creative Mornings | creativemornings.com | Free | 1 | P2 |
-| CreativePro | creativepro.com | Free | 1 | P2 |
 | Design Buddies | designbuddies.community | Free | 1 | P2 |
 | Design Engineer IO | designengineer.io | Free | 1 | P2 |
 | Design Events Guide | designevents.guide | Free | 1 | P2 |
@@ -730,12 +743,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | WeLoveProduct | weloveproduct.co | Freemium | 1 | P2 |
 | Woody | woodyjobs.com | Freemium | 1 | P2 |
 
-### Best Design Tools Across Disciplines (170)
+### Best Design Tools Across Disciplines (168)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Ctruh Studio | ctruh.com | Freemium | 1 | P2 |
-| Cursor | cursor.design | Free | 1 | P2 |
 | darktable | darktable.org | Free | 1 | P2 |
 | DaVinci Resolve | blackmagicdesign.com | Freemium | 1 | P2 |
 | Decktopus | decktopus.com | Freemium | 1 | P2 |
@@ -905,12 +916,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Sesame | sesame.design | Beta | 1 | P3 |
 | Visual | visual.app | Beta | 1 | P3 |
 
-### Best Free Font Libraries and Inspiration for Designers (76)
+### Best Free Font Libraries and Inspiration for Designers (74)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| CSS Text Effects | text-effects.colorion.co | Free | 1 | P2 |
-| CSS Type Studio | csstypestudio.com | Free | 1 | P2 |
 | DaFont | dafont.com | Free | 1 | P2 |
 | Datatype | franktisellano.github.io | Free | 1 | P2 |
 | Decoy Font | mixfont.com | Free | 1 | P2 |
@@ -986,7 +995,7 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | What the Font | apps.apple.com | Free | 1 | P2 |
 | Words of Type | wiki.wordsoftype.com | Free | 1 | P2 |
 
-### Best Free Open Source Icon Libraries (72)
+### Best Free Open Source Icon Libraries (71)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
@@ -1005,7 +1014,6 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Unicorn Icons | unicornicons.com | Freemium | 1 | P2 |
 | useAnimations | useanimations.com | Free | 1 | P2 |
 | Webfont | webfontapp.com | Free + Paid | 1 | P2 |
-| CSS Icons | css.gg |  | 1 | P3 |
 | Doodle Icons | khushmeen.com |  | 1 | P3 |
 | Doodlicons | rahulbhadoriya.notion.site |  | 1 | P3 |
 | ElastoUI | elastoui.com |  | 1 | P3 |
@@ -1309,11 +1317,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | UI8 - Illustrations | ui8.net | Free + Paid | 1 | P2 |
 | Vackground | vackground.com | Free + Paid | 1 | P2 |
 
-### Best UX Tools for Designers (67)
+### Best UX Tools for Designers (66)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| CTA Examples | ctaexamples.com | Free | 1 | P2 |
 | Decode by Entropik | entropik.io | Freemium | 1 | P2 |
 | Dovetail | dovetail.com | Freemium | 1 | P2 |
 | Draw.io | drawio.com | Free | 1 | P2 |
@@ -1381,13 +1388,11 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Zen Flowchart | zenflowchart.com | Freemium | 1 | P2 |
 | Stratify | trystratify.com | Beta | 1 | P3 |
 
-### Design Inspiration Sites for UI, Web, Graphic & Branding (138)
+### Design Inspiration Sites for UI, Web, Graphic & Branding (136)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
 | Nicelydone | nicelydone.club | Free Trial / Free tier listed | 2 | P1 |
-| Crypto Design Club | cryptodesign.club | Free | 1 | P2 |
-| CTA Gallery | cta.gallery | Free | 1 | P2 |
 | Daily Delights | delights.design | Free | 1 | P2 |
 | Dark | dark.design | Free | 1 | P2 |
 | Dark Mode Design | darkmodedesign.com | Free | 1 | P2 |
@@ -1524,11 +1529,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | World Brand Design Society | worldbranddesign.com | Free | 1 | P2 |
 | YouPic | youpic.com | Free | 1 | P2 |
 
-### Free Stock Images & Video Websites (43)
+### Free Stock Images & Video Websites (42)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| CreatorStock | creatorstock.io | Free + Paid | 1 | P2 |
 | Diverse UI | diverseui.com | Free | 1 | P2 |
 | Dreamstime | dreamstime.com | Free + Paid | 1 | P2 |
 | FOCA | focastock.com | Free | 1 | P2 |
@@ -1699,11 +1703,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Xano | via Digitool | Free tier listed | 1 | P2 |
 | Xero | via Digitool | Free tier listed (Digitool "Premium" badge) | 1 | P2 |
 
-### Learn UI/UX Design: Courses, Guides & Best Practices (79)
+### Learn UI/UX Design: Courses, Guides & Best Practices (78)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| CursorUp | cursorup.com | Free | 1 | P2 |
 | Daily Designer | dailydesigner.net | Free | 1 | P2 |
 | Daily UI | dailyui.co | Free | 1 | P2 |
 | Dark Patterns Tip Line | darkpatternstipline.org | Free | 1 | P2 |
@@ -1783,12 +1786,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | uxtoast | uxtoast.com | Free | 1 | P2 |
 | We are Colorblind | wearecolorblind.com | Free | 1 | P2 |
 
-### Marketing Tools for Designers & Creative Teams (73)
+### Marketing Tools for Designers & Creative Teams (71)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| CreatorKit | creatorkit.com | Freemium | 1 | P2 |
-| cutefolio | cutefol.io | Freemium | 1 | P2 |
 | Dub | dub.co | Freemium | 1 | P2 |
 | Figma Buzz | figma.com | Freemium | 1 | P2 |
 | Flodesk | flodesk.com | Freemium | 1 | P2 |
@@ -1861,11 +1862,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Flodesk Studio | studio.flodesk.com | Beta | 1 | P3 |
 | Pomelli | labs.google.com | Beta | 1 | P3 |
 
-### Productivity Tools for Design and Product Teams (55)
+### Productivity Tools for Design and Product Teams (54)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| CrewAI | crewai.com | Freemium | 1 | P2 |
 | DreamCut | dreamcut.ai | Freemium | 1 | P2 |
 | Every Time Zone | everytimezone.com | Free | 1 | P2 |
 | ExcaliClaw | excaliclaw.com | Freemium | 1 | P2 |
