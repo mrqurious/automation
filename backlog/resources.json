@@ -9960,6 +9960,1273 @@
         "Everything: pricing, limits, operator, terms, safety"
       ],
       "injectionSeen": null
+    },
+    "ava-studio": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "Home page returned only a title (JS-rendered); /pricing 404; no pricing or free tier confirmable; web search found nothing about it",
+      "site": {
+        "name": "Ava Studio",
+        "url": "https://www.avastudio.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.avastudio.com",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.avastudio.com",
+          "date": "2026-10-16",
+          "note": "title only: Automate Content, Grow Everywhere"
+        },
+        {
+          "url": "https://www.avastudio.com/pricing",
+          "date": "2026-10-16",
+          "note": "404"
+        }
+      ],
+      "unverified": [
+        "what the product is",
+        "free plan and limits",
+        "license/terms",
+        "operator",
+        "safety search found no results for the name"
+      ],
+      "injectionSeen": null
+    },
+    "avaaatars": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Free per page ('Customizable and commercially free') but the License link points to '#' and no license text exists; commercial/attribution terms unconfirmed",
+      "site": {
+        "name": "Avaaatars",
+        "url": "https://www.avaaatars.com",
+        "alive": true,
+        "operator": "Nicolaj Reck (The UI Studio)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Whole library free; page states no usage limits",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.avaaatars.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No license text found (License link is '#') · commercial: page says 'commercially free' · attribution: unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.avaaatars.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "avaaatars",
+        "type": "Stock Media",
+        "category": "Design",
+        "title": "Avaaatars",
+        "description": "Free library of customizable avatar images with transparent, color and shape options, downloadable as PNG or as Figma, Sketch and XD assets.",
+        "tags": [
+          "stock-illustrations",
+          "stock-vectors",
+          "royalty-free",
+          "graphic-design"
+        ],
+        "relatedResources": [
+          "undraw"
+        ],
+        "similarResources": [
+          "undraw"
+        ],
+        "keyFeatures": [
+          "Large library of avatar images",
+          "Adjustable transparent, color and shape (circle, square, rounded) settings",
+          "Downloads as PNG, Figma, Figma plugin, Sketch and XD",
+          "Advertised as free for commercial use"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no Simple Icons match, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search; credited to a named individual, footer links theui.studio"
+      },
+      "sources": [
+        {
+          "url": "https://www.avaaatars.com",
+          "date": "2026-10-16",
+          "note": "description, author credit, formats, commercially free"
+        },
+        {
+          "url": "https://www.avaaatars.com/license",
+          "date": "2026-10-16",
+          "note": "404"
+        }
+      ],
+      "unverified": [
+        "license terms and attribution",
+        "number of avatars",
+        "no safety search",
+        "Stock Media type fit assumed"
+      ],
+      "injectionSeen": null
+    },
+    "avataaars": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "avataaars.com TLS certificate has expired (fetch error 'certificate has expired'), so it is not listable over working HTTPS. Design by Pablo Stanley reportedly free for personal and commercial use (second-hand, DiceBear); GitHub generator fangpenlin/avataaars is MIT. Owner may decide on an alternate URL.",
+      "site": {
+        "name": "Avataaars",
+        "url": "https://avataaars.com",
+        "alive": false,
+        "operator": "Pablo Stanley (design); Fang-Pen Lin (React generator)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Free per directory label; site unreadable",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://avataaars.com",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": "Design: free personal and commercial use per DiceBear (second-hand) · generator code MIT per GitHub fangpenlin/avataaars",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.dicebear.com/styles/avataaars",
+          "date": "2026-10-16",
+          "confidence": "second-hand"
+        }
+      },
+      "safety": {
+        "https": false,
+        "clonerisk": "none",
+        "notes": "Expired certificate on avataaars.com"
+      },
+      "sources": [
+        {
+          "url": "https://avataaars.com",
+          "date": "2026-10-16",
+          "note": "certificate has expired"
+        },
+        {
+          "url": "https://github.com/fangpenlin/avataaars",
+          "date": "2026-10-16",
+          "note": "MIT, author credits"
+        },
+        {
+          "url": "https://www.dicebear.com/styles/avataaars",
+          "date": "2026-10-16",
+          "note": "second-hand design license via search summary"
+        }
+      ],
+      "unverified": [
+        "first-party license wording",
+        "whether site is maintained",
+        "DiceBear license claim is second-hand"
+      ],
+      "injectionSeen": null
+    },
+    "avatune": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Avatune",
+        "url": "https://www.avatune.dev",
+        "alive": true,
+        "operator": "avatune GitHub organization (no named person or company)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Open source under MIT; no pricing on site (it links a separate 'Studio' site, not described)",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.avatune.dev",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT · commercial: yes · attribution: keep license notice · limit: none stated",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/avatune/avatune",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "avatune",
+        "type": "Library",
+        "category": "Development",
+        "title": "Avatune",
+        "description": "Open-source avatar library that renders seeded, deterministic SVG avatars on the server, with adapters for React, Vue, Svelte, Angular and Swift.",
+        "tags": [
+          "open-source",
+          "ui-ux",
+          "web"
+        ],
+        "relatedResources": [
+          "undraw"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Deterministic server-side SVG output; same seed gives the same avatar",
+          "Adapters for React, React Native, Angular, SolidJS, Vue 3, Svelte 5, vanilla JS and a Swift package",
+          "Tree-shakeable themes with end-to-end TypeScript typing",
+          "Zero runtime dependencies",
+          "Swappable parts, including your own SVG",
+          "Experimental photo-to-avatar Predictor"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no Simple Icons match, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search; GitHub repo with 226 commits and 131 stars"
+      },
+      "sources": [
+        {
+          "url": "https://www.avatune.dev",
+          "date": "2026-10-16",
+          "note": "description, features, MIT footer"
+        },
+        {
+          "url": "https://github.com/avatune/avatune",
+          "date": "2026-10-16",
+          "note": "MIT, frameworks, stars, commits"
+        }
+      ],
+      "unverified": [
+        "last commit date",
+        "operator identity",
+        "theme count (page says 16) and framework count (page says seven and eight)",
+        "Studio site pricing",
+        "no safety search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/avatune.md",
+        "lint": "pass"
+      }
+    },
+    "avvvatars": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Avvvatars",
+        "url": "https://avvvatars.com",
+        "alive": true,
+        "operator": "Nusu Alabuga and Oguz Yagiz Kara (per site footer)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Open source React avatar library, no paid tiers listed, no usage limits stated",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://avvvatars.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT · commercial: yes (MIT) · attribution: keep license notice · limit: none stated on site",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/nusu/avvvatars",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "avvvatars",
+        "type": "Library",
+        "category": "Development",
+        "title": "Avvvatars",
+        "description": "Open source React library that generates unique placeholder avatars for your users from any string, with many colors and shapes.",
+        "tags": [
+          "open-source",
+          "ui-ux",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Unique avatar generated from any value such as an email",
+          "About 40 colors and 60 shapes (per site)",
+          "Small package, under 100kb per site",
+          "Style prop switches between shape and character looks",
+          "Install via npm package avvvatars-react"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Not in Simple Icons, check-icon 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search run; GitHub repo nusu/avvvatars about 2k stars"
+      },
+      "sources": [
+        {
+          "url": "https://avvvatars.com",
+          "date": "2026-10-16",
+          "note": "description, features, makers, install"
+        },
+        {
+          "url": "https://github.com/nusu/avvvatars",
+          "date": "2026-10-16",
+          "note": "MIT license, stars"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "last commit date not seen",
+        "site copyright says 2022; maintenance activity unknown"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/avvvatars.md",
+        "lint": "pass"
+      }
+    },
+    "awin": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Advertiser plans are paid (Access GBP 99 + VAT/month + 3.5% fee, first month free); no permanent free tier confirmed on first-party pages; publisher joining cost not stated; affiliate platform of limited fit.",
+      "site": {
+        "name": "Awin",
+        "url": "https://www.awin.com",
+        "alive": true,
+        "operator": "Awin"
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "Access: GBP 99 + VAT per month plus 3.5% per-transaction fee (UK advertiser page)",
+        "evidence": {
+          "url": "https://www.awin.com/pricing/advertisers",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.awin.com",
+          "date": "2026-10-16",
+          "note": "positioning: 30K+ brands, 1M+ partners"
+        },
+        {
+          "url": "https://www.awin.com/pricing/advertisers",
+          "date": "2026-10-16",
+          "note": "advertiser plan prices"
+        },
+        {
+          "url": "https://www.awin.com/us/publishers",
+          "date": "2026-10-16",
+          "note": "no publisher cost stated"
+        }
+      ],
+      "unverified": [
+        "publisher joining fee/free status not stated on fetched pages",
+        "license/terms not read",
+        "no safety search"
+      ],
+      "injectionSeen": null
+    },
+    "awwwards-blog": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "DNS error EAI_AGAIN on www.awwwards.com, retried; content not read",
+      "site": {
+        "name": "Awwwards Blog",
+        "url": "https://www.awwwards.com/blog/",
+        "alive": null,
+        "operator": "Awwwards"
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.awwwards.com/blog/",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.awwwards.com/blog/",
+          "date": "2026-10-16",
+          "note": "fetch failed twice with DNS error EAI_AGAIN"
+        }
+      ],
+      "unverified": [
+        "page content not read",
+        "pricing/paywall status unknown",
+        "safety search not done",
+        "possible overlap with existing published resource awwwards"
+      ],
+      "injectionSeen": null
+    },
+    "awwwards-conference-talks": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "DNS error EAI_AGAIN on www.awwwards.com, retried; content not read; label says Free + Paid so free portion unconfirmed",
+      "site": {
+        "name": "Awwwards Conference Talks",
+        "url": "https://www.awwwards.com/awwwards/collections/talks/",
+        "alive": null,
+        "operator": "Awwwards"
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.awwwards.com/awwwards/collections/talks/",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.awwwards.com/awwwards/collections/talks/",
+          "date": "2026-10-16",
+          "note": "fetch failed twice with DNS error EAI_AGAIN"
+        }
+      ],
+      "unverified": [
+        "page content not read",
+        "pricing/paywall status unknown",
+        "safety search not done",
+        "possible overlap with existing published resource awwwards"
+      ],
+      "injectionSeen": null
+    },
+    "awwwards-free-fonts": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "awwwards.com failed DNS resolution (getaddrinfo EAI_AGAIN) on two attempts; page content and font licenses not read",
+      "site": {
+        "name": "Awwwards Free Fonts",
+        "url": "https://www.awwwards.com/awwwards/collections/free-fonts/",
+        "alive": null,
+        "operator": "Awwwards"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.awwwards.com/awwwards/collections/free-fonts/",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "safety search not run; fetch failed"
+      },
+      "sources": [
+        {
+          "url": "https://www.awwwards.com/awwwards/collections/free-fonts/",
+          "date": "2026-10-16",
+          "note": "fetch failed twice with DNS error"
+        }
+      ],
+      "unverified": [
+        "page content",
+        "per-font licenses",
+        "whether the collection is maintained",
+        "operator known only from domain"
+      ],
+      "injectionSeen": null
+    },
+    "background": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Paid only: pricing page shows a single Limitless lifetime plan at $29 (struck from $59); no free tier shown",
+      "site": {
+        "name": "Background",
+        "url": "https://www.background.supply",
+        "alive": true,
+        "operator": "Hamza Ehsan"
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "$29 one-time (Limitless, lifetime access; was $59)",
+        "evidence": {
+          "url": "https://www.background.supply/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "safety search not run; screen ended on paid-only finding"
+      },
+      "sources": [
+        {
+          "url": "https://www.background.supply",
+          "date": "2026-10-16",
+          "note": "six collections of AI-generated backgrounds, 12 each; created by Hamza Ehsan; newsletter may send free gifts"
+        },
+        {
+          "url": "https://www.background.supply/pricing",
+          "date": "2026-10-16",
+          "note": "only the Limitless plan, $29 one-time; no free tier mentioned"
+        }
+      ],
+      "unverified": [
+        "License Agreement text",
+        "whether any free sample downloads exist"
+      ],
+      "injectionSeen": null
+    },
+    "backgrounds-supply": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Paid library ($49 one-time, lifetime); a Freebies nav link exists but its contents are unconfirmed (/freebies returned 404), so no permanent free tier confirmed",
+      "site": {
+        "name": "Backgrounds Supply",
+        "url": "https://www.backgrounds.supply",
+        "alive": true,
+        "operator": "Kailash (individual; no legal entity named)"
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "$49 one-time, lifetime access",
+        "evidence": {
+          "url": "https://www.backgrounds.supply",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "safety search not run; screen ended on paid-only finding"
+      },
+      "sources": [
+        {
+          "url": "https://www.backgrounds.supply",
+          "date": "2026-10-16",
+          "note": "$49 one-time; FAQ allows client/commercial use, no resale as standalone; library count inconsistent (1,273 vs 1,167)"
+        },
+        {
+          "url": "https://www.backgrounds.supply/freebies",
+          "date": "2026-10-16",
+          "note": "HTTP 404"
+        }
+      ],
+      "unverified": [
+        "Freebies page contents and limits",
+        "License Agreement text",
+        "library size (page contradicts itself)"
+      ],
+      "injectionSeen": null
+    },
+    "backyard-designers": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Free fantasy-draft game about real designers, not a design resource; no operator or contact identified and the game's working state could not be confirmed from the page",
+      "site": {
+        "name": "Backyard Designers",
+        "url": "https://backyarddesigners.club",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Page calls it a free draft game; no pricing shown",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://backyarddesigners.club",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "safety search not run"
+      },
+      "sources": [
+        {
+          "url": "https://backyarddesigners.club",
+          "date": "2026-10-16",
+          "note": "seven-slot designer team draft game under a follower salary cap; no operator/about link"
+        }
+      ],
+      "unverified": [
+        "operator",
+        "whether the game works (only header and nav seen)",
+        "terms/privacy"
+      ],
+      "injectionSeen": null
+    },
+    "balsa-ui": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "Home page is JS-rendered and returned only its title; no first-party pricing/license readable (MIT and Free come only from third-party listings). Retry via docs/GitHub URL from owner.",
+      "site": {
+        "name": "Balsa UI",
+        "url": "https://balsa-ui.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://balsa-ui.com",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": "MIT per third-party listing (libraries.io) only",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://libraries.io",
+          "date": "2026-10-16",
+          "confidence": "second-hand"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search found no scam/shutdown hits; not checked in depth"
+      },
+      "sources": [
+        {
+          "url": "https://balsa-ui.com",
+          "date": "2026-10-16",
+          "note": "only page title returned"
+        },
+        {
+          "url": "https://chatgate.ai/post/balsa-ui",
+          "date": "2026-10-16",
+          "note": "second-hand description: open-code Vue/React components, CLI, MCP"
+        }
+      ],
+      "unverified": [
+        "pricing",
+        "license (MIT claim second-hand)",
+        "operator",
+        "React support conflicting between sources",
+        "GitHub repo URL not found (guessed URL 404)"
+      ],
+      "injectionSeen": null
+    },
+    "barkod": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Free with no login/limits per home page, but no terms/license page for generated output and no named operator (only a Ko-fi handle). Owner to decide whether to list.",
+      "site": {
+        "name": "BARKOD",
+        "url": "https://barkod.studio",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "\"Completely free - no login, no email, no watermark and no export limits\"; no paid tiers listed; optional Ko-fi support link",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://barkod.studio",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No terms stated for generated SVGs",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://barkod.studio",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search; runs in browser, FAQ says nothing is uploaded"
+      },
+      "sources": [
+        {
+          "url": "https://barkod.studio",
+          "date": "2026-10-16",
+          "note": "free claim, 4 formats (EAN-13, EAN-8, UPC-A, Code 128), 66 shapes, SVG/PNG export, client-side"
+        }
+      ],
+      "unverified": [
+        "operator identity",
+        "terms/license of output",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null
+    },
+    "barnimages": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Barnimages",
+        "url": "https://barnimages.com",
+        "alive": true,
+        "operator": "Photographers Igor Trepeshchenok and Roman Drits (independent, since 2015)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All photos free to download; donations and Patreon optional",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://barnimages.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Barnimages License · commercial: yes · attribution: not required (credit appreciated) · limit: no reselling/redistributing photos as standalone files, no AI training, no model/property releases",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://barnimages.com/license",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "barnimages",
+        "type": "Stock Media",
+        "category": "Photography",
+        "title": "Barnimages",
+        "description": "Independent free stock photo library by two photographers: high-resolution images for personal and commercial use, no attribution required.",
+        "tags": [
+          "stock-photos",
+          "royalty-free",
+          "stock"
+        ],
+        "relatedResources": [
+          "unsplash",
+          "pexels",
+          "pixabay"
+        ],
+        "similarResources": [
+          "all-in-frame",
+          "nappy-all-hands"
+        ],
+        "keyFeatures": [
+          "High-resolution photos free to download",
+          "Commercial use allowed without attribution",
+          "Themed collections such as places and seasons",
+          "Blog with guides, e.g. free mockup and newsletter image roundups",
+          "Linking to photo pages is explicitly allowed"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "not in Simple Icons (check-icon.mjs, 2026-10-16)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Active site (2026 blog posts); no dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://barnimages.com",
+          "date": "2026-10-16",
+          "note": "tagline, operator, license statement"
+        },
+        {
+          "url": "https://barnimages.com/license",
+          "date": "2026-10-16",
+          "note": "allowed/forbidden list"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/barnimages.md",
+        "lint": "pass"
+      }
+    },
+    "base44": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Base44",
+        "url": "https://base44.com",
+        "alive": true,
+        "operator": "Wix.com Ltd."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan $0: 25 message credits/month, 100 integration credits/month, up to 5 apps",
+        "paidFrom": "Starter $16/month billed annually (100 message credits, 2,000 integration credits per month)",
+        "evidence": {
+          "url": "https://base44.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Terms not read (terms URL 404) · commercial: unknown · attribution: unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://base44.com/terms",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "base44",
+        "type": "AI Tool",
+        "category": "Development",
+        "title": "Base44",
+        "description": "AI app builder from Wix: describe an app in plain language and get a working app with backend, auth and hosting. Free plan with monthly credits.",
+        "tags": [
+          "ai-tool",
+          "no-code",
+          "web"
+        ],
+        "relatedResources": [
+          "lovable"
+        ],
+        "similarResources": [
+          "lovable",
+          "atoms"
+        ],
+        "keyFeatures": [
+          "Build apps by describing them in natural language",
+          "Free plan with monthly message and integration credits",
+          "Up to 5 apps on the free plan",
+          "Owned by Wix, continues as a distinct product"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "not in Simple Icons (check-icon.mjs, 2026-10-16)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Wix acquired Base44 (about $80M, June 2025 per search results); still operating mid-2026; users complain about credits spent on fix loops; no scam hits"
+      },
+      "sources": [
+        {
+          "url": "https://base44.com/pricing",
+          "date": "2026-10-16",
+          "note": "free and Starter plan numbers, Wix copyright"
+        },
+        {
+          "url": "https://www.morphllm.com/base44-review",
+          "date": "2026-10-16",
+          "note": "second-hand: acquisition, still operating"
+        }
+      ],
+      "unverified": [
+        "terms/listing clause (terms 404)",
+        "free tier permanence not stated explicitly; monthly credits imply ongoing",
+        "ownership/commercial use of generated apps",
+        "backend/auth/hosting claim from tool description only",
+        "supplied site URL was an affiliate redirect, clean home used"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/base44.md",
+        "lint": "pass"
+      }
+    },
+    "basecamp": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Basecamp",
+        "url": "https://basecamp.com",
+        "alive": true,
+        "operator": "37signals LLC"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan: 1 project, 1 GB storage, up to 5 users; pricing page says no credit card and no trial on Free",
+        "paidFrom": "$25/mo (Freelancer, 30-day free trial)",
+        "evidence": {
+          "url": "https://basecamp.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS (37signals Terms) · commercial: no restriction seen for Free · attribution: n/a · limit: logo use for promotional purposes needs permission",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://37signals.com/policies/terms",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "basecamp",
+        "type": "Tool",
+        "category": "Productivity",
+        "title": "Basecamp",
+        "description": "Project management and team communication tool with to-dos, message boards, chat and file sharing in one place; free plan covers one project.",
+        "tags": [
+          "project-management",
+          "productivity",
+          "collaboration"
+        ],
+        "relatedResources": [
+          "asana",
+          "notion"
+        ],
+        "similarResources": [
+          "asana"
+        ],
+        "keyFeatures": [
+          "To-do lists, message boards and group chat per project",
+          "Schedules, file storage and document sharing",
+          "Free plan with one project, 1 GB and up to 5 users",
+          "Paid tiers add projects, storage and users"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "basecamp",
+          "fillColor": "#1D2D35",
+          "bgColor": "#ffffff",
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search found no scam/shutdown/acquisition for Basecamp itself; only the 2014 rename and old 37signals products closed"
+      },
+      "sources": [
+        {
+          "url": "https://basecamp.com/pricing",
+          "date": "2026-10-16",
+          "note": "plans and free tier"
+        },
+        {
+          "url": "https://37signals.com/policies/terms",
+          "date": "2026-10-16",
+          "note": "operator, terms"
+        }
+      ],
+      "unverified": [
+        "feature list based on the home description and general product knowledge; features page not fetched",
+        "pricing page calls Free 'one free project for personal use'; terms show no personal-use restriction",
+        "cannot downgrade from paid back to Free (new account needed)",
+        "logo promo use requires permission (matters for reels)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/basecamp.md",
+        "lint": "pass"
+      }
+    },
+    "basic-pattern-repository": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Site states no license; the GitHub repo is GPL-3.0 (COPYING.txt) and some patterns are based on others' work, so reuse terms are unclear.",
+      "site": {
+        "name": "Basic Pattern Repository",
+        "url": "https://patterns.helloyes.dev",
+        "alive": true,
+        "operator": "Thomas Michael Semmler (helloyes.dev)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Free SVG patterns to copy, 41 pattern pages, no price on site",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://patterns.helloyes.dev",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Repo GPL-3.0 · commercial: unclear · attribution: unclear · limit: site states no usage terms; some patterns based on others' work",
+        "openSource": true,
+        "spdx": "GPL-3.0",
+        "evidence": {
+          "url": "https://github.com/nachtfunke/basic-pattern-repository",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "basic-pattern-repository",
+        "type": "Library",
+        "category": "Design",
+        "title": "Basic Pattern Repository",
+        "description": "A small collection of hand-coded SVG background patterns you can copy into projects, with a Figma library version.",
+        "tags": [
+          "visual-design",
+          "open-source"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "41 simple SVG patterns",
+          "Copy-ready SVG code",
+          "Matching Figma community library",
+          "Open GitHub repository"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": null
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://patterns.helloyes.dev",
+          "date": "2026-10-16",
+          "note": "what it is, 41 patterns, v0.6.1"
+        },
+        {
+          "url": "https://patterns.helloyes.dev/credits",
+          "date": "2026-10-16",
+          "note": "credits, no license"
+        },
+        {
+          "url": "https://patterns.helloyes.dev/legal",
+          "date": "2026-10-16",
+          "note": "imprint, no usage rights"
+        },
+        {
+          "url": "https://github.com/nachtfunke/basic-pattern-repository",
+          "date": "2026-10-16",
+          "note": "GPL-3.0"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "last commit date not seen",
+        "Figma library terms not read",
+        "GPL-3.0 fit for copying SVGs into commercial work"
+      ],
+      "injectionSeen": null
+    },
+    "basicons": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "Home page fetch returned only truncated/empty content (www and bare host), so pricing and license could not be read from the first-party site. Second-hand hints: free line icons, about $29 lifetime for filled set (unconfirmed).",
+      "site": {
+        "name": "Basicons",
+        "url": "https://www.basicons.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.basicons.com",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.basicons.com",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Appears on Product Hunt, Framer icon set listing and a 2020 French review; no scam hits seen"
+      },
+      "sources": [
+        {
+          "url": "https://www.basicons.com",
+          "date": "2026-10-16",
+          "note": "fetch returned no usable content"
+        },
+        {
+          "url": "https://siecledigital.fr/2020/09/06/basicons-collection-icones-gratuites/",
+          "date": "2026-10-16",
+          "note": "second-hand: free line icons"
+        },
+        {
+          "url": "https://www.framer.com/updates/icon-set-basicons",
+          "date": "2026-10-16",
+          "note": "second-hand: 600+ icons"
+        }
+      ],
+      "unverified": [
+        "free tier scope",
+        "paid price (second-hand $29 lifetime)",
+        "license",
+        "operator"
+      ],
+      "injectionSeen": null
+    },
+    "beacons": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Pricing page confirms a permanent Free plan, but home and Terms of Service returned HTTP 403, so listing/commercial terms and operator could not be read; no Simple Icons logo.",
+      "site": {
+        "name": "Beacons",
+        "url": "https://beacons.ai",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free forever at $0: 30 daily AI credits, 50 email sends/month, 9% seller fees, 1 website with 1 page, 1 course without video hosting, 5 automations/month",
+        "paidFrom": "$10/mo (Creator; $8.33/mo billed annually)",
+        "evidence": {
+          "url": "https://beacons.ai/i/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://beacons.ai/terms-of-service",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "beacons",
+        "type": "Tool",
+        "category": "Marketing",
+        "title": "Beacons",
+        "description": "Link-in-bio page builder with AI helpers, email sends, simple stores, courses and automations for creators; a free plan is available.",
+        "tags": [
+          "social-media-design",
+          "website-builder",
+          "ai-tool"
+        ],
+        "relatedResources": [
+          "typedream"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Link-in-bio page builder",
+          "AI credits for text, image and page design",
+          "Email sends and automations",
+          "Sell products, courses and memberships (seller fees apply on free)"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no Simple Icons match, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://beacons.ai/i/pricing",
+          "date": "2026-10-16",
+          "note": "plans and free limits (table columns partly ambiguous; plan cards used)"
+        }
+      ],
+      "unverified": [
+        "Terms of Service (403)",
+        "home page (403)",
+        "operator",
+        "no safety search",
+        "feature list based on pricing page and input description"
+      ],
+      "injectionSeen": null
     }
   }
 }

@@ -4466,12 +4466,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Home page returned only a title (JS-rendered); /pricing 404; no pricing or free tier confirmable; web search found nothing about it",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "avaaatars",
@@ -4492,12 +4492,12 @@
           "file": "Free Stock Images & Video Websites _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Free per page ('Customizable and commercially free') but the License link points to '#' and no license text exists; commercial/attribution terms unconfirmed",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "avataaars",
@@ -4518,12 +4518,12 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "avataaars.com TLS certificate has expired (fetch error 'certificate has expired'), so it is not listable over working HTTPS. Design by Pablo Stanley reportedly free for personal and commercial use (second-hand, DiceBear); GitHub generator fangpenlin/avataaars is MIT. Owner may decide on an alternate URL.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "avatune",
@@ -4544,12 +4544,12 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "aveiro",
@@ -4596,12 +4596,12 @@
           "file": "Free Stock Images & Video Websites _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "awin",
@@ -4622,12 +4622,12 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Advertiser plans are paid (Access GBP 99 + VAT/month + 3.5% fee, first month free); no permanent free tier confirmed on first-party pages; publisher joining cost not stated; affiliate platform of limited fit.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "awwwards",
@@ -4681,12 +4681,12 @@
           "file": "Best Design Blogs & Magazines for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "DNS error EAI_AGAIN on www.awwwards.com, retried; content not read",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "awwwards-conference-talks",
@@ -4707,12 +4707,12 @@
           "file": "Learn UI_UX Design_ Courses, Guides & Best Practices.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "DNS error EAI_AGAIN on www.awwwards.com, retried; content not read; label says Free + Paid so free portion unconfirmed",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "awwwards-free-fonts",
@@ -4733,12 +4733,12 @@
           "file": "Best Free Font Libraries and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "awwwards.com failed DNS resolution (getaddrinfo EAI_AGAIN) on two attempts; page content and font licenses not read",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "axure",
@@ -4785,12 +4785,12 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Paid only: pricing page shows a single Limitless lifetime plan at $29 (struck from $59); no free tier shown",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "backgrounds-supply",
@@ -4811,12 +4811,12 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Paid library ($49 one-time, lifetime); a Freebies nav link exists but its contents are unconfirmed (/freebies returned 404), so no permanent free tier confirmed",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "backyard-designers",
@@ -4837,12 +4837,12 @@
           "file": "Best Design Communities for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Free fantasy-draft game about real designers, not a design resource; no operator or contact identified and the game's working state could not be confirmed from the page",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "bacon",
@@ -4915,12 +4915,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Home page is JS-rendered and returned only its title; no first-party pricing/license readable (MIT and Free come only from third-party listings). Retry via docs/GitHub URL from owner.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "balsamiq",
@@ -5002,12 +5002,12 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Free with no login/limits per home page, but no terms/license page for generated output and no named operator (only a Ko-fi handle). Owner to decide whether to list.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "barnimages",
@@ -5028,12 +5028,12 @@
           "file": "Free Stock Images & Video Websites _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "base44",
@@ -5054,12 +5054,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "basecamp",
@@ -5080,12 +5080,12 @@
           "file": "Productivity Tools for Design and Product Teams.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "basic-pattern-repository",
@@ -5106,12 +5106,12 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Site states no license; the GitHub repo is GPL-3.0 (COPYING.txt) and some patterns are based on others' work, so reuse terms are unclear.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "basicons",
@@ -5130,12 +5130,12 @@
           "file": "Best Free Open Source Icon Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Home page fetch returned only truncated/empty content (www and bare host), so pricing and license could not be read from the first-party site. Second-hand hints: free line icons, about $29 lifetime for filled set (unconfirmed).",
       "pricingBucket": "beta",
       "rlSlug": null,
       "priority": "P3",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "beacons",
@@ -5156,12 +5156,12 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Pricing page confirms a permanent Free plan, but home and Terms of Service returned HTTP 403, so listing/commercial terms and operator could not be read; no Simple Icons logo.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "beautiful-things",
@@ -59927,16 +59927,16 @@
     "byStatus": {
       "deferred-trial": 232,
       "deferred-paid": 217,
-      "blocked": 44,
-      "drafted": 64,
-      "rejected": 34,
-      "researched": 8,
+      "blocked": 55,
+      "drafted": 72,
+      "rejected": 38,
       "in-rl": 33,
-      "todo": 1647
+      "researched": 5,
+      "todo": 1627
     },
     "todoByPriority": {
-      "P2": 1556,
-      "P3": 90,
+      "P2": 1537,
+      "P3": 89,
       "P1": 1
     }
   }
