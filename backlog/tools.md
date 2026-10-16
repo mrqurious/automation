@@ -10,13 +10,13 @@ Generated 2026-10-16 by `scripts/backlog-build.mjs` from `backlog/tools-list.jso
 
 | Status | Count | Meaning |
 |---|---:|---|
-| `todo` | 1507 | in the research queue (free / freemium / beta) |
+| `todo` | 1487 | in the research queue (free / freemium / beta) |
 | `in-rl` | 33 | already in ResourcesList (matched by site or slug) — skip, maybe use for related/similar links |
 | `deferred-paid` | 217 | labelled **Paid** only — parked |
 | `deferred-trial` | 232 | labelled **Free Trial** only — parked until a real free tier is confirmed |
-| `researching` / `researched` / `drafted` / `rejected` / `blocked` | 0 / 6 / 118 / 60 / 106 | set by research sessions |
+| `researching` / `researched` / `drafted` / `rejected` / `blocked` | 0 / 4 / 124 / 60 / 122 | set by research sessions |
 
-Queue by priority: **P1** 1 (free/freemium, listed on 2+ pages) · **P2** 1424 (free/freemium, 1 page) · **P3** 82 (beta).
+Queue by priority: **P1** 1 (free/freemium, listed on 2+ pages) · **P2** 1404 (free/freemium, 1 page) · **P3** 82 (beta).
 
 ## What happens if a tool is not processed (and why)
 
@@ -275,26 +275,46 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Case Study Club | casestudy.club | Freemium | 1 | P2 | blocked |
 | Causal | causal.so | Freemium | 1 | P2 | drafted |
 | Cavalry | cavalry.studio | Free | 1 | P2 | blocked |
-| Chakra UI | chakra-ui.com | Free | 1 | P2 | researched |
+| Chakra UI | chakra-ui.com | Free | 1 | P2 | drafted |
 | Chargeflow | via Digitool | Free tier listed | 1 | P2 | blocked |
 | Charli Marie TV | youtube.com | Free | 1 | P2 | blocked |
 | ChatGPT Images | chatgpt.com | Freemium | 1 | P2 | blocked |
 | Checklist Design | checklist.design | Free | 1 | P2 | blocked |
-| Chili3D | chili3d.com | Free | 1 | P2 | researched |
+| Chili3D | chili3d.com | Free | 1 | P2 | drafted |
 | Chromatic AI | via Digitool | Free tier listed | 1 | P2 | blocked |
 | Chronicle | chroniclehq.com | Freemium | 1 | P2 | blocked |
 | Chronoid | via Digitool | Free tier listed | 1 | P2 | rejected |
-| Circleback | via Digitool | Free tier listed | 1 | P2 | researched |
-| Circum | circumicons.com |  | 1 | P3 | researched |
+| Circleback | via Digitool | Free tier listed | 1 | P2 | drafted |
+| Circum | circumicons.com |  | 1 | P3 | drafted |
 | CJ Affiliate | cj.com | Free + Paid | 1 | P2 | blocked |
 | Claritee | claritee.io | Freemium | 1 | P2 | blocked |
 | Claude Design | claude.ai | Beta | 1 | P3 | rejected |
 | CleanShot X | via Digitool | Free tier listed | 1 | P2 | rejected |
 | ClickBank | clickbank.com | Free + Paid | 1 | P2 | rejected |
-| Clipchamp | clipchamp.com | Freemium | 1 | P2 | researched |
+| Clipchamp | clipchamp.com | Freemium | 1 | P2 | drafted |
 | ClipDrop | clipdrop.co | Freemium | 1 | P2 | blocked |
-| Clueso | clueso.io | Freemium | 1 | P2 | researched |
+| Clueso | clueso.io | Freemium | 1 | P2 | drafted |
 | Codrops | tympanus.net | Free | 1 | P2 | blocked |
+| Coglode | coglode.com | Free + Paid | 1 | P2 | blocked |
+| Cognitive Bias Index | cognitivebiasindex.com | Free | 1 | P2 | blocked |
+| Colir | colir.space | Freemium | 1 | P2 | blocked |
+| Collabstr | collabstr.com | Freemium | 1 | P2 | blocked |
+| Collect UI | collectui.com | Free | 1 | P2 | researched |
+| Collecta | collecta.space | Freemium | 1 | P2 | blocked |
+| Collletttivo | collletttivo.it | Free | 1 | P2 | researched |
+| Color & Contrast | colorandcontrast.com | Free | 1 | P2 | blocked |
+| Color Designer | colordesigner.io | Free + Paid | 1 | P2 | blocked |
+| Color Fuse AI | colorfuseai.com | Freemium | 1 | P2 | blocked |
+| Color Hunt | colorhunt.co | Free | 1 | P2 | researched |
+| Color Leap | colorleap.app | Free | 1 | P2 | blocked |
+| Color Pal | color-pal.com | Free | 1 | P2 | blocked |
+| Color Ramp | color-ramp.com | Free | 1 | P2 | blocked |
+| Color Review | color.review | Free | 1 | P2 | blocked |
+| Color Selector | color-selector.com | Free | 1 | P2 | blocked |
+| color-space | color-space.io | Free | 1 | P2 | researched |
+| ColorBox | colorbox.io | Free | 1 | P2 | blocked |
+| Colorca | colorca.org | Free | 1 | P2 | blocked |
+| ColorDrop | colordrop.io | Free | 1 | P2 | blocked |
 | Descript | get.descript.com | Freemium | 2 | P1 | drafted |
 | DesignerUp | designerup.co | Free tier listed / Paid | 2 | P1 | drafted |
 | Fabric | fabric.so | Freemium | 2 | P1 | blocked |
@@ -327,7 +347,7 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Visily | visily.ai | Freemium | 2 | P1 | drafted |
 | Wispr Flow | ref.wisprflow.ai | Free tier listed / Freemium | 2 | P1 | drafted |
 
-## Research queue (1507)
+## Research queue (1487)
 
 ### Best AI Design Tools for Designers (181)
 
@@ -515,22 +535,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | PromptBase | promptbase.com |  | 1 | P3 |
 | Stitch | stitch.withgoogle.com | Beta | 1 | P3 |
 
-### Best Color Tools and Inspiration for Designers (81)
+### Best Color Tools and Inspiration for Designers (69)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Color Designer | colordesigner.io | Free + Paid | 1 | P2 |
-| Color Fuse AI | colorfuseai.com | Freemium | 1 | P2 |
-| Color Hunt | colorhunt.co | Free | 1 | P2 |
-| Color Leap | colorleap.app | Free | 1 | P2 |
-| Color Pal | color-pal.com | Free | 1 | P2 |
-| Color Ramp | color-ramp.com | Free | 1 | P2 |
-| Color Review | color.review | Free | 1 | P2 |
-| Color Selector | color-selector.com | Free | 1 | P2 |
-| color-space | color-space.io | Free | 1 | P2 |
-| ColorBox | colorbox.io | Free | 1 | P2 |
-| Colorca | colorca.org | Free | 1 | P2 |
-| ColorDrop | colordrop.io | Free | 1 | P2 |
 | Colorffy | colorffy.com | Freemium | 1 | P2 |
 | ColorHexa | colorhexa.com | Free | 1 | P2 |
 | Colorizer | colorizer.org | Free | 1 | P2 |
@@ -883,11 +891,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Sesame | sesame.design | Beta | 1 | P3 |
 | Visual | visual.app | Beta | 1 | P3 |
 
-### Best Free Font Libraries and Inspiration for Designers (78)
+### Best Free Font Libraries and Inspiration for Designers (77)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Collletttivo | collletttivo.it | Free | 1 | P2 |
 | CopyChar | copychar.cc | Free | 1 | P2 |
 | CSS Text Effects | text-effects.colorion.co | Free | 1 | P2 |
 | CSS Type Studio | csstypestudio.com | Free | 1 | P2 |
@@ -1208,11 +1215,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Revyme | revyme.com | Beta | 1 | P3 |
 | Zoah | zoah.com | Beta | 1 | P3 |
 
-### Best Open Source Illustration Libraries (81)
+### Best Open Source Illustration Libraries (80)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Colir | colir.space | Freemium | 1 | P2 |
 | ColorFlow | colorflow.ls.graphics | Free | 1 | P2 |
 | Creatica | creatica.app | Freemium | 1 | P2 |
 | Dayflow | dayflow.blush.design | Freemium | 1 | P2 |
@@ -1366,13 +1372,11 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Zen Flowchart | zenflowchart.com | Freemium | 1 | P2 |
 | Stratify | trystratify.com | Beta | 1 | P3 |
 
-### Design Inspiration Sites for UI, Web, Graphic & Branding (141)
+### Design Inspiration Sites for UI, Web, Graphic & Branding (139)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
 | Nicelydone | nicelydone.club | Free Trial / Free tier listed | 2 | P1 |
-| Collect UI | collectui.com | Free | 1 | P2 |
-| Collecta | collecta.space | Freemium | 1 | P2 |
 | Cosmos | cosmos.so | Free | 1 | P2 |
 | Crypto Design Club | cryptodesign.club | Free | 1 | P2 |
 | CTA Gallery | cta.gallery | Free | 1 | P2 |
@@ -1689,13 +1693,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Xano | via Digitool | Free tier listed | 1 | P2 |
 | Xero | via Digitool | Free tier listed (Digitool "Premium" badge) | 1 | P2 |
 
-### Learn UI/UX Design: Courses, Guides & Best Practices (83)
+### Learn UI/UX Design: Courses, Guides & Best Practices (80)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Coglode | coglode.com | Free + Paid | 1 | P2 |
-| Cognitive Bias Index | cognitivebiasindex.com | Free | 1 | P2 |
-| Color & Contrast | colorandcontrast.com | Free | 1 | P2 |
 | Coursera | imp.i384100.net | Free + Paid | 1 | P2 |
 | CursorUp | cursorup.com | Free | 1 | P2 |
 | Daily Designer | dailydesigner.net | Free | 1 | P2 |
@@ -1777,11 +1778,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | uxtoast | uxtoast.com | Free | 1 | P2 |
 | We are Colorblind | wearecolorblind.com | Free | 1 | P2 |
 
-### Marketing Tools for Designers & Creative Teams (75)
+### Marketing Tools for Designers & Creative Teams (74)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Collabstr | collabstr.com | Freemium | 1 | P2 |
 | Creatify | creatify.ai | Freemium | 1 | P2 |
 | CreatorKit | creatorkit.com | Freemium | 1 | P2 |
 | cutefolio | cutefol.io | Freemium | 1 | P2 |
