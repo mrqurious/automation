@@ -2297,6 +2297,1141 @@
         "do not confuse with usemotion.com (AI calendar), a different product"
       ],
       "injectionSeen": "Home page has pre-filled ChatGPT/Claude/Perplexity prompts asking the assistant to explain why Motion is a great choice; promotional steering, ignored."
+    },
+    "saasframe": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Pricing page lists only paid Pro tiers; no free plan confirmed (core browsing gated behind upgrade)",
+      "site": {
+        "name": "SaaSFrame",
+        "url": "https://www.saasframe.io",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "18 USD/month (quarterly 48 USD, yearly 180 USD); currency as listed, not stated explicitly",
+        "evidence": {
+          "url": "https://www.saasframe.io/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.saasframe.io",
+          "date": "2026-10-16",
+          "note": "5,000+ SaaS UI examples library; browse/filter/Figma/bookmark gated with Upgrade"
+        },
+        {
+          "url": "https://www.saasframe.io/pricing",
+          "date": "2026-10-16",
+          "note": "only Pro monthly/quarterly/yearly plus quote tier; no free plan listed"
+        }
+      ],
+      "unverified": [
+        "whether a limited free account exists after sign-up",
+        "terms page not read",
+        "no safety search run"
+      ],
+      "injectionSeen": null
+    },
+    "se-ranking": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Trial only: 14-day free trial, no permanent free plan",
+      "site": {
+        "name": "SE Ranking",
+        "url": "https://seranking.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "Core 103.20 USD/month (shown as annual-discounted from 129.00)",
+        "evidence": {
+          "url": "https://seranking.com/pricing.html",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://seranking.com/pricing.html",
+          "date": "2026-10-16",
+          "note": "Core/Growth/Enterprise; only a 14-day no-card trial; no permanent free plan"
+        }
+      ],
+      "unverified": [
+        "terms not read",
+        "no safety search run"
+      ],
+      "injectionSeen": null
+    },
+    "shopify": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Trial only: 3-day free trial, paid plans after",
+      "site": {
+        "name": "Shopify",
+        "url": "https://www.shopify.com",
+        "alive": true,
+        "operator": "Shopify Inc. (not read on page)"
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "Basic INR 1,499/month billed yearly (regional INR page; USD not read)",
+        "evidence": {
+          "url": "https://www.shopify.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.shopify.com/pricing",
+          "date": "2026-10-16",
+          "note": "no permanent free plan; FAQ: free 3-day trial; Basic/Grow/Advanced/Plus"
+        },
+        {
+          "url": "https://shopify.pxf.io/c/3704448/1424186/13624",
+          "date": "2026-10-16",
+          "note": "affiliate URL in tools-list site, resolved to clean home https://www.shopify.com; not opened"
+        }
+      ],
+      "unverified": [
+        "terms not read",
+        "no safety search run",
+        "USD prices not read"
+      ],
+      "injectionSeen": null
+    },
+    "shortpen": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "ShortPen",
+        "url": "https://shortpen.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan 0 USD/month: 1 workspace, 1 user, unlimited links and dynamic QR codes, unlimited tracked clicks, 30 days analytics history, 100 conversions/month, 1 custom domain, limited API access",
+        "paidFrom": "Plus 23 USD/month (billing cycle not clear on page; yearly option saves 20%)",
+        "evidence": {
+          "url": "https://shortpen.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: not read · attribution: n/a · limit: terms page rendered empty, not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://shortpen.com/terms-and-conditions",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "shortpen",
+        "type": "Tool",
+        "category": "Marketing",
+        "title": "ShortPen",
+        "description": "Link and QR code manager: branded short links, dynamic QR codes, click and scan analytics, and conversion tracking; free plan with unlimited links.",
+        "tags": [
+          "web",
+          "productivity"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Branded short links on your own domain with editable destinations",
+          "Dynamic QR codes with custom colors and logo, destination editable after printing",
+          "One dashboard for click and scan analytics by source, device, country and time",
+          "Conversion tracking tied to a specific link or QR code",
+          "Workspaces, folders and tags; API for programmatic links",
+          "Free plan: unlimited links and QR codes, 30-day analytics, 100 conversions/month"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "not in Simple Icons (check-icon exit 1, 2026-10-16)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Safety search 2026-10-16 returned no reports about ShortPen (only unrelated Prolific Puma shortener coverage); operator not identified on site"
+      },
+      "sources": [
+        {
+          "url": "https://shortpen.com",
+          "date": "2026-10-16",
+          "note": "what it is, feature names, footer has no company name"
+        },
+        {
+          "url": "https://shortpen.com/pricing",
+          "date": "2026-10-16",
+          "note": "Free/Plus/Scale table with limits"
+        },
+        {
+          "url": "https://shortpen.com/terms-and-conditions",
+          "date": "2026-10-16",
+          "note": "page body empty in fetch; terms not read"
+        },
+        {
+          "url": "https://www.google.com/search?q=Shortpen+scam",
+          "date": "2026-10-16",
+          "note": "web search, no relevant hits (not a fetched page)"
+        }
+      ],
+      "unverified": [
+        "terms and commercial use not read",
+        "operator/company unknown",
+        "whether free plan is time-limited (FAQ answer missing)",
+        "Plus/Scale billing cycle",
+        "integrations not named on site"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-03",
+        "file": "src/content/resources/shortpen.md",
+        "lint": "pass"
+      }
+    },
+    "the-fwa-awards": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "thefwa.com and /about return only a title (JS-rendered); free access and fees unreadable",
+      "site": {
+        "name": "The FWA Awards",
+        "url": "https://thefwa.com",
+        "alive": true,
+        "operator": null
+      },
+      "sources": [
+        {
+          "url": "https://thefwa.com",
+          "date": "2026-10-16",
+          "note": "returned only title 'Awards - The FWA'"
+        },
+        {
+          "url": "https://thefwa.com/about",
+          "date": "2026-10-16",
+          "note": "returned empty content"
+        }
+      ],
+      "unverified": [
+        "what browsing costs",
+        "submission fees (directory label says Paid and Free)",
+        "operator",
+        "terms"
+      ],
+      "injectionSeen": null
+    },
+    "typeui-sh": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "TypeUI",
+        "url": "https://www.typeui.sh",
+        "alive": true,
+        "operator": "bergside (GitHub organization)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "CLI and public registry of design skills and UI prompts are open source and free (MIT); about 80 named styles listed on the repo page",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://github.com/bergside/typeui",
+          "date": "2026-10-16",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "MIT (CLI and public registry) · commercial: yes under MIT · attribution: keep MIT notice · limit: Pro design files are a separate paid tier",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/bergside/typeui",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "typeui",
+        "type": "Tool",
+        "category": "Development",
+        "title": "TypeUI",
+        "description": "Open-source CLI and registry of design skills and UI prompts that steer AI coding agents toward cleaner, more consistent interfaces.",
+        "tags": [
+          "ai-tool",
+          "design-systems",
+          "open-source",
+          "ui-ux"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Design skills as DESIGN.md and SKILL.md files for AI agents",
+          "About 80 named visual styles in the public registry",
+          "UI prompt sets for heroes, pricing, FAQ and login sections",
+          "CLI commands: generate, update, randomize, list, pull",
+          "Setup guides and hosted MCP for roughly 25 AI coding tools"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Not in Simple Icons (check-icon exit 1), 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Search found multiple independent listings (EveryDev, Creative Tim blog, Peerlist); no scam reports seen. www.typeui.sh itself returned 429."
+      },
+      "sources": [
+        {
+          "url": "https://github.com/bergside/typeui",
+          "date": "2026-10-16",
+          "note": "license MIT, commands, features, Pro mention"
+        },
+        {
+          "url": "https://www.everydev.ai/tools/typeui",
+          "date": "2026-10-16",
+          "note": "search snippet only: free tier, Pro custom pricing"
+        },
+        {
+          "url": "https://www.typeui.sh",
+          "date": "2026-10-16",
+          "note": "HTTP 429, not read"
+        }
+      ],
+      "unverified": [
+        "Pro tier price and exact boundary of free vs Pro registry (sources conflict)",
+        "last commit date",
+        "typeui.sh home and pricing pages not read (429)",
+        "legal operator name"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-03",
+        "file": "src/content/resources/typeui.md",
+        "lint": "pass"
+      }
+    },
+    "visily": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Visily",
+        "url": "https://www.visily.ai",
+        "alive": true,
+        "operator": "Visily"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Starter plan, $0: 300 AI credits/month (600 in first month), 2 editable boards plus unlimited view-only boards, 2,500 elements per board, 50 workspace members, JPG/PNG/PDF export at 1x with watermark",
+        "paidFrom": "14 USD/editor/month (Pro; billing period not stated on page)",
+        "evidence": {
+          "url": "https://www.visily.ai/pricing/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: not read · attribution: n/a · limit: free exports are watermarked; terms not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.visily.ai/pricing/",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "visily",
+        "type": "AI Tool",
+        "category": "Design",
+        "title": "Visily",
+        "description": "AI UI design tool: turn text prompts, screenshots or sketches into editable wireframes and mockups, with a free Starter plan.",
+        "tags": [
+          "ai-tool",
+          "ui-ux",
+          "prototyping",
+          "design-templates"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "figma",
+          "framer"
+        ],
+        "keyFeatures": [
+          "Text to design: generate high-fidelity screens from a prompt",
+          "Screenshot to design: convert app or web screenshots into editable mockups",
+          "Drag-and-drop canvas with templates, themes and smart components",
+          "Sketch and diagram to design, plus AI prototyping",
+          "Free Starter plan: 300 AI credits/month, 2 editable boards, watermarked 1x export"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Not in Simple Icons (check-icon exit 1), 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Safety search returned nothing relevant to Visily (no scam/shutdown/acquisition hits)."
+      },
+      "sources": [
+        {
+          "url": "https://www.visily.ai/pricing/",
+          "date": "2026-10-16",
+          "note": "plans and limits"
+        },
+        {
+          "url": "https://www.visily.ai/ai-ui-design-generator/",
+          "date": "2026-10-16",
+          "note": "features, web app"
+        }
+      ],
+      "unverified": [
+        "terms and commercial use not read",
+        "legal operator entity",
+        "Pro billing period",
+        "export options other than free-tier formats"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-03",
+        "file": "src/content/resources/visily.md",
+        "lint": "pass"
+      }
+    },
+    "wispr-flow": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Wispr Flow",
+        "url": "https://wisprflow.ai",
+        "alive": true,
+        "operator": "Wispr AI (private company, per Wikipedia)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan, $0/month: 2,000 words/week on desktop, 1,000 words/week on mobile (page does not state whether permanent)",
+        "paidFrom": "12 USD/user/month billed annually (Pro; 15 monthly)",
+        "evidence": {
+          "url": "https://wisprflow.ai/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: not read · attribution: n/a · limit: weekly word cap on free plan; terms not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://wisprflow.ai/pricing",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "wispr-flow",
+        "type": "AI Tool",
+        "category": "Productivity",
+        "title": "Wispr Flow",
+        "description": "Voice dictation that turns speech into clean, edited text in any app on Mac, Windows, iOS and Android; the free plan has a weekly word cap.",
+        "tags": [
+          "ai-tool",
+          "productivity",
+          "writing",
+          "mac",
+          "windows",
+          "ios"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Dictate into any app; filler words and self-corrections are cleaned up",
+          "100+ languages with auto-detect",
+          "Personal dictionary that learns names and terms",
+          "Voice-triggered snippets for text you type often",
+          "Tone adapts to the app (chat, work messages, email)",
+          "Free plan: 2,000 words/week desktop, 1,000 mobile"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Not in Simple Icons (check-icon exit 1), 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Safety search: no scam, malware, shutdown or acquisition reports; Wikipedia lists Wispr AI as private, founded 2021. Source tool-list URL was a ref.wisprflow.ai affiliate link; clean URL used. Home claims SOC 2 Type II, HIPAA, ISO 27001 (not independently verified)."
+      },
+      "sources": [
+        {
+          "url": "https://wisprflow.ai/pricing",
+          "date": "2026-10-16",
+          "note": "plans, free limits, platforms"
+        },
+        {
+          "url": "https://wisprflow.ai",
+          "date": "2026-10-16",
+          "note": "features, privacy claims"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Wispr_Flow",
+          "date": "2026-10-16",
+          "note": "search snippet: operator, founded 2021"
+        }
+      ],
+      "unverified": [
+        "whether the free plan is permanent",
+        "terms and commercial use not read",
+        "certifications claims",
+        "Growth plan price labels unclear"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-03",
+        "file": "src/content/resources/wispr-flow.md",
+        "lint": "pass"
+      }
+    },
+    "21st": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Real free plan, but ToS needs owner view: no explicit commercial-use grant for components, republishing titles/descriptions/media needs written permission, link-back required",
+      "site": {
+        "name": "21st",
+        "url": "https://21st.dev",
+        "alive": true,
+        "operator": "21st Labs Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free (Hobby) $0/mo: 2 free component copies per day, 5 free Design Bug Bot reviews, unlimited UI Inspirations and SVG logo searches, community support only",
+        "paidFrom": "Builder $6/mo billed yearly ($8/mo quarterly)",
+        "evidence": {
+          "url": "https://21st.dev/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "21st.dev Terms · commercial: not expressly granted for components · attribution: link back to 21st.dev component page required when copying elsewhere; open-source authors credited · limit: republishing metadata/media needs written permission",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://21st.dev/terms",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "21st-dev",
+        "type": "Library",
+        "category": "Development",
+        "title": "21st.dev",
+        "description": "Registry of community-made React and Tailwind UI components to copy into your repo as code or as an agent prompt; free plan allows 2 copies per day.",
+        "tags": [
+          "ui-ux",
+          "web",
+          "design-templates"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Community-published React and Tailwind components",
+          "Copy a component as code or as a prompt for an AI agent",
+          "UI inspirations browser and SVG logo search",
+          "Free plan: 2 copies per day, 5 Design Bug Bot reviews"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Search for scam/malware/shutdown/acquired returned nothing about 21st.dev (generic results only)"
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/21st/",
+          "date": "2026-10-16",
+          "note": "real site link 21st.dev, free plan mention"
+        },
+        {
+          "url": "https://21st.dev/pricing",
+          "date": "2026-10-16",
+          "note": "plans, free limits, prices"
+        },
+        {
+          "url": "https://21st.dev/terms",
+          "date": "2026-10-16",
+          "note": "content license, linking, republishing clauses"
+        }
+      ],
+      "unverified": [
+        "whether linking plus own-words description is acceptable under ToS Sec. 3",
+        "per-component licenses vary by author",
+        "similar/related RL slugs not chosen (none clearly matching found)"
+      ],
+      "injectionSeen": null
+    },
+    "3d-builder": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "drawkit.com/3d-builder redirects to Figma Community page which returns 403; DrawKit home gives no price or license for the plugin",
+      "site": {
+        "name": "3D Builder (DrawKit)",
+        "url": "https://www.drawkit.com/3d-builder",
+        "alive": true,
+        "operator": null
+      },
+      "sources": [
+        {
+          "url": "https://www.drawkit.com/3d-builder",
+          "date": "2026-10-16",
+          "note": "301 to Figma Community plugin page"
+        },
+        {
+          "url": "https://www.figma.com/community/plugin/1044419856113171023/Drawkit-3D-Builder",
+          "date": "2026-10-16",
+          "note": "HTTP 403"
+        },
+        {
+          "url": "https://www.drawkit.com",
+          "date": "2026-10-16",
+          "note": "some packs free, most Drawkit Pro; plugin pricing not stated; MIT mention is on illustrations only"
+        }
+      ],
+      "unverified": [
+        "plugin free tier and limits",
+        "plugin license",
+        "operator"
+      ],
+      "injectionSeen": null
+    },
+    "3d-icons": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "Pricing page is JS-rendered (Loading pricing...); free vs paid split not readable",
+      "site": {
+        "name": "3D Icons",
+        "url": "https://www.3dicons.com",
+        "alive": true,
+        "operator": "Iconshock (per page title)"
+      },
+      "sources": [
+        {
+          "url": "https://www.3dicons.com",
+          "date": "2026-10-16",
+          "note": "4000+ 3D icons and characters, Figma file, Get full 3D pack button; free subset not stated"
+        },
+        {
+          "url": "https://www.3dicons.com/pricing",
+          "date": "2026-10-16",
+          "note": "placeholder only"
+        }
+      ],
+      "unverified": [
+        "free icon count",
+        "license terms",
+        "prices"
+      ],
+      "injectionSeen": null
+    },
+    "3d-tranformer": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "Home returns only a title (JS-only), /pricing is 404; free status only from a 2021 article",
+      "site": {
+        "name": "3D Transformer",
+        "url": "https://www.3dtransformer.com",
+        "alive": true,
+        "operator": null
+      },
+      "sources": [
+        {
+          "url": "https://www.3dtransformer.com",
+          "date": "2026-10-16",
+          "note": "title only: 3D rotate images online and in Figma"
+        },
+        {
+          "url": "https://www.3dtransformer.com/pricing",
+          "date": "2026-10-16",
+          "note": "HTTP 404"
+        },
+        {
+          "url": "https://siecledigital.fr/2021/09/22/3d-transformer-outil-transforme-image-maquette-3d/",
+          "date": "2026-10-16",
+          "note": "2021 article calls it free; second-hand, dated"
+        }
+      ],
+      "unverified": [
+        "current pricing and limits",
+        "license",
+        "operator",
+        "Figma plugin still available"
+      ],
+      "injectionSeen": null
+    },
+    "3d-websites": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "3D Websites",
+        "url": "https://3dwebsites.design",
+        "alive": true,
+        "operator": "Francisco (first name only, signs the Why page)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Gallery browsable without account or paywall; no pricing shown anywhere on the site",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://3dwebsites.design",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Curated gallery linking to third-party sites · commercial: n/a · attribution: n/a · no terms page found",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://3dwebsites.design/why",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "3d-websites",
+        "type": "Website",
+        "category": "Design",
+        "title": "3D Websites",
+        "description": "Curated gallery of websites built with 3D design, each with a case-study page and a link to the live site, plus a submit form.",
+        "tags": [
+          "inspiration",
+          "web",
+          "visual-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "awwwards"
+        ],
+        "keyFeatures": [
+          "Grid of 3D-driven websites with case-study pages",
+          "Links to each live site",
+          "Inspiration and Tools sections",
+          "Submit form for designers; credited when added",
+          "Weekly email digest"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No Simple Icons match (check-icon.mjs, 2026-10-16)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://3dwebsites.design",
+          "date": "2026-10-16",
+          "note": "gallery, sections, submit, digest"
+        },
+        {
+          "url": "https://3dwebsites.design/why",
+          "date": "2026-10-16",
+          "note": "operator, submission credit"
+        }
+      ],
+      "unverified": [
+        "explicit statement that the site is free",
+        "terms of use",
+        "no safety search",
+        "operator surname/company"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-03",
+        "file": "src/content/resources/3d-websites.md",
+        "lint": "pass"
+      }
+    },
+    "404s": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "404s",
+        "url": "https://www.404s.design",
+        "alive": true,
+        "operator": "FS (footer links to finniansturdy.com; not confirmed on page)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Gallery browsable with filters (style, interaction, industry) and no paywall seen; no pricing shown",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.404s.design",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Curated gallery · commercial: n/a · attribution: n/a · screenshots belong to their owners, shown for inspiration only",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.404s.design/about",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "404s",
+        "type": "Website",
+        "category": "Design",
+        "title": "404s",
+        "description": "Curated gallery of creative 404 error page designs, filterable by style, interaction and industry, with links to each page.",
+        "tags": [
+          "inspiration",
+          "web",
+          "ui-ux"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "awwwards"
+        ],
+        "keyFeatures": [
+          "Gallery of creative 404 error pages",
+          "Filters by style, interaction and industry",
+          "Links to each site's 404 page",
+          "Submit page for new entries"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No Simple Icons match (check-icon.mjs, 2026-10-16)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://www.404s.design",
+          "date": "2026-10-16",
+          "note": "gallery, filters, sponsor"
+        },
+        {
+          "url": "https://www.404s.design/about",
+          "date": "2026-10-16",
+          "note": "footer operator, small print"
+        }
+      ],
+      "unverified": [
+        "explicit statement that the site is free",
+        "Legal page contents not read",
+        "operator identity",
+        "no safety search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-03",
+        "file": "src/content/resources/404s.md",
+        "lint": "pass"
+      }
+    },
+    "500px": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "500px.com and /plans return empty to fetch (JS-rendered); free tier and current prices unconfirmed first-party",
+      "site": {
+        "name": "500px",
+        "url": "https://500px.com",
+        "alive": true,
+        "operator": null
+      },
+      "sources": [
+        {
+          "url": "https://500px.com/plans",
+          "date": "2026-10-16",
+          "note": "fetch returned empty"
+        },
+        {
+          "url": "https://500px.com",
+          "date": "2026-10-16",
+          "note": "fetch returned empty"
+        },
+        {
+          "url": "https://www.creativebloq.com/reviews/500px",
+          "date": "2026-10-16",
+          "note": "second-hand via search: free tier reported 7 uploads/week; paid prices conflict between sources"
+        }
+      ],
+      "unverified": [
+        "free tier limits (old press says 7 uploads/week)",
+        "current prices",
+        "terms",
+        "operator",
+        "icon: Simple Icons has slug 500px, fillColor #222222 (check-icon exit 0)"
+      ],
+      "injectionSeen": null
+    },
+    "60fps": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "60fps",
+        "url": "https://60fps.design",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Page says it is still free to explore; exact free limits not stated",
+        "paidFrom": "15 USD/month or 150 USD/year per seat (PRO, via Gumroad)",
+        "evidence": {
+          "url": "https://60fps.design/pro",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary curated library · commercial: not read · attribution: n/a · terms not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://60fps.design/pro",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "60fps",
+        "type": "Website",
+        "category": "Design",
+        "title": "60fps",
+        "description": "Curated library of UI and UX animation details from iOS and web apps: shots, storyboards, motion examples and snippets, with a paid PRO tier.",
+        "tags": [
+          "inspiration",
+          "ui-ux",
+          "ios",
+          "visual-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "dribbble"
+        ],
+        "keyFeatures": [
+          "About 2,100 animation and interaction shots from about 490 apps",
+          "Filters by gestures, patterns, effects and elements",
+          "Storyboards, motion examples and code snippets",
+          "Free weekly newsletter",
+          "PRO unlocks full filters and extras"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No Simple Icons match (check-icon.mjs, 2026-10-16)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://60fps.design",
+          "date": "2026-10-16",
+          "note": "what it is, counts"
+        },
+        {
+          "url": "https://60fps.design/pro",
+          "date": "2026-10-16",
+          "note": "PRO price and contents"
+        }
+      ],
+      "unverified": [
+        "what exactly is gated behind PRO vs free",
+        "terms/commercial use",
+        "operator",
+        "no safety search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "resource/batch-03",
+        "file": "src/content/resources/60fps.md",
+        "lint": "pass"
+      }
+    },
+    "66analytics": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Paid one-time license only (49 USD regular, 319 USD extended); no free plan or trial; Digitool itself labels it Paid",
+      "site": {
+        "name": "66analytics",
+        "url": "https://66analytics.com",
+        "alive": true,
+        "operator": "AltumCode"
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/66analytics/",
+          "date": "2026-10-16",
+          "note": "Digitool lists pricing as Paid; vendor appears to be altumcode.com"
+        },
+        {
+          "url": "https://66analytics.com",
+          "date": "2026-10-16",
+          "note": "Self-hosted PHP analytics; Regular 49 USD, Extended 319 USD, no free plan mentioned"
+        }
+      ],
+      "unverified": [
+        "terms",
+        "dedicated safety search not run",
+        "pricing page /pricing returned 404"
+      ],
+      "injectionSeen": null
+    },
+    "99designs": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Commission-based freelance marketplace, not a free tool or reference resource; fees 5-15% plus 100 USD intro fee",
+      "site": {
+        "name": "99designs",
+        "url": "https://99designs.com",
+        "alive": true,
+        "operator": null
+      },
+      "sources": [
+        {
+          "url": "https://99designs.com/designers",
+          "date": "2026-10-16",
+          "note": "Free to sign up for designers; intro fee 100 USD per new client collected from first 500 USD; platform fee 5% Top, 10% Mid, 15% Entry level"
+        }
+      ],
+      "unverified": [
+        "terms",
+        "contest fee terms",
+        "operator name",
+        "dedicated safety search not run"
+      ],
+      "injectionSeen": null
+    },
+    "a-fresh-website": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Free browsing not confirmed; Pro subscription (6 USD/month, 72 USD/year) and paid site submission",
+      "site": {
+        "name": "A fresh website",
+        "url": "https://a-fresh.website",
+        "alive": true,
+        "operator": null
+      },
+      "sources": [
+        {
+          "url": "https://a-fresh.website",
+          "date": "2026-10-16",
+          "note": "Web design inspiration gallery built with Ycode; Add website links to a Lemon Squeezy checkout; terms at /privacy-terms"
+        },
+        {
+          "url": "https://a-fresh.website/pricing",
+          "date": "2026-10-16",
+          "note": "Pro: 6 USD/month, 72 USD billed yearly; page does not state what is free"
+        }
+      ],
+      "unverified": [
+        "what is free to browse",
+        "terms not read",
+        "operator unnamed",
+        "dedicated safety search not run"
+      ],
+      "injectionSeen": null
+    },
+    "a-list-apart": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Not a resource RL lists: article magazine (free to read, shared copyright)",
+      "site": {
+        "name": "A List Apart",
+        "url": "https://alistapart.com",
+        "alive": true,
+        "operator": null
+      },
+      "sources": [
+        {
+          "url": "https://alistapart.com/about/",
+          "date": "2026-10-16",
+          "note": "Web design/dev publication since 1998; content copyright shared by magazine and authors; code in articles freely available"
+        },
+        {
+          "url": "https://alistapart.com/article/ALAprimer/",
+          "date": "2026-10-16",
+          "note": "Search result: described as free publication; not read directly"
+        }
+      ],
+      "unverified": [
+        "publisher entity",
+        "current publishing schedule",
+        "full Permissions page not read",
+        "no safety search for scam/shutdown"
+      ],
+      "injectionSeen": null
     }
   }
 }

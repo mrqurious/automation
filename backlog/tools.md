@@ -10,13 +10,13 @@ Generated 2026-10-16 by `scripts/backlog-build.mjs` from `backlog/tools-list.jso
 
 | Status | Count | Meaning |
 |---|---:|---|
-| `todo` | 1767 | in the research queue (free / freemium / beta) |
+| `todo` | 1747 | in the research queue (free / freemium / beta) |
 | `in-rl` | 33 | already in ResourcesList (matched by site or slug) — skip, maybe use for related/similar links |
 | `deferred-paid` | 217 | labelled **Paid** only — parked |
 | `deferred-trial` | 232 | labelled **Free Trial** only — parked until a real free tier is confirmed |
-| `researching` / `researched` / `drafted` / `rejected` / `blocked` | 0 / 0 / 19 / 4 / 7 | set by research sessions |
+| `researching` / `researched` / `drafted` / `rejected` / `blocked` | 0 / 0 / 26 / 11 / 13 | set by research sessions |
 
-Queue by priority: **P1** 9 (free/freemium, listed on 2+ pages) · **P2** 1667 (free/freemium, 1 page) · **P3** 91 (beta).
+Queue by priority: **P1** 1 (free/freemium, listed on 2+ pages) · **P2** 1655 (free/freemium, 1 page) · **P3** 91 (beta).
 
 ## What happens if a tool is not processed (and why)
 
@@ -36,6 +36,18 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 
 | Tool | Site | Pricing label | Pages | Pri | Status |
 |---|---|---|---:|---|---|
+| 21st | via Digitool | Free tier listed | 1 | P2 | blocked |
+| 3D Builder | drawkit.com | Freemium | 1 | P2 | blocked |
+| 3D Icons | 3dicons.com | Free + Paid | 1 | P2 | blocked |
+| 3D Tranformer | 3dtransformer.com | Free | 1 | P2 | blocked |
+| 3D Websites | 3dwebsites.design | Free | 1 | P2 | drafted |
+| 404s | 404s.design | Free | 1 | P2 | drafted |
+| 500px | 500px.com | Free | 1 | P2 | blocked |
+| 60FPS | 60fps.design | Free + Paid | 1 | P2 | drafted |
+| 66analytics | via Digitool | Free tier listed | 1 | P2 | rejected |
+| 99designs | 99designs.com | Free + Paid | 1 | P2 | rejected |
+| A fresh website | a-fresh.website | Free | 1 | P2 | rejected |
+| A List Apart | alistapart.com | Free | 1 | P2 | rejected |
 | AIGA Eye on Design | eyeondesign.aiga.org | Free | 2 | P1 | rejected |
 | Atoms | atoms.dev | Freemium | 2 | P1 | drafted |
 | Banani | getbanani.link | Freemium / Free tier listed | 2 | P1 | drafted |
@@ -64,17 +76,23 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Mural | mural.co | Freemium | 2 | P1 | drafted |
 | n8n | n8n.io | Paid / Free tier listed | 2 | P1 | drafted |
 | Obsidian Canvas | obsidian.md | Free + Paid | 2 | P1 | drafted |
+| SaaSFrame | saasframe.io | Free + Paid | 5 | P1 | rejected |
 | Screen Studio | screen.studio | Free tier listed / Paid | 2 | P1 | rejected |
+| SE Ranking | seranking.com | Free tier listed / Free Trial | 2 | P1 | rejected |
+| Shopify | shopify.pxf.io | Free Trial / Free tier listed | 2 | P1 | rejected |
+| Shortpen | shortpen.com | Free tier listed / Freemium | 2 | P1 | drafted |
+| The FWA Awards | thefwa.com | Paid / Free | 2 | P1 | blocked |
 | Typedream | typedream.com | Freemium | 2 | P1 | drafted |
+| typeui.sh | typeui.sh | Free + Paid / Freemium | 2 | P1 | drafted |
+| Visily | visily.ai | Freemium | 2 | P1 | drafted |
+| Wispr Flow | ref.wisprflow.ai | Free tier listed / Freemium | 2 | P1 | drafted |
 
-## Research queue (1767)
+## Research queue (1747)
 
-### Best AI Design Tools for Designers (208)
+### Best AI Design Tools for Designers (206)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| typeui.sh | typeui.sh | Free + Paid / Freemium | 2 | P1 |
-| Visily | visily.ai | Freemium | 2 | P1 |
 | Adam CAD Copilot | adam.new | Freemium | 1 | P2 |
 | Adobe Firefly | firefly.adobe.com | Freemium | 1 | P2 |
 | Adobe Podcast | podcast.adobe.com | Freemium | 1 | P2 |
@@ -375,11 +393,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | WebGradients | webgradients.com | Free | 1 | P2 |
 | Who Can Use | whocanuse.com | Free | 1 | P2 |
 
-### Best Design Blogs & Magazines for Designers (64)
+### Best Design Blogs & Magazines for Designers (63)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| A List Apart | alistapart.com | Free | 1 | P2 |
 | Adobe Blog | blog.adobe.com | Free | 1 | P2 |
 | Adobe Design | adobe.design | Free | 1 | P2 |
 | Adweek | adweek.com | Free + Paid | 1 | P2 |
@@ -444,12 +461,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Webflow Blog | webflow.partnerlinks.io | Free | 1 | P2 |
 | Wepresent | wepresent.wetransfer.com | Free | 1 | P2 |
 
-### Best Design Communities for Designers (48)
+### Best Design Communities for Designers (46)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| The FWA Awards | thefwa.com | Paid / Free | 2 | P1 |
-| 99designs | 99designs.com | Free + Paid | 1 | P2 |
 | Academy | academyux.com | Free | 1 | P2 |
 | AIGA Design Jobs | designjobs.aiga.org | Free + Paid | 1 | P2 |
 | ArtNetwork | artnetwork.io | Free | 1 | P2 |
@@ -947,11 +962,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Wannathis Mockups | wannathis.one | Free + Paid | 1 | P2 |
 | WhiteUI.Store | gumroad.com | Free + Paid | 1 | P2 |
 
-### Best No-Code Website Builders (123)
+### Best No-Code Website Builders (122)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Shopify | shopify.pxf.io | Free Trial / Free tier listed | 2 | P1 |
 | a0.dev | a0.dev | Freemium | 1 | P2 |
 | Adalo | adalo.com | Freemium | 1 | P2 |
 | Airship | airship.design | Free | 1 | P2 |
@@ -1075,12 +1089,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Revyme | revyme.com | Beta | 1 | P3 |
 | Zoah | zoah.com | Beta | 1 | P3 |
 
-### Best Open Source Illustration Libraries (99)
+### Best Open Source Illustration Libraries (97)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| 3D Builder | drawkit.com | Freemium | 1 | P2 |
-| 3D Icons | 3dicons.com | Free + Paid | 1 | P2 |
 | Absurd Illustrations | absurd.design | Free + Paid | 1 | P2 |
 | ambientCG | ambientcg.com | Free | 1 | P2 |
 | Ava Maker | avamake.com | Free | 1 | P2 |
@@ -1256,17 +1268,11 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Zen Flowchart | zenflowchart.com | Freemium | 1 | P2 |
 | Stratify | trystratify.com | Beta | 1 | P3 |
 
-### Design Inspiration Sites for UI, Web, Graphic & Branding (172)
+### Design Inspiration Sites for UI, Web, Graphic & Branding (166)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
 | Nicelydone | nicelydone.club | Free Trial / Free tier listed | 2 | P1 |
-| SaaSFrame | saasframe.io | Free + Paid | 5 | P1 |
-| 3D Websites | 3dwebsites.design | Free | 1 | P2 |
-| 404s | 404s.design | Free | 1 | P2 |
-| 500px | 500px.com | Free | 1 | P2 |
-| 60FPS | 60fps.design | Free + Paid | 1 | P2 |
-| A fresh website | a-fresh.website | Free | 1 | P2 |
 | A1 | a1.gallery | Free | 1 | P2 |
 | Abduzeedo | abduzeedo.com | Free | 1 | P2 |
 | Adfolio | adfolio.design | Free | 1 | P2 |
@@ -1489,15 +1495,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Vidsplay | vidsplay.com | Free | 1 | P2 |
 | ZapSplat | zapsplat.com | Freemium | 1 | P2 |
 
-### Free Tools (150)
+### Free Tools (145)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| SE Ranking | seranking.com | Free tier listed / Free Trial | 2 | P1 |
-| Shortpen | shortpen.com | Free tier listed / Freemium | 2 | P1 |
-| Wispr Flow | ref.wisprflow.ai | Free tier listed / Freemium | 2 | P1 |
-| 21st | via Digitool | Free tier listed | 1 | P2 |
-| 66analytics | via Digitool | Free tier listed | 1 | P2 |
 | Abun | via Digitool | Free tier listed | 1 | P2 |
 | Aceternity UI | via Digitool | Free tier listed | 1 | P2 |
 | Ahrefs AI | via Digitool | Free tier listed | 1 | P2 |
@@ -1848,11 +1849,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Flodesk Studio | studio.flodesk.com | Beta | 1 | P3 |
 | Pomelli | labs.google.com | Beta | 1 | P3 |
 
-### Productivity Tools for Design and Product Teams (68)
+### Productivity Tools for Design and Product Teams (67)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| 3D Tranformer | 3dtransformer.com | Free | 1 | P2 |
 | AFFiNE | affine.pro | Freemium | 1 | P2 |
 | Applaunchpad | theapplaunchpad.com | Freemium | 1 | P2 |
 | Arky | arky.so | Freemium | 1 | P2 |

@@ -240,12 +240,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Real free plan, but ToS needs owner view: no explicit commercial-use grant for components, republishing titles/descriptions/media needs written permission, link-back required",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "3d-builder",
@@ -266,12 +266,12 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "drawkit.com/3d-builder redirects to Figma Community page which returns 403; DrawKit home gives no price or license for the plugin",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "3d-icons",
@@ -292,12 +292,12 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Pricing page is JS-rendered (Loading pricing...); free vs paid split not readable",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "3d-lettering-aphabet",
@@ -344,12 +344,12 @@
           "file": "Productivity Tools for Design and Product Teams.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Home returns only a title (JS-only), /pricing is 404; free status only from a 2021 article",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "3d-websites",
@@ -370,12 +370,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "404s",
@@ -396,12 +396,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "500px",
@@ -422,12 +422,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "500px.com and /plans return empty to fetch (JS-rendered); free tier and current prices unconfirmed first-party",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "60fps",
@@ -448,12 +448,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "66analytics",
@@ -476,12 +476,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Paid one-time license only (49 USD regular, 319 USD extended); no free plan or trial; Digitool itself labels it Paid",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "99designs",
@@ -502,12 +502,12 @@
           "file": "Best Design Communities for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Commission-based freelance marketplace, not a free tool or reference resource; fees 5-15% plus 100 USD intro fee",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "a-fresh-website",
@@ -528,12 +528,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Free browsing not confirmed; Pro subscription (6 USD/month, 72 USD/year) and paid site submission",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "a-list-apart",
@@ -554,12 +554,12 @@
           "file": "Best Design Blogs & Magazines for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Not a resource RL lists: article magazine (free to read, shared copyright)",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "a0-dev",
@@ -44628,12 +44628,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Pricing page lists only paid Pro tiers; no free plan confirmed (core browsing gated behind upgrade)",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P1",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "saashunt",
@@ -45298,12 +45298,12 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Trial only: 14-day free trial, no permanent free plan",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P1",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "search-atlas",
@@ -46339,12 +46339,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Trial only: 3-day free trial, paid plans after",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P1",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "shorby",
@@ -46478,12 +46478,12 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P1",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "shortpixel",
@@ -51865,12 +51865,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "thefwa.com and /about return only a title (JS-rendered); free access and fees unreadable",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P1",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "the-good-line-height",
@@ -53815,12 +53815,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P1",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "typeverything",
@@ -57421,12 +57421,12 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P1",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "visla",
@@ -58999,12 +58999,12 @@
           "file": "Productivity Tools for Design and Product Teams.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P1",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "wix",
@@ -59927,16 +59927,16 @@
     "byStatus": {
       "deferred-trial": 232,
       "deferred-paid": 217,
-      "todo": 1767,
-      "rejected": 4,
-      "in-rl": 33,
-      "drafted": 19,
-      "blocked": 7
+      "blocked": 13,
+      "drafted": 26,
+      "rejected": 11,
+      "todo": 1747,
+      "in-rl": 33
     },
     "todoByPriority": {
-      "P2": 1667,
+      "P2": 1655,
       "P3": 91,
-      "P1": 9
+      "P1": 1
     }
   }
 }
