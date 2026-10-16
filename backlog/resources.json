@@ -8460,6 +8460,1506 @@
         "safety search not run"
       ],
       "injectionSeen": null
+    },
+    "archives-design": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Archives.design",
+        "url": "https://archives.design",
+        "alive": true,
+        "operator": "Valery Marier (independent curator)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Public catalogue, no sign-in or paywall seen; items link out to archive.org",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://archives.design",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No license stated on the site · commercial: unknown · attribution: n/a · items are hosted on archive.org under their own terms",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://archives.design",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "archives-design",
+        "type": "Website",
+        "category": "Design",
+        "title": "Archives.design",
+        "description": "A curated catalogue of graphic design books, magazines and other items preserved on the Internet Archive, each linking to its archive.org page.",
+        "tags": [
+          "graphic-design",
+          "inspiration"
+        ],
+        "relatedResources": [
+          "behance"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Curated graphic design items hosted on the Internet Archive",
+          "Each entry links straight to its archive.org item",
+          "Open submissions by email",
+          "Built on a modified Otlet's Shelf"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no Simple Icons match for Archives.design, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Personal curation project; no dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://archives.design",
+          "date": "2026-10-16",
+          "note": "description, curator, submissions, no pricing/login"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "no license/terms page found",
+        "linked archive.org item terms vary"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/archives-design.md",
+        "lint": "pass"
+      }
+    },
+    "arcol": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Arcol",
+        "url": "https://arcol.io",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Solo plan, FREE, for personal projects, no credit card required; detailed limits not readable (comparison table garbled); Revit export is paid-only",
+        "paidFrom": "Team: 100 per user per month billed monthly (currency symbol not shown on page)",
+        "evidence": {
+          "url": "https://arcol.io/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: unknown (Solo plan is described as for personal projects) · attribution: n/a",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://arcol.io/pricing",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "arcol",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Arcol",
+        "description": "Browser-based design and documentation platform for architecture, engineering and construction teams, linking massing, floor plans, metrics and estimates.",
+        "tags": [
+          "collaboration",
+          "design-systems"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Building massing and floor plan design in one workspace",
+          "Metrics and estimating tied to the design",
+          "Documentation that stays linked to the model",
+          "Free Solo plan for personal projects",
+          "Revit export on paid plans"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no Simple Icons match for Arcol, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://arcol.io",
+          "date": "2026-10-16",
+          "note": "product description"
+        },
+        {
+          "url": "https://arcol.io/pricing",
+          "date": "2026-10-16",
+          "note": "Solo free, Team price"
+        }
+      ],
+      "unverified": [
+        "operator company not named",
+        "Solo plan limits and commercial-use terms",
+        "Team price currency",
+        "no safety search",
+        "tags are a loose fit (no architecture tag)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/arcol.md",
+        "lint": "pass"
+      }
+    },
+    "arky": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Arky",
+        "url": "https://arky.so",
+        "alive": true,
+        "operator": "Arky Labs, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Start plan, $0/month, light personal use, up to 50 shells (term undefined), no credit card; no trial mentioned",
+        "paidFrom": "Pro: $7/month per seat (yearly price not shown)",
+        "evidence": {
+          "url": "https://arky.so",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: unknown · attribution: n/a · Start plan described as light personal use",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://arky.so",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "arky",
+        "type": "AI Tool",
+        "category": "Productivity",
+        "title": "Arky",
+        "description": "AI-assisted visual canvas for dumping, grouping and connecting ideas, with a document view, mind maps, diagrams and PDF support.",
+        "tags": [
+          "ai-tool",
+          "whiteboard",
+          "productivity"
+        ],
+        "relatedResources": [
+          "mural"
+        ],
+        "similarResources": [
+          "excalidraw",
+          "tldraw"
+        ],
+        "keyFeatures": [
+          "Spatial canvas to dump, group and connect ideas",
+          "AI assistant that uses your canvas context",
+          "Doc view for turning notes into a draft",
+          "Mind maps, diagrams and PDF support",
+          "Beta real-time collaboration"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no Simple Icons match for Arky, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search found only launch/promotional listings (Product Hunt etc.); no scam or shutdown hits"
+      },
+      "sources": [
+        {
+          "url": "https://arky.so",
+          "date": "2026-10-16",
+          "note": "features, pricing, operator"
+        },
+        {
+          "url": "web search 'Arky arky.so AI canvas review'",
+          "date": "2026-10-16",
+          "note": "safety check, export formats"
+        }
+      ],
+      "unverified": [
+        "definition of shell",
+        "terms of service not read",
+        "yearly pricing"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/arky.md",
+        "lint": "pass"
+      }
+    },
+    "art-directed": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Mostly a paid mockup shop; only about 8 freebies in a Freebies collection, permanence and commercial license unknown (Terms of Service not read). Owner to decide if a free-sample section is listable.",
+      "site": {
+        "name": "Art Directed",
+        "url": "https://artdirected.design",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Freebies collection of about 8 mockups at $0.00; permanence not stated",
+        "paidFrom": "Individual mockups from $12.00-$16.00; packs from $99.00; Everything (337 mockups) from $360",
+        "evidence": {
+          "url": "https://artdirected.design/collections/freebies",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Not read (Terms of Service page not fetched) · commercial: unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://artdirected.design",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "art-directed",
+        "type": "Stock Media",
+        "category": "Design",
+        "title": "Art Directed",
+        "description": "Shop of photographic, layered PSD mockups for design presentations, with a small collection of free mockups.",
+        "tags": [
+          "design-templates",
+          "graphic-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Photographed mockups with real shadows",
+          "Layered PSDs with smart objects",
+          "Free Freebies collection (about 8 items)"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no Simple Icons match for Art Directed, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://artdirected.design",
+          "date": "2026-10-16",
+          "note": "shop, prices"
+        },
+        {
+          "url": "https://artdirected.design/collections/freebies",
+          "date": "2026-10-16",
+          "note": "free items"
+        }
+      ],
+      "unverified": [
+        "operator",
+        "Terms of Service and free-item license",
+        "whether freebies are permanent",
+        "no safety search"
+      ],
+      "injectionSeen": null
+    },
+    "art-of-the-title": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Art of the Title",
+        "url": "https://www.artofthetitle.com/",
+        "alive": true,
+        "operator": "Art of the Title (Editor-in-Chief Lola Landekic, Toronto; founded 2007 by Ian Albinson and Alexander Ulloa)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Title listings and articles are publicly readable; no sign-in seen. Newsletter is for Patreon supporters ($1+).",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.artofthetitle.com/about/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Editorial site, no reuse licence stated · commercial: n/a · attribution: n/a · limit: works shown remain the property of their owners",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.artofthetitle.com/about/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "art-of-the-title",
+        "type": "Resource",
+        "category": "Filming",
+        "title": "Art of the Title",
+        "description": "Online publication cataloguing title sequence design for film, TV and games, with breakdowns, interviews and credits for inspiration.",
+        "tags": [
+          "inspiration",
+          "visual-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Large browsable archive of title sequences",
+          "Interviews with title designers and studios",
+          "Coverage of film, TV, games and conferences",
+          "Credits and context for each sequence"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no Simple Icons match, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search run; newest listing seen Sep 25, 2025"
+      },
+      "sources": [
+        {
+          "url": "https://www.artofthetitle.com/titles/",
+          "date": "2026-10-16",
+          "note": "public title listing, newest entry date"
+        },
+        {
+          "url": "https://www.artofthetitle.com/about/",
+          "date": "2026-10-16",
+          "note": "operator, Patreon support model, copyright notice"
+        }
+      ],
+      "unverified": [
+        "no pricing page; free access inferred from public listing and about page",
+        "no dedicated safety search",
+        "full article pages not opened (listing truncated at 100k chars)",
+        "category Filming vs Design is a judgment call"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/art-of-the-title.md",
+        "lint": "pass"
+      }
+    },
+    "art-text": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Mac-only app; free download is watermarked/limited per third-party listings (MacUpdate, FileHorse), first-party page gives no free-tier limits; price unclear ($29.99 vs free + in-app purchases).",
+      "site": {
+        "name": "Art Text",
+        "url": "https://text.design/art-text/",
+        "alive": true,
+        "operator": "BeLight Software Ltd."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "\"Free Download\" offered; first-party page lists no limits. Third-party: output watermarked, many features and templates paid.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://text.design/art-text/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary app · commercial: unknown · attribution: unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://text.design/art-text/",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Established vendor; no shutdown found in one search"
+      },
+      "sources": [
+        {
+          "url": "https://text.design/art-text/",
+          "date": "2026-10-16",
+          "note": "free download, in-app purchases, 30-day money-back, macOS 10.13+"
+        },
+        {
+          "url": "web search results (macupdate, filehorse, softpedia, macsources)",
+          "date": "2026-10-16",
+          "note": "watermark and pricing hints, second-hand"
+        }
+      ],
+      "unverified": [
+        "exact free-version limits",
+        "current price ($29.99 vs $9.99 conflicting)",
+        "no terms/licence page read",
+        "Mac App Store listing not fetched"
+      ],
+      "injectionSeen": null
+    },
+    "artboard-studio": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Free \"start for free\" plan exists but limits come only from third-party aggregators (3 projects, personal licence only, low-res video); no existing mockup tag; first-party /pricing 404.",
+      "site": {
+        "name": "Artboard Studio",
+        "url": "https://artboard.studio",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Home page says \"start for free\"; third-party sources: 3 projects, one page each, low-res video export, personal licence.",
+        "paidFrom": "Lite $9/month billed annually (home page); Pro $19/month billed annually; Lifetime Mockup $129 one-time",
+        "evidence": {
+          "url": "https://artboard.studio",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: free plan personal licence only (third-party) · attribution: unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://artboard.studio",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Active site, \"New version\" promoted, legacy version kept; no shutdown/acquisition notice seen"
+      },
+      "sources": [
+        {
+          "url": "https://artboard.studio",
+          "date": "2026-10-16",
+          "note": "paid prices, features, active status"
+        },
+        {
+          "url": "https://artboard.studio/pricing",
+          "date": "2026-10-16",
+          "note": "404"
+        },
+        {
+          "url": "web search aggregators (spotsaas etc.)",
+          "date": "2026-10-16",
+          "note": "free plan limits, second-hand"
+        }
+      ],
+      "unverified": [
+        "free plan limits first-party",
+        "operator company",
+        "terms of service not read",
+        "aggregator prices conflict with home page"
+      ],
+      "injectionSeen": null
+    },
+    "artboard-studio-mockup-generator": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Duplicate of artboard-studio: /mockup is the same product area; decide with the parent entry.",
+      "site": {
+        "name": "Artboard Studio Mockup Generator",
+        "url": "https://artboard.studio/mockup",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Home page says \"start for free\"; third-party sources: 3 projects, one page each, low-res video export, personal licence.",
+        "paidFrom": "Lite $9/month billed annually (home page); Pro $19/month billed annually; Lifetime Mockup $129 one-time",
+        "evidence": {
+          "url": "https://artboard.studio",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: free plan personal licence only (third-party) · attribution: unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://artboard.studio",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Active site, \"New version\" promoted, legacy version kept; no shutdown/acquisition notice seen"
+      },
+      "sources": [
+        {
+          "url": "https://artboard.studio",
+          "date": "2026-10-16",
+          "note": "same product as parent; /mockup page not fetched"
+        }
+      ],
+      "unverified": [
+        "/mockup page not fetched",
+        "see artboard-studio entry"
+      ],
+      "injectionSeen": null
+    },
+    "artnetwork": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "ArtNetwork",
+        "url": "https://artnetwork.io",
+        "alive": true,
+        "operator": "ArtCollection.io LLC"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Home page states \"ArtNetwork is free to join\"; no paid tiers mentioned",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://artnetwork.io",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Terms of Service (proprietary service) · commercial: not addressed · attribution: n/a · user content licensed to operator; accounts need age 13+",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://artnetwork.io/terms.md",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "artnetwork",
+        "type": "Website",
+        "category": "Design",
+        "title": "ArtNetwork",
+        "description": "Free social network where artists show their work and collectors discover emerging talent.",
+        "tags": [
+          "inspiration",
+          "web"
+        ],
+        "relatedResources": [
+          "behance",
+          "dribbble"
+        ],
+        "similarResources": [
+          "behance",
+          "dribbble"
+        ],
+        "keyFeatures": [
+          "Artist profiles to display artwork",
+          "Collectors can discover emerging artists",
+          "Free to join",
+          "Community for the art world"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons: not found (check-icon.mjs, 2026-10-16)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Operator named on home page; no dedicated scam search run"
+      },
+      "sources": [
+        {
+          "url": "https://artnetwork.io",
+          "date": "2026-10-16",
+          "note": "description, operator, free to join, terms link"
+        },
+        {
+          "url": "https://artnetwork.io/terms.md",
+          "date": "2026-10-16",
+          "note": "no clause forbidding linking; no fees"
+        }
+      ],
+      "unverified": [
+        "no dedicated pricing page read; \"free to join\" only",
+        "no safety search",
+        "feature bullets taken from a home-page summary",
+        "no icon"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/artnetwork.md",
+        "lint": "pass"
+      }
+    },
+    "ascii-magic": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "ASCII Magic",
+        "url": "https://www.ascii-magic.com",
+        "alive": true,
+        "operator": "StudioFlow (header branding; not confirmed as legal entity)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free forever: core editor and core styles (ASCII, dither, pixel, voxel), unlimited image and video exports, 3 starter generative credits with a free account; page says \"No account, no watermark, no time limit\". 4K export and all 100+ effects are Pro",
+        "paidFrom": "Pro $8/month billed monthly ($48/year, about $4/month; $7/month quarterly)",
+        "evidence": {
+          "url": "https://www.ascii-magic.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary web app · commercial: not stated · attribution: not stated · terms not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.ascii-magic.com",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "ascii-magic",
+        "type": "Tool",
+        "category": "Design",
+        "title": "ASCII Magic",
+        "description": "Browser-based editor that turns images and video into ASCII, pixel, halftone and glitch art with live shader effects and free exports.",
+        "tags": [
+          "graphic-design",
+          "visual-design",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Turns photos and video into ASCII, pixel, voxel, halftone and glitch styles",
+          "Live post effects such as CRT curvature, bloom, film grain and scan lines",
+          "20 one-click recipe presets",
+          "AI generative presets (3 free starter credits)",
+          "Unlimited free exports with no watermark; 4K export is Pro",
+          "MCP server so AI clients can render and export"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons: not found (check-icon.mjs, 2026-10-16)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Web search found no scam or shutdown hits; AlternativeTo lists it as freemium (third-party)"
+      },
+      "sources": [
+        {
+          "url": "https://www.ascii-magic.com",
+          "date": "2026-10-16",
+          "note": "features, MCP server"
+        },
+        {
+          "url": "https://www.ascii-magic.com/app",
+          "date": "2026-10-16",
+          "note": "editor UI, style categories"
+        },
+        {
+          "url": "https://www.ascii-magic.com/pricing",
+          "date": "2026-10-16",
+          "note": "plans and free limits"
+        },
+        {
+          "url": "https://alternativeto.net/software/ascii-magic/about/",
+          "date": "2026-10-16",
+          "note": "third-party freemium listing, via search"
+        }
+      ],
+      "unverified": [
+        "terms/commercial-use of exports not read",
+        "legal operator unconfirmed (StudioFlow in header)",
+        "free export resolution cap not stated",
+        "no icon"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/ascii-magic.md",
+        "lint": "pass"
+      }
+    },
+    "astryx": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Astryx",
+        "url": "https://astryx.atmeta.com",
+        "alive": true,
+        "operator": "Meta Platforms, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Open source design system, no pricing; currently in beta",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://astryx.atmeta.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT · commercial: yes · attribution: license notice required · limit: beta, some packages only under @canary",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/facebook/astryx",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "astryx",
+        "type": "Library",
+        "category": "Development",
+        "title": "Astryx",
+        "description": "Meta's open source React design system with accessible components, themes, templates and CLI and MCP tooling for AI agents.",
+        "tags": [
+          "design-systems",
+          "ui-ux",
+          "open-source",
+          "web"
+        ],
+        "relatedResources": [
+          "ant-design",
+          "aceternity-ui"
+        ],
+        "similarResources": [
+          "ant-design",
+          "aceternity-ui"
+        ],
+        "keyFeatures": [
+          "150+ accessible, themeable React components (site says 180+)",
+          "Brand-level themes with dark mode",
+          "Page templates to fill with your own content",
+          "CLI and MCP support for scaffolding and agent-ready docs",
+          "Built on React 19+ and StyleX"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons: not found (check-icon.mjs, 2026-10-16)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Official Meta site and github.com/facebook repo (13.7k stars); no separate safety search"
+      },
+      "sources": [
+        {
+          "url": "https://astryx.atmeta.com",
+          "date": "2026-10-16",
+          "note": "description, operator, features"
+        },
+        {
+          "url": "https://github.com/facebook/astryx",
+          "date": "2026-10-16",
+          "note": "MIT license, stars, packages, beta status"
+        }
+      ],
+      "unverified": [
+        "component count differs: site \"over 180\", README \"150+\"",
+        "last commit date not shown",
+        "no dedicated safety search",
+        "no icon"
+      ],
+      "injectionSeen": "Marketing text only (\"agent ready\", \"A design system that your agent can use\"); no instructions to agents found",
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/astryx.md",
+        "lint": "pass"
+      }
+    },
+    "async": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Free plan exists ($0) but its limits are lifetime caps (10 AI credits, 1 export at 720p, etc.), so it behaves like a trial; owner to decide if it counts as a permanent free tier",
+      "site": {
+        "name": "Async",
+        "url": "https://async.com",
+        "alive": true,
+        "operator": "Async (formerly Podcastle); legal entity not named on page"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan $0: 10 AI credits (lifetime), 1 hour AI chat media uploads (lifetime), 2 GB storage, export up to 720p, 1 export file, 1 hour auto subtitles (lifetime), 2 hours transcription (lifetime), 24 FPS",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://async.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: not read · attribution: n/a · terms not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://async.com",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "async",
+        "type": "AI Tool",
+        "category": "Filming",
+        "title": "Async",
+        "description": "Chat-based AI video editor that cuts filler, cleans audio, adds captions and generates B-roll, music and clips from prompts.",
+        "tags": [
+          "ai-tool",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Edit by chatting: remove filler, pauses and bad takes",
+          "Cut to the beat of a chosen music track",
+          "Noise removal and voice clarity",
+          "Automatic captions and subtitles",
+          "Generate B-roll, voice and music in chat",
+          "Save an editing style as a reusable skill"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons: not found (check-icon.mjs, 2026-10-16)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search found no scam/shutdown/acquisition; Trustpilot has billing/cancellation complaints (consumer-level); rebranded from Podcastle"
+      },
+      "sources": [
+        {
+          "url": "https://async.com",
+          "date": "2026-10-16",
+          "note": "features, CTAs"
+        },
+        {
+          "url": "https://async.com/pricing",
+          "date": "2026-10-16",
+          "note": "free plan limits; paid price fields blank"
+        },
+        {
+          "url": "https://www.trustpilot.com/review/async.com",
+          "date": "2026-10-16",
+          "note": "safety search results, via web search"
+        }
+      ],
+      "unverified": [
+        "paid plan prices not shown on fetched pricing page",
+        "terms and commercial-use not read",
+        "legal entity not named",
+        "no icon",
+        "category Filming chosen as best fit"
+      ],
+      "injectionSeen": null
+    },
+    "atipo": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Pay-what-you-want font foundry: some families offer a free style or weight, but the license page covers only paid desktop/webfont licenses and says nothing on the free fonts' terms. Owner to decide whether to list and how to label (Freemium vs Free + Paid).",
+      "site": {
+        "name": "atipo foundry",
+        "url": "https://www.atipofoundry.com",
+        "alive": true,
+        "operator": "atipo (independent type foundry)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Some families list a free style or weight (e.g. Sandor '10 styles, medium for free', Bariol Icons '1 style, 52 icons for free'); complete families are 'pay what you want'",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.atipofoundry.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Paid licenses: desktop (1 location, up to 5 workstations, commercial ok) and webfont (1 website); redistribution and derivatives prohibited without permission; terms for free fonts not stated",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.atipofoundry.com/license",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated scam/shutdown search run"
+      },
+      "sources": [
+        {
+          "url": "https://www.atipofoundry.com",
+          "date": "2026-10-16",
+          "note": "font listings and pay-what-you-want model"
+        },
+        {
+          "url": "https://www.atipofoundry.com/license",
+          "date": "2026-10-16",
+          "note": "paid license terms"
+        }
+      ],
+      "unverified": [
+        "terms of the free fonts",
+        "no safety search",
+        "exact free-tier permanence",
+        "no fixed prices shown"
+      ],
+      "injectionSeen": null
+    },
+    "atom": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "ATOM",
+        "url": "https://atomtypelab.com",
+        "alive": true,
+        "operator": "David Fucsku (solo author)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "FAQ: 'a free typography tool that runs in your browser', 'no watermark, no locked features and no trial that runs out'; no account needed; no paid tiers mentioned",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://atomtypelab.com/faq",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Own terms page not found (privacy + cookie only) · commercial: yes per FAQ 'What you make in ATOM is yours, for personal or commercial work' · attribution: not stated · limit: bundled fonts mostly open-licensed, check each font's credit; uploaded fonts keep their own license",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://atomtypelab.com/faq",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "atom-type-lab",
+        "type": "Tool",
+        "category": "Design",
+        "title": "ATOM - Experimental Typography Tool",
+        "description": "Free browser app for animating text with particle, kinetic, 3D and glitch effects, then exporting PNG, MP4, WebM, GIF or image sequences.",
+        "tags": [
+          "typography",
+          "graphic-design",
+          "visual-design",
+          "web"
+        ],
+        "relatedResources": [
+          "google-fonts"
+        ],
+        "similarResources": [
+          "kittl"
+        ],
+        "keyFeatures": [
+          "Particle text modes (assemble, drift, fire, flow field, wind and more)",
+          "Kinetic, circular and 3D layouts such as tunnel, spiral, globe and ribbon",
+          "Text effects and overlays: neon, liquid metal, glitch, ASCII, dot matrix",
+          "Upload your own font; files stay on your device",
+          "Export PNG, MP4, WebM, GIF or PNG sequence, with presets and saved settings"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Web search found no scam/shutdown reports; author portfolio davidfucsku.com lists it; footer says made with Claude"
+      },
+      "sources": [
+        {
+          "url": "https://atomtypelab.com",
+          "date": "2026-10-16",
+          "note": "features, export formats, footer links, author"
+        },
+        {
+          "url": "https://atomtypelab.com/faq",
+          "date": "2026-10-16",
+          "note": "free, no watermark, commercial use, font licenses"
+        },
+        {
+          "url": "https://atomtypelab.com/about",
+          "date": "2026-10-16",
+          "note": "seen in search results only"
+        }
+      ],
+      "unverified": [
+        "what 'Support the app' (/support-atom) involves",
+        "no standalone terms-of-use page found",
+        "free permanence not stated as 'forever'",
+        "about page not fetched directly"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/atom-type-lab.md",
+        "lint": "pass"
+      }
+    },
+    "atria": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "No confirmed permanent free tier. Pricing page lists Core $129/mo, Plus $479/mo, Business $959/mo (billed annually) with only a 'Start for free' button; home page says '1,000 free credits included' but not permanent; third-party reviews say no free plan, 7-day trial. Digitool label 'Free tier listed' is unconfirmed.",
+      "site": {
+        "name": "Atria",
+        "url": "https://www.tryatria.com",
+        "alive": true,
+        "operator": "Atria (AI ad creative platform for Meta and TikTok)"
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": "'Start for free', 'No credit card required', '1,000 free credits included' on home page; permanence not stated",
+        "paidFrom": "$129/mo Core, billed annually",
+        "evidence": {
+          "url": "https://www.tryatria.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": null,
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search: reviews broadly positive on features; one Trustpilot complaint about refund refusal; reviewers disagree on starting price ($129 vs $159) and say trial only"
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/atria/",
+          "date": "2026-10-16",
+          "note": "resolved real site tryatria.com; label 'Free plan available'"
+        },
+        {
+          "url": "https://tryatria.com",
+          "date": "2026-10-16",
+          "note": "description, free credits claim"
+        },
+        {
+          "url": "https://www.tryatria.com/pricing",
+          "date": "2026-10-16",
+          "note": "paid plan prices"
+        },
+        {
+          "url": "https://www.trendtrack.io/blog-post/atria-review",
+          "date": "2026-10-16",
+          "note": "third-party review (search snippet): no free plan, 7-day trial"
+        }
+      ],
+      "unverified": [
+        "whether free credits are a permanent tier",
+        "terms/license not read",
+        "review claims are second-hand"
+      ],
+      "injectionSeen": "None. Home banner promotes its MCP integration for Claude/ChatGPT, marketing only"
+    },
+    "audienceful": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Permanent Free plan confirmed (up to 1,000 contacts), but Terms of Service section 7 says users agree not to 'Engage in unauthorized framing of or linking to the Site'. Owner to decide if a directory link is risky.",
+      "site": {
+        "name": "Audienceful",
+        "url": "https://www.audienceful.com",
+        "alive": true,
+        "operator": "Audienceful LLC (Michigan)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free: $0/mo, up to 1,000 contacts, 1 user, 1 automated flow, monthly AI credits that reset (ToS section 29); newsletter send cap not stated",
+        "paidFrom": "$29/mo Essentials, billed yearly (3,000 contacts)",
+        "evidence": {
+          "url": "https://www.audienceful.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS ToS · commercial: yes (service use) · attribution: n/a · limit: ToS s.7 bars 'unauthorized framing of or linking to the Site'",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.audienceful.com/legal/terms",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "audienceful",
+        "type": "Tool",
+        "category": "Marketing",
+        "title": "Audienceful",
+        "description": "Email marketing and newsletter platform with a document-style editor, signup forms, segments and automations; free plan up to 1,000 contacts.",
+        "tags": [
+          "automation",
+          "writing",
+          "collaboration"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Drag-and-drop email builder with live team collaboration",
+          "Signup forms, popups and lead magnets",
+          "Segments by tags, custom fields and rules",
+          "Drip sequences and branching journeys",
+          "Shopify, Stripe, Webflow, Zapier and API integrations"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search found no acquisition/shutdown/fraud reports; only a weak automated Scam Detector medium-risk score"
+      },
+      "sources": [
+        {
+          "url": "https://www.audienceful.com/pricing",
+          "date": "2026-10-16",
+          "note": "plans and prices"
+        },
+        {
+          "url": "https://www.audienceful.com",
+          "date": "2026-10-16",
+          "note": "features, footer legal links"
+        },
+        {
+          "url": "https://www.audienceful.com/legal/terms",
+          "date": "2026-10-16",
+          "note": "linking clause, operator, free credits"
+        }
+      ],
+      "unverified": [
+        "free plan send limits",
+        "whether s.7 linking clause is meant for directory links",
+        "monthly (non-annual) prices"
+      ],
+      "injectionSeen": null
+    },
+    "august": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Real free plan (GBP 0, 2 tenancies) but UK-landlord niche; terms do not promise the free plan is permanent and personal-licence scope for business landlords is unclear; no existing RL tag fits (property/finance), so a new tag or category choice is needed.",
+      "site": {
+        "name": "August",
+        "url": "https://www.augustapp.com",
+        "alive": true,
+        "operator": "Augur Technologies Limited (trading as August), England and Wales company 13636887"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan GBP 0: 2 tenancies, 1 bank account, income/expenses view, smart tenancy setup, document scanning; paid plans carry a 30 day free trial",
+        "paidFrom": "GBP 89.99/year (Growth); FAQ also quotes GBP 8.99/month",
+        "evidence": {
+          "url": "https://www.augustapp.com/pricing/landlords",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS - personal non-transferable licence to manage own properties; no resale or competing product; free plan can be withdrawn with 1 month notice",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.augustapp.com/terms/august-app-free-to-use-terms-conditions",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Search found no scam, shutdown or acquisition reports for augustapp.com (different from August smart locks, owned by Yale); Trustpilot and G2 reviews are few."
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/august/",
+          "date": "2026-10-16",
+          "note": "resolved own site"
+        },
+        {
+          "url": "https://www.augustapp.com",
+          "date": "2026-10-16",
+          "note": "pricing, operator, term links"
+        },
+        {
+          "url": "https://www.augustapp.com/terms/august-app-free-to-use-terms-conditions",
+          "date": "2026-10-16",
+          "note": "free terms"
+        },
+        {
+          "url": "web search",
+          "date": "2026-10-16",
+          "note": "safety search"
+        }
+      ],
+      "unverified": [
+        "Whether free plan is permanent (terms allow withdrawal with 1 month notice)",
+        "Commercial-use rights of business landlords on free plan",
+        "Platforms (iOS/Android/web) not confirmed",
+        "Pricing page read via summary; monthly vs annual relation unexplained",
+        "Icon: not in Simple Icons; site SVG not fetched"
+      ],
+      "injectionSeen": null
+    },
+    "authentic-jobs": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Alive creative job board since 2005; pricing page only shows employer listing fees (USD 149/mo standard, 199/mo featured) and does not state that browsing/applying is free, so whether it counts as free is an owner call; type fit and a jobs tag also not in RL.",
+      "site": {
+        "name": "Authentic Jobs",
+        "url": "https://authenticjobs.com",
+        "alive": true,
+        "operator": "Authentic Jobs, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Not stated; job seekers appear able to browse listings but page does not say browsing/applying is free",
+        "paidFrom": "USD 149/month per standard job listing (renews every 30 days); featured USD 199/month",
+        "evidence": {
+          "url": "https://authenticjobs.com/pricing/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Terms not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://authenticjobs.com/terms/",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Safety search not run; footer shows 2026 copyright, Since 2005, active listings."
+      },
+      "sources": [
+        {
+          "url": "https://authenticjobs.com",
+          "date": "2026-10-16",
+          "note": "home, footer, links"
+        },
+        {
+          "url": "https://authenticjobs.com/pricing/",
+          "date": "2026-10-16",
+          "note": "employer prices"
+        }
+      ],
+      "unverified": [
+        "Free for job seekers (not stated)",
+        "Terms/listing clause",
+        "Safety search",
+        "Icon"
+      ],
+      "injectionSeen": null
+    },
+    "autodraft-ai": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Home page advertises a free plan (no credit card, unlimited downloads) but free-plan limits, watermark and paid prices could not be read (/pricing returned 404; FAQ answer absent), so permanence and limits are unconfirmed.",
+      "site": {
+        "name": "Autodraft AI",
+        "url": "https://autodraft.in",
+        "alive": true,
+        "operator": "All Bots Technologies Pvt Ltd"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Home banner says animation process 'for free', 'No Credit Card Required', 'Unlimited Downloads'; limits not stated",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://autodraft.in/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Terms not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://autodraft.in/terms-of-service",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Safety search not run."
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/autodraft-ai/",
+          "date": "2026-10-16",
+          "note": "resolved site"
+        },
+        {
+          "url": "https://autodraft.in/",
+          "date": "2026-10-16",
+          "note": "description, operator, web/iOS/Android"
+        },
+        {
+          "url": "https://autodraft.in/pricing",
+          "date": "2026-10-16",
+          "note": "404"
+        }
+      ],
+      "unverified": [
+        "Free plan limits/watermark",
+        "Paid prices",
+        "Terms",
+        "Safety search",
+        "Icon"
+      ],
+      "injectionSeen": null
+    },
+    "ava-maker": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "avamake.com returned empty content twice (JS-rendered page); nothing readable to confirm pricing, operator or terms. Not bypassed.",
+      "site": {
+        "name": "Ava Maker",
+        "url": "https://avamake.com",
+        "alive": null,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://avamake.com",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://avamake.com",
+          "date": "2026-10-16",
+          "note": "empty response"
+        },
+        {
+          "url": "https://www.avamake.com/",
+          "date": "2026-10-16",
+          "note": "empty response"
+        }
+      ],
+      "unverified": [
+        "Everything: pricing, limits, operator, terms, safety"
+      ],
+      "injectionSeen": null
     }
   }
 }
