@@ -38047,6 +38047,2755 @@
         "file": "src/content/resources/flixier.md",
         "lint": "pass"
       }
+    },
+    "flodesk": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Flodesk",
+        "url": "https://flodesk.com",
+        "alive": true,
+        "operator": "Flodesk, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan at $0/mo with 'No limit' on active subscribers (tools to grow your list); paid Lite, Pro, Everything plans scale by subscriber count",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://flodesk.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: not read · attribution: n/a · terms page returned no text",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://flodesk.com/terms",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "flodesk",
+        "type": "Tool",
+        "category": "Marketing",
+        "title": "Flodesk",
+        "description": "Email marketing platform with a drag-and-drop designer, templates, automations and sales pages, with a free plan for growing a subscriber list.",
+        "tags": [
+          "design-templates",
+          "automation",
+          "graphic-design"
+        ],
+        "relatedResources": [
+          "email-love",
+          "email-gallery",
+          "beehiiv"
+        ],
+        "similarResources": [
+          "beehiiv"
+        ],
+        "keyFeatures": [
+          "Visual email designer with ready-made templates",
+          "Subscriber list tools on the free plan",
+          "Workflows for automated email sequences",
+          "Sales pages and checkouts on higher plans"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-17: no Simple Icons match"
+        },
+        "siblings": [
+          "Flodesk Studio (separate AI email design app, beta)"
+        ]
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Safety search found no scam/shutdown/acquisition reports (2026-10-17)"
+      },
+      "sources": [
+        {
+          "url": "https://flodesk.com/pricing",
+          "date": "2026-10-17",
+          "note": "plans and free plan"
+        },
+        {
+          "url": "https://flodesk.com/terms",
+          "date": "2026-10-17",
+          "note": "fetch returned only headline"
+        },
+        {
+          "url": "web search",
+          "date": "2026-10-17",
+          "note": "safety query, nothing found"
+        }
+      ],
+      "unverified": [
+        "free plan permanence not stated explicitly",
+        "exact paid prices (slider values unreadable)",
+        "free plan feature limits beyond subscribers",
+        "terms/commercial use not read"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/flodesk.md",
+        "lint": "pass"
+      }
+    },
+    "flodesk-studio": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Free only while in beta ('free to use while it's in beta'); no post-beta pricing, so permanence unclear",
+      "site": {
+        "name": "Flodesk Studio",
+        "url": "https://studio.flodesk.com",
+        "alive": true,
+        "operator": "Flodesk, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Free during beta, no credit card required",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://studio.flodesk.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary · not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://studio.flodesk.com",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Same operator as Flodesk; no adverse search results"
+      },
+      "sources": [
+        {
+          "url": "https://studio.flodesk.com",
+          "date": "2026-10-17",
+          "note": "AI email design app, beta, free text"
+        }
+      ],
+      "unverified": [
+        "post-beta pricing",
+        "terms",
+        "whether it stays separate from Flodesk"
+      ],
+      "injectionSeen": null
+    },
+    "floot": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "Pricing page returns only its title (JS-rendered); home page mentions credits and flat plans but no free plan; /plans is 404",
+      "site": {
+        "name": "Floot",
+        "url": "https://floot.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://floot.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search found nothing on Floot"
+      },
+      "sources": [
+        {
+          "url": "https://floot.com",
+          "date": "2026-10-17",
+          "note": "builds apps inside Claude/ChatGPT/Cursor; flat plans; credits only for agent and image gen"
+        },
+        {
+          "url": "https://floot.com/pricing",
+          "date": "2026-10-17",
+          "note": "only title returned"
+        }
+      ],
+      "unverified": [
+        "free plan existence and limits",
+        "license/terms",
+        "operator"
+      ],
+      "injectionSeen": null
+    },
+    "flora": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "FLORA",
+        "url": "https://flora.ai",
+        "alive": true,
+        "operator": "Flora and Fauna Flowershop, Inc. (d/b/a FLORA)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan $0/mo: 1 seat, 3 active projects, text and image models, up to 17 generations (capped at $2.50 usage)",
+        "paidFrom": "$18/seat/month (Starter, billed monthly)",
+        "evidence": {
+          "url": "https://flora.ai/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: not read · terms at next.florafauna.ai/terms (not fetched)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://next.florafauna.ai/terms",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "flora",
+        "type": "AI Tool",
+        "category": "Design",
+        "title": "FLORA",
+        "description": "Node-based AI canvas for creative work that chains text, image and video models in one project, with a free plan.",
+        "tags": [
+          "ai-tool",
+          "graphic-design",
+          "collaboration"
+        ],
+        "relatedResources": [
+          "figma-weave",
+          "figma-make"
+        ],
+        "similarResources": [
+          "figma-weave"
+        ],
+        "keyFeatures": [
+          "Infinite canvas for generating images, video and text",
+          "Access to many AI models in one place",
+          "Projects shared with teammates on paid plans",
+          "API and MCP access on Starter and above"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-17: no Simple Icons match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "florafauna.ai 301-redirects to flora.ai; no scam/shutdown hits; unrelated Flora & Fauna retailer exists"
+      },
+      "sources": [
+        {
+          "url": "https://flora.ai/pricing",
+          "date": "2026-10-17",
+          "note": "plans; free plan limits"
+        },
+        {
+          "url": "https://www.florafauna.ai/pricing",
+          "date": "2026-10-17",
+          "note": "301 to flora.ai"
+        },
+        {
+          "url": "web search",
+          "date": "2026-10-17",
+          "note": "operator from terms listing; no adverse hits"
+        }
+      ],
+      "unverified": [
+        "free plan permanence not stated",
+        "terms/commercial use not read",
+        "model count (60+) is third-party",
+        "free generations may be a one-off allowance"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/flora.md",
+        "lint": "pass"
+      }
+    },
+    "flowbase": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Flowbase",
+        "url": "https://www.flowbase.co",
+        "alive": true,
+        "operator": "Flowbase (company; legal name not read)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Starter plan $0: 100+ free components, Chrome extension, Webflow Boosters, Figma and Framer plugins, support, single-user license; no free trial, free tier is ongoing",
+        "paidFrom": "Pro+ $27/month billed annually ($39/month monthly); monthly accounts capped at 200 component copies per month",
+        "evidence": {
+          "url": "https://www.flowbase.co/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Flowbase Licence · commercial: yes (unlimited personal/commercial projects) · attribution: not mentioned · limit: no resale, sublicensing or redistribution; one user per account",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.flowbase.co/legal/licence",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "flowbase",
+        "type": "Resource",
+        "category": "Design",
+        "title": "Flowbase",
+        "description": "Library of Webflow, Figma and Framer components, wireframes, icons and illustrations, with a free Starter tier and a paid Pro+ membership.",
+        "tags": [
+          "no-code",
+          "design-templates",
+          "website-templates",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "webflow-templates",
+          "framer-templates",
+          "webflow"
+        ],
+        "similarResources": [
+          "webflow-templates",
+          "framer-templates"
+        ],
+        "keyFeatures": [
+          "Copy-and-paste components for Webflow, Figma and Framer",
+          "Chalk wireframes and UI kits",
+          "Icons and illustrations",
+          "Chrome extension and Figma/Framer plugins",
+          "Free Starter plan with 100+ components"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no Simple Icons match, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Safety search 2026-10-17: no scam/shutdown/acquisition reports (results thin on recent news)"
+      },
+      "sources": [
+        {
+          "url": "https://www.flowbase.co",
+          "date": "2026-10-17",
+          "note": "what it is, links"
+        },
+        {
+          "url": "https://www.flowbase.co/pricing",
+          "date": "2026-10-17",
+          "note": "plans and prices"
+        },
+        {
+          "url": "https://www.flowbase.co/legal/licence",
+          "date": "2026-10-17",
+          "note": "licence terms"
+        },
+        {
+          "url": "web search: Flowbase scam OR shutting down OR acquired",
+          "date": "2026-10-17",
+          "note": "safety"
+        }
+      ],
+      "unverified": [
+        "legal operator name",
+        "free vs Pro split per item not checked"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/flowbase.md",
+        "lint": "pass"
+      }
+    },
+    "flowbite-icons": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Flowbite Icons",
+        "url": "https://flowbite.com/icons/",
+        "alive": true,
+        "operator": "Themesberg (Flowbite)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Fully free and open-source SVG icon set",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://github.com/themesberg/flowbite-icons",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT · commercial: yes · attribution: not required (keep license notice if redistributing) · limit: none beyond MIT",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/themesberg/flowbite-icons",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "flowbite-icons",
+        "type": "Icon Set",
+        "category": "Design",
+        "title": "Flowbite Icons",
+        "description": "Free, MIT-licensed collection of 430+ SVG icons built for Flowbite and Tailwind CSS projects.",
+        "tags": [
+          "icon-library",
+          "open-source",
+          "web"
+        ],
+        "relatedResources": [
+          "feather-icons",
+          "bootstrap-icons"
+        ],
+        "similarResources": [
+          "bootstrap-icons",
+          "feather-icons",
+          "eva-icons"
+        ],
+        "keyFeatures": [
+          "430+ SVG icons",
+          "MIT license, free for commercial use",
+          "Made for Tailwind CSS and Flowbite",
+          "Open-source repository on GitHub"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no Simple Icons match, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Open-source repo by themesberg; no dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://github.com/themesberg/flowbite-icons",
+          "date": "2026-10-17",
+          "note": "MIT license, 430+ icons, owner"
+        },
+        {
+          "url": "https://flowbite.com/icons/",
+          "date": "2026-10-17",
+          "note": "home fetch returned empty (JS page)"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "icons page itself returned no content",
+        "latest commit date not read",
+        "exact current icon count and style variants"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/flowbite-icons.md",
+        "lint": "pass"
+      }
+    },
+    "flowengine": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "Home and pricing fetches returned only the page title (JS-rendered); no plans or free-tier terms readable. Third-party sources disagree on a $0 Basic tier and prices.",
+      "site": {
+        "name": "FlowEngine",
+        "url": "https://flowengine.cloud",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://flowengine.cloud/pricing",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search found no scam/shutdown reports; n8n hosting service"
+      },
+      "sources": [
+        {
+          "url": "https://flowengine.cloud",
+          "date": "2026-10-17",
+          "note": "title only: The All-in-One n8n Hosting Platform; footer (c) 2026 FlowEngine"
+        },
+        {
+          "url": "web search: FlowEngine pricing",
+          "date": "2026-10-17",
+          "note": "second-hand: toolmage lists $0 Basic, Pro $16/mo, Pro+ $24/mo; AlternativeTo $16-29/mo"
+        }
+      ],
+      "unverified": [
+        "pricing and free tier permanence",
+        "operator",
+        "license/terms"
+      ],
+      "injectionSeen": null
+    },
+    "flowmapp": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "FlowMapp",
+        "url": "https://www.flowmapp.com",
+        "alive": true,
+        "operator": "FlowMapp (directory says FlowMapp Inc.; not confirmed first-party)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free forever: 1 project, 20 pages, 2 sitemaps per project, 1 flow per project (50 flow elements), 100 MB storage, limited support",
+        "paidFrom": "Pro $8.25/month billed annually ($15/month monthly); Team $19.25/mo annual ($35 monthly); Agency $54.45/mo annual ($99 monthly)",
+        "evidence": {
+          "url": "https://www.flowmapp.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: not read · attribution: n/a · limit: Terms of Use not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.flowmapp.com",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "flowmapp",
+        "type": "Tool",
+        "category": "Design",
+        "title": "FlowMapp",
+        "description": "Visual planning tool for web projects: sitemaps, user flows, wireframes, content and estimates in one place, with a free one-project plan.",
+        "tags": [
+          "ui-ux",
+          "website-builder",
+          "prototyping",
+          "collaboration"
+        ],
+        "relatedResources": [
+          "visily"
+        ],
+        "similarResources": [
+          "visily"
+        ],
+        "keyFeatures": [
+          "Visual sitemaps with AI generation and URL import",
+          "User flow diagrams",
+          "Wireframes with desktop and mobile templates",
+          "Notion-style content editor for page copy",
+          "Project estimates and invoices",
+          "Export to PDF, PNG, XML, CSV or Figma"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no Simple Icons match, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Safety search 2026-10-17: no scam/shutdown/acquisition reports; launched on Product Hunt 2017"
+      },
+      "sources": [
+        {
+          "url": "https://www.flowmapp.com",
+          "date": "2026-10-17",
+          "note": "features, one project always free"
+        },
+        {
+          "url": "https://www.flowmapp.com/pricing",
+          "date": "2026-10-17",
+          "note": "plans, limits, prices"
+        },
+        {
+          "url": "web search: FlowMapp scam OR shutting down OR acquired",
+          "date": "2026-10-17",
+          "note": "safety"
+        }
+      ],
+      "unverified": [
+        "Terms of Use not read (commercial use, listing)",
+        "legal operator"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/flowmapp.md",
+        "lint": "pass"
+      }
+    },
+    "flowsavvy": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "FlowSavvy",
+        "url": "https://flowsavvy.app",
+        "alive": true,
+        "operator": "Schezzy, LLC (per site copyright notice)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free forever plan: auto-scheduling 2 weeks out, 1 scheduling hours profile, 3 repeating auto-scheduled tasks, 5 task lists, 30 days task history, due-date-only priorities; unlimited auto-reschedules and Google/Outlook/iCloud calendar sync included",
+        "paidFrom": "Pro $14/month billed monthly or $10/month billed yearly (7-day Pro trial)",
+        "evidence": {
+          "url": "https://flowsavvy.app/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: not stated · attribution: n/a · terms page not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://flowsavvy.app",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "flowsavvy",
+        "type": "App",
+        "category": "Productivity",
+        "title": "FlowSavvy",
+        "description": "Task-scheduling calendar app that fits your to-do list into open calendar time and automatically reschedules when plans change. Free plan available.",
+        "tags": [
+          "productivity",
+          "automation"
+        ],
+        "relatedResources": [
+          "calendly",
+          "cal-com"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Auto-schedules tasks into free calendar slots",
+          "Unlimited automatic rescheduling when the day changes",
+          "Syncs with Google, Outlook and iCloud calendars",
+          "Web and mobile apps",
+          "Free plan with 5 task lists and 2-week scheduling horizon"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-17: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "One safety search 2026-10-17 returned nothing about FlowSavvy (only unrelated names)"
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/flowsavvy/",
+          "date": "2026-10-17",
+          "note": "resolved own site flowsavvy.app"
+        },
+        {
+          "url": "http://flowsavvy.app/",
+          "date": "2026-10-17",
+          "note": "what it is, operator, free forever"
+        },
+        {
+          "url": "https://flowsavvy.app/pricing",
+          "date": "2026-10-17",
+          "note": "plan limits and prices"
+        },
+        {
+          "url": "web search: FlowSavvy scam OR malware OR shutting down OR acquired",
+          "date": "2026-10-17",
+          "note": "no hits"
+        }
+      ],
+      "unverified": [
+        "terms of service / commercial use not read",
+        "recent changelog/activity not checked"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/flowsavvy.md",
+        "lint": "pass"
+      }
+    },
+    "flowspark-components": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Site says 'Free Premium Templates' but no license or usage terms found (terms page 404); commercial use/redistribution of free Webflow components unknown. Operator unclear.",
+      "site": {
+        "name": "Flowspark Components",
+        "url": "https://build.flowspark.co",
+        "alive": true,
+        "operator": "Pixel True Design Studios (footer, 2023; link to flowspark.co not confirmed same company)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Home page markets free Webflow components/templates; no prices or paid plans shown; what 'free' covers not stated",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://build.flowspark.co",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Not found",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://build.flowspark.co/terms-condition.html",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No safety search run (stopped at needs-owner)"
+      },
+      "sources": [
+        {
+          "url": "https://build.flowspark.co",
+          "date": "2026-10-17",
+          "note": "home: free premium templates, component categories, footer operator"
+        },
+        {
+          "url": "https://flowspark.co",
+          "date": "2026-10-17",
+          "note": "operator not stated"
+        },
+        {
+          "url": "https://build.flowspark.co/terms-condition.html",
+          "date": "2026-10-17",
+          "note": "HTTP 404"
+        }
+      ],
+      "unverified": [
+        "license/commercial use",
+        "operator identity",
+        "the 150+ component count",
+        "no safety search",
+        "recent activity (footer 2023)"
+      ],
+      "injectionSeen": null
+    },
+    "flowstep": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Free plan exists ($0, 'For trying out Flowstep') but limits are only 'Limited' with no numbers and permanence not stated; ToS not read; operator unnamed.",
+      "site": {
+        "name": "Flowstep",
+        "url": "https://flowstep.ai",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free $0/month 'For trying out Flowstep'; messages, multi-screen and projects listed as 'Limited' (no numbers)",
+        "paidFrom": "Starter $15/month (80 messages/mo); Enterprise custom",
+        "evidence": {
+          "url": "https://flowstep.ai/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · terms not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://flowstep.ai",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No safety search run (stopped at needs-owner)"
+      },
+      "sources": [
+        {
+          "url": "https://flowstep.ai",
+          "date": "2026-10-17",
+          "note": "AI design canvas, features, free to start no credit card"
+        },
+        {
+          "url": "https://flowstep.ai/pricing",
+          "date": "2026-10-17",
+          "note": "plans: Free, Starter $15, Enterprise"
+        }
+      ],
+      "unverified": [
+        "free limit numbers",
+        "free plan permanence",
+        "terms/commercial use",
+        "operator",
+        "safety search",
+        "icon (not in Simple Icons)"
+      ],
+      "injectionSeen": null
+    },
+    "floyo": {
+      "researchedOn": "2026-10-17",
+      "verdict": "skip",
+      "verdictReason": "Free tier is a one-time trial (15 min FloTime + $1 partner credits); paid plans from $15/mo ($12/mo annual).",
+      "site": {
+        "name": "Floyo",
+        "url": "https://www.floyo.ai",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": "Free Trial only: one-time 15 minutes of FloTime and $1 Partner Nodes Credits, 10 GB storage (72-hr persistence); account stays open after",
+        "paidFrom": "Explorer $15/month ($12/month billed annually)",
+        "evidence": {
+          "url": "https://www.floyo.ai/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.floyo.ai/pricing",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No safety search run (skipped on pricing)"
+      },
+      "sources": [
+        {
+          "url": "https://www.floyo.ai",
+          "date": "2026-10-17",
+          "note": "platform for running ComfyUI/open-source AI workflows"
+        },
+        {
+          "url": "https://www.floyo.ai/pricing",
+          "date": "2026-10-17",
+          "note": "trial is one-time; plan prices"
+        }
+      ],
+      "unverified": [
+        "operator",
+        "terms",
+        "safety search"
+      ],
+      "injectionSeen": null
+    },
+    "fluent-2": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Fluent 2 home states no license or free-use terms (only a Terms of use link and trademarks); Figma kit licensing not confirmed first-party, so listing and commercial-use answer need owner decision.",
+      "site": {
+        "name": "Fluent 2",
+        "url": "https://fluent2.microsoft.design",
+        "alive": true,
+        "operator": "Microsoft"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Design system site with Figma UI kits, component guidance and plugins; no price shown. Free status of kits only reported by a third-party blog.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://fluent2.microsoft.design",
+          "date": "2026-10-17",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "Not stated on site; icons reported MIT and brand assets restricted by Microsoft brand guidelines (second-hand search summary)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://fluent2.microsoft.design/get-started/design",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Official Microsoft domain; no dedicated safety search."
+      },
+      "sources": [
+        {
+          "url": "https://fluent2.microsoft.design",
+          "date": "2026-10-17",
+          "note": "Home: Design (Figma UI kits) and Develop paths, Web/iOS/Android/Windows sections, footer Terms of use, (c) Microsoft 2026"
+        },
+        {
+          "url": "https://fluent2.microsoft.design/get-started/design",
+          "date": "2026-10-17",
+          "note": "Kits built in Figma; no license text"
+        },
+        {
+          "url": "web search: Fluent 2 Figma kit license",
+          "date": "2026-10-17",
+          "note": "Second-hand only: kits free, icons MIT, brand assets restricted"
+        }
+      ],
+      "unverified": [
+        "License/terms of Fluent 2 Figma kits (first-party)",
+        "Whether kits are free for commercial use",
+        "Microsoft Terms of use page not read"
+      ],
+      "injectionSeen": null
+    },
+    "fluent-emoji": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Fluent Emoji",
+        "url": "https://github.com/microsoft/fluentui-emoji",
+        "alive": true,
+        "operator": "Microsoft"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire emoji set is free in a public GitHub repo under the MIT license",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://github.com/microsoft/fluentui-emoji",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT License (c) Microsoft Corporation · commercial: yes · attribution: keep copyright and license notice in copies · limit: provided as-is, no warranty",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/microsoft/fluentui-emoji/blob/main/LICENSE",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "fluent-emoji",
+        "type": "Icon Set",
+        "category": "Design",
+        "title": "Fluent Emoji",
+        "description": "Microsoft's open-source emoji collection in a friendly, modern style, free to use in apps, designs and videos under the MIT license.",
+        "tags": [
+          "icon-library",
+          "open-source",
+          "graphic-design"
+        ],
+        "relatedResources": [
+          "material-symbols",
+          "simple-icons"
+        ],
+        "similarResources": [
+          "material-symbols",
+          "bootstrap-icons"
+        ],
+        "keyFeatures": [
+          "Collection of friendly, modern emoji designed by Microsoft",
+          "Public GitHub repository, free to download",
+          "MIT license permits commercial use",
+          "Questions and issues handled on GitHub by the Microsoft design team"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons has no exact match (check-icon exit 1)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Official microsoft org repository; no archive notice seen; no dedicated safety search."
+      },
+      "sources": [
+        {
+          "url": "https://github.com/microsoft/fluentui-emoji",
+          "date": "2026-10-17",
+          "note": "Repo description, MIT, 10.2k stars, 37 commits, contacts"
+        },
+        {
+          "url": "https://github.com/microsoft/fluentui-emoji/blob/main/LICENSE",
+          "date": "2026-10-17",
+          "note": "MIT, notice must be preserved"
+        }
+      ],
+      "unverified": [
+        "Emoji count and style variants (3D/Color/Flat/High Contrast) not confirmed on page",
+        "Last commit date not shown",
+        "Microsoft trademark caveats not checked"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/fluent-emoji.md",
+        "lint": "pass"
+      }
+    },
+    "flutterflow": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Free plan exists but is tightly limited (2 projects, lifetime 5 AI requests, no code download) and the pricing page does not say it is permanent; owner to decide Freemium listing.",
+      "site": {
+        "name": "FlutterFlow",
+        "url": "https://flutterflow.io",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free $0 'Build & test your app': up to 2 projects, 10 Lite credits, 5 AI generation requests (lifetime), 1,000+ templates, web publishing on free subdomain; no code or APK download",
+        "paidFrom": "Basic $39/month (Growth $80, Business $150 for first seat; annual toggle saves ~25%)",
+        "evidence": {
+          "url": "https://flutterflow.io/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: not read · attribution: not read · terms not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://flutterflow.io/pricing",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search found no shutdown or acquisition; only user complaints and a lookalike-domain warning (flutterflow.io.review); Series A 25.5M USD Jan 2024 per TechCrunch via search summary."
+      },
+      "sources": [
+        {
+          "url": "https://flutterflow.io/pricing",
+          "date": "2026-10-17",
+          "note": "Plans and free plan limits"
+        },
+        {
+          "url": "https://flutterflow.io",
+          "date": "2026-10-17",
+          "note": "Home: Start for Free, visual app builder for iOS/Android/web"
+        },
+        {
+          "url": "web search: FlutterFlow scam OR malware OR shutting down OR acquired",
+          "date": "2026-10-17",
+          "note": "No shutdown/acquisition evidence"
+        }
+      ],
+      "unverified": [
+        "Free plan permanence",
+        "Terms of service and commercial use of built apps",
+        "Operator company name",
+        "Annual prices"
+      ],
+      "injectionSeen": null
+    },
+    "flux-academy": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Listed URL is a YouTube channel page that returned only navigation; Flux Academy's own site sells paid courses and membership, so listing a free YouTube channel (type/category) is an owner call.",
+      "site": {
+        "name": "Flux Academy",
+        "url": "https://www.youtube.com/channel/UCN7dywl5wDxTu1RM3eJ_h9Q",
+        "alive": true,
+        "operator": "Ran Segall / Flux Academy"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "YouTube videos free; academy site offers a free guide, blog and newsletter; courses, bundles and membership are paid (no prices shown)",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.flux-academy.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Not read · YouTube Terms apply to the channel",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.youtube.com/channel/UCN7dywl5wDxTu1RM3eJ_h9Q",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Established academy (channel since 2015, 450K+ subscribers per third-party summary); no scam hits seen."
+      },
+      "sources": [
+        {
+          "url": "https://www.youtube.com/channel/UCN7dywl5wDxTu1RM3eJ_h9Q",
+          "date": "2026-10-17",
+          "note": "Page returned only the title Flux Academy"
+        },
+        {
+          "url": "https://www.flux-academy.com",
+          "date": "2026-10-17",
+          "note": "Courses and membership paid; free resources; links youtube.com/@FluxAcademy"
+        },
+        {
+          "url": "web search: Flux Academy Ran Segall YouTube",
+          "date": "2026-10-17",
+          "note": "Channel history, second-hand"
+        }
+      ],
+      "unverified": [
+        "Channel description, upload cadence, subscriber count (first-party)",
+        "Course prices",
+        "Whether RL wants a YouTube channel as a Resource"
+      ],
+      "injectionSeen": null
+    },
+    "flyerwrk": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Shop is mostly paid ($14-$29 items); the free items are labelled Free Personal License (non-commercial only) and the free set is small and rotating, so permanence and fit for a free directory is unclear",
+      "site": {
+        "name": "Flyerwrk",
+        "url": "https://www.flyerwrk.com",
+        "alive": true,
+        "operator": "Flyerwrk (no legal entity named)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "A few \"New Freebies\" under Free Personal License (personal, non-commercial only); selection can change",
+        "paidFrom": "about $14 per item (homepage listing)",
+        "evidence": {
+          "url": "https://www.flyerwrk.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Personal License (freebies) · commercial: no (paid Commercial/Extended licenses needed) · attribution: not mentioned · limit: no redistribution or resale of assets",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.flyerwrk.com/pages/licenses",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://www.flyerwrk.com",
+          "date": "2026-10-17",
+          "note": "products, freebies, prices"
+        },
+        {
+          "url": "https://www.flyerwrk.com/pages/licenses",
+          "date": "2026-10-17",
+          "note": "license tiers"
+        }
+      ],
+      "unverified": [
+        "no safety search run",
+        "collection page not fetched; same shop section",
+        "permanence of freebies unknown",
+        "operator legal entity not named"
+      ],
+      "injectionSeen": null
+    },
+    "flyerwrk-mockups": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Shop is mostly paid ($14-$29 items); the free items are labelled Free Personal License (non-commercial only) and the free set is small and rotating, so permanence and fit for a free directory is unclear; sibling collection of flyerwrk, decide together",
+      "site": {
+        "name": "Flyerwrk Mockups",
+        "url": "https://www.flyerwrk.com/collections/mockups",
+        "alive": true,
+        "operator": "Flyerwrk (no legal entity named)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "A few \"New Freebies\" under Free Personal License (personal, non-commercial only); selection can change",
+        "paidFrom": "about $14 per item (homepage listing)",
+        "evidence": {
+          "url": "https://www.flyerwrk.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Personal License (freebies) · commercial: no (paid Commercial/Extended licenses needed) · attribution: not mentioned · limit: no redistribution or resale of assets",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.flyerwrk.com/pages/licenses",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://www.flyerwrk.com",
+          "date": "2026-10-17",
+          "note": "products, freebies, prices"
+        },
+        {
+          "url": "https://www.flyerwrk.com/pages/licenses",
+          "date": "2026-10-17",
+          "note": "license tiers"
+        }
+      ],
+      "unverified": [
+        "no safety search run",
+        "collection page not fetched; same shop section",
+        "permanence of freebies unknown",
+        "operator legal entity not named"
+      ],
+      "injectionSeen": null
+    },
+    "flyerwrk-textures": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Shop is mostly paid ($14-$29 items); the free items are labelled Free Personal License (non-commercial only) and the free set is small and rotating, so permanence and fit for a free directory is unclear; sibling collection of flyerwrk, decide together",
+      "site": {
+        "name": "Flyerwrk Textures",
+        "url": "https://www.flyerwrk.com/collections/textures",
+        "alive": true,
+        "operator": "Flyerwrk (no legal entity named)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "A few \"New Freebies\" under Free Personal License (personal, non-commercial only); selection can change",
+        "paidFrom": "about $14 per item (homepage listing)",
+        "evidence": {
+          "url": "https://www.flyerwrk.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Personal License (freebies) · commercial: no (paid Commercial/Extended licenses needed) · attribution: not mentioned · limit: no redistribution or resale of assets",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.flyerwrk.com/pages/licenses",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://www.flyerwrk.com",
+          "date": "2026-10-17",
+          "note": "products, freebies, prices"
+        },
+        {
+          "url": "https://www.flyerwrk.com/pages/licenses",
+          "date": "2026-10-17",
+          "note": "license tiers"
+        }
+      ],
+      "unverified": [
+        "no safety search run",
+        "collection page not fetched; same shop section",
+        "permanence of freebies unknown",
+        "operator legal entity not named"
+      ],
+      "injectionSeen": null
+    },
+    "foca": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "FOCA",
+        "url": "https://focastock.com",
+        "alive": true,
+        "operator": "FOCA (run by Jeffrey Betts per third-party blog; no legal entity on site)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Free photos, videos and templates for personal and commercial use, no usage limits stated; separate Premium/Adobe Stock promotions exist",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://focastock.com/license",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "FOCA license · commercial: yes · attribution: not required · limit: premium/sponsored content has separate terms",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://focastock.com/license",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "foca",
+        "type": "Stock Media",
+        "category": "Photography",
+        "title": "FOCA",
+        "description": "Free stock photos, videos and templates for personal and commercial use, with no attribution required and an in-browser editor.",
+        "tags": [
+          "stock",
+          "stock-photos",
+          "stock-videos",
+          "royalty-free",
+          "design-templates"
+        ],
+        "relatedResources": [
+          "pexels",
+          "pixabay",
+          "unsplash"
+        ],
+        "similarResources": [
+          "pexels",
+          "pixabay",
+          "burst"
+        ],
+        "keyFeatures": [
+          "Free photos, videos and templates",
+          "Commercial use allowed without credit",
+          "Customize assets in its own editor",
+          "Free assets can be bundled in themes, apps and UI kits",
+          "Premium Adobe Stock picks promoted separately"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no Simple Icons match, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Search 2026-10-17 found no scam or shutdown reports; results thin and undated"
+      },
+      "sources": [
+        {
+          "url": "https://focastock.com",
+          "date": "2026-10-17",
+          "note": "home, tagline, footer"
+        },
+        {
+          "url": "https://focastock.com/license",
+          "date": "2026-10-17",
+          "note": "license terms"
+        },
+        {
+          "url": "https://uiuxjobsboard.com/resources/free-photos-videos/foca-stock",
+          "date": "2026-10-17",
+          "note": "third-party listing (search snippet)"
+        }
+      ],
+      "unverified": [
+        "no pricing page; Premium link shows no prices",
+        "legal operator entity not named",
+        "third-party snippet says CC0 but license page says its own terms",
+        "terms of service not read",
+        "recent activity not confirmed"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/foca.md",
+        "lint": "pass"
+      }
+    },
+    "fockups": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Home page shows two Photoshop mockup sets with Download links to filtergrade.com but states no price or free status; footer says All rights reserved; it is a file pack, not an online tool.",
+      "site": {
+        "name": "Fockups",
+        "url": "https://fockups.com",
+        "alive": true,
+        "operator": "Wytze Hoogslag (Thansk)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://fockups.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://fockups.com",
+          "date": "2026-10-17",
+          "note": "home: 2 mockup sets (8 and 10 files), all rights reserved, creator"
+        }
+      ],
+      "unverified": [
+        "whether downloads are free (filtergrade.com not read)",
+        "license terms of files",
+        "fit as RL resource (file pack)"
+      ],
+      "injectionSeen": null
+    },
+    "font-brief": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Home page does not say whether the tool is free: it has sign up/login plus Patreon and donate asks; /pricing is 404; no terms page, only privacy policy.",
+      "site": {
+        "name": "Font Brief",
+        "url": "https://www.fontbrief.com",
+        "alive": true,
+        "operator": "Kore (wearekore.com)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.fontbrief.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.fontbrief.com",
+          "date": "2026-10-17",
+          "note": "home: curated font discovery by brand traits, 376 fonts, quarterly updates, Made by Kore, donations"
+        },
+        {
+          "url": "https://www.fontbrief.com/pricing",
+          "date": "2026-10-17",
+          "note": "404"
+        }
+      ],
+      "unverified": [
+        "free tier / account requirement",
+        "terms of use",
+        "no safety search run"
+      ],
+      "injectionSeen": null
+    },
+    "font-in-logo": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "Site returned HTTP 503 on two attempts; nothing readable.",
+      "site": {
+        "name": "Font in Logo",
+        "url": "https://www.fontinlogo.com",
+        "alive": null,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.fontinlogo.com",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.fontinlogo.com",
+          "date": "2026-10-17",
+          "note": "HTTP 503 twice"
+        }
+      ],
+      "unverified": [
+        "everything: pricing, license, operator, liveness"
+      ],
+      "injectionSeen": null
+    },
+    "font-meme": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "Site returned HTTP 403 Forbidden to the fetch; not bypassed.",
+      "site": {
+        "name": "Font Meme",
+        "url": "https://fontmeme.com",
+        "alive": null,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://fontmeme.com",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://fontmeme.com",
+          "date": "2026-10-17",
+          "note": "HTTP 403"
+        }
+      ],
+      "unverified": [
+        "everything: pricing, license, operator, font download terms"
+      ],
+      "injectionSeen": null
+    },
+    "font-mojo": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Font Mojo",
+        "url": "https://fontmojo.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Site describes itself as a simple and free app; no plans, limits or paywall mentioned",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://fontmojo.com/about",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No terms page found · commercial: unknown · attribution: unknown · limit: none stated (only a copyright notice and a privacy page)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://fontmojo.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "font-mojo",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Font Mojo",
+        "description": "Free web app to type your own text and preview, compare and organize fonts from your system and Google Fonts, with filters and image export.",
+        "tags": [
+          "typography",
+          "web",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "fontpair",
+          "google-fonts"
+        ],
+        "similarResources": [
+          "fonts-ninja"
+        ],
+        "keyFeatures": [
+          "Preview custom text in system fonts and Google Fonts",
+          "Search and filter fonts by name, style or tags",
+          "Adjust letter spacing, line height and text color",
+          "Export transparent preview images",
+          "Inspect every character of a font including alternates"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated safety search run; no red flags on pages read"
+      },
+      "sources": [
+        {
+          "url": "https://fontmojo.com",
+          "date": "2026-10-17",
+          "note": "home: tagline, nav, footer, no terms"
+        },
+        {
+          "url": "https://fontmojo.com/about",
+          "date": "2026-10-17",
+          "note": "free app wording and feature list"
+        }
+      ],
+      "unverified": [
+        "Operator not named",
+        "Terms of use not found",
+        "No safety search for scam/shutdown run",
+        "Pricing permanence only from about-page wording"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/font-mojo.md",
+        "lint": "pass"
+      }
+    },
+    "font-pairings-by-people": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "Page returned only a title and tagline via fetch (likely JS-rendered); pricing, terms and features unreadable",
+      "site": {
+        "name": "Font Pairings By People",
+        "url": "https://fontpairings.bypeople.com",
+        "alive": true,
+        "operator": "ByPeople (a deals/resources marketplace; not confirmed)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://fontpairings.bypeople.com",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://fontpairings.bypeople.com",
+          "date": "2026-10-17",
+          "note": "title '99 Font Pairings & Typeface Combinations | ByPeople'; no pricing/terms text"
+        },
+        {
+          "url": "https://bypeople.com",
+          "date": "2026-10-17",
+          "note": "ByPeople described as curated network of resources and lifetime deals; no font pairing tool mentioned"
+        }
+      ],
+      "unverified": [
+        "Pricing",
+        "Terms",
+        "Features",
+        "Operator details",
+        "Safety search"
+      ],
+      "injectionSeen": null
+    },
+    "font-squirrel": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "Fetch of home and FAQ returned empty content twice; first-party pricing/terms unreadable (web search snippets only, second-hand)",
+      "site": {
+        "name": "Font Squirrel",
+        "url": "https://www.fontsquirrel.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Second-hand: curated free-for-commercial-use fonts plus a webfont generator",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.fontsquirrel.com/faq",
+          "date": "2026-10-17",
+          "confidence": "second-hand"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.fontsquirrel.com/faq",
+          "date": "2026-10-17",
+          "note": "search snippet: FAQ says commercial licenses were checked but not guaranteed; per-font license varies"
+        },
+        {
+          "url": "https://www.fontsquirrel.com",
+          "date": "2026-10-17",
+          "note": "fetch returned empty"
+        }
+      ],
+      "unverified": [
+        "Home and FAQ content not read first-party",
+        "Operator",
+        "Site terms",
+        "Safety search",
+        "Retry later"
+      ],
+      "injectionSeen": null
+    },
+    "font-tester": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Font Tester",
+        "url": "https://font-tester.foxcraft.tech",
+        "alive": true,
+        "operator": "Not named; GitHub account PaulleDemon linked"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free plan: pick from 1500+ Google fonts, find a font family on any page, generate and copy CSS, filter by family; FAQ says free to use forever; no limits listed",
+        "paidFrom": "Pro $19 one-time (struck-through $29), up to 3 devices",
+        "evidence": {
+          "url": "https://font-tester.foxcraft.tech",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Terms page not read · commercial: Pro plan lists commercial use (free tier implied personal) · attribution: unknown · limit: free tier lacks commercial use per pricing list",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://font-tester.foxcraft.tech",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "font-tester",
+        "type": "Extension",
+        "category": "Design",
+        "title": "Font Tester",
+        "description": "Browser extension to preview Google Fonts on any webpage, identify a page's font family and copy CSS; free tier plus a one-time Pro upgrade.",
+        "tags": [
+          "extensions",
+          "typography",
+          "web"
+        ],
+        "relatedResources": [
+          "fonts-ninja",
+          "google-fonts"
+        ],
+        "similarResources": [
+          "fonts-ninja"
+        ],
+        "keyFeatures": [
+          "Try 1500+ Google fonts live on any website",
+          "Find the font family used on a page",
+          "Generate and copy CSS for the chosen font",
+          "Pro adds custom font upload, side-by-side comparison and size/color controls",
+          "Available for Chrome, Edge and Brave"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://font-tester.foxcraft.tech",
+          "date": "2026-10-17",
+          "note": "pricing, features, platforms, GitHub link"
+        }
+      ],
+      "unverified": [
+        "Separate terms/license page not read",
+        "Operator identity",
+        "Safety search not run",
+        "Free-tier commercial-use rights unclear"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/font-tester.md",
+        "lint": "pass"
+      }
+    },
+    "fontalternatives": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "FontAlternatives",
+        "url": "https://fontalternatives.com",
+        "alive": true,
+        "operator": "Mladen Ruzicic (personal project)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Browsing and comparisons open with no signup or plans shown; ad placements offered via /advertise/",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://fontalternatives.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No site terms page found; /licenses/ is a guide to font licenses, not site terms · commercial: not stated · attribution: not stated",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://fontalternatives.com/licenses/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "fontalternatives",
+        "type": "Website",
+        "category": "Design",
+        "title": "FontAlternatives",
+        "description": "Compare premium fonts with free, open alternatives, with side-by-side matches, font pairings and a browser extension to try swaps.",
+        "tags": [
+          "typography",
+          "visual-design",
+          "graphic-design"
+        ],
+        "relatedResources": [
+          "google-fonts",
+          "fontpair"
+        ],
+        "similarResources": [
+          "figma-font-pairings"
+        ],
+        "keyFeatures": [
+          "Catalog of 377 premium fonts matched to 171 free alternatives (home page counts, 2026-10-17)",
+          "Side-by-side comparisons across 4,454 pairs",
+          "Font pairing suggestions and industry font guides",
+          "Font license guide",
+          "FontSwap browser extension to try fonts on live pages"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-17: no match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://fontalternatives.com",
+          "date": "2026-10-17",
+          "note": "what it is, operator, counts, no pricing"
+        },
+        {
+          "url": "https://fontalternatives.com/licenses/",
+          "date": "2026-10-17",
+          "note": "no site terms; FontSwap price not stated"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "no explicit statement that the site is free or has no paid tier",
+        "no site terms page",
+        "FontSwap extension price not checked"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/fontalternatives.md",
+        "lint": "pass"
+      }
+    },
+    "fontastic-space": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Page never states pricing or terms and has no about/terms/privacy; home shows only 'Loading fonts...' (JS). Free status unconfirmed.",
+      "site": {
+        "name": "Fontastic Space",
+        "url": "https://fontastic.space",
+        "alive": true,
+        "operator": "Dasha (Draniki Studio), per Guides page footer"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://fontastic.space",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "not stated",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://fontastic.space",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://fontastic.space",
+          "date": "2026-10-17",
+          "note": "Compare/Popular/Guides/Changelog nav; no pricing"
+        },
+        {
+          "url": "https://fontastic.space/guides",
+          "date": "2026-10-17",
+          "note": "operator, guides on type"
+        }
+      ],
+      "unverified": [
+        "free status not stated",
+        "no terms/license/privacy",
+        "pairing tool itself did not render (JS)",
+        "no safety search"
+      ],
+      "injectionSeen": null
+    },
+    "fontbase": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "FontBase",
+        "url": "https://fontba.se",
+        "alive": true,
+        "operator": "not named on site (contact mail@fontba.se)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Core font manager free; pricing page says it 'will always stay free, forever'. Free-tier feature list/limits not itemized on the pricing page",
+        "paidFrom": "Awesome add-on $3/month (yearly labelled -20%, one-time 'Forever' option, prices not shown)",
+        "evidence": {
+          "url": "https://fontba.se/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary desktop app · commercial: not stated · attribution: not stated · no terms link found on home page",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://fontba.se",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "fontbase",
+        "type": "Software",
+        "category": "Design",
+        "title": "FontBase",
+        "description": "Free font manager for Mac, Windows and Linux with collections, watched folders, Google Fonts access, glyph viewer and CSS-exporting playground.",
+        "tags": [
+          "typography",
+          "mac",
+          "windows",
+          "linux"
+        ],
+        "relatedResources": [
+          "google-fonts",
+          "fonts-ninja"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Organize fonts in collections and watched folders",
+          "Activate fonts without installing them",
+          "Browse and use Google Fonts",
+          "Glyph viewer and OpenType feature support",
+          "Playground that exports CSS",
+          "Paid Awesome add-on for teams, sync, tags and themes"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "fontbase",
+          "fillColor": "#3D03A7",
+          "bgColor": "#ffffff",
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search run; aggregator listings conflict on free plan, first-party page says free forever"
+      },
+      "sources": [
+        {
+          "url": "https://fontba.se",
+          "date": "2026-10-17",
+          "note": "features, platforms, free vs Awesome"
+        },
+        {
+          "url": "https://fontba.se/pricing",
+          "date": "2026-10-17",
+          "note": "free forever claim, $3/month"
+        }
+      ],
+      "unverified": [
+        "no safety search",
+        "operator not named",
+        "free-tier limits not itemized",
+        "yearly/forever prices",
+        "terms of service not found"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/fontbase.md",
+        "lint": "pass"
+      }
+    },
+    "fontbob": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "Home and /pricing returned only the name 'FontBob' (JS-rendered, nothing readable); web search found nothing. Free tier unconfirmed.",
+      "site": {
+        "name": "FontBob",
+        "url": "https://fontbob.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://fontbob.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Search returned no FontBob results"
+      },
+      "sources": [
+        {
+          "url": "https://fontbob.com",
+          "date": "2026-10-17",
+          "note": "returned only the name"
+        },
+        {
+          "url": "https://fontbob.com/pricing",
+          "date": "2026-10-17",
+          "note": "returned only the name"
+        }
+      ],
+      "unverified": [
+        "pricing",
+        "free tier",
+        "license",
+        "operator",
+        "safety"
+      ],
+      "injectionSeen": null
+    },
+    "fontcraft": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "FontCraft",
+        "url": "https://fontcraft.app",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free forever: 1 font, A-Z and 0-9 only, TTF and WOFF2 export, cloud sync; free fonts are personal-use only",
+        "paidFrom": "Pro 499 INR one-time per font (full 600+ character set, OTF, ligatures, commercial licence)",
+        "evidence": {
+          "url": "https://fontcraft.app",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary service · commercial: free fonts personal use only, Pro gives per-font commercial licence · attribution: not stated · limit: 1 font on free plan",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://fontcraft.app",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "fontcraft",
+        "type": "Tool",
+        "category": "Design",
+        "title": "FontCraft",
+        "description": "Draw your own letters in the browser or with Apple Pencil and export them as an installable font; one basic font is free, full sets are paid.",
+        "tags": [
+          "typography",
+          "graphic-design"
+        ],
+        "relatedResources": [
+          "atom-type-lab",
+          "birdfont"
+        ],
+        "similarResources": [
+          "birdfont",
+          "atom-type-lab"
+        ],
+        "keyFeatures": [
+          "Draw each glyph in the browser or on iPad with Apple Pencil",
+          "Free plan: one font with letters and numbers, TTF and WOFF2 export",
+          "Cloud sync of your fonts",
+          "Pro adds 600+ characters, OTF, ligatures and a per-font commercial licence"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-17: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated safety search run; operator not named on page"
+      },
+      "sources": [
+        {
+          "url": "https://fontcraft.app",
+          "date": "2026-10-17",
+          "note": "product, plans, licensing note"
+        }
+      ],
+      "unverified": [
+        "operator not named",
+        "no safety search run",
+        "terms of service page not read",
+        "price shown in INR; other currencies unknown"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/fontcraft.md",
+        "lint": "pass"
+      }
+    },
+    "fontesk": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Free fonts carry per-font licenses (commercial only when labelled; no info means commercial not allowed); operator unnamed; one third-party opinion article alleges fonts released without designer consent. Owner to decide on listing.",
+      "site": {
+        "name": "Fontesk",
+        "url": "https://fontesk.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Library advertised as 6600+ free-for-commercial-use fonts; licenses vary per font (free commercial, personal only, OFL)",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://fontesk.com/license/free-for-commercial-use/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Per-font licenses · commercial: only where labelled (public domain, OFL, free-for-commercial) · attribution: not stated · limit: no resale or redistribution unless author allows",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://fontesk.com/license/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Search found no malware/scam/shutdown report; one opinion article (uxdesign.cc) alleges unfinished fonts released without designer consent"
+      },
+      "sources": [
+        {
+          "url": "https://fontesk.com/license/free-for-commercial-use/",
+          "date": "2026-10-17",
+          "note": "home, library claims"
+        },
+        {
+          "url": "https://fontesk.com/license/",
+          "date": "2026-10-17",
+          "note": "license quotes"
+        },
+        {
+          "url": "https://uxdesign.cc/how-a-font-website-dishonestly-earns-money-34fa4c2092b4",
+          "date": "2026-10-17",
+          "note": "opinion article from safety search"
+        }
+      ],
+      "unverified": [
+        "operator unnamed",
+        "paid fonts / Unlimited Fonts offer unclear",
+        "permanence of free library not confirmed",
+        "allegation in opinion article not verified"
+      ],
+      "injectionSeen": null
+    },
+    "fontfabric": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Type foundry with mostly paid retail fonts (from $10); a free fonts page exists (stated fit for commercial design) but free-tier permanence and exact license text not confirmed.",
+      "site": {
+        "name": "Fontfabric",
+        "url": "https://www.fontfabric.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free fonts page lists e.g. Bebas Neue, Akrobat, Lovelo; page says licensed for commercial design",
+        "paidFrom": "Retail fonts from $10 (Panton) on home page",
+        "evidence": {
+          "url": "https://www.fontfabric.com/free-fonts/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Foundry license · commercial: free fonts stated fit for commercial design · attribution: not stated · limit: see license in download",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.fontfabric.com/free-fonts/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://www.fontfabric.com",
+          "date": "2026-10-17",
+          "note": "foundry, paid prices"
+        },
+        {
+          "url": "https://www.fontfabric.com/free-fonts/",
+          "date": "2026-10-17",
+          "note": "free fonts list"
+        }
+      ],
+      "unverified": [
+        "license agreement text not read",
+        "free font permanence",
+        "operator legal entity",
+        "no safety search run"
+      ],
+      "injectionSeen": null
+    },
+    "fontfamous": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Free vector press-logo font (v2.1.1, GitHub-hosted, maintained via jsDelivr/appfleet) but no license text found and repo URL not located; brand logos inside raise a trademark question.",
+      "site": {
+        "name": "Font Famous",
+        "url": "https://fontfamous.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Site calls it free; no pricing shown",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://fontfamous.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Not stated on site",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://fontfamous.com",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://fontfamous.com",
+          "date": "2026-10-17",
+          "note": "description, version, credits (creator Anthony David Adams)"
+        }
+      ],
+      "unverified": [
+        "license not found",
+        "GitHub repo URL not located",
+        "last update date unknown",
+        "no safety search run"
+      ],
+      "injectionSeen": null
+    },
+    "fontforge": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "FontForge",
+        "url": "https://fontforge.org",
+        "alive": true,
+        "operator": "FontForge Project contributors (George Williams and contributors)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Free and open source font editor; donate link only",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://fontforge.org/en-US/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Open source, project LICENSE file on GitHub (exact license name not read) · commercial: unverified · attribution: unverified",
+        "openSource": true,
+        "spdx": null,
+        "evidence": {
+          "url": "https://fontforge.org/en-US/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "fontforge",
+        "type": "Software",
+        "category": "Design",
+        "title": "FontForge",
+        "description": "Free, open source font editor for Windows, macOS and Linux, with Python scripting and a set of command-line font utilities.",
+        "tags": [
+          "typography",
+          "open-source",
+          "windows",
+          "mac",
+          "linux"
+        ],
+        "relatedResources": [
+          "birdfont"
+        ],
+        "similarResources": [
+          "birdfont"
+        ],
+        "keyFeatures": [
+          "Create and edit fonts on Windows, macOS and GNU/Linux",
+          "Python and native scripting interfaces for automation",
+          "Bundled utilities such as fontlint, sfddiff and fontimage",
+          "Documented SFD native file format",
+          "Community-run open source project"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "fontforge",
+          "fillColor": "#F2712B",
+          "bgColor": "#ffffff",
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://fontforge.org/en-US/",
+          "date": "2026-10-17",
+          "note": "description, platforms, scripting, utilities, operator, donate link"
+        }
+      ],
+      "unverified": [
+        "exact license name not read",
+        "latest release/date not read",
+        "no dedicated safety search",
+        "home footer shows copyright 2000-2015 (may be stale)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/fontforge.md",
+        "lint": "pass"
+      }
+    },
+    "fontgoggles": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "FontGoggles",
+        "url": "https://fontgoggles.org",
+        "alive": true,
+        "operator": "Just van Rossum (funded by Google Fonts)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Free and open source macOS app (macOS 10.13+)",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://fontgoggles.org",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Apache-2.0 (GitHub repo) · commercial: yes · attribution: per Apache-2.0 · macOS only",
+        "openSource": true,
+        "spdx": "Apache-2.0",
+        "evidence": {
+          "url": "https://github.com/justvanrossum/fontgoggles",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "fontgoggles",
+        "type": "App",
+        "category": "Design",
+        "title": "FontGoggles",
+        "description": "Free open source macOS font viewer that compares fonts side by side, toggles OpenType features and previews UFO and designspace sources.",
+        "tags": [
+          "typography",
+          "open-source",
+          "mac"
+        ],
+        "relatedResources": [
+          "birdfont"
+        ],
+        "similarResources": [
+          "fonts-ninja"
+        ],
+        "keyFeatures": [
+          "View and compare several fonts at once",
+          "HarfBuzz shaping with complex-script support",
+          "Toggle OpenType features on and off",
+          "Explore variable font axes",
+          "Preview .ufo and .designspace sources like compiled fonts",
+          "Auto-reload when files change on disk"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "not in Simple Icons, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://fontgoggles.org",
+          "date": "2026-10-17",
+          "note": "description, features, macOS requirement, author"
+        },
+        {
+          "url": "https://github.com/justvanrossum/fontgoggles",
+          "date": "2026-10-17",
+          "note": "Apache-2.0 license shown"
+        }
+      ],
+      "unverified": [
+        "latest release date not read",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/fontgoggles.md",
+        "lint": "pass"
+      }
+    },
+    "fontjoy": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Home page shows no login or price but states no pricing, operator or terms; free permanence and operator unconfirmed.",
+      "site": {
+        "name": "Fontjoy",
+        "url": "https://fontjoy.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Tool usable without sign-in on the home page; no pricing stated",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://fontjoy.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No terms found · commercial: unverified",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://fontjoy.com",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "fontjoy",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Fontjoy",
+        "description": "Font pairing generator that uses a neural net to suggest combinations; lock fonts you like, swap others and edit the sample text.",
+        "tags": [
+          "typography",
+          "web"
+        ],
+        "relatedResources": [
+          "fontpair"
+        ],
+        "similarResources": [
+          "fontpair",
+          "figma-font-pairings"
+        ],
+        "keyFeatures": [
+          "Generate font pairings with deep learning",
+          "Lock fonts and regenerate the rest",
+          "Pick a font manually",
+          "Editable sample text"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "not in Simple Icons, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search run; no shutdown sign on home"
+      },
+      "sources": [
+        {
+          "url": "https://fontjoy.com",
+          "date": "2026-10-17",
+          "note": "features, no login shown, links to GitHub and brandmark.io"
+        }
+      ],
+      "unverified": [
+        "operator",
+        "pricing/terms page",
+        "GitHub repo not located",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null
+    },
+    "fonts-in-use": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Fonts In Use",
+        "url": "https://fontsinuse.com",
+        "alive": true,
+        "operator": "Fonts In Use LLC (Oakland, CA)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Archive browsable without login or paywall; no fees stated in terms",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://fontsinuse.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Site terms of use · commercial: reuse of content needs written consent · personal non-commercial access, no scraping",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://fontsinuse.com/terms-and-conditions-of-use/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "fonts-in-use",
+        "type": "Website",
+        "category": "Design",
+        "title": "Fonts In Use",
+        "description": "Independent archive of real-world typography, browsable by topic, format and typeface, with staff picks, search, map and RSS feeds.",
+        "tags": [
+          "typography",
+          "inspiration",
+          "web"
+        ],
+        "relatedResources": [
+          "featured-type",
+          "beautiful-web-type"
+        ],
+        "similarResources": [
+          "featured-type",
+          "beautiful-web-type"
+        ],
+        "keyFeatures": [
+          "Archive of about 34,800 typography uses",
+          "Browse by topic, format or typeface",
+          "Staff Picks and blog",
+          "Advanced search and map view",
+          "RSS feeds and newsletter"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "not in Simple Icons, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Active, copyright 2010-2026; no dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://fontsinuse.com",
+          "date": "2026-10-17",
+          "note": "counts, features, footer"
+        },
+        {
+          "url": "https://fontsinuse.com/terms-and-conditions-of-use/",
+          "date": "2026-10-17",
+          "note": "operator; hyperlink to home page allowed, no fees"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "sponsor arrangement not explained",
+        "whether any content is member-only"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/fonts-in-use.md",
+        "lint": "pass"
+      }
     }
   }
 }

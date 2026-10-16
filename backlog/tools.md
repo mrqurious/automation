@@ -10,13 +10,13 @@ Generated 2026-10-16 by `scripts/backlog-build.mjs` from `backlog/tools-list.jso
 
 | Status | Count | Meaning |
 |---|---:|---|
-| `todo` | 1247 | in the research queue (free / freemium / beta) |
+| `todo` | 1207 | in the research queue (free / freemium / beta) |
 | `in-rl` | 33 | already in ResourcesList (matched by site or slug) — skip, maybe use for related/similar links |
 | `deferred-paid` | 217 | labelled **Paid** only — parked |
 | `deferred-trial` | 232 | labelled **Free Trial** only — parked until a real free tier is confirmed |
-| `researching` / `researched` / `drafted` / `rejected` / `blocked` | 0 / 22 / 219 / 83 / 226 | set by research sessions |
+| `researching` / `researched` / `drafted` / `rejected` / `blocked` | 0 / 16 / 241 / 84 / 249 | set by research sessions |
 
-Queue by priority: **P1** 1 (free/freemium, listed on 2+ pages) · **P2** 1178 (free/freemium, 1 page) · **P3** 68 (beta).
+Queue by priority: **P1** 1 (free/freemium, listed on 2+ pages) · **P2** 1140 (free/freemium, 1 page) · **P3** 66 (beta).
 
 ## What happens if a tool is not processed (and why)
 
@@ -518,46 +518,86 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Factors.ai | via Digitool | Free tier listed | 1 | P2 | rejected |
 | Fake Name Generator | fakenamegenerator.com | Free | 1 | P2 | drafted |
 | FakeClients | fakeclients.com | Freemium | 1 | P2 | drafted |
-| Faktor | faktor.so | Free | 1 | P2 | researched |
+| Faktor | faktor.so | Free | 1 | P2 | drafted |
 | fal | fal.ai | Freemium | 1 | P2 | rejected |
-| Faticons Medicine | minima.market | Free | 1 | P2 | researched |
-| Feather | feathericons.com |  | 1 | P3 | researched |
-| Featurebase | featurebase.app | Freemium | 1 | P2 | researched |
-| Featured Type | featuredtype.com | Free | 1 | P2 | researched |
+| Faticons Medicine | minima.market | Free | 1 | P2 | drafted |
+| Feather | feathericons.com |  | 1 | P3 | drafted |
+| Featurebase | featurebase.app | Freemium | 1 | P2 | drafted |
+| Featured Type | featuredtype.com | Free | 1 | P2 | drafted |
 | Feedback Fish | feedback.fish | Freemium | 1 | P2 | blocked |
-| femke.design | youtube.com | Free | 1 | P2 | researched |
+| femke.design | youtube.com | Free | 1 | P2 | drafted |
 | Fenn | via Digitool | Free tier listed | 1 | P2 | rejected |
-| fffuel | fffuel.co | Free | 1 | P2 | researched |
+| fffuel | fffuel.co | Free | 1 | P2 | drafted |
 | Figma AI | figma.com | Freemium | 1 | P2 | blocked |
 | Figma Buzz | figma.com | Freemium | 1 | P2 | blocked |
-| Figma Design for beginners | help.figma.com | Free | 1 | P2 | researched |
+| Figma Design for beginners | help.figma.com | Free | 1 | P2 | drafted |
 | Figma Draw | figma.com | Freemium | 1 | P2 | rejected |
-| Figma Font Pairings | figma.com | Free | 1 | P2 | researched |
-| Figma Make | figma.com | Freemium | 1 | P2 | researched |
+| Figma Font Pairings | figma.com | Free | 1 | P2 | drafted |
+| Figma Make | figma.com | Freemium | 1 | P2 | drafted |
 | Figma Motion | figma.com | Freemium | 1 | P2 | blocked |
 | Figma Sites | figma.com | Freemium | 1 | P2 | blocked |
-| Figma Slides | figma.com | Freemium | 1 | P2 | researched |
+| Figma Slides | figma.com | Freemium | 1 | P2 | drafted |
 | Figma to Webflow | webflow.partnerlinks.io | Free | 1 | P2 | blocked |
-| Figma Weave | weave.figma.com | Freemium | 1 | P2 | researched |
+| Figma Weave | weave.figma.com | Freemium | 1 | P2 | drafted |
 | FigPrompt | figprompt.com | Free | 1 | P2 | blocked |
-| Figr | figr.design | Freemium | 1 | P2 | researched |
+| Figr | figr.design | Freemium | 1 | P2 | drafted |
 | Figside | figside.com | Freemium | 1 | P2 | blocked |
-| Figtree | github.com | Free | 1 | P2 | researched |
-| Fillout | via Digitool | Free tier listed (Digitool "Premium" badge) | 1 | P2 | researched |
-| Fimo | fimo.ai | Freemium | 1 | P2 | researched |
+| Figtree | github.com | Free | 1 | P2 | drafted |
+| Fillout | via Digitool | Free tier listed (Digitool "Premium" badge) | 1 | P2 | drafted |
+| Fimo | fimo.ai | Freemium | 1 | P2 | drafted |
 | FindDataSet | via Digitool | Free tier listed | 1 | P2 | rejected |
 | FindlyTools | via Digitool | Free tier listed | 1 | P2 | blocked |
-| Firecrawl | via Digitool | Free tier listed | 1 | P2 | researched |
+| Firecrawl | via Digitool | Free tier listed | 1 | P2 | drafted |
 | Fireflies.ai | via Digitool | Free tier listed | 1 | P2 | blocked |
-| Flagpack | flagpack.xyz |  | 1 | P3 | researched |
-| Flair | flair.ai | Freemium | 1 | P2 | researched |
-| Flaticon | flaticon.com |  | 1 | P3 | researched |
+| Flagpack | flagpack.xyz |  | 1 | P3 | drafted |
+| Flair | flair.ai | Freemium | 1 | P2 | drafted |
+| Flaticon | flaticon.com |  | 1 | P3 | drafted |
 | Fleck AI | fleck.ai | Freemium | 1 | P2 | blocked |
 | Flickr | flickr.com | Freemium | 1 | P2 | blocked |
 | FliiipBook | fliiipbook.com | Free | 1 | P2 | blocked |
-| Fliki | fliki.ai | Freemium | 1 | P2 | researched |
+| Fliki | fliki.ai | Freemium | 1 | P2 | drafted |
 | Flint | tryflint.com | Freemium | 1 | P2 | rejected |
-| Flixier | flixier.com | Freemium | 1 | P2 | researched |
+| Flixier | flixier.com | Freemium | 1 | P2 | drafted |
+| Flodesk | flodesk.com | Freemium | 1 | P2 | researched |
+| Flodesk Studio | studio.flodesk.com | Beta | 1 | P3 | blocked |
+| Floot | floot.com | Freemium | 1 | P2 | blocked |
+| FLORA | florafauna.ai | Freemium | 1 | P2 | researched |
+| Flowbase | flowbase.co | Freemium | 1 | P2 | researched |
+| Flowbite Icons | flowbite.com |  | 1 | P3 | researched |
+| FlowEngine | flowengine.cloud | Freemium | 1 | P2 | blocked |
+| FlowMapp | flowmapp.com | Freemium | 1 | P2 | researched |
+| FlowSavvy | via Digitool | Free tier listed | 1 | P2 | researched |
+| Flowspark Components | build.flowspark.co | Free | 1 | P2 | blocked |
+| Flowstep | flowstep.ai | Freemium | 1 | P2 | blocked |
+| Floyo | floyo.ai | Freemium | 1 | P2 | rejected |
+| Fluent 2 | fluent2.microsoft.design | Free | 1 | P2 | blocked |
+| Fluent Emoji | github.com | Free | 1 | P2 | researched |
+| FlutterFlow | flutterflow.io | Freemium | 1 | P2 | blocked |
+| Flux Academy | youtube.com | Free | 1 | P2 | blocked |
+| Flyerwrk | flyerwrk.com | Free + Paid | 1 | P2 | blocked |
+| Flyerwrk Mockups | flyerwrk.com | Free + Paid | 1 | P2 | blocked |
+| Flyerwrk Textures | flyerwrk.com | Free + Paid | 1 | P2 | blocked |
+| FOCA | focastock.com | Free | 1 | P2 | researched |
+| Fockups | fockups.com | Free | 1 | P2 | blocked |
+| Font Brief | fontbrief.com | Free | 1 | P2 | blocked |
+| Font in Logo | fontinlogo.com | Free + Paid | 1 | P2 | blocked |
+| Font Meme | fontmeme.com | Free + Paid | 1 | P2 | blocked |
+| Font Mojo | fontmojo.com | Free | 1 | P2 | researched |
+| Font Pairings By People | fontpairings.bypeople.com | Free | 1 | P2 | blocked |
+| Font Squirrel | fontsquirrel.com | Free | 1 | P2 | blocked |
+| Font Tester | font-tester.foxcraft.tech | Freemium | 1 | P2 | researched |
+| FontAlternatives | fontalternatives.com | Free | 1 | P2 | researched |
+| Fontastic Space | fontastic.space | Free | 1 | P2 | blocked |
+| FontBase | fontba.se | Free | 1 | P2 | researched |
+| FontBob | fontbob.com | Free + Paid | 1 | P2 | blocked |
+| FontCraft | fontcraft.app | Freemium | 1 | P2 | researched |
+| Fontesk | fontesk.com | Free | 1 | P2 | blocked |
+| Fontfabric | fontfabric.com | Free + Paid | 1 | P2 | blocked |
+| FontFamous | fontfamous.com | Free | 1 | P2 | blocked |
+| FontForge | fontforge.org | Free | 1 | P2 | researched |
+| FontGoggles | fontgoggles.org | Free | 1 | P2 | researched |
+| Fontjoy | fontjoy.com | Free | 1 | P2 | blocked |
+| Fonts In Use | fontsinuse.com | Free | 1 | P2 | researched |
 | Fonts Ninja Typefaces | fonts.ninja | Free | 2 | P1 | drafted |
 | Frase | frase.io | Free tier listed / Free Trial | 2 | P1 | rejected |
 | Gamma | try.gamma.app | Freemium | 2 | P1 | drafted |
@@ -587,16 +627,12 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Visily | visily.ai | Freemium | 2 | P1 | drafted |
 | Wispr Flow | ref.wisprflow.ai | Free tier listed / Freemium | 2 | P1 | drafted |
 
-## Research queue (1247)
+## Research queue (1207)
 
-### Best AI Design Tools for Designers (147)
+### Best AI Design Tools for Designers (143)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Floot | floot.com | Freemium | 1 | P2 |
-| FLORA | florafauna.ai | Freemium | 1 | P2 |
-| Flowstep | flowstep.ai | Freemium | 1 | P2 |
-| Floyo | floyo.ai | Freemium | 1 | P2 |
 | Four Modes: Think With AI | fourmodes.teybannerman.com | Free | 1 | P2 |
 | Fuser | fuser.studio | Freemium | 1 | P2 |
 | Gemini | gemini.google.com | Freemium | 1 | P2 |
@@ -1020,29 +1056,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Sesame | sesame.design | Beta | 1 | P3 |
 | Visual | visual.app | Beta | 1 | P3 |
 
-### Best Free Font Libraries and Inspiration for Designers (68)
+### Best Free Font Libraries and Inspiration for Designers (49)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Font Brief | fontbrief.com | Free | 1 | P2 |
-| Font in Logo | fontinlogo.com | Free + Paid | 1 | P2 |
-| Font Meme | fontmeme.com | Free + Paid | 1 | P2 |
-| Font Mojo | fontmojo.com | Free | 1 | P2 |
-| Font Pairings By People | fontpairings.bypeople.com | Free | 1 | P2 |
-| Font Squirrel | fontsquirrel.com | Free | 1 | P2 |
-| Font Tester | font-tester.foxcraft.tech | Freemium | 1 | P2 |
-| FontAlternatives | fontalternatives.com | Free | 1 | P2 |
-| Fontastic Space | fontastic.space | Free | 1 | P2 |
-| FontBase | fontba.se | Free | 1 | P2 |
-| FontBob | fontbob.com | Free + Paid | 1 | P2 |
-| FontCraft | fontcraft.app | Freemium | 1 | P2 |
-| Fontesk | fontesk.com | Free | 1 | P2 |
-| Fontfabric | fontfabric.com | Free + Paid | 1 | P2 |
-| FontFamous | fontfamous.com | Free | 1 | P2 |
-| FontForge | fontforge.org | Free | 1 | P2 |
-| FontGoggles | fontgoggles.org | Free | 1 | P2 |
-| Fontjoy | fontjoy.com | Free | 1 | P2 |
-| Fonts In Use | fontsinuse.com | Free | 1 | P2 |
 | Fontshare | fontshare.com | Free | 1 | P2 |
 | Free Faces | freefaces.gallery | Free | 1 | P2 |
 | Free Typography | freetypography.com | Free | 1 | P2 |
@@ -1093,7 +1110,7 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | What the Font | apps.apple.com | Free | 1 | P2 |
 | Words of Type | wiki.wordsoftype.com | Free | 1 | P2 |
 
-### Best Free Open Source Icon Libraries (61)
+### Best Free Open Source Icon Libraries (60)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
@@ -1111,7 +1128,6 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Unicorn Icons | unicornicons.com | Freemium | 1 | P2 |
 | useAnimations | useanimations.com | Free | 1 | P2 |
 | Webfont | webfontapp.com | Free + Paid | 1 | P2 |
-| Flowbite Icons | flowbite.com |  | 1 | P3 |
 | Forge Icons | icons.theforgesmith.com |  | 1 | P3 |
 | Futicons | futicons.com |  | 1 | P3 |
 | Glow UI Icons | glowui.com |  | 1 | P3 |
@@ -1159,14 +1175,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Unicode Arrows | unicodearrows.com |  | 1 | P3 |
 | Vzy Icons | icons.vzy.co |  | 1 | P3 |
 
-### Best Mockup Sites for Designers (50)
+### Best Mockup Sites for Designers (46)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Fluent 2 | fluent2.microsoft.design | Free | 1 | P2 |
-| Flyerwrk | flyerwrk.com | Free + Paid | 1 | P2 |
-| Flyerwrk Mockups | flyerwrk.com | Free + Paid | 1 | P2 |
-| Fockups | fockups.com | Free | 1 | P2 |
 | Free Design Resources | freedesignresources.net | Free | 1 | P2 |
 | Freebie Supply | freebiesupply.com | Free | 1 | P2 |
 | Freebies.ByPeople | freebies.bypeople.com | Free + Paid | 1 | P2 |
@@ -1214,14 +1226,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Wannathis Mockups | wannathis.one | Free + Paid | 1 | P2 |
 | WhiteUI.Store | gumroad.com | Free + Paid | 1 | P2 |
 
-### Best No-Code Website Builders (86)
+### Best No-Code Website Builders (82)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Flowbase | flowbase.co | Freemium | 1 | P2 |
-| FlowEngine | flowengine.cloud | Freemium | 1 | P2 |
-| Flowspark Components | build.flowspark.co | Free | 1 | P2 |
-| FlutterFlow | flutterflow.io | Freemium | 1 | P2 |
 | Frameplate | frameplate.co | Free + Paid | 1 | P2 |
 | Frameplugins | frameplugins.com | Free | 1 | P2 |
 | Framer Overrides | frameroverrides.com | Free + Paid | 1 | P2 |
@@ -1305,12 +1313,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Revyme | revyme.com | Beta | 1 | P3 |
 | Zoah | zoah.com | Beta | 1 | P3 |
 
-### Best Open Source Illustration Libraries (71)
+### Best Open Source Illustration Libraries (69)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Fluent Emoji | github.com | Free | 1 | P2 |
-| Flyerwrk Textures | flyerwrk.com | Free + Paid | 1 | P2 |
 | Free Vector Illustrations | pixeltrue.com | Free + Paid | 1 | P2 |
 | Fresh Folk | fresh-folk.com | Free | 1 | P2 |
 | FX Labs | fxlabs.app | Freemium | 1 | P2 |
@@ -1381,11 +1387,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | UI8 - Illustrations | ui8.net | Free + Paid | 1 | P2 |
 | Vackground | vackground.com | Free + Paid | 1 | P2 |
 
-### Best UX Tools for Designers (59)
+### Best UX Tools for Designers (58)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| FlowMapp | flowmapp.com | Freemium | 1 | P2 |
 | Formaly | formaly.io | Freemium | 1 | P2 |
 | Frame0 | frame0.app | Freemium | 1 | P2 |
 | Frontitude | frontitude.com | Freemium | 1 | P2 |
@@ -1565,11 +1570,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | World Brand Design Society | worldbranddesign.com | Free | 1 | P2 |
 | YouPic | youpic.com | Free | 1 | P2 |
 
-### Free Stock Images & Video Websites (40)
+### Free Stock Images & Video Websites (39)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| FOCA | focastock.com | Free | 1 | P2 |
 | Freesound | freesound.org | Free | 1 | P2 |
 | Generated Photos | generated.photos | Freemium | 1 | P2 |
 | Gratisography | gratisography.com | Free | 1 | P2 |
@@ -1610,11 +1614,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Vidsplay | vidsplay.com | Free | 1 | P2 |
 | ZapSplat | zapsplat.com | Freemium | 1 | P2 |
 
-### Free Tools (112)
+### Free Tools (111)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| FlowSavvy | via Digitool | Free tier listed | 1 | P2 |
 | Frameblox UI | via Digitool | Free tier listed | 1 | P2 |
 | FramerAuth | via Digitool | Free tier listed | 1 | P2 |
 | FramerFuel | via Digitool | Free tier listed | 1 | P2 |
@@ -1727,11 +1730,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Xano | via Digitool | Free tier listed | 1 | P2 |
 | Xero | via Digitool | Free tier listed (Digitool "Premium" badge) | 1 | P2 |
 
-### Learn UI/UX Design: Courses, Guides & Best Practices (62)
+### Learn UI/UX Design: Courses, Guides & Best Practices (61)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Flux Academy | youtube.com | Free | 1 | P2 |
 | Gestalt Principles | gestaltprinciples.com | Free | 1 | P2 |
 | Good Briefs | goodbrief.io | Free | 1 | P2 |
 | Hall of Shame | hallofshame.design | Free | 1 | P2 |
@@ -1794,11 +1796,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | uxtoast | uxtoast.com | Free | 1 | P2 |
 | We are Colorblind | wearecolorblind.com | Free | 1 | P2 |
 
-### Marketing Tools for Designers & Creative Teams (69)
+### Marketing Tools for Designers & Creative Teams (67)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Flodesk | flodesk.com | Freemium | 1 | P2 |
 | Google Search Console | search.google.com | Free | 1 | P2 |
 | Google Trends | trends.google.com | Free | 1 | P2 |
 | Grammarly | grammarly.com | Freemium | 1 | P2 |
@@ -1865,7 +1866,6 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Zaap | app.zaap.ai | Freemium | 1 | P2 |
 | Zebracat | zebracat.ai | Freemium | 1 | P2 |
 | Zubtitle | zubtitle.com | Freemium | 1 | P2 |
-| Flodesk Studio | studio.flodesk.com | Beta | 1 | P3 |
 | Pomelli | labs.google.com | Beta | 1 | P3 |
 
 ### Productivity Tools for Design and Product Teams (48)
