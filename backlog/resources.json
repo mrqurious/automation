@@ -18250,6 +18250,1368 @@
         "Canva account requirement details"
       ],
       "injectionSeen": null
+    },
+    "chakra-ui": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Chakra UI",
+        "url": "https://chakra-ui.com",
+        "alive": true,
+        "operator": "Chakra Systems Inc."
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "The component library is free and open source (MIT); a separate paid Chakra Pro offers premium components and pages",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://chakra-ui.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT · commercial: yes · attribution: license notice kept in copies · limit: Chakra Pro premium content is separate and paid",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://raw.githubusercontent.com/chakra-ui/chakra-ui/main/LICENSE",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "chakra-ui",
+        "type": "Library",
+        "category": "Development",
+        "title": "Chakra UI",
+        "description": "Open source React component library with accessible components, design tokens and recipes for building web apps and design systems.",
+        "tags": [
+          "design-systems",
+          "ui-ux",
+          "open-source",
+          "web"
+        ],
+        "relatedResources": [
+          "ant-design",
+          "aceternity-ui"
+        ],
+        "similarResources": [
+          "ant-design",
+          "beautiful-ui",
+          "astryx"
+        ],
+        "keyFeatures": [
+          "Accessible React components for web apps",
+          "Design tokens, typography and recipes for component variants",
+          "Works with Next.js server components",
+          "Built-in dark mode support",
+          "Optional paid Chakra Pro templates and premium components"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "chakraui",
+          "fillColor": "#1BB2A9",
+          "bgColor": "#ffffff",
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated scam search; site current (2026 footer), cites 40.7K GitHub stars. Sponsor section on home lists some unrelated/gambling sites (not endorsements)."
+      },
+      "sources": [
+        {
+          "url": "https://chakra-ui.com",
+          "date": "2026-10-16",
+          "note": "description, features, maintainers, Pro"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/chakra-ui/chakra-ui/main/LICENSE",
+          "date": "2026-10-16",
+          "note": "MIT, Chakra Systems Inc."
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search run",
+        "Chakra Pro prices not read",
+        "home page itself does not state the license (taken from GitHub LICENSE)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/chakra-ui.md",
+        "lint": "pass"
+      }
+    },
+    "chargeflow": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Chargeback-management SaaS for merchants (off-theme for a design directory); only Insights is free forever, other products are usage-based fees. Owner to decide if it fits RL.",
+      "site": {
+        "name": "Chargeflow",
+        "url": "https://chargeflow.io",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Insights listed as $0 'Free Forever', no card; Prevent first 1,000 scanned transactions free; Automation charged 25% per recovered chargeback; Alerts $29 per deflected chargeback",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://chargeflow.io/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": null,
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/chargeflow/",
+          "date": "2026-10-16",
+          "note": "resolved own site chargeflow.io"
+        },
+        {
+          "url": "https://chargeflow.io/pricing",
+          "date": "2026-10-16",
+          "note": "pricing"
+        }
+      ],
+      "unverified": [
+        "terms of service not read",
+        "safety search not run",
+        "Prevent per-transaction price ambiguous ($0.4 / $0.2)",
+        "operator not read"
+      ],
+      "injectionSeen": null
+    },
+    "charli-marie-tv": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "YouTube channel; fetch returned only the channel name (CharliMarieTV), so description, activity and content could not be verified. Owner to decide if channels are listed and to confirm it.",
+      "site": {
+        "name": "Charli Marie TV",
+        "url": "https://www.youtube.com/channel/UCScRSwdX0t31gjk3MYXIuYQ",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Free to watch on YouTube",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.youtube.com/channel/UCScRSwdX0t31gjk3MYXIuYQ",
+          "date": "2026-10-16",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": null,
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": null
+      },
+      "sources": [
+        {
+          "url": "https://www.youtube.com/channel/UCScRSwdX0t31gjk3MYXIuYQ",
+          "date": "2026-10-16",
+          "note": "channel name only; description from directory"
+        }
+      ],
+      "unverified": [
+        "channel description, subscriber count, last upload not read",
+        "operator not confirmed"
+      ],
+      "injectionSeen": null
+    },
+    "chatgpt-images": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "chatgpt.com/images returned HTTP 403 (access block); not bypassed. Also a feature of ChatGPT, already in RL (slug chatgpt, published), so likely a duplicate/sibling.",
+      "site": {
+        "name": "ChatGPT Images",
+        "url": "https://chatgpt.com/images/",
+        "alive": true,
+        "operator": "OpenAI"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://chatgpt.com/images/",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://chatgpt.com/images/",
+          "date": "2026-10-16",
+          "note": "HTTP 403"
+        },
+        {
+          "url": "https://help.openai.com/en/articles/8555480-dall-e-3-api",
+          "date": "2026-10-16",
+          "note": "HTTP 403"
+        }
+      ],
+      "unverified": [
+        "free-tier limits not read",
+        "pricing not read"
+      ],
+      "injectionSeen": null
+    },
+    "checklist-design": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Home page is JS-only (returned just a title); llms.txt confirms content but not that it is free, and no license/terms were readable. Directory says Free; Figma plugin cost unknown.",
+      "site": {
+        "name": "Checklist Design",
+        "url": "https://www.checklist.design",
+        "alive": true,
+        "operator": "George Hatzis (third-party attribution only)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.checklist.design/llms.txt",
+          "date": "2026-10-16",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.checklist.design/llms.txt",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "One general search found no scam or shutdown hits; Webflow-built site per third party."
+      },
+      "sources": [
+        {
+          "url": "https://www.checklist.design",
+          "date": "2026-10-16",
+          "note": "home returned title only"
+        },
+        {
+          "url": "https://www.checklist.design/llms.txt",
+          "date": "2026-10-16",
+          "note": "scope: website, web app, mobile, design system and flow checklists; Figma plugin"
+        },
+        {
+          "url": "https://uiuxshowcase.com/resources/checklist-design-collection-of-the-best-design-practices/",
+          "date": "2026-10-16",
+          "note": "third-party: creator George Hatzis"
+        }
+      ],
+      "unverified": [
+        "free access not confirmed on a first-party page",
+        "license/terms not read",
+        "Figma plugin pricing",
+        "operator only from third parties"
+      ],
+      "injectionSeen": null
+    },
+    "chili3d": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Chili3D",
+        "url": "https://chili3d.com",
+        "alive": true,
+        "operator": "xiangechen (GitHub open-source project)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Fully free, open-source browser CAD; no paid plan seen",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://github.com/xiangechen/chili3d",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "AGPL-3.0 (C++ WASM module LGPL-3.0) · commercial: yes under AGPL terms · attribution: per AGPL · limit: copyleft, network use requires source sharing",
+        "openSource": true,
+        "spdx": "AGPL-3.0",
+        "evidence": {
+          "url": "https://github.com/xiangechen/chili3d",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "chili3d",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Chili3D",
+        "description": "Open-source 3D CAD that runs entirely in the browser, built on OpenCascade and Three.js, with sketching, booleans and STEP/IGES/STL import and export.",
+        "tags": [
+          "open-source",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Runs in the browser with no install (OpenCascade compiled to WebAssembly, Three.js rendering)",
+          "Modeling: shapes, 2D sketching, booleans, extrude, revolve, sweep, loft, offset, arrays",
+          "Fillet, chamfer, trim, split and snapping with tracking guides",
+          "Measure angles, lengths, area and volume",
+          "Import and export STEP, IGES, BREP and STL",
+          "Plugin loading by URL parameter"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no Simple Icons match, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "GitHub repo 4.9k stars, 1,247 commits; no dedicated scam/shutdown search"
+      },
+      "sources": [
+        {
+          "url": "https://github.com/xiangechen/chili3d",
+          "date": "2026-10-16",
+          "note": "description, license, features, stars"
+        },
+        {
+          "url": "https://chili3d.com",
+          "date": "2026-10-16",
+          "note": "home returned title only (JS app)"
+        }
+      ],
+      "unverified": [
+        "chili3d.com content not readable (JS); link between site and repo assumed",
+        "latest commit date not shown",
+        "no dedicated safety search",
+        "any limits on the hosted app"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/chili3d.md",
+        "lint": "pass"
+      }
+    },
+    "chromatic-ai": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "Digitool page gives only a redirect (digitool.co/go/chromatic-ai); the only vendor domain seen, chromaticlabs.co, is a broader AI canvas product, so the identity of the UGC-reels tool could not be confirmed. Not guessed.",
+      "site": {
+        "name": "Chromatic AI",
+        "url": "https://www.chromaticlabs.co/",
+        "alive": true,
+        "operator": "Chromatic Labs Inc. (unconfirmed match)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "If chromaticlabs.co is the same product: Free includes 100 credits, 14 generation models, 30 assistant messages per day (credits monthly or one-time not stated)",
+        "paidFrom": "$20/mo (Ray, 2,000 credits); commercial use only from Beam $50/mo",
+        "evidence": {
+          "url": "https://www.chromaticlabs.co/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.chromaticlabs.co/pricing",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No safety search done"
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/chromatic-ai/",
+          "date": "2026-10-16",
+          "note": "listing: Free plan available, no card; vendor link is a redirect; screenshot hints chromaticlabs.co"
+        },
+        {
+          "url": "https://www.chromaticlabs.co/",
+          "date": "2026-10-16",
+          "note": "AI canvas; UGC talking video skill; Chromatic Labs Inc."
+        },
+        {
+          "url": "https://www.chromaticlabs.co/pricing",
+          "date": "2026-10-16",
+          "note": "plans"
+        }
+      ],
+      "unverified": [
+        "same product as the Digitool listing",
+        "free tier permanence",
+        "terms/license",
+        "safety search"
+      ],
+      "injectionSeen": null
+    },
+    "chronicle": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Real Free plan, but ToS section 7 prohibits unauthorized framing of or linking to the Site and compiling site content into a directory without written permission. Owner must decide.",
+      "site": {
+        "name": "Chronicle",
+        "url": "https://chroniclehq.com",
+        "alive": true,
+        "operator": "CHRONICLEHQ INC (Wilmington, DE)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free $0: up to 10 decks, 3 guest editors, basic preset themes, web publishing, PDF/social export; AI features locked",
+        "paidFrom": "$12/user/month billed annually ($15 monthly) for Pro",
+        "evidence": {
+          "url": "https://chroniclehq.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary ToS · commercial: site content not for commercial use without permission · attribution: n/a · limit: linking and directory compilation need written permission",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://chroniclehq.com/terms-of-use",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "chronicle",
+        "type": "AI Tool",
+        "category": "Productivity",
+        "title": "Chronicle",
+        "description": "AI presentation maker that turns docs, notes and data into editable, on-brand decks; free plan covers 10 decks with web publishing and PDF export.",
+        "tags": [
+          "ai-tool",
+          "productivity",
+          "template"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Generates editable presentations from docs, notes and data",
+          "On-brand themes (custom themes on paid plans)",
+          "Publish decks to the web and export PDF or social formats",
+          "Guest editors for collaboration",
+          "PowerPoint export on the Plus plan"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no Simple Icons match, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search: no scam/shutdown/acquisition found; $7.5M seed (Accel, Square Peg) per third parties; CB Insights Acquired tag belongs to a competitor"
+      },
+      "sources": [
+        {
+          "url": "https://chroniclehq.com",
+          "date": "2026-10-16",
+          "note": "product description"
+        },
+        {
+          "url": "https://chroniclehq.com/pricing",
+          "date": "2026-10-16",
+          "note": "plans"
+        },
+        {
+          "url": "https://chroniclehq.com/terms-of-use",
+          "date": "2026-10-16",
+          "note": "sections 2, 7, 9"
+        },
+        {
+          "url": "https://old.chroniclehq.com/our-story",
+          "date": "2026-10-16",
+          "note": "safety search result, funding"
+        }
+      ],
+      "unverified": [
+        "whether the free plan is permanent (no stated end)",
+        "permission to link",
+        "Free plan locks AI features"
+      ],
+      "injectionSeen": "Home page has 'Ask AI about Chronicle' buttons that prefill comparison prompts to ChatGPT/Claude/Gemini/Grok/Perplexity; promotional, not a directive, ignored."
+    },
+    "chronoid": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Paid only: 7-day free trial then one-time purchase; no permanent free tier (Digitool 'Free tier listed' label is wrong; Digitool page itself shows Paid, $10).",
+      "site": {
+        "name": "Chronoid",
+        "url": "https://chronoid.app",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "one-time purchase after 7-day trial, amount not read (Digitool shows $10)",
+        "evidence": {
+          "url": "https://chronoid.app",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No safety search run (verdict decided by pricing)"
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/chronoid/",
+          "date": "2026-10-16",
+          "note": "official site link; Paid label, $10"
+        },
+        {
+          "url": "https://chronoid.app",
+          "date": "2026-10-16",
+          "note": "7-day free trial then one-time purchase, no subscription"
+        }
+      ],
+      "unverified": [
+        "exact price",
+        "no safety search",
+        "license/terms not read"
+      ],
+      "injectionSeen": null
+    },
+    "circleback": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Circleback",
+        "url": "https://circleback.ai",
+        "alive": true,
+        "operator": "Circleback (Y Combinator-backed startup)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan $0/user/month: 30-day meeting and recording history, limited automations, 2 teams",
+        "paidFrom": "Pro $15 per user per month (Business $25, Enterprise $35); paid plans offer a free trial of unstated length",
+        "evidence": {
+          "url": "https://circleback.ai/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: not read · attribution: n/a · terms not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://circleback.ai/",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "circleback",
+        "type": "AI Tool",
+        "category": "Productivity",
+        "title": "Circleback",
+        "description": "AI meeting notetaker that transcribes calls, writes notes and action items, and pushes them to your calendar, CRM and chat apps.",
+        "tags": [
+          "ai-tool",
+          "productivity",
+          "automation",
+          "collaboration"
+        ],
+        "relatedResources": [
+          "bluedot"
+        ],
+        "similarResources": [
+          "bluedot"
+        ],
+        "keyFeatures": [
+          "Automatic meeting notes and action items after each call",
+          "Transcripts with speaker identification in 100+ languages (vendor claim)",
+          "Automations into Slack, Notion, HubSpot, Salesforce, Linear and more",
+          "Search and ask questions across all past meetings",
+          "Desktop recording without a bot joining the call",
+          "API, MCP, CLI and webhook access"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "not in Simple Icons (check-icon exit 1), 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search found no scam/shutdown/acquisition reports; TechCrunch Nov 2024 coverage, $2.5M seed (second-hand)"
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/circleback/",
+          "date": "2026-10-16",
+          "note": "official site link"
+        },
+        {
+          "url": "https://circleback.ai/pricing",
+          "date": "2026-10-16",
+          "note": "plans and free-plan limits"
+        },
+        {
+          "url": "https://circleback.ai/",
+          "date": "2026-10-16",
+          "note": "features, integrations"
+        },
+        {
+          "url": "https://techcrunch.com/2024/11/26/yc-backed-circleback-is-out-to-become-the-best-meeting-notetaker/",
+          "date": "2026-10-16",
+          "note": "existence/operator (search result only)"
+        }
+      ],
+      "unverified": [
+        "pricing page does not say the free plan is permanent",
+        "terms of service / commercial use not read",
+        "trial length",
+        "SOC 2 / HIPAA etc. are vendor claims"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/circleback.md",
+        "lint": "pass"
+      }
+    },
+    "circum": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Circum Icons",
+        "url": "https://circumicons.com",
+        "alive": true,
+        "operator": "Klarr Agency"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Open-source icon set (about 285 icons) on GitHub under MPL-2.0; npm packages for React, Vue, Svelte",
+        "paidFrom": "site banner advertises '1600+ Unique Icons for Just $9' (unclear what it covers)",
+        "evidence": {
+          "url": "https://github.com/Klarr-Agency/Circum-icons",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MPL-2.0 · commercial: yes (per Iconify listing, second-hand) · attribution: not required (Iconify) · MPL file-level copyleft applies to modified files",
+        "openSource": true,
+        "spdx": "MPL-2.0",
+        "evidence": {
+          "url": "https://github.com/Klarr-Agency/Circum-icons",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "circum-icons",
+        "type": "Icon Set",
+        "category": "Design",
+        "title": "Circum Icons",
+        "description": "Open-source set of roughly 285 clean line icons on a 24px grid, available as SVG and React, Vue and Svelte packages.",
+        "tags": [
+          "icon-library",
+          "open-source",
+          "ui-ux",
+          "web"
+        ],
+        "relatedResources": [
+          "akar-icons",
+          "bootstrap-icons",
+          "material-symbols"
+        ],
+        "similarResources": [
+          "akar-icons",
+          "bootstrap-icons",
+          "material-symbols"
+        ],
+        "keyFeatures": [
+          "About 285 open-source icons drawn on a 24x24 grid",
+          "Browse and download icons or copy their URLs in Designer and Developer modes",
+          "npm packages for React, Vue and Svelte",
+          "Raw SVG folder in the GitHub repository",
+          "MPL-2.0 license"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "not in Simple Icons (check-icon exit 1), 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Listed on Iconify and Product Hunt; no dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://circumicons.com/icons",
+          "date": "2026-10-16",
+          "note": "operator, $9 banner, no license stated on page"
+        },
+        {
+          "url": "https://github.com/Klarr-Agency/Circum-icons",
+          "date": "2026-10-16",
+          "note": "MPL-2.0, 285 icons, npm packages, premium roadmap"
+        },
+        {
+          "url": "https://icon-sets.iconify.design/circum",
+          "date": "2026-10-16",
+          "note": "search result: MPL 2.0, commercial allowed (second-hand)"
+        }
+      ],
+      "unverified": [
+        "what the $9 / 1600+ icons offer covers and whether the free set is restricted",
+        "icon count (285 vs 288)",
+        "last commit date",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/circum-icons.md",
+        "lint": "pass"
+      }
+    },
+    "cj-affiliate": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Affiliate network, not a free tool: publisher signup is reportedly free but only second-hand; ToS not read (publisher agreement URL 404); fit with RL types/categories needs owner decision.",
+      "site": {
+        "name": "CJ Affiliate",
+        "url": "https://www.cj.com",
+        "alive": true,
+        "operator": "CJ (Publicis Groupe, per input description)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Publisher account reportedly free to create (second-hand); approval is per advertiser program",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.cj.com",
+          "date": "2026-10-16",
+          "confidence": "second-hand"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Established network; no dedicated scam/shutdown search"
+      },
+      "sources": [
+        {
+          "url": "https://www.cj.com",
+          "date": "2026-10-16",
+          "note": "what CJ is; sign-up links, no fees stated"
+        },
+        {
+          "url": "https://www.cj.com/legal/publisher-service-agreement",
+          "date": "2026-10-16",
+          "note": "404"
+        }
+      ],
+      "unverified": [
+        "advertiser fees",
+        "publisher terms",
+        "permanence of free publisher signup",
+        "Publicis ownership taken from input description",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null
+    },
+    "claritee": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "Home page and /pricing return only the tagline 'Design chaos made clear' (JS-rendered); no product description, pricing or operator readable. Not bypassed.",
+      "site": {
+        "name": "Claritee",
+        "url": "https://claritee.io",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://claritee.io/pricing",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://claritee.io",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "no safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://claritee.io",
+          "date": "2026-10-16",
+          "note": "tagline only"
+        },
+        {
+          "url": "https://claritee.io/pricing",
+          "date": "2026-10-16",
+          "note": "no pricing content returned"
+        }
+      ],
+      "unverified": [
+        "what the product is",
+        "pricing and free tier",
+        "operator",
+        "license/terms",
+        "safety search not run"
+      ],
+      "injectionSeen": null
+    },
+    "claude-design": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Research preview open only to paid Claude subscribers (Pro, Max, Team, Enterprise) per press coverage; no free tier. claude.ai/design returned HTTP 403 to fetch.",
+      "site": {
+        "name": "Claude Design",
+        "url": "https://claude.ai/design",
+        "alive": true,
+        "operator": "Anthropic"
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://claude.ai/design",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://claude.ai/design",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "official Anthropic product"
+      },
+      "sources": [
+        {
+          "url": "https://claude.ai/design",
+          "date": "2026-10-16",
+          "note": "403 Forbidden"
+        },
+        {
+          "url": "https://www.macrumors.com/2026/04/17/anthropic-claude-design",
+          "date": "2026-10-16",
+          "note": "second-hand via search result: launched 2026-04-17 in research preview for Pro/Max/Team/Enterprise"
+        }
+      ],
+      "unverified": [
+        "official access/pricing page not readable",
+        "press reports conflict on whether it is included at no extra cost on paid plans"
+      ],
+      "injectionSeen": null
+    },
+    "cleanshot-x": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Paid only: official pricing page says no free plan and 'We don't provide a trial' (Basic $35 one-time incl. 1 year updates, renewal $19/yr; Pro $10/user/month billed annually; 30-day money-back). Digitool 'Free tier listed' label is wrong.",
+      "site": {
+        "name": "CleanShot X",
+        "url": "https://cleanshot.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "$35 one-time (Basic, 1 year of updates); Pro $10 per user/month billed annually",
+        "evidence": {
+          "url": "https://cleanshot.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://cleanshot.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "no safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/cleanshot-x/",
+          "date": "2026-10-16",
+          "note": "resolved official site cleanshot.com"
+        },
+        {
+          "url": "https://cleanshot.com/pricing",
+          "date": "2026-10-16",
+          "note": "no trial, no free plan; prices"
+        }
+      ],
+      "unverified": [
+        "operator not confirmed",
+        "license/terms",
+        "safety search not run"
+      ],
+      "injectionSeen": null
+    },
+    "clickbank": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Affiliate/e-commerce marketplace for digital products, not a creator or design resource; no fees or pricing page read (only affiliate signup is stated as free); poor consumer review scores in search snippets (ConsumerAffairs 1.0/5, BBB 1.44/5).",
+      "site": {
+        "name": "ClickBank",
+        "url": "https://clickbank.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Affiliate signup free ('Get started on ClickBank for free')",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://clickbank.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://clickbank.com",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "no shutdown or acquisition found; many consumer complaints (second-hand)"
+      },
+      "sources": [
+        {
+          "url": "https://clickbank.com",
+          "date": "2026-10-16",
+          "note": "merchant-of-record marketplace; free affiliate signup; no fees listed"
+        },
+        {
+          "url": "https://www.consumeraffairs.com/online/clickbank.html?page=2",
+          "date": "2026-10-16",
+          "note": "search result: complaints (second-hand)"
+        }
+      ],
+      "unverified": [
+        "seller fees",
+        "license/terms",
+        "operator",
+        "fit with RL categories"
+      ],
+      "injectionSeen": null
+    },
+    "clipchamp": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Clipchamp",
+        "url": "https://clipchamp.com",
+        "alive": true,
+        "operator": "Microsoft"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan: unlimited exports up to 1080p, no watermark (per page FAQ), free stock assets and free filters only; no brand kit",
+        "paidFrom": "Premium features come with Microsoft 365 Personal/Family; price not on Clipchamp page",
+        "evidence": {
+          "url": "https://clipchamp.com/en/pricing/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Microsoft terms not read · commercial: unverified · attribution: unverified",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://clipchamp.com/en/pricing/",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "clipchamp",
+        "type": "Tool",
+        "category": "Filming",
+        "title": "Clipchamp",
+        "description": "Microsoft's browser-based video editor with templates and AI captions; the free plan exports 1080p without a watermark, 4K needs Microsoft 365.",
+        "tags": [
+          "web",
+          "template"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Edit video in the browser with a timeline editor",
+          "Starter templates for quick projects",
+          "AI-generated captions",
+          "Free export up to 1080p without watermark",
+          "Premium stock, filters and brand kit via Microsoft 365"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons: no match (check-icon exit 1)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search 2026-10-16: no shutdown reports; Microsoft product"
+      },
+      "sources": [
+        {
+          "url": "https://clipchamp.com/en/pricing/",
+          "date": "2026-10-16",
+          "note": "free plan limits, premium via Microsoft 365"
+        },
+        {
+          "url": "web search: Clipchamp 2026 free plan",
+          "date": "2026-10-16",
+          "note": "no shutdown reports (second-hand)"
+        }
+      ],
+      "unverified": [
+        "Terms of use and commercial-use answer not read",
+        "Paid price (linked to Microsoft, not read)",
+        "Free plan permanence not stated in so many words",
+        "Tags web/template are a best fit; icon needs owner or site SVG",
+        "No related/similar slugs found (no video editors in RL index)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/clipchamp.md",
+        "lint": "pass"
+      }
+    },
+    "clipdrop": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Free tier exists with daily caps but pricing page does not say it is permanent and Pro shows a trial; terms text not retrievable; operator InitML acquired by Jasper",
+      "site": {
+        "name": "Clipdrop",
+        "url": "https://clipdrop.co",
+        "alive": true,
+        "operator": "InitML (acquired by Jasper AI, 2024)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free tier: 20 uses/24h for background removal, upscaler x2, cleanup, relight; 50/24h text remover; some tools show no stated limit",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://clipdrop.co/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://clipdrop.co/terms",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "clipdrop",
+        "type": "AI Tool",
+        "category": "Photography",
+        "title": "Clipdrop",
+        "description": "AI image tools in the browser: remove backgrounds, upscale, clean up objects and text, relight and generate images, with daily free usage limits.",
+        "tags": [
+          "ai-tool",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Background removal",
+          "Image upscaler",
+          "Cleanup and text remover",
+          "Relight",
+          "Text to image, uncrop and replace background"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons: no match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search 2026-10-16: acquired by Stability AI 2023 then Jasper Feb 2024 (second-hand); still operating; no scam reports"
+      },
+      "sources": [
+        {
+          "url": "https://clipdrop.co/pricing",
+          "date": "2026-10-16",
+          "note": "free limits"
+        },
+        {
+          "url": "web search: Clipdrop Jasper InitML",
+          "date": "2026-10-16",
+          "note": "ownership history, second-hand"
+        }
+      ],
+      "unverified": [
+        "Free tier permanence",
+        "Paid price (shown as --)",
+        "Terms of use (/terms-visitor not read)",
+        "Commercial use of outputs"
+      ],
+      "injectionSeen": null
+    },
+    "clueso": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Clueso",
+        "url": "https://www.clueso.io",
+        "alive": true,
+        "operator": "Clueso (San Francisco; legal entity not confirmed)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free $0/mo: 1 user, 1080p export, limited AI credits; page inconsistent on video export (card says 10 min/month, FAQ says 15 min); articles 10-15/month",
+        "paidFrom": "Solo $40/month billed yearly",
+        "evidence": {
+          "url": "https://www.clueso.io/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Terms not read · commercial: unverified · Solo adds watermark-free exports, so free exports may be watermarked",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.clueso.io/terms",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "clueso",
+        "type": "AI Tool",
+        "category": "Marketing",
+        "title": "Clueso",
+        "description": "AI tool that turns screen recordings into polished product videos and help articles, with a free plan limited to short exports each month.",
+        "tags": [
+          "ai-tool",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Turn screen recordings into product videos",
+          "AI-written help articles from the same recording",
+          "Free plan with 1080p export",
+          "Higher resolution and watermark-free exports on paid plans"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons: no match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search 2026-10-16: $10M Series A reported Oct 2026 (second-hand); no scam/shutdown hits"
+      },
+      "sources": [
+        {
+          "url": "https://www.clueso.io/pricing",
+          "date": "2026-10-16",
+          "note": "plans and limits"
+        },
+        {
+          "url": "https://ppc.land/clueso-raises-10m-for-agents-that-record-real-software-and-edit-video/",
+          "date": "2026-10-16",
+          "note": "funding, alive (second-hand)"
+        }
+      ],
+      "unverified": [
+        "/terms returned 404; ToS and listing clause not read",
+        "Free plan watermark not stated explicitly",
+        "Free export minutes conflict (10 vs 15)",
+        "Operator legal entity",
+        "Category fit"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/clueso.md",
+        "lint": "pass"
+      }
+    },
+    "codrops": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "Direct fetches of tympanus.net/codrops/ (home, about, demos) returned HTTP 403; not bypassed",
+      "site": {
+        "name": "Codrops",
+        "url": "https://tympanus.net/codrops/",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Search snippet only: 500+ demos downloadable free under MIT",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://tympanus.net/codrops/demos/",
+          "date": "2026-10-16",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "Demos MIT per search snippet · unverified",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://tympanus.net/codrops/demos/",
+          "date": "2026-10-16",
+          "confidence": "second-hand"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search 2026-10-16: pages with 2026 content, no shutdown or acquisition reports"
+      },
+      "sources": [
+        {
+          "url": "web search: Codrops tympanus.net",
+          "date": "2026-10-16",
+          "note": "search snippets only"
+        }
+      ],
+      "unverified": [
+        "Site content, operator, license text: unread because of 403"
+      ],
+      "injectionSeen": null
     }
   }
 }

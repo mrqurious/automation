@@ -7671,7 +7671,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "buffer",
       "priority": "P2",
       "hasResearch": true
     },
@@ -7777,7 +7777,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "burst",
       "priority": "P2",
       "hasResearch": true
     },
@@ -7992,7 +7992,7 @@
       "status": "drafted",
       "notes": "Hosted Free plan stated as 'Free forever' (1 user) on first-party pricing page; open source. Terms page and safety search not read.",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "cal-com",
       "priority": "P2",
       "hasResearch": true
     },
@@ -8345,7 +8345,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "carrd",
       "priority": "P2",
       "hasResearch": true
     },
@@ -8423,7 +8423,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "causal",
       "priority": "P2",
       "hasResearch": true
     },
@@ -8472,12 +8472,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "chamaileon",
@@ -8552,12 +8552,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Chargeback-management SaaS for merchants (off-theme for a design directory); only Insights is free forever, other products are usage-based fees. Owner to decide if it fits RL.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "charli-marie-tv",
@@ -8578,12 +8578,12 @@
           "file": "Learn UI_UX Design_ Courses, Guides & Best Practices.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "YouTube channel; fetch returned only the channel name (CharliMarieTV), so description, activity and content could not be verified. Owner to decide if channels are listed and to confirm it.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "chatgpt",
@@ -8630,12 +8630,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "chatgpt.com/images returned HTTP 403 (access block); not bypassed. Also a feature of ChatGPT, already in RL (slug chatgpt, published), so likely a duplicate/sibling.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "checklist-design",
@@ -8656,12 +8656,12 @@
           "file": "Learn UI_UX Design_ Courses, Guides & Best Practices.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Home page is JS-only (returned just a title); llms.txt confirms content but not that it is free, and no license/terms were readable. Directory says Free; Figma plugin cost unknown.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "chili3d",
@@ -8682,12 +8682,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "chromatic-ai",
@@ -8710,12 +8710,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Digitool page gives only a redirect (digitool.co/go/chromatic-ai); the only vendor domain seen, chromaticlabs.co, is a broader AI canvas product, so the identity of the UGC-reels tool could not be confirmed. Not guessed.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "chronicle",
@@ -8736,12 +8736,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Real Free plan, but ToS section 7 prohibits unauthorized framing of or linking to the Site and compiling site content into a directory without written permission. Owner must decide.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "chronoid",
@@ -8764,12 +8764,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Paid only: 7-day free trial then one-time purchase; no permanent free tier (Digitool 'Free tier listed' label is wrong; Digitool page itself shows Paid, $10).",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "cinema-4d",
@@ -8844,12 +8844,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "circum",
@@ -8868,12 +8868,12 @@
           "file": "Best Free Open Source Icon Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "beta",
       "rlSlug": null,
       "priority": "P3",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "cj-affiliate",
@@ -8894,12 +8894,12 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Affiliate network, not a free tool: publisher signup is reportedly free but only second-hand; ToS not read (publisher agreement URL 404); fit with RL types/categories needs owner decision.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "claritee",
@@ -8920,12 +8920,12 @@
           "file": "Best UX Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Home page and /pricing return only the tagline 'Design chaos made clear' (JS-rendered); no product description, pricing or operator readable. Not bypassed.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "claude",
@@ -8972,12 +8972,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Research preview open only to paid Claude subscribers (Pro, Max, Team, Enterprise) per press coverage; no free tier. claude.ai/design returned HTTP 403 to fetch.",
       "pricingBucket": "beta",
       "rlSlug": null,
       "priority": "P3",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "cleanshot",
@@ -9026,12 +9026,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Paid only: official pricing page says no free plan and 'We don't provide a trial' (Basic $35 one-time incl. 1 year updates, renewal $19/yr; Pro $10/user/month billed annually; 30-day money-back). Digitool 'Free tier listed' label is wrong.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "clickbank",
@@ -9052,12 +9052,12 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Affiliate/e-commerce marketplace for digital products, not a creator or design resource; no fees or pricing page read (only affiliate signup is stated as free); poor consumer review scores in search snippets (ConsumerAffairs 1.0/5, BBB 1.44/5).",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "clipchamp",
@@ -9078,12 +9078,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "clipdrop",
@@ -9104,12 +9104,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Free tier exists with daily caps but pricing page does not say it is permanent and Pro shows a trial; terms text not retrievable; operator InitML acquired by Jasper",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "clueso",
@@ -9130,12 +9130,12 @@
           "file": "Productivity Tools for Design and Product Teams.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "codedesign-ai",
@@ -9182,12 +9182,12 @@
           "file": "Best Design Blogs & Magazines for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Direct fetches of tympanus.net/codrops/ (home, about, demos) returned HTTP 403; not bypassed",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "coframe",
@@ -59927,16 +59927,16 @@
     "byStatus": {
       "deferred-trial": 232,
       "deferred-paid": 217,
-      "blocked": 96,
-      "drafted": 113,
-      "rejected": 56,
+      "blocked": 106,
+      "drafted": 118,
+      "rejected": 60,
       "in-rl": 33,
-      "researched": 5,
-      "todo": 1527
+      "researched": 6,
+      "todo": 1507
     },
     "todoByPriority": {
-      "P2": 1442,
-      "P3": 84,
+      "P2": 1424,
+      "P3": 82,
       "P1": 1
     }
   }
