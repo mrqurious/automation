@@ -32193,6 +32193,2978 @@
         "terms may describe an older 'Dualite Alpha' product"
       ],
       "injectionSeen": null
+    },
+    "dub": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Dub",
+        "url": "https://dub.co",
+        "alive": true,
+        "operator": "Dub Technologies, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Dub Links Free: $0 'free forever' - 25 new links/month, 1K tracked events/month, 1 user, 3 custom domains, 30-day analytics retention",
+        "paidFrom": "Pro $30/month (monthly billing); Dub Partners (affiliate) has no free plan, Business $90/month with 14-day trial",
+        "evidence": {
+          "url": "https://dub.co/pricing/links",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "AGPLv3 core (open source) with a separate commercial /ee directory · commercial use: per AGPLv3 for self-hosting · attribution: n/a · limit: /ee under commercial license",
+        "openSource": true,
+        "spdx": "AGPL-3.0",
+        "evidence": {
+          "url": "https://github.com/dubinc/dub",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "dub",
+        "type": "Software",
+        "category": "Marketing",
+        "title": "Dub",
+        "description": "Open-source link management and attribution platform: short links, click and conversion tracking, and affiliate programs, with a free plan.",
+        "tags": [
+          "open-source",
+          "automation",
+          "social-media-design"
+        ],
+        "relatedResources": [
+          "bitly"
+        ],
+        "similarResources": [
+          "bitly"
+        ],
+        "keyFeatures": [
+          "Branded short links on custom domains",
+          "Click and conversion analytics",
+          "Affiliate/partner program management (paid plans)",
+          "Open-source core that can be self-hosted",
+          "Free plan with 25 new links per month"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Well-known company, active GitHub repo; no dedicated scam search run"
+      },
+      "sources": [
+        {
+          "url": "https://dub.co/pricing",
+          "date": "2026-10-16",
+          "note": "Partners plans, 14-day trial, operator"
+        },
+        {
+          "url": "https://dub.co/pricing/links",
+          "date": "2026-10-16",
+          "note": "Links free plan and limits"
+        },
+        {
+          "url": "https://github.com/dubinc/dub",
+          "date": "2026-10-16",
+          "note": "AGPLv3 + /ee license, description"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "LICENSE.md text not read",
+        "affiliate (Partners) product has no free plan; listing is for Links free tier and the open-source core"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/dub.md",
+        "lint": "pass"
+      }
+    },
+    "duo": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Site does not state pricing, license or usage terms for the curated colour pairs; free label and reuse rights unconfirmed.",
+      "site": {
+        "name": "Duo",
+        "url": "https://duo.alexpate.com",
+        "alive": true,
+        "operator": "Alex Pate (individual)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Public colour-combination gallery with JSON export (/colors.json); no price stated",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://duo.alexpate.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "not stated",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://duo.alexpate.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Personal project; no safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://duo.alexpate.com",
+          "date": "2026-10-16",
+          "note": "curated colour pairs, AA filter, JSON link, author"
+        }
+      ],
+      "unverified": [
+        "license/terms none stated",
+        "palette count",
+        "no safety search",
+        "last update date"
+      ],
+      "injectionSeen": null
+    },
+    "durable": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Pricing page lists a $0 Free plan (website preview, 300 AI credits, CRM up to 10 customers) but does not say it is permanent; paid prices inconsistent (Launch $25 vs $22). Given site durableai.link/toools is a referral path; real home is durable.com.",
+      "site": {
+        "name": "Durable",
+        "url": "https://durable.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free $0: website preview, 300 AI credits, CRM for up to 10 customers; no expiry stated",
+        "paidFrom": "Launch $25/m (card) or $22/m (comparison table); billing period unclear",
+        "evidence": {
+          "url": "https://durable.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://durable.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "durable.co 301 redirects to durable.com; no safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://durable.com/pricing",
+          "date": "2026-10-16",
+          "note": "plans; durable.co redirects to durable.com"
+        }
+      ],
+      "unverified": [
+        "free plan permanence (may only allow preview, not publishing)",
+        "terms of service",
+        "operator name",
+        "no safety search"
+      ],
+      "injectionSeen": null
+    },
+    "durves": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "No pricing, license or terms stated on site; GitHub link and PayPal donate suggest free but unconfirmed; Framer plugin price unknown.",
+      "site": {
+        "name": "Durves",
+        "url": "https://www.durves.com",
+        "alive": true,
+        "operator": "Filipe Esteves (individual)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Web generator for curved dot patterns with PNG/SVG export; no price stated, donate link present",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.durves.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "not stated",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.durves.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Personal project; no safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://www.durves.com",
+          "date": "2026-10-16",
+          "note": "controls, export, author, Framer plugin, donate"
+        },
+        {
+          "url": "https://github.com/filipe-esteves/durves",
+          "date": "2026-10-16",
+          "note": "guessed repo URL returned 404"
+        }
+      ],
+      "unverified": [
+        "license/terms",
+        "GitHub repo URL and license",
+        "Framer plugin pricing",
+        "no safety search"
+      ],
+      "injectionSeen": null
+    },
+    "dyad": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Dyad",
+        "url": "https://www.dyad.sh",
+        "alive": true,
+        "operator": "dyad-sh (GitHub organisation); legal entity not stated"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Dyad Free: $0, no sign-up, bring your own API key, community support; desktop app for macOS and Windows (Linux also listed)",
+        "paidFrom": "Dyad Pro $20/month (200 AI credits/month); Dyad Max $79/month (900 credits/month)",
+        "evidence": {
+          "url": "https://www.dyad.sh",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Apache-2.0 (code outside src/pro) / Functional Source License 1.1 Apache-2.0 (src/pro) · commercial: yes for the Apache part · attribution: per Apache-2.0 · limit: src/pro is fair-source, not fully open",
+        "openSource": true,
+        "spdx": "Apache-2.0",
+        "evidence": {
+          "url": "https://github.com/dyad-sh/dyad",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "dyad",
+        "type": "AI Tool",
+        "category": "Development",
+        "title": "Dyad",
+        "description": "Local, open-source AI app builder for your desktop. Use your own model keys (OpenAI, Anthropic, Ollama) to build web apps without a hosted builder.",
+        "tags": [
+          "ai-tool",
+          "open-source",
+          "no-code",
+          "web"
+        ],
+        "relatedResources": [
+          "lovable",
+          "bolt"
+        ],
+        "similarResources": [
+          "lovable",
+          "bolt",
+          "base44"
+        ],
+        "keyFeatures": [
+          "Runs as a desktop app on your own machine",
+          "Bring your own API key; works with OpenAI, Anthropic and local Ollama models",
+          "Free tier needs no sign-up",
+          "Code is on GitHub under Apache-2.0 (Pro folder under FSL)",
+          "Paid Pro and Max plans add monthly AI credits"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs, 2026-10-16: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "GitHub repo 21.9k stars, 2,157 commits; no dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://www.dyad.sh",
+          "date": "2026-10-16",
+          "note": "pricing plans, free tier, local/open-source claim"
+        },
+        {
+          "url": "https://github.com/dyad-sh/dyad",
+          "date": "2026-10-16",
+          "note": "licenses, stars, description"
+        }
+      ],
+      "unverified": [
+        "no dedicated scam/shutdown search",
+        "latest release date not shown",
+        "Linux build only listed in download section"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/dyad.md",
+        "lint": "pass"
+      }
+    },
+    "dynamic-mockups": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Dynamic Mockups",
+        "url": "https://dynamicmockups.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan, no credit card, 'does not expire': 50 one-time starter credits, batch export up to 5 variations, 1 catalog, 3 saved templates, 3 MockAnything AI generations and 1 MotionMockups AI video per day, limited integrations, API access with watermarked renders",
+        "paidFrom": "Pro $15/month billed annually (3,600 credits/year); monthly rate unclear",
+        "evidence": {
+          "url": "https://dynamicmockups.com/pricing/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: not read · attribution: not read · terms not checked",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://dynamicmockups.com",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "dynamic-mockups",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Dynamic Mockups",
+        "description": "Turn designs into photorealistic product mockups at scale, with bulk generation, 10,000+ templates, a mockup API and Etsy, Shopify and WordPress integrations.",
+        "tags": [
+          "graphic-design",
+          "print-design",
+          "design-templates",
+          "ai-tool"
+        ],
+        "relatedResources": [
+          "device-shots",
+          "canva"
+        ],
+        "similarResources": [
+          "device-shots"
+        ],
+        "keyFeatures": [
+          "10,000+ mockup templates for print-on-demand products",
+          "Bulk generation of mockups from one design",
+          "Mockup API for automated workflows",
+          "Integrations with Etsy, Shopify and WordPress",
+          "AI mockup generation and MotionMockups video on the free plan with daily limits"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs, 2026-10-16: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search 2026-10-16: no scam/shutdown/acquisition found; mixed Trustpilot reviews (2.5/5 from 6)"
+      },
+      "sources": [
+        {
+          "url": "https://dynamicmockups.com",
+          "date": "2026-10-16",
+          "note": "product description, free plan does not expire"
+        },
+        {
+          "url": "https://dynamicmockups.com/pricing/",
+          "date": "2026-10-16",
+          "note": "free plan limits, Pro price"
+        },
+        {
+          "url": "https://www.trustpilot.com/review/dynamicmockups.com",
+          "date": "2026-10-16",
+          "note": "safety search result"
+        }
+      ],
+      "unverified": [
+        "terms of service and commercial-use rights not read",
+        "operator not identified",
+        "monthly billing price not clear",
+        "free plan limits come from a model summary of the pricing page"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/dynamic-mockups.md",
+        "lint": "pass"
+      }
+    },
+    "dzine": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Pricing page: free users get 100 credits at sign-up valid 12 months and the daily refresh is gone, so no permanent free allowance (home page still advertises daily refresh, contradicting the pricing page).",
+      "site": {
+        "name": "Dzine",
+        "url": "https://www.dzine.ai",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "100 one-time credits after sign-up, valid 12 months (pricing page); home page claims 30 credits refreshed daily (conflict)",
+        "paidFrom": "Beginner $8.99/month billed monthly ($7/month billed annually), 1,000 credits/month",
+        "evidence": {
+          "url": "https://www.dzine.ai/pricing/",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.dzine.ai",
+          "date": "2026-10-16",
+          "note": "home claims 100 signup + 30 daily credits"
+        },
+        {
+          "url": "https://www.dzine.ai/pricing/",
+          "date": "2026-10-16",
+          "note": "one-time 100 credits, daily reset removed, paid prices"
+        },
+        {
+          "url": "https://www.unite.ai/dzine-review/",
+          "date": "2026-10-16",
+          "note": "safety search: not a scam or shutting down; Trustpilot billing complaints"
+        }
+      ],
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search 2026-10-16: not a scam or shutting down; billing/credit complaints; free outputs reportedly watermarked and personal-use only (second-hand)"
+      },
+      "unverified": [
+        "operator legal entity not named",
+        "watermark and commercial rules for free plan not stated on pricing page"
+      ],
+      "injectionSeen": null
+    },
+    "easing-wizard": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Free web tool, no login or pricing mentioned, but the repo uses a custom license that 'prevents direct commercialization'; confirm listing and the license wording.",
+      "site": {
+        "name": "Easing Wizard",
+        "url": "https://easingwizard.com",
+        "alive": true,
+        "operator": "Matthias Martin (roydigerhund on GitHub)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Whole tool usable without login; no pricing or paid tier mentioned on the site",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://easingwizard.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Custom license (LICENSE in repo) · commercial: use in larger projects allowed, direct commercialization prevented · attribution: not read · full text not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://github.com/roydigerhund/easingwizard",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "easing-wizard",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Easing Wizard",
+        "description": "Create and preview CSS easing curves: Bezier, spring, bounce, wiggle and overshoot, with copy-ready CSS or Tailwind code, a REST API and an MCP server.",
+        "tags": [
+          "web",
+          "ui-ux",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "animejs",
+          "css-gradient"
+        ],
+        "similarResources": [
+          "css-type-studio"
+        ],
+        "keyFeatures": [
+          "Preset easing families: Bezier, Spring, Bounce, Wiggle, Overshoot",
+          "Manual control of the four Bezier values with live preview",
+          "Export as CSS or Tailwind CSS with copy button",
+          "Shareable link for a configuration",
+          "REST API, npm MCP server and Claude Code plugin"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs, 2026-10-16: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Personal project; GitHub repo 26 stars, 128 commits; no dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://easingwizard.com",
+          "date": "2026-10-16",
+          "note": "features, creator, no login mentioned"
+        },
+        {
+          "url": "https://github.com/roydigerhund/easingwizard",
+          "date": "2026-10-16",
+          "note": "custom license wording, stars"
+        }
+      ],
+      "unverified": [
+        "LICENSE file text not read",
+        "no safety search",
+        "last commit date not shown",
+        "pricing never explicitly stated as free"
+      ],
+      "injectionSeen": null
+    },
+    "easings": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Easings",
+        "url": "https://easings.net",
+        "alive": true,
+        "operator": "Andrey Sitnik and Ivan Solovev"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Whole site is a free reference page; no plans or login seen",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://easings.net",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "GPL-3.0 (site source repo) · commercial: not stated for site content · attribution: not stated · source-code license only",
+        "openSource": true,
+        "spdx": "GPL-3.0",
+        "evidence": {
+          "url": "https://github.com/ai/easings.net",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "easings",
+        "type": "Website",
+        "category": "Design",
+        "title": "Easings.net",
+        "description": "Cheat sheet of 30 common easing functions with animated previews, CSS cubic-bezier values and easing math, to help pick the right motion curve.",
+        "tags": [
+          "web",
+          "ui-ux",
+          "open-source",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "animejs",
+          "60fps",
+          "emilkowalski-skills"
+        ],
+        "similarResources": [
+          "css-gradient",
+          "60fps"
+        ],
+        "keyFeatures": [
+          "30 easing curves in ten families (Sine to Bounce), each with in, out and in-out",
+          "Animated preview for every curve",
+          "Notes on using easings in CSS transitions and animations, PostCSS and gradients",
+          "Link to edit a curve in cubic-bezier.com",
+          "Open source, auto/light/dark theme and about 40 languages"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons: no match (2026-10-16)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Well-known open-source project; no separate scam/shutdown search run (screen cut short)"
+      },
+      "sources": [
+        {
+          "url": "https://easings.net",
+          "date": "2026-10-16",
+          "note": "what it is, authors, 30 functions, footer links"
+        },
+        {
+          "url": "https://github.com/ai/easings.net",
+          "date": "2026-10-16",
+          "note": "GPL-3.0, repo description"
+        }
+      ],
+      "unverified": [
+        "Site content license / commercial use of the page not stated (GPL-3.0 applies to repo)",
+        "Last commit date not shown",
+        "Dedicated safety search not run"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/easings.md",
+        "lint": "pass"
+      }
+    },
+    "ecomm-design": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "ecomm.design",
+        "url": "https://ecomm.design",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Gallery browsable with no sign-in or paywall visible; no prices for the site itself",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://ecomm.design",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No terms page found · commercial: unknown · attribution: unknown · no terms read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://ecomm.design",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "ecomm-design",
+        "type": "Website",
+        "category": "Design",
+        "title": "ecomm.design",
+        "description": "Gallery of ecommerce store designs you can browse by platform, category, technology and traffic, for storefront inspiration.",
+        "tags": [
+          "inspiration",
+          "web",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "awwwards",
+          "cta-gallery",
+          "a1-gallery"
+        ],
+        "similarResources": [
+          "a1-gallery",
+          "cta-gallery",
+          "collect-ui"
+        ],
+        "keyFeatures": [
+          "Gallery of about 4,000 ecommerce site designs (count shown on home page 2026-10-16)",
+          "Browse by platform, category, technology and traffic",
+          "Blog and about pages",
+          "Submit your own store"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "not checked in Simple Icons (generic domain name); no site SVG fetched"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Copyright line 2016-2026 indicates long-running; outbound links carry ?ref=ecommdesign and a Shopify promo banner (affiliate-style); no scam search run"
+      },
+      "sources": [
+        {
+          "url": "https://ecomm.design",
+          "date": "2026-10-16",
+          "note": "description, gallery size, nav, footer, contact"
+        }
+      ],
+      "unverified": [
+        "Operator not named",
+        "No terms or privacy page seen",
+        "Free permanence only inferred from open gallery",
+        "Dedicated safety search not run",
+        "Icon not sourced"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/ecomm-design.md",
+        "lint": "pass"
+      }
+    },
+    "efecto": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "efecto.app returns only a title (JS app); pricing page shows only nav links; no first-party pricing or terms readable",
+      "site": {
+        "name": "Efecto",
+        "url": "https://efecto.app",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://efecto.app/pricing",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "One third-party post (pablostanley.substack.com/p/efecto) describes a one-person project where humans and AI agents share a canvas; not confirmed first-party"
+      },
+      "sources": [
+        {
+          "url": "https://efecto.app",
+          "date": "2026-10-16",
+          "note": "title only: 'Where Humans & Robots Design Together'"
+        },
+        {
+          "url": "https://efecto.app/pricing",
+          "date": "2026-10-16",
+          "note": "nav links only (Design, FX, Angles, Import Figma)"
+        },
+        {
+          "url": "https://pablostanley.substack.com/p/efecto",
+          "date": "2026-10-16",
+          "note": "search snippet only, second-hand"
+        }
+      ],
+      "unverified": [
+        "Pricing and free tier",
+        "License / terms",
+        "Operator",
+        "Features"
+      ],
+      "injectionSeen": null
+    },
+    "elai": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Pricing page lists a Free plan ($0, 1 user, 1 minute, 'No commitment') but does not say whether it is permanent or a trial; paid plans start $29/month. Owner to decide if a 1-minute free plan qualifies.",
+      "site": {
+        "name": "Elai",
+        "url": "https://elai.io",
+        "alive": true,
+        "operator": "Elai Inc. (Pittsburgh, PA)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan: $0, 1 user, 1 minute of video; permanence not stated",
+        "paidFrom": "Creator $29/month billed monthly ($23/month billed annually, $276/year)",
+        "evidence": {
+          "url": "https://elai.io/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Terms not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://elai.io/pricing",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Footer shows (c) 2026 Elai Inc.; no acquisition or closure stated on page; no separate safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://elai.io/pricing",
+          "date": "2026-10-16",
+          "note": "Creator $29/mo, Team $125/mo ($100 annual), Enterprise custom, Free $0 1 user 1 min"
+        }
+      ],
+      "unverified": [
+        "Free plan permanence",
+        "Terms / commercial use / listing clause",
+        "Safety search not run",
+        "Possible AI-presenter category tag need (ai-tool exists)"
+      ],
+      "injectionSeen": null
+    },
+    "elastic-ui": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Elastic UI",
+        "url": "https://eui.elastic.co",
+        "alive": true,
+        "operator": "Elastic"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Source-available component framework; no prices or paid tiers on the site",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://eui.elastic.co",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Dual-licensed Elastic License 2.0 / SSPL v1 (source-available, not OSI open source) · commercial: not confirmed, see license files · attribution: not confirmed · limit: both licenses carry service-provider restrictions",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://github.com/elastic/eui",
+          "date": "2026-10-16",
+          "confidence": "second-hand"
+        }
+      },
+      "rl": {
+        "slug": "elastic-ui",
+        "type": "Library",
+        "category": "Development",
+        "title": "Elastic UI",
+        "description": "Elastic's EUI framework: composable, accessible UI components, layouts and design tokens with full docs, for building dashboards and apps.",
+        "tags": [
+          "ui-ux",
+          "design-systems",
+          "web"
+        ],
+        "relatedResources": [
+          "chakra-ui",
+          "ant-design"
+        ],
+        "similarResources": [
+          "ant-design",
+          "chakra-ui"
+        ],
+        "keyFeatures": [
+          "Large set of composable components for forms, tables, buttons and layouts",
+          "Design tokens for theming and customization",
+          "Accessibility treated as a core goal",
+          "Documentation site with changelog and contributing guide"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-16: no exact Simple Icons match for Elastic UI (the 'elastic' icon is the company, a different product)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Official Elastic site; GitHub repo elastic/eui shows 6.4k stars, not archived. No dedicated scam/shutdown search."
+      },
+      "sources": [
+        {
+          "url": "https://eui.elastic.co",
+          "date": "2026-10-16",
+          "note": "what it is, operator, dual license, features"
+        },
+        {
+          "url": "https://github.com/elastic/eui",
+          "date": "2026-10-16",
+          "note": "license files, stars, commit count, not archived"
+        }
+      ],
+      "unverified": [
+        "exact license terms not read (only named)",
+        "latest release date not shown",
+        "no dedicated safety search",
+        "React-based is not stated on the home page"
+      ],
+      "injectionSeen": "None on pages; the repo file tree lists AGENTS.md and CLAUDE.md (contents not read).",
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/elastic-ui.md",
+        "lint": "pass"
+      }
+    },
+    "elastoui": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "ElastoUI",
+        "url": "https://elastoui.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free ecommerce UI icon set (SVG, Figma) with 'Free Unlimited Access'; a Penpot listing says 96 free icons (second-hand)",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://elastoui.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "ElastoUI icon license · commercial: yes, unlimited personal/client projects · attribution: not required · limit: no reselling or redistributing unmodified icons, no building a competing library",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://elastoui.com/license",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "elastoui",
+        "type": "Icon Set",
+        "category": "Design",
+        "title": "ElastoUI",
+        "description": "Ecommerce-focused SVG UI icon library for web, apps and Figma, with a free set usable commercially without attribution plus a Pro pack.",
+        "tags": [
+          "icon-library",
+          "ui-ux",
+          "stock-vectors"
+        ],
+        "relatedResources": [
+          "lucide-icons",
+          "material-symbols"
+        ],
+        "similarResources": [
+          "akar-icons",
+          "bootstrap-icons",
+          "boxicons"
+        ],
+        "keyFeatures": [
+          "SVG icons made for ecommerce, websites and mobile apps",
+          "24px and 32px grid sets organized in categories (29 and 21 listed)",
+          "Figma-ready vector files",
+          "Free icons usable commercially with no attribution"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-16: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Web search found no scam or shutdown hits; site launched March 2026 per creator (second-hand); little independent coverage."
+      },
+      "sources": [
+        {
+          "url": "https://elastoui.com",
+          "date": "2026-10-16",
+          "note": "title, categories, free/commercial claims"
+        },
+        {
+          "url": "https://elastoui.com/license",
+          "date": "2026-10-16",
+          "note": "license terms"
+        },
+        {
+          "url": "web search: ElastoUI icons pro pricing",
+          "date": "2026-10-16",
+          "note": "freemium wording, 96 free icons (Penpot listing), launch March 2026; second-hand"
+        }
+      ],
+      "unverified": [
+        "Pro plan price and exact free vs Pro split not read (pricing page not fetched)",
+        "operator not named",
+        "total icon count not stated",
+        "free tier permanence beyond the 'unlimited access' claim"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/elastoui.md",
+        "lint": "pass"
+      }
+    },
+    "elevenlabs": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "ElevenLabs",
+        "url": "https://elevenlabs.io",
+        "alive": true,
+        "operator": "ElevenLabs"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan at $0/month: 10k credits per month shared across products, 3 Studio projects, no rollover, a per-request credit cap (figure not given); non-commercial use only",
+        "paidFrom": "Starter: $6 first month (promo until Oct 18, 2026); regular monthly price not confirmed",
+        "evidence": {
+          "url": "https://elevenlabs.io/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "ElevenLabs Terms of Use · commercial: no on the Free plan (non-commercial only, personal email) · attribution: not stated · limit: commercial license comes with paid plans",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://elevenlabs.io/terms-of-use",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "elevenlabs",
+        "type": "AI Tool",
+        "category": "Productivity",
+        "title": "ElevenLabs",
+        "description": "AI voice platform for text to speech, voice cloning and audio agents; the free plan gives monthly credits for non-commercial use, paid plans add more.",
+        "tags": [
+          "ai-tool",
+          "stock-sfx"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Text to speech and voice generation",
+          "Voice cloning",
+          "Conversational audio agents",
+          "Studio projects for longer audio",
+          "Free plan with 10k monthly credits"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "elevenlabs",
+          "fillColor": "#000000",
+          "bgColor": "#ffffff",
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Well-known company; no dedicated scam/shutdown search run."
+      },
+      "sources": [
+        {
+          "url": "https://elevenlabs.io",
+          "date": "2026-10-16",
+          "note": "positioning from directory description"
+        },
+        {
+          "url": "https://elevenlabs.io/pricing",
+          "date": "2026-10-16",
+          "note": "free plan, credits, Starter price"
+        },
+        {
+          "url": "https://elevenlabs.io/terms-of-use",
+          "date": "2026-10-16",
+          "note": "non-commercial free use, trademark clause"
+        }
+      ],
+      "unverified": [
+        "Starter regular price after promo not confirmed (flattened table)",
+        "about 10 included minutes figure unconfirmed",
+        "per-request credit cap not stated",
+        "no dedicated safety search",
+        "no linking/listing clause found in ToS (only trademark clause 5(c))",
+        "stock-sfx is only the nearest existing audio tag; owner may prefer dropping it"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/elevenlabs.md",
+        "lint": "pass"
+      }
+    },
+    "email-gallery": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Email Gallery",
+        "url": "https://email-gallery.com",
+        "alive": true,
+        "operator": "DesignBombs"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Browsable gallery; no login wall or paid tier seen on the home page",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://email-gallery.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Curated gallery of third-party emails, site content all rights reserved · commercial: unknown · attribution: unknown · limit: shown emails belong to their senders; Terms page did not load",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://email-gallery.com/terms-of-use/",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "email-gallery",
+        "type": "Website",
+        "category": "Marketing",
+        "title": "Email Gallery",
+        "description": "Curated gallery of real marketing emails from many companies, browsable by color, layout and business type, for newsletter design inspiration.",
+        "tags": [
+          "inspiration",
+          "template",
+          "design-templates"
+        ],
+        "relatedResources": [
+          "ads-of-the-world",
+          "a1-gallery"
+        ],
+        "similarResources": [
+          "a1-gallery"
+        ],
+        "keyFeatures": [
+          "Large archive of real emails (145 pages of 10 entries, inferred)",
+          "65 categories grouped by columns, colors and type of business",
+          "Aimed at email and newsletter designers",
+          "Newsletter with templates and tips"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-16: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search found no scam or shutdown hits for email-gallery.com (theemailgallery.com is a different, flagged domain)."
+      },
+      "sources": [
+        {
+          "url": "https://email-gallery.com",
+          "date": "2026-10-16",
+          "note": "about text, DesignBombs product, categories, pagination"
+        },
+        {
+          "url": "https://email-gallery.com/terms-of-use/",
+          "date": "2026-10-16",
+          "note": "404 (also without trailing slash)"
+        }
+      ],
+      "unverified": [
+        "Terms of use page returned 404; linking/listing clause unverified",
+        "free access inferred from home page only",
+        "email count inferred from pagination",
+        "correct URL of the Terms page unknown"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/email-gallery.md",
+        "lint": "pass"
+      }
+    },
+    "email-love": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Email Love",
+        "url": "https://emaillove.com",
+        "alive": true,
+        "operator": "Andy King and Matt Hayes"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Browsing email inspiration is free; some sections (trend reports, journeys, brand insights) need a free account",
+        "paidFrom": "Paid products are a Figma plugin (free plan, 5 exports/month) and Email Love Builder (per-team price, not read)",
+        "evidence": {
+          "url": "https://emaillove.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Site terms not read; gallery content belongs to the brands · commercial: n/a · attribution: n/a",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://emaillove.com",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "email-love",
+        "type": "Website",
+        "category": "Marketing",
+        "title": "Email Love",
+        "description": "Free gallery of email campaigns from thousands of brands, with brand insights, journeys and trend reports for email design inspiration.",
+        "tags": [
+          "inspiration",
+          "graphic-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Browse email designs from 8,500+ brands with full previews",
+          "Brand insights and customer journeys (free account)",
+          "Trend reports on email marketing",
+          "Paid add-ons: Figma plugin and Email Love Builder"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs, no Simple Icons match, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated scam search run"
+      },
+      "sources": [
+        {
+          "url": "https://emaillove.com/inspiration",
+          "date": "2026-10-16",
+          "note": "gallery description"
+        },
+        {
+          "url": "https://emaillove.com",
+          "date": "2026-10-16",
+          "note": "free to browse, operators, paid products"
+        }
+      ],
+      "unverified": [
+        "site terms/linking clause not read",
+        "no safety search",
+        "Email Love Builder price",
+        "8,500 brand count is a site claim",
+        "label Free vs Free + Paid is an owner choice"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/email-love.md",
+        "lint": "pass"
+      }
+    },
+    "embeddable": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Embeddable",
+        "url": "https://embeddable.co",
+        "alive": true,
+        "operator": "Likely Common Ninja (unconfirmed)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free $0/month: 6 messages a day (25/month max), 200 page views, 1 seat, 25 MB storage, 100 submissions, watermark",
+        "paidFrom": "Starter $25/month (yearly billing advertised as saving 30%)",
+        "evidence": {
+          "url": "https://embeddable.co/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Hosted SaaS, terms not read · commercial: unknown · attribution: watermark on free plan",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://embeddable.co/pricing",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "embeddable",
+        "type": "AI Tool",
+        "category": "Marketing",
+        "title": "Embeddable",
+        "description": "No-code AI builder for widgets, forms, calculators, quizzes and landing pages created by chatting, with a limited free plan.",
+        "tags": [
+          "ai-tool",
+          "no-code",
+          "website-builder"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "lovable",
+          "carrd"
+        ],
+        "keyFeatures": [
+          "Build widgets, forms, calculators, quizzes and popups by chatting with AI",
+          "Conversion-focused landing page builder",
+          "100+ free templates to start from",
+          "Free plan with watermark and daily message cap"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs, no Simple Icons match, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated scam search run"
+      },
+      "sources": [
+        {
+          "url": "https://embeddable.co",
+          "date": "2026-10-16",
+          "note": "product description"
+        },
+        {
+          "url": "https://embeddable.co/pricing",
+          "date": "2026-10-16",
+          "note": "plans and free limits"
+        }
+      ],
+      "unverified": [
+        "operator not named on page",
+        "Free plan not explicitly called permanent",
+        "terms/commercial use not read",
+        "no safety search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/embeddable.md",
+        "lint": "pass"
+      }
+    },
+    "emergent": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Free plan is only 10 credits/month and permanence/usefulness unclear; home FAQ ($17/$167) and pricing page ($20/$200 monthly) quote different prices; owner to decide",
+      "site": {
+        "name": "Emergent",
+        "url": "https://emergent.sh",
+        "alive": true,
+        "operator": "Emergentlabs"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free $0/month with 10 monthly credits",
+        "paidFrom": "Standard $20/month ($17/month billed annually)",
+        "evidence": {
+          "url": "https://emergent.sh/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Hosted SaaS, terms not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://emergent.sh/pricing",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "emergent",
+        "type": "AI Tool",
+        "category": "Development",
+        "title": "Emergent",
+        "description": "AI app builder that turns plain-language descriptions into working web and mobile apps with hosting, with a small free monthly credit allowance.",
+        "tags": [
+          "ai-tool",
+          "no-code"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "lovable",
+          "bolt",
+          "base44"
+        ],
+        "keyFeatures": [
+          "Describe an app in natural language and get a built, hosted result",
+          "Web apps, mobile apps, dashboards and SaaS tools",
+          "GitHub integration on paid plans",
+          "Free plan with 10 credits per month"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs, no Simple Icons match, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated scam search run"
+      },
+      "sources": [
+        {
+          "url": "https://emergent.sh",
+          "date": "2026-10-16",
+          "note": "product, FAQ prices"
+        },
+        {
+          "url": "https://emergent.sh/pricing",
+          "date": "2026-10-16",
+          "note": "plans and free credits"
+        }
+      ],
+      "unverified": [
+        "terms not read",
+        "no safety search",
+        "credit rollover",
+        "home FAQ vs pricing page price mismatch"
+      ],
+      "injectionSeen": null
+    },
+    "endless-tools": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Pricing page 'Free' tier is a 3-day trial only; no permanent free plan",
+      "site": {
+        "name": "Endless Tools",
+        "url": "https://endlesstools.io",
+        "alive": true,
+        "operator": "EndlessTools (legal entity not named)"
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "Pro $20/month ($249.99/year); Education $9.99/month",
+        "evidence": {
+          "url": "https://endlesstools.io",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://endlesstools.io",
+          "date": "2026-10-16",
+          "note": "product and pricing: 'Try Endless Tools free for 3 days'"
+        }
+      ],
+      "unverified": [
+        "no safety search",
+        "terms not read"
+      ],
+      "injectionSeen": null
+    },
+    "energy-icons": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Energy Icons",
+        "url": "https://energyicons.com",
+        "alive": true,
+        "operator": "Sam Passmore (individual)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Fully free; optional Ko-fi sponsorship",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://energyicons.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT · commercial: yes · attribution: not required · keep LICENSE file if redistributing the files; some icons depict third-party marks (Bluetooth, USB, Wi-Fi) with no affiliation implied",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/Sam-r-passmore/energy-icons",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "energy-icons",
+        "type": "Icon Set",
+        "category": "Design",
+        "title": "Energy Icons",
+        "description": "Free open-source SVG icon library with extra depth in energy, climate and infrastructure, in regular and bold weights, with npm, icon font and Figma plugin.",
+        "tags": [
+          "icon-library",
+          "open-source",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "simple-icons",
+          "material-symbols"
+        ],
+        "similarResources": [
+          "bootstrap-icons",
+          "akar-icons",
+          "circum-icons"
+        ],
+        "keyFeatures": [
+          "About 2,000 outlined SVG icons (home page says 2,000; GitHub About says 1,200+)",
+          "Strong coverage of energy, climate and infrastructure topics",
+          "Regular and Bold weights in two optical sizes",
+          "npm package with React Icon component, plus an icon font",
+          "Figma plugin and a download-all zip"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-16: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated scam search run; open GitHub repo by named author"
+      },
+      "sources": [
+        {
+          "url": "https://energyicons.com",
+          "date": "2026-10-16",
+          "note": "description, free, author, count"
+        },
+        {
+          "url": "https://github.com/Sam-r-passmore/energy-icons",
+          "date": "2026-10-16",
+          "note": "MIT license, formats, commercial use"
+        }
+      ],
+      "unverified": [
+        "icon count conflict 2,000 vs 1,200+",
+        "latest commit date not seen",
+        "no dedicated safety search",
+        "no site SVG logo sanitized"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/energy-icons.md",
+        "lint": "pass"
+      }
+    },
+    "enter-pro": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "Site returned HTTP 403 Forbidden to fetch; not bypassed",
+      "site": {
+        "name": "Enter Pro",
+        "url": "https://enter.converge.ai",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://enter.converge.ai",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://enter.converge.ai",
+          "date": "2026-10-16",
+          "note": "HTTP 403"
+        }
+      ],
+      "unverified": [
+        "everything: pricing, license, operator, safety"
+      ],
+      "injectionSeen": null
+    },
+    "erase-bg": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Home page says first 3 credits free on sign-up and web images free for personal use, but no pricing page was read and permanence of the free tier is unclear; commercial use is pushed to Pixelbin.io plans",
+      "site": {
+        "name": "Erase.bg",
+        "url": "https://www.erase.bg",
+        "alive": true,
+        "operator": "Shopsense Retail Technologies Limited (Pixelbin.io)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Home page: first 3 free credits on sign-up; website images free for personal use; up to 10,000x10,000 px, 25 MB; video up to 30 s",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.erase.bg",
+          "date": "2026-10-16",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "Terms of Use not read · commercial: via Pixelbin.io paid plans (per home page) · attribution: unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.erase.bg",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://www.erase.bg",
+          "date": "2026-10-16",
+          "note": "free tier claims, operator, limits"
+        }
+      ],
+      "unverified": [
+        "pricing page and credit cost per image",
+        "Terms of Use text",
+        "whether free personal use is permanent",
+        "safety search"
+      ],
+      "injectionSeen": null
+    },
+    "eraser": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Eraser",
+        "url": "https://www.eraser.io",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free forever plan: 3 files, 3 AI credits for diagrams and outlines, 7-day version history, unlimited guests, diagram-as-code, markdown notes, GitHub/Notion/Confluence/VS Code integrations; no private files, custom icons or API calls",
+        "paidFrom": "Starter $15 per member per month billed annually ($20 monthly)",
+        "evidence": {
+          "url": "https://www.eraser.io/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: terms not read · attribution: n/a",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.eraser.io/pricing",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "eraser",
+        "type": "AI Tool",
+        "category": "Productivity",
+        "title": "Eraser",
+        "description": "Workspace for technical docs and diagrams with diagram-as-code, markdown notes and AI help; free plan limited to 3 files, paid plans for teams.",
+        "tags": [
+          "ai-tool",
+          "collaboration",
+          "productivity"
+        ],
+        "relatedResources": [
+          "excalidraw",
+          "tldraw"
+        ],
+        "similarResources": [
+          "excalidraw",
+          "tldraw",
+          "creately"
+        ],
+        "keyFeatures": [
+          "Diagram-as-code alongside a visual editor",
+          "Markdown notes next to diagrams",
+          "AI credits to generate diagrams and outlines",
+          "Integrations with GitHub, Notion, Confluence and VS Code",
+          "Unlimited guests on the free plan"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "eraser",
+          "fillColor": "#EC2C40",
+          "bgColor": "#ffffff",
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-16 (assumed to be eraser.io)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated scam/shutdown search run; pricing page live"
+      },
+      "sources": [
+        {
+          "url": "https://www.eraser.io/pricing",
+          "date": "2026-10-16",
+          "note": "free plan, paid price"
+        }
+      ],
+      "unverified": [
+        "operator name",
+        "terms / commercial use",
+        "no dedicated safety search",
+        "Simple Icons Eraser assumed to be this product",
+        "only pricing page fetched; features taken from it"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/eraser.md",
+        "lint": "pass"
+      }
+    },
+    "ethical-design-guide": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Ethical Design Guide",
+        "url": "https://ethicaldesign.guide",
+        "alive": true,
+        "operator": "Sarah L. Fossheim (individual)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Resource library readable without sign-in or paywall; optional 'Buy me a coffee' donation button",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://ethicaldesign.guide",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No license stated on site · commercial: unknown · attribution: unknown · links out to third-party resources",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://ethicaldesign.guide",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "ethical-design-guide",
+        "type": "Resource",
+        "category": "Design",
+        "title": "Ethical Design Guide",
+        "description": "Curated library of articles, books, courses and tools for building digital products that avoid harm, sorted by topic such as accessibility and AI bias.",
+        "tags": [
+          "ui-ux",
+          "inspiration"
+        ],
+        "relatedResources": [
+          "dark-patterns-tip-line",
+          "biased-by-design",
+          "design-beyond-barriers"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Resources grouped by type: articles, books, courses, tools",
+          "Topic filters including accessibility, bias in AI and race",
+          "Links are added continuously by the maintainer",
+          "Optional newsletter"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "scripts/check-icon.mjs, 2026-10-16: no Simple Icons match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Personal project of a named designer; no scam/shutdown search run"
+      },
+      "sources": [
+        {
+          "url": "https://ethicaldesign.guide",
+          "date": "2026-10-16",
+          "note": "operator, scope, topics, donation button"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "no license/terms stated; content reuse rights unknown",
+        "page shows no dates, last update unknown"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/ethical-design-guide.md",
+        "lint": "pass"
+      }
+    },
+    "ethical-design-resources": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Ethical Design Resources",
+        "url": "https://www.ethicaldesignresources.com",
+        "alive": true,
+        "operator": "Lexi (lexinamer.com) with the Ethical Design Network and Kate Every"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Browsable directory with filters and an Add a Resource form; no paid items mentioned",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.ethicaldesignresources.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No license stated · commercial: unknown · attribution: unknown · footer only says Copyright",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.ethicaldesignresources.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "ethical-design-resources",
+        "type": "Website",
+        "category": "Design",
+        "title": "Ethical Design Resources",
+        "description": "Community-submitted directory of guides and tools for designing humane, ethical digital products, with filters and a form to add new entries.",
+        "tags": [
+          "ui-ux",
+          "inspiration"
+        ],
+        "relatedResources": [
+          "ethical-design-guide",
+          "dark-patterns-tip-line",
+          "design-beyond-barriers"
+        ],
+        "similarResources": [
+          "ethical-design-guide"
+        ],
+        "keyFeatures": [
+          "Browsable directory with an All filter",
+          "Community submissions through an Add a Resource form",
+          "Maintained with the Ethical Design Network",
+          "Focus on humane, harm-avoiding product design"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "scripts/check-icon.mjs, 2026-10-16: no Simple Icons match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Named maintainer; no scam/shutdown search run"
+      },
+      "sources": [
+        {
+          "url": "https://www.ethicaldesignresources.com",
+          "date": "2026-10-16",
+          "note": "operator, features, no pricing or terms shown"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "resource categories and counts not read (page text gave only filter and form)",
+        "no dates shown, last update unknown",
+        "overlaps ethical-design-guide in subject (separate projects)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/ethical-design-resources.md",
+        "lint": "pass"
+      }
+    },
+    "eva-icons": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Eva Icons",
+        "url": "https://akveo.github.io/eva-icons",
+        "alive": true,
+        "operator": "Akveo (GitHub org akveo)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Fully open source icon pack",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://github.com/akveo/eva-icons",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT · commercial: yes · attribution: not required beyond keeping the license notice · see LICENSE.txt",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/akveo/eva-icons",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "eva-icons",
+        "type": "Icon Set",
+        "category": "Design",
+        "title": "Eva Icons",
+        "description": "Open-source set of 480+ clean UI icons in SVG, PNG, web font and Sketch, with an npm package, CDN loading and optional animations.",
+        "tags": [
+          "icon-library",
+          "open-source",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "lucide-icons",
+          "remix-icon",
+          "bootstrap-icons"
+        ],
+        "similarResources": [
+          "lucide-icons",
+          "remix-icon",
+          "bootstrap-icons"
+        ],
+        "keyFeatures": [
+          "More than 480 icons for common UI actions",
+          "SVG, PNG, web font and Sketch formats",
+          "npm package and CDN loading",
+          "Built-in animations: zoom, pulse, shake, flip"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "scripts/check-icon.mjs, 2026-10-16: no Simple Icons match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Public GitHub repo, about 8.8k stars, not shown as archived; no scam search run"
+      },
+      "sources": [
+        {
+          "url": "https://akveo.github.io/eva-icons",
+          "date": "2026-10-16",
+          "note": "tagline"
+        },
+        {
+          "url": "https://github.com/akveo/eva-icons",
+          "date": "2026-10-16",
+          "note": "MIT license, 480+ icons, formats, stars"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "last commit date not shown (56 commits, Releases empty); maintenance status unknown",
+        "exact format list ends with 'etc.'"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/eva-icons.md",
+        "lint": "pass"
+      }
+    },
+    "every-time-zone": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Free basic converter confirmed, but no pricing page found (/pricing, /plans 404) so free-tier limits and Pro prices are unverified",
+      "site": {
+        "name": "Every Time Zone",
+        "url": "https://everytimezone.com",
+        "alive": true,
+        "operator": "Slash7 LLC (makers of Noko)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free timeline time zone converter; Meetings Pro and People Pro are paid. Terms mention a free plan. Exact limits not confirmed",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://everytimezone.com/terms",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Slash7 Terms of Service · commercial: undefined · terms forbid reselling or exploiting the Service without written permission · no clause on linking",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://everytimezone.com/terms",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "every-time-zone",
+        "type": "Website",
+        "category": "Productivity",
+        "title": "Every Time Zone",
+        "description": "Visual time zone converter that lines up cities on a timeline so you can spot a meeting time that works for everyone, with link and iCal sharing.",
+        "tags": [
+          "productivity",
+          "web"
+        ],
+        "relatedResources": [
+          "cal-com"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Timeline view of the current time across many zones",
+          "Meeting finder covering GMT-12:00 to GMT+13:00",
+          "Share a view by link or iCal",
+          "Paid Pro tiers add customization and team features (per third-party review)"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "scripts/check-icon.mjs, 2026-10-16: no Simple Icons match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Copyright 2026 Slash7 LLC on page; Fast Company covered the site; no shutdown found"
+      },
+      "sources": [
+        {
+          "url": "https://everytimezone.com",
+          "date": "2026-10-16",
+          "note": "operator, features, Pro nav items"
+        },
+        {
+          "url": "https://everytimezone.com/terms",
+          "date": "2026-10-16",
+          "note": "free plan mention, no listing clause"
+        },
+        {
+          "url": "https://www.fastcompany.com/90782552/every-time-zone-a-simple-and-helpful-time-zone-converter",
+          "date": "2026-10-16",
+          "note": "search result, free site (not fetched)"
+        }
+      ],
+      "unverified": [
+        "Pro prices and free limits (no pricing page found; sign-up page snapshot in search is old)",
+        "no dedicated safety search beyond one web search",
+        "terms read via summary only"
+      ],
+      "injectionSeen": null
+    },
+    "evil-buttons": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Evil Buttons",
+        "url": "https://evilbuttons.com",
+        "alive": true,
+        "operator": "Radium Coders"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Open-source components; no prices or paid items on the site",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://evilbuttons.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Apache-2.0 · commercial: yes (per Apache-2.0) · attribution: license notice kept · limit: none read beyond license text",
+        "openSource": true,
+        "spdx": "Apache-2.0",
+        "evidence": {
+          "url": "https://github.com/radiumcoders/evil-buttons",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "evil-buttons",
+        "type": "Library",
+        "category": "Development",
+        "title": "Evil Buttons",
+        "description": "Open-source shadcn/ui registry of playful, heavily animated button components with an evil look; copy a component into your project with one command.",
+        "tags": [
+          "open-source",
+          "ui-ux",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "28 animated button components with live demos",
+          "Built for shadcn/ui, installed per component from a registry command",
+          "Copy-paste code you own and can edit",
+          "Open source on GitHub under Apache-2.0"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-16: no Simple Icons match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated scam/shutdown search; GitHub repo with 366 commits"
+      },
+      "sources": [
+        {
+          "url": "https://evilbuttons.com",
+          "date": "2026-10-16",
+          "note": "description, 28 components, Apache 2.0 footer, author"
+        },
+        {
+          "url": "https://github.com/radiumcoders/evil-buttons",
+          "date": "2026-10-16",
+          "note": "license, description"
+        }
+      ],
+      "unverified": [
+        "exact install command not shown",
+        "last commit date not shown",
+        "no dedicated safety search run",
+        "LICENSE file text not read"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/evil-buttons.md",
+        "lint": "pass"
+      }
+    },
+    "evilcharts": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "EvilCharts",
+        "url": "https://evilcharts.com",
+        "alive": true,
+        "operator": "legions-developer (GitHub account)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Open-source chart components; no pricing or paid tier found on site or README",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://github.com/legions-developer/evilcharts",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT · commercial: yes · attribution: license notice kept · limit: provided as-is",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/legions-developer/evilcharts",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "evilcharts",
+        "type": "Library",
+        "category": "Development",
+        "title": "EvilCharts",
+        "description": "Open-source animated and interactive React chart components for shadcn/ui, built on Recharts and Apache ECharts; copy, paste and customize.",
+        "tags": [
+          "open-source",
+          "ui-ux",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Bar, line, area, pie and radar chart components",
+          "Animated and interactive out of the box",
+          "Built on Recharts and Apache ECharts",
+          "Styled for shadcn/ui; copy-paste workflow",
+          "MIT-licensed repository"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-16: no Simple Icons match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated scam/shutdown search; repo has 137 commits and ~3.1k stars shown on site"
+      },
+      "sources": [
+        {
+          "url": "https://evilcharts.com",
+          "date": "2026-10-16",
+          "note": "description, stack"
+        },
+        {
+          "url": "https://github.com/legions-developer/evilcharts",
+          "date": "2026-10-16",
+          "note": "MIT license, chart types"
+        }
+      ],
+      "unverified": [
+        "site itself states no license or pricing; MIT taken from GitHub sidebar only",
+        "operator is a GitHub user, real name unknown",
+        "last commit date not shown",
+        "no dedicated safety search run"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/evilcharts.md",
+        "lint": "pass"
+      }
+    },
+    "exactly": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Exactly",
+        "url": "https://exactly.ai",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "5 free credits per day, 1 free style training; default/trial models 1 credit per image, premium models 2; no commercial license, no watermark-free export, no video, editing, 8K, vectorization or API on free",
+        "paidFrom": "e studio seat 80 GBP/month (240 credits/month); on-brand style priced per style",
+        "evidence": {
+          "url": "https://exactly.ai/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: no on free tier (commercial license comes with paid on-brand style) · attribution: n/a · limit: free output watermarked",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://exactly.ai/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "exactly-ai",
+        "type": "AI Tool",
+        "category": "Design",
+        "title": "Exactly",
+        "description": "AI image platform where brands train private custom models on their own visuals to generate, edit and animate on-brand images; daily free credits.",
+        "tags": [
+          "ai-tool",
+          "graphic-design",
+          "visual-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Train a private model (style) on your brand's images",
+          "Generate on-brand visuals with several AI models",
+          "Free tier with 5 credits per day",
+          "Paid plans add editing, vectorization, 8K and a commercial license",
+          "Style sharing across a team"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-16: no Simple Icons match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated scam/shutdown search run"
+      },
+      "sources": [
+        {
+          "url": "https://exactly.ai",
+          "date": "2026-10-16",
+          "note": "product description, plans"
+        },
+        {
+          "url": "https://exactly.ai/pricing",
+          "date": "2026-10-16",
+          "note": "free tier limits, FAQ credits"
+        }
+      ],
+      "unverified": [
+        "operator company name not read",
+        "home page mentioned a free demo of up to 1,000 watermarked images; pricing page did not mention it",
+        "no dedicated safety search run",
+        "free-tier permanence inferred from FAQ, word permanent not used"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/exactly-ai.md",
+        "lint": "pass"
+      }
+    },
+    "excaliclaw": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Pricing and free-tier limits not readable (pricing page returned title only, likely JS); operator unnamed; only a third-party aggregator labels it freemium.",
+      "site": {
+        "name": "ExcaliClaw",
+        "url": "https://excaliclaw.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://excaliclaw.com/pricing",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": "Not stated",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://excaliclaw.com",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "excaliclaw",
+        "type": "AI Tool",
+        "category": "Design",
+        "title": "ExcaliClaw",
+        "description": "Browser workspace for organizing and co-editing hand-drawn diagrams, with MCP tools so AI agents like Claude and Cursor can draw alongside you.",
+        "tags": [
+          "whiteboard",
+          "collaboration",
+          "ai-tool"
+        ],
+        "relatedResources": [
+          "excalidraw",
+          "tldraw"
+        ],
+        "similarResources": [
+          "excalidraw",
+          "tldraw"
+        ],
+        "keyFeatures": [
+          "Real-time collaborative hand-drawn diagrams",
+          "Collections, persistent storage and instant search",
+          "MCP tools for AI agents to draw with you"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-16: no Simple Icons match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "suspicious",
+        "notes": "Name and concept resemble Excalidraw; independence claimed but operator unnamed; no safety search beyond one pricing search"
+      },
+      "sources": [
+        {
+          "url": "https://excaliclaw.com",
+          "date": "2026-10-16",
+          "note": "description, MCP"
+        },
+        {
+          "url": "https://excaliclaw.com/pricing",
+          "date": "2026-10-16",
+          "note": "title only"
+        },
+        {
+          "url": "https://aiindigo.com/compare/excaliclaw-vs-wix",
+          "date": "2026-10-16",
+          "note": "third-party freemium label, untrusted"
+        }
+      ],
+      "unverified": [
+        "pricing plans and free-tier limits",
+        "license/terms",
+        "operator",
+        "relationship to Excalidraw (branding)",
+        "safety"
+      ],
+      "injectionSeen": null
+    },
+    "experience-japan-pictograms": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Free pictogram set by Nippon Design Center, but download terms prohibit sales use and changing pictogram shapes; full /terms page not read. Owner to decide listing and type/category.",
+      "site": {
+        "name": "Experience Japan Pictograms",
+        "url": "https://experience-japan.info",
+        "alive": true,
+        "operator": "Nippon Design Center"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Pictograms free to download and use without asking permission, subject to terms (sales use prohibited in principle; shape changes prohibited; color changes allowed)",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://experience-japan.info/download",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Custom terms of use · commercial: yes for most uses, sales use generally prohibited · attribution: optional (requested credit: 素材提供：日本デザインセンター／EXPERIENCE JAPAN PICTOGRAMS) · no shape changes",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://experience-japan.info/download",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search; site news dated 2026-03-31 shows it is maintained"
+      },
+      "sources": [
+        {
+          "url": "https://experience-japan.info",
+          "date": "2026-10-16",
+          "note": "what it is, operator, news dates"
+        },
+        {
+          "url": "https://experience-japan.info/download",
+          "date": "2026-10-16",
+          "note": "usage terms summary"
+        }
+      ],
+      "unverified": [
+        "full terms (利用規約) at /terms not read",
+        "no dedicated safety search",
+        "tags/category not chosen"
+      ],
+      "injectionSeen": null
+    },
+    "experimently": {
+      "researchedOn": "2026-10-16",
+      "verdict": "needs-owner",
+      "verdictReason": "Home page shows a $0/mo Free plan (1 project, 2 variants, 200 form submissions/mo) but its permanence was not confirmed and terms were not read; owner to confirm before tier B.",
+      "site": {
+        "name": "Experimently",
+        "url": "https://www.experimently.io",
+        "alive": true,
+        "operator": "Experimently, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free: $0/mo, 1 project, 2 page variants per project, 200 form submissions/mo, subdomain hosting; not described as a trial, no time limit stated",
+        "paidFrom": "Starter $19/mo (3 projects, 3 variants, 3 custom domains, 500 submissions/mo, CSV export); Pro $49/mo",
+        "evidence": {
+          "url": "https://www.experimently.io",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "proprietary SaaS · terms not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.experimently.io",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "One search found only a directory listing and one possibly promotional blog review; no scam hits"
+      },
+      "sources": [
+        {
+          "url": "https://www.experimently.io",
+          "date": "2026-10-16",
+          "note": "product, plans, operator"
+        },
+        {
+          "url": "https://aiindigo.com/blog/experimently-review-2026-the-lean-marketer-s-toolkit",
+          "date": "2026-10-16",
+          "note": "second-hand description (promotional)"
+        }
+      ],
+      "unverified": [
+        "free plan permanence",
+        "terms of service",
+        "commercial-use answer",
+        "icon, tags, related not worked out"
+      ],
+      "injectionSeen": null
+    },
+    "eyecandy": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "HTTP 403 Forbidden on https://eyecannndy.com for the fetcher (block or bot check); not bypassed.",
+      "site": {
+        "name": "Eyecandy",
+        "url": "https://eyecannndy.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://eyecannndy.com",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "not checked"
+      },
+      "sources": [
+        {
+          "url": "https://eyecannndy.com",
+          "date": "2026-10-16",
+          "note": "HTTP 403 on fetch"
+        }
+      ],
+      "unverified": [
+        "everything: site unreadable; directory label only says Free"
+      ],
+      "injectionSeen": null
+    },
+    "fabrie": {
+      "researchedOn": "2026-10-16",
+      "verdict": "blocked",
+      "verdictReason": "https://www.fabrie.com returned HTTP 522 on two attempts (origin unreachable); may be dead. Retry later.",
+      "site": {
+        "name": "Fabrie",
+        "url": "https://www.fabrie.com",
+        "alive": false,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.fabrie.com",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "not checked"
+      },
+      "sources": [
+        {
+          "url": "https://www.fabrie.com",
+          "date": "2026-10-16",
+          "note": "HTTP 522 twice"
+        }
+      ],
+      "unverified": [
+        "alive status",
+        "pricing",
+        "everything else"
+      ],
+      "injectionSeen": null
+    },
+    "faces": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Site states Faces is sunsetting and will stay online only until December 31, 2026.",
+      "site": {
+        "name": "Faces",
+        "url": "https://faces.app",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://faces.app",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://faces.app",
+          "date": "2026-10-16",
+          "note": "sunsetting notice; pricing page not read"
+        }
+      ],
+      "unverified": [
+        "pricing page /pricing not read",
+        "operator not named on home page"
+      ],
+      "injectionSeen": null
+    },
+    "factors-ai": {
+      "researchedOn": "2026-10-16",
+      "verdict": "skip",
+      "verdictReason": "Pricing page shows only a free trial of Lite (then $199/mo); no permanent free plan. B2B enterprise GTM analytics.",
+      "site": {
+        "name": "Factors.ai",
+        "url": "https://www.factors.ai",
+        "alive": true,
+        "operator": "Factors.ai"
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "Lite $199/mo after trial; Basic $6K/yr; Growth $20K/yr; Enterprise from $30K/yr (as summarized from pricing page)",
+        "evidence": {
+          "url": "https://www.factors.ai/pricing",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/factors-ai/",
+          "date": "2026-10-16",
+          "note": "resolved site link; directory claims free plan (1-month retention, 200 companies)"
+        },
+        {
+          "url": "https://www.factors.ai/pricing",
+          "date": "2026-10-16",
+          "note": "trial only, plan prices"
+        }
+      ],
+      "unverified": [
+        "directory 'free plan' claim conflicts with pricing page; trial length not stated",
+        "no dedicated safety result"
+      ],
+      "injectionSeen": null
+    },
+    "fake-name-generator": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Fake Name Generator",
+        "url": "https://www.fakenamegenerator.com",
+        "alive": true,
+        "operator": "Corban Works, LLC"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free bulk orders of up to 100,000 identities as CSV, Excel, JSON or SQL; API 100 a day free",
+        "paidFrom": "API credit packs (prices not shown on home page)",
+        "evidence": {
+          "url": "https://www.fakenamegenerator.com",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Generated identities: choose CC BY 4.0, CC BY-SA 4.0 or GPL-3.0-or-later · commercial: yes · attribution: required (credit Fake Name Generator, link where possible) · limit: site code, design, text and names/logos not licensed; GeoNames CC BY 4.0 credit for addresses",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.fakenamegenerator.com/license.php",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "fake-name-generator",
+        "type": "Tool",
+        "category": "Development",
+        "title": "Fake Name Generator",
+        "description": "Generates fictional identities (names, addresses, and more) for testing software, seeding databases and teaching, with free bulk export.",
+        "tags": [
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Realistic fictional identities in many languages",
+          "Free bulk orders up to 100,000 identities",
+          "Export as CSV, Excel, JSON or SQL",
+          "API with 100 free identities a day",
+          "Identities licensed for commercial use with credit"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Search found no scam/shutdown/acquisition hits; domain created 2006 per Scam Detector (weak evidence)"
+      },
+      "sources": [
+        {
+          "url": "https://www.fakenamegenerator.com",
+          "date": "2026-10-16",
+          "note": "description, free limits, API"
+        },
+        {
+          "url": "https://www.fakenamegenerator.com/license.php",
+          "date": "2026-10-16",
+          "note": "license, operator"
+        }
+      ],
+      "unverified": [
+        "terms of service not read",
+        "paid credit pack prices",
+        "only tag 'web' fits existing tags; a 'test-data' tag may be wanted (ask owner)",
+        "'37 languages' from directory, not confirmed on site"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/fake-name-generator.md",
+        "lint": "pass"
+      }
+    },
+    "fakeclients": {
+      "researchedOn": "2026-10-16",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "FakeClients",
+        "url": "https://fakeclients.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Standard random brief generator, three free written briefs, posting work for feedback; includes ads",
+        "paidFrom": "Pro $9/mo monthly, or $5/mo on yearly (as listed); lifetime listed as $159 but checkout says $59 (discrepancy)",
+        "evidence": {
+          "url": "https://fakeclients.com/upgrade",
+          "date": "2026-10-16",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Not read · commercial: unknown · attribution: unknown · terms not reviewed",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://fakeclients.com",
+          "date": "2026-10-16",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "fakeclients",
+        "type": "Website",
+        "category": "Design",
+        "title": "FakeClients",
+        "description": "Practice design with randomly generated client briefs for logo, web, UI, UX, illustration and more, then post your work for feedback.",
+        "tags": [
+          "graphic-design",
+          "inspiration",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "logoipsum"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Random mock client briefs across nine categories",
+          "Logo, web, graphic, illustration, painting, UX, UI, poses and writing briefs",
+          "Free generator with unlimited prompts",
+          "Feedback forum for posted work",
+          "Pro adds longer briefs and 200+ written briefs, no ads"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-16"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Safety search returned no hits for FakeClients"
+      },
+      "sources": [
+        {
+          "url": "https://fakeclients.com",
+          "date": "2026-10-16",
+          "note": "features, free vs Pro"
+        },
+        {
+          "url": "https://fakeclients.com/upgrade",
+          "date": "2026-10-16",
+          "note": "Pro prices"
+        }
+      ],
+      "unverified": [
+        "terms/privacy not read",
+        "operator not named",
+        "lifetime price discrepancy $159 vs $59"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/fakeclients.md",
+        "lint": "pass"
+      }
     }
   }
 }
