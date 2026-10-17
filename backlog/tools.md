@@ -10,13 +10,13 @@ Generated 2026-10-17 by `scripts/backlog-build.mjs` from `backlog/tools-list.jso
 
 | Status | Count | Meaning |
 |---|---:|---|
-| `todo` | 977 | in the research queue (free / freemium / beta) |
+| `todo` | 937 | in the research queue (free / freemium / beta) |
 | `in-rl` | 33 | already in ResourcesList (matched by site or slug) — skip, maybe use for related/similar links |
 | `deferred-paid` | 217 | labelled **Paid** only — parked |
 | `deferred-trial` | 232 | labelled **Free Trial** only — parked until a real free tier is confirmed |
-| `researching` / `researched` / `drafted` / `rejected` / `blocked` | 0 / 20 / 345 / 110 / 345 | set by research sessions |
+| `researching` / `researched` / `drafted` / `rejected` / `blocked` | 0 / 21 / 365 / 115 / 359 | set by research sessions |
 
-Queue by priority: **P1** 1 (free/freemium, listed on 2+ pages) · **P2** 933 (free/freemium, 1 page) · **P3** 43 (beta).
+Queue by priority: **P1** 1 (free/freemium, listed on 2+ pages) · **P2** 893 (free/freemium, 1 page) · **P3** 43 (beta).
 
 ## What happens if a tool is not processed (and why)
 
@@ -792,49 +792,89 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Impeccable | impeccable.style | Free | 1 | P2 | drafted |
 | Impossible Images | impossibleimages.ai | Free | 1 | P2 | blocked |
 | Inboxflows | inboxflows.com | Free + Paid | 1 | P2 | blocked |
-| Inclusive Design Principles | inclusivedesignprinciples.info | Free | 1 | P2 | researched |
+| Inclusive Design Principles | inclusivedesignprinciples.info | Free | 1 | P2 | drafted |
 | InclusiveColors | inclusivecolors.com | Free | 1 | P2 | blocked |
-| Infinite Canvas | infinitecanvas.tools | Free | 1 | P2 | researched |
-| Infinity Maps | infinitymaps.io | Freemium | 1 | P2 | researched |
+| Infinite Canvas | infinitecanvas.tools | Free | 1 | P2 | drafted |
+| Infinity Maps | infinitymaps.io | Freemium | 1 | P2 | drafted |
+| Ingradients | ingradients.net | Free + Paid | 1 | P2 | researched |
+| Inkscape | inkscape.org | Free | 1 | P2 | blocked |
+| InShot | inshot.com | Free + Paid | 1 | P2 | blocked |
+| Inspiration Grid | theinspirationgrid.com | Free | 1 | P2 | researched |
 | Inspotype | inspotype.com | Free + Paid | 1 | P2 | blocked |
-| Instatus | via Digitool | Free tier listed | 1 | P2 | researched |
+| Instatus | via Digitool | Free tier listed | 1 | P2 | drafted |
 | Integrately | integrately.com | Freemium | 1 | P2 | blocked |
 | Integrity | integrity.sh | Beta | 1 | P3 | drafted |
 | Inter | rsms.me | Free | 1 | P2 | drafted |
-| Intercom Blog | intercom.com | Free | 1 | P2 | researched |
-| Interface Index | interface-index.com | Free | 1 | P2 | researched |
+| Intercom Blog | intercom.com | Free | 1 | P2 | drafted |
+| Interface Index | interface-index.com | Free | 1 | P2 | drafted |
 | Invideo AI | invideo.sjv.io | Freemium | 2 | P1 | drafted |
 | Invoko | invoko.ai | Beta | 1 | P3 | rejected |
-| Ionicons | ionic.io |  | 1 | P3 | researched |
+| Ionicons | ionic.io |  | 1 | P3 | drafted |
 | iOS Icon Gallery | iosicongallery.com | Free | 1 | P2 | blocked |
 | IP as Logo | ipaslogo.com | Free | 1 | P2 | blocked |
-| Ira Design | iradesign.io | Free | 1 | P2 | researched |
+| Ira Design | iradesign.io | Free | 1 | P2 | drafted |
 | Irid | irid.app | Free | 1 | P2 | blocked |
 | Isocons | isocons.app |  | 1 | P3 | blocked |
 | It’s Nice That | itsnicethat.com | Free | 1 | P2 | blocked |
-| ITG | itg.digital | Freemium | 1 | P2 | researched |
-| Its Hover | itshover.com | Free | 1 | P2 | researched |
+| ITG | itg.digital | Freemium | 1 | P2 | drafted |
+| Its Hover | itshover.com | Free | 1 | P2 | drafted |
 | IxDF | ixdf.org | Free + Paid | 1 | P2 | rejected |
 | IxDF Blog | ixdf.org | Free | 1 | P2 | blocked |
 | IxDF Community Meetups | ixdf.org | Free | 1 | P2 | blocked |
 | Jesse Showalter | youtube.com | Free | 1 | P2 | blocked |
 | Jetboost | jetboost.io | Freemium | 1 | P2 | blocked |
-| JetBrains Mono | jetbrains.com | Free | 1 | P2 | researched |
+| JetBrains Mono | jetbrains.com | Free | 1 | P2 | drafted |
 | Jev | typesafe.ai | Beta | 1 | P3 | rejected |
-| Jimdo | imp.i201009.net | Freemium | 1 | P2 | researched |
-| Jira | atlassian.com | Freemium | 1 | P2 | researched |
-| Jitter | jitter.video | Freemium | 1 | P2 | researched |
+| Jimdo | imp.i201009.net | Freemium | 1 | P2 | drafted |
+| Jira | atlassian.com | Freemium | 1 | P2 | drafted |
+| Jitter | jitter.video | Freemium | 1 | P2 | drafted |
 | JoggAI | jogg.ai | Freemium | 1 | P2 | rejected |
 | Joi Planner | via Digitool | Free tier listed | 1 | P2 | blocked |
 | Jony Eye | figma.com | Free | 1 | P2 | blocked |
-| Jotform Apps | jotform.com | Freemium | 1 | P2 | researched |
-| JPEG Compress | jpegcompress.com | Free | 1 | P2 | researched |
-| Just a Design List | justadesignlist.com | Free | 1 | P2 | researched |
-| Just Color Picker | annystudio.com | Free | 1 | P2 | researched |
-| Justinmind | justinmind.com | Freemium | 1 | P2 | researched |
+| Jotform Apps | jotform.com | Freemium | 1 | P2 | drafted |
+| JPEG Compress | jpegcompress.com | Free | 1 | P2 | drafted |
+| Just a Design List | justadesignlist.com | Free | 1 | P2 | drafted |
+| Just Color Picker | annystudio.com | Free | 1 | P2 | drafted |
+| Justinmind | justinmind.com | Freemium | 1 | P2 | drafted |
 | Kaboompics | kaboompics.com | Free | 1 | P2 | blocked |
-| Kapwing | kapwing.com | Freemium | 1 | P2 | researched |
+| Kapwing | kapwing.com | Freemium | 1 | P2 | drafted |
+| Kardow | via Digitool | Free tier listed | 1 | P2 | rejected |
+| Kdenlive | kdenlive.org | Free | 1 | P2 | researched |
+| Keynote | apple.com | Freemium | 1 | P2 | blocked |
+| Keysearch | via Digitool | Free tier listed | 1 | P2 | rejected |
+| Khroma | khroma.co | Free | 1 | P2 | blocked |
+| Kigen Color Generator | kigen.design | Free | 1 | P2 | blocked |
+| Kimi | kimi.com | Free + Paid | 1 | P2 | blocked |
+| Kinsta | via Digitool | Free tier listed | 1 | P2 | rejected |
+| Kirki | kirki.com | Freemium | 1 | P2 | researched |
+| Kisto | kisto.app | Free | 1 | P2 | researched |
+| Kit | kit.com | Freemium | 1 | P2 | researched |
+| Kitbitz | kitbitz.art | Free | 1 | P2 | blocked |
+| Kite | via Digitool | Free tier listed | 1 | P2 | researched |
 | Kittl | kittl.pxf.io | Freemium | 2 | P1 | drafted |
+| Kive | kive.ai | Freemium | 1 | P2 | researched |
+| Kivicube | kivicube.com | Freemium | 1 | P2 | blocked |
+| Klap | via Digitool | Free tier listed | 1 | P2 | rejected |
+| Klaviyo | klaviyo.com | Freemium | 1 | P2 | researched |
+| Kling AI | klingai.com | Freemium | 1 | P2 | blocked |
+| Koala UI | via Digitool | Free tier listed | 1 | P2 | researched |
+| Kolors | kolors.dev | Free | 1 | P2 | blocked |
+| Kombai | kombai.com | Freemium | 1 | P2 | researched |
+| kott | kott.io | Freemium | 1 | P2 | blocked |
+| Krea | krea.ai | Freemium | 1 | P2 | researched |
+| Ladybug | theladybug.app | Freemium | 1 | P2 | researched |
+| Landbook | land-book.com | Free + Paid | 1 | P2 | blocked |
+| Landing Love | landing.love | Free | 1 | P2 | researched |
+| Landing Pages Explained | landingpagesexplained.com | Free | 1 | P2 | researched |
+| Landingfolio | landingfolio.com | Freemium | 1 | P2 | researched |
+| Landings | landings.dev | Free | 1 | P2 | researched |
+| Lapa Ninja | lapa.ninja | Free + Paid | 1 | P2 | blocked |
+| Laudable Apps | laudableapps.com | Free | 1 | P2 | researched |
+| Laws of UX | lawsofux.com | Free | 1 | P2 | researched |
+| Layers | layers.jamiemill.com | Free | 1 | P2 | researched |
+| Leadership Folios | leadershipfolios.com | Free | 1 | P2 | researched |
+| LearnWorlds | via Digitool | Free tier listed | 1 | P2 | rejected |
+| Lenny's Newsletter | lennysnewsletter.com | Free | 1 | P2 | blocked |
 | Logoipsum | logoipsum.com | Free / Free tier listed | 2 | P1 | drafted |
 | Lovable | lovablelabs.pxf.io | Freemium | 2 | P1 | drafted |
 | Milanote | milanote.com | Freemium | 2 | P1 | drafted |
@@ -857,17 +897,12 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Visily | visily.ai | Freemium | 2 | P1 | drafted |
 | Wispr Flow | ref.wisprflow.ai | Free tier listed / Freemium | 2 | P1 | drafted |
 
-## Research queue (977)
+## Research queue (937)
 
-### Best AI Design Tools for Designers (121)
+### Best AI Design Tools for Designers (116)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Kimi | kimi.com | Free + Paid | 1 | P2 |
-| Kive | kive.ai | Freemium | 1 | P2 |
-| Kling AI | klingai.com | Freemium | 1 | P2 |
-| Krea | krea.ai | Freemium | 1 | P2 |
-| Layers | layers.jamiemill.com | Free | 1 | P2 |
 | Leonardo | leonardo.ai | Freemium | 1 | P2 |
 | Limora | limora.ai | Freemium | 1 | P2 |
 | Loki | loki.build | Freemium | 1 | P2 |
@@ -985,14 +1020,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | PromptBase | promptbase.com |  | 1 | P3 |
 | Stitch | stitch.withgoogle.com | Beta | 1 | P3 |
 
-### Best Color Tools and Inspiration for Designers (34)
+### Best Color Tools and Inspiration for Designers (30)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Ingradients | ingradients.net | Free + Paid | 1 | P2 |
-| Khroma | khroma.co | Free | 1 | P2 |
-| Kigen Color Generator | kigen.design | Free | 1 | P2 |
-| Kolors | kolors.dev | Free | 1 | P2 |
 | Leonardo | leonardocolor.io | Free | 1 | P2 |
 | Material Design Color System | m2.material.io | Free | 1 | P2 |
 | Meditations in Color | meditationsincolor.com | Free | 1 | P2 |
@@ -1024,11 +1055,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | WebGradients | webgradients.com | Free | 1 | P2 |
 | Who Can Use | whocanuse.com | Free | 1 | P2 |
 
-### Best Design Blogs & Magazines for Designers (36)
+### Best Design Blogs & Magazines for Designers (35)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Lenny's Newsletter | lennysnewsletter.com | Free | 1 | P2 |
 | Linear Blog | linear.app | Free | 1 | P2 |
 | Lovers Magazine | loversmagazine.com | Free | 1 | P2 |
 | Made by Folk | madebyfolk.com | Free | 1 | P2 |
@@ -1088,17 +1118,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | WeLoveProduct | weloveproduct.co | Freemium | 1 | P2 |
 | Woody | woodyjobs.com | Freemium | 1 | P2 |
 
-### Best Design Tools Across Disciplines (118)
+### Best Design Tools Across Disciplines (111)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Inkscape | inkscape.org | Free | 1 | P2 |
-| InShot | inshot.com | Free + Paid | 1 | P2 |
-| Kdenlive | kdenlive.org | Free | 1 | P2 |
-| Keynote | apple.com | Freemium | 1 | P2 |
-| Kivicube | kivicube.com | Freemium | 1 | P2 |
-| kott | kott.io | Freemium | 1 | P2 |
-| Ladybug | theladybug.app | Freemium | 1 | P2 |
 | Letterbox | letterbox.sh | Free | 1 | P2 |
 | Lightmeter | shotonlightmeter.com | Freemium | 1 | P2 |
 | Lightworks | lwks.com | Freemium | 1 | P2 |
@@ -1342,12 +1365,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Wannathis Mockups | wannathis.one | Free + Paid | 1 | P2 |
 | WhiteUI.Store | gumroad.com | Free + Paid | 1 | P2 |
 
-### Best No-Code Website Builders (63)
+### Best No-Code Website Builders (61)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Kirki | kirki.com | Freemium | 1 | P2 |
-| Kombai | kombai.com | Freemium | 1 | P2 |
 | libraries.dev | libraries.dev | Free + Paid | 1 | P2 |
 | Linguana | linguana.io | Freemium | 1 | P2 |
 | Liquid Gooey | gooey.jakubantalik.com | Free | 1 | P2 |
@@ -1410,11 +1431,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Revyme | revyme.com | Beta | 1 | P3 |
 | Zoah | zoah.com | Beta | 1 | P3 |
 
-### Best Open Source Illustration Libraries (49)
+### Best Open Source Illustration Libraries (48)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Kitbitz | kitbitz.art | Free | 1 | P2 |
 | Lost + Taken | lostandtaken.com | Free | 1 | P2 |
 | Memojis | figma.com | Free | 1 | P2 |
 | Mesh | morflax.com | Freemium | 1 | P2 |
@@ -1518,20 +1538,11 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Zen Flowchart | zenflowchart.com | Freemium | 1 | P2 |
 | Stratify | trystratify.com | Beta | 1 | P3 |
 
-### Design Inspiration Sites for UI, Web, Graphic & Branding (99)
+### Design Inspiration Sites for UI, Web, Graphic & Branding (90)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
 | Nicelydone | nicelydone.club | Free Trial / Free tier listed | 2 | P1 |
-| Inspiration Grid | theinspirationgrid.com | Free | 1 | P2 |
-| Kisto | kisto.app | Free | 1 | P2 |
-| Landbook | land-book.com | Free + Paid | 1 | P2 |
-| Landing Love | landing.love | Free | 1 | P2 |
-| Landingfolio | landingfolio.com | Freemium | 1 | P2 |
-| Landings | landings.dev | Free | 1 | P2 |
-| Lapa Ninja | lapa.ninja | Free + Paid | 1 | P2 |
-| Laudable Apps | laudableapps.com | Free | 1 | P2 |
-| Leadership Folios | leadershipfolios.com | Free | 1 | P2 |
 | Loadmore | loadmo.re | Free | 1 | P2 |
 | Logggos | logggos.club | Free | 1 | P2 |
 | Logo System | logosystem.co | Free | 1 | P2 |
@@ -1661,17 +1672,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Vidsplay | vidsplay.com | Free | 1 | P2 |
 | ZapSplat | zapsplat.com | Freemium | 1 | P2 |
 
-### Free Tools (93)
+### Free Tools (86)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Kardow | via Digitool | Free tier listed | 1 | P2 |
-| Keysearch | via Digitool | Free tier listed | 1 | P2 |
-| Kinsta | via Digitool | Free tier listed | 1 | P2 |
-| Kite | via Digitool | Free tier listed | 1 | P2 |
-| Klap | via Digitool | Free tier listed | 1 | P2 |
-| Koala UI | via Digitool | Free tier listed | 1 | P2 |
-| LearnWorlds | via Digitool | Free tier listed | 1 | P2 |
 | Lifestack | via Digitool | Free tier listed | 1 | P2 |
 | Lindy | via Digitool | Free tier listed (Digitool "Premium" badge) | 1 | P2 |
 | LinkedinHeadshots | via Digitool | Free tier listed | 1 | P2 |
@@ -1759,12 +1763,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Xano | via Digitool | Free tier listed | 1 | P2 |
 | Xero | via Digitool | Free tier listed (Digitool "Premium" badge) | 1 | P2 |
 
-### Learn UI/UX Design: Courses, Guides & Best Practices (50)
+### Learn UI/UX Design: Courses, Guides & Best Practices (48)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Landing Pages Explained | landingpagesexplained.com | Free | 1 | P2 |
-| Laws of UX | lawsofux.com | Free | 1 | P2 |
 | Lessons of Design | lessons.design | Free | 1 | P2 |
 | Mizko | youtube.com | Free | 1 | P2 |
 | Monowi: Product Design Exercises | monowi.notion.site | Free | 1 | P2 |
@@ -1814,12 +1816,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | uxtoast | uxtoast.com | Free | 1 | P2 |
 | We are Colorblind | wearecolorblind.com | Free | 1 | P2 |
 
-### Marketing Tools for Designers & Creative Teams (59)
+### Marketing Tools for Designers & Creative Teams (57)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Kit | kit.com | Freemium | 1 | P2 |
-| Klaviyo | klaviyo.com | Freemium | 1 | P2 |
 | Linktree | linktr.ee | Freemium | 1 | P2 |
 | Lnk.Bio | lnk.bio | Freemium | 1 | P2 |
 | Loops | loops.so | Freemium | 1 | P2 |

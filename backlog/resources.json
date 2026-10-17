@@ -57614,6 +57614,3204 @@
         "file": "src/content/resources/kapwing.md",
         "lint": "pass"
       }
+    },
+    "ingradients": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Ingradients",
+        "url": "https://ingradients.net",
+        "alive": true,
+        "operator": "Gilbert Pellegrom"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Standard License assets: free for unlimited personal and non-commercial projects; commercial use needs Pro License",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://ingradients.net/standard-license",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Standard License · commercial: no · attribution: not required (appreciated) · no resale or redistribution; Pro License (paid) allows commercial use, max 30 assets per project",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://ingradients.net/pro-license",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "ingradients",
+        "type": "Stock Media",
+        "category": "Design",
+        "title": "Ingradients",
+        "description": "Hand-picked mesh gradient collections for designs, websites, flyers, apps and wallpapers, free for personal use with a paid Pro license for commercial work.",
+        "tags": [
+          "graphic-design",
+          "color-palette",
+          "visual-design",
+          "royalty-free"
+        ],
+        "relatedResources": [
+          "anygradient",
+          "design-gradients",
+          "coolhue"
+        ],
+        "similarResources": [
+          "grabient",
+          "gradient-art"
+        ],
+        "keyFeatures": [
+          "Curated mesh gradient bundles such as Soft Rainbow, Purple Haze, Bright Neon and Dark Neon",
+          "Standard License free for personal and non-commercial projects",
+          "Pro License for client and commercial projects, up to 30 assets per project",
+          "No attribution required"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-17: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "One safety search returned nothing about the site (no scam or shutdown reports found)"
+      },
+      "sources": [
+        {
+          "url": "https://ingradients.net",
+          "date": "2026-10-17",
+          "note": "collections, creator, license links"
+        },
+        {
+          "url": "https://ingradients.net/standard-license",
+          "date": "2026-10-17",
+          "note": "Standard License terms"
+        },
+        {
+          "url": "https://ingradients.net/pro-license",
+          "date": "2026-10-17",
+          "note": "Pro License terms; no price shown"
+        }
+      ],
+      "unverified": [
+        "Pro/Extended License price not shown on license pages",
+        "Whether all gradients are downloadable free or only some",
+        "royalty-free tag is an inference from license terms",
+        "icon: needs site SVG or none",
+        "no web coverage found in safety search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/ingradients.md",
+        "lint": "pass"
+      }
+    },
+    "inkscape": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "FETCH-FAIL: inkscape.org returned HTTP 403 for home, /about/ and /about/license/; not bypassed. Second-hand search: free GPL open source editor, Simple Icons has 'inkscape' (#000000); owner may list from known facts.",
+      "site": {
+        "name": "Inkscape",
+        "url": "https://inkscape.org",
+        "alive": true,
+        "operator": "Inkscape project (community)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Free and open source software per search results (not read first-party)",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://inkscape.org",
+          "date": "2026-10-17",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "GPL · commercial: yes · attribution: not required for use · most source GPL-2.0-or-later, binaries GPL-3.0-or-later",
+        "openSource": true,
+        "spdx": "GPL-3.0-or-later",
+        "evidence": {
+          "url": "https://en.wikipedia.org/wiki/Inkscape",
+          "date": "2026-10-17",
+          "confidence": "second-hand"
+        }
+      },
+      "rl": {
+        "slug": "inkscape",
+        "type": "Software",
+        "category": "Design",
+        "title": "Inkscape",
+        "description": "Free, open source vector graphics editor for illustrations, logos and SVG work on Windows, macOS and Linux.",
+        "tags": [
+          "graphic-design",
+          "open-source",
+          "linux",
+          "windows",
+          "mac"
+        ],
+        "relatedResources": [
+          "gimp",
+          "graphite"
+        ],
+        "similarResources": [
+          "graphite"
+        ],
+        "keyFeatures": [
+          "Vector drawing with SVG as native format",
+          "Free and open source under the GPL",
+          "Desktop app for Windows, macOS and Linux"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "inkscape",
+          "fillColor": "#000000",
+          "bgColor": "#ffffff",
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Well-known project; fake download sites exist, link only to inkscape.org"
+      },
+      "sources": [
+        {
+          "url": "https://inkscape.org",
+          "date": "2026-10-17",
+          "note": "HTTP 403 on WebFetch"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Inkscape",
+          "date": "2026-10-17",
+          "note": "license via web search summary (second-hand)"
+        },
+        {
+          "url": "https://bazaar.launchpad.net/~inkscape.dev/inkscape/trunk/view/head:/COPYING",
+          "date": "2026-10-17",
+          "note": "COPYING license statement via search summary"
+        }
+      ],
+      "unverified": [
+        "first-party pages unreadable (403)",
+        "platform list and feature bullets are general knowledge, not read",
+        "exact license version nuance"
+      ],
+      "injectionSeen": null
+    },
+    "inshot": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Free tier exists only per second-hand reviews (watermark + ads); official site shows no pricing and terms mention subscription/free trial only; permanence of free tier unconfirmed.",
+      "site": {
+        "name": "InShot",
+        "url": "https://inshot.com",
+        "alive": true,
+        "operator": "InShot"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free version with watermark and ads (second-hand, not on official site)",
+        "paidFrom": "Second-hand only: $3.99/month, $17.99/year, $39.99 lifetime (regional; unverified)",
+        "evidence": {
+          "url": "https://inshot.com/terms.html",
+          "date": "2026-10-17",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "Proprietary app, terms at inshot.com/terms.html · commercial: unknown · subscription removes logo and ads",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://inshot.com/terms.html",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "inshot",
+        "type": "App",
+        "category": "Filming",
+        "title": "InShot",
+        "description": "Mobile video editor for iOS and Android with captions, effects, transitions, music and stickers; the free version adds a watermark and ads.",
+        "tags": [
+          "social-media-design",
+          "video-template"
+        ],
+        "relatedResources": [
+          "kapwing",
+          "descript"
+        ],
+        "similarResources": [
+          "kapwing"
+        ],
+        "keyFeatures": [
+          "Auto captions in multiple languages",
+          "Transitions, effects and speed curve",
+          "Music library, stickers and text",
+          "Video stabilizer, cutout and tracking tools"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-17: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search warns of modded 'InShot Pro APK' malware sites; official site is inshot.com"
+      },
+      "sources": [
+        {
+          "url": "https://inshot.com",
+          "date": "2026-10-17",
+          "note": "features, platforms, no pricing"
+        },
+        {
+          "url": "https://inshot.com/terms.html",
+          "date": "2026-10-17",
+          "note": "subscription, free trial, logo/ads removal"
+        },
+        {
+          "url": "https://apps.apple.com/se/app/inshot-video-editor-musik/id997362197",
+          "date": "2026-10-17",
+          "note": "App Store listing surfaced by search; pricing via search summary only"
+        }
+      ],
+      "unverified": [
+        "free tier permanence and watermark first-party",
+        "prices (third-party reviews)",
+        "tags: no better video-editor tag exists"
+      ],
+      "injectionSeen": null
+    },
+    "inspiration-grid": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Inspiration Grid",
+        "url": "https://theinspirationgrid.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Articles freely readable; no paywall or membership seen on home page",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://theinspirationgrid.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Editorial site; content belongs to Inspiration Grid and featured creators · link only",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://theinspirationgrid.com",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "inspiration-grid",
+        "type": "Website",
+        "category": "Design",
+        "title": "Inspiration Grid",
+        "description": "Daily design inspiration blog covering graphic design, illustration, photography, branding, packaging, architecture and UX.",
+        "tags": [
+          "inspiration",
+          "visual-design",
+          "graphic-design"
+        ],
+        "relatedResources": [
+          "design-milk",
+          "designspiration",
+          "design-observer"
+        ],
+        "similarResources": [
+          "design-milk",
+          "designspiration"
+        ],
+        "keyFeatures": [
+          "Daily featured projects across design disciplines",
+          "Categories: branding, logo, packaging, UX and UI, typography, illustration",
+          "News and resources section with reviews",
+          "Newsletter signup"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-17: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No safety search run; newest post dated 2026-10-14"
+      },
+      "sources": [
+        {
+          "url": "https://theinspirationgrid.com",
+          "date": "2026-10-17",
+          "note": "nav categories, activity, no paywall"
+        }
+      ],
+      "unverified": [
+        "operator not named",
+        "About page not read",
+        "no pricing/terms page read",
+        "no dedicated safety search",
+        "home teasers had repeated unrelated text"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/inspiration-grid.md",
+        "lint": "pass"
+      }
+    },
+    "kardow": {
+      "researchedOn": "2026-10-17",
+      "verdict": "skip",
+      "verdictReason": "Paid only: Starter $79/mo, Pro $179/mo, Scale $379/mo monthly; 14-day free trial (card required); no permanent free plan.",
+      "site": {
+        "name": "Kardow",
+        "url": "https://kardow.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "$79/month (Starter, monthly billing; $59/month billed yearly)",
+        "evidence": {
+          "url": "https://kardow.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/kardow/",
+          "date": "2026-10-17",
+          "note": "site domain inferred from screenshot source; listed there as Paid"
+        },
+        {
+          "url": "https://kardow.com",
+          "date": "2026-10-17",
+          "note": "pricing table, 14-day trial, no free plan"
+        }
+      ],
+      "unverified": [
+        "legal operator not named",
+        "no safety search run (screened out on pricing)",
+        "domain taken from Digitool screenshot URL, not a direct link"
+      ],
+      "injectionSeen": null
+    },
+    "kdenlive": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Kdenlive",
+        "url": "https://kdenlive.org",
+        "alive": true,
+        "operator": "KDE Community (trademarks held by KDE e.V.)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Fully free and open source video editor for Linux, Windows, macOS and BSD; donations optional",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://kdenlive.org",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "GNU GPLv3 per repository page · commercial: yes (GPL permits it; not separately stated by site) · attribution: not required for output · limit: GPL terms apply to the software and its modifications; Kdenlive name and logo are trademarks",
+        "openSource": true,
+        "spdx": "GPL-3.0-only",
+        "evidence": {
+          "url": "https://invent.kde.org/multimedia/kdenlive",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "kdenlive",
+        "type": "Software",
+        "category": "Filming",
+        "title": "Kdenlive",
+        "description": "Free, open source non-linear video editor from the KDE community with multicam, proxies, keyframes, color grading and automatic transcription.",
+        "tags": [
+          "open-source",
+          "linux",
+          "windows",
+          "mac"
+        ],
+        "relatedResources": [
+          "handbrake",
+          "blender"
+        ],
+        "similarResources": [
+          "invideo-ai"
+        ],
+        "keyFeatures": [
+          "Imports almost any audio and video format, with proxy clips and multiple bins",
+          "Multicam, 3-point editing, nested sequences and markers",
+          "Effects, transitions and keyframes, with LUT support and color scopes",
+          "Audio mixer, voiceover recording and spectrum display",
+          "Automatic subtitle transcription and Glaxnimate motion graphics integration",
+          "Runs on Linux, Windows, macOS and BSD"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "kdenlive",
+          "fillColor": "#527EB2",
+          "bgColor": "#ffffff",
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No shutdown or acquisition found. Team warned of fake lookalike sites (Lightmoon malware 2022) and fake sponsorship emails (2024); official downloads only from kdenlive.org, distros or Flathub. One unconfirmed 2026 forum report of a Defender flag tied to a possible third-party add-on."
+      },
+      "sources": [
+        {
+          "url": "https://kdenlive.org",
+          "date": "2026-10-17",
+          "note": "description, features, platforms, operator, release 26.08.2 on 2026-10-13"
+        },
+        {
+          "url": "https://invent.kde.org/multimedia/kdenlive",
+          "date": "2026-10-17",
+          "note": "license GNU GPLv3"
+        },
+        {
+          "url": "https://kdenlive.org/news/2022/lightmoon-is-maleware/",
+          "date": "2026-10-17",
+          "note": "seen in safety search: fake site warning"
+        }
+      ],
+      "unverified": [
+        "whether license is GPL-3.0-only or or-later not stated",
+        "commercial use for output not stated on site, inferred from GPL",
+        "pricing page not separate; free stated on home page",
+        "related slugs handbrake/blender/invideo-ai are drafts or in review"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/kdenlive.md",
+        "lint": "pass"
+      }
+    },
+    "keynote": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Keynote is proprietary Apple software; apple.com/keynote now redirects to a support page that mentions an Apple Creator Studio subscription and states no price. Free app download and iCloud web version only seen in search snippets of Apple support pages; permanence of the free tier not confirmed first-party. Owner to decide.",
+      "site": {
+        "name": "Keynote",
+        "url": "https://www.apple.com/keynote/",
+        "alive": true,
+        "operator": "Apple Inc."
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Apple support text found via search describes the app as a free App Store download and Keynote for iCloud as a browser app on Mac or Windows with an Apple Account; not confirmed on the current first-party page",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://support.apple.com/keynote",
+          "date": "2026-10-17",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "Proprietary Apple software · commercial: unknown · attribution: n/a",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://support.apple.com/keynote",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Official Apple site; no dedicated scam search"
+      },
+      "sources": [
+        {
+          "url": "https://www.apple.com/keynote/",
+          "date": "2026-10-17",
+          "note": "301 redirect to support.apple.com/keynote"
+        },
+        {
+          "url": "https://support.apple.com/keynote",
+          "date": "2026-10-17",
+          "note": "platforms, iCloud web, Apple Creator Studio mention, no price"
+        }
+      ],
+      "unverified": [
+        "is Keynote free permanently and on all platforms",
+        "Apple Account needed for iCloud web (search snippet only)",
+        "Apple Creator Studio subscription relation",
+        "license terms not read",
+        "icon: not in Simple Icons, route none"
+      ],
+      "injectionSeen": null
+    },
+    "keysearch": {
+      "researchedOn": "2026-10-17",
+      "verdict": "skip",
+      "verdictReason": "Trial only: 7-day free trial; paid Starter $24 and Pro $48/month; no free plan on pricing page (Digitool 'free tier' label not confirmed).",
+      "site": {
+        "name": "Keysearch",
+        "url": "https://keysearch.co",
+        "alive": true,
+        "operator": "KeySearch LLC"
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "$24 (Starter, billing period not shown); Pro $48/month",
+        "evidence": {
+          "url": "https://keysearch.co/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/keysearch/",
+          "date": "2026-10-17",
+          "note": "domain inferred from screenshot source; free plan claim"
+        },
+        {
+          "url": "https://keysearch.co/",
+          "date": "2026-10-17",
+          "note": "plans, 7-day trial, operator KeySearch LLC"
+        }
+      ],
+      "unverified": [
+        "limits of linked Free SEO Tools page not read",
+        "domain from Digitool screenshot URL",
+        "no safety search run"
+      ],
+      "injectionSeen": null
+    },
+    "khroma": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Free per directory label, but neither home nor generator page states pricing, limits or accounts (v1.0 waitlist mentions upcoming user accounts); no terms/privacy links. Owner to confirm free permanence.",
+      "site": {
+        "name": "Khroma",
+        "url": "https://khroma.co",
+        "alive": true,
+        "operator": "George Hastings (individual)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://khroma.co/generator",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No terms found on site",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://khroma.co",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "khroma",
+        "type": "AI Tool",
+        "category": "Design",
+        "title": "Khroma",
+        "description": "AI color tool that learns which colors you like, then generates endless palettes you can browse, search and save.",
+        "tags": [
+          "ai-tool",
+          "color-palette",
+          "graphic-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Learns your color taste from a short training step",
+          "Generates unlimited palette combinations",
+          "Search and save favorite palettes"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://khroma.co",
+          "date": "2026-10-17",
+          "note": "description, operator footer; no pricing or terms"
+        },
+        {
+          "url": "https://khroma.co/generator",
+          "date": "2026-10-17",
+          "note": "no pricing; waitlist for v1.0 with user accounts"
+        }
+      ],
+      "unverified": [
+        "free permanence and limits",
+        "account requirement",
+        "terms/license",
+        "safety search",
+        "related/similar slugs not looked up"
+      ],
+      "injectionSeen": null
+    },
+    "kigen-color-generator": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Generator page shows no pricing or limits, but other kigen.design products (design system, Figma plugin) are paid per the license page; unclear whether the generator is permanently free. All rights reserved, not open source.",
+      "site": {
+        "name": "Kigen Color Generator",
+        "url": "https://kigen.design/color",
+        "alive": true,
+        "operator": "Overlayz Studio (realvjy)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Generator page lists no price, limits or signup; unconfirmed",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://kigen.design/color",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Kigen license covers purchased products only (commercial: yes; no public republishing of design system); does not state terms for the free generator",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://kigen.design/license",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "kigen-color-generator",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Kigen Color Generator",
+        "description": "Generate 11-step shade palettes (50-950) from one color using a Tailwind-style algorithm, with CSS, Tailwind and token exports.",
+        "tags": [
+          "color-palette",
+          "design-systems",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "11-step shades from 50 to 950",
+          "Spacebar, slider or picker to generate",
+          "Export CSS, Tailwind, Tailwind 4 or tokens",
+          "HEX, RGBA, HSL or OKLCH output"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://kigen.design/color",
+          "date": "2026-10-17",
+          "note": "features, operator"
+        },
+        {
+          "url": "https://kigen.design/license",
+          "date": "2026-10-17",
+          "note": "paid product license terms"
+        }
+      ],
+      "unverified": [
+        "whether generator is permanently free",
+        "terms covering the generator",
+        "safety search",
+        "related/similar slugs not looked up"
+      ],
+      "injectionSeen": null
+    },
+    "kimi": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "JS-rendered site: home and /membership/pricing returned no pricing or membership text, so the free tier cannot be confirmed (not bypassed).",
+      "site": {
+        "name": "Kimi",
+        "url": "https://www.kimi.com",
+        "alive": true,
+        "operator": "Moonshot AI (inferred from asset domain, not stated on page)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.kimi.com/membership/pricing",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Official site; no safety search run. Simple Icons has kimi (#000000) if listed later."
+      },
+      "sources": [
+        {
+          "url": "https://www.kimi.com",
+          "date": "2026-10-17",
+          "note": "K3 headline, feature list; no pricing"
+        },
+        {
+          "url": "https://www.kimi.com/membership/pricing",
+          "date": "2026-10-17",
+          "note": "returned page title only"
+        }
+      ],
+      "unverified": [
+        "free tier and limits",
+        "login and region requirements",
+        "terms",
+        "operator confirmation",
+        "safety search"
+      ],
+      "injectionSeen": null
+    },
+    "kinsta": {
+      "researchedOn": "2026-10-17",
+      "verdict": "skip",
+      "verdictReason": "Paid managed WordPress hosting; no permanent free plan, only a first-month-free promo (lowest plan $35/month, $30/month billed annually).",
+      "site": {
+        "name": "Kinsta",
+        "url": "https://kinsta.com",
+        "alive": true,
+        "operator": "Kinsta"
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "$35/month (Business Single 20GB; $30/month billed annually)",
+        "evidence": {
+          "url": "https://kinsta.com/pricing/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Established host; no safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/kinsta/",
+          "date": "2026-10-17",
+          "note": "resolved site kinsta.com; listed as Paid"
+        },
+        {
+          "url": "https://kinsta.com/pricing/",
+          "date": "2026-10-17",
+          "note": "all plans paid; first month free promo"
+        }
+      ],
+      "unverified": [
+        "terms",
+        "safety search"
+      ],
+      "injectionSeen": null
+    },
+    "kirki": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Kirki",
+        "url": "https://kirki.com",
+        "alive": true,
+        "operator": "Themeum"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan: core canvas, 10 starter templates, form builder, staging mode, Figma importer, community support; no CMS, popup builder, full interaction timeline or real-time collaboration. Page says free forever on WordPress.org, no trial or expiry, client work allowed.",
+        "paidFrom": "Pro $59/year (1 site); Agency $149/year; Lifetime $499 one-time",
+        "evidence": {
+          "url": "https://kirki.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "WordPress.org plugin described as open source (licence name not stated on page) · commercial: yes (no commercial restrictions on free plan) · attribution: not stated · Pro features need paid licence per site",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://wordpress.org/plugins/kirki/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "kirki",
+        "type": "Plugin",
+        "category": "Design",
+        "title": "Kirki",
+        "description": "Freeform visual website builder plugin for WordPress with an infinite canvas, form builder and Figma importer; free core with paid Pro.",
+        "tags": [
+          "website-builder",
+          "no-code",
+          "web",
+          "open-source"
+        ],
+        "relatedResources": [
+          "webflow",
+          "framer"
+        ],
+        "similarResources": [
+          "webflow",
+          "squarespace"
+        ],
+        "keyFeatures": [
+          "Infinite-canvas freeform visual editing inside WordPress",
+          "Free core with 10 starter templates and a form builder",
+          "Figma importer and staging mode",
+          "Pro adds CMS, interaction timeline, popups and real-time collaboration"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-17: no exact Simple Icons match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "WordPress.org page notes plugin was rebranded from Droip in 6.0.0 and lists some past security fixes in the changelog; no scam or shutdown found (no dedicated search)"
+      },
+      "sources": [
+        {
+          "url": "https://kirki.com",
+          "date": "2026-10-17",
+          "note": "product description, free option"
+        },
+        {
+          "url": "https://kirki.com/pricing",
+          "date": "2026-10-17",
+          "note": "plans and free limits"
+        },
+        {
+          "url": "https://wordpress.org/plugins/kirki/",
+          "date": "2026-10-17",
+          "note": "author Themeum, open source line, Droip rebrand"
+        }
+      ],
+      "unverified": [
+        "exact open source licence name/SPDX not stated",
+        "no dedicated safety search",
+        "site logo not fetched"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/kirki.md",
+        "lint": "pass"
+      }
+    },
+    "kisto": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Kisto",
+        "url": "https://kisto.app",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Browsing is free with no paywall or pricing shown; account prompt ('Join the community') for saving and building comps",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://kisto.app",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Site terms only · content is third-party (links to YouTube/Vimeo, not re-hosted; rights stay with creators) · scraping for commercial purposes prohibited",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://kisto.app/terms",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "kisto",
+        "type": "Website",
+        "category": "Design",
+        "title": "Kisto",
+        "description": "Curated gallery of motion design and animation references, including trailers and title sequences, with saveable collections called comps.",
+        "tags": [
+          "inspiration",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "art-of-the-title"
+        ],
+        "similarResources": [
+          "art-of-the-title"
+        ],
+        "keyFeatures": [
+          "Curated motion design and animation videos from studios and independents",
+          "Title sequences and trailers as references",
+          "Comps: collections you can build and save with an account",
+          "Items link back to original source and creator"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-17: no match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://kisto.app",
+          "date": "2026-10-17",
+          "note": "description, no paywall seen"
+        },
+        {
+          "url": "https://kisto.app/terms",
+          "date": "2026-10-17",
+          "note": "curation model, no operator named, scraping clause"
+        }
+      ],
+      "unverified": [
+        "operator not named in terms",
+        "whether an account is required for saving not explicit",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/kisto.md",
+        "lint": "pass"
+      }
+    },
+    "kit": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Kit",
+        "url": "https://kit.com",
+        "alive": true,
+        "operator": "Kit Inc. (formerly ConvertKit)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan $0/mo, 1 user: up to 10,000 subscribers per page text, unlimited landing pages, forms and email broadcasts, tagging and segmentation, sell digital products; no visual automations, sequences, SMS or branding removal",
+        "paidFrom": "Creator $33/mo billed yearly ($390/year)",
+        "evidence": {
+          "url": "https://kit.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS (Kit Terms) · commercial: yes · attribution: not required · Terms s4.3 'You may not share our Services'; no clause against linking or listing",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://kit.com/terms",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "kit",
+        "type": "Software",
+        "category": "Marketing",
+        "title": "Kit",
+        "description": "Email marketing platform for creators with landing pages, forms, broadcasts and digital product sales; free plan up to 10,000 subscribers.",
+        "tags": [
+          "automation",
+          "writing"
+        ],
+        "relatedResources": [
+          "beehiiv"
+        ],
+        "similarResources": [
+          "beehiiv"
+        ],
+        "keyFeatures": [
+          "Email broadcasts with tagging and segmentation",
+          "Unlimited landing pages and forms",
+          "Sell digital products and subscriptions",
+          "Paid plans add visual automations, sequences and SMS"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "kit",
+          "fillColor": "#000000",
+          "bgColor": "#ffffff",
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 (same-product match not independently confirmed)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Search confirms ConvertKit rebranded to Kit and acquired kit.com (Oct 2024); alive"
+      },
+      "sources": [
+        {
+          "url": "https://kit.com/pricing",
+          "date": "2026-10-17",
+          "note": "plans, free limits"
+        },
+        {
+          "url": "https://kit.com/terms",
+          "date": "2026-10-17",
+          "note": "operator, listing clauses"
+        },
+        {
+          "url": "https://domainnamewire.com/2024/10/01/converkit-officially-becomes-kit-at-kit-com/",
+          "date": "2026-10-17",
+          "note": "rebrand search result"
+        }
+      ],
+      "unverified": [
+        "pricing page header says 1,000 subscribers while text says up to 10,000 on free plan; limit should be rechecked",
+        "free plan permanence not stated explicitly (no trial wording)",
+        "Simple Icons 'kit' assumed to be this product"
+      ],
+      "injectionSeen": "Pricing page promotes Kit MCP for connecting AI tools; marketing, not instructions",
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/kit.md",
+        "lint": "pass"
+      }
+    },
+    "kitbitz": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Licence/usage terms for the free illustrations could not be read (home returned only a title, /license and /faq 404); commercial-use rights decide whether it fits RL",
+      "site": {
+        "name": "Kitbitz",
+        "url": "https://kitbitz.art",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Page title claims 2,000+ free hand-drawn illustrations; terms not read",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://kitbitz.art",
+          "date": "2026-10-17",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://kitbitz.art",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "kitbitz",
+        "type": "Stock Media",
+        "category": "Design",
+        "title": "Kitbitz",
+        "description": "Hand-drawn illustration kits for games, maps and playful scenes; site advertises 2,000+ free illustrations.",
+        "tags": [
+          "stock-illustrations",
+          "graphic-design"
+        ],
+        "relatedResources": [
+          "illustration-kit"
+        ],
+        "similarResources": [
+          "absurd-design",
+          "illustration-kit"
+        ],
+        "keyFeatures": [
+          "Hand-drawn illustration kits",
+          "Themes for games, maps and playful scenes",
+          "2,000+ free illustrations per the page title"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-17: no exact match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://kitbitz.art",
+          "date": "2026-10-17",
+          "note": "only the page title was returned"
+        },
+        {
+          "url": "https://kitbitz.art/license",
+          "date": "2026-10-17",
+          "note": "404"
+        },
+        {
+          "url": "https://kitbitz.art/faq",
+          "date": "2026-10-17",
+          "note": "404"
+        }
+      ],
+      "unverified": [
+        "licence, attribution and commercial-use terms",
+        "free permanence",
+        "operator",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null
+    },
+    "kite": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Kite",
+        "url": "https://kite.video/",
+        "alive": true,
+        "operator": "Kite Video, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan at $0 with major features and unlimited exports, exports watermarked; 1k sample AI voiceover characters",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://kite.video/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Kite Video Terms and Conditions + Content License · commercial: not read · attribution: not read · free exports watermarked",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://kite.video/terms",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "kite",
+        "type": "AI Tool",
+        "category": "Filming",
+        "title": "Kite",
+        "description": "Screen recorder that follows your cursor, auto-zooms and adds 3D mockups, text scenes and music to turn app recordings into polished demo videos.",
+        "tags": [
+          "ai-tool",
+          "video-template",
+          "social-media-design"
+        ],
+        "relatedResources": [
+          "arcade-demos",
+          "kapwing"
+        ],
+        "similarResources": [
+          "arcade-demos"
+        ],
+        "keyFeatures": [
+          "Frame follows the cursor and zooms on what you point at",
+          "Text scenes and 3D device mockups",
+          "AI voiceover and background music",
+          "Free plan with unlimited watermarked exports"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Not in Simple Icons (check-icon.mjs, 2026-10-17)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Real company page (Kite Video, Inc.); YC listing and independent review found in search; no scam or shutdown reports seen"
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/kite/",
+          "date": "2026-10-17",
+          "note": "official site link"
+        },
+        {
+          "url": "https://kite.video/",
+          "date": "2026-10-17",
+          "note": "plans, free tier, operator"
+        },
+        {
+          "url": "https://kite.video/terms",
+          "date": "2026-10-17",
+          "note": "footer/operator only; terms text not shown"
+        },
+        {
+          "url": "https://outlierkit.com/resources/kite-review/",
+          "date": "2026-10-17",
+          "note": "safety search: independent review, macOS-focused"
+        }
+      ],
+      "unverified": [
+        "terms and content license text not read (listing/commercial use)",
+        "paid plan prices not shown on page",
+        "free tier permanence not stated explicitly",
+        "macOS focus per third-party review"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/kite.md",
+        "lint": "pass"
+      }
+    },
+    "kive": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Kive",
+        "url": "https://kive.ai",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free $0: 40 credits on email verification, then one free image every 30 minutes, up to 5 boards",
+        "paidFrom": "Basic $40/month billed monthly ($30/month billed yearly), 2,000 credits",
+        "evidence": {
+          "url": "https://kive.ai/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: not read · attribution: not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://kive.ai",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "kive",
+        "type": "AI Tool",
+        "category": "Photography",
+        "title": "Kive",
+        "description": "AI workspace that builds a product model from a few photos and generates product shots, lifestyle scenes and short videos for e-commerce brands.",
+        "tags": [
+          "ai-tool",
+          "collaboration"
+        ],
+        "relatedResources": [
+          "adobe-firefly"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Product model built from one to four real photos",
+          "Saved Studio presets for lighting, camera and backgrounds",
+          "Bulk generate with one Studio across products (paid, desktop)",
+          "Background swap, upscaling, retouching, object removal",
+          "Shopify app and MCP server"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Not in Simple Icons (check-icon.mjs, 2026-10-17)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No shutdown or acquisition mention on home page; no dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://kive.ai",
+          "date": "2026-10-17",
+          "note": "what it is, features"
+        },
+        {
+          "url": "https://kive.ai/pricing",
+          "date": "2026-10-17",
+          "note": "plans and credits"
+        }
+      ],
+      "unverified": [
+        "terms not read",
+        "operator not found",
+        "free plan permanence not stated, shown as ongoing $0 tier",
+        "no dedicated safety search",
+        "directory description (AI library/search) differs from current product focus"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/kive.md",
+        "lint": "pass"
+      }
+    },
+    "kivicube": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Free plan bars commercial use and shows ads; paid prices in CNY; operator and terms not read",
+      "site": {
+        "name": "Kivicube",
+        "url": "https://www.kivicube.com/en/",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Basic plan (CNY 0): 2 scenes, 500 scene experiences, no commercial use, ads shown, watermark on Mini Program/Web output",
+        "paidFrom": "Personal CNY 79.9/year",
+        "evidence": {
+          "url": "https://www.kivicube.com/en/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: no on free plan · attribution: not read · ads and watermark on free",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.kivicube.com/en/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "kivicube",
+        "type": "Tool",
+        "category": "Development",
+        "title": "Kivicube",
+        "description": "No-code WebAR platform: build image, world, face and body tracking AR scenes and share them by link or QR code, no app needed.",
+        "tags": [
+          "no-code",
+          "web",
+          "ai-tool"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Image, world, body, face and landmark tracking",
+          "Drag-and-drop editor with templates",
+          "AI scene, 3D model and animation generators",
+          "AR virtual try-on",
+          "WebAR SDK, Open API and iframe embedding"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Not in Simple Icons (check-icon.mjs, 2026-10-17)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://www.kivicube.com/en/",
+          "date": "2026-10-17",
+          "note": "features, plan overview"
+        },
+        {
+          "url": "https://www.kivicube.com/en/pricing",
+          "date": "2026-10-17",
+          "note": "free plan limits, prices"
+        }
+      ],
+      "unverified": [
+        "operator",
+        "terms not read",
+        "last 17k chars of home page not read",
+        "no dedicated safety search",
+        "marketing figures (1M creators etc.) unverified"
+      ],
+      "injectionSeen": null
+    },
+    "klap": {
+      "researchedOn": "2026-10-17",
+      "verdict": "skip",
+      "verdictReason": "Pricing page lists only paid plans (Basic $14/mo billed yearly); no permanent free tier shown",
+      "site": {
+        "name": "Klap",
+        "url": "https://klap.app/",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "Basic $14/month billed yearly (100 clips/month)",
+        "evidence": {
+          "url": "https://klap.app/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/klap/",
+          "date": "2026-10-17",
+          "note": "site link, listed as Paid"
+        },
+        {
+          "url": "https://klap.app/pricing",
+          "date": "2026-10-17",
+          "note": "three paid plans, no free plan"
+        }
+      ],
+      "unverified": [
+        "no home page, terms or safety search read (screened out at pricing)"
+      ],
+      "injectionSeen": null
+    },
+    "klaviyo": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Klaviyo",
+        "url": "https://www.klaviyo.com",
+        "alive": true,
+        "operator": "Klaviyo, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan, may stay on it indefinitely: up to 250 active profiles, 500 email sends/month, $5 of mobile messages/month, $5 of Composer usage/month",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://klaviyo.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS (Terms of Service) · commercial: yes (business tool) · attribution: n/a · limit: free-tier accounts inactive 12+ months may be ended; no copying or reverse engineering",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.klaviyo.com/legal/terms-of-service",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "klaviyo",
+        "type": "Software",
+        "category": "Marketing",
+        "title": "Klaviyo",
+        "description": "Email and SMS marketing platform for ecommerce brands, with segmentation, automation and a permanent free plan for small lists.",
+        "tags": [
+          "automation",
+          "productivity"
+        ],
+        "relatedResources": [
+          "beehiiv",
+          "flodesk"
+        ],
+        "similarResources": [
+          "flodesk",
+          "beehiiv"
+        ],
+        "keyFeatures": [
+          "Email and SMS campaigns from one platform",
+          "Profile segmentation for ecommerce stores",
+          "Automated messaging flows",
+          "Built-in reporting and email support on the free plan"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Official site of an established company; search surfaced no scam or shutdown reports"
+      },
+      "sources": [
+        {
+          "url": "https://klaviyo.com/pricing",
+          "date": "2026-10-17",
+          "note": "free plan limits and indefinite-stay FAQ"
+        },
+        {
+          "url": "https://www.klaviyo.com/legal/terms-of-service",
+          "date": "2026-10-17",
+          "note": "no linking clause in first 100k chars; free-tier inactivity clause 13.2"
+        },
+        {
+          "url": "https://www.capterra.com/p/156699/Klaviyo/pricing",
+          "date": "2026-10-17",
+          "note": "web search result, second-hand, matches 250/500 limits"
+        }
+      ],
+      "unverified": [
+        "lowest paid plan price (not stated on fetched page)",
+        "last 50k chars of ToS not read",
+        "tags are loose fits; no email-marketing tag exists",
+        "SMS allowance reported differently by third parties; first-party says $5/month"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/klaviyo.md",
+        "lint": "pass"
+      }
+    },
+    "kling-ai": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "JS-rendered site: home and /dev/pricing returned no pricing or free-credit text; free tier cannot be confirmed first-party",
+      "site": {
+        "name": "Kling AI",
+        "url": "https://kling.ai",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://kling.ai/",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://kling.ai/",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "klingai.com 301 redirects to kling.ai; footer shows copyright 2024-2026 kling.ai, no company named; no safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://klingai.com",
+          "date": "2026-10-17",
+          "note": "301 to https://kling.ai/"
+        },
+        {
+          "url": "https://kling.ai/",
+          "date": "2026-10-17",
+          "note": "no pricing text; Try Now links to /app"
+        },
+        {
+          "url": "https://kling.ai/dev/pricing",
+          "date": "2026-10-17",
+          "note": "only a heading returned"
+        }
+      ],
+      "unverified": [
+        "free plan / daily credits",
+        "paid prices",
+        "operator company",
+        "terms",
+        "login requirement"
+      ],
+      "injectionSeen": null
+    },
+    "koala-ui": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Koala UI",
+        "url": "https://koalaui.com",
+        "alive": true,
+        "operator": "Jordi Espinosa (individual)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free forever: 46 foundation components (React, Tailwind CSS v4, Radix), four themes, eight accents, CLI and agent skill, commercial use, lifetime updates",
+        "paidFrom": "Solo plan EUR 124.99 one-time (no subscription)",
+        "evidence": {
+          "url": "https://koalaui.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Koala UI License Agreement · commercial: yes (free tier, any number of projects) · attribution: not required (copyright notices in source must stay) · limit: no resale or competing UI kit; open-source end products may use only the free tier; CLI is MIT",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://koalaui.com/legal/license",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "koala-ui",
+        "type": "Library",
+        "category": "Development",
+        "title": "Koala UI",
+        "description": "React and Tailwind CSS design system with accessible components and a free foundation tier, plus a paid full kit and Figma files.",
+        "tags": [
+          "ui-ux",
+          "design-systems"
+        ],
+        "relatedResources": [
+          "heroui",
+          "aceternity-ui"
+        ],
+        "similarResources": [
+          "heroui",
+          "chakra-ui"
+        ],
+        "keyFeatures": [
+          "46 free foundation components on React, Tailwind CSS v4 and Radix",
+          "Four themes and eight accent colours",
+          "CLI and agent skill for adding components",
+          "Paid Solo kit adds sections, page templates and Figma files",
+          "Commercial use allowed on the free tier"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Site resolved from Digitool listing hint (koalaui.com), confirmed by live site footer; no safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/koala-ui/",
+          "date": "2026-10-17",
+          "note": "listing; vendor domain hinted via templates link"
+        },
+        {
+          "url": "https://koalaui.com",
+          "date": "2026-10-17",
+          "note": "plans, free tier, price, operator"
+        },
+        {
+          "url": "https://koalaui.com/legal/license",
+          "date": "2026-10-17",
+          "note": "license summary"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "page inconsistent on component counts (150 vs 125)",
+        "license read via summary only"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/koala-ui.md",
+        "lint": "pass"
+      }
+    },
+    "kolors": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Free status and terms not stated on the site (home has no pricing or terms, /about 404); only third-party listings say free, proprietary, no registration",
+      "site": {
+        "name": "Kolors",
+        "url": "https://www.kolors.dev",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Home page shows no pricing or login requirement; AlternativeTo (second-hand) lists it as free, no registration",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.kolors.dev",
+          "date": "2026-10-17",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.kolors.dev",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam hits found; no first-party operator named"
+      },
+      "sources": [
+        {
+          "url": "https://www.kolors.dev",
+          "date": "2026-10-17",
+          "note": "palette generator; export to primitive and semantic tokens; no pricing/terms text"
+        },
+        {
+          "url": "https://www.kolors.dev/about",
+          "date": "2026-10-17",
+          "note": "404"
+        },
+        {
+          "url": "https://www.alternativeto.net/software/kolors/about/",
+          "date": "2026-10-17",
+          "note": "search snippet: proprietary, free, no registration"
+        }
+      ],
+      "unverified": [
+        "first-party free statement",
+        "terms/license",
+        "operator",
+        "export formats (third party says CSS, Tailwind, JSON)"
+      ],
+      "injectionSeen": null
+    },
+    "kombai": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Kombai",
+        "url": "https://kombai.com",
+        "alive": true,
+        "operator": "Kombai (legal entity not named)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free $0/month: 300 credits/month (150 on sign-up plus 50 daily, capped at 300); unused credits roll over up to 0.5x",
+        "paidFrom": "Pro $20/month (20% less yearly), 2,000 credits/month",
+        "evidence": {
+          "url": "https://kombai.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary app and extension, Terms & Conditions at kombai.com/terms · commercial: not read · attribution: not read · limit: terms not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://kombai.com",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "kombai",
+        "type": "AI Tool",
+        "category": "Development",
+        "title": "Kombai",
+        "description": "AI design engineer that explores UI on a canvas and writes frontend code reusing your repo components, as a desktop app or IDE extension.",
+        "tags": [
+          "ai-tool",
+          "ui-ux",
+          "web"
+        ],
+        "relatedResources": [
+          "figma-make",
+          "banani"
+        ],
+        "similarResources": [
+          "figma-make",
+          "banani"
+        ],
+        "keyFeatures": [
+          "Infinite canvas to compare design variations before touching production code",
+          "Reuses components, tokens and hooks from your repo, npm packages or Storybook",
+          "Imports Figma files without an MCP server",
+          "Choose from 50+ models or let a router pick",
+          "Works as a desktop app and as an extension for VS Code, Cursor, Trae and Kiro"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs, 2026-10-17: not in Simple Icons (Kombai)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Safety search 2026-10-17 returned nothing about Kombai (no scam/shutdown/acquisition hits)"
+      },
+      "sources": [
+        {
+          "url": "https://kombai.com/pricing",
+          "date": "2026-10-17",
+          "note": "plans, credits, prices"
+        },
+        {
+          "url": "https://kombai.com",
+          "date": "2026-10-17",
+          "note": "product, features, formats, terms links"
+        }
+      ],
+      "unverified": [
+        "free plan permanence not stated explicitly (shown as $0/month with daily top-ups)",
+        "terms of service (kombai.com/terms/) not read; commercial-use and listing clauses unknown",
+        "legal operator not named",
+        "Simple Icons has no logo; site SVG not fetched"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/kombai.md",
+        "lint": "pass"
+      }
+    },
+    "kott": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Free tier is stated as \"not a trial\" but no limits are published, operator is not named, terms (/legal/terms) not read, and no independent source mentions kott.io. Owner to decide if worth listing.",
+      "site": {
+        "name": "kott",
+        "url": "https://kott.io",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free, no card; page calls it \"the whole engine, not a trial\"; some effects held back (e.g. VHS/glitch suite, slit-scan); free export resolution not stated",
+        "paidFrom": "$59 once (web studio plus Mac app, no subscription)",
+        "evidence": {
+          "url": "https://kott.io",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary · commercial: not read · attribution: not read · limit: terms not read; font licenses do not restrict raster exports",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://kott.io/licenses",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "kott",
+        "type": "Tool",
+        "category": "Design",
+        "title": "kott",
+        "description": "Browser-based real-time visual instrument applying dither, halftone, ASCII and glitch effects to camera, video or images, with audio-reactive control.",
+        "tags": [
+          "graphic-design",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "fx-labs"
+        ],
+        "similarResources": [
+          "fx-labs"
+        ],
+        "keyFeatures": [
+          "Dither, halftone, ASCII, riso, glitch and pixel-sort effects at 60 fps",
+          "Runs on-device in the browser; frames are not uploaded",
+          "Audio-reactive: beat detection, tempo tracking and MIDI control",
+          "Export stills (PNG, JPG, WebP) and video (MP4 with WebM fallback)",
+          "Projector mode for a second screen on the paid licence"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs, 2026-10-17: not in Simple Icons (kott)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Web search for kott.io found no results about it (neither positive nor adverse)"
+      },
+      "sources": [
+        {
+          "url": "https://kott.io",
+          "date": "2026-10-17",
+          "note": "product, pricing, features, legal links"
+        },
+        {
+          "url": "https://kott.io/licenses",
+          "date": "2026-10-17",
+          "note": "third-party font/model/audio licences only"
+        }
+      ],
+      "unverified": [
+        "operator not named",
+        "terms /legal/terms not read",
+        "free tier numeric limits and watermark rules unknown",
+        "no independent source found"
+      ],
+      "injectionSeen": null
+    },
+    "krea": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Krea",
+        "url": "https://www.krea.ai",
+        "alive": true,
+        "operator": "Krea (legal entity not read)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free $0/month: 100 compute units per day, refilling daily",
+        "paidFrom": "Pro $21/month (20,000 units/month; page also shows higher struck-through prices, yearly saves 40%)",
+        "evidence": {
+          "url": "https://www.krea.ai/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: unclear on Free (feature list says included, FAQ says only paid plans have a commercial license) · attribution: not read · limit: confirm with Krea",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.krea.ai/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "krea",
+        "type": "AI Tool",
+        "category": "Design",
+        "title": "Krea",
+        "description": "AI creative suite for generating and enhancing images, video and sound, with a daily free compute allowance.",
+        "tags": [
+          "ai-tool",
+          "graphic-design",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "adobe-firefly",
+          "flora"
+        ],
+        "similarResources": [
+          "adobe-firefly",
+          "flora"
+        ],
+        "keyFeatures": [
+          "Generate images, video and sound with AI in one workspace",
+          "Daily free compute allowance that refills every day",
+          "Paid plans add larger monthly compute pools and a commercial license",
+          "Business plan with team seats"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs, 2026-10-17: not in Simple Icons (Krea; fuzzy matches were unrelated)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search 2026-10-17: no shutdown or acquisition; Trustpilot has some complaints about billing/renewals (2.5/5 from 74 reviews per search snippet); funding coverage shows an active company"
+      },
+      "sources": [
+        {
+          "url": "https://www.krea.ai/pricing",
+          "date": "2026-10-17",
+          "note": "plans and free allowance; commercial-license inconsistency"
+        },
+        {
+          "url": "https://uk.trustpilot.com/review/krea.ai",
+          "date": "2026-10-17",
+          "note": "billing complaints via web search snippet"
+        }
+      ],
+      "unverified": [
+        "free plan permanence not stated, only a daily allowance",
+        "commercial use on Free contradicts itself on the pricing page",
+        "terms of service URL guess returned 404; terms not read",
+        "features taken from pricing page and tagline only",
+        "Simple Icons has no logo"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/krea.md",
+        "lint": "pass"
+      }
+    },
+    "ladybug": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Ladybug",
+        "url": "https://theladybug.app",
+        "alive": true,
+        "operator": "92learns (Alan Ayoubi), Netherlands, KVK 86068040"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free $0, \"No trial, no time limit\": unlimited video exports up to 720p, image exports up to 2x, no watermark, 5 free Pro exports then 2 per month, one project",
+        "paidFrom": "Pro $12/month or $120/year",
+        "evidence": {
+          "url": "https://theladybug.app",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary service terms · commercial: Free is personal/hobby only, commercial use needs a paid plan · attribution: not read · limit: no reselling the service; you own your output",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://theladybug.app/terms/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "ladybug",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Ladybug",
+        "description": "Browser-based effects studio that turns video, images, type and 3D models into custom looks with glow, motion and sound reactivity.",
+        "tags": [
+          "graphic-design",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "fx-labs"
+        ],
+        "similarResources": [
+          "fx-labs"
+        ],
+        "keyFeatures": [
+          "60 effects and 300+ looks with depth, glow, tracking and sound reactivity",
+          "Keyframe timeline with one-click motion presets",
+          "Imports type, SVG and 3D models (OBJ, GLB, GLTF, STL)",
+          "Runs in the browser with no upload of footage and no generative AI",
+          "Free exports to 720p video without watermark; 4K and SVG on Pro"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs, 2026-10-17: not in Simple Icons (Ladybug; fuzzy match unrelated)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Web search found only a Toools newsletter mention (browser video effects studio); no adverse hits. Other \"Ladybug\" products are unrelated"
+      },
+      "sources": [
+        {
+          "url": "https://theladybug.app",
+          "date": "2026-10-17",
+          "note": "features and pricing"
+        },
+        {
+          "url": "https://theladybug.app/terms/",
+          "date": "2026-10-17",
+          "note": "operator, commercial-use clause, no listing clause"
+        },
+        {
+          "url": "https://www.toools.design/newsletter/issues/ladybug-canvas-ui-origin-kit-ui-sfx-datatype",
+          "date": "2026-10-17",
+          "note": "search result mentioning the tool"
+        }
+      ],
+      "unverified": [
+        "refund/privacy pages not read",
+        "attribution requirements not read",
+        "Simple Icons has no logo"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/ladybug.md",
+        "lint": "pass"
+      }
+    },
+    "landbook": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "FETCH-FAIL: https://land-book.com returned HTTP 403 Forbidden twice (retried once); not bypassed",
+      "site": {
+        "name": "Landbook",
+        "url": "https://land-book.com",
+        "alive": null,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://land-book.com",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://land-book.com",
+          "date": "2026-10-17",
+          "note": "HTTP 403 on both attempts"
+        }
+      ],
+      "unverified": [
+        "site content, pricing, free tier, license/terms, operator, safety search all not read",
+        "directory label only: Free + Paid"
+      ],
+      "injectionSeen": null
+    },
+    "landing-love": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Landing Love",
+        "url": "https://www.landing.love",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Browsing the showcase of hand-added sites and scroll recordings; no pricing or paywall shown. Sign-in exists but its purpose is not explained.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.landing.love",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No terms page · commercial: n/a (inspiration showcase) · attribution: n/a · limit: every screenshot and recording remains (c) its respective owner",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.landing.love/about",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "landing-love",
+        "type": "Website",
+        "category": "Design",
+        "title": "Landing Love",
+        "description": "Hand-picked gallery of well-designed landing pages and small sites, with full-page scroll recordings to study animation and interaction.",
+        "tags": [
+          "inspiration",
+          "ui-ux",
+          "web"
+        ],
+        "relatedResources": [
+          "awwwards",
+          "httpster"
+        ],
+        "similarResources": [
+          "cta-gallery",
+          "interface-index"
+        ],
+        "keyFeatures": [
+          "Sites are added by hand, one at a time",
+          "Full-page video recordings of listed sites",
+          "Strong focus on animation and interaction",
+          "Submit-a-site form and RSS feed"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-17: no Simple Icons match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search 2026-10-17 found no scam/shutdown/acquisition reports (only an unrelated 'Landing' app that closed in 2024). Sponsored placements (Webflow, Framer) labeled on home."
+      },
+      "sources": [
+        {
+          "url": "https://www.landing.love",
+          "date": "2026-10-17",
+          "note": "description, footer, sponsors, no terms link"
+        },
+        {
+          "url": "https://www.landing.love/about",
+          "date": "2026-10-17",
+          "note": "hand-curated, copyright and takedown note"
+        },
+        {
+          "url": "web search 'Landing Love scam OR shutting down OR acquired'",
+          "date": "2026-10-17",
+          "note": "no negative hits"
+        }
+      ],
+      "unverified": [
+        "operator not named",
+        "no explicit statement that it is free (inferred: no pricing anywhere)",
+        "what sign-in unlocks",
+        "directory blurb says 272 sites; home shows 2,163 listed",
+        "Privacy Policy not read"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/landing-love.md",
+        "lint": "pass"
+      }
+    },
+    "landing-pages-explained": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Landing Pages Explained",
+        "url": "https://landingpagesexplained.com",
+        "alive": true,
+        "operator": "Roast My Landing Page (RMLP) and Senja (Olly Meakings, Wilson)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Curated SaaS and creator landing pages with written explanations; no price, subscription or paywall shown. Promotes Senja (commercial product) via links.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://landingpagesexplained.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No terms page · commercial: n/a (reference/inspiration site) · attribution: n/a · limit: none stated",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://landingpagesexplained.com/about",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "landing-pages-explained",
+        "type": "Website",
+        "category": "Marketing",
+        "title": "Landing Pages Explained",
+        "description": "Curated SaaS and creator landing pages, each with a short expert breakdown of the ideas used to improve conversion.",
+        "tags": [
+          "inspiration",
+          "ui-ux",
+          "web"
+        ],
+        "relatedResources": [
+          "cta-gallery",
+          "cta-examples"
+        ],
+        "similarResources": [
+          "httpster",
+          "awwwards"
+        ],
+        "keyFeatures": [
+          "Curated SaaS and creator landing pages",
+          "Expert explanation of the conversion ideas on each page",
+          "Filterable by category",
+          "Submit-your-page form"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-17: no Simple Icons match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search 2026-10-17 found no scam/shutdown hits. Run by makers of Roast My Landing Page and Senja; has promotional Senja links."
+      },
+      "sources": [
+        {
+          "url": "https://landingpagesexplained.com",
+          "date": "2026-10-17",
+          "note": "tagline, footer credit, no paywall"
+        },
+        {
+          "url": "https://landingpagesexplained.com/about",
+          "date": "2026-10-17",
+          "note": "operators, Senja promotion"
+        },
+        {
+          "url": "web search 'Landing Pages Explained Senja scam OR shutting down OR acquired'",
+          "date": "2026-10-17",
+          "note": "no negative hits"
+        }
+      ],
+      "unverified": [
+        "no explicit 'free' statement (inferred: no pricing shown)",
+        "no terms page found",
+        "whether any content is gated behind email signup not seen"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/landing-pages-explained.md",
+        "lint": "pass"
+      }
+    },
+    "landingfolio": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Landingfolio",
+        "url": "https://www.landingfolio.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free browsing of landing page inspiration and component library; free accounts can keep 20 items in My collection; component archive appears limited (page implies newest 40 per category) for free users; color filters and premium templates need Pro/membership.",
+        "paidFrom": "$49 per year billed yearly; or $59 one-time 'Forever' (struck from $249, limited offer)",
+        "evidence": {
+          "url": "https://www.landingfolio.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Licensing Agreement and Terms & Conditions exist (not read) · commercial: unverified · attribution: unverified · limit: premium templates need membership",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.landingfolio.com",
+          "date": "2026-10-17",
+          "confidence": "second-hand"
+        }
+      },
+      "rl": {
+        "slug": "landingfolio",
+        "type": "Website",
+        "category": "Design",
+        "title": "Landingfolio",
+        "description": "Landing page design inspiration plus copy-paste sections and templates for Tailwind, Webflow, Figma, React and Vue; free to browse, Pro adds extras.",
+        "tags": [
+          "inspiration",
+          "ui-ux",
+          "website-templates",
+          "web"
+        ],
+        "relatedResources": [
+          "httpster",
+          "awwwards",
+          "mobbin"
+        ],
+        "similarResources": [
+          "cta-gallery",
+          "flowbase"
+        ],
+        "keyFeatures": [
+          "Large library of landing page examples (home lists 961 sites)",
+          "Copy-paste sections for Tailwind, Webflow, Figma, React and Vue",
+          "Premium templates with membership",
+          "Save items to a personal collection (20 on free accounts)"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-17: no Simple Icons match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search 2026-10-17 found no reports about Landingfolio. Some entries labeled Sponsor."
+      },
+      "sources": [
+        {
+          "url": "https://www.landingfolio.com",
+          "date": "2026-10-17",
+          "note": "description, footer links, Pro gating"
+        },
+        {
+          "url": "https://www.landingfolio.com/pricing",
+          "date": "2026-10-17",
+          "note": "$49/yr, $59 one-time, free account collection limit"
+        },
+        {
+          "url": "web search 'Landingfolio scam OR shutting down OR acquired'",
+          "date": "2026-10-17",
+          "note": "no hits"
+        }
+      ],
+      "unverified": [
+        "operator not named",
+        "pricing page does not describe a free plan explicitly; free limits inferred",
+        "Terms & Licensing Agreement not read",
+        "free tier permanence not stated"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/landingfolio.md",
+        "lint": "pass"
+      }
+    },
+    "landings": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Landings",
+        "url": "https://landings.dev",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Gallery browsable with no pricing, paywall or sign-in shown on the home page",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://landings.dev",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No terms page; footer says only \"Copyright © 2026. All rights reserved.\" · commercial: n/a (links to third-party pages) · attribution: n/a · limit: screenshots belong to the featured companies",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://landings.dev",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "landings",
+        "type": "Website",
+        "category": "Design",
+        "title": "Landings",
+        "description": "A browsable gallery of landing pages from well-known products, collected as design inspiration for web designers and developers.",
+        "tags": [
+          "inspiration",
+          "web",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "cta-gallery",
+          "a1-gallery"
+        ],
+        "similarResources": [
+          "404s"
+        ],
+        "keyFeatures": [
+          "Gallery of landing page examples from leading companies",
+          "Companion sections for Stacks and Colors",
+          "Blog plus Tailwind CSS and color tools linked in the nav",
+          "No sign-in needed to browse"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs, no Simple Icons match, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated scam search run; a third-party listing (uiuxshowcase.com) describes it as a curated developer-focused landing page collection"
+      },
+      "sources": [
+        {
+          "url": "https://landings.dev",
+          "date": "2026-10-17",
+          "note": "home: purpose, nav, footer, no pricing"
+        },
+        {
+          "url": "https://uiuxshowcase.com/resources/landings-dev-discover-100-of-landing-pages/",
+          "date": "2026-10-17",
+          "note": "third-party description via web search"
+        }
+      ],
+      "unverified": [
+        "operator not named",
+        "no terms/privacy page",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/landings.md",
+        "lint": "pass"
+      }
+    },
+    "lapa-ninja": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "FETCH-FAIL: https://www.lapa.ninja returned HTTP 403 Forbidden on three attempts; not bypassed. Directory label says Free + Paid but unread.",
+      "site": {
+        "name": "Lapa Ninja",
+        "url": "https://www.lapa.ninja",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.lapa.ninja",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.lapa.ninja",
+          "date": "2026-10-17",
+          "note": "HTTP 403 on every attempt"
+        }
+      ],
+      "unverified": [
+        "everything: home, pricing, terms, safety unread"
+      ],
+      "injectionSeen": null
+    },
+    "laudable-apps": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Laudable Apps",
+        "url": "https://laudableapps.com",
+        "alive": true,
+        "operator": "Electerious (imprint at electerious.com)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Showcase browsable with no pricing or sign-in shown; the listed apps link out to the App Store and may be paid",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://laudableapps.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No license; Electerious ToS (covers \"websites we own and operate\", not confirmed to name this site) has no listing/linking restriction · commercial: n/a · attribution: n/a · limit: app screenshots belong to the app makers",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://electerious.com/terms_of_service.html",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "laudable-apps",
+        "type": "Website",
+        "category": "Design",
+        "title": "Laudable Apps",
+        "description": "An independent showcase of beautifully designed iOS apps with screenshots and App Store links, useful for mobile UI inspiration.",
+        "tags": [
+          "inspiration",
+          "ios",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "60fps",
+          "apple-design-resources"
+        ],
+        "similarResources": [
+          "a1-gallery"
+        ],
+        "keyFeatures": [
+          "Curated collection of well-designed iOS apps",
+          "Screenshots for each app",
+          "Direct App Store link per app",
+          "Independent, no sign-in needed"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs, no Simple Icons match, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated scam search run; imprint, ToS and privacy links present"
+      },
+      "sources": [
+        {
+          "url": "https://laudableapps.com",
+          "date": "2026-10-17",
+          "note": "home, footer links"
+        },
+        {
+          "url": "https://electerious.com/terms_of_service.html",
+          "date": "2026-10-17",
+          "note": "operator ToS, linking clause"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "whether Electerious ToS covers this site",
+        "pricing of the listed apps varies"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/laudable-apps.md",
+        "lint": "pass"
+      }
+    },
+    "laws-of-ux": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Laws of UX",
+        "url": "https://lawsofux.com",
+        "alive": true,
+        "operator": "Jon Yablonski"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Whole site readable with no paywall; llms.txt calls it \"A free, open-source reference of psychology laws, heuristics, and biases.\"",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://lawsofux.com/llms.txt",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Not stated on pages read (/about/ returned 404) · commercial: unknown · attribution: unknown · limit: content copyright not confirmed",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://lawsofux.com/llms.txt",
+          "date": "2026-10-17",
+          "confidence": "second-hand"
+        }
+      },
+      "rl": {
+        "slug": "laws-of-ux",
+        "type": "Resource",
+        "category": "Design",
+        "title": "Laws of UX",
+        "description": "A free reference of psychology-based laws, heuristics and biases for UI design, each with a plain definition, takeaways, origin and further reading.",
+        "tags": [
+          "ui-ux",
+          "visual-design",
+          "inspiration"
+        ],
+        "relatedResources": [
+          "biased-by-design",
+          "inclusive-design-principles",
+          "ai-design-field-guide"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "30 laws of UX at time of reading",
+          "Plain-language definition for each law",
+          "Practical takeaways per law",
+          "Origin/source and further reading links",
+          "Markdown version and llms.txt for text clients"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs, no Simple Icons match, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated scam search run; named author, well-known project"
+      },
+      "sources": [
+        {
+          "url": "https://lawsofux.com",
+          "date": "2026-10-17",
+          "note": "home: 30 laws, nav"
+        },
+        {
+          "url": "https://lawsofux.com/llms.txt",
+          "date": "2026-10-17",
+          "note": "author, free/open-source claim"
+        }
+      ],
+      "unverified": [
+        "content license terms",
+        "/about/ returned 404",
+        "no dedicated safety search",
+        "book/paid products not checked"
+      ],
+      "injectionSeen": "Home and llms.txt carry an \"Agent guidance\" section telling clients to match scenarios to laws, cite it, and send Accept: text/markdown; treated as data, not followed.",
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/laws-of-ux.md",
+        "lint": "pass"
+      }
+    },
+    "layers": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Layers",
+        "url": "https://layers.jamiemill.com",
+        "alive": true,
+        "operator": "Jamie Mill"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Open-source skill pack installed with npx; no pricing on the site",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://layers.jamiemill.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT · commercial: yes · attribution: appreciated, not required · limit: standard MIT warranty disclaimer",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/jamiemill/layers-skills",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "layers",
+        "type": "AI Tool",
+        "category": "Design",
+        "title": "Layers",
+        "description": "Open-source AI skills for product designers that walk through seven layers of design thinking, from user needs and domain to strategy and surface.",
+        "tags": [
+          "ai-tool",
+          "ui-ux",
+          "open-source"
+        ],
+        "relatedResources": [
+          "impeccable",
+          "emilkowalski-skills",
+          "ai-design-field-guide"
+        ],
+        "similarResources": [
+          "impeccable",
+          "emilkowalski-skills"
+        ],
+        "keyFeatures": [
+          "Nine slash-command skills built on a seven-layer product design model",
+          "Diagnostic audit skill that checks all layers and finds the real problem",
+          "Separate skills for problem space: behaviour, domain, user needs",
+          "Separate skills for solution space: strategy, conceptual model, flow, surface",
+          "Installs with one npx command into Claude Code, Cursor, Codex and others"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons has no exact match (check-icon 2026-10-17)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search; personal project with public GitHub repo"
+      },
+      "sources": [
+        {
+          "url": "https://layers.jamiemill.com",
+          "date": "2026-10-17",
+          "note": "description, install command, MIT footer"
+        },
+        {
+          "url": "https://github.com/jamiemill/layers-skills",
+          "date": "2026-10-17",
+          "note": "MIT license, 9 skills list"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "full LICENSE text not read",
+        "last commit date not shown",
+        "exact list of 50+ supported tools"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/layers.md",
+        "lint": "pass"
+      }
+    },
+    "leadership-folios": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Leadership Folios",
+        "url": "https://www.leadershipfolios.com",
+        "alive": true,
+        "operator": "Ben Roach (curator)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Public curated collection; homepage shows no price, signup or paywall",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.leadershipfolios.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No terms or license published · commercial: n/a (links to third-party portfolios) · attribution: n/a",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.leadershipfolios.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "leadership-folios",
+        "type": "Website",
+        "category": "Design",
+        "title": "Leadership Folios",
+        "description": "Curated, annotated portfolios of design managers, directors, VPs and executives, with notes on why each works at that level.",
+        "tags": [
+          "inspiration",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "designer-founders",
+          "design-jobs"
+        ],
+        "similarResources": [
+          "designer-founders"
+        ],
+        "keyFeatures": [
+          "Portfolios from UX managers, directors, VPs, principals, founders and executives",
+          "Each entry annotated with why it works at that level",
+          "Takeaways you can apply to your own portfolio",
+          "Open submissions for new portfolios",
+          "RSS feed and guide"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no logo verified"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "One web search found no scam or shutdown reports (and little coverage of the site either)"
+      },
+      "sources": [
+        {
+          "url": "https://www.leadershipfolios.com",
+          "date": "2026-10-17",
+          "note": "what it is, curator, nav links"
+        },
+        {
+          "url": "web search: Leadership Folios Ben Roach",
+          "date": "2026-10-17",
+          "note": "no scam/shutdown found; little third-party coverage"
+        }
+      ],
+      "unverified": [
+        "free access inferred from absence of any price/paywall on homepage; inner pages not opened",
+        "no terms page exists",
+        "operator beyond footer credit 'Curated by Ben Roach'",
+        "guide page content"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/leadership-folios.md",
+        "lint": "pass"
+      }
+    },
+    "learnworlds": {
+      "researchedOn": "2026-10-17",
+      "verdict": "skip",
+      "verdictReason": "Trial only: 30-day free trial then paid plans from Starter; no permanent free plan (directory 'Free tier listed' label is wrong).",
+      "site": {
+        "name": "LearnWorlds",
+        "url": "https://www.learnworlds.com",
+        "alive": true,
+        "operator": "LearnWorlds"
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "Starter 24/month billed annually (29/month monthly); currency symbol not shown on page",
+        "evidence": {
+          "url": "https://www.learnworlds.com/pricing/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/learnworlds/",
+          "date": "2026-10-17",
+          "note": "listing says Paid; only a redirect link to the tool"
+        },
+        {
+          "url": "https://www.learnworlds.com/pricing/",
+          "date": "2026-10-17",
+          "note": "30-day trial; plans Starter/Pro Trainer/Learning Center/Corporate"
+        }
+      ],
+      "unverified": [
+        "currency of prices",
+        "no safety search"
+      ],
+      "injectionSeen": null
+    },
+    "lenny-s-newsletter": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Substack newsletter with free and paid tiers; free-subscriber scope and paid price not confirmable from site pages, and it is a publication rather than a tool (type, category and pricing label need an owner call).",
+      "site": {
+        "name": "Lenny's Newsletter",
+        "url": "https://www.lennysnewsletter.com",
+        "alive": true,
+        "operator": "Lenny Rachitsky (hosted on Substack)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free subscription exists (subscribe prompt, 1.2M+ subscribers) but its content scope is not stated on fetched pages",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.lennysnewsletter.com/about",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Substack terms apply; content copyright of author · not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.lennysnewsletter.com/subscribe",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "lenny-s-newsletter",
+        "type": "Website",
+        "category": "Business",
+        "title": "Lenny's Newsletter",
+        "description": "Researched writing on building products, growing companies and advancing a career, aimed at product leaders and founders.",
+        "tags": [
+          "writing",
+          "inspiration"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Deeply researched product, growth and career advice",
+          "Interviews with industry leaders",
+          "Archive of 5+ years of past writing (paid)",
+          "Private Slack community for paid subscribers"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "substack",
+          "fillColor": "#FF6719",
+          "bgColor": "#ffffff",
+          "source": "Simple Icons (Substack) via check-icon 2026-10-17; platform logo, not the newsletter's own"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Well-known publication; no safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://www.lennysnewsletter.com/subscribe",
+          "date": "2026-10-17",
+          "note": "tagline, 1.2M subscribers, Substack"
+        },
+        {
+          "url": "https://www.lennysnewsletter.com/about",
+          "date": "2026-10-17",
+          "note": "paid perks, no price"
+        }
+      ],
+      "unverified": [
+        "free tier scope",
+        "paid price",
+        "author name not on fetched pages",
+        "no safety search"
+      ],
+      "injectionSeen": null
     }
   }
 }
