@@ -63935,6 +63935,2305 @@
         "canonical URL path is unconfirmed beyond the redirect target"
       ],
       "injectionSeen": null
+    },
+    "looks-like-good-design": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Looks Like Good Design",
+        "url": "https://www.lookslikegooddesign.com",
+        "alive": true,
+        "operator": "Paul Holstein (personal project, not a business entity)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire gallery browsable with no account, sign-in or paywall; newsletter signup and design submission are optional",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.lookslikegooddesign.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No formal license name (personal-project terms) · commercial: no (\"Use our content for commercial gain without permission\" is prohibited) · attribution: not applicable (site does not claim ownership of featured work) · limit: content is \"for inspiration, not replication\"; unauthorised reproduction/distribution/modification not permitted",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.lookslikegooddesign.com/terms-privacy-content-guidelines",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "looks-like-good-design",
+        "type": "Website",
+        "category": "Design",
+        "title": "Looks Like Good Design",
+        "description": "A free design-inspiration gallery curating standout creative work across 21 fields, from branding to product design.",
+        "tags": [
+          "inspiration",
+          "visual-design",
+          "graphic-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "dribbble",
+          "awwwards",
+          "behance"
+        ],
+        "keyFeatures": [
+          "21 creative-field categories, from advertising and branding to interior and product design",
+          "Featured, recently-featured and recent-projects browsing with pagination",
+          "Open design submission form for creators to get featured",
+          "Weekly curated-picks newsletter (\"The Good Mail\")"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 (no match)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown hits for this domain; search results concerned unrelated similarly-named domains (e.g. looklikesr.com)"
+      },
+      "sources": [
+        {
+          "url": "https://www.lookslikegooddesign.com",
+          "date": "2026-10-17",
+          "note": "what the site is, navigation, categories, operator credit (Brandrally = web developer, not confirmed operator)"
+        },
+        {
+          "url": "https://www.lookslikegooddesign.com/terms-privacy-content-guidelines",
+          "date": "2026-10-17",
+          "note": "operator statement (personal project, Paul Holstein), licensing/use restrictions, no commercial use without permission"
+        }
+      ],
+      "unverified": [
+        "whether Paul Holstein is the sole operator vs. a team (only self-described as 'personal project')",
+        "no dedicated safety-scan tool run beyond web search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/looks-like-good-design.md",
+        "lint": "pass"
+      }
+    },
+    "lookup-design": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Lookup.design",
+        "url": "https://lookup.design",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Full library search and browsing with no account, sign-in or paywall observed on the home page; no pricing/membership page found",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://lookup.design",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Not read: the Terms & Conditions page returned no readable content on two fetch attempts (JS-rendered) · commercial: unknown · attribution: unknown · limit: unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://lookup.design/terms-and-conditions",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "lookup-design",
+        "type": "Website",
+        "category": "Design",
+        "title": "Lookup.design",
+        "description": "A searchable, hand-tagged library of 900+ real UI design examples pulled from well-known apps and websites.",
+        "tags": [
+          "inspiration",
+          "ui-ux"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "dribbble",
+          "awwwards"
+        ],
+        "keyFeatures": [
+          "900+ hand-picked UI screenshots, manually named, categorized and indexed",
+          "40+ recognizable brands/apps represented, about 100 new images added monthly",
+          "Searchable library plus a dedicated \"Components\" browse view",
+          "Weekly newsletter with curated UI picks"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 (no match)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown hits found for this domain"
+      },
+      "sources": [
+        {
+          "url": "https://lookup.design",
+          "date": "2026-10-17",
+          "note": "what the site is, scale (900+ images, 40+ brands, ~100/month), navigation, no pricing/account signal"
+        },
+        {
+          "url": "https://lookup.design/terms-and-conditions",
+          "date": "2026-10-17",
+          "note": "attempted twice; page returned no extractable text (JS-rendered), so license/terms content is unread"
+        }
+      ],
+      "unverified": [
+        "site operator identity (only an 'Open startup' analytics link and a 'Hire me' link to jsco.dev, not confirmed as the owner)",
+        "terms & conditions text (page would not render for the fetcher) — commercial-use/redistribution stance on featured screenshots unknown"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/lookup-design.md",
+        "lint": "pass"
+      }
+    },
+    "loom": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Loom",
+        "url": "https://www.loom.com",
+        "alive": true,
+        "operator": "Loom, Inc. (an Atlassian subsidiary)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Starter plan, $0: up to 25 videos per workspace member, 5-minute screen recordings, up to 720p video, unlimited meeting-length recording, unlimited screenshots, up to 50 workspace members",
+        "paidFrom": "Business plan from $18 per user/month (billed monthly; cheaper billed annually)",
+        "evidence": {
+          "url": "https://www.loom.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Loom, Inc. Terms of Service (proprietary SaaS, not open source) · commercial: yes (access granted \"for its business purposes\" during the subscription term, including the free plan) · attribution: not required · limit: customer owns their recorded video/audio/transcript data but grants Loom a license to operate the service; Loom may suspend accounts for repeated violations and may delete/anonymize data after account closure",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.atlassian.com/legal/archives/loom/terms",
+          "date": "2026-10-17",
+          "confidence": "second-hand"
+        }
+      },
+      "rl": {
+        "slug": "loom",
+        "type": "Tool",
+        "category": "Productivity",
+        "title": "Loom",
+        "description": "AI-powered screen and webcam recorder for quick video messages, with a free plan for up to 25 videos per person.",
+        "tags": [
+          "productivity",
+          "collaboration",
+          "ai-tool",
+          "mac",
+          "windows",
+          "web"
+        ],
+        "relatedResources": [
+          "notion",
+          "asana"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Free Starter plan: 25 videos/person, 5-minute recordings, up to 720p, unlimited meeting length",
+          "AI-generated transcripts, titles and summaries",
+          "Screen, webcam and audio recording with instantly shareable links",
+          "Viewer comments, emoji reactions and view/completion tracking",
+          "Mac, Windows, Chrome, iOS and Android apps"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "loom",
+          "fillColor": "#625DF5",
+          "bgColor": "#ffffff",
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "A 2024 malware campaign (reported by Moonlock Lab) used Google ad lookalike sites to distribute a fake Loom macOS installer; the official loom.com domain itself was not implicated. No 2026 shutdown/scam reports found; current live Atlassian ToS URL (atlassian.com/legal/loom/terms) returned 404 for this session, so the archived Jan 2022 version was used instead."
+      },
+      "sources": [
+        {
+          "url": "https://www.loom.com",
+          "date": "2026-10-17",
+          "note": "product description, platforms, free-plan CTA, acquisition-by-Atlassian mention"
+        },
+        {
+          "url": "https://www.loom.com/pricing",
+          "date": "2026-10-17",
+          "note": "free Starter plan limits and lowest paid (Business) plan price"
+        },
+        {
+          "url": "https://www.atlassian.com/legal/archives/loom/terms",
+          "date": "2026-10-17",
+          "note": "legal entity (Loom, Inc.), data ownership/license, termination and data-retention clauses (archived Jan 31 2022 version; current URL 404'd)"
+        }
+      ],
+      "unverified": [
+        "current (non-archived) Loom Terms of Service text (atlassian.com/legal/loom/terms returned 404 for this session)",
+        "exact storage/viewer limits on the free plan (not stated on pricing page)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/loom.md",
+        "lint": "pass"
+      }
+    },
+    "loopple": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "Home page and /pricing are JS-rendered and return no content beyond the <title> tag (\"AI Website Builder - Create & Publish a Website for Free\"); could not confirm operator, free-tier limits, or license from any first-party page.",
+      "site": {
+        "name": "Loopple",
+        "url": "https://www.loopple.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.loopple.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": null,
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown hits found; search results mostly matched the unrelated company LoopPay, not Loopple."
+      },
+      "sources": [
+        {
+          "url": "https://www.loopple.com",
+          "date": "2026-10-17",
+          "note": "Home page fetch returned only the page title; no body content rendered (JS-only page)."
+        },
+        {
+          "url": "https://www.loopple.com/pricing",
+          "date": "2026-10-17",
+          "note": "Pricing page fetch returned only the page title; no plan/price content rendered."
+        }
+      ],
+      "unverified": [
+        "Operator / company behind Loopple",
+        "Free plan limits and whether it is permanent",
+        "License/terms",
+        "Third-party reviews (saasworthy.com, tailkits.com) mention Basic $9/mo and Premium $19/mo paid tiers with a limited free \"DEMO\" plan, but this is second-hand and not confirmed on the tool's own site"
+      ],
+      "injectionSeen": null
+    },
+    "loops-2": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Loops",
+        "url": "https://loops.so",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Up to 1,000 subscribed contacts, unlimited stored contacts, up to 4,000 total marketing+transactional emails per rolling 30-day window (counted against the first 1,000 contacts), 10 emails/second rate limit, includes a \"Powered by Loops\" footer badge.",
+        "paidFrom": "Growth plan $49/month (up to 5,000 subscribed contacts, unlimited sends, no Loops branding); Enterprise is custom-priced.",
+        "evidence": {
+          "url": "https://loops.so/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial use: yes (product itself, not Loops' own site content) · attribution: not required · limit: free plan carries a \"Powered by Loops\" footer and automated/bot access to the service is prohibited by the Acceptable Use Policy.",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://loops.so/terms",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "loops",
+        "type": "Tool",
+        "category": "Marketing",
+        "title": "Loops",
+        "description": "Email platform for SaaS teams to send marketing, product and transactional lifecycle emails from one visual editor.",
+        "tags": [
+          "automation",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "One platform for marketing, product and transactional email",
+          "Visual drag-and-drop email editor with reusable components and a single theme",
+          "Lifecycle workflows with triggers, branching audience filters and exit conditions",
+          "Contact segments that update automatically as properties change",
+          "Developer API and npm package, plus Stripe, Supabase, Clerk, Zapier, Segment and PostHog integrations",
+          "Deliverability tooling: send pacing, bounce suppression, DKIM/DMARC setup and a DNS checker"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "loops",
+          "fillColor": "#FC5200",
+          "bgColor": null,
+          "source": "Simple Icons (scripts/check-icon.mjs, exit 0 exact match)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition hits found in search."
+      },
+      "sources": [
+        {
+          "url": "https://loops.so",
+          "date": "2026-10-17",
+          "note": "What it is, pitch, free-to-start claim, feature list."
+        },
+        {
+          "url": "https://loops.so/pricing",
+          "date": "2026-10-17",
+          "note": "Free/Growth/Enterprise plan names, prices and limits."
+        },
+        {
+          "url": "https://loops.so/terms",
+          "date": "2026-10-17",
+          "note": "Commercial-use, trademark, automated-access and mailing-list clauses."
+        }
+      ],
+      "unverified": [
+        "Legal company name behind the Loops brand (not stated on site; only LinkedIn handle sendwithloops seen)",
+        "Whether the Free plan is explicitly guaranteed permanent (pricing page implies it but does not use the word \"forever\")"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/loops.md",
+        "lint": "pass"
+      }
+    },
+    "lordicon": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Lordicon",
+        "url": "https://lordicon.com",
+        "alive": true,
+        "operator": "Lordicon Sp. z o.o (Ltd), Poland"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "9,700+ free animated icons, no login required to explore; 1 icon collection, 1 seat, unlimited exports with no download limit, commercial use allowed with required attribution. PRO icons are not included.",
+        "paidFrom": "PRO plan from $8/month billed annually ($16/month billed monthly); Team PRO from $39/month billed annually ($59/month billed monthly).",
+        "evidence": {
+          "url": "https://lordicon.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Lordicon custom license (free icons based on CC BY-ND 4.0, modified) · commercial use: yes on both free and PRO tiers · attribution: required for free icons, not required for PRO icons · limit: icons may not be redistributed as standalone files or used as the core feature of another icon library/pack.",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://lordicon.com/licenses",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "lordicon",
+        "type": "Icon Set",
+        "category": "Design",
+        "title": "Lordicon",
+        "description": "Library of 48,100+ premium and free animated icons with color, stroke, speed and size customization for web and apps.",
+        "tags": [
+          "icon-library",
+          "ui-ux"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "lucide-icons",
+          "remix-icon",
+          "material-symbols"
+        ],
+        "keyFeatures": [
+          "48,100+ animated icons, 9,700+ free without login",
+          "Exports to Lottie, GIF, MP4, SVG, PNG, WebP, APNG, AEP and MOGRT",
+          "Adjustable color, stroke, speed, size and animation state (Intro, Hover, Morph, Loop)",
+          "Web integration via the @lordicon/element npm package, plus React, Flutter, WordPress, Webflow, Figma and Google Workspace integrations",
+          "Commercial use allowed on the free tier with attribution required"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons (scripts/check-icon.mjs, no exact match; closest were unrelated single-letter icons)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition hits found in search."
+      },
+      "sources": [
+        {
+          "url": "https://lordicon.com",
+          "date": "2026-10-17",
+          "note": "Pitch, operator in footer, icon count, export formats, customization, integrations."
+        },
+        {
+          "url": "https://lordicon.com/pricing",
+          "date": "2026-10-17",
+          "note": "Free/PRO/Team PRO plan names, prices and limits."
+        },
+        {
+          "url": "https://lordicon.com/licenses",
+          "date": "2026-10-17",
+          "note": "License terms for free vs PRO icons, attribution and redistribution limits."
+        }
+      ],
+      "unverified": [
+        "Whether the free tier's icon count/limits are stable long-term (pricing/catalog pages can change icon counts over time)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/lordicon.md",
+        "lint": "pass"
+      }
+    },
+    "lorem-ipsum": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Lorem Ipsum",
+        "url": "https://loremipsum.io",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Generator, font/name generators and the history/source-text pages are free to use, no account or payment",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://loremipsum.io",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No license/terms page found (checked /license and /terms, both 404) · commercial use: not stated · attribution: not stated · limit: the generated placeholder text and classical Latin source are conventionally public domain, but the site itself states no usage terms",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://loremipsum.io",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "lorem-ipsum",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Lorem Ipsum",
+        "description": "Classic Lorem Ipsum placeholder-text generator for design and publishing mockups, with the text's history and original Latin source.",
+        "tags": [
+          "writing",
+          "typography"
+        ],
+        "relatedResources": [
+          "google-fonts",
+          "fontpair"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Lorem Ipsum paragraph, sentence and word generator with adjustable length",
+          "History and background of the Cicero source text behind Lorem Ipsum",
+          "Font generator and name generator tools",
+          "List of placeholder image generators",
+          "Content available in English, Spanish, French, German, Portuguese and Russian"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": null
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Safety search found no scam/malware/shutdown hits for the site; the only loosely related hit was an unrelated WordPress malware campaign nicknamed 'Lorem Ipsum', not tied to loremipsum.io"
+      },
+      "sources": [
+        {
+          "url": "https://loremipsum.io",
+          "date": "2026-10-17",
+          "note": "Home page: what the site is, operator (none named, only a copyright line), features list, no pricing stated"
+        },
+        {
+          "url": "https://loremipsum.io/license/",
+          "date": "2026-10-17",
+          "note": "404 Not Found — no license page exists"
+        },
+        {
+          "url": "https://loremipsum.io/terms/",
+          "date": "2026-10-17",
+          "note": "404 Not Found — no terms page exists"
+        }
+      ],
+      "unverified": [
+        "Who operates the site (company or person) — no about/company page or operator name found",
+        "Whether any commercial-use or attribution terms exist at all — no license/terms page found"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/lorem-ipsum.md",
+        "lint": "pass"
+      }
+    },
+    "lorem-space": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "FETCH-FAIL: WebFetch returned 'Socket is closed' on every attempt (3 tries, home page, with other work done between retries) — could not read the site at all",
+      "site": {
+        "name": "Lorem.space",
+        "url": "https://lorem.space",
+        "alive": null,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://lorem.space",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [],
+      "unverified": [
+        "Everything — the site could not be fetched (WebFetch error 'Socket is closed' on all 3 attempts); input pricing label was 'Free' but unconfirmed by any first-party read"
+      ]
+    },
+    "lost-taken": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Free-tier permanence unclear: homepage advertises 'Free Texture Stock Photos!' but also lists 'Small Texture Packages' and 'All 408 Paper Textures' with no prices shown, and no license/terms/FAQ page exists (checked /license and /faq, both 404) to confirm which downloads are free, what the packages cost, or commercial-use/attribution terms",
+      "site": {
+        "name": "Lost + Taken",
+        "url": "https://lostandtaken.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Homepage tagline is 'Free Texture Stock Photos!' and third-party 2013-era coverage describes individual textures as downloadable free or in a free zip; current scope of what is free vs. the paid-looking 'Small Texture Packages' / 408-texture collection is not confirmed first-party",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://lostandtaken.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No license/terms/FAQ page found (checked /license and /faq, both 404) · commercial use: not stated · attribution: not stated · limit: none stated anywhere on the site",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://lostandtaken.com/license/",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "lost-taken",
+        "type": "Stock Media",
+        "category": "Photography",
+        "title": "Lost + Taken",
+        "description": "Free texture stock photo library with grunge, paper, paint, concrete, fabric and other categories for design and photo projects.",
+        "tags": [
+          "stock-photos",
+          "print-design"
+        ],
+        "relatedResources": [
+          "unsplash",
+          "pexels"
+        ],
+        "similarResources": [
+          "pixabay"
+        ],
+        "keyFeatures": [
+          "Texture categories: Grunge, Paper (vintage, stained, wallpaper, cardboard), Paint/Watercolor, Concrete, Film, Scratched, Book Covers",
+          "Nature textures including Bark and Wood, plus Fabric, Bokeh, Print, Metal and Bubbles",
+          "Individual texture downloads and larger texture packages/collections",
+          "Contributor program for submitting new textures"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": null
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown hits in search; multiple independent third-party articles (2013-2021) reference it as a legitimate free-texture resource, though none confirm current terms"
+      },
+      "sources": [
+        {
+          "url": "https://lostandtaken.com",
+          "date": "2026-10-17",
+          "note": "Home page: tagline, texture categories, contributor/advertise links, no prices shown"
+        },
+        {
+          "url": "https://lostandtaken.com/about/",
+          "date": "2026-10-17",
+          "note": "About page: no operator name, no pricing or license info, only Contact/Advertise/Contributor links"
+        },
+        {
+          "url": "https://lostandtaken.com/license/",
+          "date": "2026-10-17",
+          "note": "404 Not Found — no license page exists"
+        },
+        {
+          "url": "https://lostandtaken.com/faq/",
+          "date": "2026-10-17",
+          "note": "404 Not Found — no FAQ page exists"
+        }
+      ],
+      "unverified": [
+        "Who operates the site (company or person)",
+        "Whether 'Small Texture Packages' and the 408-texture collection are paid or free, and at what price",
+        "Any commercial-use or attribution requirement — no license/terms/FAQ page found"
+      ],
+      "injectionSeen": null
+    },
+    "lost-type-co-op": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "PWYW model is personal-use only; the live font page shows paid preset amounts starting at $5 with no visible $0 option (historic write-ups describe $0 as allowed, but that's unconfirmed on the current site), and commercial use requires a separate paid license from $75/font. Free-tier permanence is unclear — owner call needed.",
+      "site": {
+        "name": "Lost Type Co-op",
+        "url": "https://www.losttype.com",
+        "alive": true,
+        "operator": "Riley Cran (Lost Type)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": null,
+        "paidFrom": "Personal Use License from $5 (preset amounts $5/$10/$20/$40/$100); 1-5 User Commercial License $75 (up to 96-100 users $720)",
+        "evidence": {
+          "url": "https://www.losttype.com/font/?name=Lehigh",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Lost Type EULA (per-font) · commercial: no under the PWYW personal license (separate commercial license required, from $75) · attribution: not stated · limit: personal-use license excludes commercial use",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.losttype.com/font/?name=Lehigh",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "lost-type-co-op",
+        "type": "Font",
+        "category": "Design",
+        "title": "Lost Type Co-op",
+        "description": "Pay-what-you-want digital type foundry; personal-use licenses from preset amounts, commercial licenses sold per font.",
+        "tags": [
+          "typography"
+        ],
+        "relatedResources": [
+          "google-fonts"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Pay-what-you-want personal-use license per font, with preset amounts ($5/$10/$20/$40/$100)",
+          "Separate paid commercial license tiers per font (1-5 users from $75, up to 96-100 users $720)",
+          "100% of sale proceeds go to the font's designer",
+          "Catalog of independently designed typefaces (e.g. Lehigh, Calafia, Tofino, Mort Modern)"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 (no match)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/shutdown/acquisition hits found; footer copyright reads 2019, current maintenance cadence unconfirmed beyond the site loading and serving current fonts"
+      },
+      "sources": [
+        {
+          "url": "https://www.losttype.com",
+          "date": "2026-10-17",
+          "note": "homepage, recent releases, footer operator/copyright"
+        },
+        {
+          "url": "https://www.losttype.com/about",
+          "date": "2026-10-17",
+          "note": "self-description as Pay-What-You-Want type foundry, proceeds-to-designer claim"
+        },
+        {
+          "url": "https://www.losttype.com/font/?name=Lehigh",
+          "date": "2026-10-17",
+          "note": "live pricing widget: PWYW personal-use preset amounts and commercial license tiers"
+        },
+        {
+          "url": "https://store.losttype.com",
+          "date": "2026-10-17",
+          "note": "confirmed the store sells merchandise only, not fonts"
+        }
+      ],
+      "unverified": [
+        "whether a $0 pay-what-you-want download is still possible (older third-party sources from 2011-2012 say yes, current widget shows no $0 preset)",
+        "current update/maintenance cadence beyond the site being live and serving current content",
+        "whether attribution is required under the personal-use license"
+      ],
+      "injectionSeen": null
+    },
+    "lottiefiles": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "LottieFiles",
+        "url": "https://lottiefiles.com",
+        "alive": true,
+        "operator": "Design Barn, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free account: unlimited preview, testing and sharing, access to a free library of ready-to-use Lottie animations, and basic editing in Lottie Creator; exact animation count and export limits not published",
+        "paidFrom": "$19.99 per user/month (Individual plan, billed annually)",
+        "evidence": {
+          "url": "https://lottiefiles.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Lottie Simple License (FL 9.13.21) · commercial: yes · attribution: not required (encouraged) · limit: cannot collect/compile Files to build a competing service; redistributed/modified Files must carry the same license",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://lottiefiles.com/page/license",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "lottiefiles",
+        "type": "Tool",
+        "category": "Design",
+        "title": "LottieFiles",
+        "description": "Marketplace, editor and hosting platform for Lottie/dotLottie animations, with 800,000+ free and premium ready-to-use files.",
+        "tags": [
+          "stock-gifs",
+          "design-templates",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "figma-community",
+          "pixabay",
+          "canva"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Lottie Creator editor with AI Motion Copilot, Prompt to Vector and Prompt to Themes",
+          "Marketplace with 800,000+ free and premium ready-to-use animations",
+          "dotLottie players/SDKs for JavaScript, React, Vue, Svelte, iOS and Android",
+          "Plugins for Figma and After Effects; integrations with Canva, Webflow, Framer, Premiere Pro",
+          "Digital asset management and built-in CDN for hosting Lottie/dotLottie files"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "lottiefiles",
+          "fillColor": "#00DDB3",
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/shutdown/acquisition hits found; privately held with disclosed VC backing (Square Peg Capital, M12, 500 Global) as of 2026 per third-party service-overview pages"
+      },
+      "sources": [
+        {
+          "url": "https://lottiefiles.com",
+          "date": "2026-10-17",
+          "note": "feature set: Lottie Creator, marketplace, players/SDKs, plugins, asset management"
+        },
+        {
+          "url": "https://lottiefiles.com/pricing",
+          "date": "2026-10-17",
+          "note": "plan table (Individual/Team/Team+/Enterprise) and free-plan FAQ answer"
+        },
+        {
+          "url": "https://lottiefiles.com/page/license",
+          "date": "2026-10-17",
+          "note": "Lottie Simple License terms"
+        }
+      ],
+      "unverified": [
+        "exact numeric limits of the free plan (animation count, export caps, watermarking)",
+        "whether the free-tier license terms differ from the general Lottie Simple License"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/lottiefiles.md",
+        "lint": "pass"
+      }
+    },
+    "lottieflow": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Standalone tool at finsweet.com/lottieflow is live, free ('Absolutely FREE... use it forever') and functional, but Lottieflow is absent from Finsweet's current product list on finsweet.com, and Webflow's help site states the related Webflow Marketplace plugin version 'has been deprecated' with no direct support. Maintenance/longevity is unclear — owner call on listing a possibly-unmaintained free tool.",
+      "site": {
+        "name": "Lottieflow",
+        "url": "https://finsweet.com/lottieflow",
+        "alive": true,
+        "operator": "Finsweet"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Free account to browse, customize (hex color, ease/linear motion) and download hundreds of Lottie icon animations across ~20 categories as JSON; page states 'Sign up for free once and use it forever'",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://finsweet.com/lottieflow",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No license/terms published for the downloaded Lottie JSON files on the site itself; usage rights beyond 'free to use' are unstated",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://finsweet.com/lottieflow",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "lottieflow",
+        "type": "Resource",
+        "category": "Design",
+        "title": "Lottieflow",
+        "description": "Free library of customizable Lottie icon animations (color, easing) for Webflow sites, downloadable as JSON.",
+        "tags": [
+          "web",
+          "design-templates"
+        ],
+        "relatedResources": [
+          "webflow",
+          "webflow-templates"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Library of free, downloadable Lottie icon animations across roughly 20 categories (arrows, loaders, social, scroll-to-top, etc.)",
+          "In-browser customization of color (hex) and easing/linear motion before download",
+          "Lightweight JSON files built to work with Webflow Interactions",
+          "Free account required to customize and download files"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 (no match)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam hits; the page itself loads and functions, but is absent from Finsweet's current product list and a related Webflow Marketplace plugin listing is marked deprecated by Webflow's help site"
+      },
+      "sources": [
+        {
+          "url": "https://finsweet.com/lottieflow",
+          "date": "2026-10-17",
+          "note": "feature description, 'Absolutely FREE' pricing claim, no deprecation banner present"
+        },
+        {
+          "url": "https://finsweet.com/",
+          "date": "2026-10-17",
+          "note": "Lottieflow not listed among Finsweet's current products"
+        }
+      ],
+      "unverified": [
+        "current maintenance status / update cadence",
+        "content of the 'Packs' section (linked but not described)",
+        "whether downloaded JSON license permits reuse outside Webflow",
+        "whether the 'deprecated' notice on Webflow's Marketplace help page (for the Webflow plugin integration) also applies to the standalone finsweet.com/lottieflow tool"
+      ],
+      "injectionSeen": null
+    },
+    "lottielab": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Lottielab",
+        "url": "https://www.lottielab.com",
+        "alive": true,
+        "operator": "Lottielab Ltd"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan ('for hobbyists & students'): unlimited files, upload Lottie/SVG, Figma import, export to GIF and MP4. No trial language or time limit stated.",
+        "paidFrom": "Pro plan priced per editor/month, billed annually; exact dollar figure not legible in the fetched page (rendering issue), so left unverified",
+        "evidence": {
+          "url": "https://www.lottielab.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Lottielab Terms of Use · commercial use of exported Lotties: not explicitly addressed · attribution: not required · limit: website content grant itself is 'personal, non-commercial' use only",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.lottielab.com/terms",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "lottielab",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Lottielab",
+        "description": "Browser-based editor for creating and editing Lottie animations, importing from Figma, and exporting for apps and websites.",
+        "tags": [
+          "visual-design",
+          "graphic-design",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "figma"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Browser-based editor for creating and editing Lottie animations",
+          "Import designs directly from Figma, or upload existing Lottie/SVG files",
+          "Export animations as Lottie, GIF, or MP4",
+          "Free plan includes unlimited files; paid Pro plan (billed annually per editor) adds 4K video export, HD export and a team library",
+          "Enterprise plan with dedicated account support, available by contacting sales"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 (no exact match)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown search hits for 'Lottielab'."
+      },
+      "sources": [
+        {
+          "url": "https://www.lottielab.com",
+          "date": "2026-10-17",
+          "note": "homepage pitch, free templates CTA, no AI-agent-directed text found"
+        },
+        {
+          "url": "https://www.lottielab.com/pricing",
+          "date": "2026-10-17",
+          "note": "Free/Pro/Enterprise plan structure; Free is $0, no trial wording; exact Pro price not legible"
+        },
+        {
+          "url": "https://www.lottielab.com/terms",
+          "date": "2026-10-17",
+          "note": "UK-governed terms; no entity name given; website-content grant is personal/non-commercial; no mention of exported Lottie file licensing"
+        },
+        {
+          "url": "https://www.lottielab.com/privacy",
+          "date": "2026-10-17",
+          "note": "operator named as Lottielab Ltd"
+        }
+      ],
+      "unverified": [
+        "Exact Pro plan monthly/annual price (page rendered the currency figures garbled)",
+        "Whether exported Lottie animations may be used commercially under the free plan — terms do not address this directly",
+        "Whether Free plan requires a credit card / has any time limit (not stated either way)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/lottielab.md",
+        "lint": "pass"
+      }
+    },
+    "loveable": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Lovable",
+        "url": "https://lovable.dev",
+        "alive": true,
+        "operator": "Lovable Labs Incorporated (Stockholm-based team; US legal entity registered in Boston) — sourced second-hand via Wikipedia, first-party /about page returned 404"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan gives a daily grant of up to 5 'build' credits (capped at 30/month) plus 20 Cloud credits/month and 4 trial credits for in-app AI features; no stated expiry/trial period on the plan itself",
+        "paidFrom": "Pro and Business plans add monthly credit balances; exact dollar price not stated on the fetched pricing page (credits-based pricing, no figures given)",
+        "evidence": {
+          "url": "https://lovable.dev/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Lovable Terms of Service · commercial: yes, output/code you build may be deployed and used commercially under a revocable license tied to your subscription plan · attribution: not required · limit: cannot use Lovable's name/trademarks to imply affiliation or endorsement",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://lovable.dev/terms",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "lovable",
+        "type": "AI Tool",
+        "category": "Development",
+        "title": "Lovable",
+        "description": "AI app builder that turns a written idea into a working app, generating UI, project structure and code, with a free daily credit allowance.",
+        "tags": [
+          "ai-tool",
+          "no-code"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Generates UI, app structure and production code from a text prompt",
+          "Free plan: up to 5 build credits/day (capped at 30/month) plus 20 Cloud credits/month",
+          "You own the apps and AI output you build, subject to third-party rights",
+          "Pro and Business plans add larger monthly credit balances and team features",
+          "Enterprise plan with volume-based credit pricing"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 (no exact match for 'Lovable')"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Input directory listed the tool as 'Loveable' but its own site/description match 'Lovable' (lovable.dev) — treated as the same product, spelling corrected. Security press (Proofpoint, Hackread, The Hacker News, 2025-2026) reports the platform has been abused by scammers to host phishing/malware sites built with it; Lovable says it added real-time and automated scanning to catch this. This is misuse of the product by third parties, not evidence the product itself is a scam or shutting down."
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/loveable/",
+          "date": "2026-10-17",
+          "note": "original directory entry; description matches Lovable.dev's AI app-builder pitch; did not resolve the outbound redirect URL"
+        },
+        {
+          "url": "https://lovable.dev/pricing",
+          "date": "2026-10-17",
+          "note": "free/Pro/Business/Enterprise credit structure"
+        },
+        {
+          "url": "https://lovable.dev/terms",
+          "date": "2026-10-17",
+          "note": "license grant, ownership of AI output, trademark restriction"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Lovable_(company)",
+          "date": "2026-10-17",
+          "note": "second-hand: founders, HQ, rename from GPT Engineer — used only for operator context, not for pricing/license facts"
+        }
+      ],
+      "unverified": [
+        "Exact dollar prices for Pro/Business plans (page describes credits, not currency figures)",
+        "First-party operator/company page (lovable.dev/about returned 404; operator taken from Wikipedia, second-hand)",
+        "Whether digitool.co's listed URL for 'Loveable' truly points to lovable.dev — the redirect target itself was not fetched, identification is by name+description match only"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/lovable.md",
+        "lint": "pass"
+      }
+    },
+    "lovers-magazine": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "FETCH-FAIL: https://www.loversmagazine.com permanently redirects (301) to https://spaces.is/loversmagazine/, which returned HTTP 500 on two separate attempts (direct fetch and retry); could not read pricing, license/terms, or confirm safety first-party.",
+      "site": {
+        "name": "Lovers Magazine",
+        "url": "https://www.loversmagazine.com",
+        "alive": false,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": null,
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.loversmagazine.com",
+          "date": "2026-10-17",
+          "note": "301 redirect to https://spaces.is/loversmagazine/"
+        },
+        {
+          "url": "https://spaces.is/loversmagazine/",
+          "date": "2026-10-17",
+          "note": "HTTP 500 on first attempt and on retry"
+        }
+      ],
+      "unverified": [
+        "Pricing/membership model",
+        "License/terms",
+        "Operator identity",
+        "Content offered for free vs. paid",
+        "Safety screen (could not confirm via first-party pages; WebSearch found only third-party descriptions of a 'Lovers Magazine' design community curated by 'SPACES', not confirmed as this exact domain's current content)"
+      ],
+      "injectionSeen": null
+    },
+    "lovetheworkmore": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Love The Work More",
+        "url": "https://lovetheworkmore.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Free access to a crowdsourced, year-by-year directory of links to award-winning creative/ad campaigns (1954-2026 sections seen); no sign-up, account or paywall on the page",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://lovetheworkmore.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No license page found on the site · commercial use: unclear (site only links out to third-party creative work, hosts no licensable content of its own) · attribution: not required · limit: links are crowdsourced and the site itself says some are missing or broken",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://lovetheworkmore.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "lovetheworkmore",
+        "type": "Website",
+        "category": "Design",
+        "title": "Love The Work More",
+        "description": "A free, crowdsourced directory of links to Cannes Lions and other award-winning ad campaigns, organized by year from the 1950s to today.",
+        "tags": [
+          "inspiration",
+          "graphic-design"
+        ],
+        "relatedResources": [
+          "behance",
+          "awwwards"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Year-by-year index of award-winning creative/advertising work, spanning the 1950s to the present",
+          "Crowdsourced: visitors can submit missing or broken links by email",
+          "No sign-up, account or paywall to browse",
+          "Originated as a free, public alternative to Cannes Lions' own paid award archive"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 (no match)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown hits in search; page content (year-based archive of Cannes Lions-winning work, 'calling for link donations') is consistent with 2021-2022 press coverage of the project under this same name"
+      },
+      "sources": [
+        {
+          "url": "https://lovetheworkmore.com",
+          "date": "2026-10-17",
+          "note": "home page content/structure, free access, no pricing/sign-up, contact details"
+        },
+        {
+          "url": "https://www.adweek.com/agencyspy/lovetheworkmore-creative-duo-backtracks-on-agreement-with-cannes-lions/",
+          "date": "2026-10-17",
+          "note": "second-hand background on the project's 2021 origin and founders (not re-confirmed on the live site today)"
+        }
+      ],
+      "unverified": [
+        "operator/founders not named on the site itself today; 2021-2022 press (Adweek, Vietcetera) names Quynh Tran and Toan Mai as founders but this was not re-confirmed first-party",
+        "no dedicated license/terms page found on the site",
+        "displayed contact email (Hotmail) links to a different mailto address (Gmail) — minor inconsistency, not investigated further",
+        "icon: no Simple Icons match; site's own logo not fetched/sanitized"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/lovetheworkmore.md",
+        "lint": "pass"
+      }
+    },
+    "lstore-graphics": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Lstore Graphics",
+        "url": "https://www.ls.graphics",
+        "alive": true,
+        "operator": "Lovely and Spotless Graphics"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Several individual mockups/assets are free to download without a subscription (e.g. Christmas Icons, Grainy Blurs, Glass Aberrations, Liquid States, Futerals Abstractions, Inflated Puffs, Translucent Layers); the mckp.live mockup tool offers a 'Try for Free' option",
+        "paidFrom": "Start plan $9/month ($99/year): online editor + PNG/JPG export. Pro plan $12/month ($144/year): adds PSD/Sketch/Figma downloads and the Figma plugin. Individual mockup packs also sold separately ($19-$59 seen)",
+        "evidence": {
+          "url": "https://www.ls.graphics",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Site Terms of Service (no named open license) · commercial use: yes (\"personal and commercial projects, including projects for clients\") · attribution: not required (not mentioned) · limit: no redistribution/resale/sublicensing of Products, and no public sharing of download links or source files",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.ls.graphics/terms-of-service",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "lstore-graphics",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Lstore Graphics",
+        "description": "A mockup and scene-creator marketplace for designers, with a selection of free mockups, a Figma plugin and an online editor.",
+        "tags": [
+          "graphic-design",
+          "ui-ux",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "figma",
+          "figma-community"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Device, packaging and branding mockup library, with several items free to download",
+          "Online mockup editor with PNG/JPG export (paid plans)",
+          "Figma plugin to browse and insert mockups (Pro plan)",
+          "mckp.live standalone embeddable mockup tool with a free option",
+          "Individual mockup packs purchasable without a subscription"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 (no match)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown hits in search; operator named in the site footer ('Lovely and Spotless Graphics')"
+      },
+      "sources": [
+        {
+          "url": "https://www.ls.graphics",
+          "date": "2026-10-17",
+          "note": "product description, free vs. paid items, pricing tiers, operator name"
+        },
+        {
+          "url": "https://www.ls.graphics/terms-of-service",
+          "date": "2026-10-17",
+          "note": "commercial-use, attribution and redistribution terms"
+        }
+      ],
+      "unverified": [
+        "exact <title>/og:title text not captured verbatim (fetch returned a summary, not raw HTML)",
+        "whether mckp.live's 'Try for Free' is a permanent free tier or a time-limited trial",
+        "full list and current prices of individual mockup packs beyond the two examples quoted",
+        "icon: no Simple Icons match; site's own logo not fetched/sanitized"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/lstore-graphics.md",
+        "lint": "pass"
+      }
+    },
+    "ltx-studio": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "FETCH-FAIL: WebFetch returned 'Parse Error: Header overflow' on every attempt against this site — https://ltx.io/studio (tried twice), https://ltx.studio (redirected to https://ltx.io/studio, same error), https://ltx.io, and https://ltx.io/blog/ltx-studio-plans. The page could not be read directly; retried per site after other work, still failing.",
+      "site": {
+        "name": "LTX Studio",
+        "url": "https://ltx.io/studio",
+        "alive": true,
+        "operator": "Lightricks (Israeli AI company) — per third-party sources only; not confirmed first-party"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Reported (second-hand, via WebSearch summary of LTX's own plans blog) as a one-time, non-renewing allotment of 800 credits with a personal-use-only license, no credit card required; described by one reviewer as for testing, not production use. Not confirmed by a direct first-party read.",
+        "paidFrom": "Reported (second-hand, sources disagree) Lite plan around $15/month ($12/month billed yearly / $144/year); other third-party listings show different figures ($12-$100/month range). Not confirmed first-party.",
+        "evidence": {
+          "url": "https://ltx.io/blog/ltx-studio-plans",
+          "date": "2026-10-17",
+          "confidence": "second-hand"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://ltx.io/studio",
+          "date": "2026-10-17",
+          "note": "attempted direct fetch; failed every time with 'Parse Error: Header overflow'"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/LTX_Studio",
+          "date": "2026-10-17",
+          "note": "second-hand background: product is an AI video/storyboarding tool from Lightricks, launched Feb 2024"
+        },
+        {
+          "url": "https://ltx.io/blog/ltx-studio-plans",
+          "date": "2026-10-17",
+          "note": "second-hand pricing figures, via WebSearch summary; page itself could not be fetched directly"
+        }
+      ],
+      "unverified": [
+        "the site could not be read directly at all; every fact here comes from third-party/second-hand sources via WebSearch, not a first-party fetch",
+        "exact current free-tier limits and paid-plan prices (sources disagree)",
+        "license/terms page not checked",
+        "duplicate check and safety search (scam/malware/shutdown) not run for this tool",
+        "no rl block written: Tier B write-up requires a readable site, which this tool did not have"
+      ],
+      "injectionSeen": null
+    },
+    "lucidspark": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Lucidspark",
+        "url": "https://lucid.co/lucidspark/",
+        "alive": true,
+        "operator": "Lucid Software Inc."
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "A free plan exists (home page offers \"Sign up free\"); third-party plan comparisons (Capterra, GetApp) describe it as 3 editable boards with unlimited shapes per board, freehand drawing, emoji reactions and commenting, but Lucidspark's own pricing page (lucid.app/pricing/lucidspark) is JS-rendered and returned only the page title on fetch, so these limits are second-hand, not first-party confirmed",
+        "paidFrom": "Individual plan reported around $9/month (or ~$7.95-$9/month in slightly older third-party listings), Team around $9-10/user/month; not confirmed on Lucid's own JS-rendered pricing page",
+        "evidence": {
+          "url": "https://lucid.app/pricing/lucidspark",
+          "date": "2026-10-17",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "Lucid Terms of Service · commercial: yes (standard commercial SaaS use implied) · attribution: not required · limit: subject to Lucid's ToS, full clause text not loaded",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://lucid.co/tos",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "lucidspark",
+        "type": "Tool",
+        "category": "Productivity",
+        "title": "Lucidspark",
+        "description": "Virtual whiteboard from Lucid Software for brainstorming, planning and visual collaboration with a team.",
+        "tags": [
+          "whiteboard",
+          "collaboration",
+          "prototyping",
+          "productivity"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "miro",
+          "figjam",
+          "tldraw"
+        ],
+        "keyFeatures": [
+          "Infinite canvas with freehand drawing, Lucid Cards (sticky-note style) and emoji reactions",
+          "Pre-built templates for mind maps, SWOT analysis, roadmaps, sprint retros, business model canvas and more",
+          "Facilitation tools for live sessions: timer, voting sessions, breakout boards and a laser pointer",
+          "AI features for idea generation, theme sorting and session summaries",
+          "Integrates with Slack, Zoom, Microsoft Teams, Jira, Asana, Confluence, Figma and Notion"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-17: no exact Simple Icons match for \"Lucidspark\"; fuzzy match \"lucid\" is a different brand (Lucid Motors), not used"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Lucid Software is an established company; safety search turned up an unrelated criminal phishing-as-a-service platform also named \"Lucid\" and a reported impersonation/scam attempt using a lookalike domain \"lucidspark.one\" (flagged on Lucid's own community forum) — neither implicates lucidspark.com or lucid.co itself"
+      },
+      "sources": [
+        {
+          "url": "https://lucidspark.com",
+          "date": "2026-10-17",
+          "note": "301 redirect target resolved to https://lucid.co/lucidspark/"
+        },
+        {
+          "url": "https://lucid.co/lucidspark/",
+          "date": "2026-10-17",
+          "note": "pitch, operator, pricing/terms links, capabilities/templates/integrations list"
+        },
+        {
+          "url": "https://lucid.app/pricing/lucidspark",
+          "date": "2026-10-17",
+          "note": "JS-rendered; fetch returned only page title, no plan details"
+        },
+        {
+          "url": "https://lucid.co/tos",
+          "date": "2026-10-17",
+          "note": "fetch returned only nav/footer, no operative terms text"
+        },
+        {
+          "url": "https://capterra.com/p/211643/LucidSpark/pricing/ and other aggregators (via WebSearch)",
+          "date": "2026-10-17",
+          "note": "second-hand free-tier and paid-price figures, used only as corroboration"
+        },
+        {
+          "url": "WebSearch: Lucidspark scam OR malware OR shutting down OR acquired",
+          "date": "2026-10-17",
+          "note": "no safety hits against lucidspark.com/lucid.co"
+        }
+      ],
+      "unverified": [
+        "Exact free-tier limits and current paid prices not confirmed first-party; Lucidspark's own pricing page is JS-rendered and returned no plan text on fetch, so figures come from third-party trackers (Capterra/GetApp/xpay) and may be outdated",
+        "Full Terms of Service text not loaded (fetch returned only navigation/footer); commercial-use and listing clauses not directly verified"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/lucidspark.md",
+        "lint": "pass"
+      }
+    },
+    "lumen-tool": {
+      "researchedOn": "2026-10-17",
+      "verdict": "skip",
+      "verdictReason": "Paid-only: lumentool.com/pricing/ shows a single plan (€9/month or €99/year, introductory prices) with no permanent free tier; the page states the tool \"requires a subscription\" and the homepage interactive demo is limited, not full access. Input label \"Free\" does not match the current first-party pricing page.",
+      "site": {
+        "name": "Lumen Tool",
+        "url": "https://lumentool.com",
+        "alive": true,
+        "operator": "Bit Blurry Studio"
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "€9/month billed monthly, or €99/year (both labeled \"introductory price\" on the page); one plan (\"One Plan\") covers all features",
+        "evidence": {
+          "url": "https://lumentool.com/pricing/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown hits for lumentool.com; a Product Hunt-mirror/Indie Hackers listing describes an earlier/alternate version as a free side-project browser tool with no data sent anywhere, which conflicts with the current paid-only first-party pricing page (not reconciled)"
+      },
+      "sources": [
+        {
+          "url": "https://lumentool.com",
+          "date": "2026-10-17",
+          "note": "pitch, operator (Bit Blurry Studio), links to pricing/terms"
+        },
+        {
+          "url": "https://lumentool.com/pricing/",
+          "date": "2026-10-17",
+          "note": "confirmed single paid plan, no free tier, no trial"
+        },
+        {
+          "url": "WebSearch: \"Lumen Tool\" lumentool.com scam OR malware OR shutting down OR acquired",
+          "date": "2026-10-17",
+          "note": "no safety hits; found conflicting indiehackers/producthunt-mirror listing calling it free"
+        }
+      ],
+      "unverified": [
+        "An Indie Hackers / Product Hunt-mirror listing describes Lumen Tool as free with no backend; the current first-party pricing page contradicts this and shows paid-only — not reconciled, treated as the live site overriding the older listing"
+      ],
+      "injectionSeen": null
+    },
+    "lumi": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "lumi.new/pricing is a JS-rendered page that returned no plan content on fetch (only nav links and a logo); the home page does not disclose whether a free tier exists or its limits, and the operator/company name is not stated anywhere on the site. Third-party aggregators give conflicting free/paid figures and may describe a different product (\"Lumi Redraft\"), so the real permanent free tier required for verdict \"list\" cannot be confirmed first-party without bypassing JS rendering, which is not authorized.",
+      "site": {
+        "name": "Lumi.new",
+        "url": "https://lumi.new",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://lumi.new/pricing",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://lumi.new",
+          "date": "2026-10-17",
+          "note": "pitch (\"Create amazing websites by chatting with AI\"), links to /pricing, /terms.html, /privacy.html; no operator named"
+        },
+        {
+          "url": "https://lumi.new/pricing",
+          "date": "2026-10-17",
+          "note": "JS-rendered page; fetch returned only nav links (Affiliates, Guide, Pricing) and a Download App button, no plan content"
+        },
+        {
+          "url": "WebSearch: lumi.new AI website builder pricing free plan",
+          "date": "2026-10-17",
+          "note": "conflicting third-party figures ($0/$9.99/$19.99/$49.99 vs Pro $25/mo vs Pro $19/mo); some sources may describe a different product \"Lumi Redraft\""
+        },
+        {
+          "url": "WebSearch: \"lumi.new\" scam OR malware OR shutting down OR acquired",
+          "date": "2026-10-17",
+          "note": "no relevant safety hits (search matched unrelated \"Lumma Stealer\" malware by name similarity only)"
+        }
+      ],
+      "unverified": [
+        "Operator/company name not disclosed on site",
+        "Free tier existence and its limits not confirmed first-party; pricing page is JS-rendered and returned no content",
+        "Third-party aggregator pricing figures conflict and at least one source may describe a different product (Lumi Redraft)"
+      ],
+      "injectionSeen": null
+    },
+    "lummi": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "FETCH-FAIL: https://www.lummi.ai returned HTTP 403 Forbidden on two attempts; could not read pricing, license, or about pages.",
+      "site": {
+        "name": "Lummi",
+        "url": "https://www.lummi.ai",
+        "alive": null,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.lummi.ai",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.lummi.ai",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown hits found via web search; search returned unrelated 'Lumma Stealer' malware results, not lummi.ai."
+      },
+      "sources": [
+        {
+          "url": "https://www.lummi.ai",
+          "date": "2026-10-17",
+          "note": "WebFetch returned HTTP 403 Forbidden on two attempts; no content retrieved"
+        }
+      ],
+      "unverified": [
+        "Home page content, operator, pricing page, license/terms page — all blocked by 403",
+        "Input description says 'Free stock photos powered by humans and AI everywhere', pricing label 'Freemium' — from input only, not independently confirmed"
+      ],
+      "injectionSeen": null
+    },
+    "lunacy": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "FETCH-FAIL: https://icons8.com/lunacy returned HTTP 403 Forbidden on two attempts; could not read pricing, license, or about pages.",
+      "site": {
+        "name": "Lunacy",
+        "url": "https://icons8.com/lunacy",
+        "alive": null,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://icons8.com/lunacy",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://icons8.com/lunacy",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Not independently checked for scam/malware/shutdown news; fetch blocked before a safety-search pass on this specific tool was run."
+      },
+      "sources": [
+        {
+          "url": "https://icons8.com/lunacy",
+          "date": "2026-10-17",
+          "note": "WebFetch returned HTTP 403 Forbidden on two attempts; no content retrieved"
+        }
+      ],
+      "unverified": [
+        "Home page content, operator (presumed Icons8, not confirmed first-party), pricing page, license/terms page — all blocked by 403",
+        "Input description says 'Free design software that keeps your flow with AI tools and built-in graphics', pricing label 'Free' — from input only, not independently confirmed"
+      ],
+      "injectionSeen": null
+    },
+    "lunagraph": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Early-access/beta desktop app (macOS/Windows) with no pricing page at all; ToS states features 'may change, break, or be discontinued' and access may be limited/suspended at any time — no permanent free tier confirmed, and the owner should decide whether a beta with undetermined pricing should be listed now or revisited later.",
+      "site": {
+        "name": "Lunagraph",
+        "url": "https://lunagraph.com",
+        "alive": true,
+        "operator": "Lunagraph Inc. (per Terms of Service; no further company detail on site)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Currently free to download and use (no pricing page, no paywall seen); a third-party Product Hunt listing says the creator has not set a price yet because they want to learn how people use it first. Not a confirmed permanent free tier.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://lunagraph.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Lunagraph Terms of Service (proprietary) · commercial: not addressed · attribution: not addressed · limit: service may be offered as preview/beta/waitlist and can be limited, suspended, or discontinued at any time",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://lunagraph.com/terms",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition hits in web search; search also surfaced an unrelated 'LunaSpy' Android malware and 'Lumma Stealer' malware, neither connected to Lunagraph."
+      },
+      "sources": [
+        {
+          "url": "https://lunagraph.com",
+          "date": "2026-10-17",
+          "note": "Pitch ('Design canvas that writes real code, powered by Claude Code'), contact (putri@lunagraph.com), footer links (Learn, Support, Privacy, Terms), copyright line naming Lunagraph as operator; no About or Pricing link in nav/footer"
+        },
+        {
+          "url": "https://lunagraph.com/terms",
+          "date": "2026-10-17",
+          "note": "No pricing mentioned; ownership/licensing clause; explicit beta/preview/waitlist clause allowing feature changes or discontinuation"
+        },
+        {
+          "url": "https://www.producthunt.com (via web search, second-hand)",
+          "date": "2026-10-17",
+          "note": "Product Hunt alpha listing: creator has not set a price yet, output is HTML/CSS/React via Claude Code, launched 2026-04-09; known gaps (no component drag-in, no absolute positioning) — second-hand, not independently opened"
+        }
+      ],
+      "unverified": [
+        "Legal company name/jurisdiction beyond 'Lunagraph Inc.' stated in ToS",
+        "Any eventual pricing plan or free-tier limits (none published yet)",
+        "Product Hunt launch date and feature-gap claims are second-hand (web search summary), not opened directly"
+      ],
+      "injectionSeen": null
+    },
+    "lunair": {
+      "researchedOn": "2026-10-17",
+      "verdict": "skip",
+      "verdictReason": "Free plan is a one-time 20-second trial with watermark, no public videos and no sharing — a free trial, not a permanent free tier; real use requires the Top-Up or Monthly paid plans.",
+      "site": {
+        "name": "Lunair",
+        "url": "https://www.lunair.ai",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": "\"Free to try\": 20 seconds total to try the product, watermarked output, no public videos, no sharing via Lunair Player, limited scene edits/asset uploads — a one-time trial allowance, not a recurring free tier",
+        "paidFrom": "Top-Up $38.70 one-time for 30 seconds ($1.29/sec); Monthly $29.70/month base ($9 + $0.69/sec) for 30 seconds added monthly, no watermark, private videos",
+        "evidence": {
+          "url": "https://www.lunair.ai",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.lunair.ai",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": null,
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition hits in search; site alive"
+      },
+      "sources": [
+        {
+          "url": "https://www.lunair.ai",
+          "date": "2026-10-17",
+          "note": "product description, three pricing plans, free plan limits (20 seconds to try, watermark, no public videos/sharing), no dedicated terms/license nav link found"
+        }
+      ],
+      "unverified": [
+        "Legal operator / company entity behind Lunair.ai (only brand name + 'Guyman Studio' design credit shown)",
+        "License/terms page not found on the homepage; not read"
+      ],
+      "injectionSeen": null
+    },
+    "lyssna": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Lyssna",
+        "url": "https://www.lyssna.com",
+        "alive": true,
+        "operator": "Lyssna (rebranded from UsabilityHub in 2023; founded by Mateja, Nick and Tristan)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan at $0/month: unlimited quick studies, 3 seats, 15 self-recruited test/survey responses per month, core research methods, panel access, spaces, user interviews, live chat support; no credit card required",
+        "paidFrom": "Growth $166/month: 5 in-depth studies/month, 5 seats, unlimited self-recruited responses, AI summaries/follow-ups, custom branding, and more",
+        "evidence": {
+          "url": "https://www.lyssna.com/pricing/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: yes (standard product use) · attribution: not required · limit: panel (recruited-participant) responses are billed separately on every plan, including Free",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://app.lyssna.com/terms",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "lyssna",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Lyssna",
+        "description": "Remote user research platform for usability testing, surveys, interviews and participant recruitment, with a free plan for unlimited quick studies.",
+        "tags": [
+          "ui-ux",
+          "productivity"
+        ],
+        "relatedResources": [
+          "figma"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Quick usability tests, first-click tests, card sorting and preference tests",
+          "Surveys and interviews with built-in participant recruitment panel",
+          "AI-assisted follow-up questions and summaries on paid plans",
+          "Free plan includes unlimited quick studies and 3 seats, no credit card required",
+          "Role-based permissions, custom branding and SSO on higher plans"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 — no exact match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition hits in search; site alive, active pricing page"
+      },
+      "sources": [
+        {
+          "url": "https://www.lyssna.com",
+          "date": "2026-10-17",
+          "note": "product description, nav links (pricing, terms, about)"
+        },
+        {
+          "url": "https://www.lyssna.com/pricing/",
+          "date": "2026-10-17",
+          "note": "full plan breakdown: Free, Growth $166/mo, Enterprise"
+        },
+        {
+          "url": "https://www.lyssna.com/about/",
+          "date": "2026-10-17",
+          "note": "founding story (fivesecondtest.com 2008 -> UsabilityHub -> rebranded Lyssna 2023); no legal entity/HQ named"
+        },
+        {
+          "url": "https://app.lyssna.com/terms",
+          "date": "2026-10-17",
+          "note": "fetch returned only an 'unsupported browser' notice, not the terms text; could not confirm commercial-use/redistribution clauses"
+        }
+      ],
+      "unverified": [
+        "Exact legal entity name and headquarters (not stated on site)",
+        "Full terms & conditions text — the app.lyssna.com/terms fetch returned an 'unsupported browser' page, not the actual terms"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/lyssna.md",
+        "lint": "pass"
+      }
+    },
+    "macaly": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Macaly",
+        "url": "https://www.macaly.com",
+        "alive": true,
+        "operator": "LANGTAIL.COM s.r.o. (Prague, Czech Republic), trading as \"Macaly by Langtail\""
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan at $0/month: 1M monthly credits, 1 published app at a time on a macaly.app domain, 100 Macaly Cloud actions/month, 1 GiB file storage, 1 GiB database usage, 50,000 backend API calls, 1GB website traffic, WhatsApp/Telegram integrations",
+        "paidFrom": "Starter $10/month: 1M credits, own domain, 5GB traffic, 5 GiB storage/database, 100,000 API calls, adds analytics, Stripe, SEO, AI image generation",
+        "evidence": {
+          "url": "https://www.macaly.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS (Macaly Terms of Service) · commercial: yes, Generated Content may be used for commercial purposes (ToS 3.10/3.12) · attribution: not required · limit: Generated Content may not be sold/distributed in reusable form (e.g. as themes/templates), and the Software itself may not be copied, redistributed or made available to third parties",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.macaly.com/terms-of-service",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "macaly",
+        "type": "AI Tool",
+        "category": "Development",
+        "title": "Macaly",
+        "description": "AI app builder that ships full-stack web apps from a single prompt, with hosting, a database and integrations on a free plan.",
+        "tags": [
+          "ai-tool",
+          "no-code"
+        ],
+        "relatedResources": [
+          "framer"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Generates full-stack web apps and websites from a text prompt",
+          "Built-in hosting, database and backend API on every plan",
+          "Free plan includes 1M monthly credits and one published app",
+          "Integrations with WhatsApp, Telegram, Stripe and GitHub (paid tiers)",
+          "Generated content usable commercially, but may not be resold as a reusable theme/template"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 — no exact match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition hits in search; operator identified by name and registered address in its own ToS"
+      },
+      "sources": [
+        {
+          "url": "https://www.macaly.com",
+          "date": "2026-10-17",
+          "note": "product description, operator credit ('Macaly by Langtail'), nav links"
+        },
+        {
+          "url": "https://www.macaly.com/pricing",
+          "date": "2026-10-17",
+          "note": "full plan breakdown: Free, Starter $10, Pro $25, Agency $350, overage costs"
+        },
+        {
+          "url": "https://www.macaly.com/terms-of-service",
+          "date": "2026-10-17",
+          "note": "legal entity (LANGTAIL.COM s.r.o., Prague), commercial-use clause (3.10/3.12), redistribution limits (3.4, 3.6.7, 3.12)"
+        }
+      ],
+      "unverified": [
+        "Exact Pro/Agency credit allotments (page did not state Pro's monthly credits)",
+        "Prices for paid add-ons (white-label, extra API calls, extra DB usage) — not listed on the pricing page"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/macaly.md",
+        "lint": "pass"
+      }
+    },
+    "machine-learning-design": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "Home page is JS-rendered; WebFetch returns only the page title (\"ML + Design\") with no body, nav, footer, operator, or pricing content after two attempts (direct fetch and a retry) and no cached/alternate copy could be read. Cannot verify operator, content sections, or safety to write a listing.",
+      "site": {
+        "name": "Machine Learning + Design",
+        "url": "https://machinelearning.design",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://machinelearning.design",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://machinelearning.design",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://machinelearning.design",
+          "date": "2026-10-17",
+          "note": "WebFetch returned only the title \"ML + Design\", no links/sections/footer; JS-rendered page, content not retrievable"
+        }
+      ],
+      "unverified": [
+        "Site operator/author",
+        "Actual content/sections (listed label is \"Collection of resources\" per backlog, unconfirmed)",
+        "Pricing/free-tier status",
+        "License or terms",
+        "Safety screen not completed (page unreadable)"
+      ],
+      "injectionSeen": null
+    },
+    "macintosh-skeletal-filled": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Macintosh Skeletal Filled",
+        "url": "https://github.com/npwitk/Macintosh-Skeletal-Filled",
+        "alive": true,
+        "operator": "npwitk (individual developer, GitHub username only)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Free download of both fonts from the GitHub repo; no paid tier, no account required",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://github.com/npwitk/Macintosh-Skeletal-Filled",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Custom repo license · commercial: no · attribution: not required (but may not imply Apple affiliation) · limit: personal, non-commercial, educational use only; derived from Apple's hello-screen font data, which Apple still owns",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://github.com/npwitk/Macintosh-Skeletal-Filled/blob/main/LICENSE",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "macintosh-skeletal-filled",
+        "type": "Font",
+        "category": "Design",
+        "title": "Macintosh Skeletal Filled",
+        "description": "OpenType fonts turning Apple's classic Mac OS \"hello\" screen handwriting into typeable text, with a variable weight axis; free for personal, non-commercial use.",
+        "tags": [
+          "typography",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "fontpair"
+        ],
+        "similarResources": [
+          "google-fonts"
+        ],
+        "keyFeatures": [
+          "Static filled font recreating the exact hello-screen handwriting",
+          "Variable font with a weight axis from Thin to Black",
+          "Optional \"Crossing o\" stylistic set",
+          "Optional \"Join every letter\" stylistic set for a connected-script look",
+          "Free download from GitHub, no account needed"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17: no exact match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "GitHub repo, 559 stars/68 forks; safety search for scam/malware/shutdown found no hits tied to this project, 2026-10-17"
+      },
+      "sources": [
+        {
+          "url": "https://github.com/npwitk/Macintosh-Skeletal-Filled",
+          "date": "2026-10-17",
+          "note": "project description, two-font structure, stylistic sets, star/fork counts, README overview"
+        },
+        {
+          "url": "https://github.com/npwitk/Macintosh-Skeletal-Filled/blob/main/LICENSE",
+          "date": "2026-10-17",
+          "note": "license terms: personal/non-commercial/educational use only, no resale, no implied Apple affiliation, Apple retains rights to source font data"
+        }
+      ],
+      "unverified": [
+        "Author's real name (only GitHub username \"npwitk\" shown)",
+        "Last commit date (commit count visible, no date read)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/macintosh-skeletal-filled.md",
+        "lint": "pass"
+      }
+    },
+    "macpaw-fixel": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "MacPaw Fixel",
+        "url": "https://fixel.macpaw.com",
+        "alive": true,
+        "operator": "MacPaw (developed in collaboration with AlphaBravo design studio/foundry)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire family free to download and use, including commercial use per the FAQ; donations to the MacPaw Foundation are optional, not required",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://fixel.macpaw.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "SIL Open Font License 1.1 · commercial: yes (FAQ: \"available for non-commercial and commercial use\") · attribution: not required (OFL default; site invites but does not require tagging #macpaw_fixel) · limit: standard OFL restrictions apply (cannot sell the font software by itself under its own name)",
+        "openSource": true,
+        "spdx": "OFL-1.1",
+        "evidence": {
+          "url": "https://fixel.macpaw.com/frequently-asked-questions",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "macpaw-fixel",
+        "type": "Font",
+        "category": "Design",
+        "title": "MacPaw Fixel",
+        "description": "Free variable grotesque typeface by MacPaw and AlphaBravo, with Text, Display and Italic styles across nine weights, licensed under the SIL Open Font License.",
+        "tags": [
+          "typography",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "fontpair"
+        ],
+        "similarResources": [
+          "google-fonts"
+        ],
+        "keyFeatures": [
+          "Three styles: Text, Display and Italic",
+          "Nine weights per style, from Thin to Black",
+          "Over 11,000 glyphs with Latin and Cyrillic support",
+          "SIL Open Font License, free for personal and commercial use",
+          "Optional donations to the MacPaw Foundation, not required to use the font"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17: no exact match for \"MacPaw Fixel\" (parent brand \"MacPaw\" exists but is a different product/app icon, not used to avoid misrepresenting the font as the MacPaw app)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Safety search for scam/malware/shutdown/acquired found no hits for Fixel; unrelated hits were about fake CleanMyMac installers (a different MacPaw product), 2026-10-17"
+      },
+      "sources": [
+        {
+          "url": "https://fixel.macpaw.com",
+          "date": "2026-10-17",
+          "note": "product description, styles/weights, glyph count, free-for-community framing, donation link, nav links"
+        },
+        {
+          "url": "https://fixel.macpaw.com/frequently-asked-questions",
+          "date": "2026-10-17",
+          "note": "confirms commercial use allowed, OFL governs use, no attribution requirement beyond optional hashtag credit"
+        }
+      ],
+      "unverified": [
+        "Exact OFL clause text (not fetched directly from scripts.sil.org; relied on site's own characterization plus well-known OFL terms)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/macpaw-fixel.md",
+        "lint": "pass"
+      }
     }
   }
 }
