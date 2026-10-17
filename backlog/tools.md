@@ -10,13 +10,13 @@ Generated 2026-10-17 by `scripts/backlog-build.mjs` from `backlog/tools-list.jso
 
 | Status | Count | Meaning |
 |---|---:|---|
-| `todo` | 807 | in the research queue (free / freemium / beta) |
+| `todo` | 777 | in the research queue (free / freemium / beta) |
 | `in-rl` | 34 | already in ResourcesList (matched by site or slug) — skip, maybe use for related/similar links |
 | `deferred-paid` | 216 | labelled **Paid** only — parked |
 | `deferred-trial` | 232 | labelled **Free Trial** only — parked until a real free tier is confirmed |
-| `researching` / `researched` / `drafted` / `rejected` / `blocked` | 0 / 13 / 441 / 129 / 407 | set by research sessions |
+| `researching` / `researched` / `drafted` / `rejected` / `blocked` | 0 / 15 / 454 / 136 / 415 | set by research sessions |
 
-Queue by priority: **P1** 1 (free/freemium, listed on 2+ pages) · **P2** 769 (free/freemium, 1 page) · **P3** 37 (beta).
+Queue by priority: **P1** 1 (free/freemium, listed on 2+ pages) · **P2** 740 (free/freemium, 1 page) · **P3** 36 (beta).
 
 ## What happens if a tool is not processed (and why)
 
@@ -979,39 +979,69 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Material 2 Design Resources | m2.material.io | Free | 1 | P2 | blocked |
 | Material 3 Design Resources | m3.material.io | Free | 1 | P2 | blocked |
 | Material Design Color System | m2.material.io | Free | 1 | P2 | blocked |
-| Material Design Type Scale | m2.material.io | Free | 1 | P2 | researched |
+| Material Design Type Scale | m2.material.io | Free | 1 | P2 | drafted |
 | MaxiBestOf | maxibestof.one | Freemium | 1 | P2 | blocked |
 | Maze | maze.co | Freemium | 1 | P2 | blocked |
 | Mazeletter | mazeletter.xyz | Free | 1 | P2 | blocked |
-| mckp.live | mckp.live | Freemium | 1 | P2 | researched |
-| Mechanic | mechanic.design | Free | 1 | P2 | researched |
+| mckp.live | mckp.live | Freemium | 1 | P2 | drafted |
+| Mechanic | mechanic.design | Free | 1 | P2 | drafted |
 | Media.io | via Digitool | Free tier listed | 1 | P2 | blocked |
-| MediaCheatSheet | mediacheatsheet.com | Free | 1 | P2 | researched |
-| Meditations in Color | meditationsincolor.com | Free | 1 | P2 | researched |
+| MediaCheatSheet | mediacheatsheet.com | Free | 1 | P2 | drafted |
+| Meditations in Color | meditationsincolor.com | Free | 1 | P2 | drafted |
 | Meet Your Legend | meetyourlegend.com | Free + Paid | 1 | P2 | rejected |
-| MeetGeek | via Digitool | Free tier listed | 1 | P2 | researched |
+| MeetGeek | via Digitool | Free tier listed | 1 | P2 | drafted |
 | Meetup | meetup.com | Free | 1 | P2 | blocked |
 | Melius | melius.com | Freemium | 1 | P2 | rejected |
 | Memojis | figma.com | Free | 1 | P2 | blocked |
-| Mermaid | mermaidchart.com | Freemium | 1 | P2 | researched |
-| Mesh | morflax.com | Freemium | 1 | P2 | researched |
-| Meshy AI | meshy.ai | Freemium | 1 | P2 | researched |
-| Mesurer | mesurer.dev | Free | 1 | P2 | researched |
+| Mermaid | mermaidchart.com | Freemium | 1 | P2 | drafted |
+| Mesh | morflax.com | Freemium | 1 | P2 | drafted |
+| Meshy AI | meshy.ai | Freemium | 1 | P2 | drafted |
+| Mesurer | mesurer.dev | Free | 1 | P2 | drafted |
 | Meta Ad Library | facebook.com | Free | 1 | P2 | blocked |
 | Meta AI | meta.ai | Free | 1 | P2 | blocked |
 | Metricool | metricool.com | Freemium | 1 | P2 | blocked |
 | Microcopy | microcopy.me | Free | 1 | P2 | blocked |
-| Microsoft Copilot | copilot.microsoft.com | Freemium | 1 | P2 | researched |
+| Microsoft Copilot | copilot.microsoft.com | Freemium | 1 | P2 | drafted |
 | Microsoft Designer | designer.microsoft.com | Freemium | 1 | P2 | blocked |
 | Microsoft PowerPoint | microsoft.com | Freemium | 1 | P2 | blocked |
 | Milanote | milanote.com | Freemium | 2 | P1 | drafted |
-| Milkshake | milkshake.app | Freemium | 1 | P2 | researched |
+| Milkshake | milkshake.app | Freemium | 1 | P2 | drafted |
 | Milled | milled.com | Freemium | 1 | P2 | blocked |
-| Mind Map Wizard | mindmapwizard.com | Free | 1 | P2 | researched |
+| Mind Map Wizard | mindmapwizard.com | Free | 1 | P2 | drafted |
+| Mindly | mindly-ai.com | Freemium | 1 | P2 | researched |
+| Mindsparkle Mag | mindsparklemag.com | Free + Paid | 1 | P2 | researched |
+| Minea | minea.com | Freemium | 1 | P2 | rejected |
+| MingCute Icons | mingcute.com |  | 1 | P3 | researched |
+| MiNi PhotoEditor | mini2-photo-editor.netlify.app | Free | 1 | P2 | researched |
+| Minimal Gallery | minimal.gallery | Free | 1 | P2 | blocked |
+| Miora | miora.design | Freemium | 1 | P2 | blocked |
+| MiroMiro | miromiro.app | Freemium | 1 | P2 | researched |
+| Mitte | mitte.ai | Freemium | 1 | P2 | blocked |
+| MixKit Art | mixkit.co | Free | 1 | P2 | researched |
+| Mixkit Sound Effects | mixkit.co | Free | 1 | P2 | rejected |
 | Mixo | mixo.io | Free Trial / Free tier listed | 2 | P1 | drafted |
+| Mixpanel | mixpanel.com | Freemium | 1 | P2 | blocked |
+| Mizko | youtube.com | Free | 1 | P2 | rejected |
+| MJML | mjml.io | Free | 1 | P2 | researched |
+| mmm | build.mmm.page | Freemium | 1 | P2 | blocked |
 | Mobbin | mobbin.com | Free + Paid / Free tier listed | 4 | P1 | drafted |
+| Mock Magic | mockmagic.com | Freemium | 1 | P2 | blocked |
+| Mockey | mockey.ai | Freemium | 1 | P2 | blocked |
+| MockFlow | mockflow.com | Freemium | 1 | P2 | researched |
+| Mockin | mockin.work | Freemium | 1 | P2 | rejected |
+| Mockoops | mockoops.mohitya.dev | Free | 1 | P2 | researched |
+| Mockover | mockover.com | Freemium | 1 | P2 | researched |
 | Mockplus | mockplus.com | Freemium | 2 | P1 | blocked |
+| MockRocket | mockrocket.io | Freemium | 1 | P2 | blocked |
 | Mocku | hellomocku.com | Free + Paid / Free tier listed | 2 | P1 | blocked |
+| Mockup | getmockup.app | Freemium | 1 | P2 | researched |
+| Mockup Cloud | mockupcloud.com | Free + Paid | 1 | P2 | researched |
+| Mockup World | mockupworld.co | Free | 1 | P2 | researched |
+| Mockup.Maison | mockup.maison | Free + Paid | 1 | P2 | rejected |
+| Mockupanda | mockupanda.com | Free + Paid | 1 | P2 | researched |
+| Mockups Design | mockups-design.com | Free | 1 | P2 | researched |
+| Mockups Supply | via Digitool | Free tier listed | 1 | P2 | rejected |
+| Mockuuups | mockuuups.studio | Free + Paid | 1 | P2 | rejected |
 | Motion | motion.so | Paid / Free tier listed | 2 | P1 | rejected |
 | Mural | mural.co | Freemium | 2 | P1 | drafted |
 | n8n | n8n.io | Paid / Free tier listed | 2 | P1 | drafted |
@@ -1027,14 +1057,12 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Visily | visily.ai | Freemium | 2 | P1 | drafted |
 | Wispr Flow | ref.wisprflow.ai | Free tier listed / Freemium | 2 | P1 | drafted |
 
-## Research queue (807)
+## Research queue (777)
 
-### Best AI Design Tools for Designers (95)
+### Best AI Design Tools for Designers (93)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Miora | miora.design | Freemium | 1 | P2 |
-| Mitte | mitte.ai | Freemium | 1 | P2 |
 | Moda | moda.app | Freemium | 1 | P2 |
 | Modeinspect | modeinspect.com | Freemium | 1 | P2 |
 | Modelence | modelence.com | Freemium | 1 | P2 |
@@ -1198,11 +1226,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Webflow Blog | webflow.partnerlinks.io | Free | 1 | P2 |
 | Wepresent | wepresent.wetransfer.com | Free | 1 | P2 |
 
-### Best Design Communities for Designers (13)
+### Best Design Communities for Designers (12)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Mockin | mockin.work | Freemium | 1 | P2 |
 | Muzli Me | me.muz.li | Free | 1 | P2 |
 | Neon Moiré | neonmoire.com | Free | 1 | P2 |
 | Open Doors | opendoorscareers.com | Free | 1 | P2 |
@@ -1216,12 +1243,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | WeLoveProduct | weloveproduct.co | Freemium | 1 | P2 |
 | Woody | woodyjobs.com | Freemium | 1 | P2 |
 
-### Best Design Tools Across Disciplines (99)
+### Best Design Tools Across Disciplines (97)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| MiNi PhotoEditor | mini2-photo-editor.netlify.app | Free | 1 | P2 |
-| MiroMiro | miromiro.app | Freemium | 1 | P2 |
 | Moko | moko-app.com | Freemium | 1 | P2 |
 | Morflax Studio | morflax.com | Freemium | 1 | P2 |
 | Motion | motion.dev | Free + Paid | 1 | P2 |
@@ -1358,7 +1383,7 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | What the Font | apps.apple.com | Free | 1 | P2 |
 | Words of Type | wiki.wordsoftype.com | Free | 1 | P2 |
 
-### Best Free Open Source Icon Libraries (27)
+### Best Free Open Source Icon Libraries (26)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
@@ -1368,7 +1393,6 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Unicorn Icons | unicornicons.com | Freemium | 1 | P2 |
 | useAnimations | useanimations.com | Free | 1 | P2 |
 | Webfont | webfontapp.com | Free + Paid | 1 | P2 |
-| MingCute Icons | mingcute.com |  | 1 | P3 |
 | Noun Project | thenounproject.com |  | 1 | P3 |
 | Nucleo | nucleoapp.com |  | 1 | P3 |
 | Openmoji | openmoji.org |  | 1 | P3 |
@@ -1390,20 +1414,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Unicode Arrows | unicodearrows.com |  | 1 | P3 |
 | Vzy Icons | icons.vzy.co |  | 1 | P3 |
 
-### Best Mockup Sites for Designers (35)
+### Best Mockup Sites for Designers (25)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Mock Magic | mockmagic.com | Freemium | 1 | P2 |
-| Mockey | mockey.ai | Freemium | 1 | P2 |
-| Mockover | mockover.com | Freemium | 1 | P2 |
-| MockRocket | mockrocket.io | Freemium | 1 | P2 |
-| Mockup Cloud | mockupcloud.com | Free + Paid | 1 | P2 |
-| Mockup World | mockupworld.co | Free | 1 | P2 |
-| Mockup.Maison | mockup.maison | Free + Paid | 1 | P2 |
-| Mockupanda | mockupanda.com | Free + Paid | 1 | P2 |
-| Mockups Design | mockups-design.com | Free | 1 | P2 |
-| Mockuuups | mockuuups.studio | Free + Paid | 1 | P2 |
 | Modor | modor.io | Free + Paid | 1 | P2 |
 | Morflax things | things.morflax.com | Freemium | 1 | P2 |
 | Mr.Mockup | mrmockup.com | Free + Paid | 1 | P2 |
@@ -1430,11 +1444,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Wannathis Mockups | wannathis.one | Free + Paid | 1 | P2 |
 | WhiteUI.Store | gumroad.com | Free + Paid | 1 | P2 |
 
-### Best No-Code Website Builders (54)
+### Best No-Code Website Builders (53)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| mmm | build.mmm.page | Freemium | 1 | P2 |
 | Momen | momen.app | Freemium | 1 | P2 |
 | Mozaik | mozaik.design | Free | 1 | P2 |
 | MUI (Material UI) | mui.com | Freemium | 1 | P2 |
@@ -1489,11 +1502,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Revyme | revyme.com | Beta | 1 | P3 |
 | Zoah | zoah.com | Beta | 1 | P3 |
 
-### Best Open Source Illustration Libraries (45)
+### Best Open Source Illustration Libraries (44)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| MixKit Art | mixkit.co | Free | 1 | P2 |
 | Neat | neat.firecms.co | Freemium | 1 | P2 |
 | Noise & Texture | figma.com | Free | 1 | P2 |
 | Notion Faces | faces.notion.com | Free | 1 | P2 |
@@ -1539,13 +1551,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | UI8 - Illustrations | ui8.net | Free + Paid | 1 | P2 |
 | Vackground | vackground.com | Free + Paid | 1 | P2 |
 
-### Best UX Tools for Designers (41)
+### Best UX Tools for Designers (38)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Mixpanel | mixpanel.com | Freemium | 1 | P2 |
-| MockFlow | mockflow.com | Freemium | 1 | P2 |
-| Mockup | getmockup.app | Freemium | 1 | P2 |
 | Monet | iammonet.com | Freemium | 1 | P2 |
 | Moqups | moqups.com | Freemium | 1 | P2 |
 | Mouseflow | mouseflow.com | Freemium | 1 | P2 |
@@ -1585,14 +1594,11 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Zen Flowchart | zenflowchart.com | Freemium | 1 | P2 |
 | Stratify | trystratify.com | Beta | 1 | P3 |
 
-### Design Inspiration Sites for UI, Web, Graphic & Branding (76)
+### Design Inspiration Sites for UI, Web, Graphic & Branding (73)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
 | Nicelydone | nicelydone.club | Free Trial / Free tier listed | 2 | P1 |
-| Mindly | mindly-ai.com | Freemium | 1 | P2 |
-| Mindsparkle Mag | mindsparklemag.com | Free + Paid | 1 | P2 |
-| Minimal Gallery | minimal.gallery | Free | 1 | P2 |
 | Modern Illustration | modernillustration.org | Free | 1 | P2 |
 | Motion Folios | motionfolios.com | Free | 1 | P2 |
 | Museo | museo.app | Free | 1 | P2 |
@@ -1666,11 +1672,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | World Brand Design Society | worldbranddesign.com | Free | 1 | P2 |
 | YouPic | youpic.com | Free | 1 | P2 |
 
-### Free Stock Images & Video Websites (29)
+### Free Stock Images & Video Websites (28)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Mixkit Sound Effects | mixkit.co | Free | 1 | P2 |
 | Moose | icons8.com | Freemium | 1 | P2 |
 | Motion Array | motionarray.com | Freemium | 1 | P2 |
 | Moveast | moveast.me | Free | 1 | P2 |
@@ -1700,11 +1705,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Vidsplay | vidsplay.com | Free | 1 | P2 |
 | ZapSplat | zapsplat.com | Freemium | 1 | P2 |
 
-### Free Tools (76)
+### Free Tools (75)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Mockups Supply | via Digitool | Free tier listed | 1 | P2 |
 | Moonsand | via Digitool | Free tier listed | 1 | P2 |
 | Motherboard | via Digitool | Free tier listed | 1 | P2 |
 | Multical | via Digitool | Free tier listed | 1 | P2 |
@@ -1781,11 +1785,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Xano | via Digitool | Free tier listed | 1 | P2 |
 | Xero | via Digitool | Free tier listed (Digitool "Premium" badge) | 1 | P2 |
 
-### Learn UI/UX Design: Courses, Guides & Best Practices (47)
+### Learn UI/UX Design: Courses, Guides & Best Practices (46)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Mizko | youtube.com | Free | 1 | P2 |
 | Monowi: Product Design Exercises | monowi.notion.site | Free | 1 | P2 |
 | Motion Design Principles | motion.zajno.com | Free | 1 | P2 |
 | Museum of the Human Web | museum.parallel.ai | Free | 1 | P2 |
@@ -1833,12 +1836,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | uxtoast | uxtoast.com | Free | 1 | P2 |
 | We are Colorblind | wearecolorblind.com | Free | 1 | P2 |
 
-### Marketing Tools for Designers & Creative Teams (46)
+### Marketing Tools for Designers & Creative Teams (44)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Minea | minea.com | Freemium | 1 | P2 |
-| MJML | mjml.io | Free | 1 | P2 |
 | Mojo | mojo-app.com | Freemium | 1 | P2 |
 | Moz | moz.com | Freemium | 1 | P2 |
 | Mutiny | mutinyhq.com | Freemium | 1 | P2 |
@@ -1884,11 +1885,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Zubtitle | zubtitle.com | Freemium | 1 | P2 |
 | Pomelli | labs.google.com | Beta | 1 | P3 |
 
-### Productivity Tools for Design and Product Teams (32)
+### Productivity Tools for Design and Product Teams (31)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Mockoops | mockoops.mohitya.dev | Free | 1 | P2 |
 | Monday | monday.com | Freemium | 1 | P2 |
 | Omniwork | omniwork.ai | Freemium | 1 | P2 |
 | OpenClaw | openclaw.ai | Free | 1 | P2 |

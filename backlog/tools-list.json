@@ -31587,7 +31587,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "material-design-type-scale",
       "priority": "P2",
       "hasResearch": true
     },
@@ -31715,7 +31715,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "mckp-live",
       "priority": "P2",
       "hasResearch": true
     },
@@ -31741,7 +31741,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "mechanic",
       "priority": "P2",
       "hasResearch": true
     },
@@ -31795,7 +31795,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "mediacheatsheet",
       "priority": "P2",
       "hasResearch": true
     },
@@ -31821,7 +31821,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "meditations-in-color",
       "priority": "P2",
       "hasResearch": true
     },
@@ -31875,7 +31875,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "meetgeek",
       "priority": "P2",
       "hasResearch": true
     },
@@ -32005,7 +32005,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "mermaid",
       "priority": "P2",
       "hasResearch": true
     },
@@ -32031,7 +32031,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "mesh",
       "priority": "P2",
       "hasResearch": true
     },
@@ -32057,7 +32057,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "meshy-ai",
       "priority": "P2",
       "hasResearch": true
     },
@@ -32083,7 +32083,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "mesurer",
       "priority": "P2",
       "hasResearch": true
     },
@@ -32213,7 +32213,7 @@
       "status": "drafted",
       "notes": "Free tier confirmed first-party (chat, search, image creation; sign-in optional), alive, HTTPS, Microsoft-operated, no listing restriction found. Note: the input URL https://copilot.microsoft.com now 301-redirects to copilot.com, an unrelated client-portal SaaS company, not Microsoft; the live product is at copilot.cloud.microsoft (confirmed via support.microsoft.com and designer.microsoft.com links) and is used as the RL url.",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "microsoft-copilot",
       "priority": "P2",
       "hasResearch": true
     },
@@ -32375,7 +32375,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "milkshake",
       "priority": "P2",
       "hasResearch": true
     },
@@ -32453,7 +32453,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "mind-map-wizard",
       "priority": "P2",
       "hasResearch": true
     },
@@ -32476,12 +32476,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "mindsparkle-mag",
@@ -32502,12 +32502,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "minea",
@@ -32528,12 +32528,12 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Paid-only: all three plans (Starter $49/mo, Premium $99/mo, Business $199/mo) require payment; no permanent free tier found on the pricing page, only a free registration/ad-library teaser and a separate 10-hour free training offer, neither of which is ongoing free tool access",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "mingcute-icons",
@@ -32552,12 +32552,12 @@
           "file": "Best Free Open Source Icon Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "beta",
       "rlSlug": null,
       "priority": "P3",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "mini-photoeditor",
@@ -32578,12 +32578,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "minimal-gallery",
@@ -32604,12 +32604,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Section 3 of /legal prohibits reproducing, distributing or publicly displaying site content, or 'republishing the gallery on other platforms,' without prior written permission. Unclear whether a directory entry (description + link, no scraped screenshots/content) counts as 'republishing the gallery' — owner should decide before listing, or we ask the site first.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "miora",
@@ -32630,12 +32630,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "FETCH-FAIL: home (/), /pricing and /about all returned only the page title (\"Miora — The Agentic Creative Studio with Memory\") via WebFetch after a retry — a JS-rendered app shell with no readable first-party content; no pricing, license or operator facts could be confirmed first-party.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "miro",
@@ -32697,12 +32697,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "mitte",
@@ -32723,12 +32723,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Homepage and /pricing are JS-rendered and returned only navigation/title via WebFetch after a retry, so the exact free-tier daily-credit amount, paid prices and license/ToS text could not be read first-party; operator company name is not published anywhere seen. A real ongoing (non-trial) free plan appears to exist, but the owner should confirm pricing/limits and ToS before listing.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "mixkit",
@@ -32775,12 +32775,12 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "mixkit-sound-effects",
@@ -32801,12 +32801,12 @@
           "file": "Free Stock Images & Video Websites _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Duplicate: this section is already covered by the existing published RL entry mixkit.md, which already carries the tag 'stock-sfx' and states in Key Features \"Royalty-free music tracks and sound effects for commercial and personal projects.\" Unlike /free-stock-art/ (not mentioned anywhere in the existing entry), /free-sound-effects/ is not a gap.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "mixo",
@@ -32862,12 +32862,12 @@
           "file": "Best UX Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Everything else checks out (permanent 'Free forever' tier confirmed on the pricing page, HTTPS, identifiable operator, ToS does not forbid directory listing/linking), but none of RL's 45 existing tags fit a product-analytics tool (closest loose fits are 'productivity' or 'web', neither of which actually describes analytics/event tracking) — this needs an owner decision: add a new tag (e.g. 'analytics') or accept a loose existing tag.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "mizko",
@@ -32888,12 +32888,12 @@
           "file": "Learn UI_UX Design_ Courses, Guides & Best Practices.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Not a tool/software product: a personal YouTube channel (Michael Wong, 'Mizko'), a designer/educator sharing career and business content. No distinct free product, app or template to list; the channel's own page gave no description text via fetch, confirmed second-hand by search. Does not fit an RL resource type.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "mjml",
@@ -32914,12 +32914,12 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "mmm",
@@ -32940,12 +32940,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "mmm.page is a JS-rendered site: WebFetch on the home, pricing (/pricing, /plans) and about pages returned only a bare title/heading with no readable body content, so the free-tier permanence, paid pricing and operator could not be confirmed first-party. Retried pricing/about once each with no change. The only pricing figures found come from a third-party aggregator (Toolradar), which is not a reliable confidence level for listing per the playbook, so left unverified rather than used.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "mobbin",
@@ -33013,12 +33013,12 @@
           "file": "Best Mockup Sites for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Terms of Service (Section 2, https://www.mockmagic.com/terms) limit the Service to \"personal use only\" and bar \"commercial purpose whatsoever\" without express written permission, which conflicts with the site's own marketing (App Store screenshots, social posts, pitch decks, promo videos — all commercial contexts). The pricing page is also internally contradictory about what is in Free vs Pro (video mockups and Pro templates appear on both the Free card and the Pro-only FAQ). Needs owner decision before listing or writing a license line.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "mockey",
@@ -33039,12 +33039,12 @@
           "file": "Best Mockup Sites for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Terms of Service (Section 2, https://mockey.ai/terms) restrict use to \"personal, non-commercial use\" and bar republishing/redistributing/selling Content without permission, while the homepage markets a paid tier explicitly \"for commercial use\" — i.e. the free tier's own terms page reads as non-commercial-only even though the product is a mockup generator normally used commercially. The pricing page (https://mockey.ai/pricing) is JS-rendered and returned no plan/price text on fetch, so paid-tier price and the exact free-tier limit beyond \"JPG only\" cannot be confirmed from text. Needs owner decision before listing.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "mockflow",
@@ -33065,12 +33065,12 @@
           "file": "Best UX Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "mockin",
@@ -33091,12 +33091,12 @@
           "file": "Best Design Communities for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Core product (AI mock interviews, resume/portfolio/LinkedIn checkers, job matcher) is paid-only (24-hour pass $9, plus monthly/3-month plans); the only free part is a narrow standalone Resume Builder, not a free tier of the described toolkit — fails the permanent-free-tier bar.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "mockoops",
@@ -33117,12 +33117,12 @@
           "file": "Productivity Tools for Design and Product Teams.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "mockover",
@@ -33143,12 +33143,12 @@
           "file": "Best Mockup Sites for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "mockplus",
@@ -33201,12 +33201,12 @@
           "file": "Best Mockup Sites for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "JS-rendered site: WebFetch on home, /pricing and a repeat home fetch all return only the page title (\"MockRocket – Jaw-dropping 3D app mockups & animations\"), no pricing, about, license or footer links recovered — cannot verify facts to list.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "mocku",
@@ -33288,12 +33288,12 @@
           "file": "Best UX Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "mockup-cloud",
@@ -33314,12 +33314,12 @@
           "file": "Best Mockup Sites for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "mockup-world",
@@ -33340,12 +33340,12 @@
           "file": "Best Mockup Sites for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "mockup-maison",
@@ -33366,12 +33366,12 @@
           "file": "Best Mockup Sites for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Primarily a paid mockup shop: individual mockups from $19, collections $49–$99, unlimited subscription from $59/month. The 'free mockups' page is an undocumented starter/lead-gen freebie (email signup) with no stated count, categories, limits or license — does not meet RL's permanent-free-tier bar (free trial/sampler does not count).",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "mockupanda",
@@ -33392,12 +33392,12 @@
           "file": "Best Mockup Sites for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "mockups-design",
@@ -33418,12 +33418,12 @@
           "file": "Best Mockup Sites for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "mockups-supply",
@@ -33446,12 +33446,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Paid subscription only (All-Access Pass $9/mo, $19/quarter, $59/year); no permanent free plan — only a newsletter-gated \"Freebies\" section of unstated scope, which does not count as a confirmed free tier.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "mockuuups",
@@ -33472,12 +33472,12 @@
           "file": "Best Mockup Sites for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Free trial only — new accounts get 5 free exports from the full library, for personal use only, no card required; no permanent free plan confirmed on the pricing page. All other access is pay-per-export or subscription.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "moda",
@@ -59927,16 +59927,16 @@
     "byStatus": {
       "deferred-trial": 232,
       "deferred-paid": 216,
-      "blocked": 407,
-      "drafted": 441,
-      "rejected": 129,
+      "blocked": 415,
+      "drafted": 454,
+      "rejected": 136,
       "in-rl": 34,
-      "researched": 13,
-      "todo": 807
+      "researched": 15,
+      "todo": 777
     },
     "todoByPriority": {
-      "P2": 769,
-      "P3": 37,
+      "P2": 740,
+      "P3": 36,
       "P1": 1
     }
   }

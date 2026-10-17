@@ -70661,6 +70661,2288 @@
         "file": "src/content/resources/mind-map-wizard.md",
         "lint": "pass"
       }
+    },
+    "mindly": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Mindly",
+        "url": "https://www.mindly-ai.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free plan, no time limit: up to 25 saved items, standard smart tags/connections, an AI summary on every save, and mind map view. Chat-with-documents is limited and voice notes are not included.",
+        "paidFrom": "Pro 7.99 EUR/month: unlimited items, fuller chat with your documents, improved smart tags/suggestions, voice notes with transcription, all themes",
+        "evidence": {
+          "url": "https://www.mindly-ai.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary (Mindly Terms of Use) · commercial: not addressed for personal users, business users get the service \"as is\" · attribution: not required · limit: no copying, reselling or redistributing the app; AI endpoints usable only inside the Mindly app",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.mindly-ai.com/terms-of-use",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "mindly",
+        "type": "App",
+        "category": "Productivity",
+        "title": "Mindly",
+        "description": "AI second brain for Mac that captures notes, links, files and voice memos, then auto-tags, summarizes and links them for you.",
+        "tags": [
+          "productivity",
+          "ai-tool",
+          "mac"
+        ],
+        "relatedResources": [
+          "notion"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Quick capture from anywhere with a keyboard shortcut (default Cmd+M)",
+          "Automatic AI tagging, summaries and links between saved items",
+          "Live mind map view of how saves connect",
+          "Chat with your notes, PDFs and other saves",
+          "Integrations with Notion, Google Drive, Dropbox and Readwise",
+          "Voice notes with transcription (Pro plan)"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "not in Simple Icons (scripts/check-icon.mjs, 2026-10-17); closest fuzzy match was unrelated"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "WebSearch for scam/malware/shutdown/acquired turned up no hits; a similarly named app (OwnMind) exists but is a different product"
+      },
+      "sources": [
+        {
+          "url": "https://www.mindly-ai.com",
+          "date": "2026-10-17",
+          "note": "pitch, features, tagline, operator (brand only, no company named)"
+        },
+        {
+          "url": "https://www.mindly-ai.com/pricing",
+          "date": "2026-10-17",
+          "note": "free vs Pro plan details and prices"
+        },
+        {
+          "url": "https://www.mindly-ai.com/terms-of-use",
+          "date": "2026-10-17",
+          "note": "license/terms: redistribution and commercial-use clauses"
+        }
+      ],
+      "unverified": [
+        "operating company/entity behind the Mindly brand is not named on the site",
+        "exact yearly Pro price not shown (only a '53% off' / 'roughly half' badge)",
+        "safety search coverage is thin (small/new product, little independent coverage)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/mindly.md",
+        "lint": "pass"
+      }
+    },
+    "mindsparkle-mag": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Mindsparkle Mag",
+        "url": "https://mindsparklemag.com",
+        "alive": true,
+        "operator": "Filip Triner (listed as responsible service provider in the site imprint)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Site browsing (design case studies, stories/interviews, studio directory, job listings) and the weekly \"Sparkle*News\" newsletter are free; no stated article paywall or login requirement for the main content",
+        "paidFrom": "Plus membership 5 EUR/month billed yearly (7 EUR/month billed quarterly), adding behind-the-scenes insights, project files and bookmarking; a separate Pro tier exists for extra visibility, price not shown",
+        "evidence": {
+          "url": "https://mindsparklemag.com/plus",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Mindsparkle Mag Terms (site content) · commercial: no, reproduction/distribution for commercial purposes needs the rights holder's consent · attribution: required when sharing or referencing materials · limit: content is third-party design work curated by the site, not owned by it",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://mindsparklemag.com/terms",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "mindsparkle-mag",
+        "type": "Website",
+        "category": "Design",
+        "title": "Mindsparkle Mag",
+        "description": "Design inspiration magazine with curated case studies, interviews, a design studio directory and remote design jobs; free browsing, paid Plus/Pro memberships.",
+        "tags": [
+          "inspiration",
+          "graphic-design",
+          "visual-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "behance",
+          "awwwards",
+          "dribbble"
+        ],
+        "keyFeatures": [
+          "Curated design case studies covering branding, websites and video projects",
+          "Interviews and behind-the-process stories from designers and studios",
+          "Directory of design studios",
+          "Weekly \"Sparkle*News\" newsletter with six projects and one interview",
+          "Remote design job listings",
+          "Plus/Pro memberships for behind-the-scenes insights, project files and extra visibility"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "not in Simple Icons (scripts/check-icon.mjs, 2026-10-17); closest fuzzy matches unrelated"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "WebSearch for scam/malware/shutdown/acquired found no hits for this site; unrelated results were about a similarly-named company, Mindspark Interactive Network"
+      },
+      "sources": [
+        {
+          "url": "https://mindsparklemag.com",
+          "date": "2026-10-17",
+          "note": "pitch, content types, newsletter, membership tier names"
+        },
+        {
+          "url": "https://mindsparklemag.com/plus",
+          "date": "2026-10-17",
+          "note": "Plus tier price and features"
+        },
+        {
+          "url": "https://mindsparklemag.com/terms",
+          "date": "2026-10-17",
+          "note": "license/terms and site operator (imprint)"
+        }
+      ],
+      "unverified": [
+        "exact Pro tier price not shown on the Plus page",
+        "whether free browsing has any article/view limits is not explicitly stated",
+        "legal entity vs. named individual (imprint names a person, not a company) not further confirmed"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/mindsparkle-mag.md",
+        "lint": "pass"
+      }
+    },
+    "minea": {
+      "researchedOn": "2026-10-17",
+      "verdict": "skip",
+      "verdictReason": "Paid-only: all three plans (Starter $49/mo, Premium $99/mo, Business $199/mo) require payment; no permanent free tier found on the pricing page, only a free registration/ad-library teaser and a separate 10-hour free training offer, neither of which is ongoing free tool access",
+      "site": {
+        "name": "Minea",
+        "url": "https://www.minea.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "Starter 49 USD/month (39 USD/month billed quarterly)",
+        "evidence": {
+          "url": "https://www.minea.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.minea.com",
+          "date": "2026-10-17",
+          "note": "pitch, features, no named operator"
+        },
+        {
+          "url": "https://www.minea.com/pricing",
+          "date": "2026-10-17",
+          "note": "confirmed no permanent free plan; all plans paid"
+        }
+      ],
+      "unverified": [
+        "operating company behind the Minea brand not named on the site",
+        "exact scope/duration of the 'Try for free' ad-library teaser not stated"
+      ],
+      "injectionSeen": null
+    },
+    "mingcute-icons": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "MingCute Icons",
+        "url": "https://www.mingcute.com",
+        "alive": true,
+        "operator": "mingcute-design (GitHub organization); individual maintainer not named"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "The entire Core Regular/Core Filled icon set (1,663 icons, 3,326 styled definitions) is free and open source, distributed as SVGs/icon fonts and packages for React, Vue, React Native, Svelte, SolidJS, vanilla JS and Web Components. A separate 'Mingcute Pro' catalogue (Core, Cute, Sharp styles) is commercially licensed and not covered by this free tier.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://github.com/Richard9394/MingCute",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Apache License 2.0 · commercial: yes · attribution: license/notice must be kept · limit: the separate Mingcute Pro style catalogue is commercially licensed, not covered by this license",
+        "openSource": true,
+        "spdx": "Apache-2.0",
+        "evidence": {
+          "url": "https://github.com/Richard9394/MingCute",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "mingcute-icons",
+        "type": "Icon Set",
+        "category": "Design",
+        "title": "MingCute Icons",
+        "description": "Open-source icon library with 1,663 icons in two styles under Apache-2.0, with packages for React, Vue, Svelte and more.",
+        "tags": [
+          "icon-library",
+          "open-source",
+          "graphic-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "lucide-icons",
+          "remix-icon",
+          "material-symbols"
+        ],
+        "keyFeatures": [
+          "1,663 icons across Core Regular and Core Filled styles (3,326 styled definitions)",
+          "Free and open source under Apache-2.0",
+          "Distributed as standalone SVGs, icon fonts, and packages for React, Vue, React Native, Svelte, SolidJS, vanilla JS and Web Components",
+          "Separate commercial 'Mingcute Pro' catalogue adds Cute and Sharp styles"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 (no exact match); site's own logo SVG not fetched/sanitized this round"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition hits found; GitHub repo shows ongoing activity (86 commits, 59 open issues, changelog, release.json)."
+      },
+      "sources": [
+        {
+          "url": "https://www.mingcute.com",
+          "date": "2026-10-17",
+          "note": "Home page title/pitch; detailed content not JS-rendered for the fetcher"
+        },
+        {
+          "url": "https://github.com/Richard9394/MingCute",
+          "date": "2026-10-17",
+          "note": "License (Apache-2.0), icon counts/styles, packages, maintainer org, activity signals"
+        }
+      ],
+      "unverified": [
+        "Individual maintainer name not found (only the mingcute-design GitHub org)",
+        "Mingcute Pro pricing not read (out of scope: separate paid product)",
+        "Exact latest commit/release date not shown",
+        "Logo/icon route not sourced beyond Simple Icons check; needs owner decision or a sanitized site SVG"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/mingcute-icons.md",
+        "lint": "pass"
+      }
+    },
+    "mini-photoeditor": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "MiNi PhotoEditor",
+        "url": "https://mini2-photo-editor.netlify.app",
+        "alive": true,
+        "operator": "xdadda (individual developer, GitHub)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "The entire app is free and open source (MIT license); no account, no paywall, no server uploads — all editing happens locally in the browser.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://github.com/xdadda/mini-photo-editor",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT · commercial: yes · attribution: required (keep the license notice) · limit: none found; shaders/export currently limited to 8-bit due to WebGL constraints",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/xdadda/mini-photo-editor",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "mini-photoeditor",
+        "type": "App",
+        "category": "Photography",
+        "title": "MiNi PhotoEditor",
+        "description": "Free, open-source WebGL photo editor in your browser with filters, curves, crop and a heal brush; editing stays local, nothing is uploaded.",
+        "tags": [
+          "open-source",
+          "web",
+          "graphic-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Crop, resize and perspective correction",
+          "Color curves and Instagram-style filters",
+          "Heal brush using the Telea inpainting algorithm",
+          "Vignette, bokeh, lens and Gaussian blur effects",
+          "100% local editing in-browser; no uploads to a server",
+          "Display-P3 and linear sRGB color workflow"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 (no exact match); site's own logo SVG not fetched/sanitized this round"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown hits found; active open-source project (~595 GitHub stars, 49 forks)."
+      },
+      "sources": [
+        {
+          "url": "https://github.com/xdadda/mini-photo-editor",
+          "date": "2026-10-17",
+          "note": "License (MIT), author, features, confirms mini2-photo-editor.netlify.app as the official hosted demo"
+        },
+        {
+          "url": "https://alternativeto.net/software/mini-photoeditor",
+          "date": "2026-10-17",
+          "note": "Second-hand corroboration: free/open-source MIT, local editing, no registration, GitHub star count"
+        }
+      ],
+      "unverified": [
+        "The live demo at mini2-photo-editor.netlify.app returned no readable content to the fetch tool (JS-rendered WebGL canvas app); liveness and details were instead confirmed first-party via the project's own GitHub README, which names that URL as its official hosted demo",
+        "Exact last-commit date not available",
+        "Logo/icon route not sourced beyond Simple Icons check; needs owner decision or a sanitized site SVG"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/mini-photoeditor.md",
+        "lint": "pass"
+      }
+    },
+    "minimal-gallery": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Section 3 of /legal prohibits reproducing, distributing or publicly displaying site content, or 'republishing the gallery on other platforms,' without prior written permission. Unclear whether a directory entry (description + link, no scraped screenshots/content) counts as 'republishing the gallery' — owner should decide before listing, or we ask the site first.",
+      "site": {
+        "name": "Minimal Gallery",
+        "url": "https://minimal.gallery",
+        "alive": true,
+        "operator": "Founded by Piet Therheyden as a passion project in 2013; site says it was 'acquired in 2026' but does not name the current owner/operator"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Browsing, searching, filtering, submitting a site, and the weekly email digest are free with no account required. A 'premium templates' link and sponsorship banners point to third-party/affiliate offers, not a paywall on the gallery itself.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://minimal.gallery",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Site's own Terms (no SPDX, not open source) · commercial: not applicable — curated inspiration directory, not reusable assets · attribution: not required to browse · limit: reproducing, distributing, or republishing the gallery's content elsewhere needs prior written permission",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://minimal.gallery/legal",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "minimal-gallery",
+        "type": "Website",
+        "category": "Design",
+        "title": "Minimal Gallery",
+        "description": "Curated directory of clean, minimal website design examples for inspiration, running since 2013, free to browse and filter by platform.",
+        "tags": [
+          "inspiration",
+          "visual-design",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "awwwards",
+          "dribbble"
+        ],
+        "keyFeatures": [
+          "Curated showcase of minimal, clean website designs, running since 2013",
+          "Filter by website type (portfolio, e-commerce, agency) and by platform (Framer, Webflow, Readymag)",
+          "Separate Templates and Tools sections",
+          "Free weekly email digest subscription",
+          "Site submission form and a bookmarks feature"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 (no exact match); site's own logo SVG not fetched/sanitized this round"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown hits found; site's own About page says it was 'acquired in 2026' without naming the new owner."
+      },
+      "sources": [
+        {
+          "url": "https://minimal.gallery",
+          "date": "2026-10-17",
+          "note": "Home page pitch, nav structure, premium-templates/sponsorship mentions"
+        },
+        {
+          "url": "https://minimal.gallery/about",
+          "date": "2026-10-17",
+          "note": "Founder (Piet Therheyden), 2026 acquisition note, no named current operator"
+        },
+        {
+          "url": "https://minimal.gallery/legal",
+          "date": "2026-10-17",
+          "note": "Terms/privacy: analytics (Plausible), newsletter (MailerLite), Section 3 content-reproduction/republishing restriction"
+        }
+      ],
+      "unverified": [
+        "Current owner/operator after the stated 2026 acquisition is not named anywhere on the site",
+        "Whether a simple directory listing (link + description) counts as the 'republishing the gallery' the terms restrict is unconfirmed — this is the needs-owner question",
+        "Logo/icon route not sourced beyond Simple Icons check"
+      ],
+      "injectionSeen": null
+    },
+    "miora": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "FETCH-FAIL: home (/), /pricing and /about all returned only the page title (\"Miora — The Agentic Creative Studio with Memory\") via WebFetch after a retry — a JS-rendered app shell with no readable first-party content; no pricing, license or operator facts could be confirmed first-party.",
+      "site": {
+        "name": "Miora",
+        "url": "https://miora.design",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://miora.design/pricing",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://miora.design",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": null,
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown hits for 'Miora'. Third-party directories (tooldirectory.ai, everydev.ai, hunted.space, Product Hunt) describe it as an agentic creative canvas with 1,000 free launch credits, and one listing attributes it to Tencent Design — none of this is first-party confirmed."
+      },
+      "sources": [
+        {
+          "url": "https://miora.design",
+          "date": "2026-10-17",
+          "note": "WebFetch returned only the page title, no body content"
+        },
+        {
+          "url": "https://miora.design/pricing",
+          "date": "2026-10-17",
+          "note": "WebFetch returned only the page title, no pricing content"
+        },
+        {
+          "url": "https://miora.design/about",
+          "date": "2026-10-17",
+          "note": "WebFetch returned only the page title, no about content"
+        }
+      ],
+      "unverified": [
+        "operator/company (third-party listings say Tencent Design, not first-party confirmed)",
+        "pricing plans and limits (third-party listings mention 1,000 free launch credits and disagree on Free vs Freemium; no first-party pricing page content obtained)",
+        "license/terms (page did not render)",
+        "safety search was general web search only, not a dedicated bot-check bypass attempt"
+      ],
+      "injectionSeen": null
+    },
+    "miromiro": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "MiroMiro",
+        "url": "https://miromiro.app",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Forever free (€0): inspecting a live site's CSS, fonts and colors, live style editing, and downloading images and SVGs, no account required. A 3-day trial unlocks every Pro feature; after it, copying CSS/Tailwind, design-token export and Lottie export require a paid plan.",
+        "paidFrom": "€9/month (cancel anytime) or €69 one-time lifetime (30-day refund); separate API has a free tier of 300 credits/month, no card required",
+        "evidence": {
+          "url": "https://miromiro.app/compare-plans",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary (MiroMiro Terms of Service) · commercial: no explicit clause — user must verify each captured third-party asset's own license, MiroMiro grants no license to captured content · attribution: not required by MiroMiro itself · limit: mass-downloading/scraping content for unauthorized redistribution is prohibited",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://miromiro.app/legal/terms-of-service",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "miromiro",
+        "type": "Extension",
+        "category": "Development",
+        "title": "MiroMiro",
+        "description": "Browser extension that inspects any live website and extracts CSS, fonts, colors, images and SVGs free; paid plan exports sections as Tailwind, React, Vue or HTML/CSS.",
+        "tags": [
+          "extensions",
+          "design-systems",
+          "ui-ux",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "figma",
+          "codesandbox"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Inspects any live website's CSS, fonts and colors in the browser, free",
+          "Downloads images and SVGs for free with no account required",
+          "Paid plan exports whole sections or pages as Tailwind, React, Vue, HTML/CSS or Elementor templates",
+          "Extracts design tokens and Lottie animations (paid)",
+          "REST API and a hosted MCP server expose the same extraction to AI assistants, priced separately"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 — no exact match (closest fuzzy: miro, unrelated product)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Site itself states it is not affiliated with Miro (the whiteboard company). No scam/malware/shutdown search hits for 'MiroMiro'. Appears to be a solo-developer product (contact miromiro.app@gmail.com, X handle @SoraiaDev); legal entity name not published."
+      },
+      "sources": [
+        {
+          "url": "https://miromiro.app",
+          "date": "2026-10-17",
+          "note": "what it does, free-forever claim, links to plans/API pricing"
+        },
+        {
+          "url": "https://miromiro.app/compare-plans",
+          "date": "2026-10-17",
+          "note": "exact plan prices and free-tier scope"
+        },
+        {
+          "url": "https://miromiro.app/terms",
+          "date": "2026-10-17",
+          "note": "only linked to the real terms page, no text"
+        },
+        {
+          "url": "https://miromiro.app/legal/terms-of-service",
+          "date": "2026-10-17",
+          "note": "licensing/ownership clauses, redistribution and scraping restrictions"
+        }
+      ],
+      "unverified": [
+        "legal operating entity / company name (not published; appears solo-developer)",
+        "exact API free-tier daily/monthly caps beyond '300 credits/month, no card required'",
+        "whether the Terms address third-party directory listing (they do not mention it either way)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/miromiro.md",
+        "lint": "pass"
+      }
+    },
+    "mitte": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Homepage and /pricing are JS-rendered and returned only navigation/title via WebFetch after a retry, so the exact free-tier daily-credit amount, paid prices and license/ToS text could not be read first-party; operator company name is not published anywhere seen. A real ongoing (non-trial) free plan appears to exist, but the owner should confirm pricing/limits and ToS before listing.",
+      "site": {
+        "name": "Mitte",
+        "url": "https://mitte.ai",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "A free plan grants daily credits that 'reset at midnight UTC'; the exact daily amount is not stated on the page as fetched. Free users get email-only support and cannot create a team.",
+        "paidFrom": "Second-hand (AlternativeTo) lists subscriptions from about $8 to $291/month; not confirmed on Mitte's own pricing page, which did not render numeric prices via WebFetch",
+        "evidence": {
+          "url": "https://mitte.ai/pricing",
+          "date": "2026-10-17",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://mitte.ai/legal/terms",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "mitte",
+        "type": "AI Tool",
+        "category": "Design",
+        "title": "Mitte",
+        "description": "AI creative suite for photorealistic image generation and editing, image-to-video, and text-to-speech voice, with a limited free plan.",
+        "tags": [
+          "ai-tool",
+          "graphic-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Generates and edits photorealistic images, including precise product placement",
+          "Turns a static image into video with transitions and motion effects",
+          "Natural text-to-speech voice library plus lipsync video tools",
+          "Offers multiple state-of-the-art image/video models and some custom-trained models",
+          "Vectorizer to convert images to SVG (per a user-reported feature)"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 — no exact match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown/acquisition hits for 'Mitte.ai'. Launched on Product Hunt (Mitte 1.0) around July 2025 per third-party listings."
+      },
+      "sources": [
+        {
+          "url": "https://mitte.ai",
+          "date": "2026-10-17",
+          "note": "nav sections (Assistant, AI Models & Tools, Apps, Free Tools, Creators); no body text rendered"
+        },
+        {
+          "url": "https://mitte.ai/pricing",
+          "date": "2026-10-17",
+          "note": "free-plan daily-credit and support/team limits; no numeric prices rendered"
+        },
+        {
+          "url": "https://mitte.ai/legal/terms",
+          "date": "2026-10-17",
+          "note": "page did not render body text, only nav"
+        },
+        {
+          "url": "https://www.trendhunter.com/trends/mitte-10",
+          "date": "2026-10-17",
+          "note": "second-hand: product description as an AI creative suite for photos, illustration, video and voice"
+        },
+        {
+          "url": "https://feedbagel.com/post/mitte-10-ai-creative-suite-engineered-for-precision",
+          "date": "2026-10-17",
+          "note": "second-hand: founder quotes describing features and models"
+        }
+      ],
+      "unverified": [
+        "operator / legal company name",
+        "exact free-plan daily credit amount",
+        "exact paid plan prices (only second-hand AlternativeTo range of ~$8-$291/month)",
+        "license/ToS content (page did not render; commercial-use and redistribution terms unknown)",
+        "whether 'vectorizer to SVG' and other third-party-reported features are accurate (not confirmed first-party)"
+      ],
+      "injectionSeen": null
+    },
+    "mixkit-art": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list-sibling",
+      "verdictReason": "",
+      "site": {
+        "name": "Mixkit Art",
+        "url": "https://mixkit.co/free-stock-art/",
+        "alive": true,
+        "operator": "Envato"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All illustrations free to download as PNG (original resolution or a desktop/mobile wallpaper-sized version), no sign-up required",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://mixkit.co/free-stock-art/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Mixkit Art Free License · commercial: yes (per page FAQ: \"the Mixkit license specifies that all of our art is royalty-free and can be used in commercial projects\") · attribution: not required (\"no attribution required to download Mixkit art\") · limit: Mixkit uses a separate license per item type and the dedicated Art license page text itself was not located at its own URL",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://mixkit.co/license/",
+          "date": "2026-10-17",
+          "confidence": "second-hand"
+        }
+      },
+      "rl": {
+        "slug": "mixkit-art",
+        "type": "Stock Media",
+        "category": "Design",
+        "title": "Mixkit Art",
+        "description": "Free royalty-free illustrations and digital art from Mixkit, downloadable as PNG with no sign-up or attribution required.",
+        "tags": [
+          "stock-illustrations",
+          "royalty-free",
+          "graphic-design"
+        ],
+        "relatedResources": [
+          "mixkit"
+        ],
+        "similarResources": [
+          "undraw",
+          "pixabay"
+        ],
+        "keyFeatures": [
+          "Free illustrations across categories like business, city, people and holidays",
+          "Download as PNG, original resolution or a wallpaper-sized version",
+          "No sign-up or attribution required",
+          "Covered by Mixkit's own Art license; commercial use allowed per the page FAQ"
+        ],
+        "icon": {
+          "route": "iconSvg",
+          "value": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"global-header__logo\"><path d=\"M15.892 36.742a34.619 34.619 0 019.148-15.426 35.196 35.196 0 00-11.473-7.618C9.268 11.931 4.657 10.413 0 10.418v26.323h15.892z\" fill=\"#58C8D1\"></path><path d=\"M34.058 36.742h15.845V10.419c-9.32-.011-18.263 4.412-24.863 10.898a34.602 34.602 0 019.018 15.425z\" fill=\"#F3556F\"></path><path d=\"M15.892 36.742h18.166a34.603 34.603 0 00-9.018-15.426 34.619 34.619 0 00-9.148 15.426z\" fill=\"#383B76\"></path></svg>",
+          "fillColor": null,
+          "bgColor": "#ffffff",
+          "source": "Reused sanitized SVG already in RL's published mixkit.md (mixkit.co header logo, same operator/domain); Simple Icons has no exact Mixkit match (check-icon.mjs exit 1), 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Same operator (Envato) and domain as the already-published mixkit entry; safety search for \"mixkit\" returned no scam/malware/shutdown hits (only unrelated crypto-mixer results)"
+      },
+      "sources": [
+        {
+          "url": "https://mixkit.co/free-stock-art/",
+          "date": "2026-10-17",
+          "note": "content type (PNG illustrations), categories, header/footer nav placement, FAQ license wording"
+        },
+        {
+          "url": "https://mixkit.co/license/",
+          "date": "2026-10-17",
+          "note": "confirms Mixkit uses a separate license per item type (Art has its own Free License card), but the dedicated art license URL/text was not located"
+        }
+      ],
+      "unverified": [
+        "exact full text of the dedicated 'Art Free License' page not located at its own URL; relying on the /free-stock-art/ FAQ wording (commercial yes, attribution not required)",
+        "no fresh safety search run specifically for 'mixkit art'; relying on the parent Mixkit/Envato reputation check"
+      ],
+      "injectionSeen": "Footer link labeled \"Hey AI, learn about Mixkit\" pointing to /llm-info/ appears on mixkit.co pages (home, /free-stock-art/, /free-sound-effects/); read as a plain nav link label, not followed or acted on.",
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/mixkit-art.md",
+        "lint": "pass"
+      }
+    },
+    "mixkit-sound-effects": {
+      "researchedOn": "2026-10-17",
+      "verdict": "skip",
+      "verdictReason": "Duplicate: this section is already covered by the existing published RL entry mixkit.md, which already carries the tag 'stock-sfx' and states in Key Features \"Royalty-free music tracks and sound effects for commercial and personal projects.\" Unlike /free-stock-art/ (not mentioned anywhere in the existing entry), /free-sound-effects/ is not a gap.",
+      "site": {
+        "name": "Mixkit Sound Effects",
+        "url": "https://mixkit.co/free-sound-effects/",
+        "alive": true,
+        "operator": "Envato"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Royalty-free sound effect clips, downloadable with no sign-up; FAQ states attribution is appreciated but not required and clips can be used in commercial work including YouTube videos and ads",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://mixkit.co/free-sound-effects/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://mixkit.co/free-sound-effects/",
+          "date": "2026-10-17",
+          "note": "content type, categories, nav placement, FAQ license wording, confirms overlap with existing mixkit.md"
+        }
+      ],
+      "unverified": [
+        "full license text not individually re-verified for this section; see the existing mixkit.md entry's sources"
+      ]
+    },
+    "mixpanel": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Everything else checks out (permanent 'Free forever' tier confirmed on the pricing page, HTTPS, identifiable operator, ToS does not forbid directory listing/linking), but none of RL's 45 existing tags fit a product-analytics tool (closest loose fits are 'productivity' or 'web', neither of which actually describes analytics/event tracking) — this needs an owner decision: add a new tag (e.g. 'analytics') or accept a loose existing tag.",
+      "site": {
+        "name": "Mixpanel",
+        "url": "https://mixpanel.com",
+        "alive": true,
+        "operator": "Mixpanel, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free forever, no credit card required: up to 1M events/month, unlimited seats, 10K session replays/month (30-day retention), up to 1k MEU/month experiments, up to 10 active feature flags, 5 saved reports/seat, 2-year default data retention, email support 24/5 plus Slack community",
+        "paidFrom": "Growth plan: first 1M events/month free, then volume-based; lowest shown non-zero tier is 1.5M events/month at $100/month billed yearly ($1,200/year) or $140/month billed monthly ($1,680/year); Enterprise is custom pricing via sales",
+        "evidence": {
+          "url": "https://mixpanel.com/pricing/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS (Mixpanel Terms of Use) · commercial: yes, for the customer's own internal business purposes only (not for resale/further distribution, and not for building a competing product) · attribution: not applicable · limit: cannot make the service available to third parties or use Mixpanel's name/marks without permission",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://mixpanel.com/legal/terms-of-use/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Mixpanel disclosed a smishing-attack data breach (customer metadata, including OpenAI) in Nov 2025 with an ensuing class-action lawsuit; a third-party npm package impersonating Mixpanel ('mixpanel-lib') was flagged as malicious in a Jan 2026 OSV advisory, but that package is not an official Mixpanel product. No report found of Mixpanel itself being a scam, shutting down, or acquired."
+      },
+      "sources": [
+        {
+          "url": "https://mixpanel.com/pricing/",
+          "date": "2026-10-17",
+          "note": "free tier limits, Growth/Enterprise pricing"
+        },
+        {
+          "url": "https://mixpanel.com/legal/terms-of-use/",
+          "date": "2026-10-17",
+          "note": "license grant, commercial-use and resale restrictions, operator name"
+        }
+      ],
+      "unverified": [
+        "No RL tag covers 'analytics'; closest existing tags ('productivity', 'web') are a loose fit at best — owner decision needed",
+        "Simple Icons has an exact match (iconLib: mixpanel, fillColor #7856FF) per check-icon.mjs, not yet wired into an rl block since verdict is needs-owner",
+        "Security-breach history (Nov 2025 smishing attack) noted as a safety fact but not independently verified beyond search-result summaries"
+      ],
+      "injectionSeen": null
+    },
+    "mizko": {
+      "researchedOn": "2026-10-17",
+      "verdict": "skip",
+      "verdictReason": "Not a tool/software product: a personal YouTube channel (Michael Wong, 'Mizko'), a designer/educator sharing career and business content. No distinct free product, app or template to list; the channel's own page gave no description text via fetch, confirmed second-hand by search. Does not fit an RL resource type.",
+      "site": {
+        "name": "Mizko",
+        "url": "https://www.youtube.com/channel/UCZJkZy008cQjqkJeKpJu8tA",
+        "alive": true,
+        "operator": "Michael Wong (individual)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.youtube.com/channel/UCZJkZy008cQjqkJeKpJu8tA",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": null,
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown signals; identified via search as a real person's established YouTube channel (~200K+ subscribers)."
+      },
+      "sources": [
+        {
+          "url": "https://www.youtube.com/channel/UCZJkZy008cQjqkJeKpJu8tA",
+          "date": "2026-10-17",
+          "note": "Channel page fetched; only the YouTube site shell and channel title ('Mizko') were readable, no about/description text"
+        },
+        {
+          "url": "https://mizko.substack.com/about",
+          "date": "2026-10-17",
+          "note": "search result (second-hand, not fetched) identifying the channel owner as Michael Wong, a designer-turned-entrepreneur"
+        }
+      ],
+      "unverified": [
+        "Exact channel description/about text (fetch returned no content)",
+        "Any pricing or terms, since this is not a product page"
+      ],
+      "injectionSeen": null
+    },
+    "mjml": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "MJML",
+        "url": "https://mjml.io",
+        "alive": true,
+        "operator": "Mailjet (created by Mailjet developers in 2015; page says the project is 'proudly powered by Mailjet')"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Fully free and open-source: the MJML engine, CLI, Node.js API and the browser-based 'Try it live' editor are all free; a hosted MJML API for integrations is also described as free to use",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://mjml.io/download",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT License · commercial: yes · attribution: license/copyright notice must be kept in copies · limit: provided 'as is', no warranty",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/mjmlio/mjml",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "mjml",
+        "type": "Tool",
+        "category": "Development",
+        "title": "MJML",
+        "description": "Open-source markup language that compiles simple tags like mj-section and mj-column into responsive HTML email, free to self-host or try online.",
+        "tags": [
+          "open-source",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "codesandbox",
+          "stackblitz"
+        ],
+        "keyFeatures": [
+          "Responsive email components (mj-section, mj-column, mj-button, mj-navbar, mj-carousel, mj-accordion and more) compiled to table-based HTML",
+          "Free browser-based 'Try it live' editor, no install required",
+          "CLI and Node.js API (mjml2html) for build pipelines, with soft/strict validation levels",
+          "VS Code extension, Sublime plugin and Gulp integration for editor workflows",
+          "MIT-licensed and self-hostable; a free hosted MJML API is also available for integrations",
+          "Community ports/bindings exist for Rust, .NET, Ruby, React, Python and more (unofficial)"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "scripts/check-icon.mjs \"MJML\" — not found in Simple Icons, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition hits; active open-source project maintained with Mailjet as steward"
+      },
+      "sources": [
+        {
+          "url": "https://mjml.io",
+          "date": "2026-10-17",
+          "note": "what MJML is, origin (Mailjet developers, 2015)"
+        },
+        {
+          "url": "https://mjml.io/download",
+          "date": "2026-10-17",
+          "note": "confirms free/open-source framing, no pricing or paid tiers, points to GitHub"
+        },
+        {
+          "url": "https://github.com/mjmlio/mjml",
+          "date": "2026-10-17",
+          "note": "confirms MIT license (license badge + LICENSE.md)"
+        },
+        {
+          "url": "https://documentation.mjml.io/",
+          "date": "2026-10-17",
+          "note": "component list, live editor, CLI/Node API, validation levels, editor tooling and ecosystem integrations"
+        }
+      ],
+      "unverified": [
+        "Exact maintenance arrangement between the MJML open-source team and Mailjet (page implies stewardship, not stated explicitly)",
+        "Current limits/terms of the free hosted MJML API (described as 'free to use' but no quota numbers found)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/mjml.md",
+        "lint": "pass"
+      }
+    },
+    "mmm": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "mmm.page is a JS-rendered site: WebFetch on the home, pricing (/pricing, /plans) and about pages returned only a bare title/heading with no readable body content, so the free-tier permanence, paid pricing and operator could not be confirmed first-party. Retried pricing/about once each with no change. The only pricing figures found come from a third-party aggregator (Toolradar), which is not a reliable confidence level for listing per the playbook, so left unverified rather than used.",
+      "site": {
+        "name": "mmm",
+        "url": "https://mmm.page",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://mmm.page/pricing",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": null,
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown hits found; product described independently (DEV Community, Substack posts) as a real, active personal-website builder since ~2021"
+      },
+      "sources": [
+        {
+          "url": "https://build.mmm.page",
+          "date": "2026-10-17",
+          "note": "input URL; 301 redirects to https://mmm.page/"
+        },
+        {
+          "url": "https://mmm.page/",
+          "date": "2026-10-17",
+          "note": "fetched; only tagline 'Your Corner of the Internet' readable, no pricing/about body"
+        },
+        {
+          "url": "https://mmm.page/pricing",
+          "date": "2026-10-17",
+          "note": "fetched; page returned only the word 'pricing', no plan details (JS-rendered, retried once via /plans with the same result)"
+        },
+        {
+          "url": "https://mmm.page/about",
+          "date": "2026-10-17",
+          "note": "fetched; page returned only the heading 'about', no operator/company info"
+        }
+      ],
+      "unverified": [
+        "Operator/company name (one third-party directory names 'Loaf, Inc.', unconfirmed first-party; DEV/Substack posts credit an individual developer 'xhfloz')",
+        "Free tier limits and paid plan prices (only third-party aggregator figures found, not confirmed on the tool's own pricing page)",
+        "License/terms of use (terms page not reached)"
+      ],
+      "injectionSeen": null
+    },
+    "mock-magic": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Terms of Service (Section 2, https://www.mockmagic.com/terms) limit the Service to \"personal use only\" and bar \"commercial purpose whatsoever\" without express written permission, which conflicts with the site's own marketing (App Store screenshots, social posts, pitch decks, promo videos — all commercial contexts). The pricing page is also internally contradictory about what is in Free vs Pro (video mockups and Pro templates appear on both the Free card and the Pro-only FAQ). Needs owner decision before listing or writing a license line.",
+      "site": {
+        "name": "Mock Magic",
+        "url": "https://www.mockmagic.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Unlimited image device mockups (54+ device frames) for free per the homepage FAQ; the pricing page separately lists video mockups, Pro templates and custom backgrounds under both Free and Pro, so the exact free/paid boundary is unclear from the page text",
+        "paidFrom": "Pro plan €7.99/month (adds unlimited video mockups, Pro templates, custom background images, saved settings per the Pro card)",
+        "evidence": {
+          "url": "https://www.mockmagic.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS (no name given) · commercial: ToS Section 2 says personal use only, bars commercial purpose without written permission (contradicts the site's own commercial use cases) · attribution: not addressed · limit: Section 2's non-commercial restriction is the open question",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.mockmagic.com/terms",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown/acquisition hits in search; site states \"Proudly made in Europe\", © 2021-2026, no legal entity named"
+      },
+      "sources": [
+        {
+          "url": "https://www.mockmagic.com",
+          "date": "2026-10-17",
+          "note": "product description, free-image / Pro-video pitch, no operator named"
+        },
+        {
+          "url": "https://www.mockmagic.com/pricing",
+          "date": "2026-10-17",
+          "note": "Free and Pro (€7.99/mo) plan cards, contradictory feature lists"
+        },
+        {
+          "url": "https://www.mockmagic.com/terms",
+          "date": "2026-10-17",
+          "note": "Section 2 personal/non-commercial use restriction; Netherlands governing law"
+        },
+        {
+          "url": "websearch: \"Mock Magic\" mockmagic.com scam OR malware OR \"shutting down\" OR acquired",
+          "date": "2026-10-17",
+          "note": "no results referencing this domain"
+        }
+      ],
+      "unverified": [
+        "legal operator/company name behind Mock Magic",
+        "whether video mockups and Pro templates are actually free-tier or Pro-only (pricing page contradicts itself)",
+        "whether the ToS personal-use-only clause is meant to cover exported mockups or only the Mock Magic site itself",
+        "free plan time limit (not stated either way)"
+      ],
+      "injectionSeen": null
+    },
+    "mockey": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Terms of Service (Section 2, https://mockey.ai/terms) restrict use to \"personal, non-commercial use\" and bar republishing/redistributing/selling Content without permission, while the homepage markets a paid tier explicitly \"for commercial use\" — i.e. the free tier's own terms page reads as non-commercial-only even though the product is a mockup generator normally used commercially. The pricing page (https://mockey.ai/pricing) is JS-rendered and returned no plan/price text on fetch, so paid-tier price and the exact free-tier limit beyond \"JPG only\" cannot be confirmed from text. Needs owner decision before listing.",
+      "site": {
+        "name": "Mockey AI",
+        "url": "https://mockey.ai",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan lets users design and download 30,000+ mockup templates (60+ categories) but downloads are JPG only; PNG export requires a paid plan, per the homepage FAQ",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://mockey.ai/pricing",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS (no name given) · commercial: ToS Section 2 grants a personal, non-commercial license and bars redistribution/sale of Content; homepage separately sells a paid tier \"for commercial use\" · attribution: not addressed · limit: unclear whether exported mockups count as restricted \"Content\"",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://mockey.ai/terms",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown/acquisition hits in search; © 2026, no legal entity named on homepage"
+      },
+      "sources": [
+        {
+          "url": "https://mockey.ai",
+          "date": "2026-10-17",
+          "note": "product description (30k+ templates, AI tools), free plan + JPG-only FAQ, paid tier \"for commercial use\" banner"
+        },
+        {
+          "url": "https://mockey.ai/pricing",
+          "date": "2026-10-17",
+          "note": "fetch returned only the page title; JS-rendered, no plan/price text retrievable"
+        },
+        {
+          "url": "https://mockey.ai/terms",
+          "date": "2026-10-17",
+          "note": "Section 2 personal/non-commercial license and no-redistribution clause"
+        },
+        {
+          "url": "websearch: \"Mockey\" mockey.ai scam OR malware OR \"shutting down\" OR acquired",
+          "date": "2026-10-17",
+          "note": "no results referencing this domain"
+        }
+      ],
+      "unverified": [
+        "legal operator/company name behind Mockey AI",
+        "paid plan price and billing period (pricing page did not render as text)",
+        "whether exported mockups count as restricted \"Content\" under the ToS personal-use clause",
+        "free plan time limit (not stated either way)"
+      ],
+      "injectionSeen": null
+    },
+    "mockflow": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "MockFlow",
+        "url": "https://mockflow.com",
+        "alive": true,
+        "operator": "Produle Systems Pvt Limited"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Basic plan: $0 forever, no card or trial clock; 1 editor + 5 reviewers, all brainstorming/whiteboard formats, wireframing (WireframePro) and lite prototyping, Mida AI agent (100 AI credits/month), Clippy, Bridge with Claude Code (20 generations/day, 1 board); capped at 4 projects and 500 components, 7-day revision history, personal or nonprofit use only (commercial work needs a paid plan); accounts unused 60 days may be closed",
+        "paidFrom": "Plus and Max plans (per-editor seat, monthly or billed yearly with ~25% yearly discount); exact price not shown in fetched text, also a Day Pass (one payment, 10 days full access, non-renewing)",
+        "evidence": {
+          "url": "https://mockflow.com/pricing/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS (MockFlow, Produle Systems Pvt Limited) · commercial: no on the free Basic plan (personal/nonprofit only), yes on paid Plus/Max plans · attribution: not required · limit: Basic plan capped at 4 projects and 500 components",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://mockflow.com/legal",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "mockflow",
+        "type": "Tool",
+        "category": "Productivity",
+        "title": "MockFlow",
+        "description": "Visual collaboration canvas for wireframing, diagramming and lite prototyping, with an AI agent (Mida); free plan is personal/nonprofit use only.",
+        "tags": [
+          "whiteboard",
+          "collaboration",
+          "prototyping",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "miro",
+          "figjam"
+        ],
+        "similarResources": [
+          "excalidraw",
+          "tldraw",
+          "figma"
+        ],
+        "keyFeatures": [
+          "WireframePro wireframing editor plus whiteboard, diagramming and lite prototyping on one canvas",
+          "Mida AI agent builds boards from prompts; MCP server and a Claude Code bridge are built in",
+          "Desktop app and Chrome extension (Clippy) alongside the web app",
+          "Multiplayer editing with team chat, audio comments and meetings on paid plans",
+          "Free Basic plan: 1 editor + 5 reviewers, 4 projects, 500-component cap, personal/nonprofit use only"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17: no exact match (closest: c, cplusplus, fsharp)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown/acquisition hits in search; third-party directories (GetApp Spain, G2) show it as an active, rated product since 2009"
+      },
+      "sources": [
+        {
+          "url": "https://mockflow.com",
+          "date": "2026-10-17",
+          "note": "product description: whiteboard/wireframe/diagram canvas, Mida AI, integrations, MCP server, desktop app, Clippy extension"
+        },
+        {
+          "url": "https://mockflow.com/pricing/",
+          "date": "2026-10-17",
+          "note": "Basic/Plus/Max/Day Pass plan features and limits; Basic confirmed free forever"
+        },
+        {
+          "url": "https://mockflow.com/legal",
+          "date": "2026-10-17",
+          "note": "Basic plan personal/nonprofit-only restriction, output ownership (\"your boards, files and AI output belong to you\"), links to Terms and AI Policy"
+        },
+        {
+          "url": "websearch: \"MockFlow\" mockflow.com scam OR malware OR \"shutting down\" OR acquired",
+          "date": "2026-10-17",
+          "note": "no scam/shutdown hits; confirmed operator Produle Systems Pvt Limited via directory listing of MockFlow's own terms page"
+        }
+      ],
+      "unverified": [
+        "exact Plus/Max plan prices (page text did not include the numeric price, only \"/month/billed yearly\")",
+        "Day Pass and Mac Personal Whiteboard app prices",
+        "full text of the Terms of Service (/legal/terms) and AI Policy (/legal/ai) beyond the legal overview page summary"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/mockflow.md",
+        "lint": "pass"
+      }
+    },
+    "mockin": {
+      "researchedOn": "2026-10-17",
+      "verdict": "skip",
+      "verdictReason": "Core product (AI mock interviews, resume/portfolio/LinkedIn checkers, job matcher) is paid-only (24-hour pass $9, plus monthly/3-month plans); the only free part is a narrow standalone Resume Builder, not a free tier of the described toolkit — fails the permanent-free-tier bar.",
+      "site": {
+        "name": "Mockin",
+        "url": "https://mockin.work",
+        "alive": true,
+        "operator": "Egor Krasnoperov (Co-Founder / Design Director), per homepage credit"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Resume Builder only (build a resume from scratch, no credit card). Mock interviews, resume/portfolio/LinkedIn checkers and job matcher all require a paid plan.",
+        "paidFrom": "$9 one-time for a 24-hour pass (unlimited attempts + all career tools for one day); monthly and 3-month PRO plans also offered, exact recurring prices not shown on the pricing page",
+        "evidence": {
+          "url": "https://mockin.work/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://mockin.work",
+          "date": "2026-10-17",
+          "note": "what it is, who it's for, operator credit"
+        },
+        {
+          "url": "https://mockin.work/pricing",
+          "date": "2026-10-17",
+          "note": "pricing plans: $9/24h pass, free Resume Builder only"
+        }
+      ],
+      "unverified": [
+        "exact monthly / 3-month plan prices not shown on the pricing page",
+        "no license/terms page found (https://mockin.work/terms returned 404)",
+        "no dedicated safety search beyond general scam/shutdown query"
+      ],
+      "injectionSeen": null
+    },
+    "mockoops": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Mockoops",
+        "url": "https://mockoops.mohitya.dev",
+        "alive": true,
+        "operator": "Mohit Yadav (independent developer, mohitya.dev)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All mockup creation and export features: upload a screen recording, pick a template, export with no watermark; no account or payment required",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://mockoops.mohitya.dev",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT · commercial: yes · attribution: not required · limit: project is a side tool with no SLA/support guarantee",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/Just-Moh-it/Mockoops",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "mockoops",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Mockoops",
+        "description": "Turns plain screen recordings into polished animated mockup videos in the browser, with no watermark, sign-up or payment.",
+        "tags": [
+          "open-source",
+          "visual-design",
+          "social-media-design",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Drag-and-drop screen recording upload with instant mockup preview",
+          "Several animated mockup templates, rendered with Remotion",
+          "Serverless export with no watermark on the free tier",
+          "Open-source (MIT) and self-hostable from GitHub",
+          "No account or payment required"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 — no exact match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown hits in search; MIT-licensed GitHub repo (Just-Moh-it/Mockoops), Product Hunt launch 2022, site still live 2026-10-17"
+      },
+      "sources": [
+        {
+          "url": "https://mockoops.mohitya.dev",
+          "date": "2026-10-17",
+          "note": "product description, pricing claim, footer/nav links"
+        },
+        {
+          "url": "https://github.com/Just-Moh-it/Mockoops",
+          "date": "2026-10-17",
+          "note": "MIT license, README description, maintainer"
+        }
+      ],
+      "unverified": [
+        "no dedicated terms-of-service or privacy-policy page found",
+        "export/usage limits beyond 'no watermark' not stated",
+        "last commit / current maintenance activity not checked"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/mockoops.md",
+        "lint": "pass"
+      }
+    },
+    "mockover": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Mockover",
+        "url": "https://mockover.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All tools (Perspective Transform, Perspective Warp, Image Warper, Crop, Rotate & Flip, Logo on Product, Displacement Map Generator, etc.); site states no sign-up and nothing is uploaded; no paid plan or pricing page exists",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://mockover.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No license/terms page found on the site · commercial use: not stated · attribution: not stated · limit: usage terms undocumented",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://mockover.com",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "mockover",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Mockover",
+        "description": "Free browser-based tools for perspective transform, image warping, cropping and logo-on-product mockups, no sign-up.",
+        "tags": [
+          "graphic-design",
+          "visual-design",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Perspective Transform and Perspective Warp for realistic product shots",
+          "Image Warper, Skew, Straighten Photo and Crop tools",
+          "Logo on Product mockup placement",
+          "Rotate & Flip and displacement map generator for texture effects",
+          "Runs entirely in-browser; site states no files are uploaded to a server"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 — no exact match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown hits in search; operator's identity (person or company) not named anywhere on the site, only a contact email (hello@mockover.com); flagged in unverified"
+      },
+      "sources": [
+        {
+          "url": "https://mockover.com",
+          "date": "2026-10-17",
+          "note": "tool list, pricing/free claim, nav and footer links"
+        }
+      ],
+      "unverified": [
+        "operator / company identity not found on the site",
+        "no terms of service, privacy policy, or license page found (https://mockover.com/about returned 404)",
+        "claim that 'nothing is uploaded' not independently verified",
+        "a third-party listing claims CC BY 4.0 for commercial use, but this could not be confirmed on the tool's own site"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/mockover.md",
+        "lint": "pass"
+      }
+    },
+    "mockrocket": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "JS-rendered site: WebFetch on home, /pricing and a repeat home fetch all return only the page title (\"MockRocket – Jaw-dropping 3D app mockups & animations\"), no pricing, about, license or footer links recovered — cannot verify facts to list.",
+      "site": {
+        "name": "MockRocket",
+        "url": "https://mockrocket.io",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://mockrocket.io/pricing",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://mockrocket.io",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "WebSearch for \"MockRocket\" scam/malware/shutdown/acquired found no negative hits; only an AlternativeTo listing describing it as a browser-based device-mockup/product-video tool."
+      },
+      "sources": [
+        {
+          "url": "https://mockrocket.io",
+          "date": "2026-10-17",
+          "note": "WebFetch returned only the <title> tag text, three separate attempts (home, /pricing, home retry); no pricing/about/footer content rendered."
+        },
+        {
+          "url": "https://alternativeto.net/software/mockrocket/",
+          "date": "2026-10-17",
+          "note": "second-hand: describes MockRocket as a web-based tool for device mockups and product videos, rendering up to 4K; not used for any RL fact, only confirms the product exists."
+        }
+      ],
+      "unverified": [
+        "Operator/company behind MockRocket",
+        "Pricing plans and whether a free tier exists",
+        "License/terms of use",
+        "All facts beyond the tagline — page is JS-only and WebFetch cannot render it"
+      ],
+      "injectionSeen": null
+    },
+    "mockup": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Mockup",
+        "url": "https://getmockup.app",
+        "alive": true,
+        "operator": "Apprime Studio SARL"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free Plan, US$0, described on the home page as available \"Forever\" — no expiry stated.",
+        "paidFrom": "US$9.99/month (also US$29.99/year or a US$119.99 one-time lifetime purchase), per the home page's pricing section",
+        "evidence": {
+          "url": "https://getmockup.app",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary (Apprime Studio SARL Terms of Service) · commercial use: unclear for app outputs (ToS Section 5.4 bars commercial/resale use of \"the Platform\" itself, not explicitly the designs made with it) · attribution: not required · limit: free plan features vs. paid-only features not itemized on the page read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://apprime.studio/terms-of-service",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "mockup",
+        "type": "App",
+        "category": "Design",
+        "title": "Mockup",
+        "description": "iPad, iPhone and Mac app for sketching, wireframing and prototyping UI/UX ideas without paper, with a free-forever plan.",
+        "tags": [
+          "prototyping",
+          "ui-ux",
+          "mac",
+          "ios"
+        ],
+        "relatedResources": [
+          "figjam"
+        ],
+        "similarResources": [
+          "figma",
+          "framer"
+        ],
+        "keyFeatures": [
+          "Sketch, wireframe and prototype UI/UX projects directly on iPad, iPhone or Mac",
+          "Free plan available with no time limit",
+          "Monthly, annual or one-time lifetime purchase options to unlock full features",
+          "Organization licensing via Apple Business Manager / Apple School Manager"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact Simple Icons match for \"Mockup\" (closest: c, cplusplus); site SVG not fetched to stay within fetch budget"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "WebSearch for scam/malware/shutdown/acquired terms on Mockup Cloud (separate tool) and general checks found nothing negative; no dedicated negative-news search run for \"Mockup\" app alone due to the generic name making results unreliable — noted as unverified."
+      },
+      "sources": [
+        {
+          "url": "https://getmockup.app",
+          "date": "2026-10-17",
+          "note": "Product description, platform support (iPad/iPhone/Mac), operator name in footer copyright, free plan and paid pricing tiers (monthly/annual/lifetime/organization)."
+        },
+        {
+          "url": "https://apprime.studio/terms-of-service",
+          "date": "2026-10-17",
+          "note": "Operator entity (Apprime Studio SARL, Beirut, Lebanon), eligibility, subscription/billing terms, the commercial-use and redistribution restrictions on \"the Platform\", IP/trademark clause."
+        }
+      ],
+      "unverified": [
+        "Exact feature gating between Free and paid plans (which features are free-forever vs. paid-only)",
+        "Whether designs/output made with the free plan can be used commercially — ToS Section 5.4 restricts commercial use of \"the Platform\" but does not explicitly address user-created content",
+        "A dedicated negative-news safety search for \"Mockup\" by itself (name too generic to search reliably; no specific negative signal found in related searches)",
+        "Site's own SVG logo not fetched/sanitized for icon route"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/mockup.md",
+        "lint": "pass"
+      }
+    },
+    "mockup-cloud": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Mockup Cloud",
+        "url": "https://www.mockupcloud.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "A dedicated Free Mockups section (/free) with roughly 600 downloadable PSD mockups (estimated from ~25 pages of 24 items each) across packaging, devices, apparel and print, kept as a permanent catalog section rather than a trial.",
+        "paidFrom": "Individual premium items from about US$18 up to US$59; an \"All Products\" bundle is also advertised (displayed price inconsistent — see unverified).",
+        "evidence": {
+          "url": "https://www.mockupcloud.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Mockup Cloud License (proprietary) · commercial use: yes, end products made from items may be sold/distributed · attribution: not mentioned · limit: the mockup files themselves cannot be resold/redistributed as stock, with or without source files",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.mockupcloud.com/license",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "mockup-cloud",
+        "type": "Stock Media",
+        "category": "Design",
+        "title": "Mockup Cloud",
+        "description": "Marketplace of free and premium PSD mockups for branding, packaging, devices and apparel, with an online editor for some items.",
+        "tags": [
+          "design-templates",
+          "graphic-design",
+          "print-design",
+          "stock",
+          "template"
+        ],
+        "relatedResources": [
+          "canva-templates",
+          "figma-community"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Large free-mockups section (packaging, devices, apparel, print) alongside paid premium items",
+          "PSD mockups for branding, stationery, packaging and device presentations",
+          "Some items editable directly online, without Photoshop",
+          "Pay-once licensing per item or an all-products bundle",
+          "Contributions from multiple designers/authors, not just the site's own team"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact Simple Icons match for \"Mockup Cloud\" (closest: c, cplusplus, d, upcloud); site SVG not fetched to stay within fetch budget"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "WebSearch for \"Mockup Cloud\" scam/malware/shutdown/acquired returned no relevant results (only unrelated generic cloud-storage-scam articles) — no negative signal found."
+      },
+      "sources": [
+        {
+          "url": "https://www.mockupcloud.com",
+          "date": "2026-10-17",
+          "note": "Site description, free vs. premium split, example item prices, footer links to /license, /terms, /privacy."
+        },
+        {
+          "url": "https://www.mockupcloud.com/free",
+          "date": "2026-10-17",
+          "note": "Free mockups section content and approximate catalog size (pagination to ~page 25 at 24 items/page)."
+        },
+        {
+          "url": "https://www.mockupcloud.com/license",
+          "date": "2026-10-17",
+          "note": "License scope: commercial use of end products allowed, no-resale-as-stock restriction, 5-device/IP limit per license, note that some items carry their own open-source/CC/creator terms."
+        }
+      ],
+      "unverified": [
+        "Legal operator/entity name behind Mockup Cloud (not stated on pages read)",
+        "Exact count of free items (estimated from pagination, not a stated total)",
+        "Whether the free-section items carry the same license as paid items or a separate free license (the license page speaks to \"each digital purchase\"; free-download terms not explicitly separated)",
+        "The \"All Products\" bundle price shown two numbers ($133,198 and $149) with no clear indication of which is struck-through vs. actual — not used as a fact",
+        "Attribution requirement not explicitly stated either way",
+        "Site's own SVG logo not fetched/sanitized for icon route"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/mockup-cloud.md",
+        "lint": "pass"
+      }
+    },
+    "mockup-world": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Mockup World",
+        "url": "https://www.mockupworld.co",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All featured mockups are free downloads; site's stated curation policy is to only list mockups usable for both personal and commercial work",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.mockupworld.co",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Per-item licenses (each mockup made by its own third-party author) · commercial: yes, per sitewide curation policy (\"lists only images that can be used for both personal and commercial work without restrictions\") · attribution: not stated · limit: no sitewide license document found, and the operator is anonymous — verify on each mockup's own download page before use",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.mockupworld.co/about/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "mockup-world",
+        "type": "Resource",
+        "category": "Design",
+        "title": "Mockup World",
+        "description": "Free directory of PSD and online mockups for devices, packaging, apparel and posters, curated for personal and commercial use.",
+        "tags": [
+          "graphic-design",
+          "design-templates",
+          "visual-design",
+          "print-design"
+        ],
+        "relatedResources": [
+          "figma-community"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Thousands of free PSD mockups across categories: iPhone, MacBook, packaging, apparel, posters, Android devices, iMac, cosmetics, vehicles",
+          "Free 12-file PSD starter bundle via email signup",
+          "Links to online mockup generators (e.g. Placeit) as paid alternatives",
+          "Browsable by category, download tag and \"Latest Free Mockups\"",
+          "Submit Mockup and Sell Mockups pages for designers who want to contribute or list their own work"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 (no match)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition hits in search (2026-10-17); site has been active since at least a 2015 Product Hunt feature; operator identity not disclosed anywhere on the site"
+      },
+      "sources": [
+        {
+          "url": "https://www.mockupworld.co",
+          "date": "2026-10-17",
+          "note": "what the site offers, navigation sections, free-bundle wording"
+        },
+        {
+          "url": "https://www.mockupworld.co/about/",
+          "date": "2026-10-17",
+          "note": "curation mission statement and commercial-use policy; no operator name given"
+        },
+        {
+          "url": "https://www.mockupworld.co/legal/",
+          "date": "2026-10-17",
+          "note": "IP-rights section: credits individual owners, no sitewide commercial/attribution terms"
+        }
+      ],
+      "unverified": [
+        "operator identity (person or company)",
+        "whether every linked third-party mockup actually matches the sitewide personal+commercial policy — each download page should be checked individually before reuse",
+        "full Terms / Privacy Policy page contents (not fetched)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/mockup-world.md",
+        "lint": "pass"
+      }
+    },
+    "mockup-maison": {
+      "researchedOn": "2026-10-17",
+      "verdict": "skip",
+      "verdictReason": "Primarily a paid mockup shop: individual mockups from $19, collections $49–$99, unlimited subscription from $59/month. The 'free mockups' page is an undocumented starter/lead-gen freebie (email signup) with no stated count, categories, limits or license — does not meet RL's permanent-free-tier bar (free trial/sampler does not count).",
+      "site": {
+        "name": "Mockup.Maison",
+        "url": "https://mockup.maison",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": "Undocumented \"free mockups\" sampler page (/pages/free-mockups) offered via email signup; no stated count, categories, limits or license terms",
+        "paidFrom": "Individual mockups from $19.00; collections (sale prices) $49–$99; unlimited subscription from $59/month",
+        "evidence": {
+          "url": "https://mockup.maison",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://mockup.maison",
+          "date": "2026-10-17",
+          "note": "pricing (subscription, individual, collections), navigation, no operator name shown"
+        },
+        {
+          "url": "https://mockup.maison/pages/free-mockups",
+          "date": "2026-10-17",
+          "note": "free-mockups sampler page gives no count, category or license detail"
+        },
+        {
+          "url": "https://mockup.maison/pages/pricing-licensing",
+          "date": "2026-10-17",
+          "note": "fetch returned HTTP 404 — linked Pricing & Licensing page could not be read"
+        }
+      ],
+      "unverified": [
+        "exact monthly price of the subscription (only $59/mo starting price and yearly collection sale prices shown)",
+        "free-mockups page: count, categories, license terms",
+        "operator / company identity",
+        "Terms & conditions and Refund policy contents (not fetched)"
+      ]
+    },
+    "mockupanda": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Mockupanda",
+        "url": "https://mockupanda.com",
+        "alive": true,
+        "operator": "Federico Cella (independent developer, federicocella.com)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Unlimited watermarked mockup generation, 5 AI credits/month, one design at a time, a library of the 10 newest designs; no credit card required",
+        "paidFrom": "Lifetime plan $129 one-time; Starter and Pro yearly billing shown as $48/yr and $84/yr (monthly prices not displayed on the page); API pay-as-you-go at $0.01/mockup (up to 12 per request)",
+        "evidence": {
+          "url": "https://mockupanda.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Mockupanda site terms · commercial: yes (FAQ: \"You're free to use these images commercially or personally\") · attribution: not required · limit: free-plan exports carry a watermark; watermark-free exports require a paid plan",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://mockupanda.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "mockupanda",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Mockupanda",
+        "description": "A mockup generator for poster, art print and T-shirt sellers on Etsy and Shopify, with batch generation and a pay-as-you-go API.",
+        "tags": [
+          "graphic-design",
+          "design-templates",
+          "ai-tool",
+          "print-design"
+        ],
+        "relatedResources": [
+          "canva"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Poster, art print and T-shirt mockup templates aimed at print-on-demand sellers",
+          "Batch mockup generator and an Etsy-specific mockup generator",
+          "PSD smart-object replacer and mockup mask generator tools",
+          "Pay-as-you-go developer API at $0.01 per mockup, up to 12 per request",
+          "Free plan: unlimited watermarked mockups, 5 AI credits/month, no card required"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 (no match)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition hits in search (2026-10-17); operator identified (Federico Cella, federicocella.com)"
+      },
+      "sources": [
+        {
+          "url": "https://mockupanda.com",
+          "date": "2026-10-17",
+          "note": "what it offers, operator credit, commercial-use FAQ wording, navigation"
+        },
+        {
+          "url": "https://mockupanda.com/pricing",
+          "date": "2026-10-17",
+          "note": "Free/Starter/Pro/Lifetime plan details, watermark policy, API price"
+        }
+      ],
+      "unverified": [
+        "exact Starter and Pro monthly prices (page only showed yearly-billed totals)",
+        "Terms of Service and Privacy Policy contents (not fetched)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/mockupanda.md",
+        "lint": "pass"
+      }
+    },
+    "mockups-design": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Mockups Design",
+        "url": "https://mockups-design.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All mockups free to download, no registration, no redirects",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://mockups-design.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Custom site license (no SPDX/CC name) · commercial: yes · attribution: not required · limit: unmodified PSD/TIF files may not be redistributed in open format or resold on stock/microstock sites",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://mockups-design.com/license/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "mockups-design",
+        "type": "Template",
+        "category": "Design",
+        "title": "Mockups Design",
+        "description": "Free PSD mockup templates for packaging, apparel, devices, print and outdoor scenes, with no sign-up required.",
+        "tags": [
+          "design-templates",
+          "graphic-design",
+          "print-design",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "canva-templates",
+          "figma-community"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Studio mockups: packaging, apparel, devices, stationery, bags and more, with multiple PSD scenes",
+          "Packaging-specific PSD mockups: bottles, jars, boxes, bags/pouches, cans, tubes, candles",
+          "Urban/outdoor mockups: billboards, posters, signboards, flags, banners",
+          "Scene Creator Kit for building custom mockup scenes",
+          "No registration or redirect required to download"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 (no match)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Safety search for \"mockups-design.com\" scam/malware/shutdown/acquired returned no hits for this site; only similarly-named unrelated sites (Smartmockups.com closure, Yimu-mockup.com scam) appeared."
+      },
+      "sources": [
+        {
+          "url": "https://mockups-design.com",
+          "date": "2026-10-17",
+          "note": "pitch, free/no-registration claim, mockup categories"
+        },
+        {
+          "url": "https://mockups-design.com/license/",
+          "date": "2026-10-17",
+          "note": "license terms: commercial use, attribution, redistribution/resale limits"
+        }
+      ],
+      "unverified": [
+        "operator / legal entity behind the site not named on the page",
+        "icon: no Simple Icons match; site SVG not fetched/sanitized for this round"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/mockups-design.md",
+        "lint": "pass"
+      }
+    },
+    "mockups-supply": {
+      "researchedOn": "2026-10-17",
+      "verdict": "skip",
+      "verdictReason": "Paid subscription only (All-Access Pass $9/mo, $19/quarter, $59/year); no permanent free plan — only a newsletter-gated \"Freebies\" section of unstated scope, which does not count as a confirmed free tier.",
+      "site": {
+        "name": "Mockups Supply",
+        "url": "https://www.mockups.supply/",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "$9 / 1 month (All-Access Pass; also $19/3 months, $59/year)",
+        "evidence": {
+          "url": "https://www.mockups.supply/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Custom \"Licensing Agreement\" (Personal/Commercial License tiers) · commercial: yes (Commercial License) · attribution: not mentioned · limit: may not resell, redistribute, share, repackage or reupload original mockup files",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.mockups.supply/legal/licensing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/mockups-supply/",
+          "date": "2026-10-17",
+          "note": "found the tool's own site URL (https://www.mockups.supply/)"
+        },
+        {
+          "url": "https://www.mockups.supply/",
+          "date": "2026-10-17",
+          "note": "pricing plans, no permanent free plan"
+        },
+        {
+          "url": "https://www.mockups.supply/legal/licensing",
+          "date": "2026-10-17",
+          "note": "license terms"
+        }
+      ],
+      "unverified": [
+        "scope/limits of the newsletter-gated \"Freebies\" mockups",
+        "operator / legal entity not named on the page",
+        "no dedicated safety search run (skipped per Tier A screen since verdict is skip on pricing alone)"
+      ],
+      "injectionSeen": null
+    },
+    "mockuuups": {
+      "researchedOn": "2026-10-17",
+      "verdict": "skip",
+      "verdictReason": "Free trial only — new accounts get 5 free exports from the full library, for personal use only, no card required; no permanent free plan confirmed on the pricing page. All other access is pay-per-export or subscription.",
+      "site": {
+        "name": "Mockuuups",
+        "url": "https://mockuuups.studio",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": "5 free exports on signup (personal use only, no permanent free plan)",
+        "paidFrom": "pay-per-export packs from ₹357 (1 export); unlimited-export monthly ₹2,286/mo or yearly ₹1,372/mo (billed ₹16,458.40/yr)",
+        "evidence": {
+          "url": "https://mockuuups.studio/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://mockuuups.studio/pricing",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://mockuuups.studio",
+          "date": "2026-10-17",
+          "note": "what the tool is, device/print mockups, plugins, desktop app"
+        },
+        {
+          "url": "https://mockuuups.studio/pricing",
+          "date": "2026-10-17",
+          "note": "pricing plans: trial exports, pay-per-export, subscriptions"
+        }
+      ],
+      "unverified": [
+        "a separate \"free mockup collection with attribution\" is mentioned on pricing page but its page (/free-mockups) returned 404; scope/permanence not confirmed",
+        "license/terms page not read (verdict is skip on pricing alone)",
+        "operator / legal entity not named on the pages read",
+        "no dedicated safety search run (skipped per Tier A screen since verdict is skip on pricing alone)"
+      ],
+      "injectionSeen": null
     }
   }
 }
