@@ -19746,7 +19746,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "framezero",
       "priority": "P2",
       "hasResearch": true
     },
@@ -19833,7 +19833,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "free-design-resources",
       "priority": "P2",
       "hasResearch": true
     },
@@ -19859,7 +19859,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "free-faces",
       "priority": "P2",
       "hasResearch": true
     },
@@ -19937,7 +19937,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "freebie-supply",
       "priority": "P2",
       "hasResearch": true
     },
@@ -19989,7 +19989,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "freebiesbug",
       "priority": "P2",
       "hasResearch": true
     },
@@ -20043,7 +20043,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "freeform",
       "priority": "P2",
       "hasResearch": true
     },
@@ -20092,12 +20092,12 @@
           "file": "Best Design Communities for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Marketplace, not a free tool: membership plans start at $4.99/month with no free plan listed; free signup and per-project fees not confirmed (Fees page not read); does not clearly fit an RL type/category.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "freesound",
@@ -20118,12 +20118,12 @@
           "file": "Free Stock Images & Video Websites _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "fresh-folk",
@@ -20144,12 +20144,12 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Free only for personal or non-commercial use under CC BY-NC-ND 4.0 (no derivatives); commercial use needs a commission/contact, which matters for reel use. Price on Gumroad page not readable.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "frontify",
@@ -20196,12 +20196,12 @@
           "file": "Best UX Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "fudge",
@@ -20248,12 +20248,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "fullstory",
@@ -20274,12 +20274,12 @@
           "file": "Best UX Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "function12",
@@ -20300,12 +20300,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Site shows 'FN12.com is temporarily unavailable for a mandatory update and maintenance'; AlternativeTo marks it discontinued; pricing page stale (free until 2024 wording)",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "fuser",
@@ -20326,12 +20326,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Trial only: paid plans from $5/month (Indie, 5,000 credits); no permanent free plan, only a 30-day Professional trial plus 500 starting credits",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "futicons",
@@ -20350,12 +20350,12 @@
           "file": "Best Free Open Source Icon Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Single-page Figma icon set by an individual; page says 'Download for free' plus a separate 'FULL DOWNLOAD' on Gumroad, but states no license, icon count or price, and the Gumroad page returned nothing.",
       "pricingBucket": "beta",
       "rlSlug": null,
       "priority": "P3",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "futura-now",
@@ -20483,7 +20483,7 @@
       "status": "drafted",
       "notes": "Permanent free plan (personal-use license, JPEG 1200px, black background)",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "fx-labs",
       "priority": "P2",
       "hasResearch": true
     },
@@ -20508,12 +20508,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Free-plan permanence unclear: pricing page lists a Free $0 plan and says trial users 'move to the Free plan' (Free does not auto-sort the inbox), but all CTAs are a 14-day trial and third-party reviews say there is no free plan.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "galaxybrain",
@@ -20563,7 +20563,7 @@
       "status": "drafted",
       "notes": "Curated gallery, free to browse, no paywall seen",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "gallereee",
       "priority": "P2",
       "hasResearch": true
     },
@@ -20620,12 +20620,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Free-tier permanence unclear: pricing lists 'Free Plan' $0/Day with 'basic features with limited usage' but the only free access described in detail is a 1-day trial.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "gbrain",
@@ -20675,7 +20675,7 @@
       "status": "drafted",
       "notes": "Permanent free plan with a Google account, confirmed on Google's plans page",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "gemini",
       "priority": "P2",
       "hasResearch": true
     },
@@ -20753,7 +20753,7 @@
       "status": "drafted",
       "notes": "Fully free: fonts under SIL OFL 1.1, scripts under Apache-2.0",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "generative-fonts",
       "priority": "P2",
       "hasResearch": true
     },
@@ -20779,7 +20779,7 @@
       "status": "drafted",
       "notes": "Permanent Free plan ($0/month, no trial mentioned) on the pricing page",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "genstore",
       "priority": "P2",
       "hasResearch": true
     },
@@ -20830,12 +20830,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "No permanent free plan: pricing page says each plan has a free trial with 'limited access'; plans are paid from 80 EUR/month.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "gestalt-principles",
@@ -20856,12 +20856,12 @@
           "file": "Learn UI_UX Design_ Courses, Guides & Best Practices.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "gestures",
@@ -20910,12 +20910,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Paid-only done-for-you ad creative service: Launch $1,750/mo, Core $3,250/mo, Scale $5,250/mo; no free plan on its own pricing page (the \"Free plan available\" label on the directory page is unsupported).",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "getcompress",
@@ -20962,12 +20962,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "gethookd",
@@ -21014,12 +21014,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Free is not confirmed: site states no price, license or reuse terms beyond \"copyright belongs to respective creators\"; unclear whether it links out to sources; also has a Figma plugin.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "getillustrations",
@@ -21040,12 +21040,12 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "FETCH-FAIL: getillustrations.com and /free-illustrations returned HTTP 403 to WebFetch; only the help-center license page was readable. Pricing and free-tier permanence not confirmed first-party.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "getimg-ai",
@@ -21068,12 +21068,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Official pricing page lists four paid plans and no free plan; 2026 reviews say the old free tier was discontinued. Paid only.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "getresponse",
@@ -21146,12 +21146,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "FETCH-FAIL: useghost.io home and /pricing returned only a title and tagline (JS page); pricing only from third-party directories (Free $0, Starter $9.99, Pro $19.99 per user/month).",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "gile",
@@ -21174,12 +21174,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Free tier unclear: home says free without an account, but a banner says 'First 3 invoices are free' and Pro is $9.90/month; permanence and watermark on free not stated; no terms page found.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "gimp",
@@ -21200,12 +21200,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "glance",
@@ -21359,7 +21359,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "glide",
       "priority": "P2",
       "hasResearch": true
     },
@@ -21439,7 +21439,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "glow-ui",
       "priority": "P2",
       "hasResearch": true
     },
@@ -21463,7 +21463,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "beta",
-      "rlSlug": null,
+      "rlSlug": "glow-icons",
       "priority": "P3",
       "hasResearch": true
     },
@@ -21565,7 +21565,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "good-briefs",
       "priority": "P2",
       "hasResearch": true
     },
@@ -21591,7 +21591,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "good-bye-john-doe",
       "priority": "P2",
       "hasResearch": true
     },
@@ -21614,12 +21614,12 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "good-type-foundry",
@@ -21692,12 +21692,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "goodpalette",
@@ -21718,12 +21718,12 @@
           "file": "Best Color Tools and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "JS-rendered page: fetch returned only the title \"Goodpalette - Get Beautiful Color Palettes for UI Design\"; pricing and free status unreadable first-party (third-party directory says free)",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "google-ai",
@@ -21744,12 +21744,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "google-analytics",
@@ -21770,12 +21770,12 @@
           "file": "Best UX Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "google-design",
@@ -21796,12 +21796,12 @@
           "file": "Best Design Blogs & Magazines for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "google-fonts",
@@ -21848,12 +21848,12 @@
           "file": "Best Free Font Libraries and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "FETCH-FAIL: figma.com community file returned HTTP 403 twice. Figma's own page figma.com/google-fonts lists ten free pairings; possible duplicate of draft figma-font-pairings.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "google-search-console",
@@ -21874,12 +21874,12 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "google-slides",
@@ -21900,12 +21900,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Product page never says free: only 'Anyone with a Google Account can create in Slides' and a paid Workspace tier; free personal-tier permanence is not stated first-party, and Workspace prices are only shown in INR. Owner to confirm Freemium label.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "google-trends",
@@ -21926,12 +21926,12 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Alive and official, but no first-party page read states it is free (home and help page silent on cost); only third-party sources call it free. Owner to confirm Free label.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "goprod",
@@ -21981,7 +21981,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "grabient",
       "priority": "P2",
       "hasResearch": true
     },
@@ -22004,12 +22004,12 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "JS page: WebFetch of ruri.design/gradiator returned only the title 'Ruri - Your design vitamins', no content, pricing or terms. Web search suggests it is a free bonus with the Ruri Splines Figma plugin (Gumroad, klavs), unconfirmed.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "gradient-art",
@@ -22033,7 +22033,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "gradient-art",
       "priority": "P2",
       "hasResearch": true
     },
@@ -22085,7 +22085,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "gradient-lab",
       "priority": "P2",
       "hasResearch": true
     },
@@ -22210,12 +22210,12 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Free tier unconfirmed: freebies page shows only 'Loading...' and the home page gives no free limits; pricing is internally inconsistent ($59/yr vs 'Get Pro $149 Yearly'). Mostly a paid asset store; owner to decide.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "grainrad",
@@ -22236,12 +22236,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "JS page: home returned only the title 'Grainrad' twice (WebFetch), so pricing, license and terms could not be read. Only third-party mention (a Substack note via search) describes it as a browser-based image/video effects playground.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "grammarly",
@@ -22262,12 +22262,12 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "granola",
@@ -22290,12 +22290,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "graphic-design-forum",
@@ -22316,12 +22316,12 @@
           "file": "Best Design Communities for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Community forum (Discourse); homepage and ToS do not say whether joining is free (ToS mentions optional paid upgrades), no activity dates seen, not a tool - owner to decide if forums fit RL.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "graphicburger",
@@ -22342,12 +22342,12 @@
           "file": "Best Mockup Sites for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Official license page (/license/) returned 404 so commercial terms are only second-hand; newest listing seen on the mock-ups page is Feb 2018 (possibly stale); partly funnels to a Creative Market shop.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "graphite",
@@ -22368,12 +22368,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "graphy",
@@ -22394,12 +22394,12 @@
           "file": "Best UX Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "gratisography",
@@ -25172,7 +25172,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "ideo-blog",
       "priority": "P2",
       "hasResearch": true
     },
@@ -25302,7 +25302,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "ifttt",
       "priority": "P2",
       "hasResearch": true
     },
@@ -25616,7 +25616,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "imovie",
       "priority": "P2",
       "hasResearch": true
     },
@@ -26060,7 +26060,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "beta",
-      "rlSlug": null,
+      "rlSlug": "integrity",
       "priority": "P3",
       "hasResearch": true
     },
@@ -26086,7 +26086,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "inter",
       "priority": "P2",
       "hasResearch": true
     },
@@ -59927,16 +59927,16 @@
     "byStatus": {
       "deferred-trial": 232,
       "deferred-paid": 217,
-      "blocked": 279,
-      "drafted": 265,
-      "rejected": 96,
+      "blocked": 297,
+      "drafted": 289,
+      "rejected": 101,
       "in-rl": 33,
-      "researched": 24,
-      "todo": 1133
+      "researched": 17,
+      "todo": 1093
     },
     "todoByPriority": {
-      "P2": 1075,
-      "P3": 57,
+      "P2": 1036,
+      "P3": 56,
       "P1": 1
     }
   }

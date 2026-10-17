@@ -45695,6 +45695,2948 @@
         "safety search not done"
       ],
       "injectionSeen": null
+    },
+    "freelancer": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Marketplace, not a free tool: membership plans start at $4.99/month with no free plan listed; free signup and per-project fees not confirmed (Fees page not read); does not clearly fit an RL type/category.",
+      "site": {
+        "name": "Freelancer",
+        "url": "https://www.freelancer.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Employers: posting a job and getting quotes is stated as free; freelancer free signup not confirmed",
+        "paidFrom": "Basic $4.99/month ($4.50/month billed annually at $54.00), 50 bids/month",
+        "evidence": {
+          "url": "https://www.freelancer.com/membership",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": null,
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Well-known marketplace; no dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://www.freelancer.com",
+          "date": "2026-10-17",
+          "note": "self-description, free job posting claim"
+        },
+        {
+          "url": "https://www.freelancer.com/membership",
+          "date": "2026-10-17",
+          "note": "membership plans: Basic $4.99, Plus $9.99 after 1-month trial, Professional $49, Premier $99; no free plan listed"
+        }
+      ],
+      "unverified": [
+        "legal operator not named on home page",
+        "per-project fee percentages (Fees and Charges page not read)",
+        "terms of service not read",
+        "no safety search"
+      ],
+      "injectionSeen": null
+    },
+    "freesound": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Freesound",
+        "url": "https://freesound.org",
+        "alive": true,
+        "operator": "Universitat Pompeu Fabra"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Collaborative database of 737,855 sounds, free to download with a registered (free) account; donations requested",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://freesound.org",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Per-sound Creative Commons: CC0, CC BY, CC BY-NC (legacy Sampling+) · commercial: yes for CC0 and CC BY, no for BY-NC · attribution: required for BY and BY-NC · limit: check each sound's license",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://freesound.org/help/faq/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "freesound",
+        "type": "Stock Media",
+        "category": "Filming",
+        "title": "Freesound",
+        "description": "Community library of over 700,000 Creative Commons sound effects, field recordings and samples from a university-run project, free with an account.",
+        "tags": [
+          "stock-sfx",
+          "stock-music",
+          "stock"
+        ],
+        "relatedResources": [
+          "mixkit",
+          "pixabay"
+        ],
+        "similarResources": [
+          "mixkit",
+          "pixabay"
+        ],
+        "keyFeatures": [
+          "Large searchable collection of user-uploaded sounds (737,855 on the home page)",
+          "Each sound carries its own CC license: CC0, CC BY or CC BY-NC",
+          "Free download once logged into a registered account",
+          "Run by Universitat Pompeu Fabra, with donations welcomed"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-17: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "University-run project, 2026 copyright on page; no dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://freesound.org",
+          "date": "2026-10-17",
+          "note": "operator, sound count, donation request"
+        },
+        {
+          "url": "https://freesound.org/help/faq/",
+          "date": "2026-10-17",
+          "note": "licenses, commercial use, login needed to download"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "API/terms of use not read",
+        "download limits not checked"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/freesound.md",
+        "lint": "pass"
+      }
+    },
+    "fresh-folk": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Free only for personal or non-commercial use under CC BY-NC-ND 4.0 (no derivatives); commercial use needs a commission/contact, which matters for reel use. Price on Gumroad page not readable.",
+      "site": {
+        "name": "Fresh Folk",
+        "url": "https://fresh-folk.com",
+        "alive": true,
+        "operator": "Leni Kauffman"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Home page: 'Free or donation for personal or non-commercial use'; download via Gumroad",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://fresh-folk.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "CC BY-NC-ND 4.0 · commercial: no (contact creator) · attribution: required · limit: no derivatives",
+        "openSource": false,
+        "spdx": "CC-BY-NC-ND-4.0",
+        "evidence": {
+          "url": "https://fresh-folk.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "fresh-folk",
+        "type": "Stock Media",
+        "category": "Design",
+        "title": "Fresh Folk",
+        "description": "Mix-and-match illustration library of diverse characters with poses, outfits and skin tones, plus 43 objects for building scenes.",
+        "tags": [
+          "stock-illustrations",
+          "stock-vectors"
+        ],
+        "relatedResources": [
+          "diverse-ui"
+        ],
+        "similarResources": [
+          "diverse-ui"
+        ],
+        "keyFeatures": [
+          "Characters with a range of poses, outfits and skin tones",
+          "43 objects for the Make a Scene feature",
+          "Free or pay-what-you-like for personal and non-commercial use",
+          "Created by illustrator Leni Kauffman"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-17: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Independent creator site; no dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://fresh-folk.com",
+          "date": "2026-10-17",
+          "note": "description, license link, creator"
+        },
+        {
+          "url": "https://lenikauffman.gumroad.com/l/yccji",
+          "date": "2026-10-17",
+          "note": "download page; fetch returned only the title"
+        }
+      ],
+      "unverified": [
+        "actual Gumroad price/pay-what-you-want terms",
+        "file formats",
+        "no safety search"
+      ],
+      "injectionSeen": null
+    },
+    "frontitude": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Frontitude",
+        "url": "https://www.frontitude.com",
+        "alive": true,
+        "operator": "Frontitude Ltd."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Starter plan, labelled 'Free forever': 2 editors, 1 viewer, 3 projects, 50 copy components, Design View",
+        "paidFrom": "Team $200/month monthly, or $160/month on yearly billing",
+        "evidence": {
+          "url": "https://www.frontitude.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: yes (product use) · attribution: not applicable · limit: terms of service not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.frontitude.com/terms",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "frontitude",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Frontitude",
+        "description": "UX copy platform that keeps product text in one library shared by design, writing, localization and dev, with Figma and Sketch plugins.",
+        "tags": [
+          "ui-ux",
+          "writing",
+          "collaboration"
+        ],
+        "relatedResources": [
+          "figma"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Copy library for storing and reusing product text",
+          "Figma and Sketch plugins",
+          "Developer CLI with i18next integration, plus webhooks",
+          "AI translation and a UX writing assistant",
+          "Access controls and SSO"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-17: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search found no acquisition, shutdown or scam reports; newest items late 2025"
+      },
+      "sources": [
+        {
+          "url": "https://www.frontitude.com",
+          "date": "2026-10-17",
+          "note": "features, operator, free plan statement"
+        },
+        {
+          "url": "https://www.frontitude.com/pricing",
+          "date": "2026-10-17",
+          "note": "Starter and Team plan figures"
+        },
+        {
+          "url": "https://calcalistech.com/ctechnews/article/hj7ewwmlc",
+          "date": "2026-10-17",
+          "note": "search result: company profile (2022)"
+        }
+      ],
+      "unverified": [
+        "terms of service not readable (Notion page returned only a title)",
+        "sibling sections not explored"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/frontitude.md",
+        "lint": "pass"
+      }
+    },
+    "fueler": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Fueler",
+        "url": "https://fueler.io",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Silver plan: unlimited proof-of-work blocks, 5 custom portfolios, basic profile statistics, newsletter, community access; FAQ says profile creation is 'free forever'",
+        "paidFrom": "Gold INR 7,999/year (Platinum INR 2,499/year listed with struck-through INR 10,499); page says 'private beta', prices may change",
+        "evidence": {
+          "url": "https://fueler.io/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary hosted service · commercial: not read · attribution: n/a · terms not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://fueler.io/terms",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "fueler",
+        "type": "Website",
+        "category": "Business",
+        "title": "Fueler",
+        "description": "Portfolio platform where creatives and knowledge workers show proof-of-work samples instead of a CV, with a free plan.",
+        "tags": [
+          "web",
+          "website-builder"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Build a portfolio from proof-of-work blocks",
+          "Free plan with unlimited blocks and 5 custom portfolios",
+          "Public Hall of Fame of member portfolios",
+          "Jobs section and blog for opportunities",
+          "Paid tiers add analytics and integrations"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "fueler",
+          "fillColor": "#09C9E3",
+          "bgColor": "#ffffff",
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Web search found no scam or shutdown reports; no independent reviews either (AlternativeTo lists it, no comments)"
+      },
+      "sources": [
+        {
+          "url": "https://fueler.io",
+          "date": "2026-10-17",
+          "note": "what it is, free signup, member count claim"
+        },
+        {
+          "url": "https://fueler.io/pricing",
+          "date": "2026-10-17",
+          "note": "plans and free limits"
+        },
+        {
+          "url": "https://alternativeto.net/software/fueler/about/",
+          "date": "2026-10-17",
+          "note": "third-party listing, free/proprietary"
+        }
+      ],
+      "unverified": [
+        "terms page not read",
+        "pricing page says private beta; prices undated",
+        "paid plan pricing oddity (Platinum cheaper than Gold)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/fueler.md",
+        "lint": "pass"
+      }
+    },
+    "fullstory": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "FullStory",
+        "url": "https://www.fullstory.com",
+        "alive": true,
+        "operator": "Fullstory, Inc. (Delaware, USA)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "FullstoryFree: no credit card, 30,000 sessions/month, 12 months retention, up to 10 users (per plans-page FAQ)",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.fullstory.com/plans/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS terms · commercial: yes (internal business use) · attribution: n/a · no reverse engineering or building competing products",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.fullstory.com/legal/terms-and-conditions/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "fullstory",
+        "type": "Software",
+        "category": "Business",
+        "title": "FullStory",
+        "description": "Digital experience analytics with session replay and behavioral data; a permanent free plan covers small teams.",
+        "tags": [
+          "web",
+          "ai-tool"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Session replay and behavioral analytics for sites and apps",
+          "AI-generated insights (StoryAI add-on listed)",
+          "Free plan: 30,000 sessions/month, 12-month retention, 10 users",
+          "Paid Business, Advanced and Enterprise plans via demo",
+          "Add-ons: Mobile, Guides and Surveys, multi-org management"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "not in Simple Icons (check-icon exit 2)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Established vendor; no dedicated safety search run (Tier A budget)"
+      },
+      "sources": [
+        {
+          "url": "https://www.fullstory.com/plans/",
+          "date": "2026-10-17",
+          "note": "plan names, free plan limits"
+        },
+        {
+          "url": "https://www.fullstory.com/legal/terms-and-conditions/",
+          "date": "2026-10-17",
+          "note": "terms, operator, no listing restriction found"
+        }
+      ],
+      "unverified": [
+        "paid prices not published",
+        "Acceptable Use Policy not read",
+        "no dedicated safety search",
+        "free plan taken from FAQ summary, not tier table"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/fullstory.md",
+        "lint": "pass"
+      }
+    },
+    "function12": {
+      "researchedOn": "2026-10-17",
+      "verdict": "skip",
+      "verdictReason": "Site shows 'FN12.com is temporarily unavailable for a mandatory update and maintenance'; AlternativeTo marks it discontinued; pricing page stale (free until 2024 wording)",
+      "site": {
+        "name": "FUNCTION12",
+        "url": "https://function12.io",
+        "alive": false,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "DevMode listed as lifetime free at $0 (stale page)",
+        "paidFrom": "DevMode Plus $15/month, CodeGen $29/month (stale)",
+        "evidence": {
+          "url": "https://fn12.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://function12.io",
+          "date": "2026-10-17",
+          "note": "301 redirect to fn12.com; Figma-to-code tool; maintenance notice"
+        },
+        {
+          "url": "https://fn12.com/pricing",
+          "date": "2026-10-17",
+          "note": "stale pricing, maintenance notice"
+        },
+        {
+          "url": "https://alternativeto.net/software/function12/about/",
+          "date": "2026-10-17",
+          "note": "discontinued tag (via search result)"
+        }
+      ],
+      "unverified": [
+        "no official shutdown announcement found; Capterra still lists it"
+      ],
+      "injectionSeen": null
+    },
+    "fuser": {
+      "researchedOn": "2026-10-17",
+      "verdict": "skip",
+      "verdictReason": "Trial only: paid plans from $5/month (Indie, 5,000 credits); no permanent free plan, only a 30-day Professional trial plus 500 starting credits",
+      "site": {
+        "name": "Fuser",
+        "url": "https://fuser.studio",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "Indie $5/month (5,000 credits); Professional $29/month; Teams $89/month",
+        "evidence": {
+          "url": "https://fuser.studio/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://fuser.studio",
+          "date": "2026-10-17",
+          "note": "node-based AI canvas product"
+        },
+        {
+          "url": "https://fuser.studio/pricing",
+          "date": "2026-10-17",
+          "note": "plans and trial"
+        }
+      ],
+      "unverified": [
+        "terms not read"
+      ],
+      "injectionSeen": null
+    },
+    "futicons": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Single-page Figma icon set by an individual; page says 'Download for free' plus a separate 'FULL DOWNLOAD' on Gumroad, but states no license, icon count or price, and the Gumroad page returned nothing.",
+      "site": {
+        "name": "Futicons",
+        "url": "https://futicons.com",
+        "alive": true,
+        "operator": "Vaisakh Pradeep (individual designer)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "A free download is advertised (SVG, PNG); contents and limits not stated",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://futicons.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://futicons.com",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search run; page links to a Gumroad product page and the author's Twitter"
+      },
+      "sources": [
+        {
+          "url": "https://futicons.com",
+          "date": "2026-10-17",
+          "note": "tagline, free/full download buttons, SVG PNG formats, author credit, no license text"
+        },
+        {
+          "url": "https://vaisakhpradeep.gumroad.com/l/futicons",
+          "date": "2026-10-17",
+          "note": "fetched; returned only the name, no price or terms"
+        }
+      ],
+      "unverified": [
+        "license terms",
+        "icon count",
+        "price of full download",
+        "what the free download contains",
+        "no safety search"
+      ],
+      "injectionSeen": null
+    },
+    "fyxer": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Free-plan permanence unclear: pricing page lists a Free $0 plan and says trial users 'move to the Free plan' (Free does not auto-sort the inbox), but all CTAs are a 14-day trial and third-party reviews say there is no free plan.",
+      "site": {
+        "name": "Fyxer",
+        "url": "https://fyxer.com",
+        "alive": true,
+        "operator": "Fyxer AI Limited"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free plan at $0 per the pricing page FAQ; limits not itemised (no automatic inbox labeling; 'Free records audio')",
+        "paidFrom": "Pro $37 per person per month billed annually ($49 monthly)",
+        "evidence": {
+          "url": "https://fyxer.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://fyxer.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "fyxer",
+        "title": "Fyxer",
+        "description": "AI email assistant that sorts your inbox, drafts replies in your tone and summarises meetings, for Gmail and Outlook.",
+        "keyFeatures": [
+          "Labels incoming email and surfaces important messages",
+          "Drafts replies for you to review before sending",
+          "Meeting notes with follow-up drafts",
+          "Recall: ask about clients or past conversations",
+          "Works with Gmail, Outlook, Google Meet, Zoom, Teams and Slack"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-17: not in Simple Icons"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Real company; reviews agree on a 14-day trial, one says there is no free plan"
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/fyxer/",
+          "date": "2026-10-17",
+          "note": "official site link"
+        },
+        {
+          "url": "https://fyxer.com/",
+          "date": "2026-10-17",
+          "note": "features, operator, integrations, 14-day trial"
+        },
+        {
+          "url": "https://fyxer.com/pricing",
+          "date": "2026-10-17",
+          "note": "plans, prices, Free plan FAQ"
+        },
+        {
+          "url": "https://www.unite.ai/?p=457652",
+          "date": "2026-10-17",
+          "note": "web search summary: reviewer says no free plan, only a trial (second-hand)"
+        }
+      ],
+      "unverified": [
+        "whether Free plan is a real permanent offering",
+        "Free plan limits",
+        "terms of service",
+        "type/category/tags not chosen"
+      ],
+      "injectionSeen": null
+    },
+    "gatsbi": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Free-tier permanence unclear: pricing lists 'Free Plan' $0/Day with 'basic features with limited usage' but the only free access described in detail is a 1-day trial.",
+      "site": {
+        "name": "Gatsbi",
+        "url": "https://www.gatsbi.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Listed as 'Free Plan' $0/Day, 'Basic features with limited usage'; limits not stated; 1-day trial cannot export, run meta-analysis or use plugins",
+        "paidFrom": "Pro $19.99 per month ($159.99 per year)",
+        "evidence": {
+          "url": "https://www.gatsbi.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.gatsbi.com",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search found only review sites/directories; one reviewer (Originality.ai) says output is detected as AI and a 24-hour trial; no company details found"
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/gatsbi/",
+          "date": "2026-10-17",
+          "note": "official site link"
+        },
+        {
+          "url": "https://www.gatsbi.com",
+          "date": "2026-10-17",
+          "note": "pricing plans and trial limits"
+        },
+        {
+          "url": "https://originality.ai/blog/gatsbi-review",
+          "date": "2026-10-17",
+          "note": "web search summary: 24-hour trial claim (second-hand)"
+        }
+      ],
+      "unverified": [
+        "free plan permanence and limits",
+        "operator",
+        "terms of service",
+        "icon (not in Simple Icons)"
+      ],
+      "injectionSeen": null
+    },
+    "geo-metrics": {
+      "researchedOn": "2026-10-17",
+      "verdict": "skip",
+      "verdictReason": "No permanent free plan: pricing page says each plan has a free trial with 'limited access'; plans are paid from 80 EUR/month.",
+      "site": {
+        "name": "GEO Metrics",
+        "url": "https://www.trygeometrics.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "Freelance 80 EUR per month (72 EUR per month billed annually)",
+        "evidence": {
+          "url": "https://www.trygeometrics.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No safety search run (skipped on pricing)"
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/geo-metrics/",
+          "date": "2026-10-17",
+          "note": "official site link; listing claimed a free starting tier"
+        },
+        {
+          "url": "https://www.trygeometrics.com/",
+          "date": "2026-10-17",
+          "note": "'Start for free', no card required; no plan detail"
+        },
+        {
+          "url": "https://www.trygeometrics.com/pricing",
+          "date": "2026-10-17",
+          "note": "Freelance 80, Pro 245, Enterprise 690 EUR per month; trial only, no free plan"
+        }
+      ],
+      "unverified": [
+        "trial length",
+        "operator",
+        "no safety search"
+      ],
+      "injectionSeen": null
+    },
+    "gestalt-principles": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "site": {
+        "name": "Gestalt Principles",
+        "url": "https://www.gestaltprinciples.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Interactive guide to nine Gestalt principles; no accounts, signups or paywall mentioned. Ad-supported (Mediavine).",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.gestaltprinciples.com/privacy",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No content license stated · commercial: unknown · attribution: unknown · read-only learning site",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.gestaltprinciples.com",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "gestalt-principles",
+        "type": "Website",
+        "category": "Design",
+        "title": "Gestalt Principles",
+        "description": "Interactive, animated guide to the nine Gestalt principles of visual perception, with examples for designers.",
+        "tags": [
+          "visual-design",
+          "ui-ux"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Covers nine Gestalt principles of perception",
+          "Animated, interactive examples for each principle",
+          "No account or signup needed",
+          "Quick reference for layout and grouping decisions"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons: no exact match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No shutdown/scam found on the pages read; no web search done."
+      },
+      "sources": [
+        {
+          "url": "https://www.gestaltprinciples.com",
+          "date": "2026-10-17",
+          "note": "home: purpose, nine principles, no price"
+        },
+        {
+          "url": "https://www.gestaltprinciples.com/privacy",
+          "date": "2026-10-17",
+          "note": "ads via Mediavine, no accounts, contact email"
+        }
+      ],
+      "unverified": [
+        "Operator name (only contact privacy@lgtm.design)",
+        "Content reuse license",
+        "Explicit statement that it is permanently free (no pricing page; inferred from no accounts/paywall)",
+        "Safety web search not run"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/gestalt-principles.md",
+        "lint": "pass"
+      }
+    },
+    "getads": {
+      "researchedOn": "2026-10-17",
+      "verdict": "skip",
+      "verdictReason": "Paid-only done-for-you ad creative service: Launch $1,750/mo, Core $3,250/mo, Scale $5,250/mo; no free plan on its own pricing page (the \"Free plan available\" label on the directory page is unsupported).",
+      "site": {
+        "name": "GetAds",
+        "url": "https://www.getads.co",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "$1,750 per month (Launch)",
+        "evidence": {
+          "url": "https://www.getads.co/pricing/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/getads/",
+          "date": "2026-10-17",
+          "note": "directory listing; site link, \"Free plan available\" claim"
+        },
+        {
+          "url": "https://getads.co",
+          "date": "2026-10-17",
+          "note": "home: creative production system for paid acquisition"
+        },
+        {
+          "url": "https://www.getads.co/pricing/",
+          "date": "2026-10-17",
+          "note": "plans and prices, no free plan, 14-day money-back guarantee"
+        }
+      ],
+      "unverified": [
+        "Operator legal entity",
+        "Safety web search not run"
+      ],
+      "injectionSeen": null
+    },
+    "getdesign-md": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "site": {
+        "name": "getdesign.md",
+        "url": "https://getdesign.md",
+        "alive": true,
+        "operator": "VoltAgent team"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Browse and download all DESIGN.md files in the public directory (550+ analyses claimed on home).",
+        "paidFrom": "$99 per month (Catalog Pass, 45 curated files)",
+        "evidence": {
+          "url": "https://getdesign.md/terms",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Terms of Service · commercial: yes (public files free to use in your projects, no warranty) · attribution: not stated · no automated scraping; do not republish paid deliverables standalone",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://getdesign.md/terms",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "getdesign-md",
+        "type": "Resource",
+        "category": "Development",
+        "title": "getdesign.md",
+        "description": "Catalog of DESIGN.md files describing the look of popular sites, to hand to AI coding agents as a design reference.",
+        "tags": [
+          "ai-tool",
+          "design-systems",
+          "inspiration"
+        ],
+        "relatedResources": [
+          "dembrandt",
+          "typeui",
+          "brandy"
+        ],
+        "similarResources": [
+          "dembrandt",
+          "typeui"
+        ],
+        "keyFeatures": [
+          "Directory of DESIGN.md files modeled on popular brands",
+          "Covers colors, type, spacing, components and reasoning",
+          "Follows the DESIGN.md spec",
+          "Free browse and download of public files",
+          "Paid custom DESIGN.md requests and starter kits"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons: no exact match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Search shows a real VoltAgent-run project (awesome-design-md repo); no scam or shutdown found. Files are unofficial analyses, not brand design systems."
+      },
+      "sources": [
+        {
+          "url": "https://getdesign.md",
+          "date": "2026-10-17",
+          "note": "home: purpose, VoltAgent, offerings"
+        },
+        {
+          "url": "https://getdesign.md/design-md-pass",
+          "date": "2026-10-17",
+          "note": "Catalog Pass $99/mo, 45 files"
+        },
+        {
+          "url": "https://getdesign.md/terms",
+          "date": "2026-10-17",
+          "note": "Sec. 5 free public files; Sec. 7 no scraping; paid items"
+        },
+        {
+          "url": "web search \"getdesign.md VoltAgent\"",
+          "date": "2026-10-17",
+          "note": "third-party: legit, repo, size varies"
+        }
+      ],
+      "unverified": [
+        "Exact catalog size (550+ on home vs 60+ elsewhere)",
+        "Whether companion GitHub repo is MIT (third-party claim only)",
+        "Prices of private DESIGN.md and starter kits"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/getdesign-md.md",
+        "lint": "pass"
+      }
+    },
+    "getillustra": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Free is not confirmed: site states no price, license or reuse terms beyond \"copyright belongs to respective creators\"; unclear whether it links out to sources; also has a Figma plugin.",
+      "site": {
+        "name": "Getillustra",
+        "url": "https://getillustra.com",
+        "alive": true,
+        "operator": "J. Santhosh (UI designer, India, per About page)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Gallery browsable with no login, paywall or Pro mention; no pricing stated.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://getillustra.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Not a license: copyright for all illustrations belongs to their creators · commercial: unknown · attribution: unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://getillustra.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "getillustra",
+        "type": "Website",
+        "category": "Design",
+        "title": "Getillustra",
+        "description": "Curated gallery of web illustrations by style (2D, 3D, isometric, doodle) for design inspiration, also as a Figma plugin.",
+        "tags": [
+          "inspiration",
+          "visual-design",
+          "web"
+        ],
+        "relatedResources": [
+          "absurd-design"
+        ],
+        "similarResources": [
+          "absurd-design"
+        ],
+        "keyFeatures": [
+          "Curated web illustration gallery",
+          "Style categories: 2D, 3D, collage, doodle, isometric, mobile app, website",
+          "Search and request form for new entries",
+          "Figma plugin version"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons: no exact match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Web search returned nothing about the site; no scam signal found."
+      },
+      "sources": [
+        {
+          "url": "https://getillustra.com",
+          "date": "2026-10-17",
+          "note": "home: gallery, categories, copyright line, Figma plugin"
+        },
+        {
+          "url": "https://getillustra.com/about",
+          "date": "2026-10-17",
+          "note": "founder J. Santhosh"
+        }
+      ],
+      "unverified": [
+        "Whether illustrations are downloadable/free to reuse or only inspiration with links to creators",
+        "Whether the Figma plugin is free",
+        "Number of illustrations"
+      ],
+      "injectionSeen": null
+    },
+    "getillustrations": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "FETCH-FAIL: getillustrations.com and /free-illustrations returned HTTP 403 to WebFetch; only the help-center license page was readable. Pricing and free-tier permanence not confirmed first-party.",
+      "site": {
+        "name": "Getillustrations",
+        "url": "https://www.getillustrations.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free illustrations for account holders (search snippet of /free-illustrations, not fetched)",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://getillustrations.com/free-illustrations",
+          "date": "2026-10-17",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "Free illustrations license · commercial: yes (unlimited personal/client projects) · attribution: required (credit getillustrations.com) · no resale or redistribution, no unrecognizable modification, keep copyright notices",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://help.getillustrations.com/license/free-illustrations-license",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Help center and search results consistent with a real product; home page 403."
+      },
+      "sources": [
+        {
+          "url": "https://help.getillustrations.com/license/free-illustrations-license",
+          "date": "2026-10-17",
+          "note": "license terms"
+        },
+        {
+          "url": "https://www.getillustrations.com",
+          "date": "2026-10-17",
+          "note": "HTTP 403"
+        },
+        {
+          "url": "https://getillustrations.com/free-illustrations",
+          "date": "2026-10-17",
+          "note": "HTTP 403; search snippet only"
+        }
+      ],
+      "unverified": [
+        "home and pricing pages unreadable (403)",
+        "paid prices (third-party sources conflict)",
+        "free tier permanence"
+      ],
+      "injectionSeen": null
+    },
+    "getimg-ai": {
+      "researchedOn": "2026-10-17",
+      "verdict": "skip",
+      "verdictReason": "Official pricing page lists four paid plans and no free plan; 2026 reviews say the old free tier was discontinued. Paid only.",
+      "site": {
+        "name": "getimg.ai",
+        "url": "https://getimg.ai",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "Entry Rs 1,199/month, 8,000 credits (price as shown to fetcher; USD figures unconfirmed)",
+        "evidence": {
+          "url": "https://getimg.ai/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Commercial use only on paid plans (CreativeML Open RAIL-M per FAQ)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://getimg.ai/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Established AI image product."
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/getimg-ai/",
+          "date": "2026-10-17",
+          "note": "official site link"
+        },
+        {
+          "url": "https://getimg.ai/pricing",
+          "date": "2026-10-17",
+          "note": "plans, no free plan"
+        },
+        {
+          "url": "https://www.krea.ai/blog/getimg-ai-review-is-it-free-safe-and-how-to-use-it-in-2026",
+          "date": "2026-10-17",
+          "note": "search snippet: no free plan in 2026"
+        }
+      ],
+      "unverified": [
+        "older sources mention a 100-credit free tier; not on current page"
+      ],
+      "injectionSeen": null
+    },
+    "ghost": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "FETCH-FAIL: useghost.io home and /pricing returned only a title and tagline (JS page); pricing only from third-party directories (Free $0, Starter $9.99, Pro $19.99 per user/month).",
+      "site": {
+        "name": "Ghost",
+        "url": "https://www.useghost.io",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Unlimited slides and editor per directories (second-hand)",
+        "paidFrom": "$9.99/user/month (second-hand)",
+        "evidence": {
+          "url": "https://www.saasworthy.com/product/ghost-io",
+          "date": "2026-10-17",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.useghost.io",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Not the Ghost publishing platform; an AI slide editor."
+      },
+      "sources": [
+        {
+          "url": "https://www.useghost.io",
+          "date": "2026-10-17",
+          "note": "title and tagline only"
+        },
+        {
+          "url": "https://www.saasworthy.com/product/ghost-io",
+          "date": "2026-10-17",
+          "note": "search snippet pricing"
+        }
+      ],
+      "unverified": [
+        "first-party pricing and free limits",
+        "terms"
+      ],
+      "injectionSeen": null
+    },
+    "gile": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Free tier unclear: home says free without an account, but a banner says 'First 3 invoices are free' and Pro is $9.90/month; permanence and watermark on free not stated; no terms page found.",
+      "site": {
+        "name": "Gile",
+        "url": "https://www.gile.app",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Create and export invoices without an account; banner says first 3 invoices free; watermark on free not stated",
+        "paidFrom": "$9.90/month, VAT included (Gile Pro)",
+        "evidence": {
+          "url": "https://www.gile.app/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No terms page found; only Privacy Policy linked",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.gile.app/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "gile",
+        "type": "Tool",
+        "category": "Finance",
+        "title": "Gile",
+        "description": "Web invoice builder to create, send as PDF or link, and export invoices, usable with or without an account.",
+        "tags": [
+          "productivity"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Build invoices in the browser",
+          "Send as PDF or shareable link",
+          "Export invoice data",
+          "Works without an account",
+          "Pro plan saves invoices in an account"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "not checked"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam search run."
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/gile/",
+          "date": "2026-10-17",
+          "note": "official site link and listing pricing"
+        },
+        {
+          "url": "https://www.gile.app/",
+          "date": "2026-10-17",
+          "note": "features and pricing"
+        }
+      ],
+      "unverified": [
+        "free tier permanence",
+        "watermark on free",
+        "terms of service",
+        "safety search",
+        "operator"
+      ],
+      "injectionSeen": null
+    },
+    "gimp": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "GIMP",
+        "url": "https://www.gimp.org",
+        "alive": true,
+        "operator": "GIMP community project (GNU Project)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Free software; download offered without payment (button reads DOWNLOAD 3.2.6); donations optional via Donate page",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.gimp.org",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "GNU GPL (version not stated on page; site links a GPLv3 guide) · commercial: not confirmed on page · attribution: n/a · site content is CC BY-SA 4.0, software is GPL",
+        "openSource": true,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.gimp.org/about/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "gimp",
+        "type": "Software",
+        "category": "Design",
+        "title": "GIMP",
+        "description": "Free, open source image editor for photo retouching, image composition and graphics work on Windows, macOS and Linux.",
+        "tags": [
+          "graphic-design",
+          "open-source",
+          "linux",
+          "windows",
+          "mac"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Photo retouching and restoration",
+          "Layer-based image composition",
+          "Image authoring and graphic creation",
+          "Source code is free to change and redistribute",
+          "Maintained by a community project"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "gimp",
+          "fillColor": "#8C8073",
+          "bgColor": "#ffffff",
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Official gimp.org; no separate safety search run. Counterfeit GIMP download sites exist generally; link only to gimp.org."
+      },
+      "sources": [
+        {
+          "url": "https://www.gimp.org",
+          "date": "2026-10-17",
+          "note": "free software statement, version, donate"
+        },
+        {
+          "url": "https://www.gimp.org/about/",
+          "date": "2026-10-17",
+          "note": "GPL licensing, community project"
+        }
+      ],
+      "unverified": [
+        "GPL version not named on fetched pages",
+        "platform list (Windows/macOS/Linux) from general knowledge, not read on fetched page",
+        "no dedicated safety search",
+        "related/similar resources none found in RL"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/gimp.md",
+        "lint": "pass"
+      }
+    },
+    "good-stuff-no-nonsense": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Good Stuff No Nonsense",
+        "url": "https://goodstuffnononsense.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Several free icon packs (e.g. Planner, Space, New Year, Cooking Icons; Social Media Icons 162 icons); Good Idea Icons (65) free for newsletter subscribers",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://goodstuffnononsense.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Free Resource License · commercial: yes (personal and client projects) · attribution: not required · no resale, sharing or redistribution; end users may not extract icons",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://goodstuffnononsense.com/free-resource-license",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "good-stuff-no-nonsense",
+        "type": "Icon Set",
+        "category": "Design",
+        "title": "Good Stuff No Nonsense",
+        "description": "Hand-drawn vector icon packs and design elements, with several free packs and paid bundles plus custom icon commissions.",
+        "tags": [
+          "icon-library",
+          "stock-vectors",
+          "graphic-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Hand-drawn vector icon packs",
+          "Free packs such as Social Media (162 icons) and Planner icons",
+          "Paid Mega Bundle: 35 packs, 2,700+ icons",
+          "Custom icon commissions",
+          "Commercial use allowed under the free resource license"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "not in Simple Icons (check-icon.mjs, 2026-10-17)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Web search showed only third-party mentions of free packs; nothing negative."
+      },
+      "sources": [
+        {
+          "url": "https://goodstuffnononsense.com",
+          "date": "2026-10-17",
+          "note": "free vs paid packs"
+        },
+        {
+          "url": "https://goodstuffnononsense.com/free-resource-license",
+          "date": "2026-10-17",
+          "note": "license terms"
+        }
+      ],
+      "unverified": [
+        "paid prices not shown on home page",
+        "free packs may be added/removed; Good Idea Icons requires newsletter signup",
+        "license URL path guessed from home page link; fetch returned terms but final URL not confirmed",
+        "icon/logo not sourced"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/good-stuff-no-nonsense.md",
+        "lint": "pass"
+      }
+    },
+    "goodcart": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "GoodCart",
+        "url": "https://www.goodcart.design",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "FAQ: \"Yes, GoodCart is free to browse\"; no account needed; no paid tiers mentioned",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.goodcart.design",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No license; browse-only inspiration gallery of third-party store screenshots · commercial: n/a · attribution: n/a",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.goodcart.design",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "goodcart",
+        "type": "Website",
+        "category": "Design",
+        "title": "GoodCart",
+        "description": "Inspiration gallery of full-page desktop and mobile screenshots from well-designed ecommerce stores, sorted by industry and design style.",
+        "tags": [
+          "inspiration",
+          "ui-ux",
+          "web"
+        ],
+        "relatedResources": [
+          "mobbin",
+          "collect-ui"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "About 396 live online stores shown",
+          "Desktop and mobile full-page screenshots",
+          "Homepage, product and collection page views",
+          "13 industries and 10 design styles to filter by",
+          "No account required"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "not in Simple Icons (check-icon.mjs, 2026-10-17)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No separate safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://www.goodcart.design",
+          "date": "2026-10-17",
+          "note": "description, counts, FAQ free statement"
+        }
+      ],
+      "unverified": [
+        "store count (396) may change",
+        "no dedicated safety search",
+        "operator not identified",
+        "no terms page read"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/goodcart.md",
+        "lint": "pass"
+      }
+    },
+    "goodpalette": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "JS-rendered page: fetch returned only the title \"Goodpalette - Get Beautiful Color Palettes for UI Design\"; pricing and free status unreadable first-party (third-party directory says free)",
+      "site": {
+        "name": "Goodpalette",
+        "url": "https://goodpalette.io",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://goodpalette.io",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://goodpalette.io",
+          "date": "2026-10-17",
+          "note": "title only"
+        },
+        {
+          "url": "https://uiuxjobsboard.com/resources/colors/goodpalette",
+          "date": "2026-10-17",
+          "note": "search snippet: listed as free UI palette generator with mockup previews (second-hand)"
+        }
+      ],
+      "unverified": [
+        "pricing",
+        "free tier limits",
+        "license",
+        "login requirements",
+        "safety search"
+      ],
+      "injectionSeen": null
+    },
+    "google-ai": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Google AI",
+        "url": "https://ai.google",
+        "alive": true,
+        "operator": "Google"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Public information site; no sign-in or paywall seen. Links out to products with their own plans.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://ai.google",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Google site terms apply · commercial: n/a (information site) · attribution: n/a · limit: site content not stated as reusable",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://policies.google.com/terms",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "google-ai",
+        "type": "Website",
+        "category": "Development",
+        "title": "Google AI",
+        "description": "Google's hub for its AI products, models, developer tools and research, with links to Gemini, AI Studio, Gemma and Google Labs experiments.",
+        "tags": [
+          "ai-tool",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Product directory covering consumer and business AI apps",
+          "Build section linking AI Studio, Gemini API, Gemma and coding tools",
+          "Research areas such as health, science and quantum AI",
+          "Responsibility section with AI principles and safety material"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons has no exact 'Google AI' match (check-icon exit 1, 2026-10-17)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Search found no shutdown/rebrand of ai.google; scam results concern fake 'Google AI' social pages, not the real domain"
+      },
+      "sources": [
+        {
+          "url": "https://ai.google",
+          "date": "2026-10-17",
+          "note": "sections, nav, no prices listed"
+        },
+        {
+          "url": "https://policies.google.com/terms",
+          "date": "2026-10-17",
+          "note": "terms do not address linking"
+        }
+      ],
+      "unverified": [
+        "Individual product pricing (Gemini etc.) not checked",
+        "Content reuse terms of ai.google not found",
+        "It is a marketing/showcase hub, may be judged too thin for a tool directory"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/google-ai.md",
+        "lint": "pass"
+      }
+    },
+    "google-analytics": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Google Analytics",
+        "url": "https://developers.google.com/analytics",
+        "alive": true,
+        "operator": "Google"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Google Analytics is described as free of charge; Analytics 360 is a separate advanced product with no price shown",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://marketingplatform.google.com/about/analytics/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Google Analytics terms of service · commercial: yes · attribution: not required · docs on developers.google.com under CC BY 4.0, code samples Apache 2.0, trademarks excluded",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://developers.google.com/terms/site-policies",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "google-analytics",
+        "type": "Tool",
+        "category": "Marketing",
+        "title": "Google Analytics",
+        "description": "Google's free web and app analytics platform, with developer docs for gtag.js, the Data API and Measurement Protocol; Analytics 360 is the paid tier.",
+        "tags": [
+          "web",
+          "productivity"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Tracks website and app traffic and user behavior",
+          "gtag.js tagging guides for websites",
+          "Data API for pulling reports programmatically",
+          "Measurement Protocol for server-side events",
+          "Learning paths and Skillshop courses"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "googleanalytics",
+          "fillColor": "#E37400",
+          "bgColor": "#ffffff",
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Official Google site; no dedicated scam search"
+      },
+      "sources": [
+        {
+          "url": "https://developers.google.com/analytics",
+          "date": "2026-10-17",
+          "note": "dev docs sections, MCP server mention"
+        },
+        {
+          "url": "https://marketingplatform.google.com/about/analytics/",
+          "date": "2026-10-17",
+          "note": "stated free of charge; 360 mentioned, no price"
+        },
+        {
+          "url": "https://developers.google.com/terms/site-policies",
+          "date": "2026-10-17",
+          "note": "docs license"
+        }
+      ],
+      "unverified": [
+        "Analytics 360 price not published on pages read",
+        "Actual terms of service for the product not read",
+        "Data limits of free tier not read",
+        "Listed URL is the developer docs, the product app is analytics.google.com",
+        "No 'analytics' tag exists; used web/productivity"
+      ],
+      "injectionSeen": "None aimed at agents; docs page promotes an MCP server for Google Analytics (developer promotion, ignored)",
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/google-analytics.md",
+        "lint": "pass"
+      }
+    },
+    "google-design": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Google Design",
+        "url": "https://design.google",
+        "alive": true,
+        "operator": "Google"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Articles, guides and podcasts readable with no paywall seen",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://design.google",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Google site terms apply · commercial: n/a (reading) · attribution: n/a · limit: article reuse terms not confirmed",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://design.google",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "google-design",
+        "type": "Website",
+        "category": "Design",
+        "title": "Google Design",
+        "description": "Google's design publication: articles, case studies, guides and podcasts from its design teams on typography, UX and product craft.",
+        "tags": [
+          "ui-ux",
+          "typography",
+          "inspiration",
+          "design-systems"
+        ],
+        "relatedResources": [
+          "material-symbols",
+          "android-design-hub"
+        ],
+        "similarResources": [
+          "designing-atlassian",
+          "design-principles"
+        ],
+        "keyFeatures": [
+          "Spotlight case studies from Google product teams",
+          "Typography guides such as choosing a web font",
+          "UX and Material Design articles",
+          "Podcasts and conversations with designers"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons has no exact 'Google Design' match (check-icon exit 1, 2026-10-17)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Official Google property; no dedicated scam search"
+      },
+      "sources": [
+        {
+          "url": "https://design.google",
+          "date": "2026-10-17",
+          "note": "sections, content types, no paywall"
+        }
+      ],
+      "unverified": [
+        "Content license/terms of design.google not read",
+        "No dedicated safety search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/google-design.md",
+        "lint": "pass"
+      }
+    },
+    "google-fonts-pairings": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "FETCH-FAIL: figma.com community file returned HTTP 403 twice. Figma's own page figma.com/google-fonts lists ten free pairings; possible duplicate of draft figma-font-pairings.",
+      "site": {
+        "name": "Google Fonts: pairings",
+        "url": "https://www.figma.com/community/file/1113950611695632368",
+        "alive": null,
+        "operator": "Google Fonts / Material team (per search snippet of Google Material blog; unconfirmed)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Figma page says ready-made Google Font pairings are free to use in Figma",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.figma.com/google-fonts/",
+          "date": "2026-10-17",
+          "confidence": "second-hand"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Community file itself not readable"
+      },
+      "sources": [
+        {
+          "url": "https://www.figma.com/community/file/1113950611695632368",
+          "date": "2026-10-17",
+          "note": "HTTP 403 twice"
+        },
+        {
+          "url": "https://www.figma.com/google-fonts/",
+          "date": "2026-10-17",
+          "note": "ten free pairings, no community file link"
+        },
+        {
+          "url": "https://m2.material.io/blog/google-fonts-pairing-figma",
+          "date": "2026-10-17",
+          "note": "seen in search results only: nine handpicked pairings, open-source templates"
+        }
+      ],
+      "unverified": [
+        "Community file title, author, license not read",
+        "Overlap with draft figma-font-pairings not checked"
+      ],
+      "injectionSeen": null
+    },
+    "google-search-console": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Google Search Console",
+        "url": "https://search.google.com/search-console",
+        "alive": true,
+        "operator": "Google"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Google's help page states it is a free service; site ownership verification and a Google account are needed",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://support.google.com/webmasters/answer/9128668",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Google Terms of Service (proprietary hosted service) · commercial: yes · attribution: not applicable · requires verified site ownership",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://search.google.com/search-console/about",
+          "date": "2026-10-17",
+          "confidence": "second-hand"
+        }
+      },
+      "rl": {
+        "slug": "google-search-console",
+        "type": "Tool",
+        "category": "Marketing",
+        "title": "Google Search Console",
+        "description": "Free Google service that shows how your site performs in Search: queries, clicks, indexing status, Core Web Vitals and issue alerts.",
+        "tags": [
+          "web",
+          "productivity"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Search performance report with queries, impressions, clicks and average position",
+          "Submit sitemaps and individual URLs for crawling",
+          "URL Inspection for crawl, index and serving details per page",
+          "Email alerts when Google finds site issues",
+          "Core Web Vitals and structured-data enhancement reports"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "googlesearchconsole",
+          "fillColor": "#458CF5",
+          "bgColor": "#ffffff",
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Official Google property"
+      },
+      "sources": [
+        {
+          "url": "https://search.google.com/search-console/about",
+          "date": "2026-10-17",
+          "note": "product description and feature list"
+        },
+        {
+          "url": "https://support.google.com/webmasters/answer/9128668",
+          "date": "2026-10-17",
+          "note": "free service statement"
+        }
+      ],
+      "unverified": [
+        "Terms of Service text not read directly",
+        "no dedicated safety search",
+        "no similar/related RL slugs found"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/google-search-console.md",
+        "lint": "pass"
+      }
+    },
+    "google-slides": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Product page never says free: only 'Anyone with a Google Account can create in Slides' and a paid Workspace tier; free personal-tier permanence is not stated first-party, and Workspace prices are only shown in INR. Owner to confirm Freemium label.",
+      "site": {
+        "name": "Google Slides",
+        "url": "https://workspace.google.com/products/slides/",
+        "alive": true,
+        "operator": "Google"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Personal Google account can create in Slides (FAQ); some features such as recording and speaker spotlight are Workspace-only",
+        "paidFrom": "Workspace Base ₹99.00 per user per month excluding tax (INR page, monthly billing); Slides-specific price not shown",
+        "evidence": {
+          "url": "https://workspace.google.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Google Terms of Service (proprietary hosted service)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://workspace.google.com/products/slides/",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "google-slides",
+        "type": "App",
+        "category": "Productivity",
+        "title": "Google Slides",
+        "description": "Browser-based presentation editor with real-time collaboration, templates, Gemini slide generation, offline mode and PowerPoint import.",
+        "tags": [
+          "productivity",
+          "collaboration",
+          "template"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Live co-editing with comments and sharing controls",
+          "Templates, animations, transitions and a GIF and sticker library",
+          "Gemini can draft slides from a prompt or Drive content",
+          "Imports and edits PowerPoint files",
+          "Offline editing and mobile apps"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "googleslides",
+          "fillColor": "#FBBC04",
+          "bgColor": "#ffffff",
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Official Google property"
+      },
+      "sources": [
+        {
+          "url": "https://workspace.google.com/products/slides/",
+          "date": "2026-10-17",
+          "note": "features and FAQ on Google Account access"
+        },
+        {
+          "url": "https://workspace.google.com/pricing",
+          "date": "2026-10-17",
+          "note": "Workspace Base price in INR, trial only"
+        }
+      ],
+      "unverified": [
+        "explicit free personal-use statement not found",
+        "Terms not read",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null
+    },
+    "google-trends": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Alive and official, but no first-party page read states it is free (home and help page silent on cost); only third-party sources call it free. Owner to confirm Free label.",
+      "site": {
+        "name": "Google Trends",
+        "url": "https://trends.google.com",
+        "alive": true,
+        "operator": "Google"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Web tool usable without a paid plan per third-party sources; no pricing mentioned on the site",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://trends.google.com/trends/",
+          "date": "2026-10-17",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "Google Terms of Service (proprietary hosted service)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://trends.google.com/trends/",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "google-trends",
+        "type": "Website",
+        "category": "Marketing",
+        "title": "Google Trends",
+        "description": "Google's tool for exploring how interest in search topics changes over time and by region, with trending-now and year-in-search views.",
+        "tags": [
+          "web",
+          "productivity"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Explore search interest for terms and topics over time",
+          "Trending now view of topics with spiking interest",
+          "Year in Search annual review",
+          "Showcase of visualizations built on Trends data",
+          "Video walkthroughs and training resources"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "not in Simple Icons (check-icon exit 1), 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Official Google property"
+      },
+      "sources": [
+        {
+          "url": "https://trends.google.com/trends/",
+          "date": "2026-10-17",
+          "note": "features; no cost statement"
+        },
+        {
+          "url": "https://support.google.com/trends/answer/4365533",
+          "date": "2026-10-17",
+          "note": "data explanation; no pricing"
+        }
+      ],
+      "unverified": [
+        "free status first-party",
+        "Terms not read",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null
+    },
+    "gradiator": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "JS page: WebFetch of ruri.design/gradiator returned only the title 'Ruri - Your design vitamins', no content, pricing or terms. Web search suggests it is a free bonus with the Ruri Splines Figma plugin (Gumroad, klavs), unconfirmed.",
+      "site": {
+        "name": "Gradiator",
+        "url": "https://ruri.design/gradiator",
+        "alive": true,
+        "operator": "Ruri (creator listed on Gumroad as klavs), unconfirmed"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://ruri.design/gradiator",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": "unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://ruri.design/gradiator",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Unrelated iOS app 'Gradiator - AI Mesh Gradient' (different developer) exists; do not confuse"
+      },
+      "sources": [
+        {
+          "url": "https://ruri.design/gradiator",
+          "date": "2026-10-17",
+          "note": "returned title only"
+        },
+        {
+          "url": "https://klavs.gumroad.com/l/ruri-splines-lifetime",
+          "date": "2026-10-17",
+          "note": "page returned title only; search snippet links Gradiator to Ruri Splines"
+        }
+      ],
+      "unverified": [
+        "pricing and free tier",
+        "license/terms",
+        "operator",
+        "features"
+      ],
+      "injectionSeen": null
+    },
+    "grainient": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Free tier unconfirmed: freebies page shows only 'Loading...' and the home page gives no free limits; pricing is internally inconsistent ($59/yr vs 'Get Pro $149 Yearly'). Mostly a paid asset store; owner to decide.",
+      "site": {
+        "name": "Grainient",
+        "url": "https://grainient.supply",
+        "alive": true,
+        "operator": "Basit A. Khan (checkout via basitdesign.lemonsqueezy.com); no legal entity named"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Home page says 'select gradients, noisy textures, and AI-generated backgrounds' are free via a Freebies page; items and limits not visible (page showed 'Loading...')",
+        "paidFrom": "Yearly Pro $59/year (home page; the Get Pro button says $149 Yearly - conflicting); Lifetime $299 one-time",
+        "evidence": {
+          "url": "https://grainient.supply",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Grainient License Agreement (last updated 20 August 2024) - commercial: yes - attribution: not addressed - no reselling, redistributing or sharing assets independently; freebies covered by same terms",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://grainient.supply/license-agreement",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Safety search returned no relevant hits (name collisions only)"
+      },
+      "sources": [
+        {
+          "url": "https://grainient.supply",
+          "date": "2026-10-17",
+          "note": "plans, pricing, operator credit"
+        },
+        {
+          "url": "https://grainient.supply/freebies",
+          "date": "2026-10-17",
+          "note": "free section, content did not load"
+        },
+        {
+          "url": "https://grainient.supply/license-agreement",
+          "date": "2026-10-17",
+          "note": "license terms"
+        }
+      ],
+      "unverified": [
+        "what the free assets actually are and any limits",
+        "which yearly price is correct ($59 vs $149)",
+        "legal operator entity",
+        "no meaningful safety search results"
+      ],
+      "injectionSeen": null
+    },
+    "grainrad": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "JS page: home returned only the title 'Grainrad' twice (WebFetch), so pricing, license and terms could not be read. Only third-party mention (a Substack note via search) describes it as a browser-based image/video effects playground.",
+      "site": {
+        "name": "Grainrad",
+        "url": "https://grainrad.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://grainrad.com",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Only one thin third-party mention found"
+      },
+      "sources": [
+        {
+          "url": "https://grainrad.com",
+          "date": "2026-10-17",
+          "note": "fetched twice, only title returned"
+        },
+        {
+          "url": "https://substack.com/@soamjena/note/c-205948975",
+          "date": "2026-10-17",
+          "note": "second-hand description via web search"
+        }
+      ],
+      "unverified": [
+        "pricing and free status (directory label says Free)",
+        "license/terms",
+        "operator",
+        "feature list"
+      ],
+      "injectionSeen": null
+    },
+    "grammarly": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Grammarly",
+        "url": "https://grammarly.com",
+        "alive": true,
+        "operator": "Superhuman Platform Inc. (formerly Grammarly, Inc.)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan: grammar and spelling checks, tone view, 100 AI prompts per month (India plans page)",
+        "paidFrom": "Plus INR 392 per member per month billed annually (INR 1,000 monthly) on the India page; US dollar pricing not read",
+        "evidence": {
+          "url": "https://www.grammarly.com/plans",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Superhuman/Grammarly Terms of Service - commercial: organizations for own internal business use only - attribution: n/a - limited, revocable, non-transferable right; no reselling or distributing the Services",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.grammarly.com/terms",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "grammarly",
+        "type": "AI Tool",
+        "category": "Productivity",
+        "title": "Grammarly",
+        "description": "AI writing assistant that checks grammar, tone and clarity across browsers, desktop, mobile and Office apps, with a free plan.",
+        "tags": [
+          "ai-tool",
+          "writing",
+          "productivity",
+          "extensions"
+        ],
+        "relatedResources": [
+          "chatgpt",
+          "claude-ai",
+          "wispr-flow"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Grammar, spelling and clarity proofreading as you type",
+          "Tone suggestions and paragraph rewrites",
+          "AI Detector and Humanizer agents",
+          "Works via desktop apps, Chrome/Safari/Firefox/Edge extensions, Office and Google Docs add-ins, and mobile apps",
+          "Free plan with 100 AI prompts per month"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "grammarly",
+          "fillColor": "#027E6F",
+          "bgColor": "#ffffff",
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Safety search: no scam/malware/shutdown reports; Grammarly acquired Superhuman (email) in July 2025 and is now branded as part of Superhuman; brand still operating"
+      },
+      "sources": [
+        {
+          "url": "https://www.grammarly.com/",
+          "date": "2026-10-17",
+          "note": "features, platforms, 'now part of Superhuman'"
+        },
+        {
+          "url": "https://www.grammarly.com/plans",
+          "date": "2026-10-17",
+          "note": "plans (India region page)"
+        },
+        {
+          "url": "https://www.grammarly.com/terms",
+          "date": "2026-10-17",
+          "note": "operator entity and terms"
+        }
+      ],
+      "unverified": [
+        "US dollar pricing (page served India INR prices)",
+        "Acceptable Use Policy not read",
+        "a class action about an AI feature was mentioned in search results, unverified"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/grammarly.md",
+        "lint": "pass"
+      }
+    },
+    "granola": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Granola",
+        "url": "https://www.granola.ai",
+        "alive": true,
+        "operator": "Granola, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Basic $0: unlimited meeting notes, but notes older than 30 days cannot be viewed or worked with without upgrading",
+        "paidFrom": "Business $14 per user per month; Enterprise $35 per user per month (annual billing not mentioned)",
+        "evidence": {
+          "url": "https://www.granola.ai/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Granola Platform/User/Application Terms - commercial: not read - attribution: n/a - terms text not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.granola.ai/policies",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "granola",
+        "type": "AI Tool",
+        "category": "Productivity",
+        "title": "Granola",
+        "description": "AI notepad for meetings that records your device audio instead of joining as a bot, then turns your notes into summaries and action items.",
+        "tags": [
+          "ai-tool",
+          "productivity",
+          "mac",
+          "windows"
+        ],
+        "relatedResources": [
+          "bluedot",
+          "circleback"
+        ],
+        "similarResources": [
+          "bluedot",
+          "circleback"
+        ],
+        "keyFeatures": [
+          "Captures computer audio, so no bot joins the call",
+          "Works with Zoom, Google Meet, Teams and other meeting apps",
+          "Calendar-synced briefs on attendees and past discussions",
+          "Notes, action items and follow-ups ready right after the meeting",
+          "Apps for macOS, Windows, iOS and Android, plus an MCP connector"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Not in Simple Icons (check-icon.mjs, 2026-10-17)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/shutdown/acquisition reports. Search found privacy coverage: notes viewable by link by default and used for model training unless opted out (April 2026 reports), an early-2025 beta API key flaw (fixed), and an unconfirmed lawsuit under wiretap/recording laws"
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/granola/",
+          "date": "2026-10-17",
+          "note": "resolved site granola.ai, 'Free plan available'"
+        },
+        {
+          "url": "https://www.granola.ai",
+          "date": "2026-10-17",
+          "note": "operator, features, platforms, free plan wording"
+        },
+        {
+          "url": "https://www.granola.ai/pricing",
+          "date": "2026-10-17",
+          "note": "plans and prices"
+        },
+        {
+          "url": "https://www.granola.ai/policies",
+          "date": "2026-10-17",
+          "note": "terms index only"
+        }
+      ],
+      "unverified": [
+        "terms text (commercial use, listing clauses) not read",
+        "lawsuit status and privacy-default claims are second-hand",
+        "whether annual billing discount exists",
+        "free-plan meeting count limits not stated"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/granola.md",
+        "lint": "pass"
+      }
+    },
+    "graphic-design-forum": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Community forum (Discourse); homepage and ToS do not say whether joining is free (ToS mentions optional paid upgrades), no activity dates seen, not a tool - owner to decide if forums fit RL.",
+      "site": {
+        "name": "Graphic Design Forum",
+        "url": "https://www.graphicdesignforum.com",
+        "alive": true,
+        "operator": "Graphic Design Forum (GDF), per its terms"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Reading/discussion appears open; account cost not stated",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.graphicdesignforum.com/tos",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Site terms only; user content; no linking ban found",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.graphicdesignforum.com/tos",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated scam search run"
+      },
+      "sources": [
+        {
+          "url": "https://www.graphicdesignforum.com",
+          "date": "2026-10-17",
+          "note": "Discourse forum, ~20 categories, contact address, (c)2026"
+        },
+        {
+          "url": "https://www.graphicdesignforum.com/tos",
+          "date": "2026-10-17",
+          "note": "operator, optional paid services clause, link rules"
+        }
+      ],
+      "unverified": [
+        "whether signup is free",
+        "recent activity",
+        "safety search not run",
+        "operator identity beyond name 'GDF'"
+      ],
+      "injectionSeen": null
+    },
+    "graphicburger": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Official license page (/license/) returned 404 so commercial terms are only second-hand; newest listing seen on the mock-ups page is Feb 2018 (possibly stale); partly funnels to a Creative Market shop.",
+      "site": {
+        "name": "GraphicBurger",
+        "url": "https://graphicburger.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Free design resources (mockups, UI kits, icons, backgrounds); some items sold via a Creative Market shop",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://graphicburger.com/mock-ups/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Second-hand: free for personal and commercial use, no attribution; restrictions on redistribution (licenseorg.com summary, not official)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://licenseorg.com/guide/design-graphics/graphicburger",
+          "date": "2026-10-17",
+          "confidence": "second-hand"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/shutdown hits in one search; footer (c) 2026 but content dated 2017-2018 on category page"
+      },
+      "sources": [
+        {
+          "url": "https://graphicburger.com/mock-ups/",
+          "date": "2026-10-17",
+          "note": "categories, freebie wording, newest item Feb 20 2018, license link, Creative Market shop link"
+        },
+        {
+          "url": "https://graphicburger.com/license/",
+          "date": "2026-10-17",
+          "note": "HTTP 404"
+        },
+        {
+          "url": "https://licenseorg.com/guide/design-graphics/graphicburger",
+          "date": "2026-10-17",
+          "note": "second-hand license summary via web search"
+        }
+      ],
+      "unverified": [
+        "official license text",
+        "whether site is still updated",
+        "operator",
+        "which items are free vs paid"
+      ],
+      "injectionSeen": null
+    },
+    "graphite": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Graphite",
+        "url": "https://graphite.art",
+        "alive": true,
+        "operator": "Graphite Labs (open source community organization)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Fully free and open source; web app plus desktop apps (release candidate); donations/memberships optional",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://graphite.art",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT or Apache-2.0 (dual, your choice) for source · commercial: yes (builds free incl. commercial) · attribution: not stated · limit: branding assets under separate Graphite Branding License, forks must replace branding",
+        "openSource": true,
+        "spdx": "Apache-2.0 OR MIT",
+        "evidence": {
+          "url": "https://graphite.art/license",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "graphite",
+        "type": "Software",
+        "category": "Design",
+        "title": "Graphite",
+        "description": "Free, open source vector graphics editor with a node-based, non-destructive procedural workflow that runs locally in the browser or as desktop apps.",
+        "tags": [
+          "graphic-design",
+          "open-source",
+          "visual-design",
+          "web"
+        ],
+        "relatedResources": [
+          "affinity"
+        ],
+        "similarResources": [
+          "affinity"
+        ],
+        "keyFeatures": [
+          "Vector editing with node-based layers",
+          "Procedural, non-destructive workflow",
+          "Runs locally with no server; web app installable as a PWA",
+          "Desktop apps for Windows, Mac and Linux at release-candidate stage",
+          "Planned: raster editing, live collaboration, motion graphics"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons 'graphite' is the unrelated Graphite metrics tool; not used"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Search found no scam/malware/shutdown reports; GitHub org GraphiteEditor; site labels it alpha"
+      },
+      "sources": [
+        {
+          "url": "https://graphite.art",
+          "date": "2026-10-17",
+          "note": "features, operator, alpha status, nav"
+        },
+        {
+          "url": "https://graphite.art/license",
+          "date": "2026-10-17",
+          "note": "dual MIT/Apache-2.0, branding license"
+        },
+        {
+          "url": "https://www.linux-magazine.com/Issues/2023/276/FOSSPicks",
+          "date": "2026-10-17",
+          "note": "safety search: legitimate OSS project"
+        }
+      ],
+      "unverified": [
+        "site says alpha; desktop apps still release candidate",
+        "exact latest release date"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/graphite.md",
+        "lint": "pass"
+      }
+    },
+    "graphy": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Graphy",
+        "url": "https://graphy.app",
+        "alive": true,
+        "operator": "Graphy Technologies Ltd."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan: 5 charts, limited AI use, Graphy watermark",
+        "paidFrom": "Plus $16 per user/month; Business $36 per user/month (billing period shown as monthly/annual, annual price not stated)",
+        "evidence": {
+          "url": "https://graphy.app/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: not checked · attribution: Graphy watermark on free plan · terms not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://graphy.app/pricing",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "graphy",
+        "type": "AI Tool",
+        "category": "Design",
+        "title": "Graphy",
+        "description": "AI chart maker that turns Google Sheets, CSV or typed data into branded charts for slides, docs and social posts. Free plan covers 5 charts.",
+        "tags": [
+          "ai-tool",
+          "web",
+          "graphic-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Import from Google Sheets, CSV/Excel, pasted values or API",
+          "AI engine surfaces insights and answers questions about the data",
+          "Wide chart library: bar, line, pie, funnel, heatmap, Likert and more",
+          "Apply brand colours and fonts, add annotations",
+          "Export or embed charts in slides, docs and posts"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Search: no scam/shutdown for graphy.app; complaints found relate to other companies named Graphy"
+      },
+      "sources": [
+        {
+          "url": "https://graphy.app",
+          "date": "2026-10-17",
+          "note": "features, operator"
+        },
+        {
+          "url": "https://graphy.app/pricing",
+          "date": "2026-10-17",
+          "note": "plans and prices"
+        },
+        {
+          "url": "https://graphy.dev/about",
+          "date": "2026-10-17",
+          "note": "via search: company active"
+        }
+      ],
+      "unverified": [
+        "terms of service / commercial use of charts not read",
+        "free plan permanence only implied ('Free for everyone')",
+        "annual pricing"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/graphy.md",
+        "lint": "pass"
+      }
     }
   }
 }

@@ -10,13 +10,13 @@ Generated 2026-10-17 by `scripts/backlog-build.mjs` from `backlog/tools-list.jso
 
 | Status | Count | Meaning |
 |---|---:|---|
-| `todo` | 1133 | in the research queue (free / freemium / beta) |
+| `todo` | 1093 | in the research queue (free / freemium / beta) |
 | `in-rl` | 33 | already in ResourcesList (matched by site or slug) — skip, maybe use for related/similar links |
 | `deferred-paid` | 217 | labelled **Paid** only — parked |
 | `deferred-trial` | 232 | labelled **Free Trial** only — parked until a real free tier is confirmed |
-| `researching` / `researched` / `drafted` / `rejected` / `blocked` | 0 / 24 / 265 / 96 / 279 | set by research sessions |
+| `researching` / `researched` / `drafted` / `rejected` / `blocked` | 0 / 17 / 289 / 101 / 297 | set by research sessions |
 
-Queue by priority: **P1** 1 (free/freemium, listed on 2+ pages) · **P2** 1075 (free/freemium, 1 page) · **P3** 57 (beta).
+Queue by priority: **P1** 1 (free/freemium, listed on 2+ pages) · **P2** 1036 (free/freemium, 1 page) · **P3** 56 (beta).
 
 ## What happens if a tool is not processed (and why)
 
@@ -619,46 +619,86 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | FramerFuel | via Digitool | Free tier listed | 1 | P2 | rejected |
 | FrameSketch | framesketch.xyz | Free | 1 | P2 | drafted |
 | FrameThrower | framethrower.ai | Freemium | 1 | P2 | blocked |
-| FrameZero | framezero.app | Freemium | 1 | P2 | researched |
+| FrameZero | framezero.app | Freemium | 1 | P2 | drafted |
 | Frase | frase.io | Free tier listed / Free Trial | 2 | P1 | rejected |
-| Free Design Resources | freedesignresources.net | Free | 1 | P2 | researched |
-| Free Faces | freefaces.gallery | Free | 1 | P2 | researched |
+| Free Design Resources | freedesignresources.net | Free | 1 | P2 | drafted |
+| Free Faces | freefaces.gallery | Free | 1 | P2 | drafted |
 | Free Typography | freetypography.com | Free | 1 | P2 | blocked |
 | Free Vector Illustrations | pixeltrue.com | Free + Paid | 1 | P2 | blocked |
-| Freebie Supply | freebiesupply.com | Free | 1 | P2 | researched |
+| Freebie Supply | freebiesupply.com | Free | 1 | P2 | drafted |
 | Freebies.ByPeople | freebies.bypeople.com | Free + Paid | 1 | P2 | blocked |
-| Freebiesbug | freebiesbug.com | Free | 1 | P2 | researched |
+| Freebiesbug | freebiesbug.com | Free | 1 | P2 | drafted |
 | FreeFaces | via Digitool | Free tier listed | 1 | P2 | rejected |
-| Freeform | apps.apple.com | Free | 1 | P2 | researched |
+| Freeform | apps.apple.com | Free | 1 | P2 | drafted |
 | Freelance Things | freelancethings.co | Free | 1 | P2 | blocked |
-| FX Labs | fxlabs.app | Freemium | 1 | P2 | researched |
+| Freelancer | freelancer.com | Free + Paid | 1 | P2 | blocked |
+| Freesound | freesound.org | Free | 1 | P2 | researched |
+| Fresh Folk | fresh-folk.com | Free | 1 | P2 | blocked |
+| Frontitude | frontitude.com | Freemium | 1 | P2 | researched |
+| Fueler | fueler.io | Freemium | 1 | P2 | researched |
+| FullStory | fullstory.com | Freemium | 1 | P2 | researched |
+| FUNCTION12 | function12.io | Freemium | 1 | P2 | rejected |
+| Fuser | fuser.studio | Freemium | 1 | P2 | rejected |
+| Futicons | futicons.com |  | 1 | P3 | blocked |
+| FX Labs | fxlabs.app | Freemium | 1 | P2 | drafted |
+| Fyxer | via Digitool | Free tier listed (Digitool "Premium" badge) | 1 | P2 | blocked |
 | GalaxyBrain | galaxybrain.com | Free | 1 | P2 | blocked |
-| Gallereee | gallereee.com | Free | 1 | P2 | researched |
+| Gallereee | gallereee.com | Free | 1 | P2 | drafted |
 | Gamma | try.gamma.app | Freemium | 2 | P1 | drafted |
-| Gemini | gemini.google.com | Freemium | 1 | P2 | researched |
+| Gatsbi | via Digitool | Free tier listed | 1 | P2 | blocked |
+| Gemini | gemini.google.com | Freemium | 1 | P2 | drafted |
 | Gemini (Nano Banana) | gemini.google | Free + Paid | 1 | P2 | rejected |
 | Generated Photos | generated.photos | Freemium | 1 | P2 | rejected |
-| Generative Fonts | generativefonts.xyz | Free | 1 | P2 | researched |
-| Genstore | genstore.ai | Freemium | 1 | P2 | researched |
+| Generative Fonts | generativefonts.xyz | Free | 1 | P2 | drafted |
+| Genstore | genstore.ai | Freemium | 1 | P2 | drafted |
+| GEO Metrics | via Digitool | Free tier listed | 1 | P2 | rejected |
+| Gestalt Principles | gestaltprinciples.com | Free | 1 | P2 | researched |
+| GetAds | via Digitool | Free tier listed | 1 | P2 | rejected |
+| getdesign.md | getdesign.md | Free + Paid | 1 | P2 | researched |
+| Getillustra | getillustra.com | Free | 1 | P2 | blocked |
+| Getillustrations | getillustrations.com | Free + Paid | 1 | P2 | blocked |
+| getimg.ai | via Digitool | Free tier listed | 1 | P2 | rejected |
+| Ghost | useghost.io | Freemium | 1 | P2 | blocked |
+| Gile | via Digitool | Free tier listed | 1 | P2 | blocked |
+| Gimp | gimp.org | Free | 1 | P2 | researched |
 | Glance | glance.fyi | Free | 1 | P2 | blocked |
 | Glass | glass.photo | Free | 1 | P2 | rejected |
 | Glass UI | ui.glass | Free | 1 | P2 | blocked |
-| Glide | glideapps.com | Freemium | 1 | P2 | researched |
+| Glide | glideapps.com | Freemium | 1 | P2 | drafted |
 | Glossi | glossi.io | Freemium | 1 | P2 | rejected |
-| Glow UI | via Digitool | Free tier listed | 1 | P2 | researched |
-| Glow UI Icons | glowui.com |  | 1 | P3 | researched |
+| Glow UI | via Digitool | Free tier listed | 1 | P2 | drafted |
+| Glow UI Icons | glowui.com |  | 1 | P3 | drafted |
 | Glyph Neue | icons8.com |  | 1 | P3 | blocked |
-| Good Briefs | goodbrief.io | Free | 1 | P2 | researched |
-| Good Bye John Doe | goodbyejohndoe.com | Free | 1 | P2 | researched |
+| Good Briefs | goodbrief.io | Free | 1 | P2 | drafted |
+| Good Bye John Doe | goodbyejohndoe.com | Free | 1 | P2 | drafted |
+| Good Stuff No Nonsense | goodstuffnononsense.com | Free + Paid | 1 | P2 | researched |
+| GoodCart | goodcart.design | Free | 1 | P2 | researched |
+| Goodpalette | goodpalette.io | Free | 1 | P2 | blocked |
+| Google AI | ai.google | Free | 1 | P2 | researched |
+| Google Analytics | developers.google.com | Freemium | 1 | P2 | researched |
+| Google Design | design.google | Free | 1 | P2 | researched |
+| Google Fonts: pairings | figma.com | Free | 1 | P2 | blocked |
+| Google Search Console | search.google.com | Free | 1 | P2 | researched |
+| Google Slides | workspace.google.com | Freemium | 1 | P2 | blocked |
+| Google Trends | trends.google.com | Free | 1 | P2 | blocked |
 | GoProd | icons8.com | Freemium | 1 | P2 | blocked |
-| Grabient | grabient.com | Free | 1 | P2 | researched |
-| Gradient Art | gra.dient.art | Free | 1 | P2 | researched |
+| Grabient | grabient.com | Free | 1 | P2 | drafted |
+| Gradiator | ruri.design | Free + Paid | 1 | P2 | blocked |
+| Gradient Art | gra.dient.art | Free | 1 | P2 | drafted |
 | Gradient Hunt | gradienthunt.com | Free | 1 | P2 | blocked |
-| Gradient Lab | backgrounds.supply | Free | 1 | P2 | researched |
+| Gradient Lab | backgrounds.supply | Free | 1 | P2 | drafted |
 | Gradientify | iconshock.com |  | 1 | P3 | blocked |
 | Gradientos | gradientos.app | Free | 1 | P2 | blocked |
 | Grafeum | grafeum.com | Freemium | 1 | P2 | blocked |
 | graficai | graficai.co | Freemium | 1 | P2 | blocked |
+| Grainient | grainient.supply | Free + Paid | 1 | P2 | blocked |
+| Grainrad | grainrad.com | Free | 1 | P2 | blocked |
+| Grammarly | grammarly.com | Freemium | 1 | P2 | researched |
+| Granola | via Digitool | Free tier listed | 1 | P2 | researched |
+| Graphic Design Forum | graphicdesignforum.com | Free | 1 | P2 | blocked |
+| GraphicBurger | graphicburger.com | Free | 1 | P2 | blocked |
+| Graphite | graphite.art | Free | 1 | P2 | researched |
+| Graphy | graphy.app | Freemium | 1 | P2 | researched |
 | Guideless | r.guideless.ai | Free tier listed / Freemium | 2 | P1 | drafted |
 | Hike SEO | via Digitool | Free tier listed | 1 | P2 | rejected |
 | Honen | honen.com | Freemium | 1 | P2 | rejected |
@@ -668,12 +708,12 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Iconsax | iconsax.io |  | 1 | P3 | blocked |
 | Iconset | iconset.io | Freemium | 1 | P2 | blocked |
 | Iconshock | iconshock.com |  | 1 | P3 | rejected |
-| IDEO Blog | ideo.com | Free | 1 | P2 | researched |
-| IFTTT | ifttt.com | Freemium | 1 | P2 | researched |
-| iMovie | apps.apple.com | Free | 1 | P2 | researched |
+| IDEO Blog | ideo.com | Free | 1 | P2 | drafted |
+| IFTTT | ifttt.com | Freemium | 1 | P2 | drafted |
+| iMovie | apps.apple.com | Free | 1 | P2 | drafted |
 | Impossible Images | impossibleimages.ai | Free | 1 | P2 | blocked |
-| Integrity | integrity.sh | Beta | 1 | P3 | researched |
-| Inter | rsms.me | Free | 1 | P2 | researched |
+| Integrity | integrity.sh | Beta | 1 | P3 | drafted |
+| Inter | rsms.me | Free | 1 | P2 | drafted |
 | Invideo AI | invideo.sjv.io | Freemium | 2 | P1 | drafted |
 | iOS Icon Gallery | iosicongallery.com | Free | 1 | P2 | blocked |
 | Irid | irid.app | Free | 1 | P2 | blocked |
@@ -701,15 +741,12 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Visily | visily.ai | Freemium | 2 | P1 | drafted |
 | Wispr Flow | ref.wisprflow.ai | Free tier listed / Freemium | 2 | P1 | drafted |
 
-## Research queue (1133)
+## Research queue (1093)
 
-### Best AI Design Tools for Designers (138)
+### Best AI Design Tools for Designers (135)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Fuser | fuser.studio | Freemium | 1 | P2 |
-| getdesign.md | getdesign.md | Free + Paid | 1 | P2 |
-| Google AI | ai.google | Free | 1 | P2 |
 | Grok | grok.com | Free + Paid | 1 | P2 |
 | Happy Shrimp | happyshrimp.ai | Freemium | 1 | P2 |
 | Heard | heard.dev | Freemium | 1 | P2 |
@@ -846,11 +883,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | PromptBase | promptbase.com |  | 1 | P3 |
 | Stitch | stitch.withgoogle.com | Beta | 1 | P3 |
 
-### Best Color Tools and Inspiration for Designers (43)
+### Best Color Tools and Inspiration for Designers (42)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Goodpalette | goodpalette.io | Free | 1 | P2 |
 | Happy Hues | happyhues.co | Free | 1 | P2 |
 | Harmonizer | harmonizer.evilmartians.com | Free | 1 | P2 |
 | Hexful | hexful.com | Free | 1 | P2 |
@@ -894,11 +930,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | WebGradients | webgradients.com | Free | 1 | P2 |
 | Who Can Use | whocanuse.com | Free | 1 | P2 |
 
-### Best Design Blogs & Magazines for Designers (40)
+### Best Design Blogs & Magazines for Designers (39)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Google Design | design.google | Free | 1 | P2 |
 | Growth Design | growth.design | Free | 1 | P2 |
 | Intercom Blog | intercom.com | Free | 1 | P2 |
 | It’s Nice That | itsnicethat.com | Free | 1 | P2 |
@@ -939,12 +974,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Webflow Blog | webflow.partnerlinks.io | Free | 1 | P2 |
 | Wepresent | wepresent.wetransfer.com | Free | 1 | P2 |
 
-### Best Design Communities for Designers (22)
+### Best Design Communities for Designers (20)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Freelancer | freelancer.com | Free + Paid | 1 | P2 |
-| Graphic Design Forum | graphicdesignforum.com | Free | 1 | P2 |
 | If You Could Jobs | ifyoucouldjobs.com | Free + Paid | 1 | P2 |
 | IxDF Community Meetups | ixdf.org | Free | 1 | P2 |
 | LinkedIn | linkedin.com | Freemium | 1 | P2 |
@@ -966,15 +999,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | WeLoveProduct | weloveproduct.co | Freemium | 1 | P2 |
 | Woody | woodyjobs.com | Freemium | 1 | P2 |
 
-### Best Design Tools Across Disciplines (137)
+### Best Design Tools Across Disciplines (132)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Ghost | useghost.io | Freemium | 1 | P2 |
-| Gimp | gimp.org | Free | 1 | P2 |
-| Google Slides | workspace.google.com | Freemium | 1 | P2 |
-| Grainrad | grainrad.com | Free | 1 | P2 |
-| Graphite | graphite.art | Free | 1 | P2 |
 | Gridset | gridset.app | Freemium | 1 | P2 |
 | GSAP | gsap.com | Free | 1 | P2 |
 | Haiku Animator | haikuanimator.com | Free | 1 | P2 |
@@ -1108,11 +1136,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Sesame | sesame.design | Beta | 1 | P3 |
 | Visual | visual.app | Beta | 1 | P3 |
 
-### Best Free Font Libraries and Inspiration for Designers (44)
+### Best Free Font Libraries and Inspiration for Designers (43)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Google Fonts: pairings | figma.com | Free | 1 | P2 |
 | Inspotype | inspotype.com | Free + Paid | 1 | P2 |
 | JetBrains Mono | jetbrains.com | Free | 1 | P2 |
 | Leon Sans | leon-kim.com | Free | 1 | P2 |
@@ -1157,7 +1184,7 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | What the Font | apps.apple.com | Free | 1 | P2 |
 | Words of Type | wiki.wordsoftype.com | Free | 1 | P2 |
 
-### Best Free Open Source Icon Libraries (51)
+### Best Free Open Source Icon Libraries (50)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
@@ -1174,7 +1201,6 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Unicorn Icons | unicornicons.com | Freemium | 1 | P2 |
 | useAnimations | useanimations.com | Free | 1 | P2 |
 | Webfont | webfontapp.com | Free + Paid | 1 | P2 |
-| Futicons | futicons.com |  | 1 | P3 |
 | Griddy Icons | griddyicons.com |  | 1 | P3 |
 | Heroicons | heroicons.com |  | 1 | P3 |
 | Hugeicons | hugeicons.com |  | 1 | P3 |
@@ -1213,11 +1239,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Unicode Arrows | unicodearrows.com |  | 1 | P3 |
 | Vzy Icons | icons.vzy.co |  | 1 | P3 |
 
-### Best Mockup Sites for Designers (42)
+### Best Mockup Sites for Designers (41)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| GraphicBurger | graphicburger.com | Free | 1 | P2 |
 | LiveSurface | livesurface.com | Freemium | 1 | P2 |
 | Lstore Graphics | ls.graphics | Free + Paid | 1 | P2 |
 | Magnific Mockups | magnific.com | Free + Paid | 1 | P2 |
@@ -1260,12 +1285,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Wannathis Mockups | wannathis.one | Free + Paid | 1 | P2 |
 | WhiteUI.Store | gumroad.com | Free + Paid | 1 | P2 |
 
-### Best No-Code Website Builders (74)
+### Best No-Code Website Builders (72)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Fueler | fueler.io | Freemium | 1 | P2 |
-| FUNCTION12 | function12.io | Freemium | 1 | P2 |
 | Headless UI | headlessui.com | Free | 1 | P2 |
 | Hero | heroui.com | Free + Paid | 1 | P2 |
 | HyperFramer | hyperframer.com | Free | 1 | P2 |
@@ -1339,15 +1362,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Revyme | revyme.com | Beta | 1 | P3 |
 | Zoah | zoah.com | Beta | 1 | P3 |
 
-### Best Open Source Illustration Libraries (66)
+### Best Open Source Illustration Libraries (61)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Fresh Folk | fresh-folk.com | Free | 1 | P2 |
-| Getillustrations | getillustrations.com | Free + Paid | 1 | P2 |
-| Good Stuff No Nonsense | goodstuffnononsense.com | Free + Paid | 1 | P2 |
-| Gradiator | ruri.design | Free + Paid | 1 | P2 |
-| Grainient | grainient.supply | Free + Paid | 1 | P2 |
 | Haikei | haikei.app | Free | 1 | P2 |
 | Handz | handz.design | Free + Paid | 1 | P2 |
 | Highlights | highlights.design | Free | 1 | P2 |
@@ -1410,14 +1428,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | UI8 - Illustrations | ui8.net | Free + Paid | 1 | P2 |
 | Vackground | vackground.com | Free + Paid | 1 | P2 |
 
-### Best UX Tools for Designers (55)
+### Best UX Tools for Designers (51)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Frontitude | frontitude.com | Freemium | 1 | P2 |
-| FullStory | fullstory.com | Freemium | 1 | P2 |
-| Google Analytics | developers.google.com | Freemium | 1 | P2 |
-| Graphy | graphy.app | Freemium | 1 | P2 |
 | Hotjar | hotjar.com | Freemium | 1 | P2 |
 | Justinmind | justinmind.com | Freemium | 1 | P2 |
 | Lorem Ipsum | loremipsum.io | Free | 1 | P2 |
@@ -1470,13 +1484,11 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Zen Flowchart | zenflowchart.com | Freemium | 1 | P2 |
 | Stratify | trystratify.com | Beta | 1 | P3 |
 
-### Design Inspiration Sites for UI, Web, Graphic & Branding (108)
+### Design Inspiration Sites for UI, Web, Graphic & Branding (106)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
 | Nicelydone | nicelydone.club | Free Trial / Free tier listed | 2 | P1 |
-| Getillustra | getillustra.com | Free | 1 | P2 |
-| GoodCart | goodcart.design | Free | 1 | P2 |
 | Hoverstates | hoverstat.es | Free | 1 | P2 |
 | Httpster | httpster.net | Free | 1 | P2 |
 | Identity Designed | identitydesigned.com | Free | 1 | P2 |
@@ -1583,11 +1595,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | World Brand Design Society | worldbranddesign.com | Free | 1 | P2 |
 | YouPic | youpic.com | Free | 1 | P2 |
 
-### Free Stock Images & Video Websites (37)
+### Free Stock Images & Video Websites (36)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Freesound | freesound.org | Free | 1 | P2 |
 | Gratisography | gratisography.com | Free | 1 | P2 |
 | Kaboompics | kaboompics.com | Free | 1 | P2 |
 | LibreStock | librestock.com | Free | 1 | P2 |
@@ -1625,17 +1636,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Vidsplay | vidsplay.com | Free | 1 | P2 |
 | ZapSplat | zapsplat.com | Freemium | 1 | P2 |
 
-### Free Tools (105)
+### Free Tools (98)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Fyxer | via Digitool | Free tier listed (Digitool "Premium" badge) | 1 | P2 |
-| Gatsbi | via Digitool | Free tier listed | 1 | P2 |
-| GEO Metrics | via Digitool | Free tier listed | 1 | P2 |
-| GetAds | via Digitool | Free tier listed | 1 | P2 |
-| getimg.ai | via Digitool | Free tier listed | 1 | P2 |
-| Gile | via Digitool | Free tier listed | 1 | P2 |
-| Granola | via Digitool | Free tier listed | 1 | P2 |
 | Helpfull | via Digitool | Free tier listed | 1 | P2 |
 | Huddlekit | via Digitool | Free tier listed | 1 | P2 |
 | imgbox | via Digitool | Free tier listed | 1 | P2 |
@@ -1735,11 +1739,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Xano | via Digitool | Free tier listed | 1 | P2 |
 | Xero | via Digitool | Free tier listed (Digitool "Premium" badge) | 1 | P2 |
 
-### Learn UI/UX Design: Courses, Guides & Best Practices (60)
+### Learn UI/UX Design: Courses, Guides & Best Practices (59)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Gestalt Principles | gestaltprinciples.com | Free | 1 | P2 |
 | Hall of Shame | hallofshame.design | Free | 1 | P2 |
 | Hey Design Systems | heydesign.systems | Free | 1 | P2 |
 | High Resolution | highresolution.design | Free | 1 | P2 |
@@ -1800,13 +1803,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | uxtoast | uxtoast.com | Free | 1 | P2 |
 | We are Colorblind | wearecolorblind.com | Free | 1 | P2 |
 
-### Marketing Tools for Designers & Creative Teams (67)
+### Marketing Tools for Designers & Creative Teams (64)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Google Search Console | search.google.com | Free | 1 | P2 |
-| Google Trends | trends.google.com | Free | 1 | P2 |
-| Grammarly | grammarly.com | Freemium | 1 | P2 |
 | Heepsy | heepsy.com | Freemium | 1 | P2 |
 | Hopp | hopp.co | Freemium | 1 | P2 |
 | Hovercode | hovercode.com | Freemium | 1 | P2 |
