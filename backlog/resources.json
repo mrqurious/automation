@@ -68376,6 +68376,2291 @@
         "whether 'Free' label from input source is accurate — not confirmed first-party"
       ],
       "injectionSeen": null
+    },
+    "material-3-design-resources": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "FETCH-FAIL: m3.material.io is a JS-rendered SPA; WebFetch returned only the page title (\"Material Design\") with no body content on home and on /get-started, retried once each, still empty. Could not confirm pricing/license/features first-party.",
+      "site": {
+        "name": "Material 3 Design Resources",
+        "url": "https://m3.material.io",
+        "alive": true,
+        "operator": "Google"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://m3.material.io",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://m3.material.io",
+          "date": "2026-10-17",
+          "note": "WebFetch returned only <title>Material Design</title>, no body text, twice"
+        },
+        {
+          "url": "https://m3.material.io/get-started",
+          "date": "2026-10-17",
+          "note": "retry on a second page, same empty-body result"
+        }
+      ],
+      "unverified": [
+        "pricing/free-tier wording not confirmed first-party",
+        "license/terms not confirmed first-party",
+        "operator inferred from domain and public knowledge (Google's Material Design site), not read on the page itself"
+      ],
+      "injectionSeen": null
+    },
+    "material-design-color-system": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "FETCH-FAIL: m2.material.io/design/color/the-color-system.html is a JS-rendered SPA; WebFetch returned only the page title (\"Material Design\") with no body content, retried once (also tried the #color-usage-and-palettes anchor), still empty. Could not confirm pricing/license/features first-party.",
+      "site": {
+        "name": "Material Design Color System",
+        "url": "https://m2.material.io/design/color/the-color-system.html",
+        "alive": true,
+        "operator": "Google"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://m2.material.io/design/color/the-color-system.html",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://m2.material.io/design/color/the-color-system.html",
+          "date": "2026-10-17",
+          "note": "WebFetch returned only <title>Material Design</title>, no body text"
+        },
+        {
+          "url": "https://m2.material.io/design/color/the-color-system.html#color-usage-and-palettes",
+          "date": "2026-10-17",
+          "note": "retry with anchor, same empty-body result"
+        }
+      ],
+      "unverified": [
+        "pricing/free-tier wording not confirmed first-party",
+        "license/terms not confirmed first-party",
+        "operator inferred from domain and public knowledge (Google's Material Design site), not read on the page itself"
+      ],
+      "injectionSeen": null
+    },
+    "material-design-type-scale": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Material Design Type Scale",
+        "url": "https://m2.material.io/inline-tools/typography",
+        "alive": true,
+        "operator": "Google"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Full tool usable with no sign-in, no account and no payment; generates type-scale code for free",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://m2.material.io/inline-tools/typography",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Google Developers content license · commercial: yes · attribution: required for page content (code samples separately under Apache 2.0) · limit: images/video/links not covered, and this specific page's own license footer could not be read (SPA, confirmed instead via Google's general developers.google.com/site-policies notice)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://developers.google.com/site-policies",
+          "date": "2026-10-17",
+          "confidence": "second-hand"
+        }
+      },
+      "rl": {
+        "slug": "material-design-type-scale",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Material Design Type Scale",
+        "description": "Google's free generator for Material Design type scales, producing ready-to-use typography code for Web, Android or Flutter.",
+        "tags": [
+          "typography",
+          "design-systems",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "material-symbols",
+          "google-fonts"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Generates a full type scale: Headline 1-6, Subtitle 1-2, Body 1-2, Button, Caption and Overline",
+          "Each style lists font, weight, size and letter spacing",
+          "Exports ready-to-use code for Web (.scss), Android (.xml) or Flutter (.dart)",
+          "One-click copy to clipboard",
+          "Links to Google Fonts for picking the typeface"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "materialdesign",
+          "fillColor": "#6750A4",
+          "bgColor": "#ffffff",
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Official Google (material.io) domain; no scam/malware/shutdown hits in search"
+      },
+      "sources": [
+        {
+          "url": "https://m2.material.io/inline-tools/typography",
+          "date": "2026-10-17",
+          "note": "tool description, platforms, free usage, no sign-in"
+        },
+        {
+          "url": "https://developers.google.com/site-policies",
+          "date": "2026-10-17",
+          "note": "Google's general CC BY 4.0 (content) / Apache 2.0 (code samples) license notice, used as second-hand corroboration since m2.material.io's own footer did not render"
+        },
+        {
+          "url": "https://m2.material.io/license",
+          "date": "2026-10-17",
+          "note": "attempted first-party license page; SPA returned only the page title, no body text"
+        }
+      ],
+      "unverified": [
+        "this tool's own page-level license footer (SPA did not render body text; used Google's general developer-site license notice as second-hand corroboration instead)",
+        "no dedicated safety search beyond the general scam/malware/shutdown query"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/material-design-type-scale.md",
+        "lint": "pass"
+      }
+    },
+    "maxibestof": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "FETCH-FAIL: home page returned HTTP 403 on two separate attempts; could not read pricing, license or about pages first-party",
+      "site": {
+        "name": "MaxiBestOf",
+        "url": "https://maxibestof.one",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://maxibestof.one",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": null,
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": null,
+        "type": null,
+        "category": null,
+        "title": null,
+        "description": null,
+        "tags": [],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": null
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": null
+      },
+      "sources": [
+        {
+          "url": "https://maxibestof.one",
+          "date": "2026-10-17",
+          "note": "WebFetch attempt 1 of 2 both returned HTTP 403 Forbidden, no content retrieved"
+        },
+        {
+          "url": "https://chrome.google.com/webstore/detail/maxi-best-of/hcbifpgnodngojidpmahogbpchlcmjmd/",
+          "date": "2026-10-17",
+          "note": "second-hand: companion Chrome extension listing, confirms the site curates inspiration (websites/fonts), does not confirm pricing"
+        },
+        {
+          "url": "https://uiuxshowcase.com/resources/maxibestof-one/",
+          "date": "2026-10-17",
+          "note": "second-hand: describes site as a daily curated web design/typography inspiration feed, credits creator Bertrand Bruandet (unconfirmed, not read first-party)"
+        }
+      ],
+      "unverified": [
+        "pricing / whether any plan is paid (site unreachable for research; input label says Freemium but not verified)",
+        "operator/creator identity (one second-hand source names Bertrand Bruandet, not confirmed on the site)",
+        "license/terms, listing permission",
+        "safety screen beyond basic reachability (no first-party page read)"
+      ],
+      "injectionSeen": null
+    },
+    "maze": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "free tier permanence unclear: the first-party pricing page (maze.co/pricing/) is JS-rendered and shows feature-gating labels ('All plans', 'Enterprise') with 'Limits apply' but no stated plan names, limits or prices; primary CTA is 'Try Maze for free' (trial language). Third-party sources conflict on whether there is a permanent free plan and its limits (1 study/30 responses vs 1 study/month+5 seats vs 3 studies+5 participants, none authoritative)",
+      "site": {
+        "name": "Maze",
+        "url": "https://maze.co",
+        "alive": true,
+        "operator": "Maze.design Ltd (per maze.co/tos, 167-169 Great Portland Street, London UK)"
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": "Unclear - public pricing page does not state limits; CTA language is 'Try Maze for free', suggesting a trial rather than a confirmed permanent free plan. Third-party write-ups disagree on specifics (not used, per no-invented-numbers rule)",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://maze.co/pricing/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Maze.design Ltd Terms of Service · commercial: limited (internal business use / use for customers' business purposes only) · attribution: not applicable (no attribution regime; trademarks reserved, no license to use Maze name/logo) · limit: no reselling, subletting or making the Services available to third parties without written consent; no automated data harvesting except via the Maze MCP endpoint",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://maze.co/tos",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": null,
+        "type": null,
+        "category": null,
+        "title": null,
+        "description": null,
+        "tags": [],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": null
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown hits for the maze.co product; unrelated search noise about the 2020 'Maze' ransomware gang (different entity, confirmed unrelated)"
+      },
+      "sources": [
+        {
+          "url": "https://maze.co",
+          "date": "2026-10-17",
+          "note": "home page: product description (user research/testing platform), feature list"
+        },
+        {
+          "url": "https://maze.co/pricing/",
+          "date": "2026-10-17",
+          "note": "first-party pricing page read twice; JS-rendered, shows only feature-to-plan gating labels, no plan names/prices/limits"
+        },
+        {
+          "url": "https://maze.co/tos",
+          "date": "2026-10-17",
+          "note": "first-party terms: legal entity, commercial-use scope, redistribution and trademark restrictions; no clause on third-party directory listings"
+        },
+        {
+          "url": "https://www.vendr.com/marketplace/maze",
+          "date": "2026-10-17",
+          "note": "second-hand, unverified: claims free plan includes up to 10 testers/month"
+        },
+        {
+          "url": "https://blog.uxtweak.com/maze-pricing/",
+          "date": "2026-10-17",
+          "note": "second-hand, unverified: claims Free = 1 active study, 30 responses/study"
+        },
+        {
+          "url": "https://www.stackscored.com/pricing/user-research/maze/",
+          "date": "2026-10-17",
+          "note": "second-hand, unverified and self-flagged as unverified against maze.co/pricing: claims Free = 3 active studies + 5 participants/study + 30-min max"
+        }
+      ],
+      "unverified": [
+        "exact free-plan limits (conflicting second-hand figures; first-party page does not state them)",
+        "paid plan names and prices (not shown on first-party pricing page; second-hand figures conflict, e.g. ~$99/mo vs $75/mo)",
+        "whether the free offering is a permanent free tier or only a time-limited trial"
+      ],
+      "injectionSeen": null
+    },
+    "mazeletter": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "FETCH-FAIL: home page connection reset (ECONNRESET) on two separate attempts; could not read site, license or download pages first-party. Note: the input site URL is also plain HTTP (not HTTPS), a further flag once reachable",
+      "site": {
+        "name": "Mazeletter",
+        "url": "http://mazeletter.xyz",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "http://mazeletter.xyz",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": null,
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": null,
+        "type": null,
+        "category": null,
+        "title": null,
+        "description": null,
+        "tags": [],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": null
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": false,
+        "clonerisk": "none",
+        "notes": null
+      },
+      "sources": [
+        {
+          "url": "http://mazeletter.xyz",
+          "date": "2026-10-17",
+          "note": "WebFetch attempt 1 of 2 both failed with ECONNRESET, no content retrieved"
+        },
+        {
+          "url": "https://www.fathom.info/notebook/200304/",
+          "date": "2026-10-17",
+          "note": "second-hand: describes Mazeletter as a set of nine maze-pattern fonts made by the Fathom studio from maze sketches; not confirmed first-party"
+        },
+        {
+          "url": "https://beta.pkg.go.dev/github.com/AlexEidt/amaze",
+          "date": "2026-10-17",
+          "note": "second-hand: a third-party project's acknowledgements credit 'Paul Cronan and team' for the fonts at mazeletter.xyz; does not state the fonts' own license"
+        }
+      ],
+      "unverified": [
+        "whether the fonts are actually free / what license covers them (input label says Free but not verified first-party)",
+        "operator/designer identity (second-hand credits 'Paul Cronan and team' via Fathom, unconfirmed on the site itself)",
+        "site is plain HTTP, not HTTPS — unresolved safety flag",
+        "whether the site is still maintained/alive beyond resolving in DNS"
+      ],
+      "injectionSeen": null
+    },
+    "mckp-live": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "mckp.live",
+        "url": "https://mckp.live",
+        "alive": true,
+        "operator": "ls.graphics"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free forever, no card required: up to 3 projects, exports/embeds carry a watermark",
+        "paidFrom": "Pro $19/month, or $8.25/month billed yearly ($99/year); prices exclude VAT",
+        "evidence": {
+          "url": "https://mckp.live/pricing/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: yes on paid plans (ToS does not restrict use of your own exports) · attribution: not required · limit: free plan capped at 3 projects and carries a watermark that can only be removed by upgrading",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://mckp.live/legal/terms-of-service/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "mckp-live",
+        "type": "Tool",
+        "category": "Design",
+        "title": "mckp.live",
+        "description": "Browser-based tool for animated 3D device mockups: turn a screenshot or screen recording into an iPhone, iPad, MacBook or Android scene.",
+        "tags": [
+          "visual-design",
+          "design-templates",
+          "prototyping"
+        ],
+        "relatedResources": [
+          "figma",
+          "framer"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "389 ready-made device scenes (Origin) for iPhone, iPad, MacBook and Android",
+          "Studio timeline to keyframe camera and device motion",
+          "Export as video or embed the live, interactive mockup on a website",
+          "Framer plugin for using mockups inside Framer projects",
+          "No install required, runs entirely in the browser"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17, no exact match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown reports found; disclaims that example mockups (Linear, Apple Fitness) are unaffiliated illustrations"
+      },
+      "sources": [
+        {
+          "url": "https://mckp.live",
+          "date": "2026-10-17",
+          "note": "product description, operator, feature list"
+        },
+        {
+          "url": "https://mckp.live/pricing/",
+          "date": "2026-10-17",
+          "note": "free and Pro plan details"
+        },
+        {
+          "url": "https://mckp.live/legal/terms-of-service/",
+          "date": "2026-10-17",
+          "note": "resale/sublicense, badge, embed-placement clauses"
+        }
+      ],
+      "unverified": [
+        "no explicit ToS statement on commercial use of a free-plan export",
+        "exact VAT-inclusive price not shown"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/mckp-live.md",
+        "lint": "pass"
+      }
+    },
+    "mechanic": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Mechanic",
+        "url": "https://mechanic.design",
+        "alive": true,
+        "operator": "Design Systems International"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Fully free and open source; run and self-host the framework and generated tools yourself, no paid tier exists",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://mechanic.design",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT · commercial: yes · attribution: required (keep the copyright notice) · limit: it is a self-hosted framework, not a hosted app — you build and run your own tools with it",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://raw.githubusercontent.com/designsystemsinternational/mechanic/main/LICENSE",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "mechanic",
+        "type": "Library",
+        "category": "Design",
+        "title": "Mechanic",
+        "description": "Open source framework that turns your team's design rules, written as code, into a shareable generator UI for producing consistent assets.",
+        "tags": [
+          "design-systems",
+          "open-source",
+          "automation"
+        ],
+        "relatedResources": [
+          "codesandbox"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Scaffold a new project with one command (npm init mechanic@latest)",
+          "Write one function that defines the design inputs; Mechanic generates the UI",
+          "Multiple rendering engines: Canvas, p5.js, React/SVG, and raw SVG string output",
+          "Live preview on a canvas before exporting",
+          "Export images and videos as SVG, PNG and WEBM",
+          "MIT licensed, v2.0.0 released"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17, no exact match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown reports found; active GitHub repo (901 commits, 25 open issues, 8 open PRs), labeled v2.0.0 current release"
+      },
+      "sources": [
+        {
+          "url": "https://mechanic.design",
+          "date": "2026-10-17",
+          "note": "product description, operator, no pricing shown"
+        },
+        {
+          "url": "https://github.com/designsystemsinternational/mechanic",
+          "date": "2026-10-17",
+          "note": "repo structure, release status, activity signals"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/designsystemsinternational/mechanic/main/LICENSE",
+          "date": "2026-10-17",
+          "note": "MIT license text"
+        }
+      ],
+      "unverified": [
+        "exact date of the most recent commit not visible in the fetched view",
+        "whether a hosted/managed version is planned (home page only offers a 'Notify me' signup, separate from the released CLI/framework)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/mechanic.md",
+        "lint": "pass"
+      }
+    },
+    "media-io": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Terms of Service say the service is \"generally provided for private, non-commercial use,\" and free-subscription users grant an irrevocable license for their uploaded content to be used to train AI models while the free subscription lasts — commercial-use permission for the free tier and the AI-training data grant should be confirmed with the owner before listing.",
+      "site": {
+        "name": "Media.io",
+        "url": "https://media.io",
+        "alive": true,
+        "operator": "Wondershare"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free ($0): 3 daily check-in credits, up to 1 video/1 image/1 audio, normal generation speed, 2k+ templates and effects, 30+ AI models and tools, 1GB cloud storage, 720p exports with a watermark",
+        "paidFrom": "Standard and Premium monthly/yearly plans exist (Premium offers a 3-day free trial then auto-renews); exact prices were not rendered on the fetched pricing page",
+        "evidence": {
+          "url": "https://media.io/pricing.html",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS (Wondershare) · commercial: unclear for the free tier (ToS: \"generally provided for private, non-commercial use\"; you own what you create per 10.1) · attribution: not required · limit: free-subscription uploads are licensed to Media.io irrevocably for product improvement and AI training while the free subscription is active",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://media.io/terms-of-service.html",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "media-io",
+        "type": "AI Tool",
+        "category": "Filming",
+        "title": "Media.io",
+        "description": "Wondershare's all-in-one AI platform for generating and editing video, image and audio, with templates for ads and social content.",
+        "tags": [
+          "ai-tool",
+          "video-template",
+          "social-media-design"
+        ],
+        "relatedResources": [
+          "canva"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "AI video and image generation plus AI characters",
+          "Background and object removal, upscaling, noise reduction",
+          "Vocal removal and AI text-to-speech",
+          "2k+ templates for stories, ads and viral-style content ('AI Studio')",
+          "Free plan: 1GB storage, 720p watermarked exports, 3 daily credits"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17, no exact match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Operated by Wondershare (known publisher, e.g. Filmora); no credible scam/malware/shutdown reports found specific to Media.io"
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/media-io/",
+          "date": "2026-10-17",
+          "note": "resolved the tool's own site link (site was null in input)"
+        },
+        {
+          "url": "https://media.io",
+          "date": "2026-10-17",
+          "note": "product description, operator, policy links"
+        },
+        {
+          "url": "https://media.io/pricing.html",
+          "date": "2026-10-17",
+          "note": "free plan limits and named paid plans"
+        },
+        {
+          "url": "https://www.media.io/ai/home?popup-buy=auto",
+          "date": "2026-10-17",
+          "note": "attempted to confirm paid prices; page did not render plan prices"
+        },
+        {
+          "url": "https://media.io/terms-of-service.html",
+          "date": "2026-10-17",
+          "note": "commercial-use wording, free-subscription AI-training license clause"
+        }
+      ],
+      "unverified": [
+        "exact Standard/Premium prices (template placeholders did not render on fetch)",
+        "whether 'non-commercial use' wording actually restricts commercial use of a free-tier user's own exports, or only platform content",
+        "no dedicated license page beyond the general Terms of Service"
+      ],
+      "injectionSeen": null
+    },
+    "mediacheatsheet": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Media Cheat Sheet",
+        "url": "https://mediacheatsheet.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire directory of social/ad specs, downloadable SVG templates, UTM Generator, Character Counter and ad calculators are usable with no account, plan, or price found anywhere on the site",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://mediacheatsheet.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Site's own Terms and Conditions · commercial: yes, specs/templates may be used for personal or commercial creative work · attribution: not required for site content · limit: templates may not be sold, relicensed, republished or redistributed as a competing template library or standalone product",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://mediacheatsheet.com/terms",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "mediacheatsheet",
+        "type": "Tool",
+        "category": "Marketing",
+        "title": "Media Cheat Sheet",
+        "description": "Searchable directory of social media and ad image/video specs with free downloadable templates, a UTM generator and ad calculators.",
+        "tags": [
+          "social-media-design",
+          "design-templates"
+        ],
+        "relatedResources": [
+          "canva-templates"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Specs directory covering about 25 platforms, including Instagram, Facebook, TikTok, LinkedIn and Google Ads",
+          "Downloadable SVG templates with safe-zone guides for each format",
+          "UTM Generator for building tagged campaign links",
+          "Character Counter for checking post and ad copy limits",
+          "Advertising calculators for campaign planning"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 (no exact match)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown hits in a web search; the site does not name an operating company or person anywhere in its content"
+      },
+      "sources": [
+        {
+          "url": "https://mediacheatsheet.com",
+          "date": "2026-10-17",
+          "note": "what the site offers; no pricing/plans mentioned anywhere on the home page"
+        },
+        {
+          "url": "https://mediacheatsheet.com/terms",
+          "date": "2026-10-17",
+          "note": "commercial-use and redistribution rules for specs/templates"
+        }
+      ],
+      "unverified": [
+        "Operator (company or person) behind the site is not identified anywhere on the site"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/mediacheatsheet.md",
+        "lint": "pass"
+      }
+    },
+    "meditations-in-color": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Meditations in Color",
+        "url": "https://meditationsincolor.com",
+        "alive": true,
+        "operator": "Pixel Symphony (artist pseudonym; California, US per the About page)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All four archives (Palette Studio, colorist archive, movie poster archive, album cover archive) are browsable with no account, paywall or pricing mentioned anywhere on the site",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://meditationsincolor.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No license or terms page found on the site · commercial use: not stated · attribution: not stated · limit: reuse permissions for the extracted palettes/images are not documented",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://meditationsincolor.com/about",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "meditations-in-color",
+        "type": "Resource",
+        "category": "Design",
+        "title": "Meditations in Color",
+        "description": "Curated archive of color palettes pulled from classic artists, movie posters and album covers, browsable by colorist or era.",
+        "tags": [
+          "color-palette",
+          "inspiration"
+        ],
+        "relatedResources": [
+          "fontpair"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Palette Studio archive of user-submitted color palettes",
+          "Colorist archive grouping palettes by artist",
+          "Movie poster archive extracting palettes from film posters",
+          "Album cover archive extracting palettes from music covers",
+          "Sources data from museums, TMDB, Cover Art Archive, MusicBrainz and Deezer"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 (no exact match)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown hits in a web search; a personal project run by a named pseudonymous artist"
+      },
+      "sources": [
+        {
+          "url": "https://meditationsincolor.com",
+          "date": "2026-10-17",
+          "note": "site structure, the four archives it offers, no pricing found"
+        },
+        {
+          "url": "https://meditationsincolor.com/about",
+          "date": "2026-10-17",
+          "note": "operator identity (Pixel Symphony, California US) and that no license/terms page is linked"
+        }
+      ],
+      "unverified": [
+        "No license/terms page found; reuse permissions for site content (palettes, extracted images) not stated",
+        "Legal identity of the operator beyond the pseudonym 'Pixel Symphony' not confirmed",
+        "Purpose/cost of the 'SuperRare' linked page not confirmed (not opened; out of scope of the tool itself)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/meditations-in-color.md",
+        "lint": "pass"
+      }
+    },
+    "meet-your-legend": {
+      "researchedOn": "2026-10-17",
+      "verdict": "skip",
+      "verdictReason": "Paid only: the only priced plan (Talent) is 69EUR/month with no free tier; School/Company offers are quote-based with no price or free tier disclosed on the pricing (Offers) page.",
+      "site": {
+        "name": "Meet Your Legend",
+        "url": "https://meetyourlegend.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "Talent plan, 69 EUR/month (monthly one-on-one mentoring session, Talent Pool profile highlighting, priority event access and support)",
+        "evidence": {
+          "url": "https://meetyourlegend.com/offers",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://meetyourlegend.com",
+          "date": "2026-10-17",
+          "note": "what the service is (VFX/animation/games mentorship and consulting); no operator name found"
+        },
+        {
+          "url": "https://meetyourlegend.com/offers",
+          "date": "2026-10-17",
+          "note": "pricing: Talent plan 69EUR/month; School and Company offers are quote-based, no free tier"
+        }
+      ],
+      "unverified": [
+        "No free tier found; the backlog label said 'Free + Paid' but the pricing page only shows a paid plan and quote-based offers",
+        "Operator (company or person) behind the site is not identified"
+      ]
+    },
+    "meetgeek": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "MeetGeek",
+        "url": "https://meetgeek.ai/",
+        "alive": true,
+        "operator": "MeetGeek US Infra, Inc. (US) / AIVISION PRODUCTS SRL (EU instance)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free Basic plan: 3 hours of transcription per month, 2-hour max meeting length, 3-month transcript storage, 1-month audio storage, concurrent meetings limited",
+        "paidFrom": "Pro plan shown as $15.99 (pricing card) / $9.99 per user per month (in-page calculator); billing period not stated, figures inconsistent between card and calculator",
+        "evidence": {
+          "url": "https://meetgeek.ai/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary Terms of Service · commercial: yes (service is for business/professional use) · attribution: not required · limit: no scraping/automated access outside the published API, and no publishing benchmarks or comparisons of the service without written consent",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://meetgeek.ai/terms",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "meetgeek",
+        "type": "AI Tool",
+        "category": "Productivity",
+        "title": "MeetGeek",
+        "description": "AI meeting notetaker that records, transcribes and summarises calls, then pushes action items to tools like Notion, Jira and Slack.",
+        "tags": [
+          "ai-tool",
+          "automation",
+          "productivity",
+          "collaboration"
+        ],
+        "relatedResources": [
+          "calendly",
+          "notion"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Free Basic plan with 3 hours of transcription per month and a 2-hour meeting cap",
+          "Joins calls as a bot, or records without one via desktop app, browser extension or dialer",
+          "Automated \"Meeting Skills\" push notes and action items to Notion, Jira, Linear, CRMs and Slack",
+          "Transcription in 100+ languages with auto-detection",
+          "Voice agents that act as a live meeting copilot or handle inbound calls"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17: no exact match for \"MeetGeek\""
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown hits in a dedicated search; own Terms page names identifiable registered operating companies in the EU (Romania) and US (Delaware)"
+      },
+      "sources": [
+        {
+          "url": "https://meetgeek.ai/",
+          "date": "2026-10-17",
+          "note": "what the product does, pricing range teaser, team/usage claims"
+        },
+        {
+          "url": "https://meetgeek.ai/pricing",
+          "date": "2026-10-17",
+          "note": "Free (Basic) plan limits, Pro/Business/Enterprise prices and limits"
+        },
+        {
+          "url": "https://meetgeek.ai/terms",
+          "date": "2026-10-17",
+          "note": "commercial-use framing, anti-scraping and anti-benchmarking clauses, operating entities"
+        }
+      ],
+      "unverified": [
+        "Billing period for the $15.99 Pro / $27 Business pricing-card figures is not stated, and they don't match the in-page per-user calculator figures ($9.99 / $17)",
+        "Whether the Terms' \"no benchmarks or comparisons without written consent\" clause has any bearing on a plain descriptive RL listing was not tested beyond reading the clause",
+        "No dedicated digging into what happens to data/recordings after a Free account is inactive"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/meetgeek.md",
+        "lint": "pass"
+      }
+    },
+    "meetup": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "Could not read the license/terms page: help.meetup.com/hc/en-us/articles/360027447252 (linked from meetup.com/terms and meetup.com/legal/terms, both of which redirect there) returned HTTP 403 Forbidden on two attempts, and web.archive.org is not reachable from this environment as a fallback. Separately, the given URL is a filtered sub-page (\"All Designers\" topic) of the general Meetup.com platform rather than a standalone product, which is a weaker RL fit even once terms are confirmed.",
+      "site": {
+        "name": "Meetup",
+        "url": "https://www.meetup.com/topics/designers/all/",
+        "alive": true,
+        "operator": "Bending Spoons Operations S.p.A."
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Browsing and joining designer Meetup groups is free, no login required to view the directory page",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.meetup.com/topics/designers/all/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://help.meetup.com/hc/en-us/articles/360027447252",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": null,
+        "type": null,
+        "category": null,
+        "title": null,
+        "description": null,
+        "tags": [],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": null
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown signal found; ownership confirmed first-party (page footer) as Bending Spoons, which acquired Meetup from an AlleyCorp-led group in Jan 2024 per Meetup's own blog (not re-fetched this session)"
+      },
+      "sources": [
+        {
+          "url": "https://www.meetup.com/topics/designers/all/",
+          "date": "2026-10-17",
+          "note": "page content, member/group counts, no-login viewing, operator footer"
+        },
+        {
+          "url": "https://www.meetup.com/terms-of-service",
+          "date": "2026-10-17",
+          "note": "resolved to a \"Group not found\" page; only usable content was the operator footer and a link to the help-center terms article"
+        }
+      ],
+      "unverified": [
+        "Full terms-of-service text (directory-listing, scraping, AI-data-use clauses) — blocked by 403 on help.meetup.com",
+        "Whether this filtered topic page is stable enough (vs. a general Meetup.com listing) to be worth a dedicated RL entry — owner call"
+      ],
+      "injectionSeen": null
+    },
+    "melius": {
+      "researchedOn": "2026-10-17",
+      "verdict": "skip",
+      "verdictReason": "Free $0/month plan exists but its own pricing page labels the allowance \"Limited Trial\" with no stated amount or renewal, and Melius's own docs subdomain also could not confirm the Free plan's credits renew monthly (only paid-plan credits are documented as renewing). This reads as a free trial, not a permanent usable free tier, so it fails the \"free trial does not count as free\" rule.",
+      "site": {
+        "name": "Melius",
+        "url": "https://www.melius.com",
+        "alive": true,
+        "operator": "Melius AI, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "Creator plan $17–20/month (20,000 credits/mo per pricing page; comparison table on the same page shows $18, so the exact current figure is inconsistent even first-party)",
+        "evidence": {
+          "url": "https://www.melius.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": null,
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": null,
+        "type": null,
+        "category": null,
+        "title": null,
+        "description": null,
+        "tags": [],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17: no exact match for \"Melius\" (note: name also used by an unrelated equities-research firm, Melius Research)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown hits; search independently confirmed Melius AI, Inc. is a funded NY startup (ex-Ramp engineers, ~$25M raised) building AI ad-creative / node-based generation tools, consistent with the site's own description"
+      },
+      "sources": [
+        {
+          "url": "https://www.melius.com",
+          "date": "2026-10-17",
+          "note": "product description (node-based AI image/video/audio canvas, Mel agent), operator copyright line"
+        },
+        {
+          "url": "https://www.melius.com/pricing",
+          "date": "2026-10-17",
+          "note": "plan names and prices, Free plan labeled \"Limited Trial\", inconsistent figures vs. comparison table"
+        },
+        {
+          "url": "https://docs.melius.com/billing/plans",
+          "date": "2026-10-17",
+          "note": "docs call the free tier the \"Free plan\"/\"Free teams\" (not \"Starter\"); does not state a credit amount or confirm it renews monthly, and points back to melius.com/pricing for allowances that \"change over time\""
+        }
+      ],
+      "unverified": [
+        "Exact Free-plan credit amount and whether it is one-time or recurring",
+        "License/terms of service page was not located or read",
+        "Which of the two conflicting price figures (page cards vs. comparison table) is current"
+      ],
+      "injectionSeen": null
+    },
+    "memojis": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "FETCH-FAIL: Figma Community plugin page returns HTTP 403 Forbidden on repeated attempts (bot check); cannot read pricing, license, or description first-party.",
+      "site": {
+        "name": "Memojis",
+        "url": "https://www.figma.com/community/plugin/1090391796325905912/Memojis",
+        "alive": null,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.figma.com/community/plugin/1090391796325905912/Memojis",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.figma.com/community/plugin/1090391796325905912/Memojis",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.figma.com/community/plugin/1090391796325905912/Memojis",
+          "date": "2026-10-17",
+          "note": "HTTP 403 on every fetch attempt (three tries, including a lowercase-slug variant); page content never retrieved"
+        }
+      ],
+      "unverified": [
+        "all facts (publisher, description detail, pricing, license) — page never loaded"
+      ],
+      "injectionSeen": null
+    },
+    "mermaid": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Mermaid",
+        "url": "https://mermaid.ai",
+        "alive": true,
+        "operator": "Mermaid Chart Inc (per third-party vendor listing; not confirmed first-party)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Basic plan, permanently free: up to 3-6 diagrams (home page vs. comparison table differ), limited diagram size (60), 15 AI credits, 1 team and project",
+        "paidFrom": "Plus plan $10 per user/month, billed annually",
+        "evidence": {
+          "url": "https://mermaid.ai/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No dedicated license/terms page could be reached (terms-of-service and legal URLs 404) · commercial: allowed on paid plans per pricing page, free Basic plan commercial terms not confirmed · attribution: not confirmed · limit: Free Basic plan capped at a handful of diagrams, diagram size 60, and 15 AI credits",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://mermaid.ai/legal/terms-of-service",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "mermaid",
+        "type": "Tool",
+        "category": "Development",
+        "title": "Mermaid",
+        "description": "AI-assisted diagramming tool that turns text, documents or Mermaid syntax into diagrams, with real-time collaboration and a limited free plan.",
+        "tags": [
+          "collaboration",
+          "productivity",
+          "ai-tool"
+        ],
+        "relatedResources": [
+          "notion",
+          "miro"
+        ],
+        "similarResources": [
+          "excalidraw",
+          "tldraw"
+        ],
+        "keyFeatures": [
+          "Generates diagrams from AI prompts, pasted/uploaded documents, or Mermaid syntax",
+          "Visual drag-and-drop editor alongside a code/syntax editor",
+          "Real-time collaboration, shareable links, and a presentation mode",
+          "Integrations/plugins for VS Code, Cursor, Confluence, Google Docs, and an MCP server",
+          "Free Basic plan with a handful of diagrams and 15 AI credits; paid plans raise diagram and AI-credit limits"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "mermaid",
+          "fillColor": "#FF3670",
+          "bgColor": "#ffffff",
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown hits; one unrelated npm supply-chain advisory for a third-party package named mcp-mermaid, not the official tool. mermaidchart.com domain 301-redirects permanently to mermaid.ai (apparent rebrand)."
+      },
+      "sources": [
+        {
+          "url": "https://www.mermaidchart.com",
+          "date": "2026-10-17",
+          "note": "confirmed 301 permanent redirect to https://mermaid.ai/"
+        },
+        {
+          "url": "https://mermaid.ai/",
+          "date": "2026-10-17",
+          "note": "product description, operator framing, feature list, integrations"
+        },
+        {
+          "url": "https://mermaid.ai/pricing",
+          "date": "2026-10-17",
+          "note": "pricing tiers, free Basic plan limits, Plus/Premium/Enterprise pricing"
+        },
+        {
+          "url": "https://mermaid.ai/legal/terms-of-service",
+          "date": "2026-10-17",
+          "note": "attempted — 404, terms text not available"
+        },
+        {
+          "url": "https://marketplace.atlassian.com/vendors/1225225/mermaid-chart-inc",
+          "date": "2026-10-17",
+          "note": "second-hand: names operating entity as Mermaid Chart Inc, San Francisco; not confirmed on mermaid.ai itself"
+        }
+      ],
+      "unverified": [
+        "exact legal operator name (second-hand only, terms page 404s)",
+        "whether free Basic plan diagrams limit is 3 (hero copy) or 6 (comparison table) — page gave both",
+        "commercial-use terms of the free Basic plan specifically",
+        "rebrand history from Mermaid Chart to mermaid.ai not explained on-site, inferred from the redirect"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/mermaid.md",
+        "lint": "pass"
+      }
+    },
+    "mesh": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Morflax Mesh",
+        "url": "https://morflax.com/mesh",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan: create and export PNG/JPG images up to 4K with a Morflax watermark, for personal/non-commercial use only; no video export",
+        "paidFrom": "Pro $108/year (~$9/month billed annually)",
+        "evidence": {
+          "url": "https://studio.morflax.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Morflax asset/export license · commercial: no on Free plan (personal/non-commercial only, watermarked), yes on Pro/Pro Max (no watermark, commercial license) · attribution: not required on paid commercial exports; the watermark itself is the Free-plan attribution and must not be removed/covered · limit: cannot resell or redistribute Morflax assets/exports as reusable creative resources, or use them to build a competing service",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://morflax.com/license",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "mesh",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Morflax Mesh",
+        "description": "Browser-based tool for designing 3D illustrations, icons and mockups with a built-in asset library; free exports are watermarked and non-commercial.",
+        "tags": [
+          "graphic-design",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "figma",
+          "canva"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Browser-based 3D illustration, icon and mockup designer with real-time rendering",
+          "Library of 200+ built-in 3D elements plus premade collections (BLVCK, Colorful, Neon, Abstract)",
+          "Customizable element colors, materials, lighting, and drag-and-drop scene building",
+          "Related in-house tools: Mockup Generator, Vector-to-3D converter, Shapes/Icons editors, Mix Scene Builder",
+          "Free plan exports watermarked PNG/JPG up to 4K for personal use; Pro removes the watermark, adds video export and a commercial license"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 — no exact match (\"Mesh\"); closest fuzzy hits (e, Traefik Mesh) are unrelated products"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown hits found for morflax.com in a general safety search."
+      },
+      "sources": [
+        {
+          "url": "https://morflax.com/mesh",
+          "date": "2026-10-17",
+          "note": "product description, feature list, free CTA, links to pricing/FAQ/license"
+        },
+        {
+          "url": "https://studio.morflax.com/pricing",
+          "date": "2026-10-17",
+          "note": "Pro/Pro Max/Pro Lifetime pricing and feature breakdown"
+        },
+        {
+          "url": "https://morflax.com/faq",
+          "date": "2026-10-17",
+          "note": "confirms Free plan exists, its watermark/non-commercial limit, and that Pro/Pro Max add commercial use"
+        },
+        {
+          "url": "https://morflax.com/license",
+          "date": "2026-10-17",
+          "note": "asset/export license terms: commercial use, no resale/redistribution, no claiming ownership"
+        }
+      ],
+      "unverified": [
+        "legal operator/company name behind Morflax (footer shows only a copyright line, no entity name)",
+        "Pro Lifetime price (page references it but does not list a figure)",
+        "whether 'Mesh' is the whole product or one tool within the broader Morflax Studio suite — FAQ answers are framed around 'Morflax Studio' generally"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/mesh.md",
+        "lint": "pass"
+      }
+    },
+    "meshy-ai": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Meshy",
+        "url": "https://www.meshy.ai",
+        "alive": true,
+        "operator": "MESHY LLC"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan, no credit card: 100 credits/month, up to 10 assets/month, 10 \"Meshy 6 Lite\" model downloads/month (community downloads not included), 1 concurrent task with low queue priority; outputs licensed CC BY 4.0 (credit to Meshy required), not privately owned.",
+        "paidFrom": "Starter plan 850 INR/month (page showed INR pricing by region; billed monthly or yearly at the same per-month rate): 250 credits/month (~25 assets), 20 downloads/month plus 15 community downloads, 5 concurrent/5 queued tasks, assets private and customer-owned.",
+        "evidence": {
+          "url": "https://www.meshy.ai/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Meshy Terms of Use (proprietary) · commercial: implied yes via CC BY 4.0 on free-plan outputs, not stated explicitly for commercial use · attribution: required (credit Meshy) on free-plan outputs · limit: Meshy itself owns underlying IP of free-plan outputs and may reuse Non-Enterprise content to train/improve its models",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.meshy.ai/terms-of-use",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "meshy-ai",
+        "type": "AI Tool",
+        "category": "Design",
+        "title": "Meshy AI",
+        "description": "AI 3D model generator from text or images, with texturing, rigging and animation; free plan outputs are CC BY 4.0, paid plans own their assets.",
+        "tags": [
+          "ai-tool",
+          "stock-3d-models"
+        ],
+        "relatedResources": [
+          "pixabay"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Generates 3D models from text prompts or reference images",
+          "Built-in AI texturing, auto-rigging and animation tools",
+          "Plugins for Blender, Unity, Unreal Engine and common 3D-print slicers",
+          "API, MCP server and CLI for automated pipelines",
+          "Free-plan outputs are CC BY 4.0 licensed (credit required); paid plans get private, owned assets"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 — no exact match for 'Meshy' or 'Meshy AI'"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Operator MESHY LLC lists SOC2/GDPR/ISO27001 compliance on a Drata trust center; press coverage is about a large 2026 funding round and app-revenue ranking, no scam/shutdown/malware hits."
+      },
+      "sources": [
+        {
+          "url": "https://www.meshy.ai",
+          "date": "2026-10-17",
+          "note": "product description, operator copyright line, footer links"
+        },
+        {
+          "url": "https://www.meshy.ai/pricing",
+          "date": "2026-10-17",
+          "note": "free plan and Starter plan details"
+        },
+        {
+          "url": "https://www.meshy.ai/terms-of-use",
+          "date": "2026-10-17",
+          "note": "ownership/license of outputs, CC BY 4.0 for free plan, restrictions"
+        },
+        {
+          "url": "https://www.3dnatives.com/es/meshy-recauda-400-millones-de-dolares-21072026/",
+          "date": "2026-10-17",
+          "note": "second-hand: funding round context for safety screen"
+        }
+      ],
+      "unverified": [
+        "Exact global/USD pricing — pricing page showed INR (₹850/month Starter); currency appears geo-selected and was not changed to confirm a USD figure",
+        "Whether CC BY 4.0 free-plan outputs are explicitly permitted for commercial use (terms describe the license grant but do not state 'commercial use' in those words; CC BY 4.0 itself normally permits it)"
+      ],
+      "injectionSeen": "Homepage has 'Ask AI about Meshy' buttons that open ChatGPT/Perplexity/Claude/Google/Grok/Copilot with a prefilled prompt asking the assistant to summarize Meshy's site and its G2/Trustpilot reviews. Not followed.",
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/meshy-ai.md",
+        "lint": "pass"
+      }
+    },
+    "mesurer": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Mesurer",
+        "url": "https://mesurer.dev",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire tool (Chrome extension + npm package) is offered free with no pricing page found; 'Add to Chrome' / 'Install chrome extension' are the only calls to action.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://mesurer.dev",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT License · commercial: yes (use, copy, modify, merge, publish, distribute, sublicense and/or sell) · attribution: copyright and permission notice must be kept in copies · limit: provided \"AS IS\", no warranty",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://raw.githubusercontent.com/ibelick/mesurer/main/packages/mesurer/LICENSE",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "mesurer",
+        "type": "Extension",
+        "category": "Development",
+        "title": "Mesurer",
+        "description": "Open-source Chrome extension and npm package to inspect, annotate and give feedback on live web interfaces, built for directing AI coding agents.",
+        "tags": [
+          "extensions",
+          "open-source",
+          "ai-tool"
+        ],
+        "relatedResources": [
+          "codesandbox",
+          "stackblitz"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Chrome extension overlay to inspect and annotate elements on any live page",
+          "npm package (v0.2.7 at research time) for programmatic/CLI use",
+          "Built for directing AI coding agents to precise UI changes",
+          "Ships an /llms.txt and a 'copy setup prompt' helper for agent workflows",
+          "Open source under the MIT license (github.com/ibelick/mesurer)"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 — no exact match for 'Mesurer'"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Small open-source project by GitHub user ibelick; no scam/malware/shutdown search hits, but also very little independent coverage to corroborate."
+      },
+      "sources": [
+        {
+          "url": "https://mesurer.dev",
+          "date": "2026-10-17",
+          "note": "product description, lack of pricing page, GitHub/feedback links"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/ibelick/mesurer/main/packages/mesurer/LICENSE",
+          "date": "2026-10-17",
+          "note": "MIT license text"
+        },
+        {
+          "url": "https://mesurer.dev/pricing",
+          "date": "2026-10-17",
+          "note": "404 — confirms no separate pricing page/paid tier"
+        }
+      ],
+      "unverified": [
+        "Who operates the project beyond the GitHub handle 'ibelick' — no person/company name stated on the site",
+        "Whether the hosted extension (vs. the MIT-licensed source) has any separate terms of service — none found"
+      ],
+      "injectionSeen": "Page references '/llms.txt' and a 'Copy setup prompt' button aimed at coding agents, and text like 'Interact seamlessly with human and agents.' No directive instructions telling an agent to take an action were found; nothing was followed.",
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/mesurer.md",
+        "lint": "pass"
+      }
+    },
+    "meta-ad-library": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "FETCH-FAIL: WebFetch returned 'socket hang up' on https://www.facebook.com/ads/library/ on 3 attempts (2026-10-17, including one retry after other work); page could not be read to confirm content, access requirements or any listing restriction.",
+      "site": {
+        "name": "Meta Ad Library",
+        "url": "https://www.facebook.com/ads/library/",
+        "alive": null,
+        "operator": "Meta Platforms, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.facebook.com/ads/library/",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.facebook.com/ads/library/",
+          "date": "2026-10-17",
+          "note": "fetch failed with 'socket hang up' on all 3 attempts; no content read"
+        }
+      ],
+      "unverified": [
+        "Whether the page is live/alive and accessible without login — could not be fetched",
+        "Pricing/free-tier wording, operator statement, terms around redistribution or listing, and any license page — none read because the fetch failed every attempt"
+      ]
+    },
+    "meta-ai": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "FETCH-FAIL: WebFetch returned socket hang up on https://www.meta.ai across 3 attempts (including a retry after other work); could not reach first-party pages to verify product, pricing, or license.",
+      "site": {
+        "name": "Meta AI",
+        "url": "https://www.meta.ai",
+        "alive": null,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.meta.ai",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.meta.ai",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": null
+      },
+      "sources": [],
+      "unverified": [
+        "entire entry: WebFetch failed (socket hang up) on all attempts to https://www.meta.ai; no page content read today"
+      ],
+      "injectionSeen": null
+    },
+    "metricool": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Metricool's Terms & Conditions (https://metricool.com/legal-terms/, read 2026-10-17) say reproducing or deep-linking to Metricool content \"is not allowed without prior express authorization and by written\" (section 13.1), and pages that link to Metricool may not use its brand/logos without authorization. This could restrict the kind of listing/linking RL does; owner needs to decide whether a plain text link without logo/brand use is acceptable before this is drafted.",
+      "site": {
+        "name": "Metricool",
+        "url": "https://metricool.com",
+        "alive": true,
+        "operator": "METRICOOL SOFTWARE, SL (Madrid, Spain; NIF B87527115)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan: manage 1 brand, connect 1 profile per supported network (not LinkedIn/X on Free), schedule up to 20 posts/month, analyze 5 competitor profiles, 30 days of analytics, includes AI social assistant and Metricool MCP. Site states \"You can use Metricool for free, forever.\"",
+        "paidFrom": "Starter plan from €16/month billed annually (€20/month billed monthly); shown as $20/month annual, $25/month monthly in USD",
+        "evidence": {
+          "url": "https://metricool.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS Terms & Conditions · commercial: yes (intended for professional/business use) · attribution: not applicable (closed SaaS) · limit: deep-linking/reproduction of Metricool content and use of its brand/logos on linking pages requires prior written authorization (§13.1); software is licensed, not sold, non-transferable, no resale (§6.1)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://metricool.com/legal-terms/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "metricool",
+        "type": "App",
+        "category": "Marketing",
+        "title": "Metricool",
+        "description": "Social media planner, analytics, inbox and ads manager for scheduling posts, tracking performance and running campaigns from one dashboard.",
+        "tags": [
+          "social-media-design",
+          "productivity",
+          "automation"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Drag-and-drop content calendar with cross-network scheduling and an AI content assistant",
+          "Analytics and competitor monitoring with automated reports",
+          "Unified inbox for messages and comments across networks",
+          "Smartlinks link-in-bio pages with click tracking",
+          "Google, Facebook and TikTok Ads managed from one dashboard"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17: no exact match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition results on a dated web search (2026-10-17); legal pages confirm an identifiable, registered operator."
+      },
+      "sources": [
+        {
+          "url": "https://metricool.com",
+          "date": "2026-10-17",
+          "note": "product pitch, features, footer legal links"
+        },
+        {
+          "url": "https://metricool.com/pricing",
+          "date": "2026-10-17",
+          "note": "free plan limits and paid plan pricing"
+        },
+        {
+          "url": "https://metricool.com/legal-notice",
+          "date": "2026-10-17",
+          "note": "operating company identity"
+        },
+        {
+          "url": "https://metricool.com/legal-terms/",
+          "date": "2026-10-17",
+          "note": "license/deep-linking/reproduction clauses"
+        }
+      ],
+      "unverified": [
+        "full text of legal-terms page beyond the first 100,000 characters (page truncated by WebFetch) was not read",
+        "whether a plain RL-style text link (no logo/brand use) would count as prohibited \"deep-linking\" under §13.1",
+        "exact RL tags: no dedicated social-media-management tag exists; mapped to closest existing tags pending owner review"
+      ],
+      "injectionSeen": null
+    },
+    "microcopy": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "JS-only single-page app: https://www.microcopy.me returns only a \"Loading microcopies...\" placeholder; /about and /pricing 404; sitemap.xml points only to https://microcopy.vercel.app, which renders only a login/registration screen (no product, pricing or license text reachable without executing JS / a browser render).",
+      "site": {
+        "name": "Microcopy",
+        "url": "https://www.microcopy.me",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.microcopy.me",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.microcopy.me",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": null
+      },
+      "sources": [
+        {
+          "url": "https://www.microcopy.me",
+          "date": "2026-10-17",
+          "note": "homepage only shows a loading placeholder; no content"
+        },
+        {
+          "url": "https://www.microcopy.me/about",
+          "date": "2026-10-17",
+          "note": "404"
+        },
+        {
+          "url": "https://www.microcopy.me/pricing",
+          "date": "2026-10-17",
+          "note": "404"
+        },
+        {
+          "url": "https://www.microcopy.me/sitemap.xml",
+          "date": "2026-10-17",
+          "note": "only URL listed is https://microcopy.vercel.app"
+        },
+        {
+          "url": "https://microcopy.vercel.app",
+          "date": "2026-10-17",
+          "note": "renders only a login/registration screen, no product content"
+        }
+      ],
+      "unverified": [
+        "entire product description, features, pricing and license: page is JS-rendered and returns no usable content via WebFetch on any discovered path"
+      ],
+      "injectionSeen": null
+    },
+    "microsoft-copilot": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "Free tier confirmed first-party (chat, search, image creation; sign-in optional), alive, HTTPS, Microsoft-operated, no listing restriction found. Note: the input URL https://copilot.microsoft.com now 301-redirects to copilot.com, an unrelated client-portal SaaS company, not Microsoft; the live product is at copilot.cloud.microsoft (confirmed via support.microsoft.com and designer.microsoft.com links) and is used as the RL url.",
+      "site": {
+        "name": "Microsoft Copilot",
+        "url": "https://copilot.cloud.microsoft",
+        "alive": true,
+        "operator": "Microsoft"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free to use; sign-in not required but a personal Microsoft account unlocks chat history, image creation and voice; some capabilities have usage limits on the free tier",
+        "paidFrom": "Microsoft 365 Premium ~$19.99/mo folds in the former standalone Copilot Pro ($20/mo, discontinued for new signups around Oct 2025 per third-party trackers); exact current price not confirmed on Microsoft's own pricing page (fetch of copilot.cloud.microsoft/pricing returned 404)",
+        "evidence": {
+          "url": "https://copilot.cloud.microsoft",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Microsoft Services Agreement + Copilot Supplemental Terms (proprietary) · commercial: output usability is use-dependent — Microsoft states it does not claim ownership of prompts/outputs but users must determine their own commercial usability given jurisdiction and use case · attribution: not required · limit: the Copyright Commitment indemnity (per third-party legal commentary) applies only to paid/commercial Copilot services, not the free consumer tier",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://learn.microsoft.com/copilot/terms-of-use",
+          "date": "2026-10-17",
+          "confidence": "second-hand"
+        }
+      },
+      "rl": {
+        "slug": "microsoft-copilot",
+        "type": "AI Tool",
+        "category": "Productivity",
+        "title": "Microsoft Copilot",
+        "description": "Microsoft's free AI chat assistant for web-grounded search, writing help and image creation, with more usage via Microsoft 365 Premium.",
+        "tags": [
+          "ai-tool",
+          "chatbot",
+          "productivity"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "chatgpt",
+          "claude-ai"
+        ],
+        "keyFeatures": [
+          "Free chat with web-grounded search answers; sign-in optional",
+          "Create: AI image generation and content drafting built in",
+          "Copilot in Edge for webpage summaries",
+          "Desktop apps for Windows and Mac, mobile apps for iOS and Android",
+          "Work and personal chat histories kept separate; work answers respect org permissions"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none for the live product (copilot.cloud.microsoft); the originally given domain copilot.microsoft.com now redirects to an unrelated third-party company (copilot.com, a client-portal SaaS product) — flag for owner, do not link the old URL",
+        "notes": "Operator confirmed Microsoft via support.microsoft.com and copilot.cloud.microsoft footer (c) Microsoft 2026; no scam/malware/shutdown hits beyond generic tech-support-scam noise and 2024 security-research coverage of prompt-injection/phishing risks, nothing specific to an ongoing scam"
+      },
+      "sources": [
+        {
+          "url": "https://copilot.cloud.microsoft",
+          "date": "2026-10-17",
+          "note": "live product page, free tier statement, navigation, features"
+        },
+        {
+          "url": "https://support.microsoft.com/topic/cfff4791-694a-4d90-9c9c-1eb3fb28e842",
+          "date": "2026-10-17",
+          "note": "free tier and sign-in rules"
+        },
+        {
+          "url": "https://learn.microsoft.com/copilot/terms-of-use",
+          "date": "2026-10-17",
+          "note": "output ownership / commercial usability language (via search summary, Dec 2023 terms)"
+        }
+      ],
+      "unverified": [
+        "Exact current Copilot Pro / Microsoft 365 Premium price not confirmed first-party (copilot.cloud.microsoft/pricing 404'd)",
+        "Copyright Commitment / commercial-use terms summarized second-hand, dated Dec 2023; not reverified on the live terms page",
+        "No dedicated malware/scam deep search beyond one WebSearch query",
+        "copilot.microsoft.com (input URL) now redirects to an unrelated company's domain (copilot.com); owner should confirm no other RL/automation references still point at copilot.microsoft.com"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/microsoft-copilot.md",
+        "lint": "pass"
+      }
+    },
+    "microsoft-designer": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Free tier is real (free to use with a Microsoft account) but Microsoft's own FAQ states Designer is \"licensed for personal, non-commercial use with your Microsoft account\" — a commercial-use restriction that matters for how RL/the reel can describe it (playbook §4 stop-and-ask trigger). Exact free-vs-paid image-credit numbers also conflict across third-party sources (15/day vs 15/month vs 60/month) and are not confirmed on Microsoft's own page, which returned only a title with no body on fetch (likely JS-rendered).",
+      "site": {
+        "name": "Microsoft Designer",
+        "url": "https://designer.microsoft.com",
+        "alive": true,
+        "operator": "Microsoft"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "\"Yes, Designer is free to use.\" Available for personal use with a free Microsoft account; no Microsoft 365 subscription required for the web app itself. Exact AI image-credit limits not confirmed first-party (third-party sources disagree: 15/day historically, now reported as 15/month free vs ~60/month on paid Microsoft 365 plans)",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://support.microsoft.com/en-us/topic/frequently-asked-questions-about-microsoft-designer-9264654d-22f5-43ac-961d-b35851bbb93f",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://support.microsoft.com/en-us/topic/frequently-asked-questions-about-microsoft-designer-9264654d-22f5-43ac-961d-b35851bbb93f",
+          "date": "2026-10-17",
+          "note": "free/paid status, \"personal, non-commercial use\" license line, account requirements, platforms, features"
+        },
+        {
+          "url": "https://designer.microsoft.com",
+          "date": "2026-10-17",
+          "note": "home page; fetch returned only title/tagline, no body (JS-rendered)"
+        }
+      ],
+      "unverified": [
+        "Exact free vs. paid AI image-generation credit limits (third-party figures conflict: 15/day vs 15/month vs 60/month)",
+        "Full scope of the \"personal, non-commercial use\" restriction — whether it blocks all commercial use of Designer or only certain output, and whether a Microsoft 365 business subscription lifts it",
+        "designer.microsoft.com itself would not render body content for WebFetch (JS page); relied on the support.microsoft.com FAQ instead",
+        "No dedicated malware/scam search run for Designer specifically beyond one general query that found nothing relevant",
+        "Simple Icons has no Microsoft Designer logo (check-icon.mjs exit 1, 2026-10-17)"
+      ],
+      "injectionSeen": null
+    },
+    "microsoft-powerpoint": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Free web tier confirmed first-party (\"Create stunning presentations for free\" at powerpoint.cloud.microsoft) with Copilot/Designer features linked in, but Microsoft's general consumer terms (quoted second-hand from a Microsoft Answers forum post citing aka.ms/useterms) say Microsoft 365 Family/Personal/Basic and \"any other Microsoft 365 app or Service or Office-branded Service\" are for personal, noncommercial use unless the user has separate commercial-use rights — the same kind of commercial-use ambiguity as microsoft-designer, and not confirmed by reading the actual terms text (aka.ms/useterms redirected to an index of PDFs, not the clause itself). Paid-plan pricing for Microsoft 365 Personal/Family/Premium also could not be confirmed first-party: repeated WebFetch attempts on www.microsoft.com/microsoft-365/powerpoint and the Microsoft 365 compare page failed (timeout / ECONNRESET) across 6 retries on 2 URLs with other work in between.",
+      "site": {
+        "name": "Microsoft PowerPoint",
+        "url": "https://www.microsoft.com/microsoft-365/powerpoint",
+        "alive": true,
+        "operator": "Microsoft"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "PowerPoint for the web is free with a Microsoft account (\"Create stunning presentations for free\", powerpoint.cloud.microsoft, confirmed first-party); commercial-use status of the free personal tier is unclear (see verdictReason)",
+        "paidFrom": "Reported second-hand (not Microsoft's own pricing page): Microsoft 365 Personal ~$9.99/mo, Family ~$12.99/mo, Premium ~$19.99/mo (adds more Copilot access) — figures from third-party trackers dated mid-2026, not independently confirmed",
+        "evidence": {
+          "url": "https://powerpoint.cloud.microsoft",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://powerpoint.cloud.microsoft",
+          "date": "2026-10-17",
+          "note": "live web-app landing page, free-tier headline, feature list"
+        },
+        {
+          "url": "https://www.office.com/launch/powerpoint",
+          "date": "2026-10-17",
+          "note": "301-redirects to powerpoint.cloud.microsoft, confirming that is the current web app"
+        },
+        {
+          "url": "https://aka.ms/useterms",
+          "date": "2026-10-17",
+          "note": "redirects to www.microsoft.com/useterms, an index of license PDFs; the noncommercial-use clause text itself was not reached"
+        }
+      ],
+      "unverified": [
+        "Exact current Microsoft 365 Personal/Family/Premium prices not confirmed on Microsoft's own pages (fetch failures: timeout on www.microsoft.com/microsoft-365/powerpoint x2, ECONNRESET on www.microsoft.com/microsoft-365/powerpoint x2 and compare-all-microsoft-365-products x1, 'No response from model' on powerpoint.cloud.microsoft once)",
+        "Whether the free web tier's \"personal, noncommercial use\" restriction (quoted second-hand from a Microsoft community answer) actually applies to PowerPoint for the web, or only to the listed Microsoft 365 Family/Personal/Basic/Sway/OneNote.com services",
+        "Whether built-in stock images/icons/templates in PowerPoint can be used in commercial output (third-party WPS Office posts and one Microsoft Answers quote say Office stock images/icons are licensed for use inside the software only, not standalone or commercial reuse; not verified first-party)",
+        "No dedicated malware/scam search run for PowerPoint specifically",
+        "Simple Icons has no Microsoft PowerPoint logo (check-icon.mjs exit 1, 2026-10-17)"
+      ],
+      "injectionSeen": null
+    },
+    "milkshake": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Milkshake",
+        "url": "https://milkshake.app",
+        "alive": true,
+        "operator": "Codelbee Pty Ltd"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free plan ($0, no card required): free hosting, unlimited links and Cards, unlimited updates, 30 days of Insights analytics, templates/color/font customization, QR code sharing, selling digital files via built-in Stripe checkout (12% Milkshake fee + Stripe's fee); Milkshake branding stays on the site",
+        "paidFrom": "Lite $2.99/month (removes branding); Pro from $5.00/month billed yearly ($59.99/yr) or $6.99/month; Pro+ from $8.33/month billed yearly ($99.99/yr) or $29.99 per 3 months",
+        "evidence": {
+          "url": "https://milkshake.app/pricing/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Milkshake Terms of Service (proprietary, no named license) · commercial: yes, but only selling digital files/text notes/links/tips through Milkshake's own Stripe checkout; no physical goods or subscriptions · attribution: not required · limit: you cannot export or copy your site for use elsewhere, including after cancelling",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://milkshake.app/terms/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "milkshake",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Milkshake",
+        "description": "Free mobile website builder for Instagram and TikTok bios: build a swipeable \"Cards\" site from your phone and sell digital files via Stripe.",
+        "tags": [
+          "website-builder",
+          "ios",
+          "android"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Build a mobile-first website from an iOS or Android app, no desktop needed",
+          "Swipeable \"Cards\" layout designed for an Instagram or TikTok bio link",
+          "Free plan has no card required: unlimited links, Cards and updates, 30 days of analytics",
+          "Sell digital files, text notes, links and tips through built-in Stripe checkout",
+          "Paid Lite/Pro/Pro+ tiers remove branding, add a custom domain, longer analytics and lower selling fees"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17: no exact match (closest fuzzy \"e\")"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown hits in search; a CB Insights comparison page and a 2014 MLKSHK (different site) shutdown story are unrelated; a Cloudflare case study cites 3M+ sites built on it, suggesting it is active"
+      },
+      "sources": [
+        {
+          "url": "https://milkshake.app",
+          "date": "2026-10-17",
+          "note": "what it is, who it's for, free iOS/Android app"
+        },
+        {
+          "url": "https://milkshake.app/pricing/",
+          "date": "2026-10-17",
+          "note": "full plan table: Free/Lite/Pro/Pro+ prices and features"
+        },
+        {
+          "url": "https://milkshake.app/terms/",
+          "date": "2026-10-17",
+          "note": "commercial-use, content-licensing and export restrictions (clauses 4, 7-9, 26-28, 31, 36, 55-58, 66, 72-73)"
+        },
+        {
+          "url": "https://workers.cloudflare.com/built-with/projects/Milkshake",
+          "date": "2026-10-17",
+          "note": "second-hand scale signal (3M+ sites), used only for the safety screen"
+        }
+      ],
+      "unverified": [
+        "exact storage/bandwidth limits on the Free plan are not stated on the pricing page",
+        "legal operator name (Codelbee Pty Ltd) taken from page structured data, not visible marketing copy"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/milkshake.md",
+        "lint": "pass"
+      }
+    },
+    "milled": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "FETCH-FAIL: milled.com and milled.com/pricing returned HTTP 403 Forbidden on two separate WebFetch attempts (home, then retried after other work); looks like bot/anti-scraping protection. Not bypassed per policy, so pricing, license and operator could not be read first-party.",
+      "site": {
+        "name": "Milled",
+        "url": "https://milled.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://milled.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": null,
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "WebSearch found no scam/malware/shutdown/acquisition reports about Milled itself; the search results are pages Milled hosts about third-party malware/phishing news (its own content), not evidence against Milled"
+      },
+      "sources": [
+        {
+          "url": "https://milled.com",
+          "date": "2026-10-17",
+          "note": "attempted fetch, 403 Forbidden"
+        },
+        {
+          "url": "https://milled.com/pricing",
+          "date": "2026-10-17",
+          "note": "attempted retry fetch, 403 Forbidden"
+        }
+      ],
+      "unverified": [
+        "operator / company behind Milled",
+        "free tier terms and any paid plan",
+        "license / terms of use"
+      ],
+      "injectionSeen": null
+    },
+    "mind-map-wizard": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Mind Map Wizard",
+        "url": "https://mindmapwizard.com",
+        "alive": true,
+        "operator": "Linus Schärli (indie developer; GitHub: linus-sch)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan ($0/mo): 3 AI mind maps to start, full mind map editor, export with watermark, share via link; the FAQ says generating from a pasted URL is free and no account is required to try it",
+        "paidFrom": "Pro $27/year (shown with a limited-time \"-33% Birthday Sale\"; header lists it as \"$3.20/mo\"); Enterprise is custom-priced",
+        "evidence": {
+          "url": "https://mindmapwizard.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Hosted app is proprietary (Terms of Use, no named license, outputs provided \"as is\"); the tool's own source code on GitHub is Creative Commons Attribution-NonCommercial 4.0 (CC BY-NC 4.0) · commercial: app use yes within plan limits, but the open-source code itself is non-commercial only · attribution: required for the code under CC BY-NC 4.0 · limit: Terms don't state who owns AI-generated mind maps, and the code license forbids commercial use of the code",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://raw.githubusercontent.com/linus-sch/Mind-Map-Wizard/main/license.md",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "mind-map-wizard",
+        "type": "AI Tool",
+        "category": "Productivity",
+        "title": "Mind Map Wizard",
+        "description": "AI tool that turns a topic, URL or PDF into a mind map in your browser; 3 free maps to start, watermark-free exports on the paid Pro plan.",
+        "tags": [
+          "ai-tool",
+          "productivity",
+          "whiteboard"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Generate a mind map from a typed topic, a pasted URL, a PDF or an image",
+          "Full mind map editor with branch expansion and an AI chat assistant (Pro)",
+          "No account required to try it; free plan includes 3 AI mind maps",
+          "Export maps, with a watermark on the free plan and watermark-free on Pro",
+          "Open-source renderer code published on GitHub under CC BY-NC 4.0"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17: no exact match (closest fuzzy \"d\")"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown hits; thin search results mostly unrelated (other mind-mapping products' shutdown/sale stories, e.g. NovaMind, YouMinds Composer, are not about this tool"
+      },
+      "sources": [
+        {
+          "url": "https://mindmapwizard.com",
+          "date": "2026-10-17",
+          "note": "what it is, free vs Pro vs Enterprise plans and features"
+        },
+        {
+          "url": "https://mindmapwizard.com/terms-of-use.html",
+          "date": "2026-10-17",
+          "note": "output ownership silence, content license grant, usage restrictions (sections 5.2, 5.4, 5.5, 6.2, 6.3, 7, 9)"
+        },
+        {
+          "url": "https://github.com/linus-sch/Mind-Map-Wizard",
+          "date": "2026-10-17",
+          "note": "confirms open-source code repo, README feature list, points to license.md"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/linus-sch/Mind-Map-Wizard/main/license.md",
+          "date": "2026-10-17",
+          "note": "license text: Creative Commons Attribution-NonCommercial 4.0 International"
+        }
+      ],
+      "unverified": [
+        "who owns AI-generated mind map output (Terms of Use is silent)",
+        "whether the \"3 AI mind maps to start\" free allotment renews or is one-time per account/browser",
+        "operator's legal entity (site shows an individual developer name, not a registered company)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/mind-map-wizard.md",
+        "lint": "pass"
+      }
     }
   }
 }

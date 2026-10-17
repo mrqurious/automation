@@ -30625,7 +30625,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "macro",
       "priority": "P2",
       "hasResearch": true
     },
@@ -30651,7 +30651,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "made-by-folk",
       "priority": "P2",
       "hasResearch": true
     },
@@ -30701,7 +30701,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "beta",
-      "rlSlug": null,
+      "rlSlug": "mage-icons",
       "priority": "P3",
       "hasResearch": true
     },
@@ -30727,7 +30727,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "magic-eraser",
       "priority": "P2",
       "hasResearch": true
     },
@@ -30753,7 +30753,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "magic-patterns",
       "priority": "P2",
       "hasResearch": true
     },
@@ -30985,7 +30985,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "mailboard",
       "priority": "P2",
       "hasResearch": true
     },
@@ -31011,7 +31011,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "mailchimp",
       "priority": "P2",
       "hasResearch": true
     },
@@ -31037,7 +31037,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "mailerlite",
       "priority": "P2",
       "hasResearch": true
     },
@@ -31063,7 +31063,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "maintype",
       "priority": "P2",
       "hasResearch": true
     },
@@ -31089,7 +31089,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "maizzle",
       "priority": "P2",
       "hasResearch": true
     },
@@ -31139,7 +31139,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "make",
       "priority": "P2",
       "hasResearch": true
     },
@@ -31219,7 +31219,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "makeswift",
       "priority": "P2",
       "hasResearch": true
     },
@@ -31297,7 +31297,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "manus",
       "priority": "P2",
       "hasResearch": true
     },
@@ -31405,7 +31405,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "marketing-examples",
       "priority": "P2",
       "hasResearch": true
     },
@@ -31457,7 +31457,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "marvel",
       "priority": "P2",
       "hasResearch": true
     },
@@ -31532,12 +31532,12 @@
           "file": "Best Mockup Sites for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "FETCH-FAIL: m3.material.io is a JS-rendered SPA; WebFetch returned only the page title (\"Material Design\") with no body content on home and on /get-started, retried once each, still empty. Could not confirm pricing/license/features first-party.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "material-design-color-system",
@@ -31558,12 +31558,12 @@
           "file": "Best Color Tools and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "FETCH-FAIL: m2.material.io/design/color/the-color-system.html is a JS-rendered SPA; WebFetch returned only the page title (\"Material Design\") with no body content, retried once (also tried the #color-usage-and-palettes anchor), still empty. Could not confirm pricing/license/features first-party.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "material-design-type-scale",
@@ -31584,12 +31584,12 @@
           "file": "Best Free Font Libraries and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "material-symbols",
@@ -31634,12 +31634,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "FETCH-FAIL: home page returned HTTP 403 on two separate attempts; could not read pricing, license or about pages first-party",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "maze",
@@ -31660,12 +31660,12 @@
           "file": "Best UX Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "free tier permanence unclear: the first-party pricing page (maze.co/pricing/) is JS-rendered and shows feature-gating labels ('All plans', 'Enterprise') with 'Limits apply' but no stated plan names, limits or prices; primary CTA is 'Try Maze for free' (trial language). Third-party sources conflict on whether there is a permanent free plan and its limits (1 study/30 responses vs 1 study/month+5 seats vs 3 studies+5 participants, none authoritative)",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "mazeletter",
@@ -31686,12 +31686,12 @@
           "file": "Best Free Font Libraries and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "FETCH-FAIL: home page connection reset (ECONNRESET) on two separate attempts; could not read site, license or download pages first-party. Note: the input site URL is also plain HTTP (not HTTPS), a further flag once reachable",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "mckp-live",
@@ -31712,12 +31712,12 @@
           "file": "Best Mockup Sites for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "mechanic",
@@ -31738,12 +31738,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "media-io",
@@ -31766,12 +31766,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Terms of Service say the service is \"generally provided for private, non-commercial use,\" and free-subscription users grant an irrevocable license for their uploaded content to be used to train AI models while the free subscription lasts — commercial-use permission for the free tier and the AI-training data grant should be confirmed with the owner before listing.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "mediacheatsheet",
@@ -31792,12 +31792,12 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "meditations-in-color",
@@ -31818,12 +31818,12 @@
           "file": "Best Color Tools and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "meet-your-legend",
@@ -31844,12 +31844,12 @@
           "file": "Best Design Communities for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Paid only: the only priced plan (Talent) is 69EUR/month with no free tier; School/Company offers are quote-based with no price or free tier disclosed on the pricing (Offers) page.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "meetgeek",
@@ -31872,12 +31872,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "meetup",
@@ -31898,12 +31898,12 @@
           "file": "Best Design Communities for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Could not read the license/terms page: help.meetup.com/hc/en-us/articles/360027447252 (linked from meetup.com/terms and meetup.com/legal/terms, both of which redirect there) returned HTTP 403 Forbidden on two attempts, and web.archive.org is not reachable from this environment as a fallback. Separately, the given URL is a filtered sub-page (\"All Designers\" topic) of the general Meetup.com platform rather than a standalone product, which is a weaker RL fit even once terms are confirmed.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "melius",
@@ -31924,12 +31924,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Free $0/month plan exists but its own pricing page labels the allowance \"Limited Trial\" with no stated amount or renewal, and Melius's own docs subdomain also could not confirm the Free plan's credits renew monthly (only paid-plan credits are documented as renewing). This reads as a free trial, not a permanent usable free tier, so it fails the \"free trial does not count as free\" rule.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "memojis",
@@ -31950,12 +31950,12 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "FETCH-FAIL: Figma Community plugin page returns HTTP 403 Forbidden on repeated attempts (bot check); cannot read pricing, license, or description first-party.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "memorisely",
@@ -32002,12 +32002,12 @@
           "file": "Best UX Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "mesh",
@@ -32028,12 +32028,12 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "meshy-ai",
@@ -32054,12 +32054,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "mesurer",
@@ -32080,12 +32080,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "meta-ad-library",
@@ -32106,12 +32106,12 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "FETCH-FAIL: WebFetch returned 'socket hang up' on https://www.facebook.com/ads/library/ on 3 attempts (2026-10-17, including one retry after other work); page could not be read to confirm content, access requirements or any listing restriction.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "meta-ai",
@@ -32132,12 +32132,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "FETCH-FAIL: WebFetch returned socket hang up on https://www.meta.ai across 3 attempts (including a retry after other work); could not reach first-party pages to verify product, pricing, or license.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "metricool",
@@ -32158,12 +32158,12 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Metricool's Terms & Conditions (https://metricool.com/legal-terms/, read 2026-10-17) say reproducing or deep-linking to Metricool content \"is not allowed without prior express authorization and by written\" (section 13.1), and pages that link to Metricool may not use its brand/logos without authorization. This could restrict the kind of listing/linking RL does; owner needs to decide whether a plain text link without logo/brand use is acceptable before this is drafted.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "microcopy",
@@ -32184,12 +32184,12 @@
           "file": "Best UX Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "JS-only single-page app: https://www.microcopy.me returns only a \"Loading microcopies...\" placeholder; /about and /pricing 404; sitemap.xml points only to https://microcopy.vercel.app, which renders only a login/registration screen (no product, pricing or license text reachable without executing JS / a browser render).",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "microsoft-copilot",
@@ -32210,12 +32210,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "drafted",
+      "notes": "Free tier confirmed first-party (chat, search, image creation; sign-in optional), alive, HTTPS, Microsoft-operated, no listing restriction found. Note: the input URL https://copilot.microsoft.com now 301-redirects to copilot.com, an unrelated client-portal SaaS company, not Microsoft; the live product is at copilot.cloud.microsoft (confirmed via support.microsoft.com and designer.microsoft.com links) and is used as the RL url.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "microsoft-designer",
@@ -32236,12 +32236,12 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Free tier is real (free to use with a Microsoft account) but Microsoft's own FAQ states Designer is \"licensed for personal, non-commercial use with your Microsoft account\" — a commercial-use restriction that matters for how RL/the reel can describe it (playbook §4 stop-and-ask trigger). Exact free-vs-paid image-credit numbers also conflict across third-party sources (15/day vs 15/month vs 60/month) and are not confirmed on Microsoft's own page, which returned only a title with no body on fetch (likely JS-rendered).",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "microsoft-powerpoint",
@@ -32262,12 +32262,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Free web tier confirmed first-party (\"Create stunning presentations for free\" at powerpoint.cloud.microsoft) with Copilot/Designer features linked in, but Microsoft's general consumer terms (quoted second-hand from a Microsoft Answers forum post citing aka.ms/useterms) say Microsoft 365 Family/Personal/Basic and \"any other Microsoft 365 app or Service or Office-branded Service\" are for personal, noncommercial use unless the user has separate commercial-use rights — the same kind of commercial-use ambiguity as microsoft-designer, and not confirmed by reading the actual terms text (aka.ms/useterms redirected to an index of PDFs, not the clause itself). Paid-plan pricing for Microsoft 365 Personal/Family/Premium also could not be confirmed first-party: repeated WebFetch attempts on www.microsoft.com/microsoft-365/powerpoint and the Microsoft 365 compare page failed (timeout / ECONNRESET) across 6 retries on 2 URLs with other work in between.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "midjourney",
@@ -32372,12 +32372,12 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "milled",
@@ -32398,12 +32398,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "FETCH-FAIL: milled.com and milled.com/pricing returned HTTP 403 Forbidden on two separate WebFetch attempts (home, then retried after other work); looks like bot/anti-scraping protection. Not bypassed per policy, so pricing, license and operator could not be read first-party.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "millefeuille-mockup",
@@ -32450,12 +32450,12 @@
           "file": "Best UX Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "mindly",
@@ -59927,15 +59927,15 @@
     "byStatus": {
       "deferred-trial": 232,
       "deferred-paid": 216,
-      "blocked": 392,
-      "drafted": 426,
-      "rejected": 127,
+      "blocked": 407,
+      "drafted": 441,
+      "rejected": 129,
       "in-rl": 34,
-      "researched": 15,
-      "todo": 837
+      "researched": 13,
+      "todo": 807
     },
     "todoByPriority": {
-      "P2": 799,
+      "P2": 769,
       "P3": 37,
       "P1": 1
     }
