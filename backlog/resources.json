@@ -54918,6 +54918,2702 @@
         "icon"
       ],
       "injectionSeen": null
+    },
+    "inclusive-design-principles": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Inclusive Design Principles",
+        "url": "https://inclusivedesignprinciples.info",
+        "alive": true,
+        "operator": "Contributors Henny Swan, Ian Pouncey, Heydon Pickering, Leonie Watson (no organisation named)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Public web page, no cost or sign-in mentioned",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://inclusivedesignprinciples.info",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Creative Commons badge linking to CC BY-SA 4.0 (badge image references 2.0 UK) · commercial: yes (per CC BY-SA) · attribution: required · share-alike",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://inclusivedesignprinciples.info",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "inclusive-design-principles",
+        "type": "Resource",
+        "category": "Design",
+        "title": "Inclusive Design Principles",
+        "description": "Seven principles for designing websites and apps that work for people with permanent, temporary, situational or changing disabilities.",
+        "tags": [
+          "ui-ux",
+          "web",
+          "inspiration"
+        ],
+        "relatedResources": [
+          "design-principles"
+        ],
+        "similarResources": [
+          "design-principles"
+        ],
+        "keyFeatures": [
+          "Seven principles: comparable experience, consider situation, be consistent, give control, offer choice, prioritise content, add value",
+          "Aimed at designers, developers and product owners",
+          "Covers permanent, temporary and situational disabilities",
+          "Downloadable illustrated posters (zip, about 2MB)"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-17: no Simple Icons match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated scam search; static principles page"
+      },
+      "sources": [
+        {
+          "url": "https://inclusivedesignprinciples.info",
+          "date": "2026-10-17",
+          "note": "content, contributors, CC badge, posters"
+        }
+      ],
+      "unverified": [
+        "CC license version inconsistent (4.0 link vs 2.0 UK image)",
+        "operator not named",
+        "no dedicated safety search",
+        "no logo checked"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/inclusive-design-principles.md",
+        "lint": "pass"
+      }
+    },
+    "inclusivecolors": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Homepage states no pricing, license or account info; only third-party sources (Reddit comment by apparent maker, listings) say it is free. Free permanence unconfirmed first-party.",
+      "site": {
+        "name": "InclusiveColors",
+        "url": "https://www.inclusivecolors.com",
+        "alive": true,
+        "operator": "Sean Wilson (seanw), also makes Checkbot"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Reported free by third parties only; not stated on homepage",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.inclusivecolors.com",
+          "date": "2026-10-17",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.inclusivecolors.com",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "inclusivecolors",
+        "type": "Tool",
+        "category": "Design",
+        "title": "InclusiveColors",
+        "description": "Web editor for branded color palettes with tints and shades, live WCAG contrast checks and export to Tailwind, CSS variables, DTCG and ASE.",
+        "tags": [
+          "color-palette",
+          "ui-ux",
+          "web"
+        ],
+        "relatedResources": [
+          "colour-contrast-analyser"
+        ],
+        "similarResources": [
+          "adobe-color",
+          "colour-contrast-analyser"
+        ],
+        "keyFeatures": [
+          "HSLuv color picker",
+          "Contrast checking while editing for WCAG, ADA and Section 508",
+          "Exports Tailwind config, CSS variables, DTCG, ASE"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-17: no Simple Icons match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Search shows maker presence on Dribbble/Reddit and third-party listings; no scam signals"
+      },
+      "sources": [
+        {
+          "url": "https://www.inclusivecolors.com",
+          "date": "2026-10-17",
+          "note": "features, maker"
+        },
+        {
+          "url": "https://www.inclusivecolors.com/pricing",
+          "date": "2026-10-17",
+          "note": "404"
+        },
+        {
+          "url": "https://ministryoftesting.com/software-testing-tools/inclusive-colors",
+          "date": "2026-10-17",
+          "note": "search result listing (not opened)"
+        }
+      ],
+      "unverified": [
+        "pricing/free permanence",
+        "license/terms",
+        "whether account required"
+      ],
+      "injectionSeen": null
+    },
+    "infinite-canvas": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Infinite Canvas",
+        "url": "https://infinitecanvas.tools",
+        "alive": true,
+        "operator": "Arun and Muse (museapp.com)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Public educational site and app gallery, no pricing or sign-in",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://infinitecanvas.tools",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Site says it is open source (repo github.com/museapphq/infinitecanvas.tools) but names no license · listed apps have their own terms",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://infinitecanvas.tools",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "infinite-canvas",
+        "type": "Website",
+        "category": "Productivity",
+        "title": "Infinite Canvas",
+        "description": "Explains the infinite canvas idea with a history timeline from 1963 and a gallery of 88 apps built on zoomable, spatial canvases.",
+        "tags": [
+          "whiteboard",
+          "productivity",
+          "inspiration"
+        ],
+        "relatedResources": [
+          "tldraw",
+          "excalidraw"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Intro to what defines an infinite canvas",
+          "History timeline",
+          "App gallery of 88 apps with screenshots and links",
+          "Open source site"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-17: no Simple Icons match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://infinitecanvas.tools",
+          "date": "2026-10-17",
+          "note": "purpose, credits"
+        },
+        {
+          "url": "https://infinitecanvas.tools/gallery",
+          "date": "2026-10-17",
+          "note": "88 apps, repo link"
+        }
+      ],
+      "unverified": [
+        "site license not named",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/infinite-canvas.md",
+        "lint": "pass"
+      }
+    },
+    "infinity-maps": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Infinity Maps",
+        "url": "https://infinitymaps.io",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan EUR 0: 3 maps, up to 300 cards per map, 50 MB cloud space, permanent read access",
+        "paidFrom": "Pro EUR 7.99/month or EUR 79.99/year",
+        "evidence": {
+          "url": "https://infinitymaps.io/preise/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · terms page not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://infinitymaps.io",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "infinity-maps",
+        "type": "Tool",
+        "category": "Productivity",
+        "title": "Infinity Maps",
+        "description": "Zoomable, interlinked knowledge maps that blend whiteboard and wiki, for solo or team projects, with templates and real-time collaboration.",
+        "tags": [
+          "whiteboard",
+          "collaboration",
+          "productivity"
+        ],
+        "relatedResources": [
+          "mural"
+        ],
+        "similarResources": [
+          "mural",
+          "affine"
+        ],
+        "keyFeatures": [
+          "Deeply zoomable knowledge maps",
+          "Real-time collaboration",
+          "Templates (selection on Pro)",
+          "Free plan: 3 maps, 300 cards per map",
+          "Offline mode and integrations announced as coming soon"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-17: no Simple Icons match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Site current (2026 footer); no dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://infinitymaps.io",
+          "date": "2026-10-17",
+          "note": "description, sign up free"
+        },
+        {
+          "url": "https://infinitymaps.io/preise/",
+          "date": "2026-10-17",
+          "note": "plans and prices"
+        }
+      ],
+      "unverified": [
+        "operator",
+        "terms/license page",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/infinity-maps.md",
+        "lint": "pass"
+      }
+    },
+    "inspotype": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "FETCH-FAIL: home page returned only the title \"Inspotype\" (JS-rendered, no content readable); pricing/free tier could not be confirmed",
+      "site": {
+        "name": "Inspotype",
+        "url": "https://www.inspotype.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.inspotype.com",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.inspotype.com",
+          "date": "2026-10-17",
+          "note": "two fetches returned only the page title"
+        }
+      ],
+      "unverified": [
+        "what the product offers",
+        "free tier and limits",
+        "operator",
+        "license/terms"
+      ],
+      "injectionSeen": null
+    },
+    "instatus": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Instatus",
+        "url": "https://instatus.com",
+        "alive": true,
+        "operator": "Instatus, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Starter plan marked \"Free forever plan\": 200 subscribers, 15 monitors with 2-minute checks, 5 team members plus 2 on-call, email alerts only, public status page without custom domain",
+        "paidFrom": "Pro from $20/month (per page title; plan table showed no figure); Pro/Business have \"Start trial\" buttons, length not stated",
+        "evidence": {
+          "url": "https://instatus.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: not stated · attribution: not stated · terms page not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://instatus.com/terms",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "instatus",
+        "type": "Tool",
+        "category": "Business",
+        "title": "Instatus",
+        "description": "Status page and uptime monitoring service with a free forever plan; publish incident updates and alert subscribers when your site goes down.",
+        "tags": [
+          "automation",
+          "productivity",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Customizable public or private status pages for your services",
+          "Uptime monitoring with 2-minute checks on the free plan",
+          "Incident response with Slack and Teams actions",
+          "Subscriber notifications for incidents and maintenance",
+          "Free plan includes 5 team members plus 2 on-call"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "instatus",
+          "fillColor": "#4EE3C2",
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated scam/shutdown search run; site live, linked customers listed"
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/instatus/",
+          "date": "2026-10-17",
+          "note": "resolved own site instatus.com"
+        },
+        {
+          "url": "https://instatus.com/",
+          "date": "2026-10-17",
+          "note": "features, operator, footer"
+        },
+        {
+          "url": "https://instatus.com/pricing",
+          "date": "2026-10-17",
+          "note": "free plan limits"
+        }
+      ],
+      "unverified": [
+        "terms of service (/terms 404; footer has only privacy \"Policies\")",
+        "Pro trial length and exact monthly price",
+        "no dedicated safety search",
+        "bgColor not decided (fillColor #4EE3C2 is light)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/instatus.md",
+        "lint": "pass"
+      }
+    },
+    "integrately": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Pricing page lists a Free plan (100 tasks) but does not say it is permanent; \"14 Day FREE Trial\" wording also appears; terms page not read (404 at /terms-of-use)",
+      "site": {
+        "name": "Integrately",
+        "url": "https://integrately.com",
+        "alive": true,
+        "operator": "CompanyHub"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan: 100 tasks (reset period not stated)",
+        "paidFrom": "Starter $19.99/month billed annually (2,000 tasks); Professional 10,000, Growth 30,000, Business 150,000 tasks",
+        "evidence": {
+          "url": "https://integrately.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: not stated · terms not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://integrately.com",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "integrately",
+        "type": "Tool",
+        "category": "Productivity",
+        "title": "Integrately",
+        "description": "One-click app automation: pick a prebuilt workflow, connect your accounts and activate it. Free plan covers 100 tasks.",
+        "tags": [
+          "automation",
+          "no-code",
+          "productivity"
+        ],
+        "relatedResources": [
+          "ifttt",
+          "n8n"
+        ],
+        "similarResources": [
+          "ifttt",
+          "n8n"
+        ],
+        "keyFeatures": [
+          "20 million+ prebuilt automations (site claim)",
+          "1,500+ integrated apps (site claim)",
+          "Select, connect and activate in one click",
+          "Team will build custom automations at no extra cost (site claim)"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Not in Simple Icons (check-icon exit 1, 2026-10-17)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search 2026-10-17 found no acquisition/shutdown/scam reports; HubSpot marketplace lists it as built by CompanyHub (3.9 rating, 8 reviews)"
+      },
+      "sources": [
+        {
+          "url": "https://integrately.com/pricing",
+          "date": "2026-10-17",
+          "note": "plans and limits"
+        },
+        {
+          "url": "https://integrately.com/",
+          "date": "2026-10-17",
+          "note": "features, operator"
+        },
+        {
+          "url": "https://ecosystem.hubspot.com/marketplace/apps/integrately",
+          "date": "2026-10-17",
+          "note": "safety search result"
+        }
+      ],
+      "unverified": [
+        "whether free plan is permanent and its reset period",
+        "terms/listing clause",
+        "14-day trial scope",
+        "site claims (20M automations, 1,500 apps) not independently checked"
+      ],
+      "injectionSeen": null
+    },
+    "intercom-blog": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Intercom Blog",
+        "url": "https://www.intercom.com/blog/",
+        "alive": true,
+        "operator": "Intercom"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Articles readable without login or paywall visible on listing",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.intercom.com/blog/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Editorial content, rights not stated · link only",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.intercom.com/blog/",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "intercom-blog",
+        "type": "Website",
+        "category": "Design",
+        "title": "Intercom Blog",
+        "description": "Intercom's blog on building and designing products, with posts on product design, pricing and customer experience.",
+        "tags": [
+          "ui-ux",
+          "inspiration",
+          "web"
+        ],
+        "relatedResources": [
+          "ideo-blog"
+        ],
+        "similarResources": [
+          "ideo-blog"
+        ],
+        "keyFeatures": [
+          "Articles from Intercom's product and design teams",
+          "Regular posts: latest listed 9 September 2026",
+          "Free to read, no login seen on the listing",
+          "Topics include product, pricing and AI customer service"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "intercom",
+          "fillColor": "#6AFDEF",
+          "bgColor": "#1F1F1F",
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 (bgColor is a contrast choice, not from brand)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Well-known company; no dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://www.intercom.com/blog/",
+          "date": "2026-10-17",
+          "note": "activity, dates, no gating on listing"
+        }
+      ],
+      "unverified": [
+        "/blog/product-and-design/ returns 404; listing URL changed to /blog/",
+        "article pages and terms not read",
+        "no dedicated safety search",
+        "company blog (brand content); fit with Design category is editorial judgment"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/intercom-blog.md",
+        "lint": "pass"
+      }
+    },
+    "interface-index": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Interface Index",
+        "url": "https://interface-index.com",
+        "alive": true,
+        "operator": "Stephan Bogner (independent designer)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Browsing the UI examples gallery shows no login or paywall on the home page",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://interface-index.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Site content: All rights reserved (footer) · commercial: not stated · attribution: not stated · screenshots belong to their apps; use as inspiration/reference",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://interface-index.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "interface-index",
+        "type": "Website",
+        "category": "Design",
+        "title": "Interface Index",
+        "description": "Crowdsourced gallery of UI examples from B2B, SaaS and desktop apps, browsable by element type such as button, card, banner and sidebar.",
+        "tags": [
+          "inspiration",
+          "ui-ux",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "collect-ui",
+          "a1-gallery",
+          "daily-ui"
+        ],
+        "similarResources": [
+          "collect-ui",
+          "a1-gallery",
+          "cta-gallery"
+        ],
+        "keyFeatures": [
+          "About 345 UI examples from real B2B, SaaS and desktop apps",
+          "Browse by popular elements (banner, button, card, sidebar)",
+          "Alphabetical tag index with counts",
+          "Search and a Contribute link for submitting examples"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Not in Simple Icons (check-icon exit 2)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam or shutdown search run beyond home page read"
+      },
+      "sources": [
+        {
+          "url": "https://interface-index.com",
+          "date": "2026-10-17",
+          "note": "description, 345 examples, author, nav, footer rights"
+        }
+      ],
+      "unverified": [
+        "Pricing page absent; free status inferred from no paywall on home",
+        "No license/terms for screenshots",
+        "Safety search not run"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/interface-index.md",
+        "lint": "pass"
+      }
+    },
+    "invoko": {
+      "researchedOn": "2026-10-17",
+      "verdict": "skip",
+      "verdictReason": "invoko.ai 301-redirects to tryclico.com (Clico, a different AI workspace product, which has only a 'For Invoko users' link); Invoko as the described Mac voice assistant is not reachable; no beta pricing verifiable.",
+      "site": {
+        "name": "Invoko",
+        "url": "https://invoko.ai",
+        "alive": false,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://tryclico.com/",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Domain redirects to Clico; possible rebrand, unconfirmed"
+      },
+      "sources": [
+        {
+          "url": "https://invoko.ai",
+          "date": "2026-10-17",
+          "note": "301 to https://tryclico.com/"
+        },
+        {
+          "url": "https://tryclico.com/",
+          "date": "2026-10-17",
+          "note": "Clico: Free $0 200 credits/mo, Pro $19.90, Max $49.90; only a 'For Invoko users' link; no rename statement"
+        }
+      ],
+      "unverified": [
+        "Whether Clico is the Invoko rebrand",
+        "Invoko beta status/pricing",
+        "Clico /invoko page not read"
+      ],
+      "injectionSeen": "tryclico.com has 'Ask ChatGPT/Claude/Perplexity/Grok' buttons with prefilled prompts telling an assistant to use the site as a source; promotional, not acted on"
+    },
+    "ionicons": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Ionicons",
+        "url": "https://ionic.io/ionicons",
+        "alive": true,
+        "operator": "Ionic (an OutSystems company)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Fully free and open source, no paid plan seen",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://ionic.io/ionicons",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT · commercial: yes · attribution: license notice kept · limit: provided as-is under MIT",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/ionic-team/ionicons",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "ionicons",
+        "type": "Icon Set",
+        "category": "Design",
+        "title": "Ionicons",
+        "description": "Open source MIT icon set from Ionic with about 1,300 SVG icons for web, iOS, Android and desktop apps, plus a designer pack download.",
+        "tags": [
+          "icon-library",
+          "open-source",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "feather-icons",
+          "heroicons",
+          "bootstrap-icons"
+        ],
+        "similarResources": [
+          "feather-icons",
+          "heroicons",
+          "eva-icons"
+        ],
+        "keyFeatures": [
+          "About 1,300 icons in SVG format",
+          "MIT licensed and open source",
+          "Made for web, iOS, Android and desktop apps",
+          "Downloadable designer pack and cheatsheet",
+          "Icon requests via GitHub issues"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons has Ionic, not Ionicons (different product); not used"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Official Ionic domain and GitHub repo; no shutdown search run"
+      },
+      "sources": [
+        {
+          "url": "https://ionic.io/ionicons",
+          "date": "2026-10-17",
+          "note": "MIT statement, Ionic/OutSystems operator, features"
+        },
+        {
+          "url": "https://github.com/ionic-team/ionicons",
+          "date": "2026-10-17",
+          "note": "MIT, 1,300 icons"
+        }
+      ],
+      "unverified": [
+        "Latest release/version not read",
+        "Safety search not run"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/ionicons.md",
+        "lint": "pass"
+      }
+    },
+    "ip-as-logo": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "ipaslogo.com returns only the title 'IP as Logo Skill' to the fetcher (JS page); free/commercial-use claims come only from the GitHub README (second-hand); operator unnamed and site is a companion to an AI agent skill.",
+      "site": {
+        "name": "IP as Logo",
+        "url": "https://ipaslogo.com",
+        "alive": true,
+        "operator": "s1dashu (GitHub account, unverified)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "README says logos can be downloaded free and every logo is free for commercial use (second-hand)",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://github.com/s1dashu/ip-as-logo-skill",
+          "date": "2026-10-17",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "Logos: README says free for commercial use · skill code MIT · site terms not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://github.com/s1dashu/ip-as-logo-skill",
+          "date": "2026-10-17",
+          "confidence": "second-hand"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Site content could not be read; /library returned 404"
+      },
+      "sources": [
+        {
+          "url": "https://ipaslogo.com",
+          "date": "2026-10-17",
+          "note": "only title 'IP as Logo Skill' returned"
+        },
+        {
+          "url": "https://ipaslogo.com/library",
+          "date": "2026-10-17",
+          "note": "404"
+        },
+        {
+          "url": "https://github.com/s1dashu/ip-as-logo-skill",
+          "date": "2026-10-17",
+          "note": "README: free library, commercial use, Cloudflare R2 + Supabase, MIT skill"
+        }
+      ],
+      "unverified": [
+        "Logo count ('thousands' from directory description only)",
+        "First-party terms",
+        "Operator identity"
+      ],
+      "injectionSeen": null
+    },
+    "ira-design": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Ira Design",
+        "url": "https://iradesign.io",
+        "alive": true,
+        "operator": "Creative Tim"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Illustration components free to download; no price or limit shown on the home page",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://iradesign.io",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT License (per home page) · commercial: yes (commercial or personal projects) · attribution: not confirmed · limit: Terms and Licenses pages not read",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://iradesign.io",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "ira-design",
+        "type": "Stock Media",
+        "category": "Design",
+        "title": "Ira Design",
+        "description": "Free gradient and hand-drawn sketch illustration components you can mix into your own illustrations, released under the MIT License by Creative Tim.",
+        "tags": [
+          "stock-illustrations",
+          "graphic-design"
+        ],
+        "relatedResources": [
+          "absurd-design",
+          "humaaans"
+        ],
+        "similarResources": [
+          "illustrations",
+          "highlights"
+        ],
+        "keyFeatures": [
+          "Gradient-based illustration components",
+          "Hand-drawn sketch components",
+          "Compose your own illustrations from the parts",
+          "Free download under the MIT License, commercial use allowed"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated scam/shutdown search run; site loads and names its operator"
+      },
+      "sources": [
+        {
+          "url": "https://iradesign.io",
+          "date": "2026-10-17",
+          "note": "description, MIT license claim, operator"
+        }
+      ],
+      "unverified": [
+        "no pricing page or Terms/Licenses page read",
+        "no safety search run",
+        "freshness of the project (last update) not checked",
+        "whether attribution is required"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/ira-design.md",
+        "lint": "pass"
+      }
+    },
+    "isocons": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "JS-only home page: WebFetch returned only the word 'Isocons'; pricing and terms unreadable. A third-party Eagle listing claims CC BY 4.0 and 1,000+ icons (second-hand).",
+      "site": {
+        "name": "Isocons",
+        "url": "https://www.isocons.app",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.isocons.app",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.isocons.app",
+          "date": "2026-10-17",
+          "note": "page returned only the name"
+        },
+        {
+          "url": "https://community-en.eagle.cool/resource/isocons-isometric-icons",
+          "date": "2026-10-17",
+          "note": "second-hand: CC BY 4.0, 1,000+ icons (search snippet only)"
+        }
+      ],
+      "unverified": [
+        "pricing",
+        "license (second-hand CC BY 4.0 only)",
+        "operator",
+        "safety"
+      ],
+      "injectionSeen": null
+    },
+    "it-s-nice-that": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Editorial magazine, not a tool; home page does not state that reading is free (has an 'Account' / 'Extra nice' menu) and Terms were not read. Owner to decide whether to list publications as Website/inspiration.",
+      "site": {
+        "name": "It's Nice That",
+        "url": "https://www.itsnicethat.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Articles appear without paywall notices on the home page; not stated explicitly",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.itsnicethat.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.itsnicethat.com",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "its-nice-that",
+        "type": "Website",
+        "category": "Design",
+        "title": "It's Nice That",
+        "description": "Creative-industry publication covering projects, creatives, opinion, resources and culture, with a talent showcase and a creative jobs board.",
+        "tags": [
+          "inspiration",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "archives-design"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Articles on projects and creatives",
+          "Insights, opinion and advice pieces",
+          "Ones to Watch talent showcase",
+          "If You Could creative jobs board",
+          "Newsletter sign-up"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Long-running publication (tagline 'Since 2007'); no safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://www.itsnicethat.com",
+          "date": "2026-10-17",
+          "note": "sections, tagline, footer links, account menu"
+        }
+      ],
+      "unverified": [
+        "whether all content is free to read",
+        "Terms of Service not read",
+        "Account/Extra nice features unknown",
+        "no safety search run",
+        "operator"
+      ],
+      "injectionSeen": null
+    },
+    "itg": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "ITG (Illustrations To Go)",
+        "url": "https://itg.digital",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan: unlimited customizing in the browser, JPG downloads only, link-back attribution required; download cap shown as 10 on the pricing section but 100 in the FAQ (inconsistent)",
+        "paidFrom": "1 Year plan $19/month (billing period unclear); 1 month plan $28/month, up to 250 downloads a month",
+        "evidence": {
+          "url": "https://itg.digital",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "ITG License Agreement · commercial: yes, incl. free plan when the link-back to itg.digital is shown · attribution: required on free plan (s.7.3) · limit: no resale, sublicensing or redistribution (s.5.1, 7.4)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://itg.digital/license",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "itg",
+        "type": "Tool",
+        "category": "Design",
+        "title": "ITG - Illustrations To Go",
+        "description": "Browser-based illustration builder with 1,500+ customizable vector illustrations; free JPG downloads with a link-back, paid plans add SVG and PNG.",
+        "tags": [
+          "stock-illustrations",
+          "stock-vectors",
+          "graphic-design"
+        ],
+        "relatedResources": [
+          "illustrations",
+          "absurd-design"
+        ],
+        "similarResources": [
+          "humaaans",
+          "illustration-kit"
+        ],
+        "keyFeatures": [
+          "Customize vector illustrations in the browser, no install",
+          "More than 1,500 vector illustrations",
+          "Free plan with JPG downloads and a required link-back",
+          "Paid plans add SVG, PNG and editable files",
+          "Custom illustrations on demand as a subscription"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated scam/shutdown search run"
+      },
+      "sources": [
+        {
+          "url": "https://itg.digital",
+          "date": "2026-10-17",
+          "note": "plans, features, FAQ"
+        },
+        {
+          "url": "https://itg.digital/license",
+          "date": "2026-10-17",
+          "note": "license sections 4.1, 5.1, 6.2, 7.3, 7.4"
+        }
+      ],
+      "unverified": [
+        "free download cap (10 vs 100)",
+        "1 Year plan billing period",
+        "operator",
+        "combination count claims inconsistent (1,000,000 vs 100,000)",
+        "no safety search run",
+        "'beta with unlimited access' details"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/itg.md",
+        "lint": "pass"
+      }
+    },
+    "its-hover": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Its Hover",
+        "url": "https://itshover.com",
+        "alive": true,
+        "operator": "Abhijit (individual author)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Open-source animated React icon components; no prices or paid plan shown (sponsorship and donations only)",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://itshover.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Apache-2.0 (GitHub license badge) · commercial: yes (per Apache-2.0) · attribution: notice retention per Apache-2.0 · limit: README says MIT, conflicting",
+        "openSource": true,
+        "spdx": "Apache-2.0",
+        "evidence": {
+          "url": "https://github.com/itshover/itshover",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "its-hover",
+        "type": "Icon Set",
+        "category": "Design",
+        "title": "Its Hover",
+        "description": "Open source library of animated icons shipped as editable React components with built-in motion, made to drop into Next.js and shadcn projects.",
+        "tags": [
+          "icon-library",
+          "open-source",
+          "web"
+        ],
+        "relatedResources": [
+          "lucide-icons",
+          "heroicons"
+        ],
+        "similarResources": [
+          "lucide-icons"
+        ],
+        "keyFeatures": [
+          "186+ animated icons per the repo README",
+          "Editable React components with motion built in",
+          "Works with Next.js and shadcn setups",
+          "Community-owned, source on GitHub",
+          "Browse and preview icons on the site"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no Simple Icons match, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "GitHub repo itshover/itshover with 2.7k stars; no dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://itshover.com",
+          "date": "2026-10-17",
+          "note": "description, author, sponsorship, no pricing"
+        },
+        {
+          "url": "https://github.com/itshover/itshover",
+          "date": "2026-10-17",
+          "note": "license, stars, icon count"
+        }
+      ],
+      "unverified": [
+        "license conflict: GitHub shows Apache-2.0, README says MIT",
+        "last commit date not seen",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/its-hover.md",
+        "lint": "pass"
+      }
+    },
+    "ixdf": {
+      "researchedOn": "2026-10-17",
+      "verdict": "skip",
+      "verdictReason": "Paid membership model; no permanent free tier confirmed (pricing page 404, home shows only membership CTA and 14-day money-back guarantee)",
+      "site": {
+        "name": "IxDF",
+        "url": "https://ixdf.org",
+        "alive": true,
+        "operator": "Interaction Design Foundation"
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://ixdf.org",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://ixdf.org/",
+          "date": "2026-10-17",
+          "note": "offerings, membership CTA, money-back guarantee"
+        },
+        {
+          "url": "https://ixdf.org/pricing",
+          "date": "2026-10-17",
+          "note": "404"
+        }
+      ],
+      "unverified": [
+        "membership price not read",
+        "whether any content is free"
+      ],
+      "injectionSeen": null
+    },
+    "ixdf-community-meetups": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Local groups page does not state meetup cost; part of a paid-membership org (members can organize); a sub-section, not a standalone tool",
+      "site": {
+        "name": "IxDF Community Meetups",
+        "url": "https://ixdf.org/community",
+        "alive": true,
+        "operator": "Interaction Design Foundation"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Page says no designer title needed, 'Curiosity and good coffee are the only requirements'; cost not stated",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://ixdf.org/community",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://ixdf.org/community",
+          "date": "2026-10-17",
+          "note": "meetup description, eligibility"
+        }
+      ],
+      "unverified": [
+        "whether meetups are free",
+        "per-meetup signup requirements"
+      ],
+      "injectionSeen": null
+    },
+    "jesse-showalter": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "FETCH-FAIL: YouTube channel page returned only the title; no description, stats or upload data; web search did not identify the channel",
+      "site": {
+        "name": "Jesse Showalter",
+        "url": "https://www.youtube.com/channel/UCvBGFeXbBrq3W9_0oNLJREQ",
+        "alive": true,
+        "operator": "Jesse Showalter (individual)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.youtube.com/channel/UCvBGFeXbBrq3W9_0oNLJREQ",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.youtube.com/channel/UCvBGFeXbBrq3W9_0oNLJREQ",
+          "date": "2026-10-17",
+          "note": "title only"
+        }
+      ],
+      "unverified": [
+        "channel content, activity, subscriber count"
+      ],
+      "injectionSeen": null
+    },
+    "jetboost": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Free plan is labelled a 'Free Unlimited Trial' and only works on webflow.io sites (custom domain needs paid); permanence/fit as 'free' is unclear",
+      "site": {
+        "name": "Jetboost",
+        "url": "https://www.jetboost.io",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan: $0, all Boosters, 5K monthly visitors per site, no custom domain (webflow.io only)",
+        "paidFrom": "Core $19/month, billed yearly",
+        "evidence": {
+          "url": "https://www.jetboost.io/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: yes on paid plans · terms not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.jetboost.io",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "jetboost",
+        "type": "Tool",
+        "category": "Development",
+        "title": "Jetboost",
+        "description": "No-code add-on for Webflow that adds live search, filtering, sorting, favoriting and maps to CMS collections without custom code.",
+        "tags": [
+          "no-code",
+          "web",
+          "website-builder"
+        ],
+        "relatedResources": [
+          "webflow"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Real-time search over a CMS list",
+          "Dynamic filtering by category or tag",
+          "Favoriting with membership tool integrations",
+          "CMS map, pagination, sorting, lightbox, auto-archiving"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons has no exact match (check-icon, 2026-10-17)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://www.jetboost.io",
+          "date": "2026-10-17",
+          "note": "what it is, features, no operator entity named"
+        },
+        {
+          "url": "https://www.jetboost.io/pricing",
+          "date": "2026-10-17",
+          "note": "plans and free plan limits"
+        }
+      ],
+      "unverified": [
+        "legal operator",
+        "terms of service",
+        "whether free plan is permanent or a trial",
+        "no safety search"
+      ],
+      "injectionSeen": null
+    },
+    "jetbrains-mono": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "JetBrains Mono",
+        "url": "https://www.jetbrains.com/lp/mono/",
+        "alive": true,
+        "operator": "JetBrains"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Free and open source font, download as zip",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.jetbrains.com/lp/mono/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "OFL-1.1 · commercial: yes · attribution: not required · font may not be sold on its own",
+        "openSource": true,
+        "spdx": "OFL-1.1",
+        "evidence": {
+          "url": "https://github.com/JetBrains/JetBrainsMono",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "jetbrains-mono",
+        "type": "Font",
+        "category": "Development",
+        "title": "JetBrains Mono",
+        "description": "Free open source monospaced typeface for developers with taller lowercase letters, code ligatures and many OpenType alternates.",
+        "tags": [
+          "typography",
+          "open-source"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Increased x-height for readability",
+          "Programming ligatures, toggleable; NL variant without them",
+          "8 weights, Thin to ExtraBold, each with italics",
+          "Stylistic sets ss01-20 and character variants cv01-99"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons has no exact match (check-icon, 2026-10-17)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Official JetBrains site; no dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://www.jetbrains.com/lp/mono/",
+          "date": "2026-10-17",
+          "note": "free and open source, features, v1.0.3"
+        },
+        {
+          "url": "https://github.com/JetBrains/JetBrainsMono",
+          "date": "2026-10-17",
+          "note": "OFL-1.1, weights, OpenType features"
+        }
+      ],
+      "unverified": [
+        "glyph count",
+        "exact OFL text not read",
+        "no safety search",
+        "category Development vs Design is a judgment call"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/jetbrains-mono.md",
+        "lint": "pass"
+      }
+    },
+    "jev": {
+      "researchedOn": "2026-10-17",
+      "verdict": "skip",
+      "verdictReason": "Paid per-token API in early access ($42 per billion input tokens); no free tier mentioned",
+      "site": {
+        "name": "Jev",
+        "url": "https://typesafe.ai",
+        "alive": true,
+        "operator": "TypeSafe AI"
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "$42 per billion input tokens (usage-based)",
+        "evidence": {
+          "url": "https://typesafe.ai",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://typesafe.ai",
+          "date": "2026-10-17",
+          "note": "product, early access, token price, no free tier mentioned"
+        }
+      ],
+      "unverified": [
+        "whether any free credits exist",
+        "license/terms not read"
+      ],
+      "injectionSeen": "None found; page has base64 blocks that decode to harmless code, an image and a slogan"
+    },
+    "jimdo": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Jimdo",
+        "url": "https://www.jimdo.com",
+        "alive": true,
+        "operator": "Jimdo (Germany)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Home page says 'No credit card. Free forever.'; free-plan limits not read first-party (a June 2026 comparison reports 5 pages, 500 MB, Jimdo subdomain; free sites show Jimdo ads)",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.jimdo.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: yes on paid plans · terms not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.jimdo.com",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "jimdo",
+        "type": "Tool",
+        "category": "Business",
+        "title": "Jimdo",
+        "description": "Website and small-business platform with an AI site builder, online store, bookings, invoicing and a free plan for independent businesses.",
+        "tags": [
+          "website-builder",
+          "no-code",
+          "web"
+        ],
+        "relatedResources": [
+          "squarespace",
+          "carrd"
+        ],
+        "similarResources": [
+          "squarespace",
+          "webflow"
+        ],
+        "keyFeatures": [
+          "AI-generated websites with copy and images",
+          "Online store with one-click checkout",
+          "Online bookings and smart forms",
+          "Invoices and payment links",
+          "Generated legal texts, GDPR-ready, EU hosting"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons has no exact match (check-icon, 2026-10-17)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search found no scam or shutdown reports; reviews criticise support. Input URL was an affiliate redirect, canonical home used"
+      },
+      "sources": [
+        {
+          "url": "https://www.jimdo.com",
+          "date": "2026-10-17",
+          "note": "features, free forever claim"
+        },
+        {
+          "url": "https://www.jimdo.com/pricing/website/",
+          "date": "2026-10-17",
+          "note": "fetched, no plan prices in result"
+        },
+        {
+          "url": "https://www.techradar.com/reviews/jimdo",
+          "date": "2026-10-17",
+          "note": "search result only; second-hand free-plan limits via search summary"
+        }
+      ],
+      "unverified": [
+        "paid plan prices",
+        "exact free plan limits",
+        "terms",
+        "legal entity name"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/jimdo.md",
+        "lint": "pass"
+      }
+    },
+    "jira": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Jira",
+        "url": "https://www.atlassian.com/software/jira",
+        "alive": true,
+        "operator": "Atlassian"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan for up to 10 users, 2 GB storage, community support; free sites with no activity are deactivated after 120 days; limits on permissions, audit logs, advanced roadmaps, apps",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://support.atlassian.com/jira-cloud-administration/docs/explore-jira-cloud-plans/",
+          "date": "2026-10-17",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS, Atlassian Customer Agreement · commercial: yes (free plan) · attribution: not required · limit: not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.atlassian.com/legal/customer-agreement",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "jira",
+        "type": "Tool",
+        "category": "Productivity",
+        "title": "Jira",
+        "description": "Atlassian's issue and project tracker for software and business teams, with boards, backlogs, roadmaps and a free plan for up to 10 users.",
+        "tags": [
+          "project-management",
+          "collaboration",
+          "productivity",
+          "roadmaps"
+        ],
+        "relatedResources": [
+          "asana",
+          "basecamp"
+        ],
+        "similarResources": [
+          "asana",
+          "notion"
+        ],
+        "keyFeatures": [
+          "Issue tracking with scrum and kanban boards",
+          "Backlog and sprint planning",
+          "Roadmaps and timelines (advanced roadmaps on paid plans)",
+          "Automation rules",
+          "Free plan for up to 10 users"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "jira",
+          "fillColor": "#0052CC",
+          "bgColor": "#ffffff",
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Official Atlassian product; no dedicated scam search run"
+      },
+      "sources": [
+        {
+          "url": "https://www.atlassian.com/software/jira/pricing",
+          "date": "2026-10-17",
+          "note": "fetched page returned only title (no body)"
+        },
+        {
+          "url": "https://support.atlassian.com/jira-cloud-administration/docs/explore-jira-cloud-plans/",
+          "date": "2026-10-17",
+          "note": "free plan limits via web search summary of Atlassian pages"
+        }
+      ],
+      "unverified": [
+        "free plan numbers read via search summary, not the pricing page body",
+        "paid starting price not read",
+        "customer agreement not read",
+        "no safety search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/jira.md",
+        "lint": "pass"
+      }
+    },
+    "jitter": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Jitter",
+        "url": "https://jitter.video",
+        "alive": true,
+        "operator": "Jitter (Paris, YC W20 per search result)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan usable indefinitely: unlimited drafts, 3 workspace files, 720p 30fps export to video/GIF/Lottie, 20MB upload limit, limited AI credits; export likely watermarked",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://jitter.video/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: not read · attribution: not read · terms not found on home page",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://jitter.video",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "jitter",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Jitter",
+        "description": "Browser-based motion design tool for animating interfaces and social content, with AI effects, templates and export to video, GIF and Lottie.",
+        "tags": [
+          "video-template",
+          "collaboration",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "figma",
+          "framer"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Describe an idea and get editable AI animations",
+          "Image to video with subtle generated movement",
+          "Pen tool, morphing, gradients, blur and blend modes",
+          "Library of 400+ templates",
+          "Auto-resize, auto-translate and batch export",
+          "Shared workspace with link sharing and comments"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search found no scam, shutdown or acquisition reports"
+      },
+      "sources": [
+        {
+          "url": "https://jitter.video/pricing",
+          "date": "2026-10-17",
+          "note": "free plan limits, indefinite use FAQ"
+        },
+        {
+          "url": "https://jitter.video",
+          "date": "2026-10-17",
+          "note": "features"
+        },
+        {
+          "url": "https://www.ycombinator.com/companies/jitter",
+          "date": "2026-10-17",
+          "note": "operator/status via search result"
+        }
+      ],
+      "unverified": [
+        "watermark on free export inferred",
+        "paid prices shown as -- on page",
+        "terms of service not found",
+        "commercial use of free-plan output unknown"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/jitter.md",
+        "lint": "pass"
+      }
+    },
+    "joggai": {
+      "researchedOn": "2026-10-17",
+      "verdict": "skip",
+      "verdictReason": "Free plan gives 200 credits valid 31 days (about 1 min of avatar video) - trial-like, not a permanent free tier",
+      "site": {
+        "name": "JoggAI",
+        "url": "https://www.jogg.ai",
+        "alive": true,
+        "operator": "JOGG PTE. LTD."
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": "200 credits valid 31 days, max 3 min video, 1 custom avatar, limited AI tools; no credit card",
+        "paidFrom": "Starter $24/mo (billed yearly, 144,000 credits/year)",
+        "evidence": {
+          "url": "https://www.jogg.ai/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.jogg.ai/pricing",
+          "date": "2026-10-17",
+          "note": "first 100k of 173k chars read"
+        },
+        {
+          "url": "https://www.jogg.ai",
+          "date": "2026-10-17",
+          "note": "operator, terms link https://app.jogg.ai/terms-of-use"
+        }
+      ],
+      "unverified": [
+        "rest of pricing page not read",
+        "terms not read",
+        "no safety search"
+      ],
+      "injectionSeen": null
+    },
+    "joi-planner": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "iOS-only app, App Store lists free with in-app purchases; free-version limits and subscription price unconfirmed, so free-tier permanence unclear",
+      "site": {
+        "name": "Joi Planner",
+        "url": "https://joi.software",
+        "alive": true,
+        "operator": "Alexey Sekachov per search summary (site names none; Amsterdam/Lisbon)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free download with in-app purchases; AlternativeTo says limited free version, subscription from about $5/month (unconfirmed)",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://apps.apple.com/app/id6736852235",
+          "date": "2026-10-17",
+          "confidence": "second-hand"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/joi-planner/",
+          "date": "2026-10-17",
+          "note": "found official site joi.software"
+        },
+        {
+          "url": "https://joi.software/",
+          "date": "2026-10-17",
+          "note": "description, iOS only"
+        },
+        {
+          "url": "https://apps.apple.com/app/id6736852235",
+          "date": "2026-10-17",
+          "note": "pricing via search summary"
+        }
+      ],
+      "unverified": [
+        "free tier limits",
+        "subscription price",
+        "operator name from search summary only",
+        "no safety search"
+      ],
+      "injectionSeen": null
+    },
+    "jony-eye": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "FETCH-FAIL: Figma Community page returned HTTP 403 twice (WebFetch); web search found only second-hand 2023 listings, no official page or pricing",
+      "site": {
+        "name": "Jony Eye",
+        "url": "https://www.figma.com/community/plugin/1279068498175312295/jony-eye-figma-design-assistant",
+        "alive": null,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.figma.com/community/plugin/1279068498175312295/jony-eye-figma-design-assistant",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.figma.com/community/plugin/1279068498175312295/jony-eye-figma-design-assistant",
+          "date": "2026-10-17",
+          "note": "HTTP 403 on two attempts"
+        },
+        {
+          "url": "https://uxplanet.org/new-ux-design-and-a-i-tools-that-i-discovered-in-october-2023-d734ce040028",
+          "date": "2026-10-17",
+          "note": "search snippet only: Figma plugin that scans a file for issues and suggests fixes (second-hand, Oct 2023)"
+        }
+      ],
+      "unverified": [
+        "plugin page not readable",
+        "pricing/free status",
+        "current maintenance",
+        "operator"
+      ],
+      "injectionSeen": null
+    },
+    "jotform-apps": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Jotform Apps",
+        "url": "https://www.jotform.com/products/apps/",
+        "alive": true,
+        "operator": "Jotform Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Apps included in the free Starter plan: 5 active forms, 100 submissions/month, 10,000 form views/month, 100 MB upload space (pricing page, 2026-10-17)",
+        "paidFrom": "Bronze $39/month, or $408/year billed annually",
+        "evidence": {
+          "url": "https://www.jotform.com/pricing/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: not checked · attribution: n/a · terms page not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.jotform.com/products/apps/",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "jotform-apps",
+        "type": "Tool",
+        "category": "Productivity",
+        "title": "Jotform Apps",
+        "description": "No-code app builder that bundles forms, widgets, payments and your branding into an installable app, with a free Starter plan.",
+        "tags": [
+          "no-code",
+          "productivity",
+          "ios",
+          "android"
+        ],
+        "relatedResources": [
+          "fillout",
+          "airtable"
+        ],
+        "similarResources": [
+          "fillout"
+        ],
+        "keyFeatures": [
+          "Drag-and-drop app builder or generation from a text prompt",
+          "App templates (page cites both 3,500+ and 700+)",
+          "Custom colors, logo icon, fonts and splash screen",
+          "Push notifications and payments without extra Jotform transaction fees",
+          "Public, private or company-only access, shared by link, email or QR code",
+          "Installs to the home screen without an app store"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-17: no Simple Icons match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Well-known established vendor; no dedicated scam search run"
+      },
+      "sources": [
+        {
+          "url": "https://www.jotform.com/products/apps/",
+          "date": "2026-10-17",
+          "note": "product description, features, free Starter inclusion"
+        },
+        {
+          "url": "https://www.jotform.com/pricing/",
+          "date": "2026-10-17",
+          "note": "Starter limits and Bronze price"
+        }
+      ],
+      "unverified": [
+        "terms of service / commercial use not read",
+        "no dedicated safety search",
+        "template and payment-processor counts conflict on the page",
+        "pricing figures from a model summary; app-specific limits may differ"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/jotform-apps.md",
+        "lint": "pass"
+      }
+    },
+    "jpeg-compress": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "JPEG Compress",
+        "url": "https://jpegcompressor.com/",
+        "alive": true,
+        "operator": "JPEGCompressor (no company named)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All features free; 50 MB per file, 250 MB per batch, no daily limit or account (home page, 2026-10-17)",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://jpegcompressor.com/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Free web tool · commercial: not stated · attribution: n/a · no terms page read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://jpegcompressor.com/",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "jpeg-compress",
+        "type": "Tool",
+        "category": "Design",
+        "title": "JPEG Compress",
+        "description": "Free browser-based image compressor and resizer for JPEG, PNG, WebP, HEIC and GIF with batch support and local processing.",
+        "tags": [
+          "graphic-design",
+          "web"
+        ],
+        "relatedResources": [
+          "image-compressor",
+          "image-optim"
+        ],
+        "similarResources": [
+          "image-compressor"
+        ],
+        "keyFeatures": [
+          "Compress JPEG, PNG, WebP, HEIC and GIF",
+          "Quality slider (1-100) with before/after preview",
+          "Target a file size in KB, MB or percent",
+          "Convert formats, resize and batch rename",
+          "Claims processing runs locally via WebAssembly; metadata stripped by default"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-17: no Simple Icons match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "jpegcompress.com 301-redirects to jpegcompressor.com; operator unnamed; no dedicated scam search"
+      },
+      "sources": [
+        {
+          "url": "https://jpegcompressor.com/",
+          "date": "2026-10-17",
+          "note": "features, limits, privacy claim, copyright 2018-2026; jpegcompress.com redirects here"
+        }
+      ],
+      "unverified": [
+        "operator identity",
+        "terms/commercial use",
+        "no dedicated safety search",
+        "local-processing claim not independently tested; URL/cloud imports unexplained",
+        "input description said SVG support; page did not list SVG"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/jpeg-compress.md",
+        "lint": "pass"
+      }
+    },
+    "just-a-design-list": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Just a Design List",
+        "url": "https://www.justadesignlist.com",
+        "alive": true,
+        "operator": "Wences Sanz-Alonso (Madrid)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Public directory, no sign-in or fee mentioned",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.justadesignlist.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Curated directory · commercial: n/a · no terms page; content is links to third-party studios",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.justadesignlist.com/about",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "just-a-design-list",
+        "type": "Website",
+        "category": "Design",
+        "title": "Just a Design List",
+        "description": "Editor-curated index of about 1,400 design studios and independent designers, browsable by discipline and country.",
+        "tags": [
+          "inspiration",
+          "graphic-design"
+        ],
+        "relatedResources": [
+          "awwwards"
+        ],
+        "similarResources": [
+          "awwwards"
+        ],
+        "keyFeatures": [
+          "1,397 studios and independent designers (home page count)",
+          "Browse by discipline such as branding, typography, motion",
+          "Browse by region or country",
+          "Recent additions list",
+          "Short entries described as pointers, not reviews"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-17: no Simple Icons match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Personal editorial project; no dedicated scam search"
+      },
+      "sources": [
+        {
+          "url": "https://www.justadesignlist.com",
+          "date": "2026-10-17",
+          "note": "description, count, browse options"
+        },
+        {
+          "url": "https://www.justadesignlist.com/about",
+          "date": "2026-10-17",
+          "note": "operator credit"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "submission fee (if any) not stated",
+        "count may change"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/just-a-design-list.md",
+        "lint": "pass"
+      }
+    },
+    "just-color-picker": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Just Color Picker",
+        "url": "https://annystudio.com/software/colorpicker/",
+        "alive": true,
+        "operator": "Anny Studio (annystudio.com)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "100% freeware, no registration or data collection; v6.2 released 2026-01-09; portable",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://annystudio.com/software/colorpicker/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Freeware · commercial: yes · attribution: n/a · limit: program file must not be modified or bundled in installers/ads",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://annystudio.com/software/colorpicker/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "just-color-picker",
+        "type": "Software",
+        "category": "Design",
+        "title": "Just Color Picker",
+        "description": "Portable freeware color picker and editor for Windows and macOS: pick any screen pixel, get HEX/RGB/HSL codes, build palettes and gradients.",
+        "tags": [
+          "color-palette",
+          "windows",
+          "mac",
+          "graphic-design"
+        ],
+        "relatedResources": [
+          "adobe-color",
+          "colour-contrast-analyser",
+          "color-hunt"
+        ],
+        "similarResources": [
+          "colour-contrast-analyser"
+        ],
+        "keyFeatures": [
+          "Pick a color from anywhere on screen with a 3x/9x/15x magnifier",
+          "Shows HEX, RGB, HSB, HSL, HWB, CMYK and more",
+          "Saved color list with comments; opens Photoshop .aco and GIMP .gpl palettes",
+          "Color wheels, harmony generator, gradient and text readability tools",
+          "Portable, no install; light and dark modes"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-17: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Safety search found no report on the annystudio desktop app; a same-named Chrome extension by another publisher was removed from the store and is a different product"
+      },
+      "sources": [
+        {
+          "url": "https://annystudio.com/software/colorpicker/",
+          "date": "2026-10-17",
+          "note": "freeware terms, version, platforms, features"
+        },
+        {
+          "url": "web search: Just Color Picker annystudio safe malware",
+          "date": "2026-10-17",
+          "note": "safety screen"
+        }
+      ],
+      "unverified": [
+        "full copyright conditions page not read",
+        "no hash/VirusTotal scan done"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/just-color-picker.md",
+        "lint": "pass"
+      }
+    },
+    "justinmind": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Justinmind",
+        "url": "https://www.justinmind.com",
+        "alive": true,
+        "operator": "Justinmind"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan $0: UI design and wireframing, interactive forms, vector design, export PNG/JPG/SVG, unlimited screens; pricing page says limited to 1 project, home page says no limit on number of projects (conflict)",
+        "paidFrom": "Standard $19 per editor/month (or $295 one-time perpetual per editor)",
+        "evidence": {
+          "url": "https://www.justinmind.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary desktop app, free plan · commercial: not verified · attribution: n/a · limit: free plan excludes advanced interactions, collaboration, mobile testing",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.justinmind.com/terms-of-use",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "justinmind",
+        "type": "Software",
+        "category": "Design",
+        "title": "Justinmind",
+        "description": "Desktop UI/UX design and prototyping tool for web and mobile apps, with interactions, forms and vector design; free plan available, paid for collaboration.",
+        "tags": [
+          "prototyping",
+          "ui-ux",
+          "design-systems",
+          "windows",
+          "mac"
+        ],
+        "relatedResources": [
+          "figma",
+          "figma-community",
+          "banani"
+        ],
+        "similarResources": [
+          "figma",
+          "banani"
+        ],
+        "keyFeatures": [
+          "Interactive prototypes with animations, gestures and conditions",
+          "Vector UI design and wireframing",
+          "Functional forms and data lists simulated without code",
+          "Reusable UI kits and masters for design systems",
+          "Export to PNG, JPG, SVG; test on phones via viewer app"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-17: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Safety search found no scam, acquisition or shutdown reports; established vendor"
+      },
+      "sources": [
+        {
+          "url": "https://www.justinmind.com/pricing",
+          "date": "2026-10-17",
+          "note": "plans, prices, free plan limits"
+        },
+        {
+          "url": "https://www.justinmind.com",
+          "date": "2026-10-17",
+          "note": "features, platforms, free claim"
+        },
+        {
+          "url": "web search: Justinmind acquired OR shutting down",
+          "date": "2026-10-17",
+          "note": "safety screen"
+        }
+      ],
+      "unverified": [
+        "free plan project limit conflicts (1 project on pricing vs unlimited on home)",
+        "terms of use page 404, commercial-use terms not read"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/justinmind.md",
+        "lint": "pass"
+      }
+    },
+    "kaboompics": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "FETCH-FAIL: HTTP 403 Forbidden on home and /license (bot protection), retried once; not bypassed",
+      "site": {
+        "name": "Kaboompics",
+        "url": "https://kaboompics.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://kaboompics.com",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://kaboompics.com",
+          "date": "2026-10-17",
+          "note": "403 Forbidden"
+        },
+        {
+          "url": "https://kaboompics.com/license",
+          "date": "2026-10-17",
+          "note": "403 Forbidden"
+        }
+      ],
+      "unverified": [
+        "pricing, license, premium plans, safety all unread"
+      ],
+      "injectionSeen": null
+    },
+    "kapwing": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Kapwing",
+        "url": "https://www.kapwing.com",
+        "alive": true,
+        "operator": "Kapwing"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free $0 with 10 credits; exports up to 4 min at 720p with watermark; 5 GB storage, projects deleted after 3 days; 250 MB upload (help page) / 2 GB (pricing page summary)",
+        "paidFrom": "Pro $16 (period not stated on page; annual toggle saves 33%)",
+        "evidence": {
+          "url": "https://www.kapwing.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary web service · commercial: not verified · attribution: n/a · limit: free exports carry Kapwing watermark",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.kapwing.com/help/is-kapwing-free/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "kapwing",
+        "type": "Tool",
+        "category": "Filming",
+        "title": "Kapwing",
+        "description": "Browser-based video editor with AI subtitles, dubbing into 40+ languages, clip maker and text-to-video; free plan exports watermarked 720p.",
+        "tags": [
+          "ai-tool",
+          "social-media-design",
+          "video-template"
+        ],
+        "relatedResources": [
+          "flixier",
+          "descript",
+          "invideo-ai"
+        ],
+        "similarResources": [
+          "flixier",
+          "descript"
+        ],
+        "keyFeatures": [
+          "Drag-and-drop timeline video editor",
+          "Auto subtitle generator",
+          "AI dubbing into 40+ languages",
+          "Clip maker that cuts short clips from one video",
+          "Text-prompt video generator with voiceover and music"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-17: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Safety search found no scam, acquisition or shutdown reports; third-party guides disagree on free limits, first-party used"
+      },
+      "sources": [
+        {
+          "url": "https://www.kapwing.com/pricing",
+          "date": "2026-10-17",
+          "note": "plans and free limits"
+        },
+        {
+          "url": "https://www.kapwing.com/help/is-kapwing-free/",
+          "date": "2026-10-17",
+          "note": "free plan limits"
+        },
+        {
+          "url": "https://www.kapwing.com",
+          "date": "2026-10-17",
+          "note": "features"
+        },
+        {
+          "url": "web search: Kapwing scam OR acquired",
+          "date": "2026-10-17",
+          "note": "safety screen"
+        }
+      ],
+      "unverified": [
+        "terms of service not read (commercial use of exports)",
+        "upload limit differs: 250 MB help page vs 2 GB pricing summary",
+        "Pro billing period unstated"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/kapwing.md",
+        "lint": "pass"
+      }
     }
   }
 }
