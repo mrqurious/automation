@@ -48637,6 +48637,3227 @@
         "file": "src/content/resources/graphy.md",
         "lint": "pass"
       }
+    },
+    "gratisography": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Gratisography",
+        "url": "https://gratisography.com",
+        "alive": true,
+        "operator": "Ryan McGuire (second-hand; site only shows '© 2026 Gratisography')"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All pictures free, no sign-in required (optional new-pictures email subscription)",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://gratisography.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Gratisography license (own terms) · commercial: yes · attribution: not required (link-back appreciated) · no redistribution, even on other stock sites; cannot claim as own or imply endorsement",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://gratisography.com/license",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "gratisography",
+        "type": "Stock Media",
+        "category": "Photography",
+        "title": "Gratisography",
+        "description": "Quirky, high-resolution free stock photos with a distinctive look, usable in personal and commercial projects without attribution.",
+        "tags": [
+          "stock-photos",
+          "royalty-free",
+          "stock"
+        ],
+        "relatedResources": [
+          "unsplash",
+          "pexels",
+          "burst"
+        ],
+        "similarResources": [
+          "barnimages",
+          "foca",
+          "pixabay"
+        ],
+        "keyFeatures": [
+          "Offbeat, personality-driven photo collection",
+          "Free for personal and commercial use, no credit required",
+          "No account needed to download",
+          "Optional email alerts for new pictures",
+          "License bans redistribution on other stock sites"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-17: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Web search 2026-10-17 found no scam or shutdown reports; long-running site"
+      },
+      "sources": [
+        {
+          "url": "https://gratisography.com",
+          "date": "2026-10-17",
+          "note": "tagline, free, license link, no sign-in"
+        },
+        {
+          "url": "https://gratisography.com/license",
+          "date": "2026-10-17",
+          "note": "license terms"
+        },
+        {
+          "url": "web search: Gratisography Ryan McGuire scam OR shutdown",
+          "date": "2026-10-17",
+          "note": "safety, creator name (second-hand)"
+        }
+      ],
+      "unverified": [
+        "operator name is second-hand, not on the home page",
+        "current upload cadence",
+        "image count"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/gratisography.md",
+        "lint": "pass"
+      }
+    },
+    "griddy-icons": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Griddy Icons",
+        "url": "https://griddyicons.com",
+        "alive": true,
+        "operator": "Filip Gres (design) and Zuzana Benova (development)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Open-source icon library on GitHub under MIT (1,145 icons per README)",
+        "paidFrom": "$9 one-time 'Download for $9' bundle (SVGs, Figma components, master file) via Creem; billing period not stated",
+        "evidence": {
+          "url": "https://griddyicons.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT · commercial: yes · attribution: not required beyond keeping the MIT notice · applies to the GitHub repo; terms of the $9 bundle not stated",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/griddy-icons/griddy-icons",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "griddy-icons",
+        "type": "Icon Set",
+        "category": "Design",
+        "title": "Griddy Icons",
+        "description": "Open-source MIT icon family with a utilitarian look: 1.5px strokes on a 24px grid, with SVG, Figma and React options.",
+        "tags": [
+          "icon-library",
+          "open-source",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "lucide-icons",
+          "feather-icons",
+          "remix-icon"
+        ],
+        "similarResources": [
+          "lucide-icons",
+          "akar-icons",
+          "eva-icons"
+        ],
+        "keyFeatures": [
+          "Over 1,100 icons on a 24px grid with 1.5px strokes",
+          "Fill variant and 32px size option in the browser",
+          "MIT-licensed source on GitHub",
+          "Optional $9 bundle with all SVGs, Figma components and a layered master file",
+          "React listed as a supported library"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-17: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search; GitHub repo (187 stars, 19 commits) matches the site"
+      },
+      "sources": [
+        {
+          "url": "https://griddyicons.com",
+          "date": "2026-10-17",
+          "note": "creators, icon count, MIT, $9 button"
+        },
+        {
+          "url": "https://github.com/griddy-icons/griddy-icons",
+          "date": "2026-10-17",
+          "note": "free open-source README, MIT LICENSE file"
+        }
+      ],
+      "unverified": [
+        "whether repo contains every icon the $9 bundle does",
+        "what the $9 buys beyond convenience",
+        "npm availability",
+        "last commit date",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/griddy-icons.md",
+        "lint": "pass"
+      }
+    },
+    "gridset": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Free only 'during beta, subject to usage and storage limits' (Terms 7.1); no pricing page (404), so free-tier permanence is unclear",
+      "site": {
+        "name": "Gridset",
+        "url": "https://www.gridset.app",
+        "alive": true,
+        "operator": "Nitrolabs Limited, a Lumin company"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free during beta with unspecified usage and storage limits",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.gridset.app/terms",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS (Terms of Service) · no restriction on listing or linking found",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.gridset.app/terms",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.gridset.app",
+          "date": "2026-10-17",
+          "note": "product description, Lumin, exports PDF/PPTX/PNG, 'Get started free'"
+        },
+        {
+          "url": "https://www.gridset.app/terms",
+          "date": "2026-10-17",
+          "note": "beta free clause 7.1, operator"
+        },
+        {
+          "url": "https://www.gridset.app/pricing",
+          "date": "2026-10-17",
+          "note": "404"
+        }
+      ],
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Web search found no scam/shutdown info; one third-party listing wrongly describes it as a grid tool by Monotype"
+      },
+      "unverified": [
+        "post-beta pricing and free plan",
+        "exact usage limits"
+      ],
+      "injectionSeen": null
+    },
+    "grok": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Free tier only confirmed second-hand (capped usage); grok.com home shows no plans, /plans renders nothing, x.ai/grok returned 403; owner should decide on a big-vendor AI assistant listing",
+      "site": {
+        "name": "Grok",
+        "url": "https://grok.com",
+        "alive": true,
+        "operator": "xAI (Terms and Privacy links point to x.ai)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Second-hand: limited free chat with a rolling message cap, no X account needed (not confirmed first-party)",
+        "paidFrom": "Second-hand: SuperGrok about $30/month; sources disagree on a $10 Lite tier",
+        "evidence": {
+          "url": "https://grok.com/plans",
+          "date": "2026-10-17",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "Proprietary service governed by xAI Terms · commercial terms not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://grok.com",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://grok.com",
+          "date": "2026-10-17",
+          "note": "landing chat prompt, sign-in/up links, Terms links to x.ai"
+        },
+        {
+          "url": "https://grok.com/plans",
+          "date": "2026-10-17",
+          "note": "page content not readable"
+        },
+        {
+          "url": "https://x.ai/grok",
+          "date": "2026-10-17",
+          "note": "403"
+        },
+        {
+          "url": "web search: Grok free plan SuperGrok price",
+          "date": "2026-10-17",
+          "note": "second-hand pricing"
+        }
+      ],
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Official xAI product; no safety search beyond pricing search"
+      },
+      "unverified": [
+        "first-party free tier and limits",
+        "paid plan prices",
+        "whether chat needs an account",
+        "xAI terms"
+      ],
+      "injectionSeen": null
+    },
+    "growth-design": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Free tier unclear: only one case study is labelled Free on the listing page, a paid Product Psychology Masterclass exists, and the terms require approval (2-3 weeks) for organisations to link to the site.",
+      "site": {
+        "name": "Growth Design",
+        "url": "https://growth.design",
+        "alive": true,
+        "operator": "Growth Design inc. (Montreal)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free subscribe option and at least one case study marked 'Watch now (Free)'; which other case studies are free is not stated",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://growth.design/case-studies/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Site terms apply; hyperlinking by organisations needs approval; no logo use for links",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://growth.design/terms-privacy",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search run; site live with 2026 copyright"
+      },
+      "sources": [
+        {
+          "url": "https://growth.design/case-studies/",
+          "date": "2026-10-17",
+          "note": "nav, free label, operator"
+        },
+        {
+          "url": "https://growth.design/terms-privacy",
+          "date": "2026-10-17",
+          "note": "linking clauses, paid masterclass"
+        }
+      ],
+      "unverified": [
+        "which case studies are free vs paid",
+        "course price",
+        "whether a directory listing counts as organisational linking needing approval",
+        "no safety search"
+      ],
+      "injectionSeen": null
+    },
+    "gsap": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "GSAP",
+        "url": "https://gsap.com",
+        "alive": true,
+        "operator": "Webflow"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire GSAP library including former Club plugins (ScrollTrigger, SplitText, MorphSVG etc.) free for everyone; no paid plans shown",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://gsap.com/pricing/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "GSAP Standard License (proprietary, Webflow) · commercial: yes · attribution: not stated · limit: no use in tools that let users build visual animations without code that compete with Webflow",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://gsap.com/standard-license/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "gsap",
+        "type": "Library",
+        "category": "Development",
+        "title": "GSAP",
+        "description": "JavaScript animation library for the web, now free for everyone including all former Club plugins like ScrollTrigger and SplitText.",
+        "tags": [
+          "web",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "animejs",
+          "easings"
+        ],
+        "similarResources": [
+          "animejs"
+        ],
+        "keyFeatures": [
+          "Animate CSS, SVG, canvas and any JavaScript values with timelines",
+          "ScrollTrigger plugin for scroll-driven animation",
+          "SplitText and MorphSVG plugins included at no cost",
+          "Commercial use covered by the standard license",
+          "Works with any framework or plain JavaScript"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "gsap",
+          "fillColor": "#0AE448",
+          "bgColor": "#000000",
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Owned by Webflow; search found no scam or shutdown reports"
+      },
+      "sources": [
+        {
+          "url": "https://gsap.com/pricing/",
+          "date": "2026-10-17",
+          "note": "100% free, plugins included"
+        },
+        {
+          "url": "https://gsap.com/standard-license/",
+          "date": "2026-10-17",
+          "note": "commercial use, restrictions"
+        },
+        {
+          "url": "https://webflow.com/blog/gsap-becomes-free",
+          "date": "2026-10-17",
+          "note": "search result snippet: announcement"
+        }
+      ],
+      "unverified": [
+        "plugin list taken from pricing page summary",
+        "attribution requirement not stated",
+        "not an OSI open-source license"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/gsap.md",
+        "lint": "pass"
+      }
+    },
+    "haikei": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Haikei",
+        "url": "https://haikei.app",
+        "alive": true,
+        "operator": "z creative labs GmbH"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Basic plan: no signup or card, 15 generators, unlimited SVG and medium-res PNG downloads, 9 canvas templates. Pro plan shown as TBD / coming soon",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://haikei.app/pricing/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Haikei FAQ terms · commercial: yes (personal and client work) · attribution: not required · limit: no building a competing design generator",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://haikei.app/pricing/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "haikei",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Haikei",
+        "description": "Web app that generates SVG waves, blobs, gradients, grids and patterns, exportable as SVG or PNG, free with no signup.",
+        "tags": [
+          "graphic-design",
+          "web"
+        ],
+        "relatedResources": [
+          "fffuel",
+          "css-gradient"
+        ],
+        "similarResources": [
+          "fffuel",
+          "anygradient"
+        ],
+        "keyFeatures": [
+          "15 generators for waves, blobs, layered steps, gradients and patterns",
+          "Export as SVG or PNG",
+          "Randomize and tweak colors and shapes in the browser",
+          "Basic canvas templates for common sizes",
+          "No account or card needed"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "not in Simple Icons (check-icon exit 2)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search found no scam, shutdown or acquisition reports; only older (2021) articles returned"
+      },
+      "sources": [
+        {
+          "url": "https://haikei.app",
+          "date": "2026-10-17",
+          "note": "description, nav"
+        },
+        {
+          "url": "https://haikei.app/pricing/",
+          "date": "2026-10-17",
+          "note": "plans, commercial-use FAQ"
+        },
+        {
+          "url": "https://haikei.app/terms/",
+          "date": "2026-10-17",
+          "note": "operator, no linking ban"
+        }
+      ],
+      "unverified": [
+        "paid Pro plan not launched, price TBD",
+        "recent activity evidence weak (no changelog read)",
+        "terms prohibit automated access (bulk generation)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/haikei.md",
+        "lint": "pass"
+      }
+    },
+    "haiku-animator": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Free and open source (AGPL) but a third-party listing says development stopped, latest version 5.1.2 from Sept 2021, macOS-only; aliveness not confirmed first-party.",
+      "site": {
+        "name": "Haiku Animator",
+        "url": "https://www.haikuanimator.com",
+        "alive": true,
+        "operator": "Haiku (HaikuTeam)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Site says 'Free and open source forever'",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.haikuanimator.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "AGPL (per GitHub README) · projects made with it belong to their creators",
+        "openSource": true,
+        "spdx": "AGPL-3.0",
+        "evidence": {
+          "url": "https://github.com/HaikuTeam/animator",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "AlternativeTo lists it as discontinued (third-party); unrelated to Haiku OS"
+      },
+      "sources": [
+        {
+          "url": "https://www.haikuanimator.com",
+          "date": "2026-10-17",
+          "note": "free and open source claim"
+        },
+        {
+          "url": "https://github.com/HaikuTeam/animator",
+          "date": "2026-10-17",
+          "note": "AGPL, no archive notice, no releases listed"
+        },
+        {
+          "url": "https://alternativeto.net/software/haiku--design-meet-production/about",
+          "date": "2026-10-17",
+          "note": "search snippet: discontinued, v5.1.2 Sept 2021, macOS only"
+        }
+      ],
+      "unverified": [
+        "last commit date",
+        "exact AGPL version (search says v3 or later)",
+        "first-party maintenance status",
+        "platform support"
+      ],
+      "injectionSeen": null
+    },
+    "halftone-generator": {
+      "researchedOn": "2026-10-17",
+      "verdict": "skip",
+      "verdictReason": "Listed URL returns HTTP 404 and the toolandtea.com home page does not list a halftone tool (only Vibify, Component playground, Swishy); tool appears removed or moved.",
+      "site": {
+        "name": "Halftone Generator",
+        "url": "https://www.toolandtea.com/tools/halftone-generator",
+        "alive": false,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.toolandtea.com",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.toolandtea.com/tools/halftone-generator",
+          "date": "2026-10-17",
+          "note": "HTTP 404 on two attempts"
+        },
+        {
+          "url": "https://www.toolandtea.com",
+          "date": "2026-10-17",
+          "note": "home lists three tools, no halftone generator; operator not stated (contact email only)"
+        }
+      ],
+      "unverified": [
+        "Whether the tool exists at another URL",
+        "Pricing, license, operator"
+      ],
+      "injectionSeen": null
+    },
+    "hall-of-shame": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Site is live and shows no paywall, but states no license/terms, no pricing statement and no named operator; says it is inspired by Deceptive Patterns (Harry Brignull) - possible derivative/clone question. Not confirmable as free from the page.",
+      "site": {
+        "name": "Hall of Shame",
+        "url": "https://hallofshame.design",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "No paywall or pricing seen; free not explicitly stated",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://hallofshame.design",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No license or terms stated; footer says trademarks belong to their owners; disclaimer: not legal advice",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://hallofshame.design/about",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "hall-of-shame",
+        "type": "Website",
+        "category": "Design",
+        "title": "Hall of Shame",
+        "description": "A catalog of dark patterns and deceptive UI examples, with pattern tags such as Confirmshaming and Roach Motel, for learning to spot manipulative design.",
+        "tags": [
+          "ui-ux",
+          "inspiration",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Catalog of real-world dark pattern case entries",
+          "Pattern tags like Preselection, Privacy Zuckering, Fake Scarcity, Nagging",
+          "News and Books sections",
+          "Telegram channel and RSS feed"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons: no match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "suspicious",
+        "notes": "About page says it is inspired by Deceptive.design (Harry Brignull), whose own Hall of Shame is a separate site; operator unnamed. Search found no results from hallofshame.design itself."
+      },
+      "sources": [
+        {
+          "url": "https://hallofshame.design",
+          "date": "2026-10-17",
+          "note": "purpose, sections, 24 cases / 11 tags on first page"
+        },
+        {
+          "url": "https://hallofshame.design/about",
+          "date": "2026-10-17",
+          "note": "team of designers and researchers, inspired by Deceptive.design, no license"
+        },
+        {
+          "url": "https://deceptive.design",
+          "date": "2026-10-17",
+          "note": "web search: original Hall of Shame by Harry Brignull (secondary)"
+        }
+      ],
+      "unverified": [
+        "Operator identity",
+        "Free status stated explicitly",
+        "Content license / reuse terms",
+        "Total number of entries"
+      ],
+      "injectionSeen": null
+    },
+    "hana": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Hana is Spline's 2D interactive design editor; only an announcement blog post was read. Spline's pricing page does not mention Hana, and a search summary suggests the Hana 2D editor sits on paid tiers, so free-tier permanence is unclear. May also be a sibling of Spline rather than its own listing.",
+      "site": {
+        "name": "Hana",
+        "url": "https://blog.spline.design/introducing-hana",
+        "alive": true,
+        "operator": "Spline, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Spline Free plan: $0, limited personal files, unlimited file viewers, web exports with watermark; Hana access on it not confirmed",
+        "paidFrom": "Spline Hobby $15/month ($12/month yearly) per spline.design/pricing; Hana-specific tier unverified",
+        "evidence": {
+          "url": "https://spline.design/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · terms not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://blog.spline.design/introducing-hana",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "hana",
+        "type": "Software",
+        "category": "Design",
+        "title": "Hana",
+        "description": "Spline's browser-based vector canvas for designing and animating interactive 2D experiences, with states, events and multiplayer editing.",
+        "tags": [
+          "ui-ux",
+          "prototyping",
+          "collaboration",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Custom real-time render engine with GPU-accelerated effects",
+          "Vector network editing and multi-level booleans",
+          "State-based transitions and event-driven interactions",
+          "Real-time multiplayer via shareable links",
+          "Export live interactive links for embedding"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons: no match for Spline"
+        },
+        "siblings": [
+          "Spline (3D editor) may deserve its own entry"
+        ]
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "First-party Spline blog; footer (c)2026 Spline, Inc."
+      },
+      "sources": [
+        {
+          "url": "https://blog.spline.design/introducing-hana",
+          "date": "2026-10-17",
+          "note": "features; blog date ambiguous (Apr 23 2025 vs metadata Aug 27 2026)"
+        },
+        {
+          "url": "https://spline.design/pricing",
+          "date": "2026-10-17",
+          "note": "plans Free/Hobby/Pro/Max/Enterprise; Hana not mentioned"
+        },
+        {
+          "url": "web search: Spline Hana pricing",
+          "date": "2026-10-17",
+          "note": "second-hand: Hana 2D editor listed under paid tier; conflicting figures"
+        }
+      ],
+      "unverified": [
+        "Whether Hana has a permanent free plan",
+        "Hana-specific pricing",
+        "Terms of service",
+        "Release status (beta/GA)"
+      ],
+      "injectionSeen": null
+    },
+    "handbrake": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "HandBrake",
+        "url": "https://handbrake.fr",
+        "alive": true,
+        "operator": "HandBrake team (volunteers)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Fully free and open source; site says 'It's free!'",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://handbrake.fr",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "GPL-2.0 · commercial: allowed under GPL terms · attribution: per GPL · limit: derivative works must stay GPL",
+        "openSource": true,
+        "spdx": "GPL-2.0",
+        "evidence": {
+          "url": "https://github.com/HandBrake/HandBrake",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "handbrake",
+        "type": "Software",
+        "category": "Filming",
+        "title": "HandBrake",
+        "description": "Free open-source video transcoder that converts nearly any video format to modern, widely supported codecs on Windows, Mac and Linux.",
+        "tags": [
+          "open-source",
+          "windows",
+          "mac",
+          "linux"
+        ],
+        "relatedResources": [
+          "davinci-resolve"
+        ],
+        "similarResources": [
+          "davinci-resolve"
+        ],
+        "keyFeatures": [
+          "Converts video from nearly any format",
+          "Outputs modern, widely supported codecs",
+          "Runs on Windows, Mac and Linux",
+          "Free and open source, built by volunteers"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons: no exact match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Historic: May 2017 mirror server download.handbrake.fr compromised, Mac build trojaned for ~4 days (Intego, Sophos, Objective-See); fixed. Fake download sites exist generally; link only handbrake.fr."
+      },
+      "sources": [
+        {
+          "url": "https://handbrake.fr",
+          "date": "2026-10-17",
+          "note": "description, platforms, version 1.11.2, free"
+        },
+        {
+          "url": "https://github.com/HandBrake/HandBrake",
+          "date": "2026-10-17",
+          "note": "GPL-2.0"
+        },
+        {
+          "url": "web search: HandBrake safety",
+          "date": "2026-10-17",
+          "note": "2017 mirror compromise"
+        }
+      ],
+      "unverified": [
+        "Latest release date",
+        "Whether davinci-resolve is a good similar match (different scope)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/handbrake.md",
+        "lint": "pass"
+      }
+    },
+    "handz": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Free tier is real (2 rigged hands, 25 poses each, ~900 PNGs; Premium $29) but no license, commercial-use or attribution terms are stated on the page; the download lives on Gumroad (not read).",
+      "site": {
+        "name": "Handz",
+        "url": "https://www.handz.design",
+        "alive": true,
+        "operator": "ThreeDee (threedee.design)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "2 rigged hand models (male, female), 25 poses each, 4 objects, 3 sleeves, about 900 PNG files; Blender source files not listed for free",
+        "paidFrom": "$29 one-time Premium pack (23 models, 76 poses, 7,000 PNGs)",
+        "evidence": {
+          "url": "https://www.handz.design",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Not stated on page · commercial: unknown · attribution: only a social request (#handz)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.handz.design",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://www.handz.design",
+          "date": "2026-10-17",
+          "note": "free vs premium table, author, links"
+        }
+      ],
+      "unverified": [
+        "license/commercial use of free pack",
+        "Gumroad page not read (redirects)",
+        "safety search not run"
+      ],
+      "injectionSeen": null
+    },
+    "happy-hues": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Happy Hues",
+        "url": "https://www.happyhues.co",
+        "alive": true,
+        "operator": "Mackenzie Child"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All palettes viewable with no sign-in or paywall; no paid items on the site itself",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.happyhues.co",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "All Rights Reserved (site copyright notice) · commercial: not stated · attribution: not stated · limit: reuse of the site design not granted; palettes are hex codes you copy",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.happyhues.co",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "happy-hues",
+        "type": "Website",
+        "category": "Design",
+        "title": "Happy Hues",
+        "description": "Color palette inspiration that applies each palette to a sample web page, so you see the colors in context, with click-to-copy hex codes.",
+        "tags": [
+          "color-palette",
+          "inspiration",
+          "web"
+        ],
+        "relatedResources": [
+          "color-hunt",
+          "colormind",
+          "adobe-color"
+        ],
+        "similarResources": [
+          "color-hunt",
+          "design-seeds",
+          "colormind"
+        ],
+        "keyFeatures": [
+          "About 17 curated palettes, each shown on example page sections",
+          "Click to copy hex codes",
+          "Short lessons on hue, tint, shade, tone and color psychology",
+          "No sign-in needed"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-17: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Safety search 2026-10-17 found no scam, shutdown or acquisition hits; site built 2019 in Webflow, copyright 2021"
+      },
+      "sources": [
+        {
+          "url": "https://www.happyhues.co",
+          "date": "2026-10-17",
+          "note": "features, operator, copyright"
+        },
+        {
+          "url": "https://gigazine.net/gsc_news/en/20191217-happyhues",
+          "date": "2026-10-17",
+          "note": "search result: described as free (second-hand)"
+        }
+      ],
+      "unverified": [
+        "no explicit terms or pricing page; 'free' inferred from absence of paid items and directory label",
+        "exact palette count (nav showed 17)",
+        "activity recency (copyright 2021)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/happy-hues.md",
+        "lint": "pass"
+      }
+    },
+    "happy-shrimp": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Home page shows no pricing, terms or operator; third-party reviews disagree on free tier and commercial rights (new Alibaba beta, Aug 2026). Free tier permanence and song licensing unconfirmed.",
+      "site": {
+        "name": "Happy Shrimp",
+        "url": "https://www.happyshrimp.ai",
+        "alive": true,
+        "operator": "Alibaba (per third-party reports; not stated on site)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Second-hand: free daily login credits (MindStudio) or 320 sign-up credits plus daily credits (Stork); unconfirmed",
+        "paidFrom": "Second-hand: about $5/month (~150 songs); unconfirmed",
+        "evidence": {
+          "url": "https://www.mindstudio.ai/blog/happyshrimp-pricing-plans/",
+          "date": "2026-10-17",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "Unknown · commercial: unclear (sources disagree) · attribution: unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.happyshrimp.ai",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Several reviews describe it as Alibaba's HappyShrimp 1.0 beta launched 2026-08-17; no scam hits"
+      },
+      "sources": [
+        {
+          "url": "https://www.happyshrimp.ai",
+          "date": "2026-10-17",
+          "note": "home page: text-to-song UI, no pricing or terms links"
+        },
+        {
+          "url": "https://www.happyshrimp.ai/pricing",
+          "date": "2026-10-17",
+          "note": "404"
+        },
+        {
+          "url": "https://www.mindstudio.ai/blog/happyshrimp-pricing-plans/",
+          "date": "2026-10-17",
+          "note": "search snippet on pricing (second-hand)"
+        }
+      ],
+      "unverified": [
+        "first-party pricing and free limits",
+        "terms and commercial rights",
+        "operator",
+        "/pricing returned 404"
+      ],
+      "injectionSeen": null
+    },
+    "harmonizer": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Web app is a JS page returning only a title; GitHub README (evilmartians/harmonizer) shows a free Figma plugin and web app, but no license text could be read (LICENSE at /main returned 404). Confirm license, then list.",
+      "site": {
+        "name": "Harmonizer",
+        "url": "https://harmonizer.evilmartians.com",
+        "alive": true,
+        "operator": "Evil Martians"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Web app and Figma plugin; no paid plan seen in README",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://github.com/evilmartians/harmonizer",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Not confirmed · commercial: unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://github.com/evilmartians/harmonizer",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Official Evil Martians repo (488 commits); no dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://harmonizer.evilmartians.com",
+          "date": "2026-10-17",
+          "note": "returned title and logo only"
+        },
+        {
+          "url": "https://github.com/evilmartians/harmonizer",
+          "date": "2026-10-17",
+          "note": "README: OKLCH palettes, P3/sRGB, APCA/WCAG contrast, exports to Tailwind, CSS variables, JSON, Figma plugin"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/evilmartians/harmonizer/main/LICENSE",
+          "date": "2026-10-17",
+          "note": "404"
+        }
+      ],
+      "unverified": [
+        "license",
+        "free permanence stated on site",
+        "safety search not run",
+        "last commit date"
+      ],
+      "injectionSeen": null
+    },
+    "headless-ui": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Headless UI",
+        "url": "https://headlessui.com",
+        "alive": true,
+        "operator": "Tailwind Labs Inc."
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Open-source library, free to use",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://github.com/tailwindlabs/headlessui",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT · commercial: yes · attribution: license notice kept in copies · limit: none known",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/tailwindlabs/headlessui",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "headless-ui",
+        "type": "Library",
+        "category": "Development",
+        "title": "Headless UI",
+        "description": "Unstyled, accessible UI components for React and Vue from Tailwind Labs, built to be styled with Tailwind CSS.",
+        "tags": [
+          "open-source",
+          "web",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "arc-ui"
+        ],
+        "similarResources": [
+          "arc-ui"
+        ],
+        "keyFeatures": [
+          "Unstyled components you style yourself",
+          "Accessibility handled: keyboard and screen reader support",
+          "Menu, Dialog, Popover, Tabs, Disclosure and Transition",
+          "Form controls: Combobox, Listbox, Select, Switch, Radio Group, Checkbox",
+          "React and Vue versions"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "headlessui",
+          "fillColor": "#66E3FF",
+          "bgColor": "#ffffff",
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Official Tailwind Labs project; GitHub repo tailwindlabs/headlessui (28.8k stars per page summary)"
+      },
+      "sources": [
+        {
+          "url": "https://headlessui.com",
+          "date": "2026-10-17",
+          "note": "components, frameworks, maker"
+        },
+        {
+          "url": "https://github.com/tailwindlabs/headlessui",
+          "date": "2026-10-17",
+          "note": "MIT license, stars"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "license text file itself not read, only GitHub page label",
+        "Vue component list may differ from React"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/headless-ui.md",
+        "lint": "pass"
+      }
+    },
+    "heard": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Heard",
+        "url": "https://heard.dev",
+        "alive": true,
+        "operator": "Heard Labs, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free forever plan: runs locally on Mac, multiple agent sessions, local Kokoro voice narration, bring your own AI and voice keys",
+        "paidFrom": "Pro $12/month ($144 billed yearly); Power $24/month ($288 yearly)",
+        "evidence": {
+          "url": "https://heard.dev/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Engine open source under Apache 2.0 (per pricing page) · commercial: yes · attribution: per Apache 2.0 · limit: downloadable macOS app is the managed build",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://heard.dev/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "heard",
+        "type": "App",
+        "category": "Development",
+        "title": "Heard",
+        "description": "Mac app that reads your coding agent's progress, blockers and test results aloud, with optional voice replies.",
+        "tags": [
+          "ai-tool",
+          "mac",
+          "productivity"
+        ],
+        "relatedResources": [
+          "conductor",
+          "wispr-flow"
+        ],
+        "similarResources": [
+          "wispr-flow"
+        ],
+        "keyFeatures": [
+          "Spoken updates from Claude Code, Codex and similar CLI agents",
+          "Three update lengths: quick, summary, full story",
+          "Local Kokoro voice or your own provider keys",
+          "Code and transcripts stay on the Mac per the site",
+          "Voice replies and iPhone pairing in paid Power plan"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "not in Simple Icons (check-icon 2026-10-17)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://heard.dev",
+          "date": "2026-10-17",
+          "note": "product, platform, operator, trial"
+        },
+        {
+          "url": "https://heard.dev/pricing",
+          "date": "2026-10-17",
+          "note": "plans, free tier, Apache 2.0 engine"
+        }
+      ],
+      "unverified": [
+        "no safety search",
+        "GitHub repo and license file not read",
+        "free-tier limits beyond the listed features not stated",
+        "what happens to Power features after the 14-day trial is unclear"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/heard.md",
+        "lint": "pass"
+      }
+    },
+    "hedra": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Free tier not confirmed on a first-party page (pricing page returned no plan data); third-party sources describe a small watermarked credit allowance, closer to a trial. Input URL is an affiliate redirect; canonical is hedra.com.",
+      "site": {
+        "name": "Hedra",
+        "url": "https://hedra.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://hedra.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": "Terms not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://hedra.com",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "hedra",
+        "type": "AI Tool",
+        "category": "Design",
+        "title": "Hedra",
+        "description": "AI platform for generating video, audio and images, with an agent, API and MCP server.",
+        "tags": [
+          "ai-tool"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Image, video and audio generation",
+          "Hedra Agent for planning and running media work",
+          "API v3 and MCP server for developers"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "hedra.link/toools-design is a 302 to hedra.com with affiliate params (via=toools-design); use hedra.com"
+      },
+      "sources": [
+        {
+          "url": "https://hedra.link/toools-design",
+          "date": "2026-10-17",
+          "note": "302 to hedra.com with affiliate params"
+        },
+        {
+          "url": "https://hedra.com/",
+          "date": "2026-10-17",
+          "note": "product description"
+        },
+        {
+          "url": "https://hedra.com/pricing",
+          "date": "2026-10-17",
+          "note": "page returned no plan data"
+        },
+        {
+          "url": "web search: Hedra AI free plan credits pricing",
+          "date": "2026-10-17",
+          "note": "second-hand, conflicting: 100-125 credit free tier, Basic about $15/month"
+        }
+      ],
+      "unverified": [
+        "free plan existence and limits (second-hand sources conflict)",
+        "paid prices",
+        "terms and commercial use",
+        "operator"
+      ],
+      "injectionSeen": null
+    },
+    "heepsy": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Heepsy",
+        "url": "https://heepsy.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan, no time limit per FAQ: 500 search results/month, 10 advanced profiles/month, 1 project, AI/lookalike/text search, 30+ filters, CRM, content gallery, Shopify/WooCommerce integration",
+        "paidFrom": "Starter $69/month billed annually ($89 monthly)",
+        "evidence": {
+          "url": "https://heepsy.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: yes · attribution: n/a · terms not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://heepsy.com",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "heepsy",
+        "type": "Software",
+        "category": "Marketing",
+        "title": "Heepsy",
+        "description": "Influencer marketing platform to find creators, vet audiences, run outreach and campaigns, and report results.",
+        "tags": [
+          "social-media",
+          "productivity"
+        ],
+        "relatedResources": [
+          "afluencer"
+        ],
+        "similarResources": [
+          "afluencer"
+        ],
+        "keyFeatures": [
+          "Creator search by niche, location, audience size and engagement",
+          "Audience vetting for fake followers and demographics",
+          "Campaign projects, outreach and bulk email templates",
+          "Collaboration tracking and payments",
+          "Reports and Shopify/WooCommerce sales tracking"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search found no shutdown or scam finding; Trustpilot has mixed reviews with billing/cancellation complaints"
+      },
+      "sources": [
+        {
+          "url": "https://heepsy.com",
+          "date": "2026-10-17",
+          "note": "product, features, entry price"
+        },
+        {
+          "url": "https://heepsy.com/pricing",
+          "date": "2026-10-17",
+          "note": "plans and free plan limits"
+        },
+        {
+          "url": "web search: Heepsy review scam OR shutdown",
+          "date": "2026-10-17",
+          "note": "Trustpilot complaints, no shutdown"
+        }
+      ],
+      "unverified": [
+        "operator legal entity",
+        "terms of service",
+        "outreach/export limits on free plan",
+        "Trustpilot billing complaints not independently verified"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/heepsy.md",
+        "lint": "pass"
+      }
+    },
+    "helpfull": {
+      "researchedOn": "2026-10-17",
+      "verdict": "skip",
+      "verdictReason": "No free tier found: pricing is pay-as-you-go at $1.00 per credit/participant ($0/month plan fee only); no free trial described.",
+      "site": {
+        "name": "Helpfull",
+        "url": "https://helpfull.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "Pay As You Go: $0/month, $1.00 per credit (about 90 cents per person in bulk packs)",
+        "evidence": {
+          "url": "https://helpfull.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/helpfull/",
+          "date": "2026-10-17",
+          "note": "resolved site helpfull.com; description"
+        },
+        {
+          "url": "https://helpfull.com/",
+          "date": "2026-10-17",
+          "note": "pricing from $1 per participant"
+        },
+        {
+          "url": "https://helpfull.com/pricing",
+          "date": "2026-10-17",
+          "note": "pay-as-you-go plan"
+        }
+      ],
+      "unverified": [
+        "Whether any free credits exist on signup",
+        "Operator name",
+        "License/terms not read",
+        "Safety search not run"
+      ],
+      "injectionSeen": null
+    },
+    "hera": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Free tier permanence and limits could not be confirmed: /pricing returned 404, home page lists no plans, web search found nothing for hera.video. Directory label says Freemium only. Supplied site link was a Cello referral URL redirecting to hera.video.",
+      "site": {
+        "name": "Hera",
+        "url": "https://hera.video",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://hera.video/",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://hera.cello.so/jZ39Hrsb8tB",
+          "date": "2026-10-17",
+          "note": "307 redirect to hera.video (referral params)"
+        },
+        {
+          "url": "https://hera.video/",
+          "date": "2026-10-17",
+          "note": "AI motion design from text prompts, templates, API; terms at /terms"
+        },
+        {
+          "url": "https://hera.video/pricing",
+          "date": "2026-10-17",
+          "note": "404"
+        }
+      ],
+      "unverified": [
+        "Free plan existence and limits",
+        "Terms/license (/terms not read)",
+        "Operator",
+        "Safety search (search returned only unrelated Hedra results)"
+      ],
+      "injectionSeen": null
+    },
+    "hermes-agent": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Hermes Agent",
+        "url": "https://hermes-agent.nousresearch.com",
+        "alive": true,
+        "operator": "Nous Research"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "The agent software is free and open source (MIT). Optional Nous Portal hosted plans: Free $0 (free models only, standard rate limits), Plus $20/mo, Super $100/mo, Ultra $200/mo; model providers charge separately.",
+        "paidFrom": "Nous Portal Plus $20/month (optional)",
+        "evidence": {
+          "url": "https://hermes-agent.nousresearch.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT · commercial: yes · attribution: license notice kept · limit: none stated; optional hosted services priced separately",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/NousResearch/hermes-agent",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "hermes-agent",
+        "type": "AI Tool",
+        "category": "Development",
+        "title": "Hermes Agent",
+        "description": "Free, MIT-licensed AI agent from Nous Research that keeps memory across sessions, runs scheduled tasks and works from terminal, desktop or messaging apps.",
+        "tags": [
+          "ai-tool",
+          "open-source",
+          "automation"
+        ],
+        "relatedResources": [
+          "crewai",
+          "dyad"
+        ],
+        "similarResources": [
+          "crewai"
+        ],
+        "keyFeatures": [
+          "Open source under MIT, runs on desktop, terminal or cloud",
+          "Persistent memory that carries across sessions",
+          "Scheduled tasks and delegation to subagents",
+          "Connects to messaging apps",
+          "Optional Nous Portal plans for hosted models (a free tier exists)"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons: no exact match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware found. Third-party CVE feeds list several vulnerabilities (shell.exec, Skills Guard, etc.) in older versions with public exploits and no vendor response noted; patch status unverified."
+      },
+      "sources": [
+        {
+          "url": "https://hermes-agent.nousresearch.com",
+          "date": "2026-10-17",
+          "note": "MIT, pricing, links"
+        },
+        {
+          "url": "https://github.com/NousResearch/hermes-agent",
+          "date": "2026-10-17",
+          "note": "MIT, about 254k stars"
+        },
+        {
+          "url": "web search: Hermes Agent scam/malware/security",
+          "date": "2026-10-17",
+          "note": "CVE advisories via third-party trackers"
+        }
+      ],
+      "unverified": [
+        "Latest release date (not shown)",
+        "CVE patch status",
+        "Install is a curl|bash script (not run); mention caution"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/hermes-agent.md",
+        "lint": "pass"
+      }
+    },
+    "hero": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "HeroUI",
+        "url": "https://www.heroui.com",
+        "alive": true,
+        "operator": "HeroUI Inc. (GitHub org heroui-inc)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Open-source React component library, free to use. Home page mentions no pricing or Pro tier.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.heroui.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Apache-2.0 · commercial: yes · attribution: license/notice kept · limit: Apache-2.0 patent and trademark terms",
+        "openSource": true,
+        "spdx": "Apache-2.0",
+        "evidence": {
+          "url": "https://github.com/heroui-inc/heroui",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "heroui",
+        "type": "Library",
+        "category": "Development",
+        "title": "HeroUI",
+        "description": "Open-source React UI library (formerly NextUI) with accessible components built on React Aria and Tailwind CSS v4, plus MCP server and agent skills.",
+        "tags": [
+          "ui-ux",
+          "open-source",
+          "web"
+        ],
+        "relatedResources": [
+          "chakra-ui",
+          "ant-design"
+        ],
+        "similarResources": [
+          "chakra-ui",
+          "ant-design",
+          "beui"
+        ],
+        "keyFeatures": [
+          "Accessible components built on React Aria",
+          "Styled with Tailwind CSS v4, no CSS-in-JS runtime",
+          "Compound components and no provider wrapper",
+          "Per-component packages for tree-shaking",
+          "MCP server, llms.txt and agent skills for AI tooling"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "heroui",
+          "fillColor": "#000000",
+          "bgColor": null,
+          "source": "Simple Icons (check-icon.mjs, 2026-10-17)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Safety search not run (Tier A budget); GitHub repo about 30.9k stars."
+      },
+      "sources": [
+        {
+          "url": "https://www.heroui.com",
+          "date": "2026-10-17",
+          "note": "description, links"
+        },
+        {
+          "url": "https://github.com/heroui-inc/heroui",
+          "date": "2026-10-17",
+          "note": "Apache-2.0, features, stars"
+        }
+      ],
+      "unverified": [
+        "Whether a paid HeroUI Pro exists (not mentioned on home)",
+        "Latest release date",
+        "Safety search not run"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/heroui.md",
+        "lint": "pass"
+      }
+    },
+    "heroicons": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Heroicons",
+        "url": "https://heroicons.com",
+        "alive": true,
+        "operator": "Tailwind Labs (makers of Tailwind CSS)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire icon set free under the MIT license; no sign-in on the page",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://heroicons.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT · commercial: yes (MIT permits it; page states no explicit commercial wording) · attribution: not required beyond keeping the license notice",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/tailwindlabs/heroicons",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "heroicons",
+        "type": "Icon Set",
+        "category": "Design",
+        "title": "Heroicons",
+        "description": "Hand-crafted, MIT-licensed SVG icons from the makers of Tailwind CSS, in outline, solid, mini and micro styles, with React and Vue packages.",
+        "tags": [
+          "icon-library",
+          "open-source",
+          "ui-ux",
+          "web"
+        ],
+        "relatedResources": [
+          "feather-icons",
+          "bootstrap-icons",
+          "flowbite-icons"
+        ],
+        "similarResources": [
+          "feather-icons",
+          "eva-icons",
+          "akar-icons"
+        ],
+        "keyFeatures": [
+          "About 316 icons (count as shown on the home page)",
+          "Four styles: Outline, Solid, Mini and Micro",
+          "Copy as SVG or JSX from the site",
+          "Ready-made React and Vue libraries",
+          "MIT licensed, built by the Tailwind CSS team"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Not in Simple Icons (check-icon.mjs, 2026-10-17)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Official Tailwind Labs project; GitHub repo under tailwindlabs org"
+      },
+      "sources": [
+        {
+          "url": "https://heroicons.com",
+          "date": "2026-10-17",
+          "note": "styles, icon count, MIT license, makers"
+        },
+        {
+          "url": "https://github.com/tailwindlabs/heroicons",
+          "date": "2026-10-17",
+          "note": "MIT licensed, free SVG icons"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "exact copyright holder not stated on pages read",
+        "icon count read from a summary",
+        "copy-as-SVG/JSX feature not confirmed on page"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/heroicons.md",
+        "lint": "pass"
+      }
+    },
+    "hexful": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Hexful",
+        "url": "https://hexful.com",
+        "alive": true,
+        "operator": "Hexful Technologies (England & Wales, UK, per privacy page)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All services currently free and ad-free; no login seen",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://hexful.com/privacy",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Site terms: limited revocable licence to use · commercial: not stated · attribution: not stated · no scraping or AI-training on output",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://hexful.com/privacy",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "hexful",
+        "type": "Website",
+        "category": "Design",
+        "title": "Hexful",
+        "description": "Free color toolkit for browsing palettes, gradients, shades and combinations, with palette and gradient makers, an image color picker and a contrast checker.",
+        "tags": [
+          "color-palette",
+          "inspiration",
+          "visual-design",
+          "web"
+        ],
+        "relatedResources": [
+          "color-hunt",
+          "coolhue",
+          "colormind"
+        ],
+        "similarResources": [
+          "color-hunt",
+          "colormind",
+          "design-gradients"
+        ],
+        "keyFeatures": [
+          "Browse color palettes, combinations, shades and gradients",
+          "Palette Maker and Gradient Maker",
+          "Image Picker that pulls colors in the browser without uploading",
+          "Contrast Checker",
+          "Save palettes and gradients"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Not in Simple Icons (check-icon.mjs, 2026-10-17)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No safety search run; policy reserves the right to add paid tiers or ads with 30 days notice"
+      },
+      "sources": [
+        {
+          "url": "https://hexful.com",
+          "date": "2026-10-17",
+          "note": "tools list, Image Picker local processing"
+        },
+        {
+          "url": "https://hexful.com/privacy",
+          "date": "2026-10-17",
+          "note": "operator, currently free and ad-free, terms"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "whether saving palettes needs an account",
+        "commercial use of generated palettes not stated"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/hexful.md",
+        "lint": "pass"
+      }
+    },
+    "hey-design-systems": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Hey Design Systems",
+        "url": "https://heydesign.systems",
+        "alive": true,
+        "operator": "Saurabh Yadav (individual curator)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Open curated site; page shows no pricing, paywall, subscription or sign-in",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://heydesign.systems",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No license or terms found on the page · commercial: n/a (links to external resources) · attribution: n/a",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://heydesign.systems",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "hey-design-systems",
+        "type": "Resource",
+        "category": "Design",
+        "title": "Hey Design Systems",
+        "description": "A curated introduction to design systems: how to design, document, govern and measure one, plus reading list, watchlist, live systems, tools and starter kits.",
+        "tags": [
+          "design-systems",
+          "ui-ux",
+          "inspiration",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "designsystems-com",
+          "design-principles",
+          "adele"
+        ],
+        "similarResources": [
+          "designsystems-com",
+          "adele",
+          "design-principles"
+        ],
+        "keyFeatures": [
+          "Guides organised by lifecycle: design, document, govern, develop, measure, sell",
+          "Reading list and watchlist",
+          "Stories section",
+          "Directory of live design systems, tools, books and starter kits"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Not in Simple Icons / no official logo checked (2026-10-17)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Personal curated project; no safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://heydesign.systems",
+          "date": "2026-10-17",
+          "note": "nav sections, curator credit, no pricing or terms"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "no terms or license page found",
+        "free status inferred from absence of pricing plus input label Free"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/hey-design-systems.md",
+        "lint": "pass"
+      }
+    },
+    "heyboss-ai": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Free tier unclear: pricing page has a Free column listing only 'Free Quick Edits (No Credits)' and no free credits or price; building needs paid AI credits. Home page shows no free plan or trial.",
+      "site": {
+        "name": "HeyBoss.AI",
+        "url": "https://heyboss.ai",
+        "alive": true,
+        "operator": "Heyboss.AI (company not named on pages read; badge 'Backed By OpenAI Fund')"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free column on /pricing lists only Free Quick Edits (No Credits) for text, colors, fonts, spacing; no credit allowance shown",
+        "paidFrom": "Basic $23.99/month (200 AI credits/month), or $287.90/year",
+        "evidence": {
+          "url": "https://heyboss.ai/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Hosted SaaS; terms not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://heyboss.ai",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "heyboss-ai",
+        "type": "AI Tool",
+        "category": "Design",
+        "title": "HeyBoss.AI",
+        "description": "AI website and business builder for small businesses that generates sites from prompts and bundles hosting, SEO and marketing pages.",
+        "tags": [
+          "ai-tool",
+          "website-builder",
+          "no-code",
+          "web"
+        ],
+        "relatedResources": [
+          "lovable",
+          "bolt",
+          "mixo"
+        ],
+        "similarResources": [
+          "lovable",
+          "bolt",
+          "atoms"
+        ],
+        "keyFeatures": [
+          "Generates websites and stores from chat prompts using AI credits",
+          "Hosting and updates plan bundled with marketing",
+          "AI SEO and GEO pages included in plan",
+          "Free standalone tools such as business name and blog post generators"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Not in Simple Icons (check-icon.mjs, 2026-10-17)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search found no scam reports; results thin and mostly promotional. Pricing differs across aggregator listings."
+      },
+      "sources": [
+        {
+          "url": "https://heyboss.ai",
+          "date": "2026-10-17",
+          "note": "product description, credits, OpenAI Fund badge"
+        },
+        {
+          "url": "https://heyboss.ai/pricing",
+          "date": "2026-10-17",
+          "note": "plans: Basic $23.99, Premium $39.99, Platinum $79.99 per month; Free column"
+        },
+        {
+          "url": "https://www.nocode.mba/articles/heyboss-review",
+          "date": "2026-10-17",
+          "note": "search result only; not fetched"
+        }
+      ],
+      "unverified": [
+        "Free column credit allowance not stated",
+        "refund terms inconsistent (7-day vs 30-day)",
+        "terms of service and operator not read",
+        "annual vs monthly prices as displayed on a toggle"
+      ],
+      "injectionSeen": null
+    },
+    "heygen": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "HeyGen",
+        "url": "https://www.heygen.com",
+        "alive": true,
+        "operator": "HeyGen (private company, Los Angeles per secondary source)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan at $0/month: 3 videos per month, up to 1 minute each, up to 1080p; Avatar IV only as limited trial access",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.heygen.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "HeyGen Terms - free-plan output is personal, non-commercial and internal evaluation use only; paid plans needed for commercial use",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.heygen.com/terms",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "heygen",
+        "type": "AI Tool",
+        "category": "Marketing",
+        "title": "HeyGen",
+        "description": "AI video generator that turns scripts into presenter videos with realistic avatars, voice cloning and translation into 30+ languages.",
+        "tags": [
+          "ai-tool",
+          "video-template",
+          "social-media-design"
+        ],
+        "relatedResources": [
+          "creatify",
+          "descript"
+        ],
+        "similarResources": [
+          "creatify"
+        ],
+        "keyFeatures": [
+          "Script-to-video with stock or custom avatars",
+          "500+ stock avatars on the free plan",
+          "Voice cloning and multi-language output (30+ languages on free)",
+          "Free plan limited to 3 videos a month, 1 minute each"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no Simple Icons match, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Search found no shutdown/acquisition; media report misuse of the tool for deepfakes, not company fraud"
+      },
+      "sources": [
+        {
+          "url": "https://www.heygen.com/pricing",
+          "date": "2026-10-17",
+          "note": "free plan limits, FAQ downgrade to Free"
+        },
+        {
+          "url": "https://www.heygen.com/terms",
+          "date": "2026-10-17",
+          "note": "free plan output license (section 4), section 10 redistribution"
+        },
+        {
+          "url": "https://www.heygen.com",
+          "date": "2026-10-17",
+          "note": "home"
+        }
+      ],
+      "unverified": [
+        "free plan watermark not stated on pricing page",
+        "exact monthly credits for free plan not stated",
+        "no clause on directory listing found; section 10 on redistribution of Services is ambiguous",
+        "paid price not recorded",
+        "free plan permanence implied (FAQ) but word permanent not used"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/heygen.md",
+        "lint": "pass"
+      }
+    },
+    "hiding-elephant": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Free plan has a lifetime generation cap ('not forever free'), outputs non-commercial, projects public; permanence of free tier unclear",
+      "site": {
+        "name": "Hiding Elephant",
+        "url": "https://www.hidingelephant.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Daily credits with a lifetime cap (size unstated), ad-supported, public projects, free outputs personal/non-commercial only; includes vector editing, background removal, upscaling, vectorization",
+        "paidFrom": "Go Lite $5/month; Starter $29/month",
+        "evidence": {
+          "url": "https://www.hidingelephant.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Free plan outputs personal and non-commercial only; commercial use on paid plans",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.hidingelephant.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "hiding-elephant",
+        "type": "AI Tool",
+        "category": "Design",
+        "title": "Hiding Elephant",
+        "description": "AI design canvas that pairs image generation with real vector and raster editing, brand kits, upscaling and background removal.",
+        "tags": [
+          "ai-tool",
+          "graphic-design",
+          "stock-vectors"
+        ],
+        "relatedResources": [
+          "adobe-firefly"
+        ],
+        "similarResources": [
+          "adobe-firefly"
+        ],
+        "keyFeatures": [
+          "Mixed AI and vector editing canvas",
+          "Background removal, upscaling and vectorization",
+          "Brand style kits and workflows",
+          "Team collaboration on paid plans"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no match, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Search found only directory listings; no independent reviews, no scam or shutdown reports"
+      },
+      "sources": [
+        {
+          "url": "https://www.hidingelephant.com",
+          "date": "2026-10-17",
+          "note": "product description, terms line"
+        },
+        {
+          "url": "https://www.hidingelephant.com/pricing",
+          "date": "2026-10-17",
+          "note": "plans and prices"
+        }
+      ],
+      "unverified": [
+        "free credit amounts and lifetime cap size",
+        "operator unknown",
+        "no separate ToS page read",
+        "no independent reviews found"
+      ],
+      "injectionSeen": null
+    },
+    "high-resolution": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Finished 25-episode podcast/video series; pages do not state that episodes are free; operator High Resolution, LLC; owner to decide if an ended series fits",
+      "site": {
+        "name": "High Resolution",
+        "url": "https://www.highresolution.design",
+        "alive": true,
+        "operator": "High Resolution, LLC (hosts Bobby Ghoshal and Jared Erondu)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Cost of episodes not stated; distributed via podcast apps and YouTube; newsletter offers early access",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.highresolution.design",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "not stated",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.highresolution.design/about",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "high-resolution",
+        "type": "Resource",
+        "category": "Design",
+        "title": "High Resolution",
+        "description": "Limited series of 25 interviews on product design and design thinking with people from Airbnb, Spotify and other companies.",
+        "tags": [
+          "inspiration",
+          "ui-ux"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "25 episodes, each a guest from a product company",
+          "Hosted by Bobby Ghoshal and Jared Erondu",
+          "Available in podcast apps and on YouTube"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "not checked"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://www.highresolution.design",
+          "date": "2026-10-17",
+          "note": "episode list, series finale entry"
+        },
+        {
+          "url": "https://www.highresolution.design/about",
+          "date": "2026-10-17",
+          "note": "hosts, channels"
+        }
+      ],
+      "unverified": [
+        "episodes free to watch not confirmed",
+        "series ended (inferred from finale entry)",
+        "license/terms not read",
+        "no safety search"
+      ],
+      "injectionSeen": null
+    },
+    "highlights": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Highlights",
+        "url": "https://www.highlights.design",
+        "alive": true,
+        "operator": "Outdraw Design"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire library free for commercial and personal use",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.highlights.design",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "CC0 (public domain) · commercial: yes · attribution: not required · cannot be re-sold as your own; asked not to use for violence, crime or animal-product projects",
+        "openSource": false,
+        "spdx": "CC0-1.0",
+        "evidence": {
+          "url": "https://www.highlights.design",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "highlights",
+        "type": "Stock Media",
+        "category": "Design",
+        "title": "Highlights",
+        "description": "Free CC0 library of 100+ hand-drawn vector accents such as arrows, blobs, underlines and sprinkles, from Outdraw Design.",
+        "tags": [
+          "stock-vectors",
+          "stock-illustrations",
+          "royalty-free",
+          "graphic-design"
+        ],
+        "relatedResources": [
+          "undraw",
+          "blobmaker"
+        ],
+        "similarResources": [
+          "undraw"
+        ],
+        "keyFeatures": [
+          "100+ editable hand-drawn vector elements",
+          "CC0 public domain, commercial use allowed",
+          "Available as a Figma file",
+          "Free Webflow template alongside"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no match, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search shows the same Outdraw Design library on Gumroad; no scam reports seen"
+      },
+      "sources": [
+        {
+          "url": "https://www.highlights.design",
+          "date": "2026-10-17",
+          "note": "description, CC0 quotes, operator"
+        },
+        {
+          "url": "https://outdrawdesign.gumroad.com/l/highlights",
+          "date": "2026-10-17",
+          "note": "search snippet: free library by Outdraw Design"
+        }
+      ],
+      "unverified": [
+        "site shows Copyright 2022; recent activity unconfirmed",
+        "third-party search did not itself confirm CC0",
+        "no dedicated safety search beyond one query"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/highlights.md",
+        "lint": "pass"
+      }
+    },
+    "hilos": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Permanent free plan confirmed (self-run CLI/MCP agents, hosted agents paid), but operator is unnamed, terms name no company, product is early-stage; owner to confirm listing and RL type/category.",
+      "site": {
+        "name": "hilos",
+        "url": "https://hilos.sh",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free $0: team chat and agents you run yourself, unlimited members, unlimited CLI and MCP agents on your own key; 200 one-time starter credits for hosted agents",
+        "paidFrom": "$20 per seat/month (Pro, 1,000 hosted-agent credits per seat); Max $50 per seat/month",
+        "evidence": {
+          "url": "https://hilos.sh/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: not stated · attribution: n/a · terms: user keeps content ownership, limited license to hilos; no open-source statement",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://hilos.sh/terms",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "One search: Pablo Stanley substack 'Building hilos' describes it as early-stage with rough edges; no scam/shutdown hits."
+      },
+      "sources": [
+        {
+          "url": "https://hilos.sh",
+          "date": "2026-10-17",
+          "note": "product description, 'hilos is free'"
+        },
+        {
+          "url": "https://hilos.sh/pricing",
+          "date": "2026-10-17",
+          "note": "plans and credits"
+        },
+        {
+          "url": "https://hilos.sh/terms",
+          "date": "2026-10-17",
+          "note": "licence, trial, no operator named"
+        },
+        {
+          "url": "https://pablostanley.substack.com/p/building-hilos",
+          "date": "2026-10-17",
+          "note": "safety search result, early-stage description"
+        }
+      ],
+      "unverified": [
+        "operator/legal entity not named",
+        "relation to Pablo Stanley/Dive Club by Ridd not confirmed",
+        "commercial-use terms",
+        "no rl-block written (not Tier B)"
+      ],
+      "injectionSeen": null
+    },
+    "honter": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Free forever plan (6 projects) shown on home page, but Terms page says 'Full terms text is pending' and no operator entity is named, so listing/commercial terms cannot be confirmed.",
+      "site": {
+        "name": "Honter",
+        "url": "https://honter.io",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free $0 'forever': 6 projects, all six project types, AI feedback personas, pins, voice notes, threads, real-time review with no client login",
+        "paidFrom": "$19.99 per month (Pro Whitelabel: unlimited projects, up to 5 teammates)",
+        "evidence": {
+          "url": "https://honter.io/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: not stated · attribution: n/a · terms text pending",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://honter.io/terms",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "honterapp.com 301 redirects to honter.io. No dedicated safety search run."
+      },
+      "sources": [
+        {
+          "url": "https://honterapp.com",
+          "date": "2026-10-17",
+          "note": "301 redirect to honter.io"
+        },
+        {
+          "url": "https://honter.io/",
+          "date": "2026-10-17",
+          "note": "product, pricing"
+        },
+        {
+          "url": "https://honter.io/terms",
+          "date": "2026-10-17",
+          "note": "terms pending"
+        }
+      ],
+      "unverified": [
+        "terms text pending",
+        "operator entity unnamed",
+        "no safety search",
+        "no rl-block written (not Tier B)"
+      ],
+      "injectionSeen": null
+    },
+    "hopp": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Hopp by Wix: standard plan stated free, but free limits and Pro price are not published on readable pages (/pricing returned 403; Pro price reportedly shown only in dashboard) and terms not read.",
+      "site": {
+        "name": "Hopp",
+        "url": "https://hopp.co",
+        "alive": true,
+        "operator": "Wix"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Home FAQ: 'the standard Hopp plan is free to use'; exact limits not published on readable page",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://hopp.co",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: not read · terms not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://hopp.co",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Footer '© 2026 Hopp by Wix'. Search found only third-party review site iTechGuides; no scam hits."
+      },
+      "sources": [
+        {
+          "url": "https://hopp.co",
+          "date": "2026-10-17",
+          "note": "product, FAQ free plan, Wix operator"
+        },
+        {
+          "url": "https://hopp.co/pricing",
+          "date": "2026-10-17",
+          "note": "HTTP 403"
+        },
+        {
+          "url": "https://www.itechguides.com/best/link-in-bio/hopp-by-wix/",
+          "date": "2026-10-17",
+          "note": "second-hand: Pro price not published, branding removal/custom domain need Pro"
+        }
+      ],
+      "unverified": [
+        "free plan limits",
+        "Pro price",
+        "terms/ToS",
+        "custom domain free only with yearly plan (home page claim)",
+        "no rl-block written (not Tier B)"
+      ],
+      "injectionSeen": null
+    },
+    "hotjar": {
+      "researchedOn": "2026-10-17",
+      "verdict": "skip",
+      "verdictReason": "Hotjar is now part of Contentsquare and new sign-ups are closed: page says 'It's no longer possible to create a new account on Hotjar.' hotjar.com redirects to contentsquare.com/hotjar.",
+      "site": {
+        "name": "Hotjar",
+        "url": "https://www.hotjar.com",
+        "alive": true,
+        "operator": "Contentsquare"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Hotjar Free listed at '35 / day' sessions, but no new accounts can be created",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://contentsquare.com/hotjar/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://contentsquare.com/hotjar/",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Acquired by Contentsquare; sign-up closed. No separate safety search."
+      },
+      "sources": [
+        {
+          "url": "https://www.hotjar.com/pricing/",
+          "date": "2026-10-17",
+          "note": "308 redirect to contentsquare.com/pricing"
+        },
+        {
+          "url": "https://contentsquare.com/pricing/",
+          "date": "2026-10-17",
+          "note": "Contentsquare own Free plan 200k sessions; no Hotjar plans"
+        },
+        {
+          "url": "https://contentsquare.com/hotjar/",
+          "date": "2026-10-17",
+          "note": "sign-up closed, 35/day free, part of Contentsquare"
+        }
+      ],
+      "unverified": [
+        "Hotjar paid prices",
+        "terms"
+      ],
+      "injectionSeen": "None found; Contentsquare footer has an 'AI & LLM Info' link (not opened)."
+    },
+    "hovercode": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Hovercode",
+        "url": "https://hovercode.com",
+        "alive": true,
+        "operator": "Hovercode Ltd (UK, company no. 15221450)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free $0/month, not a time-limited trial, no card required: unlimited static QR codes, 3 dynamic QR codes, 3 short links, 1 multi-link page, 0 custom domains",
+        "paidFrom": "Pro $12/month",
+        "evidence": {
+          "url": "https://hovercode.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS (Hovercode Terms) · commercial: not stated · attribution: not stated · Fair Usage Policy may limit excessive use",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://hovercode.com/terms/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "hovercode",
+        "type": "Tool",
+        "category": "Marketing",
+        "title": "Hovercode",
+        "description": "QR code generator with editable dynamic codes, scan tracking, logos and colours, plus short links and landing pages; free plan available.",
+        "tags": [
+          "web",
+          "automation"
+        ],
+        "relatedResources": [
+          "bitly-qr-codes"
+        ],
+        "similarResources": [
+          "bitly-qr-codes",
+          "adobe-express-qr-code-generator"
+        ],
+        "keyFeatures": [
+          "Static QR codes, unlimited on every plan",
+          "Dynamic codes whose destination can change after printing",
+          "Scan tracking",
+          "Custom logos and colours",
+          "Short links and hosted multi-link pages",
+          "REST API"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-17: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search found no scam reports; G2 shows 4.9/5 over 22 reviews (G2 page, not independently verified)"
+      },
+      "sources": [
+        {
+          "url": "https://hovercode.com",
+          "date": "2026-10-17",
+          "note": "pricing, free plan limits, features"
+        },
+        {
+          "url": "https://hovercode.com/terms/",
+          "date": "2026-10-17",
+          "note": "operator, no listing restriction"
+        },
+        {
+          "url": "web search: Hovercode review scam legit",
+          "date": "2026-10-17",
+          "note": "safety, G2 reviews"
+        }
+      ],
+      "unverified": [
+        "no dedicated /pricing page read",
+        "no existing RL tag for QR codes (used web, automation); owner may want a new qr-code tag",
+        "commercial-use terms for free plan not stated"
+      ],
+      "injectionSeen": "Home page has a 'When to use' section written for AI agents (use pricing.md, MCP server/REST API, honor Retry-After); informational, not acted on",
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/hovercode.md",
+        "lint": "pass"
+      }
+    },
+    "hoverstates": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Hoverstates",
+        "url": "https://www.hoverstat.es",
+        "alive": true,
+        "operator": "Official Business (curators Mike Guppy and Dan Powell)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Public gallery, no pricing, paywall or sign-in seen",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.hoverstat.es",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Copyright Official Business · screenshots belong to the featured sites · no terms of use stated",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.hoverstat.es/about",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "hoverstates",
+        "type": "Website",
+        "category": "Design",
+        "title": "Hoverstates",
+        "description": "Curated gallery of unconventional, experimental websites with short critiques of the interaction and layout details that make each one stand out.",
+        "tags": [
+          "inspiration",
+          "web",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "awwwards"
+        ],
+        "similarResources": [
+          "awwwards",
+          "mobbin"
+        ],
+        "keyFeatures": [
+          "Archive of alternative web-design examples",
+          "Short write-up per site on hover, scroll or type details",
+          "Submit form for new sites",
+          "Portfolios, shops and editorial sites"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-17: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search; newest entry dated 21 Jul 2026"
+      },
+      "sources": [
+        {
+          "url": "https://www.hoverstat.es",
+          "date": "2026-10-17",
+          "note": "content, newest entry, footer"
+        },
+        {
+          "url": "https://www.hoverstat.es/about",
+          "date": "2026-10-17",
+          "note": "curators, no terms"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "free access inferred from absence of pricing/paywall"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/hoverstates.md",
+        "lint": "pass"
+      }
+    },
+    "how-to-start-in-ux": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "How to start in UX",
+        "url": "https://start.uxdesign.cc",
+        "alive": true,
+        "operator": "UX Collective (Medium)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Free self-guided course in digital product design, per search summary",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://start.uxdesign.cc/",
+          "date": "2026-10-17",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "Not read; no license or terms found",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://start.uxdesign.cc/",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "how-to-start-in-ux",
+        "type": "Course",
+        "category": "Design",
+        "title": "How to Start in UX",
+        "description": "Free self-paced guide to digital product design: methods, when to use them, and whether UX suits you as a career. Not a bootcamp.",
+        "tags": [
+          "ui-ux",
+          "visual-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Self-paced chapters",
+          "Focus on methods and when to use them, not step-by-step tutorials",
+          "Helps judge whether UX fits your interests",
+          "Presented as a first iteration open to feedback"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-17: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search results list the site under its own domain"
+      },
+      "sources": [
+        {
+          "url": "https://start.uxdesign.cc",
+          "date": "2026-10-17",
+          "note": "fetch returned only the title 'The Guide to Design' (JS page)"
+        },
+        {
+          "url": "web search: How to start in UX start.uxdesign.cc",
+          "date": "2026-10-17",
+          "note": "description: free self-guided course"
+        }
+      ],
+      "unverified": [
+        "page body not readable via fetch; description from search summary",
+        "license/terms not read",
+        "operator inferred from uxdesign.cc domain",
+        "only 2 weak tags available"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/how-to-start-in-ux.md",
+        "lint": "pass"
+      }
+    },
+    "httpster": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Httpster",
+        "url": "https://httpster.net",
+        "alive": true,
+        "operator": "Dominic Whittle (founder/curator, per search summary of /about)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Public gallery of 3116 featured sites; no paywall or account seen",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://httpster.net",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Not read; footer copyright 2012-2026; no terms found",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://httpster.net",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "httpster",
+        "type": "Website",
+        "category": "Design",
+        "title": "Httpster",
+        "description": "Hand-picked website design inspiration with a typographic, minimal and brutalist lean, filterable by site type and style.",
+        "tags": [
+          "inspiration",
+          "web",
+          "typography"
+        ],
+        "relatedResources": [
+          "awwwards"
+        ],
+        "similarResources": [
+          "awwwards",
+          "mobbin"
+        ],
+        "keyFeatures": [
+          "Hand-curated gallery of 3116 featured sites",
+          "Filter by type such as ecommerce or fashion",
+          "Filter by style such as minimal, grid or typographic",
+          "Reader submissions"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-17: not in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Covered by Creative Bloq; site active with 2026 copyright; promotes Mobbin via referral link"
+      },
+      "sources": [
+        {
+          "url": "https://httpster.net",
+          "date": "2026-10-17",
+          "note": "gallery, count, footer"
+        },
+        {
+          "url": "web search: Httpster.net website inspiration gallery",
+          "date": "2026-10-17",
+          "note": "founder, 13 years, filters"
+        }
+      ],
+      "unverified": [
+        "terms/license not read",
+        "about page not fetched directly",
+        "update frequency unknown"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/httpster.md",
+        "lint": "pass"
+      }
     }
   }
 }
