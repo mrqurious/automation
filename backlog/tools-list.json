@@ -29658,7 +29658,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "looks-like-good-design",
       "priority": "P2",
       "hasResearch": true
     },
@@ -29684,7 +29684,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "lookup-design",
       "priority": "P2",
       "hasResearch": true
     },
@@ -29710,7 +29710,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "loom",
       "priority": "P2",
       "hasResearch": true
     },
@@ -29759,10 +29759,10 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "deferred-paid",
+      "status": "in-rl",
       "notes": "",
       "pricingBucket": "paid",
-      "rlSlug": null,
+      "rlSlug": "loops",
       "priority": null,
       "hasResearch": false
     },
@@ -29788,7 +29788,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "loops",
       "priority": "P2",
       "hasResearch": true
     },
@@ -29814,7 +29814,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "lordicon",
       "priority": "P2",
       "hasResearch": true
     },
@@ -29840,7 +29840,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "lorem-ipsum",
       "priority": "P2",
       "hasResearch": true
     },
@@ -29944,7 +29944,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "lottiefiles",
       "priority": "P2",
       "hasResearch": true
     },
@@ -29996,7 +29996,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "lottielab",
       "priority": "P2",
       "hasResearch": true
     },
@@ -30133,7 +30133,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "lovetheworkmore",
       "priority": "P2",
       "hasResearch": true
     },
@@ -30159,7 +30159,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "lstore-graphics",
       "priority": "P2",
       "hasResearch": true
     },
@@ -30235,7 +30235,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "lucidspark",
       "priority": "P2",
       "hasResearch": true
     },
@@ -30495,7 +30495,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "lyssna",
       "priority": "P2",
       "hasResearch": true
     },
@@ -30521,7 +30521,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "macaly",
       "priority": "P2",
       "hasResearch": true
     },
@@ -30573,7 +30573,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "macintosh-skeletal-filled",
       "priority": "P2",
       "hasResearch": true
     },
@@ -30599,7 +30599,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "macpaw-fixel",
       "priority": "P2",
       "hasResearch": true
     },
@@ -30622,12 +30622,12 @@
           "file": "Productivity Tools for Design and Product Teams.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "made-by-folk",
@@ -30648,12 +30648,12 @@
           "file": "Best Design Blogs & Magazines for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "madewithvibe",
@@ -30674,12 +30674,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "The directory's target URL (/projects) and the /tools page are JS-rendered and return only \"Loading projects...\"/\"Loading tools...\" placeholders with no content via fetch; the underlying business visible on the home page is paid private 1-on-1 coaching, not a free tool or resource.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "mage-icons",
@@ -30698,12 +30698,12 @@
           "file": "Best Free Open Source Icon Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "beta",
       "rlSlug": null,
       "priority": "P3",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "magic-eraser",
@@ -30724,12 +30724,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "magic-patterns",
@@ -30750,12 +30750,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "magicpath",
@@ -30776,12 +30776,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "FETCH-FAIL: home and /pricing render as JS-only shells (WebFetch returns only the <title> tag, no body text) on two separate fetch attempts; pricing, license and feature facts could not be read first-party.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "magicpattern",
@@ -30854,12 +30854,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "FETCH-FAIL: https://www.magnific.com returns HTTP 403 Forbidden (bot/Cloudflare check) on both the home page and the /ai/docs/plans-and-pricing page; cannot read pricing or license first-party.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "magnific-icons",
@@ -30878,12 +30878,12 @@
           "file": "Best Free Open Source Icon Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "FETCH-FAIL: https://www.magnific.com/icons returns HTTP 403 Forbidden (bot/Cloudflare check) on two fetch attempts; cannot read pricing, license or even confirm page content first-party.",
       "pricingBucket": "beta",
       "rlSlug": null,
       "priority": "P3",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "magnific-mockups",
@@ -30904,12 +30904,12 @@
           "file": "Best Mockup Sites for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "FETCH-FAIL: magnific.com returns HTTP 403 Forbidden to WebFetch on home, /mockups, and /ai/docs/plans-and-pricing; retried once, still blocked. Cannot read first-party pricing/license/terms.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "magnific-stock",
@@ -30930,12 +30930,12 @@
           "file": "Free Stock Images & Video Websites _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "FETCH-FAIL: magnific.com returns HTTP 403 Forbidden to WebFetch on home and /stock; retried once, still blocked. Cannot read first-party pricing/license/terms.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "magnific-videos",
@@ -30956,12 +30956,12 @@
           "file": "Free Stock Images & Video Websites _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "FETCH-FAIL: magnific.com returns HTTP 403 Forbidden to WebFetch on home and /videos; retried once, still blocked. Cannot read first-party pricing/license/terms.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "mailboard",
@@ -30982,12 +30982,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "mailchimp",
@@ -31008,12 +31008,12 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "mailerlite",
@@ -31034,12 +31034,12 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "maintype",
@@ -31060,12 +31060,12 @@
           "file": "Best Free Font Libraries and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "maizzle",
@@ -31086,12 +31086,12 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "majesticons",
@@ -31110,12 +31110,12 @@
           "file": "Best Free Open Source Icon Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Paid only: browsing/preview is free but downloads require a one-time purchase (Solo €129 / Team €299); no permanent free tier for actual icon use. Input pricingLabels was empty, confirming no free claim.",
       "pricingBucket": "beta",
       "rlSlug": null,
       "priority": "P3",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "make",
@@ -31136,12 +31136,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "makerbox",
@@ -31164,12 +31164,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Official site (resolved from Digitool to www.makerbox.io) is a JS-rendered placeholder returning only the name/slogan and page title; /pricing returns only the page title with no plan content. Cannot confirm free tier, pricing, license or safety first-party.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "makerthrive",
@@ -31190,12 +31190,12 @@
           "file": "Best Design Communities for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Not a tool: makerthrive.com is a paid video-production/distribution service that makes sponsored tool-breakdown videos for SaaS/AI companies (YouTube, X, newsletter), sold to tool makers as 'partnerships.' It does not match the input description ('community for creators & makers to connect, share projects') and has no product or free tier for end users to list.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "makeswift",
@@ -31216,12 +31216,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "malt",
@@ -31242,12 +31242,12 @@
           "file": "Best Design Communities for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "FETCH-FAIL: malt.com returned HTTP 403 Forbidden on repeated WebFetch attempts (home page, likely bot/Cloudflare protection); could not read pricing or license/terms first-party.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "mangools",
@@ -31294,12 +31294,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "manychat",
@@ -31322,12 +31322,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "FETCH-FAIL: manychat.com returned 403 Forbidden on repeated fetch attempts (bot-protection); pricing, license and operator could not be read.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "mapify",
@@ -31376,12 +31376,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Paid only, no free plan: site states \"Plans start at $24/month on the yearly option\" ($44/mo billed monthly); the digitool.co \"Free tier listed\" label is inaccurate.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "marketing-examples",
@@ -31402,12 +31402,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "markup",
@@ -31454,12 +31454,12 @@
           "file": "Best UX Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "masonry",
@@ -31480,12 +31480,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Free tier is a one-time 50-credit welcome grant valid for 30 days, not a permanent free plan — effectively a free trial; paid plans start at $20/month (Starter).",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "material-2-design-resources",
@@ -31506,12 +31506,12 @@
           "file": "Best Mockup Sites for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "FETCH-FAIL: m2.material.io is JS-rendered; WebFetch returned only the page title \"Material Design\" with no body content across three attempts (home, /design/introduction, /resources/sticker-sheets-icons/).",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "material-3-design-resources",
@@ -59926,17 +59926,17 @@
   "triage": {
     "byStatus": {
       "deferred-trial": 232,
-      "deferred-paid": 217,
-      "blocked": 381,
-      "drafted": 410,
-      "rejected": 123,
-      "in-rl": 33,
-      "researched": 16,
-      "todo": 867
+      "deferred-paid": 216,
+      "blocked": 392,
+      "drafted": 426,
+      "rejected": 127,
+      "in-rl": 34,
+      "researched": 15,
+      "todo": 837
     },
     "todoByPriority": {
-      "P2": 826,
-      "P3": 40,
+      "P2": 799,
+      "P3": 37,
       "P1": 1
     }
   }

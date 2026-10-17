@@ -66234,6 +66234,2148 @@
         "file": "src/content/resources/macpaw-fixel.md",
         "lint": "pass"
       }
+    },
+    "macro": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Macro",
+        "url": "https://macro.com",
+        "alive": true,
+        "operator": "Macro Inc (macro-inc), a16z-backed startup"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Personal account, no credit card required: Gemini Flash only AI model, workspace agent context, up to 2 connected email accounts, 5 GB storage; outgoing emails carry a \"Sent with Macro\" footer",
+        "paidFrom": "$40 per seat per month (Pro plan, 30 days free trial); Max plan $200 per seat per month",
+        "evidence": {
+          "url": "https://macro.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "AGPL-3.0 (self-hosted source) · commercial: yes (hosted free/paid plans; self-hosting under AGPL copyleft) · attribution: not required for hosted use · limit: AGPL network-copyleft requires sharing source if a modified version is run as a public service",
+        "openSource": true,
+        "spdx": "AGPL-3.0",
+        "evidence": {
+          "url": "https://github.com/macro-inc/macro",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "macro",
+        "type": "AI Tool",
+        "category": "Productivity",
+        "title": "Macro",
+        "description": "An open-source AI workspace combining email, chat, docs, tasks, calls and CRM with shared team memory; free for individuals, paid team plans from $40/seat.",
+        "tags": [
+          "productivity",
+          "collaboration",
+          "ai-tool"
+        ],
+        "relatedResources": [
+          "chatgpt",
+          "claude-ai"
+        ],
+        "similarResources": [
+          "notion",
+          "coda"
+        ],
+        "keyFeatures": [
+          "Email, chat, docs, tasks and calls combined in one workspace",
+          "Shared \"team memory\" gives AI agents context across the whole workspace",
+          "Built-in CRM and GitHub integration",
+          "Free personal plan: 5 GB storage, 2 connected email accounts, Gemini Flash AI",
+          "Open source under AGPL-3.0, self-hostable"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 — no match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown hits in search; active GitHub org with ~6,900 commits and open issues/PRs"
+      },
+      "sources": [
+        {
+          "url": "https://macro.com",
+          "date": "2026-10-17",
+          "note": "product pitch, free-account claim, funding/backing"
+        },
+        {
+          "url": "https://macro.com/pricing",
+          "date": "2026-10-17",
+          "note": "Free/Pro/Max tier prices and limits"
+        },
+        {
+          "url": "https://github.com/macro-inc/macro",
+          "date": "2026-10-17",
+          "note": "AGPL-3.0 license, README description, activity, org"
+        }
+      ],
+      "unverified": [
+        "Exact numeric AI-usage limit on the Free plan not stated (page only says \"limited\")",
+        "Per-tier breakdown of calls/transcription and priority support not itemized on the pricing page",
+        "icon: no Simple Icons match; site's own SVG not checked"
+      ],
+      "injectionSeen": "The macro.com homepage contained text addressed to an AI agent asking it to draft emails and update a CRM; ignored, not acted on.",
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/macro.md",
+        "lint": "pass"
+      }
+    },
+    "made-by-folk": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Made by Folk",
+        "url": "https://www.madebyfolk.com",
+        "alive": true,
+        "operator": "Glenn Garriock (independent designer, also runs Garriock & Co.)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All podcast episodes, interviews and studio-visit features are free to browse; no account, membership or paywall observed",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.madebyfolk.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No license page found · commercial use: not stated · attribution: not stated · limit: reuse terms for interview/podcast content unknown (Terms & Conditions page returned 404 at two tried paths)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.madebyfolk.com/terms-and-conditions",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "made-by-folk",
+        "type": "Website",
+        "category": "Design",
+        "title": "Made by Folk",
+        "description": "A podcast and interview series with designers, illustrators and studios about their creative process, including studio visits, free to browse with no paywall.",
+        "tags": [
+          "inspiration",
+          "graphic-design"
+        ],
+        "relatedResources": [
+          "awwwards",
+          "behance",
+          "dribbble"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Podcast-style interviews with designers, illustrators and design studios",
+          "Studio-visit features documenting creative process on location",
+          "Covers topics like rebranding, packaging design and type foundries",
+          "Free to browse, no account or paywall observed",
+          "Companion YouTube and Instagram channels"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 — no match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/shutdown hits in search; independently run by named designer, separate from his studio Garriock & Co."
+      },
+      "sources": [
+        {
+          "url": "https://www.madebyfolk.com",
+          "date": "2026-10-17",
+          "note": "tagline, content type, no pricing/paywall observed"
+        },
+        {
+          "url": "https://www.madebyfolk.com/about",
+          "date": "2026-10-17",
+          "note": "operator identity (Glenn Garriock), no pricing/membership stated"
+        }
+      ],
+      "unverified": [
+        "Terms & Conditions and Privacy Policy pages returned 404 at /terms-and-conditions and /terms; reuse/license terms for site content not confirmed",
+        "No dedicated safety search beyond one general scam/shutdown query",
+        "icon: no Simple Icons match; site's own SVG not checked"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/made-by-folk.md",
+        "lint": "pass"
+      }
+    },
+    "madewithvibe": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "The directory's target URL (/projects) and the /tools page are JS-rendered and return only \"Loading projects...\"/\"Loading tools...\" placeholders with no content via fetch; the underlying business visible on the home page is paid private 1-on-1 coaching, not a free tool or resource.",
+      "site": {
+        "name": "MadeWithVibe",
+        "url": "https://www.madewithvibe.com",
+        "alive": true,
+        "operator": "Unnamed individual (site copyright \"MadeWithVibe\"; contact support@createtype.com)"
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": "Private 1-on-1 coaching sessions over Zoom/Google Meet, usually 1-2 hours each; exact price not stated on the page (booking via an external Youform)",
+        "evidence": {
+          "url": "https://www.madewithvibe.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.madewithvibe.com",
+          "date": "2026-10-17",
+          "note": "site is a paid vibe-coding coaching business with a Projects/Tools/Hackathons showcase and blog"
+        },
+        {
+          "url": "https://www.madewithvibe.com/projects",
+          "date": "2026-10-17",
+          "note": "page only shows \"Loading projects...\" placeholder, no content rendered"
+        },
+        {
+          "url": "https://www.madewithvibe.com/tools",
+          "date": "2026-10-17",
+          "note": "page only shows \"Loading tools...\" placeholder, no content rendered"
+        }
+      ],
+      "unverified": [
+        "Whether the Projects/Tools showcase gallery is free to browse once rendered client-side",
+        "Operator's real name/identity not stated on the site",
+        "Whether the showcase would meet originality/listability bars even if content were visible"
+      ],
+      "injectionSeen": null
+    },
+    "mage-icons": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Mage Icons",
+        "url": "https://mageicons.com",
+        "alive": true,
+        "operator": "Nischal Kharel"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire icon set (1,042+ SVG icons) free, no account or payment required; distributed via Iconify/web font/SVG",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://icon-sets.iconify.design/mage/",
+          "date": "2026-10-17",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "Apache License 2.0 · commercial: yes · attribution: not required · limit: trademark/brand name \"Mage Icons\" itself not covered",
+        "openSource": true,
+        "spdx": "Apache-2.0",
+        "evidence": {
+          "url": "https://icon-sets.iconify.design/mage/",
+          "date": "2026-10-17",
+          "confidence": "second-hand"
+        }
+      },
+      "rl": {
+        "slug": "mage-icons",
+        "type": "Icon Set",
+        "category": "Design",
+        "title": "Mage Icons",
+        "description": "An open source SVG icon system with over 1,000 icons, free under Apache 2.0 for web, desktop and app use.",
+        "tags": [
+          "icon-library",
+          "open-source"
+        ],
+        "relatedResources": [
+          "iconify",
+          "simple-icons"
+        ],
+        "similarResources": [
+          "lucide-icons",
+          "remix-icon"
+        ],
+        "keyFeatures": [
+          "Over 1,000 free SVG icons",
+          "Apache 2.0 licensed, no attribution required",
+          "Distributed via Iconify (prefix \"mage\") and as a web font",
+          "Usable commercially in web, desktop and app projects"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 (no exact match)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown hits found for mageicons.com; search surfaced only unrelated similarly-named sites (myicons.net, mage.rip, etc.)"
+      },
+      "sources": [
+        {
+          "url": "https://mageicons.com",
+          "date": "2026-10-17",
+          "note": "WebFetch returned only the page title (JS-rendered); could not read home page content directly"
+        },
+        {
+          "url": "https://icon-sets.iconify.design/mage/",
+          "date": "2026-10-17",
+          "note": "license (Apache 2.0, commercial use allowed, no attribution required), creator (MageIcons / Mage-Icons GitHub org)"
+        },
+        {
+          "url": "https://niskharel.gumroad.com/l/mageicons",
+          "date": "2026-10-17",
+          "note": "second-hand: creator name Nischal Kharel, open-source description, link to mageicons.com"
+        }
+      ],
+      "unverified": [
+        "mageicons.com itself could not be fetched (JS-only page, WebFetch returned only the title); pricing/license corroborated via Iconify and a Gumroad listing instead of the tool's own site",
+        "exact icon count varies slightly by aggregator (1,000-1,042+); not confirmed first-party",
+        "no first-party license/terms page read directly on mageicons.com"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/mage-icons.md",
+        "lint": "pass"
+      }
+    },
+    "magic-eraser": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Magic Eraser",
+        "url": "https://magicstudio.com/magiceraser/",
+        "alive": true,
+        "operator": "aarzoo, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free, no signup required; edit one picture at a time, with ads, with the Magic Studio logo watermark, and low-resolution download; paid plan unlocks bulk editing (e.g. 50 pictures at once), higher resolution and no watermark/ads",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://magicstudio.com/magiceraser/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "aarzoo, Inc. Terms of Service (proprietary) · commercial: output ownership assigned to the user, ambiguous on explicit commercial-use wording · attribution: not required · limit: no automated/bulk scraping of the service (robots/bots prohibited in ToS)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://magicstudio.com/terms-of-service/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "magic-eraser",
+        "type": "AI Tool",
+        "category": "Photography",
+        "title": "Magic Eraser",
+        "description": "A free AI tool from Magic Studio that removes unwanted objects, people or text from photos in seconds, no signup required.",
+        "tags": [
+          "ai-tool",
+          "graphic-design"
+        ],
+        "relatedResources": [
+          "figma",
+          "canva-templates"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Removes unwanted objects, people and text from photos",
+          "Free to use with no account signup",
+          "Free tier edits one picture at a time, with ads and a watermark",
+          "Paid tier adds bulk editing (e.g. 50 images at once) and higher-resolution, watermark-free downloads"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 (no exact match)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition hits for magicstudio.com or Magic Eraser; unrelated results only (different domains/products sharing the word \"magic\")"
+      },
+      "sources": [
+        {
+          "url": "https://magicstudio.com/magiceraser/",
+          "date": "2026-10-17",
+          "note": "product description, free-tier features, operator copyright line"
+        },
+        {
+          "url": "https://magicstudio.com/terms-of-service/",
+          "date": "2026-10-17",
+          "note": "operating company name (aarzoo, Inc.), output ownership clause, no-bot clause"
+        }
+      ],
+      "unverified": [
+        "exact paid plan price/billing period not found (no pricing page content returned, /pricing path 404s)",
+        "terms of service wording on commercial use is ambiguous (output ownership assigned to user, but Service content also stated to remain company property); not a clear yes/no"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/magic-eraser.md",
+        "lint": "pass"
+      }
+    },
+    "magic-patterns": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Magic Patterns",
+        "url": "https://magicpatterns.com",
+        "alive": true,
+        "operator": "North Park Labs, Inc. (d.b.a. Magic Patterns)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan exists (confirmed on the home page as a \"limited\" tier); third-party sources report a monthly credit allowance but figures conflict (100 vs. 20 credits/month) and could not be confirmed first-party since the pricing page returned no readable content",
+        "paidFrom": "$20/seat/month (Starter plan), per the site's own FAQ summary",
+        "evidence": {
+          "url": "https://magicpatterns.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "North Park Labs, Inc. Terms of Service (proprietary) · commercial: not explicitly addressed in excerpts read · attribution: not required · limit: Acceptable Use Policy prohibits deceptive impersonation and illegal activity",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.magicpatterns.com/docs/documentation/legal/terms",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "magic-patterns",
+        "type": "AI Tool",
+        "category": "Design",
+        "title": "Magic Patterns",
+        "description": "An AI design tool that turns ideas into UI designs and front-end code for product teams, with a free limited plan.",
+        "tags": [
+          "ai-tool",
+          "prototyping",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "figma",
+          "figma-community"
+        ],
+        "similarResources": [
+          "framer"
+        ],
+        "keyFeatures": [
+          "Generates UI designs and front-end code from prompts",
+          "MagicOS infinite canvas for exploring design directions with AI",
+          "Free plan with a limited monthly credit allowance",
+          "Paid plans from $20/seat/month (Starter) up to Business and custom Enterprise tiers"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 (no exact match)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition hits for Magic Patterns or North Park Labs; search returned only unrelated \"magic\"-named malware campaigns"
+      },
+      "sources": [
+        {
+          "url": "https://magicpatterns.com",
+          "date": "2026-10-17",
+          "note": "product description, operator (North Park Labs, Inc.), free-tier existence, paid-plan prices from FAQ"
+        },
+        {
+          "url": "https://www.magicpatterns.com/docs/documentation/legal/terms",
+          "date": "2026-10-17",
+          "note": "located via search as the ToS URL (North Park Labs, Inc. d.b.a Magic Patterns); page content itself not read (WebFetch returned no body)"
+        }
+      ],
+      "unverified": [
+        "exact free-tier credit allowance (third-party sources conflict: 100 vs. 20 credits/month; not confirmed on the tool's own pricing page, which returned no readable content)",
+        "full terms-of-service and acceptable-use text not read (WebFetch returned 404/empty on direct fetch); URL found via search only",
+        "whether free plan is explicitly permanent (vs. a time-limited trial) not confirmed in first-party text beyond the home page's use of the word \"limited\""
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/magic-patterns.md",
+        "lint": "pass"
+      }
+    },
+    "magicpath": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "FETCH-FAIL: home and /pricing render as JS-only shells (WebFetch returns only the <title> tag, no body text) on two separate fetch attempts; pricing, license and feature facts could not be read first-party.",
+      "site": {
+        "name": "MagicPath",
+        "url": "https://www.magicpath.ai",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.magicpath.ai/pricing",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": null,
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown hits in a targeted search; no first-party confirmation possible."
+      },
+      "sources": [
+        {
+          "url": "https://www.magicpath.ai",
+          "date": "2026-10-17",
+          "note": "Fetched twice; only the <title> \"MagicPath | The shared workspace for humans and agents\" came through, page is JS-rendered."
+        },
+        {
+          "url": "https://www.magicpath.ai/pricing",
+          "date": "2026-10-17",
+          "note": "Fetched; returned no pricing text, same JS-shell issue."
+        }
+      ],
+      "unverified": [
+        "Whether MagicPath has a real permanent free tier (third-party reviews describe conflicting figures: a 20-credits/day free plan per flowstep.ai, and Pro prices ranging $7–$39/mo across different aggregator sites — none of this is first-party, so not usable for a listing decision).",
+        "Operator/company name.",
+        "License/terms."
+      ],
+      "injectionSeen": null
+    },
+    "magnific": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "FETCH-FAIL: https://www.magnific.com returns HTTP 403 Forbidden (bot/Cloudflare check) on both the home page and the /ai/docs/plans-and-pricing page; cannot read pricing or license first-party.",
+      "site": {
+        "name": "Magnific",
+        "url": "https://www.magnific.com",
+        "alive": true,
+        "operator": "Freepik (Magnific AI was acquired by Freepik in 2024 and the whole Freepik product was rebranded Magnific in 2026, per third-party coverage — not first-party confirmed)"
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.magnific.com/ai/docs/plans-and-pricing",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": null,
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown hits; search surfaced only coverage of the Freepik-to-Magnific rebrand (2026) and the 2024 Freepik acquisition of Magnific AI, none first-party."
+      },
+      "sources": [
+        {
+          "url": "https://www.magnific.com",
+          "date": "2026-10-17",
+          "note": "WebFetch returned HTTP 403 Forbidden."
+        },
+        {
+          "url": "https://www.magnific.com/ai/docs/plans-and-pricing",
+          "date": "2026-10-17",
+          "note": "WebFetch returned HTTP 403 Forbidden (retry)."
+        }
+      ],
+      "unverified": [
+        "Whether there is a real permanent free tier (third-party reviews disagree: some describe a credit-based Free/Premium/Premium+/Pro structure at $16/$37/$90 per month post-merger, others describe an older $39/$99/$299 structure with no free plan at all — none first-party).",
+        "Current operator/brand relationship to Freepik.",
+        "License/terms."
+      ],
+      "injectionSeen": null
+    },
+    "magnific-icons": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "FETCH-FAIL: https://www.magnific.com/icons returns HTTP 403 Forbidden (bot/Cloudflare check) on two fetch attempts; cannot read pricing, license or even confirm page content first-party.",
+      "site": {
+        "name": "Magnific Icons",
+        "url": "https://www.magnific.com/icons",
+        "alive": true,
+        "operator": "Freepik (section of magnific.com; see magnific entry — not first-party confirmed)"
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.magnific.com/icons",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": null,
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Same parent domain as magnific.com; no independent safety read possible."
+      },
+      "sources": [
+        {
+          "url": "https://www.magnific.com/icons",
+          "date": "2026-10-17",
+          "note": "WebFetch returned HTTP 403 Forbidden, twice."
+        }
+      ],
+      "unverified": [
+        "Whether this is a distinct section/sibling worth its own RL entry or just a page on magnific.com — could not load the page to check nav/content.",
+        "Pricing and license (same as parent magnific site)."
+      ],
+      "injectionSeen": null
+    },
+    "magnific-mockups": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "FETCH-FAIL: magnific.com returns HTTP 403 Forbidden to WebFetch on home, /mockups, and /ai/docs/plans-and-pricing; retried once, still blocked. Cannot read first-party pricing/license/terms.",
+      "site": {
+        "name": "Magnific",
+        "url": "https://www.magnific.com/mockups",
+        "alive": true,
+        "operator": "Freepik (site rebranded \"Freepik is now Magnific\"; operator per second-hand search results, not first-party confirmed)"
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": "Second-hand reports (WebSearch, not first-party) describe a Free plan limited to personal use with attribution required and ~10 stock downloads/day platform-wide; could not confirm on magnific.com itself",
+        "paidFrom": "Second-hand reports give conflicting figures (e.g. Premium ~$16-20/mo); not confirmed first-party",
+        "evidence": {
+          "url": "https://www.magnific.com/ai/docs/plans-and-pricing",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.magnific.com/mockups",
+          "date": "2026-10-17",
+          "note": "WebFetch returned HTTP 403 Forbidden (bot check), twice"
+        },
+        {
+          "url": "https://www.magnific.com/ai/docs/plans-and-pricing",
+          "date": "2026-10-17",
+          "note": "WebFetch returned HTTP 403 Forbidden (bot check); page content only known via WebSearch snippets"
+        }
+      ],
+      "unverified": [
+        "Pricing, free-tier limits, and license/terms could not be read first-party (site blocks automated fetches with 403)",
+        "Operator identity (Freepik vs. a separate Magnific entity) is second-hand only",
+        "Whether mockups/stock/videos are one tool or genuinely separate RL entries could not be confirmed from the site's own nav"
+      ],
+      "injectionSeen": null
+    },
+    "magnific-stock": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "FETCH-FAIL: magnific.com returns HTTP 403 Forbidden to WebFetch on home and /stock; retried once, still blocked. Cannot read first-party pricing/license/terms.",
+      "site": {
+        "name": "Magnific",
+        "url": "https://www.magnific.com/stock",
+        "alive": true,
+        "operator": "Freepik (site rebranded \"Freepik is now Magnific\"; operator per second-hand search results, not first-party confirmed)"
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": "Second-hand reports (WebSearch, not first-party) describe a Free plan limited to personal use with attribution required and ~10 stock downloads/day platform-wide; could not confirm on magnific.com itself",
+        "paidFrom": "Second-hand reports give conflicting figures (e.g. Premium ~$16-20/mo); not confirmed first-party",
+        "evidence": {
+          "url": "https://www.magnific.com/ai/docs/plans-and-pricing",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.magnific.com/stock",
+          "date": "2026-10-17",
+          "note": "WebFetch returned HTTP 403 Forbidden (bot check)"
+        },
+        {
+          "url": "https://www.magnific.com/ai/docs/plans-and-pricing",
+          "date": "2026-10-17",
+          "note": "WebFetch returned HTTP 403 Forbidden (bot check); page content only known via WebSearch snippets"
+        }
+      ],
+      "unverified": [
+        "Pricing, free-tier limits, and license/terms could not be read first-party (site blocks automated fetches with 403)",
+        "Operator identity (Freepik vs. a separate Magnific entity) is second-hand only",
+        "Whether mockups/stock/videos are one tool or genuinely separate RL entries could not be confirmed from the site's own nav"
+      ],
+      "injectionSeen": null
+    },
+    "magnific-videos": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "FETCH-FAIL: magnific.com returns HTTP 403 Forbidden to WebFetch on home and /videos; retried once, still blocked. Cannot read first-party pricing/license/terms.",
+      "site": {
+        "name": "Magnific",
+        "url": "https://www.magnific.com/videos",
+        "alive": true,
+        "operator": "Freepik (site rebranded \"Freepik is now Magnific\"; operator per second-hand search results, not first-party confirmed)"
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": "Second-hand reports (WebSearch, not first-party) describe a Free plan limited to personal use with attribution required and ~10 stock downloads/day platform-wide; could not confirm on magnific.com itself",
+        "paidFrom": "Second-hand reports give conflicting figures (e.g. Premium ~$16-20/mo); not confirmed first-party",
+        "evidence": {
+          "url": "https://www.magnific.com/ai/docs/plans-and-pricing",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.magnific.com/videos",
+          "date": "2026-10-17",
+          "note": "WebFetch returned HTTP 403 Forbidden (bot check)"
+        },
+        {
+          "url": "https://www.magnific.com/ai/docs/plans-and-pricing",
+          "date": "2026-10-17",
+          "note": "WebFetch returned HTTP 403 Forbidden (bot check); page content only known via WebSearch snippets"
+        }
+      ],
+      "unverified": [
+        "Pricing, free-tier limits, and license/terms could not be read first-party (site blocks automated fetches with 403)",
+        "Operator identity (Freepik vs. a separate Magnific entity) is second-hand only",
+        "Whether mockups/stock/videos are one tool or genuinely separate RL entries could not be confirmed from the site's own nav"
+      ],
+      "injectionSeen": null
+    },
+    "mailboard": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Mailboard",
+        "url": "https://mailboard.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "1 user, limited Search and Explore access, Favourites/Follow/Boards/Reports/Inbox; brand requests go through support rather than self-serve",
+        "paidFrom": "Pro $20/month (+$10 per extra user, 1 user included); Pro+ $50/month (3 users included); yearly billing advertised as 50% off",
+        "evidence": {
+          "url": "https://mailboard.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "no terms/license page found (checked /terms and /privacy, both 404) · commercial: unknown · attribution: unknown · limit: unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://mailboard.com/terms",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "mailboard",
+        "type": "Tool",
+        "category": "Marketing",
+        "title": "Mailboard",
+        "description": "Moodboard for email marketing: find, save and analyze over 2 million curated brand emails, with a limited free plan.",
+        "tags": [
+          "inspiration",
+          "collaboration",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Browse a curated library of 2M+ real marketing emails from named brands",
+          "Save finds to personal boards for inspiration and reference",
+          "Track competitors' email campaigns over time",
+          "Free plan gives one user limited Search and Explore access",
+          "Paid Pro/Pro+ plans unlock full Search/Explore and team seats"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 (not found)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown hits; found only on third-party tool directories (reallygoodemails.com, eliteai.tools) corroborating it as a real product"
+      },
+      "sources": [
+        {
+          "url": "https://mailboard.com",
+          "date": "2026-10-17",
+          "note": "what the product is, feature list, free-tier CTA"
+        },
+        {
+          "url": "https://mailboard.com/pricing",
+          "date": "2026-10-17",
+          "note": "Free/Pro/Pro+ plan details and prices"
+        },
+        {
+          "url": "https://mailboard.com/terms",
+          "date": "2026-10-17",
+          "note": "404 — no terms page found at this path"
+        },
+        {
+          "url": "https://mailboard.com/privacy",
+          "date": "2026-10-17",
+          "note": "404 — no privacy page found at this path"
+        }
+      ],
+      "unverified": [
+        "Legal operator / company name not stated anywhere on-site",
+        "No terms/license page found (checked /terms and /privacy); listing restrictions unconfirmed",
+        "Exact numeric limits for free-plan Search/Explore access not disclosed (site says only \"Limited access\")"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/mailboard.md",
+        "lint": "pass"
+      }
+    },
+    "mailchimp": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Mailchimp",
+        "url": "https://mailchimp.com",
+        "alive": true,
+        "operator": "The Rocket Science Group LLC d/b/a Mailchimp (part of Intuit Inc.)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan: up to 250 contacts, max 500 emails/month (250/day), 1 user, 1 audience, limited pre-built templates, email support for first 30 days; sending pauses if limits are exceeded; no marketing automation flows, AI features, branding removal or custom reports",
+        "paidFrom": "Essentials plan is the lowest paid tier; the page only showed a promotional non-USD (INR) price and no standard USD figure, so the exact USD starting price is not confirmed",
+        "evidence": {
+          "url": "https://mailchimp.com/pricing/marketing/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Mailchimp Standard Terms of Service (proprietary SaaS) · commercial: yes · attribution: not required · limit: Free plan capped at 250 contacts and 500 sends/month, sending pauses on overage",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://mailchimp.com/legal/terms/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "mailchimp",
+        "type": "Tool",
+        "category": "Marketing",
+        "title": "Mailchimp",
+        "description": "Email and SMS marketing platform with a free plan for up to 250 contacts, plus paid automation, AI and reporting tiers.",
+        "tags": [
+          "automation",
+          "productivity",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "mailerlite"
+        ],
+        "keyFeatures": [
+          "Drag-and-drop email and SMS campaign builder",
+          "Marketing automation workflows on paid plans",
+          "300+ app integrations (e.g. Shopify, WordPress)",
+          "Free plan for up to 250 contacts and 500 sends/month",
+          "Paid plans add automation, AI content tools, custom branding and advanced reporting"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "mailchimp",
+          "fillColor": "#FFE01B",
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 (exact match)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Well-known Intuit-owned brand; search turned up historical account-compromise/phishing incidents (2022-2023) affecting some customer accounts, not evidence the service itself is a scam or shutting down; no 2026 shutdown/acquisition news found"
+      },
+      "sources": [
+        {
+          "url": "https://mailchimp.com",
+          "date": "2026-10-17",
+          "note": "what it is, Intuit affiliation signal, Free plan mention"
+        },
+        {
+          "url": "https://mailchimp.com/pricing/marketing/",
+          "date": "2026-10-17",
+          "note": "Free plan limits and included/excluded features"
+        },
+        {
+          "url": "https://mailchimp.com/legal/terms/",
+          "date": "2026-10-17",
+          "note": "legal entity name and Intuit parent relationship; no anti-listing clause found in the portion read"
+        }
+      ],
+      "unverified": [
+        "Standard (non-promotional) USD price for the Essentials plan — page showed only a promotional INR figure",
+        "Terms of Service page is 117k+ characters; only the first 100k were read, and linked policies (e.g. Acceptable Use Policy) were not checked for anti-directory-listing clauses"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/mailchimp.md",
+        "lint": "pass"
+      }
+    },
+    "mailerlite": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "MailerLite",
+        "url": "https://mailerlite.com",
+        "alive": true,
+        "operator": "MailerLite Limited (Ireland, for EEA/UK/Switzerland customers) / MailerLite, Inc. (Delaware, US, for everyone else)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan: up to 250 subscribers, 2,500 emails/month, 2 user seats, up to 3 active automations (5 steps each), 1 website, 1 landing page, up to 3 active signup forms, 1 active digital product/booking, community support only; sending locks if the subscriber limit is exceeded",
+        "paidFrom": "Growing Business plan starts at $12/month per the pricing FAQ; billing period (monthly vs. annual) for that figure was not confirmed because the page's pricing table did not render in the fetch",
+        "evidence": {
+          "url": "https://www.mailerlite.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MailerLite Terms of Service (proprietary SaaS) · commercial: yes · attribution: not required · limit: Free plan capped at 250 subscribers and 2,500 sends/month, sending locks on overage",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.mailerlite.com/terms-of-service",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "mailerlite",
+        "type": "Tool",
+        "category": "Marketing",
+        "title": "MailerLite",
+        "description": "Email marketing platform with campaigns, automations, landing pages and websites; free for up to 250 subscribers.",
+        "tags": [
+          "automation",
+          "website-builder",
+          "no-code",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "mailchimp"
+        ],
+        "keyFeatures": [
+          "Drag-and-drop email campaign builder",
+          "Marketing automation flows (limited on the free plan)",
+          "Built-in website, landing page and signup form builder",
+          "Free plan for up to 250 subscribers and 2,500 sends/month",
+          "100+ integrations including Shopify, Stripe and Zapier"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 (not found)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "malwaretips scan rates mailerlite.com safe; search turned up a 2024 support-staff phishing breach and a 2025 malicious unrelated third-party npm package name-squatting the brand, not evidence the service itself is a scam or shutting down; no 2026 shutdown/acquisition news found"
+      },
+      "sources": [
+        {
+          "url": "https://mailerlite.com",
+          "date": "2026-10-17",
+          "note": "what it is, feature list, 14-day premium trial CTA"
+        },
+        {
+          "url": "https://www.mailerlite.com/pricing",
+          "date": "2026-10-17",
+          "note": "Free plan limits and lowest paid plan price"
+        },
+        {
+          "url": "https://www.mailerlite.com/terms-of-service",
+          "date": "2026-10-17",
+          "note": "legal entity names; no anti-directory-listing clause found"
+        }
+      ],
+      "unverified": [
+        "Billing period (monthly vs. annual) for the $12/month Growing Business starting price — pricing table did not render in the fetch",
+        "Exact legal entity that applies to a given signup depends on the customer's billing address; both named entities are first-party-confirmed"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/mailerlite.md",
+        "lint": "pass"
+      }
+    },
+    "maintype": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "MainType",
+        "url": "https://www.high-logic.com/font-manager/maintype",
+        "alive": true,
+        "operator": "High-Logic B.V."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free Edition is permanent for personal, educational and non-commercial use (no stated time limit); commercial use is only allowed during a 30-day evaluation, after which a paid license is required",
+        "paidFrom": "$49 one-time (Standard Edition, perpetual license; Professional Edition $79)",
+        "evidence": {
+          "url": "https://www.high-logic.com/buy-now/new-licenses",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "High-Logic EULA · commercial: no on Free Edition (30-day evaluation only, then paid license required) · attribution: not required · limit: Free Edition restricted to non-commercial, personal and educational use",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://high-logic.com/font-manager/maintype/license-agreement",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "maintype",
+        "type": "Software",
+        "category": "Design",
+        "title": "MainType",
+        "description": "Font manager and viewer for Windows that organizes, compares, previews and installs fonts, free for non-commercial use with paid editions for more.",
+        "tags": [
+          "windows",
+          "typography"
+        ],
+        "relatedResources": [
+          "google-fonts"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Grid view with large font previews and a Unicode character browser",
+          "Side-by-side comparison of up to five fonts",
+          "Tags, notes and ratings for organizing large font libraries",
+          "Installs and uninstalls fonts without admin rights or a reboot",
+          "Duplicate and corrupt font detection",
+          "Prints font samples and specimen reports"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 (no match)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Long-established vendor (High-Logic B.V., has a Wikipedia entry); no scam/malware/shutdown hits in search"
+      },
+      "sources": [
+        {
+          "url": "https://www.high-logic.com/font-manager/maintype",
+          "date": "2026-10-17",
+          "note": "product overview, features, operator"
+        },
+        {
+          "url": "https://high-logic.com/font-manager/maintype/license-agreement",
+          "date": "2026-10-17",
+          "note": "Free Edition terms (non-commercial use, 30-day commercial evaluation)"
+        },
+        {
+          "url": "https://www.high-logic.com/buy-now/new-licenses",
+          "date": "2026-10-17",
+          "note": "Standard $49 / Professional $79 perpetual license prices"
+        }
+      ],
+      "unverified": [
+        "exact feature differences between Standard and Professional editions",
+        "whether Free Edition has a font-count cap (older/third-party sources mention 2,500 fonts but this is not confirmed on the current first-party license page)",
+        "trial behavior beyond the 30-day commercial evaluation stated in the EULA"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/maintype.md",
+        "lint": "pass"
+      }
+    },
+    "maizzle": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Maizzle",
+        "url": "https://maizzle.com",
+        "alive": true,
+        "operator": "Maizzle OÜ"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "The Maizzle framework itself is free, open-source software with no paid tier; a separate product, Mailviews (premium email templates), is sold as a one-time purchase but is not required to use the framework",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://maizzle.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT · commercial: yes · attribution: not required (MIT permits use without a notice obligation beyond retaining the license text) · limit: none found",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/maizzle/framework",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "maizzle",
+        "type": "Library",
+        "category": "Development",
+        "title": "Maizzle",
+        "description": "Open-source framework for building production-ready HTML emails with Vue components and Tailwind CSS, with a live preview dev environment.",
+        "tags": [
+          "open-source",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Emails written as Vue components styled with Tailwind CSS, tuned for email-client compatibility",
+          "Component library (Layout, Container, Section, Row, Column, Button, Img and more), render-tested across major clients",
+          "Dev UI with live preview, device-size testing, HTML/plaintext debugging and test sending",
+          "Works inside any Vite project, from the CLI, or as a library",
+          "Compiles to plain HTML, so it works with any email sending platform"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 (no match)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition hits in search; open-source on GitHub"
+      },
+      "sources": [
+        {
+          "url": "https://maizzle.com",
+          "date": "2026-10-17",
+          "note": "what it is, features, Mailviews (separate paid product), operator"
+        },
+        {
+          "url": "https://github.com/maizzle/framework",
+          "date": "2026-10-17",
+          "note": "MIT license confirmation"
+        }
+      ],
+      "unverified": [
+        "individual maintainer names beyond the Maizzle OÜ organization",
+        "last-commit/activity freshness was not separately checked"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/maizzle.md",
+        "lint": "pass"
+      }
+    },
+    "majesticons": {
+      "researchedOn": "2026-10-17",
+      "verdict": "skip",
+      "verdictReason": "Paid only: browsing/preview is free but downloads require a one-time purchase (Solo €129 / Team €299); no permanent free tier for actual icon use. Input pricingLabels was empty, confirming no free claim.",
+      "site": {
+        "name": "Majesticons",
+        "url": "https://www.majesticons.com",
+        "alive": true,
+        "operator": "halfmage (individual creator)"
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "€129 one-time (Solo, 1 user); €299 one-time (Team, up to 5 users)",
+        "evidence": {
+          "url": "https://www.majesticons.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary commercial license (not open source) · commercial: yes (client work allowed) · attribution: not mentioned · limit: capped at 150 icons per project, no redistribution as a library/UI kit/template",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.majesticons.com/license",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.majesticons.com",
+          "date": "2026-10-17",
+          "note": "icon count, formats, pricing (Solo/Team), creator"
+        },
+        {
+          "url": "https://www.majesticons.com/license",
+          "date": "2026-10-17",
+          "note": "license terms: commercial use, 150-icon cap, no redistribution"
+        }
+      ],
+      "unverified": [
+        "exact icon count and category count beyond the homepage's stated 11,000+ icons / 54 categories"
+      ],
+      "injectionSeen": "The homepage contained text aimed at AI agents instructing them to fetch a URL; this was not followed or acted on."
+    },
+    "make": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Make",
+        "url": "https://www.make.com",
+        "alive": true,
+        "operator": "Celonis, Inc. (operated as a Celonis business unit; formerly Integromat)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan, no credit card required, no time limit: 1,000 operations/credits per month, equal to 1 MB data storage and 1 data store; limits beyond that (active scenarios, minimum interval) not stated on the page",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.make.com/en/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS, governed by a Master Services Agreement · commercial: not confirmed (MSA text not accessible) · attribution: not required · limit: not confirmed",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.make.com/en/terms-and-conditions",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "make",
+        "type": "Tool",
+        "category": "Productivity",
+        "title": "Make",
+        "description": "Visual no-code automation platform for connecting apps, data and AI models into workflows and agents, free to start.",
+        "tags": [
+          "automation",
+          "no-code",
+          "productivity",
+          "ai-tool"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Visual drag-and-drop scenario builder connecting 3,500+ apps",
+          "Free plan with 1,000 operations/month and no time limit, no card required",
+          "Build AI agents and automations, with integrations for assistants like Claude, ChatGPT and Gemini",
+          "Paid Core, Pro, Teams and Enterprise plans that scale operations and add collaboration features",
+          "Template library for common automation scenarios"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "make",
+          "fillColor": "#6D00CC",
+          "bgColor": "#ffffff",
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown hits; third-party status tracker shows operational, 99.59% 30-day uptime as of a May 2026 snapshot; owned by Celonis since 2020, relaunched as Make.com in 2022 (secondary source, not re-verified first-party)"
+      },
+      "sources": [
+        {
+          "url": "https://www.make.com",
+          "date": "2026-10-17",
+          "note": "product description, operator, free-plan existence"
+        },
+        {
+          "url": "https://www.make.com/en/pricing",
+          "date": "2026-10-17",
+          "note": "free plan credits/limits, named paid tiers (no prices rendered)"
+        },
+        {
+          "url": "https://www.make.com/en/terms-and-conditions",
+          "date": "2026-10-17",
+          "note": "legal structure, MSA/website-terms references, operator footer"
+        },
+        {
+          "url": "https://www.make.com/en/templates",
+          "date": "2026-10-17",
+          "note": "3,500+ app integrations figure"
+        }
+      ],
+      "unverified": [
+        "Exact paid plan prices and billing periods (pricing table did not render in fetch)",
+        "Active scenarios limit and minimum interval on the Free plan",
+        "Commercial-use and listing/linking terms (behind linked MSA and website-terms-of-use documents not accessible)",
+        "Contracting legal entity name (footer says Celonis, Inc.; not confirmed as the MSA counterparty)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/make.md",
+        "lint": "pass"
+      }
+    },
+    "makerbox": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "Official site (resolved from Digitool to www.makerbox.io) is a JS-rendered placeholder returning only the name/slogan and page title; /pricing returns only the page title with no plan content. Cannot confirm free tier, pricing, license or safety first-party.",
+      "site": {
+        "name": "MakerBox",
+        "url": "https://www.makerbox.io",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.makerbox.io/pricing",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": null,
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/makerbox/",
+          "date": "2026-10-17",
+          "note": "directory listing: features claims, founder handle @luca_iaconelli, pricing label 'Free & Paid', resolved official URL via screenshot metadata to www.makerbox.io"
+        },
+        {
+          "url": "https://www.makerbox.io",
+          "date": "2026-10-17",
+          "note": "home page renders only name + slogan, no product/pricing content (JS page)"
+        },
+        {
+          "url": "https://makerbox.io/pricing",
+          "date": "2026-10-17",
+          "note": "pricing page returns only the page title, no plan content"
+        }
+      ],
+      "unverified": [
+        "Whether MakerBox has a real permanent free tier (Digitool says 'Free plan available'; third-party listings found via web search cite paid-only figures like a $9.99/mo pass and $89 lifetime deal, with no free tier mentioned)",
+        "Operator/company behind MakerBox",
+        "License/terms of use",
+        "Whether the empty page is a temporary rebuild or the product has shut down"
+      ],
+      "injectionSeen": null
+    },
+    "makerthrive": {
+      "researchedOn": "2026-10-17",
+      "verdict": "skip",
+      "verdictReason": "Not a tool: makerthrive.com is a paid video-production/distribution service that makes sponsored tool-breakdown videos for SaaS/AI companies (YouTube, X, newsletter), sold to tool makers as 'partnerships.' It does not match the input description ('community for creators & makers to connect, share projects') and has no product or free tier for end users to list.",
+      "site": {
+        "name": "MakerThrive",
+        "url": "https://makerthrive.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://makerthrive.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": null,
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://makerthrive.com",
+          "date": "2026-10-17",
+          "note": "identifies the service as a paid sponsored-video distribution business for SaaS/AI tool makers, with 700+ videos produced; no pricing page, only a Media Kit/Partnerships/contact form"
+        }
+      ],
+      "unverified": [
+        "Operator/company name and founders",
+        "Exact partnership/sponsorship pricing",
+        "Whether a separate free community product exists elsewhere under the same brand (none found on the fetched page)"
+      ],
+      "injectionSeen": null
+    },
+    "makeswift": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Makeswift",
+        "url": "https://www.makeswift.com",
+        "alive": true,
+        "operator": "Makeswift, Inc. (acquired by BigCommerce / operates under Commerce.com, 2024)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "\"Basic (Makeswift Only)\" plan, free, permanent: unlimited users, API access, 5 publishes/month, 1 locale, 1 site, no publish history. A second free plan, \"Growth (with BigCommerce)\", requires an active BigCommerce plan so is not a standalone free tier.",
+        "paidFrom": "$39/month (Growth, Makeswift Only, billed yearly)",
+        "evidence": {
+          "url": "https://www.makeswift.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: not stated for third-party listing (MSA bars redistribution/service-bureau use of the product itself) · attribution: not required · limit: access is for \"business use\" under agreed service parameters, not a public redistribution license",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.commerce.com/terms/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "makeswift",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Makeswift",
+        "description": "Visual page builder for Next.js/React sites; free plan covers 1 site, unlimited users and 5 publishes a month.",
+        "tags": [
+          "website-builder",
+          "no-code",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "webflow",
+          "framer",
+          "squarespace"
+        ],
+        "keyFeatures": [
+          "Visual editor that edits your own real React/Next.js components, not generic templates",
+          "Version history with rollback to earlier page states",
+          "Scheduled publishing for content changes",
+          "TypeScript-first API for developers to register custom Code Components",
+          "Free Basic plan: unlimited users, 1 site, 5 publishes/month, API access"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons: no exact match for \"Makeswift\" (checked 2026-10-17 via check-icon.mjs; closest hits were unrelated: e, fsharp, make, swift)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Acquired by BigCommerce (now operating under the Commerce.com corporate umbrella) in 2024 per a law-firm press release; no scam, malware, or shutdown reports found in search."
+      },
+      "sources": [
+        {
+          "url": "https://www.makeswift.com",
+          "date": "2026-10-17",
+          "note": "product pitch, operator (footer copyright), nav links to pricing/terms/GitHub"
+        },
+        {
+          "url": "https://www.makeswift.com/pricing",
+          "date": "2026-10-17",
+          "note": "plan names, prices, and free-plan limits (Basic and Growth-with-BigCommerce)"
+        },
+        {
+          "url": "https://www.commerce.com/terms/",
+          "date": "2026-10-17",
+          "note": "parent-company Master Services Agreement; use restrictions, no directory/linking clause found"
+        },
+        {
+          "url": "https://github.com/makeswift/makeswift",
+          "date": "2026-10-17",
+          "note": "repo lists MIT license in About section; scope appears to be the Code Components SDK, not the full hosted product"
+        },
+        {
+          "url": "https://pillsburylaw.com/en/news-and-insights/bigcommerce-acquires-makeswift-inc.html",
+          "date": "2026-10-17",
+          "note": "second-hand confirmation of the BigCommerce acquisition (2024), terms undisclosed"
+        }
+      ],
+      "unverified": [
+        "Exact component/feature limits on the free Basic plan beyond what the pricing page text listed",
+        "Whether the GitHub MIT license covers the whole hosted product or only the Code Components SDK",
+        "Whether a Makeswift-specific ToS exists separately from the commerce.com parent-company MSA fetched here"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/makeswift.md",
+        "lint": "pass"
+      }
+    },
+    "malt": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "FETCH-FAIL: malt.com returned HTTP 403 Forbidden on repeated WebFetch attempts (home page, likely bot/Cloudflare protection); could not read pricing or license/terms first-party.",
+      "site": {
+        "name": "Malt",
+        "url": "https://www.malt.com",
+        "alive": true,
+        "operator": "Malt (France) — per second-hand sources (help center, press); not confirmed first-party"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.malt.com",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.malt.com",
+          "date": "2026-10-17",
+          "note": "WebFetch returned HTTP 403 (attempt 1)"
+        },
+        {
+          "url": "https://www.malt.com/",
+          "date": "2026-10-17",
+          "note": "WebFetch returned HTTP 403 (attempt 2, retry)"
+        },
+        {
+          "url": "https://help.malt.com/hc/en-150/articles/29567589850002-What-are-Malt-service-fees-and-offers",
+          "date": "2026-10-17",
+          "note": "second-hand (search snippet): Malt is a commission-based freelance marketplace; freelancer-side fees vary and are waived in some countries (UK, Netherlands), not a software free tier"
+        }
+      ],
+      "unverified": [
+        "Could not fetch malt.com home, pricing, or terms pages (403 Forbidden on two attempts, likely bot-protection)",
+        "Whether Malt offers any genuine free product tier, versus being purely a commission-based marketplace (second-hand sources suggest the latter)",
+        "License/ToS content, listing restrictions — not read"
+      ],
+      "injectionSeen": null
+    },
+    "manus": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Manus",
+        "url": "https://manus.im",
+        "alive": true,
+        "operator": "Manus AI"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan: \"limited monthly credits\" plus access to core capabilities, aimed at individuals trying the product. Exact credit count is not published on the official docs page; third-party estimates (unverified) range from ~300 daily refresh credits to a 1,000-credit one-time starter pack.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://manus.im/docs/introduction/plans",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: not read · attribution: not read · limit: terms page returned no body text (JS-rendered) on two fetch attempts",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://manus.im/terms",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "manus",
+        "type": "AI Tool",
+        "category": "Productivity",
+        "title": "Manus",
+        "description": "General AI agent that completes tasks end to end: research, slides, websites, images, music and video from one prompt.",
+        "tags": [
+          "ai-tool",
+          "automation",
+          "productivity"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "chatgpt",
+          "claude-ai"
+        ],
+        "keyFeatures": [
+          "Runs multi-step tasks autonomously from a single prompt (research, writing, building)",
+          "Generates slides, websites, images, music and video as task outputs",
+          "Web, desktop and mobile apps plus a Slack integration",
+          "Credit-based usage with a free tier of limited monthly credits",
+          "Developer API available (per docs navigation)"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons: no exact match for \"Manus\" (checked 2026-10-17 via check-icon.mjs; closest hit was unrelated: man/MAN)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "A ~$2B Meta investment/acquisition was blocked by China's NDRC in April 2026; Manus later resumed independent operation (reported Aug/Sep 2026). Manus's official X account was frozen in 2025, reportedly linked to third-party crypto scams misusing its name/invite codes; Manus said it was not involved in any crypto project. No malware reports found."
+      },
+      "sources": [
+        {
+          "url": "https://manus.im",
+          "date": "2026-10-17",
+          "note": "product pitch, operator (footer copyright), nav links to pricing/terms/docs"
+        },
+        {
+          "url": "https://manus.im/docs/introduction/plans",
+          "date": "2026-10-17",
+          "note": "official plan descriptions: Free, Pro, Team (no exact prices/credit numbers given)"
+        },
+        {
+          "url": "https://manus.im/pricing",
+          "date": "2026-10-17",
+          "note": "JS-rendered page returned only nav/footer text, no pricing figures, on two fetch attempts"
+        },
+        {
+          "url": "https://manus.im/terms",
+          "date": "2026-10-17",
+          "note": "JS-rendered page returned only the page title, no terms text, on two fetch attempts"
+        },
+        {
+          "url": "https://www.stheadline.com/zh-hans/realtime-china/3566621/",
+          "date": "2026-10-17",
+          "note": "second-hand: China's NDRC blocked the Meta investment/acquisition of Manus (April 2026)"
+        }
+      ],
+      "unverified": [
+        "Exact free-plan credit allotment (official docs give no number; third-party estimates conflict, roughly 300/day to 1,000 one-time)",
+        "Paid plan prices (pricing page is JS-gated and returned no pricing text on two attempts; third-party figures conflict and were not used)",
+        "Terms of service content — commercial-use, redistribution, and listing/linking clauses not read (page returned empty on two attempts)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/manus.md",
+        "lint": "pass"
+      }
+    },
+    "manychat": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "FETCH-FAIL: manychat.com returned 403 Forbidden on repeated fetch attempts (bot-protection); pricing, license and operator could not be read.",
+      "site": {
+        "name": "ManyChat",
+        "url": "https://manychat.com/",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://manychat.com/",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://manychat.com/",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Domain resolves via vendor's own partner-link redirect (manychat.partnerlinks.io); no content could be read to screen further."
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/manychat/",
+          "date": "2026-10-17",
+          "note": "directory listing; no direct outbound link visible, only a redirect button"
+        },
+        {
+          "url": "https://digitool.co/get/manychat/?utm_source=digitool.co",
+          "date": "2026-10-17",
+          "note": "302 redirect to https://manychat.partnerlinks.io/9i6qzp6rduyr, confirming the ManyChat brand/domain"
+        },
+        {
+          "url": "https://manychat.com/",
+          "date": "2026-10-17",
+          "note": "403 Forbidden on two attempts; no content read"
+        },
+        {
+          "url": "https://manychat.com/pricing",
+          "date": "2026-10-17",
+          "note": "403 Forbidden; no content read"
+        }
+      ],
+      "unverified": [
+        "free plan existence and limits — all fetch attempts to manychat.com returned 403",
+        "paid plan names/prices — not read",
+        "license/terms — not read",
+        "operator — not read"
+      ],
+      "injectionSeen": null
+    },
+    "marblism": {
+      "researchedOn": "2026-10-17",
+      "verdict": "skip",
+      "verdictReason": "Paid only, no free plan: site states \"Plans start at $24/month on the yearly option\" ($44/mo billed monthly); the digitool.co \"Free tier listed\" label is inaccurate.",
+      "site": {
+        "name": "Marblism",
+        "url": "https://marblism.com",
+        "alive": true,
+        "operator": "Marblism, Inc. (also lists Marblism UK Ltd.)"
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "$24/mo billed yearly, or $44/mo billed monthly — one plan covering all 7 \"AI Employees\", 50 hours of work/month, unlimited businesses and team members",
+        "evidence": {
+          "url": "https://marblism.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://marblism.com/terms-of-service",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition hits in a safety search; site is active with a Trustpilot presence."
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/marblism/",
+          "date": "2026-10-17",
+          "note": "directory listing; outbound link resolved to https://marblism.com"
+        },
+        {
+          "url": "https://marblism.com/",
+          "date": "2026-10-17",
+          "note": "product description (7 named AI agents), company name, links to pricing/terms/privacy pages"
+        },
+        {
+          "url": "https://marblism.com/pricing",
+          "date": "2026-10-17",
+          "note": "no free tier; yearly/monthly prices and plan inclusions"
+        }
+      ],
+      "unverified": [
+        "terms-of-service / license page not read (not needed — paid-only verdict)",
+        "refund window unclear: page shows both \"7-day\" and \"77-day\" money-back guarantee"
+      ],
+      "injectionSeen": null
+    },
+    "marketing-examples": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Marketing Examples",
+        "url": "https://marketingexamples.com",
+        "alive": true,
+        "operator": "Harry Dry (independent creator, no company entity named)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "The full example library (case studies by category) and the weekly newsletter are readable/subscribable with no paywall, sign-in or payment observed anywhere on the site",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://marketingexamples.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No license or terms page found · commercial use: unknown · attribution: unknown · limit: content is the author's own write-ups with no stated reuse terms",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://marketingexamples.com",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "marketing-examples",
+        "type": "Resource",
+        "category": "Marketing",
+        "title": "Marketing Examples",
+        "description": "A free library of short, real-world marketing case studies on copywriting, ads, landing pages and social, plus a weekly newsletter by Harry Dry.",
+        "tags": [
+          "inspiration",
+          "writing"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Hundreds of short case studies grouped by category (Copywriting, Sales, Social, Ads, Landing Page, SEO, Brand, Referral)",
+          "Each example shows an estimated read or watch time",
+          "Weekly newsletter: 3 examples, 2 copywriting tips and 1 favourite tweet",
+          "Written and curated by one person, Harry Dry; cited third-party as read by roughly 130k subscribers"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 — no exact match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition hits in search; third-party sources describe it as an active, popular newsletter (~130k readers)."
+      },
+      "sources": [
+        {
+          "url": "https://marketingexamples.com",
+          "date": "2026-10-17",
+          "note": "what the site is, categories, newsletter description, operator (Harry Dry), no paywall/terms found"
+        },
+        {
+          "url": "https://marketingexamples.com/newsletter",
+          "date": "2026-10-17",
+          "note": "newsletter offer wording, subscriber count claim, confirmed no stated pricing or terms"
+        }
+      ],
+      "unverified": [
+        "no explicit statement that the site/newsletter is permanently free — inferred from the absence of any paywall, price or sign-in wall across the pages read",
+        "no license/terms/copyright page exists on the site to confirm reuse rights",
+        "operator's legal entity (if any) is not stated — appears to be a sole-creator site"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/marketing-examples.md",
+        "lint": "pass"
+      }
+    },
+    "marvel": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Marvel",
+        "url": "https://marvelapp.com",
+        "alive": true,
+        "operator": "Marvel Prototyping Ltd"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free plan has no time limit (usable indefinitely before upgrading); exact project/prototype caps not stated on the pricing page",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://marvelapp.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary (Marvel Terms) · commercial: not explicitly addressed, implied via paid team/enterprise plans · attribution: Marvel may display \"Powered by Marvel\" branding that cannot be removed/altered · limit: license is non-exclusive, non-transferable and bound to your subscription plan's restrictions",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://marvelapp.com/terms",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "marvel",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Marvel",
+        "description": "Browser-based platform to wireframe, prototype, test and hand off digital product designs, free to start with paid team plans.",
+        "tags": [
+          "prototyping",
+          "ui-ux",
+          "collaboration"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "figma",
+          "framer"
+        ],
+        "keyFeatures": [
+          "Wireframing and clickable prototyping for digital products",
+          "Built-in user testing and feedback collection",
+          "Developer handoff with specs and exportable assets",
+          "Integrations with other design and collaboration tools",
+          "Free plan with no time limit; paid Team and Enterprise tiers add more seats and support"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "marvelapp",
+          "fillColor": "#1FB6FF",
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown/acquisition hits for marvelapp.com; search results returned only unrelated Marvel Comics app news"
+      },
+      "sources": [
+        {
+          "url": "https://marvelapp.com",
+          "date": "2026-10-17",
+          "note": "product pitch, no company name on homepage"
+        },
+        {
+          "url": "https://marvelapp.com/pricing",
+          "date": "2026-10-17",
+          "note": "free plan is permanent (no time limit); paid/enterprise plan structure, no exact prices shown"
+        },
+        {
+          "url": "https://marvelapp.com/terms",
+          "date": "2026-10-17",
+          "note": "operator name (Marvel Prototyping Ltd), license terms, no directory-listing ban, attribution/branding clause"
+        }
+      ],
+      "unverified": [
+        "exact paid plan names and USD/GBP prices (pricing page does not show figures; requires sign-up or sales contact)",
+        "free plan's exact project/prototype/team-member limits",
+        "company registered address not given in terms (only 'governed by English law')"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/marvel.md",
+        "lint": "pass"
+      }
+    },
+    "masonry": {
+      "researchedOn": "2026-10-17",
+      "verdict": "skip",
+      "verdictReason": "Free tier is a one-time 50-credit welcome grant valid for 30 days, not a permanent free plan — effectively a free trial; paid plans start at $20/month (Starter).",
+      "site": {
+        "name": "Masonry",
+        "url": "https://masonry.so",
+        "alive": true,
+        "operator": "Masonry AI Inc"
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": "One-time 50-credit welcome grant, valid for 30 days, usable only with GPT Image 2.5 Flare at high detail, one generation at a time — not a renewing/permanent free plan",
+        "paidFrom": "$20/month (Starter: 2,000 credits/month, about 1,000 images or 66 videos)",
+        "evidence": {
+          "url": "https://masonry.so/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://masonry.so",
+          "date": "2026-10-17",
+          "note": "product pitch (AI image/video generation, 50+ models), operator name in footer"
+        },
+        {
+          "url": "https://masonry.so/pricing",
+          "date": "2026-10-17",
+          "note": "Free/Starter/Pro plan details; free credits expire after 30 days"
+        }
+      ],
+      "unverified": [
+        "yearly billing prices not shown (only a '-20%' toggle label)",
+        "credit-to-image/video conversion figures are the site's own approximations ('about')"
+      ],
+      "injectionSeen": null
+    },
+    "material-2-design-resources": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "FETCH-FAIL: m2.material.io is JS-rendered; WebFetch returned only the page title \"Material Design\" with no body content across three attempts (home, /design/introduction, /resources/sticker-sheets-icons/).",
+      "site": {
+        "name": "Material 2 Design Resources",
+        "url": "https://m2.material.io",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://m2.material.io",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://m2.material.io",
+          "date": "2026-10-17",
+          "note": "fetch returned only page title, no content (JS-rendered page)"
+        },
+        {
+          "url": "https://m2.material.io/design/introduction",
+          "date": "2026-10-17",
+          "note": "retry; same empty result"
+        },
+        {
+          "url": "https://m2.material.io/resources/sticker-sheets-icons/",
+          "date": "2026-10-17",
+          "note": "second retry on a specific resources path; same empty result"
+        }
+      ],
+      "unverified": [
+        "operator not confirmed via fetch (publicly known to be Google's Material Design docs, but not read first-party)",
+        "whether kits are Sketch/Figma/Adobe XD and under what license — page content unreadable via WebFetch",
+        "whether 'Free' label from input source is accurate — not confirmed first-party"
+      ],
+      "injectionSeen": null
     }
   }
 }

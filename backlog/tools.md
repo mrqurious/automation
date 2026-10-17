@@ -10,13 +10,13 @@ Generated 2026-10-17 by `scripts/backlog-build.mjs` from `backlog/tools-list.jso
 
 | Status | Count | Meaning |
 |---|---:|---|
-| `todo` | 867 | in the research queue (free / freemium / beta) |
-| `in-rl` | 33 | already in ResourcesList (matched by site or slug) — skip, maybe use for related/similar links |
-| `deferred-paid` | 217 | labelled **Paid** only — parked |
+| `todo` | 837 | in the research queue (free / freemium / beta) |
+| `in-rl` | 34 | already in ResourcesList (matched by site or slug) — skip, maybe use for related/similar links |
+| `deferred-paid` | 216 | labelled **Paid** only — parked |
 | `deferred-trial` | 232 | labelled **Free Trial** only — parked until a real free tier is confirmed |
-| `researching` / `researched` / `drafted` / `rejected` / `blocked` | 0 / 16 / 410 / 123 / 381 | set by research sessions |
+| `researching` / `researched` / `drafted` / `rejected` / `blocked` | 0 / 15 / 426 / 127 / 392 | set by research sessions |
 
-Queue by priority: **P1** 1 (free/freemium, listed on 2+ pages) · **P2** 826 (free/freemium, 1 page) · **P3** 40 (beta).
+Queue by priority: **P1** 1 (free/freemium, listed on 2+ pages) · **P2** 799 (free/freemium, 1 page) · **P3** 37 (beta).
 
 ## What happens if a tool is not processed (and why)
 
@@ -916,37 +916,67 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Loki | loki.build | Freemium | 1 | P2 | drafted |
 | Lokuma | lokuma.ai | Freemium | 1 | P2 | drafted |
 | Looka | looka.grsm.io | Freemium | 1 | P2 | blocked |
-| Looks Like Good Design | lookslikegooddesign.com | Free | 1 | P2 | researched |
-| Lookup.design | lookup.design | Free | 1 | P2 | researched |
-| Loom | loom.com | Freemium | 1 | P2 | researched |
+| Looks Like Good Design | lookslikegooddesign.com | Free | 1 | P2 | drafted |
+| Lookup.design | lookup.design | Free | 1 | P2 | drafted |
+| Loom | loom.com | Freemium | 1 | P2 | drafted |
 | Loopple | loopple.com | Freemium | 1 | P2 | blocked |
-| Loops | loops.so | Freemium | 1 | P2 | researched |
-| Lordicon | lordicon.com | Free + Paid | 1 | P2 | researched |
-| Lorem Ipsum | loremipsum.io | Free | 1 | P2 | researched |
+| Loops | loops.so | Freemium | 1 | P2 | drafted |
+| Lordicon | lordicon.com | Free + Paid | 1 | P2 | drafted |
+| Lorem Ipsum | loremipsum.io | Free | 1 | P2 | drafted |
 | Lorem.space | lorem.space | Free | 1 | P2 | blocked |
 | Lost + Taken | lostandtaken.com | Free | 1 | P2 | blocked |
 | Lost Type Co-op | losttype.com | Free + Paid | 1 | P2 | blocked |
-| LottieFiles | lottiefiles.com | Freemium | 1 | P2 | researched |
+| LottieFiles | lottiefiles.com | Freemium | 1 | P2 | drafted |
 | Lottieflow | finsweet.com | Free | 1 | P2 | blocked |
-| LottieLab | lottielab.com | Freemium | 1 | P2 | researched |
+| LottieLab | lottielab.com | Freemium | 1 | P2 | drafted |
 | Lovable | lovablelabs.pxf.io | Freemium | 2 | P1 | drafted |
-| Loveable | via Digitool | Free tier listed | 1 | P2 | researched |
+| Loveable | via Digitool | Free tier listed | 1 | P2 | drafted |
 | Lovers Magazine | loversmagazine.com | Free | 1 | P2 | blocked |
-| LoveTheWorkMore | lovetheworkmore.com | Free | 1 | P2 | researched |
-| Lstore Graphics | ls.graphics | Free + Paid | 1 | P2 | researched |
+| LoveTheWorkMore | lovetheworkmore.com | Free | 1 | P2 | drafted |
+| Lstore Graphics | ls.graphics | Free + Paid | 1 | P2 | drafted |
 | LTX Studio | ltx.io | Freemium | 1 | P2 | blocked |
-| Lucidspark | lucidspark.com | Freemium | 1 | P2 | researched |
+| Lucidspark | lucidspark.com | Freemium | 1 | P2 | drafted |
 | Lumen Tool | lumentool.com | Free | 1 | P2 | rejected |
 | Lumi | lumi.new | Freemium | 1 | P2 | blocked |
 | Lummi | lummi.ai | Freemium | 1 | P2 | blocked |
 | Lunacy | icons8.com | Free | 1 | P2 | blocked |
 | Lunagraph | lunagraph.com | Beta | 1 | P3 | blocked |
 | Lunair | lunair.ai | Freemium | 1 | P2 | rejected |
-| Lyssna | lyssna.com | Freemium | 1 | P2 | researched |
-| Macaly | macaly.com | Freemium | 1 | P2 | researched |
+| Lyssna | lyssna.com | Freemium | 1 | P2 | drafted |
+| Macaly | macaly.com | Freemium | 1 | P2 | drafted |
 | Machine Learning + Design | machinelearning.design | Free | 1 | P2 | blocked |
-| Macintosh Skeletal Filled | github.com | Free | 1 | P2 | researched |
-| MacPaw Fixel | fixel.macpaw.com | Free | 1 | P2 | researched |
+| Macintosh Skeletal Filled | github.com | Free | 1 | P2 | drafted |
+| MacPaw Fixel | fixel.macpaw.com | Free | 1 | P2 | drafted |
+| Macro | macro.com | Freemium | 1 | P2 | researched |
+| Made by Folk | madebyfolk.com | Free | 1 | P2 | researched |
+| MadeWithVibe | madewithvibe.com | Free | 1 | P2 | blocked |
+| Mage Icons | mageicons.com |  | 1 | P3 | researched |
+| Magic Eraser | magicstudio.com | Freemium | 1 | P2 | researched |
+| Magic Patterns | magicpatterns.com | Freemium | 1 | P2 | researched |
+| MagicPath | magicpath.ai | Freemium | 1 | P2 | blocked |
+| Magnific | magnific.com | Free + Paid | 1 | P2 | blocked |
+| Magnific Icons | magnific.com |  | 1 | P3 | blocked |
+| Magnific Mockups | magnific.com | Free + Paid | 1 | P2 | blocked |
+| Magnific Stock | magnific.com | Free + Paid | 1 | P2 | blocked |
+| Magnific Videos | magnific.com | Free + Paid | 1 | P2 | blocked |
+| Mailboard | mailboard.com | Freemium | 1 | P2 | researched |
+| Mailchimp | mailchimp.com | Freemium | 1 | P2 | researched |
+| MailerLite | mailerlite.com | Freemium | 1 | P2 | researched |
+| MainType | high-logic.com | Freemium | 1 | P2 | researched |
+| Maizzle | maizzle.com | Free | 1 | P2 | researched |
+| Majesticons | majesticons.com |  | 1 | P3 | rejected |
+| Make | make.com | Freemium | 1 | P2 | researched |
+| MakerBox | via Digitool | Free tier listed | 1 | P2 | blocked |
+| MakerThrive | makerthrive.com | Free | 1 | P2 | rejected |
+| Makeswift | makeswift.com | Freemium | 1 | P2 | researched |
+| Malt | malt.com | Free + Paid | 1 | P2 | blocked |
+| Manus | manus.im | Freemium | 1 | P2 | researched |
+| ManyChat | via Digitool | Free tier listed | 1 | P2 | blocked |
+| Marblism | via Digitool | Free tier listed | 1 | P2 | rejected |
+| Marketing Examples | marketingexamples.com | Free | 1 | P2 | researched |
+| Marvel | marvelapp.com | Freemium | 1 | P2 | researched |
+| Masonry | masonry.so | Freemium | 1 | P2 | rejected |
+| Material 2 Design Resources | m2.material.io | Free | 1 | P2 | blocked |
 | Milanote | milanote.com | Freemium | 2 | P1 | drafted |
 | Mixo | mixo.io | Free Trial / Free tier listed | 2 | P1 | drafted |
 | Mobbin | mobbin.com | Free + Paid / Free tier listed | 4 | P1 | drafted |
@@ -967,17 +997,12 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Visily | visily.ai | Freemium | 2 | P1 | drafted |
 | Wispr Flow | ref.wisprflow.ai | Free tier listed / Freemium | 2 | P1 | drafted |
 
-## Research queue (867)
+## Research queue (837)
 
-### Best AI Design Tools for Designers (104)
+### Best AI Design Tools for Designers (99)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Magic Patterns | magicpatterns.com | Freemium | 1 | P2 |
-| MagicPath | magicpath.ai | Freemium | 1 | P2 |
-| Magnific | magnific.com | Free + Paid | 1 | P2 |
-| Manus | manus.im | Freemium | 1 | P2 |
-| Masonry | masonry.so | Freemium | 1 | P2 |
 | Melius | melius.com | Freemium | 1 | P2 |
 | Meshy AI | meshy.ai | Freemium | 1 | P2 |
 | Meta AI | meta.ai | Free | 1 | P2 |
@@ -1112,11 +1137,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | WebGradients | webgradients.com | Free | 1 | P2 |
 | Who Can Use | whocanuse.com | Free | 1 | P2 |
 
-### Best Design Blogs & Magazines for Designers (33)
+### Best Design Blogs & Magazines for Designers (32)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Made by Folk | madebyfolk.com | Free | 1 | P2 |
 | Motion Design School | motiondesign.school | Free | 1 | P2 |
 | Motionographer | motionographer.com | Free | 1 | P2 |
 | Motto Blog | wearemotto.com | Free | 1 | P2 |
@@ -1150,12 +1174,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Webflow Blog | webflow.partnerlinks.io | Free | 1 | P2 |
 | Wepresent | wepresent.wetransfer.com | Free | 1 | P2 |
 
-### Best Design Communities for Designers (17)
+### Best Design Communities for Designers (15)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| MakerThrive | makerthrive.com | Free | 1 | P2 |
-| Malt | malt.com | Free + Paid | 1 | P2 |
 | Meet Your Legend | meetyourlegend.com | Free + Paid | 1 | P2 |
 | Meetup | meetup.com | Free | 1 | P2 |
 | Mockin | mockin.work | Freemium | 1 | P2 |
@@ -1172,11 +1194,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | WeLoveProduct | weloveproduct.co | Freemium | 1 | P2 |
 | Woody | woodyjobs.com | Freemium | 1 | P2 |
 
-### Best Design Tools Across Disciplines (102)
+### Best Design Tools Across Disciplines (101)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Magic Eraser | magicstudio.com | Freemium | 1 | P2 |
 | Mesurer | mesurer.dev | Free | 1 | P2 |
 | Microsoft PowerPoint | microsoft.com | Freemium | 1 | P2 |
 | MiNi PhotoEditor | mini2-photo-editor.netlify.app | Free | 1 | P2 |
@@ -1279,11 +1300,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Sesame | sesame.design | Beta | 1 | P3 |
 | Visual | visual.app | Beta | 1 | P3 |
 
-### Best Free Font Libraries and Inspiration for Designers (36)
+### Best Free Font Libraries and Inspiration for Designers (35)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| MainType | high-logic.com | Freemium | 1 | P2 |
 | Material Design Type Scale | m2.material.io | Free | 1 | P2 |
 | Mazeletter | mazeletter.xyz | Free | 1 | P2 |
 | Modern Font Stacks | modernfontstacks.com | Free | 1 | P2 |
@@ -1320,7 +1340,7 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | What the Font | apps.apple.com | Free | 1 | P2 |
 | Words of Type | wiki.wordsoftype.com | Free | 1 | P2 |
 
-### Best Free Open Source Icon Libraries (30)
+### Best Free Open Source Icon Libraries (27)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
@@ -1330,9 +1350,6 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Unicorn Icons | unicornicons.com | Freemium | 1 | P2 |
 | useAnimations | useanimations.com | Free | 1 | P2 |
 | Webfont | webfontapp.com | Free + Paid | 1 | P2 |
-| Mage Icons | mageicons.com |  | 1 | P3 |
-| Magnific Icons | magnific.com |  | 1 | P3 |
-| Majesticons | majesticons.com |  | 1 | P3 |
 | MingCute Icons | mingcute.com |  | 1 | P3 |
 | Noun Project | thenounproject.com |  | 1 | P3 |
 | Nucleo | nucleoapp.com |  | 1 | P3 |
@@ -1355,12 +1372,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Unicode Arrows | unicodearrows.com |  | 1 | P3 |
 | Vzy Icons | icons.vzy.co |  | 1 | P3 |
 
-### Best Mockup Sites for Designers (39)
+### Best Mockup Sites for Designers (37)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Magnific Mockups | magnific.com | Free + Paid | 1 | P2 |
-| Material 2 Design Resources | m2.material.io | Free | 1 | P2 |
 | Material 3 Design Resources | m3.material.io | Free | 1 | P2 |
 | mckp.live | mckp.live | Freemium | 1 | P2 |
 | Mock Magic | mockmagic.com | Freemium | 1 | P2 |
@@ -1399,12 +1414,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Wannathis Mockups | wannathis.one | Free + Paid | 1 | P2 |
 | WhiteUI.Store | gumroad.com | Free + Paid | 1 | P2 |
 
-### Best No-Code Website Builders (57)
+### Best No-Code Website Builders (55)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Make | make.com | Freemium | 1 | P2 |
-| Makeswift | makeswift.com | Freemium | 1 | P2 |
 | Mechanic | mechanic.design | Free | 1 | P2 |
 | mmm | build.mmm.page | Freemium | 1 | P2 |
 | Momen | momen.app | Freemium | 1 | P2 |
@@ -1513,11 +1526,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | UI8 - Illustrations | ui8.net | Free + Paid | 1 | P2 |
 | Vackground | vackground.com | Free + Paid | 1 | P2 |
 
-### Best UX Tools for Designers (46)
+### Best UX Tools for Designers (45)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Marvel | marvelapp.com | Freemium | 1 | P2 |
 | Maze | maze.co | Freemium | 1 | P2 |
 | Mermaid | mermaidchart.com | Freemium | 1 | P2 |
 | Microcopy | microcopy.me | Free | 1 | P2 |
@@ -1564,14 +1576,11 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Zen Flowchart | zenflowchart.com | Freemium | 1 | P2 |
 | Stratify | trystratify.com | Beta | 1 | P3 |
 
-### Design Inspiration Sites for UI, Web, Graphic & Branding (81)
+### Design Inspiration Sites for UI, Web, Graphic & Branding (78)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
 | Nicelydone | nicelydone.club | Free Trial / Free tier listed | 2 | P1 |
-| MadeWithVibe | madewithvibe.com | Free | 1 | P2 |
-| Mailboard | mailboard.com | Freemium | 1 | P2 |
-| Marketing Examples | marketingexamples.com | Free | 1 | P2 |
 | MaxiBestOf | maxibestof.one | Freemium | 1 | P2 |
 | Milled | milled.com | Freemium | 1 | P2 |
 | Mindly | mindly-ai.com | Freemium | 1 | P2 |
@@ -1650,12 +1659,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | World Brand Design Society | worldbranddesign.com | Free | 1 | P2 |
 | YouPic | youpic.com | Free | 1 | P2 |
 
-### Free Stock Images & Video Websites (31)
+### Free Stock Images & Video Websites (29)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Magnific Stock | magnific.com | Free + Paid | 1 | P2 |
-| Magnific Videos | magnific.com | Free + Paid | 1 | P2 |
 | Mixkit Sound Effects | mixkit.co | Free | 1 | P2 |
 | Moose | icons8.com | Freemium | 1 | P2 |
 | Motion Array | motionarray.com | Freemium | 1 | P2 |
@@ -1686,13 +1693,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Vidsplay | vidsplay.com | Free | 1 | P2 |
 | ZapSplat | zapsplat.com | Freemium | 1 | P2 |
 
-### Free Tools (81)
+### Free Tools (78)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| MakerBox | via Digitool | Free tier listed | 1 | P2 |
-| ManyChat | via Digitool | Free tier listed | 1 | P2 |
-| Marblism | via Digitool | Free tier listed | 1 | P2 |
 | Media.io | via Digitool | Free tier listed | 1 | P2 |
 | MeetGeek | via Digitool | Free tier listed | 1 | P2 |
 | Mockups Supply | via Digitool | Free tier listed | 1 | P2 |
@@ -1824,13 +1828,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | uxtoast | uxtoast.com | Free | 1 | P2 |
 | We are Colorblind | wearecolorblind.com | Free | 1 | P2 |
 
-### Marketing Tools for Designers & Creative Teams (54)
+### Marketing Tools for Designers & Creative Teams (51)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Mailchimp | mailchimp.com | Freemium | 1 | P2 |
-| MailerLite | mailerlite.com | Freemium | 1 | P2 |
-| Maizzle | maizzle.com | Free | 1 | P2 |
 | MediaCheatSheet | mediacheatsheet.com | Free | 1 | P2 |
 | Meta Ad Library | facebook.com | Free | 1 | P2 |
 | Metricool | metricool.com | Freemium | 1 | P2 |
@@ -1883,11 +1884,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Zubtitle | zubtitle.com | Freemium | 1 | P2 |
 | Pomelli | labs.google.com | Beta | 1 | P3 |
 
-### Productivity Tools for Design and Product Teams (33)
+### Productivity Tools for Design and Product Teams (32)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Macro | macro.com | Freemium | 1 | P2 |
 | Mockoops | mockoops.mohitya.dev | Free | 1 | P2 |
 | Monday | monday.com | Freemium | 1 | P2 |
 | Omniwork | omniwork.ai | Freemium | 1 | P2 |
@@ -1921,7 +1921,7 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | MonoDesk | monodesk.com | Beta | 1 | P3 |
 | Qudemo | qudemo.com | Beta | 1 | P3 |
 
-## Already in ResourcesList (33)
+## Already in ResourcesList (34)
 
 | Tool | Site | Pricing label | Pages | Pri | Reason |
 |---|---|---|---:|---|---|
@@ -1943,6 +1943,7 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Google Fonts | fonts.google.com | Free | 1 | P2 | already in RL as `google-fonts` |
 | Iconify | iconify.design |  | 1 | P3 | already in RL as `iconify` |
 | Iconmonstr | iconmonstr.com |  | 1 | P3 | already in RL as `iconmonster` |
+| Loops | wannathis.one | Paid | 1 | — | already in RL as `loops` |
 | Lucide | lucide.dev |  | 1 | P3 | already in RL as `lucide-icons` |
 | Material Symbols | fonts.google.com |  | 1 | P3 | already in RL as `material-symbols` |
 | Miro | miro.com | Freemium / Free tier listed | 3 | P1 | already in RL as `miro` |
@@ -2196,7 +2197,7 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | x1 | x1.new | Free Trial | 1 | — | trial is not a free tier; verify pricing page before promoting |
 | ZBrush | maxon.net | Free Trial | 1 | — | trial is not a free tier; verify pricing page before promoting |
 
-## Parked: Paid only (217)
+## Parked: Paid only (216)
 
 | Tool | Site | Pricing label | Pages | Pri | Reason |
 |---|---|---|---:|---|---|
@@ -2318,7 +2319,6 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Layers | layers.design | Paid | 1 | — | paid-only; outside free/freemium focus |
 | LinkedIn Learning | linkedin.com | Paid | 1 | — | paid-only; outside free/freemium focus |
 | Locofy | locofy.ai | Paid | 1 | — | paid-only; outside free/freemium focus |
-| Loops | wannathis.one | Paid | 1 | — | paid-only; outside free/freemium focus |
 | Lovart | lovart.ai | Paid | 1 | — | paid-only; outside free/freemium focus |
 | Luma Agents | lumalabs.ai | Paid | 1 | — | paid-only; outside free/freemium focus |
 | MagicPattern | magicpattern.design | Paid | 1 | — | paid-only; outside free/freemium focus |
