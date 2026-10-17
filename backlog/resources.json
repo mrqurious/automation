@@ -51858,6 +51858,3066 @@
         "file": "src/content/resources/httpster.md",
         "lint": "pass"
       }
+    },
+    "huddlekit": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Huddlekit",
+        "url": "https://huddlekit.com",
+        "alive": true,
+        "operator": "Everace AB (Sweden)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free forever per pricing page: 3 team members, 1 project, unlimited guests, 100 MB storage, Kanban board, private comments, attachments, inspect mode. Not included: custom tags, folders, custom breakpoints, MCP, integrations, API. File caps 2 MB images/PDFs, 10 MB video.",
+        "paidFrom": "Pro $16/month billed yearly ($190/yr); $19 billed monthly",
+        "evidence": {
+          "url": "https://huddlekit.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS (Terms, Everace AB) · commercial: yes (paid/free plans) · attribution: n/a · terms do not forbid listing or linking",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://huddlekit.com/terms",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "huddlekit",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Huddlekit",
+        "description": "Visual feedback for websites: clients pin comments on live or staging pages, with screenshots and device details, and compare breakpoints side by side.",
+        "tags": [
+          "web",
+          "collaboration",
+          "ui-ux"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Pin comments directly on live or staging sites",
+          "Each comment carries a screenshot and browser/device details",
+          "Inspect mode and side-by-side breakpoint comparison",
+          "Kanban board to track feedback as tasks",
+          "Unlimited guests who do not use workspace seats"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-17: no Simple Icons match for Huddlekit"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam or shutdown hits; Capterra and Trustpilot show a few reviews, vendor Everace"
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/huddlekit/",
+          "date": "2026-10-17",
+          "note": "found official site"
+        },
+        {
+          "url": "https://huddlekit.com",
+          "date": "2026-10-17",
+          "note": "product description, plans"
+        },
+        {
+          "url": "https://huddlekit.com/pricing",
+          "date": "2026-10-17",
+          "note": "free plan limits, prices"
+        },
+        {
+          "url": "https://huddlekit.com/terms",
+          "date": "2026-10-17",
+          "note": "operator, no listing restriction"
+        },
+        {
+          "url": "web search: Huddlekit scam/shutdown",
+          "date": "2026-10-17",
+          "note": "Capterra/Trustpilot, no negative hits"
+        }
+      ],
+      "unverified": [
+        "side-by-side breakpoint comparison taken from the directory blurb",
+        "icon needs site SVG"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/huddlekit.md",
+        "lint": "pass"
+      }
+    },
+    "hue-tools": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Hue.tools",
+        "url": "https://hue.tools",
+        "alive": true,
+        "operator": "pabueco (GitHub individual)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Fully free open-source web app; no plans seen",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://github.com/pabueco/hue.tools",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT · commercial: yes · attribution: license notice kept in copies · repo license; app site page itself returned no text",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/pabueco/hue.tools",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "hue-tools",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Hue.tools",
+        "description": "Open-source toolbox for working with colors: mix, blend, convert, modify and inspect a color across spaces, with harmonies and names.",
+        "tags": [
+          "color-palette",
+          "open-source",
+          "web"
+        ],
+        "relatedResources": [
+          "adobe-color"
+        ],
+        "similarResources": [
+          "color-space",
+          "coolhue",
+          "colormind"
+        ],
+        "keyFeatures": [
+          "Mix several colors with adjustable intermediate steps and interpolation mode",
+          "Blend two colors with 16 blend modes and alpha",
+          "Info view: many color spaces and formats, harmonies, complementary colors, color name",
+          "Modify with eight adjusters such as brighten, darken, saturate"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-17: no Simple Icons match for Hue.tools"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "GitHub repo pabueco/hue.tools, ~450 stars, 107 commits; Show HN 2022 listing seen. No scam hits found."
+      },
+      "sources": [
+        {
+          "url": "https://hue.tools",
+          "date": "2026-10-17",
+          "note": "fetch returned empty (JS app)"
+        },
+        {
+          "url": "https://github.com/pabueco/hue.tools",
+          "date": "2026-10-17",
+          "note": "MIT, features, stars"
+        },
+        {
+          "url": "web search: hue.tools open source",
+          "date": "2026-10-17",
+          "note": "third-party confirms open source"
+        }
+      ],
+      "unverified": [
+        "hue.tools live page not readable by fetch; liveness inferred from search results",
+        "last commit date not seen",
+        "no dedicated safety search beyond one general search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/hue-tools.md",
+        "lint": "pass"
+      }
+    },
+    "huemint": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Free status only second-hand (toolradar: $0, one plan Web + public API); first-party pages state no pricing, no terms, operator unnamed; API non-commercial only, palette commercial use unstated",
+      "site": {
+        "name": "Huemint",
+        "url": "https://huemint.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Web tool appears free; toolradar says $0 with public API for non-commercial use",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://toolradar.com/tools/huemint/pricing",
+          "date": "2026-10-17",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "No terms page found · commercial: unknown (public API non-commercial only, as-is, no uptime guarantee per About) · attribution: unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://huemint.com/about/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "huemint",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Huemint",
+        "description": "Machine-learning color palette generator that builds brand, website or graphic color schemes.",
+        "tags": [
+          "color-palette",
+          "ai-tool",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "colormind",
+          "adobe-color",
+          "color-hunt"
+        ],
+        "keyFeatures": [
+          "ML-generated color schemes for brands, websites and graphics",
+          "Seed palettes from a base hue or mood (third-party description)",
+          "Public API for non-commercial use"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-17: no Simple Icons match for Huemint"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Long-running known tool; no scam hits in one search"
+      },
+      "sources": [
+        {
+          "url": "https://huemint.com",
+          "date": "2026-10-17",
+          "note": "one-line description, Launch link only"
+        },
+        {
+          "url": "https://huemint.com/about/",
+          "date": "2026-10-17",
+          "note": "API non-commercial; no operator, no terms"
+        },
+        {
+          "url": "https://toolradar.com/tools/huemint/pricing",
+          "date": "2026-10-17",
+          "note": "second-hand $0 pricing"
+        },
+        {
+          "url": "web search: Huemint pricing",
+          "date": "2026-10-17",
+          "note": "directories say free"
+        }
+      ],
+      "unverified": [
+        "free permanence (second-hand only)",
+        "operator",
+        "commercial use of generated palettes",
+        "login requirement"
+      ],
+      "injectionSeen": null
+    },
+    "huevy": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Huevy",
+        "url": "https://www.huevy.app",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "\"Free forever\" per pricing page: single design system, unlimited edits, Figma plugin, unlimited devices",
+        "paidFrom": "Pro $6/month billed annually ($72/yr): up to 5 design systems, CLI sync, Tailwind and CSS variable output, early access",
+        "evidence": {
+          "url": "https://www.huevy.app/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: unknown (no terms page read) · attribution: unknown · footer \"© 2026 Huevy\", support@huevy.app",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.huevy.app/pricing",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "huevy",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Huevy",
+        "description": "Generates a color palette, type scale and spacing system for Figma and code, with Tailwind and CSS variable output on Pro.",
+        "tags": [
+          "color-palette",
+          "typography",
+          "design-systems",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "colorffy",
+          "adobe-color"
+        ],
+        "keyFeatures": [
+          "Color palette and typography generator",
+          "Figma plugin on the free plan",
+          "Spacing scale alongside colors and type scale (directory blurb)",
+          "Pro: Tailwind and CSS variable output and CLI sync to dev projects"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 2026-10-17: no Simple Icons match for Huevy"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Web search found nothing about Huevy (no scam, no reviews either); operator unnamed"
+      },
+      "sources": [
+        {
+          "url": "https://www.huevy.app",
+          "date": "2026-10-17",
+          "note": "title: Free Color Palette & Typography Generator for Figma & Code (page body empty to fetch)"
+        },
+        {
+          "url": "https://www.huevy.app/pricing",
+          "date": "2026-10-17",
+          "note": "plans"
+        },
+        {
+          "url": "web search: Huevy",
+          "date": "2026-10-17",
+          "note": "no results"
+        }
+      ],
+      "unverified": [
+        "operator and terms of use",
+        "commercial-use rights",
+        "spacing feature from directory blurb",
+        "home page body not readable by fetch",
+        "very little independent evidence"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/huevy.md",
+        "lint": "pass"
+      }
+    },
+    "huey": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "Site is a JS page; fetch returned only the title 'Huey | Color Palette Generator', so pricing/terms unreadable. Product Hunt (second-hand) says free, no signup; needs a manual look.",
+      "site": {
+        "name": "Huey",
+        "url": "https://huey.design",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Second-hand only: free, no signup",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.producthunt.com/p/huey-2",
+          "date": "2026-10-17",
+          "confidence": "second-hand"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://huey.design",
+          "date": "2026-10-17",
+          "note": "title only returned"
+        },
+        {
+          "url": "https://www.producthunt.com/p/huey-2",
+          "date": "2026-10-17",
+          "note": "search snippet: structured 60-30-10 palette generator, free, no signup"
+        }
+      ],
+      "unverified": [
+        "pricing and permanence",
+        "operator",
+        "terms",
+        "logo"
+      ],
+      "injectionSeen": null
+    },
+    "hugeicons": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Hugeicons",
+        "url": "https://hugeicons.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free plan: 6,000+ Stroke Rounded icons, web app, dev formats, design and dev plugins; described as for personal projects, students and learning",
+        "paidFrom": "Pro $99/year (billed yearly); Pro Plus $1,197 one-time",
+        "evidence": {
+          "url": "https://hugeicons.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT (free icons) · commercial: yes · attribution: keep MIT copyright notice with source files · limit: Pro icons need a paid license",
+        "openSource": false,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://hugeicons.com/license-agreement",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "hugeicons",
+        "type": "Icon Set",
+        "category": "Design",
+        "title": "Hugeicons",
+        "description": "Icon library with 6,000+ free Stroke Rounded icons under MIT, plus a paid Pro set of 60,000+ icons in ten styles, with Figma and dev plugins.",
+        "tags": [
+          "icon-library",
+          "ui-ux",
+          "visual-design",
+          "design-systems"
+        ],
+        "relatedResources": [
+          "flaticon",
+          "feather-icons",
+          "bootstrap-icons"
+        ],
+        "similarResources": [
+          "akar-icons",
+          "boxicons",
+          "eva-icons"
+        ],
+        "keyFeatures": [
+          "6,000+ free Stroke Rounded icons",
+          "MIT-licensed free set, commercial use allowed",
+          "Pro tier adds 60,000+ icons across 10 styles",
+          "Design and dev plugins, web app and dev formats",
+          "Pro adds Figma source files and custom icon upload (Pro Plus)"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no Simple Icons match; site SVG not fetched"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/shutdown signals seen; only 2 fetches done"
+      },
+      "sources": [
+        {
+          "url": "https://hugeicons.com/pricing",
+          "date": "2026-10-17",
+          "note": "plans, prices, free tier"
+        },
+        {
+          "url": "https://hugeicons.com/license-agreement",
+          "date": "2026-10-17",
+          "note": "MIT for free icons"
+        }
+      ],
+      "unverified": [
+        "operator/company",
+        "exact count of free styles beyond Stroke Rounded",
+        "full MIT text",
+        "logo"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/hugeicons.md",
+        "lint": "pass"
+      }
+    },
+    "humaaans": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Humaaans",
+        "url": "https://www.humaaans.com",
+        "alive": true,
+        "operator": "Pablo Stanley"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Page states 'Free for commercial or personal use'; download link goes to a Gumroad page whose price was not read",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.humaaans.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "CC0 Public Domain (as stated on site) · commercial: yes · attribution: not required · limit: one third-party listing says CC BY 4.0",
+        "openSource": false,
+        "spdx": "CC0-1.0",
+        "evidence": {
+          "url": "https://www.humaaans.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "humaaans",
+        "type": "Stock Media",
+        "category": "Design",
+        "title": "Humaaans",
+        "description": "Mix-and-match vector illustrations of people: swap hair, tops, pants and poses to build scenes for onboarding, empty states and landing pages.",
+        "tags": [
+          "stock-illustrations",
+          "stock-vectors",
+          "royalty-free",
+          "graphic-design"
+        ],
+        "relatedResources": [
+          "undraw",
+          "absurd-design"
+        ],
+        "similarResources": [
+          "highlights",
+          "undraw"
+        ],
+        "keyFeatures": [
+          "Mix-and-match people: hairstyles, tops, pants",
+          "Rotate and position figures in scenes",
+          "Made for onboarding, error states, landing pages and print",
+          "Works with Sketch and InVision Studio; Blush integration",
+          "Free for commercial and personal use"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no Simple Icons match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search shows consistent third-party coverage"
+      },
+      "sources": [
+        {
+          "url": "https://www.humaaans.com",
+          "date": "2026-10-17",
+          "note": "description, license statement, creator"
+        },
+        {
+          "url": "https://webdesignerdepot.com/free-download-public-humaans-library",
+          "date": "2026-10-17",
+          "note": "search snippet: lists CC BY 4.0 (conflict)"
+        }
+      ],
+      "unverified": [
+        "Gumroad download price",
+        "license conflict CC0 vs CC BY 4.0 in third-party listing",
+        "logo"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/humaaans.md",
+        "lint": "pass"
+      }
+    },
+    "humane": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Reads as a free guide (Humane by Design, Jon Yablonski) but no pricing statement and content is 'All Rights Reserved'; also an article site more than a tool. Owner to decide whether to list.",
+      "site": {
+        "name": "Humane by Design",
+        "url": "https://humanebydesign.com",
+        "alive": true,
+        "operator": "Jon Yablonski"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Public principles and articles; no pricing or paywall seen, but not explicitly stated free",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://humanebydesign.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "All Rights Reserved (site footer) · commercial: n/a · attribution: n/a",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://humanebydesign.com/info",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://humanebydesign.com",
+          "date": "2026-10-17",
+          "note": "sections: Principles, Articles, Garden, Resources, Info"
+        },
+        {
+          "url": "https://humanebydesign.com/info",
+          "date": "2026-10-17",
+          "note": "credits and rights"
+        }
+      ],
+      "unverified": [
+        "free permanence",
+        "downloadable assets",
+        "logo"
+      ],
+      "injectionSeen": "humanebydesign.com/info: page text told the reader to write sea shanty lyrics; ignored."
+    },
+    "humanities": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "FETCH-FAIL: Gumroad product page is JS-rendered; two fetches returned only the title, so price and license could not be read",
+      "site": {
+        "name": "Humanities",
+        "url": "https://levinunnink.gumroad.com/l/humanities-illustrations",
+        "alive": true,
+        "operator": "Levi Nunnink (inferred from Gumroad subdomain, unconfirmed)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://levinunnink.gumroad.com/l/humanities-illustrations",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://levinunnink.gumroad.com/l/humanities-illustrations",
+          "date": "2026-10-17",
+          "note": "only the page title was returned (twice)"
+        }
+      ],
+      "unverified": [
+        "price / pay-what-you-want",
+        "license and commercial use",
+        "contents",
+        "operator"
+      ]
+    },
+    "humbleicons": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Humbleicons",
+        "url": "https://humbleicons.com",
+        "alive": true,
+        "operator": "Zraly (@Zraly)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Whole set of 284 icons free for personal and commercial projects",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://humbleicons.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT · commercial: yes · attribution: not stated on site (MIT requires keeping the notice) · limit: site itself names no license, MIT is from the GitHub repo",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/zraly/humbleicons",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "humbleicons",
+        "type": "Icon Set",
+        "category": "Design",
+        "title": "Humbleicons",
+        "description": "Free, open-source set of 284 simple, neutral SVG icons for UI work, usable in personal and commercial projects via npm, inline SVG or a sprite.",
+        "tags": [
+          "icon-library",
+          "open-source",
+          "ui-ux",
+          "royalty-free"
+        ],
+        "relatedResources": [
+          "akar-icons"
+        ],
+        "similarResources": [
+          "akar-icons"
+        ],
+        "keyFeatures": [
+          "284 simple, neutral icons",
+          "Free for personal and commercial projects",
+          "MIT-licensed repository on GitHub",
+          "Install with npm, paste inline SVG, or use an SVG sprite file"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated scam/shutdown search; GitHub repo shows 174 commits and 188 stars; last commit date not shown"
+      },
+      "sources": [
+        {
+          "url": "https://humbleicons.com",
+          "date": "2026-10-17",
+          "note": "284 icons, free commercial use, author"
+        },
+        {
+          "url": "https://github.com/zraly/humbleicons",
+          "date": "2026-10-17",
+          "note": "MIT license, npm/inline/sprite install, stars"
+        }
+      ],
+      "unverified": [
+        "last commit date",
+        "site names no license (MIT taken from repo)",
+        "no dedicated safety search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/humbleicons.md",
+        "lint": "pass"
+      }
+    },
+    "hypeauditor": {
+      "researchedOn": "2026-10-17",
+      "verdict": "skip",
+      "verdictReason": "Sales-led SaaS: home page pushes demo/contact sales, pricing page showed no plans, free access limited to some features plus demos; only separate free calculators. No confirmed permanent free plan",
+      "site": {
+        "name": "HypeAuditor",
+        "url": "https://hypeauditor.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Home page mentions free media plans, campaign management and demos of other features; free ER calculator and audit tools for Instagram, TikTok, YouTube. Permanence unconfirmed",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://hypeauditor.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://hypeauditor.com",
+          "date": "2026-10-17",
+          "note": "free wording, free tools list"
+        },
+        {
+          "url": "https://hypeauditor.com/pricing/",
+          "date": "2026-10-17",
+          "note": "returned no plan details"
+        }
+      ],
+      "unverified": [
+        "pricing plans",
+        "free plan permanence",
+        "license/terms",
+        "operator",
+        "no safety search run"
+      ],
+      "injectionSeen": null
+    },
+    "hyperframer": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Free browsing is implied but never stated (no pricing text); Terms not read; links to affiliate/paid items (Kothemes). Owner to decide whether a link directory of third-party Framer resources fits",
+      "site": {
+        "name": "HyperFramer",
+        "url": "https://www.hyperframer.com",
+        "alive": true,
+        "operator": "@yordanoff & Oblik Studio"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Browsable directory of Framer resources; no prices shown, free access not explicitly stated",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.hyperframer.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Terms not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.hyperframer.com",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "hyperframer",
+        "type": "Website",
+        "category": "Design",
+        "title": "HyperFramer",
+        "description": "Curated directory of Framer resources: remixes, tutorials, templates, showcases, code snippets and experts for building Framer sites.",
+        "tags": [
+          "website-builder",
+          "website-templates",
+          "inspiration"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Around 600 remixes and 159 tutorials listed on the home page",
+          "Also lists templates, showcases, code and experts",
+          "Dedicated to Framer, the website builder",
+          "Newsletter with deals mentioned on the home page"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons (closest is Framer, a different product), 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Web search returned nothing about hyperframer.com; no scam hits; copyright 2022-2026"
+      },
+      "sources": [
+        {
+          "url": "https://www.hyperframer.com",
+          "date": "2026-10-17",
+          "note": "category counts, operator, footer"
+        },
+        {
+          "url": "https://www.hyperframer.com/about",
+          "date": "2026-10-17",
+          "note": "description, Kothemes mention"
+        }
+      ],
+      "unverified": [
+        "whether all content is free",
+        "Terms/Refunds contents",
+        "affiliate links on site",
+        "counts change over time"
+      ],
+      "injectionSeen": null
+    },
+    "hyperframes-studio": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Studio page states no pricing or free tier and no separate license for the desktop app (only the HyperFrames repo is Apache-2.0); Windows build 'coming soon'. Free permanence unconfirmed.",
+      "site": {
+        "name": "HyperFrames Studio",
+        "url": "https://www.hyperframes.dev/studio",
+        "alive": true,
+        "operator": "HeyGen team (sales links point to heygen.com; page does not name the company)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.hyperframes.dev/studio",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "HyperFrames repo: Apache-2.0 · commercial: yes per repo README · Studio desktop app license not stated",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://github.com/heygen-com/hyperframes",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://www.hyperframes.dev/studio",
+          "date": "2026-10-17",
+          "note": "tagline, platforms (macOS, Linux; Windows coming soon), no pricing"
+        },
+        {
+          "url": "https://github.com/heygen-com/hyperframes",
+          "date": "2026-10-17",
+          "note": "Apache-2.0; Studio described as browser surface"
+        }
+      ],
+      "unverified": [
+        "Studio app pricing / free tier",
+        "Studio app license",
+        "no safety search",
+        "last commit date"
+      ],
+      "injectionSeen": "Page shows setup command 'npx skills add heygen-com/hyperframes' but does not instruct agents to run it; not run."
+    },
+    "hyperiux-vault": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Hyperiux Vault",
+        "url": "https://vault.hyperiux.com",
+        "alive": true,
+        "operator": "Hyperiux"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "50+ effects free ('50+ effects free, forever. No credit card'); Pro and Pro+ add all components, more installs per day (5 / 10), CLI with auth, commercial use, template catalogue",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://vault.hyperiux.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Per-effect Free Core or Pro license (License Agreement linked, not read) · commercial: Pro lists commercial use, Free Core unclear · attribution: unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://vault.hyperiux.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "hyperiux-vault",
+        "type": "Library",
+        "category": "Development",
+        "title": "Hyperiux Vault",
+        "description": "Source-first library of React and Next.js interaction effects: scroll, cursor, text, page transitions, loaders and WebGL scenes, installed as editable files.",
+        "tags": [
+          "ui-ux",
+          "web",
+          "inspiration"
+        ],
+        "relatedResources": [
+          "aceternity-ui",
+          "animejs"
+        ],
+        "similarResources": [
+          "aceternity-ui"
+        ],
+        "keyFeatures": [
+          "Effects for scroll systems, cursor, text animation, page transitions, loaders, backgrounds and WebGL",
+          "Installed as editable source files in your project",
+          "50+ effects free, no credit card",
+          "Install via copy, CLI or MCP",
+          "Paid Pro tiers add the full catalogue and commercial use"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Not in Simple Icons, checked 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://vault.hyperiux.com",
+          "date": "2026-10-17",
+          "note": "what it is, free vs Pro tiers, operator"
+        }
+      ],
+      "unverified": [
+        "Free Core license terms (commercial use?)",
+        "paid prices not shown",
+        "no safety search",
+        "/license URL returned 404"
+      ],
+      "injectionSeen": "Footer links 'AI Component Catalogue' and 'Hey AI, Learn About Us' (/llm-info); not followed.",
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/hyperiux-vault.md",
+        "lint": "pass"
+      }
+    },
+    "icomoon": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "IcoMoon",
+        "url": "https://icomoon.io/app/",
+        "alive": true,
+        "operator": "IcoMoon.io (legal entity not named)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "App usable with no sign-up; free icons from library, local project storage. Not included: exclusive packs, account project saving, WOFF 2.0, CSS font embedding, unlimited projects, hosting, collaboration. Links from free plan expire in 24 hours",
+        "paidFrom": "Basic $9/month or $69/year (auto-renew); Unlimited $29/month or $199/year",
+        "evidence": {
+          "url": "https://icomoon.io/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Icon licenses vary per icon set (library describes 'free and open source SVG icon sets') · commercial: not confirmed · attribution: depends on set",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://icomoon.io/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "icomoon",
+        "type": "Tool",
+        "category": "Design",
+        "title": "IcoMoon",
+        "description": "Browser app to pick or import SVG icons and generate icon fonts and SVG sprites, with a library of free icon sets. Works without sign-up.",
+        "tags": [
+          "icon-library",
+          "ui-ux",
+          "web"
+        ],
+        "relatedResources": [
+          "heroicons",
+          "feather-icons"
+        ],
+        "similarResources": [
+          "heroicons"
+        ],
+        "keyFeatures": [
+          "Generate icon fonts and SVG sets from selected icons",
+          "Free icon library inside the app",
+          "Import your own SVGs",
+          "Runs in the browser, no sign-up needed",
+          "Paid plans add hosting, collaboration and exclusive packs"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "icomoon",
+          "fillColor": "#825794",
+          "bgColor": "#ffffff",
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Long-running known product; no dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://icomoon.io/",
+          "date": "2026-10-17",
+          "note": "no signup, runs locally, free icon library"
+        },
+        {
+          "url": "https://icomoon.io/pricing",
+          "date": "2026-10-17",
+          "note": "free plan limits and paid prices"
+        }
+      ],
+      "unverified": [
+        "license terms per free icon set",
+        "FAQ vs pricing page conflict on WOFF 2.0 in free plan",
+        "no safety search",
+        "icomoon.io/app/ and /pricing.html returned 404 to fetch tool; /pricing worked"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/icomoon.md",
+        "lint": "pass"
+      }
+    },
+    "icon-shelf": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Icon Shelf",
+        "url": "https://icon-shelf.github.io",
+        "alive": true,
+        "operator": "Robin Philip Thomas (individual)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Free and open source desktop app, no paid tiers",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://icon-shelf.github.io",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT · commercial: yes · attribution: keep license notice · repo MrRobz/icon-shelf",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/MrRobz/icon-shelf",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "icon-shelf",
+        "type": "App",
+        "category": "Development",
+        "title": "Icon Shelf",
+        "description": "Free open-source desktop app that organizes a project's icon folder into collections and copies icons as ready-to-paste React, Vue, Svelte or Ember code.",
+        "tags": [
+          "icon-library",
+          "open-source",
+          "mac",
+          "windows",
+          "linux"
+        ],
+        "relatedResources": [
+          "icomoon"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Connects to your project's assets folder without adding files",
+          "Collections to group icons per project",
+          "Copy icons as import code for React, Vue, Svelte, Ember",
+          "Built-in SVG optimizer and drag and drop into design tools",
+          "Team sync through GitHub or Dropbox",
+          "macOS, Windows and Linux"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Not in Simple Icons, checked 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://icon-shelf.github.io",
+          "date": "2026-10-17",
+          "note": "features, free, operator, copyright 2021"
+        },
+        {
+          "url": "https://github.com/MrRobz/icon-shelf",
+          "date": "2026-10-17",
+          "note": "MIT, 307 stars, 240 commits, no releases listed"
+        }
+      ],
+      "unverified": [
+        "project may be dormant (site copyright 2021; last commit date not seen)",
+        "no safety search"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/icon-shelf.md",
+        "lint": "pass"
+      }
+    },
+    "icon-university": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Icon University",
+        "url": "https://blog.streamlinehq.com/tag/icons/",
+        "alive": true,
+        "operator": "Streamline"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Articles on icon design, described as free to learn from; no sign-in seen",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://blog.streamlinehq.com/tag/icons/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No license text on page; copyright Streamline 2026 · commercial: n/a (reading material) · attribution: n/a · limit: article content stays copyrighted",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://blog.streamlinehq.com/tag/icons/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "icon-university",
+        "type": "Resource",
+        "category": "Design",
+        "title": "Icon University",
+        "description": "Free articles from Streamline's icon designers on building consistent icon sets, grids, strokes, colour and using icons in Figma and graphic design.",
+        "tags": [
+          "icon-library",
+          "visual-design",
+          "graphic-design",
+          "inspiration"
+        ],
+        "relatedResources": [
+          "iconify",
+          "lucide-icons"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Articles on icon consistency, grids and key shapes",
+          "Guides on stroke customization and resizing vector icons",
+          "Tips for designing and colouring icons in Figma",
+          "Advice on pairing icons with typefaces and planning icon sets",
+          "Written by Streamline's in-house icon design team"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 'Streamline': no Simple Icons match, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Official Streamline blog; no dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://blog.streamlinehq.com/tag/icons/",
+          "date": "2026-10-17",
+          "note": "intro, operator, article topics, footer"
+        }
+      ],
+      "unverified": [
+        "no pricing/terms page read",
+        "no dedicated safety search",
+        "article reuse terms unknown"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/icon-university.md",
+        "lint": "pass"
+      }
+    },
+    "iconbuddy": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Free tier undocumented: pricing page lists only Pro plans ('Unlock unlimited searches and full plugin access'), so free limits are unknown; per-set icon licenses vary.",
+      "site": {
+        "name": "Iconbuddy",
+        "url": "https://iconbuddy.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": null,
+        "paidFrom": "$6.99/mo (monthly); $49.99/yr; $120 lifetime; Team 3 seats x $39/yr",
+        "evidence": {
+          "url": "https://iconbuddy.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Icons are third-party open-source sets, each credited on its collection page · commercial: depends on set · attribution: depends on set",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://iconbuddy.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "iconbuddy",
+        "type": "Website",
+        "category": "Design",
+        "title": "Iconbuddy",
+        "description": "Search engine for open-source SVG icons with editing, download and plugins for Figma, VS Code, Framer, WordPress and Chrome.",
+        "tags": [
+          "icon-library",
+          "open-source",
+          "extensions"
+        ],
+        "relatedResources": [
+          "iconify"
+        ],
+        "similarResources": [
+          "iconify"
+        ],
+        "keyFeatures": [
+          "Algolia-powered search across many open-source icon sets",
+          "Edit and download SVG icons",
+          "Plugins for Figma, VS Code, Framer, WordPress, Chrome",
+          "MCP access for coding agents (Pro features unclear)"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 'Iconbuddy': no Simple Icons match, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Safety search returned nothing about Iconbuddy; unrelated IconAds results only. iconbuddy.app 301-redirects to iconbuddy.com"
+      },
+      "sources": [
+        {
+          "url": "https://iconbuddy.app",
+          "date": "2026-10-17",
+          "note": "301 redirect to iconbuddy.com"
+        },
+        {
+          "url": "https://iconbuddy.com/",
+          "date": "2026-10-17",
+          "note": "tagline, plugins, search, Pro button"
+        },
+        {
+          "url": "https://iconbuddy.com/pricing",
+          "date": "2026-10-17",
+          "note": "Pro plan prices, 'all icons are open source' line"
+        },
+        {
+          "url": "websearch: Iconbuddy scam/malware",
+          "date": "2026-10-17",
+          "note": "no hits"
+        }
+      ],
+      "unverified": [
+        "free plan contents and search limits",
+        "operator",
+        "license per icon set",
+        "last 13k chars of home page unread"
+      ],
+      "injectionSeen": "Home page has an 'Icons for agents' link and banner 'IconBuddy for coding agents' (marketing for its MCP product, not an instruction); no directive text found"
+    },
+    "icones": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Icônes",
+        "url": "https://icones.js.org",
+        "alive": true,
+        "operator": "Anthony Fu (antfu-collective)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Fully free, open-source MIT web app; no accounts or plans",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://github.com/antfu-collective/icones",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT (app code) · commercial: yes for the app · attribution: keep MIT notice · limit: icon sets keep their own licenses",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/antfu-collective/icones",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "icones",
+        "type": "Website",
+        "category": "Design",
+        "title": "Icônes",
+        "description": "Open-source icon explorer with instant fuzzy search over Iconify's collections; copy snippets, download SVGs or pack icons into an icon font.",
+        "tags": [
+          "icon-library",
+          "open-source",
+          "web"
+        ],
+        "relatedResources": [
+          "iconify",
+          "lucide-icons",
+          "material-symbols"
+        ],
+        "similarResources": [
+          "iconify",
+          "thesvg"
+        ],
+        "keyFeatures": [
+          "Instant local fuzzy search across Iconify icon sets",
+          "Bag to collect icons and pack them into an icon font",
+          "Copy usage snippets or download SVGs directly",
+          "Collection bookmarks, category filters and dark mode",
+          "Mobile-friendly Vite and Vue 3 app"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no Simple Icons match for the Icônes product; 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Well-known open-source project (about 7.5k stars per GitHub page); no dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://icones.js.org",
+          "date": "2026-10-17",
+          "note": "home returned only the word 'Icônes' (JS app)"
+        },
+        {
+          "url": "https://github.com/antfu-collective/icones",
+          "date": "2026-10-17",
+          "note": "description, MIT license, features, stars"
+        }
+      ],
+      "unverified": [
+        "last commit date",
+        "no dedicated safety search",
+        "home page is JS-only so features come from README"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/icones.md",
+        "lint": "pass"
+      }
+    },
+    "iconhub": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Downloads need a login and license terms (on GitHub) were not read; a secondary source (Eagle community) claims caps of 20 icons/project commercial, 50 personal. Listing terms unclear.",
+      "site": {
+        "name": "Iconhub",
+        "url": "https://iconhub.io",
+        "alive": true,
+        "operator": "One Week Wonders (links to Javan Cipta Solusi)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Registration described as free; no paid plans or prices shown; donations via PayPal optional",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://iconhub.io",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Not read (License and Terms of Use linked from site) · secondary claim: commercial yes with 20-icon/project cap, personal 50/project",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://community-en.eagle.cool/resource/free-iconhub-icon",
+          "date": "2026-10-17",
+          "confidence": "second-hand"
+        }
+      },
+      "rl": {
+        "slug": "iconhub",
+        "type": "Icon Set",
+        "category": "Design",
+        "title": "Iconhub",
+        "description": "Icon library in six styles (line, glyph, flat, multi colour) with adjustable size, stroke width and colour; free account needed to download.",
+        "tags": [
+          "icon-library",
+          "graphic-design"
+        ],
+        "relatedResources": [
+          "iconify"
+        ],
+        "similarResources": [
+          "flaticon",
+          "iconify"
+        ],
+        "keyFeatures": [
+          "Six styles: Line, Glyph, Line Color, Flat Color, Flat Line, Multi Color",
+          "Sizes 16 to 96 px and stroke widths 0.5 to 3 px",
+          "Colour customisation before download",
+          "About 22 categories from Arrow to Weather"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs 'Iconhub': no Simple Icons match, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search"
+      },
+      "sources": [
+        {
+          "url": "https://iconhub.io",
+          "date": "2026-10-17",
+          "note": "styles, sizes, free registration, footer operator, login to download"
+        },
+        {
+          "url": "https://github.com/iconhub-io",
+          "date": "2026-10-17",
+          "note": "no license visible on org page"
+        },
+        {
+          "url": "https://community-en.eagle.cool/resource/free-iconhub-icon",
+          "date": "2026-10-17",
+          "note": "second-hand license caps"
+        }
+      ],
+      "unverified": [
+        "actual license text",
+        "commercial-use rules",
+        "whether free tier has download limits",
+        "safety search",
+        "site activity recency"
+      ],
+      "injectionSeen": null
+    },
+    "icons-download": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Icons.download",
+        "url": "https://icons.download",
+        "alive": true,
+        "operator": "Vitaly Belousov (individual designer)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All icons free for personal and commercial use per home page; no account or limits mentioned",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://icons.download",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Custom license · commercial: yes · attribution: not required (appreciated) · limit: no reselling or redistributing as a standalone library or competing service",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://icons.download/license",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "icons-download",
+        "type": "Icon Set",
+        "category": "Design",
+        "title": "Icons.download",
+        "description": "Free vector icon collection of 275 icons in 16 styles, usable in personal and commercial projects without attribution.",
+        "tags": [
+          "icon-library",
+          "graphic-design",
+          "ui-ux",
+          "royalty-free"
+        ],
+        "relatedResources": [
+          "lucide-icons",
+          "heroicons",
+          "boxicons"
+        ],
+        "similarResources": [
+          "feather-icons",
+          "bootstrap-icons",
+          "remix-icon"
+        ],
+        "keyFeatures": [
+          "275 icons, each offered in 16 visual styles",
+          "Free for personal and commercial use",
+          "No attribution required (credit appreciated)",
+          "Figma link offered on the site",
+          "Made by a single designer, Vitaly Belousov"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Not in Simple Icons; site logo not fetched"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Web search for the site and author returned no scam or shutdown hits (and no mentions at all)"
+      },
+      "sources": [
+        {
+          "url": "https://icons.download",
+          "date": "2026-10-17",
+          "note": "description, 275 icons / 16 styles, free commercial use, author"
+        },
+        {
+          "url": "https://icons.download/license",
+          "date": "2026-10-17",
+          "note": "license terms"
+        },
+        {
+          "url": "web search: icons.download Vitaly Belousov free icons",
+          "date": "2026-10-17",
+          "note": "safety check, nothing found"
+        }
+      ],
+      "unverified": [
+        "downloadable formats (SVG/PNG/Figma) not confirmed",
+        "site activity/last update not confirmed",
+        "directory blurb says open-source but license page is a custom license, not open source",
+        "Figma link target and its terms not checked"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/icons-download.md",
+        "lint": "pass"
+      }
+    },
+    "iconscout-desktop-app": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "FETCH-FAIL: iconscout.com returned HTTP 403 Forbidden to WebFetch on /download, /icons, /pricing and /licenses (bot protection); not bypassed. Retried once.",
+      "site": {
+        "name": "Iconscout Desktop App",
+        "url": "https://iconscout.com/download",
+        "alive": null,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://iconscout.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://iconscout.com/download",
+          "date": "2026-10-17",
+          "note": "HTTP 403, nothing read"
+        },
+        {
+          "url": "https://iconscout.com/pricing",
+          "date": "2026-10-17",
+          "note": "HTTP 403, nothing read"
+        }
+      ],
+      "unverified": [
+        "pricing, free tier limits, license, attribution, operator, safety search not done (site unreachable)"
+      ],
+      "injectionSeen": null
+    },
+    "iconscout-icons": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "FETCH-FAIL: iconscout.com returned HTTP 403 Forbidden to WebFetch on /download, /icons, /pricing and /licenses (bot protection); not bypassed. Retried once.",
+      "site": {
+        "name": "Iconscout Icons",
+        "url": "https://iconscout.com/icons",
+        "alive": null,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://iconscout.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://iconscout.com/icons",
+          "date": "2026-10-17",
+          "note": "HTTP 403, nothing read"
+        },
+        {
+          "url": "https://iconscout.com/pricing",
+          "date": "2026-10-17",
+          "note": "HTTP 403, nothing read"
+        }
+      ],
+      "unverified": [
+        "pricing, free tier limits, license, attribution, operator, safety search not done (site unreachable)"
+      ],
+      "injectionSeen": null
+    },
+    "iconscout-illustrations": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "FETCH-FAIL: iconscout.com returned HTTP 403 Forbidden to WebFetch on /download, /icons, /pricing and /licenses (bot protection); not bypassed. Retried once.",
+      "site": {
+        "name": "Iconscout Illustrations",
+        "url": "https://iconscout.com/illustrations",
+        "alive": null,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://iconscout.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://iconscout.com/illustrations",
+          "date": "2026-10-17",
+          "note": "HTTP 403, nothing read"
+        },
+        {
+          "url": "https://iconscout.com/pricing",
+          "date": "2026-10-17",
+          "note": "HTTP 403, nothing read"
+        }
+      ],
+      "unverified": [
+        "pricing, free tier limits, license, attribution, operator, safety search not done (site unreachable)"
+      ],
+      "injectionSeen": null
+    },
+    "iconsvg": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Home page only says 'Quick customizable SVG icons for your project'; no pricing, operator, icon sources or license stated, so free status and licensing cannot be confirmed.",
+      "site": {
+        "name": "Iconsvg",
+        "url": "https://iconsvg.xyz",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://iconsvg.xyz",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://iconsvg.xyz",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Safety search returned nothing about iconsvg.xyz (no scam or shutdown hits, also no info)."
+      },
+      "sources": [
+        {
+          "url": "https://iconsvg.xyz",
+          "date": "2026-10-17",
+          "note": "tagline only"
+        },
+        {
+          "url": "https://iconsvg.xyz/about",
+          "date": "2026-10-17",
+          "note": "404"
+        },
+        {
+          "url": "web search: iconsvg.xyz github license",
+          "date": "2026-10-17",
+          "note": "no results about the site"
+        }
+      ],
+      "unverified": [
+        "pricing/free status",
+        "operator",
+        "license of icons",
+        "icon sources",
+        "features"
+      ],
+      "injectionSeen": null
+    },
+    "identid-me": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "identid.me",
+        "url": "https://identid.me",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan, $0, no credit card: 10 blocks, 6 colors, 6 fonts, 4 social integrations (LinkedIn, Instagram, Facebook, Twitter), QR code, custom subdomain. Home page: 'There will always be a free plan'. Custom domain needs Pro.",
+        "paidFrom": "First Job $10 (billing period not stated on page); Professional $15 marked 'Coming soon'",
+        "evidence": {
+          "url": "https://identid.me/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: not stated · attribution: not stated · terms page not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://identid.me",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "identid-me",
+        "type": "Tool",
+        "category": "Design",
+        "title": "identid.me",
+        "description": "Portfolio builder for creatives: assemble a site from templates and customizable blocks without code, with a permanent free plan and custom subdomain.",
+        "tags": [
+          "website-builder",
+          "no-code",
+          "design-templates"
+        ],
+        "relatedResources": [
+          "carrd",
+          "typedream",
+          "bio-fm"
+        ],
+        "similarResources": [
+          "carrd",
+          "typedream"
+        ],
+        "keyFeatures": [
+          "Build a portfolio from templates and customizable blocks, no coding",
+          "Free plan with 10 blocks, 6 colors and 6 fonts",
+          "Social integrations (LinkedIn, Instagram, Facebook, Twitter) on free",
+          "Custom subdomain and QR code on free; custom domain on Pro"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "scripts/check-icon.mjs, 2026-10-17: no Simple Icons match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Search for scam/shutdown found nothing about identid.me (results were about unrelated ID.me)."
+      },
+      "sources": [
+        {
+          "url": "https://identid.me",
+          "date": "2026-10-17",
+          "note": "what it is, free plan statement"
+        },
+        {
+          "url": "https://identid.me/pricing",
+          "date": "2026-10-17",
+          "note": "plans and limits"
+        },
+        {
+          "url": "web search: identid.me scam OR shutting down",
+          "date": "2026-10-17",
+          "note": "no relevant hits"
+        }
+      ],
+      "unverified": [
+        "operator",
+        "terms/license page not read",
+        "commercial use of sites built",
+        "monthly vs yearly billing for paid plans"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/identid-me.md",
+        "lint": "pass"
+      }
+    },
+    "identity-designed": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Identity Designed",
+        "url": "https://identitydesigned.com",
+        "alive": true,
+        "operator": "David Airey (independent graphic designer, Northern Ireland)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Project showcase browsable without sign-in; newsletter subscription is free ('subscribe for free, updates emailed once every month or so')",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://identitydesigned.com/about",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Copyright notice 2010-2026 Identity Designed · featured work credited to its designers · no reuse terms stated · commercial: n/a (browse only)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://identitydesigned.com/about",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "identity-designed",
+        "type": "Website",
+        "category": "Design",
+        "title": "Identity Designed",
+        "description": "Curated gallery of brand identity and logo projects from designers around the world, run by designer David Airey, with books and a monthly newsletter.",
+        "tags": [
+          "inspiration",
+          "graphic-design",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "brandguidelines",
+          "brrranding",
+          "branding-style-guides"
+        ],
+        "similarResources": [
+          "brrranding",
+          "brands-in-motion"
+        ],
+        "keyFeatures": [
+          "Grid of visual identity case studies from around the world",
+          "Each project links to its own page with credited designers",
+          "Sections for About, Books and Resources",
+          "Free email updates roughly monthly",
+          "Project contributions welcome"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "scripts/check-icon.mjs, 2026-10-17: no Simple Icons match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Long-running personal site (footer 2010-2026); no dedicated safety search."
+      },
+      "sources": [
+        {
+          "url": "https://identitydesigned.com",
+          "date": "2026-10-17",
+          "note": "gallery, nav, footer"
+        },
+        {
+          "url": "https://identitydesigned.com/about",
+          "date": "2026-10-17",
+          "note": "operator, free subscribe, contact"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search",
+        "Books/Resources sections not opened (may include paid books)",
+        "reuse rights of featured images not stated"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/identity-designed.md",
+        "lint": "pass"
+      }
+    },
+    "ideogram": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Home and /pricing return 403 (read first-party docs instead). Free plan is real (30 credits/week, public generations) but ToS 6.2(E) bars commercial exploitation of the Services, in tension with 2.1 granting output rights; commercial-use answer for free users needs owner decision.",
+      "site": {
+        "name": "Ideogram",
+        "url": "https://ideogram.ai",
+        "alive": true,
+        "operator": "Ideogram"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free: 30 credits per week, only if signed in via Google, Apple or Microsoft (email/password accounts get none); everything generated on free is public",
+        "paidFrom": "Plus $20/month ($15/month billed yearly); Basic no longer sold",
+        "evidence": {
+          "url": "https://docs.ideogram.ai/plans-and-pricing/plans-and-pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Ideogram Terms of Service · outputs assigned to user, commercial use not restricted per 2.1 (all users) · limit: 6.2(E) bars commercial exploitation of the Services; free outputs public",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://ideogram.ai/legal/tos",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "ideogram",
+        "type": "AI Tool",
+        "category": "Design",
+        "title": "Ideogram",
+        "description": "AI image generator for posters, logos and social graphics, with a weekly free credit allowance on sign-in with Google, Apple or Microsoft.",
+        "tags": [
+          "ai-tool",
+          "graphic-design"
+        ],
+        "relatedResources": [
+          "adobe-firefly",
+          "flair",
+          "flora"
+        ],
+        "similarResources": [
+          "adobe-firefly",
+          "flora"
+        ],
+        "keyFeatures": [
+          "Text-to-image generation aimed at graphic design output",
+          "Free plan with 30 credits per week",
+          "Free generations are public; private images need a paid plan",
+          "Paid tiers add more monthly credits"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "scripts/check-icon.mjs, 2026-10-17: no Simple Icons match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Well-known AI product; no dedicated safety search."
+      },
+      "sources": [
+        {
+          "url": "https://docs.ideogram.ai/plans-and-pricing/plans-and-pricing",
+          "date": "2026-10-17",
+          "note": "plans, prices, free credits"
+        },
+        {
+          "url": "https://ideogram.ai/legal/tos",
+          "date": "2026-10-17",
+          "note": "output ownership, commercial clauses; last revised 2024-08-14"
+        },
+        {
+          "url": "https://ideogram.ai",
+          "date": "2026-10-17",
+          "note": "403 Forbidden"
+        },
+        {
+          "url": "https://ideogram.ai/pricing",
+          "date": "2026-10-17",
+          "note": "403 Forbidden"
+        }
+      ],
+      "unverified": [
+        "home page and live pricing page not readable (403)",
+        "feature list is from docs and general product framing, not the home page",
+        "no dedicated safety search",
+        "ToS may have been revised since 2024-08-14"
+      ],
+      "injectionSeen": null
+    },
+    "if-you-could-jobs": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Creative jobs board (It's Nice That, London); employers pay GBP 149-299, but job seeker access is free only by inference (no seeker fee seen) and no RL category/tag fits a jobs board.",
+      "site": {
+        "name": "If You Could Jobs",
+        "url": "https://www.ifyoucouldjobs.com",
+        "alive": true,
+        "operator": "It's Nice That (London)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Browsing/job alerts for seekers appear free (no seeker fee shown); not confirmed",
+        "paidFrom": "Employers: Standard job GBP 149 per post (30 days); Premium GBP 199; unlimited subscription from GBP 299/month",
+        "evidence": {
+          "url": "https://www.ifyoucouldjobs.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "n/a (jobs board); Terms of Service not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.ifyoucouldjobs.com",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Live listings with closing dates; no safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://www.ifyoucouldjobs.com",
+          "date": "2026-10-17",
+          "note": "jobs board, 81 jobs shown, alive"
+        },
+        {
+          "url": "https://www.ifyoucouldjobs.com/pricing",
+          "date": "2026-10-17",
+          "note": "employer prices"
+        }
+      ],
+      "unverified": [
+        "job seeker pricing not stated",
+        "Terms of Service not read",
+        "no safety search run",
+        "no matching RL category/tag for jobs boards"
+      ],
+      "injectionSeen": null
+    },
+    "illustration": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "Site shows only an 'Under Maintanance!!..' notice on two fetches; nothing to verify (license, pricing).",
+      "site": {
+        "name": "Free SVG Illustration",
+        "url": "https://freesvgillustration.com",
+        "alive": false,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://freesvgillustration.com",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://freesvgillustration.com",
+          "date": "2026-10-17",
+          "note": "maintenance page only (fetched twice)"
+        },
+        {
+          "url": "web search: freesvgillustration.com",
+          "date": "2026-10-17",
+          "note": "only a forum mention and a Dribbble profile; no license info"
+        }
+      ],
+      "unverified": [
+        "what the site offers",
+        "license",
+        "free vs premium split"
+      ],
+      "injectionSeen": null
+    },
+    "illustration-kit": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Illustration Kit",
+        "url": "https://illustrationkit.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Illustrations free for personal and commercial use per license page; no paid tier described",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://illustrationkit.com/license",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Custom Illustration Kit license · commercial: yes · attribution: not required (appreciated) · limit: no reselling/redistributing illustrations or packs, no use for a competing service",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://illustrationkit.com/license",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "illustration-kit",
+        "type": "Stock Media",
+        "category": "Design",
+        "title": "Illustration Kit",
+        "description": "Handcrafted vector illustration packs free for personal and commercial projects, no attribution required.",
+        "tags": [
+          "stock-illustrations",
+          "stock-vectors",
+          "royalty-free"
+        ],
+        "relatedResources": [
+          "undraw",
+          "highlights"
+        ],
+        "similarResources": [
+          "undraw",
+          "absurd-design"
+        ],
+        "keyFeatures": [
+          "Handcrafted illustration packs (Yippy, Ven, Halo shown on the home page)",
+          "Free for personal and commercial projects",
+          "No attribution required",
+          "Modify illustrations for yourself or a client"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Not in Simple Icons (check-icon exit 1, 2026-10-17)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated safety search; site loads, links to license page"
+      },
+      "sources": [
+        {
+          "url": "https://illustrationkit.com",
+          "date": "2026-10-17",
+          "note": "packs, 'free for personal & commercial' line, no attribution"
+        },
+        {
+          "url": "https://illustrationkit.com/license",
+          "date": "2026-10-17",
+          "note": "license terms"
+        },
+        {
+          "url": "https://illustrationkit.com/illustrations",
+          "date": "2026-10-17",
+          "note": "packs list; download formats not stated"
+        }
+      ],
+      "unverified": [
+        "home heading says 'Premium handcrafted illustrations' while text says free - possible paid tier not seen",
+        "download formats (SVG/PNG/Figma) not confirmed",
+        "operator unknown",
+        "no safety search run",
+        "illustration count per pack unknown"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/illustration-kit.md",
+        "lint": "pass"
+      }
+    },
+    "illustration-lol": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Curated gallery of editorial illustrations by others; page says all copyrights are held by their owners and gives no reuse license, so it is inspiration only and not a free-asset source; pricing not stated.",
+      "site": {
+        "name": "Illustration.lol",
+        "url": "https://www.illustration.lol",
+        "alive": true,
+        "operator": "Shane Zucker"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Browsing appears free; no pricing shown",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.illustration.lol/about",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No license; all copyrights held by respective owners · commercial: no reuse right granted",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.illustration.lol/about",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://www.illustration.lol",
+          "date": "2026-10-17",
+          "note": "curated editorial illustrations credited to illustrators/publishers"
+        },
+        {
+          "url": "https://www.illustration.lol/about",
+          "date": "2026-10-17",
+          "note": "operator, copyright statement, submissions coming soon"
+        }
+      ],
+      "unverified": [
+        "pricing/free access not stated",
+        "no safety search run",
+        "would need type Website, category Design, tag inspiration if owner approves"
+      ],
+      "injectionSeen": null
+    },
+    "illustrations": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Illustrations",
+        "url": "https://illlustrations.co",
+        "alive": true,
+        "operator": "realvjy (individual, Overlayz studio)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free forever: 120+ v1 illustrations (SVG, PNG, Figma), personal and commercial use, builder with PNG download, free Figma/FigJam plugin",
+        "paidFrom": "Pro $5/month (launch offer, was $8) or $60 lifetime (launch offer, was $75)",
+        "evidence": {
+          "url": "https://illlustrations.co/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Older packs CC0 (free for any purpose, no attribution) · premium/pro assets under the site's License Agreement: commercial yes (own, company or client end products), attribution not stated · limit: no reselling or redistributing assets as a standalone pack, no competing library/kit, no public repos of premium sources",
+        "openSource": true,
+        "spdx": "CC0-1.0",
+        "evidence": {
+          "url": "https://illlustrations.co/license",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "illustrations",
+        "type": "Stock Media",
+        "category": "Design",
+        "title": "Illustrations",
+        "description": "Open-source vector illustration kit with 120+ free SVG, PNG and Figma illustrations plus a Figma plugin and a builder; premium packs are paid.",
+        "tags": [
+          "stock-illustrations",
+          "stock-vectors",
+          "graphic-design",
+          "open-source"
+        ],
+        "relatedResources": [
+          "absurd-design",
+          "highlights",
+          "freebie-supply"
+        ],
+        "similarResources": [
+          "absurd-design",
+          "highlights",
+          "pixabay"
+        ],
+        "keyFeatures": [
+          "120+ free illustrations in SVG, PNG and Figma formats",
+          "Free plugin to insert illustrations in Figma and FigJam",
+          "Illustration builder with PNG download on the free plan",
+          "Older packs released under CC0, no attribution needed",
+          "Premium packs and Pro plan for unlimited SVG/PNG downloads"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons: no match (check-icon.mjs, 2026-10-17)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Search for scam/shutdown/acquired found nothing about this site. Domain spelled with three l's (illlustrations.co); matches the directory listing."
+      },
+      "sources": [
+        {
+          "url": "https://illlustrations.co",
+          "date": "2026-10-17",
+          "note": "what it is, 120+ free illustrations, operator, plugin"
+        },
+        {
+          "url": "https://illlustrations.co/pricing",
+          "date": "2026-10-17",
+          "note": "Free $0 forever, Pro $5/mo, Lifetime $60"
+        },
+        {
+          "url": "https://illlustrations.co/license",
+          "date": "2026-10-17",
+          "note": "CC0 older packs, premium license restrictions"
+        }
+      ],
+      "unverified": [
+        "Pricing page lists some features under both Free and Pro; exact Pro extras unclear",
+        "Which free packs are CC0 vs under the License Agreement not confirmed pack by pack",
+        "Launch-offer prices may change",
+        "Related/similar slugs are drafts, not published"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/illustrations.md",
+        "lint": "pass"
+      }
+    },
+    "illustroke": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "FETCH-FAIL: illustroke.com returns an empty page (JS app); www host has a TLS certificate mismatch (Firebase cert). Pricing only from third-party aggregators that disagree (free plan vs paid only vs trial tokens). Not bypassed.",
+      "site": {
+        "name": "Illustroke",
+        "url": "https://illustroke.com",
+        "alive": null,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://illustroke.com",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://illustroke.com",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": null,
+        "clonerisk": "checked-ok",
+        "notes": "www.illustroke.com serves a firebaseapp.com certificate (hostname mismatch); apex returned empty content"
+      },
+      "sources": [
+        {
+          "url": "https://illustroke.com",
+          "date": "2026-10-17",
+          "note": "fetched twice, empty content"
+        },
+        {
+          "url": "https://www.illustroke.com/",
+          "date": "2026-10-17",
+          "note": "TLS certificate hostname mismatch"
+        },
+        {
+          "url": "https://toolradar.com/tools/illustroke/pricing",
+          "date": "2026-10-17",
+          "note": "search snippet only: third-party, conflicting claims about a free plan"
+        }
+      ],
+      "unverified": [
+        "whether a permanent free plan exists",
+        "operator",
+        "license/terms",
+        "what the product is beyond the directory blurb (and some aggregators describe it as AI vector generation)"
+      ],
+      "injectionSeen": null
+    },
+    "image-compressor": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Image Compressor",
+        "url": "https://imagecompressor.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Free with no watermarks; no daily limit, maximum file size or file count stated on the page; processing runs in the browser",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://imagecompressor.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Website terms (not open source) · commercial: yes, service may be used for any purpose personal or commercial · attribution: not applicable · limit: operator may change or stop the service and change terms without notice",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://imagecompressor.com/terms",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "image-compressor",
+        "type": "Tool",
+        "category": "Development",
+        "title": "Image Compressor",
+        "description": "Free browser-based compressor for JPEG, PNG, WebP, GIF and SVG images; files stay on your device and metadata is stripped.",
+        "tags": [
+          "web",
+          "productivity"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Compresses JPEG, PNG, WebP, GIF and SVG images",
+          "Processing happens in the browser, files are not uploaded",
+          "Strips EXIF, GPS and camera metadata automatically",
+          "No watermarks and no stated usage limits",
+          "Links to companion converter and EXIF tools"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons: no match (check-icon.mjs, 2026-10-17)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No dedicated scam/shutdown search run; operator not named on site or terms"
+      },
+      "sources": [
+        {
+          "url": "https://imagecompressor.com",
+          "date": "2026-10-17",
+          "note": "features, free claim, in-browser processing"
+        },
+        {
+          "url": "https://imagecompressor.com/terms",
+          "date": "2026-10-17",
+          "note": "terms: any purpose, operator unnamed, may cease service"
+        }
+      ],
+      "unverified": [
+        "operator identity",
+        "real file-size or batch limits",
+        "no dedicated safety search",
+        "claim of local-only processing is the site's own, not tested",
+        "category/tags are a judgement call (no image-optimisation tag exists)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/image-compressor.md",
+        "lint": "pass"
+      }
+    },
+    "image-optim": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "ImageOptim",
+        "url": "https://imageoptim.com",
+        "alive": true,
+        "operator": "Kornel Lesinski (individual)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Mac app is free (button reads Download for Mac Free); also offered as a web service, whose pricing was not read",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://imageoptim.com/mac",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "GPL v2 or later · commercial: yes under GPL terms · attribution: per GPL · limit: copyleft, derivatives must stay GPL",
+        "openSource": true,
+        "spdx": "GPL-2.0-or-later",
+        "evidence": {
+          "url": "https://imageoptim.com/mac",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "image-optim",
+        "type": "Software",
+        "category": "Development",
+        "title": "ImageOptim",
+        "description": "Free open-source Mac app that shrinks JPEG, PNG, GIF and SVG files by running several optimizers and stripping metadata, with drag and drop.",
+        "tags": [
+          "mac",
+          "open-source",
+          "productivity"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "image-compressor"
+        ],
+        "keyFeatures": [
+          "Drag-and-drop batch image optimization on macOS",
+          "Runs MozJPEG, pngquant, Pngcrush, Zopfli, SVGO and keeps the smallest result",
+          "Removes EXIF data, thumbnails, comments and unneeded color profiles",
+          "Lossless by default, optional lossy mode for smaller files",
+          "Open source under GPL v2 or later"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons: no match (check-icon.mjs, 2026-10-17)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "One search confirmed the official site and GPL; a Mac App Store clone of ImageOptim was reported by a French outlet (macg.co), so use the official domain. imageoptim.com root returned HTTP 502 once, later pages loaded."
+      },
+      "sources": [
+        {
+          "url": "https://imageoptim.com/mac",
+          "date": "2026-10-17",
+          "note": "free, GPL, author, features, macOS 11+"
+        },
+        {
+          "url": "https://www.imageoptim.com/",
+          "date": "2026-10-17",
+          "note": "search result confirming GPL and bundled optimizers"
+        }
+      ],
+      "unverified": [
+        "web service pricing/limits not read",
+        "macOS 11+ requirement is from the page, older search snippet said 10.8",
+        "tag choice is a judgement call (no image-optimisation tag; mac only, no windows/linux)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/image-optim.md",
+        "lint": "pass"
+      }
+    },
+    "imgbox": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "FETCH-FAIL: imgbox.com returned ECONNRESET on two fetches (retried once); could not read home, terms or free-tier limits first-party. Second-hand only: digitool says free, unlimited storage, JPG/GIF/PNG up to 10 MB.",
+      "site": {
+        "name": "imgbox",
+        "url": "https://imgbox.com/",
+        "alive": null,
+        "operator": "Gransy, s.r.o. (second-hand, guard.offseq.com)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Second-hand: free image hosting, unlimited storage, hotlinking, JPG/GIF/PNG up to 10 MB each",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://digitool.co/tool/imgbox/",
+          "date": "2026-10-17",
+          "confidence": "second-hand"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/imgbox/",
+          "date": "2026-10-17",
+          "note": "official site link, free hosting summary"
+        },
+        {
+          "url": "https://gridinsoft.com/online-virus-scanner/url/imgbox-com",
+          "date": "2026-10-17",
+          "note": "reputation scan via search, trust 100/100"
+        },
+        {
+          "url": "https://guard.offseq.com/report/imgbox-com-gdpr-compliance-check",
+          "date": "2026-10-17",
+          "note": "operator, 10MB limit via search; score 55/100 elevated risk"
+        }
+      ],
+      "unverified": [
+        "site unreachable by fetch",
+        "terms/license not read",
+        "free tier permanence",
+        "operator is second-hand"
+      ],
+      "injectionSeen": null
+    },
+    "impact-com": {
+      "researchedOn": "2026-10-17",
+      "verdict": "skip",
+      "verdictReason": "Brand plans are paid (Starter $30/mo + 2.5% revenue, 30-day free trial only, 12-month contract); no permanent free plan for brands. Free signup for creators/publishers only joins the marketplace.",
+      "site": {
+        "name": "impact.com",
+        "url": "https://impact.com",
+        "alive": true,
+        "operator": "impact.com"
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "$30/mo + 2.5% of revenue (Starter); Essentials $500/mo",
+        "evidence": {
+          "url": "https://impact.com/pricing/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://impact.com",
+          "date": "2026-10-17",
+          "note": "product description, creators sign up free"
+        },
+        {
+          "url": "https://impact.com/pricing/",
+          "date": "2026-10-17",
+          "note": "plans and 30-day Starter trial"
+        }
+      ],
+      "unverified": [
+        "terms not read",
+        "creator-side marketplace cost not listed"
+      ],
+      "injectionSeen": null
+    },
+    "impeccable": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Impeccable",
+        "url": "https://impeccable.style",
+        "alive": true,
+        "operator": "Paul Bakaus"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Open-source skill and CLI; no price listed, repo is Apache-2.0",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://github.com/pbakaus/impeccable",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Apache-2.0 · commercial: yes · attribution: license notice kept (NOTICE.md present) · limit: patent/trademark terms per Apache-2.0",
+        "openSource": true,
+        "spdx": "Apache-2.0",
+        "evidence": {
+          "url": "https://github.com/pbakaus/impeccable",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "impeccable",
+        "type": "Library",
+        "category": "Design",
+        "title": "Impeccable",
+        "description": "Open-source design skill for AI coding agents: a shared design vocabulary, slash commands and a detector that flags generic AI-made interface patterns.",
+        "tags": [
+          "ai-tool",
+          "ui-ux",
+          "design-systems",
+          "open-source"
+        ],
+        "relatedResources": [
+          "emilkowalski-skills",
+          "typeui",
+          "getdesign-md"
+        ],
+        "similarResources": [
+          "emilkowalski-skills",
+          "typeui"
+        ],
+        "keyFeatures": [
+          "Slash commands such as typeset, layout, polish, critique and audit",
+          "Detector with about 59 checks for default patterns AI agents tend to produce",
+          "Live Mode to pick elements in a running app and steer changes",
+          "PRODUCT.md and DESIGN.md capture product context and the visual system",
+          "Works with Claude Code, Codex CLI, Cursor, Copilot and Gemini CLI",
+          "Hook and CLI run in plain code, with no AI model or API key"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Search shows independent docs mirrors and an interview with the creator; no scam or shutdown reports found"
+      },
+      "sources": [
+        {
+          "url": "https://impeccable.style",
+          "date": "2026-10-17",
+          "note": "features, quotes, creator, repo link"
+        },
+        {
+          "url": "https://github.com/pbakaus/impeccable",
+          "date": "2026-10-17",
+          "note": "Apache-2.0, stars 82.1k"
+        },
+        {
+          "url": "https://latent.space/p/skill-engineering-design",
+          "date": "2026-10-17",
+          "note": "via search: interview with creator"
+        }
+      ],
+      "unverified": [
+        "site itself states no license (taken from GitHub README)",
+        "detector check count differs across sources (59/60)",
+        "icon not available; site SVG not fetched",
+        "no separate terms page read"
+      ],
+      "injectionSeen": "None hidden. Page includes install instructions for agents (/impeccable init, /impeccable hooks on); ordinary product docs.",
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/impeccable.md",
+        "lint": "pass"
+      }
+    },
+    "inboxflows": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Free tier permanence unclear: only 'Create an inbox ... It's free!' is stated; no pricing page (404), no plans, operator not named on home (terms say Delivra Inc.); terms are ad-supported and prohibit copying site content.",
+      "site": {
+        "name": "Inboxflows",
+        "url": "https://inboxflows.com",
+        "alive": true,
+        "operator": "Delivra Inc. (per terms of service)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Home page: creating an inbox to save and track emails is free; no limits or paid plans listed",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://inboxflows.com/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Delivra terms of service · commercial: not stated · attribution: not stated · limit: site content not to be copied; services may show ads",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://inboxflows.com/trust/terms-of-service/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "inboxflows",
+        "type": "Website",
+        "category": "Marketing",
+        "title": "Inboxflows",
+        "description": "Searchable archive of marketing emails from hundreds of brands, browsable by category and subscriber type, for competitor research and inspiration.",
+        "tags": [
+          "inspiration",
+          "template"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Catalog of emails from about 900 brands, with new emails added daily (home page claim)",
+          "Browse by subscriber type, category and brand",
+          "Keyword search such as black friday or halloween",
+          "Free inbox to save and track emails"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No dedicated safety search run (fetch budget)"
+      },
+      "sources": [
+        {
+          "url": "https://inboxflows.com",
+          "date": "2026-10-17",
+          "note": "description, counts, free inbox"
+        },
+        {
+          "url": "https://inboxflows.com/pricing",
+          "date": "2026-10-17",
+          "note": "404"
+        },
+        {
+          "url": "https://inboxflows.com/trust/terms-of-service/",
+          "date": "2026-10-17",
+          "note": "operator Delivra Inc., ads, copying clause"
+        }
+      ],
+      "unverified": [
+        "any paid tier or limit on free inbox",
+        "no safety search",
+        "tags weak (no email-marketing tag exists); owner review",
+        "icon"
+      ],
+      "injectionSeen": null
     }
   }
 }

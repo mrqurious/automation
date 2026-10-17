@@ -22423,7 +22423,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "gratisography",
       "priority": "P2",
       "hasResearch": true
     },
@@ -22473,7 +22473,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "beta",
-      "rlSlug": null,
+      "rlSlug": "griddy-icons",
       "priority": "P3",
       "hasResearch": true
     },
@@ -22655,7 +22655,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "gsap",
       "priority": "P2",
       "hasResearch": true
     },
@@ -22768,7 +22768,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "haikei",
       "priority": "P2",
       "hasResearch": true
     },
@@ -22924,7 +22924,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "handbrake",
       "priority": "P2",
       "hasResearch": true
     },
@@ -22976,7 +22976,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "happy-hues",
       "priority": "P2",
       "hasResearch": true
     },
@@ -23054,7 +23054,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "headless-ui",
       "priority": "P2",
       "hasResearch": true
     },
@@ -23106,7 +23106,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "heard",
       "priority": "P2",
       "hasResearch": true
     },
@@ -23158,7 +23158,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "heepsy",
       "priority": "P2",
       "hasResearch": true
     },
@@ -23342,7 +23342,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "hermes-agent",
       "priority": "P2",
       "hasResearch": true
     },
@@ -23368,7 +23368,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "heroui",
       "priority": "P2",
       "hasResearch": true
     },
@@ -23392,7 +23392,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "beta",
-      "rlSlug": null,
+      "rlSlug": "heroicons",
       "priority": "P3",
       "hasResearch": true
     },
@@ -23444,7 +23444,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "hexful",
       "priority": "P2",
       "hasResearch": true
     },
@@ -23470,7 +23470,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "hey-design-systems",
       "priority": "P2",
       "hasResearch": true
     },
@@ -23522,7 +23522,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "heygen",
       "priority": "P2",
       "hasResearch": true
     },
@@ -23652,7 +23652,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "highlights",
       "priority": "P2",
       "hasResearch": true
     },
@@ -23992,7 +23992,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "hovercode",
       "priority": "P2",
       "hasResearch": true
     },
@@ -24018,7 +24018,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "hoverstates",
       "priority": "P2",
       "hasResearch": true
     },
@@ -24044,7 +24044,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "how-to-start-in-ux",
       "priority": "P2",
       "hasResearch": true
     },
@@ -24070,7 +24070,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "httpster",
       "priority": "P2",
       "hasResearch": true
     },
@@ -24095,12 +24095,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "hue-tools",
@@ -24121,12 +24121,12 @@
           "file": "Best Color Tools and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "huemint",
@@ -24147,12 +24147,12 @@
           "file": "Best Color Tools and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Free status only second-hand (toolradar: $0, one plan Web + public API); first-party pages state no pricing, no terms, operator unnamed; API non-commercial only, palette commercial use unstated",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "huevy",
@@ -24173,12 +24173,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "huey",
@@ -24199,12 +24199,12 @@
           "file": "Best Color Tools and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Site is a JS page; fetch returned only the title 'Huey | Color Palette Generator', so pricing/terms unreadable. Product Hunt (second-hand) says free, no signup; needs a manual look.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "hugeicons",
@@ -24223,12 +24223,12 @@
           "file": "Best Free Open Source Icon Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "beta",
       "rlSlug": null,
       "priority": "P3",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "humaaans",
@@ -24249,12 +24249,12 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "human-behavior",
@@ -24301,12 +24301,12 @@
           "file": "Learn UI_UX Design_ Courses, Guides & Best Practices.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Reads as a free guide (Humane by Design, Jon Yablonski) but no pricing statement and content is 'All Rights Reserved'; also an article site more than a tool. Owner to decide whether to list.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "humanities",
@@ -24327,12 +24327,12 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "FETCH-FAIL: Gumroad product page is JS-rendered; two fetches returned only the title, so price and license could not be read",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "humbleicons",
@@ -24351,12 +24351,12 @@
           "file": "Best Free Open Source Icon Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "beta",
       "rlSlug": null,
       "priority": "P3",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "hypeauditor",
@@ -24377,12 +24377,12 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Sales-led SaaS: home page pushes demo/contact sales, pricing page showed no plans, free access limited to some features plus demos; only separate free calculators. No confirmed permanent free plan",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "hyperframer",
@@ -24403,12 +24403,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Free browsing is implied but never stated (no pricing text); Terms not read; links to affiliate/paid items (Kothemes). Owner to decide whether a link directory of third-party Framer resources fits",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "hyperframes-studio",
@@ -24429,12 +24429,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Studio page states no pricing or free tier and no separate license for the desktop app (only the HyperFrames repo is Apache-2.0); Windows build 'coming soon'. Free permanence unconfirmed.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "hyperiux-vault",
@@ -24455,12 +24455,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "hypotenuse-ai",
@@ -24533,12 +24533,12 @@
           "file": "Best Free Open Source Icon Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "icon-shelf",
@@ -24559,12 +24559,12 @@
           "file": "Best Free Open Source Icon Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "icon-university",
@@ -24585,12 +24585,12 @@
           "file": "Learn UI_UX Design_ Courses, Guides & Best Practices.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "iconbuddy",
@@ -24609,12 +24609,12 @@
           "file": "Best Free Open Source Icon Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Free tier undocumented: pricing page lists only Pro plans ('Unlock unlimited searches and full plugin access'), so free limits are unknown; per-set icon licenses vary.",
       "pricingBucket": "beta",
       "rlSlug": null,
       "priority": "P3",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "icones",
@@ -24635,12 +24635,12 @@
           "file": "Best Free Open Source Icon Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "iconhub",
@@ -24659,12 +24659,12 @@
           "file": "Best Free Open Source Icon Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Downloads need a login and license terms (on GitHub) were not read; a secondary source (Eagle community) claims caps of 20 icons/project commercial, 50 personal. Listing terms unclear.",
       "pricingBucket": "beta",
       "rlSlug": null,
       "priority": "P3",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "iconic",
@@ -24831,12 +24831,12 @@
           "file": "Best Free Open Source Icon Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "beta",
       "rlSlug": null,
       "priority": "P3",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "icons8",
@@ -24915,12 +24915,12 @@
           "file": "Best Free Open Source Icon Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "FETCH-FAIL: iconscout.com returned HTTP 403 Forbidden to WebFetch on /download, /icons, /pricing and /licenses (bot protection); not bypassed. Retried once.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "iconscout-icons",
@@ -24939,12 +24939,12 @@
           "file": "Best Free Open Source Icon Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "FETCH-FAIL: iconscout.com returned HTTP 403 Forbidden to WebFetch on /download, /icons, /pricing and /licenses (bot protection); not bypassed. Retried once.",
       "pricingBucket": "beta",
       "rlSlug": null,
       "priority": "P3",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "iconscout-illustrations",
@@ -24965,12 +24965,12 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "FETCH-FAIL: iconscout.com returned HTTP 403 Forbidden to WebFetch on /download, /icons, /pricing and /licenses (bot protection); not bypassed. Retried once.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "iconset",
@@ -25039,12 +25039,12 @@
           "file": "Best Free Open Source Icon Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Home page only says 'Quick customizable SVG icons for your project'; no pricing, operator, icon sources or license stated, so free status and licensing cannot be confirmed.",
       "pricingBucket": "beta",
       "rlSlug": null,
       "priority": "P3",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "icoon",
@@ -25117,12 +25117,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "identity-designed",
@@ -25143,12 +25143,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "ideo-blog",
@@ -25195,12 +25195,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Home and /pricing return 403 (read first-party docs instead). Free plan is real (30 credits/week, public generations) but ToS 6.2(E) bars commercial exploitation of the Services, in tension with 2.1 granting output rights; commercial-use answer for free users needs owner decision.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "idmly",
@@ -25273,12 +25273,12 @@
           "file": "Best Design Communities for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Creative jobs board (It's Nice That, London); employers pay GBP 149-299, but job seeker access is free only by inference (no seeker fee seen) and no RL category/tag fits a jobs board.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "ifttt",
@@ -25325,12 +25325,12 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Site shows only an 'Under Maintanance!!..' notice on two fetches; nothing to verify (license, pricing).",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "illustration-kit",
@@ -25351,12 +25351,12 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "illustration-lol",
@@ -25377,12 +25377,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Curated gallery of editorial illustrations by others; page says all copyrights are held by their owners and gives no reuse license, so it is inspiration only and not a free-asset source; pricing not stated.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "illustrations",
@@ -25403,12 +25403,12 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "illustroke",
@@ -25429,12 +25429,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "FETCH-FAIL: illustroke.com returns an empty page (JS app); www host has a TLS certificate mismatch (Firebase cert). Pricing only from third-party aggregators that disagree (free plan vs paid only vs trial tokens). Not bypassed.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "ilus-ai",
@@ -25481,12 +25481,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "image-optim",
@@ -25507,12 +25507,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "imagen3d",
@@ -25587,12 +25587,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "FETCH-FAIL: imgbox.com returned ECONNRESET on two fetches (retried once); could not read home, terms or free-tier limits first-party. Second-hand only: digitool says free, unlimited storage, JPG/GIF/PNG up to 10 MB.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "imovie",
@@ -25639,12 +25639,12 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Brand plans are paid (Starter $30/mo + 2.5% revenue, 30-day free trial only, 12-month contract); no permanent free plan for brands. Free signup for creators/publishers only joins the marketplace.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "impeccable",
@@ -25665,12 +25665,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "impossible-images",
@@ -25717,12 +25717,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Free tier permanence unclear: only 'Create an inbox ... It's free!' is stated; no pricing page (404), no plans, operator not named on home (terms say Delivra Inc.); terms are ad-supported and prohibit copying site content.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "inclusive-design-principles",
@@ -59927,16 +59927,16 @@
     "byStatus": {
       "deferred-trial": 232,
       "deferred-paid": 217,
-      "blocked": 314,
-      "drafted": 306,
-      "rejected": 104,
+      "blocked": 333,
+      "drafted": 326,
+      "rejected": 106,
       "in-rl": 33,
-      "researched": 20,
-      "todo": 1053
+      "researched": 19,
+      "todo": 1013
     },
     "todoByPriority": {
-      "P2": 998,
-      "P3": 54,
+      "P2": 965,
+      "P3": 47,
       "P1": 1
     }
   }
