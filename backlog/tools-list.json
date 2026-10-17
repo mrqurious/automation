@@ -25850,7 +25850,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "ingradients",
       "priority": "P2",
       "hasResearch": true
     },
@@ -25928,7 +25928,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "inspiration-grid",
       "priority": "P2",
       "hasResearch": true
     },
@@ -27157,7 +27157,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "kdenlive",
       "priority": "P2",
       "hasResearch": true
     },
@@ -27369,7 +27369,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "kirki",
       "priority": "P2",
       "hasResearch": true
     },
@@ -27395,7 +27395,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "kisto",
       "priority": "P2",
       "hasResearch": true
     },
@@ -27421,7 +27421,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "kit",
       "priority": "P2",
       "hasResearch": true
     },
@@ -27475,7 +27475,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "kite",
       "priority": "P2",
       "hasResearch": true
     },
@@ -27533,7 +27533,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "kive",
       "priority": "P2",
       "hasResearch": true
     },
@@ -27613,7 +27613,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "klaviyo",
       "priority": "P2",
       "hasResearch": true
     },
@@ -27693,7 +27693,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "koala-ui",
       "priority": "P2",
       "hasResearch": true
     },
@@ -27771,7 +27771,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "kombai",
       "priority": "P2",
       "hasResearch": true
     },
@@ -27823,7 +27823,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "krea",
       "priority": "P2",
       "hasResearch": true
     },
@@ -27875,7 +27875,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "ladybug",
       "priority": "P2",
       "hasResearch": true
     },
@@ -27953,7 +27953,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "landing-love",
       "priority": "P2",
       "hasResearch": true
     },
@@ -27979,7 +27979,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "landing-pages-explained",
       "priority": "P2",
       "hasResearch": true
     },
@@ -28005,7 +28005,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
-      "rlSlug": null,
+      "rlSlug": "landingfolio",
       "priority": "P2",
       "hasResearch": true
     },
@@ -28057,7 +28057,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "landings",
       "priority": "P2",
       "hasResearch": true
     },
@@ -28161,7 +28161,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "laudable-apps",
       "priority": "P2",
       "hasResearch": true
     },
@@ -28213,7 +28213,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "laws-of-ux",
       "priority": "P2",
       "hasResearch": true
     },
@@ -28239,7 +28239,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "layers",
       "priority": "P2",
       "hasResearch": true
     },
@@ -28291,7 +28291,7 @@
       "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
-      "rlSlug": null,
+      "rlSlug": "leadership-folios",
       "priority": "P2",
       "hasResearch": true
     },
@@ -28394,12 +28394,12 @@
           "file": "Best Free Font Libraries and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "leonardo",
@@ -28420,12 +28420,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "FETCH-FAIL: leonardo.ai (home) and leonardo.ai/pricing/ both returned HTTP 403 to WebFetch on two separate attempts (bot check); app.leonardo.ai/pricing returned HTTP 429. Could not read pricing or license first-party.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "leonardo-2",
@@ -28446,12 +28446,12 @@
           "file": "Best Color Tools and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "lessons-of-design",
@@ -28472,12 +28472,12 @@
           "file": "Learn UI_UX Design_ Courses, Guides & Best Practices.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "FETCH-FAIL: lessons.design is JS-rendered; WebFetch returned only the bare <title> tag (\"Lessons of Design\") with no body content, meta tags, or links on two separate attempts, so pricing/license/content could not be confirmed first-party.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "letterbox",
@@ -28498,12 +28498,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "letterform-archive",
@@ -28524,12 +28524,12 @@
           "file": "Best Free Font Libraries and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "libraries-dev",
@@ -28550,12 +28550,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "librestock",
@@ -28576,12 +28576,12 @@
           "file": "Free Stock Images & Video Websites _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "FETCH-FAIL: librestock.com returned HTTP 403 Forbidden on two separate WebFetch attempts (likely bot/anti-scraping protection); could not read the site's own pricing, license or operator info",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "lifestack",
@@ -28604,12 +28604,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "No permanent free plan; only a 7-day trial on the annual plan. Monthly $10/mo (no trial), Annual $50/yr (7-day trial), Lifetime $120 one-time.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "lightmeter",
@@ -28630,12 +28630,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "lightworks",
@@ -28656,12 +28656,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "limora",
@@ -28682,12 +28682,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "No permanent free tier -- only a free trial (\"Start free. Upgrade when you're ready to ship more.\", no credit card required). Paid plans from Starter $29/month (300 credits).",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "lindy",
@@ -28710,12 +28710,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "No permanent free tier: the $50 free credit only lasts 7 days, one-time per account; paid plans start at $49.99/mo per user. Trial, not free.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "line-awesome",
@@ -28734,12 +28734,12 @@
           "file": "Best Free Open Source Icon Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "beta",
       "rlSlug": null,
       "priority": "P3",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "linear",
@@ -28760,12 +28760,12 @@
           "file": "Productivity Tools for Design and Product Teams.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "linear-blog",
@@ -28786,12 +28786,12 @@
           "file": "Best Design Blogs & Magazines for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Not a standalone resource: it is Linear's own company blog/changelog page (\"Now\" — changelog, product launches, team/company updates, press), not a distinct tool, template or content destination. Covered as a note under the linear entry instead of a separate RL listing.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "linearity-curve",
@@ -28812,12 +28812,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Pricing page lists a persistent $0 'Free' plan tier for Curve/Move, but the only stated time limit is on the 2,400 Welcome credits ('valid for 7 days'); neither the pricing page nor FAQ states whether Curve/Move access itself continues free (with usage limits) after credits expire, or converts to a trial. Needs owner call on whether this counts as a permanent free tier.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "linearity-move",
@@ -28838,12 +28838,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Same account/pricing system as Linearity Curve: a persistent $0 'Free' plan is listed, but only the 2,400 Welcome credits are explicitly time-limited (7 days); whether Move itself stays usable for free after that is not stated on the pricing or FAQ pages. Needs owner call, same as linearity-curve.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "lineicons",
@@ -28862,12 +28862,12 @@
           "file": "Best Free Open Source Icon Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "beta",
       "rlSlug": null,
       "priority": "P3",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "lingo",
@@ -28914,12 +28914,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "linkedin",
@@ -28940,12 +28940,12 @@
           "file": "Best Design Communities for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "New tag/type needed: no existing RL tag fits a general professional/social network (closest fits are 'productivity' and 'web'); also unclear whether a mega social platform like LinkedIn fits this directory's design/dev/business niche at all — owner decision needed.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "linkedin-learning",
@@ -28994,12 +28994,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Paid only, no permanent free tier or free trial: one-time packages $29 (60 photos) to $325 (1,500 photos), only a 7-day money-back guarantee. Input label 'Free tier listed' (from Digitool) is not confirmed on the tool's own site.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "linkly",
@@ -29046,12 +29046,12 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "liquid-gooey",
@@ -29072,12 +29072,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "little-visuals",
@@ -29098,12 +29098,12 @@
           "file": "Free Stock Images & Video Websites _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "litur",
@@ -29176,12 +29176,12 @@
           "file": "Productivity Tools for Design and Product Teams.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "livekit-agents-ui",
@@ -29202,12 +29202,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "livesurface",
@@ -29228,12 +29228,12 @@
           "file": "Best Mockup Sites for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Paid only — no permanent free plan found on the home or /plans pages; Pro Monthly $18/month, Pro Yearly $172/year, Pro Studio $172/seat/year, no free trial mentioned either",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "lnk-bio",
@@ -29254,12 +29254,12 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "FETCH-FAIL: WebFetch returned HTTP 403 Forbidden on https://lnk.bio (retried once, both 403)",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "loadmore",
@@ -29280,12 +29280,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "lobehub",
@@ -29306,12 +29306,12 @@
           "file": "Productivity Tools for Design and Product Teams.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "locofy",
@@ -29358,12 +29358,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "logo-system",
@@ -29384,12 +29384,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "logobook",
@@ -29410,12 +29410,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "logofolio",
@@ -29436,12 +29436,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "logoipsum",
@@ -29499,12 +29499,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "FETCH-FAIL: logollama.co and www.logollama.co returned 'Socket is closed' on three separate WebFetch attempts (including one retry after other work); could not read the tool's own pricing or license pages first-party.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "logolounge",
@@ -29525,12 +29525,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Pricing unclear: homepage and join page don't state whether browsing/search is free or paid-membership-only, and the join/pricing pages are JS-rendered and returned no content; terms also restrict showcased logos to personal, non-commercial viewing only.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "loki",
@@ -29551,12 +29551,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "lokuma",
@@ -29577,12 +29577,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "looka",
@@ -29603,12 +29603,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "FETCH-FAIL: looka.com and looka.com/pricing returned HTTP 403 on both the initial fetch and a retry (bot-protected); could not confirm pricing or free-tier status first-party.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "lookback",
@@ -59927,16 +59927,16 @@
     "byStatus": {
       "deferred-trial": 232,
       "deferred-paid": 217,
-      "blocked": 359,
-      "drafted": 365,
-      "rejected": 115,
+      "blocked": 369,
+      "drafted": 386,
+      "rejected": 121,
       "in-rl": 33,
-      "researched": 21,
-      "todo": 937
+      "researched": 24,
+      "todo": 897
     },
     "todoByPriority": {
-      "P2": 893,
-      "P3": 43,
+      "P2": 855,
+      "P3": 41,
       "P1": 1
     }
   }
