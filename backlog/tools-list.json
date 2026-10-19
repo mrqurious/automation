@@ -34707,8 +34707,8 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "moz.com is unreachable via WebFetch on every attempt (home, /, /products, /pricing) — treated as a bot check per the playbook; never bypassed. No first-party page could be read, so the free-tier permanence, license/terms and operator cannot be confirmed. Second-hand sources (costbench.com, growthscribe.com) indicate Moz Pro itself is paid-only (trial, not a permanent free tier) with a few separately-free limited tools (MozBar, capped Keyword Explorer/Link Explorer searches) — this conflicts with the input label \"Freemium\" and needs a first-party check once the site is reachable.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -34759,8 +34759,8 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "mozartai.com is a JS-rendered single-page app: WebFetch on home, /pricing, and /terms returns only the `<title>` tag (\"Mozart AI - AI Song Generator & Music Maker\") with no body content — a JS page returning nothing, per the playbook's blocked case; never bypassed with a headless browser. No first-party pricing, free-tier terms, license, or operator could be read. Third-party sources disagree on the free allowance (App Store listing: 180 signup credits; aimusicpreneur.com: up to 10 songs on signup) and describe it as a one-time signup grant, not confirmed as a permanent free tier.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -34785,7 +34785,7 @@
           "file": "Best Mockup Sites for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -34811,7 +34811,7 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -34839,8 +34839,8 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "No permanent free tier: only a 7-day free trial (no card), then paid plans $5/mo, $50/yr, or $200 lifetime. \"Free tier listed\" (Digitool label) does not match the tool's own pricing page.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -34897,7 +34897,7 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -34949,7 +34949,7 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -34975,8 +34975,8 @@
           "file": "Learn UI_UX Design_ Courses, Guides & Best Practices.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Marketing microsite by Parallel (parallel.ai, an AI web-search/research API company) built around a one-week physical pop-up museum in San Francisco (reported May 8-16); the site has no pricing, license or terms page and only a single thin page (categories + 'enter the museum'), so it does not stand on its own as a tool or resource for the directory.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
@@ -35027,7 +35027,7 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -35079,7 +35079,7 @@
           "file": "Best Design Blogs & Magazines for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -35105,8 +35105,8 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Core product free with a paid Muzli Pro tier, but muz.li Terms of Service require online directory distributors to request approval by email before linking (2-3 week response, Muzli can revoke); owner must decide whether to seek approval or proceed without it before this is listed.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
@@ -35131,8 +35131,8 @@
           "file": "Best Color Tools and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Appears to be a free tool (color palette generator, no paywall on the page) under the same muz.li brand/ToS as muzli-2; the muz.li Terms of Service require online directory distributors to request approval by email before linking — owner must decide whether to seek approval or proceed before this is listed.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
@@ -35157,8 +35157,8 @@
           "file": "Best Design Communities for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "No pricing page found for the Muzli Me showcase; muz.li's ToS mentions an unpriced 'Muzli Pro' subscription and some profiles show unexplained 'PRO' badges — can't confirm the free showcase tier's permanence/limits without owner input.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
@@ -35209,7 +35209,7 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -35296,7 +35296,7 @@
           "file": "Best Free Font Libraries and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -35322,7 +35322,7 @@
           "file": "Best UX Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -35348,7 +35348,7 @@
           "file": "Free Stock Images & Video Websites _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -35400,7 +35400,7 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -35426,7 +35426,7 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -35454,8 +35454,8 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Paid only: Neatify's own homepage pricing section lists a single $31 one-time purchase (\"One-time purchase, no subscriptions\", managed through the Mac App Store); no free tier or trial is mentioned anywhere on the site or in the App Store listing found via search. (The Digitool directory page's \"Free tier listed\" label does not match the tool's own pricing page and is incorrect for this tool.)",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -35480,7 +35480,7 @@
           "file": "Free Stock Images & Video Websites _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -35506,8 +35506,8 @@
           "file": "Best Design Communities for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "drafted",
+      "notes": "Free design-events directory with no visitor fee; independent one-person project",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
@@ -35558,7 +35558,7 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -35584,7 +35584,7 @@
           "file": "Free Stock Images & Video Websites _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -35664,8 +35664,8 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Paid only: no permanent free plan, just a 7-day free trial (no credit card); paid plans run $23-117/mo ($19-97/mo billed yearly).",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -35751,8 +35751,8 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Free tier permanence unclear: pricing page lists a '$0 Free' plan (no credit card) with fixed limits (6 screen previews, 12 viewable search results) alongside paid Solo/Team plans, but the page's own tagline for it is 'Try before you buy', so it is ambiguous whether this is a permanent capped-free tier or just a teaser before conversion.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P1",
@@ -35777,7 +35777,7 @@
           "file": "Best Design Blogs & Magazines for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -35803,8 +35803,8 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "No self-serve free tier: pricing is quote-only (\"Request a quote\"/\"Request a demo\"), billed by storage and team size with no published prices; the only free access is read-only for external viewers added by a paying account, not a standalone free plan for someone signing up. Fails the 'permanent free tier' bar.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -35855,7 +35855,7 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -35881,8 +35881,8 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Figma Community plugin page returns HTTP 403 Forbidden (bot check); cannot read pricing, license/terms, or publisher first-party, and bot checks are never bypassed",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
@@ -35907,7 +35907,7 @@
           "file": "Learn UI_UX Design_ Courses, Guides & Best Practices.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -35959,7 +35959,7 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -35987,8 +35987,8 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Paid-only VPN service; no permanent free tier. Only time-limited trials exist (7-day for new US users on 1-/2-year plans, 3-day via Google Play for first-time Android users) plus a 30-day money-back guarantee on paid plans. 'Free trial' does not count as free per the playbook. Digitool's own label ('Free plan available') is contradicted by independent pricing sources and NordVPN's own home/pricing pages could not be fetched first-party (403 bot check).",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -36100,8 +36100,8 @@
           "file": "Best Design Blogs & Magazines for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Not a standalone tool or resource — notion.com/blog is Notion's company blog ('Tools & Craft'), a content/marketing page, not a product or destination with its own feature set. Notion itself is already in RL as 'notion' and the templates section as 'notion-templates' (rl-index --find notion confirms both, published). A blog index does not meet RL's resource bar and would duplicate the existing Notion listing's domain.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
@@ -36126,7 +36126,7 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -36152,7 +36152,7 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -36178,7 +36178,7 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -36202,7 +36202,7 @@
           "file": "Best Free Open Source Icon Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "beta",
       "rlSlug": null,
@@ -36228,7 +36228,7 @@
           "file": "Free Stock Images & Video Websites _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -36252,8 +36252,8 @@
           "file": "Best Free Open Source Icon Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Core product (Nucleo's 40,000+ SVG icon library) is paid-only: bundles from $69 to $405/$149, no permanent free plan or free tier for the icon sets themselves. The site's separate 'Free Icons' page offers a handful of small open-source SVG sets, but no license terms are stated for them and they are not a free tier of the Nucleo product being described here, so this does not pass the 'free for real' bar.",
       "pricingBucket": "beta",
       "rlSlug": null,
       "priority": "P3",
@@ -36278,8 +36278,8 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Client-rendered SPA (React bundle on Vercel); the actual product — a library of 47 interactive behavioral-science field cards — only exists behind JS execution. Raw HTML/meta and /terms, /privacy, /about, /library all return the same empty SPA shell (same 4117-byte index.html), so features, pricing specifics, and license/terms text cannot be verified without running client JS, which is not permitted.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
@@ -36330,7 +36330,7 @@
           "file": "Best UX Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -36356,7 +36356,7 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -36440,7 +36440,7 @@
           "file": "Best UX Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -36466,7 +36466,7 @@
           "file": "Best Color Tools and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -36492,8 +36492,8 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "AI research lab with 'Try' links to products (Odyssey-3, Agora-2) but no disclosed pricing, free tier, or access terms anywhere on the site; input pricing label is 'Beta' with nothing confirming a permanent free tier or that it's even open access; does not meet the 'free for real' bar.",
       "pricingBucket": "beta",
       "rlSlug": null,
       "priority": "P3",
@@ -36518,7 +36518,7 @@
           "file": "Best Free Font Libraries and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -36544,7 +36544,7 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -36598,7 +36598,7 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -36624,7 +36624,7 @@
           "file": "Best Color Tools and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,

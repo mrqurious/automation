@@ -76025,6 +76025,4097 @@
         "Whether the free offering is permanent or could change without a terms page to rely on"
       ],
       "injectionSeen": null
+    },
+    "moz": {
+      "researchedOn": "2026-10-19",
+      "verdict": "blocked",
+      "verdictReason": "moz.com is unreachable via WebFetch on every attempt (home, /, /products, /pricing) — treated as a bot check per the playbook; never bypassed. No first-party page could be read, so the free-tier permanence, license/terms and operator cannot be confirmed. Second-hand sources (costbench.com, growthscribe.com) indicate Moz Pro itself is paid-only (trial, not a permanent free tier) with a few separately-free limited tools (MozBar, capped Keyword Explorer/Link Explorer searches) — this conflicts with the input label \"Freemium\" and needs a first-party check once the site is reachable.",
+      "site": {
+        "name": "Moz",
+        "url": "https://moz.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://moz.com/pricing",
+          "date": "2026-10-19",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://moz.com/terms",
+          "date": "2026-10-19",
+          "confidence": "not-read"
+        }
+      },
+      "rl": null,
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown signal found; Moz is a long-established SEO brand per search results (pricing-change coverage dated March 2026), but the operator/ownership could not be confirmed first-party."
+      },
+      "sources": [
+        {
+          "url": "https://moz.com",
+          "date": "2026-10-19",
+          "note": "WebFetch failed: \"Claude Code is unable to fetch from moz.com\" (also tried https://moz.com/, https://moz.com/products, https://moz.com/pricing — all failed the same way)"
+        },
+        {
+          "url": "https://costbench.com/software/seo-tools/moz-pro/free-plan/",
+          "date": "2026-10-19",
+          "note": "second-hand: reports Moz Pro has no ongoing free tier, only a trial and separately-free limited tools (MozBar, capped Keyword/Link Explorer)"
+        },
+        {
+          "url": "https://growthscribe.com/moz-seo-pricing/",
+          "date": "2026-10-19",
+          "note": "second-hand: cited paid plan range, conflicts with other sources on exact figures"
+        }
+      ],
+      "unverified": [
+        "Entire site unreachable by WebFetch in this session — pricing, license/terms, operator, and whether the free tools are permanent all unconfirmed first-party",
+        "Paid plan prices conflict across second-hand sources ($39-$239/mo range cited, with one source flagging a likely data error)",
+        "No safety-specific search run beyond the pricing searches (no scam/shutdown signal surfaced incidentally)"
+      ],
+      "injectionSeen": null
+    },
+    "mozart-ai": {
+      "researchedOn": "2026-10-19",
+      "verdict": "blocked",
+      "verdictReason": "mozartai.com is a JS-rendered single-page app: WebFetch on home, /pricing, and /terms returns only the `<title>` tag (\"Mozart AI - AI Song Generator & Music Maker\") with no body content — a JS page returning nothing, per the playbook's blocked case; never bypassed with a headless browser. No first-party pricing, free-tier terms, license, or operator could be read. Third-party sources disagree on the free allowance (App Store listing: 180 signup credits; aimusicpreneur.com: up to 10 songs on signup) and describe it as a one-time signup grant, not confirmed as a permanent free tier.",
+      "site": {
+        "name": "Mozart AI",
+        "url": "https://mozartai.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://mozartai.com/pricing",
+          "date": "2026-10-19",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://mozartai.com/terms",
+          "date": "2026-10-19",
+          "confidence": "not-read"
+        }
+      },
+      "rl": null,
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown signal in search results; product appears active (App Store listing, several third-party AI-tool comparison sites), but no dedicated safety search run and operator not confirmed first-party."
+      },
+      "sources": [
+        {
+          "url": "https://mozartai.com",
+          "date": "2026-10-19",
+          "note": "WebFetch returned only the page `<title>`, no body text (also tried https://mozartai.com/, /pricing, /terms — same empty result, JS-rendered SPA)"
+        },
+        {
+          "url": "https://apps.apple.com/us/app/id6758667169",
+          "date": "2026-10-19",
+          "note": "second-hand (App Store listing): free plan described as 180 signup credits for song creation, commercial-use rights, free downloads of generated tracks"
+        },
+        {
+          "url": "https://www.aimusicpreneur.com/ai-tools/mozart-ai/",
+          "date": "2026-10-19",
+          "note": "second-hand: describes free allowance as \"up to 10 songs on signup\" plus paid tiers Creator/Pro/Premium ($10/$20/$35 per month) — conflicts with the App Store's 180-credit figure"
+        }
+      ],
+      "unverified": [
+        "Home, pricing and terms pages all returned no readable content (JS SPA) — free tier permanence, exact credit/song limits, license/terms, and operator all unconfirmed first-party",
+        "Free allowance figure conflicts across second-hand sources (180 credits vs. 10 songs)",
+        "Whether the free credits are a one-time signup bonus or a recurring monthly allowance is unclear from any source read"
+      ],
+      "injectionSeen": null
+    },
+    "mr-mockup": {
+      "researchedOn": "2026-10-19",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Mr.Mockup",
+        "url": "https://mrmockup.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "A dedicated Free Mockups section (stationery, packaging, apparel, devices, signage, food/cargo trucks, etc.) usable under the site's Freebies license, no sign-in required",
+        "paidFrom": "Single premium PSD mockups from $10; premium collections $19-$49; a discounted mockup bundle shown at $359",
+        "evidence": {
+          "url": "https://mrmockup.com",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Mr.Mockup Freebies License (proprietary, not open source) · commercial: yes, personal and commercial projects · attribution: not required · limit: no reselling/redistributing the files (as-is, modified, or bundled), no sharing as stock or inside a template/tool",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://mrmockup.com/licenses/",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "mr-mockup",
+        "type": "Template",
+        "category": "Design",
+        "title": "Mr.Mockup",
+        "description": "Free and premium PSD mockup templates for packaging, apparel, devices and more, royalty-free for personal and commercial projects.",
+        "tags": [
+          "design-templates",
+          "graphic-design",
+          "royalty-free"
+        ],
+        "relatedResources": [
+          "figma-community",
+          "canva-templates"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Free mockup section covering stationery, packaging, apparel, devices, signage and trucks",
+          "Premium PSD mockups and curated collections across many product categories",
+          "Royalty-free license for personal and commercial use, no attribution required",
+          "Custom mockup design available on request",
+          "Also sells font bundles and other graphic resources"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-19 (no exact match)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition results; only unrelated hits (e.g. unrelated scareware cases) and the brand's own Dribbble profile"
+      },
+      "sources": [
+        {
+          "url": "https://mrmockup.com",
+          "date": "2026-10-19",
+          "note": "site description, free vs premium categories, pricing examples, no named operator"
+        },
+        {
+          "url": "https://mrmockup.com/licenses/",
+          "date": "2026-10-19",
+          "note": "Freebies license: commercial use yes, attribution not required, resale/redistribution restricted"
+        }
+      ],
+      "unverified": [
+        "legal operator/company name behind the brand not stated on site",
+        "exact list of items in the free mockup categories not enumerated",
+        "Terms & Privacy page not read"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/mr-mockup.md",
+        "lint": "pass"
+      }
+    },
+    "mui-material-ui": {
+      "researchedOn": "2026-10-19",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "MUI",
+        "url": "https://mui.com",
+        "alive": true,
+        "operator": "Material UI SAS (MUI)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "MUI Core (Material UI, Base UI, Joy UI, MUI System) is free forever/open source; MUI X Community tier (40+ components) is also free",
+        "paidFrom": "MUI X Pro $299/year per developer; Premium $599/year; Enterprise $1,399/year (15+ seats)",
+        "evidence": {
+          "url": "https://mui.com/pricing/",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT (MUI Core, e.g. @mui/material, @mui/x-data-grid) · commercial: yes · attribution: not required beyond standard MIT notice · limit: MUI X Pro/Premium packages (e.g. @mui/x-data-grid-pro) are under a separate commercial license, not MIT",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://mui.com/pricing/",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "mui",
+        "type": "Library",
+        "category": "Development",
+        "title": "MUI (Material UI)",
+        "description": "Open-source React component library implementing Google's Material Design, with paid MUI X add-ons for advanced data grids, charts and pickers.",
+        "tags": [
+          "ui-ux",
+          "design-systems",
+          "open-source",
+          "web"
+        ],
+        "relatedResources": [
+          "figma",
+          "webflow"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "MIT-licensed Material UI, Base UI, Joy UI and MUI System core libraries, free forever",
+          "Theming and customization system for building custom design systems in React",
+          "MUI X advanced components (data grid, charts, date pickers) with a free Community tier",
+          "Prebuilt application templates and design kits for design tools",
+          "Accessibility-focused components and extensive documentation"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "mui",
+          "fillColor": "#007FFF",
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-19"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/shutdown/acquisition hits for the MUI project/company; search only surfaced unrelated malicious npm typosquat packages (e.g. material-ui-plugin-cache-endpoint, mui-wrapper-core) impersonating MUI package names, not the official @mui/* packages or mui.com"
+      },
+      "sources": [
+        {
+          "url": "https://mui.com",
+          "date": "2026-10-19",
+          "note": "product overview, MUI Core vs MUI X, operator name in copyright line"
+        },
+        {
+          "url": "https://mui.com/pricing/",
+          "date": "2026-10-19",
+          "note": "exact MUI X tier prices and confirmation MUI Core/Community is free and MIT-licensed"
+        }
+      ],
+      "unverified": [
+        "per-feature breakdown by MUI X tier (table formatting lost in fetch)",
+        "whether 'Perpetual' pricing option differs from the annual price shown",
+        "full license page for each individual @mui/x-* package not read"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/mui.md",
+        "lint": "pass"
+      }
+    },
+    "multical": {
+      "researchedOn": "2026-10-19",
+      "verdict": "skip",
+      "verdictReason": "No permanent free tier: only a 7-day free trial (no card), then paid plans $5/mo, $50/yr, or $200 lifetime. \"Free tier listed\" (Digitool label) does not match the tool's own pricing page.",
+      "site": {
+        "name": "Multical",
+        "url": "https://usemultical.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "$5/mo monthly, $50/yr annual, or $200 one-time lifetime; all after a 7-day free trial",
+        "evidence": {
+          "url": "https://usemultical.com",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": null,
+          "date": null,
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/multical/",
+          "date": "2026-10-19",
+          "note": "directory listing; gave the tool's own site link and Digitool's own pricing label (Paid, differs from the input's Digitool-sourced \"Free tier listed\")"
+        },
+        {
+          "url": "https://usemultical.com",
+          "date": "2026-10-19",
+          "note": "home/pricing: 7-day free trial only, then $5/mo, $50/yr, or $200 lifetime; no named legal operator, only a founder testimonial"
+        }
+      ],
+      "unverified": [
+        "No dedicated license/terms page read (trial/paid-only verdict made Tier B unnecessary)",
+        "No safety search run (trial/paid-only verdict made it unnecessary)",
+        "Operator not confirmed as a registered company; only a user testimonial (\"I made Multical\" — Taylor Elyse Morrison) and a copyright line with no legal entity name"
+      ],
+      "injectionSeen": null
+    },
+    "murf": {
+      "researchedOn": "2026-10-19",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Murf AI",
+        "url": "https://murf.ai",
+        "alive": true,
+        "operator": "Murf AI (San Francisco, California, USA)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan: basic features and 10 minutes of total voice generation; no commercial license on this plan (per Murf's own FAQ)",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://murf.ai",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Murf Terms of Service (proprietary) · commercial: yes on paid plans, no on the free plan (per Murf's own FAQ) · attribution: not required · limit: no reselling Murf voices, no using Murf-created voices to train AI models, no \"Murf\" name/logo in a business name without written consent",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://murf.ai/resources/terms_of_service",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "murf",
+        "type": "AI Tool",
+        "category": "Productivity",
+        "title": "Murf AI",
+        "description": "AI voice platform for text-to-speech voiceovers, real-time voice agents, and video dubbing, with a limited free plan to try it.",
+        "tags": [
+          "ai-tool",
+          "productivity"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Murf Studio for turning text into voiceovers with AI voices",
+          "Falcon 2 low-latency text-to-speech model for real-time voice agents",
+          "Gen2 model for more controllable AI voiceovers",
+          "AI Dubbing to translate video and audio into other languages",
+          "Pay-as-you-go API access billed per minute of audio generated"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-19 — no exact match (closest fuzzy hits: F#, R, both unrelated)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition hits in a web search run 2026-10-19 (\"murf\" scam OR malware OR \"shutting down\" OR acquired)"
+      },
+      "sources": [
+        {
+          "url": "https://murf.ai",
+          "date": "2026-10-19",
+          "note": "product description (Studio, Falcon 2, Gen2, AI Dubbing), free plan limits (10 min, no commercial license), operator address"
+        },
+        {
+          "url": "https://murf.ai/resources/terms_of_service",
+          "date": "2026-10-19",
+          "note": "commercial-use grant (5.1), resale/AI-training/logo restrictions (5.1, 11.2.7), free-plan service-change clause (6.2), YouTube monetization disclaimer (6.3)"
+        },
+        {
+          "url": "https://get.murf.ai/8sinergeb96l",
+          "date": "2026-10-19",
+          "note": "input site URL; confirmed as an affiliate/partner redirect to murf.ai (tracking params present: ps_partner_key, ps_xid, gsxid, gspk) — canonical URL used instead"
+        }
+      ],
+      "unverified": [
+        "Exact paid-plan prices: murf.ai/pricing is JS-rendered and returned no content on fetch; third-party sources (e.g. smallest.ai, pricingsaas.com) give conflicting figures (~$19-29/mo Creator tier, $66-99/mo Business tier) so no price is reported here as first-party",
+        "Section 5.1 of the ToS grants commercial use broadly without an explicit plan carve-out, while the homepage FAQ says the free plan has no commercial license — the two were not reconciled; the FAQ (plan-specific) is used for the free-tier line",
+        "Whether API, Dubbing, or Falcon are distinct nav destinations that merit sibling RL entries was not checked",
+        "No RL tag exists for text-to-speech/voice AI specifically; closest existing tags used (ai-tool, productivity) — a dedicated tag may be worth asking the owner about"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/murf.md",
+        "lint": "pass"
+      }
+    },
+    "museo": {
+      "researchedOn": "2026-10-19",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Museo",
+        "url": "https://museo.app",
+        "alive": true,
+        "operator": "Chase McCoy (independent developer)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Free visual/keyword search across public-domain collections from eleven museums and libraries; no sign-in or account required",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://museo.app",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No unified license on museo.app itself · commercial: depends on the source institution · attribution: recommended, not required · limit: licensing varies by institution (site says images are \"typically free to use, but please check with the source institution\")",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://github.com/chasemccoy/museo",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "museo",
+        "type": "Stock Media",
+        "category": "Photography",
+        "title": "Museo",
+        "description": "Free visual search engine for public-domain images from eleven museums and libraries, including the Met, Rijksmuseum and Smithsonian.",
+        "tags": [
+          "stock-photos",
+          "royalty-free"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "pexels",
+          "pixabay",
+          "unsplash"
+        ],
+        "keyFeatures": [
+          "Searches public-domain collections from eleven institutions at once, including the Met, Rijksmuseum and Smithsonian",
+          "Simple keyword search, no sign-in or account required",
+          "Code is open on GitHub (chasemccoy/museo)",
+          "Each result links back to the source institution's own record and usage terms"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-19 (no exact or usable fuzzy match)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown hits in search; GitHub repo active with 109 stars, 63 commits, 10 forks"
+      },
+      "sources": [
+        {
+          "url": "https://museo.app",
+          "date": "2026-10-19",
+          "note": "what it is, who built it, free/no-signin, licensing note"
+        },
+        {
+          "url": "https://github.com/chasemccoy/museo",
+          "date": "2026-10-19",
+          "note": "README description, source list, no visible LICENSE file, repo activity (stars/commits/forks)"
+        }
+      ],
+      "unverified": [
+        "GitHub repo has no visible LICENSE file — open-source status of the code itself is unconfirmed",
+        "Per-institution licensing/usage terms were not individually verified for all eleven sources",
+        "Commit recency (dates) not shown in the fetched GitHub view, so current maintenance activity is unconfirmed"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/museo.md",
+        "lint": "pass"
+      }
+    },
+    "museum-of-the-human-web": {
+      "researchedOn": "2026-10-19",
+      "verdict": "skip",
+      "verdictReason": "Marketing microsite by Parallel (parallel.ai, an AI web-search/research API company) built around a one-week physical pop-up museum in San Francisco (reported May 8-16); the site has no pricing, license or terms page and only a single thin page (categories + 'enter the museum'), so it does not stand on its own as a tool or resource for the directory.",
+      "site": {
+        "name": "Museum of the Human Web",
+        "url": "https://museum.parallel.ai",
+        "alive": true,
+        "operator": "Parallel (parallel.ai)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "No cost, sign-in, or paywall found on the microsite itself; it is a browsable digital archive page, not a product with plans",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://museum.parallel.ai",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "license": null,
+      "sources": [
+        {
+          "url": "https://museum.parallel.ai",
+          "date": "2026-10-19",
+          "note": "page content: pitch, exhibit categories (HTML, The Social Web, Skeuomorphism, Modern), artifact sweepstakes mention, no operator/terms/pricing stated"
+        },
+        {
+          "url": "https://parallel.ai",
+          "date": "2026-10-19",
+          "note": "confirms Parallel is a real company (web search/research APIs for AI agents); does not mention the Museum of the Human Web anywhere on the main site"
+        }
+      ],
+      "unverified": [
+        "Whether the physical pop-up (reported May 8-16 in San Francisco) is still running or has concluded",
+        "Whether the digital microsite will stay live long-term or was a temporary campaign page",
+        "No license/terms page exists on the microsite to confirm commercial-use or redistribution limits",
+        "Operator confirmed only as 'A Parallel experience' on-page; not formally tied to parallel.ai's legal entity on that page itself"
+      ],
+      "injectionSeen": null
+    },
+    "mutiny": {
+      "researchedOn": "2026-10-19",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Mutiny",
+        "url": "https://www.mutinyhq.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan, $0/month: up to 5 team members, 5 credits/day (up to 30/month) per seat, 5 templates, 5 routines and 5 projects per user, asset analytics; unlimited integrations last only 30 days",
+        "paidFrom": "Business $50/month (50 credits/month, unlimited team members/templates/skills/integrations); Enterprise starting at $40,000/year",
+        "evidence": {
+          "url": "https://www.mutinyhq.com/pricing",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS Terms of Service · commercial: internal business use only (no resale/sublicensing/distribution of access) · attribution: not required · limit: no building a competing product or benchmarking the service",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.mutinyhq.com/terms",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "mutiny",
+        "type": "AI Tool",
+        "category": "Business",
+        "title": "Mutiny",
+        "description": "AI sales assistant that turns calls, email, and CRM data into buyer-ready decks, deal rooms, and case studies, with a limited free plan.",
+        "tags": [
+          "ai-tool",
+          "automation"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Generates decks, deal rooms, and business cases from calls, email, and CRM data",
+          "Call prep and follow-up assistance",
+          "Contact-level engagement analytics",
+          "Prebuilt sales playbooks",
+          "Integrates with Slack, Claude, email, calendar, docs, call recording, and CRM tools"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-19 (not found)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "A competitor's blog (Abmatic AI, citing an April 2026 Forbes report) says Mutiny ended its earlier website-personalization product in April 2026 and relaunched as this AI sales-content agent; single, self-interested source, unverified. No scam/malware/shutdown hits otherwise."
+      },
+      "sources": [
+        {
+          "url": "https://www.mutinyhq.com",
+          "date": "2026-10-19",
+          "note": "product description, Start for free CTA"
+        },
+        {
+          "url": "https://www.mutinyhq.com/pricing",
+          "date": "2026-10-19",
+          "note": "Free/Business/Enterprise plan details"
+        },
+        {
+          "url": "https://www.mutinyhq.com/terms",
+          "date": "2026-10-19",
+          "note": "commercial-use, resale/sublicensing, and listing-related terms"
+        },
+        {
+          "url": "https://abmatic.ai/blog/mutiny-contract-terminated-what-to-do-now",
+          "date": "2026-10-19",
+          "note": "third-party (competitor) claim about Mutiny's April 2026 pivot, citing Forbes; unverified"
+        }
+      ],
+      "unverified": [
+        "Legal operator/company name (footer shows only \"Mutiny 2026\")",
+        "Whether the Free plan's $0 tier is permanent vs. subject to change (pricing page does not say explicitly)",
+        "The April 2026 product-pivot story (single competitor source, not confirmed on Mutiny's own site)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/mutiny.md",
+        "lint": "pass"
+      }
+    },
+    "muzli": {
+      "researchedOn": "2026-10-19",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Muzli",
+        "url": "https://muz.li",
+        "alive": true,
+        "operator": "Muzli X ltd."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Core experience free: new-tab design inspiration feed, daily picks, source/category/layout customization, web search, saved links and shortcuts",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://muz.li/faq/",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary hosted service/extension · commercial: not applicable (no source available) · attribution: not required · limit: Pro features gated behind a paid upgrade",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://muz.li/faq/",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "muzli",
+        "type": "Extension",
+        "category": "Design",
+        "title": "Muzli",
+        "description": "Browser new-tab extension that curates daily design inspiration from galleries, blogs, and communities; free, with an optional ad-free Pro upgrade.",
+        "tags": [
+          "inspiration",
+          "extensions"
+        ],
+        "relatedResources": [
+          "awwwards",
+          "behance",
+          "dribbble"
+        ],
+        "similarResources": [
+          "awwwards",
+          "behance",
+          "dribbble"
+        ],
+        "keyFeatures": [
+          "Replaces the new tab with a curated design inspiration feed",
+          "Pulls from Dribbble, Behance, Awwwards, Design Milk, and other sources",
+          "Daily editorial picks",
+          "Customizable categories, sources, and layout",
+          "Muzli Pro adds an ad-free feed, deeper customization, premium collections, and web.muz.li browser access"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-19 (not found)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown hits for muz.li itself; an unrelated 2022 npm package named 'muzli-extension' was flagged as malicious, but it is not confirmed to be connected to this product."
+      },
+      "sources": [
+        {
+          "url": "https://muz.li",
+          "date": "2026-10-19",
+          "note": "site is blocked for medium.muz.li subdomain (403); fetched the root domain instead for description and operator"
+        },
+        {
+          "url": "https://muz.li/faq/",
+          "date": "2026-10-19",
+          "note": "free-vs-Pro feature breakdown, operator copyright line"
+        },
+        {
+          "url": "https://muz.li/pro",
+          "date": "2026-10-19",
+          "note": "Pro upgrade page; no price listed"
+        }
+      ],
+      "unverified": [
+        "Muzli Pro's exact price (upgrade page lists no figure)",
+        "medium.muz.li (the directory's listed site URL) returned HTTP 403; used muz.li root domain instead",
+        "Whether muz.li is still the correct canonical URL vs. a dedicated product page"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/muzli.md",
+        "lint": "pass"
+      }
+    },
+    "muzli-2": {
+      "researchedOn": "2026-10-19",
+      "verdict": "needs-owner",
+      "verdictReason": "Core product free with a paid Muzli Pro tier, but muz.li Terms of Service require online directory distributors to request approval by email before linking (2-3 week response, Muzli can revoke); owner must decide whether to seek approval or proceed without it before this is listed.",
+      "site": {
+        "name": "Muzli Search",
+        "url": "https://search.muz.li",
+        "alive": true,
+        "operator": "Muzli X ltd."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Search page and the core Muzli inspiration feed/new-tab experience are free; exact search-specific limits not stated on the page itself",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://muz.li/faq/",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Muzli X ltd. proprietary · commercial: not addressed · attribution: not required · limit: no republishing/reselling/sub-licensing of site material; directory listings require prior written approval via email request",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://muz.li/terms/",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown hits; third-party startup databases claim an InVision acquisition circa 2015, but the live site (© 2026 Muzli X ltd., active product pages) contradicts this — unverified, treat as outdated aggregator data"
+      },
+      "sources": [
+        {
+          "url": "https://search.muz.li",
+          "date": "2026-10-19",
+          "note": "page shows only 'Search by Muzli', no pricing/terms visible on page itself"
+        },
+        {
+          "url": "https://muz.li",
+          "date": "2026-10-19",
+          "note": "parent brand, operator name (Muzli X ltd.), product list including Search, links to terms/privacy"
+        },
+        {
+          "url": "https://muz.li/faq/",
+          "date": "2026-10-19",
+          "note": "core experience free, Muzli Pro is a paid upgrade, no prices listed"
+        },
+        {
+          "url": "https://muz.li/terms/",
+          "date": "2026-10-19",
+          "note": "IP/license and linking policy, incl. directory-distributor approval requirement"
+        }
+      ],
+      "unverified": [
+        "whether search.muz.li itself (vs. the browser extension/new-tab feed) is fully free or gated behind Muzli Pro",
+        "InVision acquisition claim (third-party startup databases only, contradicted by live 2026 site copyright)",
+        "exact usage limits of the free tier",
+        "whether owner wants to request directory-linking approval per ToS before a PR is opened"
+      ],
+      "injectionSeen": null
+    },
+    "muzli-colors": {
+      "researchedOn": "2026-10-19",
+      "verdict": "needs-owner",
+      "verdictReason": "Appears to be a free tool (color palette generator, no paywall on the page) under the same muz.li brand/ToS as muzli-2; the muz.li Terms of Service require online directory distributors to request approval by email before linking — owner must decide whether to seek approval or proceed before this is listed.",
+      "site": {
+        "name": "Muzli Colors",
+        "url": "https://colors.muz.li",
+        "alive": true,
+        "operator": "Muzli X ltd."
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Color palette generator page is usable with no sign-in or payment prompt visible; page has a 'Get Muzli' button pointing to the main product but no pricing gate on the color tool itself",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://colors.muz.li",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Muzli X ltd. proprietary · commercial: not addressed · attribution: not required · limit: no republishing/reselling/sub-licensing of site material; directory listings require prior written approval via email request",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://muz.li/terms/",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown hits; same brand as muzli-2, see that entry's note on an unverified/outdated third-party acquisition claim"
+      },
+      "sources": [
+        {
+          "url": "https://colors.muz.li",
+          "date": "2026-10-19",
+          "note": "palette generator page, no pricing section, links back to muz.li"
+        },
+        {
+          "url": "https://muz.li",
+          "date": "2026-10-19",
+          "note": "parent brand, operator name (Muzli X ltd.), product list including Colors, links to terms/privacy"
+        },
+        {
+          "url": "https://muz.li/terms/",
+          "date": "2026-10-19",
+          "note": "IP/license and linking policy, incl. directory-distributor approval requirement, shared across muz.li subdomains"
+        }
+      ],
+      "unverified": [
+        "whether colors.muz.li is fully separate from Muzli Pro gating or could be restricted later",
+        "no dedicated pricing page for this specific sub-tool",
+        "whether owner wants to request directory-linking approval per ToS before a PR is opened"
+      ],
+      "injectionSeen": null
+    },
+    "muzli-me": {
+      "researchedOn": "2026-10-19",
+      "verdict": "needs-owner",
+      "verdictReason": "No pricing page found for the Muzli Me showcase; muz.li's ToS mentions an unpriced 'Muzli Pro' subscription and some profiles show unexplained 'PRO' badges — can't confirm the free showcase tier's permanence/limits without owner input.",
+      "site": {
+        "name": "Muzli Me",
+        "url": "https://me.muz.li",
+        "alive": true,
+        "operator": "Muzli X ltd. (per muz.li about-page footer, found via search snippet, not directly fetched)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Create a profile, add/nominate work (websites, shots, social posts, articles, resources) to a community feed — no price shown anywhere on the site for this",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://me.muz.li",
+          "date": "2026-10-19",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "Muzli Terms of Service · commercial: not specified · attribution: logo/trademark use requires a license agreement · limit: directory links are permitted ('online directory distributors may link... in the same manner as... other listed businesses') but Muzli reserves the right to request removal of any link",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://muz.li/terms/",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "muzli-me",
+        "type": "Website",
+        "category": "Design",
+        "title": "Muzli Me",
+        "description": "A showcase platform where designers create a profile to share websites, shots, social posts, articles and resources in one community feed.",
+        "tags": [
+          "inspiration",
+          "visual-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Create a profile to showcase websites, shots, social posts, articles and resources in one feed",
+          "Browse a community feed of other designers' nominated work",
+          "Companion to the Muzli browser extension (curated design news/inspiration in new tab)",
+          "Some profiles display a 'PRO' badge whose criteria/price are not publicly documented"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "scripts/check-icon.mjs, 2026-10-19 — no exact Simple Icons match for 'Muzli Me'"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown hits for Muzli Me specifically. An unrelated malicious npm package named 'muzli-extension' was flagged in 2022 (OSV MAL-2022-4740) — a different artifact, not this product, noted only for caution."
+      },
+      "sources": [
+        {
+          "url": "https://me.muz.li",
+          "date": "2026-10-19",
+          "note": "product description (design showcase feed); no pricing shown"
+        },
+        {
+          "url": "https://me.muz.li/join",
+          "date": "2026-10-19",
+          "note": "signup call-to-action page; no pricing mentioned"
+        },
+        {
+          "url": "https://muz.li/about/",
+          "date": "2026-10-19",
+          "note": "operator/relationship info (partial fetch, truncated); nav lists Muzli (extension) and Muzli Me as separate items"
+        },
+        {
+          "url": "https://muz.li/terms/",
+          "date": "2026-10-19",
+          "note": "ToS: mentions unpriced 'Muzli Pro' subscription, Lemon Squeezy billing, linking/listing policy"
+        }
+      ],
+      "unverified": [
+        "exact legal operator name not confirmed from a first-party page fetch (only via search snippet of the about page)",
+        "Muzli Pro price/plan details not found on any fetched page",
+        "meaning/cost of the 'PRO' badge shown on some Muzli Me profiles",
+        "whether Muzli Me itself has any paid tier distinct from the muz.li extension's 'Muzli Pro'"
+      ],
+      "injectionSeen": null
+    },
+    "mylens": {
+      "researchedOn": "2026-10-19",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "MyLens AI",
+        "url": "https://mylens.ai",
+        "alive": true,
+        "operator": "MyLens AI (per site footer; no further legal entity detail found)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan ($0): 15 AI credits/month, 10K source limit; free-plan 'Public Stories' are indexed by Google",
+        "paidFrom": "Pro plan $12/month per member, billed yearly at $144/member (also Premium $24/mo and Business $120/mo tiers)",
+        "evidence": {
+          "url": "https://mylens.ai/pricing",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS Terms of Use · commercial use: not explicitly addressed · attribution: not required · limit: \"No copying, changing, or making spin-offs without our say-so\"",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://mylens.ai/terms-of-use",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "mylens",
+        "type": "AI Tool",
+        "category": "Productivity",
+        "title": "MyLens AI",
+        "description": "AI tool that turns documents, videos and other content into interactive visual presentations, with a live AI presenter personalizing each viewer's session.",
+        "tags": [
+          "ai-tool",
+          "productivity"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Converts documents, slides, videos and other sources into interactive visual presentations",
+          "AI presenter delivers a live, personalized walkthrough to each viewer",
+          "Free plan: 15 AI credits/month and a 10K source limit",
+          "Free-plan public 'Stories' are indexed by Google",
+          "Trust Center states content is 'never used to train AI models'"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "scripts/check-icon.mjs, 2026-10-19 — no exact Simple Icons match for 'MyLens'"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition hits for MyLens. Search surfaced only unrelated similarly-named products (QuickLens Chrome-extension malware incident, Microsoft Lens app shutdown) — different products, not MyLens AI."
+      },
+      "sources": [
+        {
+          "url": "https://mylens.ai",
+          "date": "2026-10-19",
+          "note": "product description (AI presenter / interactive presentations)"
+        },
+        {
+          "url": "https://mylens.ai/pricing",
+          "date": "2026-10-19",
+          "note": "Free/Pro/Premium/Business plan prices and free-tier limits"
+        },
+        {
+          "url": "https://mylens.ai/terms-of-use",
+          "date": "2026-10-19",
+          "note": "ToS: no directory-listing restriction found; copying/derivatives restriction quoted"
+        }
+      ],
+      "unverified": [
+        "operator's full legal entity name/incorporation not confirmed beyond 'MyLens AI' site footer",
+        "no dedicated safety search beyond general web search (no scam/malware hits found for this product)",
+        "Trust Center (/trust) page not read in full"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/mylens.md",
+        "lint": "pass"
+      }
+    },
+    "nabla": {
+      "researchedOn": "2026-10-19",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Nabla",
+        "url": "https://nabla.typearture.com",
+        "alive": true,
+        "operator": "Typearture (Arthur Reinders Folmer)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Fully free and open source color font; download from Google Fonts or GitHub, no account or payment",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://nabla.typearture.com",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "SIL Open Font License 1.1 · commercial: yes · attribution: not required in use (only if font itself is redistributed, reserved font name rules apply) · limit: font software cannot be sold by itself",
+        "openSource": true,
+        "spdx": "OFL-1.1",
+        "evidence": {
+          "url": "https://nabla.typearture.com",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "nabla",
+        "type": "Font",
+        "category": "Design",
+        "title": "Nabla",
+        "description": "Free, open source isometric color font using the COLRv1 format, with an in-browser customizer for depth, highlight and palette.",
+        "tags": [
+          "typography",
+          "open-source",
+          "graphic-design"
+        ],
+        "relatedResources": [
+          "google-fonts",
+          "fontpair"
+        ],
+        "similarResources": [
+          "google-fonts"
+        ],
+        "keyFeatures": [
+          "Isometric color font built on the COLRv1 color-font format",
+          "Free download via Google Fonts or GitHub source",
+          "In-browser customizer for size, line height, depth, highlight and color palette",
+          "Licensed under the SIL Open Font License 1.1",
+          "Currently renders correctly only in Chrome (COLRv1 support)"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact Simple Icons match (scripts/check-icon.mjs, 2026-10-19)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown hits; unrelated results only (2026-10-19 search)"
+      },
+      "sources": [
+        {
+          "url": "https://nabla.typearture.com",
+          "date": "2026-10-19",
+          "note": "Product description, pricing/license statement ('open source and free to use', OFL 1.1), operator (Typearture / Arthur Reinders Folmer), nav sections, Chrome-only note"
+        }
+      ],
+      "unverified": [
+        "Exact OFL reserved-font-name clause text (page links to OFL but full license text not read in full)",
+        "GitHub repository activity/last-commit date not checked"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/nabla.md",
+        "lint": "pass"
+      }
+    },
+    "napkin": {
+      "researchedOn": "2026-10-19",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Napkin",
+        "url": "https://www.napkin.ai",
+        "alive": true,
+        "operator": "Napkin AI"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Forever-free plan: 500 AI credits weekly, unlimited visual editing, unlimited file imports, unlimited PNG/PDF exports, built-in styles/fonts and standard icons; Napkin branding shown on visuals",
+        "paidFrom": "Plus plan $9 per person/month (10,000 AI credits/month, PPT/SVG export, no branding); Pro plan $22 per person/month",
+        "evidence": {
+          "url": "https://www.napkin.ai/pricing",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS, no open-source license · commercial use: not confirmed from pricing/home pages · attribution: not stated",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.napkin.ai",
+          "date": "2026-10-19",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "napkin",
+        "type": "AI Tool",
+        "category": "Design",
+        "title": "Napkin",
+        "description": "AI tool that turns written text into diagrams, flowcharts, mind maps and infographics, with a free weekly-credit plan and paid tiers for more exports.",
+        "tags": [
+          "ai-tool",
+          "visual-design",
+          "graphic-design"
+        ],
+        "relatedResources": [
+          "canva",
+          "figma"
+        ],
+        "similarResources": [
+          "canva"
+        ],
+        "keyFeatures": [
+          "Turns pasted or typed text into diagrams, flowcharts, mind maps and infographics",
+          "Napkin Slides builds full presentation decks from text",
+          "Free plan gives 500 AI credits weekly with unlimited editing and PNG/PDF export",
+          "Paid Plus/Pro plans add PPT and SVG export, custom branding and more monthly credits",
+          "Built-in styles, fonts and icon sets for generated visuals"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact Simple Icons match (scripts/check-icon.mjs, 2026-10-19)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown hits; one third-party scanner gave a 100/100 trust score (gridinsoft.com, scan date unstated, 2026-10-19 search); one blog speculated Napkin could be an acquisition target after a $10M seed round, not a reported deal"
+      },
+      "sources": [
+        {
+          "url": "https://www.napkin.ai",
+          "date": "2026-10-19",
+          "note": "Product description (text-to-visual, Napkin Slides), freemium model summary, use cases"
+        },
+        {
+          "url": "https://www.napkin.ai/pricing",
+          "date": "2026-10-19",
+          "note": "Exact Free/Plus/Pro plan prices and inclusions"
+        }
+      ],
+      "unverified": [
+        "Terms of service / commercial-use clause not read (no dedicated license/ToS page fetched)",
+        "Annual billing prices (page states a 25% discount but does not publish the annual figures)",
+        "Legal entity name behind 'Napkin AI'"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/napkin.md",
+        "lint": "pass"
+      }
+    },
+    "nappy": {
+      "researchedOn": "2026-10-19",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Nappy",
+        "url": "https://www.nappy.co",
+        "alive": true,
+        "operator": "SHADE (with Chery Maids and Boogie Brands, per site footer)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All photos free to download and use under CC0; a 'Studio' section exists for paid brand/custom photography work, but the photo library itself carries no price",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.nappy.co/license",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Creative Commons Zero (CC0) · commercial: yes · attribution: not required (credit appreciated but optional) · limit: no reposting on other stock-photo sites and no unmodified resale",
+        "openSource": false,
+        "spdx": "CC0-1.0",
+        "evidence": {
+          "url": "https://www.nappy.co/license",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "nappy",
+        "type": "Stock Media",
+        "category": "Photography",
+        "title": "Nappy",
+        "description": "Free stock photos of Black and Brown people in everyday, lifestyle and business settings, licensed CC0 for personal and commercial use.",
+        "tags": [
+          "stock-photos",
+          "royalty-free"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "unsplash",
+          "pexels",
+          "pixabay"
+        ],
+        "keyFeatures": [
+          "Curated photos of Black and Brown people across everyday life, business and lifestyle categories",
+          "CC0 licensed: free for personal and commercial use, attribution optional",
+          "'Studio' section offering custom photography services for brands",
+          "One-click free download on each photo page"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-19: no match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Safety search (\"Nappy.co\" scam OR malware OR shutting down OR acquired) returned nothing current or negative about the site; only its own launch story came up"
+      },
+      "sources": [
+        {
+          "url": "https://www.nappy.co",
+          "date": "2026-10-19",
+          "note": "what the site is, operator in footer, free-download messaging"
+        },
+        {
+          "url": "https://www.nappy.co/license",
+          "date": "2026-10-19",
+          "note": "CC0 license text, commercial-use and attribution wording, dos/don'ts"
+        }
+      ],
+      "unverified": [
+        "whether an account is required to download (not stated on fetched pages)",
+        "exact relationship/structure between SHADE, Chery Maids and Boogie Brands as co-operators",
+        "AI-training use is not addressed anywhere in the license text"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/nappy.md",
+        "lint": "pass"
+      }
+    },
+    "navbar-gallery": {
+      "researchedOn": "2026-10-19",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Navbar Gallery",
+        "url": "https://www.navbar.gallery",
+        "alive": true,
+        "operator": "Christina Liubynska (supercharged.design)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Free to browse every navbar example and detail page; no account or sign-in required; submitting a favorite navbar is a free form",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.navbar.gallery",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No license/terms page found on the site · commercial: unclear · attribution: unclear · limit: the screenshots and linked sites belong to their respective owners, not to Navbar Gallery",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.navbar.gallery",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "navbar-gallery",
+        "type": "Website",
+        "category": "Design",
+        "title": "Navbar Gallery",
+        "description": "A curated gallery of real website navigation-bar designs — dropdown, mega menu, sidebar and more — for UI inspiration.",
+        "tags": [
+          "inspiration",
+          "ui-ux"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "dribbble",
+          "awwwards",
+          "behance"
+        ],
+        "keyFeatures": [
+          "Navbar examples sorted by type: static, dropdown, mega menu, sidebar, search bar, full screen, breadcrumbs",
+          "Each entry links to the live website and a dedicated detail page",
+          "A submission form to suggest a favorite navbar for inclusion",
+          "Blog and newsletter covering navbar design trends"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-19: no exact match (closest fuzzy hits e/r/v, not usable)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Safety search (\"navbar.gallery\"/\"Navbar Gallery\" scam OR malware OR shutting down OR acquired) returned no results about this site; sponsorship by Mobbin is disclosed openly on the page, not a red flag"
+      },
+      "sources": [
+        {
+          "url": "https://www.navbar.gallery",
+          "date": "2026-10-19",
+          "note": "what the site is, operator/creator, categories, footer links, absence of terms/license page, no AI-agent-directed text found"
+        }
+      ],
+      "unverified": [
+        "no terms/license page exists to confirm reuse rights for the screenshots",
+        "review/moderation process for submitted navbars not detailed",
+        "single small-site operator; deeper vetting beyond the safety search was not done"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/navbar-gallery.md",
+        "lint": "pass"
+      }
+    },
+    "neat": {
+      "researchedOn": "2026-10-19",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Neat",
+        "url": "https://neat.rebase.pro/",
+        "alive": true,
+        "operator": "FireCMS (built by the Rebase team)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "The whole library and hosted visual editor are free to use, including commercial projects; the only restriction (Commons Clause) is that you cannot sell the software itself or offer it as a paid service",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://cdn.jsdelivr.net/npm/@firecms/neat@0.8.0/README.md",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT + Commons Clause (source-available, not OSI open source) · commercial: yes, free in your own commercial or non-commercial projects · attribution: license/credit notice must be kept if the code is redistributed or modified · limit: cannot sell the software or offer it as a paid service",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://github.com/FireCMSco/neat",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "neat",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Neat",
+        "description": "Free, open-source WebGL library and visual editor for designing animated 3D gradient backgrounds for sites and apps.",
+        "tags": [
+          "visual-design",
+          "graphic-design",
+          "web"
+        ],
+        "relatedResources": [
+          "figma",
+          "canva"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Visual editor to design a gradient (colors, speed, wave, grain) with a live preview",
+          "Raw WebGL rendering since v0.7 (no three.js dependency) for a lighter animated background",
+          "Settings can be changed at runtime, with a destroy() call for cleanup",
+          "Exports a config you embed directly in your own site or app",
+          "Free for commercial and non-commercial use under MIT + Commons Clause"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact Simple Icons match for \"Neat\" (2026-10-19)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition hits for \"neat\" + firecms gradient generator (search 2026-10-19); results were about unrelated gradient tools"
+      },
+      "sources": [
+        {
+          "url": "https://neat.firecms.co",
+          "date": "2026-10-19",
+          "note": "original given site URL; 301-redirects to https://neat.rebase.pro/"
+        },
+        {
+          "url": "https://neat.rebase.pro/",
+          "date": "2026-10-19",
+          "note": "current hosted home/editor page; page title confirms \"Free Animated 3D Gradient Backgrounds\"; JS-rendered, little text fetched beyond title"
+        },
+        {
+          "url": "https://cdn.jsdelivr.net/npm/@firecms/neat@0.8.0/README.md",
+          "date": "2026-10-19",
+          "note": "npm package README: what the library does, license wording (\"CC license\"/Commons Clause framing, commercial use allowed), link to hosted editor, FireCMS/Rebase attribution"
+        },
+        {
+          "url": "https://github.com/FireCMSco/neat",
+          "date": "2026-10-19",
+          "note": "GitHub repo: license badge/section reads \"MIT + Commons Clause\" and prohibits selling the software or offering it as a paid service; org firecmsco; footer credits the Rebase team; exact last-commit date not visible in fetch"
+        }
+      ],
+      "unverified": [
+        "Exact SPDX identifier for the combined MIT + Commons Clause license (no single standard SPDX id; treated as not OSI open source, matching the existing n8n entry's approach)",
+        "Last-commit date on github.com/FireCMSco/neat could not be read from the fetch, so current maintenance activity is not independently timestamped",
+        "neat.rebase.pro is JS-rendered; only the page title was retrievable via WebFetch, so on-page pricing/about wording is inferred from the npm README and GitHub repo rather than the live page itself"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/neat.md",
+        "lint": "pass"
+      }
+    },
+    "neatify": {
+      "researchedOn": "2026-10-19",
+      "verdict": "skip",
+      "verdictReason": "Paid only: Neatify's own homepage pricing section lists a single $31 one-time purchase (\"One-time purchase, no subscriptions\", managed through the Mac App Store); no free tier or trial is mentioned anywhere on the site or in the App Store listing found via search. (The Digitool directory page's \"Free tier listed\" label does not match the tool's own pricing page and is incorrect for this tool.)",
+      "site": {
+        "name": "Neatify",
+        "url": "https://neatifyhq.com/",
+        "alive": true,
+        "operator": "Nicolo Rava"
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "$31 one-time payment (Mac App Store)",
+        "evidence": {
+          "url": "https://neatifyhq.com/",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": null,
+          "date": null,
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition hits for \"Neatify\" + \"Nicolo Rava\" (search 2026-10-19)"
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/neatify/",
+          "date": "2026-10-19",
+          "note": "directory listing resolved the tool's own site URL (neatifyhq.com); its own \"Paid\" label there matches the homepage, not the \"Free tier listed\" pricingLabel given in the input"
+        },
+        {
+          "url": "https://neatifyhq.com/",
+          "date": "2026-10-19",
+          "note": "homepage: what the app does (automatic macOS file sorting by project, menu-bar app), and the Pricing section: $31 one-time payment, no subscription, Mac App Store; no free tier/trial shown; no company name, only an X/Twitter social link; no license/terms page, only a privacy policy"
+        }
+      ],
+      "unverified": [
+        "Whether the Mac App Store listing itself offers any free trial period beyond what the tool's own homepage states (search results confirmed the $31 one-time price but did not show the full App Store page)",
+        "Legal operator name/entity behind \"Nicolo Rava\" (only a social handle and App Store seller name found, no company page)"
+      ],
+      "injectionSeen": null
+    },
+    "negative-space": {
+      "researchedOn": "2026-10-19",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "NegativeSpace",
+        "url": "https://negativespace.co",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All photos (and raw files) are free to browse and download, no account required",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://negativespace.co",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "CC0 1.0 · commercial: yes · attribution: not required (encouraged, not required) · limit: user responsible for checking validity/safety of each photo",
+        "openSource": false,
+        "spdx": "CC0-1.0",
+        "evidence": {
+          "url": "https://negativespace.co/license/",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "negative-space",
+        "type": "Stock Media",
+        "category": "Photography",
+        "title": "NegativeSpace",
+        "description": "Free, CC0-licensed high-resolution stock photos across categories like architecture, city, family and nature, usable without attribution.",
+        "tags": [
+          "stock-photos",
+          "royalty-free",
+          "stock"
+        ],
+        "relatedResources": [
+          "unsplash",
+          "pexels",
+          "pixabay"
+        ],
+        "similarResources": [
+          "unsplash",
+          "pexels",
+          "pixabay"
+        ],
+        "keyFeatures": [
+          "High-resolution photos released under CC0, including raw image files",
+          "Free for personal or commercial use with no attribution required",
+          "Browsable by category (architecture, city, family, nature, etc.)",
+          "No account or sign-up needed to download"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-19: no exact match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Safety search for \"Negative Space\" negativespace.co scam/malware/shutdown/acquired returned no hits for this domain"
+      },
+      "sources": [
+        {
+          "url": "https://negativespace.co",
+          "date": "2026-10-19",
+          "note": "what the site offers, CC0 mention, commercial-use line, no operator named on home page"
+        },
+        {
+          "url": "https://negativespace.co/license/",
+          "date": "2026-10-19",
+          "note": "CC0 license wording, attribution not required, commercial use allowed"
+        }
+      ],
+      "unverified": [
+        "operator / company behind the site not named anywhere fetched",
+        "no dedicated About/Contact page content read",
+        "site promotes a Shutterstock affiliate discount code, unrelated to the free CC0 photos themselves"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/negative-space.md",
+        "lint": "pass"
+      }
+    },
+    "neon-moire": {
+      "researchedOn": "2026-10-19",
+      "verdict": "list",
+      "verdictReason": "Free design-events directory with no visitor fee; independent one-person project",
+      "site": {
+        "name": "Neon Moiré",
+        "url": "https://www.neonmoire.com",
+        "alive": true,
+        "operator": "Thomas Dahm (independent graphic designer)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Free to browse the directory of design events/conferences/festivals; no listed event has paid to be included; site supported via optional Patreon/PayPal donations",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.neonmoire.com/about",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.neonmoire.com/about",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "neon-moire",
+        "type": "Website",
+        "category": "Design",
+        "title": "Neon Moiré",
+        "description": "Curated directory of design conferences, festivals and events worldwide, covering typography, graphic, motion, brand and digital design.",
+        "tags": [
+          "inspiration",
+          "typography",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "awwwards",
+          "behance",
+          "dribbble"
+        ],
+        "similarResources": [
+          "awwwards",
+          "behance",
+          "dribbble"
+        ],
+        "keyFeatures": [
+          "Curated list of design conferences, festivals and events worldwide",
+          "Covers typography, graphic, motion, brand and digital design events",
+          "Free to browse; no event pays to be listed",
+          "Event submission form for organizers, plus newsletter and podcast"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-19: no exact match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Safety search for \"Neon Moire\" neonmoire.com scam/malware/shutdown/acquired returned no hits for this domain"
+      },
+      "sources": [
+        {
+          "url": "https://www.neonmoire.com",
+          "date": "2026-10-19",
+          "note": "what the site is, footer credit, event listings, no stated listing fee"
+        },
+        {
+          "url": "https://www.neonmoire.com/about",
+          "date": "2026-10-19",
+          "note": "operator (Thomas Dahm), free to browse, donation-based support, no linking/listing terms found"
+        }
+      ],
+      "unverified": [
+        "no formal license/terms-of-use page found or read",
+        "'experimenting with paid services, advertising' mentioned but no rates or scope given",
+        "copyright footer shows 2023, so recency of content/last update not independently confirmed beyond the listed 2026-2027 events"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/neon-moire.md",
+        "lint": "pass"
+      }
+    },
+    "neumorphism-ui": {
+      "researchedOn": "2026-10-19",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Neumorphism UI",
+        "url": "https://themesberg.com/product/ui-kit/neumorphism-ui-kit-bootstrap",
+        "alive": true,
+        "operator": "Themesberg (Crafty Dwarf LLC)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free kit: 200+ neumorphism-style Bootstrap components, 5 example pages (about, pricing, contact, sign in, sign up), online docs, HTML/CSS/JS build, 6 months of premium support; free account sign-up required to download",
+        "paidFrom": "Neumorphism UI PRO, $69 (exact plan contents not read)",
+        "evidence": {
+          "url": "https://themesberg.com/product/ui-kit/neumorphism-ui-kit-bootstrap",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT License · commercial: yes · attribution: not required · limit: the paid PRO version is a separate product not covered by the MIT grant",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/themesberg/neumorphism-ui-bootstrap",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "neumorphism-ui",
+        "type": "Template",
+        "category": "Design",
+        "title": "Neumorphism UI",
+        "description": "Free, MIT-licensed Bootstrap UI kit with 200+ neumorphism-style components and five example pages, plus a paid PRO upgrade.",
+        "tags": [
+          "ui-ux",
+          "design-templates",
+          "template",
+          "open-source"
+        ],
+        "relatedResources": [
+          "canva-templates",
+          "webflow-templates",
+          "figma-community"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "200+ neumorphism-inspired UI components: buttons, cards, forms, modals, tabs, toasts",
+          "5 example pages: about, pricing, contact, sign in, sign up",
+          "Built with Bootstrap, Gulp and Sass; plain HTML/CSS/JS version included",
+          "Fully responsive, W3C-valid HTML5 markup",
+          "MIT licensed; free account sign-up required to download",
+          "Separate paid PRO version ($69) for more components/pages"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-19 (no match for Themesberg)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Official Themesberg (Crafty Dwarf LLC) site and GitHub org; recent repo activity (issue from 2025-03-04); no scam/malware/shutdown search hits"
+      },
+      "sources": [
+        {
+          "url": "https://demo.themesberg.com/neumorphism-ui/",
+          "date": "2026-10-19",
+          "note": "live demo of the free kit (input site URL)"
+        },
+        {
+          "url": "https://themesberg.com/product/ui-kit/neumorphism-ui-kit-bootstrap",
+          "date": "2026-10-19",
+          "note": "pricing ($0 free kit, $69 PRO), feature list, publisher (Crafty Dwarf LLC), download requires sign-up"
+        },
+        {
+          "url": "https://github.com/themesberg/neumorphism-ui-bootstrap",
+          "date": "2026-10-19",
+          "note": "MIT license, README component/page counts, build stack"
+        }
+      ],
+      "unverified": [
+        "exact sign-up/account gating mechanics for the free download",
+        "full feature list and price breakdown of the PRO version ($69, not read in detail)",
+        "no dedicated LICENSE file text read, relied on README/demo page MIT statements"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/neumorphism-ui.md",
+        "lint": "pass"
+      }
+    },
+    "neurascapes": {
+      "researchedOn": "2026-10-19",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Neurascapes",
+        "url": "https://www.neurascapes.com",
+        "alive": true,
+        "operator": "Aman Chaudhary (independent creator, @amanfromsolan)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All AI-generated image collections and prompts are free to browse and download; no sign-in or account required",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.neurascapes.com",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Neurascapes License (own terms, not a standard SPDX license) · commercial: yes (commercial and non-commercial use allowed) · attribution: not required (appreciated) · limit: photos cannot be sold without significant modification, and the set cannot be compiled to build a similar/competing service",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.neurascapes.com/license",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "neurascapes",
+        "type": "Stock Media",
+        "category": "Design",
+        "title": "Neurascapes",
+        "description": "Free AI-generated photo and illustration collections with included prompts, free for commercial and non-commercial use, no sign-in needed.",
+        "tags": [
+          "ai-tool",
+          "stock-photos",
+          "stock"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "pexels",
+          "unsplash",
+          "pixabay"
+        ],
+        "keyFeatures": [
+          "Themed AI image collections (e.g. Morning Rituals, Studio Stories, Tiny Objects)",
+          "Topic sets: botanical illustration, isometric illustration, 3D icons",
+          "Each image collection ships with its generation prompts included",
+          "Free for commercial and non-commercial use, no attribution or account required",
+          "Companion images within a set designed for visual consistency across a project"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-19 (no match for Neurascapes)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Independent creator site (Aman Chaudhary); no scam/malware/shutdown search hits for \"Neurascapes\" specifically"
+      },
+      "sources": [
+        {
+          "url": "https://www.neurascapes.com",
+          "date": "2026-10-19",
+          "note": "homepage pitch, collection list, free claim, no sign-in"
+        },
+        {
+          "url": "https://www.neurascapes.com/license",
+          "date": "2026-10-19",
+          "note": "license terms: commercial use allowed, no attribution required, resale/compiling restrictions"
+        },
+        {
+          "url": "https://www.neurascapes.com/about",
+          "date": "2026-10-19",
+          "note": "operator identity (Aman Chaudhary) and mission statement"
+        }
+      ],
+      "unverified": [
+        "exact image counts across all collections (only a few sampled from the homepage)",
+        "terms & conditions and privacy policy pages not read in full",
+        "no pricing/plans page found to confirm there is no hidden paid tier"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/neurascapes.md",
+        "lint": "pass"
+      }
+    },
+    "neuronwriter": {
+      "researchedOn": "2026-10-19",
+      "verdict": "skip",
+      "verdictReason": "Paid only: no permanent free plan, just a 7-day free trial (no credit card); paid plans run $23-117/mo ($19-97/mo billed yearly).",
+      "site": {
+        "name": "NEURONwriter",
+        "url": "https://neuronwriter.com/",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "$23/mo (Bronze), billed monthly; $19/mo billed yearly",
+        "evidence": {
+          "url": "https://neuronwriter.com/",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://neuronwriter.com/",
+          "date": "2026-10-19",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown hits in search"
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/neuronwriter/",
+          "date": "2026-10-19",
+          "note": "resolved tool's own site link from directory page"
+        },
+        {
+          "url": "https://neuronwriter.com/",
+          "date": "2026-10-19",
+          "note": "confirmed no permanent free plan; 7-day free trial only; Bronze/Silver/Gold/Platinum/Diamond plans $23-117/mo"
+        }
+      ],
+      "unverified": [
+        "license/terms page not read (paid-only verdict reached before Tier B)",
+        "no dedicated license/terms fetch"
+      ],
+      "injectionSeen": null
+    },
+    "nicelydone": {
+      "researchedOn": "2026-10-19",
+      "verdict": "needs-owner",
+      "verdictReason": "Free tier permanence unclear: pricing page lists a '$0 Free' plan (no credit card) with fixed limits (6 screen previews, 12 viewable search results) alongside paid Solo/Team plans, but the page's own tagline for it is 'Try before you buy', so it is ambiguous whether this is a permanent capped-free tier or just a teaser before conversion.",
+      "site": {
+        "name": "Nicelydone",
+        "url": "https://nicelydone.club/",
+        "alive": true,
+        "operator": "Bertrand (founder, per site structured data; contact bertrand@nicelydone.club)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Labeled 'Free' ($0, no credit card required): 6 screen previews, search all apps with 12 results viewable, weekly inspiration email. Page does not state whether these limits are permanent or time-boxed; plan is taglined 'Try before you buy'.",
+        "paidFrom": "Solo plan $300/yr (or $117/quarter), 1 seat; Team $600/yr (or $234/quarter), 2+ seats",
+        "evidence": {
+          "url": "https://nicelydone.club/pricing",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://nicelydone.club/pricing",
+          "date": "2026-10-19",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown hits in search"
+      },
+      "sources": [
+        {
+          "url": "https://nicelydone.club/apps",
+          "date": "2026-10-19",
+          "note": "input site URL; library of 150,000+ SaaS app screenshots by category"
+        },
+        {
+          "url": "https://nicelydone.club/",
+          "date": "2026-10-19",
+          "note": "home page description, founder/operator structured data, 'Start searching free' CTA"
+        },
+        {
+          "url": "https://nicelydone.club/pricing",
+          "date": "2026-10-19",
+          "note": "Free/Solo/Team plan names, prices, and Free plan's stated limits"
+        }
+      ],
+      "unverified": [
+        "whether the Free plan's limits are permanent or a time-limited trial",
+        "license/terms of use not read",
+        "exact seat count for Team plan (structured data says 2 included, seat selector UI shows 5)",
+        "sign-up/account requirement details beyond the auth-gated 'Start searching free' button"
+      ],
+      "injectionSeen": null
+    },
+    "nielsen-norman-group": {
+      "researchedOn": "2026-10-19",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Nielsen Norman Group",
+        "url": "https://www.nngroup.com",
+        "alive": true,
+        "operator": "Nielsen Norman Group (company, founded by Jakob Nielsen and Don Norman)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "All UX research articles, videos, the Ten Usability Heuristics, and the UX podcast are free to read/watch with no login or paywall; paid add-ons are self-paced courses ($199/$99 seen), live online courses, UX Certification, reports/books, and consulting.",
+        "paidFrom": "Self-paced course from $99 (exact price per course, not a subscription)",
+        "evidence": {
+          "url": "https://www.nngroup.com/",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Copyright (c) Nielsen Norman Group / Jakob Nielsen, all rights reserved · commercial reuse: not stated (assume no) · attribution: required when citing (credit + link) · limit: full reprinting needs permission (Copyright & Reprint Policy page link returned 404 when checked, so its full text is unverified)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.nngroup.com/articles/ten-usability-heuristics/",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "nielsen-norman-group",
+        "type": "Resource",
+        "category": "Design",
+        "title": "Nielsen Norman Group",
+        "description": "Free, research-based UX articles, usability heuristics and videos from NN/g, plus paid courses, certification and consulting.",
+        "tags": [
+          "ui-ux",
+          "inspiration"
+        ],
+        "relatedResources": [
+          "figma-community"
+        ],
+        "similarResources": [
+          "dribbble"
+        ],
+        "keyFeatures": [
+          "Hundreds of free, research-based UX articles and videos",
+          "Originators of the Ten Usability Heuristics for interface design",
+          "Free reports/books summaries and a UX podcast",
+          "Paid self-paced and live online courses leading to UX Certification",
+          "Consulting: usability testing, expert review, UX maturity assessment"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact Simple Icons match (fuzzy hits 'e'/'man'/'r' are not this brand), checked 2026-10-19"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition hits for Nielsen Norman Group (nngroup.com); site active with 1998-2026 copyright footer."
+      },
+      "sources": [
+        {
+          "url": "https://www.nngroup.com/",
+          "date": "2026-10-19",
+          "note": "what it is, operator, courses, pricing hints, sections"
+        },
+        {
+          "url": "https://www.nngroup.com/articles/",
+          "date": "2026-10-19",
+          "note": "articles listing, topics, no visible paywall"
+        },
+        {
+          "url": "https://www.nngroup.com/articles/ten-usability-heuristics/",
+          "date": "2026-10-19",
+          "note": "confirms free full-text article, copyright/citation notice"
+        },
+        {
+          "url": "https://www.nngroup.com/about/copyright/",
+          "date": "2026-10-19",
+          "note": "attempted fetch of Copyright & Reprint Policy, returned 404"
+        }
+      ],
+      "unverified": [
+        "Full text of the Copyright & Reprint Policy (linked page 404'd) - citation/attribution rule taken only from the heuristics article footer",
+        "Exact live-online-course and consulting prices (only self-paced course prices of $199/$99 were visible)",
+        "Whether every article in the ~200-item archive is fully free (only the homepage listing and one article were checked)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/nielsen-norman-group.md",
+        "lint": "pass"
+      }
+    },
+    "niice": {
+      "researchedOn": "2026-10-19",
+      "verdict": "skip",
+      "verdictReason": "No self-serve free tier: pricing is quote-only (\"Request a quote\"/\"Request a demo\"), billed by storage and team size with no published prices; the only free access is read-only for external viewers added by a paying account, not a standalone free plan for someone signing up. Fails the 'permanent free tier' bar.",
+      "site": {
+        "name": "Niice",
+        "url": "https://niice.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "Not stated; pricing is quote-based (\"choose your storage and team size\"), no numeric prices shown",
+        "evidence": {
+          "url": "https://niice.com/v4/pricing",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "license": null,
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/shutdown/acquisition hits for Niice; note niice.co now redirects (302) to niice.com."
+      },
+      "sources": [
+        {
+          "url": "https://niice.co",
+          "date": "2026-10-19",
+          "note": "homepage pitch; niice.co redirects (302) to niice.com"
+        },
+        {
+          "url": "https://niice.com/v4/pricing",
+          "date": "2026-10-19",
+          "note": "pricing page: quote-based, storage/team-size, no free self-serve tier"
+        }
+      ],
+      "unverified": [
+        "Operating company/legal entity name (not stated on homepage or pricing page)",
+        "Whether a time-limited free trial exists (not mentioned on the pages fetched)"
+      ],
+      "injectionSeen": null
+    },
+    "no-code-supply-co": {
+      "researchedOn": "2026-10-19",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "No-Code Supply Co.",
+        "url": "https://www.nocodesupply.co",
+        "alive": true,
+        "operator": "No-Code Supply Co."
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "The directory itself is free to browse (no sign-up, paywall, or membership fee found on home or /tools pages); an optional newsletter sign-up exists. Site carries affiliate links to some listed third-party tools, but browsing the directory is free.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.nocodesupply.co/tools",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No open-source license; standard site Terms · commercial: trademarks/trade dress may not be used without written consent · attribution: not specified · limit: all content/features remain exclusive property of the company",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.nocodesupply.co/terms",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "no-code-supply-co",
+        "type": "Website",
+        "category": "Design",
+        "title": "No-Code Supply Co.",
+        "description": "Free, hand-picked directory of design, development and AI inspiration, resources and no-code tools, updated daily.",
+        "tags": [
+          "inspiration",
+          "no-code"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "About 2,799 curated items sorted into Inspo, Code, Learn and Tools sections",
+          "Daily hand-picked design, development and AI resources",
+          "Creators and Blog sections alongside the main directory",
+          "Free to browse with no account or paywall",
+          "Optional newsletter for new curated resources"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "checked Simple Icons via scripts/check-icon.mjs, 2026-10-19: no match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition hits in a web search for \"No-Code Supply\" (2026-10-19); results were unrelated supply-chain-attack reporting"
+      },
+      "sources": [
+        {
+          "url": "https://www.nocodesupply.co",
+          "date": "2026-10-19",
+          "note": "what the site is, item count, sections, affiliate disclosure, operator"
+        },
+        {
+          "url": "https://www.nocodesupply.co/tools",
+          "date": "2026-10-19",
+          "note": "confirmed no pricing/membership/sign-up to browse"
+        },
+        {
+          "url": "https://www.nocodesupply.co/terms",
+          "date": "2026-10-19",
+          "note": "trademark/IP terms; no listing/linking/scraping clause found"
+        }
+      ],
+      "unverified": [
+        "Terms page does not explicitly address third-party listing/linking or scraping",
+        "Submission process for new listings not explained on the page",
+        "No dated changelog/blog post confirming recent activity beyond the 2026 copyright footer"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/no-code-supply-co.md",
+        "lint": "pass"
+      }
+    },
+    "noise-and-texture": {
+      "researchedOn": "2026-10-19",
+      "verdict": "blocked",
+      "verdictReason": "Figma Community plugin page returns HTTP 403 Forbidden (bot check); cannot read pricing, license/terms, or publisher first-party, and bot checks are never bypassed",
+      "site": {
+        "name": "Noise & Texture",
+        "url": "https://www.figma.com/community/plugin/1138854718618193875/Noise-%26-Texture",
+        "alive": null,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.figma.com/community/plugin/1138854718618193875/Noise-%26-Texture",
+          "date": "2026-10-19",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.figma.com/community/plugin/1138854718618193875/Noise-%26-Texture",
+          "date": "2026-10-19",
+          "confidence": "not-read"
+        }
+      },
+      "rl": null,
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition hits in a web search for \"Noise & Texture\" figma plugin (2026-10-19); unrelated Adobe/Figma acquisition and a generic subscription complaint not tied to this plugin"
+      },
+      "sources": [
+        {
+          "url": "https://www.figma.com/community/plugin/1138854718618193875/Noise-%26-Texture",
+          "date": "2026-10-19",
+          "note": "fetch attempt returned HTTP 403 Forbidden, no content retrieved"
+        }
+      ],
+      "unverified": [
+        "Pricing label (input list says 'Free') not confirmed first-party",
+        "Publisher/developer name not confirmed",
+        "License/terms not confirmed",
+        "Current functionality description only from third-party blog summaries, not the Figma page itself"
+      ],
+      "injectionSeen": null
+    },
+    "nokia-design-archive": {
+      "researchedOn": "2026-10-19",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Nokia Design Archive",
+        "url": "https://nokiadesignarchive.aalto.fi",
+        "alive": true,
+        "operator": "Aalto University"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Public, browsable archive (network view, timeline view, keyword search, topic/date filters); no sign-in or paywall",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://nokiadesignarchive.aalto.fi",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "CC BY-NC-ND 4.0 on the archive materials · commercial: no · attribution: required (per site's About instructions) · limit: no derivatives, noncommercial use only",
+        "openSource": false,
+        "spdx": "CC-BY-NC-ND-4.0",
+        "evidence": {
+          "url": "https://nokiadesignarchive.aalto.fi",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "nokia-design-archive",
+        "type": "Resource",
+        "category": "Design",
+        "title": "Nokia Design Archive",
+        "description": "Aalto University's browsable archive of over 20 years of Nokia design history, with network and timeline views of design materials.",
+        "tags": [
+          "inspiration",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "dribbble",
+          "behance"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Network view linking archive entries by design relationships",
+          "Timeline view across roughly two decades of Nokia design",
+          "Filter by topic (products, aesthetics, design process, design strategy) and date",
+          "Keyword search across entries",
+          "No sign-in or paywall to browse"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-19 — no exact match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown hits; covered by Dezeen and Wallpaper as a legitimate Aalto University launch (Dec 2024 / Jan 2025)"
+      },
+      "sources": [
+        {
+          "url": "https://nokiadesignarchive.aalto.fi",
+          "date": "2026-10-19",
+          "note": "site description, views/filters, license notice, Aalto University branding"
+        },
+        {
+          "url": "web search: \"Nokia Design Archive\" Aalto scam OR malware OR shutting down OR acquired",
+          "date": "2026-10-19",
+          "note": "confirms Aalto University operator, launch coverage (Dezeen, Wallpaper), no safety concerns"
+        }
+      ],
+      "unverified": [
+        "exact About page text / attribution wording (direct /about and /network URLs 404'd; link seen only via home page nav)",
+        "whether listing/linking the site itself is restricted beyond the NC-ND content license",
+        "legal entity behind the archive beyond \"Aalto University\""
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/nokia-design-archive.md",
+        "lint": "pass"
+      }
+    },
+    "nordcraft": {
+      "researchedOn": "2026-10-19",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Nordcraft",
+        "url": "https://nordcraft.com",
+        "alive": true,
+        "operator": "Nordcraft (co-founders Kasper Svenning Hansen and Andreas Møller, CEO)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan ($0): unlimited projects with Nordcraft branding, full editor features, publish to a *.nordcraft.site subdomain, unlimited collaborators, requests on a fair-usage basis, daily AI-credit allotment (amount not stated). Self-hosted plan is also $0 forever (same features, you host it, loses Nordcraft Cloud extras)",
+        "paidFrom": "Pro from $9 per project/month (100K requests included, custom domain, branding removed); extra domains $5/month; Enterprise is contact-sales",
+        "evidence": {
+          "url": "https://nordcraft.com/pricing",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Hosted Nordcraft Cloud service is proprietary SaaS; the underlying framework/runtime is open source under Apache-2.0 · commercial: yes · attribution: per Apache-2.0 notice requirements for the framework · limit: free hosted plan keeps Nordcraft branding",
+        "openSource": false,
+        "spdx": "Apache-2.0",
+        "evidence": {
+          "url": "https://nordcraft.com/2.0",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "nordcraft",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Nordcraft",
+        "description": "AI-assisted visual website builder for studios, with an open-source framework and a free-forever hosted or self-hosted plan.",
+        "tags": [
+          "website-builder",
+          "no-code",
+          "ai-tool"
+        ],
+        "relatedResources": [
+          "webflow",
+          "framer",
+          "squarespace"
+        ],
+        "similarResources": [
+          "webflow",
+          "framer"
+        ],
+        "keyFeatures": [
+          "Visual editor paired with an AI agent for building pages",
+          "Built-in API and GraphQL connections plus visual logic/workflow tools",
+          "Free-forever plan: unlimited projects on a nordcraft.site subdomain",
+          "Self-hosted option on top of an Apache-2.0 open-source framework/runtime",
+          "Custom domains and branding removal on paid Pro plans"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-19 — no exact match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition hits in search; site is mid-relaunch to Nordcraft 3.0 (coming-soon landing page) with the current live product still served at /2.0"
+      },
+      "sources": [
+        {
+          "url": "https://nordcraft.com",
+          "date": "2026-10-19",
+          "note": "3.0 coming-soon landing page; confirms project name and a link to the live 2.0 product"
+        },
+        {
+          "url": "https://nordcraft.com/2.0",
+          "date": "2026-10-19",
+          "note": "product description, open-source framework/runtime claim (Apache-2.0), founders, copyright line"
+        },
+        {
+          "url": "https://nordcraft.com/pricing",
+          "date": "2026-10-19",
+          "note": "Free / Pro / Enterprise / Self-hosted plan details and prices"
+        },
+        {
+          "url": "web search: Nordcraft website builder scam OR malware OR shutting down OR acquired",
+          "date": "2026-10-19",
+          "note": "no results about Nordcraft; no safety concerns found"
+        }
+      ],
+      "unverified": [
+        "exact free-plan request limit (described only as \"fair usage basis\") and daily AI-credit amount",
+        "legal entity / incorporation details beyond founder names and \"© Nordcraft 2026\"",
+        "terms of service page not read",
+        "whether the imminent 3.0 relaunch changes pricing or features shown on the 2.0 pages"
+      ],
+      "injectionSeen": "Footer of nordcraft.com/2.0 shows a link labelled \"For LLMS\" (likely an llms.txt); not opened, so its content is unverified — noting existence only, no instructions from it were followed.",
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/nordcraft.md",
+        "lint": "pass"
+      }
+    },
+    "nordvpn": {
+      "researchedOn": "2026-10-19",
+      "verdict": "skip",
+      "verdictReason": "Paid-only VPN service; no permanent free tier. Only time-limited trials exist (7-day for new US users on 1-/2-year plans, 3-day via Google Play for first-time Android users) plus a 30-day money-back guarantee on paid plans. 'Free trial' does not count as free per the playbook. Digitool's own label ('Free plan available') is contradicted by independent pricing sources and NordVPN's own home/pricing pages could not be fetched first-party (403 bot check).",
+      "site": {
+        "name": "NordVPN",
+        "url": "https://nordvpn.com/",
+        "alive": true,
+        "operator": "Nord Security"
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "$12.99/month billed monthly; $4.99/month billed annually ($59.88/yr); $2.91/month billed for 2 years ($81.36) + 4 months free",
+        "evidence": {
+          "url": "https://www.tomsguide.com/computing/vpns/nordvpn-price-plans",
+          "date": "2026-10-19",
+          "confidence": "second-hand"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://nordvpn.com/",
+          "date": "2026-10-19",
+          "note": "WebFetch returned HTTP 403 (bot check); could not read pricing first-party"
+        },
+        {
+          "url": "https://nordvpn.com/pricing/",
+          "date": "2026-10-19",
+          "note": "WebFetch returned HTTP 403 (bot check); could not read pricing first-party"
+        },
+        {
+          "url": "https://digitool.co/tool/nordvpn/",
+          "date": "2026-10-19",
+          "note": "directory listing; shows labels 'Free & Paid' / 'Free plan available' but does not expose NordVPN's own site link and this label is contradicted elsewhere"
+        },
+        {
+          "url": "https://www.tomsguide.com/computing/vpns/nordvpn-price-plans",
+          "date": "2026-10-19",
+          "note": "second-hand: current paid plan prices, no mention of a permanent free plan"
+        },
+        {
+          "url": "https://costbench.com/software/vpn/nordvpn/free-plan/",
+          "date": "2026-10-19",
+          "note": "second-hand: states NordVPN has no forever-free plan as of Aug 2026"
+        },
+        {
+          "url": "https://www.shopback.com/blog/savings/nordvpn-have-free-trial-plan-cheapest",
+          "date": "2026-10-19",
+          "note": "second-hand, citing NordVPN's help center: 7-day US trial on 1-/2-year plans, 3-day Android trial, 30-day refund window — trials and refunds only, not a free tier"
+        }
+      ],
+      "unverified": [
+        "NordVPN's own home and pricing pages could not be fetched directly (HTTP 403 bot check); pricing and free-tier absence confirmed only via second-hand sources",
+        "Whether the 7-day US trial or any trial is still running could not be confirmed first-party",
+        "Digitool's 'Free plan available' label appears inaccurate per independent sources but could not be checked against NordVPN's own site"
+      ],
+      "injectionSeen": null
+    },
+    "notion-blog": {
+      "researchedOn": "2026-10-19",
+      "verdict": "skip",
+      "verdictReason": "Not a standalone tool or resource — notion.com/blog is Notion's company blog ('Tools & Craft'), a content/marketing page, not a product or destination with its own feature set. Notion itself is already in RL as 'notion' and the templates section as 'notion-templates' (rl-index --find notion confirms both, published). A blog index does not meet RL's resource bar and would duplicate the existing Notion listing's domain.",
+      "site": {
+        "name": "Notion Blog",
+        "url": "https://www.notion.com/blog",
+        "alive": true,
+        "operator": "Notion Labs, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "The blog itself is free to read with no paywall or sign-in; it is not a priced product",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.notion.com/blog",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.notion.com/blog",
+          "date": "2026-10-19",
+          "note": "confirmed this is Notion's blog index ('Tools & Craft'), listing posts filterable by topic (Notion HQ, For Teams, Inspiration, Pioneers, Tech, First Block); CTAs link out to Notion's actual product (pricing, demo, downloads) rather than offering any tool itself"
+        }
+      ],
+      "unverified": [],
+      "injectionSeen": null
+    },
+    "notion-faces": {
+      "researchedOn": "2026-10-19",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Notion Faces",
+        "url": "https://faces.notion.com",
+        "alive": true,
+        "operator": "Notion Labs, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Full avatar builder, saving, downloading and browsing other portraits; no sign-in or Notion account required",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.notion.com/help/notion-faces",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No dedicated license page for this microsite · commercial use: unclear (personal profile-picture tool) · attribution: not mentioned · limit: no formal terms found specific to faces.notion.com",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://faces.notion.com",
+          "date": "2026-10-19",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "notion-faces",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Notion Faces",
+        "description": "Free browser tool from Notion to build a custom illustrated self-portrait avatar for your profile picture, no account needed.",
+        "tags": [
+          "visual-design",
+          "graphic-design",
+          "social-media-design"
+        ],
+        "relatedResources": [
+          "notion"
+        ],
+        "similarResources": [
+          "notion-style-avatar"
+        ],
+        "keyFeatures": [
+          "Build a custom illustrated self-portrait by mixing skin tone, eyes, brows, eyewear, nose, mouth, hair and accessories",
+          "Start from a random look or build one from scratch",
+          "No Notion account or sign-in required to use the builder",
+          "Add an optional headline, caption and background color before saving",
+          "Download the portrait as an image, or set it directly as your Notion profile photo",
+          "Browse a gallery of portraits made by other users"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "notion",
+          "fillColor": "#000000",
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-19"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Official Notion subdomain (faces.notion.com); redesigned 2025 by agency BUCK per their own case study and a third-party blog post; no scam/shutdown signals found"
+      },
+      "sources": [
+        {
+          "url": "https://faces.notion.com",
+          "date": "2026-10-19",
+          "note": "og:title/og:description, confirms operator and pitch (static HTML only; builder itself is client-rendered JS)"
+        },
+        {
+          "url": "https://www.notion.com/help/notion-faces",
+          "date": "2026-10-19",
+          "note": "full feature description: no sign-in required, customization options, save/download/profile-photo flow"
+        },
+        {
+          "url": "https://notionflows.super.site/blog-post/meet-notion-faces",
+          "date": "2026-10-19",
+          "note": "third-party corroboration that this is an official Notion tool launched in early 2025 (second-hand)"
+        }
+      ],
+      "unverified": [
+        "No dedicated license/terms page found specific to Faces; general Notion ToS (notion.com/terms) likely applies but not read",
+        "No separate safety search beyond the web searches above",
+        "Builder's live interaction (face-picker UI) not directly observed; JS-rendered, confirmed via Notion's own help page instead"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/notion-faces.md",
+        "lint": "pass"
+      }
+    },
+    "notion-style-avatar": {
+      "researchedOn": "2026-10-19",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Notion Avatar Creator (DrawKit)",
+        "url": "https://www.figma.com/community/file/1159777445438667306/notion-avatar-creator-free-drawkit",
+        "alive": true,
+        "operator": "DrawKit (from designstripe)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire Figma Community file free to duplicate, customize and use in any project; no paid tier for this file",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.figma.com/community/file/1159777445438667306/notion-avatar-creator-free-drawkit",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "DrawKit's own community-listing terms · commercial use: yes (\"use them for free (in any projects)\" per the file description) · attribution: not required (creator only asks to be tagged on social, not mandatory) · limit: requires a free Figma account to open/duplicate",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.figma.com/community/file/1159777445438667306/notion-avatar-creator-free-drawkit",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "notion-style-avatar",
+        "type": "Template",
+        "category": "Design",
+        "title": "Notion Avatar Creator by DrawKit",
+        "description": "Free Figma Community file by DrawKit with layered Notion-style avatar illustrations you can duplicate and customize for any project.",
+        "tags": [
+          "visual-design",
+          "graphic-design",
+          "design-templates"
+        ],
+        "relatedResources": [
+          "figma-community",
+          "notion"
+        ],
+        "similarResources": [
+          "notion-faces"
+        ],
+        "keyFeatures": [
+          "Layered Figma components for mixing faces, hair, eyewear, accessories and skin tones in a Notion-illustration style",
+          "Free to duplicate, edit and use in any project, including commercial projects, per the creator's own listing",
+          "Published by DrawKit (from designstripe), a Figma illustration studio",
+          "Follow-up to DrawKit's earlier Notion avatar creator file on Figma Community",
+          "Requires a free Figma account to open and duplicate the community file"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "figma",
+          "fillColor": "#F24E1E",
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-19"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Hosted on figma.com (Figma Community), a well-known legitimate platform; creator DrawKit is an established Figma illustration studio (figma.com/@drawkit); no scam/shutdown signals found"
+      },
+      "sources": [
+        {
+          "url": "https://www.figma.com/community/file/1159777445438667306/notion-avatar-creator-free-drawkit",
+          "date": "2026-10-19",
+          "note": "page title, JSON-LD CreativeWork metadata: creator org, free-to-use description text (WebFetch returned 403; raw HTML fetched directly and parsed for this static metadata)"
+        },
+        {
+          "url": "https://postnitro.ai/free-ai-tools/notion-style-avatar-generator",
+          "date": "2026-10-19",
+          "note": "third-party mention crediting DrawKit as the artwork source and describing attribution expectations (second-hand, not relied on for the license line)"
+        }
+      ],
+      "unverified": [
+        "Figma Community's own formal license badge for this file (e.g. CC0 vs custom) is rendered client-side and was not directly confirmed; license line relies on the creator's own description text",
+        "DrawKit's own site (drawkit.com) not checked for any additional terms",
+        "No separate safety search beyond the web search above"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/notion-style-avatar.md",
+        "lint": "pass"
+      }
+    },
+    "notionapps": {
+      "researchedOn": "2026-10-19",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "NotionApps",
+        "url": "https://www.notionapps.com",
+        "alive": true,
+        "operator": "Kintevo LLC"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free plan: unlimited apps, Notion databases, properties and visitors; limits of 250 pages, 10 blocks/page, 2 app users, 1 workspace, 50 MB file uploads, 0 monthly automation runs, 0 active routes. No automation, messaging or approval management.",
+        "paidFrom": "Plus plan $20/month (2,500 pages, 10 app users, daily two-way sync); 14-day free trial on paid plans, no card required",
+        "evidence": {
+          "url": "https://www.notionapps.com/pricing",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS, not open source · commercial: not explicitly stated (business-app tool) · attribution: not stated · limit: Terms & Conditions page returned no body text (JS-rendered), so ToS wording is unverified",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.notionapps.com/terms",
+          "date": "2026-10-19",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "notionapps",
+        "type": "Tool",
+        "category": "Productivity",
+        "title": "NotionApps",
+        "description": "Turns Notion pages and databases into a branded app with logins, row-level permissions and live two-way sync; free plan covers small apps.",
+        "tags": [
+          "no-code",
+          "productivity",
+          "automation"
+        ],
+        "relatedResources": [
+          "notion",
+          "airtable",
+          "coda"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Converts Notion databases/pages into a branded web app, installable on mobile",
+          "Two-way sync keeps the app and the source Notion workspace in sync",
+          "Row-level permissions so each signed-in user sees only their own records",
+          "Free plan: unlimited apps/databases, 250 pages, 10 blocks/page, 2 app users, 1 workspace, 50 MB uploads",
+          "Paid plans add automation runs, in-app messaging, approval workflows, custom domains and more pages/users"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact Simple Icons match (closest is 'notion', a different product) via scripts/check-icon.mjs, 2026-10-19"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition hits for 'NotionApps' in search; site identifies its operator (Kintevo LLC) and states it is not affiliated with Notion"
+      },
+      "sources": [
+        {
+          "url": "https://www.notionapps.com",
+          "date": "2026-10-19",
+          "note": "product description, operator (Kintevo LLC), disclaimer of Notion affiliation"
+        },
+        {
+          "url": "https://www.notionapps.com/pricing",
+          "date": "2026-10-19",
+          "note": "Free/Plus/Pro/Premium/Enterprise plan table, free plan limits, overage pricing, trial terms"
+        },
+        {
+          "url": "https://www.notionapps.com/terms",
+          "date": "2026-10-19",
+          "note": "attempted ToS read; page returned only a title, no body (JS-rendered)"
+        }
+      ],
+      "unverified": [
+        "Terms & Conditions content (page is JS-rendered and returned no text)",
+        "explicit commercial-use / listing clause",
+        "yearly billing prices (page states 2 months free but does not list the yearly figures)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/notionapps.md",
+        "lint": "pass"
+      }
+    },
+    "noun-project": {
+      "researchedOn": "2026-10-19",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Noun Project",
+        "url": "https://thenounproject.com",
+        "alive": true,
+        "operator": "Noun Project Inc."
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free account: PNG/SVG downloads from the ~10M-icon collection under Public Domain or CC BY 3.0 (attribution required for CC BY); free photos are CC BY-NC-ND 2.0 (noncommercial, no derivatives, attribution required). No royalty-free commercial license on the free tier.",
+        "paidFrom": "Noun Pro $3.33/month billed yearly (removes attribution requirement, adds royalty-free commercial license); Noun Team from $6.67/month for 2 seats billed yearly",
+        "evidence": {
+          "url": "https://thenounproject.com/pricing/",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Per-icon/photo license, not open source · commercial: no for free CC BY-NC-ND photos, icon resale allowed with visible attribution · attribution: required for CC BY icons and CC BY photos (not required for Public Domain or paid Royalty-Free License) · limit: attribution-free and commercial use require a paid plan",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://thenounproject.com/legal/terms-of-use/",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "noun-project",
+        "type": "Icon Set",
+        "category": "Design",
+        "title": "Noun Project",
+        "description": "Library of nearly 10 million icons and photos, free to download with attribution (Public Domain/CC BY), or paid Pro plans for commercial use.",
+        "tags": [
+          "icon-library",
+          "graphic-design",
+          "stock-vectors"
+        ],
+        "relatedResources": [
+          "fontawesome",
+          "material-symbols",
+          "remix-icon"
+        ],
+        "similarResources": [
+          "lucide-icons",
+          "simple-icons"
+        ],
+        "keyFeatures": [
+          "Free account: PNG/SVG icon downloads under Public Domain or CC BY 3.0 license",
+          "Free photo downloads under CC BY-NC-ND 2.0 (noncommercial, attribution required)",
+          "Noun Pro ($3.33/mo billed yearly) removes attribution and unlocks a royalty-free commercial license",
+          "Icon and background color editor, plus plugins for Figma, Adobe apps, PowerPoint and Mac",
+          "Noun Studio: AI-assisted icon generation sold as credit packs",
+          "REST Icon API with a free starter tier"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "nounproject",
+          "fillColor": "#000000",
+          "bgColor": "#ffffff",
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-19"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition hits for 'Noun Project' in search"
+      },
+      "sources": [
+        {
+          "url": "https://thenounproject.com",
+          "date": "2026-10-19",
+          "note": "product description, icon/photo count claim, operator (Noun Project Inc.), plugin/API links"
+        },
+        {
+          "url": "https://thenounproject.com/pricing/",
+          "date": "2026-10-19",
+          "note": "Free/Pro/Team/Studio/Educator/API plan prices and inclusions"
+        },
+        {
+          "url": "https://thenounproject.com/legal/terms-of-use/",
+          "date": "2026-10-19",
+          "note": "per-license terms: Public Domain, CC BY 3.0 (icons), CC BY-NC-ND 2.0 (photos), attribution and resale rules"
+        }
+      ],
+      "unverified": [
+        "exact monthly (non-yearly-billed) price, if one exists",
+        "numeric monthly download cap for free accounts (page did not state one)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/noun-project.md",
+        "lint": "pass"
+      }
+    },
+    "noun-project-photos": {
+      "researchedOn": "2026-10-19",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Noun Project Photos",
+        "url": "https://thenounproject.com/photos/",
+        "alive": true,
+        "operator": "Noun Project Inc."
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free account gives access to the photo/icon library with PNG/SVG downloads; each free photo carries its own uploader-chosen license — CC BY-NC-ND 2.0 (attribution required, noncommercial use only, no derivatives) or Public Domain (no attribution). No royalty-free commercial license or 'no attribution required' guarantee without a Pro/Team plan or a per-photo license fee.",
+        "paidFrom": "Noun Pro $3.33/mo billed yearly (monthly price not shown on page); Noun Team $6.67/mo billed yearly for 2 seats, +$3.33/mo per extra seat; Noun Pro EDU $1.67/mo billed yearly",
+        "evidence": {
+          "url": "https://thenounproject.com/pricing/",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Per-photo uploader license · commercial: no for CC BY-NC-ND free downloads, yes for Public Domain or paid royalty-free license · attribution: required for CC BY-NC-ND, not required for Public Domain or paid license · limit: CC BY-NC-ND forbids derivatives and commercial use",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://thenounproject.com/legal/terms-of-use/",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "noun-project-photos",
+        "type": "Stock Media",
+        "category": "Photography",
+        "title": "Noun Project Photos",
+        "description": "Art-quality, diversity-focused stock photos from Noun Project: free with per-photo CC BY-NC-ND or Public Domain licensing, or royalty-free on a paid Pro plan.",
+        "tags": [
+          "stock-photos",
+          "stock",
+          "royalty-free"
+        ],
+        "relatedResources": [
+          "pexels",
+          "unsplash",
+          "pixabay"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Art-quality, inclusive stock photography library",
+          "Free downloads licensed per-photo: CC BY-NC-ND 2.0 (attribution, noncommercial, no derivatives) or Public Domain",
+          "Pro/Team plans add unlimited royalty-free commercial-license photo and icon downloads with no attribution",
+          "Crop and edit photos to make derivatives (Pro)",
+          "Also bundles Noun Project's icon library and Figma/Office/Adobe plugins"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "nounproject",
+          "fillColor": "#000000",
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-19"
+        },
+        "siblings": [
+          "Noun Project's icon library is a separate section/pricing track (same site, millions of icons) and could warrant its own RL entry"
+        ]
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Established operator (Noun Project Inc.); web search for scam/malware/shutdown/acquired turned up no relevant hits"
+      },
+      "sources": [
+        {
+          "url": "https://thenounproject.com/photos/",
+          "date": "2026-10-19",
+          "note": "product description, operator, general free/paid mention"
+        },
+        {
+          "url": "https://thenounproject.com/pricing/",
+          "date": "2026-10-19",
+          "note": "plan prices and free-vs-Pro feature comparison"
+        },
+        {
+          "url": "https://thenounproject.com/legal/terms-of-use/",
+          "date": "2026-10-19",
+          "note": "per-photo license terms (CC BY-NC-ND, Public Domain, paid royalty-free license)"
+        }
+      ],
+      "unverified": [
+        "Exact free-account photo download limit (if any) is not stated on the pages read",
+        "Noun Pro monthly (non-yearly) price not shown on pricing page",
+        "Whether Public Domain photos require any account/sign-in to download free was not confirmed"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/noun-project-photos.md",
+        "lint": "pass"
+      }
+    },
+    "nucleo": {
+      "researchedOn": "2026-10-19",
+      "verdict": "skip",
+      "verdictReason": "Core product (Nucleo's 40,000+ SVG icon library) is paid-only: bundles from $69 to $405/$149, no permanent free plan or free tier for the icon sets themselves. The site's separate 'Free Icons' page offers a handful of small open-source SVG sets, but no license terms are stated for them and they are not a free tier of the Nucleo product being described here, so this does not pass the 'free for real' bar.",
+      "site": {
+        "name": "Nucleo",
+        "url": "https://nucleoapp.com",
+        "alive": true,
+        "operator": "Independent duo (Claudia Romano and Sebastiano Guerriero), Italy, since 2014"
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "$69 (Micro Bold Icons bundle); All Icons Bundle $149 (listed beside a crossed-out $405; a separate section also shows a conflicting '$299/year' label on what is otherwise described as a one-time payment)",
+        "evidence": {
+          "url": "https://nucleoapp.com/pricing",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://nucleoapp.com",
+          "date": "2026-10-19",
+          "note": "product description and operator"
+        },
+        {
+          "url": "https://nucleoapp.com/pricing",
+          "date": "2026-10-19",
+          "note": "bundle prices; no stated free plan"
+        },
+        {
+          "url": "https://nucleoapp.com/free-icons",
+          "date": "2026-10-19",
+          "note": "separate small free SVG icon sets, no license terms given"
+        },
+        {
+          "url": "https://nucleoapp.com/license",
+          "date": "2026-10-19",
+          "note": "Standard paid license terms (commercial use allowed, 250-icon project cap); does not cover the free-icons page"
+        }
+      ],
+      "unverified": [
+        "License terms for the free-icons page sets (attribution, commercial use) were not stated on the pages read",
+        "Whether the $149/$299 bundle pricing is one-time or yearly is contradictory on the pricing page",
+        "No dedicated safety search beyond a general web search turning up no scam/malware/shutdown/acquisition hits"
+      ],
+      "injectionSeen": null
+    },
+    "nudges-fyi": {
+      "researchedOn": "2026-10-19",
+      "verdict": "blocked",
+      "verdictReason": "Client-rendered SPA (React bundle on Vercel); the actual product — a library of 47 interactive behavioral-science field cards — only exists behind JS execution. Raw HTML/meta and /terms, /privacy, /about, /library all return the same empty SPA shell (same 4117-byte index.html), so features, pricing specifics, and license/terms text cannot be verified without running client JS, which is not permitted.",
+      "site": {
+        "name": "Nudges.fyi",
+        "url": "https://www.nudges.fyi",
+        "alive": true,
+        "operator": "Sudha Broslawsky (individual; listed as Designer · Researcher · Builder · Leader, contact sudha@aspireux.com)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.nudges.fyi",
+          "date": "2026-10-19",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.nudges.fyi",
+          "date": "2026-10-19",
+          "note": "Raw HTML only: title, meta description ('47 interactive field cards covering nudges, biases, heuristics, and AI phenomena. A practical reference for designers, researchers, and product teams building with AI.'), author Sudha Broslawsky, JSON-LD listing 47 items, last-modified 2026-10-15. Body is an empty <div id=\"root\"> SPA mount with no server-rendered content."
+        },
+        {
+          "url": "https://www.nudges.fyi/robots.txt",
+          "date": "2026-10-19",
+          "note": "Allows all crawling; sitemap linked. No block on bots."
+        },
+        {
+          "url": "https://www.nudges.fyi/terms , https://www.nudges.fyi/privacy , https://www.nudges.fyi/about , https://www.nudges.fyi/library",
+          "date": "2026-10-19",
+          "note": "All return the identical SPA shell (Content-Length 4117, same ETag) — no distinct server-rendered terms/license/about/library content reachable without JS."
+        }
+      ],
+      "unverified": [
+        "Actual list/content of the 47 field cards",
+        "Whether the site is truly 100% free or has any paid tier/signup",
+        "License/terms of use for the content",
+        "Whether linking/listing is permitted (no reachable terms text)"
+      ],
+      "injectionSeen": null
+    },
+    "nuraform": {
+      "researchedOn": "2026-10-19",
+      "verdict": "list",
+      "site": {
+        "name": "Nuraform",
+        "url": "https://www.nuraform.com",
+        "alive": true,
+        "operator": "Nuraform (contact support@nuraform.com / hello@nuraform.com; no further legal-entity detail published)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "'Free Forever, No Card Required' plan: 5 forms, 1 file upload per form (2 MB limit), AI summaries every 15 submissions, 2 layouts, 2 backgrounds, subtle Nuraform branding, no intro/outro customization, no folders.",
+        "paidFrom": "Pro plan $20/month (unlimited forms, unlimited uploads per form at 5 MB limit, AI summaries every 5 submissions, all layouts/backgrounds, custom brand tag, intro/outro customization; folders listed 'Coming Soon')",
+        "evidence": {
+          "url": "https://www.nuraform.com/pricing",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: unclear — ToS bars commercial exploitation/redistribution of the service itself, says nothing about directory listings · attribution: not required · limit: free tier capped at 5 forms",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.nuraform.com/terms",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "nuraform",
+        "type": "AI Tool",
+        "category": "Productivity",
+        "title": "Nuraform — AI Form Builder",
+        "description": "Describe the form you want and Nuraform's AI drafts the questions, with response analytics, AI summaries, and a permanent free tier.",
+        "tags": [
+          "ai-tool",
+          "no-code",
+          "productivity"
+        ],
+        "relatedResources": [
+          "coda",
+          "airtable"
+        ],
+        "similarResources": [
+          "chatgpt",
+          "claude-ai"
+        ],
+        "keyFeatures": [
+          "Generates form questions from a plain-language description using AI",
+          "AI-generated response summaries (frequency varies by plan)",
+          "Response analytics dashboard",
+          "Multiple layout and background themes",
+          "Custom branding and intro/outro customization on paid plan",
+          "Free forever tier with no card required (capped at 5 forms)"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons v14 — no exact match for 'Nuraform' (checked via scripts/check-icon.mjs)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition hits found; search engine returned no substantive results either way (treated as no red flags, not as confirmation)."
+      },
+      "sources": [
+        {
+          "url": "https://www.nuraform.com",
+          "date": "2026-10-19",
+          "note": "Product description: AI-powered form builder, response analytics, AI summaries, custom branding; links to pricing/terms."
+        },
+        {
+          "url": "https://www.nuraform.com/pricing",
+          "date": "2026-10-19",
+          "note": "Free vs Pro ($20/month) tier breakdown with exact limits quoted above."
+        },
+        {
+          "url": "https://www.nuraform.com/terms",
+          "date": "2026-10-19",
+          "note": "IP clause: 'You may not reproduce, reverse-engineer, or commercially exploit any part of the service without prior consent.' Redistribution clause: 'You may not reverse engineer, replicate, or redistribute platform assets without permission.' No mention of directory listings."
+        }
+      ],
+      "unverified": [
+        "Legal entity / company registration behind Nuraform",
+        "Yearly Pro price (page showed a Yearly/Monthly toggle but only the monthly $20 figure)",
+        "Any numeric response/submission cap (page states no explicit limit on submissions)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/nuraform.md",
+        "lint": "pass"
+      }
+    },
+    "oat": {
+      "researchedOn": "2026-10-19",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Oat",
+        "url": "https://oat.ink",
+        "alive": true,
+        "operator": "Kailash Nadh"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Fully free, open-source library; no paid tiers, no account or sign-up needed",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://oat.ink",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT · commercial: yes · attribution: required (copyright notice retained) · limit: provided without warranty",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/knadh/oat",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "oat",
+        "type": "Library",
+        "category": "Development",
+        "title": "Oat",
+        "description": "Zero-dependency, ~10KB HTML/CSS/JS UI library that styles semantic elements directly, with no build step, npm, or framework needed.",
+        "tags": [
+          "open-source",
+          "ui-ux",
+          "web"
+        ],
+        "relatedResources": [
+          "codesandbox",
+          "stackblitz"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Ultra-lightweight: about 10KB combined CSS and JS, minified and gzipped",
+          "Zero dependencies and no build step; drop the CSS/JS files into any page",
+          "Styles native semantic HTML elements and attributes directly, so most components need no extra classes",
+          "A few components use minimal WebComponents for dynamic behavior",
+          "Automatic dark mode support",
+          "MIT-licensed, source on GitHub"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "checked scripts/check-icon.mjs against Simple Icons, 2026-10-19: no exact match (closest: boat, floatplane)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Web search 2026-10-19 found no scam/malware/shutdown signals; third-party GitHub stats pages show the repo recently active (push reported ~9 days prior) with an MIT license badge. Not a clone of an existing RL entry (rl-index --find \"oat\": no match)."
+      },
+      "sources": [
+        {
+          "url": "https://oat.ink",
+          "date": "2026-10-19",
+          "note": "product description, features, author link; no pricing or license info on the page itself"
+        },
+        {
+          "url": "https://github.com/knadh/oat",
+          "date": "2026-10-19",
+          "note": "confirmed MIT license, repo description, feature list"
+        },
+        {
+          "url": "web search: \"Oat UI library knadh scam malware shutting down\"",
+          "date": "2026-10-19",
+          "note": "no scam/malware/shutdown results for this project; unrelated malware hits were for differently-named packages"
+        }
+      ],
+      "unverified": [
+        "Exact current GitHub star count and last-commit date (only seen via third-party mirror pages, not GitHub itself)",
+        "npm publish status / package name, if any",
+        "Whether any companion templates or demo pages beyond /demo exist"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/oat.md",
+        "lint": "pass"
+      }
+    },
+    "octopus-do": {
+      "researchedOn": "2026-10-19",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Octopus.do",
+        "url": "https://octopus.do",
+        "alive": true,
+        "operator": "SIA Scada"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan with no time limit: 1 user, 1 project, unlimited editors, 300 crawler pages, 200MB storage; wireframes, colors, SEO mode and the AI assistant are limited; branding, PNG/PDF export and activity history are Pro-only",
+        "paidFrom": "Pro from $14/month billed yearly ($16/month billed monthly); Team from $20/user/month billed yearly ($24/user/month monthly); Enterprise is contact-only",
+        "evidence": {
+          "url": "https://octopus.do/sitemap/pricing",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS (SIA Scada) · commercial: not restricted in the ToS · attribution: not required · limit: trademarks/trade dress may not be used without written consent",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://octopus.do/sitemap/terms",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "octopus-do",
+        "type": "Tool",
+        "category": "Productivity",
+        "title": "Octopus.do",
+        "description": "Visual sitemap builder for planning websites: map pages and content, crawl existing sites, and export, with a free plan and paid Pro/Team tiers.",
+        "tags": [
+          "website-builder",
+          "project-management",
+          "productivity",
+          "ai-tool"
+        ],
+        "relatedResources": [
+          "webflow",
+          "squarespace",
+          "miro"
+        ],
+        "similarResources": [
+          "figjam"
+        ],
+        "keyFeatures": [
+          "Visual sitemap/wireframe builder for planning website structure and content",
+          "Crawls existing sites to pull in pages automatically (free plan: up to 300 pages)",
+          "No sign-up required to start building a sitemap",
+          "AI assistant to help generate a sitemap (limited on the free plan)",
+          "Export and publishing options; PNG/PDF export is a paid-only feature",
+          "Integrations/API and docs for ChatGPT, Claude and MCP mentioned on the site"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "checked scripts/check-icon.mjs against Simple Icons, 2026-10-19: no exact match (closest: c, cplusplus, d)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Web search 2026-10-19 found no scam/malware/shutdown/acquisition results for Octopus.do; unrelated hits were for differently-named malware (\"Octopus Scanner\", Octo/Coper Android botnet). Not a duplicate (rl-index --find \"octopus\": no match)."
+      },
+      "sources": [
+        {
+          "url": "https://octopus.do",
+          "date": "2026-10-19",
+          "note": "product description, feature claims, link to pricing/terms/privacy pages"
+        },
+        {
+          "url": "https://octopus.do/sitemap/pricing",
+          "date": "2026-10-19",
+          "note": "confirmed permanent free plan and its limits, paid plan prices"
+        },
+        {
+          "url": "https://octopus.do/sitemap/terms",
+          "date": "2026-10-19",
+          "note": "confirmed operator (SIA Scada), no clause forbidding directory listing, trademark restriction"
+        },
+        {
+          "url": "web search: \"Octopus.do sitemap builder scam malware shutting down acquired\"",
+          "date": "2026-10-19",
+          "note": "no scam/malware/shutdown/acquisition results found for this product"
+        }
+      ],
+      "unverified": [
+        "Whether the free plan's AI assistant has a hard usage cap (page says \"limited\" without a number)",
+        "Enterprise pricing (contact-only, not published)",
+        "Exact legal relationship between brand \"Octopus\" and operating company SIA Scada beyond the ToS statement"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/octopus-do.md",
+        "lint": "pass"
+      }
+    },
+    "oddcontrast": {
+      "researchedOn": "2026-10-19",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "OddContrast",
+        "url": "https://www.oddcontrast.com",
+        "alive": true,
+        "operator": "OddBird"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entirely free, no account, no sign-in, no pricing page on the site",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.oddcontrast.com",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "BSD-3-Clause (source on GitHub) · commercial: yes · attribution: required (copyright notice) · limit: provided with no warranty",
+        "openSource": true,
+        "spdx": "BSD-3-Clause",
+        "evidence": {
+          "url": "https://github.com/oddbird/oddcontrast",
+          "date": "2026-10-19",
+          "confidence": "second-hand"
+        }
+      },
+      "rl": {
+        "slug": "oddcontrast",
+        "type": "Tool",
+        "category": "Design",
+        "title": "OddContrast",
+        "description": "A free WCAG contrast checker that accepts HEX, HSL, LAB, LCH, OKLab, OKLCH, P3 and sRGB colors and reports AA/AAA pass results.",
+        "tags": [
+          "color-palette",
+          "ui-ux",
+          "visual-design",
+          "open-source",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Checks WCAG 2 contrast ratio between a foreground and background color",
+          "Accepts many color formats: HEX, HSL, LAB, LCH, OKLab, OKLCH, P3, sRGB",
+          "Reports AA/AAA pass or fail for both normal and large text",
+          "Flags colors that fall outside a display's gamut",
+          "Open source (BSD-3-Clause) on GitHub, built with Color.js"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-19 (no exact match)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Small open-source tool by OddBird, a web design/dev agency; no scam/shutdown signals in the pages read; no dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://www.oddcontrast.com",
+          "date": "2026-10-19",
+          "note": "what the tool does, supported color formats, no pricing/paid mentioned, operator (OddBird) in footer"
+        },
+        {
+          "url": "https://github.com/oddbird/oddcontrast",
+          "date": "2026-10-19",
+          "note": "LICENSE file present (BSD-3-Clause), repo is the deploy source for the site"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search run",
+        "exact LICENSE file text not read directly, only summarized from the GitHub repo page"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/oddcontrast.md",
+        "lint": "pass"
+      }
+    },
+    "odyssey": {
+      "researchedOn": "2026-10-19",
+      "verdict": "skip",
+      "verdictReason": "AI research lab with 'Try' links to products (Odyssey-3, Agora-2) but no disclosed pricing, free tier, or access terms anywhere on the site; input pricing label is 'Beta' with nothing confirming a permanent free tier or that it's even open access; does not meet the 'free for real' bar.",
+      "site": {
+        "name": "Odyssey",
+        "url": "https://odyssey.systems",
+        "alive": true,
+        "operator": "Odyssey (AI lab; CTO Jeff Hawke named on the site)"
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://odyssey.systems",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://odyssey.systems",
+          "date": "2026-10-19",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": null,
+        "type": null,
+        "category": null,
+        "title": null,
+        "description": null,
+        "tags": [],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-19 (no exact match)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/shutdown signals in the pages read; site mentions a $310M Series B; no dedicated safety search run"
+      },
+      "sources": [
+        {
+          "url": "https://odyssey.world",
+          "date": "2026-10-19",
+          "note": "permanently redirects (308) to https://odyssey.systems"
+        },
+        {
+          "url": "https://odyssey.systems",
+          "date": "2026-10-19",
+          "note": "company/product description, team background, 'Try' links, no pricing or access terms found; Legal link present but contents not read"
+        },
+        {
+          "url": "https://experience.odyssey.systems",
+          "date": "2026-10-19",
+          "note": "JS-only product page returned only a title, no access/pricing info"
+        }
+      ],
+      "unverified": [
+        "access/pricing terms for the Odyssey-3 and Agora-2 'Try' products",
+        "Legal/terms page content not read",
+        "no dedicated safety search run"
+      ],
+      "injectionSeen": null
+    },
+    "off-type": {
+      "researchedOn": "2026-10-19",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Off Type",
+        "url": "https://off-type.com",
+        "alive": true,
+        "operator": "Off Type Foundry (site states \"Powered by Pangram Pangram Foundry\"; no further legal entity named)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "All font families are free to try for personal, non-commercial use (portfolios, client pitches, personal social posts); no sign-up mentioned",
+        "paidFrom": "Not listed on the pages read; per-project commercial license priced per family (web/print/app/social/broadcast), not quoted on the home or FAQ page",
+        "evidence": {
+          "url": "https://off-type.com",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Off Type Commercial EULA · commercial: no on the free tier (requires a paid per-project license) · attribution: not stated · limit: free use is personal/non-commercial only",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://off-type.com/pages/faqs",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "off-type",
+        "type": "Font",
+        "category": "Design",
+        "title": "Off Type",
+        "description": "Off-beat display font foundry (Spaceship, Jubilee, Weird Serif and more), free to try for personal use with per-project paid licenses for commercial work.",
+        "tags": [
+          "typography",
+          "graphic-design",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "google-fonts",
+          "fontpair"
+        ],
+        "similarResources": [
+          "google-fonts"
+        ],
+        "keyFeatures": [
+          "Display/off-beat font families: Spaceship, Sector Collection, Weird Serif, Jubilee Collection, Pergamon Collection, Bulb Collection, 2049, Neue Montreal Squeezed, Miniature, Brut",
+          "Free personal-use trial of every font, no commercial use",
+          "Per-project commercial licensing split by use (print, web, app, social, logo, broadcast, video game)",
+          "Some families include variable fonts, italics or \"Rotalics\"",
+          "License upgrades fully credit what was already paid"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-19: no exact match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition hits for Off Type itself; search surfaced unrelated generic font-scam and font-foundry-legal-threat stories about other foundries, not this one"
+      },
+      "sources": [
+        {
+          "url": "https://off-type.com",
+          "date": "2026-10-19",
+          "note": "product list, \"free to try\" pricing line, footer/operator text, style tags"
+        },
+        {
+          "url": "https://off-type.com/pages/faqs",
+          "date": "2026-10-19",
+          "note": "personal-use definition, licensing scope (print/web/app/social/broadcast/game), upgrade policy"
+        }
+      ],
+      "unverified": [
+        "Exact commercial license prices (not shown on home/FAQ pages, not opened on individual product pages)",
+        "EULA PDF (\"EULA - Off Type Commercial\") not opened; wording of attribution/limits is from the FAQ summary only",
+        "Legal entity/operator beyond \"Off Type Foundry\" / Pangram Pangram Foundry credit not confirmed"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/off-type.md",
+        "lint": "pass"
+      }
+    },
+    "ogimage-gallery": {
+      "researchedOn": "2026-10-19",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "OGimage.gallery",
+        "url": "https://www.ogimage.gallery",
+        "alive": true,
+        "operator": "Luc Chaissac (credited as creator on the About page; no company entity named)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Full browsing of the gallery, categories, \"By Site\" listing and library, with no sign-up, paywall, or account seen",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.ogimage.gallery",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No license or terms page found · commercial: not stated · attribution: not stated · limit: unknown (treat as unverified)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.ogimage.gallery/about",
+          "date": "2026-10-19",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "ogimage-gallery",
+        "type": "Website",
+        "category": "Design",
+        "title": "OGimage.gallery",
+        "description": "A hand-picked gallery of Open Graph preview images from real websites, browsable by category or by site, with a resource library and browser extension.",
+        "tags": [
+          "inspiration",
+          "social-media-design",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "awwwards",
+          "dribbble"
+        ],
+        "similarResources": [
+          "fontpair"
+        ],
+        "keyFeatures": [
+          "Curated gallery of OG (social preview) images, each linked back to its source site",
+          "Browse by category: Animated, App, Arts & Culture, Creative, Dynamic, Finance, Food, Health, Portfolios, Resources, SaaS, Stores",
+          "\"By Site\" listing to browse by company/site",
+          "Resource library section (/library)",
+          "Browser extension (/extension)",
+          "Community submissions via a Submit page"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-19: no exact match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition hits for OGimage.gallery; search results were generic/unrelated noise (old scareware stories, an unrelated and disregarded explicit-content spam result)"
+      },
+      "sources": [
+        {
+          "url": "https://www.ogimage.gallery",
+          "date": "2026-10-19",
+          "note": "site purpose, categories, no-cookies/no-data statement, nav structure"
+        },
+        {
+          "url": "https://www.ogimage.gallery/about",
+          "date": "2026-10-19",
+          "note": "operator name (Luc Chaissac), confirmed no license/terms text present"
+        }
+      ],
+      "unverified": [
+        "No license/terms page found on the site",
+        "Operator confirmed only as an individual name on the About page, no company/legal entity",
+        "Monetization model (if any) not stated anywhere seen"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/ogimage-gallery.md",
+        "lint": "pass"
+      }
+    },
+    "okara": {
+      "researchedOn": "2026-10-19",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Okara",
+        "url": "https://okara.ai",
+        "alive": true,
+        "operator": "StreamOye Pte Ltd"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "\"Free AI CMO\" plan at $0, no credit card: website analysis and strategy only (product info document, 30-day marketing strategy); no content drafting or publishing",
+        "paidFrom": "AI CMO Lite from $129/month (or $1,290/year, about $108/month)",
+        "evidence": {
+          "url": "https://okara.ai/pricing",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS (not open source) · commercial: yes, for marketing own business · attribution: not required · limit: free plan is analysis/strategy only, no content generation or publishing",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://okara.ai/terms-of-service",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "okara",
+        "type": "AI Tool",
+        "category": "Marketing",
+        "title": "Okara",
+        "description": "AI marketing agents that research keywords, draft SEO, Reddit and social content, fix technical SEO via GitHub PRs, and publish to WordPress or Webflow.",
+        "tags": [
+          "ai-tool",
+          "automation",
+          "writing"
+        ],
+        "relatedResources": [
+          "chatgpt",
+          "claude-ai"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Reddit thread discovery and reply drafting agent",
+          "SEO keyword-gap analysis and blog post drafting",
+          "Technical SEO fixes submitted as GitHub pull requests",
+          "Tracks brand citations in AI search answers (GEO)",
+          "Influencer outreach and social post drafting",
+          "Direct publishing to WordPress and Webflow"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no exact Simple Icons match (scripts/check-icon.mjs, 2026-10-19)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition hits; founded 2022 as a seed-stage company per Peak XV company profile, product relaunched as AI marketing agents"
+      },
+      "sources": [
+        {
+          "url": "https://okara.ai",
+          "date": "2026-10-19",
+          "note": "product description, free plan mention, operator footer"
+        },
+        {
+          "url": "https://okara.ai/pricing",
+          "date": "2026-10-19",
+          "note": "plan names, free plan limits, lowest paid price"
+        },
+        {
+          "url": "https://okara.ai/terms-of-service",
+          "date": "2026-10-19",
+          "note": "acceptable use, no listing/commercial-use restriction found, legal entity name"
+        },
+        {
+          "url": "https://digitool.co/tool/okara/",
+          "date": "2026-10-19",
+          "note": "resolved tool's own site URL"
+        }
+      ],
+      "unverified": [
+        "exact wording of free vs Pro plan differences (FAQ answer not shown in fetched content)",
+        "whether $0 plan is truly unlimited in time vs a soft trial state",
+        "no dedicated SPDX/software license page beyond Terms of Service"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/okara.md",
+        "lint": "pass"
+      }
+    },
+    "oklch-color-picker": {
+      "researchedOn": "2026-10-19",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "OKLCH Color Picker & Converter",
+        "url": "https://oklch.com",
+        "alive": true,
+        "operator": "Evil Martians (Andrey Sitnik & Roman Shamin)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire tool is free with no account, paywall, or usage limit; open-source project",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://oklch.com",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT · commercial: yes (selling copies explicitly permitted) · attribution: copyright and permission notice must be kept in copies · limit: provided \"AS IS\", no warranty",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/evilmartians/oklch-picker/blob/main/LICENSE",
+          "date": "2026-10-19",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "oklch-color-picker",
+        "type": "Tool",
+        "category": "Design",
+        "title": "OKLCH Color Picker",
+        "description": "Free, open-source browser tool to convert HEX/RGB/HSL to OKLCH, tweak lightness, chroma and hue, and preview P3/Rec2020 gamut with sRGB fallback.",
+        "tags": [
+          "color-palette",
+          "open-source",
+          "web",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "fontpair"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Convert HEX, RGB and HSL values to OKLCH and back",
+          "Adjust Lightness, Chroma, Hue and Alpha with live preview",
+          "3D model of the OKLCH color space",
+          "P3 and Rec2020 gamut display with closest-chroma sRGB fallback",
+          "Open source (MIT) with linked GitHub source code"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no exact Simple Icons match (scripts/check-icon.mjs, 2026-10-19)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Built and maintained by Evil Martians (devtools consultancy); no scam/malware/shutdown hits found"
+      },
+      "sources": [
+        {
+          "url": "https://oklch.com",
+          "date": "2026-10-19",
+          "note": "feature description, operator credit, no pricing/paywall"
+        },
+        {
+          "url": "https://github.com/evilmartians/oklch-picker/blob/main/LICENSE",
+          "date": "2026-10-19",
+          "note": "MIT license text"
+        }
+      ],
+      "unverified": [
+        "no dedicated safety search run (searched general license/ecosystem query instead, no adverse results surfaced)",
+        "exact repository name confirmed as evilmartians/oklch-picker; GitHub README/about page itself not separately fetched"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/oklch-color-picker.md",
+        "lint": "pass"
+      }
     }
   }
 }
