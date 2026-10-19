@@ -72943,6 +72943,2367 @@
         "no dedicated safety search run (skipped per Tier A screen since verdict is skip on pricing alone)"
       ],
       "injectionSeen": null
+    },
+    "moda": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Moda",
+        "url": "https://moda.app",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free forever: 500 AI credits per seat/month, up to 10 members, slide decks up to 10 slides, websites on a moda.page subdomain, real-time collaboration, API/MCP up to 3 concurrent tasks, community (Slack) support; exports carry a Moda watermark and AI features pause when credits run out",
+        "paidFrom": "$30 per user/month (Pro, billed monthly), 6,000 AI credits/seat/month, watermark-free exports",
+        "evidence": {
+          "url": "https://moda.app/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Moda Terms of Service · commercial: yes (worldwide, sublicensable license for personal and commercial use) · attribution: not required · limit: free-plan exports carry a Moda watermark",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://moda.app/terms",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "moda",
+        "type": "AI Tool",
+        "category": "Design",
+        "title": "Moda",
+        "description": "AI canvas that generates fully editable slide decks, social posts, ads, documents, and websites, with real-time team collaboration.",
+        "tags": [
+          "ai-tool",
+          "graphic-design",
+          "design-templates",
+          "social-media-design"
+        ],
+        "relatedResources": [
+          "figma-community"
+        ],
+        "similarResources": [
+          "canva"
+        ],
+        "keyFeatures": [
+          "Generates editable slide decks, social posts, ads, documents, websites and app UI from prompts",
+          "Real-time collaboration with up to 10 members on the free plan",
+          "Brand kits and multiple AI design models on paid plans",
+          "API and MCP access for automated design workflows",
+          "Publish generated websites on a moda.page subdomain (free) or a custom domain (paid)"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17: no exact match (closest: d, modal)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown hits; public launch March 2026 with $7.5M seed led by General Catalyst (per search results, second-hand)"
+      },
+      "sources": [
+        {
+          "url": "https://moda.app",
+          "date": "2026-10-17",
+          "note": "product description, pitch, free-plan CTA"
+        },
+        {
+          "url": "https://moda.app/pricing",
+          "date": "2026-10-17",
+          "note": "plan prices, credits, limits"
+        },
+        {
+          "url": "https://moda.app/terms",
+          "date": "2026-10-17",
+          "note": "commercial use, content ownership, watermark, name/logo use"
+        },
+        {
+          "url": "https://moda.app/licenses",
+          "date": "2026-10-17",
+          "note": "checked; page lists only third-party open-source library licenses, not relevant to Moda's own terms"
+        }
+      ],
+      "unverified": [
+        "legal entity/operator name not stated on site (copyright line reads only \"Moda\")",
+        "annual pricing discount amount not legible in fetched content",
+        "exact watermark wording not quoted, inferred from FAQ summary"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/moda.md",
+        "lint": "pass"
+      }
+    },
+    "modeinspect": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Modeinspect",
+        "url": "https://modeinspect.com",
+        "alive": true,
+        "operator": "Acreom Inc"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Hobby plan, $0/month, no credit card required: full canvas connected to your codebase, unlimited connected repositories, monthly agent-usage limit for personal projects (exact number not published)",
+        "paidFrom": "$20/month per person (Pro, billed monthly, cancel anytime)",
+        "evidence": {
+          "url": "https://modeinspect.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Modeinspect Terms and Conditions · commercial: limited (license granted \"solely for your internal business operations\", non-exclusive/non-transferable) · attribution: not required · limit: may not use the Service to build a competing product",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://modeinspect.com/terms-and-conditions",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "modeinspect",
+        "type": "AI Tool",
+        "category": "Development",
+        "title": "Modeinspect",
+        "description": "AI design tool that runs inside your codebase, lets you edit the live product on a canvas, and ships the changes as pull requests.",
+        "tags": [
+          "ai-tool",
+          "ui-ux",
+          "design-systems"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "figma",
+          "framer"
+        ],
+        "keyFeatures": [
+          "Captures live product UI onto a design canvas connected to your codebase",
+          "Visual edits generate code changes using your existing components and tokens",
+          "Opens changes as normal, merge-ready pull requests",
+          "Free Hobby plan with unlimited connected repositories",
+          "SSO/SAML, SCIM and SOC 2 Type II available on Teams/Enterprise"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17: no exact match (closest: e, c, cplusplus, d)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown hits found; search returned no results naming Modeinspect at all"
+      },
+      "sources": [
+        {
+          "url": "https://modeinspect.com",
+          "date": "2026-10-17",
+          "note": "product description, free-plan mention, operator copyright line"
+        },
+        {
+          "url": "https://modeinspect.com/pricing",
+          "date": "2026-10-17",
+          "note": "Hobby/Pro/Teams plan prices and inclusions"
+        },
+        {
+          "url": "https://modeinspect.com/terms-and-conditions",
+          "date": "2026-10-17",
+          "note": "commercial-use license scope, content ownership, liability, competing-product restriction"
+        }
+      ],
+      "unverified": [
+        "exact monthly agent-limit number for Hobby and Pro plans not published",
+        "whether \"Acreom Inc\" (footer copyright) is the sole legal operator vs. a related entity"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/modeinspect.md",
+        "lint": "pass"
+      }
+    },
+    "modelence": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Modelence",
+        "url": "https://modelence.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan, $0/month: one instance that sleeps when idle, shared resources, one region, free Modelence subdomain, monitoring/alerts, support within 2-3 business days",
+        "paidFrom": "$20/month (Starter), includes $20 of cloud usage then pay-as-you-go, up to 4 vCPU, 3 regions",
+        "evidence": {
+          "url": "https://modelence.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Modelence Terms of Service (platform) + Apache License 2.0 (Modelence Framework, open source) · commercial: yes · attribution: not required for the hosted platform · limit: Framework use is governed by Apache-2.0 separately from the Terms",
+        "openSource": true,
+        "spdx": "Apache-2.0",
+        "evidence": {
+          "url": "https://modelence.com/terms",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "modelence",
+        "type": "Tool",
+        "category": "Development",
+        "title": "Modelence",
+        "description": "Cloud platform for running production backends, with managed databases, scheduled jobs, and an open-source full-stack app framework.",
+        "tags": [
+          "ai-tool",
+          "automation",
+          "open-source"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "codesandbox",
+          "stackblitz"
+        ],
+        "keyFeatures": [
+          "App Builder generates full-stack apps from a prompt",
+          "Hosts always-on backend processes, managed databases, and cron jobs on AWS across 17 regions",
+          "Automatic restarts, traffic rerouting, and capacity changes when a process crashes or spikes",
+          "Open-source Modelence Framework (Apache License 2.0) lets you move an app to your own AWS account",
+          "Free plan runs hobby projects and prototypes on a sleeping, shared instance"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17: no exact match (closest: e, c, cplusplus, ce, d)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown hits found; search returned no results naming Modelence at all. Site shows a Y Combinator backing logo (second-hand, not independently confirmed)"
+      },
+      "sources": [
+        {
+          "url": "https://modelence.com",
+          "date": "2026-10-17",
+          "note": "product description, free-tier FAQ line, YC logo"
+        },
+        {
+          "url": "https://modelence.com/pricing",
+          "date": "2026-10-17",
+          "note": "Free/Starter/Pro/Scale/Enterprise prices and inclusions, cloud-usage rates"
+        },
+        {
+          "url": "https://modelence.com/terms",
+          "date": "2026-10-17",
+          "note": "content ownership, Apache-2.0 framework clause, liability, resale restriction"
+        }
+      ],
+      "unverified": [
+        "legal entity/operator name not stated on site",
+        "GitHub repo modelence/modelence LICENSE file not opened directly to confirm Apache-2.0 (taken from Terms of Service text only)",
+        "no vCPU/database limit number published for the Free plan itself"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/modelence.md",
+        "lint": "pass"
+      }
+    },
+    "modern-font-stacks": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Modern Font Stacks",
+        "url": "https://modernfontstacks.com",
+        "alive": true,
+        "operator": "Dan Klammer (open source, system-fonts GitHub org)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire stack list free to browse and copy, no sign-in required",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://modernfontstacks.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "CC0-1.0 · commercial: yes · attribution: not required · limit: public-domain dedication, no warranty",
+        "openSource": true,
+        "spdx": "CC0-1.0",
+        "evidence": {
+          "url": "https://github.com/system-fonts/modern-font-stacks",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "modern-font-stacks",
+        "type": "Resource",
+        "category": "Design",
+        "title": "Modern Font Stacks",
+        "description": "Copy-paste CSS font-family stacks built from fonts already installed on modern operating systems, organized by typeface classification.",
+        "tags": [
+          "typography",
+          "web",
+          "open-source"
+        ],
+        "relatedResources": [
+          "fontpair",
+          "google-fonts"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "CSS font stacks grouped by classification (serif, sans-serif, monospace, etc.)",
+          "Uses fonts preinstalled on each OS, so no download or layout shift",
+          "One-click copy of the ready CSS declaration",
+          "Open source project, CC0 licensed, free for any use"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 (no exact match)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown hits found; maintained by a named individual with a public GitHub repo"
+      },
+      "sources": [
+        {
+          "url": "https://modernfontstacks.com",
+          "date": "2026-10-17",
+          "note": "pitch, CC0 license link, maintainer credit"
+        },
+        {
+          "url": "https://github.com/system-fonts/modern-font-stacks",
+          "date": "2026-10-17",
+          "note": "confirmed CC0-1.0 license, repo activity (237 commits, 16 open issues)"
+        }
+      ],
+      "unverified": [
+        "exact date of last commit not visible in the fetched GitHub view, so current maintenance cadence is not confirmed"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/modern-font-stacks.md",
+        "lint": "pass"
+      }
+    },
+    "modern-illustration": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "Free archive to browse; note the content itself is restricted to personal/educational/non-commercial use (not a stock-image source)",
+      "site": {
+        "name": "Modern Illustration",
+        "url": "https://www.modernillustration.org",
+        "alive": true,
+        "operator": "Zara Picken (illustrator, UK; grew out of the Ephemerama! Instagram project)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire archive free to browse, no sign-in or paywall",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.modernillustration.org",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No formal license · commercial: no · attribution: credited where known · limit: site states personal, educational and non-commercial use only; images are not licensed for reuse without contacting the curator",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.modernillustration.org/about",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "modern-illustration",
+        "type": "Website",
+        "category": "Design",
+        "title": "Modern Illustration",
+        "description": "A free online archive of printed illustration from 1950-1975, curated from one collector's personal ephemera for research and inspiration.",
+        "tags": [
+          "inspiration",
+          "print-design",
+          "visual-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "awwwards",
+          "behance",
+          "dribbble"
+        ],
+        "keyFeatures": [
+          "Archive of vintage illustrated ephemera: booklets, matchbox labels, playing cards, beermats",
+          "Covers the period c.1950-1975, with the original artist credited where known",
+          "Built from curator Zara Picken's personal collection and the earlier Ephemerama! project",
+          "Free to browse for personal, educational and non-commercial research"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 (no exact match)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown hits found; run by a named illustrator, referenced by Kottke.org as her archive"
+      },
+      "sources": [
+        {
+          "url": "https://www.modernillustration.org",
+          "date": "2026-10-17",
+          "note": "what the site is, who runs it, no pricing/cart items"
+        },
+        {
+          "url": "https://www.modernillustration.org/about",
+          "date": "2026-10-17",
+          "note": "copyright/usage statement (personal, educational, non-commercial only), curator background"
+        }
+      ],
+      "unverified": [
+        "whether any items are credited vs. uncredited at scale was not fully audited",
+        "no explicit statement on linking/listing the site in a directory"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/modern-illustration.md",
+        "lint": "pass"
+      }
+    },
+    "modor": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Modor's own Terms of Service restrict the Services/Content to non-commercial use and bar 'unauthorized framing of or linking to the Services' plus systematic data-gathering to build a directory without written permission — conflicts with RL listing a mockup tool typically used for commercial product images; needs an owner decision before drafting.",
+      "site": {
+        "name": "Modor",
+        "url": "https://modor.io",
+        "alive": true,
+        "operator": "Obvair Labs (per site footer copyright line; not otherwise named on the page)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free mockup generator with a wide selection of templates, no watermark on exports; some premium templates require a paid subscription",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://modor.io",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary ToS · commercial: restricted (Section 6 bars use of the Services 'in connection with any commercial endeavors' without approval) · attribution: not specified · limit: Content/Marks licensed for personal, non-commercial use or internal business purpose only; no systematic data-gathering or unauthorized linking/framing",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://modor.io/terms-of-service",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": null,
+        "type": null,
+        "category": null,
+        "title": null,
+        "description": null,
+        "tags": [],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 (no exact match)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition hits found in search; one third-party catalog (WebCatalog) lists it as currently free"
+      },
+      "sources": [
+        {
+          "url": "https://modor.io",
+          "date": "2026-10-17",
+          "note": "what it does, free-plan/watermark statements, footer copyright, export formats"
+        },
+        {
+          "url": "https://modor.io/pricing",
+          "date": "2026-10-17",
+          "note": "page is JS-rendered; fetch returned only the title, no plan prices or limits"
+        },
+        {
+          "url": "https://modor.io/terms-of-service",
+          "date": "2026-10-17",
+          "note": "commercial-use restriction, anti-directory/anti-linking and anti-scraping clauses"
+        }
+      ],
+      "unverified": [
+        "exact paid plan price(s) and billing period — /pricing is JS-rendered and returned no content",
+        "whether mockups a user generates themselves count as restricted 'Content' under the ToS (not defined in the terms)",
+        "whether RL could list Modor under a different reading of the ToS — needs owner judgment"
+      ],
+      "injectionSeen": null
+    },
+    "modulify": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Modulify",
+        "url": "https://modulify.ai",
+        "alive": true,
+        "operator": "Azwedo"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan ($0, forever): 1 hosted site, 35 one-time AI credits that do not refresh, free subdomain; Preview/Publish Site, Database, Storage, Realtime Analytics are listed as shared feature names across plans but the page does not break out which are free-only",
+        "paidFrom": "$20/month (Starter) or $40/month (Pro), both billed yearly",
+        "evidence": {
+          "url": "https://modulify.ai/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Azwedo Terms of Service · commercial: yes (service usable for personal or commercial use; users retain full ownership of sites/designs/content they create) · attribution: not required (none stated) · limit: no scraping, reverse-engineering, resale or redistribution of Modulify's own features",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://modulify.ai/legal/terms",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "modulify",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Modulify",
+        "description": "AI platform that designs, builds, hosts and updates websites, web apps and dashboards end to end from a prompt or screenshot.",
+        "tags": [
+          "website-builder",
+          "no-code",
+          "ai-tool"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "webflow",
+          "framer",
+          "squarespace"
+        ],
+        "keyFeatures": [
+          "Generates pages, sections, copy and app flows from a prompt, screenshot or template",
+          "Chat-based refinement of layout, copy, style, responsiveness and sections",
+          "Built-in CMS for dynamic content such as blogs and resource pages",
+          "SEO controls for metadata, page structure and social previews",
+          "Traffic analytics and one-click publishing with ongoing updates",
+          "Waitlisted import tool to rebuild existing Webflow sites with the same pages and CMS structure"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 (no exact match; closest d/fsharp, both unrelated)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown hits; one AI-tool directory (FutureTools) flagged the listing as under review for suspected upvote manipulation and poor reviews, a reputation signal only, not a security finding"
+      },
+      "sources": [
+        {
+          "url": "https://modulify.ai",
+          "date": "2026-10-17",
+          "note": "pitch, feature list, operator (footer copyright only names 'Modulify')"
+        },
+        {
+          "url": "https://modulify.ai/pricing",
+          "date": "2026-10-17",
+          "note": "plan names, prices, billing period, free-tier credit limit"
+        },
+        {
+          "url": "https://modulify.ai/legal/terms",
+          "date": "2026-10-17",
+          "note": "operator name (Azwedo), commercial-use and ownership clauses, prohibited-activity limit"
+        },
+        {
+          "url": "https://www.futuretools.io/tools/modulify-ai",
+          "date": "2026-10-17",
+          "note": "second-hand: directory review-status flag, not a security finding"
+        }
+      ],
+      "unverified": [
+        "Which specific features (Database, Storage, Realtime Analytics, custom domain, branding removal) are included on the Free plan vs. gated to paid plans - the pricing page lists the same feature names under every plan without marking differences",
+        "Enterprise Scale plan price"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/modulify.md",
+        "lint": "pass"
+      }
+    },
+    "moio": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Moio",
+        "url": "https://moioapp.com",
+        "alive": true,
+        "operator": "Moio Technologies Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan ($0/mo, no stated end date): full editor without custom fonts, 1 editor seat, Figma/Sketch/XD import plus Figma copy-paste, AI content-generation assistant, interactive components, HTML preview, community support",
+        "paidFrom": "$19.95/month (Pro), billed yearly",
+        "evidence": {
+          "url": "https://moioapp.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No dedicated terms-of-service page found (only a privacy policy at /terms-of-service) · commercial: not stated · attribution: not stated · limit: product is labeled alpha v0.1, so terms and free-plan limits may change without notice",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://moioapp.com/terms-of-service",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "moio",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Moio",
+        "description": "Design tool for building interactive interfaces and prototypes in the same canvas as the visual design, with rule-based interactions.",
+        "tags": [
+          "prototyping",
+          "ui-ux"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "figma",
+          "framer"
+        ],
+        "keyFeatures": [
+          "Vector editor with flex layouts, custom fonts (paid) and Figma/Sketch/XD import",
+          "Interaction designer with predefined behaviors for buttons, inputs, checkboxes, toggles and sliders",
+          "Visual events-and-actions rules (\"when this happens, do that\") plus state-based conditions",
+          "Variables and formula-based expressions for dynamic content",
+          "Multiplayer collaboration and reusable components",
+          "AI content assistant that generates placeholder content from semantic tags"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 (no match)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition hits for Moio specifically; search also surfaced the unrelated MioLab macOS stealer malware and the unrelated, shut-down Pixate prototyping app by name similarity only"
+      },
+      "sources": [
+        {
+          "url": "https://moioapp.com",
+          "date": "2026-10-17",
+          "note": "pitch, feature list, operator and address from footer"
+        },
+        {
+          "url": "https://moioapp.com/pricing",
+          "date": "2026-10-17",
+          "note": "Free and Pro plan names, prices, billing period, inclusions"
+        },
+        {
+          "url": "https://moioapp.com/terms-of-service",
+          "date": "2026-10-17",
+          "note": "page is a privacy policy, not a commercial/content-ownership terms page; confirms operator Moio Technologies Inc."
+        }
+      ],
+      "unverified": [
+        "Commercial-use rights and ownership of designs/content created in the tool - no terms document addresses this",
+        "Whether the Free plan is a permanent tier or will change once the alpha v0.1 product leaves alpha"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/moio.md",
+        "lint": "pass"
+      }
+    },
+    "mojo": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "FETCH-FAIL: home (www.mojo-app.com and mojo-app.com), pricing and terms-of-service pages all render as a bare JS shell (\"Mojo\" / \"Loading...\" / a bare heading only) with no readable content across repeated fetches; cannot confirm free-tier permanence, license terms or current operator detail first-party",
+      "site": {
+        "name": "Mojo",
+        "url": "https://www.mojo-app.com",
+        "alive": true,
+        "operator": "Mojo (French video-app maker; acquired by Dailymotion, a subsidiary of Orange SA, reported May 2025 - second-hand, not confirmed on the tool's own site)"
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.mojo-app.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.mojo-app.com/terms-of-service",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.mojo-app.com",
+          "date": "2026-10-17",
+          "note": "page title only (\"Mojo - Social Video and Content App for Small Businesses\"); body did not render"
+        },
+        {
+          "url": "https://www.mojo-app.com/pricing",
+          "date": "2026-10-17",
+          "note": "heading only (\"A perfect plan for every team\"); no plan names/prices rendered"
+        },
+        {
+          "url": "https://www.mojo-app.com/terms-of-service",
+          "date": "2026-10-17",
+          "note": "\"Mojo\" / \"Loading...\" only; terms text did not render"
+        },
+        {
+          "url": "https://fr.themedialeader.com/?p=107760",
+          "date": "2026-10-17",
+          "note": "second-hand: reports Dailymotion/Orange SA acquired Mojo in May 2025, 300,000+ paying subscribers; not verified on Mojo's own site"
+        }
+      ],
+      "unverified": [
+        "Whether Mojo has a real permanent free tier (third-party aggregator snippets describe free templates/music/photos/video and social sharing, but this was not confirmed first-party)",
+        "Current operator/ownership and license terms - the tool's own site is a JS shell that did not render for this fetcher"
+      ],
+      "injectionSeen": null
+    },
+    "moko": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "moko-app.com is a client-rendered page that returns only the HTML title/meta description via WebFetch, with no body content, nav, footer or pricing text; /pricing 404s and robots.txt gives no further paths. No first-party facts (operator, pricing, license) could be confirmed, and third-party listings disagree on what the product even is (mobile motion-graphics app vs. Lottie/SVG asset tool), so it cannot be verified without bypassing the JS rendering.",
+      "site": {
+        "name": "Moko",
+        "url": "https://moko-app.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://moko-app.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://moko-app.com/",
+          "date": "2026-10-17",
+          "note": "WebFetch returned only page title (\"Moko — Simple Animation Editor & Template Library\") and meta description; no body/nav/footer text"
+        },
+        {
+          "url": "https://moko-app.com/pricing",
+          "date": "2026-10-17",
+          "note": "404 Not Found"
+        },
+        {
+          "url": "https://moko-app.com/robots.txt",
+          "date": "2026-10-17",
+          "note": "Allow: / and a sitemap link; no additional useful paths found"
+        }
+      ],
+      "unverified": [
+        "what the product actually is beyond the one-line meta pitch",
+        "pricing / free tier",
+        "operator / company",
+        "license / terms",
+        "safety search not conclusive either way (no results for moko-app.com)"
+      ],
+      "injectionSeen": null
+    },
+    "momen": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Momen",
+        "url": "https://momen.app",
+        "alive": true,
+        "operator": "Momen Technologies Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan ($0): 1 API, 1 Actionflow, 1 AI agent; publishing is preview-access only, served on a momen.app subdomain with Momen branding (no custom domain, no public publish)",
+        "paidFrom": "Basic plan from $33 per project per month, billed annually",
+        "evidence": {
+          "url": "https://momen.app/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Momen Terms of Service (hosted SaaS, not open source) · commercial: yes, the granted license covers building and hosting apps/sites for the public · attribution: not required · limit: license is non-exclusive, non-transferable and revocable; reselling, leasing or redistributing the platform itself is prohibited",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://momen.app/term",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "momen",
+        "type": "AI Tool",
+        "category": "Development",
+        "title": "Momen",
+        "description": "AI no-code builder that turns a text description into a web or mobile app's database, logic and screens, editable visually.",
+        "tags": [
+          "no-code",
+          "ai-tool",
+          "web"
+        ],
+        "relatedResources": [
+          "airtable"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "AI generates a database, logic and UI screens from a plain-language app description",
+          "Visual editors for data, logic/agentic AI workflows, and screen design",
+          "Builds web apps, iOS apps, or backend-only projects from one project",
+          "Developers can extend with React components, custom JavaScript, or a GraphQL API",
+          "Free plan gives 1 API, 1 Actionflow and 1 AI agent, preview-only publishing"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17: no exact match (closest fuzzy hit was the unrelated \"Momenteo\")"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown hits for momen.app specifically; unrelated \"MoMo\"/\"momo\" search hits are a different brand"
+      },
+      "sources": [
+        {
+          "url": "https://momen.app",
+          "date": "2026-10-17",
+          "note": "product description, audience (no-code founders / developers), nav links"
+        },
+        {
+          "url": "https://momen.app/pricing",
+          "date": "2026-10-17",
+          "note": "plan names, free plan limits, cheapest paid price"
+        },
+        {
+          "url": "https://momen.app/term",
+          "date": "2026-10-17",
+          "note": "license grant, commercial-use and redistribution clauses, operator/address"
+        }
+      ],
+      "unverified": [
+        "exact app/project count limit on the free plan (page did not state one)",
+        "monthly (non-annual) price for the Basic plan",
+        "no dedicated license page beyond the Terms & Conditions"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/momen.md",
+        "lint": "pass"
+      }
+    },
+    "mona-and-hubot-sans": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Mona Sans & Hubot Sans",
+        "url": "https://github.com/mona-sans",
+        "alive": true,
+        "operator": "GitHub, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Fully free, open source font files (variable, static and webfont formats) downloadable from GitHub, no account or payment",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://github.com/mona-sans",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "SIL Open Font License 1.1 · commercial: yes · attribution: not required to typeset documents · limit: modified/derivative versions must not use the reserved names \"Mona Sans\" or \"Hubot Sans\"",
+        "openSource": true,
+        "spdx": "OFL-1.1",
+        "evidence": {
+          "url": "https://github.com/github/mona-sans/blob/main/LICENSE",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "mona-and-hubot-sans",
+        "type": "Font",
+        "category": "Design",
+        "title": "Mona Sans & Hubot Sans",
+        "description": "GitHub's two free, open source variable typefaces — a grotesque (Mona Sans) and its geometric sidekick (Hubot Sans) — for product, web and print.",
+        "tags": [
+          "typography",
+          "open-source"
+        ],
+        "relatedResources": [
+          "fontpair"
+        ],
+        "similarResources": [
+          "google-fonts"
+        ],
+        "keyFeatures": [
+          "Two companion variable fonts: Mona Sans (industrial-era grotesque) and Hubot Sans (geometric, technical accents)",
+          "Three variable axes on both: weight, width and slant",
+          "Licensed under the SIL Open Font License 1.1, free for commercial use",
+          "Shipped as variable, static and webfont (woff/woff2) files on GitHub",
+          "Designed and maintained by GitHub"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17: no exact match for \"Mona Sans\" (closest fuzzy hit was the unrelated \"NASA\"); GitHub's own mark was not used since it would misrepresent this specific font product"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Official GitHub-owned repos/org; no safety search performed given the publisher is GitHub itself, noted in unverified"
+      },
+      "sources": [
+        {
+          "url": "https://github.com/mona-sans",
+          "date": "2026-10-17",
+          "note": "product description, both font names, variable axes, operator"
+        },
+        {
+          "url": "https://github.com/github/mona-sans/blob/main/LICENSE",
+          "date": "2026-10-17",
+          "note": "Mona Sans license text (OFL 1.1, reserved font name)"
+        },
+        {
+          "url": "https://github.com/github/hubot-sans/blob/main/LICENSE",
+          "date": "2026-10-17",
+          "note": "Hubot Sans license text (OFL 1.1, reserved font name)"
+        }
+      ],
+      "unverified": [
+        "no dedicated malware/scam safety search run (publisher is GitHub, Inc. itself)",
+        "full list of other repos in the mona-sans GitHub org"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/mona-and-hubot-sans.md",
+        "lint": "pass"
+      }
+    },
+    "monday": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "monday.com",
+        "url": "https://www.monday.com",
+        "alive": true,
+        "operator": "monday.com Ltd."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan: up to 2 seats, up to 3 boards, up to 3 Docs, 200+ templates, 8 column types, iOS/Android apps; no AI features (AI available from Basic up). No credit card required, labeled 'Unlimited time on Free plan'.",
+        "paidFrom": "Basic plan from $9 per seat/month, billed annually (e.g. 10 seats = $90/month); monthly billing not discounted per the page's FAQ",
+        "evidence": {
+          "url": "https://www.monday.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "monday.com Terms of Service (proprietary SaaS) · commercial: yes, for internal business use · attribution: not required · limit: logos/trademarks may not be displayed without monday.com's prior written approval",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://monday.com/l/legal/terms-of-service/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "monday",
+        "type": "Tool",
+        "category": "Productivity",
+        "title": "monday.com",
+        "description": "AI work platform for teams to plan projects, tasks and workflows on customizable boards, with a permanent free plan for small teams.",
+        "tags": [
+          "project-management",
+          "productivity",
+          "collaboration",
+          "ai-tool"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "asana",
+          "airtable",
+          "notion"
+        ],
+        "keyFeatures": [
+          "Customizable boards and columns for projects, tasks and workflows",
+          "Built-in AI agents for automating work (paid plans)",
+          "200+ ready-made templates",
+          "iOS and Android apps",
+          "Free plan for up to 2 seats, no credit card required"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 — no exact match (closest fuzzy: 'd')"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No malware/scam/shutdown evidence for monday.com itself; a now-removed 'Share Update' feature was abused for phishing in 2024 (unrelated to this listing); 2026 business coverage reports a stock drop and layoffs but describes the company as still operating and growing."
+      },
+      "sources": [
+        {
+          "url": "https://www.monday.com",
+          "date": "2026-10-17",
+          "note": "one-line pitch ('AI workspace where teams and AI agents collaborate'), operator, free-plan mention"
+        },
+        {
+          "url": "https://www.monday.com/pricing",
+          "date": "2026-10-17",
+          "note": "free plan limits and lowest paid plan price"
+        },
+        {
+          "url": "https://monday.com/l/legal/terms-of-service/",
+          "date": "2026-10-17",
+          "note": "operating entity, logo/trademark use restriction, no-endorsement clause, no listing/linking prohibition found in the part read"
+        }
+      ],
+      "unverified": [
+        "Terms of Service page is 117,535 characters; only the first 100,000 were read — later sections (and the separate Marketplace Terms of Service) not checked",
+        "exact monthly (non-annual) Basic plan price not stated on the pricing page text retrieved"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/monday.md",
+        "lint": "pass"
+      }
+    },
+    "monet": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "No confirmed permanent free tier: the iPad app's 'Free' plan allows only the first project with no stated expiry, so it's unclear whether that is a lasting free tier or a one-time allowance; the Desktop program has no free tier at all, only a 14-day free trial. Need an owner call on whether the iPad free tier is listable as 'Free' before writing up an RL entry.",
+      "site": {
+        "name": "Monet",
+        "url": "https://iammonet.com",
+        "alive": true,
+        "operator": "Garton Holdings, LLC (founder Ben Garton)"
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": "iPad app: labeled 'Free', usable for one project only, 'no account and no card'; the page does not state whether this is permanent or time-limited. Desktop app: no free tier, only a 14-day free trial ('Try it free for 14 days. Cancel anytime.').",
+        "paidFrom": "iPad: Monet Pro $4.99/month (unlimited projects, 7-day free trial, billed via Apple App Store). Desktop: $9.99/month or $99/year after the trial, billed via Paddle.",
+        "evidence": {
+          "url": "https://iammonet.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Web search for 'Monet' + scam/malware/shutdown/acquired returned no results about iammonet.com specifically; only unrelated hits (a different 'Monet Inviora' investment-scam site, and old Monster.com breach coverage)."
+      },
+      "sources": [
+        {
+          "url": "https://iammonet.com",
+          "date": "2026-10-17",
+          "note": "one-line pitch, operator (Garton Holdings, LLC / Ben Garton), iPad free mention"
+        },
+        {
+          "url": "https://iammonet.com/pricing",
+          "date": "2026-10-17",
+          "note": "iPad Free/Pro and Desktop trial/paid plan details"
+        }
+      ],
+      "unverified": [
+        "whether the iPad 'Free, first project' plan is a permanent free tier or effectively a one-time trial",
+        "license/terms page not read",
+        "no dedicated second safety source beyond one web search"
+      ],
+      "injectionSeen": null
+    },
+    "monodesk": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "MonoDesk",
+        "url": "https://www.monodesk.com",
+        "alive": true,
+        "operator": "Shutterstock, Inc. (branded 'MonoDesk, by Envato')"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan, $0/month: the page states this 'isn't a trial and it doesn't expire'. 1 seat, unlimited projects and task lists, up to 3 clients, limited client portals; includes the Co-Worker AI assistant, weekly planner, time tracking, recurring tasks, Google Calendar sync, and client updates/files/milestones. Excludes Leads, Proposals, Invoices, Client Researcher, Meeting Assistant, MCP access, priority support.",
+        "paidFrom": "Core plan listed at $19/month and Pro at $29/month, but both are currently marked 'Free until end of 2026' as a promotion; the page warns prices/limits may change in late 2026/early 2027, and accounts created now keep free access until 31 Dec 2026.",
+        "evidence": {
+          "url": "https://www.monodesk.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MonoDesk Terms of Service (operated by Shutterstock, Inc., branded with Envato) · commercial: yes (Section 9 permits commercial or non-commercial use) · attribution: not required · limit: cannot make the product available to third parties or incorporate it into a product/service sold to others (Section 12)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.monodesk.com/terms",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "monodesk",
+        "type": "Tool",
+        "category": "Business",
+        "title": "MonoDesk",
+        "description": "Browser-based workspace for freelancers and agencies to manage leads, projects, proposals, time tracking and invoices in one place.",
+        "tags": [
+          "project-management",
+          "productivity",
+          "collaboration",
+          "ai-tool"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "asana",
+          "notion",
+          "airtable"
+        ],
+        "keyFeatures": [
+          "Leads pipeline from first enquiry to signed proposal, with e-signatures",
+          "Client portal: one branded link per client, no client login needed",
+          "Projects and tasks with boards, subtasks, labels and milestones",
+          "Time tracking and invoicing built into projects",
+          "Co-Worker AI assistant that works across a user's clients, projects and files",
+          "Google Calendar sync and an MCP server for connected AI clients"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 — no exact match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Operated as Shutterstock, Inc., with Envato branding in the footer (Shutterstock owns Envato); no scam/malware/shutdown hits in search — results were all unrelated (old scareware/malvertising stories)."
+      },
+      "sources": [
+        {
+          "url": "https://www.monodesk.com",
+          "date": "2026-10-17",
+          "note": "one-line pitch, Envato branding, full feature list"
+        },
+        {
+          "url": "https://www.monodesk.com/pricing",
+          "date": "2026-10-17",
+          "note": "Free/Core/Pro plan details, permanence of Free plan, 2026 promo pricing"
+        },
+        {
+          "url": "https://www.monodesk.com/terms",
+          "date": "2026-10-17",
+          "note": "operating entity (Shutterstock, Inc.), commercial-use and no-resale clauses, no directory/listing clause found"
+        }
+      ],
+      "unverified": [
+        "exact relationship between Shutterstock, Inc. and the public 'Envato' branding not explained in the terms",
+        "whether the Core/Pro 'free until end of 2026' promo pricing is per-account or will change for all users at once",
+        "input brief labeled this tool 'Beta', but no beta/limited-access language was found on the site — treated as a stale label"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/monodesk.md",
+        "lint": "pass"
+      }
+    },
+    "monotype-font-pairing": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "blocked: https://www.monotype.com/font-pairing is JS-rendered; WebFetch returned only the title/heading ('Font Pairing Generator | Monotype') with no body content on 2 attempts. Second-hand coverage (Creative Bloq) describes the AI font-pairing feature as part of the paid Monotype Fonts subscription with a 30-day free trial, not a confirmed permanent free tool; could not verify first-party.",
+      "site": {
+        "name": "Monotype Font Pairing Generator",
+        "url": "https://www.monotype.com/font-pairing",
+        "alive": true,
+        "operator": "Monotype Imaging Inc."
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.monotype.com/font-pairing",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.monotype.com/font-pairing",
+          "date": "2026-10-17",
+          "note": "page title only, JS-rendered body not returned by WebFetch after 2 attempts"
+        },
+        {
+          "url": "https://creativebloq.com/design/fonts-typography/monotypes-new-ai-powered-feature-takes-the-stress-out-of-font-pairing",
+          "date": "2026-10-17",
+          "note": "second-hand: describes feature as tied to Monotype Fonts subscription with a 30-day free trial"
+        }
+      ],
+      "unverified": [
+        "whether the pairing generator works standalone and free, or only inside a paid Monotype Fonts account",
+        "license/terms page not read (blocked before Tier A pricing/license fetch)",
+        "no dedicated safety search run"
+      ],
+      "injectionSeen": null
+    },
+    "monowi-product-design-exercises": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "blocked: the Notion-hosted page is JS-rendered client-side; WebFetch returned only the word 'Notion' with no body content on 2 separate attempts, so no first-party read of content, license or terms was possible. A WebSearch snippet suggests the exercises are free and under a CC BY-NC-SA 4.0 license, but this is second-hand and unconfirmed against the page itself.",
+      "site": {
+        "name": "Monowi: Product Design Exercises",
+        "url": "https://monowi.notion.site/Monowi-Product-Design-Exercises-1-1-99c913d7ec554164be0bbc785bccda97",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://monowi.notion.site/Monowi-Product-Design-Exercises-1-1-99c913d7ec554164be0bbc785bccda97",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://monowi.notion.site/Monowi-Product-Design-Exercises-1-1-99c913d7ec554164be0bbc785bccda97",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://monowi.notion.site/Monowi-Product-Design-Exercises-1-1-99c913d7ec554164be0bbc785bccda97",
+          "date": "2026-10-17",
+          "note": "page returned only 'Notion' title via WebFetch after 2 attempts, no body content"
+        }
+      ],
+      "unverified": [
+        "exercise content and structure",
+        "second-hand WebSearch snippet claims CC BY-NC-SA 4.0 license and free Buy-Me-a-Coffee support model, not first-party confirmed",
+        "operator identity (Monowi appears to be a single person/small project, not confirmed)",
+        "no dedicated safety search run"
+      ],
+      "injectionSeen": null
+    },
+    "moonsand": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Site resolved from Digitool to https://moonsand.co/ and screens clean (free, HTTPS, named founder, no safety hits), but it is a flight/hotel metasearch tool and none of RL's 45 existing tags fit a travel-comparison product (no 'travel' tag); category 'Personal' is the closest existing fit. Needs owner to confirm whether to add a new tag (e.g. 'travel') or skip for lack of a home in the current taxonomy.",
+      "site": {
+        "name": "Moonsand",
+        "url": "https://moonsand.co",
+        "alive": true,
+        "operator": "Adam Mahon (individual; no registered company name given)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Flight and hotel price search is free with no account required; the site is an affiliate-funded metasearch engine, not a paid-tier product; it does not sell tickets or reservations itself",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://moonsand.co/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No software/content license page; Terms of Service say the service is for personal, non-commercial use (commercial use only via their Affiliate Program) · commercial: no (personal use only) · attribution: not required · limit: automated/bulk search queries against the site are prohibited",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://moonsand.co/terms-of-service",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "moonsand",
+        "type": "Website",
+        "category": "Personal",
+        "title": "Moonsand",
+        "description": "Free flight and hotel metasearch engine that compares real-time prices across 1,000+ airlines and travel sites in one search.",
+        "tags": [],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Compares real-time prices across 1,000+ airlines and online travel agencies",
+          "Single search returns flight and hotel results side by side",
+          "No account required to search",
+          "Travel tips and destination guides on the site's blog"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: not in Simple Icons, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown/acquisition hits found; built 2020, launched January 2022, run by a named individual developer"
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/moonsand/",
+          "date": "2026-10-17",
+          "note": "directory listing, resolved tool's own site URL"
+        },
+        {
+          "url": "https://moonsand.co/",
+          "date": "2026-10-17",
+          "note": "what the site does, free search, newsletter opt-in"
+        },
+        {
+          "url": "https://moonsand.co/about",
+          "date": "2026-10-17",
+          "note": "operator Adam Mahon, timeline (built 2020, launched Jan 2022), partner counts"
+        },
+        {
+          "url": "https://moonsand.co/terms-of-service",
+          "date": "2026-10-17",
+          "note": "personal/non-commercial use terms, automated-query restriction, no explicit AI/linking clause"
+        },
+        {
+          "url": "https://moonsand.co/author/adam-mahon",
+          "date": "2026-10-17",
+          "note": "founder bio"
+        }
+      ],
+      "unverified": [
+        "no fitting existing tag for a travel/flight-comparison tool (tags list has none); tags left empty pending owner decision",
+        "legal entity/company name behind Moonsand (site gives only a founder name)",
+        "conflicting partner counts on site (120 vs 303+ travel partners)",
+        "icon: not in Simple Icons; no sanitized site SVG sourced pending owner decision on listing"
+      ],
+      "injectionSeen": null
+    },
+    "moose": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "FETCH-FAIL: icons8.com returns HTTP 403 (bot check) to WebFetch on /photos and /photos/t/moose; retried once per site, not bypassed.",
+      "site": {
+        "name": "Moose",
+        "url": "https://icons8.com/photos",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://icons8.com/photos",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://icons8.com/photos",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No first-party page read; a WebSearch pass found only second-hand third-party guides describing it as Icons8's photo library with a link-attribution free tier, no scam/shutdown signal."
+      },
+      "sources": [
+        {
+          "url": "https://icons8.com/photos",
+          "date": "2026-10-17",
+          "note": "WebFetch failed with HTTP 403, both direct attempts"
+        }
+      ],
+      "unverified": [
+        "Everything: operator, pricing, license, free-tier limits — the site blocked WebFetch both on /photos and /photos/t/moose (403). Third-party pages (licenseorg.com guides, icons8 blog) describe a link-attribution free tier and ~$13/mo paid plan, but these are second-hand and not used here per the untrusted-source rule.",
+        "Whether the WAF block is permanent or a temporary rate-limit; worth a manual retry with a browser."
+      ],
+      "injectionSeen": null
+    },
+    "moqups": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Moqups",
+        "url": "https://moqups.com",
+        "alive": true,
+        "operator": "Evercoder Software SRL"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan: 1 seat, 2 projects, 400 objects per project, 25MB image storage, no credit card required. An unlabeled '7' appears next to Guests on the pricing table; exact guest cap not confirmed.",
+        "paidFrom": "Starter plan $7/month billed annually ($11/month billed monthly): unlimited projects, objects, guests and exports, still 1 seat.",
+        "evidence": {
+          "url": "https://moqups.com/pricing/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS (Evercoder Terms of Service) · commercial: yes — paid plans are marketed at teams/businesses · attribution: not required · limit: ToS §3 bars commercial use or distribution of the Moqups Service itself (standard anti-resale/anti-scraping clause); no clause found forbidding third-party listing or review.",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://moqups.com/terms/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "moqups",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Moqups",
+        "description": "Browser-based wireframing, diagramming and prototyping tool with real-time team collaboration; free plan covers 2 projects.",
+        "tags": [
+          "prototyping",
+          "ui-ux",
+          "collaboration",
+          "whiteboard",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "figma",
+          "excalidraw",
+          "tldraw"
+        ],
+        "keyFeatures": [
+          "Wireframes, diagrams, mockups and interactive prototypes in one browser-based editor",
+          "Real-time multi-user collaboration and commenting",
+          "Free plan: 2 projects, 400 objects per project, no credit card required",
+          "Paid Starter/Business/Unlimited plans add unlimited projects, teams, SSO and SCIM"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "moqups",
+          "fillColor": "#006BE5",
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "WebSearch for scam/malware/shutdown/acquired turned up nothing relevant to Moqups; footer copyright 2012-2026 under Evercoder Software SRL matches a long-running product."
+      },
+      "sources": [
+        {
+          "url": "https://moqups.com",
+          "date": "2026-10-17",
+          "note": "what it is, operator (Evercoder Software SRL), pricing/terms links"
+        },
+        {
+          "url": "https://moqups.com/pricing/",
+          "date": "2026-10-17",
+          "note": "plan names, prices, free-tier limits"
+        },
+        {
+          "url": "https://moqups.com/terms/",
+          "date": "2026-10-17",
+          "note": "commercial-use/distribution clause (§3), no anti-listing clause found"
+        }
+      ],
+      "unverified": [
+        "Exact guest cap on the Free plan (table shows an unlabeled '7')",
+        "Whether ToS §3's 'commercial use/distribution of the Services' clause is standard anti-resale boilerplate (most likely reading) or could be argued to touch a user's own commercial designs made with the tool — not fully resolved, worth a owner glance before publish",
+        "No dedicated license/terms-of-use page beyond /terms/ (no separate 'license' page)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/moqups.md",
+        "lint": "pass"
+      }
+    },
+    "morflax-studio": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Morflax Studio",
+        "url": "https://morflax.com/studio",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan: image export only (PNG/JPG up to 4K) with a visible Morflax watermark that serves as required attribution; exports are for personal, non-commercial use only; no video export.",
+        "paidFrom": "Pro $108/year (~$9/mo billed annually, or from $9/mo per the homepage) removes the watermark, adds video export up to 4K/60fps and a commercial license; Pro Max $228/year adds 3D model export and higher storage/upload limits.",
+        "evidence": {
+          "url": "https://studio.morflax.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: no on Free (personal/non-commercial only), yes on Pro ($9/mo+) · attribution: the visible Morflax watermark is the required attribution on Free and must not be removed · limit: Free-plan exports are non-commercial, image-only (no video, no 3D model export).",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://morflax.com/faq",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "morflax-studio",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Morflax Studio",
+        "description": "Browser-based 3D mockup and motion-graphics tool with 200+ elements; free plan exports watermarked, non-commercial PNG/JPG up to 4K.",
+        "tags": [
+          "graphic-design",
+          "visual-design",
+          "web",
+          "design-templates"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "canva"
+        ],
+        "keyFeatures": [
+          "Browser-based 3D mockup and motion-graphics editor, no install required",
+          "200+ premade 3D elements plus a premium catalog and templates on paid plans",
+          "Free plan exports watermarked PNG/JPG up to 4K for personal use",
+          "Pro plan adds commercial license, watermark removal and video export up to 4K/60fps",
+          "Pro Max adds 3D model export and higher storage/upload limits"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 — no exact match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "WebSearch for scam/malware/shutdown/acquired turned up nothing relevant to Morflax Studio."
+      },
+      "sources": [
+        {
+          "url": "https://morflax.com/studio",
+          "date": "2026-10-17",
+          "note": "what it is, homepage pricing teaser, no named operating company found"
+        },
+        {
+          "url": "https://studio.morflax.com/pricing",
+          "date": "2026-10-17",
+          "note": "Pro/Pro Max prices and feature lists; free plan not detailed here"
+        },
+        {
+          "url": "https://morflax.com/faq",
+          "date": "2026-10-17",
+          "note": "free-tier limits, watermark/attribution, commercial-use answer, export resolutions"
+        }
+      ],
+      "unverified": [
+        "Operating company/person behind Morflax — no about page or operator name found on the pages read",
+        "Exact numeric storage/upload limits for Pro Max (page says 'higher' without numbers)",
+        "Pro Lifetime price (hidden behind a 'Check Lifetime Deal' click, not read)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/morflax-studio.md",
+        "lint": "pass"
+      }
+    },
+    "morflax-things": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Official pricing page (studio.morflax.com/pricing) lists only paid plans (Pro $9/mo billed yearly at $108/yr, Pro Max $19/mo at $228/yr, Pro Lifetime) with no free plan or free-tier limits shown; homepage says \"Get started, it's free\" and Pro's benefit list implies the free tier exists but lacks a commercial license/watermark/4K export — owner call needed on whether this counts as listable Freemium.",
+      "site": {
+        "name": "Morflax Things",
+        "url": "https://things.morflax.com",
+        "alive": true,
+        "operator": "Morflax"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": null,
+        "paidFrom": "Pro: $9/mo billed yearly ($108/yr); Pro Max: $19/mo billed yearly ($228/yr); Pro Lifetime: one-time, price not shown",
+        "evidence": {
+          "url": "https://studio.morflax.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Morflax asset license · commercial: yes for End Products made from downloaded assets · attribution: not required · limit: no redistribution/resale/sub-licensing of the assets themselves, and no compiling assets into a competing service",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://morflax.com/license",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "morflax-things",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Morflax Things",
+        "description": "Browser-based 3D device mockup builder with real-time rendering, drag-and-drop scenes and ready-made templates.",
+        "tags": [
+          "visual-design",
+          "graphic-design"
+        ],
+        "relatedResources": [
+          "figma"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Real-time 3D rendering of device mockups",
+          "9+ customizable devices and 10+ scene elements",
+          "Drag-and-drop backgrounds, lighting and scene elements",
+          "Unlimited devices per scene",
+          "100+ pre-made templates",
+          "Paid plans add 4K export, no watermark and a commercial license"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": null
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown reports found; launched on Product Hunt/Indie Hackers in 2021, still listed as active on 2025-2026 directory pages"
+      },
+      "sources": [
+        {
+          "url": "https://things.morflax.com",
+          "date": "2026-10-17",
+          "note": "product description, features, 'get started it's free' claim"
+        },
+        {
+          "url": "https://studio.morflax.com/pricing",
+          "date": "2026-10-17",
+          "note": "actual plan prices and benefits; no free plan listed"
+        },
+        {
+          "url": "https://studio.morflax.com",
+          "date": "2026-10-17",
+          "note": "app shell, templates tagged Free vs Pro only, no explicit free-tier limits"
+        },
+        {
+          "url": "https://morflax.com/license",
+          "date": "2026-10-17",
+          "note": "asset license terms, allowed/not allowed uses"
+        }
+      ],
+      "unverified": [
+        "exact free-tier limits (export resolution, watermark, number of exports) not confirmed on any official page",
+        "whether the free tier grants a commercial license (Pro's benefit list implies 'commercial license' is a paid perk)",
+        "no dedicated safety search beyond a general web search"
+      ],
+      "injectionSeen": null
+    },
+    "morphic": {
+      "researchedOn": "2026-10-17",
+      "verdict": "skip",
+      "verdictReason": "Site runs a dedicated NSFW/adult content section: sitemap at morphic.com/sitemaps/nsfw-ai-en.xml lists a /resources/nsfw-ai hub plus pages for sensual-videos, sensual-images, intimate-voices, gore-videos, gore-images, horror and crime content (17 pages, 11 languages each). Adult content is not listable in RL regardless of the AI-studio free plan.",
+      "site": {
+        "name": "Morphic",
+        "url": "https://www.morphic.com",
+        "alive": true,
+        "operator": "Morphic, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan: \"$0 forever free\", up to 20 credits, 1 user, limited models and workflows",
+        "paidFrom": "$19/month (Basic plan, 2,400 monthly credits, 1 user)",
+        "evidence": {
+          "url": "https://www.morphic.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No dedicated terms/license page found (first-party pages checked 404) · commercial use of generated content not confirmed in writing · attribution not confirmed · limit: unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.morphic.com/terms",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": null,
+        "type": null,
+        "category": null,
+        "title": null,
+        "description": null,
+        "tags": [],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": null
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware specific to morphic.com found; an unrelated 2025 malware campaign (Noodlophile stealer) impersonated other fake AI video tools (\"Dream Machine AI\", \"CapCut AI\"), not Morphic. Separately, the site's own sitemap confirms a built-in adult/NSFW content section (see verdictReason)."
+      },
+      "sources": [
+        {
+          "url": "https://www.morphic.com",
+          "date": "2026-10-17",
+          "note": "product pitch, nav links"
+        },
+        {
+          "url": "https://www.morphic.com/pricing",
+          "date": "2026-10-17",
+          "note": "plan prices, free plan details, credit packs"
+        },
+        {
+          "url": "https://www.morphic.com/about",
+          "date": "2026-10-17",
+          "note": "operator name 'Morphic, Inc.', team size, offices"
+        },
+        {
+          "url": "https://morphic.com/sitemap.xml",
+          "date": "2026-10-17",
+          "note": "sitemap index; found nsfw-ai-*.xml child sitemaps"
+        },
+        {
+          "url": "https://morphic.com/sitemaps/nsfw-ai-en.xml",
+          "date": "2026-10-17",
+          "note": "confirms dedicated adult/gore/horror content pages (sensual-videos, sensual-images, intimate-voices, gore-videos, etc.)"
+        }
+      ],
+      "unverified": [
+        "terms/license page (404 at /terms and /legal) - commercial-use rights for generated content not confirmed",
+        "full extent of the nsfw-ai section's actual generated output vs. marketing/SEO landing pages was not inspected beyond the sitemap URL list"
+      ],
+      "injectionSeen": "morphic.com/llms.txt is a navigation index for AI agents/crawlers (describes itself as indexing hand-written pages and a full markdown mirror at llms-full.txt); it contained no instructions or directives aimed at agents, only descriptive text. Not followed or acted on beyond reading it."
+    },
+    "morphicons": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "morphicons",
+        "url": "https://www.morphicons.com",
+        "alive": true,
+        "operator": "Guillermo (guillermolg.com)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Fully free and open source (MIT licensed) icon-morphing library; no paid tiers exist",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.morphicons.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT · commercial: yes · attribution: standard MIT notice (not displayed to end users of apps built with it) · limit: demo icons shown on the site/docs belong to their own authors/licenses, not covered by morphicons' MIT grant",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://www.morphicons.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "morphicons",
+        "type": "Library",
+        "category": "Development",
+        "title": "Morphicons",
+        "description": "Open-source library that animates one SVG icon morphing into another with spring physics, for React, Vue, Svelte and more.",
+        "tags": [
+          "icon-library",
+          "open-source",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "lucide-icons",
+          "iconify"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Morphs any SVG icon into another using spring-physics animation",
+          "Works with stroked or filled icons from any icon set (Lucide, Tabler, Heroicons, Material Symbols, Phosphor)",
+          "Zero runtime dependencies",
+          "Framework bindings for React, Vue, Svelte, React Native, Astro and plain HTML",
+          "MIT licensed and open source on GitHub"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": null
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown reports found; GitHub repo (guillermolg00/morphicons) shows 54 commits, open PRs, a changelog, contributing and security policies, and CI size-budget checks"
+      },
+      "sources": [
+        {
+          "url": "https://www.morphicons.com",
+          "date": "2026-10-17",
+          "note": "product description, how it works, MIT license statement, author credit"
+        },
+        {
+          "url": "https://github.com/guillermolg00/morphicons",
+          "date": "2026-10-17",
+          "note": "README, MIT license footer, repo activity signals (commits, PRs, CHANGELOG, CI)"
+        }
+      ],
+      "unverified": [
+        "exact LICENSE file text on GitHub not read directly (site and README footer both state MIT)",
+        "last commit/release date not visible on the fetched GitHub page, so current maintenance cadence is unconfirmed",
+        "no dedicated safety search beyond a generic web query that returned no matches for the project name"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/morphicons.md",
+        "lint": "pass"
+      }
+    },
+    "motherboard": {
+      "researchedOn": "2026-10-17",
+      "verdict": "skip",
+      "verdictReason": "Paid only: $29.99 one-time lifetime license, no permanent free plan; free access is only trial keys given out on request by the maker, which does not count as a free tier.",
+      "site": {
+        "name": "Motherboard",
+        "url": "https://trymotherboard.com",
+        "alive": true,
+        "operator": "Preet Mishra (independent engineer)"
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "$29.99 one-time lifetime license (one browser profile at a time)",
+        "evidence": {
+          "url": "https://trymotherboard.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/motherboard/",
+          "date": "2026-10-17",
+          "note": "directory listing; resolved tool's own site (clean domain trymotherboard.com, directory link carried an affiliate tag)"
+        },
+        {
+          "url": "https://trymotherboard.com",
+          "date": "2026-10-17",
+          "note": "what it is, operator, pricing (lifetime license, no free plan), refund policy"
+        }
+      ],
+      "unverified": [
+        "no license/terms page checked (not needed given paid-only verdict)",
+        "no dedicated safety search run (skip verdict, paid-only is the disqualifying fact)"
+      ],
+      "injectionSeen": null
+    },
+    "motion-2": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Motion",
+        "url": "https://motion.dev",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Core animation library is free forever (MIT, open source): full library, docs search, and Motion best-practices guidance for AI; examples/tutorials limited to the basics without Motion+",
+        "paidFrom": "Motion+ Solo: one-time payment, $399 per the page's structured data (visible on-page price was a placeholder); Motion+ Team is a per-seat annual subscription with no published per-seat price",
+        "evidence": {
+          "url": "https://motion.dev/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT · commercial: yes · attribution: required (MIT notice) · limit: paid Motion+ add-ons (UI sections, components, AI Kit, private Discord/GitHub) are separately licensed and not covered by the MIT core library",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/motiondivision/motion",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "motion",
+        "type": "Library",
+        "category": "Development",
+        "title": "Motion",
+        "description": "Open-source animation library for React, JavaScript and Vue covering layout, scroll, gestures, springs and 3D, with a paid Motion+ UI/component add-on.",
+        "tags": [
+          "open-source",
+          "web"
+        ],
+        "relatedResources": [
+          "framer",
+          "codesandbox",
+          "stackblitz"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Hybrid engine mixing native browser animation APIs with JavaScript for performant motion",
+          "Works with React, plain JavaScript, and Vue",
+          "Scroll-triggered animations, drag/hover/tap gestures, springs and layout animation",
+          "3D animation support",
+          "Free, MIT-licensed core library; optional paid Motion+ adds prebuilt UI sections, components and an AI Kit"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 (no exact match; closest fuzzy hits were dailymotion and twinmotion, different products)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition hits for the official motion.dev project or motiondivision GitHub org. Search did surface unrelated typosquat/malicious npm packages with similar names (motion-lib, motion-ani) that are not this project; the real npm package is `motion`."
+      },
+      "sources": [
+        {
+          "url": "https://motion.dev",
+          "date": "2026-10-17",
+          "note": "what it is, free/open-source claim, links to GitHub/X/YouTube"
+        },
+        {
+          "url": "https://motion.dev/pricing",
+          "date": "2026-10-17",
+          "note": "free vs Motion+ Solo/Team plan contents and prices"
+        },
+        {
+          "url": "https://github.com/motiondivision/motion",
+          "date": "2026-10-17",
+          "note": "MIT license confirmation"
+        }
+      ],
+      "unverified": [
+        "operator/legal entity behind motion.dev not named on the site",
+        "Motion+ Solo on-page displayed price was a placeholder; $399 came from the page's structured data instead",
+        "Motion+ Team per-seat price not published"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/motion.md",
+        "lint": "pass"
+      }
+    },
+    "motion-array": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "FETCH-FAIL: motionarray.com returned HTTP 403 (bot check) on both the home page and /pricing, retried once each; WebFetch cannot bypass bot checks.",
+      "site": {
+        "name": "Motion Array",
+        "url": "https://motionarray.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://motionarray.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://motionarray.com",
+          "date": "2026-10-17",
+          "note": "attempted fetch, HTTP 403, no content retrieved (retried once)"
+        },
+        {
+          "url": "https://motionarray.com/pricing",
+          "date": "2026-10-17",
+          "note": "attempted fetch, HTTP 403, no content retrieved"
+        }
+      ],
+      "unverified": [
+        "pricing, free-tier terms, license/terms, and operator could not be confirmed first-party (site blocks the fetcher)",
+        "third-party pages (Capterra, Photutorial, BityClips) disagree on free-tier scope and paid prices, so none used as a substitute for a first-party read"
+      ],
+      "injectionSeen": null
+    },
+    "motion-design-principles": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Motion Design Principles",
+        "url": "https://motion.zajno.com",
+        "alive": true,
+        "operator": "Zajno (digital design studio)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire guide and all examples are free to browse; no signup or account needed",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://motion.zajno.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No license/terms page found (standard copyright notice only) · commercial use: not stated · attribution: not stated · limit: content is Zajno's own showcase, not a licensed asset pack",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://motion.zajno.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "motion-design-principles",
+        "type": "Resource",
+        "category": "Design",
+        "title": "Motion Design Principles",
+        "description": "A free visual guide to UI/UX animation principles - easing, delay, fades, morphing, masking and parallax - by studio Zajno, with Dribbble examples.",
+        "tags": [
+          "ui-ux",
+          "visual-design",
+          "inspiration"
+        ],
+        "relatedResources": [
+          "dribbble",
+          "behance"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Explains easing and offset/delay timing for UI animation",
+          "Covers fade in/out, transform & morph, and masking techniques",
+          "Covers dimension, parallax and zoom effects",
+          "Each principle links to a real Dribbble shot example",
+          "Points to further motion design courses (UX in Motion, School of Motion, Domestika)"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 (no exact match for \"Motion Design Principles\" or \"Zajno\")"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition hits; site is a showcase page by an active studio (Zajno), search shows normal studio activity."
+      },
+      "sources": [
+        {
+          "url": "https://motion.zajno.com",
+          "date": "2026-10-17",
+          "note": "page content, sections, operator, absence of pricing/license page"
+        }
+      ],
+      "unverified": [
+        "no license/terms page found on the site",
+        "no dedicated malware/safety scanner check beyond web search",
+        "studio location conflicting across third-party profiles (not relevant to the resource itself)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/motion-design-principles.md",
+        "lint": "pass"
+      }
+    },
+    "motion-design-school": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Motion Design School",
+        "url": "https://motiondesign.school/blog",
+        "alive": true,
+        "operator": "Motion Design School (Aventura, Florida, per site footer)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "All blog articles and tutorials are free to read with no login required",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://motiondesign.school/blog",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No license page for the blog content itself (standard copyright, all rights reserved) · commercial use: not stated for articles · attribution: not stated · limit: the site's EULA covers only paid After Effects/Cinema 4D scripts and plugins, not the blog",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://motiondesign.school/eula/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "motion-design-school",
+        "type": "Resource",
+        "category": "Design",
+        "title": "Motion Design School Blog",
+        "description": "Free blog of After Effects, Blender and animation tutorials, guides and interviews from Motion Design School, alongside the studio's paid courses.",
+        "tags": [
+          "visual-design",
+          "inspiration",
+          "graphic-design"
+        ],
+        "relatedResources": [
+          "behance",
+          "dribbble"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Free tutorial articles on After Effects, Blender and Photoshop animation techniques",
+          "Category filters: Articles, Guides, Interviews, Lifehacks, Student Work, Video Tips",
+          "Separate Newbie (beginner) and Pro (advanced) sections",
+          "20-page blog archive plus social links to the studio's own work"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 (no exact match for \"Motion Design School\")"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No shutdown/acquisition hits; third-party safety reports (Google Safe Browsing-style checks) list the domain as safe; one negative Trustpilot review calls a paid course misleading, but no malware/scam pattern found."
+      },
+      "sources": [
+        {
+          "url": "https://motiondesign.school/blog",
+          "date": "2026-10-17",
+          "note": "blog content, nav, free access, operator footer"
+        },
+        {
+          "url": "https://motiondesign.school/eula/",
+          "date": "2026-10-17",
+          "note": "license scope (covers scripts/plugins only, not blog)"
+        }
+      ],
+      "unverified": [
+        "Terms and Conditions / Privacy Policy pages linked but not fetched",
+        "course and script prices not confirmed",
+        "whether any blog posts require signup beyond the ones checked"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/motion-design-school.md",
+        "lint": "pass"
+      }
+    },
+    "motion-folios": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "FETCH-FAIL: WebFetch returns only the page title (\"Motion Folios - Curated Motion Design Portfolios\") with no body content for both the home page and /studios; the site is JS-rendered and the fetcher gets nothing to read. Retried once per site; still empty. Cannot verify pricing, license, or operator first-party.",
+      "site": {
+        "name": "Motion Folios",
+        "url": "https://www.motionfolios.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.motionfolios.com",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.motionfolios.com",
+          "date": "2026-10-17",
+          "note": "JS-rendered page returned only the title, no body content"
+        },
+        {
+          "url": "https://www.motionfolios.com/studios",
+          "date": "2026-10-17",
+          "note": "same JS-rendered empty-content issue on retry"
+        }
+      ],
+      "unverified": [
+        "pricing not confirmed (JS-only page blocked both fetch attempts)",
+        "operator not identified first-party (a Product Hunt listing, found via web search, describes it as a solo-built directory of motion design portfolios, studios and resources, but this is second-hand and unverified)",
+        "license/terms page not found due to fetch failure"
+      ],
+      "injectionSeen": null
     }
   }
 }

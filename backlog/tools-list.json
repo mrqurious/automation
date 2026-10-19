@@ -33498,7 +33498,7 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -33550,7 +33550,7 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -33576,7 +33576,7 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -33602,7 +33602,7 @@
           "file": "Best Free Font Libraries and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -33628,8 +33628,8 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "drafted",
+      "notes": "Free archive to browse; note the content itself is restricted to personal/educational/non-commercial use (not a stock-image source)",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
@@ -33654,8 +33654,8 @@
           "file": "Best Mockup Sites for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Modor's own Terms of Service restrict the Services/Content to non-commercial use and bar 'unauthorized framing of or linking to the Services' plus systematic data-gathering to build a directory without written permission — conflicts with RL listing a mockup tool typically used for commercial product images; needs an owner decision before drafting.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -33680,7 +33680,7 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -33706,7 +33706,7 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "beta",
       "rlSlug": null,
@@ -33732,8 +33732,8 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "FETCH-FAIL: home (www.mojo-app.com and mojo-app.com), pricing and terms-of-service pages all render as a bare JS shell (\"Mojo\" / \"Loading...\" / a bare heading only) with no readable content across repeated fetches; cannot confirm free-tier permanence, license terms or current operator detail first-party",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -33784,8 +33784,8 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "moko-app.com is a client-rendered page that returns only the HTML title/meta description via WebFetch, with no body content, nav, footer or pricing text; /pricing 404s and robots.txt gives no further paths. No first-party facts (operator, pricing, license) could be confirmed, and third-party listings disagree on what the product even is (mobile motion-graphics app vs. Lottie/SVG asset tool), so it cannot be verified without bypassing the JS rendering.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -33810,7 +33810,7 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -33836,7 +33836,7 @@
           "file": "Best Free Font Libraries and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -33862,7 +33862,7 @@
           "file": "Productivity Tools for Design and Product Teams.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -33888,8 +33888,8 @@
           "file": "Best UX Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "No confirmed permanent free tier: the iPad app's 'Free' plan allows only the first project with no stated expiry, so it's unclear whether that is a lasting free tier or a one-time allowance; the Desktop program has no free tier at all, only a 14-day free trial. Need an owner call on whether the iPad free tier is listable as 'Free' before writing up an RL entry.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -33914,7 +33914,7 @@
           "file": "Productivity Tools for Design and Product Teams.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "beta",
       "rlSlug": null,
@@ -33940,8 +33940,8 @@
           "file": "Best Free Font Libraries and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "blocked: https://www.monotype.com/font-pairing is JS-rendered; WebFetch returned only the title/heading ('Font Pairing Generator | Monotype') with no body content on 2 attempts. Second-hand coverage (Creative Bloq) describes the AI font-pairing feature as part of the paid Monotype Fonts subscription with a 30-day free trial, not a confirmed permanent free tool; could not verify first-party.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -33966,8 +33966,8 @@
           "file": "Learn UI_UX Design_ Courses, Guides & Best Practices.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "blocked: the Notion-hosted page is JS-rendered client-side; WebFetch returned only the word 'Notion' with no body content on 2 separate attempts, so no first-party read of content, license or terms was possible. A WebSearch snippet suggests the exercises are free and under a CC BY-NC-SA 4.0 license, but this is second-hand and unconfirmed against the page itself.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
@@ -34020,8 +34020,8 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Site resolved from Digitool to https://moonsand.co/ and screens clean (free, HTTPS, named founder, no safety hits), but it is a flight/hotel metasearch tool and none of RL's 45 existing tags fit a travel-comparison product (no 'travel' tag); category 'Personal' is the closest existing fit. Needs owner to confirm whether to add a new tag (e.g. 'travel') or skip for lack of a home in the current taxonomy.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -34046,8 +34046,8 @@
           "file": "Free Stock Images & Video Websites _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "FETCH-FAIL: icons8.com returns HTTP 403 (bot check) to WebFetch on /photos and /photos/t/moose; retried once per site, not bypassed.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -34098,7 +34098,7 @@
           "file": "Best UX Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -34124,7 +34124,7 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -34150,8 +34150,8 @@
           "file": "Best Mockup Sites for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Official pricing page (studio.morflax.com/pricing) lists only paid plans (Pro $9/mo billed yearly at $108/yr, Pro Max $19/mo at $228/yr, Pro Lifetime) with no free plan or free-tier limits shown; homepage says \"Get started, it's free\" and Pro's benefit list implies the free tier exists but lacks a commercial license/watermark/4K export — owner call needed on whether this counts as listable Freemium.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -34176,8 +34176,8 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Site runs a dedicated NSFW/adult content section: sitemap at morphic.com/sitemaps/nsfw-ai-en.xml lists a /resources/nsfw-ai hub plus pages for sensual-videos, sensual-images, intimate-voices, gore-videos, gore-images, horror and crime content (17 pages, 11 languages each). Adult content is not listable in RL regardless of the AI-studio free plan.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -34202,7 +34202,7 @@
           "file": "Best Free Open Source Icon Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -34230,8 +34230,8 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Paid only: $29.99 one-time lifetime license, no permanent free plan; free access is only trial keys given out on request by the maker, which does not count as a free tier.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -34291,7 +34291,7 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -34343,8 +34343,8 @@
           "file": "Free Stock Images & Video Websites _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "FETCH-FAIL: motionarray.com returned HTTP 403 (bot check) on both the home page and /pricing, retried once each; WebFetch cannot bypass bot checks.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -34369,7 +34369,7 @@
           "file": "Learn UI_UX Design_ Courses, Guides & Best Practices.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -34395,7 +34395,7 @@
           "file": "Best Design Blogs & Magazines for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -34421,8 +34421,8 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "FETCH-FAIL: WebFetch returns only the page title (\"Motion Folios - Curated Motion Design Portfolios\") with no body content for both the home page and /studios; the site is JS-rendered and the fetcher gets nothing to read. Retried once per site; still empty. Cannot verify pricing, license, or operator first-party.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
