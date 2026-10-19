@@ -75304,6 +75304,727 @@
         "license/terms page not found due to fetch failure"
       ],
       "injectionSeen": null
+    },
+    "motionbox": {
+      "researchedOn": "2026-10-17",
+      "verdict": "skip",
+      "verdictReason": "Free plan is $0 but 'No recurring monthly credits' (per the Wireflow pricing page that now hosts Motionbox's billing) — a one-time credit grant, not a permanent free tier, functions as a free trial. Billing/plans have also moved off motionbox.io entirely to a separate branded product (Wireflow), creating ambiguity about which site is the listable resource.",
+      "site": {
+        "name": "Motionbox",
+        "url": "https://motionbox.io",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "motionbox.io/pricing states 'Plans and prices live on Wireflow now. You can start free and only pay when you need more.' Wireflow's own Free plan is $0/mo with 'No recurring monthly credits' (one-time ~60 starter credits); render usage limits apply on every plan but are not spelled out.",
+        "paidFrom": "Wireflow Starter $24/mo (1,600 credits/month)",
+        "evidence": {
+          "url": "https://www.wireflow.ai/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://motionbox.io",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition hits for 'motionbox.io' or 'motionbox'; a CB Insights listing marking an 'Acquired' stage appears to belong to an unrelated company (VideoVerse) sharing the comparison page, not confirmed to be Motionbox."
+      },
+      "sources": [
+        {
+          "url": "https://motionbox.io",
+          "date": "2026-10-17",
+          "note": "Homepage pitch, operator, Wireflow relationship, open-source render-engine claim"
+        },
+        {
+          "url": "https://motionbox.io/pricing",
+          "date": "2026-10-17",
+          "note": "Pricing page defers entirely to Wireflow, no plan details on this domain"
+        },
+        {
+          "url": "https://www.wireflow.ai/pricing",
+          "date": "2026-10-17",
+          "note": "Actual plan tiers and the 'No recurring monthly credits' free-plan wording"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22motionbox.io%22+OR+%22motionbox%22+scam+OR+malware+OR+%22shutting+down%22+OR+acquired",
+          "date": "2026-10-17",
+          "note": "Safety screen: no scam/malware/shutdown hits"
+        }
+      ],
+      "unverified": [
+        "Legal operator/company name behind Motionbox",
+        "Whether Motionbox is still a distinct product or has fully merged into Wireflow",
+        "Exact free-tier credit renewal policy and render usage limits",
+        "License/terms page was not located"
+      ],
+      "injectionSeen": null
+    },
+    "motionity": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Motionity",
+        "url": "https://www.motionity.app",
+        "alive": true,
+        "operator": "Alyssa X (independent developer)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "The entire web app is free to use in the browser; no account, paywall, or paid tier is mentioned anywhere on the site. The underlying code is MIT-licensed and self-hostable from GitHub.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.motionity.app",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT License · commercial: yes · attribution: required (keep the copyright and permission notice) · limit: software provided without warranty",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/alyssaxuu/motionity/blob/master/LICENSE",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "motionity",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Motionity",
+        "description": "Free, open-source browser-based motion graphics editor with a keyframe timeline, exporting animations as WEBM video, GIF, or image.",
+        "tags": [
+          "open-source",
+          "web",
+          "visual-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Web-based motion graphics editor with a visual keyframe timeline, no install required",
+          "Exports animations as WEBM video, animated GIF, or still image",
+          "Fully open source under the MIT License (github.com/alyssaxuu/motionity)",
+          "Built by independent developer Alyssa X; designed for desktop/computer use rather than mobile"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 — no exact match (closest fuzzy: 'ty')"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown hits for 'motionity'. Third-party tracker reports last GitHub push around Sep 2022 with ~4k stars, but the live site itself loads and functions."
+      },
+      "sources": [
+        {
+          "url": "https://www.motionity.app",
+          "date": "2026-10-17",
+          "note": "Product pitch, export formats, author credit, desktop-only note"
+        },
+        {
+          "url": "https://github.com/alyssaxuu/motionity/blob/master/LICENSE",
+          "date": "2026-10-17",
+          "note": "MIT license text and copyright line"
+        },
+        {
+          "url": "https://www.google.com/search?q=motionity+alyssaxuu+github+motion+graphics+editor+license",
+          "date": "2026-10-17",
+          "note": "Corroborates open-source MIT status and repo activity (second-hand)"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22motionity%22+scam+OR+malware+OR+%22shutting+down%22",
+          "date": "2026-10-17",
+          "note": "Safety screen: no hits"
+        }
+      ],
+      "unverified": [
+        "Exact date of the most recent GitHub commit/release",
+        "Whether any account or sign-in is ever required (homepage gives no indication of one)",
+        "Legal entity, if any, behind 'Alyssa X' beyond the individual developer credit"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/motionity.md",
+        "lint": "pass"
+      }
+    },
+    "motionly": {
+      "researchedOn": "2026-10-17",
+      "verdict": "skip",
+      "verdictReason": "The backlog's domain motionly.site permanently redirects (308) to https://motify.video, a differently branded product ('Motify') aimed at businesses/agencies — not the tool the backlog entry describes. Motify's free tier grants only a one-time '30 free credits on sign up' with no stated recurring renewal, and its Starter tier description ('Everything in Free, plus HD exports and no watermark') implies the Free tier is watermarked/limited — this reads as a free trial, not a confirmed permanent free tier, on top of the name/brand mismatch.",
+      "site": {
+        "name": "Motify",
+        "url": "https://motify.video",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "$0/mo plan: '30 free credits on sign up', 'Unlimited exports'; FAQ says a typical generation costs ~10 credits and a full video commonly needs ~3 generations, so 30 credits covers roughly one video. Starter tier's 'Everything in Free, plus' HD MP4 exports and no watermark implies Free exports are lower quality and/or watermarked.",
+        "paidFrom": "Starter and Pro prices were not readable (page showed 'Loading pricing…' at fetch time)",
+        "evidence": {
+          "url": "https://motify.video/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Underlying code (github.com/COPPSARY/Motify) is Apache License 2.0, but that covers the open-source repo, not necessarily the hosted app's own terms, which were not located",
+        "openSource": true,
+        "spdx": "Apache-2.0",
+        "evidence": {
+          "url": "https://github.com/COPPSARY/Motify",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition hits for 'motify.video' or 'Motify'."
+      },
+      "sources": [
+        {
+          "url": "https://motionly.site",
+          "date": "2026-10-17",
+          "note": "Confirms a 308 permanent redirect to https://motify.video; 'Motionly' no longer resolves to its own site"
+        },
+        {
+          "url": "https://motify.video",
+          "date": "2026-10-17",
+          "note": "Current product pitch, audience (businesses/agencies), GitHub link, no mention of 'Motionly'"
+        },
+        {
+          "url": "https://motify.video/pricing",
+          "date": "2026-10-17",
+          "note": "Free/Starter/Pro/Enterprise plans, free-credit wording, watermark implication"
+        },
+        {
+          "url": "https://github.com/COPPSARY/Motify",
+          "date": "2026-10-17",
+          "note": "Apache-2.0 license, repo activity (221 commits, 87 stars), hosted app at app.motify.video"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22motify.video%22+OR+%22Motify%22+scam+OR+malware+OR+%22shutting+down%22+OR+acquired",
+          "date": "2026-10-17",
+          "note": "Safety screen: no hits"
+        }
+      ],
+      "unverified": [
+        "Legal operator/company name behind Motify",
+        "Exact Starter/Pro prices (page did not render them at fetch time)",
+        "Whether signup credits ever renew",
+        "Hosted app's own terms of service beyond the Apache-2.0 code license",
+        "Any historical relationship between the 'Motionly' name and the current 'Motify' product"
+      ],
+      "injectionSeen": null
+    },
+    "motionographer": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Motionographer",
+        "url": "https://motionographer.com",
+        "alive": true,
+        "operator": "WHY NOT PLUS LLC (Carlos El Asmar, Founder & Editor in Chief)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire editorial site is free to read; no paywall, membership tier or subscription fee found on home or about pages",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://motionographer.com",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No license/terms page found (404 on /terms) · commercial use: not stated · attribution: not stated · limit: editorial content, reuse/redistribution terms unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://motionographer.com/terms",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "motionographer",
+        "type": "Website",
+        "category": "Design",
+        "title": "Motionographer",
+        "description": "Editorial and community site for motion design since 2006, with studio news, project breakdowns and curated showcase posts.",
+        "tags": [
+          "inspiration",
+          "visual-design",
+          "design-systems"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "awwwards",
+          "behance",
+          "dribbble"
+        ],
+        "keyFeatures": [
+          "Daily news, interviews and features about motion design studios and creators",
+          "\"Quickies\" showcase posts highlighting short motion work",
+          "Job board for motion design roles",
+          "Hosts industry events including The Motion Awards",
+          "Newsletter with curated motion design picks"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17 - no exact match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "WebSearch found no scam/malware hits for the current site; the only shutdown/acquisition result concerns an unrelated 2010 subsidiary ('Motionographer Studios'), not the editorial site"
+      },
+      "sources": [
+        {
+          "url": "https://motionographer.com",
+          "date": "2026-10-17",
+          "note": "Site purpose, pricing (none), header tagline, event/job-board mentions"
+        },
+        {
+          "url": "https://motionographer.com/about",
+          "date": "2026-10-17",
+          "note": "Operator (WHY NOT PLUS LLC), founder/editor, mission statement, no pricing/terms found"
+        },
+        {
+          "url": "https://motionographer.com/terms",
+          "date": "2026-10-17",
+          "note": "404 Not Found - no terms/license page exists at this path"
+        }
+      ],
+      "unverified": [
+        "No terms/license page found; reuse or listing restrictions, if any, are unknown",
+        "No Simple Icons match; the site's own logo SVG was not fetched/sanitized for an icon route"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/motionographer.md",
+        "lint": "pass"
+      }
+    },
+    "motionvid": {
+      "researchedOn": "2026-10-17",
+      "verdict": "skip",
+      "verdictReason": "Paid only: pricing page lists four paid plans (Starter $19/mo to Creator $249/mo) with no free tier offered; FAQ mentions 'free and AppSumo accounts' exist but gives no limits for them, so a real permanent free tier could not be confirmed. Input label 'Freemium' is not borne out by the pricing page.",
+      "site": {
+        "name": "MotionVid",
+        "url": "https://motionvid.ai",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "Starter plan $19/month (500 credits, 60 export minutes, 1080p)",
+        "evidence": {
+          "url": "https://motionvid.ai/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://motionvid.ai/pricing",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {},
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "WebSearch found no scam/malware/shutdown/acquisition hits for motionvid.ai itself; unrelated similarly-named sites (motionmuse.ai, popvid.ai) carry malware/phishing flags in third-party scanners, not motionvid.ai"
+      },
+      "sources": [
+        {
+          "url": "https://motionvid.ai/?atp=toools",
+          "date": "2026-10-17",
+          "note": "Product description (AI motion graphics/video generation), modes, MCP/API integration"
+        },
+        {
+          "url": "https://motionvid.ai/pricing",
+          "date": "2026-10-17",
+          "note": "Full plan table: Starter/Pro/Ultimate/Creator prices, credits, export minutes; confirms no free plan listed"
+        }
+      ],
+      "unverified": [
+        "Operator/company name not stated anywhere on the site",
+        "Existence and limits of a 'free account' tier mentioned only in passing in the export-minutes FAQ; not independently confirmed or documented"
+      ],
+      "injectionSeen": "Pricing page markets an MCP/API integration under the heading \"Make videos from ChatGPT, Claude, or your own code\"; this is product marketing describing an integration, not an instruction directed at this research session, so it was not acted on."
+    },
+    "motto-blog": {
+      "researchedOn": "2026-10-17",
+      "verdict": "blocked",
+      "verdictReason": "FETCH-FAIL: WebFetch returned HTTP 403 Forbidden on https://wearemotto.com/blog on two separate attempts (initial and retry after other work); likely bot/WAF protection, not bypassed per rules.",
+      "site": {
+        "name": "Motto",
+        "url": "https://wearemotto.com/blog",
+        "alive": true,
+        "operator": "Motto (branding/strategy agency); not independently confirmed first-party due to fetch block"
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://wearemotto.com/blog",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://wearemotto.com/blog",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {},
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": null
+      },
+      "sources": [
+        {
+          "url": "https://wearemotto.com/blog",
+          "date": "2026-10-17",
+          "note": "WebFetch blocked, HTTP 403 Forbidden, both the first attempt and the retry"
+        }
+      ],
+      "unverified": [
+        "Entire page content: WebFetch blocked (403) on both attempts, never read first-party",
+        "Operator, topics and pricing are based only on third-party WebSearch snippets (Motto's own About/testimonials pages, a designrush.com profile), not a first-party read",
+        "Even if unblocked, this is a branding agency's company blog rather than a standalone free tool/resource, so RL fit is itself uncertain"
+      ],
+      "injectionSeen": null
+    },
+    "mouseflow": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Mouseflow",
+        "url": "https://mouseflow.com",
+        "alive": true,
+        "operator": "Mouseflow ApS (Copenhagen, Denmark)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free Forever plan, no card required: 500 sessions/month, 1 website project, 1 funnel, 1 month of data retention; recording pauses once the monthly session cap is hit until the next refill",
+        "paidFrom": "$25/month (Essential plan, 5,000 sessions/month); page shows a monthly/annual toggle advertising up to 35% off annual but does not give the annual figures",
+        "evidence": {
+          "url": "https://mouseflow.com/pricing",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS (Mouseflow ApS) · commercial: yes, for the customer's own internal business use · attribution: not required · limit: no redistribution/sublicensing of the account or software, no reverse engineering, free plan capped at 500 sessions/month and 1 month retention",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://mouseflow.com/terms/",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "mouseflow",
+        "type": "Tool",
+        "category": "Marketing",
+        "title": "Mouseflow",
+        "description": "Behavior analytics platform with session replay, heatmaps and AI-powered friction detection to see why website visitors convert or leave.",
+        "tags": [
+          "ai-tool",
+          "ui-ux",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Session replay recordings of real visitor sessions",
+          "Click, scroll and move heatmaps plus friction/rage-click detection",
+          "Conversion funnels, journey analytics and form analytics",
+          "On-site feedback surveys",
+          "Mina AI insights and an MCP server that connects Mouseflow data to AI assistants"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons checked via scripts/check-icon.mjs, no exact match, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown evidence; Mouseflow's own site announced an Offspring Capital investment with the existing team staying intact (not a closure); PitchBook lists the deal as M&A but gives no acquirer name"
+      },
+      "sources": [
+        {
+          "url": "https://mouseflow.com",
+          "date": "2026-10-17",
+          "note": "product pitch, free-forever claim, Denmark HQ"
+        },
+        {
+          "url": "https://mouseflow.com/pricing",
+          "date": "2026-10-17",
+          "note": "plan table: Free/Essential/Advanced/Premium/Enterprise, sessions, projects, funnels, retention"
+        },
+        {
+          "url": "https://mouseflow.com/terms/",
+          "date": "2026-10-17",
+          "note": "legal entity Mouseflow ApS; internal-use-only, no redistribution/sublicensing clauses"
+        },
+        {
+          "url": "https://mouseflow.com/privacy-policy/",
+          "date": "2026-10-17",
+          "note": "checked for operator name and directory-listing restriction; neither stated"
+        }
+      ],
+      "unverified": [
+        "exact annual pricing figures (page mentions up to 35% off annual but does not show the numbers)",
+        "whether the free plan includes AI features (Mina AI) or only the paid tiers",
+        "Acceptable Use Policy and Partner Terms not read (only Terms of Use and Privacy Policy checked)"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/mouseflow.md",
+        "lint": "pass"
+      }
+    },
+    "moveast": {
+      "researchedOn": "2026-10-17",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Moveast",
+        "url": "https://moveast.me",
+        "alive": true,
+        "operator": "João Pacheco (individual, Portugal)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All photos are free to use, no account, sign-up or payment required",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://moveast.me",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "CC0 · commercial: yes (public-domain dedication, no restriction) · attribution: not required · limit: small, single-photographer collection (~100 of a promised 150 photos found), South Korea only",
+        "openSource": false,
+        "spdx": "CC0-1.0",
+        "evidence": {
+          "url": "https://moveast.me",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "moveast",
+        "type": "Stock Media",
+        "category": "Photography",
+        "title": "Moveast",
+        "description": "Free CC0 travel photos from Seoul and Sokcho, South Korea, shared by a Portuguese photographer for anyone to use without attribution.",
+        "tags": [
+          "stock-photos",
+          "royalty-free"
+        ],
+        "relatedResources": [],
+        "similarResources": [
+          "pexels",
+          "pixabay",
+          "unsplash"
+        ],
+        "keyFeatures": [
+          "Around 100-150 free travel photos from Seoul and Sokcho, South Korea",
+          "CC0 license: use for any purpose, no attribution required",
+          "Photos organized as dated blog posts in numbered parts",
+          "No account, sign-up or payment required"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons checked via scripts/check-icon.mjs, no exact match, 2026-10-17"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown hits for 'Moveast' in search; it is a small personal blog, and every visible post is labeled only '~10 years ago' with no absolute dates, suggesting the content has not been updated recently"
+      },
+      "sources": [
+        {
+          "url": "https://moveast.me",
+          "date": "2026-10-17",
+          "note": "tagline, CC0 statement, photo sets (Part 1 and Part 2, Seoul/Sokcho), post age labels"
+        },
+        {
+          "url": "https://moveast.me/about",
+          "date": "2026-10-17",
+          "note": "operator name (João Pacheco) and CC0 confirmation"
+        }
+      ],
+      "unverified": [
+        "exact last-updated date (site shows only relative '10 years ago' labels, no absolute dates)",
+        "Part 3 of the photo series, mentioned in the intro text but not found on the checked pages",
+        "no dedicated terms-of-use page beyond the CC0 statement on the home/about pages"
+      ],
+      "injectionSeen": null,
+      "draft": {
+        "branch": "development",
+        "file": "src/content/resources/moveast.md",
+        "lint": "pass"
+      }
+    },
+    "mozaik": {
+      "researchedOn": "2026-10-17",
+      "verdict": "needs-owner",
+      "verdictReason": "Site has no working Terms and Conditions or Privacy Policy page (both links point to '#'); commercial-use permission and attribution requirements for the free components/templates can't be confirmed even though the homepage claims everything is free.",
+      "site": {
+        "name": "Mozaik",
+        "url": "https://www.mozaik.design",
+        "alive": true,
+        "operator": "Luka (solo developer, contact luka@mozaik.design; X/Twitter @MlakarLuka / @mzk_dsgn), built \"for the Webflow community\""
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Homepage states \"Completely free\" and \"All components are free\"; templates page title reads \"Ready-to-use, free Webflow templates\". No paid tier or limits are mentioned anywhere on the site.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.mozaik.design",
+          "date": "2026-10-17",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No license or terms page published (Privacy Policy and Terms and Conditions links both point to \"#\" and resolve to nothing) · commercial use: not stated · attribution: not required (not stated anywhere, only an informal \"Built by Luka\" credit) · limit: no published terms govern use of the components/templates",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.mozaik.design/components",
+          "date": "2026-10-17",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "mozaik",
+        "type": "Template",
+        "category": "Design",
+        "title": "Mozaik",
+        "description": "Free library of ready-to-use Webflow components and full-page templates you copy and paste straight into the Webflow Designer.",
+        "tags": [
+          "website-templates",
+          "design-templates",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "webflow"
+        ],
+        "similarResources": [
+          "webflow-templates",
+          "figma-community"
+        ],
+        "keyFeatures": [
+          "Browsable component library grouped by section type: navigation, hero, pricing, FAQ, footer, testimonials, login/register, stats",
+          "Full-page templates filterable by use case: course, landing page, agency, portfolio, SaaS",
+          "One-click copy of a component or template straight into the Webflow Designer",
+          "Updated regularly by a single independent Webflow community developer",
+          "No paid tier advertised; the whole library is positioned as free"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons via scripts/check-icon.mjs, 2026-10-17: no exact match (closest fuzzy hit was unrelated 'zdotai')"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Safety search (\"Mozaik\" webflow components scam OR malware OR shutting down OR acquired) returned no hits about this site; unrelated results only (Mozi IoT botnet, Maze ransomware, Polyfill.io, MosaicLoader malware, a Webflow-hosted phishing page unrelated to Mozaik)."
+      },
+      "sources": [
+        {
+          "url": "https://www.mozaik.design",
+          "date": "2026-10-17",
+          "note": "Home page: what it is, operator (Luka), contact email, free claims (\"Completely free\", \"All components are free\"), nav links; Privacy Policy/Terms links both dead (#)"
+        },
+        {
+          "url": "https://www.mozaik.design/components",
+          "date": "2026-10-17",
+          "note": "Component categories (CTA, FAQ, Features, Footer, Hero, Login, Logos, Navigation, Pricing, Register, Stats, Testimonials); confirmed no license/attribution text on page; log in/sign up links present but requirement unclear"
+        },
+        {
+          "url": "https://www.mozaik.design/templates",
+          "date": "2026-10-17",
+          "note": "Templates page title \"Ready-to-use, free Webflow templates\"; filters by page type (Course, Landing page, Agency, Portfolio, SaaS); Terms/Privacy links also dead (#)"
+        },
+        {
+          "url": "web-search:\"Mozaik\" webflow components scam OR malware OR \"shutting down\" OR acquired",
+          "date": "2026-10-17",
+          "note": "Safety screen; no results about this specific site, no scam/shutdown/acquisition signal"
+        }
+      ],
+      "unverified": [
+        "Whether sign-up/login is required to copy a component or template (site has Log in / Sign up links but no stated requirement)",
+        "Full text of Terms and Conditions / Privacy Policy — links exist in the footer but resolve to \"#\" (no page)",
+        "Commercial-use permission for the components/templates (no terms published)",
+        "Operator's legal identity beyond the first name \"Luka\" and linked social handles",
+        "Whether the free offering is permanent or could change without a terms page to rely on"
+      ],
+      "injectionSeen": null
     }
   }
 }

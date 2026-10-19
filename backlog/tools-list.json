@@ -34447,8 +34447,8 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Free plan is $0 but 'No recurring monthly credits' (per the Wireflow pricing page that now hosts Motionbox's billing) — a one-time credit grant, not a permanent free tier, functions as a free trial. Billing/plans have also moved off motionbox.io entirely to a separate branded product (Wireflow), creating ambiguity about which site is the listable resource.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -34473,7 +34473,7 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -34499,8 +34499,8 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "The backlog's domain motionly.site permanently redirects (308) to https://motify.video, a differently branded product ('Motify') aimed at businesses/agencies — not the tool the backlog entry describes. Motify's free tier grants only a one-time '30 free credits on sign up' with no stated recurring renewal, and its Starter tier description ('Everything in Free, plus HD exports and no watermark') implies the Free tier is watermarked/limited — this reads as a free trial, not a confirmed permanent free tier, on top of the name/brand mismatch.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
@@ -34525,7 +34525,7 @@
           "file": "Best Design Blogs & Magazines for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -34577,8 +34577,8 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Paid only: pricing page lists four paid plans (Starter $19/mo to Creator $249/mo) with no free tier offered; FAQ mentions 'free and AppSumo accounts' exist but gives no limits for them, so a real permanent free tier could not be confirmed. Input label 'Freemium' is not borne out by the pricing page.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -34629,8 +34629,8 @@
           "file": "Best Design Blogs & Magazines for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "FETCH-FAIL: WebFetch returned HTTP 403 Forbidden on https://wearemotto.com/blog on two separate attempts (initial and retry after other work); likely bot/WAF protection, not bypassed per rules.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
@@ -34655,7 +34655,7 @@
           "file": "Best UX Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -34681,7 +34681,7 @@
           "file": "Free Stock Images & Video Websites _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "drafted",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -34733,8 +34733,8 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Site has no working Terms and Conditions or Privacy Policy page (both links point to '#'); commercial-use permission and attribution requirements for the free components/templates can't be confirmed even though the homepage claims everything is free.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
