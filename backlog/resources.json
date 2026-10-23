@@ -90902,6 +90902,2046 @@
         "Exact wording of any export/scraping restriction on generated app code was not found; terms only address reselling the Service itself, not restrictions on apps built with it.",
         "No scam/malware/shutdown signal found in a web search, but the search returned no RapidNative-specific results at all (clean, but unconfirmed by independent coverage)."
       ]
+    },
+    "raster": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Raster",
+        "url": "https://raster.app",
+        "alive": true,
+        "operator": "Raster Inc. (Delaware; registered office 651 N Broad St, Suite 201, Middletown, DE 19709; contact address 8000 Avalon Boulevard, Suite 100, Alpharetta, GA 30009)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Personal plan, free forever for personal/non-commercial use: 1 GB storage, 3 libraries, AI tagging, Agent API, CDN image serving, editing with 21+ adjustments, email support. Excludes live collaboration and reverse image search.",
+        "paidFrom": "Team plan, $20 per user/month (billing period for this price not stated on the page)",
+        "evidence": {
+          "url": "https://raster.app/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Raster Inc. Terms of Service · commercial: no (free tier explicitly personal/non-commercial only; paid plans required for commercial use) · attribution: not required · site access license is non-exclusive and for personal, non-commercial use only per ToS §2",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://raster.app/terms",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "raster",
+        "type": "Software",
+        "category": "Design",
+        "title": "Raster — agent-native digital asset manager for teams",
+        "description": "Digital asset manager for storing, searching, editing and delivering images, built for both human teams and AI agents via an API.",
+        "tags": [
+          "ai-tool",
+          "collaboration",
+          "design-systems"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "AI-based auto-tagging of uploaded images",
+          "Agent API for programmatic asset search, edit and delivery",
+          "Built-in CDN for serving stored images",
+          "21+ in-app image editing adjustments",
+          "Libraries for organizing assets by project or team",
+          "Free personal plan with 1 GB storage and 3 libraries"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact or usable Simple Icons match (check-icon.mjs exit 1, closest matches were single-character noise); needs a sourced site SVG or owner-provided asset before listing."
+        }
+      },
+      "unverified": [
+        "Whether Raster is generally available / out of beta — homepage doesn't state launch status explicitly",
+        "Billing period (monthly vs annual) nuance for the $20/user Team price beyond 'per user, per month' label shown",
+        "Exact scope of 'unauthorized commercial purposes' restriction in ToS §9 as it could apply to using free tier for a business"
+      ]
+    },
+    "rawpixel": {
+      "researchedOn": "2026-10-24",
+      "verdict": "blocked",
+      "verdictReason": "Both https://www.rawpixel.com and https://rawpixel.com returned HTTP 403 Forbidden on every fetch attempt (bot-check), so no first-party page content (home, pricing, license) could be read.",
+      "site": {
+        "name": "Rawpixel",
+        "url": "https://www.rawpixel.com",
+        "alive": null,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.rawpixel.com",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.rawpixel.com",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "All facts about Rawpixel (pricing, license, free tier, operator) — site returned 403 Forbidden on every fetch attempt, could not be read",
+        "No safety web search performed since there was no page content to corroborate; general web knowledge suggests Rawpixel is a known stock-media/design-resources site, but this is not verified first-party for this round"
+      ]
+    },
+    "rawtherapee": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "RawTherapee",
+        "url": "https://www.rawtherapee.com",
+        "alive": true,
+        "operator": "The RawTherapee Team (volunteer open-source project)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Fully free, open-source raw photo processor for Linux, macOS and Windows; no paid tier exists.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.rawtherapee.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "GNU General Public License v3.0 (GPL-3.0) · commercial: yes (GPL permits commercial use) · attribution: not required beyond GPL's own terms (source disclosure on redistribution) · one limit: derivative works that redistribute the software must also be released under GPL-3.0",
+        "openSource": true,
+        "spdx": "GPL-3.0",
+        "evidence": {
+          "url": "https://github.com/Beep6581/RawTherapee",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "rawtherapee",
+        "type": "Software",
+        "category": "Photography",
+        "title": "RawTherapee — free open-source raw photo processor",
+        "description": "Cross-platform, open-source RAW image processor for Linux, macOS and Windows with non-destructive editing and advanced color tools.",
+        "tags": [
+          "open-source",
+          "windows",
+          "mac",
+          "linux"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Non-destructive RAW processing pipeline",
+          "Wide camera RAW format support",
+          "Advanced tone mapping, exposure and color adjustment tools",
+          "Batch processing of multiple images",
+          "Fully open source under GPL-3.0, no paid tier",
+          "Cross-platform: Windows, macOS, Linux"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact or usable Simple Icons match (check-icon.mjs exit 1, closest matches were single-character noise); needs a sourced site SVG or owner-provided asset before listing."
+        }
+      },
+      "unverified": [
+        "Exact release date/version details beyond the 5.13 (2026-07-26) version seen on the download page — not re-confirmed on this pass",
+        "Whether RawTherapee's own site content (vs. GitHub) separately restates the GPL-3.0 license text; license confirmed via GitHub repo rather than rawtherapee.com itself"
+      ]
+    },
+    "raylight": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Raylight",
+        "url": "https://www.raylight.app",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Full editor with unlimited projects, no card required; exports capped at 1080p/60fps with a 'Made in Raylight' badge, 50MB/1-minute uploads, up to 100 hosted videos (250MB each), 8 saved effect styles and 8 saved components, 1 editor seat, and 50 MCP (AI) calls per week. AI/sound features and badge removal are pay-as-you-go via credits (no monthly credit allowance on Free).",
+        "paidFrom": "Hobby plan: $12/month billed yearly ($15/month billed monthly; India regional price $4.80/month).",
+        "evidence": {
+          "url": "https://www.raylight.app/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Raylight Terms of Service · commercial: yes, your own exports are usable commercially with no attribution required (free-plan exports carry a non-removable badge) · attribution: not required (badge on free exports only) · limit: Raylight-published templates can't be used to promote a competing product, and the Raylight name/logo can't be used to imply endorsement",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.raylight.app/terms",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "raylight",
+        "type": "AI Tool",
+        "category": "Filming",
+        "title": "Raylight — AI video editor for product videos and ads",
+        "description": "Browser video editor with an animation timeline, 3D device mockups, AI-generated sound and voiceover, and an API/MCP server for scripting videos.",
+        "tags": [
+          "ai-tool",
+          "video-template",
+          "social-media-design",
+          "automation"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Design canvas with layers, snapping, and alignment for laying out shots",
+          "Animation timeline using reusable animation blocks instead of keyframe graphs",
+          "3D mockups for placing screens on iPhone, iPad, or MacBook models",
+          "AI-generated sound effects, music, and voiceover mixed on a multitrack timeline",
+          "MCP server and API for generating videos from code, workflows, or AI assistants like Claude",
+          "Template marketplace, creator program, and a companion Capture app for Mac screen recording"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact Simple Icons match for 'Raylight' (closest fuzzy: r, ray — not usable); needs site SVG or manual icon"
+        }
+      },
+      "unverified": [
+        "Company/operator behind Raylight not stated on the pages read",
+        "Regional pricing variants beyond the US/India examples shown were not checked",
+        "Icon/logo asset not sourced — no exact Simple Icons match found"
+      ]
+    },
+    "rayon": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Rayon",
+        "url": "https://www.rayon.design",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan (€0, no stated trial limit) with the full editing experience, unlimited public models, async support, limited PDF/DWG export, limited block and style libraries, 7 days of model history, and AI-only (no personal) support. The 15-day free trial applies only to the Team plan, not to Free.",
+        "paidFrom": "Pro plan from €19/month (billing period — monthly vs. annual — not clearly stated on the pricing page).",
+        "evidence": {
+          "url": "https://www.rayon.design/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Rayon Terms of Use · commercial: yes for paid/standard accounts (Student tier is explicitly non-commercial) · attribution: not required (none stated) · limit: libraries/derivative works can't be redistributed at scale or used in software whose terms claim IP rights or relicense them; public models may be used by Rayon to train its AI",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.rayon.design/terms-of-service",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "rayon",
+        "type": "Software",
+        "category": "Design",
+        "title": "Rayon — AI CAD for interior designers and architects",
+        "description": "Browser CAD for interior design and architecture with DWG/PDF support, real-time collaboration, item/material libraries, and AI-assisted asset generation.",
+        "tags": [
+          "ai-tool",
+          "collaboration",
+          "visual-design",
+          "design-templates",
+          "prototyping"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Professional CAD drafting tools with BIM elements and drawing commands",
+          "DWG and PDF import/export, plus schedules",
+          "Real-time multiplayer editing with comments, markup, and version history",
+          "Item and material libraries with thousands of elements, plus 100+ templates",
+          "AI panel for finding or generating assets, answering CAD questions, and tracing images into vector sketches",
+          "Custom styles, annotations, and drawing sets for construction documents"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact Simple Icons match for 'Rayon' (closest fuzzy: crayon, r, ray — not usable); needs site SVG or manual icon"
+        }
+      },
+      "unverified": [
+        "Billing period (monthly vs. annual) for the €19/month Pro price not clearly stated on the pricing page",
+        "Company/operator behind Rayon not stated on the pages read",
+        "Terms-of-Use appendices (Resources, Financial Conditions, Downgrade Policy) are linked externally and were not fetched",
+        "Icon/logo asset not sourced — no exact Simple Icons match found"
+      ]
+    },
+    "reachfast": {
+      "researchedOn": "2026-10-24",
+      "verdict": "skip",
+      "verdictReason": "No real permanent free tier — free access is only '5 free decision-maker contacts' plus a 7-day trial; every plan beyond that is paid, so it fails the free-tier bar for listing.",
+      "site": {
+        "name": "ReachFast (reachfast.ai)",
+        "url": "https://reachfast.ai",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "Entry plan: $29.99/month (500 credits: 500 emails or 50 phone numbers; billed monthly, no stated annual option).",
+        "evidence": {
+          "url": "https://reachfast.ai/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://reachfast.ai/terms",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "/terms returned HTTP 404 — could not read commercial-use or listing restrictions; actual terms/privacy URL not found",
+        "Operator/company name not confirmed from first-party pages",
+        "Data-sourcing and compliance claims (385M+ contacts, 100% accuracy guarantee, GDPR posture) are third-party/self-reported (SaaSWorthy, Capterra, Product Hunt, Trustpilot) and not independently verified against a first-party page",
+        "Not listed regardless of the free-tier issue: this is a personal-contact-scraping (phone/email harvesting) tool, which raises separate listing-suitability questions beyond the scope of this check"
+      ]
+    },
+    "readdy": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Readdy",
+        "url": "https://readdy.ai",
+        "alive": true,
+        "operator": "ILP (operating entity named in Readdy's Terms of Service; legal name not fully confirmed)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan at $0/mo: 250 credits/month, 2 projects, 200MB file storage, 1 editor + 5 viewers, 1 AI-readable site (not for Readdy-hosted sites), 10 'credit care' refunds/month. No sites included (0 hosted sites on the free plan). No stated expiry, so this reads as a real permanent free tier rather than a time-limited trial.",
+        "paidFrom": "Starter plan, $15/mo billed annually (struck through from $25); monthly-billing price for Starter not shown on the pricing page. Starter adds 30,000 credits and 1 hosted site.",
+        "evidence": {
+          "url": "https://readdy.ai/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Readdy Terms of Service · commercial: restricted · attribution: not applicable · AI Features' output/content cannot be reused commercially without written permission, and platform code/design/templates stay ILP-owned",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://readdy.ai/terms-of-service",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "readdy",
+        "type": "AI Tool",
+        "category": "Development",
+        "title": "Readdy — AI website builder",
+        "description": "AI tool that generates a full website from a text prompt, template, image, or URL, then lets you refine it in a no-code visual editor with hosting built in.",
+        "tags": [
+          "ai-tool",
+          "no-code",
+          "website-builder",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Generates a starter site from a text description, reference image, template, or existing URL",
+          "No-code visual editor for refining layout, copy, and design after generation",
+          "Built-in hosting with custom domains and SSL",
+          "SEO basics included: meta tags, sitemap, robots.txt",
+          "Integrates with Stripe, Shopify, Calendly, Mailchimp, and Google Analytics",
+          "Supports forms, lead capture, memberships, and basic e-commerce; code export and white-label delivery for agencies"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no exact or usable fuzzy Simple Icons match for 'Readdy'; needs a site-sourced SVG, left unresolved for owner/follow-up"
+        }
+      },
+      "unverified": [
+        "Exact legal/operating company name behind Readdy (ToS refers to 'ILP' but full legal name not confirmed from pages read)",
+        "Monthly (non-annual) price for the Starter plan was not shown on the pricing page",
+        "No icon resolved; needs a site-sourced SVG or owner decision"
+      ]
+    },
+    "readify": {
+      "researchedOn": "2026-10-24",
+      "verdict": "blocked",
+      "verdictReason": "\"Readify\" resolves to multiple unrelated products (a Chrome reading-assistant extension, an iOS 'AI Web Assistant', and a separate readifyai.com AI reader/TTS app) with no site URL given and no way to confidently pick the one the owner means from a web search alone.",
+      "site": {
+        "name": "Readify",
+        "url": null,
+        "alive": null,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": null,
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": null,
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "Which 'Readify' product the backlog entry refers to: Chrome Web Store 'Readify — The Bionic Reading' extension, 'Readify - AI Web Assistant' iOS app, or readifyai.com's AI reader/TTS app are all distinct products sharing the name",
+        "No pricing or license facts fetched since the correct site could not be confirmed"
+      ]
+    },
+    "really-good-emails": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Really Good Emails",
+        "url": "https://reallygoodemails.com",
+        "alive": true,
+        "operator": "BEE Content Design, Inc. (part of Beefree)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "The gallery itself (browsing curated email designs by category) is free to use with no account. The affiliated RGE Studio email builder has a Starter plan at $0: up to 10 designs, 6 exports/month, landing page builder + custom subdomain, 2-version history, 2 reusable content blocks, up to 3 custom templates, 20GB/month image delivery, 0 project folders, 1 primary + 1 additional language. No expiry stated, reads as a permanent free tier rather than a trial.",
+        "paidFrom": "RGE Studio Professional plan: $25/mo billed yearly, or $30/mo billed monthly.",
+        "evidence": {
+          "url": "https://reallygoodemails.com/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "RGE Studio Terms (BCD) · commercial: yes, for internal business/marketing use by professional users · attribution: not required · no reselling/SaaS redistribution of the software, no bulk/transactional email sending",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://reallygoodemails.com/terms",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "really-good-emails",
+        "type": "Website",
+        "category": "Marketing",
+        "title": "Really Good Emails — email design inspiration gallery",
+        "description": "Curated gallery of real-world marketing and transactional emails, browsable by category, plus a paid email builder (RGE Studio) for making your own.",
+        "tags": [
+          "inspiration",
+          "design-templates",
+          "visual-design",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Large curated gallery of real sent emails (welcome, newsletter, abandoned cart, promotional, and more)",
+          "Browse by category to study layout and copy patterns before designing your own",
+          "Companion RGE Studio builder for creating and exporting emails, with ESP/CRM integrations",
+          "AI prompt library and a signature generator as free supporting resources",
+          "Blog and webinars on email design practice"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no exact or usable fuzzy Simple Icons match for 'Really Good Emails'; needs a site-sourced SVG, left unresolved for owner/follow-up"
+        }
+      },
+      "unverified": [
+        "Whether the free gallery and the paid RGE Studio builder should be treated as one listing or whether RL would rather list only the free gallery aspect",
+        "Full terms text beyond character 100000 of /terms was not read (page was long); nothing in the read portion addresses directory listing/linking, but the tail wasn't checked",
+        "No icon resolved; needs a site-sourced SVG or owner decision"
+      ]
+    },
+    "realtime-colors": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Realtime Colors",
+        "url": "https://realtimecolors.com",
+        "alive": true,
+        "operator": "Juxtopposed (solo developer project, built in a weekend per the site's own docs)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "The entire tool (color/font picker, live mock-site preview, palette generation, sharing a link, dashboard) is free with no account wall mentioned. Homepage states 'The tool is 100% free! Forever.'",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://realtimecolors.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "CC BY-NC-ND (linked from homepage footer) · commercial: unclear · attribution: required · no-derivatives on the site's own code/content",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://realtimecolors.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "realtime-colors",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Realtime Colors — live palette & font previewer",
+        "description": "Try color palettes and font pairings on a realistic mock website layout in real time, then export or share the palette via a link.",
+        "tags": [
+          "color-palette",
+          "ui-ux",
+          "visual-design",
+          "typography",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Live mock website preview that updates instantly as you pick colors and fonts",
+          "Color wheel/toolbar for adjusting a 4-5 color palette (text, background, primary, secondary, accent)",
+          "Generates shareable links and exports (CSS variables, image, PDF) of a chosen palette",
+          "Built-in contrast/accessibility feedback while previewing",
+          "Dashboard for saving multiple palettes to an account"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no exact Simple Icons match (closest: e, c, cplusplus, ea, r); needs a manually sourced site SVG/favicon before listing"
+        }
+      },
+      "unverified": [
+        "Exact HTTPS/certificate state not independently confirmed beyond page content and links pointing to https URLs",
+        "Whether the CC BY-NC-ND license (linked from the homepage, target LICENSE.md on GitHub returned 404 when fetched) restricts anything beyond the site's own source code — i.e. whether it limits using palettes you create for commercial design work (appears not to, but not explicitly stated)",
+        "The homepage's 'Pro'/'Enterprise' plan rows (both $0.00/month) are flagged on the page itself as 'just a generic section,' i.e. placeholder boilerplate, not real paid tiers — treated as noise, not a paid plan",
+        "Icon/logo not sourced in this pass; no exact Simple Icons entry"
+      ]
+    },
+    "rebrand": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Rebrand Gallery",
+        "url": "https://www.rebrand.gallery",
+        "alive": true,
+        "operator": "Sahkyo (credited as maker in the site footer)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan (listed at €0/month, no expiry stated): browse every intro/bento entry, 200 shots/day, access to 769 brands, 1 collection, library search/filter (limited results), limited visual search.",
+        "paidFrom": "Pro plan, price unclear — page text was garbled but appears to start around €5, billed monthly or yearly (yearly marked '-30%'); unlocks natural-language AI search and a beta 'Rebrand MCP' feature",
+        "evidence": {
+          "url": "https://www.rebrand.gallery/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Rebrand Gallery Terms of Service · commercial: no · attribution: required for citations/paraphrasing of site material · no mirroring or scraping without written consent",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.rebrand.gallery/terms",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "rebrand",
+        "type": "Website",
+        "category": "Design",
+        "title": "Rebrand Gallery — curated rebrand case study library",
+        "description": "Browse a curated library of brand redesigns with before/after logos, reveal videos, and the story behind each rebrand.",
+        "tags": [
+          "graphic-design",
+          "inspiration",
+          "visual-design",
+          "design-systems"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Curated library of real brand rebrands with before/after logo comparisons",
+          "Reveal videos and write-ups explaining the identity rationale behind each rebrand",
+          "Searchable and filterable by brand, with a 'bento' browsing view",
+          "Collections for saving/organizing favorite case studies",
+          "Paid tier adds natural-language AI search and an MCP integration (beta)"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no exact Simple Icons match (closest: e, d, r); needs a manually sourced site SVG/favicon before listing"
+        }
+      },
+      "unverified": [
+        "Exact Pro plan price — page text rendered garbled during fetch; appears to start near €5/month but must be confirmed directly before publishing",
+        "Whether the Terms' no-mirroring/no-commercial-exploitation clause (Section 3) would object to a directory listing with a link and a short original description — the Terms are silent specifically on third-party directory listings, only on reproducing/mirroring content",
+        "Icon/logo not sourced in this pass; no exact Simple Icons entry",
+        "Whether this is a near-duplicate of any existing RL design-inspiration resource — rl-index.mjs --find found no name match, but no broader category-level duplicate check was run"
+      ]
+    },
+    "rebrandly": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Rebrandly",
+        "url": "https://www.rebrandly.com",
+        "alive": true,
+        "operator": "RadiateCapital Limited (legal entity named in Terms & Conditions)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free plan ($0/mo): 10 links/month, 10 QR codes/month, 1 custom domain + 1 free rebrand.ly domain, custom back-halves, 1 link gallery, 5 link tags, unlimited clicks/scans but detailed analytics capped at 100 clicks/month, 1 workspace, 100 API calls/min. Limits: watermarks on QR codes and the link gallery; no password-protected links, link expiration, or destination edits.",
+        "paidFrom": "Essentials plan, shown at $8/mo on the pricing page (toggle for 'Pay annually — save up to 31%' suggests $8/mo may be the discounted annual rate rather than month-to-month; not stated plainly on the page)",
+        "evidence": {
+          "url": "https://www.rebrandly.com/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Rebrandly Terms & Conditions · commercial: yes (service is built for business use) · attribution: not required · no text/data mining or scraping of the site, including for AI training",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.rebrandly.com/terms-conditions",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "rebrandly",
+        "type": "Tool",
+        "category": "Marketing",
+        "title": "Rebrandly — branded link shortener & QR codes",
+        "description": "Shorten links on your own custom domain, generate branded QR codes, and track clicks and campaign performance across a team.",
+        "tags": [
+          "automation",
+          "productivity",
+          "collaboration",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Custom-domain branded short links with editable back-halves",
+          "Branded QR code generation tied to short links",
+          "Click tracking and campaign analytics dashboard",
+          "Link galleries for organizing and sharing grouped links",
+          "Team workspaces, API access, and MCP/Claude Connector integration on paid plans"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no exact Simple Icons match (closest: e, d, r); needs a manually sourced site SVG/favicon before listing"
+        }
+      },
+      "unverified": [
+        "Whether the $8/mo Essentials price is a monthly or annual-equivalent rate — the pricing page's annual-discount toggle makes this ambiguous and must be confirmed at checkout before publishing",
+        "Full detail of Essentials/Professional/Growth plan limits beyond Free — pricing page is 114k+ characters; only the first ~100k characters (covering Free and the start of Essentials) were read in this pass",
+        "One third-party Capterra review (March 2024) calls the product 'a scam,' citing upselling after payment and weak support — this is a single negative review among otherwise mixed/positive reviews, not corroborated evidence of fraud; flagged for awareness, second-hand",
+        "Icon/logo not sourced in this pass; no exact Simple Icons entry"
+      ]
+    },
+    "recent-design": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Recent",
+        "url": "https://recent.design",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "The entire site is free to browse with no account required: curated galleries (web design, branding, motion, launch videos, websites, OG images, app screenshots, app icons), a tools/skills resource list, and a jobs board. No paid viewing tier exists; a 'Sponsor' link and a job-posting feature exist but their costs are not shown on the pages fetched.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://recent.design",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No published terms/legal page found (site has no /terms, /legal, or /pricing page; only nav links are Design, Launch Videos, Websites, OG Images, App Screenshots, App Icons, Tools, Skills, Jobs, Sponsor, Info) · commercial: not addressed · attribution: not addressed · no restriction on linking/listing found",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://recent.design/info",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "recent-design",
+        "type": "Website",
+        "category": "Design",
+        "title": "Recent — curated design inspiration feed",
+        "description": "A free, curated gallery of standout web design, branding, motion and app work, plus launch-video, OG-image and app-icon showcases.",
+        "tags": [
+          "inspiration",
+          "graphic-design",
+          "ui-ux",
+          "visual-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Curated feed of design work across web, branding, motion, illustration, posters and print",
+          "Specialized galleries for launch videos, websites, OG images, app screenshots and app icons",
+          "A list of design tools and skills resources",
+          "A design jobs board (product designer, visual designer roles)",
+          "No account or payment needed to browse"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact or fuzzy Simple Icons match (check-icon.mjs exit 1, closest matches are single letters). No logo SVG was captured — needs manual sourcing from the site during the RL PR stage."
+        }
+      },
+      "unverified": [
+        "Site operator/owner name not disclosed on home or info pages",
+        "Cost of 'Sponsor' placement and job postings not shown on fetched pages",
+        "No terms/legal page found to confirm commercial-use or listing restrictions",
+        "Icon/logo SVG not sourced yet"
+      ]
+    },
+    "reclaim-ai": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Reclaim.ai",
+        "url": "https://reclaim.ai",
+        "alive": true,
+        "operator": "Reclaim.ai Inc. (San Francisco, CA; acquired by Dropbox in August 2024 per second-hand reporting, operating under its own brand — homepage logo alt text reads 'Reclaim.ai from Dropbox')"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Lite plan, described as 'Free forever', no credit card required. Includes 5 AI agents (Focus Time, Habits, Buffer Time, Smart Meetings, Meeting Quality), task recommendations, Google Calendar/Outlook support with 2 connected calendars. Limits: 1 user per team, 1-week scheduling range, 1 Calendar Sync, 1 Scheduling Link, and only Google Tasks/Slack/Zoom/Google Meet integrations (Todoist, Asana, ClickUp, Jira, Linear require a paid plan).",
+        "paidFrom": "Starter plan, $10/seat/month billed yearly ($12/seat/month billed monthly)",
+        "evidence": {
+          "url": "https://reclaim.ai/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Reclaim.ai Inc. Terms of Service · commercial: ambiguous — a broad clause bars using 'the Service...for any commercial purposes' unless expressly authorized, which appears to target resale/redistribution of the Service rather than ordinary business scheduling use (the product is explicitly marketed with Business/Enterprise plans) · attribution: using the Reclaim name/logo requires prior written permission · one limit: no copying, framing or derivative works from the Service without authorization",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://reclaim.ai/terms",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "reclaim-ai",
+        "type": "AI Tool",
+        "category": "Productivity",
+        "title": "Reclaim.ai — AI calendar and scheduling assistant",
+        "description": "AI agents that auto-schedule focus time, meetings, tasks and habits around your Google or Outlook calendar, with a free-forever Lite plan.",
+        "tags": [
+          "ai-tool",
+          "productivity",
+          "automation",
+          "project-management"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "AI agents that schedule Focus Time, Habits, Buffer Time, Smart Meetings and Meeting Quality checks",
+          "Automatically reshuffles tasks and events when priorities or conflicts change",
+          "Scheduling links for booking meetings",
+          "Syncs across multiple Google/Outlook calendars",
+          "Team-level tools on paid plans: out-of-office calendars, workforce analytics",
+          "Free Lite plan with no credit card required"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact or fuzzy Simple Icons match (check-icon.mjs exit 1 for both 'Reclaim AI' and 'Reclaim'). No logo SVG captured — needs manual sourcing from the site during the RL PR stage."
+        }
+      },
+      "unverified": [
+        "Resolved via web search since no site URL was given; confirmed reclaim.ai is the AI scheduling tool acquired by Dropbox (second-hand: siliconflorist.com, theventurenewsletter.beehiiv.com, August 2024) — not independently confirmed first-party beyond the 'from Dropbox' logo alt text",
+        "Exact scope of the Terms' 'no commercial purposes' clause is ambiguous; flagging for owner review since the product is otherwise marketed to businesses",
+        "Icon/logo SVG not sourced yet",
+        "Pricing page content beyond character offset 100000 was not fully read (promotional discount codes etc. not verified in detail, not relevant to the free/paid facts above)"
+      ]
+    },
+    "recraft": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Recraft",
+        "url": "https://www.recraft.ai",
+        "alive": true,
+        "operator": "Recraft Inc., 450 Townsend St, Ste 100, San Francisco, CA 94107"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "A permanent Free Tier exists (referenced throughout the Terms as 'Free Tier Assets'), but the pricing page does not list its credits/limits, and Free Tier images are owned by Recraft, appear publicly in the Community Gallery, and cannot be used commercially (Terms §7.1).",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.recraft.ai/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Recraft Inc. Terms of Service · commercial: no for Free Tier Assets and Community Gallery assets (Terms §7.1, §7.5); yes for paid-subscriber-generated Assets (§7.2) · attribution: not stated · one limit: implying endorsement/affiliation with Recraft, or scraping/copying the site, requires Recraft's prior written permission (§8.1(xi), §8.5)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.recraft.ai/terms",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "recraft",
+        "type": "AI Tool",
+        "category": "Design",
+        "title": "Recraft — AI image and vector design generator",
+        "description": "AI model suite that generates photoreal images, illustrations, editable vector graphics and brand assets like logos, icons and mockups.",
+        "tags": [
+          "ai-tool",
+          "graphic-design",
+          "visual-design",
+          "icon-library"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Generates photorealistic images, illustrations and 3D-style graphics from text prompts",
+          "Creates editable vector graphics with design-ready typography",
+          "Builds reusable custom styles from uploaded reference images, no model training required",
+          "Produces brand assets: logos, icons, ads, characters, stock images, mockups",
+          "Built-in upscaler, background remover, AI eraser and vectorizer",
+          "API access for developers; fast 'Recraft V4.1 Flash' model"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact or fuzzy Simple Icons match (check-icon.mjs exit 1, closest are single letters/C++/F#). No logo SVG captured — needs manual sourcing from the site during the RL PR stage."
+        }
+      },
+      "unverified": [
+        "Exact free-tier credit allotment and daily/monthly limits not stated on the pricing page as fetched",
+        "Lowest paid plan name and price not stated on the pricing page as fetched (page mentions Basic/Pro/Teams tiers and monthly vs. annual billing, but no figures were shown)",
+        "Icon/logo SVG not sourced yet"
+      ]
+    },
+    "recursive-sans-and-mono": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Recursive Sans & Mono",
+        "url": "https://www.recursive.design",
+        "alive": true,
+        "operator": "ArrowType"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "The entire variable font family is free to download (GitHub release or Google Fonts) and free to use, including commercial use.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.recursive.design",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "SIL Open Font License 1.1 (OFL-1.1) · commercial: yes · attribution: required (copyright notice + license text must accompany copies) · reserved font name restricts renaming of modified versions",
+        "openSource": true,
+        "spdx": "OFL-1.1",
+        "evidence": {
+          "url": "https://raw.githubusercontent.com/arrowtype/recursive/main/OFL.txt",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "recursive-sans-and-mono",
+        "type": "Font",
+        "category": "Design",
+        "title": "Recursive Sans & Mono",
+        "description": "A free, open-source variable type family that blends sans and monospace styles, with adjustable weight, slant, and casual-to-formal expression.",
+        "tags": [
+          "typography",
+          "open-source",
+          "graphic-design",
+          "visual-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Variable font with five axes: weight, slant, casual expression, and mono/code width",
+          "Blends a sans-serif and a monospace design into one coherent family for UI and code pairing",
+          "Licensed under the SIL Open Font License, free for personal and commercial projects",
+          "Downloadable from GitHub releases and available through Google Fonts",
+          "Built-in 'casual' axis for a more handwritten, informal letterform style"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact or close match in Simple Icons (checked via scripts/check-icon.mjs); no first-party logo SVG confirmed, so no icon asset was assumed."
+        }
+      },
+      "unverified": [
+        "Exact reserved font name string not quoted from the OFL.txt excerpt reviewed",
+        "Full list of contributors/roles beyond those named on the homepage not independently verified"
+      ]
+    },
+    "reddit": {
+      "researchedOn": "2026-10-24",
+      "verdict": "blocked",
+      "verdictReason": "WebFetch could not retrieve any reddit.com or old.reddit.com page (including /premium) across multiple attempts — returned 'unable to fetch' each time, consistent with a bot-check/access block at the tool level. Per instructions, stopped rather than attempting to bypass it; no first-party pricing, operator, or terms data could be confirmed this session.",
+      "site": {
+        "name": "Reddit",
+        "url": "https://www.reddit.com",
+        "alive": true,
+        "operator": "Reddit, Inc. (general knowledge, not confirmed first-party this session)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free account creation, browsing, posting, and community participation (per general/second-hand knowledge; not confirmed on reddit.com directly this session).",
+        "paidFrom": "Reddit Premium reported at roughly $5.99/month (web) by third-party subscription-tracker sites; not confirmed against Reddit's own pricing page.",
+        "evidence": {
+          "url": "https://recurdash.com/subscription-pricing/reddit-premium",
+          "date": "2026-10-24",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "Not verified — reddit.com and its user agreement/terms pages could not be fetched this session",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.reddit.com/policies/user-agreement",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "Could not fetch reddit.com, old.reddit.com, or reddit.com/premium — WebFetch returned 'unable to fetch' every time (bot-check/access block)",
+        "Pricing figures came only from third-party tracker sites, not Reddit's own pricing page",
+        "User agreement / terms of service not reviewed firsthand",
+        "Operator name 'Reddit, Inc.' is from general knowledge, not confirmed first-party this session",
+        "Whether the right listing target is Reddit-the-platform vs. the specific design-communities search URL was not resolved with the owner"
+      ]
+    },
+    "redesigning-design-systems": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Redesigning Design Systems",
+        "url": "https://redesigningdesign.systems",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Online guides, tactics, and articles are free to read on the site; a companion book on design-system components is sold separately via a third-party Amazon listing (price not shown on the site itself).",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://redesigningdesign.systems",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No dedicated license/terms page found · commercial use: not addressed · attribution: not addressed · footer states \"All rights reserved\" for site content",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://redesigningdesign.systems",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "redesigning-design-systems",
+        "type": "Resource",
+        "category": "Design",
+        "title": "Redesigning Design Systems",
+        "description": "Free guides and articles on building, evolving, and scaling design systems, with a companion book on components for deeper reading.",
+        "tags": [
+          "design-systems",
+          "ui-ux",
+          "writing",
+          "inspiration"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Free online guides walking through design-system strategy and structure",
+          "A 'Tactics' section with practical, actionable techniques",
+          "Linked companion book (sold on Amazon) that goes deeper into component design",
+          "Articles section for ongoing writing on design systems",
+          "Newsletter signup for new guides and updates"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact or close match in Simple Icons (checked via scripts/check-icon.mjs); no first-party logo SVG confirmed, so no icon asset was assumed."
+        }
+      },
+      "unverified": [
+        "No dedicated terms/license page found; only a general copyright footer notice reviewed",
+        "Site operator not explicitly named on the page (contact email domain suggests a possible author, but this was not confirmed)",
+        "Price of the companion book not verified (sold via third-party Amazon listing, not shown on the site)"
+      ]
+    },
+    "redlamp": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Redlamp",
+        "url": "https://redlamp.app",
+        "alive": true,
+        "operator": "pdcgomes (independent developer, GitHub: pdcgomes)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "The entire app is free forever, no subscription, no cloud account required. Development is donation-supported via Ko-fi.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://redlamp.app",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Mozilla Public License 2.0 · commercial: yes · attribution: not required for use · file-level copyleft (must share source of modified MPL-licensed files)",
+        "openSource": true,
+        "spdx": "MPL-2.0",
+        "evidence": {
+          "url": "https://github.com/pdcgomes/redlamp/blob/main/LICENSE",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "redlamp",
+        "type": "App",
+        "category": "Photography",
+        "title": "Redlamp: Free Open-Source RAW Editor for Mac",
+        "description": "A free, open-source RAW photo editor built natively for Apple Silicon Macs, with Lightroom-style develop tools, AI masking, and film recipes.",
+        "tags": [
+          "mac",
+          "open-source",
+          "ai-tool",
+          "graphic-design",
+          "visual-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Native Swift/Metal app built for Apple Silicon Macs running macOS 26",
+          "Lightroom-style Develop panel: Basic, Tone Curve, Color Mixer, Color Grading, Detail, Effects",
+          "Layer-based masking with gradient, brush, and AI-assisted masks",
+          "Non-destructive edits saved as small sidecar files beside each photo",
+          "Film simulation recipes and LUT support",
+          "Focus stacking"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no real match in Simple Icons (closest hits were junk single-letter/word fragments); logo not sourced this round, owner to supply"
+        }
+      },
+      "unverified": [
+        "Operator's legal/real-world identity beyond the GitHub handle 'pdcgomes' not confirmed",
+        "App is alpha-stage (0.3.3); feature completeness partial per own roadmap",
+        "Current status of the page's own TLS/HTTPS not independently inspected via headers (inferred from HTTPS outbound links only)"
+      ]
+    },
+    "refine": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Refine",
+        "url": "https://refine.dev",
+        "alive": true,
+        "operator": "Refine Development Inc."
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "The core refine.dev React framework is free and open source (MIT) with no usage limits — it's a self-hosted library, not a hosted SaaS. A separate add-on product, 'Refine AI' (an AI scaffolding assistant), is credit-based and paid from its lowest tier.",
+        "paidFrom": "$0.99/month (Refine AI 'Starter' plan, 300 credits/month, billed monthly)",
+        "evidence": {
+          "url": "https://refine.dev/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT License · commercial: yes · attribution: required (must preserve copyright/license notice) · no other material limits",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://refine.dev/core/docs/further-readings/license/",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "refine",
+        "type": "Library",
+        "category": "Development",
+        "title": "Refine: React Framework for Internal Apps",
+        "description": "Open-source React framework that turns a REST API or Supabase backend into a self-hosted admin panel, dashboard, or internal tool.",
+        "tags": [
+          "open-source",
+          "web",
+          "ai-tool",
+          "productivity"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "MIT-licensed, self-hostable open-source React framework",
+          "Generates CRUD-ready admin panels and dashboards from REST APIs or a Supabase backend",
+          "Headless core pairs with Ant Design, Material UI, Chakra UI, or Mantine",
+          "Built-in auth, access control, and data-provider abstractions",
+          "Optional 'Refine AI' assistant for AI-assisted scaffolding, sold separately on a credit-based plan"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "refine",
+          "fillColor": "#14141F",
+          "bgColor": null,
+          "source": "check-icon.mjs exact match, Simple Icons slug 'refine' (2026-10-24)"
+        }
+      },
+      "unverified": [
+        "How many AI-generation actions one 'credit' equals on the Refine AI paid plans is not stated on the pricing page",
+        "Whether 'Refine AI' is operated by the same legal entity as core refine.dev or a separate product line is not fully clarified by the fetched pages",
+        "Whether unused Refine AI credits roll over month to month is not stated"
+      ]
+    },
+    "relume": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Relume",
+        "url": "https://www.relume.ai",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free forever, no card required: 30 Webflow/React components, 1,000+ Figma components, up to 10 stored library components, private sharing with up to 3 users, free hosting on a relume.live subdomain, up to 1,500 monthly page views, 20 form submissions/month, 7-day analytics window, limited AI usage, no custom domain, Relume badge always shown.",
+        "paidFrom": "From $14/month (Build with Relume Pro plan, billed monthly, cancel anytime); a separate Site Builder line starts from $18/month",
+        "evidence": {
+          "url": "https://www.relume.ai/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Commercial SaaS Terms of Use · could not locate/read the terms page directly (404 at both checked URLs) · no listing/linking restriction found on fetched marketing pages",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.relume.ai/terms-of-use",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "relume",
+        "type": "AI Tool",
+        "category": "Design",
+        "title": "Relume: AI Website Builder & Component Library",
+        "description": "AI tool that turns a brief, an old site, or notes into a sitemap and wireframes, built from a library of pre-made design components.",
+        "tags": [
+          "website-builder",
+          "ai-tool",
+          "design-templates",
+          "prototyping",
+          "ui-ux"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Generates a brief, sitemap, and wireframes from a prompt, document, or existing site",
+          "Assembles pages from a library of 1,000+ pre-built, human-designed components",
+          "Free plan includes a hosted subdomain site, limited components, and limited AI usage",
+          "Publish directly with hosting and SSL, or export the design to Figma, Webflow, or React",
+          "Paid plans (from $14/month) unlock more components, custom domains, and higher traffic limits"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no real match in Simple Icons (closest hits were junk single-letter fragments); logo not sourced this round, owner to supply"
+        }
+      },
+      "unverified": [
+        "Terms of use page returned 404 at both /terms and /terms-of-use on relume.ai; commercial-use/listing restrictions not directly read",
+        "Operator's legal entity name not confirmed on fetched pages",
+        "Exact free-tier AI usage allowance ('Limited') not quantified on the pricing page",
+        "Which pricing table rows apply to 'Build with Relume' vs. the separate 'Site Builder' ($18/mo) line is not fully disambiguated by the fetched page"
+      ]
+    },
+    "remakecv": {
+      "researchedOn": "2026-10-24",
+      "verdict": "skip",
+      "verdictReason": "No permanent free tier: only a 5-CV trial / 7-day trial, then a paid subscription is required.",
+      "site": {
+        "name": "RemakeCV",
+        "url": "https://remakecv.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "$25 USD per user/month (billed annually; Business plan, 30 credits/user/month, 1 credit = 1 CV)",
+        "evidence": {
+          "url": "https://remakecv.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS terms · commercial: yes (internal business use only) · attribution: not required · cannot resell/sublicense/distribute the service or build a competing product",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://remakecv.com/terms",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "unverified": [
+        "Exact canonical URL protocol/casing not stated in page content (inferred from email domain remakecv.com)",
+        "Monthly (non-annual) billing price not shown on pricing page",
+        "Feature claims from third-party listings (G2, Capterra: bulk processing, PII redaction, work-gap detection, LinkedIn import, mini-CRM, ATS integrations with JobAdder/Vincere/Bullhorn/Salesforce) are second-hand and not confirmed first-party",
+        "60-day vs 2-month satisfaction guarantee discrepancy between pricing page and FAQ, not resolved",
+        "No scam/malware/shutdown/acquisition signal found in a web search, but coverage of this tool online is very thin"
+      ]
+    },
+    "remix": {
+      "researchedOn": "2026-10-24",
+      "verdict": "blocked",
+      "verdictReason": "remix.one (and its /pricing page) render as an empty client-side JS page: only a single title heading (\"Remix: multiplayer AI for product teams\") is readable, no body content, pricing, terms, or navigation. Could not confirm firsthand what the product currently is, its pricing, or its license/terms.",
+      "site": {
+        "name": "Remix",
+        "url": "https://remix.one",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://remix.one/pricing",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://remix.one",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "Could not confirm this is NOT the Remix.run React framework from first-party content alone — the page only renders a single heading client-side-only (no body text, no mention of React/Remix.run, no mention of frameworks)",
+        "Third-party directory (everydev.ai) and a Product Hunt listing (second-hand, not fetched directly, from a prior web search) describe a different-sounding product: an 'AI Sandbox for Non-Engineers' / 'Figma, but on your production app' that lets product/design staff create live sandboxed variants of a real codebase with AI coding tools, with changes submitted to engineering as a pull request. This does not match the homepage's own tagline 'multiplayer AI for product teams' cleanly and is unverified first-party",
+        "No pricing, free tier, or license/terms info could be read from the site itself",
+        "Company background (SF-based, founded 2024, ~10 employees, $6.75M raised) is second-hand from a directory listing, not verified first-party",
+        "Could not perform a reliable scam/shutdown/acquisition search specific to this product because the exact product identity is unresolved"
+      ]
+    },
+    "renderform": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "RenderForm",
+        "url": "https://renderform.io",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "50 one-time credits (do not refresh monthly), template editor, no-code integrations, developer API; outputs carry a watermark, uploads capped at 25MB, generated files auto-delete after 14 days",
+        "paidFrom": "$9.00 for a one-time pack of 250 credits (no expiry) or $9.00/month for the Pro plan's 250 credits/month tier (monthly or yearly billing); prices exclude VAT",
+        "evidence": {
+          "url": "https://renderform.io/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS terms of service · commercial: not explicitly addressed (no clause barring commercial use) · attribution: not required · one free account per person, overdue payment reverts account to free and deletes all hosted resources",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://renderform.io/terms",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "renderform",
+        "type": "Tool",
+        "category": "Design",
+        "title": "RenderForm: Automated Image, PDF & Video Generation",
+        "description": "No-code and API tool that fills reusable design templates with your data to batch-generate images, PDFs, and videos.",
+        "tags": [
+          "no-code",
+          "automation",
+          "design-templates",
+          "graphic-design",
+          "video-template"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Visual template editor for building reusable image, video, and PDF layouts",
+          "REST API and no-code integrations for programmatic, automated generation",
+          "Free tier with 50 one-time credits (watermarked output, no monthly refresh)",
+          "Pay-as-you-go credit packs that never expire, or a monthly/yearly Pro subscription",
+          "Pro plan adds AI image generation, custom fonts, image hosting, and webhooks",
+          "Generated files are auto-deleted 14 days after creation on all plans"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no exact Simple Icons match for RenderForm; closest fuzzy match 'render' is the unrelated Render.com cloud platform, not a confident match. Needs a sanitized site SVG or manual icon decision."
+        }
+      },
+      "unverified": [
+        "Exact RL category: Design chosen over Development/Marketing since the product markets itself primarily as a 'graphics editor'; the API/developer angle could also support Development",
+        "Operator/company name behind RenderForm not stated on the pages read",
+        "No scam/malware/shutdown/acquisition signal found in a web search, but the search terms matched unrelated results, so coverage is inconclusive either way"
+      ]
+    },
+    "replit": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Replit",
+        "url": "https://replit.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Starter plan at $0: free daily AI agent usage, one published live project, first prompt free with no credit consumption, no credit card required to sign up.",
+        "paidFrom": "Core plan, $20/month billed monthly or $18/month billed annually (annual shown as up to 10% off); adds more agent/model-credit usage and up to 30 hours chat / 60 projects in Free Mode.",
+        "evidence": {
+          "url": "https://replit.com/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Replit Terms of Service · commercial: unclear (Pro/Enterprise use is governed by a separate, unseen Commercial Agreement) · attribution: not required · limit: scraping/extracting content from the Service is prohibited and Replit trademarks/IP can't be used without written consent",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://replit.com/terms",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "replit",
+        "type": "AI Tool",
+        "category": "Development",
+        "title": "Replit — AI app builder and cloud IDE",
+        "description": "Build, deploy and host apps, websites and tools from natural-language prompts or code, with an AI agent, databases, auth and collaboration built in.",
+        "tags": [
+          "ai-tool",
+          "no-code",
+          "web",
+          "automation",
+          "collaboration",
+          "prototyping"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "AI Agent that writes, edits and evolves app code from plain-language prompts",
+          "Built-in hosting, authentication, databases and monitoring for published apps",
+          "Real-time collaborative browser-based IDE",
+          "100+ integrations (e.g. OpenAI, Stripe) for adding functionality without extra setup",
+          "Free Starter plan with daily usage allowance and one published project",
+          "Enterprise controls: SSO/SAML and SOC 2"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "replit",
+          "fillColor": "#F26207",
+          "bgColor": null,
+          "source": "scripts/check-icon.mjs \"Replit\" (fuzzy/likely-exact match, exit 1)"
+        }
+      },
+      "unverified": [
+        "Legal operator/entity name (e.g. \"Replit, Inc.\") not stated on the fetched pages",
+        "Whether commercial use is fully permitted under the Pro/Enterprise \"Commercial Agreement\" — that document was not fetched (link not in page text)",
+        "check-icon.mjs returned exit code 1 (fuzzy) despite printing an apparently exact label match \"replit\" — worth a manual glance at the rendered icon before merge"
+      ]
+    },
+    "replit-design": {
+      "researchedOn": "2026-10-24",
+      "verdict": "skip",
+      "verdictReason": "Replit Design (replit.com/design) is a feature-marketing page for one mode of the same Replit AI agent (same account, same pricing, same domain) — it has its own nav entry and URL but no distinct content type/library (no Template/Font/Icon-Set-style asset set) and no separate audience/search intent strong enough to clear the sibling bar in system/research-playbook.md §5 (which lists 'a marketing sub-page' as a signal it does NOT deserve its own entry). Recommend not splitting; owner can override if they disagree.",
+      "site": {
+        "name": "Replit Design",
+        "url": "https://replit.com/design",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Same Replit Starter free tier applies (page ends with \"Start creating for free\"); no separate pricing for this feature.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://replit.com/design",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Same Replit Terms of Service as the main product applies (no separate terms page for this feature)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://replit.com/terms",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "unverified": [
+        "Whether Replit Design has any dedicated pricing or limits distinct from the main platform — none found on the fetched page"
+      ]
+    },
+    "resource-boy": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Resource Boy",
+        "url": "https://resourceboy.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All resources (mockups, fonts, textures, text effects, gradients, PSD templates, Photoshop brushes, flyers, patterns, photos) are free to download; exclusive resources are explicitly labelled \"Free for Commercial Use\". No paywall gates access to the content itself.",
+        "paidFrom": "Optional one-time $29 \"Ad-Free\" upgrade (lifetime, no subscription) that removes ads/popups only — it does not unlock any additional resources.",
+        "evidence": {
+          "url": "https://resourceboy.com/ad-free/",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Resource Boy exclusive-resource license · commercial: yes, unlimited personal/commercial projects including client work and reselling the final output · attribution: not required (appreciated but optional) · limit: can't re-upload/redistribute the source files themselves (no marketplaces, repos, bundles) and any promotion must link to the Resource Boy product page, not a direct download link; third-party (non-exclusive) resources follow their own listed license",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://resourceboy.com/license/",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "resource-boy",
+        "type": "Stock Media",
+        "category": "Design",
+        "title": "Resource Boy — free design mockups, fonts and PSD assets",
+        "description": "A library of free PSD mockups, fonts, textures, text effects, gradients, patterns and Photoshop brushes, most cleared for commercial use with no attribution.",
+        "tags": [
+          "stock",
+          "graphic-design",
+          "design-templates",
+          "print-design",
+          "typography"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Free PSD mockups for packaging, devices, apparel and print",
+          "Free font collection alongside text-effect and gradient assets",
+          "Textures, patterns and Photoshop brushes for design work",
+          "Exclusive resources explicitly licensed free for commercial use, no attribution required",
+          "Optional one-time $29 lifetime ad-free upgrade (does not gate content)",
+          "Flyers and photo assets rounding out the library"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "scripts/check-icon.mjs \"Resource Boy\" found no exact or usable fuzzy match in Simple Icons (closest hits: e, c, cplusplus, ce, r — all irrelevant). Needs a site favicon/SVG sourced by hand or an owner decision; not invented here."
+        }
+      },
+      "unverified": [
+        "Legal operator/entity name not stated on fetched pages",
+        "Whether the general sitewide Terms of Use page exists at a different path than /terms-of-use/ (that URL 404'd) — license terms were instead confirmed via /license/",
+        "Licensing status of non-exclusive (third-party-sourced) resources — page states they follow their own per-item license, not independently checked per item",
+        "Icon/logo: no Simple Icons match; a real icon asset still needs to be sourced before the RL PR, per the no-invented-assets rule"
+      ]
+    },
+    "resurf": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Resurf",
+        "url": "https://resurf.so",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free forever: full Mac app, 50 captures, 4 spaces, free unlimited iPhone/iPad use, private iCloud sync, no account required. Mac app prompts for a license after 50 captures but keeps existing data.",
+        "paidFrom": "$39 one-time (Standard/Pro, regularly $49) for unlimited captures/spaces on up to 2 Macs, 2 years of updates; also a $79 one-time Lifetime tier. No subscription.",
+        "evidence": {
+          "url": "https://resurf.so/license",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary commercial software · commercial use by individuals: yes (personal/freelance use implied) · attribution: not required · terms page could not be re-verified this session (rate-limited)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://resurf.so/terms",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "resurf",
+        "type": "App",
+        "category": "Productivity",
+        "title": "Resurf: Personal Knowledge Library for Mac & iOS",
+        "description": "Local-first Mac, iPhone and iPad app that stores notes, bookmarks, screenshots and PDFs in one searchable library, with optional AI and iCloud sync.",
+        "tags": [
+          "productivity",
+          "mac",
+          "ios",
+          "ai-tool"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Saves notes, bookmarks, screenshots and PDFs into a single searchable library",
+          "Keyword and meaning-based search across everything saved",
+          "Spaces for grouping references by project or topic, plus an inbox for later sorting",
+          "Built-in reader, Markdown notes editor and PDF annotation",
+          "Optional AI features that use your own API key (opt-in)",
+          "MCP and CLI interfaces for handing saved context to AI agents; iPhone/iPad apps, Chrome extension and optional private iCloud sync"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No Simple Icons match (checked via scripts/check-icon.mjs); site SVG not pulled/sanitized this session — needs manual icon sourcing before draft."
+        }
+      },
+      "unverified": [
+        "Terms/license page (resurf.so/terms) returned HTTP 429 on every retry this session; commercial-use and listing-restriction clauses not directly confirmed.",
+        "Company/operator identity not stated on site.",
+        "Icon/logo asset not sourced — no Simple Icons match; needs manual SVG pull."
+      ]
+    },
+    "rethink-talks": {
+      "researchedOn": "2026-10-24",
+      "verdict": "skip",
+      "verdictReason": "No real permanent free tier for the core offering — talks/videos sit behind a paid membership ($348/year) or individual event tickets ($49-99); only a lead-magnet guide and a few blog posts are free.",
+      "site": {
+        "name": "RETHINK (Rethink Talks / RethinkHQ)",
+        "url": "https://www.rethinkhq.com/videos",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "$348/year membership (cancel anytime) for the video library/community; or per-event tickets at $49 (Standard) / $79 (Premium) / $99 (VIP). Pricing nav link on the main site points to a placeholder (#).",
+        "evidence": {
+          "url": "https://www.rethinkhq.com/learn",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Could not verify — no terms/legal page found (rethinkhq.com/terms-of-service returned 404; no ToS/legal link present in site navigation).",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.rethinkhq.com/terms-of-service",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "No terms of service / legal page could be located on the site (nav links to Pricing and Philosophy are placeholders pointing to '#').",
+        "Whether any individual talks on /videos are freely watchable without a membership login was not fully confirmed — the page lists talks but actual playback was not tested (would require account/login).",
+        "Web safety search for 'Rethink Talks'/'RethinkHQ' + scam/shutdown/acquired returned no relevant hits either way (name too generic to search reliably)."
+      ]
+    },
+    "reve": {
+      "researchedOn": "2026-10-24",
+      "verdict": "blocked",
+      "verdictReason": "Pricing page (app.reve.com/pricing, after reve.com redirects there) renders as an empty client-side JS shell — only the page title is present, no fetchable pricing content. Could not verify free-tier/pricing facts first-party, so stopping per instructions rather than guessing from third-party sources.",
+      "site": {
+        "name": "Reve (Reve Image)",
+        "url": "https://www.reve.com",
+        "alive": true,
+        "operator": null
+      },
+      "unverified": [
+        "Home page (reve.com) redirects (307) to app.reve.com and is a lightly-rendered landing page ('See your Ideas' / AI image creation, editing, design) with a Sign In link; readable, not itself blocked.",
+        "Pricing page at app.reve.com/pricing returned only the title 'Reve Image - Pricing' with no body text — empty JS page, could not confirm tiers, prices, or whether a real permanent free tier exists.",
+        "Third-party reviews (not used as basis for verdict, per first-party-only rule) disagree with each other on Reve's free tier, Lite ($7.99/mo claimed), and Pro ($19.99/mo claimed vs other figures) pricing, and on API availability — exactly the kind of inconsistency the blocked verdict is meant to avoid relying on.",
+        "License/terms page not attempted since pricing (the gating fact for list/skip) was already unreadable.",
+        "No scam/shutdown/acquisition signal found in a general sense via secondary search results, but this was not a clean dedicated safety search."
+      ]
+    },
+    "revise": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Revise",
+        "url": "https://revise.io",
+        "alive": true,
+        "operator": "Migraine, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free online document editor with a free daily AI allowance that resets every day; includes access to GPT-6 Luna and Claude Haiku 5.5, plus Claude/ChatGPT plugins (edits run through those plugins use the user's own ChatGPT/Claude subscription and don't count against Revise's daily limit).",
+        "paidFrom": "Plus plan, $8/month billed monthly (yearly billing mentioned but price not shown); removes the daily AI limit and adds smarter models and autonomous multi-step editing.",
+        "evidence": {
+          "url": "https://revise.io/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Revise ToS · commercial: yes (API use allowed in commercial products; paid plans required for paid usage) · attribution: required for API integrations · limit: template reselling/redistribution and bulk template scraping are prohibited",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://revise.io/terms",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "revise",
+        "type": "AI Tool",
+        "category": "Productivity",
+        "title": "Revise - AI word processor with tracked changes",
+        "description": "Browser-based word processor whose AI agent proofreads and revises documents, showing every edit as a tracked change you accept or reject.",
+        "tags": [
+          "ai-tool",
+          "writing",
+          "collaboration",
+          "productivity"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "AI agent edits documents and presents changes as trackable, acceptable/rejectable revisions",
+          "Imports and exports DOCX, PDF, Markdown, RTF, and ODT",
+          "Real-time collaborative co-editing",
+          "AI comments and feedback on drafts",
+          "ChatGPT and Claude plugins plus an MCP server for connecting external AI clients",
+          "Document conversion and translation"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no exact or fuzzy match in Simple Icons (check-icon.mjs); needs a sanitized site SVG or owner-provided asset"
+        }
+      },
+      "unverified": [
+        "Exact size of the 'free daily AI allowance' is not stated on the pricing page",
+        "Yearly Plus price not shown (only 'billed monthly' price of $8/month confirmed)",
+        "Canonical URL not explicitly declared on the page (inferred as https://revise.io from internal links and contact email)"
+      ]
+    },
+    "reweb": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Reweb",
+        "url": "https://www.reweb.so",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan allows 1 project, limited AI usage (quota not specified on the page), and unlimited code exports.",
+        "paidFrom": "Pro plan, $20/month billed monthly (early-bird discount from a $25/month list price); yearly billing available with up to 16% savings, exact yearly price not shown.",
+        "evidence": {
+          "url": "https://www.reweb.so/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Terms/legal page not found (checked /terms, /tos, /legal: all 404) · commercial use: not verified · attribution: unknown · limit: unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.reweb.so",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "reweb",
+        "type": "AI Tool",
+        "category": "Development",
+        "title": "Reweb - AI landing page builder with exportable code",
+        "description": "AI tool that designs landing pages on a canvas from a text description, editable by chat, then exported as React and Tailwind code or pasted into Figma.",
+        "tags": [
+          "ai-tool",
+          "website-builder",
+          "no-code",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Generates a landing page design from a plain-text description",
+          "Edit the result through a chat interface or a visual canvas editor",
+          "Exports clean React + Tailwind code, or installs components via a shadcn command",
+          "Designs can be pasted directly into Figma",
+          "Forkable starter projects: SaaS landing page, SaaS dashboard, card components",
+          "Community Discord for support"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no exact or fuzzy match in Simple Icons (check-icon.mjs); needs a sanitized site SVG or owner-provided asset"
+        }
+      },
+      "unverified": [
+        "Could not find a terms/license page (/terms, /tos, /legal all returned 404) - commercial-use and listing restrictions not verified, first-party or otherwise",
+        "Operator/company name not disclosed on the fetched pages",
+        "Exact free-plan AI usage quota not stated",
+        "Yearly Pro price not shown"
+      ]
+    },
+    "rezonant": {
+      "researchedOn": "2026-10-24",
+      "verdict": "skip",
+      "verdictReason": "No public pricing and no self-serve free tier: the only entry points are a Typeform 'Get access' waitlist form and a 'Book a demo' page, i.e. an enterprise sales-led B2B product rather than a directly usable tool suited to a public resources directory.",
+      "site": {
+        "name": "Rezonant",
+        "url": "https://www.rezonant.app",
+        "alive": true,
+        "operator": "Rezonant"
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.rezonant.app",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Terms page not found (/terms 404; /pricing also 404) · commercial: unknown · attribution: unknown · limit: unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.rezonant.app",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "No pricing page exists (/pricing returns 404); cost structure unknown beyond being sales-gated",
+        "No terms/legal page found (/terms returns 404)",
+        "Legal entity name not disclosed, only footer copyright 'Rezonant, 2026'",
+        "Could not evaluate free-tier or license terms due to gated access (Typeform signup, demo request) rather than a readable public page"
+      ]
+    },
+    "rgb-to": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "rgb.to",
+        "url": "https://rgb.to",
+        "alive": true,
+        "operator": "unnamed individual developer, described as a personal project (per /about-help)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire tool is free to use with no account, no paid plan exists",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://rgb.to/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No formal license stated · commercial: no restriction found · attribution: not required · one limit: color conversions (Pantone/RAL/CMYK) are approximations, site advises checking official references before offset printing",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://rgb.to/about-help",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "rgb-to",
+        "type": "Tool",
+        "category": "Design",
+        "title": "rgb.to - Color Converter & Scheme Generator",
+        "description": "Converts any color into RGB, HSL, HSB, CMYK, Pantone, and RAL values and generates matching schemes like complementary and triadic sets.",
+        "tags": [
+          "color-palette",
+          "visual-design",
+          "graphic-design",
+          "print-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Converts a hex/RGB input into RGB, HSL, HSB, CMYK, and JSON representations",
+          "Looks up the closest matching Pantone and RAL reference colors",
+          "Generates complementary, triad, tetrad, analogous, accented, and split color schemes",
+          "No signup or account required",
+          "Free with no paid tier"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact or safe fuzzy match in Simple Icons (check-icon.mjs closest guesses: bt, r); needs a captured site asset in a later stage"
+        }
+      },
+      "unverified": [
+        "Exact operator identity (site only says 'personal project', no name given)",
+        "License/reuse terms for the underlying 'What color is...?' keyword list credited on the about page",
+        "Whether site is served over HTTPS by default (not directly observed, inferred from https:// links used throughout the page)"
+      ]
+    },
+    "rhetis": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Rhetis",
+        "url": "https://rhetis.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "New workspaces start with 100 credits to try the core workflow (AI chat, asset/style generation, story planning, wireframes, document indexing) without a credit card; page does not confirm whether free credits renew/recur or are one-time",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://rhetis.com/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Terms of Service exists (Korean-localized 'service usage terms') but full text did not render for this fetch · commercial/attribution/listing clauses: not confirmed",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://rhetis.com/terms",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "rhetis",
+        "type": "AI Tool",
+        "category": "Productivity",
+        "title": "Rhetis - AI Presentation Generator",
+        "description": "Turns uploaded documents, spreadsheets, and slides into a structured presentation outline and editable draft deck for team review.",
+        "tags": [
+          "ai-tool",
+          "productivity",
+          "collaboration",
+          "no-code"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Extracts claims and evidence from uploaded business documents",
+          "Proposes a slide narrative/flow tailored to a stated audience and goal",
+          "Generates a styled draft deck from the approved outline",
+          "Credit-based usage metered per action (chat, asset generation, wireframe per slide, document indexing)",
+          "Team review and feedback workflow on generated decks",
+          "Free workspace with starting credits, no credit card required to begin"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact or safe fuzzy match in Simple Icons (check-icon.mjs closest guesses: e, r); needs a captured site asset in a later stage"
+        }
+      },
+      "unverified": [
+        "Whether the free plan's starting credits are a one-time trial allotment or a recurring/permanent free tier",
+        "Exact dollar prices for Pro/Team/Business plans and credit packs (pricing page loaded credit-pack prices dynamically and did not render for this fetch)",
+        "Full terms-of-service content (commercial use, attribution, directory-listing restrictions) - page did not render text for this fetch",
+        "Company/operator identity behind Rhetis"
+      ]
+    },
+    "rip-so": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "rip.so",
+        "url": "https://rip.so",
+        "alive": true,
+        "operator": "b0zy, self-described computer engineer, personal project"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire site (browsing entries, search, guestbook comments, suggestion submissions, newsletter) is free with no paid tier mentioned",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://rip.so/about",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No terms of service, privacy policy, or license published · commercial use: not addressed · attribution: not required (none stated) · one limit: footer asserts a bare copyright ('© 2026 rip.so') with no reuse terms given",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://rip.so",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "rip-so",
+        "type": "Website",
+        "category": "Personal",
+        "title": "RIP.so - The Digital Graveyard",
+        "description": "A browsable memorial of discontinued apps, messengers, social networks, and websites, each with dates, a write-up, and a guestbook.",
+        "tags": [
+          "inspiration",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Catalog of defunct digital products organized by category and decade",
+          "Search across memorialized entries",
+          "Most-mourned and anniversary-by-year lists",
+          "Guestbook/tribute comments on each entry",
+          "Weekly email digest of new graves",
+          "Companion list of services that survived against the odds",
+          "Public submission form to suggest a service to add"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact Simple Icons match (check-icon.mjs closest guess: r); needs a captured site asset in a later stage"
+        }
+      },
+      "unverified": [
+        "Whether site is served over HTTPS by default (not directly observed in fetched content)",
+        "Any license for user-submitted guestbook/tribute content",
+        "Long-term update cadence beyond the 'last updated: 23 october 2026' notice seen at research time"
+      ]
     }
   }
 }

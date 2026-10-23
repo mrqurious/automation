@@ -42646,7 +42646,7 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -42698,8 +42698,8 @@
           "file": "Free Stock Images & Video Websites _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Both https://www.rawpixel.com and https://rawpixel.com returned HTTP 403 Forbidden on every fetch attempt (bot-check), so no first-party page content (home, pricing, license) could be read.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -42724,7 +42724,7 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -42750,7 +42750,7 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -42776,7 +42776,7 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -42804,8 +42804,8 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "No real permanent free tier — free access is only '5 free decision-maker contacts' plus a 7-day trial; every plan beyond that is paid, so it fails the free-tier bar for listing.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -42856,7 +42856,7 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -42884,8 +42884,8 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "\"Readify\" resolves to multiple unrelated products (a Chrome reading-assistant extension, an iOS 'AI Web Assistant', and a separate readifyai.com AI reader/TTS app) with no site URL given and no way to confidently pick the one the owner means from a web search alone.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -42936,7 +42936,7 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -42962,7 +42962,7 @@
           "file": "Best Color Tools and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -42988,7 +42988,7 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -43014,7 +43014,7 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -43040,7 +43040,7 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -43068,7 +43068,7 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -43094,7 +43094,7 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -43120,7 +43120,7 @@
           "file": "Best Free Font Libraries and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -43172,8 +43172,8 @@
           "file": "Best Design Communities for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "WebFetch could not retrieve any reddit.com or old.reddit.com page (including /premium) across multiple attempts — returned 'unable to fetch' each time, consistent with a bot-check/access block at the tool level. Per instructions, stopped rather than attempting to bypass it; no first-party pricing, operator, or terms data could be confirmed this session.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
@@ -43198,7 +43198,7 @@
           "file": "Learn UI_UX Design_ Courses, Guides & Best Practices.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -43224,7 +43224,7 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -43328,7 +43328,7 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -43380,7 +43380,7 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -43408,8 +43408,8 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "No permanent free tier: only a 5-CV trial / 7-day trial, then a paid subscription is required.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -43434,8 +43434,8 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "remix.one (and its /pricing page) render as an empty client-side JS page: only a single title heading (\"Remix: multiplayer AI for product teams\") is readable, no body content, pricing, terms, or navigation. Could not confirm firsthand what the product currently is, its pricing, or its license/terms.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -43510,7 +43510,7 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -43536,7 +43536,7 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -43562,8 +43562,8 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Replit Design (replit.com/design) is a feature-marketing page for one mode of the same Replit AI agent (same account, same pricing, same domain) — it has its own nav entry and URL but no distinct content type/library (no Template/Font/Icon-Set-style asset set) and no separate audience/search intent strong enough to clear the sibling bar in system/research-playbook.md §5 (which lists 'a marketing sub-page' as a signal it does NOT deserve its own entry). Recommend not splitting; owner can override if they disagree.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -43640,7 +43640,7 @@
           "file": "Best Mockup Sites for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -43666,7 +43666,7 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -43692,8 +43692,8 @@
           "file": "Learn UI_UX Design_ Courses, Guides & Best Practices.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "No real permanent free tier for the core offering — talks/videos sit behind a paid membership ($348/year) or individual event tickets ($49-99); only a lead-magnet guide and a few blog posts are free.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
@@ -43744,8 +43744,8 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Pricing page (app.reve.com/pricing, after reve.com redirects there) renders as an empty client-side JS shell — only the page title is present, no fetchable pricing content. Could not verify free-tier/pricing facts first-party, so stopping per instructions rather than guessing from third-party sources.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -43770,7 +43770,7 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -43874,7 +43874,7 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -43900,8 +43900,8 @@
           "file": "Productivity Tools for Design and Product Teams.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "No public pricing and no self-serve free tier: the only entry points are a Typeform 'Get access' waitlist form and a 'Book a demo' page, i.e. an enterprise sales-led B2B product rather than a directly usable tool suited to a public resources directory.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -43926,7 +43926,7 @@
           "file": "Best Color Tools and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -43952,7 +43952,7 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -44004,7 +44004,7 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
