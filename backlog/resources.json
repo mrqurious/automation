@@ -92942,6 +92942,2034 @@
         "Any license for user-submitted guestbook/tribute content",
         "Long-term update cadence beyond the 'last updated: 23 october 2026' notice seen at research time"
       ]
+    },
+    "rippling": {
+      "researchedOn": "2026-10-24",
+      "verdict": "skip",
+      "verdictReason": "Paid-only workforce platform (HR/IT/finance/payroll); only a temporary 6-month free-access program for eligible VC-backed startups exists, not a permanent free tier.",
+      "site": {
+        "name": "Rippling",
+        "url": "https://www.rippling.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "Plans start at $8 per employee per month plus an unspecified monthly base fee; billing period not confirmed beyond monthly",
+        "evidence": {
+          "url": "https://www.rippling.com/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.rippling.com/terms-of-service",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "Legal/terms page returned 404 at the guessed URL; actual terms page not located, so commercial-use/license language unverified",
+        "Operator/legal entity name not confirmed first-party",
+        "Monthly base fee amount not stated on pricing page",
+        "Site resolved via web search (no direct first-party confirmation it responds over HTTPS at time of check, though content rendered as a live, current site)"
+      ]
+    },
+    "ripplix": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Ripplix",
+        "url": "https://www.ripplix.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Unlimited browsing of the full animation library, 100 AI-ready prompts with no login required, saving up to 18 items, and creating up to 3 collections; commercial/client use and collection sharing require Pro",
+        "paidFrom": "$5/month for Pro shown as a promotional (40% off) banner price; pricing page itself states 'No plans available right now', so this figure is not confirmed as the standing price. A lifetime Pro option is listed at a one-time $199.",
+        "evidence": {
+          "url": "https://www.ripplix.com/membership",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Ripplix Terms & Conditions · commercial: no (third-party content shown under fair use for non-commercial research/reference only) · attribution: required (users may not remove Ripplix's attribution links back to original sources) · limit: scraping, re-uploading, or redistributing Ripplix content to other platforms is prohibited",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.ripplix.com/terms",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "ripplix",
+        "type": "Library",
+        "category": "Design",
+        "title": "Ripplix — UI Animation & Micro-Interaction Library",
+        "description": "Searchable library of real UI micro-interactions pulled from shipped apps, each paired with an AI prompt so you can rebuild the animation yourself.",
+        "tags": [
+          "inspiration",
+          "ui-ux",
+          "visual-design",
+          "ai-tool"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Curated real-world UI animation and micro-interaction examples pulled from shipped products",
+          "AI-ready prompts attached to each example to help rebuild the interaction",
+          "Browse by platform: website, mobile app, smartwatch, and AR/VR",
+          "Save items and build personal collections (limited on the free plan)",
+          "Figma plugin and browser plugin for referencing animations while designing",
+          "Free tier covers browsing and prompts; Pro (promotional $5/month or $199 lifetime) unlocks commercial use and sharing"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no exact or usable fuzzy Simple Icons match for 'Ripplix'; site logo SVG not sourced in this pass"
+        }
+      },
+      "unverified": [
+        "Exact current Pro price unconfirmed: pricing page shows a promotional banner ($5/month) but the plans section itself says 'No plans available right now'",
+        "Yearly billing price for Pro not shown",
+        "Operator/legal entity name not stated on site",
+        "No icon source resolved yet (Simple Icons has no match; needs a sourced logo SVG or owner input)"
+      ]
+    },
+    "rive": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Rive",
+        "url": "https://rive.app",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Rive Editor access, CLI/agent with limits, 3 collaborative files, 1 project, imported assets up to 10 MB each; exported .riv files play a Rive splash screen on this plan",
+        "paidFrom": "$9 per seat per month (Cadet plan, capped at 3 seats), removes the splash screen and allows unlimited files; yearly price not shown",
+        "evidence": {
+          "url": "https://rive.app/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Rive Terms of Service (last updated May 20, 2026) · commercial: yes, but Teams require a paid subscription and orgs over $10M annual revenue must use Enterprise · attribution: no general attribution requirement; Community Content is under CC BY 4.0 · limit: AI Outputs may not be used to train/improve other AI or ML models",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://rive.app/docs/legal/terms-of-service",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "rive",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Rive — Interactive Animation & Vector Graphics Engine",
+        "description": "Design engine for interactive 2D/3D vector animations, with AI-assisted building and open-source runtimes for apps, games, and websites.",
+        "tags": [
+          "prototyping",
+          "ui-ux",
+          "visual-design",
+          "graphic-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "State-machine-driven interactive animations that respond to app logic in real time",
+          "Real-time vector animation editor built for designer/developer collaboration",
+          "CLI and AI agent that can generate and edit .riv animation files",
+          "Open-source runtimes for web, mobile, desktop, and major game engines",
+          "Figma-to-Rive import workflow for porting existing design work",
+          "Free plan for small projects; paid plans start at $9/seat/month to remove the export splash screen and file limits"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "rive",
+          "fillColor": "#1D1D1D",
+          "bgColor": null,
+          "source": "scripts/check-icon.mjs exact match in Simple Icons"
+        }
+      },
+      "unverified": [
+        "Yearly billing price for paid plans not shown on pricing page",
+        "Operator/legal entity name not stated on site",
+        "Rive vs. RL's existing resources: rl-index.mjs --find \"Rive\" returned no match, but worth a manual sanity check against any generic animation-tool entries already listed"
+      ]
+    },
+    "rocket": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Rocket",
+        "url": "https://www.rocket.new",
+        "alive": true,
+        "operator": "Rocket USA Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan at $0/mo: 20 one-time credits (credits never expire), unlimited team members, Build (websites/landing pages/web apps/mobile apps), basic business-intelligence/research features; no credit card required. Not explicitly stated to be permanent, but not framed as a time-limited trial either.",
+        "paidFrom": "Pro plan, $25/mo (platform fee) billed monthly, including 100 monthly credits; annual billing advertised as 20% cheaper but exact annual price not shown.",
+        "evidence": {
+          "url": "https://www.rocket.new/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Terms of Service: not located · commercial: not stated · attribution: not stated · no listing/linking restriction found",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.rocket.new",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "rocket",
+        "type": "AI Tool",
+        "category": "Development",
+        "title": "Rocket — AI app and site builder with research",
+        "description": "AI platform that turns prompts into production-ready apps and websites, paired with market research and ongoing competitor monitoring.",
+        "tags": [
+          "ai-tool",
+          "no-code",
+          "website-builder",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Build: generates production-ready websites, landing pages, web apps, and mobile apps from natural-language prompts",
+          "Solve: market research and strategic recommendations drawing on the same project context",
+          "Intelligence: continuous competitor monitoring tied to the same workspace",
+          "Free plan with 20 non-expiring one-time credits, no credit card required",
+          "Unlimited team members on every plan"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs returned an exact title match for 'Rocket' (slug rocket, hex D33847), but the entry's source field is https://rocket.rs — the Rust web framework's logo, not Rocket.new. Treated as a false positive and not used; needs a site-sourced SVG or owner decision."
+        }
+      },
+      "unverified": [
+        "No Terms of Service / legal page could be located (tried /terms and /legal; both returned only app navigation chrome, suggesting a client-rendered SPA route not reachable this way) — commercial-use and listing/linking terms unconfirmed",
+        "Whether the Free plan's 20 credits are truly permanent (no stated expiry date) vs. an onboarding allotment",
+        "Exact annual price for the Pro plan"
+      ]
+    },
+    "rodin-ai": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Hyper3D (Rodin)",
+        "url": "https://hyper3d.ai",
+        "alive": true,
+        "operator": "Deemos Corporation"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan at $0/mo: free preview generation before confirming (pay-by-result in credits), export from legacy models, basic image-to-3D and text-to-3D exploration, up to 10 private assets, public gallery publishing, limited multi-image-to-3D, limited OmniCraft Image Remix and HDRI Generator. Excludes Smart Low-Poly, HD textures, API access, ChatAvatar, Image Enhancer, and unlimited export. No numeric credit allowance given and no explicit permanence statement, but framed as a standing plan (not a dated trial) separate from the site's '7-Day Trial' offer.",
+        "paidFrom": "Creator plan, $30/mo billed monthly, or $24/mo billed yearly ($288 charged upfront).",
+        "evidence": {
+          "url": "https://hyper3d.ai/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Hyper3D Terms (read via /legal/terms) · commercial: yes for Rodin Output (\"we will not limit your use of such Output\", subject to the Agreements) · attribution: not required for Output · limits: no ownership/copyrightability representation made, company may access/review/modify/delete Output, no training competing AI models, credits non-transferable and non-refundable",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://hyper3d.ai/legal/terms",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "rodin-ai",
+        "type": "AI Tool",
+        "category": "Design",
+        "title": "Rodin (Hyper3D) — AI 3D model generator",
+        "description": "AI tool that turns text prompts or images into 3D models, exporting STL, FBX, OBJ, GLB/GLTF, or USDZ for games, VFX, and 3D printing.",
+        "tags": [
+          "ai-tool",
+          "stock-3d-models"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Text-to-3D and image-to-3D generation, including multi-image inputs",
+          "WorldGen for generating larger 3D scenes/environments",
+          "Exports to STL, FBX, OBJ, GLB, GLTF, and USDZ",
+          "Plug-ins for Blender, Unity, Unreal, and other 3D tools, plus API and MCP access on paid plans",
+          "Public gallery for publishing generated assets; free preview before spending credits",
+          "ChatAvatar and HDRI Generator as related asset-generation features (limited on free plan)"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no exact or usable fuzzy Simple Icons match for 'Rodin' or 'Hyper3D'; needs a site-sourced SVG, left unresolved for owner/follow-up"
+        }
+      },
+      "unverified": [
+        "Numeric free-plan credit allowance (page doesn't state a figure, only that direct credits cost $1.50 each)",
+        "Whether 'Content' restrictions in Terms §6.3 (ban on reselling/commercially using 'Content') apply to generated Output, given the broad definition of 'Content' versus the separate, more permissive Output clause",
+        "ChatAvatar's default non-commercial ('personal entertainment use') license vs. its paid commercial license — not relevant to core Rodin text/image-to-3D but noted since it's offered on the same site",
+        "No icon resolved; needs a site-sourced SVG or owner decision"
+      ]
+    },
+    "routine": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Routine",
+        "url": "https://routine.co",
+        "alive": true,
+        "operator": "Routine (legal entity name not stated on-page; described as \"A Y Combinator company\")"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan, labeled \"Free forever\" on the pricing page: tasks, calendar & notes, AI assistant and AI voice commands, offline mode, 3 integrations, 3 custom databases, 250 AI credits.",
+        "paidFrom": "Personal plan, $5/mo, cancellable any time; an annual option with a 17% discount is implied by the sign-up page but the exact billing-period price isn't clearly stated.",
+        "evidence": {
+          "url": "https://routine.co/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Routine Terms of Service · commercial: limited to internal business/personal productivity use (non-transferable, non-sublicensable license); commercial promotion of Routine itself only via an approvable/revocable partner program · attribution: not required for using the product; partner trademark use requires separate authorization · limit: scraping and automated access prohibited (§7)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://routine.co/terms",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "routine",
+        "type": "App",
+        "category": "Productivity",
+        "title": "Routine — AI-powered tasks, calendar, and notes",
+        "description": "All-in-one productivity app combining tasks, calendar, meetings, notes, and projects, with AI agents, automations, and a universal inbox.",
+        "tags": [
+          "productivity",
+          "project-management",
+          "ai-tool",
+          "automation",
+          "collaboration"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Unified tasks, calendar, meetings, projects, and notes in one workspace",
+          "AI assistant and AI voice commands can be delegated tasks and automations",
+          "Universal inbox for capturing items from multiple sources",
+          "Bot-free meeting recording",
+          "About 167 third-party integrations, plus MCP and API access for use from other AI assistants",
+          "Cross-platform: macOS, Windows, Linux, iOS, Android, and web"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no exact or usable fuzzy Simple Icons match for 'Routine'; needs a site-sourced SVG, left unresolved for owner/follow-up"
+        }
+      },
+      "unverified": [
+        "Legal entity name behind Routine (site only says \"A Y Combinator company\")",
+        "Exact annual price/billing period for the Personal plan (17% discount badge seen but not the resulting price)",
+        "No icon resolved; needs a site-sourced SVG or owner decision"
+      ]
+    },
+    "rows": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Rows",
+        "url": "https://rows.gg",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire product is free during its \"early\" stage (workspace creation, lists, sharing) with no stated usage limits; no paid tier is published.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://rows.gg/terms",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Rows Terms (\"Privacy & terms\") · commercial use: not addressed · attribution: not required · no clause forbidding third-party listing/linking; service may shut down with export notice",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://rows.gg/terms",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "rows",
+        "type": "App",
+        "category": "Productivity",
+        "title": "Rows: Simple Shared Lists for Tracking Anything",
+        "description": "A minimal shared-list app for tracking projects, tasks, reading, or trips with a small team, built to feel simple and fun rather than feature-heavy.",
+        "tags": [
+          "productivity",
+          "collaboration",
+          "project-management",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Shared workspaces where a team can create and edit lists together",
+          "No analytics or trackers inside the workspace itself (marketing pages do use Google Analytics)",
+          "Deliberately minimal interface aimed at quick list-making rather than heavy project management",
+          "Demo mode to try the product before creating a workspace",
+          "Data export offered before any workspace closure or product shutdown",
+          "Currently free while the product is in an early stage, with no published paid plan"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact or confident fuzzy match in Simple Icons (closest results were firefoxbrowser, heliumbrowser, r, torbrowser, zenbrowser — none relevant); needs a site SVG/logo pulled manually."
+        }
+      },
+      "unverified": [
+        "No manual TLS/certificate check performed; HTTPS assumed from successful page load and all-https internal links.",
+        "No legal operator/company name found on site; contact is only hello@rows.gg and an X handle (@gt).",
+        "Pricing page (/pricing) itself has no tier details; 'free while early' language comes from the terms page only.",
+        "Confirmed rows.gg is a distinct, unrelated product from the rows.com AI spreadsheet (which was acquired by Superhuman/Grammarly and fully shut down May 31, 2026) — not a redirect or rebrand, just a name collision."
+      ]
+    },
+    "runable": {
+      "researchedOn": "2026-10-24",
+      "verdict": "skip",
+      "verdictReason": "No real permanent free tier found: the pricing page at runable.com/pricing lists only two paid plans (Pro $20/mo, Max $100/mo) with no free option, and the homepage has no mention of 'free', credits, or trial despite the page's meta description referencing a 'Free' plan.",
+      "site": {
+        "name": "Runable",
+        "url": "https://runable.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "$20/month (Pro plan; billing period toggle shown but annual price not rendered)",
+        "evidence": {
+          "url": "https://runable.com/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Runable Terms of Service · commercial use: yes for exported outputs · attribution: not required · bars reselling/redistributing templates as standalone products and using the service to build/train a competing AI system",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://runable.com/terms-of-service",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "unverified": [
+        "The page's meta description mentions a 'Free' plan, but no free tier, credits, or trial details appear anywhere on the pricing page or homepage — treated as unconfirmed/not currently offered.",
+        "No legal operator/company name shown on-site; a third-party source (ToolJunction, second-hand) names it a Bengaluru-based company that raised a $21M Series A in August 2026 — not verified first-party.",
+        "User-count claims conflict across sources (App Store: 700,000+ users; ToolJunction: 1.7M registered users) and were not used as facts.",
+        "Canonical site resolved via App Store listing links to runable.com/terms-of-service and runable.com/privacy, since a direct web search for 'runable.com' did not surface the homepage itself."
+      ]
+    },
+    "runway": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Runway",
+        "url": "https://runway.com",
+        "alive": true,
+        "operator": "Runway AI, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "\"Free forever\" plan at $0/month: 125 one-time credits that don't expire, access to a selection of generative models for testing concepts, and 5GB asset storage.",
+        "paidFrom": "$12/month billed annually (Standard plan; $15/month billed monthly) — 625 monthly credits, all AI video/image models, 5 parallel generations, up to 3 projects, no watermarks, 4K upscaling, 20GB storage",
+        "evidence": {
+          "url": "https://runway.com/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Runway AI, Inc. Terms of Use · commercial use: yes, company does not restrict commercial use of Outputs · attribution: required for third-party apps built on the API (must display \"Powered by Runway\" and link to runway.com) · bars using Outputs/Services to build or train a competing AI product",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://runway.com/terms-of-use",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "runway",
+        "type": "AI Tool",
+        "category": "Filming",
+        "title": "Runway: AI Video and Image Generation Platform",
+        "description": "AI platform for generating and editing video, image, and audio content, plus a developer API and robotics simulation tools built on the same models.",
+        "tags": [
+          "ai-tool",
+          "visual-design",
+          "graphic-design",
+          "automation"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Text-to-video and image-to-video generation with Runway's own Gen-series models",
+          "AI-assisted video and image editing tools in a browser-based Creative workspace",
+          "Developer API (Dev platform) for integrating generation into other apps",
+          "Robotics platform offering simulation and policy inference built on the same \"Real-World Intelligence\" models",
+          "Free forever plan with 125 non-expiring one-time credits and 5GB storage",
+          "Paid plans add parallel generations, higher-resolution upscaling, and more storage"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact Simple Icons match (closest fuzzy result was just the letter 'r'); needs a site SVG/logo pulled manually."
+        }
+      },
+      "unverified": [
+        "runwayml.com 308-permanent-redirects to runway.com for every page checked (home, pricing, terms-of-use); runway.com is treated as the canonical URL.",
+        "/terms and /legal/terms-of-use both 404'd; the real terms document is at /terms-of-use, reached only after the runwayml.com redirect.",
+        "Standard-plan price text rendered garbled on the pricing page in one fetch; the $12/mo annual vs $15/mo monthly figures come from a structured/FAQ read of the same page and were not independently cross-checked on a second source.",
+        "Robotics and Dev platform descriptions are taken from the homepage summary only, not their own dedicated pages."
+      ]
+    },
+    "ruttl": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Ruttl",
+        "url": "https://ruttl.com",
+        "alive": true,
+        "operator": "Brucira Softwares Pvt. Ltd."
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Basic plan: up to 5 users, 1 project, 5 pages, unlimited guests, 1GB workspace storage, 10 private comments, all project types, Trello/Slack/Asana/Jira integrations. No stated trial period or expiry.",
+        "paidFrom": "Pro plan: $18/month/user (monthly billing; yearly rate not shown on page), adds unlimited projects/pages/users (up to 50) and a dedicated success manager.",
+        "evidence": {
+          "url": "https://ruttl.com/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Ruttl Terms and Conditions · commercial: yes (product is sold for commercial use) · attribution: not required · limit: no automated/bulk data collection from the site, no reverse engineering, broad license granted over user-submitted content",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://ruttl.com/terms-and-conditions",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "ruttl",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Ruttl: Visual Feedback Tool for Websites & Apps",
+        "description": "Pin comments directly on live websites, mobile apps, images and PDFs so teams can review designs and flag bugs without screenshots or meetings.",
+        "tags": [
+          "collaboration",
+          "ui-ux",
+          "web",
+          "project-management"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Pin threaded comments directly on a live website, mobile app, image, or PDF",
+          "Side-by-side design vs. live-site comparison for visual QA",
+          "Integrations with Trello, Slack, Asana, and Jira for task handoff",
+          "Guest reviewers can comment without creating an account",
+          "Works across multiple device/viewport sizes for responsive review"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no exact or confident fuzzy match in Simple Icons (check-icon.mjs exit 1); needs manual SVG from ruttl.com"
+        }
+      },
+      "unverified": [
+        "Whether the Basic/free plan is permanent or could change without notice is not explicitly stated on the pricing page",
+        "Yearly billing price for the Pro plan is not shown",
+        "Icon/logo not sourced; route left as none pending manual SVG extraction from the site"
+      ]
+    },
+    "rybbit": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Rybbit",
+        "url": "https://rybbit.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Fully free and open-source (AGPL-3.0) to self-host on your own server/VPS with no feature paywall mentioned in the README; the managed cloud service itself has no permanent free tier, only a 7-day trial.",
+        "paidFrom": "Cloud Standard plan: $13/month (billed annually) for up to 100K monthly pageviews, 5 websites, 3 team members.",
+        "evidence": {
+          "url": "https://rybbit.com/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "AGPL-3.0 (self-hosted code) · commercial: yes · attribution: per AGPL (source disclosure required for modified network-served versions) · limit: AGPL copyleft obligations apply if you modify and offer it as a network service",
+        "openSource": true,
+        "spdx": "AGPL-3.0",
+        "evidence": {
+          "url": "https://github.com/rybbit-io/rybbit",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "rybbit",
+        "type": "Tool",
+        "category": "Development",
+        "title": "Rybbit: Open-Source Cookieless Web Analytics",
+        "description": "Self-hosted or cloud web analytics with funnels, goals, journeys and session replays, built as a cookieless, GDPR-friendly Google Analytics alternative.",
+        "tags": [
+          "open-source",
+          "web",
+          "productivity"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Cookieless, GDPR/CCPA-oriented web and product analytics",
+          "Self-host via Docker on your own VPS, or use the managed EU-hosted cloud",
+          "Funnels, goals, user journeys, and custom reports",
+          "Session replay and Web Vitals tracking (Web Vitals noted as cloud/paid-tier only)",
+          "Public, shareable dashboards and multi-site/team support"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no exact or confident fuzzy match in Simple Icons (check-icon.mjs exit 1); needs manual SVG from rybbit.com or GitHub repo"
+        }
+      },
+      "unverified": [
+        "The site originally searched for was rybbit.io, which 301-redirects to rybbit.com; resolved and confirmed via GitHub repo (rybbit-io/rybbit) and docs links as the same project",
+        "Company/operator behind Rybbit is not named on the site or in the README excerpt read",
+        "Exact README/LICENSE.md file contents not read in full, only confirmed via GitHub repo sidebar metadata",
+        "Whether self-hosted version has any feature gating vs. cloud beyond Web Vitals/session replay is not fully confirmed",
+        "Icon/logo not sourced; route left as none pending manual SVG extraction"
+      ]
+    },
+    "saas-examples": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "SaaS Examples (DivByZero)",
+        "url": "https://divbyzero.com/tools/saas/",
+        "alive": true,
+        "operator": "Massimo Chieruzzi"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Fully free gallery of 1,000+ SaaS landing pages, onboarding flows, dashboards, pricing pages and emails; page states \"100% Free. Always will be.\" Requires a free sign-up; operator sends occasional marketing emails (opt-out available).",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://divbyzero.com/tools/saas/",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No terms/license page found on the site · commercial: unknown · attribution: unknown · limit: none found, but no formal terms page exists to confirm",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://divbyzero.com/tools/saas/",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "saas-examples",
+        "type": "Website",
+        "category": "Design",
+        "title": "SaaS Examples: Landing Page & UI Design Gallery",
+        "description": "A free, searchable gallery of real SaaS landing pages, onboarding flows, pricing pages and emails for design and copy inspiration.",
+        "tags": [
+          "inspiration",
+          "design-templates",
+          "ui-ux",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "1,000+ real-world SaaS page and email screenshots, organized by company and page type",
+          "Covers landing pages, onboarding, dashboards, pricing pages, and email flows",
+          "Searchable/filterable by industry and page type",
+          "New examples added regularly by the site's curator",
+          "Free sign-up required to browse the full library"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no exact or confident fuzzy match in Simple Icons (check-icon.mjs exit 1); needs manual SVG/logo from divbyzero.com"
+        }
+      },
+      "unverified": [
+        "No dedicated terms/privacy/legal page was found on the site (checked /terms, which 404'd); could not confirm formal commercial-use or listing restrictions",
+        "Exact size of example library (\"1,000+\") is the operator's own claim, not independently counted",
+        "Icon/logo not sourced; route left as none pending manual SVG extraction"
+      ]
+    },
+    "saas-landing-page": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "SaaS Landing Page",
+        "url": "https://saaslandingpage.com",
+        "alive": true,
+        "operator": "Davide Pacilio"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire gallery (examples, filters by tag/font/tech-stack, templates section) is browsable with no account, login, or paywall.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://saaslandingpage.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No dedicated terms/legal page found (checked /terms and /legal, both 404) · commercial use of the gallery itself: not stated · attribution: not stated",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://saaslandingpage.com/terms",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "saas-landing-page",
+        "type": "Website",
+        "category": "Design",
+        "title": "SaaS Landing Page",
+        "description": "Curated gallery of real SaaS landing pages, filterable by tag, font, and tech stack, for design and copy inspiration.",
+        "tags": [
+          "inspiration",
+          "web",
+          "design-templates",
+          "ui-ux"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Browsable gallery of roughly 840 live SaaS landing page examples",
+          "Filter examples by tag, font, and tech stack",
+          "Dedicated templates section separate from the examples gallery",
+          "Per-example detail pages linking out to the live site",
+          "No account or signup required to browse"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact Simple Icons match (closest fuzzy hits unrelated: e, D, NDI); needs manual logo sourcing or owner decision"
+        }
+      },
+      "unverified": [
+        "No terms/legal/license page could be found (/terms and /legal both 404) — commercial-use and listing-restriction status for the directory itself is unknown.",
+        "Site has an 'Advertise'/'Advertise on SLP' link (slpads.framer.website) suggesting a paid sponsorship/placement product for site owners, not explored — this is separate from the free-to-browse directory used for the RL free-tier call.",
+        "Near-duplicate concern: this site, SaaS Pages (saaspages.xyz), and SaaS Websites (saaswebsites.com) are all SaaS landing-page/website screenshot galleries with very similar names and purposes; owner may want to pick only one or two for RL to avoid redundant listings.",
+        "Web search for scam/malware/shutdown/acquisition turned up no results specific to this domain (no negative signal, but also no independent corroboration of legitimacy beyond the live first-party site)."
+      ]
+    },
+    "saas-pages": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "SaaS Pages",
+        "url": "https://saaspages.xyz",
+        "alive": true,
+        "operator": "Versoly"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire gallery of landing pages and the 'Blocks' library (navbars, headers, pricing, FAQs, etc.) is browsable with no account, login, or paywall.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://saaspages.xyz",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No terms/legal/pricing page exists on this site (no such links in nav or footer; /pricing and /legal both 404) · commercial use: not stated · attribution: not stated",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://saaspages.xyz",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "saas-pages",
+        "type": "Website",
+        "category": "Design",
+        "title": "SaaS Pages",
+        "description": "Gallery of landing pages and reusable UI blocks (headers, pricing, FAQs) from well-known SaaS companies, run by Versoly.",
+        "tags": [
+          "inspiration",
+          "web",
+          "design-templates",
+          "ui-ux"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Showcases landing pages from recognizable SaaS companies (e.g. Algolia, Shopify)",
+          "\"Blocks\" library organized by section type: navbars, headers, pricing, FAQs, and more",
+          "Built and maintained by Versoly, a separate landing-page-builder product",
+          "Free to browse with no account or signup required",
+          "No filtering by tech stack or font, unlike similar galleries"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact Simple Icons match (only unrelated fuzzy hit: e); needs manual logo sourcing or owner decision"
+        }
+      },
+      "unverified": [
+        "No terms/legal/pricing page found anywhere on the site (home page footer only links to social media and to Versoly) — commercial-use and listing-restriction status is unknown.",
+        "Site is run by Versoly (a landing-page builder/website service) as a content-marketing property; the on-page ad reads 'Start Building - Free' for Versoly itself, not for SaaS Pages — not counted as this resource's own free tier.",
+        "Near-duplicate concern: this site, SaaS Landing Page (saaslandingpage.com), and SaaS Websites (saaswebsites.com) are all SaaS landing-page/website screenshot galleries with very similar names and purposes; owner may want to pick only one or two for RL to avoid redundant listings.",
+        "Web search for scam/malware/shutdown/acquisition turned up no results specific to this domain (no negative signal found)."
+      ]
+    },
+    "saas-websites": {
+      "researchedOn": "2026-10-24",
+      "verdict": "blocked",
+      "verdictReason": "Home page returned HTTP 403 Forbidden on repeated fetch attempts (bot-check), so no first-party content could be read.",
+      "site": {
+        "name": "SaaS Websites",
+        "url": "https://saaswebsites.com",
+        "alive": null,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://saaswebsites.com",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://saaswebsites.com",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "Home page (https://saaswebsites.com) returned HTTP 403 Forbidden on two separate fetch attempts (2026-10-24) — could not confirm brand name, pitch, pricing, free tier, or terms. Did not attempt to bypass the bot-check per instructions.",
+        "Web search for scam/malware/shutdown/acquisition turned up no results specific to this domain (no negative signal, but also no way to corroborate legitimacy without first-party access).",
+        "By name and domain pattern this is almost certainly another SaaS landing-page/website screenshot gallery, closely resembling SaaS Landing Page (saaslandingpage.com) and SaaS Pages (saaspages.xyz) already researched in this batch — likely near-duplicate if it is later re-checked and found listable.",
+        "Should be retried on a later pass or by the owner directly (e.g. via browser) since the block may be a Cloudflare/bot-check rather than a permanent takedown."
+      ]
+    },
+    "saashunt": {
+      "researchedOn": "2026-10-24",
+      "verdict": "blocked",
+      "verdictReason": "Could not confidently resolve/read the real first-party site: saashunt.com returned HTTP 522 (origin unreachable) via WebFetch, and secondhand sources disagree on what it even is (a SaaS product-discovery/launch directory, Product-Hunt-style, rather than a design \"gallery\" tool) with no first-party page readable to confirm.",
+      "site": {
+        "name": "SaasHunt",
+        "url": null,
+        "alive": null,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://saashunt.com",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://saashunt.com",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "Could not reach https://saashunt.com (WebFetch returned HTTP 522 Unknown Status / origin unreachable) on 2026-10-24.",
+        "No official first-party page was ever rendered, so name, pitch, canonical URL, pricing and license are all unconfirmed.",
+        "Secondhand sources (AlternativeTo, Stork.ai mirrors, goodaitools mirror) describe 'SaasHunt' as a community SaaS product-discovery/launch directory similar to Product Hunt, with disputed pricing ($9 one-time Pro per one source, $9-$199 one-time range per AlternativeTo, 'freemium' per another) — none of this is first-party and it does not match the task's framing of SaasHunt as a design/gallery tool, so identity is unconfirmed.",
+        "Web safety search ('SaasHunt' scam OR malware OR shutting down OR acquired) returned no relevant hits either way."
+      ]
+    },
+    "saaspo": {
+      "researchedOn": "2026-10-24",
+      "verdict": "blocked",
+      "verdictReason": "Bot-check wall: WebFetch got HTTP 403 Forbidden on both https://www.saaspo.com and https://saaspo.com, so the home, pricing and terms pages could not be read first-party.",
+      "site": {
+        "name": "Saaspo",
+        "url": "https://www.saaspo.com",
+        "alive": null,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.saaspo.com",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.saaspo.com",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "Could not read https://www.saaspo.com or https://saaspo.com first-party (WebFetch returned HTTP 403 Forbidden both times) on 2026-10-24 — treated as a bot-check wall per rules, not bypassed.",
+        "Secondhand sources (saasui.design comparison) describe Saaspo as a curated gallery of SaaS landing-page designs with filters and a weekly email digest, but this is not first-party confirmed.",
+        "Pricing, free tier, and license/terms are unknown — could not be read.",
+        "Web safety search ('Saaspo' scam OR malware OR shutting down OR acquired) returned no relevant hits either way."
+      ]
+    },
+    "same": {
+      "researchedOn": "2026-10-24",
+      "verdict": "blocked",
+      "verdictReason": "Bot-check/rate-limit wall: WebFetch got HTTP 429 Too Many Requests on https://same.new on two attempts, so the home, pricing and terms pages could not be read first-party.",
+      "site": {
+        "name": "Same",
+        "url": "https://same.new",
+        "alive": null,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://same.new",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://same.new",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "Could not read https://same.new first-party (WebFetch returned HTTP 429 Too Many Requests on two attempts) on 2026-10-24 — treated as a bot-check/rate-limit wall per rules, not bypassed.",
+        "Secondhand sources (third-party AI-tool directories) describe Same.new as an AI agent that builds full-stack web apps/websites via chat, with GitHub/Neon/Supabase/Clerk integrations, San Francisco based, founded 2023, token-based paid pricing, and a reported '$3M ARR, 500k users' milestone — none of this is first-party confirmed.",
+        "Free tier existence, exact pricing, and license/terms are unknown — could not be read.",
+        "Web safety search ('Same.new' scam OR malware OR shutting down OR acquired) returned no relevant hits either way."
+      ]
+    },
+    "same-energy": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Same Energy",
+        "url": "https://same.energy",
+        "alive": true,
+        "operator": "Same Energy, Inc. (Jacob Jackson)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "The whole tool is free to use with no account or payment required for searching; no tiers or limits observed.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://same.energy/about",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No public ToS for the service itself found · commercial: unclear for the service (CC-BY search results can be reused commercially with attribution) · attribution: required only for the CC-BY images it surfaces, not for using the tool",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://same.energy/about",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "same-energy",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Same Energy: visual search for Creative Commons images",
+        "description": "Upload or drop an image and Same Energy finds Creative Commons photos with a similar style, color, or composition, no keywords or account needed.",
+        "tags": [
+          "inspiration",
+          "stock-photos",
+          "royalty-free",
+          "visual-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Search by dropping or uploading an image instead of typing keywords",
+          "Surfaces Creative Commons (CC-BY) licensed images for reuse",
+          "Homepage feeds built from hand-picked seed images",
+          "Save results into personal collections for later",
+          "Shows each image's license and creator on right-click or long-press",
+          "Deep-learning visual similarity search across millions of indexed images"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact or usable fuzzy match in Simple Icons; needs a sourced site SVG or owner decision"
+        }
+      },
+      "unverified": [
+        "No formal business model or monetization stated by the operator as of 2026-10-24 (page says they are 'considering' API licensing)",
+        "Whether using the Same Energy search tool itself (not just its CC-BY results) is permitted commercially is not addressed anywhere on the site",
+        "Icon not resolved automatically; needs manual SVG sourcing or owner input"
+      ]
+    },
+    "samepage-signals": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Samepage Signals",
+        "url": "https://www.samepage.ai",
+        "alive": true,
+        "operator": "Samepage, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan ($0, no credit card required): 1 user, 3 data sources, 50 Signals/month, 15 artifact generations/month, 10 Copilot chats/day.",
+        "paidFrom": "Pro plan: $15/month, billed annually (no separate monthly price shown).",
+        "evidence": {
+          "url": "https://www.samepage.ai/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Samepage Terms of Service · commercial: no for site Content (personal/non-commercial use of Content only) · attribution: not specified · limit: may not use the Product to compete with Samepage or for other revenue-generating purposes",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.samepage.ai/terms",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "samepage-signals",
+        "type": "AI Tool",
+        "category": "Productivity",
+        "title": "Samepage Signals: AI insight feed for product teams",
+        "description": "Samepage Signals pulls customer feedback and team chatter from tools like Slack, Notion, and Gong into one AI feed, then drafts PRDs and release notes.",
+        "tags": [
+          "ai-tool",
+          "collaboration",
+          "project-management",
+          "productivity"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Connects to 30+ tools (Slack, Notion, Asana, Gong, Salesforce) to surface relevant signals",
+          "AI-drafted PRDs, release notes, feature briefs, and weekly updates (Artifacts)",
+          "Context-aware copilot for drafting, summarizing, and searching across connected tools",
+          "Free plan covers 1 user, 3 data sources, 50 signals and 15 artifact generations per month",
+          "Role-based personalization tuned to product-management best practices",
+          "States GDPR and CCPA alignment for data handling"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact or usable fuzzy match in Simple Icons; needs a sourced site SVG or owner decision"
+        }
+      },
+      "unverified": [
+        "Whether the $0 Free plan is permanent (not time-limited) is not explicitly stated, only that no credit card is required",
+        "Monthly (non-annual) price for the Pro plan is not shown on the pricing page",
+        "AI-generated output accuracy is explicitly disclaimed by the vendor itself",
+        "Icon not resolved automatically; needs manual SVG sourcing or owner input"
+      ]
+    },
+    "sassypack": {
+      "researchedOn": "2026-10-24",
+      "verdict": "skip",
+      "verdictReason": "Paid-only one-time-purchase Next.js SaaS starter kit; no permanent free tier for the kit itself (lowest paid tier is $49, one-time).",
+      "site": {
+        "name": "SassyPack",
+        "url": "https://sassypack.collabtower.com/",
+        "alive": true,
+        "operator": "Karl Esi (indie maker); resolved via BetaList redirect since the brief gave no known URL"
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "Starter plan: $49 one-time (single project); also Pro $99, Team $249, Setup Assist $399, all one-time per the pricing table.",
+        "evidence": {
+          "url": "https://sassypack.collabtower.com/",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Not read (no /terms or /license page found, returned 404) · commercial: unknown · attribution: unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://sassypack.collabtower.com/terms",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "No known site URL was given in the brief ('SassyPack design resource'); resolved to a Next.js SaaS-starter-kit product at sassypack.collabtower.com via a BetaList listing + redirect. This is a code starter kit, not a 'design resource' in the usual sense (icons/UI kit/mockups) -- confidence in this being the intended tool is moderate, not certain.",
+        "/terms page returned 404; no license or ToS text could be read",
+        "A separate Gumroad listing for 'SassyPack v2, Next.js Edition' ($29) surfaced in search; relationship to the main site's pricing table (Starter $49) is unclear",
+        "No permanent free tier found for the kit itself; the site mentions an unexamined 'Free Tools' section whose contents were not fetched"
+      ]
+    },
+    "savee": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": "Alive, HTTPS, genuine freemium model (free account plus paid Pro/Portfolio/Team tiers), ToS has no clause forbidding directory listing, not adult/scam, no RL duplicate found.",
+      "site": {
+        "name": "Savee",
+        "url": "https://savee.com",
+        "alive": true,
+        "operator": "Savee, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free account to join and save/browse references into boards; exact save/board caps are not stated on the pricing page, but the Pro tier's 'unlimited saves and boards' feature implies the free tier is capped.",
+        "paidFrom": "Pro plan, $9/month (billed yearly)",
+        "evidence": {
+          "url": "https://savee.com/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Savee Terms of Service · commercial: limited (own-use only, no competing product) · attribution: not required · limit: Savee content cannot be used to train AI/ML models or build a competing product",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://savee.com/terms",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "savee",
+        "type": "Website",
+        "category": "Design",
+        "title": "Savee",
+        "description": "Curated visual reference library where designers save and organize inspiration into searchable boards, with browser, Figma and MCP integrations.",
+        "tags": [
+          "inspiration",
+          "graphic-design",
+          "visual-design",
+          "collaboration"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "One-click save of images/references into boards from browser extensions and a Figma plugin",
+          "Search saved references by word, color, image or tag",
+          "Savee MCP connects an AI tool (e.g. Claude, Cursor) to a user's saved library and curated collections",
+          "Shared/collaborative boards for teams (paid tiers)",
+          "Optional portfolio site builder on paid plan",
+          "iOS and Android apps plus Chrome/Safari/Firefox/Edge extensions"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact or usably close Simple Icons match (check-icon.mjs exit 1, closest matches 'e'/'v' are coincidental); use the site's own favicon/logo SVG manually before publishing."
+        }
+      },
+      "unverified": [
+        "Exact free-tier save/board limits (pricing page does not enumerate them)",
+        "Whether the Firefox add-on's 3.0.19 build (seen second-hand on addons.mozilla.org) reflects the current web app version",
+        "No dedicated icon source identified yet; needs manual favicon/logo capture"
+      ]
+    },
+    "scale": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": "Alive, HTTPS, fully free single-purpose tool with no sign-in/paywall, no terms page restricting use, not adult/scam, no RL duplicate found ('Scale' and 'Scales' confirmed as distinct tools by different authors).",
+      "site": {
+        "name": "Scale",
+        "url": "https://hihayk.github.io/scale/",
+        "alive": true,
+        "operator": "hihayk (GitHub handle; contact say@hihayk.com)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire tool is free to use in-browser; no accounts, paywalls or paid tier exist.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://hihayk.github.io/scale/",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No published license (GitHub repo has no LICENSE file; code is \"all rights reserved\" by default) · commercial: not addressed · attribution: not required · limit: no terms page exists, so reuse rights for the code are unclear",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://api.github.com/repos/hihayk/scale",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "scale",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Scale",
+        "description": "Free browser tool that generates matching color scales/shades from a base hue for use in design systems.",
+        "tags": [
+          "color-palette",
+          "design-systems"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Generates a full tint/shade scale from a single base color",
+          "Adjustable scale parameters (hue, saturation, contrast curve) via on-page controls",
+          "Runs entirely client-side, no account or install needed",
+          "Open-source code hosted on GitHub (no LICENSE file, so reuse terms are unclear)"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact or relevant Simple Icons match (check-icon.mjs exit 1, closest matches are coincidental single-letter hits); use the site's own favicon/logo SVG manually before publishing."
+        }
+      },
+      "unverified": [
+        "No LICENSE file found in the GitHub repo (api.github.com reports license: null), so code reuse terms are unverified",
+        "Last commit date (repo pushed_at 2024-06-30) suggests the project may be inactive, though the page itself still loads",
+        "No dedicated icon source identified yet; needs manual favicon capture"
+      ]
+    },
+    "scales": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": "Alive, HTTPS, fully free and MIT-licensed design-tokens starter kit, no sign-in/paywall, no restriction on listing, not adult/scam, no RL duplicate found ('Scales' confirmed distinct from 'Scale').",
+      "site": {
+        "name": "Scales (Design Tokens Starter Set)",
+        "url": "https://jeromantik.de/scales",
+        "alive": true,
+        "operator": "Philipp Jeroma"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire starter set is free for anyone to use and customize; FAQ states it \"doesn't cost anything\" and lists no paid tier.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://jeromantik.de/scales",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT License · commercial: yes · attribution: not strictly required but requested (\"a mentioning is enough\") · limit: none stated beyond standard MIT disclaimer",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://jeromantik.de/scales",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "scales",
+        "type": "Template",
+        "category": "Design",
+        "title": "Scales",
+        "description": "Free, MIT-licensed design-tokens starter set that gives teams a ready-made foundation (colors, type, spacing) to grow into a full design system.",
+        "tags": [
+          "design-systems",
+          "design-templates",
+          "open-source"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Ready-made set of base design tokens (colors, typography, spacing scales)",
+          "Meant as a starting foundation that teams customize into their own design system",
+          "MIT licensed, free to use with only an optional credit mention requested",
+          "Agent-assisted setup described on the site to help adapt tokens to a project"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact or relevant Simple Icons match (check-icon.mjs exit 1, closest matches are coincidental single-letter hits); use the site's own favicon/logo SVG manually before publishing."
+        }
+      },
+      "unverified": [
+        "Exact MIT license text was not shown on the page itself (only summarized in the FAQ); full LICENSE file on the underlying GitHub repo was not located/verified",
+        "No dedicated icon source identified yet; needs manual favicon capture"
+      ]
+    },
+    "scamp": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Scamp",
+        "url": "https://www.scamp.club",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Free to download and use, no account required, no feature limits (per FAQ on home page).",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.scamp.club/",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No license or ToS found · commercial use: unstated · attribution: unstated · operator identity not disclosed",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.scamp.club/trust",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "scamp",
+        "type": "Software",
+        "category": "Design",
+        "title": "Scamp — local-first visual design tool that outputs real code",
+        "description": "Design UI on a canvas with CSS controls and ship TSX/CSS Modules files, with a built-in terminal for coding agents.",
+        "tags": [
+          "design-systems",
+          "ui-ux",
+          "mac",
+          "windows",
+          "linux"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Visual canvas editor with direct CSS editing, saved as TSX + CSS Modules on disk",
+          "Local-first, offline, no account required",
+          "Built-in terminal to run coding agents (e.g. Claude Code) inside the project folder, with live canvas reload",
+          "Theme tokens stored in a theme.css file",
+          "Plain-file output lets designs be committed to git and shared as pull requests",
+          "Runs on macOS 13+, Windows 10+, and 64-bit Linux (AppImage/.deb)"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no exact or usable fuzzy match in Simple Icons; site logo SVG not independently verified/sanitized — needs owner or site SVG pull before listing"
+        }
+      },
+      "unverified": [
+        "Original requested URL https://scampdesign.app redirects (301) to https://www.scamp.club — treated scamp.club as the canonical site.",
+        "Operator/company identity behind Scamp not disclosed on the pages fetched (home, /trust).",
+        "No terms of use, EULA, or license page found; commercial-use and attribution terms for the tool itself are unstated.",
+        "Did not fetch /pricing, /docs, /about, or FAQ pages in full depth — a Pricing page is linked but its content was not independently confirmed beyond the home-page FAQ claim of 'free, no feature limits.'"
+      ]
+    },
+    "scenario": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Scenario",
+        "url": "https://www.scenario.com",
+        "alive": true,
+        "operator": "Scenario, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "50 credits/day, no credit card required, access to all models for image/video/3D/audio generation; outputs described on the pricing page as limited to personal/evaluation use (no commercial license on free tier) — this conflicts with the general Terms (Section 4.3) which grant commercial rights to Generated Assets without an explicit free/paid split; not fully reconciled.",
+        "paidFrom": "$15/mo (Starter, monthly billing; ~33% cheaper if billed annually, exact annual figure not shown) for 1,500 monthly credits",
+        "evidence": {
+          "url": "https://www.scenario.com/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Scenario Terms and Conditions · commercial: yes (Section 4.3 grants rights to exploit Generated Assets commercially) · attribution: not required · limit: no guarantee outputs are unique/copyrightable, user responsible for lawful/non-infringing use (Section 4.5); base model architecture stays Scenario's even for custom models (Section 4.4)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.scenario.com/terms-and-conditions",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "scenario",
+        "type": "AI Tool",
+        "category": "Design",
+        "title": "Scenario — AI engine for images, video, 3D and audio at scale",
+        "description": "Generate and compare outputs across many AI models, train custom models, and chain steps into reusable team workflows.",
+        "tags": [
+          "ai-tool",
+          "visual-design",
+          "automation",
+          "collaboration"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Generate and edit images, video, 3D models, and audio in one workspace",
+          "Compare multiple AI models side-by-side on the same prompt",
+          "Train custom models on your own art/assets",
+          "Save multi-step generation processes as reusable workflows teammates can run from a simple form",
+          "Reach the same models via REST API, MCP, or a Blender plugin",
+          "Enterprise controls: approved-model allowlists, spend caps, single sign-on"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no exact or usable fuzzy match in Simple Icons; site logo SVG not independently verified/sanitized"
+        }
+      },
+      "unverified": [
+        "Free tier credit reset period: pricing page says '50 free daily credits,' FAQ text referenced a free tier without stating the reset period — treated as daily per the pricing banner.",
+        "Whether free-tier Generated Assets carry the same full commercial rights as paid tiers is unclear: pricing-page copy implies personal/evaluation-only use, while the general Terms (4.3) describe commercial rights without carving out the free tier. Not reconciled from first-party sources read.",
+        "Annual-billing dollar amounts for Starter/Pro/Max were not shown on the pricing page beyond the '33% cheaper' claim and the discounted monthly-equivalent figures already listed.",
+        "Did not separately fetch help.scenario.com's older (2023) SaaS agreement; only the current scenario.com/terms-and-conditions (updated April 2025) was used."
+      ]
+    },
+    "schemecolor": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "SchemeColor",
+        "url": "https://www.schemecolor.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire site (browsing palettes/gradients/colors, Color Scheme Generator, Image to Color Palette, palette/gradient creators, color code converter, contrast checker) is free to use without payment; login only required to favorite palettes.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.schemecolor.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "SchemeColor Terms of Use · commercial: unclear — site states 'for education purposes only,' though it also says image/photo content generally comes from sources allowing free commercial and noncommercial use · attribution: required where content is sourced from others (e.g. logos/flags credited to original authors/Wikipedia) · limit: logos/copyrighted material used under a fair-usage claim, not a cleared license",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.schemecolor.com/terms",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "schemecolor",
+        "type": "Website",
+        "category": "Design",
+        "title": "SchemeColor — browsable library of color palettes, gradients and tools",
+        "description": "Browse curated color palettes and gradients, or build your own with a scheme generator, image-to-palette tool and contrast checker.",
+        "tags": [
+          "color-palette",
+          "visual-design",
+          "ui-ux"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Large browsable library of color palettes and gradients, many credited to artists/designers",
+          "Color Scheme Generator for building new palettes",
+          "Image to Color Palette tool extracts colors from an uploaded image",
+          "Palette and gradient creator tools",
+          "Color code converter between formats",
+          "Contrast checker for UI/UX accessibility"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no exact or usable fuzzy match in Simple Icons; site logo SVG not independently verified/sanitized"
+        }
+      },
+      "unverified": [
+        "Operator/company behind SchemeColor.com not disclosed on the pages fetched.",
+        "Terms state the site is 'for education purposes only,' which may restrict commercial reuse of its color/palette content by end users — does not by itself block listing the site as a resource, but the owner should be aware of this wording before any copy implies free commercial use of the palettes themselves.",
+        "Did not independently fetch the Privacy Policy or FAQ."
+      ]
+    },
+    "school-of-motion": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "School of Motion",
+        "url": "https://www.schoolofmotion.com/blog",
+        "alive": true,
+        "operator": "School of Motion"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "The blog itself is free to read with no signup wall: tutorial and career articles on After Effects, Cinema 4D, Blender, Unreal Engine, Rive and Cavalry, some tutorials bundled with free project files/presets, free plugins (e.g. Node Ninja), and the weekly 'Motion Mondays' roundup.",
+        "paidFrom": "Paid course library, learning paths, team training and an 'All-Access' membership are sold alongside the free blog; exact price not confirmed (pricing page returned 404 during research).",
+        "evidence": {
+          "url": "https://www.schoolofmotion.com/blog",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "School of Motion · commercial: unknown · attribution: unknown · terms page not found (404 at /terms)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.schoolofmotion.com/terms",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "school-of-motion",
+        "type": "Website",
+        "category": "Design",
+        "title": "School of Motion — motion design blog & courses",
+        "description": "Free tutorials and career articles on After Effects, Cinema 4D, Blender and Rive, alongside paid motion design courses and mentorship.",
+        "tags": [
+          "inspiration",
+          "visual-design",
+          "graphic-design",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Free tutorial articles covering After Effects, Cinema 4D, Blender, Unreal Engine, Rive and Cavalry",
+          "Some tutorials include downloadable free project files or presets",
+          "Free plugins such as the Node Ninja rig tools for Unreal Engine and Cinema 4D + Redshift",
+          "Weekly 'Motion Mondays' roundup of free lessons and industry news",
+          "Paid course library, structured learning paths and an All-Access membership for deeper training",
+          "Career-focused articles on freelancing, portfolios and breaking into motion design"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no exact or usable Simple Icons match (check-icon.mjs: NOT FOUND, closest suggestions unrelated); needs manual site-logo SVG extraction"
+        }
+      },
+      "unverified": [
+        "Exact paid course/All-Access price not confirmed (pricing page 404'd at the URL guessed during research)",
+        "Terms/ToS page location not found (404 at /terms); commercial-use/listing restrictions unconfirmed",
+        "Icon not resolved — no Simple Icons match; needs manual logo sourcing"
+      ]
+    },
+    "screaming-frog": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Screaming Frog",
+        "url": "https://www.screamingfrog.co.uk",
+        "alive": true,
+        "operator": "Screaming Frog Ltd (Oxfordshire, UK — per third-party UpGuard profile, second-hand)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "SEO Spider desktop crawler (Windows/macOS/Linux) can be downloaded and run with no signup, crawling up to 500 URLs per crawl for free, permanently (not a time-limited trial). The free version restricts some crawl configuration, saving crawls, and advanced features (JS rendering, custom extraction, API integrations) — the pricing page's feature comparison table was unclear on exactly which advanced rows are free vs paid.",
+        "paidFrom": "£199 per licence per year (removes the 500-URL limit, enables saving crawls and advanced features; renews annually). USD/EUR currency toggle shown but converted amounts not displayed.",
+        "evidence": {
+          "url": "https://www.screamingfrog.co.uk/seo-spider/",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Screaming Frog proprietary EULA · commercial: yes (implied by business/SEO-agency use case, not independently confirmed from a readable terms page) · attribution: not required · licence tied to a paid key, renews annually",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.screamingfrog.co.uk/legal/terms-and-conditions/",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "screaming-frog",
+        "type": "Software",
+        "category": "Marketing",
+        "title": "Screaming Frog SEO Spider — desktop website crawler",
+        "description": "Desktop crawler that audits websites for technical SEO issues; free for crawls up to 500 URLs, paid licence unlocks full crawls and advanced features.",
+        "tags": [
+          "web",
+          "productivity",
+          "automation",
+          "windows",
+          "mac",
+          "linux"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Crawls websites and flags over 300 technical SEO issues and opportunities",
+          "Free tier crawls up to 500 URLs per crawl with no signup required",
+          "Paid licence removes the URL cap and unlocks saving crawls plus advanced features",
+          "Runs natively on Windows, macOS and Linux",
+          "Supports JavaScript rendering, custom extraction and API integrations (paid tier)",
+          "Annual licence (£199/yr) rather than a one-time purchase"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no exact or usable Simple Icons match (check-icon.mjs: NOT FOUND, closest suggestions unrelated); needs manual site-logo SVG extraction"
+        }
+      },
+      "unverified": [
+        "Exact wording of free vs paid feature split in the comparison table was ambiguous when fetched",
+        "Terms and conditions page could not be read (403 Forbidden, likely bot-check) — commercial-use/listing clauses unconfirmed",
+        "Operator name (Screaming Frog Ltd, Oxfordshire) is second-hand (UpGuard), not confirmed first-party",
+        "Icon not resolved — no Simple Icons match; needs manual logo sourcing"
+      ]
+    },
+    "screen-ruler": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Screen Ruler",
+        "url": "https://screen-ruler.com",
+        "alive": true,
+        "operator": "Unnamed individual maker (also made 'Hintly' for Google Meet); contact violetsmyster@gmail.com — no company named"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Chrome extension FAQ states it is 'free to use, forever.' Free tier (per the feature comparison table) includes a floating inspector, layout visualization, color extraction, and page-weight measurement. Exact usage limits beyond that are not itemized on the pricing page.",
+        "paidFrom": "Two paid one-time-purchase tiers, 'Inspect' and 'Studio' (adds live CSS/HTML/text editing, per-element change tracking, and an MCP server for AI coding agents); exact dollar price not shown on the page (regional pricing, no amount displayed). A separate 7-day free trial unlocks Studio features temporarily.",
+        "evidence": {
+          "url": "https://screen-ruler.com/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Screen Ruler proprietary EULA · commercial: yes (Terms §1.3: 'All license tiers permit both personal and commercial use') · attribution: not required · may not resell/sublicense the key or extension, or reverse-engineer it",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://screen-ruler.com/terms",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "screen-ruler",
+        "type": "Extension",
+        "category": "Development",
+        "title": "Screen Ruler — browser measuring & inspection extension",
+        "description": "Chrome extension to measure, inspect and edit anything on a webpage: pixel distances, CSS, colors, fonts and live element edits.",
+        "tags": [
+          "extensions",
+          "web",
+          "color-palette",
+          "productivity",
+          "ui-ux"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Measures pixel distances and spacing directly on any webpage",
+          "Inspects computed styles, CSS rules, fonts and colors",
+          "Free floating inspector, layout visualization and color extraction, usable forever at no cost",
+          "Paid tiers add live CSS/HTML/text editing with per-element change tracking and diffs",
+          "Responsive viewport previews plus contrast and SEO audits",
+          "Paid 'Studio' tier includes an MCP server for connecting AI coding agents to the browser"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no exact or usable Simple Icons match (check-icon.mjs: NOT FOUND, closest suggestions unrelated); needs manual site-logo SVG extraction"
+        }
+      },
+      "unverified": [
+        "Exact free-tier usage limits beyond the comparison table's named features",
+        "Paid tier dollar prices (page shows regional pricing without a displayed amount)",
+        "Operator identity is only a first name/email alias (violetsmyster@gmail.com); no company name confirmed",
+        "A separate, unrelated 'Screen Ruler' desktop app (MajorGeeks listing, v0.10.0, portable ruler) exists under the same name — not the same product as this Chrome extension; flagged to avoid confusion",
+        "Icon not resolved — no Simple Icons match; needs manual logo sourcing"
+      ]
+    },
+    "screen-sizes": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Screen Sizes",
+        "url": "https://www.screensizes.app",
+        "alive": true,
+        "operator": "Toast Studio (toast-studio.com)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "The entire app (device screen-size/icon-size reference, comparison charts, layout-region guides, Figma templates) is free to use with no account or signup. The privacy policy states it is monetized via Carbon Ads and optional Stripe-processed donations, not a paid tier.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://toast-studio.com/screen-sizes/privacy/",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary freeware (not open source) · commercial use: unstated · attribution: not required · free PWA with no paid tier found; funded by ads/donations",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://toast-studio.com/screen-sizes/privacy/",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "screen-sizes",
+        "type": "Utility",
+        "category": "Design",
+        "title": "Screen Sizes — Apple display & icon size reference",
+        "description": "A free reference tool for Apple device screen sizes, icon dimensions, safe areas, and display specs, with Figma templates for designers and developers.",
+        "tags": [
+          "ui-ux",
+          "web",
+          "design-templates",
+          "productivity"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Lists exact screen resolutions, sizes, and PPI for iPhone, iPad, Apple Watch, Apple TV, and Vision Pro models",
+          "Shows icon size requirements for app stores and operating systems",
+          "Includes a model comparison chart plus OS-support and sale-date charts",
+          "Provides safe-area, layout-region, and Live Activity placement guides for interface design",
+          "Offers downloadable Figma templates for quick reference"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No Simple Icons match (check-icon.mjs exit 1, closest matches unrelated); site's own glyph would need to be sourced and sanitized separately."
+        }
+      },
+      "unverified": [
+        "No dedicated /pricing or /terms page content could be read — the site is a client-rendered SPA where all routes (/pricing, /terms, /about) return the same empty shell; pricing/terms conclusions are drawn from app/config.js and the linked privacy policy instead",
+        "Exact donation amounts and whether any future paid tier exists are not stated anywhere found"
+      ]
+    },
+    "scribbles": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Scribbles",
+        "url": "https://illustrations.run",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "The full scribble/doodle SVG pack is a one-time free download (via a Gumroad link: illustrationsrun.gumroad.com), no account required. No paid tier is mentioned anywhere on the page.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://illustrations.run",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Unstated license · commercial use: unconfirmed · attribution: unconfirmed · page only says illustrations are \"completely free to use\", no terms/license text found",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://illustrations.run",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "scribbles",
+        "type": "Resource",
+        "category": "Design",
+        "title": "Scribbles — free playful SVG scribble illustrations",
+        "description": "A free downloadable pack of hand-drawn-style SVG scribble shapes and doodles for adding playful accents and texture to designs.",
+        "tags": [
+          "stock-illustrations",
+          "stock-vectors",
+          "graphic-design",
+          "visual-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Collection of hand-drawn-style SVG scribble shapes and doodles",
+          "One-time free download via Gumroad, no account or signup required",
+          "Vector (SVG) format scales cleanly for both web and print use",
+          "Suited for adding playful accents to UI mockups, slides, and marketing graphics"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No Simple Icons match (check-icon.mjs exit 1, closest matches unrelated); no clear site logo identified on the single-page site."
+        }
+      },
+      "unverified": [
+        "No explicit license/terms text found — commercial-use and attribution permissions are inferred only from \"completely free to use\" wording, not a formal license",
+        "Operator/creator identity behind illustrations.run not stated on the page (only the Product Hunt badge and a Gumroad storefront link)",
+        "Whether the Gumroad download is truly identical to a future paid offering was not checked (Gumroad page itself was not fetched)"
+      ]
+    },
+    "scribus": {
+      "researchedOn": "2026-10-24",
+      "verdict": "blocked",
+      "verdictReason": "The canonical home (https://www.scribus.net, which the given wiki.scribus.net URL redirects/relates to) is behind an Anubis bot-check challenge page (\"Making sure you're not a bot!\") that returns no site content over a plain fetch; could not read first-party home, pricing, or license/terms pages without attempting to bypass the challenge, which is not allowed.",
+      "site": {
+        "name": "Scribus",
+        "url": "https://www.scribus.net",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.scribus.net",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": "Reported GPL open-source desktop publishing software, but not confirmed first-party in this session (site blocked by bot-check); corroborated only by second-hand coverage (lwn.net, help.ubuntu.com, linux.org release posts describing Scribus as GPL-licensed free/open-source DTP software)",
+        "openSource": true,
+        "spdx": null,
+        "evidence": {
+          "url": "https://help.ubuntu.com/community/Scribus",
+          "date": "2026-10-24",
+          "confidence": "second-hand"
+        }
+      },
+      "unverified": [
+        "Home page content, actual pricing page, and license/terms page could not be read first-party — blocked by an Anubis bot-check wall on www.scribus.net",
+        "GPL license, version number, and exact free-tier scope are widely reported second-hand but not verified against the project's own site/repo in this session",
+        "wiki.scribus.net (the originally given URL) was not independently checked after the canonical scribus.net was found bot-walled — likely sits behind the same protection"
+      ]
+    },
+    "search-atlas": {
+      "researchedOn": "2026-10-24",
+      "verdict": "skip",
+      "verdictReason": "No permanent free tier — only a 7-day trial on paid plans starting at $99/month; trial-only, not free.",
+      "site": {
+        "name": "Search Atlas",
+        "url": "https://searchatlas.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "Starter plan, $99/month (billed monthly), includes 50,000 Universal Credits/month, 1 project/1 seat, 1 OTTO-powered site, 2,000 tracked keywords, 50,000 site audit pages, 3 GBP listings",
+        "evidence": {
+          "url": "https://searchatlas.com/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Search Atlas proprietary ToS · commercial: not applicable (SaaS subscription, not a license to redistribute) · attribution: not required · limit: license to use the platform is personal, non-exclusive, revocable; no distributing/reselling/sub-licensing access to third parties",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://searchatlas.com/terms-of-service",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "unverified": [
+        "Whether the linked 'Free AI Visibility Tool' on the homepage is a genuinely free standalone tool or a lead-gen trial — not read.",
+        "No scam/malware/shutdown/acquisition signal found in one safety search; only unrelated 'Atlas' name collisions turned up."
+      ]
+    },
+    "searchable": {
+      "researchedOn": "2026-10-24",
+      "verdict": "skip",
+      "verdictReason": "No permanent free tier — Pro/Scale plans only offer a 14-day trial; lowest paid plan is $125/month billed annually.",
+      "site": {
+        "name": "Searchable",
+        "url": "https://searchable.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "Pro plan, $125/month billed annually; includes 100 tracked prompts per model, 200 site audits/month, citation tracking, competitor analysis, coverage of ChatGPT/Google AI Overviews/Perplexity (other models are paid add-ons)",
+        "evidence": {
+          "url": "https://searchable.com/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Searchable ToS · not fully read (fetch failed, connection reset) · unknown attribution/limit terms",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://searchable.com/terms",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "Terms of service page failed to load (ECONNRESET) — commercial-use/listing restriction clauses not verified.",
+        "Resolved via web search as an AI-search-visibility platform at searchable.com (tracks brand visibility in ChatGPT, Claude, Perplexity, Google AI Overviews, Microsoft Copilot) — confident match for 'Searchable' as the intended tool, but note other unrelated products also use the generic name 'Searchable' (a desktop search app, an LMS search feature).",
+        "No scam/malware/shutdown/acquisition signal found in one safety search."
+      ]
+    },
+    "searchsystem": {
+      "researchedOn": "2026-10-24",
+      "verdict": "blocked",
+      "verdictReason": "Home page and pricing page both returned HTTP 403 Forbidden on repeated attempts — could not read any first-party content (bot-check/WAF block).",
+      "site": {
+        "name": "Searchsystem",
+        "url": "https://searchsystem.co",
+        "alive": null,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://searchsystem.co/pricing",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://searchsystem.co/terms",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "Could not confirm what searchsystem.co actually is or does — home page returned 403 Forbidden on two attempts, no body retrieved.",
+        "Safety web search for 'SearchSystem' (name only, not the .co domain) surfaced multiple security-vendor pages (pcrisk.com, malwaretips.com) describing a product called 'SearchSystem' as Mac/browser adware and a browser hijacker distributed via bogus Adobe Flash updaters, with ads leading to adult sites and unwanted software. This could NOT be confirmed as the same product as searchsystem.co since the site itself could not be read — flagging as a serious caution for whoever follows up, but not used to set the verdict (verdict is blocked on inability to read the site, independent of this finding)."
+      ]
     }
   }
 }

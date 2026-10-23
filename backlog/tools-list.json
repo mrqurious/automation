@@ -44032,8 +44032,8 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Paid-only workforce platform (HR/IT/finance/payroll); only a temporary 6-month free-access program for eligible VC-backed startups exists, not a permanent free tier.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -44058,7 +44058,7 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -44084,7 +44084,7 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -44136,7 +44136,7 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -44162,7 +44162,7 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -44264,7 +44264,7 @@
           "file": "Productivity Tools for Design and Product Teams.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -44290,7 +44290,7 @@
           "file": "Productivity Tools for Design and Product Teams.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -44344,8 +44344,8 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "No real permanent free tier found: the pricing page at runable.com/pricing lists only two paid plans (Pro $20/mo, Max $100/mo) with no free option, and the homepage has no mention of 'free', credits, or trial despite the page's meta description referencing a 'Free' plan.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -44394,7 +44394,7 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -44420,7 +44420,7 @@
           "file": "Best UX Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -44448,7 +44448,7 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -44474,7 +44474,7 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -44526,7 +44526,7 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -44552,7 +44552,7 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -44578,8 +44578,8 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Home page returned HTTP 403 Forbidden on repeated fetch attempts (bot-check), so no first-party content could be read.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -44656,8 +44656,8 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Could not confidently resolve/read the real first-party site: saashunt.com returned HTTP 522 (origin unreachable) via WebFetch, and secondhand sources disagree on what it even is (a SaaS product-discovery/launch directory, Product-Hunt-style, rather than a design \"gallery\" tool) with no first-party page readable to confirm.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -44682,8 +44682,8 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Bot-check wall: WebFetch got HTTP 403 Forbidden on both https://www.saaspo.com and https://saaspo.com, so the home, pricing and terms pages could not be read first-party.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
@@ -44708,8 +44708,8 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Bot-check/rate-limit wall: WebFetch got HTTP 429 Too Many Requests on https://same.new on two attempts, so the home, pricing and terms pages could not be read first-party.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -44734,7 +44734,7 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -44760,7 +44760,7 @@
           "file": "Productivity Tools for Design and Product Teams.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -44812,8 +44812,8 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Paid-only one-time-purchase Next.js SaaS starter kit; no permanent free tier for the kit itself (lowest paid tier is $49, one-time).",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -44864,8 +44864,8 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "researched",
+      "notes": "Alive, HTTPS, genuine freemium model (free account plus paid Pro/Portfolio/Team tiers), ToS has no clause forbidding directory listing, not adult/scam, no RL duplicate found.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -44890,8 +44890,8 @@
           "file": "Best Color Tools and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "researched",
+      "notes": "Alive, HTTPS, fully free single-purpose tool with no sign-in/paywall, no terms page restricting use, not adult/scam, no RL duplicate found ('Scale' and 'Scales' confirmed as distinct tools by different authors).",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
@@ -44942,8 +44942,8 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "researched",
+      "notes": "Alive, HTTPS, fully free and MIT-licensed design-tokens starter kit, no sign-in/paywall, no restriction on listing, not adult/scam, no RL duplicate found ('Scales' confirmed distinct from 'Scale').",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
@@ -44968,7 +44968,7 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -44994,7 +44994,7 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -45020,7 +45020,7 @@
           "file": "Best Color Tools and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -45072,7 +45072,7 @@
           "file": "Best Design Blogs & Magazines for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -45098,7 +45098,7 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -45150,7 +45150,7 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -45176,7 +45176,7 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -45237,7 +45237,7 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -45263,8 +45263,8 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "The canonical home (https://www.scribus.net, which the given wiki.scribus.net URL redirects/relates to) is behind an Anubis bot-check challenge page (\"Making sure you're not a bot!\") that returns no site content over a plain fetch; could not read first-party home, pricing, or license/terms pages without attempting to bypass the challenge, which is not allowed.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
@@ -45326,8 +45326,8 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "No permanent free tier — only a 7-day trial on paid plans starting at $99/month; trial-only, not free.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -45354,8 +45354,8 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "No permanent free tier — Pro/Scale plans only offer a 14-day trial; lowest paid plan is $125/month billed annually.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -45380,8 +45380,8 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Home page and pricing page both returned HTTP 403 Forbidden on repeated attempts — could not read any first-party content (bot-check/WAF block).",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
