@@ -39902,7 +39902,7 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -39928,7 +39928,7 @@
           "file": "Best Mockup Sites for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -39980,7 +39980,7 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -40008,7 +40008,7 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -40060,7 +40060,7 @@
           "file": "Productivity Tools for Design and Product Teams.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -40086,7 +40086,7 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -40138,8 +40138,8 @@
           "file": "Learn UI_UX Design_ Courses, Guides & Best Practices.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Not a design/productivity/dev tool: it is a public knowledge base/wiki (from the 'Mobius Project') cataloguing technological harms and mitigations for trust & safety teams, with no product, pricing, or sign-up to list.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
@@ -40190,7 +40190,7 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -40216,7 +40216,7 @@
           "file": "Learn UI_UX Design_ Courses, Guides & Best Practices.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -40242,8 +40242,8 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Figma Community file page returned HTTP 403 (bot-check) on fetch; could not read title, pricing/duplication terms, or license text.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
@@ -40268,8 +40268,8 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Both playgroundai.com and playground.com returned HTTP 403 (bot-check) on fetch; home page content could not be read to confirm pitch, canonical URL, or pricing.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -40294,7 +40294,7 @@
           "file": "Best Design Blogs & Magazines for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -40372,7 +40372,7 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -40398,7 +40398,7 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -40424,8 +40424,8 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Home page (https://www.poliigon.com) and pricing page both returned HTTP 403 Forbidden on two separate fetch attempts, consistent with a bot-check; no first-party content could be read, so research stopped per rules rather than attempting to bypass it.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -40450,7 +40450,7 @@
           "file": "Best Color Tools and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -40476,8 +40476,8 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Home page (https://pollo.ai) and pricing page (https://pollo.ai/pricing) both returned HTTP 403 on fetch — consistent with a bot/Cloudflare check rather than a dead site. Per rules, stopped without attempting to bypass; did not research further.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -40502,7 +40502,7 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -40528,8 +40528,8 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Hosted Polygon Web editor at polygonjs.com is paid-only (no $0 signup plan): $25/mo or $200/yr subscription, or $495 one-time perpetual license; the only 'free' state is a read/edit-only fallback after a subscription lapses, not an offer for new users.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -40632,8 +40632,8 @@
           "file": "Free Stock Images & Video Websites _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "www.pond5.com returned HTTP 403 (bot-check) on the home page, the /sound-effects/ page, and a pricing-related page across multiple attempts; could not read first-party content to verify pricing, license, or current operator.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -40660,7 +40660,7 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -40686,7 +40686,7 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -40712,7 +40712,7 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -40740,8 +40740,8 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Could not confidently resolve the intended tool: the only 'Positive User' product found is a CRM/mobile-marketing-automation rebrand of Sarbacane under 'Positive Groupe France' (sharing the user.com domain with sibling brands Surfer, Signitic, Iconosquare, noCRM, Ubic), not a design/UX tool as the brief described, so proceeding risks listing the wrong product under the wrong category.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -40792,7 +40792,7 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -40844,7 +40844,7 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -40870,7 +40870,7 @@
           "file": "Best UX Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -40896,7 +40896,7 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -40922,7 +40922,7 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -40948,7 +40948,7 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -41000,8 +41000,8 @@
           "file": "Free Stock Images & Video Websites _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Home page (and a retry) returned HTTP 403 Forbidden — bot/WAF block; could not read pricing, license, or any first-party page content.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -41078,7 +41078,7 @@
           "file": "Best Mockup Sites for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -41104,7 +41104,7 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -41130,7 +41130,7 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -41182,7 +41182,7 @@
           "file": "Best UX Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -41234,8 +41234,8 @@
           "file": "Learn UI_UX Design_ Courses, Guides & Best Practices.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Home page is an empty client-side-rendered app: repeated fetches of https://product-design-roadmap.com (with and without trailing slash, including a raw-text request) returned only the bare string \"UX/UI Product Design Roadmap\" with no body content, nav, pricing, or license text — could not verify pricing, license, or even basic site structure first-party.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",

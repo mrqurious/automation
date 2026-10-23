@@ -86900,6 +86900,2027 @@
         "Dedicated /pricing page returned 404",
         "UI Bundle 2026 price shown without a confirmed currency symbol"
       ]
+    },
+    "pixso": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Pixso",
+        "url": "https://pixso.net",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Starter/Free plan with unlimited viewer seats and (per third-party listings) unlimited draft editors and personal files, but limited team files/projects (e.g. 3 team files, 1 team project) and 30-day version history. Exact limits not confirmed first-party.",
+        "paidFrom": "Reported ~$4/editor/month billed annually (third-party sources disagree, one cites a flat $12/month tier) — not independently confirmed on the official pricing page, which did not render plan prices in the fetch.",
+        "evidence": {
+          "url": "https://pixso.net/pricing/",
+          "date": "2026-10-23",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "Pixso proprietary license · commercial: no by default (license is for personal/private/non-commercial use; a separate business license is required for commercial use) · attribution: not required but copyright/trademark notices may not be removed · no reverse engineering or unauthorized plug-ins",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://pixso.net/license-agreement/",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "pixso",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Pixso — AI UI/UX Design & Prototyping Tool",
+        "description": "Cloud-based UI/UX design tool combining a vector editor, interactive prototyping, AI assistance, and real-time team collaboration.",
+        "tags": [
+          "ui-ux",
+          "prototyping",
+          "collaboration",
+          "ai-tool"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Vector-based editor for interface and component design",
+          "Interactive prototyping with transitions between frames",
+          "AI-assisted design suggestions and content generation",
+          "Real-time multi-user collaboration on shared files",
+          "Design-to-code handoff with specs and exportable assets",
+          "Reusable component and design-system libraries"
+        ],
+        "icon": {
+          "route": "iconUrl",
+          "value": "https://pixso.net/assets/media/px-logo-074d2a64fdeed33d.webp",
+          "fillColor": null,
+          "bgColor": null,
+          "source": "pixso.net header logo (webp); not in Simple Icons"
+        }
+      },
+      "unverified": [
+        "Exact free-plan limits (team files/projects/version history) are from third-party listings (fitgap), not confirmed on pixso.net directly.",
+        "Exact paid price per editor/month is disputed across third-party sources ($4-$7/editor/mo vs. a flat $12/mo elsewhere); official pricing page did not render numeric prices in the fetch.",
+        "Company operator/legal entity behind Pixso not stated on site."
+      ]
+    },
+    "placeit": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Placeit",
+        "url": "https://placeit.net",
+        "alive": true,
+        "operator": "Envato (shown on-site as \"Placeit by Envato\")"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free account lets you browse/preview templates and download free templates, but downloads from the paid catalog carry a visible watermark and low-resolution video exports; watermarked assets are not usable commercially (removing the watermark would violate terms).",
+        "paidFrom": "Site lists Unlimited Subscription \"From: $1.99/mo*\" with a 1-month minimum commitment once any template is downloaded; annual billing shown as \"$8.33/month\" on site (third-party reviews separately cite a $14.95/mo plain-monthly plan and ~$89.69/year annual plan — figures conflict across sources).",
+        "evidence": {
+          "url": "https://placeit.net/pricing",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Envato/Placeit Terms of Use · commercial: yes (paid subscribers/buyers get a non-exclusive commercial-use license per the separate Placeit License) · attribution: not stated · may not resell templates as a stand-alone product or use Placeit to provide services to third parties",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://placeit.net/terms-of-use",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "placeit",
+        "type": "Website",
+        "category": "Design",
+        "title": "Placeit — Mockup, Logo & Video Template Generator",
+        "description": "Template-based generator (by Envato) for product mockups, logos, and short social/video templates, aimed at sellers and marketers.",
+        "tags": [
+          "design-templates",
+          "template",
+          "video-template",
+          "social-media-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Template-based mockup generator for apparel, devices, and packaging",
+          "Logo maker built from customizable templates",
+          "Short video templates for social and ad placements",
+          "Print-on-demand-friendly product mockups for sellers",
+          "Browser-based customization with no design software needed"
+        ],
+        "icon": {
+          "route": "iconUrl",
+          "value": "https://res.cloudinary.com/placeit-commercial/image/upload/v1774622673/placeit_envato_new_black.svg",
+          "fillColor": null,
+          "bgColor": null,
+          "source": "placeit.net header logo (svg); not in Simple Icons"
+        }
+      },
+      "unverified": [
+        "Exact paid monthly/annual totals conflict between the official pricing page ($1.99/mo intro, $8.33/mo annual) and third-party reviews ($14.95/mo monthly, ~$89.69/year annual) — likely the $1.99 is an introductory/first-period rate, not confirmed first-party.",
+        "Terms of Use section 42 states Placeit 'reserve[s] the right to insist that any link to Placeit be discontinued' — standard boilerplate seen on many commercial sites' ToS, not a specific directory-listing prohibition, but flagged for awareness.",
+        "Whether the original affiliate URL (https://1.envato.market/3P416B) was provided by the owner for tracking purposes was not asked; used the clean canonical placeit.net URL as instructed."
+      ]
+    },
+    "plaiceholder": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Plaiceholder",
+        "url": "https://plaiceholder.co",
+        "alive": true,
+        "operator": "Joe Bell (independent open-source maintainer)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Fully free and open source; no paid tiers. Site links to an optional sponsorship page for the author, which is not a pricing tier.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://plaiceholder.co",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Apache-2.0 · commercial: yes · attribution: required (must retain copyright/license notices on redistribution) · no trademark/name endorsement implied",
+        "openSource": true,
+        "spdx": "Apache-2.0",
+        "evidence": {
+          "url": "https://raw.githubusercontent.com/joe-bell/plaiceholder/main/LICENSE",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "plaiceholder",
+        "type": "Library",
+        "category": "Development",
+        "title": "Plaiceholder — Image Placeholder Generator Library",
+        "description": "Open-source server-side library that generates low-quality image placeholders (blur, color, CSS, SVG, base64) for faster-feeling page loads.",
+        "tags": [
+          "open-source",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Generates low-quality image placeholders (LQIP) server-side",
+          "Outputs multiple formats: plain color, CSS gradient, SVG, base64",
+          "Works well with Next.js Image and similar frameworks",
+          "Processes images locally via Sharp, no external API calls",
+          "Apache-2.0 licensed Node.js package"
+        ],
+        "icon": {
+          "route": "iconUrl",
+          "value": "https://plaiceholder.co/assets/img/logo@96px.png",
+          "fillColor": null,
+          "bgColor": null,
+          "source": "plaiceholder.co site logo (png); not in Simple Icons"
+        }
+      },
+      "unverified": [
+        "GitHub repo is archived/in maintenance mode per the site and README ('now read-only'); unclear if the npm package still receives updates or security patches.",
+        "README license badge reads 'MIT' while site footer and LICENSE file say Apache-2.0 — treated the actual LICENSE file (Apache-2.0) as authoritative but flagging the badge mismatch."
+      ]
+    },
+    "plaky": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Plaky",
+        "url": "https://plaky.com",
+        "alive": true,
+        "operator": "CAKE.com Inc."
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Unlimited users, spaces, boards, items, and Table/Kanban/Chart views; unlimited folders, item groups, task checklists, teams, comments, @mentions, #tags; filter/sort/CSV export/favorites/archive; My tasks; iOS/Android apps; 24/7 support. Limits: 6 fields per board, 7-day activity log, 10MB/file, dashboards limited to 1 board each, no automations/Gantt/bulk actions/conditional coloring/multiple charts, no templates/duplicate board, no closed/private spaces, no Viewer role or public links, no SSO.",
+        "paidFrom": "$3.99/seat/month billed annually (Pro); $4.99/seat/month billed monthly",
+        "evidence": {
+          "url": "https://plaky.com/pricing",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "CAKE.com Terms of Service · commercial: yes (per account's business purposes) · attribution: not required for users, but Plaky/CAKE.com name and logo may not be copied or used without prior written permission · limit: no reselling, service-bureau use, or building a competing/benchmarked product",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://cake.com/terms",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "plaky",
+        "type": "Software",
+        "category": "Productivity",
+        "title": "Plaky — Free Project Management Boards",
+        "description": "Board- and table-based project management tool from CAKE.com with unlimited free users, tasks, and views for small teams.",
+        "tags": [
+          "project-management",
+          "productivity",
+          "collaboration",
+          "roadmaps"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Table, Kanban, and Chart board views for the same project data",
+          "Unlimited spaces, boards, items, and team members on the free plan",
+          "Task checklists, item groups, folders, comments, and @mentions",
+          "Integrates with sister CAKE.com apps Pumble (chat) and Clockify (time tracking)",
+          "iOS and Android apps alongside the web app"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact or fuzzy Simple Icons match; site logo SVG not independently fetched/sanitized during research — resolve via iconSvg before drafting"
+        }
+      },
+      "unverified": [
+        "Exact file-size/version-history limits beyond what pricing page states",
+        "Whether Plaky's free plan has a hard seat ceiling in practice (page says unlimited users but every user becomes a billable seat on paid plans)",
+        "Icon/logo asset path not resolved — no Simple Icons match"
+      ]
+    },
+    "plane": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Plane",
+        "url": "https://plane.so",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Up to 12 users. Includes projects, work items, cycles, modules, 5 layouts with unlimited views, in-app work item intake, basic estimates, project pages/comments, progress overview, Power K, importers (Jira/Linear/Asana/ClickUp/CSV), basic roles, limited guests. Excludes AI credits/agents, custom properties/templates, wiki, time tracking, dashboards, initiatives, third-party integrations (GitHub/GitLab/Slack), bulk operations, SAML/OIDC/SLA.",
+        "paidFrom": "$6/user/month billed annually (Pro); $8/user/month billed monthly",
+        "evidence": {
+          "url": "https://plane.so/pricing",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "GNU Affero General Public License v3.0 · commercial: yes (unlimited permission to run, may charge for copies) · attribution: required (keep copyright notices, mark modifications with date) · limit: network-deployed modified versions must offer users the modified source (AGPL §13)",
+        "openSource": true,
+        "spdx": "AGPL-3.0",
+        "evidence": {
+          "url": "https://raw.githubusercontent.com/makeplane/plane/master/LICENSE.txt",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "plane",
+        "type": "Software",
+        "category": "Productivity",
+        "title": "Plane — Open-Source Project & Issue Tracking",
+        "description": "Open-source (AGPL-3.0) project management platform with cycles, modules, and issue tracking, usable in the cloud or self-hosted.",
+        "tags": [
+          "project-management",
+          "open-source",
+          "productivity",
+          "collaboration",
+          "roadmaps"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Cycles and modules for sprint-style and feature-based planning",
+          "Five work-item layouts (list, board, etc.) with unlimited saved views",
+          "AGPL-3.0 licensed source on GitHub, self-hostable instead of using Plane's cloud",
+          "Built-in importers from Jira, Linear, Asana, ClickUp, and CSV",
+          "Free plan covers up to 12 users before a per-seat plan is needed"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "plane",
+          "fillColor": "#121212",
+          "bgColor": null,
+          "source": "check-icon.mjs exact match in Simple Icons"
+        }
+      },
+      "unverified": [
+        "Operator/legal entity name behind plane.so (not stated on the site; GitHub org is makeplane)",
+        "Whether the hosted plane.so cloud free tier has the exact same limits as any self-hosted community edition feature gates"
+      ]
+    },
+    "plasmic": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Plasmic",
+        "url": "https://www.plasmic.app",
+        "alive": true,
+        "operator": "Plasmic, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free forever, no credit card required: unlimited projects, unlimited headless CMS, custom domains on Plasmic hosting, deployment to third-party servers, community forum support. Limits: 3 collaborators, a Plasmic badge on Plasmic-hosted sites, shorter version history than paid tiers.",
+        "paidFrom": "$39/month billed yearly (Starter); no separate monthly price listed",
+        "evidence": {
+          "url": "https://www.plasmic.app/pricing",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Plasmic Terms of Service · commercial: restricted — Services/Content use limited to personal/non-commercial for unregistered viewers, and API may not be used to build a competing product · attribution: not generally required, but copyright/trademark notices must not be removed · limit: no framing/mirroring the Services or using Plasmic's name/marks in meta tags without written consent",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://docs.plasmic.app/tos/",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "plasmic",
+        "type": "Software",
+        "category": "Development",
+        "title": "Plasmic — Visual Builder for React Apps",
+        "description": "Drag-and-drop visual editor for building React and Next.js sites and apps, with a free-forever plan and code-level integration.",
+        "tags": [
+          "no-code",
+          "website-builder",
+          "web",
+          "ui-ux",
+          "design-systems"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Visual, drag-and-drop canvas for building pages that compile to real React code",
+          "Deploys to Plasmic's own hosting or to a self-managed/third-party server",
+          "Unlimited projects and a built-in headless CMS on the free plan",
+          "Enterprise options add SSO and white-labeling",
+          "Free plan caps collaborators at 3 and shows a Plasmic badge on hosted sites"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact match, only unrelated fuzzy hits (C, C++); site logo SVG not independently fetched/sanitized during research — resolve via iconSvg before drafting"
+        }
+      },
+      "unverified": [
+        "Whether the marketing site's described open-source positioning (\"open-source visual editing and content platform\") refers to a specific OSS-licensed component vs. the hosted product as a whole — the hosted app itself is not under an OSS license per its ToS",
+        "Icon/logo asset path not resolved — no Simple Icons match"
+      ]
+    },
+    "platformabuse-org": {
+      "researchedOn": "2026-10-23",
+      "verdict": "skip",
+      "verdictReason": "Not a design/productivity/dev tool: it is a public knowledge base/wiki (from the 'Mobius Project') cataloguing technological harms and mitigations for trust & safety teams, with no product, pricing, or sign-up to list.",
+      "site": {
+        "name": "platformabuse.org",
+        "url": "https://platformabuse.org",
+        "alive": true,
+        "operator": "Mobius Project (team background in privacy, security, civic tech, ethical design) - not a registered org name confirmed"
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://platformabuse.org",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://platformabuse.org",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "Site is a client-side-rendered SPA (empty HTML shell); only meta tags and a corroborating Hackernoon post by the Mobius Project team were readable. Full page content, pricing, and license/terms were not inspected because the site is not a product fit for this directory and was skipped before deeper research.",
+        "og:description confirms it is 'a knowledge source of technological harms and mitigations to guide safer product development' - a reference/educational resource, not a tool, app, or service."
+      ]
+    },
+    "playbook": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Playbook",
+        "url": "https://www.playbook.com",
+        "alive": true,
+        "operator": "Playbook Digital, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan ($0, no credit card): 1 member + 3 guests, 100GB storage or up to 300 assets (whichever first), 1 publish page, 5 public share links, 1K API calls/month, uploads up to 300 files (videos capped 2GB/file), 10GB per download session, 4GB per import, plus integrations/MCP access and basic AI conversational search.",
+        "paidFrom": "Pro plan from $10/month per member (billed monthly), or $120/year per member billed annually (listed as ~45% savings).",
+        "evidence": {
+          "url": "https://www.playbook.com/pricing",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS ToS · commercial: no (ToS Section 8 bars use 'for any commercial purpose or for the benefit of any third party' without a paid plan) · attribution: not required · limit: Section 8 bars using Playbook's name/trademarks/logos without written consent and bars crawlers/data-mining of Content",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.playbook.com/terms",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "playbook",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Playbook - Visual Asset Library for Creative Teams",
+        "description": "Cloud-based digital asset manager where creative teams organize, tag, share, and review visual files, with AI-assisted search and MCP integrations.",
+        "tags": [
+          "collaboration",
+          "productivity",
+          "ai-tool",
+          "visual-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Central library for storing and tagging images, videos, and design files",
+          "Public share links and a publish page for sending curated selections to clients",
+          "Review and commenting tools for creative feedback",
+          "AI conversational search across the asset library",
+          "MCP integration connecting the library to AI tools and agents",
+          "Import from Dropbox, Google Drive, and OneDrive"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact or fuzzy match in Simple Icons (check-icon.mjs exit 2); no clean standalone logo SVG found on the site in this pass - only an og-image JPG. Needs a logo asset from the owner or a manual SVG extraction before listing."
+        }
+      },
+      "unverified": [
+        "Whether Playbook's ToS commercial-use/trademark clauses (Section 8) would object to a neutral third-party directory listing was not confirmed with Playbook directly - the page has no clause explicitly addressing directory listings either way.",
+        "Canonical URL inferred from the page's own links; no explicit canonical tag was found."
+      ]
+    },
+    "playbook-for-universal-design": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Universal Design Guide",
+        "url": "https://universaldesignguide.com",
+        "alive": true,
+        "operator": "Technology Leaving No One Behind, an initiative of DTU Skylab (Technical University of Denmark), developed in partnership with and support from the Bevica Foundation"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire platform (workshop 'Playbook' planner, Ability/Principle/Digital/Bias prompt cards, lectures, Universal Design education section, Facilitation Guide, inclusive-entrepreneurship section) appears free to use; no pricing, paywall, or sign-up fee is mentioned anywhere on the site.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://universaldesignguide.com/about",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://universaldesignguide.com/terms",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "No /terms page exists (404) and no terms/license/legal link was found in the homepage footer markup, so commercial-use and attribution terms could not be verified first-party. The About page calls it an 'Open-source platform' but states no actual license (e.g. no CC/SPDX identifier found).",
+        "Could not confirm whether 'open-source' refers to the content/methodology being openly licensed or just the general spirit of the project."
+      ],
+      "rl": {
+        "slug": "playbook-for-universal-design",
+        "type": "Resource",
+        "category": "Design",
+        "title": "Universal Design Guide - Workshop & Accessibility Toolkit",
+        "description": "Free educational platform with workshop planners, inclusive-design prompt cards, and lectures to help designers and facilitators apply universal design.",
+        "tags": [
+          "ui-ux",
+          "template",
+          "collaboration",
+          "inspiration",
+          "open-source"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Workshop planner ('Playbook') with a 'My Workshop Plan' builder for preplanned sessions",
+          "Prompt card sets covering Ability, Principle, Digital, and Bias perspectives",
+          "Recorded lectures and a Universal Design education section",
+          "Facilitation Guide for running inclusive-design workshops",
+          "Inclusive entrepreneurship section for founders"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact or fuzzy match in Simple Icons (check-icon.mjs exit 1, only unrelated single-letter fuzzy hits). No standalone logo SVG confirmed on the site in this pass - needs manual extraction or owner-provided asset."
+        }
+      }
+    },
+    "playful-avatar-creator": {
+      "researchedOn": "2026-10-23",
+      "verdict": "blocked",
+      "verdictReason": "Figma Community file page returned HTTP 403 (bot-check) on fetch; could not read title, pricing/duplication terms, or license text.",
+      "site": {
+        "name": "Playful Avatar Creator (Figma Community file)",
+        "url": "https://www.figma.com/community/file/1034368792791687764",
+        "alive": null,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.figma.com/community/file/1034368792791687764",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.figma.com/community/file/1034368792791687764",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "Page returned HTTP 403 on fetch attempt (2026-10-23) — likely a bot-check wall on figma.com/community pages. Not retried/bypassed per rules.",
+        "No safety web search performed since the tool's actual identity/brand could not be confirmed from the page.",
+        "Could not confirm whether this Figma Community file is still published, its author, its stated free/paid duplication terms, or its usage license."
+      ]
+    },
+    "playground": {
+      "researchedOn": "2026-10-23",
+      "verdict": "blocked",
+      "verdictReason": "Both playgroundai.com and playground.com returned HTTP 403 (bot-check) on fetch; home page content could not be read to confirm pitch, canonical URL, or pricing.",
+      "site": {
+        "name": "Playground (unconfirmed)",
+        "url": "https://playgroundai.com",
+        "alive": null,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://playgroundai.com",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://playgroundai.com",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "Home page fetch returned HTTP 403 at both https://playgroundai.com and https://playground.com (2026-10-23) — not retried/bypassed per rules.",
+        "Safety web search found no scam/malware/shutdown/acquisition reports for the San Francisco AI creative-tools company 'Playground' (per a third-party cybersecurity vendor directory listing, second-hand, not independently confirmed), but this does not substitute for reading the tool's own pricing/license pages.",
+        "Could not confirm current pricing, free tier, or license/terms text first-party."
+      ]
+    },
+    "playlists": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Playlists",
+        "url": "https://playlists.design",
+        "alive": true,
+        "operator": "Fons Mans and LottieFiles (stated in page footer: \"Playlists is a project by Fons Mans and LottieFiles.\")"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire site is a free, ungated collection of curated Spotify playlists for designers — no account, paywall, or pricing page exists; nothing to purchase.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://playlists.design",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No license/terms page found on the site · commercial: n/a (no software/assets to license, just links to Spotify playlists) · attribution: not required · limit: none stated",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://playlists.design",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "playlists",
+        "type": "Resource",
+        "category": "Design",
+        "title": "Playlists — curated Spotify playlists for designers",
+        "description": "A free collection of Spotify playlists curated by well-known designers, for background listening while you design.",
+        "tags": [
+          "inspiration",
+          "stock-music"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "16+ named playlists (e.g. Locked In, Brain Food, Flowstate, Deadline) each linking straight to Spotify",
+          "Each playlist curated by a named designer (Fons Mans, Erik D. Kennedy, Sally Carson, and others)",
+          "No account, download, or payment required — just opens the playlist in Spotify",
+          "Simple single-page site with a short blurb per playlist",
+          "Follow-on Spotify profile link to catch new playlists as they're added"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs exit 2 (no match in Simple Icons); site has no obvious standalone logo asset found during research — needs a manual SVG pick or owner input"
+        }
+      },
+      "unverified": [
+        "No dedicated license/terms page exists on the site to confirm; absence of restrictive language observed on the only page fetched, not confirmed by a terms page.",
+        "Icon/logo not resolved — Simple Icons has no match; no iconSvg source identified yet."
+      ]
+    },
+    "podie": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "PODIE",
+        "url": "https://podie.dev",
+        "alive": true,
+        "operator": "World of Creator"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire catalog of components and templates is free to browse, preview, and install; sign-in is free. FAQ states explicitly: \"The website has no paid checkout for these downloads.\" No pricing page exists on the site.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://podie.dev/faq",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "PODIE site terms · commercial: governed per-component by that component's own upstream license (PODIE claims no ownership) · attribution: required (must preserve each component's copyright/permission notices) · limit: a component may be pulled from the site if its license needs review",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://podie.dev/terms",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "podie",
+        "type": "Library",
+        "category": "Development",
+        "title": "PODIE – React Component Library & Templates",
+        "description": "A free, browsable catalog of interactive React UI components and app templates with live previews, inspectable source, and one-command install.",
+        "tags": [
+          "design-systems",
+          "ui-ux",
+          "web",
+          "template"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Browsable catalog of 1,000+ React components and templates across categories like landing pages, carousels, menus, and 3D",
+          "Live interactive preview for each component before installing it",
+          "One-command install via a package manager with an editable, inspectable source copy",
+          "MCP integration for pulling components into AI coding workflows",
+          "Each component credits and links to its original author; underlying license governs reuse"
+        ],
+        "icon": {
+          "route": "none",
+          "value": "No exact or usable match in Simple Icons (closest hits were single unrelated letters); site logo SVG not captured in this pass",
+          "fillColor": null,
+          "bgColor": null,
+          "source": "scripts/check-icon.mjs \"PODIE\" (exit 1), 2026-10-23"
+        }
+      },
+      "unverified": [
+        "Site's own HTTPS/alive status inferred from successful fetch; not independently confirmed via a separate status check",
+        "No pricing page exists, so 'Free' label reflects current no-paid-checkout state, which could change",
+        "Exact live component count (site shows both 1,044 and 1,059 in different places)"
+      ]
+    },
+    "polarr": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Polarr",
+        "url": "https://www.polarr.com",
+        "alive": true,
+        "operator": "Polarr, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free permanent tier includes Auto/Crop/Color/Light adjustments, 14 basic filter presets, custom filters, retouch tools (Auto, Face, Liquify, Spot removal), text/shape layers, history/undo, histogram, watermarking, and export.",
+        "paidFrom": "$3.99/mo billed annually ($47.99/yr); or $7.99/mo billed monthly (first month free). Pro unlocks premium filters, Clarity/Sharpen, Denoise, Lens/Perspective tools, LUT import/export, masking, overlays, filter sync, and batch export.",
+        "evidence": {
+          "url": "https://www.polarr.com/web",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Not confirmed first-party · commercial: unverified · attribution: unverified · limit: /terms and /legal both 404'd during this research pass",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.polarr.com/terms",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "polarr",
+        "type": "App",
+        "category": "Photography",
+        "title": "Polarr – AI Photo & Video Editor",
+        "description": "AI-assisted photo and video editing apps with auto adjustments, retouching, and a large community filter library; free with an optional Pro subscription.",
+        "tags": [
+          "ai-tool",
+          "graphic-design",
+          "ios",
+          "android",
+          "mac"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Free auto, crop, color, and light adjustment tools plus 14 built-in filter presets",
+          "Large library of community-made custom filters",
+          "AI-assisted retouching: face, liquify, and spot-removal tools",
+          "Pro tier adds premium filters, clarity/sharpen, denoise, lens/perspective correction, masking, and batch export",
+          "Available across iOS, Android, Mac, Windows, and the web, plus a separate browser-based RAW batch editor (Polarr Next) and a stylized video app (24FPS)"
+        ],
+        "icon": {
+          "route": "none",
+          "value": "No exact or usable match in Simple Icons (closest hit was a single unrelated letter); site logo SVG not captured in this pass",
+          "fillColor": null,
+          "bgColor": null,
+          "source": "scripts/check-icon.mjs \"Polarr\" (exit 1), 2026-10-23"
+        }
+      },
+      "unverified": [
+        "Terms of service / legal page not located (both /terms and /legal returned 404); commercial-use and listing restrictions not confirmed first-party",
+        "Exact feature gating between free and Pro beyond what the /web marketing page states",
+        "Whether 24FPS and Polarr Next share the same account/pricing as the core Polarr Pro subscription"
+      ]
+    },
+    "poliigon": {
+      "researchedOn": "2026-10-23",
+      "verdict": "blocked",
+      "verdictReason": "Home page (https://www.poliigon.com) and pricing page both returned HTTP 403 Forbidden on two separate fetch attempts, consistent with a bot-check; no first-party content could be read, so research stopped per rules rather than attempting to bypass it.",
+      "site": {
+        "name": "Poliigon",
+        "url": "https://www.poliigon.com",
+        "alive": null,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.poliigon.com",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.poliigon.com",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "Entire site (home + pricing) returned HTTP 403 Forbidden on both attempts; no first-party facts (pitch, pricing, license) could be verified",
+        "Did not attempt a web search for general background since the rule is to stop at a bot-check without further verification of a blocked tool",
+        "Known from general knowledge (not verified this pass) that Poliigon is a stock 3D/texture asset marketplace — not confirmed via first-party source in this research round"
+      ]
+    },
+    "poline": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Poline",
+        "url": "https://meodai.github.io/poline/",
+        "alive": true,
+        "operator": "meodai (David Aerne) — GitHub Pages project"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Fully free, open-source npm library (`poline`); no paid tier. Optional, non-required donations via Ko-fi/GitHub Sponsors.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://meodai.github.io/poline/",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT · commercial: yes · attribution: required (keep copyright notice) · no other restrictions found",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/meodai/poline",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "poline",
+        "type": "Library",
+        "category": "Design",
+        "title": "Poline – Color Palette Generator Library",
+        "description": "Open-source TypeScript library that generates color palettes by interpolating along configurable paths between HSL anchor points.",
+        "tags": [
+          "color-palette",
+          "open-source",
+          "design-systems",
+          "visual-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Generates palettes by sampling colors along configurable paths between HSL anchor points",
+          "Multiple position functions per axis (linear, exponential, sinusoidal, arc, etc.) shape how the gradient curves",
+          "Outputs colors as HSL, OKLCH, or LCH CSS strings, with hex conversion via the culori library",
+          "Interactive browser playground with keyboard shortcuts and a live color picker",
+          "Distributed as the npm package `poline`, usable in Node or the browser via ES module/UMD builds",
+          "Token Beam integration can push a generated palette directly into Figma, Blender, Aseprite, or Adobe XD"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact Simple Icons match (fuzzy hits only: 'e', 'line'); needs a manually sourced SVG before listing"
+        }
+      },
+      "unverified": [
+        "Exact legal/author identity behind the 'meodai' GitHub account not independently confirmed beyond the repo itself",
+        "Icon: no exact Simple Icons match; a real logo/SVG asset still needs to be sourced"
+      ]
+    },
+    "pollo-ai": {
+      "researchedOn": "2026-10-23",
+      "verdict": "blocked",
+      "verdictReason": "Home page (https://pollo.ai) and pricing page (https://pollo.ai/pricing) both returned HTTP 403 on fetch — consistent with a bot/Cloudflare check rather than a dead site. Per rules, stopped without attempting to bypass; did not research further.",
+      "site": {
+        "name": "Pollo.ai",
+        "url": "https://pollo.ai",
+        "alive": null,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://pollo.ai/pricing",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://pollo.ai",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "All pages attempted (home, pricing, www variant) returned HTTP 403 before any content could be read — brand pitch, pricing, free tier, license/ToS and operator are all unknown",
+        "One safety web search for 'Pollo.ai scam OR malware OR shutting down OR acquired' returned no relevant hits (only unrelated 'Poly'-named security stories), so no red flag found, but this is not a substitute for first-party verification"
+      ]
+    },
+    "poly-haven": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Poly Haven",
+        "url": "https://polyhaven.com",
+        "alive": true,
+        "operator": "Poly Haven — small team based in South Africa (named: Greg Zaal, Rob Tuytel); successor to HDRI Haven, Texture Haven, and 3D Model Haven"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire asset catalog (HDRIs, textures, 3D models) is free to download, no signup or paywall; site funded by voluntary Patreon donations.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://polyhaven.com/",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "CC0 (assets) · commercial: yes · attribution: not required for assets · site content (logos, user avatars, example/user renders, text) requires prior written permission to reproduce; public API use governed by separate API Terms",
+        "openSource": false,
+        "spdx": "CC0-1.0",
+        "evidence": {
+          "url": "https://polyhaven.com/license",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "poly-haven",
+        "type": "Stock Media",
+        "category": "Design",
+        "title": "Poly Haven – Free CC0 Textures, HDRIs & 3D Models",
+        "description": "Public, community-funded library of CC0 HDRIs, textures, and 3D models, free to download and reuse commercially without attribution.",
+        "tags": [
+          "stock-3d-models",
+          "royalty-free",
+          "stock"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Entire catalog of HDRIs, textures, and 3D models released under CC0 — free for any use, including commercial, without attribution required",
+          "No paywall, account, or signup needed to download assets",
+          "Funded entirely by voluntary Patreon donations rather than asset sales",
+          "Successor project that consolidated the earlier HDRI Haven, Texture Haven, and 3D Model Haven sites",
+          "Public API available for programmatic access, governed by separate API Terms"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact Simple Icons match (fuzzy hits only: 'e', 'poly', 'v'); needs a manually sourced SVG before listing"
+        }
+      },
+      "unverified": [
+        "Exact legal entity name not found on the pages read (an About/Contact page is referenced but wasn't separately fetched)",
+        "HTTPS/certificate validity inferred from successful fetch over https:// rather than independently checked",
+        "Icon: no exact Simple Icons match; a real logo/SVG asset still needs to be sourced"
+      ]
+    },
+    "polygonjs": {
+      "researchedOn": "2026-10-23",
+      "verdict": "skip",
+      "verdictReason": "Hosted Polygon Web editor at polygonjs.com is paid-only (no $0 signup plan): $25/mo or $200/yr subscription, or $495 one-time perpetual license; the only 'free' state is a read/edit-only fallback after a subscription lapses, not an offer for new users.",
+      "site": {
+        "name": "Polygon (Polygonjs)",
+        "url": "https://polygonjs.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "$25/mo (Polygon Web, billed monthly) or $200/yr ($16.67/mo equivalent); $495 one-time for the perpetual desktop license",
+        "evidence": {
+          "url": "https://polygonjs.com/pricing",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Polygon Web subscription / perpetual desktop license · commercial use of exports: yes · attribution: not required · one limit: subscription covers a single user, no account sharing or team seats",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://polygonjs.com/terms",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "unverified": [
+        "The underlying @polygonjs/engine and create-polygonjs npm packages appear to be MIT-licensed per jsDelivr/npm listings (second-hand, not read directly), separate from the paid hosted Polygon Web editor and polygonjs-editor package which other listings show as commercial/PolyForm-style. Not confirmed from a first-party LICENSE file.",
+        "Whether the 'free web editor' fallback state is reachable by a brand-new user without ever subscribing is not stated on the pricing page."
+      ]
+    },
+    "pond5-sound-effects": {
+      "researchedOn": "2026-10-23",
+      "verdict": "blocked",
+      "verdictReason": "www.pond5.com returned HTTP 403 (bot-check) on the home page, the /sound-effects/ page, and a pricing-related page across multiple attempts; could not read first-party content to verify pricing, license, or current operator.",
+      "site": {
+        "name": "Pond5",
+        "url": "https://www.pond5.com/sound-effects/",
+        "alive": null,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.pond5.com/sound-effects/",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.pond5.com/sound-effects/",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "All pricing, licensing, free-tier, and operator facts: site returned 403 Forbidden on every fetch attempt (home page, /sound-effects/, and a blog pricing URL), so none of this could be verified first-party.",
+        "Not checked whether Pond5 or a Pond5 stock-media entry already exists in RL under a different name; rl-index.mjs --find found no match for 'Pond5' but a manual look may be warranted given Pond5 is a large multi-category stock marketplace."
+      ]
+    },
+    "poper-ai": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Poper",
+        "url": "https://poper.ai",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "'Free Forever' plan at $0/mo: 50 AI credits, 1 website. No stated expiration.",
+        "paidFrom": "$9/mo on the Starter plan (shown as $108/yr billed annually; a discounted rate from a listed $14/mo, so the plain monthly price may be higher)",
+        "evidence": {
+          "url": "https://poper.ai/pricing/",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Poper Terms of Use · commercial use: no (grant is for personal/internal business use only, commercial use of the materials is explicitly barred) · attribution: not required · one limit: users may not modify, copy, or reverse-engineer the site's software/materials",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://poper.ai/terms/",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "poper-ai",
+        "type": "AI Tool",
+        "category": "Marketing",
+        "title": "Poper – AI-powered popup, form & quiz builder",
+        "description": "No-code builder for website popups, forms, and quizzes with AI personalization, exit-intent/scroll triggers, and a free forever plan.",
+        "tags": [
+          "ai-tool",
+          "no-code",
+          "web",
+          "automation"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Drag-and-drop editor for popups, forms, quizzes, and onsite widgets",
+          "AI-driven personalization and on-page recommendations",
+          "Exit-intent and scroll-depth behavioral triggers",
+          "Integrations such as HubSpot for sending captured leads into lists and workflows",
+          "Free Forever plan with 50 AI credits on 1 website; paid plans add more credits and sites"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs exit 1 (fuzzy only, suggestions 'e'/'r' not relevant) — no usable Simple Icons match; needs a site-sourced SVG or owner decision"
+        }
+      },
+      "unverified": [
+        "Whether the $9/mo Starter price is a standing price or a limited-time sale discount (page showed a '36% sale' banner against a $14/mo baseline) was not fully resolved.",
+        "Canonical URL / HTTPS cert and 'alive' status were inferred from page content (2026 copyright, live status banner) rather than a direct connectivity check.",
+        "Operator/company name behind Poper was not stated on the pages read."
+      ]
+    },
+    "portfoliobox": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Portfoliobox",
+        "url": "https://www.portfoliobox.com",
+        "alive": true,
+        "operator": "Aktiebolaget Portfoliobox Stockholm AB (Sweden)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Forever-free plan: 30 images, 5 pages, Portfoliobox subdomain, mobile-responsive site, no credit card and no time limit.",
+        "paidFrom": "Personal plan, listed at ₹709/month (site showed INR pricing, likely geo-located currency; exact USD/EUR price not confirmed) for 150 images, 15 pages, 100 blog posts, custom domain (first year included on annual billing only).",
+        "evidence": {
+          "url": "https://www.portfoliobox.com/pricing",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Portfoliobox ToS · commercial: yes (it's a paid SaaS website builder) · attribution: not required · limit: no standalone Terms of Service page found, only GDPR/privacy pages; no clause found restricting directory listing or linking",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.portfoliobox.com/gdprfull",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "portfoliobox",
+        "type": "Website",
+        "category": "Design",
+        "title": "Portfoliobox",
+        "description": "Website builder focused on creative portfolios, with templates for photography, art, illustration and design plus a forever-free plan.",
+        "tags": [
+          "website-builder",
+          "visual-design",
+          "design-templates"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Drag-and-drop portfolio website builder with templates for photographers, artists, illustrators and designers",
+          "Forever-free plan with no credit card: 30 images, 5 pages, Portfoliobox subdomain",
+          "Paid plans add more pages/images, blog, e-commerce and a custom domain",
+          "Mobile-responsive sites out of the box",
+          "Operated by Aktiebolaget Portfoliobox Stockholm AB (Sweden)"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact Simple Icons match (closest fuzzy matches: box, fsharp, r, rte, x - none usable)"
+        }
+      },
+      "unverified": [
+        "Exact paid price in a stable currency (site showed ₹709/month, likely geo-located; USD/EUR equivalent not confirmed)",
+        "Whether yearly billing price differs from the monthly figure shown",
+        "Canonical URL / HTTPS status not independently verified beyond the fetched page resolving successfully at https://www.portfoliobox.com",
+        "No standalone Terms of Service page was found (only GDPR/privacy pages); full commercial terms not fully read",
+        "Logo/icon not sourced; no Simple Icons match found"
+      ]
+    },
+    "pory": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Pory",
+        "url": "https://pory.io",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free plan: 1 portal, up to 5 users, core templates, with a 'Powered by Pory' badge. No AI builds/edits, custom domain, colors or logo on free tier.",
+        "paidFrom": "Pro plan: $49/month billed annually (~$588/year), or $59/month billed monthly. Priced per portal, unlimited users on paid plans.",
+        "evidence": {
+          "url": "https://pory.io/pricing",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Pory Terms of Service · commercial: yes (selling through portals via Stripe Connect is supported, subject to a Pory transaction fee) · attribution: not required · limit: bars reproducing/scraping site content, building a database from the service, or hyperlink framing without written consent",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://pory.io/legal/terms-of-service",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "pory",
+        "type": "AI Tool",
+        "category": "Development",
+        "title": "Pory",
+        "description": "AI-built portal platform for small teams to give clients, members or tenants a branded login with forms, approvals and status tracking.",
+        "tags": [
+          "no-code",
+          "ai-tool",
+          "automation"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Describe who signs in and what they need; Pory generates a branded portal backed by its own database",
+          "Built-in forms, approvals, status tracking and role-based views per user type",
+          "Free plan: 1 portal, up to 5 users, core templates, with Pory badge",
+          "Paid Pro plan is priced per portal with unlimited users, custom domain, colors and logo",
+          "Supports in-portal payments via Stripe Connect subject to a Pory transaction fee"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact Simple Icons match (closest fuzzy matches: ory, r - not usable)"
+        }
+      },
+      "unverified": [
+        "Canonical URL / HTTPS not independently verified beyond the page resolving at https://pory.io",
+        "Company/operator name behind Pory not found on the fetched pages",
+        "Whether 'hyperlink framing' clause in ToS has any bearing on a plain directory listing/link (read as not applicable, but not legally confirmed)",
+        "Logo/icon not sourced; no Simple Icons match found"
+      ]
+    },
+    "positive-user": {
+      "researchedOn": "2026-10-23",
+      "verdict": "blocked",
+      "verdictReason": "Could not confidently resolve the intended tool: the only 'Positive User' product found is a CRM/mobile-marketing-automation rebrand of Sarbacane under 'Positive Groupe France' (sharing the user.com domain with sibling brands Surfer, Signitic, Iconosquare, noCRM, Ubic), not a design/UX tool as the brief described, so proceeding risks listing the wrong product under the wrong category.",
+      "site": {
+        "name": "Positive User (possible match, unconfirmed)",
+        "url": "https://user.com",
+        "alive": true,
+        "operator": "Positive Groupe France (per page copyright notice)"
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://user.com/mobilesdk",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": null,
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "Whether 'Positive User' at user.com is actually the tool the brief intended (brief described it as a design/UX tool; what was found is a CRM/marketing-automation platform, a rebrand of Sarbacane)",
+        "Whether user.com is really the canonical/dedicated domain for 'Positive User' specifically, given it's a shared brand-house domain",
+        "Pricing, free tier, and license/terms were not researched further since the tool identity itself could not be confirmed",
+        "No web search for scam/malware/shutdown/acquisition signals was run, since the identity check failed first"
+      ]
+    },
+    "postbox": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "PostBox",
+        "url": "https://postbox.sh",
+        "alive": true,
+        "operator": "Stratus Ventures LLC"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entirely free macOS app (no paid tier). Drag finished creative work into the Mac notch, write one caption, and post/schedule to YouTube, Threads, Instagram, Bluesky, Dribbble, LinkedIn, X and TikTok. Supports multiple accounts per platform and carousels up to 4 images.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://postbox.sh/#pricing",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "PostBox custom Terms of Use · commercial: yes (personal and commercial work allowed) · attribution: not required · may not resell or redistribute the app",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://postbox.sh/terms",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "postbox",
+        "type": "App",
+        "category": "Marketing",
+        "title": "PostBox: Social Posting App for Mac",
+        "description": "Free macOS app for posting finished work to YouTube, Instagram, Threads, Bluesky, LinkedIn, X, TikTok and Dribbble with one caption and optional scheduling.",
+        "tags": [
+          "mac",
+          "automation",
+          "social-media-design",
+          "productivity"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Post or schedule to eight platforms (YouTube, Threads, Instagram, Bluesky, Dribbble, LinkedIn, X, TikTok) from one window",
+          "Drag finished work into the macOS notch to start a post",
+          "Write one caption and adapt it per destination",
+          "Supports multiple accounts per platform",
+          "Upload carousels of up to 4 images",
+          "X/Twitter posting uses your own X API tokens"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact or usable fuzzy Simple Icons match (closest 'box', 'x' are unrelated); needs manual SVG sourcing from postbox.sh"
+        }
+      },
+      "unverified": [
+        "No exact or close Simple Icons logo match; icon needs manual SVG sourcing",
+        "Cost of X/Twitter API tokens (required for X posting) is the user's own responsibility and not specified by PostBox",
+        "This PostBox (postbox.sh, Stratus Ventures LLC, a macOS social-posting app) is a different, unrelated product from the older 'Postbox' email client (postbox-inc.com), which was acquired by eM Client's maker and discontinued in October 2024 — do not conflate the two in any listing copy"
+      ]
+    },
+    "postermywall": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "PosterMyWall",
+        "url": "https://www.postermywall.com",
+        "alive": true,
+        "operator": "250 Mils LLC"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free account gives access to a large template and stock-asset library, design/email editing, free resizing, basic video recording/editing, slideshow animation, publishing to one social account plus a content planner, signup forms, design recoloring via Styles, one business profile, up to 10 downloadable pages per file, and two event pages/month (up to 100 registrations). Downloads are limited (exact cap not stated); most AI features, custom fonts, Brand Kits, post scheduling, AI captions, team collaboration and ticketing are not included free; some high-quality downloads are pay-per-download (from ₹380).",
+        "paidFrom": "Premium plan at ₹590/month (price shown in INR, likely geolocated; yearly option advertised as saving up to 30% but exact yearly price not shown on the page read)",
+        "evidence": {
+          "url": "https://www.postermywall.com/index.php/premium",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "PosterMyWall Terms of Use / Legal hub · commercial: yes (platform is built for business/marketing use) · attribution: not required · separate stock-asset licenses (Getty, Storyblocks) apply to specific stock content used in designs",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.postermywall.com/index.php/info/legal",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "postermywall",
+        "type": "Website",
+        "category": "Marketing",
+        "title": "PosterMyWall: AI Design & Marketing Platform",
+        "description": "Online design platform with templates, AI tools, video editing, email campaigns and social scheduling for small businesses, restaurants, churches and events.",
+        "tags": [
+          "design-templates",
+          "social-media-design",
+          "video-template",
+          "template"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Large library of design and email templates with stock photo/video/vector assets",
+          "AI tools for image generation, writing, video and background removal (paid tiers)",
+          "Video recording/editing and slideshow animation",
+          "Social media post scheduling and a content planner",
+          "Event pages with registration and ticketing",
+          "Brand Kits and team collaboration on paid plans"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact or usable fuzzy Simple Icons match (closest 'e', 'r' are unrelated); needs manual SVG sourcing from postermywall.com"
+        }
+      },
+      "unverified": [
+        "Exact watermark rules and export resolution limits on the Free plan are not clearly stated on the pricing page",
+        "Pricing shown in INR (₹590/month); USD or other-currency pricing not confirmed",
+        "Full Terms of Use / License Agreement text not read (only the legal document index page was fetched), so exact commercial-use and third-party-listing clauses are unconfirmed",
+        "No exact Simple Icons logo match; icon needs manual SVG sourcing"
+      ]
+    },
+    "posthog": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "PostHog",
+        "url": "https://posthog.com",
+        "alive": true,
+        "operator": "PostHog Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "No credit card required. Generous monthly free allowances per product: 1,000,000 product-analytics events, 5,000 session replay recordings, 1,000,000 feature-flag/experiment requests, 1,500 survey responses, 100,000 error-tracking exceptions, 1,000,000 data-warehouse source rows, 10,000 destination trigger events, 100,000 AI-observability events, 10GB logs, plus smaller credit allowances for PostHog AI, Replay Vision and Desktop. Limited to 1 project, 1 year data retention, community support.",
+        "paidFrom": "Usage-based pay-as-you-go beyond free limits, e.g. $0.00005 per product-analytics event above 1M/month (no flat subscription fee); rates fall at higher volume.",
+        "evidence": {
+          "url": "https://posthog.com/pricing.md",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT (core repo) · commercial: yes · attribution: not required · the ee/ directory (enterprise features) ships under a separate, non-open-source license",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/PostHog/posthog",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "posthog",
+        "type": "Software",
+        "category": "Development",
+        "title": "PostHog: Open-Source Product Analytics Platform",
+        "description": "Open-source product analytics with session replay, feature flags, experiments and error tracking; generous usage-based free tier, self-hostable.",
+        "tags": [
+          "open-source",
+          "web",
+          "productivity",
+          "collaboration"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Product analytics with a free monthly allowance of 1 million events",
+          "Session replay, feature flags and A/B experiments in the same platform",
+          "Error tracking and data-warehouse-style source/destination pipelines",
+          "MIT-licensed core, self-hostable, with a usage-based cloud pricing model",
+          "No credit card required to start on the free plan"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "posthog",
+          "fillColor": "#000000",
+          "bgColor": null,
+          "source": "check-icon.mjs: exact Simple Icons match (slug 'posthog')"
+        }
+      },
+      "unverified": [
+        "Several PostHog npm/Maven SDK packages (posthog-js, posthog-node, @posthog/core, etc.) were reported compromised in a November 2025 'Shai-Hulud 2.0' supply-chain attack per third-party security advisories; this concerns compromised package versions in the wild, not evidence that PostHog's own product or service is malicious, but worth noting for awareness",
+        "Exact terms of the ee/ (enterprise edition) license were not read in detail, only that it is separate from the MIT core",
+        "Whether the free tier is a permanent plan (not time-limited) is implied by 'no credit card required' language but not explicitly stated as 'forever free' on the pages read"
+      ]
+    },
+    "posts-design": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "posts.design",
+        "url": "https://posts.design",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan ($0 forever): access to 3,000+ posts, 1,000+ OG images, 600+ headers, unlimited saves, plus MCP access for AI agents with 100 MCP credits/month (resets 1st of month UTC). Browsing the site itself does not use credits.",
+        "paidFrom": "Pro: $8.25/month billed yearly (quarterly option also offered, ~31% more). Adds per-beat breakdowns/frames of referenced posts, 1,000 MCP credits/month, and a Pro member seal.",
+        "evidence": {
+          "url": "https://posts.design/pricing",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Site Terms (not an open content license) · commercial: no (no rights granted to reuse featured third-party work) · attribution: not required for visitors, but connected AI agents must cite the original source · limit: republishing the library as a competing collection requires permission",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://posts.design/terms",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "posts-design",
+        "type": "Website",
+        "category": "Design",
+        "title": "posts.design — social post design reference library",
+        "description": "Searchable library of real social posts, launch pages, OG images and profile headers from companies and creators, with an MCP feed for AI agents.",
+        "tags": [
+          "social-media-design",
+          "inspiration",
+          "graphic-design",
+          "ai-tool"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Curated library of 3,000+ real social posts, 1,000+ OG images and 600+ profile headers",
+          "Browser-based search across brands and launches",
+          "llms.txt agent guide plus an MCP server so AI agents can query references",
+          "Free plan includes unlimited saves and 100 MCP credits/month",
+          "Pro plan adds beat-by-beat breakdowns and frame-level detail of referenced posts"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact or usable fuzzy match in Simple Icons (check-icon.mjs exit 1, closest matches irrelevant); needs a manual favicon/logo pull before draft."
+        }
+      },
+      "unverified": [
+        "Operating company/legal entity behind posts.design not stated on the pages read",
+        "Whether MCP credit costs vary by action, or just the monthly cap, not detailed on pricing page",
+        "HTTPS inferred from all internal links using https://; certificate not independently checked"
+      ]
+    },
+    "powermove": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Powermove",
+        "url": "https://trypowermove.com",
+        "alive": true,
+        "operator": "Iterative Computer (hello@iterative.computer)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Fully free, open-source (AGPL-3.0) native video editor for Apple silicon Macs. No pricing page or paid tier found; download and source code are free.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://trypowermove.com",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "AGPL-3.0 · commercial: yes (per AGPL) · attribution: not stated beyond AGPL's own requirements · limit: AGPL copyleft requires making source available for modified versions used over a network",
+        "openSource": true,
+        "spdx": "AGPL-3.0",
+        "evidence": {
+          "url": "https://trypowermove.com/terms",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "powermove",
+        "type": "App",
+        "category": "Filming",
+        "title": "Powermove — AI-extensible video editor for Mac",
+        "description": "Free, open-source video editor built for Apple silicon Macs that you extend by connecting a coding agent to add editing features.",
+        "tags": [
+          "open-source",
+          "mac",
+          "ai-tool",
+          "extensions"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Native macOS video editor built specifically for Apple silicon",
+          "Open source under AGPL-3.0, free to download, use and modify",
+          "Connects to a coding agent so you can reshape or extend the editor yourself",
+          "Extensions system for adding new editor capabilities",
+          "Public GitHub repo with releases, plus a Discord community"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact or usable fuzzy match in Simple Icons (check-icon.mjs exit 1, closest matches irrelevant); needs a manual favicon/logo pull before draft."
+        }
+      },
+      "unverified": [
+        "Whether Powermove supports platforms other than Apple silicon Macs (site only discusses Mac)",
+        "Exact legal structure/location of Iterative Computer beyond the contact email shown"
+      ]
+    },
+    "prebuiltui": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "PrebuiltUI",
+        "url": "https://prebuiltui.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Components are described as free to copy and use for unlimited personal and commercial projects (per FAQ: \"completely free to use\"). No account/credit limits found for components.",
+        "paidFrom": "Paid React/Next.js templates; homepage showed a sale banner (\"$5\" next to \"$29\", unclear which is the sale vs. list price) with tiered licenses (Standard: 1 end product, Extended: multiple, Developer/Organization: unlimited within one company). No separate /pricing page exists (404).",
+        "evidence": {
+          "url": "https://prebuiltui.com",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Template License (proprietary) · commercial: yes (free components: unlimited; paid templates: per-tier project limits) · attribution: not required (appreciated but optional for free templates) · limit: no resale/redistribution of source as a standalone template, theme, or competing library",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://prebuiltui.com/policies/template-license",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "prebuiltui",
+        "type": "Library",
+        "category": "Development",
+        "title": "PrebuiltUI — Tailwind CSS components and templates",
+        "description": "Library of free Tailwind CSS UI components plus paid React/Next.js templates, usable in unlimited personal and commercial projects.",
+        "tags": [
+          "ui-ux",
+          "design-templates",
+          "website-templates",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "435+ Tailwind CSS components and page templates",
+          "Free components licensed for unlimited personal and commercial use",
+          "Paid React/Next.js templates with tiered licenses (Standard/Extended/Developer)",
+          "Built-in gradient generator tool",
+          "Docs and an LLMs.txt feed for AI-assisted development",
+          "Template license bars resale or use as a competing component/template marketplace"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact or usable fuzzy match in Simple Icons (check-icon.mjs exit 1, closest matches irrelevant); needs a manual favicon/logo pull before draft."
+        }
+      },
+      "unverified": [
+        "Operating company/legal entity behind PrebuiltUI not named on pages read; ToS governing law clause implies an Indian jurisdiction but no company name given",
+        "Which of the two sale-banner figures ($5 / $29) is the current vs. original template price",
+        "Whether components are truly open source (page calls it an \"open-source UI component library\" but no license/repo link was shown) vs. just free-to-copy proprietary code"
+      ]
+    },
+    "premiumbeat": {
+      "researchedOn": "2026-10-23",
+      "verdict": "blocked",
+      "verdictReason": "Home page (and a retry) returned HTTP 403 Forbidden — bot/WAF block; could not read pricing, license, or any first-party page content.",
+      "site": {
+        "name": "PremiumBeat",
+        "url": "https://www.premiumbeat.com",
+        "alive": null,
+        "operator": "Shutterstock, Inc. (per cached/localized About pages seen in search results, not first-party verified)"
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.premiumbeat.com/pricing",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.premiumbeat.com/terms",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "Could not verify pricing, free tier, or license terms directly — www.premiumbeat.com returned HTTP 403 on every fetch attempt today (2026-10-23).",
+        "Operator identity (Shutterstock group company) is second-hand, from a web search snippet of a cached/localized About page, not confirmed first-party today.",
+        "No malware/scam/shutdown signal found in a web search; one historical 2016 customer-data breach notice (filed with CA AG) was found, unrelated to current status."
+      ]
+    },
+    "previewed": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Previewed",
+        "url": "https://previewed.app",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Lite plan, $0, permanent (\"free-forever\"): unlimited 2D device mockup exports capped at 720p, under a CC Attribution license. No 3D or video export on this tier.",
+        "paidFrom": "$9.99 one-time fee (Plus plan: 10 exports at 1080p+, 3D exports, 30fps video, commercial license). Recurring option is Pro at $19/month ($228/year billed annually).",
+        "evidence": {
+          "url": "https://previewed.app/pricing",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Previewed Terms & Conditions · commercial: only on paid Plus/Pro plans (free Lite is CC Attribution, non-commercial use implied) · attribution: required on free tier · limit: general site Content license is personal/non-commercial unless paid or expressly permitted.",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://previewed.app/terms_and_conditions/",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "previewed",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Previewed – App Mockup & Promo Video Generator",
+        "description": "Browser tool for building 2D/3D app store mockups, promo videos, and social banners for iOS, Android, and desktop apps, with a free tier.",
+        "tags": [
+          "design-templates",
+          "graphic-design",
+          "prototyping",
+          "social-media-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "2D device mockups for App Store and Google Play listings",
+          "3D device snapshots and animated mockup videos",
+          "App promo video generator",
+          "Social media and promo banner templates",
+          "Runs entirely in the browser, no install",
+          "Free Lite tier for a single app/project; one-time-fee Plus plan unlocks 3D, video, and commercial license"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact or fuzzy Simple Icons match for \"Previewed\""
+        }
+      },
+      "unverified": [
+        "Site's own pages don't state the operating company/legal entity behind Previewed.",
+        "Whether Lite-tier (free) exports may be used commercially is not explicitly addressed in the terms; general Content clause is personal/non-commercial, and Plus/Pro explicitly add 'commercial license', implying Lite alone may not cover commercial use.",
+        "HTTPS not independently re-verified beyond the URL scheme used to fetch (previewed.app loaded over https://)."
+      ]
+    },
+    "prezi": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Prezi",
+        "url": "https://prezi.com",
+        "alive": true,
+        "operator": "Prezi Inc. (per site footer copyright)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free Basic plan, ongoing (not a time-limited trial): no AI generation credits, watermarked exports, public-only sharing/storage.",
+        "paidFrom": "Standard plan from $7/user/month, billed annually (adds capped AI-credit generation); other paid tiers (Plus, Premium, Teams) exist at higher prices per third-party reviews.",
+        "evidence": {
+          "url": "https://prezi.com/blog/ai-presentation-maker-pricing-comparison-2026/",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Prezi Terms of Service (prezi.com/legal/) · commercial: yes, general use is commercial-capable on paid plans · attribution: not required for your own content; required when embedding Prezi-authored presentations · limit: free/public content grants Prezi a broad worldwide, perpetual, sublicensable reuse license, including AI-partner training use.",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://prezi.com/legal/",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "prezi",
+        "type": "AI Tool",
+        "category": "Productivity",
+        "title": "Prezi – AI Presentation Platform",
+        "description": "AI-assisted presentation builder with live polls, Q&A, and audience analytics, plus post-session recaps as video, podcast, or flashcards.",
+        "tags": [
+          "ai-tool",
+          "productivity",
+          "collaboration",
+          "template"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Imports PowerPoint, Google Slides, Canva, or PDF files, or drafts a presentation from a short text brief",
+          "Live polls, quizzes, Q&A, and word clouds that audiences join via QR code, no app or login",
+          "Post-session recap as video, podcast, transcript, flashcards, or self-tests",
+          "Per-question audience analytics and end-of-session feedback",
+          "SCORM export for use in an LMS, aimed at trainers and educators",
+          "Free Basic plan (no credit card) with watermarked exports and public-only sharing"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "prezi",
+          "fillColor": "#3181FF",
+          "bgColor": null,
+          "source": "check-icon.mjs: exact Simple Icons match"
+        }
+      },
+      "unverified": [
+        "The live prezi.com/pricing page is a JS-rendered SPA that returned no readable text via fetch today; exact current prices for Standard/Plus/Premium/Teams were cross-checked only against Prezi's own blog comparison post plus disagreeing third-party review sites (presentations.ai, costbench.com, findstack.com) and are not fully reconciled.",
+        "Billing period for the quoted $7/user/month Standard price is 'billed annually' per the blog; the equivalent month-to-month price was not confirmed first-party.",
+        "No malware/scam/shutdown signal found; one unrelated phishing campaign in 2024 abused Prezi's platform as a link-hosting lure (not a compromise of Prezi itself), and a generically-named 'iPrezi' malware is unrelated to the real product."
+      ]
+    },
+    "pricing-pages": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "PricingPages.design",
+        "url": "https://pricingpages.design",
+        "alive": true,
+        "operator": "FS (Finnian Sturdy, finniansturdy.com) — no separate company name given"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire gallery is free to browse; no account, signup, or paywall found. No paid plan exists on this domain.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://pricingpages.design",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "PricingPages.design · commercial: n/a (site is a free viewer/link-out gallery, not licensed content for reuse) · attribution: not required · featured screenshots remain the IP of their original owners, shown under fair use",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://pricingpages.design/legal",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "pricing-pages",
+        "type": "Website",
+        "category": "Design",
+        "title": "Pricing Pages",
+        "description": "Curated gallery of real SaaS pricing page designs, filterable by UI components and patterns, for design inspiration and benchmarking.",
+        "tags": [
+          "inspiration",
+          "ui-ux",
+          "visual-design",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Filter pricing page examples by component (comparison tables, tier cards, FAQs)",
+          "Filter by pattern (contact-sales flows, usage-based calculators)",
+          "Each entry links out to the live, real pricing page it was captured from",
+          "Visitor-submitted gallery with a public submission form",
+          "Paginated 'Show me more' browsing, growing over time"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no match for \"Pricing Pages\"/\"PricingPages\" in Simple Icons; site has no distinct wordmark logo to extract cleanly. Leave for owner to supply a favicon/SVG if desired."
+        }
+      },
+      "unverified": [
+        "No full legal/registered company name for the operator beyond \"FS\" / finniansturdy.com",
+        "No explicit statement on the site about third-party linking/listing being allowed or restricted"
+      ]
+    },
+    "printables": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Printables (by Craftwork)",
+        "url": "https://printables.craftwork.design",
+        "alive": true,
+        "operator": "Craftwork (craftwork.design)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "The Printables pack itself (12 device templates, 3 styles each, PNG/JPG/PDF, 60 sheets) downloads free via a 'Download for Free' button; no login or trial gate found on this product page.",
+        "paidFrom": "Craftwork's site-wide 'Pro Access' subscription (unrelated to Printables specifically) starts at $31.85 per quarter, $96.85 per year, or $291.85 lifetime, unlocking all of Craftwork's other packs/assets.",
+        "evidence": {
+          "url": "https://printables.craftwork.design",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Craftwork Printables · commercial: yes (home page states templates include personal and commercial licenses) · attribution: not required · direct /license URL returned 404, so the exact license text/limits are unverified",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://printables.craftwork.design",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "printables",
+        "type": "Template",
+        "category": "Design",
+        "title": "Printables by Craftwork",
+        "description": "Free printable A4 sketch templates for mobile app screens, matching real iPhone and Android sizes in clear, dotted, or grid styles.",
+        "tags": [
+          "print-design",
+          "design-templates",
+          "template",
+          "ui-ux"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "12 device templates sized to match real iPhone and Android screens",
+          "Three sketching styles per device: Clear, Dotted, or Columns",
+          "Delivered as PNG, JPG, and PDF; compatible with Figma",
+          "60 total sheets across color and grayscale variants",
+          "Free download, with personal and commercial use permitted",
+          "Part of Craftwork's wider paid 'Pro Access' asset library (optional upsell, not required for this pack)"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs returned an exact Simple Icons match for \"Printables\" (iconLib: printables, #FA6831), but that icon is Prusa's 3D-print-sharing platform printables.com — a different, unrelated brand from Craftwork's sketch-template product at printables.craftwork.design. Using it would misattribute branding, so it is deliberately not used here; owner should supply Craftwork's own mark or a cropped site SVG instead."
+        }
+      },
+      "unverified": [
+        "Exact license text (the /license and /terms paths both 404'd); only the home page's one-line 'personal and commercial licenses' claim was readable",
+        "Whether Craftwork's refund/privacy policies impose any restriction on third-party listing/linking (not found in the pages read)"
+      ]
+    },
+    "product-design-roadmap": {
+      "researchedOn": "2026-10-23",
+      "verdict": "blocked",
+      "verdictReason": "Home page is an empty client-side-rendered app: repeated fetches of https://product-design-roadmap.com (with and without trailing slash, including a raw-text request) returned only the bare string \"UX/UI Product Design Roadmap\" with no body content, nav, pricing, or license text — could not verify pricing, license, or even basic site structure first-party.",
+      "site": {
+        "name": "Product Design Roadmap",
+        "url": "https://product-design-roadmap.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://product-design-roadmap.com",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": null,
+        "spdx": null,
+        "evidence": {
+          "url": "https://product-design-roadmap.com",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "Entire site content is unverified first-party (home page returns no readable body via fetch — appears to be a JS single-page app)",
+        "A web search turned up a second-hand description (a GitHub repo by 'anastasiaprh' linking to this URL, and a third-party UI/UX directory listing) describing it as a free visual roadmap of UX/UI/product-design topics and skills, credited to Anastasia and Vladislav — this is second-hand and not confirmed on the actual site, so no pricing/license facts can be taken from it",
+        "Pricing, license/terms, and commercial-use terms could not be checked at all"
+      ]
     }
   }
 }
