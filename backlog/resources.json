@@ -95439,6 +95439,2042 @@
         "Saas.group acquisition (Sept 2022) and operator address are corroborated by a secondary source (theygotacquired.com) and the terms page, not an explicit first-party press release found during this pass",
         "One negative Trustpilot review describes a billing/collection dispute after a trial; treated as a single anecdote, not evidence of a scam pattern"
       ]
+    },
+    "seobot": {
+      "researchedOn": "2026-10-24",
+      "verdict": "skip",
+      "verdictReason": "Resolved to seobotai.com (AI SEO content agent by SEO Bot AI / John Rush & Vitalik May); paid-only, subscriptions start at $49/mo with no permanent free tier, only a satisfaction refund on the first plan.",
+      "site": {
+        "name": "SEObot",
+        "url": "https://seobotai.com",
+        "alive": true,
+        "operator": "SEO Bot AI (John Rush, Vitalik May)"
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "$49/month (lowest plan, refundable after first article if unsatisfied)",
+        "evidence": {
+          "url": "https://seobotai.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "no public license page found · commercial: unknown · attribution: unknown · pricing page (seobotai.com/pricing) returned 404 during research",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://seobotai.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "unverified": [
+        "Claim of 200k+ articles created, seen in third-party search snippet, not independently verified",
+        "Terms/license page not located (pricing URL guess returned 404); not fetched directly",
+        "Exact yearly pricing and higher-tier limits not checked"
+      ]
+    },
+    "service-design-tools": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Service Design Tools",
+        "url": "https://servicedesigntools.org",
+        "alive": true,
+        "operator": "oblo.design (originally POLI.design / Politecnico di Milano, traced to Roberta Tassi's 2009 thesis work)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire tool/tutorial collection is browsable and usable for free; filterable by design stage, participants, service aspect, and representation type. An 'AI services playbook' and 'Enhanced Tools' section exist but no paywall or price was found for them.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://servicedesigntools.org",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "CC BY-NC-ND 2.5 · commercial: no · attribution: required · no derivatives/remixing of the site's tool descriptions allowed",
+        "openSource": false,
+        "spdx": "CC-BY-NC-ND-2.5",
+        "evidence": {
+          "url": "https://servicedesigntools.org/about",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "service-design-tools",
+        "type": "Resource",
+        "category": "Design",
+        "title": "Service Design Tools",
+        "description": "Free open collection of tools and tutorials for tackling complex service design challenges, filterable by stage, participants, and output type.",
+        "tags": [
+          "ui-ux",
+          "design-templates",
+          "prototyping",
+          "collaboration"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Browsable library of service-design tools and tutorials",
+          "Filter by design process stage, participants involved, and service aspect",
+          "Filter by representation/output type (e.g. maps, personas, storyboards)",
+          "Includes an AI-based services playbook resource",
+          "Curated and maintained by oblo.design with roots in academic service-design research",
+          "Entirely free to browse and use, no account required"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact or usable fuzzy Simple Icons match"
+        }
+      },
+      "unverified": [
+        "Whether 'Enhanced Tools' section carries any cost was not determinable from the page",
+        "Current organizational ownership/maintenance status beyond 2020 timeline entry not confirmed first-party"
+      ]
+    },
+    "setapp": {
+      "researchedOn": "2026-10-24",
+      "verdict": "skip",
+      "verdictReason": "Resolved to setapp.com (MacPaw's Mac/iOS app subscription bundle); no permanent free tier, only a 7-day free trial, lowest paid plan $14.99/month.",
+      "site": {
+        "name": "Setapp",
+        "url": "https://setapp.com",
+        "alive": true,
+        "operator": "MacPaw Way Ltd. (Cyprus)"
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "$14.99/month (Mac plan, billed monthly plus tax, includes 1,000 AI credits and 1 Mac)",
+        "evidence": {
+          "url": "https://setapp.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "no terms page fetched · commercial: unknown · attribution: unknown · service is a paid subscription bundle, not an open-license product",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://setapp.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "unverified": [
+        "Yearly pricing (stated as 'up to 40% savings' but no figures shown)",
+        "Full terms/legal page not fetched directly (pricing URL guess returned 404)",
+        "Setapp Mobile (iOS third-party app store) is being discontinued per 2026-01 news coverage (second-hand); does not affect the Mac product being evaluated here"
+      ]
+    },
+    "sf-symbols": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "SF Symbols",
+        "url": "https://developer.apple.com/sf-symbols/",
+        "alive": true,
+        "operator": "Apple Inc."
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Full symbol library (7,000+ symbols) is free to download and use in apps on Apple platforms; no paid tier exists.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://developer.apple.com/sf-symbols/",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Governed by Xcode & Apple SDKs license agreement · commercial: yes, but only in apps/content built for Apple platforms · attribution: not required · may not be used as app icons, logos, or other trademark-style/brand uses, and some symbols are restricted to naming specific Apple products",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://developer.apple.com/forums/thread/704852",
+          "date": "2026-10-24",
+          "confidence": "second-hand"
+        }
+      },
+      "rl": {
+        "slug": "sf-symbols",
+        "type": "Icon Set",
+        "category": "Design",
+        "title": "SF Symbols",
+        "description": "Apple's free library of 7,000+ vector symbols tuned to the San Francisco system font, with multiple weights, scales and rendering modes for Apple platforms.",
+        "tags": [
+          "icon-library",
+          "ios",
+          "mac",
+          "ui-ux",
+          "graphic-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "7,000+ symbols across nine weights and three scales",
+          "Designed to align with San Francisco, the system typeface, for seamless text pairing",
+          "Four rendering modes: Monochrome, Hierarchical, Palette and Multicolor",
+          "Exportable as vector files for custom symbol editing",
+          "Localized symbol variants for 20+ international scripts",
+          "Draw On/Off and other built-in animation presets"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact or close Simple Icons match (check-icon.mjs); no first-party SVG verified/sanitized for use"
+        }
+      },
+      "unverified": [
+        "Exact SF Symbols-specific license text (page only links to generic Apple Developer agreements; interpretation of Apple-platform-only restriction is pieced together from developer forum discussion, not a primary legal document)",
+        "Whether SF Symbols can be referenced/shown outside Apple platforms (e.g. in marketing or docs) — disputed in forums, no authoritative primary answer found",
+        "No dedicated icon asset resolved for the RL listing (route: none)"
+      ]
+    },
+    "shadcn-studio": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "shadcn/studio",
+        "url": "https://shadcnstudio.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Open-source \"Community\" tier is free forever (MIT with Commons Clause): usable in personal and commercial projects, but free components can't be resold/redistributed unmodified and can't be used to build a competing product.",
+        "paidFrom": "$99 one-time (Basic tier, single user, lifetime access — no subscription)",
+        "evidence": {
+          "url": "https://shadcnstudio.com/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT with Commons Clause (free tier) / custom commercial license (paid tiers) · commercial: yes · attribution: not stated · free tier may not be resold/redistributed unmodified or used to build a competing library/tool; paid Resources can't be redistributed separately from an end product",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://shadcnstudio.com/license",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "shadcn-studio",
+        "type": "Template",
+        "category": "Development",
+        "title": "shadcn/studio",
+        "description": "Independent shadcn/ui ecosystem of copy-paste blocks, page templates and a theme generator, with a free tier and one-time-payment paid packs.",
+        "tags": [
+          "design-systems",
+          "ui-ux",
+          "web",
+          "design-templates",
+          "template"
+        ],
+        "relatedResources": [
+          "shadcn-ui"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "1,000+ copy-paste blocks and 25+ full-page templates built for shadcn/ui",
+          "Visual theme generator and drag-and-drop page builder",
+          "Figma UI kit with 550+ premium blocks",
+          "AI tools including Figma-to-code conversion and \"Open in v0\"",
+          "Installable via the shadcn CLI or by direct copy-paste; supports Radix UI and Base UI",
+          "Free community tier plus one-time-payment Basic/Pro/Team/Enterprise packs"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact or close Simple Icons match (check-icon.mjs); no first-party SVG verified/sanitized for use"
+        }
+      },
+      "unverified": [
+        "Legal operator/company name behind shadcn/studio (not stated on site)",
+        "Exact scope of the 'Community/free' tier's feature limits (page describes it as free-forever/open-source but full block-by-block limits not itemized)",
+        "No dedicated icon asset resolved for the RL listing (route: none)"
+      ]
+    },
+    "shadcn-ui": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "shadcn/ui",
+        "url": "https://ui.shadcn.com",
+        "alive": true,
+        "operator": "shadcn (creator); hosted/sponsored by Vercel"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire component library, CLI and documentation are free and open source; no paid tier.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://ui.shadcn.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT · commercial: yes · attribution: not required · no limits found",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/shadcn-ui/ui/blob/main/LICENSE.md",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "shadcn-ui",
+        "type": "Library",
+        "category": "Development",
+        "title": "shadcn/ui",
+        "description": "Open-source, copy-and-paste React component library built on Radix UI and Tailwind CSS for building your own accessible design system.",
+        "tags": [
+          "design-systems",
+          "ui-ux",
+          "open-source",
+          "web",
+          "prototyping"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Copy-and-paste components you own and can fully customize, not an npm dependency",
+          "Built on Radix UI primitives with Tailwind CSS styling",
+          "CLI to scaffold a project and add individual components on demand",
+          "CSS-variable-based theming for quick design-system customization",
+          "126k+ GitHub stars and a large open-source ecosystem of extensions/blocks",
+          "Source code fully available on GitHub under MIT license"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "shadcnui",
+          "fillColor": "#000000",
+          "bgColor": null,
+          "source": "check-icon.mjs exact match: shadcnui"
+        }
+      },
+      "unverified": []
+    },
+    "shadergradient": {
+      "researchedOn": "2026-10-24",
+      "verdict": "blocked",
+      "verdictReason": "Home page (www.shadergradient.co, redirects to shadergradient.co) is a Framer-built site that ships with no server-rendered body content — only <title>/meta tags and client-side JS module loaders are present in the raw HTML; confirmed via two WebFetch attempts and a raw curl fetch, no pricing/license/nav text recoverable without executing JS.",
+      "site": {
+        "name": "Shader Gradient",
+        "url": "https://shadergradient.co",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://shadergradient.co",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": null,
+        "spdx": null,
+        "evidence": {
+          "url": "https://shadergradient.co",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "Pricing, license/terms, and feature details for ShaderGradient could not be read — the site is a Framer page with no static body content, meta description only: \"Create beautiful moving gradients on Framer, Figma and React\".",
+        "A web search for scam/malware/shutdown/acquisition turned up no results specific to ShaderGradient either way (query too generic, no relevant hits).",
+        "ShaderGradient is known (from general knowledge, not verified first-party here) to also ship as an npm/React package (@shadergradient/react) and a Figma plugin, which the Framer marketing site may not fully represent — this was not confirmed on-page."
+      ]
+    },
+    "shaderpad": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "ShaderPad",
+        "url": "https://misery.co/shaderpad/",
+        "alive": true,
+        "operator": "Misery & Company (author: Riley, rileyjshaw.com)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire tool: a free, MIT-licensed open-source JavaScript/npm library (and docs site) for embedding fragment shaders. No account, paywall, or usage limits found; no pricing page exists because there is nothing paid.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://misery.co/shaderpad/",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT License · commercial: yes · attribution: standard MIT copyright notice expected in source copies · no clause restricting third-party listing/linking",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://misery.co/shaderpad/",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "shaderpad",
+        "type": "Library",
+        "category": "Development",
+        "title": "ShaderPad",
+        "description": "Open-source JavaScript library for embedding interactive fragment shaders in a page in under 10 lines of code, with no build step required.",
+        "tags": [
+          "open-source",
+          "web",
+          "visual-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Tiny core (about 5.9 kB gzipped) for rendering fullscreen or canvas-embedded WebGL2 fragment shaders",
+          "Chains multiple shader passes together for more advanced multi-pass effects",
+          "Built-in inputs for webcam, camera and other live media sources, useful for face/pose-style filters",
+          "Works standalone or alongside other libraries like Three.js, p5.js and TWGL",
+          "Ships as a plain JS library and a web component, plus React usage docs",
+          "MIT licensed, free for commercial use including client work"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no exact or close Simple Icons match for \"ShaderPad\"; no icon URL/SVG was extracted or sanitized in this research pass"
+        }
+      },
+      "unverified": [
+        "Exact npm package download/star counts not checked (out of scope for this pass).",
+        "No pricing/terms page exists to separately verify commercial-use language beyond the footer's \"MIT license\" note and the GitHub repo link; treated as sufficient first-party evidence given it's a simple MIT-licensed library.",
+        "Logo/icon not sourced — needs a manual iconSvg/iconUrl pick if this is drafted into RL."
+      ]
+    },
+    "shaders": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Shaders",
+        "url": "https://shaders.com",
+        "alive": true,
+        "operator": "Shader Effects, Inc. (Delaware C-Corporation)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "The core Shaders rendering engine, bindings (React/Vue/Svelte/Solid/JS), CLI, and 200+ free shader components are open source (MIT) and free to export/use with no account needed. Browsing the Pro shader library is also free; only exporting code for Pro shaders or using the MCP server with Pro content requires a paid plan.",
+        "paidFrom": "$10/month, or $120/year billed annually (cancel anytime); a $299 one-time \"Buy Lifetime\" option is also offered",
+        "evidence": {
+          "url": "https://shaders.com/pro",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Mixed: core engine/components MIT (open source, commercial use yes, standard attribution) · \"Pro Content\" under a separate Shader Effects License Agreement v2.0 — usable in unlimited own/client paid projects but may not be resold, redistributed, or offered through a marketplace/template store/competing tool",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://shaders.com/license",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "shaders",
+        "type": "Library",
+        "category": "Development",
+        "title": "Shaders",
+        "description": "GPU-accelerated shader component library for React, Vue, Svelte and Solid, with a visual editor, CLI, and an optional paid library of 1,000+ ready-made effects.",
+        "tags": [
+          "open-source",
+          "web",
+          "visual-design",
+          "design-systems"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Open-source MIT-licensed rendering engine and 200+ free shader components for React, Vue, Svelte, Solid and plain JS",
+          "Visual design editor for tuning shader parameters and exporting the result to code",
+          "CLI and MCP server to install or sync shader components straight into a codebase or AI agent workflow",
+          "Paid Pro tier unlocks 1,000+ curated shader components across dozens of collections, with new drops weekly",
+          "Framer plugin for dropping shader effects into Framer sites",
+          "Pre-made, copy-paste website sections built from the shader components"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no exact or close Simple Icons match for \"Shaders\"; no icon URL/SVG was extracted or sanitized in this research pass"
+        }
+      },
+      "unverified": [
+        "Exact wording of \"student/regional pricing\" FAQ answer not read in full (page only confirmed the question exists, pointed to further site contact).",
+        "GitHub org github.com/shader-effects-inc/shaders referenced on the /license page but repo contents/stars not independently checked.",
+        "Logo/icon not sourced — needs a manual iconSvg/iconUrl pick if this is drafted into RL.",
+        "Possible near-duplicate/overlap with other shader-background libraries RL may already list was checked only via rl-index.mjs --find \"Shaders\" (no match found), not a broader semantic check."
+      ]
+    },
+    "shakuro": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Shakuro Blog",
+        "url": "https://shakuro.com/blog",
+        "alive": true,
+        "operator": "Shakuro (mobile app design & custom software development agency)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Every blog article is readable with no account, signup, or paywall. The only optional gate is an email opt-in for a monthly post digest; declining it does not restrict access to any article.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://shakuro.com/blog",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Shakuro © all rights reserved (standard copyright notice) · commercial: n/a, this is editorial content not a licensable asset · attribution: not required to read/link · limit: no dedicated Terms of Service page exists",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://shakuro.com/terms",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "shakuro",
+        "type": "Resource",
+        "category": "Design",
+        "title": "Shakuro Blog — Design & Development Articles",
+        "description": "Free articles on UI/UX, mobile app design, web development, and product strategy from a design and software agency, with no paywall.",
+        "tags": [
+          "ui-ux",
+          "inspiration",
+          "writing",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Articles grouped by topic: design, development, management, marketing, and branding",
+          "Case-study style posts drawn from the agency's own client projects",
+          "No login, account, or subscription required to read any article",
+          "Optional email opt-in for a monthly digest; otherwise fully open",
+          "Covers both classic UX/UI guidance and newer topics like generative AI apps and computer vision"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no exact or reliable fuzzy Simple Icons match (closest candidate was a single letter 'R', not usable); site SVG logo was not extracted/sanitized this round"
+        }
+      },
+      "unverified": [
+        "No dedicated Terms of Service / legal page exists — both /terms and /legal 301/200 but render the homepage, so licensing/usage terms for blog content beyond the standard copyright notice are unconfirmed.",
+        "Category choice (Design vs Development) is a judgment call since the blog's own nav covers both plus Management, Marketing, and Branding.",
+        "No icon/logo asset resolved — needs a follow-up pass to fetch and sanitize the site's SVG logo if this gets drafted."
+      ]
+    },
+    "shape": {
+      "researchedOn": "2026-10-24",
+      "verdict": "blocked",
+      "verdictReason": "shape.so (including /pricing) is a client-rendered Gatsby/React SPA that serves only a logo and the text \"Shape 2\" in its static HTML body — all real content, including pricing and feature details, requires JavaScript execution that is not available here, so pricing/license/feature facts could not be first-party verified.",
+      "site": {
+        "name": "Shape 2",
+        "url": "https://shape.so",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": "Unconfirmed on the current site. A 2020-era third-party French review (blogdumoderateur.com) describes a free tier that allows downloading icons as PNG after creating an account — second-hand and likely outdated.",
+        "paidFrom": "Unconfirmed on the current site. The same outdated third-party source cites a $41/year plan and a $76 lifetime plan — second-hand and unverified against the live site.",
+        "evidence": {
+          "url": "https://www.blogdumoderateur.com/tools/shape/",
+          "date": "2026-10-24",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://shape.so/pricing",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "Current pricing and free-tier limits — could not read the SPA's rendered content; only pre-2020 third-party pricing figures were found.",
+        "Operator/owner — the page's twitter:creator meta tag references @mengto (Meng To, known for Design+Code), but this is an inference from a meta tag, not a confirmed first-party statement.",
+        "License/Terms of Service content — page is JS-rendered with no readable terms text in static HTML.",
+        "Whether the product is still actively maintained/sold (no scam/shutdown/acquisition signal found in a safety search, but no confirmation of current operation either)."
+      ]
+    },
+    "shape-divider": {
+      "researchedOn": "2026-10-24",
+      "verdict": "blocked",
+      "verdictReason": "shapedivider.app is a Vue SPA whose static HTML contains only meta tags and an empty #app mount point — no pricing, free-tier, or terms content is server-rendered, and the /faq path returned HTTP 404. Could not first-party verify pricing or license without executing JavaScript.",
+      "site": {
+        "name": "Shape Divider App",
+        "url": "https://shapedivider.app/",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.shapedivider.app",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.shapedivider.app",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "Pricing / free-tier existence and limits — SPA renders no content without JS; meta description only says it lets you \"create fully responsive shape dividers for your next web project\".",
+        "License/Terms of Service — /faq returned 404 and no terms link was present in the static HTML; could not locate a terms page.",
+        "Safety search for the exact tool turned up nothing (no scam/malware/shutdown signal), but this is a weak negative since the tool is small and may have little coverage."
+      ]
+    },
+    "shape-of-ai": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "The Shape of AI",
+        "url": "https://www.shapeof.ai",
+        "alive": true,
+        "operator": "Emily Campbell"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire site (UX pattern catalog across six categories: Wayfinders, Inputs, Tuners, Governors, Trust builders, Identifiers) plus a UI Library of examples is free to browse; the companion Slack community and newsletter are also free to join.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.shapeof.ai",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "CC-BY-NC-SA · commercial: no · attribution: required · share-alike required for derivatives",
+        "openSource": false,
+        "spdx": "CC-BY-NC-SA-4.0",
+        "evidence": {
+          "url": "https://www.shapeof.ai/about",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "shape-of-ai",
+        "type": "Resource",
+        "category": "Design",
+        "title": "The Shape of AI",
+        "description": "A free, curated catalog of UX patterns for AI products, covering prompt entry, tuning, trust-building, and AI identity design.",
+        "tags": [
+          "ui-ux",
+          "design-systems",
+          "ai-tool",
+          "inspiration"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Patterns organized into six named categories (Wayfinders, Inputs, Tuners, Governors, Trust builders, Identifiers)",
+          "Dozens of individually documented UX patterns such as Summary, Expand, Action plan, Citations, Watermark, and Avatar",
+          "A UI Library section showing real product examples of each pattern",
+          "Free companion Slack community for discussion",
+          "Free newsletter (hosted on Substack) with ongoing pattern write-ups",
+          "Curated and maintained by a single named author (Emily Campbell), updated as AI UX conventions evolve"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No Simple Icons match (check-icon.mjs exit 1, no close brand match); no distinct logomark identified on the page to safely extract as iconSvg."
+        }
+      },
+      "unverified": [
+        "No canonical URL is stated on the page itself; https://www.shapeof.ai is used as the home URL reached directly.",
+        "Exact scope of CC-BY-NC-SA licensing (e.g. whether it covers the pattern descriptions, the UI Library screenshots, or both) is not spelled out beyond the footer credit line.",
+        "Icon/logo not sourced — needs manual selection or owner input."
+      ]
+    },
+    "shape-o-holic": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Shape-O-Holic",
+        "url": "https://shapeoholic.live",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "140+ customizable SVG/PNG shapes, downloadable individually or as a bulk \"Download all\"; a companion Figma file is also offered. No paid tier, account, or usage cap is mentioned.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://shapeoholic.live",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "unstated · commercial: unknown · attribution: unknown · no terms/license page found (404 at /license)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://shapeoholic.live",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "shape-o-holic",
+        "type": "Stock Media",
+        "category": "Design",
+        "title": "Shape-O-Holic",
+        "description": "A free library of 140+ customizable SVG and PNG shapes for designers, downloadable individually or in bulk, with a matching Figma file.",
+        "tags": [
+          "stock-vectors",
+          "graphic-design",
+          "visual-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "140+ vector shapes grouped into categories such as Noise and Solid",
+          "Each shape downloadable as PNG or SVG individually",
+          "\"Download all\" bulk option for the full set",
+          "Companion Figma file with the same shape set for in-editor use",
+          "No account or sign-up required to browse or download",
+          "Credited to two named designers and one developer"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No Simple Icons match (check-icon.mjs exit 1); no distinct logomark identified on the page to safely extract as iconSvg."
+        }
+      },
+      "unverified": [
+        "No license or terms page exists (direct checks of /license and /terms returned 404); commercial-use rights for the shapes are not stated anywhere on the site.",
+        "Site operator/company name not identified — only two designer names and a developer name (with LinkedIn links) are credited.",
+        "Icon/logo not sourced — needs manual selection or owner input.",
+        "Functionally near-duplicate of 'Shapes' (shapes.gallery), also researched this round — both are free copy/download SVG shape libraries; flagging for the owner to decide if both should be listed."
+      ]
+    },
+    "shapes": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "SVG Shapes (shapes.gallery)",
+        "url": "https://shapes.gallery",
+        "alive": true,
+        "operator": "Monika Michalczyk (\"Mo\")"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "70+ free copy-paste SVG shapes, plus a bulk \"Download All\" ZIP. No paid tier, account, or sign-up is mentioned.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://shapes.gallery",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "unstated · commercial: unknown · attribution: unknown · no terms/license page found (404 at /license)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://shapes.gallery",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "shapes",
+        "type": "Stock Media",
+        "category": "Design",
+        "title": "SVG Shapes",
+        "description": "A free gallery of 70+ copy-paste SVG shapes for design projects, with a one-click bulk download of the whole set.",
+        "tags": [
+          "stock-vectors",
+          "graphic-design",
+          "visual-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "70+ SVG shapes browsable in a single gallery page",
+          "Click-to-copy SVG markup for any shape",
+          "\"Download All\" option that bundles every shape into a ZIP file",
+          "No account or sign-up required",
+          "Built and maintained by a single named creator (Monika Michalczyk), built on Framer"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No Simple Icons match (check-icon.mjs exit 1); no distinct logomark identified on the page to safely extract as iconSvg."
+        }
+      },
+      "unverified": [
+        "No license or terms page exists (direct checks of /license and /terms returned 404); commercial-use rights for the shapes are not stated anywhere on the site.",
+        "Original requested URL (https://shapes.framer.website) permanently redirects (308) to https://shapes.gallery, which is used as the canonical URL here.",
+        "Icon/logo not sourced — needs manual selection or owner input.",
+        "Functionally near-duplicate of 'Shape-O-Holic', also researched this round — both are free copy/download SVG shape libraries; flagging for the owner to decide if both should be listed."
+      ]
+    },
+    "shapr3d": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Shapr3D",
+        "url": "https://www.shapr3d.com",
+        "alive": true,
+        "operator": "Shapr3D Zrt."
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Basic plan, free forever: up to 2 projects, runs on macOS/iPadOS/Windows/visionOS, cloud storage, import of XT/STEP/IGES/DWG/STL, export limited to basic-resolution 3MF and STL, up to 3 generative renders/day. Excludes shared team projects, high-res export, priority support. Terms restrict the free version to non-commercial, personal use only.",
+        "paidFrom": "Pro plan, $299 per editor seat per year (billed annually, excl. VAT); a 14-day free trial of Pro is offered. Monthly billing is also offered but the price was not shown on the fetched page.",
+        "evidence": {
+          "url": "https://www.shapr3d.com/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary EULA · commercial: no on free tier (non-commercial/personal only), yes on paid tiers · attribution: not required · free version limited to non-commercial personal use per Terms 3.1(c) and 5.1(b)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.shapr3d.com/terms-and-conditions",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "shapr3d",
+        "type": "Software",
+        "category": "Design",
+        "title": "Shapr3D - 3D CAD Design Software",
+        "description": "Desktop and tablet CAD app combining direct and history-based 3D modeling, built on the Parasolid kernel, for concept design through manufacturing.",
+        "tags": [
+          "mac",
+          "windows",
+          "ios",
+          "ai-tool"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Combines direct and history-based solid modeling in one workspace",
+          "Runs offline with on-device processing, then syncs to the cloud",
+          "Built on the Parasolid geometry kernel used by professional CAD tools",
+          "Imports/exports common CAD formats (STEP, IGES, DWG, STL, 3MF)",
+          "AR/XR model review on Apple Vision Pro",
+          "Generative render feature to place models in AI-generated scenes"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact Simple Icons match (check-icon.mjs exit 1, fuzzy only: d/r/r3). No logo asset verified first-party; needs manual sourcing before draft."
+        }
+      },
+      "unverified": [
+        "Exact Basic-plan price label beyond 'free' (no numeric $0 shown, just 'Download for free')",
+        "Monthly Pro price (only annual $299/seat was shown on the fetched pricing page)",
+        "Whether Autodesk or any other company has acquired Shapr3D — forum speculation found, no first-party or news confirmation",
+        "Icon/logo asset not sourced; no exact Simple Icons match"
+      ]
+    },
+    "shieldfont": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "ShieldFont",
+        "url": "https://shieldfont.org",
+        "alive": true,
+        "operator": "S&A (in partnership with Playtype)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entirely free, open-source protocol/toolset: npm package for React, a CSS import for blogs/static sites (labeled 'Not for production' by the project itself), and a font file for documents. No paid tier exists.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://shieldfont.org",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "AGPL-3.0 (code) · commercial: yes per AGPL terms (copyleft/network-use disclosure applies) · attribution: not explicitly stated on the site · fonts (Optik by Playtype) have no separate terms shown on-site",
+        "openSource": true,
+        "spdx": "AGPL-3.0",
+        "evidence": {
+          "url": "https://github.com/isaqueseneda/shieldfont",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "shieldfont",
+        "type": "Library",
+        "category": "Development",
+        "title": "ShieldFont - Protect Writing from AI Scrapers",
+        "description": "Open-source protocol and typeface that swaps key words in page source for decoys, so only readers using the ShieldFont typeface see your real text.",
+        "tags": [
+          "open-source",
+          "writing",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Encodes chosen words in the page's HTML source with plausible substitutes",
+          "Custom ShieldFont typeface renders the original words back for human readers",
+          "Ships as an npm package for React apps",
+          "CSS import option for blogs and static sites (marked not production-ready by the project)",
+          "Also distributed as a font file for use in documents",
+          "AGPL-3.0 licensed, source hosted on GitHub"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact Simple Icons match (check-icon.mjs exit 1, fuzzy only: e/d/fsharp). No logo asset verified first-party; needs manual sourcing before draft."
+        }
+      },
+      "unverified": [
+        "Exact attribution requirements beyond AGPL-3.0's own notice terms",
+        "License terms for the Optik typeface itself (only credited to Playtype, no license text shown on-site)",
+        "Whether the CSS-import/static-site method is safe to rely on given the project's own 'Not for production' label",
+        "Icon/logo asset not sourced; no exact Simple Icons match"
+      ]
+    },
+    "shift": {
+      "researchedOn": "2026-10-24",
+      "verdict": "skip",
+      "verdictReason": "Pricing page lists only paid tiers (Pro $108/yr, Pro Max $228/yr, Pro Lifetime); no free tier/column shown, and the page's own FAQ question 'Can I use Morflax Studio for free?' has no answer visible in fetched content, so a real permanent free tier could not be confirmed first-party.",
+      "site": {
+        "name": "Morflax Studio - Shift (Vector to 3D)",
+        "url": "https://studio.morflax.com/shift",
+        "alive": true,
+        "operator": "Morflax"
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "Pro at $108/year (about $9.00/mo billed yearly); Pro Max at $228/year (about $19.00/mo billed yearly); a Pro Lifetime one-time-payment option is also offered. Headline banner advertises 'Starting from only $9 per month - Cancel anytime,' but no $0 plan is listed on the pricing page.",
+        "evidence": {
+          "url": "https://studio.morflax.com/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary subscription ToS · commercial: yes but gated to Pro/Pro Max tiers ('Commercial license and no watermark' listed as a Pro feature) · attribution: not stated · free/unauthenticated use appears watermarked and commercial-use is explicitly a paid feature",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://studio.morflax.com/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "unverified": [
+        "Whether any free/no-login usage exists and what its limits are (page shows 'Continue without logging in' option but doesn't describe limits)",
+        "Full FAQ answers (collapsed/not rendered in fetched content), including the direct answer to 'Can I use Morflax Studio for free?' and 'Can I use Morflax Studio for commercial work?'",
+        "Monthly (non-annual) billing price for Pro and Pro Max",
+        "Whether the product is a near-duplicate of other SVG-to-3D or logo-to-3D tools already listed in RL (not checked since verdict is skip)"
+      ]
+    },
+    "ship-studio": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Ship Studio",
+        "url": "https://www.ship.studio",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire app is free with no plans, seats, or usage meter; the site states it is '100% free, and always will be,' with no trial clock.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.ship.studio/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Open source on GitHub (github.com/ship-studio/ship-studio) · commercial: not stated · attribution: not stated · no terms/license page found on the marketing site to confirm a specific license (e.g. MIT)",
+        "openSource": true,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.ship.studio",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "ship-studio",
+        "type": "App",
+        "category": "Development",
+        "title": "Ship Studio — free desktop app for AI coding agents",
+        "description": "Free, open-source Mac app that runs AI coding agents like Claude Code or Codex, pushes to GitHub, and deploys to hosts such as Vercel in one window.",
+        "tags": [
+          "ai-tool",
+          "mac",
+          "open-source",
+          "automation",
+          "productivity"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Runs agentic coding tools (e.g. Claude Code, Codex, OpenCode) inside one desktop window",
+          "Pushes generated code to your own GitHub account",
+          "Deploys to your own hosting account (e.g. Vercel) without leaving the app",
+          "No Ship Studio subscription — uses your existing agent, GitHub, and host accounts",
+          "Open source codebase on GitHub",
+          "Currently Mac-only desktop app"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: NOT FOUND in Simple Icons (closest fuzzy match 'd' is not usable); no reliable first-party SVG/logo asset path located during research, so left unresolved rather than invented"
+        }
+      },
+      "unverified": [
+        "Canonical URL not explicitly declared on the site; used https://www.ship.studio as the given/working URL",
+        "No specific open-source license (e.g. MIT/Apache) confirmed — no terms/license page found, only a GitHub repo link",
+        "Operator/company name not stated on the site",
+        "Icon/logo asset not resolved — no Simple Icons match and no verified first-party SVG path"
+      ]
+    },
+    "shipixen": {
+      "researchedOn": "2026-10-24",
+      "verdict": "skip",
+      "verdictReason": "Paid-only Next.js boilerplate generator (one-time license fees of $249/$379, no free tier) — fails the real-permanent-free-tier requirement for listing.",
+      "site": {
+        "name": "Shipixen",
+        "url": "https://www.shipixen.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "1-Year License $249 (one-time); Lifetime License $379 (one-time, listed as discounted from $500)",
+        "evidence": {
+          "url": "https://shipixen.com/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary commercial license for the generator app (output code is yours to keep) · commercial: yes (use of generated output) · attribution: not stated · license covers the generator tool, not resale/sublicensing of the generator itself",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://shipixen.com/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "unverified": [
+        "Whether the 1-Year License auto-renews as a subscription or is a single payment — pricing page did not clarify",
+        "Exact theme/template counts vary across third-party listings (39+ vs 63+); official pricing page states 63+ at time of read",
+        "Operator/legal entity behind Shipixen not named on the site (only 'Copyright © Shipixen')",
+        "A footer link referenced 'Free for Open Source' but no details were available on the pricing page to confirm terms"
+      ]
+    },
+    "short-io": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Short.io",
+        "url": "https://short.io",
+        "alive": true,
+        "operator": "Short.cm Inc. (Delaware Corporation, US, reg# 4976272)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Permanent Free plan ('Everything you need to get started'): 1 user, 5 custom domains, 1,000 branded links total, 1,000 link automations (API/bulk), 50,000 tracked clicks/mo, 50 conversions/mo, 3 folders, 10 MB storage, unlimited redirects. Above 50,000 clicks, tracking data is still collected but not viewable; links keep working.",
+        "paidFrom": "Hobby plan from $5/mo (monthly or annual billing, annual saves ~17%; paid plans include a 7-day free trial)",
+        "evidence": {
+          "url": "https://short.io/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS Terms & Conditions · commercial: yes (personal and business use permitted) · attribution: not required · cannot rent/sublicense/resell the Service itself, and links/content must not disguise destinations, chain redirects to deceive, or promote illegal content (gambling, phishing, etc.)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://short.io/terms",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "short-io",
+        "type": "Tool",
+        "category": "Marketing",
+        "title": "Short.io — branded URL shortener with analytics",
+        "description": "Creates short links on your own custom domain with click analytics, QR codes, team collaboration, and a REST API; free plan covers up to 50,000 clicks/mo.",
+        "tags": [
+          "automation",
+          "collaboration",
+          "productivity",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Branded short links on up to 5 custom domains on the free plan",
+          "Click analytics and conversion tracking dashboard",
+          "QR code generation for any short link",
+          "REST API and bulk link creation for automation",
+          "Team collaboration with folders for organizing links",
+          "Permanent free tier up to 50,000 tracked clicks per month"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: NOT FOUND in Simple Icons (closest fuzzy matches 'r'/'rte' not usable); no reliable first-party SVG/logo asset path located during research, so left unresolved rather than invented"
+        }
+      },
+      "unverified": [
+        "Canonical URL not explicitly declared via canonical tag; used https://short.io as the given/working URL",
+        "Exact wording of 'Free for conversions' and whether 50 conversions/mo applies only to free plan vs. all plans not fully detailed",
+        "Icon/logo asset not resolved — no Simple Icons match and no verified first-party SVG path"
+      ]
+    },
+    "shortcut": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": "Resolved \"Shortcut\" to shortcut.com, the project-management SaaS (formerly Clubhouse); the given Figma-blog URL did not identify a product, and a Figma Community plugin literally named \"Shortcuts\" was a weaker match for the singular id/brand \"Shortcut\" than the SaaS the task's own hint named — alive, HTTPS, real permanent free tier, no listing restriction found.",
+      "site": {
+        "name": "Shortcut",
+        "url": "https://www.shortcut.com",
+        "alive": true,
+        "operator": "Shortcut Software Company"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free plan for up to 10 users, 1 team, 1 workspace, 1 customizable workflow, 5GB storage; includes Kanban boards, Roadmaps, basic Reports, Iterations/Sprints, Docs, and GitHub/Slack/Figma integrations. Excludes Automations, WIP limits, advanced reports, and Objectives.",
+        "paidFrom": "$8.50/user/month on the Team plan, billed yearly (no monthly price shown on the pricing page)",
+        "evidence": {
+          "url": "https://www.shortcut.com/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Shortcut Terms of Use · commercial: implied yes (no bar on business use) · attribution: not required · limit: proprietary, all rights reserved, no copying/reverse-engineering/redistribution",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.shortcut.com/terms",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "shortcut",
+        "type": "Software",
+        "category": "Productivity",
+        "title": "Shortcut — Project Management for Software Teams",
+        "description": "Issue tracking, sprints, and roadmap planning for software teams, with Kanban boards and GitHub, Slack, and Figma integrations.",
+        "tags": [
+          "project-management",
+          "collaboration",
+          "productivity",
+          "roadmaps"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Kanban boards and customizable workflows",
+          "Sprints/iterations and backlog management",
+          "Roadmap planning and basic reporting",
+          "GitHub, GitLab, Slack, and Figma integrations",
+          "Free plan for teams up to 10 users",
+          "AI agent coordination alongside human team members"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "shortcut",
+          "fillColor": "#494BCB",
+          "bgColor": null,
+          "source": "scripts/check-icon.mjs exact match, 2026-10-24"
+        }
+      },
+      "unverified": [
+        "Whether the vendor markets itself as \"formerly Clubhouse\" could not be confirmed on the pages fetched (home, pricing, terms); this is widely reported third-party but not re-verified first-party here.",
+        "No monthly (non-yearly) price was shown for the Team plan on the pricing page."
+      ]
+    },
+    "shortcuts-design": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": "Alive, HTTPS, fully free reference tool for designers, no restriction on linking/listing found (no terms page exists at all), not a duplicate of anything in RL.",
+      "site": {
+        "name": "Shortcuts.design",
+        "url": "https://shortcuts.design",
+        "alive": true,
+        "operator": "Michel van Heest (independent creator)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire site (searchable keyboard-shortcut database for design/dev/productivity/3D apps) is free to use; no account or signup required. Donation-supported via a \"Buy me a coffee\" PayPal link and an optional sponsor banner.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://shortcuts.design",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No terms or license page exists on the site · commercial: not addressed · attribution: not addressed · limit: none stated",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://shortcuts.design",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "shortcuts-design",
+        "type": "Resource",
+        "category": "Design",
+        "title": "Shortcuts.design — Keyboard Shortcuts for Designers",
+        "description": "Searchable database of keyboard shortcuts for design, development, productivity, and 3D tools, with community-submitted entries.",
+        "tags": [
+          "ui-ux",
+          "productivity",
+          "inspiration"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Searchable shortcut lookup across many apps (e.g. Figma, Photoshop)",
+          "Covers design, development, productivity, and 3D software",
+          "Community-contributed via a public GitHub data repo",
+          "No account or signup required",
+          "Free to use, donation-supported"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "scripts/check-icon.mjs: no exact Simple Icons match (fuzzy hits only: shortcut, c, d, ign, r, rte); site SVG not independently verified/sanitized in this pass"
+        }
+      },
+      "unverified": [
+        "No privacy-statement or terms content was actually read (link exists at /privacy-statement but its text was not fetched/confirmed).",
+        "Whether the site has any uptime/longevity track record beyond what's visible today is unknown."
+      ]
+    },
+    "shortpixel": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": "Resolved via web search to shortpixel.com (image/PDF compression service, operator ID Scout SRL) as given in the task hint — alive, HTTPS, confirmed real recurring free tier, no scam/malware/shutdown signal found.",
+      "site": {
+        "name": "ShortPixel",
+        "url": "https://shortpixel.com",
+        "alive": true,
+        "operator": "ID Scout SRL"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "100 free image-optimization credits per month on signup, recurring monthly (not a one-time trial). Exact credits-to-image ratio and any file-size/API limits were not stated on the pages read.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://shortpixel.com/free-sign-up",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "ShortPixel Terms of Service · commercial: restricted in places (reselling/scraping prohibited; the \"Unlimited\" plan is personal-use only, per clause 11.3.2) · attribution: not required · limit: no commercial use of the site's own content/trademarks without written consent",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://shortpixel.com/tos",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "shortpixel",
+        "type": "Tool",
+        "category": "Development",
+        "title": "ShortPixel — Image & PDF Compression Service",
+        "description": "Cloud service that compresses images and PDFs and converts them to WebP/AVIF, available as a WordPress plugin, API, or online compressor.",
+        "tags": [
+          "automation",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Lossy and lossless compression for JPG, PNG, GIF, WebP, AVIF, and PDF",
+          "Automatic conversion to next-gen WebP/AVIF formats",
+          "Cloud-based processing, so hosting resources aren't used",
+          "WordPress plugin with bulk optimization and gallery/WooCommerce support",
+          "API and standalone online compressor for non-WordPress sites",
+          "Recurring free monthly credit allowance"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "scripts/check-icon.mjs: no exact Simple Icons match (fuzzy hits only: e, pi, pix, r, rte, x); site SVG not independently verified/sanitized in this pass"
+        }
+      },
+      "unverified": [
+        "Exact lowest paid price and billing period were not shown on the /pricing page content fetched (it referenced 'Unlimited monthly subscription or one-time payment' and a yearly '2 months free' deal without listing dollar amounts).",
+        "Exact credits-per-image ratio for the free tier was not stated on the pages read.",
+        "Canonical URL (shortpixel.com vs shortpixel.ai) not fully disambiguated; shortpixel.com was used as primary per its own branding/footer trademark notice."
+      ]
+    },
+    "shotcut": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Shotcut",
+        "url": "https://shotcut.org",
+        "alive": true,
+        "operator": "Meltytech, LLC"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Fully free, open-source, cross-platform (Windows/Mac/Linux) video editor with no paid tier, no account, and no feature paywall.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://shotcut.org",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "GPLv3 · commercial: yes · attribution: not required for output video (source redistribution follows GPLv3) · limit: redistributing modified Shotcut source must stay GPLv3",
+        "openSource": true,
+        "spdx": "GPL-3.0",
+        "evidence": {
+          "url": "https://github.com/mltframework/shotcut/blob/master/COPYING",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "shotcut",
+        "type": "Software",
+        "category": "Filming",
+        "title": "Shotcut — free, open-source video editor",
+        "description": "Cross-platform, open-source video editor with timeline editing, filters, and wide format support, free for Windows, Mac and Linux.",
+        "tags": [
+          "open-source",
+          "windows",
+          "mac",
+          "linux"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Multi-track timeline editing with trim, cut and transitions",
+          "Wide native format and codec support without transcoding",
+          "Built-in video and audio filters (color grading, scopes, audio EQ)",
+          "Runs natively on Windows, macOS and Linux",
+          "Fully free and open source under GPLv3 with no account or paywall"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact Simple Icons match (check-icon.mjs exit 1, closest matches 'c'/'cplusplus' are not usable); no official SVG logo fetched to avoid inventing an asset path. Owner should supply the Shotcut logo SVG if an icon is desired."
+        }
+      },
+      "unverified": [
+        "Icon/logo asset not sourced — check-icon.mjs found no usable Simple Icons match; route left as none pending owner-supplied SVG.",
+        "GPLv3 vs GPLv3-only vs GPLv3-or-later wording differs across third-party package listings; official COPYING file confirms GPLv3 text but doesn't disambiguate 'only' vs 'or later'."
+      ]
+    },
+    "shots": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Shots",
+        "url": "https://shots.so",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free mockup/screenshot editor usable without a paid plan: device frames (iPhone, Android, iPad, desktop), backgrounds, templates and PNG export; second-hand sources describe PNG export at 1x/2x with no watermark and limited video export on the free tier.",
+        "paidFrom": "Second-hand sources cite a 'Plus' plan around $10/month (or ~$95/year) unlocking 4K image export and 720p video — could not confirm this directly on shots.so (no /pricing or /plans page found; pricing appears to live inside the in-app editor, which was not reachable via static fetch).",
+        "evidence": {
+          "url": "https://shots.so",
+          "date": "2026-10-24",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS ToS · commercial: not addressed/restricted beyond normal use · attribution: not required · limit: ToS prohibits scraping, bulk-downloading or commercial exploitation of Shots' own data (not of user output), and bars reverse-engineering the service",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://shots.so/terms",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "shots",
+        "type": "Website",
+        "category": "Design",
+        "title": "Shots — mockup and social content generator",
+        "description": "Browser tool for turning screenshots into device mockups, animated frames and social-ready images with templates, backgrounds and effects.",
+        "tags": [
+          "graphic-design",
+          "social-media-design",
+          "design-templates",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Device mockup frames for iPhone, Android, iPad and desktop",
+          "Animated mockups and video zoom/animation presets",
+          "Pre-made templates and layouts for social content",
+          "Magic backgrounds, 3D shapes, shadow overlays and filters (noise, VHS, glitch)",
+          "Exports to social frame presets, custom sizes and shareable links"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact Simple Icons match (check-icon.mjs exit 2); no official SVG logo fetched to avoid inventing an asset path. Owner should supply the Shots logo SVG if an icon is desired."
+        }
+      },
+      "unverified": [
+        "Exact paid price and billing period not confirmed first-party — site has no reachable /pricing or /plans page (both 404); figure ($10/mo or ~$95/yr, 4K export) is second-hand from a Spanish-language blog and conflicts with an older review citing $4-5/month.",
+        "Company/operator behind Shots not identified beyond the @ShotsAppHQ social handle.",
+        "Icon/logo asset not sourced — left as none pending owner-supplied SVG.",
+        "Could not fully confirm free tier is permanent (vs. generous trial) since in-app billing UI wasn't reachable via static page fetch; inference is based on marketing copy plus second-hand reviews describing a standing free plan."
+      ]
+    },
+    "shots-so": {
+      "researchedOn": "2026-10-24",
+      "verdict": "skip",
+      "verdictReason": "Duplicate: all research (home page content, third-party reviews/comparisons, and backlog context) points to 'Shots.so' being the exact same product as 'Shots' at https://shots.so, not a distinct tool. No second product genuinely branded 'Shots.so' with a different site was found; the only other similarly-named product found (a Chinese App Store listing for 'Shots'/'CraftShot', id6741420590, for iOS/iPadOS/macOS) is a separate, differently-branded app and not evidence of a distinct 'Shots.so' product either. Rejecting this entry as a duplicate rather than listing it a second time under id shots-so.",
+      "site": {
+        "name": "Shots.so",
+        "url": null,
+        "alive": null,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": null,
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": null,
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "No site URL was given for this id and no distinct product called 'Shots.so' separate from https://shots.so (the 'Shots' entry researched above) could be found.",
+        "Third-party review/comparison sites (bitdoze.com, toolradar.com, screenhance.com) all refer to 'Shots.so' as the exact same tool at shots.so — same mockup/device-frame feature set, same templates — reinforcing this is one product with a stylistic name variant, not two.",
+        "If the owner has a specific different source (e.g. a distinct app store listing or domain) in mind for 'shots-so', this verdict should be revisited with that URL."
+      ]
+    },
+    "shotstash": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "ShotStash",
+        "url": "https://shotstash.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire photo library, mobile wallpapers, mockups and presets are free to browse and download; no account, paywall or paid tier is mentioned anywhere on the site.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://shotstash.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "ShotStash photo license · commercial: yes · attribution: not required (encouraged) · can't claim authorship, no pornographic/unlawful use, no endorsement implication, some images may lack model releases",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://shotstash.com/license/",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "shotstash",
+        "type": "Stock Media",
+        "category": "Photography",
+        "title": "ShotStash — Free HD Stock Photos",
+        "description": "A free library of HD stock photos sorted by category and collection, plus mobile wallpapers and freebies for photographers. No account or attribution required.",
+        "tags": [
+          "stock-photos",
+          "stock"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Browsable categories (Business, Nature, People, Technology) and themed collections (Art, City, Food, Travel)",
+          "Free HD mobile wallpapers",
+          "Photographer freebies: mockups, presets and other resources",
+          "Free for personal and commercial use, attribution not required",
+          "No account or sign-up needed to download"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact Simple Icons match for ShotStash"
+        }
+      },
+      "unverified": [
+        "No legal entity/operator name found on the about page",
+        "No explicit launch/founding verification beyond the site's own '2016' claim"
+      ]
+    },
+    "shoutout-io": {
+      "researchedOn": "2026-10-24",
+      "verdict": "blocked",
+      "verdictReason": "shoutout.io renders as a client-side JS app; fetched content returned only the page title ('Shoutout - Testimonials Software That Drives Sales') with no navigable pricing/terms/feature text reachable, and there is a second-hand, unconfirmed report that the original 'Shoutout' testimonials startup was acquired by Rocket Gems in 2022 — not enough to confirm this is still the live, independently-operated site to list.",
+      "site": {
+        "name": "Shoutout",
+        "url": "https://shoutout.io",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://shoutout.io",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://shoutout.io",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "Could not confirm whether shoutout.io is the same company as the 'Shoutout' startup reportedly acquired by Rocket Gems in 2022 (indiehackers.com post, second-hand)",
+        "Third-party sources (TrustRadius, AlternativeTo) conflict on pricing model (one-time fee vs. $15-50/mo subscription with limited free tier) — not confirmed first-party",
+        "Page content behind client-side rendering; pricing/terms pages not reachable via fetch (shoutout.io/pricing returned 404)",
+        "Multiple unrelated companies share the 'Shoutout'/'ShoutOut' name (SMS platform, Berlin celebrity-video company, Shopify affiliate app), raising identification risk"
+      ]
+    },
+    "shrtcts": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "SHRTCTS",
+        "url": "https://shrtcts.click",
+        "alive": true,
+        "operator": "Draniki (digital experiences studio)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "The interactive keyboard shortcut reference (browse tools, see shortcuts light up on a 3D keyboard, filter by keys) is free to use with no account; no paywall or plan is shown on the site.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://shrtcts.click",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No terms/license page found (shrtcts.click/terms returns 404) · commercial use: unknown · attribution: unknown · the only paid item is an unrelated screen-saver sold separately on Gumroad",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://shrtcts.click/changelog",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "shrtcts",
+        "type": "Website",
+        "category": "Productivity",
+        "title": "SHRTCTS — Interactive Keyboard Shortcut Reference",
+        "description": "An interactive 3D keyboard that lights up shortcuts for apps like Figma, Photoshop, Premiere Pro, VS Code and Notion, with filtering by the keys you press.",
+        "tags": [
+          "productivity",
+          "mac",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "3D on-screen keyboard that highlights the keys for a chosen shortcut",
+          "Shortcut libraries for design, video, code and productivity apps (Figma, Photoshop, Premiere Pro, Cursor, VS Code, Xcode, Notion, Slack, Linear)",
+          "Filter shortcuts by pressing the actual keys",
+          "Sidebar browser to switch between tools",
+          "Currently macOS-only shortcut sets (v0.0.1); some tools marked 'coming soon'"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact Simple Icons match for SHRTCTS"
+        }
+      },
+      "unverified": [
+        "No terms/license/legal page found on the site (terms URL returns 404); commercial-use/listing restrictions unknown",
+        "Coverage is macOS-only at v0.0.1; Windows/Linux shortcut support not confirmed",
+        "Operator attribution (Draniki) inferred from a footer link on the changelog page, not an explicit 'built by' statement"
+      ]
+    },
+    "shutout": {
+      "researchedOn": "2026-10-24",
+      "verdict": "skip",
+      "verdictReason": "Resolved first-party site (shutout.app); paid-only app with no permanent free tier (Screen Time itself is free but the product's core feature is gated behind $4.99/mo, $29.99/yr, or $39.99 lifetime).",
+      "site": {
+        "name": "Shutout",
+        "url": "https://www.shutout.app/",
+        "alive": true,
+        "operator": "Aditya Saravana"
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "$4.99/month (also $29.99/year or $39.99 lifetime)",
+        "evidence": {
+          "url": "https://www.shutout.app/",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No terms of service, license, or privacy policy page found on the site · commercial: unknown · attribution: unknown · proprietary iOS/iPadOS app",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.shutout.app/",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "unverified": [
+        "No terms/privacy/license page found on the site to check for listing or commercial-use restrictions.",
+        "Pricing corroborated second-hand (TrustMRR, dated listing circa Jan 2026) as $4.99/mo, $14.99/yr, $19.99 lifetime — differs slightly from the first-party page read today ($4.99/mo, $29.99/yr, $39.99 lifetime), suggesting prices have changed over time; used the first-party figures above.",
+        "No malware/scam reports found in a safety search; G2 seller listing exists but returned 403 and was not read directly."
+      ]
+    },
+    "shutter-encoder": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Shutter Encoder",
+        "url": "https://www.shutterencoder.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire app is free with no feature limits or ads, for Windows, macOS and Linux; project is donation-supported (PayPal, Patreon, Stripe, Buy Me a Coffee, crypto).",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.shutterencoder.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Described on-site as \"open source software without any restriction\" with a linked GitHub repo, but no SPDX license name is stated · commercial: not restricted per site wording · attribution: not stated · limit: no formal license text found to confirm terms",
+        "openSource": true,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.shutterencoder.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "shutter-encoder",
+        "type": "Software",
+        "category": "Filming",
+        "title": "Shutter Encoder",
+        "description": "Free, FFmpeg-based desktop converter for video, audio and images, built by video editors for quick format and codec conversions.",
+        "tags": [
+          "open-source",
+          "windows",
+          "mac",
+          "linux"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Converts video, audio and image files using FFmpeg under the hood",
+          "Runs on Windows 7-11, macOS 10.14+ (Intel and Apple Silicon), and major Linux distros (deb/AppImage/Flatpak)",
+          "No feature limits, watermarks or ads in the free build",
+          "Companion plugins available: Shutter Transcriber and Shutter Anonymizer",
+          "Actively maintained with source available on GitHub",
+          "Supports batch processing of media files for format/codec conversion"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no exact or close Simple Icons match for 'Shutter Encoder'; no SVG was downloaded per untrusted-content/no-download rules, so left as none pending owner-supplied asset."
+        }
+      },
+      "unverified": [
+        "No formal SPDX license text found on-site, only descriptive 'open source without any restriction' wording.",
+        "One second-hand forum report (Elevenforum) of a user seeing browser pop-ups after download, which the thread itself attributes to unrelated browser adware, not the installer; not corroborated elsewhere."
+      ]
+    },
+    "sidebar": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Sidebar",
+        "url": "https://sidebar.io",
+        "alive": true,
+        "operator": "Fabricio Teixeira / UX Collective (originally created by Sacha Greif)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Fully free to read; five curated design links delivered every weekday via site/newsletter, no paywall or account required.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://sidebar.io/about",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Site code is open-source on GitHub (SachaG/SidebarVulcan); no license name stated for the curated content itself · commercial: not addressed · attribution: not stated · limit: Terms/Privacy pages linked but contents not reviewed",
+        "openSource": true,
+        "spdx": null,
+        "evidence": {
+          "url": "https://sidebar.io/about",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "sidebar",
+        "type": "Website",
+        "category": "Design",
+        "title": "Sidebar",
+        "description": "Daily curated list of the five best design links, picked and published every weekday by the UX Collective team.",
+        "tags": [
+          "inspiration",
+          "ui-ux",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Five hand-picked design links published every weekday",
+          "Curated by Fabricio Teixeira of UX Collective (site originally founded by Sacha Greif in 2012)",
+          "Free to browse, no account or paywall",
+          "Open submission process for new design content, with published guidelines on what qualifies",
+          "Open-source site codebase available on GitHub",
+          "Archive of links dating back to October 2012"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no exact or close Simple Icons match for 'Sidebar'; no SVG was downloaded per untrusted-content/no-download rules, so left as none pending owner-supplied asset."
+        }
+      },
+      "unverified": [
+        "Terms and Privacy Policy pages are linked from the site but their contents were not read.",
+        "Site paused mid-2024 under original creator Sacha Greif and relaunched January 2025 under Fabricio Teixeira/UX Collective (per third-party UX Collective/Brad Frost posts); current continuity confirmed only up to a May 2026 third-party roundup, not an official statement dated today."
+      ]
+    },
+    "siiimple": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Siiimple",
+        "url": "https://siiimple.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire gallery is free to browse; site submissions are reviewed and published with a full-page screenshot at no charge.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://siiimple.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Siiimple · commercial: n/a (curated gallery, not licensed software) · attribution: not required · no terms/license page found",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://siiimple.com/submit",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "siiimple",
+        "type": "Website",
+        "category": "Design",
+        "title": "Siiimple",
+        "description": "Browse 1,100+ hand-picked minimalist websites sorted into 50+ categories for layout and style inspiration.",
+        "tags": [
+          "inspiration",
+          "web",
+          "visual-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Curated gallery of minimalist website designs",
+          "Over 50 categories to browse by style or industry",
+          "Each entry has a details page with a full-page screenshot and a visit link",
+          "Open site submission form for designers to get their own site featured",
+          "No account required to browse"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no exact Simple Icons match (check-icon.mjs fuzzy only); no verified logo asset path read from the page"
+        }
+      },
+      "unverified": [
+        "No canonical tag or operator/company name was visible on the homepage; operator left null.",
+        "No terms/license page exists (siiimple.com/terms returns 404), so listing restrictions are unknown beyond the submission eligibility rules on /submit.",
+        "Icon not set because no exact Simple Icons match and no logo asset URL was verified; route left as none pending a manual icon decision."
+      ]
+    },
+    "sim-daltonism": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Sim Daltonism",
+        "url": "https://apps.apple.com/ca/app/sim-daltonism/id693112260",
+        "alive": true,
+        "operator": "Michel Fortin"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Full app is free on the Mac App Store with no in-app purchases listed.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://apps.apple.com/ca/app/sim-daltonism/id693112260",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Sim Daltonism · commercial: mixed (app code Apache-2.0; the color-blindness-simulation algorithm carries an older non-commercial clause the author says he still relies on) · attribution: required for the algorithm · listing/linking to the App Store page carries no restriction",
+        "openSource": true,
+        "spdx": "Apache-2.0",
+        "evidence": {
+          "url": "https://github.com/michelf/Sim-Daltonism",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "sim-daltonism",
+        "type": "App",
+        "category": "Design",
+        "title": "Sim Daltonism",
+        "description": "Free Mac app that overlays a live color-blindness simulation filter on top of any other app's window.",
+        "tags": [
+          "mac",
+          "ios",
+          "open-source",
+          "ui-ux"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Floating filter window simulates several types of color blindness in real time",
+          "Overlays on top of any other application, not just its own window",
+          "Also available as a separate iOS app from the same developer",
+          "Open source (Apache License 2.0) on GitHub",
+          "Collects no user data per the App Store privacy label"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no exact Simple Icons match (check-icon.mjs fuzzy only); no verified logo asset path read from the App Store listing"
+        }
+      },
+      "unverified": [
+        "Whether the app's own website (if any exists outside the App Store) has a separate terms page was not checked; only the App Store listing and GitHub repo were read.",
+        "The exact legal status of the color-blind-simulation algorithm's license is ambiguous per the author's own README notes; noted in the license line rather than resolved.",
+        "Icon not set because no exact Simple Icons match and no logo asset URL was verified; route left as none pending a manual icon decision."
+      ]
+    },
+    "sin-waver": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Sin Waver",
+        "url": "https://www.sinwaver.com",
+        "alive": true,
+        "operator": "Hugo Duprez"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "The sine-wave SVG generator tool itself (amplitude/length/phase/stroke sliders plus export) is fully free to use, with no account or payment required.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.sinwaver.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Sin Waver · commercial: yes (no restriction stated) · attribution: not required · no terms/license page exists for the tool",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.sinwaver.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "sin-waver",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Sin Waver",
+        "description": "Free online generator that lets you shape a sine-wave SVG with amplitude, length, phase and stroke sliders, then export it.",
+        "tags": [
+          "visual-design",
+          "web",
+          "graphic-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Interactive sliders for amplitude, wave length, phase/start offset and stroke width",
+          "Live SVG preview updates as sliders move",
+          "One-click export of the generated wave as SVG",
+          "No sign-up required",
+          "Made by designer Hugo Duprez as a free side tool"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no exact Simple Icons match (check-icon.mjs fuzzy only); no verified logo asset path read from the page"
+        }
+      },
+      "unverified": [
+        "No dedicated terms/license page was found for the sine-wave generator; the page also promotes an unrelated $250 paid design-audit service by the same author, which is not part of this tool and was excluded from the pricing verdict.",
+        "No canonical URL tag was found; the given www.sinwaver.com URL was used as-is.",
+        "Icon not set because no exact Simple Icons match and no logo asset URL was verified; route left as none pending a manual icon decision."
+      ]
     }
   }
 }

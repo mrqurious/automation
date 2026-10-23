@@ -45726,8 +45726,8 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Resolved to seobotai.com (AI SEO content agent by SEO Bot AI / John Rush & Vitalik May); paid-only, subscriptions start at $49/mo with no permanent free tier, only a satisfaction refund on the first plan.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -45752,7 +45752,7 @@
           "file": "Learn UI_UX Design_ Courses, Guides & Best Practices.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -45806,8 +45806,8 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Resolved to setapp.com (MacPaw's Mac/iOS app subscription bundle); no permanent free tier, only a 7-day free trial, lowest paid plan $14.99/month.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -45832,7 +45832,7 @@
           "file": "Best Free Open Source Icon Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -45860,7 +45860,7 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -45886,7 +45886,7 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -45912,8 +45912,8 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Home page (www.shadergradient.co, redirects to shadergradient.co) is a Framer-built site that ships with no server-rendered body content — only <title>/meta tags and client-side JS module loaders are present in the raw HTML; confirmed via two WebFetch attempts and a raw curl fetch, no pricing/license/nav text recoverable without executing JS.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
@@ -45938,7 +45938,7 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -45964,7 +45964,7 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -45990,7 +45990,7 @@
           "file": "Best Design Blogs & Magazines for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -46016,8 +46016,8 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "shape.so (including /pricing) is a client-rendered Gatsby/React SPA that serves only a logo and the text \"Shape 2\" in its static HTML body — all real content, including pricing and feature details, requires JavaScript execution that is not available here, so pricing/license/feature facts could not be first-party verified.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -46042,8 +46042,8 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "shapedivider.app is a Vue SPA whose static HTML contains only meta tags and an empty #app mount point — no pricing, free-tier, or terms content is server-rendered, and the /faq path returned HTTP 404. Could not first-party verify pricing or license without executing JavaScript.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
@@ -46068,7 +46068,7 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -46094,7 +46094,7 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -46146,7 +46146,7 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -46172,7 +46172,7 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -46198,7 +46198,7 @@
           "file": "Best Free Font Libraries and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -46224,8 +46224,8 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Pricing page lists only paid tiers (Pro $108/yr, Pro Max $228/yr, Pro Lifetime); no free tier/column shown, and the page's own FAQ question 'Can I use Morflax Studio for free?' has no answer visible in fetched content, so a real permanent free tier could not be confirmed first-party.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -46276,7 +46276,7 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -46304,8 +46304,8 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Paid-only Next.js boilerplate generator (one-time license fees of $249/$379, no free tier) — fails the real-permanent-free-tier requirement for listing.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -46391,7 +46391,7 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -46417,8 +46417,8 @@
           "file": "Best Design Blogs & Magazines for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "researched",
+      "notes": "Resolved \"Shortcut\" to shortcut.com, the project-management SaaS (formerly Clubhouse); the given Figma-blog URL did not identify a product, and a Figma Community plugin literally named \"Shortcuts\" was a weaker match for the singular id/brand \"Shortcut\" than the SaaS the task's own hint named — alive, HTTPS, real permanent free tier, no listing restriction found.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
@@ -46443,8 +46443,8 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "researched",
+      "notes": "Alive, HTTPS, fully free reference tool for designers, no restriction on linking/listing found (no terms page exists at all), not a duplicate of anything in RL.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
@@ -46506,8 +46506,8 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "researched",
+      "notes": "Resolved via web search to shortpixel.com (image/PDF compression service, operator ID Scout SRL) as given in the task hint — alive, HTTPS, confirmed real recurring free tier, no scam/malware/shutdown signal found.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -46558,7 +46558,7 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -46584,7 +46584,7 @@
           "file": "Best Mockup Sites for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -46612,8 +46612,8 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Duplicate: all research (home page content, third-party reviews/comparisons, and backlog context) points to 'Shots.so' being the exact same product as 'Shots' at https://shots.so, not a distinct tool. No second product genuinely branded 'Shots.so' with a different site was found; the only other similarly-named product found (a Chinese App Store listing for 'Shots'/'CraftShot', id6741420590, for iOS/iPadOS/macOS) is a separate, differently-branded app and not evidence of a distinct 'Shots.so' product either. Rejecting this entry as a duplicate rather than listing it a second time under id shots-so.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -46638,7 +46638,7 @@
           "file": "Free Stock Images & Video Websites _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -46666,8 +46666,8 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "shoutout.io renders as a client-side JS app; fetched content returned only the page title ('Shoutout - Testimonials Software That Drives Sales') with no navigable pricing/terms/feature text reachable, and there is a second-hand, unconfirmed report that the original 'Shoutout' testimonials startup was acquired by Rocket Gems in 2022 — not enough to confirm this is still the live, independently-operated site to list.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -46692,7 +46692,7 @@
           "file": "Learn UI_UX Design_ Courses, Guides & Best Practices.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -46746,8 +46746,8 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Resolved first-party site (shutout.app); paid-only app with no permanent free tier (Screen Time itself is free but the product's core feature is gated behind $4.99/mo, $29.99/yr, or $39.99 lifetime).",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -46772,7 +46772,7 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -46824,7 +46824,7 @@
           "file": "Best Design Blogs & Magazines for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -46850,7 +46850,7 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -46876,7 +46876,7 @@
           "file": "Best Color Tools and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -46928,7 +46928,7 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
