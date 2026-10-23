@@ -45434,8 +45434,8 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Could not resolve an official SecureVibing homepage. Web search returns only a third-party comparison page (vibe-eval.com/alternatives/securevibing/) describing it as a Supabase-focused AI-app security scanner, but no first-party domain was found. Direct guesses (securevibing.com, www.securevibing.com, securevibing.io) returned 404/DNS failure. Search results are dominated by similarly-named but distinct tools (SecureVibes by Anshuman Bhartiya, SecureVibe IDE extension, SecureMyVibes, SecVibe/SecuVibe) which must not be conflated with SecureVibing.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -45486,8 +45486,8 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "researched",
+      "notes": "Free web-design-inspiration gallery, no paywall/login/account system found, no terms or listing restrictions found (no terms/license page exists), not a duplicate in RL.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
@@ -45514,8 +45514,8 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "No permanent free tier — only a time/usage-limited free trial (1 meeting hour/month, 2 months history, capped credits); cheapest paid plan is $10/mo billed annually ($17/mo monthly). Fails RL's real-free-tier bar.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -45540,8 +45540,8 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "researched",
+      "notes": "Real permanent free tier (12 works, all themes, custom domain, HTTPS, contact form, PDF sharing) explicitly stated as not a trial; no RL duplicate found; no listing restriction in terms; no safety concerns in web search.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -45592,8 +45592,8 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "researched",
+      "notes": "Real permanent free plan (no credit card, no time limit, 1 demo project + 10 reports/day), live HTTPS site, not a duplicate in RL, terms don't ban factual directory listings.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -45644,8 +45644,8 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "researched",
+      "notes": "Real permanent free tier (10 exports, no credit card, not a time-limited trial), no listing restriction found, not a duplicate in RL.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -45672,8 +45672,8 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "researched",
+      "notes": "Live first-party site resolved at seogets.com, genuine permanent free tier ('Free sites are always free. No credit card needed'), no listing/trademark ban beyond standard logo-use permission, no duplicate in RL, no safety red flags found.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -45698,8 +45698,8 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "researched",
+      "notes": "Real permanent free tier (\"Free forever\", no card required, no trial expiry) with usable limits; terms contain no directory-listing ban; not a duplicate in RL.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",

@@ -94970,6 +94970,475 @@
         "Could not confirm what searchsystem.co actually is or does — home page returned 403 Forbidden on two attempts, no body retrieved.",
         "Safety web search for 'SearchSystem' (name only, not the .co domain) surfaced multiple security-vendor pages (pcrisk.com, malwaretips.com) describing a product called 'SearchSystem' as Mac/browser adware and a browser hijacker distributed via bogus Adobe Flash updaters, with ads leading to adult sites and unwanted software. This could NOT be confirmed as the same product as searchsystem.co since the site itself could not be read — flagging as a serious caution for whoever follows up, but not used to set the verdict (verdict is blocked on inability to read the site, independent of this finding)."
       ]
+    },
+    "securevibing": {
+      "researchedOn": "2026-10-24",
+      "verdict": "blocked",
+      "verdictReason": "Could not resolve an official SecureVibing homepage. Web search returns only a third-party comparison page (vibe-eval.com/alternatives/securevibing/) describing it as a Supabase-focused AI-app security scanner, but no first-party domain was found. Direct guesses (securevibing.com, www.securevibing.com, securevibing.io) returned 404/DNS failure. Search results are dominated by similarly-named but distinct tools (SecureVibes by Anshuman Bhartiya, SecureVibe IDE extension, SecureMyVibes, SecVibe/SecuVibe) which must not be conflated with SecureVibing.",
+      "site": {
+        "name": "SecureVibing",
+        "url": null,
+        "alive": null,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://vibe-eval.com/alternatives/securevibing/",
+          "date": "2026-10-24",
+          "confidence": "second-hand, unresolved - competitor comparison page only, no first-party pricing page found"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": null,
+          "date": "2026-10-24",
+          "confidence": "unverified"
+        }
+      },
+      "unverified": [
+        "No official SecureVibing domain could be located via web search; direct guesses at securevibing.com / www.securevibing.com (404) and securevibing.io (DNS not found) failed.",
+        "Only source found is a third-party competitor comparison (vibe-eval.com/alternatives/securevibing/) claiming SecureVibing offers Supabase RLS policy testing, SupabaseDeepScan, periodic automated scans, and subdomain discovery, but lacks code-level analysis, dependency scanning, and IDOR/authorization testing - unverified, second-hand, and marketing from a competitor.",
+        "Pricing described only as 'varies by scan frequency (daily/weekly/monthly)' with no dollar amounts, free tier unknown.",
+        "Must not be confused with similarly-named distinct tools found in search: SecureVibes (open-source Python scanner by Anshuman Bhartiya, PyPI), SecureVibe (free IDE extension), SecureMyVibes (free no-signup URL scanner), SecVibe/SecuVibe.",
+        "Safety search for 'SecureVibing scam OR malware OR shutting down OR acquired' not meaningfully run because no confirmed official entity/site exists to search against."
+      ]
+    },
+    "seesaw": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": "Free web-design-inspiration gallery, no paywall/login/account system found, no terms or listing restrictions found (no terms/license page exists), not a duplicate in RL.",
+      "site": {
+        "name": "SEESAW",
+        "url": "https://www.seesaw.website",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire site is free to browse; no account/login system found. Only non-core offers are an email newsletter ('Subscribe for free') and an external 'Sponsor us' Tally form (sponsorship, not a paid product tier).",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.seesaw.website",
+          "date": "2026-10-24",
+          "confidence": "high - no pricing/plans page exists on the site (checked /pricing, returned 404); homepage shows no paid-tier offer"
+        }
+      },
+      "license": {
+        "line": "No terms, privacy, or license page found on the site (checked /terms, returned 404). No listing/commercial-use restriction found anywhere on the homepage.",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.seesaw.website",
+          "date": "2026-10-24",
+          "confidence": "medium - absence of a terms page means no restriction could be verified either way"
+        }
+      },
+      "rl": {
+        "slug": "seesaw",
+        "type": "Website",
+        "category": "Design",
+        "title": "SEESAW - Curated Web Design Inspiration",
+        "description": "SEESAW is a free, hand-picked gallery of standout websites and products, updated daily and organized by category like AI, fintech, and portfolios.",
+        "tags": [
+          "inspiration",
+          "web",
+          "ui-ux",
+          "visual-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Daily-updated, hand-picked showcase of website design examples",
+          "Browsable by category (AI, Design, Fintech, Portfolios, and more)",
+          "Search bar to find featured sites",
+          "Free to browse with no account required",
+          "Public 'Submit' form for site owners to request inclusion"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no exact or usable fuzzy match in Simple Icons (check-icon.mjs exit 1, closest 'e' is not a real match); use site SVG/logo asset instead"
+        }
+      },
+      "unverified": [
+        "Whether 'Subscribe for free' creates an account vs. just an email newsletter signup - not confirmed, no destination link visible on page",
+        "Operator/company behind SEESAW - not stated on site, only contact email hi@seesaw.website and X handle @seesawsite",
+        "Whether any terms/privacy page exists at a different path than /terms and /privacy - both checked paths returned 404",
+        "Web search for 'SEESAW scam/malware/shutting down/acquired' returned only results about an unrelated namesake, the K-12 education app Seesaw (web.seesaw.me), involving a 2022 account-takeover incident - not applicable to seesaw.website; no negative signal found for the actual site"
+      ]
+    },
+    "sembly-ai": {
+      "researchedOn": "2026-10-24",
+      "verdict": "skip",
+      "verdictReason": "No permanent free tier — only a time/usage-limited free trial (1 meeting hour/month, 2 months history, capped credits); cheapest paid plan is $10/mo billed annually ($17/mo monthly). Fails RL's real-free-tier bar.",
+      "site": {
+        "name": "Sembly AI",
+        "url": "https://www.sembly.ai",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": "Free Trial only (not a permanent free plan): 1 meeting hour/user/month, 1 user, 5 clients, 5 brand packages, 750 monthly credits + 1,750 one-time bonus credits, 2 months of meeting/chat history; no webhooks, workspace integrations, or extra credit purchases.",
+        "paidFrom": "$10/month (Basic plan, billed annually; $17/month if billed monthly)",
+        "evidence": {
+          "url": "https://www.sembly.ai/pricing/",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Standard proprietary SaaS Terms of Service; no explicit ban on commercial use, resale, or third-party directory/resource-list listings. Access may be suspended or revoked by Sembly AI at any time with or without cause (Section 2); rights/obligations are non-assignable without written consent (Section 13).",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.sembly.ai/terms-of-service/",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "unverified": [
+        "Exact duration of the free trial window is not stated on the pricing page (only the 1-hour/month usage cap and 2-month history limit are given).",
+        "No canonical <link> tag found on the homepage fetch; canonical URL inferred as https://www.sembly.ai from site navigation and brand links (LinkedIn, X, Reddit, Discord all confirm sembly.ai as the official domain).",
+        "Safety web search ('Sembly AI' scam OR malware OR 'shutting down' OR acquired) returned no results mentioning Sembly AI at all — absence of negative signal, not a positive confirmation of clean reputation."
+      ]
+    },
+    "semirare": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": "Real permanent free tier (12 works, all themes, custom domain, HTTPS, contact form, PDF sharing) explicitly stated as not a trial; no RL duplicate found; no listing restriction in terms; no safety concerns in web search.",
+      "site": {
+        "name": "Semirare",
+        "url": "https://semirare.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Up to 12 works, all 44 themes, a yourname.semirare.com address, a custom domain with HTTPS, a contact form/inbox, PDF sharing, images up to 2600px, and full data export. No password-protected pages. Explicitly stated as a permanent tier, not a trial or demo, no card required.",
+        "paidFrom": "$6/month billed yearly ($72/year), or $8/month billed monthly — adds unlimited works and password-protected pages",
+        "evidence": {
+          "url": "https://semirare.com/pricing",
+          "date": "2026-10-24",
+          "confidence": "high"
+        }
+      },
+      "license": {
+        "line": "Users retain ownership of their content; Semirare receives a non-exclusive, royalty-free license to host/display it while on the platform. No ban on third-party directory listings found; scraping/crawling beyond ordinary search-engine behavior and reselling/cloning the service's code or themes are prohibited.",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://semirare.com/terms",
+          "date": "2026-10-24",
+          "confidence": "high"
+        }
+      },
+      "rl": {
+        "slug": "semirare",
+        "type": "Website",
+        "category": "Photography",
+        "title": "Semirare — Portfolio Websites for Artists & Photographers",
+        "description": "Build a portfolio website from 44 discipline-specific themes, with custom domains, PDF sharing, and auto-generated image sizes. No code needed.",
+        "tags": [
+          "website-builder",
+          "website-templates",
+          "visual-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "44 themes grouped by discipline (grid, gallery, caption layouts)",
+          "Custom domain support with HTTPS on every plan, including Free",
+          "Automatic image resizing up to 2600px on the long edge",
+          "Auto-generated page titles, descriptions, and clean work URLs for SEO",
+          "Build a shareable PDF portfolio, with optional prices for collectors",
+          "Full data export and account closure at any time"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "not in Simple Icons (checked via scripts/check-icon.mjs, 2026-10-24); site SVG not fetched"
+        }
+      },
+      "unverified": [
+        "No third-party corroboration found (web search for scam/malware/shutdown/acquired returned no results mentioning Semirare specifically)",
+        "Operator/company name behind Semirare not stated on fetched pages"
+      ]
+    },
+    "semrush": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": "Real permanent free plan (no credit card, no time limit, 1 demo project + 10 reports/day), live HTTPS site, not a duplicate in RL, terms don't ban factual directory listings.",
+      "site": {
+        "name": "Semrush",
+        "url": "https://www.semrush.com",
+        "alive": true,
+        "operator": "Semrush Inc. / Semrush Holdings (acquired by Adobe, per semrush.com homepage announcement; legal entity per Terms of Service is Semrush Inc., Delaware, Boston MA)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan at $0/mo, no credit card required: 1 demo project, 10 reports/day across all vital tools, Help Center & basic onboarding, limited AI Visibility features.",
+        "paidFrom": "SEO plan from $117.33/mo billed annually (or $139/mo billed monthly)",
+        "evidence": {
+          "url": "https://www.semrush.com/prices/",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS; Terms of Service grant access solely for internal business purposes under a paid/free Subscription Plan, prohibit resale/sublicensing/commercial exploitation, scraping, and using outputs to train AI models.",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.semrush.com/company/legal/terms-of-service/",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "semrush",
+        "type": "Tool",
+        "category": "Marketing",
+        "title": "Semrush - SEO & AI Search Visibility Platform",
+        "description": "All-in-one SEO and marketing platform for keyword research, site audits, competitor analysis, and tracking visibility in both search engines and AI answers.",
+        "tags": [
+          "ai-tool",
+          "automation",
+          "productivity",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Keyword research and SEO keyword tracking",
+          "Site audit and technical SEO checks",
+          "Competitor and traffic analysis",
+          "AI search/visibility tracking across AI answer engines",
+          "Content marketing and on-page SEO tools",
+          "Free plan with 1 demo project and 10 reports/day, no credit card required"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "semrush",
+          "fillColor": "#FF642D",
+          "bgColor": null,
+          "source": "node scripts/check-icon.mjs \"Semrush\" (exact match)"
+        }
+      },
+      "unverified": [
+        "Whether Adobe's acquisition of Semrush is fully legally closed vs. in-progress at time of research (homepage states 'completed' but not independently confirmed via a second primary source such as an Adobe press release)",
+        "Exact scope/limits of AI Visibility features included in the free plan (pricing page did not enumerate limits for that feature on the free tier)"
+      ]
+    },
+    "sendra": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": "Real permanent free tier (10 exports, no credit card, not a time-limited trial), no listing restriction found, not a duplicate in RL.",
+      "site": {
+        "name": "Sendra",
+        "url": "https://www.hellosendra.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan: up to 10 exports total, 100 hosted images, test emails to your inbox, standard support. No credit card required.",
+        "paidFrom": "$29/month (Pro, unlimited exports); annual billing offered (price not listed on page, described as saving two months).",
+        "evidence": {
+          "url": "https://www.hellosendra.com/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.hellosendra.com/terms",
+          "date": "2026-10-24",
+          "confidence": "unverified - terms/legal page returned 404 at guessed URLs, no license text located"
+        }
+      },
+      "rl": {
+        "slug": "sendra",
+        "type": "Plugin",
+        "category": "Design",
+        "title": "Sendra – Figma Plugin for Email HTML Export",
+        "description": "Figma plugin that turns email designs into responsive, email-safe HTML, with cross-client previews and dark mode support, so designers skip hand-coding emails.",
+        "tags": [
+          "design-templates",
+          "visual-design",
+          "prototyping",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Converts Figma email designs directly into responsive, email-safe HTML",
+          "Cross-client compatibility including Gmail, Outlook (older versions), Apple Mail, Yahoo, AOL",
+          "Responsive controls for stacking, spacing, and font size with desktop/mobile preview",
+          "Dark mode overrides per element with light/dark preview",
+          "One-click minified HTML export or full package export with images and fonts",
+          "Exported HTML compatible with Mailchimp, Klaviyo, HubSpot and other ESPs"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Not found in Simple Icons (check-icon.mjs exit 2); no first-party SVG logo extracted"
+        }
+      },
+      "unverified": [
+        "No license/terms page could be located (guessed URLs /terms and /legal/terms both 404) — commercial-use/listing restrictions not confirmed",
+        "Site operator/company name not stated on homepage",
+        "Annual Pro price not listed on pricing page (only 'saves two months' framing)",
+        "Web search for safety concerns (scam/malware/shutting down/acquired) returned no results specific to Sendra/hellosendra — absence of negative signal, not positive confirmation"
+      ]
+    },
+    "seo-gets": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": "Live first-party site resolved at seogets.com, genuine permanent free tier ('Free sites are always free. No credit card needed'), no listing/trademark ban beyond standard logo-use permission, no duplicate in RL, no safety red flags found.",
+      "site": {
+        "name": "SEO Gets",
+        "url": "https://seogets.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free sites are always free, no credit card needed (numeric limits not specified on pricing page); unlimited free sites, users, and Google accounts per team",
+        "paidFrom": "$49/month for first Core site (monthly billing); additional core sites $4/mo each; Super Site add-on $4/mo",
+        "evidence": {
+          "url": "https://seogets.com/pricing",
+          "date": "2026-10-24",
+          "confidence": "high"
+        }
+      },
+      "license": {
+        "line": "Limited, non-exclusive, non-transferable, revocable license for legitimate business use; commercial use (agency/client work) explicitly allowed; resale, redistribution, derivative works and reverse engineering prohibited; trademarks/logos require permission to use",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://seogets.com/terms",
+          "date": "2026-10-24",
+          "confidence": "high"
+        }
+      },
+      "rl": {
+        "slug": "seo-gets",
+        "type": "Tool",
+        "category": "Marketing",
+        "title": "SEO Gets - GSC and GA4 Analytics Tool",
+        "description": "Analytics and reporting tool that unifies Google Search Console and GA4 data, removing GSC's row and history limits for SEO strategists and agencies.",
+        "tags": [
+          "productivity",
+          "automation",
+          "ai-tool",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Up to 50,000 rows of Search Console data vs GSC's 1,000-row cap",
+          "Multi-site master dashboard across properties",
+          "Striking-distance keyword, cannibalization and content-decay analysis",
+          "Index reporting and content change tracking",
+          "MCP server for querying SEO data from Claude or ChatGPT",
+          "Shareable client dashboard links and weekly summary emails"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no match in Simple Icons (closest fuzzy 'e' irrelevant); use site favicon/logo asset directly, not verified here"
+        }
+      },
+      "unverified": [
+        "Exact numeric limits of the free tier (rows/history/sites) not stated on the pricing page text extracted",
+        "Canonical URL/HTTPS not directly confirmed via raw headers, inferred from fetched page content only",
+        "Icon/logo asset not sourced or verified; no Simple Icons match found"
+      ]
+    },
+    "seobility": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": "Real permanent free tier (\"Free forever\", no card required, no trial expiry) with usable limits; terms contain no directory-listing ban; not a duplicate in RL.",
+      "site": {
+        "name": "Seobility",
+        "url": "https://www.seobility.net",
+        "alive": true,
+        "operator": "Seobility GmbH, Willy-Brandt-Platz 16, 90402 Nuremberg, Germany (part of saas.group since a September 2022 acquisition)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan labeled \"Free forever – really!\", 0 EUR, no credit card required: 1 website project, 10 tracked keywords, 5 daily tool credits, a limited Website Audit (100 pages per crawl), and 3 tracked AI prompts",
+        "paidFrom": "Premium plan at 59.90 EUR/month billed monthly, or 575.04 EUR/year billed annually (20% discount), prices exclude VAT; paid plans add a 14-day free trial on top of the separate free plan",
+        "evidence": {
+          "url": "https://www.seobility.net/en/pricing/",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Standard SaaS terms of service, no open-source license · commercial use: service is explicitly aimed at companies/freelancers/agencies · no directory-listing restriction found · account is non-transferable and output use is restricted to the account holder's own purpose",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.seobility.net/en/terms/",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "seobility",
+        "type": "Software",
+        "category": "Marketing",
+        "title": "Seobility — All-in-One SEO Toolkit",
+        "description": "SEO software for website audits, rank tracking, backlink analysis, and keyword research, with a free-forever starter plan and no card required.",
+        "tags": [
+          "productivity",
+          "automation",
+          "ai-tool",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Website audit tool that crawls up to 100 pages on the free plan to surface technical SEO issues",
+          "Keyword rank tracking across search engines, with 10 keywords included free",
+          "Backlink monitoring and competitor backlink analysis",
+          "Keyword research and on-page content optimization tools",
+          "Uptime monitoring and white-label PDF reporting for agencies",
+          "Free plan with no credit card required and no fixed end date; paid Premium tier adds higher limits"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "scripts/check-icon.mjs found no exact or usable fuzzy match (closest: e, lit, ty — all unrelated); owner should supply an iconSvg from the site's own mark"
+        }
+      },
+      "unverified": [
+        "Whether the free plan's \"5 daily tool credits\" and \"3 tracked AI prompts\" limits are per-account or per-project was not fully disambiguated from the pricing page copy",
+        "Could not independently confirm the page was served over HTTPS from fetched content alone (inferred from https:// links on the page and standard practice for a modern SaaS site)",
+        "Saas.group acquisition (Sept 2022) and operator address are corroborated by a secondary source (theygotacquired.com) and the terms page, not an explicit first-party press release found during this pass",
+        "One negative Trustpilot review describes a billing/collection dispute after a trial; treated as a single anecdote, not evidence of a scam pattern"
+      ]
     }
   }
 }
