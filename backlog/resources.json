@@ -84822,6 +84822,2084 @@
       "unverified": [
         "Whether the $16/month Pro price shown applies to monthly or annual billing specifically."
       ]
+    },
+    "penpot": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Penpot",
+        "url": "https://penpot.app",
+        "alive": true,
+        "operator": "Kaleidos (Penpot team)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "\"Professional\" plan is $0/user/month, described by Penpot as fully featured with no feature limits; unlimited team size shown on the comparison table",
+        "paidFrom": "$7 per editor/month (Unlimited plan, capped at $175/month); also Enterprise ($25/member/month) and a $50k/year Private Server tier",
+        "evidence": {
+          "url": "https://penpot.app/pricing",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Mozilla Public License 2.0 for open-source modules · commercial: yes · attribution: not required beyond preserving license notices · limit: some enterprise/proprietary modules are not open source",
+        "openSource": true,
+        "spdx": "MPL-2.0",
+        "evidence": {
+          "url": "https://penpot.app/terms",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "penpot",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Penpot — Open-Source Design & Prototyping Tool",
+        "description": "Open-source, browser-based design and prototyping tool for UI/UX and design systems, with a fully-featured free plan and real-time team collaboration.",
+        "tags": [
+          "ui-ux",
+          "prototyping",
+          "design-systems",
+          "collaboration",
+          "open-source",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Free \"Professional\" plan with no feature limits, per Penpot's own pricing page",
+          "Real-time multiplayer design and commenting",
+          "Built on open web standards (SVG) rather than a proprietary file format",
+          "Self-hostable, with core modules under the open-source MPL 2.0 license",
+          "Reusable component libraries and design-system tooling",
+          "Plugin system and public API for extending workflows"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "penpot",
+          "fillColor": "#000000",
+          "bgColor": null,
+          "source": "scripts/check-icon.mjs exact match"
+        }
+      },
+      "unverified": [
+        "Pricing page's comparison table lists storage/team-size/version-history limits without clearly mapping each number to a specific plan name",
+        "Icon bgColor not chosen"
+      ]
+    },
+    "people-ai-guidebook": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "People + AI Guidebook (PAIR Guidebook)",
+        "url": "https://pair.withgoogle.com/guidebook/",
+        "alive": true,
+        "operator": "Google (People + AI Research / PAIR team)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire guidebook — six deep-dive chapters, worksheets, design patterns and case studies — is free to read and download; no account or payment found",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://pair.withgoogle.com/guidebook-v2/",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 (CC BY-NC-SA 4.0) · commercial: no · attribution: required · limit: non-commercial use only, derivative works must be shared under the same license",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://pair.withgoogle.com/guidebook-v2/",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "people-ai-guidebook",
+        "type": "Resource",
+        "category": "Design",
+        "title": "People + AI Guidebook — Human-Centered AI Design Methods",
+        "description": "Google PAIR's free guidebook of methods, worksheets and case studies for designing AI products around real user needs, trust and graceful failure.",
+        "tags": [
+          "ui-ux",
+          "design-systems",
+          "inspiration",
+          "productivity"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Six chapters covering user needs, data collection, mental models, explainability, feedback/control and error handling",
+          "Each chapter pairs guidance with exercises and worksheets meant to turn it into action",
+          "Draws on input from over a hundred Googlers, industry practitioners and academic research",
+          "Includes AI design patterns and case studies alongside the core chapters",
+          "Free to read with no sign-up, licensed for non-commercial reuse under CC BY-NC-SA 4.0"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no Simple Icons match; owner should supply logo SVG"
+        }
+      },
+      "unverified": [
+        "The task's exact URL returned only an empty page title when fetched directly (client-rendered shell); content confirmed via the same domain's root and /guidebook-v2/ pages instead"
+      ]
+    },
+    "peoples-graphic-design-archive": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "People's Graphic Design Archive (PGDA)",
+        "url": "https://peoplesgdarchive.org",
+        "alive": true,
+        "operator": "PGDA co-directors Brockett Horne, Briar Levit, Louise Sandhaus and Morgan Searcy"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Browsing, searching and sorting the archive's items is free with no sign-in required; the project is sustained by donations rather than subscriptions",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://peoplesgdarchive.org/about",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No archive-wide content license stated · commercial: n/a to the archive itself · attribution: original rights holders retain their trademarks/copyrights · limit: PGDA does not claim ownership of items",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://peoplesgdarchive.org/about",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "peoples-graphic-design-archive",
+        "type": "Website",
+        "category": "Design",
+        "title": "People's Graphic Design Archive — Open Design History",
+        "description": "A free, crowd-sourced archive of graphic design artifacts — posters, logos, album covers and ephemera — contributed and catalogued by the public.",
+        "tags": [
+          "graphic-design",
+          "inspiration",
+          "print-design",
+          "visual-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Crowd-sourced submissions of posters, logos, album covers, magazines and other design ephemera",
+          "Browsable and sortable item listings open to anyone, no login required to view",
+          "A member of the Letterform Archive Digital Collective",
+          "Does not claim ownership of submitted items",
+          "Sustained by donations and volunteer contributions"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no usable Simple Icons match"
+        }
+      },
+      "unverified": [
+        "Formal nonprofit/legal status not explicitly stated on the About page"
+      ]
+    },
+    "perplexity": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Perplexity",
+        "url": "https://www.perplexity.ai",
+        "alive": true,
+        "operator": "Perplexity AI, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Unlimited basic/\"quick\" web search plus a small daily allowance of deeper \"Pro\" searches; no file upload or image generation.",
+        "paidFrom": "$20/month (Pro plan)",
+        "evidence": {
+          "url": "https://wise.com/gb/blog/perplexity-pricing",
+          "date": "2026-10-23",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "Perplexity Terms of Service · commercial: no (personal, non-commercial use only) · attribution: required for published Output (must cite the Services)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.perplexity.ai/hub/legal/terms-of-service",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "perplexity",
+        "type": "AI Tool",
+        "category": "Productivity",
+        "title": "Perplexity: AI Search & Research Assistant",
+        "description": "AI answer engine that searches the web in real time and returns a cited, sourced answer instead of a list of links.",
+        "tags": [
+          "ai-tool",
+          "chatbot",
+          "productivity",
+          "writing"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Searches the web live and returns a cited, sourced answer rather than a plain link list",
+          "Free tier gives unlimited quick answers plus a limited daily allowance of deeper Pro searches",
+          "Pro subscription (from $20/month) raises the Pro-search allowance and adds file upload and image generation",
+          "Available as a web app and official mobile apps",
+          "Separate Enterprise/API terms exist for business and developer use"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "perplexity",
+          "fillColor": "#1FB8CD",
+          "bgColor": null,
+          "source": "scripts/check-icon.mjs exact match"
+        }
+      },
+      "unverified": [
+        "Exact free-tier daily Pro-search count varies by secondary source",
+        "Max-tier price varies across secondary sources — not confirmed first-party"
+      ]
+    },
+    "pfolios": {
+      "researchedOn": "2026-10-23",
+      "verdict": "blocked",
+      "verdictReason": "pfolios.net serves an empty Vue/JS shell with no server-rendered content; only metadata readable (og:description says \"Available soon on web, newsletter, instagram and twitter\"). No /pricing or /about pages exist. Unclear whether this product has actually launched.",
+      "site": {
+        "name": "PFolios",
+        "url": "https://pfolios.net",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://pfolios.net/pricing",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://pfolios.net",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "Could not render the JS app content; only HTML head metadata was readable",
+        "/pricing and /about return 404",
+        "Unclear if the product has actually launched"
+      ]
+    },
+    "phare-uptime": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Phare",
+        "url": "https://phare.io",
+        "alive": true,
+        "operator": "Lightkeeper OÜ (Tallinn, Estonia)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Hobby plan: all features included (projects, team members, integrations, alerts), 100,000 monitoring events/month, 10 AI incident summaries, public status pages with custom domain and SSL; no SMS/voice alerts.",
+        "paidFrom": "€5/month (Scale plan, billed monthly, plus metered usage)",
+        "evidence": {
+          "url": "https://phare.io/pricing",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Phare Terms of Service (Lightkeeper OÜ) · commercial: yes · attribution: not required · limit: reusing site Content or the Phare name/trademark for commercial purposes needs prior written permission",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://phare.io/legal/terms-of-service",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "phare-uptime",
+        "type": "Tool",
+        "category": "Development",
+        "title": "Phare Uptime: Website & API Monitoring",
+        "description": "EU-hosted uptime, API and SSL monitoring with incident management, status pages and alerting; free plan covers 100k events/month.",
+        "tags": [
+          "web",
+          "automation"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Monitors HTTP/HTTPS, REST/GraphQL APIs, TCP ports and ICMP ping from up to 12 global regions, as often as every 30 seconds",
+          "Tracks SSL/TLS certificates automatically and alerts before expiry",
+          "Builds incident timelines with AI-written summaries and team postmortems",
+          "Hosts branded public status pages on a custom domain with access controls",
+          "Supports maintenance windows that exclude planned downtime from SLA reports",
+          "Free Hobby plan includes every feature with 100,000 events/month"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no usable Simple Icons match; logo not fetched"
+        }
+      },
+      "unverified": [
+        "Exact number of monitoring regions differs slightly between first-party and third-party sources"
+      ]
+    },
+    "photocraft": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "PhotoCraft",
+        "url": "https://getartcraft.com/apps/photocraft",
+        "alive": true,
+        "operator": "ArtCraft (storytold)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Fully free and open source desktop image editor (early alpha, v0.10.0); no paid tier for PhotoCraft itself.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://getartcraft.com/apps/photocraft",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Dual MIT/Apache-2.0 (user's choice) · commercial: yes · attribution: not required · ArtCraft name/wordmark/logo excluded from the license",
+        "openSource": true,
+        "spdx": "MIT OR Apache-2.0",
+        "evidence": {
+          "url": "https://github.com/storytold/photocraft",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "photocraft",
+        "type": "Tool",
+        "category": "Design",
+        "title": "PhotoCraft — free open-source image editor",
+        "description": "Open-source, offline image editor written in Rust with layers, masks, adjustment layers and PSD/PSB support. Free for Windows, macOS, Linux and browser.",
+        "tags": [
+          "graphic-design",
+          "open-source",
+          "windows",
+          "mac",
+          "linux"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Layer-based editing with masks and non-destructive adjustment layers",
+          "Opens and saves native Photoshop PSD/PSB files",
+          "Runs fully offline, no account or upload required",
+          "Native builds for Windows, macOS and Linux plus a WebAssembly browser build",
+          "Fully open source (MIT/Apache-2.0), free for commercial use"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no Simple Icons match"
+        }
+      },
+      "unverified": [
+        "Exact current GitHub star/contributor count not re-verified first-party",
+        "Whether a stable (non-alpha) release exists yet"
+      ]
+    },
+    "photopea": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Photopea",
+        "url": "https://www.photopea.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Full browser-based photo/design editor free for any purpose, no account or upload required, files stay local; ads shown. All editing features (PSD, 40+ formats, AI background removal) available free.",
+        "paidFrom": "Optional Premium account removes ads and raises PeaDrive storage (price not confirmed first-party)",
+        "evidence": {
+          "url": "https://www.photopea.com",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary (closed source) · commercial: yes, explicitly free for any purpose including selling your work, no attribution required · no restriction on listing/linking found",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.photopea.com/privacy.html",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "photopea",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Photopea — free browser-based Photoshop-style editor",
+        "description": "Browser-based image editor with PSD support and 40+ file formats, no install or upload. Free for any use, with an optional ad-free Premium account.",
+        "tags": [
+          "graphic-design",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Opens and saves native PSD files alongside 40+ other formats",
+          "Runs entirely in the browser, files processed locally without uploading",
+          "One-click AI background removal",
+          "Free for any use, including selling output, no attribution required",
+          "Optional paid Premium account removes ads and adds storage"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "photopea",
+          "fillColor": "#18A497",
+          "bgColor": null,
+          "source": "check-icon.mjs: exact match"
+        }
+      },
+      "unverified": [
+        "Exact Premium price/billing period (second-hand sources disagree)",
+        "Operator/company name behind Photopea not stated"
+      ]
+    },
+    "pi": {
+      "researchedOn": "2026-10-23",
+      "verdict": "blocked",
+      "verdictReason": "Both https://pi.ai and https://pi.ai/discover returned HTTP 403 (bot-check) on fetch; no first-party content could be read.",
+      "site": {
+        "name": "Pi",
+        "url": "https://pi.ai/discover",
+        "alive": null,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://pi.ai",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://pi.ai",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "All pricing, free-tier, and license/terms facts for Pi — site was unreachable (403)"
+      ]
+    },
+    "pi-presentation-intelligence": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Pi - Presentation Intelligence",
+        "url": "https://www.pi.inc",
+        "alive": true,
+        "operator": "Presentation Intelligence (support@pi.inc)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Credit-based free plan ('Start for Free'); credits earned via signup, daily login, referrals, sharing. Exact free credit allotment and limits not shown in first-party static HTML (rendered client-side).",
+        "paidFrom": "Second-hand sources report a Basic plan around $9.9/mo — not confirmed first-party.",
+        "evidence": {
+          "url": "https://www.pi.inc/pricing",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Terms of Use (unread) · commercial: unknown · attribution: unknown · site ToS/Legal pages are client-rendered JS shells",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.pi.inc/terms",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "pi-presentation-intelligence",
+        "type": "AI Tool",
+        "category": "Productivity",
+        "title": "Pi - Presentation Intelligence: AI Slide Maker",
+        "description": "AI tool that turns notes, PDFs, webpages, images and video into polished, editable slide decks and interactive documents in seconds.",
+        "tags": [
+          "ai-tool",
+          "productivity",
+          "collaboration",
+          "template"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "One-click AI deck generation from notes, PDFs, webpages, images or video",
+          "Smart layout engine with customizable themes and custom font upload",
+          "Credit-based free tier (signup/daily-login/referral credits)",
+          "Document co-editing and sharing for team collaboration",
+          "Outputs both slide decks and interactive documents"
+        ],
+        "icon": {
+          "route": "iconUrl",
+          "value": "https://cdn.pi.inc/web/ffde05d4260596544fcf31cd3420e8c358d2d753/logo.svg",
+          "fillColor": null,
+          "bgColor": null,
+          "source": "site logo asset on cdn.pi.inc"
+        }
+      },
+      "unverified": [
+        "Exact free-tier credit count/limits and exact paid price not readable (JS-rendered)",
+        "License/Terms of Use content unread — client-rendered JS shell"
+      ]
+    },
+    "pica": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Pica",
+        "url": "https://pica.joshpuckett.me",
+        "alive": true,
+        "operator": "Josh Puckett (joshpuckett.me), indie developer"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entirely free, native macOS app; no paid tier, no in-app purchase or account mentioned anywhere on the site.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://pica.joshpuckett.me",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No license/terms/privacy page found on the site (all 404) · commercial: unknown · attribution: unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://pica.joshpuckett.me",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "pica",
+        "type": "App",
+        "category": "Design",
+        "title": "Pica — Native Font Manager for macOS",
+        "description": "Free native macOS app for organizing, previewing and activating fonts, with folder watching and full OpenType/CJK script support.",
+        "tags": [
+          "mac",
+          "typography",
+          "productivity"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Custom font collections for organizing large font libraries",
+          "Logo and color previews rendered with your own fonts",
+          "One-click font activation",
+          "Folder watching to auto-import new fonts",
+          "Full OpenType support including CJK scripts",
+          "Entirely free, native (not Electron) macOS app"
+        ],
+        "icon": {
+          "route": "iconUrl",
+          "value": "https://pica.joshpuckett.me/images/pica_favicon.png",
+          "fillColor": null,
+          "bgColor": null,
+          "source": "site favicon"
+        }
+      },
+      "unverified": [
+        "No license, terms, or privacy page exists on the site at all",
+        "No code-signing/notarization status confirmed"
+      ]
+    },
+    "picflow": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Picflow",
+        "url": "https://picflow.com",
+        "alive": true,
+        "operator": "Nusign AG dba Picflow, Zürich, Switzerland"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free 'Get Started' plan: unlimited galleries, unlimited collaborators, 2 GB cloud storage, 1 included seat, 50 monthly workflow credits.",
+        "paidFrom": "$15/mo (Plus plan, billed monthly) or $12/mo billed annually; 7-day free trial on paid plans.",
+        "evidence": {
+          "url": "https://picflow.com/pricing",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Terms of Service (Picflow, by Nusign AG) · commercial: yes · attribution: not required · customer retains ownership of uploaded creative content",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://help.picflow.com/en/articles/5538133-terms-of-service",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "picflow",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Picflow — Online Proofing & Client Galleries",
+        "description": "Online proofing platform for creative teams to share branded client galleries, collect annotated feedback, and track approval status.",
+        "tags": [
+          "collaboration",
+          "project-management",
+          "graphic-design",
+          "visual-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Branded client galleries reviewers can access and comment on without creating an account",
+          "Favorites, comments, emoji reactions, annotations and approval flags",
+          "RAW photo and 4K/HDR video upload with frame-accurate video comments (paid plans)",
+          "AI-resistant custom watermarking (Pro+)",
+          "Kanban, list and grid project views plus a searchable asset library",
+          "Version history with side-by-side comparison"
+        ],
+        "icon": {
+          "route": "iconUrl",
+          "value": "https://picflow.com/assets/favicon/favicon.svg",
+          "fillColor": null,
+          "bgColor": "#4353FF",
+          "source": "site favicon.svg"
+        }
+      },
+      "unverified": [
+        "Storage add-on price confirmed first-party but exact per-seat add-on pricing for Pro/Biz plans not fully extracted"
+      ]
+    },
+    "pichon": {
+      "researchedOn": "2026-10-23",
+      "verdict": "blocked",
+      "verdictReason": "Home page returned HTTP 403 (bot-check) on repeated attempts; no first-party page could be read.",
+      "site": {
+        "name": "Pichon",
+        "url": "https://icons8.com/app/macos-pichon",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://icons8.com/app/macos-pichon",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://icons8.com/app/macos-pichon",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "All facts: home page blocked by 403 bot-check"
+      ]
+    },
+    "picjumbo": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "picjumbo",
+        "url": "https://picjumbo.com",
+        "alive": true,
+        "operator": "Viktor Hanáček"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "All photos on picjumbo.com are free to download, watermark-free, usable commercially, with attribution optional.",
+        "paidFrom": "$179 one-time lifetime PREMIUM membership (promo pricing of $99 seen); unlocks 200+ photo packs, 10,000+ exclusive photos.",
+        "evidence": {
+          "url": "https://picjumbo.com/premium/",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "picjumbo FAQ/Terms · commercial: yes · attribution: not required · limit: no reuploading photos to other photo/wallpaper platforms, no hotlinking",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://picjumbo.com/faq-and-terms/",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "picjumbo",
+        "type": "Stock Media",
+        "category": "Photography",
+        "title": "picjumbo — Free Stock Photos & Backgrounds",
+        "description": "Large library of free, watermark-free stock photos and backgrounds usable commercially, plus an optional one-time Premium photo pack upgrade.",
+        "tags": [
+          "stock-photos",
+          "royalty-free",
+          "stock"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Thousands of free, watermark-free photos organized by category",
+          "Commercial use allowed with no required attribution",
+          "One-time lifetime Premium membership unlocks 200+ exclusive photo packs",
+          "New photo collections added monthly for Premium members",
+          "Separate Photo Redistribution (API) plan for embedding photos in SaaS products"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no usable Simple Icons match"
+        }
+      },
+      "unverified": [
+        "Whether the $99 lifetime-PREMIUM promo code is still valid",
+        "Whether free-photo downloads require an account/login"
+      ]
+    },
+    "picsart": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Picsart",
+        "url": "https://picsart.com",
+        "alive": true,
+        "operator": "Picsart, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "'Picsart Free' at $0.00; gives access to the core photo/video editor, with advanced AI generation, bulk edit, and larger cloud storage reserved for paid plans.",
+        "paidFrom": "$15/month (Pro plan, or $126/year); Ultra plan $31/month ($210/year) per seat.",
+        "evidence": {
+          "url": "https://picsart.com/pricing/",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Picsart Terms of Use · commercial: depends on content · attribution: not required for your own content · limit: third-party stock carries extra commercial/trademark restrictions",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://picsart.com/terms/",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "picsart",
+        "type": "AI Tool",
+        "category": "Design",
+        "title": "Picsart — AI Photo, Video & Design Editor",
+        "description": "All-in-one AI creative platform for photo and video editing with 180+ generation models, templates, and a free plan alongside paid Pro/Ultra tiers.",
+        "tags": [
+          "ai-tool",
+          "graphic-design",
+          "social-media-design",
+          "ios",
+          "android"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "AI-powered background and object removal for photos and videos",
+          "180+ AI generation models for images, video, and audio in one editor",
+          "Bulk edit up to 50 images at once on paid plans",
+          "Library of templates, stickers, and effects for social media graphics",
+          "Free plan available alongside Pro and Ultra subscriptions",
+          "Native mobile apps for iOS and Android plus a web editor"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "picsart",
+          "fillColor": "#C209C1",
+          "bgColor": null,
+          "source": "scripts/check-icon.mjs exact match"
+        }
+      },
+      "unverified": [
+        "Exact feature limits of the free plan (storage cap, watermark/ads presence) not stated"
+      ]
+    },
+    "pictographic": {
+      "researchedOn": "2026-10-23",
+      "verdict": "blocked",
+      "verdictReason": "pictographic.io permanently redirects to pictographic.ai, which rendered almost no static content; /pricing and /explore both 404'd. Likely a client-side-rendered SPA this fetch tool cannot execute.",
+      "site": {
+        "name": "Pictographic",
+        "url": "https://pictographic.ai",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://pictographic.ai/pricing",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://pictographic.ai",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "Homepage rendered almost no static content; could not confirm pricing, free tier, license/terms, or real feature set"
+      ]
+    },
+    "picular": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Picular",
+        "url": "https://picular.co",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire tool is a single free page: type any word/brand into a search box and get back the dominant colors associated with it. No sign-up, login, account, or payment flow of any kind found.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://picular.co",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No terms/license page exists (checked /terms and /privacy-policy, both 404) · commercial: unknown · attribution: unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://picular.co/terms",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "picular",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Picular — search colors by keyword",
+        "description": "Free single-page tool that shows the dominant colors tied to any word or brand name, handy for quick palette and mood-board inspiration.",
+        "tags": [
+          "color-palette",
+          "inspiration",
+          "graphic-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Type any word, brand, or concept and get back a swatch of its associated colors",
+          "Pulls colors from real image search results rather than a hand-picked palette",
+          "No sign-up or account needed",
+          "Single search box, minimal distraction-free interface",
+          "Useful as a quick starting point for color palettes or mood boards"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no usable Simple Icons match"
+        }
+      },
+      "unverified": [
+        "No terms/license/pricing page found",
+        "Operator unclear: homepage credits 'Future Memories' as creator but doesn't state who operates the live site"
+      ]
+    },
+    "pika": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Pika",
+        "url": "https://pika.art",
+        "alive": true,
+        "operator": "Pika Labs"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan ($0/mo): access to all models, no watermark, no recurring monthly credit grant (one-time/purchasable credit packs), 2 parallel video generations, no commercial license, no priority queue.",
+        "paidFrom": "Starter plan at $10/mo billed monthly; includes 900 monthly credits and a commercial license.",
+        "evidence": {
+          "url": "https://pika.art/pricing",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Pika Terms of Service · commercial: yes on paid Plans, no on Free Plan · attribution: required if integrating Pika's models into your own product · limit: outputs can't be re-streamed/redistributed/monetized outside the Service without consent",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://pika.art/terms-of-service",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "pika",
+        "type": "AI Tool",
+        "category": "Filming",
+        "title": "Pika — AI video, image, and audio creation platform",
+        "description": "AI creative platform that turns prompts, images, or clips into video, images, music, speech, or sound effects, with dedicated studios for ads, character work, and motion edits.",
+        "tags": [
+          "ai-tool",
+          "visual-design",
+          "web",
+          "ios"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Video Studio generates and edits video from text or image prompts",
+          "Swap Anything and Product Ad apps for targeted video edits and ad-style generations",
+          "Image Studio, Edit Image, and Character Studio for AI image creation",
+          "Music Studio, Speech Studio, and SFX Studio for generated audio",
+          "Routes requests across multiple third-party and first-party models",
+          "Developer-facing Pika API Club for programmatic access"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no usable Simple Icons match"
+        }
+      },
+      "unverified": [
+        "Free-plan credit mechanics ambiguous",
+        "Pricing page shows the Creator plan inconsistently ($35 vs $30)",
+        "Free-plan users lack commercial-use rights per the Terms of Service"
+      ]
+    },
+    "pika-2": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Pika",
+        "url": "https://superhighfives.com/pika",
+        "alive": true,
+        "operator": "Charlie Gleason / Super High Fives"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Fully free, open-source native macOS colour picker (v2.0.1); download via GitHub or Homebrew.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://superhighfives.com/pika",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT License (GitHub repo) · commercial: yes · attribution: required · no stated restriction on listing/linking",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/superhighfives/pika",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "pika-2",
+        "type": "App",
+        "category": "Design",
+        "title": "Pika — macOS Colour Picker",
+        "description": "Open-source native macOS app for picking on-screen colours, with contrast checks and seven export formats.",
+        "tags": [
+          "mac",
+          "open-source",
+          "color-palette",
+          "ui-ux",
+          "visual-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Magnified loupe for pixel-precise colour picking with arrow-key nudging",
+          "WCAG and APCA contrast checking between foreground/background colour pairs",
+          "Exports colours as Hex, RGB, HSB, HSL, LAB, OpenGL, or OKLCH",
+          "sRGB and Display P3 wide-gamut colour support",
+          "Colour history with undo/redo plus a global keyboard shortcut",
+          "Menu bar, Dock, and Touch Bar support"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no usable Simple Icons match; needs manually sourced SVG"
+        }
+      },
+      "unverified": [
+        "Exact wording/terms of the MIT LICENSE.md file not opened directly",
+        "App Store price/listing details not shown"
+      ]
+    },
+    "piktochart": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Piktochart",
+        "url": "https://piktochart.com",
+        "alive": true,
+        "operator": "Piktochart LLC (second-hand: possibly acquired by ThriveCart LLC March 2026, unconfirmed)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan: up to 4 members, unlimited projects, 1GB storage, 60 AI credits, free templates only, 2 PNG downloads, no transparent backgrounds/password protection.",
+        "paidFrom": "Pro plan from $10/month billed annually ($120/yr), or $15/month billed monthly",
+        "evidence": {
+          "url": "https://piktochart.com/pricing/",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Terms of Service not confirmed (ToS page returned HTTP 403, likely bot-protection)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://piktochart.com/terms-of-service/",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "piktochart",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Piktochart — Infographic & Visual Design Platform",
+        "description": "Online design platform with AI assistance for building infographics, reports, and presentations without a designer.",
+        "tags": [
+          "graphic-design",
+          "design-templates",
+          "visual-design",
+          "ai-tool",
+          "social-media-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "AI-assisted generation of infographics, reports, and presentation visuals",
+          "Drag-and-drop editor with free and premium template libraries",
+          "Brand Kit for consistent colours, fonts, and logos on paid plans",
+          "Export to PNG (all plans) or PDF/PPT on paid plans",
+          "Team workspaces supporting up to 100 members",
+          "60-1,000 AI credits per month depending on plan tier"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no usable Simple Icons match"
+        }
+      },
+      "unverified": [
+        "Terms of Service content not read (403)",
+        "The March 2026 ThriveCart acquisition only seen on aggregator sites"
+      ]
+    },
+    "pimp-my-type": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Pimp my Type",
+        "url": "https://pimpmytype.com",
+        "alive": true,
+        "operator": "Oliver Schöndorfer"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All core content is free: articles on typography/UX/design systems, weekly 'Font Friday' recommendations, a newsletter, and occasional free workshops.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://pimpmytype.com",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No explicit content license found · commercial reuse: not stated · attribution: not stated",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://pimpmytype.com/privacy",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "pimp-my-type",
+        "type": "Website",
+        "category": "Design",
+        "title": "Pimp my Type — Typography & UX Resources",
+        "description": "Oliver Schondorfer's free articles, font picks, and workshops on using typography to strengthen UX and product design.",
+        "tags": [
+          "typography",
+          "design-systems",
+          "ui-ux",
+          "inspiration",
+          "writing"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Weekly 'Font Friday' typeface recommendations across 200+ fonts",
+          "Articles on typography's role in design systems, branding, and UI",
+          "Free newsletter with UX/UI typography tips",
+          "Occasional free workshops on scaling fonts in design systems",
+          "Podcast appearances and talks on typography and font licensing",
+          "A linked 'Free Type Check' offer for typography review"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no usable Simple Icons match"
+        }
+      },
+      "unverified": [
+        "Exact mechanics of the 'Free Type Check' offer unconfirmed",
+        "Whether 'paid font recommendations' represent a distinct paid product"
+      ]
+    },
+    "pimp-my-type-2": {
+      "researchedOn": "2026-10-23",
+      "verdict": "blocked",
+      "verdictReason": "YouTube channel page returned no readable channel/video content through the fetcher — consistent with the known limitation that YouTube channel pages cannot be reliably read this way.",
+      "site": {
+        "name": "Pimp my Type",
+        "url": "https://www.youtube.com/c/pimpmytype",
+        "alive": null,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.youtube.com/c/pimpmytype",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": null,
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "Could not read actual channel content",
+        "Second-hand web search indicates this is Oliver Schöndorfer's typography YouTube channel, unconfirmed first-party"
+      ]
+    },
+    "pinterest": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Pinterest",
+        "url": "https://www.pinterest.com",
+        "alive": true,
+        "operator": "Pinterest, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Full consumer use (browsing, searching, pinning, boards, saving ideas) is free with no paid consumer tier; a separate paid advertising/business product exists for brands.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://about.pinterest.com/en",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Pinterest Terms of Service · commercial: only via separate Business account · attribution: not required for personal use · limit: automated scraping prohibited without permission",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://policy.pinterest.com/en/terms-of-service",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "pinterest",
+        "type": "Website",
+        "category": "Design",
+        "title": "Pinterest — Visual Discovery and Idea Boards",
+        "description": "Visual search platform for finding and saving design, style and project inspiration into shareable boards, with links through to original sources.",
+        "tags": [
+          "inspiration",
+          "social-media-design",
+          "collaboration"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Personalized visual discovery feed based on topics and past activity",
+          "Pins can be organized into boards by topic or project",
+          "Boards can be shared and co-edited with others for group planning",
+          "Clicking a pin links through to its original source page or product",
+          "Separate business/ads tools for brands and creators"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "pinterest",
+          "fillColor": "#BD081C",
+          "bgColor": null,
+          "source": "scripts/check-icon.mjs exact match"
+        }
+      },
+      "unverified": [
+        "Exact lowest paid price for the separate business/advertising product not checked"
+      ]
+    },
+    "pippit": {
+      "researchedOn": "2026-10-23",
+      "verdict": "blocked",
+      "verdictReason": "Both home page and pricing page returned HTTP 503 on every attempt — consistent with a bot-check/anti-scraping block.",
+      "site": {
+        "name": "Pippit",
+        "url": "https://www.pippit.ai",
+        "alive": null,
+        "operator": "ByteDance (second-hand, unconfirmed)"
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.pippit.ai/pricing",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": null,
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "No first-party page could be read (503 on all attempts)",
+        "Second-hand only: described as a ByteDance AI video/image platform rebranded from CapCut Commerce Pro"
+      ]
+    },
+    "pitch": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Pitch",
+        "url": "https://pitch.com",
+        "alive": true,
+        "operator": "Pitch Software GmbH"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan: unlimited presentations forever, 100 non-renewing AI credits, custom templates, basic sharing links, 2 external guests, 10GB storage; excludes PowerPoint export, custom fonts, video uploads, advanced links, analytics.",
+        "paidFrom": "Plus plan, €10/month billed yearly",
+        "evidence": {
+          "url": "https://pitch.com/pricing",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Pitch Terms of Use · commercial: yes · attribution: not required · full Terms of Use text not retrieved directly",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://pitch.com/legal",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "pitch",
+        "type": "AI Tool",
+        "category": "Productivity",
+        "title": "Pitch — AI-assisted presentation and slide collaboration",
+        "description": "Build, co-edit and deliver slide decks with teammates, using AI to go from a prompt to a finished presentation.",
+        "tags": [
+          "ai-tool",
+          "collaboration",
+          "productivity",
+          "template"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Generates a first-draft deck from a text prompt using AI credits",
+          "Real-time multi-user editing and commenting on slides",
+          "Library of custom, brand-ready presentation templates",
+          "Shareable links with basic access controls on the free plan",
+          "PowerPoint export and custom fonts on paid plans"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no exact Simple Icons match"
+        }
+      },
+      "unverified": [
+        "Full text of pitch.com/terms-of-use not read directly",
+        "Monthly (non-annual) price for Plus plan not shown"
+      ]
+    },
+    "pitchwall": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "PitchWall",
+        "url": "https://pitchwall.co",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free Launch plan for submitting a product: 1-day homepage visibility, minimum 30-day queue wait, a do-follow backlink, possible newsletter mention. Browsing listed tools is free with no account needed.",
+        "paidFrom": "Pro Launch, $49 one-time; Premium Launch $99 one-time.",
+        "evidence": {
+          "url": "https://pitchwall.co/submit",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "PitchWall Terms & Conditions · commercial: yes · attribution: not applicable · full terms text not retrieved",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://pitchwall.co/submit",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "pitchwall",
+        "type": "Website",
+        "category": "Marketing",
+        "title": "PitchWall — daily discovery feed for new AI products",
+        "description": "Browse newly launched AI products and tools, or submit your own for homepage visibility and a backlink.",
+        "tags": [
+          "ai-tool",
+          "inspiration",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Daily-updated feed of newly launched AI products and tools",
+          "Free product submission with homepage visibility and a do-follow backlink",
+          "Paid Pro/Premium launch tiers for longer visibility and a chosen launch date",
+          "Newsletter and X (Twitter) mentions for featured launches"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no exact Simple Icons match"
+        }
+      },
+      "unverified": [
+        "Site operator/company name not found",
+        "Whether listed/submitted products undergo any moderation or vetting is not stated"
+      ]
+    },
+    "pixeden": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Pixeden",
+        "url": "https://www.pixeden.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free downloads available across the resource library (graphics, templates, icons, vectors, mockups) without payment.",
+        "paidFrom": "Premium Club subscription from $9/month for access to premium files",
+        "evidence": {
+          "url": "https://www.pixeden.com",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Pixeden license · commercial: yes (royalty-free for personal and commercial projects) · attribution: not required · limit: resources cannot be redistributed, resold, or re-licensed; hotlinking prohibited",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.pixeden.com/license",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "pixeden",
+        "type": "Stock Media",
+        "category": "Design",
+        "title": "Pixeden — royalty-free graphics, templates and mockups library",
+        "description": "Download free and premium vectors, icons, PSD mockups and web/print templates, royalty-free for commercial use.",
+        "tags": [
+          "stock",
+          "stock-vectors",
+          "graphic-design",
+          "print-design",
+          "template",
+          "royalty-free"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Large library of vectors, icons, PSD mockups, and web/print templates",
+          "Mix of free downloads and a premium club subscription from $9/month",
+          "Royalty-free license covering both personal and commercial projects",
+          "No attribution required for use, though appreciated",
+          "Premium files usable inside items sold on marketplaces, but not resold as-is"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no exact Simple Icons match"
+        }
+      },
+      "unverified": [
+        "Site operator/company name not found",
+        "Exact premium plan tiers beyond the $9/month entry price not detailed"
+      ]
+    },
+    "pixelbuddha": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Pixelbuddha",
+        "url": "https://pixelbuddha.net",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free account, $0 forever: access to freebie items only (2,000+ free items), personal-use license, capped at 3 downloads per 24 hours, login required to download",
+        "paidFrom": "$10/month (Plus plan, billed monthly; $120/year billed yearly)",
+        "evidence": {
+          "url": "https://pixelbuddha.net/pricing",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Pixelbuddha Terms of Service + per-item license · commercial: depends on tier (free tier is personal-use only) · attribution: not mentioned · limit: free-tier items are personal use only and capped at 3 downloads/24h",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://pixelbuddha.net/docs/terms-of-service",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "pixelbuddha",
+        "type": "Resource",
+        "category": "Design",
+        "title": "Pixelbuddha - Design Resource Library",
+        "description": "Library of 12,000+ fonts, mockups, textures, and graphics with a limited free tier and a paid Plus membership for full access and commercial use.",
+        "tags": [
+          "graphic-design",
+          "design-templates",
+          "typography",
+          "visual-design",
+          "template"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "12,500+ categorized design resources spanning mockups, fonts, textures, brushes, and graphics",
+          "Free account allows 3 downloads per day under a personal-use-only license",
+          "Plus membership unlocks commercial license and unlimited downloads",
+          "Dedicated categories for social media graphics, UI/UX resources, presentations, and logo templates",
+          "Recurring time-limited giveaways of normally-paid items"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no usable Simple Icons match"
+        }
+      },
+      "unverified": [
+        "Exact free-library item count not broken out precisely",
+        "Quarterly/Lifetime plan prices not shown"
+      ]
+    },
+    "pixelcrew": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "PixelCrew",
+        "url": "https://pixelcrew.ai",
+        "alive": true,
+        "operator": "PixelCrew Inc. (Delaware corporation)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Bring-your-own-key alpha access at $0 platform fee: full agent crew, unlimited briefs during alpha, HTML/Tailwind output. User connects their own OpenRouter/Anthropic/Gemini API key and pays model usage directly.",
+        "paidFrom": "No paid PixelCrew plan is live yet; 'Pro'/'Enterprise' are 'Coming soon' with no price shown",
+        "evidence": {
+          "url": "https://pixelcrew.ai",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "PixelCrew Terms of Service · commercial: yes (rights to generated Output assigned to user) · attribution: not required · limit: may not resell/scrape the Service",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://pixelcrew.ai/terms",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "pixelcrew",
+        "type": "AI Tool",
+        "category": "Design",
+        "title": "PixelCrew - AI Agent Crew for Design Briefs",
+        "description": "Turns a written brief into production HTML/Tailwind using a sequence of AI agents for research, direction, wireframing, copy, and QA.",
+        "tags": [
+          "ai-tool",
+          "design-systems",
+          "prototyping",
+          "ui-ux",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Chains specialized agents (research/IA, creative direction, wireframing, copywriting, design system, QA) over one brief",
+          "Outputs production HTML and Tailwind CSS plus documentation",
+          "Average delivery time of 25-45 minutes per brief",
+          "Bring-your-own API key (OpenRouter, Anthropic, or Google Gemini)",
+          "Handles landing pages, dashboards, and design systems"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no usable Simple Icons match"
+        }
+      },
+      "unverified": [
+        "Whether 'unlimited briefs during alpha' has any undisclosed soft cap",
+        "Pro/Enterprise pricing once they leave 'coming soon'"
+      ]
+    },
+    "pixelfika": {
+      "researchedOn": "2026-10-23",
+      "verdict": "blocked",
+      "verdictReason": "Homepage, /about, /pricing, and an arbitrary non-existent path all returned the exact same single line of placeholder text with no navigation, pricing, terms, or distinguishing content.",
+      "site": {
+        "name": "Pixelfika",
+        "url": "https://pixelfika.com",
+        "alive": null,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://pixelfika.com/pricing",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://pixelfika.com",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "Entire site content is unreadable/placeholder-like",
+        "Web search for 'pixelfika.com' returned zero relevant results"
+      ]
+    },
+    "pixelied": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Pixelied",
+        "url": "https://pixelied.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free account with basic editing tools, 200+ free templates, thousands of stock photos/graphics, and 2GB cloud storage",
+        "paidFrom": "$47/year (Pro plan, billed annually)",
+        "evidence": {
+          "url": "https://pixelied.com/pricing",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Pixelied ToS · commercial: unverified · attribution: unverified · could not confirm listing/commercial-use clauses",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://pixelied.com/terms",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "pixelied",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Pixelied — Online Graphic Design & Photo Editor",
+        "description": "Browser-based design suite for non-designers: templates, stock photos/icons, background removal, and basic photo editing.",
+        "tags": [
+          "graphic-design",
+          "visual-design",
+          "template",
+          "stock-photos"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "200+ free templates for social posts, banners, email headers and ebook covers",
+          "One-click background removal",
+          "Stock library with millions of royalty-free photos and thousands of icons/illustrations",
+          "Basic photo editing tools: crop, resize, rotate, flip, blur, merge",
+          "SVG upload/editing support",
+          "Team brand workspaces with per-project files and colors"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no usable Simple Icons match"
+        }
+      },
+      "unverified": [
+        "Terms/legal pages could not confirm commercial-use or directory-listing restrictions",
+        "Whether $47/year Pro is the only paid tier"
+      ]
+    },
+    "pixelied-mockups": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Pixelied Mockups",
+        "url": "https://pixelied.com/mockups",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Same account/plan as Pixelied; free plan covers basic use of the mockup generator with a paginated catalog of free mockup templates",
+        "paidFrom": "$47/year (Pixelied Pro, billed annually) — shared with the main Pixelied plan",
+        "evidence": {
+          "url": "https://pixelied.com/pricing",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Pixelied ToS (shared with main product) · commercial: unverified · attribution: unverified",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://pixelied.com/terms",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "pixelied-mockups",
+        "type": "Template",
+        "category": "Design",
+        "title": "Pixelied Mockups — Free Mockup Generator",
+        "description": "Browser-based mockup generator from Pixelied with phone, device and product templates for showcasing designs and listings.",
+        "tags": [
+          "design-templates",
+          "template",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "pixelied"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Own top-level nav section with a category hub",
+          "Large paginated catalog of ready-made mockup templates",
+          "Three-step flow: pick a template, edit, export",
+          "Geared toward sellers on marketplaces like Creative Market, Fiverr, Shopify",
+          "Opens into the same Pixelied editor and account as the main product"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no usable Simple Icons match"
+        }
+      },
+      "unverified": [
+        "Whether /mockups has distinct pricing from the main Pixelied plan"
+      ]
+    },
+    "pixels-market": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Pixels Market",
+        "url": "https://pixels.market",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Illustrations and Icons categories are free under a Personal License (non-commercial use); customizable colors, downloadable as SVG/PNG",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://pixels.market/license",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Pixels Market dual license · commercial: yes (via paid Commercial License sets; free tier is personal/non-commercial only) · attribution: not required",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://pixels.market/license",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "pixels-market",
+        "type": "Stock Media",
+        "category": "Design",
+        "title": "Pixels Market — Illustrations & Icon Library",
+        "description": "Library of 20,000+ illustrations and icons with free personal-use sets and paid commercial sets, color-customizable in-browser.",
+        "tags": [
+          "stock-illustrations",
+          "icon-library",
+          "stock-vectors",
+          "graphic-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "20,000+ illustrations and icons across styles like Doodledo, Flat and Line",
+          "Free Personal License tier for non-commercial use",
+          "Paid Commercial License sets for client work and business use",
+          "In-browser color customization before download",
+          "Export as SVG or PNG",
+          "New sets added weekly"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no usable Simple Icons match"
+        }
+      },
+      "unverified": [
+        "No pricing page found (404 at /pricing)",
+        "Operator/company name behind pixels.market not confirmed"
+      ]
+    },
+    "pixlr": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Pixlr",
+        "url": "https://pixlr.com",
+        "alive": true,
+        "operator": "Pixlr Pte Ltd"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "The core browser editor is usable without a paid subscription — layers, masks, selections, transforms, retouching, filters/adjustments, collage maker, file converter. AI generation/editing requires paid AI credits.",
+        "paidFrom": "$2.49/month (Plus plan, monthly billing; $1.99/month on yearly billing), 80 AI credits/month",
+        "evidence": {
+          "url": "https://pixlr.com/pricing/",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Pixlr ToS (page not reachable at time of research) · commercial: unclear · attribution: unconfirmed · limit: AI tools gated behind paid credit plans",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://pixlr.com/terms/",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "pixlr",
+        "type": "AI Tool",
+        "category": "Photography",
+        "title": "Pixlr - Online Photo Editor & AI Image Generator",
+        "description": "Browser-based photo editor with layers, masks, and filters, plus paid AI tools for image generation, background removal, and upscaling.",
+        "tags": [
+          "ai-tool",
+          "graphic-design",
+          "visual-design",
+          "web",
+          "social-media-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Free browser photo editor (Pixlr E/X) with layers, masks, selections, and retouching tools",
+          "AI background remover, generative fill, and object remover (credit-based)",
+          "Text-to-image, video, and audio AI generation",
+          "Built-in file converter and collage maker",
+          "Tiered AI credit plans from Plus through Ultra MAX"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "pixlr",
+          "fillColor": "#3EBBDF",
+          "bgColor": null,
+          "source": "scripts/check-icon.mjs exact match"
+        }
+      },
+      "unverified": [
+        "Pixlr's own /terms/ pages returned 404",
+        "A 2023 ShinyHunters data-breach report surfaced in the safety search; noted but not held against the official site"
+      ]
+    },
+    "pixotter": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Pixotter",
+        "url": "https://pixotter.com",
+        "alive": true,
+        "operator": "Daemon Ventures (per Pixotter's own Terms page)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "All core tools (compress, resize, convert) are free forever, no signup required, processed in-browser. Limits: 20 images per batch, 10MB max file size, 2 custom presets, 500 API operations/month.",
+        "paidFrom": "$49/year (Pro plan, billed annually)",
+        "evidence": {
+          "url": "https://pixotter.com/pricing",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Pixotter Terms of Service · commercial: yes (implied) · attribution: not required · limit: no reverse-engineering/decompiling; bulk/API processing capped by plan",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://pixotter.com/terms",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "pixotter",
+        "type": "Utility",
+        "category": "Photography",
+        "title": "Pixotter - Free Browser Image Compressor & Resizer",
+        "description": "Browser-based tool to compress, resize, and convert images locally with no signup; core features are free forever, Pro adds higher limits.",
+        "tags": [
+          "automation",
+          "productivity",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Compresses, resizes, and converts images entirely client-side",
+          "No signup required for core tools",
+          "Free tier: 20 images per batch, 10MB max file size, 2 custom presets",
+          "Optional API access for automated batch processing",
+          "Pro plan ($49/year) raises batch and usage limits"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no exact match in Simple Icons"
+        }
+      },
+      "unverified": [
+        "Operator 'Daemon Ventures' is self-reported, no independent corroboration",
+        "Free plan's ad status is inconsistent between feature list and plan comparison table"
+      ]
+    },
+    "pixsellz": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Pixsellz",
+        "url": "https://www.pixsellz.io",
+        "alive": true,
+        "operator": "Pixsellz / Design Goodies Team"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Several Framer templates and resource packs offered free as \"Freebies\": a pattern library, icon library, illustrations pack, grid library, avatars kit, mobile apps UI kit.",
+        "paidFrom": "$18 for an individual Figma/Framer kit (most individual kits $18-$79)",
+        "evidence": {
+          "url": "https://www.pixsellz.io",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Pixsellz License page · commercial: yes (royalty-free use in personal and commercial projects) · attribution: not required · limit: resold/distributed End Products must be modified completely, not resold as-is",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.pixsellz.io/license",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "pixsellz",
+        "type": "Template",
+        "category": "Design",
+        "title": "Pixsellz - Figma & Framer UI Design Kits",
+        "description": "Marketplace of Figma and Framer UI kits, icon sets, illustrations, and templates, mixing free freebies with paid premium packs.",
+        "tags": [
+          "design-templates",
+          "ui-ux",
+          "icon-library",
+          "stock-illustrations",
+          "website-templates"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Figma UI kits and design systems for product and web design",
+          "Remixable Framer website templates, offered free and as paid premium versions",
+          "Free 'freebie' packs: icon library, illustrations, patterns, grids, avatars kit",
+          "One-time UI Bundle covering current and future premium products",
+          "Commercial-use license included with purchased kits, no attribution required"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no exact match in Simple Icons"
+        }
+      },
+      "unverified": [
+        "Dedicated /pricing page returned 404",
+        "UI Bundle 2026 price shown without a confirmed currency symbol"
+      ]
     }
   }
 }
