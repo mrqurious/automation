@@ -88921,6 +88921,1987 @@
         "A web search turned up a second-hand description (a GitHub repo by 'anastasiaprh' linking to this URL, and a third-party UI/UX directory listing) describing it as a free visual roadmap of UX/UI/product-design topics and skills, credited to Anastasia and Vladislav — this is second-hand and not confirmed on the actual site, so no pricing/license facts can be taken from it",
         "Pricing, license/terms, and commercial-use terms could not be checked at all"
       ]
+    },
+    "product-hunt": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Product Hunt",
+        "url": "https://www.producthunt.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Browsing, upvoting, commenting, following makers, and submitting a product for the daily/weekly/monthly leaderboard are all free; no account limits were stated on the homepage.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.producthunt.com",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Product Hunt ToS · commercial: unknown · attribution: unknown · terms page not reachable (404 on /terms-of-service and /legal/terms-of-use)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.producthunt.com/terms-of-service",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "product-hunt",
+        "type": "Website",
+        "category": "Marketing",
+        "title": "Product Hunt",
+        "description": "Daily, weekly and monthly leaderboards of newly launched tech products, voted on and discussed by a maker and early-adopter community.",
+        "tags": [
+          "web",
+          "productivity",
+          "inspiration"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Daily, weekly and monthly leaderboards of new product launches",
+          "Community upvoting, comments and discussion threads on each listing",
+          "Free product submission for makers",
+          "Maker profiles with followers and launch history",
+          "Ship tool for pre-launch landing pages and email collection (paid tier, pricing unverified)",
+          "Promoted listings for extra visibility (paid, pricing unverified)"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "producthunt",
+          "fillColor": "#DA552F",
+          "bgColor": null,
+          "source": "scripts/check-icon.mjs exact match"
+        }
+      },
+      "unverified": [
+        "Exact current Ship/Promote paid plan prices — official pricing page returned 404; search results showed conflicting, apparently outdated figures ($59-$249/mo depending on source, from 2017-era reporting)",
+        "Terms of service content — /terms-of-service and /legal/terms-of-use both returned 404, so commercial-use/listing restrictions could not be confirmed",
+        "Company/operator name (parent company) not confirmed from a first-party page in this session"
+      ]
+    },
+    "product-launch-videos": {
+      "researchedOn": "2026-10-23",
+      "verdict": "skip",
+      "verdictReason": "Flowjam's actual product is a bespoke launch-video production service starting at $20,000 per project with no recurring plan; the /library page is a free marketing gallery/portfolio, not a usable free tier of a product, so it does not meet RL's real-permanent-free-tier bar.",
+      "site": {
+        "name": "Flowjam",
+        "url": "https://www.flowjam.com",
+        "alive": true,
+        "operator": "Adam Petty (founder, per site content)"
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "$20,000 one-time project fee for the 'Launch Video' plan (no retainer, ~3 week timeline)",
+        "evidence": {
+          "url": "https://www.flowjam.com/pricing",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "not read — terms/license page not fetched since verdict is skip",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.flowjam.com",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "No independent (second-hand) corroboration found of Flowjam's reputation; web search for scam/malware/shutdown/acquisition returned no relevant results either way",
+        "License/terms page not checked, not needed given skip verdict"
+      ]
+    },
+    "prompt-motion": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Prompt Motion",
+        "url": "https://prompt-motion.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "The entire gallery, prompt templates, 'customize a prompt' feature, blog and submission form are presented with no pricing, paywall or account requirement found anywhere on the site.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://prompt-motion.com",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "unknown · commercial: unknown · attribution: unknown · no terms/privacy/about page found (/terms, /privacy, /about all 404)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://prompt-motion.com/terms",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "prompt-motion",
+        "type": "Website",
+        "category": "Design",
+        "title": "Prompt Motion",
+        "description": "Gallery of AI-generated motion design videos, each paired with the exact prompt and skill used to create it.",
+        "tags": [
+          "ai-tool",
+          "inspiration",
+          "video-template",
+          "visual-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Browsable gallery of motion videos filterable by style (product UI, kinetic type, charts, particles)",
+          "Every video links to the underlying AI prompt and skill used to generate it",
+          "Ready-made prompt templates, including a three.js 3D template and a showreel prompt",
+          "'Customize a prompt' option to adapt an existing prompt to a new idea",
+          "Blog covering motion-design technique and prompt-writing",
+          "Open submission form for creators to add their own prompt-made videos"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "scripts/check-icon.mjs: no exact or usable fuzzy match in Simple Icons (closest result 'R' is not relevant); site SVG not extracted — needs manual sourcing"
+        }
+      },
+      "unverified": [
+        "Operator/company behind the site not identified from any first-party page",
+        "No terms, privacy or about page reachable (/terms, /privacy, /about all 404) — commercial-use and listing restrictions unknown",
+        "Icon/logo asset not sourced; needs manual follow-up before listing can ship with a real icon",
+        "Second-hand corroboration (scam/shutdown/acquired search) returned no results at all for this domain, so reputation is effectively unverified beyond 'nothing negative found'"
+      ]
+    },
+    "prompthub": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "PromptHub",
+        "url": "https://www.prompthub.us",
+        "alive": true,
+        "operator": "Tethered Software Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Unlimited team seats and unlimited public prompts, 2,000 requests/month, 10 prompt enhancements/month, limited API access; no private prompts (all prompts public) on the free plan",
+        "paidFrom": "Pro plan $12/mo billed monthly (or $9/mo billed yearly) — adds private prompts, 1 seat, full API access, 10,000 requests/mo, 200 prompt enhancements/mo",
+        "evidence": {
+          "url": "https://www.prompthub.us/pricing",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "PromptHub ToS (Tethered Software Inc.) · commercial: no (resale/exploitation of the service itself is barred without written permission; using the product commercially within your own team/app is fine) · attribution: not required · limit: no reselling, reproducing or exploiting any part of the Application/Service without prior written permission",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.iubenda.com/terms-and-conditions/99851425",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "prompthub",
+        "type": "AI Tool",
+        "category": "Development",
+        "title": "PromptHub: Team Prompt Management Platform",
+        "description": "Git-style version control, side-by-side model testing, evaluations and an API for teams building and deploying AI prompts.",
+        "tags": [
+          "ai-tool",
+          "automation",
+          "collaboration",
+          "productivity"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Git-style prompt versioning with branch-based deployment",
+          "Side-by-side testing of prompts across multiple AI models",
+          "Batch evaluations and prompt chaining/pipelines",
+          "AI-assisted prompt generation and enhancement",
+          "API to pull live prompts into production apps",
+          "Deploy prompts as shareable forms, with Zapier connections"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no exact or usable fuzzy match in Simple Icons (closest result was an unrelated single-letter icon); needs a site-sourced SVG or owner decision"
+        }
+      },
+      "unverified": [
+        "Whether the free plan's 2,000 requests/month resets monthly or is a rolling allowance",
+        "Exact difference between 'limited API access' (free) and 'full API access' (paid) beyond the request caps stated",
+        "Whether annual Pro billing is paid upfront annually or month-to-month at the discounted rate"
+      ]
+    },
+    "promptsref": {
+      "researchedOn": "2026-10-23",
+      "verdict": "skip",
+      "verdictReason": "No permanent free tier — only a one-time 68-credit signup bonus with no stated recurring allowance; all subscription tiers (Basic $6/mo and up) and pay-as-you-go packs are paid.",
+      "site": {
+        "name": "Promptsref",
+        "url": "https://promptsref.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "Basic plan US$6/mo billed monthly (or US$72/yr), 9,600 credits/mo; also a one-time pay-as-you-go pack of US$10 for 700 credits",
+        "evidence": {
+          "url": "https://promptsref.com/pricing",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Promptsref ToS · commercial: restricted (no reselling/redistributing paid library content without written permission; no stated restriction on free/own generations) · attribution: not specified · limit: public creations (including from free/PAYG accounts) may be used by the company for marketing showcases",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://promptsref.com/privacy-policy",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "unverified": [
+        "Whether the 68-credit free signup bonus is truly one-time or occasionally reissued",
+        "Operator/company name behind the site (not stated on pages read)",
+        "Exact credit-to-output ratio for each supported model beyond the one example (GPT Image 2 ~12 credits/image, by calculation, not stated by the site)"
+      ]
+    },
+    "promptwatch": {
+      "researchedOn": "2026-10-23",
+      "verdict": "skip",
+      "verdictReason": "Resolved to promptwatch.com (AI search visibility / GEO platform); no confirmed usable free plan — pricing page shows only a 7-day free trial on paid plans ($95/mo and up) and an undocumented $0 'Explore' entry with no listed features, so treated as trial/paid-only.",
+      "site": {
+        "name": "Promptwatch",
+        "url": "https://promptwatch.com",
+        "alive": true,
+        "operator": "Promptwatch B.V."
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "Essential plan $95/month billed monthly (7-day free trial, not a permanent free tier); Professional $245/mo, Business $579/mo, Enterprise custom",
+        "evidence": {
+          "url": "https://promptwatch.com/pricing",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://promptwatch.com/pricing",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "Whether the site had a genuinely different, older product matching the name 'Promptwatch' at this URL in the past (e.g. the PyPI PromptWatch.io LLM-chain debugging library, or an unrelated Apple Watch app) — multiple unrelated products share this name; promptwatch.com (AI search/GEO platform) was judged the best match for 'AI prompt tool' per the brief but this could not be fully disambiguated against the owner's actual intent",
+        "Terms of Service / legal page URL and content — no footer link to Terms/Privacy/Legal could be found on the home or pricing pages, so license terms were not read",
+        "What, if anything, the $0 'Explore' plan actually includes — it appears in pricing structured data only, with no visible description on the page"
+      ]
+    },
+    "proofrr": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Proofrr",
+        "url": "https://proofrr.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan: 1 user, 250MB storage, 2 projects, 2 creatives, 1 document, plus Project Manager, Notepad and Task Tracker features. Not a trial.",
+        "paidFrom": "Lite plan $15/mo (2 users, 1GB storage, 2 projects, 10 creatives, 5 documents)",
+        "evidence": {
+          "url": "https://proofrr.com/pricing",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proofrr Terms & Conditions · commercial: yes · attribution: not required · no clause restricting third-party listing/linking; ToS forbids scraping/reverse-engineering Proofrr's own infrastructure",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://proofrr.com/terms",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "proofrr",
+        "type": "AI Tool",
+        "category": "Design",
+        "title": "Proofrr - Creative Review & Approval Workspace",
+        "description": "A shared workspace for design teams and clients to comment on, approve, and deliver creative work, with AI insights alongside files and chat.",
+        "tags": [
+          "ai-tool",
+          "design-systems",
+          "collaboration",
+          "ui-ux",
+          "project-management"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Contextual commenting directly on designs, screens, or prototypes",
+          "Centralized approval workflow for client and team sign-off",
+          "AI-generated insights on feedback and review activity",
+          "Integrations with Figma, Slack, Google Drive, Dropbox, and Notion",
+          "Real-time collaboration for faster review cycles",
+          "Free plan with limited projects, storage, and documents"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "node scripts/check-icon.mjs \"Proofrr\" -> not found in Simple Icons (closest fuzzy matches fsharp, r, not usable); no logo asset fetched per untrusted-SVG rule"
+        }
+      },
+      "unverified": [
+        "Company/operator name behind Proofrr not stated on site",
+        "Whether yearly billing is offered/discounted for paid plans not shown on pricing page",
+        "Exact wording of 'Task Tracker' vs 'Native Chat' feature differences across plans (table normalized, not verbatim)"
+      ]
+    },
+    "propal": {
+      "researchedOn": "2026-10-23",
+      "verdict": "skip",
+      "verdictReason": "Resolved to propal.io (AI proposal tool for agencies/freelancers); pricing page confirms only a 7-day free trial, no permanent free tier, so it fails the real-free-tier requirement for listing.",
+      "site": {
+        "name": "Propal",
+        "url": "https://propal.io",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "Starter $29.99/user/mo billed monthly, or $23.99/member/mo billed yearly",
+        "evidence": {
+          "url": "https://propal.io/pricing",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "not read (verdict is skip; terms page not fetched since pricing already disqualified listing)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://propal.io/pricing",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "unverified": [
+        "Site identity was resolved via web search (slashdot/capterra listings pointed to propal.io) rather than a given URL; home page fetch confirmed brand name and tagline match the researched tool",
+        "A third-party listing (trustmrr.com) claims the founder is selling the company; not confirmed first-party, logged as second-hand and not used in the verdict"
+      ]
+    },
+    "proportio": {
+      "researchedOn": "2026-10-23",
+      "verdict": "blocked",
+      "verdictReason": "proportio.app returns only the bare domain string with no body text, headings, nav, or footer content on repeated fetches of both the home page and /pricing (which 404s) - an empty/JS-only page that could not be read first-party.",
+      "site": {
+        "name": "Proportio",
+        "url": "https://proportio.app",
+        "alive": null,
+        "operator": null
+      },
+      "unverified": [
+        "Could not determine what Proportio does, its pricing, or its license/terms - home page content did not render via fetch and /pricing returned 404",
+        "Web search for \"proportio.app\" / \"Proportio\" tool pricing returned no relevant results, so identity could not be corroborated second-hand either"
+      ]
+    },
+    "protaige": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Protaigé",
+        "url": "https://www.protaige.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Campaign Free ($0/mo): 100 Sparks (credits) per month, 1 brand (Brand DNA), Sketch Studio access, 1 trial video, 1 user seat. No expiry stated.",
+        "paidFrom": "Campaign Lite at $30/month (billed monthly): 300 Sparks/month, up to 5 users",
+        "evidence": {
+          "url": "https://www.protaige.com/pricing",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Protaigé Terms of Service · commercial: yes (campaign outputs exclusively yours to use/transfer/sublicense, §9.2) · attribution: not required · limit: no bots/scrapers that disrupt service and no reverse-engineering/cloning of the platform (§3.9, §9.1)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.protaige.com/terms-of-service",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "protaige",
+        "type": "AI Tool",
+        "category": "Marketing",
+        "title": "Protaigé - AI marketing campaigns from brief to creative",
+        "description": "AI marketing platform where an assistant called Maia turns a single brief into finished, on-brand creative across channels using a shared Brand DNA profile.",
+        "tags": [
+          "ai-tool",
+          "automation",
+          "social-media-design",
+          "visual-design",
+          "writing"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Maia AI assistant plans and produces campaign creative from one brief, with less manual prompting than a typical AI copilot",
+          "Brand DNA stores brand voice, products, personas, and visual identity, and applies it automatically to generated work",
+          "Sketch Studio for producing on-brand visual assets",
+          "Free plan includes 100 Sparks (credits) per month, one brand profile, and one trial video",
+          "Paid Campaign Lite tier adds more Sparks, video generation, and multi-user seats"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "scripts/check-icon.mjs: no exact Simple Icons match for \"Protaige\" (closest fuzzy hits were unrelated single-letter icons); site uses a custom wordmark, no obvious brand SVG confirmed"
+        }
+      },
+      "unverified": [
+        "Operator/parent company behind Protaigé is not named on the site content read",
+        "Whether the 150 signup-bonus Sparks mentioned in the pricing FAQ is one-time or recurring",
+        "Annual billing price for Campaign Lite (only monthly price shown)"
+      ]
+    },
+    "proton-meet": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Proton Meet",
+        "url": "https://proton.me/meet",
+        "alive": true,
+        "operator": "Proton AG"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Meet Free ($0): 60-minute meetings, up to 50 participants, up to 5 meeting links per day, always end-to-end encrypted. Available on every Proton account, free or paid.",
+        "paidFrom": "Meet Professional at $7.99/month billed yearly ($95.88/12 months); no monthly-billing price shown. Adds 24-hour meetings, up to 100 participants, unlimited meetings/day, and recording.",
+        "evidence": {
+          "url": "https://proton.me/meet/pricing",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proton Terms & Conditions · commercial: limited (no reselling/sublicensing or making the Service available to third parties without written authorization, §2) · attribution: not required · limit: cannot share account credentials or trade/sell an account except Lifetime Accounts via the Company",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://proton.me/legal/terms",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "proton-meet",
+        "type": "App",
+        "category": "Productivity",
+        "title": "Proton Meet - end-to-end encrypted video calls",
+        "description": "Privacy-focused video conferencing from Proton with end-to-end encrypted calls, screen sharing, and a generous free plan for up to 50 guests.",
+        "tags": [
+          "collaboration",
+          "productivity",
+          "web",
+          "mac",
+          "windows"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "End-to-end encrypted video calls, screen sharing, and in-call chat",
+          "Guests can join by link without creating a Proton account",
+          "Free on every Proton plan: 60-minute calls with up to 50 participants",
+          "Paid Professional tier unlocks 24-hour meetings, up to 100 participants, and recording",
+          "Syncs with Proton Calendar for scheduling, plus host controls like background blur, noise reduction, and removing/locking participants",
+          "Available via browser, desktop, and mobile apps"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "proton",
+          "fillColor": "#6D4AFF",
+          "bgColor": null,
+          "source": "scripts/check-icon.mjs exact match: Proton"
+        }
+      },
+      "unverified": [
+        "No existing Proton-branded entry found in RL via rl-index.mjs --find \"proton\", so this is treated as a standalone first Proton listing rather than a sibling of an existing entry",
+        "Exact monthly (non-yearly-billed) price for Meet Professional is not shown on the pricing page"
+      ]
+    },
+    "protopie": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "ProtoPie",
+        "url": "https://www.protopie.io",
+        "alive": true,
+        "operator": "Studio XID Korea Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan: 2 prototypes saved in Cloud, 8 scenes per prototype, 50MB cloud storage, personal libraries. No expiry stated.",
+        "paidFrom": "Basic plan at $25/month for 1 seat (monthly billing); yearly billing advertised as saving up to 26% but exact yearly price not shown on page",
+        "evidence": {
+          "url": "https://www.protopie.io/plans",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "ProtoPie Terms of Service (Studio XID) · commercial: limited (license for personal use or internal business purposes only, §5.1; redistribution of the Software/Services prohibited, §6.4) · attribution: required on copies of the Software (keep copyright/proprietary notices, §5.4-5.5) · limit: software is licensed, not sold, and may bundle third-party open-source components under their own licenses",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.protopie.io/legal/terms-of-service",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "protopie",
+        "type": "Tool",
+        "category": "Design",
+        "title": "ProtoPie - high-fidelity interactive prototyping",
+        "description": "Prototyping tool for building realistic, interactive mockups with logic, variables, sensors, and AI-generated interactions, no code required.",
+        "tags": [
+          "prototyping",
+          "ui-ux",
+          "no-code",
+          "design-systems"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "AI generates interactions that can be refined without spending extra credits",
+          "Logic, variables, and formulas drive dynamic, stateful prototype behavior",
+          "Imports designs from common design tools",
+          "Supports multi-device and cross-device interactions plus native device sensors and voice input",
+          "Free plan allows 2 cloud-saved prototypes with up to 8 scenes each and 50MB storage",
+          "Paid Basic plan ($25/mo) adds more prototypes, AI credits, shareable links, and no-watermark output"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "scripts/check-icon.mjs: no exact Simple Icons match for \"ProtoPie\" (closest fuzzy hits were unrelated single-letter/Pi icons); would need the site's own logo SVG"
+        }
+      },
+      "unverified": [
+        "Exact yearly-billed price for the Basic plan is not shown (only the \"up to 26% savings\" claim)",
+        "Whether AI credits and no-watermark output are included at the Basic tier or only above it (page groups them under \"Basic plan\" features generally)"
+      ]
+    },
+    "pryzm": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Pryzm",
+        "url": "https://pryzm.design",
+        "alive": true,
+        "operator": "Ava Thiery"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Forever-free tier: PNG export at preview size without a watermark, plus video-loop export with a watermark.",
+        "paidFrom": "$9/month (Pro), or annual billing with 3 months free, billed via Polar, cancel anytime",
+        "evidence": {
+          "url": "https://pryzm.design",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Pryzm custom terms · commercial: yes (personal and commercial projects) · attribution: not required · limit: exported assets cannot be resold/redistributed as standalone stock",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://pryzm.design/terms",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "pryzm",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Pryzm – Generate Unique Backgrounds & Animated Loops",
+        "description": "Browser tool that generates original background images and animated loops for sites, decks, and social posts, with a free export tier.",
+        "tags": [
+          "graphic-design",
+          "visual-design",
+          "web",
+          "inspiration"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Generates original background images and animated loops directly in the browser",
+          "Free tier exports a watermark-free PNG at preview size, plus a watermarked video loop",
+          "Paid Pro tier removes the watermark and unlocks higher resolution, longer loops, and embed code",
+          "Exports are usable in personal and commercial work but not resellable as standalone stock",
+          "Pro billing runs through Polar, cancelable anytime, with a 7-day refund window"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact or usable fuzzy match in Simple Icons (check-icon.mjs returned exit 1, closest match 'r' is unrelated); no site SVG logo retrieved — needs a logo asset decision."
+        }
+      },
+      "unverified": [
+        "Exact resolution/length limits of the paid Pro export were not itemized beyond 'higher resolutions, longer loops, and embed code'",
+        "Annual price amount not confirmed, only that it is monthly price with 3 months free",
+        "Whether the tool uses AI/generative models under the hood is not stated on the page"
+      ]
+    },
+    "psychology-of-design": {
+      "researchedOn": "2026-10-23",
+      "verdict": "needs-owner",
+      "verdictReason": "Growth.Design's site-wide Terms of Service require organizations to request written permission (allow 2-3 weeks) before linking to the site at all, and separately prohibit commercial/public use of its content without written consent — an unusual clause that directly affects whether RL may list/link it.",
+      "site": {
+        "name": "Psychology of Design (Growth.Design)",
+        "url": "https://growth.design/psychology/",
+        "alive": true,
+        "operator": "Growth·Design inc. (Montreal)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "The Psychology of Design cheat sheet (106 cognitive biases/principles) is free to browse; site shows a 'Subscribe (Free)' option. A separate paid 'Product Psychology' course exists with 'essential'/'complete' plans, but no price is listed on this page.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://growth.design/psychology/",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Growth Design Inc. custom ToS · commercial: no (written permission required for commercial/public reuse and for organizational linking) · attribution: not applicable (linking is itself gated) · limit: approval process (~2-3 weeks) required before an organization may link to the site",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://growth.design/terms-privacy",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "unverified": [
+        "Whether RL's simple directory-style hyperlink (no framing, no logo use, plain text link) would actually require the stated approval process, or whether that clause targets deeper content reuse/syndication — ToS text is ambiguous on this",
+        "Price of the paid 'Product Psychology' course / 'essential' vs 'complete' plans",
+        "No separate pricing or FAQ page was found distinct from the combined terms-privacy page"
+      ]
+    },
+    "pttrns": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Pttrns",
+        "url": "https://www.pttrns.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire site is free with no credit card required; site states 'No trial, no upgrade, nothing held back.' Legacy paid-plan pricing still appears on the pricing section but the page notes there are now no paid plans.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.pttrns.com",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Pttrns custom terms · commercial: no (site content not for commercial reuse without authorization) · attribution: not required · limit: featured designs remain the IP of their original creators; no restriction found on linking to the site itself",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.pttrns.com/privacy",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "pttrns",
+        "type": "Resource",
+        "category": "Design",
+        "title": "Pttrns – Mobile UI Design Pattern Gallery",
+        "description": "Free, curated gallery of real mobile app screens organized by UI pattern, for browsing interaction and interface design inspiration.",
+        "tags": [
+          "ui-ux",
+          "inspiration",
+          "ios",
+          "android"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Curated screenshots from real mobile apps organized by UI pattern and interaction type",
+          "Browsable/searchable by pattern category to find inspiration for a specific screen or flow",
+          "Completely free with no account, credit card, or trial limits",
+          "Accepts community submissions of mobile patterns for publication",
+          "Covers both iOS and Android app examples"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact or usable fuzzy match in Simple Icons (check-icon.mjs returned exit 1, closest match 'r' is unrelated); no site SVG logo retrieved — needs a logo asset decision."
+        }
+      },
+      "unverified": [
+        "No named operator/company behind Pttrns was found on the site",
+        "Legacy pricing table still visible on the page despite the free-only claim; not fully reconciled",
+        "Update frequency / how actively new patterns are added was not stated"
+      ]
+    },
+    "publer": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Publer",
+        "url": "https://publer.com",
+        "alive": true,
+        "operator": "Kalemi Code (per Terms of Service; site also lists CAKE-style branding is not applicable here)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free forever plan: 1 user, 1 workspace, 3 social accounts (Twitter/X not supported on free), 10 scheduled posts per account, 25 saved drafts, 24-hour post history, free trial access to most paid features without a credit card.",
+        "paidFrom": "Professional plan, lowest tier shown on the live pricing calculator at publer.com/plans; exact dollar figure did not render in static page fetch (JS-driven, geo-priced). Second-hand sources (Capterra, Blotato, SocialChamp, dated 2026) converge on about $5/month billed monthly (~$4/month billed yearly) for 1 social account on Professional, scaling up per extra account; Business starts around $10/month (~$8/month yearly). Treat these numbers as unverified estimates, not first-party.",
+        "evidence": {
+          "url": "https://publer.com/pricing",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Publer Terms of Service (operator: Kalemi Code) · commercial: yes (product is sold for business use) · attribution: not required · limit: no scraping/deep-linking/automated access to the Service",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://publer.com/terms",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "publer",
+        "type": "Software",
+        "category": "Marketing",
+        "title": "Publer",
+        "description": "Social media scheduler for planning, publishing, and analyzing posts across multiple platforms from one calendar.",
+        "tags": [
+          "automation",
+          "collaboration",
+          "productivity"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Drag-and-drop calendar for scheduling posts across Facebook, Instagram, LinkedIn, TikTok, X, Threads, Bluesky, Mastodon, Pinterest, YouTube, and more",
+          "Bulk scheduling via CSV for up to 500 posts at once",
+          "AI-assisted caption, hashtag, and bio generation tools",
+          "Team workspaces with approval workflows for agencies and multi-brand accounts",
+          "Content recycling to reschedule top-performing posts automatically",
+          "Built-in analytics for engagement and best-time-to-post insights"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons has no exact match for Publer (check-icon.mjs: not found, closest fuzzy matches irrelevant); needs a site SVG or manual icon decision before draft."
+        }
+      },
+      "unverified": [
+        "Exact lowest paid price in USD (static fetch of publer.com/pricing did not expose the numeric figures; they are populated client-side, likely geo-priced). Second-hand estimate: ~$5/month (Professional, 1 account, billed monthly).",
+        "Whether 'Kalemi Code' is Publer's full/official legal operator name or a DBA; only source is the Terms of Service page text."
+      ]
+    },
+    "public-work": {
+      "researchedOn": "2026-10-23",
+      "verdict": "blocked",
+      "verdictReason": "Home page (served at public.work, which 301-redirects to the canonical www.cosmos.so/public-work shell) rendered usable marketing copy, but every deeper route (pricing/explore/start/terms-of-service) also 301s to that same root URL and the static HTML returned there contains no actual page body for those routes (client-side-rendered SPA, JS not executed by fetch tools) — confirmed by direct curl of https://public.work/pw-terms-of-service, which returned only a near-empty shell with the nav label 'Terms of Service' and no clause text. Could not verify license/ToS content or pricing/free-tier limits as required, so the tool is blocked rather than listed.",
+      "site": {
+        "name": "Public Work",
+        "url": "https://public.work",
+        "alive": true,
+        "operator": "Cosmos (site footer/branding: \"Powered by Cosmos\"); public.work appears to be a Cosmos-run product"
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": "Home page states search is usable without an account; signing up ('Sign up to search deeper, save what you find, and build your taste profile') unlocks more, but no pricing page content could be read to confirm whether any tier is paid.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://public.work",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Could not be read — Terms of Service route returns an empty client-rendered shell, no clause text retrievable",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://public.work/pw-terms-of-service",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "Whether Public Work has a genuine permanent free tier vs. a sign-up-gated limited search (home page implies free search exists, but no pricing page was reachable)",
+        "Full Terms of Service content — commercial-use, listing/linking restrictions, attribution requirements all unknown",
+        "Exact relationship between public.work and cosmos.so (whether Cosmos is the parent product, the operator, or a separate platform that public.work is built on)",
+        "No scam/shutdown/acquisition signal found in one web search, but this is weak given the site's thin verifiable footprint"
+      ]
+    },
+    "pumble": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Pumble",
+        "url": "https://pumble.com",
+        "alive": true,
+        "operator": "CAKE.com Inc. (CAKE.com AG as agent for users outside North America, per Terms); sister product to Clockify and Plaky, both already covered in RL's existing enum/tag set"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free plan for unlimited users: unlimited channels and message history, public/private channels, DMs, threads, quoted replies, voice/video messages, 1:1 voice/video meetings, file sharing, scheduled messages and reminders, basic workspace analytics, Slack import, content export, native Clockify/Plaky integrations, and up to 3 other app integrations. Limited to 10GB total workspace storage; screen sharing, group meetings, and advanced analytics/admin controls are paid-only.",
+        "paidFrom": "Pro plan: $2.49 per seat/month billed annually, or $2.99 per seat/month billed monthly.",
+        "evidence": {
+          "url": "https://pumble.com/pricing",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "CAKE.com Terms of Service · commercial: yes (service is explicitly for business/commercial use) · attribution: not required · limit: CAKE.com trademarks (incl. Pumble name/logo) may not be used, framed, or implied as endorsement without prior written permission",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://cake.com/terms",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "pumble",
+        "type": "Software",
+        "category": "Business",
+        "title": "Pumble",
+        "description": "Free team chat app with unlimited channels, message history, and voice/video calls for workplace communication.",
+        "tags": [
+          "collaboration",
+          "productivity"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Unlimited users, channels, and searchable message history on the free plan",
+          "Public and private channels, direct messages, threads, and quoted replies",
+          "1:1 and group voice/video calls with screen sharing (screen sharing/group calls on paid tiers)",
+          "Native integrations with Clockify and Plaky, plus support for added third-party apps",
+          "Guest access for bringing in external collaborators",
+          "Desktop, mobile, and web apps across Windows, Mac, Linux, iOS, and Android"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons has no entry for Pumble (check-icon.mjs: not found, closest fuzzy match 'e' is irrelevant); needs a site SVG or manual icon decision before draft."
+        }
+      },
+      "unverified": [
+        "Precise member/channel caps mentioned in some third-party comparison pages (e.g. 50/100-seat meeting caps) were not clearly attributable to a specific plan on the first-party pricing page's comparison table",
+        "Whether 'posting only in #general on Free' (claimed by a second-hand vendor comparison page) is accurate — pumble.com's own help-center text does not mention this restriction, so the two sources conflict"
+      ]
+    },
+    "pushkeen": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Pushkeen.AI",
+        "url": "https://pushkeen.ai",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "The entire push-notification example library and the App Icon Finder tool are free to browse with no account or signup. Monetization is via an optional 'Buy me a coffee' donation link, not a paywall.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://pushkeen.ai",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Pushkeen.AI · commercial: unclear · attribution: unclear · no terms/legal page could be found (both /terms and /legal returned 404)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://pushkeen.ai",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "pushkeen",
+        "type": "Library",
+        "category": "Design",
+        "title": "Pushkeen — push notification design library",
+        "description": "A free, browsable library of real push notification examples captured from mobile apps, organized by app, for studying re-engagement copy and UI patterns.",
+        "tags": [
+          "inspiration",
+          "ui-ux",
+          "android",
+          "ios",
+          "visual-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Searchable collection of real push notification screenshots grouped by source app",
+          "Covers many app categories: productivity, wellness, language learning, social, shopping, streaming",
+          "Free App Icon Finder tool to look up app icons",
+          "Community can request additional apps be added via a form",
+          "No account or signup required to browse"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No Simple Icons match (check-icon.mjs exit 1, only nonsense fuzzy hits like 'e'); site logo SVG was not extracted in this research pass"
+        }
+      },
+      "unverified": [
+        "No public terms/legal page found (/terms and /legal both 404) — commercial-use/licensing terms for the library content are unclear",
+        "Operator/company behind Pushkeen.AI not stated anywhere on the site",
+        "Canonical URL inferred from the domain; not explicitly stated on the page"
+      ]
+    },
+    "qarunbook": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "qarunbook (QA Runbook)",
+        "url": "https://qarunbook.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan at $0/mo, no card required: 1 app for one person, 150 checks tested per month, 30 issues raised per month, 1 AI import per month, 2 GB of screenshots/recordings, all integrations, MCP, both AI skills, and API access included. AI testing beyond that is pay-as-you-go at AI cost plus markup.",
+        "paidFrom": "$29/mo (Team plan, billed monthly; yearly billing advertised as 'two months free')",
+        "evidence": {
+          "url": "https://qarunbook.com/pricing",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "qarunbook Terms · commercial: yes (paid team plans, partner/referral program) · attribution: not required · user retains ownership of test plans/results/files; some bundled components are Apache-2.0 (Playwright, Maestro) or MIT (Midscene.js-based parts, browser extension)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://qarunbook.com/terms",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "qarunbook",
+        "type": "Tool",
+        "category": "Development",
+        "title": "qarunbook — QA test plan and bug tracking runbook",
+        "description": "A QA test-management tool for building test plans, running checks across web, Android and iOS, and tracking issues and retests, with optional AI assistance via MCP.",
+        "tags": [
+          "automation",
+          "collaboration",
+          "project-management",
+          "ai-tool"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Build and run structured test plans/checklists across web, Android, and iOS",
+          "Tracks issues and retests tied to each check",
+          "Optional AI assistant integration via MCP (Model Context Protocol)",
+          "Free plan includes API access and all integrations, not just a trial",
+          "AI-generated checklists from code, pay-as-you-go or free with your own AI key",
+          "Screenshot and recording storage attached to checks"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No Simple Icons match (check-icon.mjs exit 1, closest fuzzy hit was just 'r'); site logo SVG was not extracted in this research pass"
+        }
+      },
+      "unverified": [
+        "Exact yearly price not stated directly — only a 'two months free' discount claim on the yearly toggle",
+        "Operator/company name behind qarunbook not confirmed beyond the product name itself"
+      ]
+    },
+    "qr-code-banana": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "QR Code Banana",
+        "url": "https://qrcodebanana.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "$0 forever: unlimited static QR codes that never expire, no account required, all design options (colors, gradients, logos, frames, artistic styles), SVG/PNG/JPG export up to 2000px, no watermark, and an optional saved library if you sign in with email.",
+        "paidFrom": "$5/month (Banana Pro, billed monthly, cancel anytime)",
+        "evidence": {
+          "url": "https://qrcodebanana.com/pricing",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "QR Code Banana Terms of Service · commercial: yes, generated QR codes usable commercially without restriction · attribution: not required · you own the generated QR codes; dynamic codes stop resolving if a Pro subscription lapses",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://qrcodebanana.com/terms-of-service",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "qr-code-banana",
+        "type": "Tool",
+        "category": "Marketing",
+        "title": "QR Code Banana — free QR code generator",
+        "description": "A browser-based QR code generator for URLs, WiFi, contact cards, email, SMS and text, with free unlimited static codes and a paid tier for dynamic, trackable codes.",
+        "tags": [
+          "web",
+          "no-code"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Unlimited free static QR codes with no account or watermark",
+          "Custom styling: colors, gradients, embedded logos, frames, artistic looks",
+          "Export as SVG, PNG, or JPG up to 2000px",
+          "Paid Banana Pro tier adds editable dynamic codes, scan analytics, password protection, and scan limits",
+          "Covers URL, WiFi, vCard/business card, email, phone, SMS and plain text QR types",
+          "Generated codes are owned by the user and usable commercially without attribution"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No Simple Icons match (check-icon.mjs exit 1, only nonsense fuzzy hits like 'ana'/'c'/'d'/'r'); site logo SVG was not extracted in this research pass"
+        }
+      },
+      "unverified": [
+        "Operator/company behind QR Code Banana not stated in any fetched page"
+      ]
+    },
+    "qr-code-generator": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "QR Code Generator",
+        "url": "https://www.qr-code-generator.com",
+        "alive": true,
+        "operator": "Bitly (site states \"QRCG is part of Bitly\")"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Permanent free static QR codes only (URL, vCard, text, SMS, email, WiFi, Twitter, Bitcoin) — cannot be edited or tracked after creation. No free dynamic/trackable codes; dynamic codes require a paid plan with a 14-day trial.",
+        "paidFrom": "Starter plan, price shown as blank placeholder on pricing page (amount not disclosed in page content); billed monthly or annually; includes 2 dynamic QR codes and 10,000 scans/month.",
+        "evidence": {
+          "url": "https://www.qr-code-generator.com/pricing/",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Terms of Service page not located at a stable first-party URL in this session (guessed paths 404'd) · commercial: unverified · attribution: not confirmed · no listing/linking restriction found",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.qr-code-generator.com",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "qr-code-generator",
+        "type": "Tool",
+        "category": "Marketing",
+        "title": "QR Code Generator",
+        "description": "Bitly's QR maker: unlimited free static codes for links, text, WiFi and more, with paid plans adding editable, trackable dynamic codes.",
+        "tags": [
+          "productivity",
+          "web",
+          "automation"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Free static QR codes for URL, vCard, plain text, SMS, email, WiFi, Twitter/X and Bitcoin payloads",
+          "Paid dynamic QR codes that can be edited after printing and include scan analytics",
+          "Logo, color and frame customization on generated codes",
+          "API access for bulk QR code creation",
+          "Backed by Bitly, which also offers link shortening and analytics add-ons"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact or fuzzy Simple Icons match for 'QR Code Generator'"
+        }
+      },
+      "unverified": [
+        "Exact Starter plan price (pricing page shows a blank placeholder)",
+        "Full Terms of Service content (stable URL not found; only inferred from search snippets and homepage)",
+        "Whether the 14-day trial auto-converts to a paid subscription without separate opt-in (user complaints mention unexpected renewals, second-hand/Trustpilot, unverified)"
+      ]
+    },
+    "qr-code-tiger": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "QR Code Tiger",
+        "url": "https://www.qrcode-tiger.com",
+        "alive": true,
+        "operator": "QR TIGER PTE. LTD. (terms of acceptable use) / footer trademark credits \"QR TIGER INCORPORATED LIMITED\" — relationship between the two entity names unclear from pages read"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Permanent free plan: unlimited static QR codes plus 3 dynamic (trackable, editable) QR codes, 500 scans per dynamic code, basic scan analytics, unlimited file storage; free-tier codes show a QR TIGER logo popup.",
+        "paidFrom": "Regular plan, US$7/month (monthly/annual toggle shown on page; annual price not displayed in fetched content).",
+        "evidence": {
+          "url": "https://www.qrcode-tiger.com/payment",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "QR TIGER Terms of Acceptable Use · commercial: not expressly banned (restricts unauthorized advertising/promotion and service-bureau use) · attribution: not required · no listing/linking-in-a-directory restriction found",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://qrcode-tiger.com/term-acceptable-use",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "qr-code-tiger",
+        "type": "Tool",
+        "category": "Marketing",
+        "title": "QR Code Tiger",
+        "description": "QR code generator with logo/color customization, a free tier of 3 trackable dynamic codes, plus bulk generation, API and an MCP server.",
+        "tags": [
+          "productivity",
+          "web",
+          "automation",
+          "no-code"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Free permanent tier with unlimited static codes and 3 trackable/editable dynamic QR codes (500 scans each)",
+          "25 QR code types including URL, vCard, file, WiFi, menu and social media codes",
+          "Logo and design customization on generated codes",
+          "Bulk generation of up to 3,000 codes at once, plus an API and an MCP server",
+          "Scan analytics (counts, time, location, device) and integrations with Zapier, HubSpot, Canva and GA4"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact or fuzzy Simple Icons match for 'QR Code Tiger'"
+        }
+      },
+      "unverified": [
+        "Annual price for the Regular plan (page has a monthly/annual toggle but annual figure wasn't visible in fetched content; a secondhand blog snippet said $65/year)",
+        "Exact relationship between 'QR TIGER PTE. LTD.' (terms) and 'QR TIGER INCORPORATED LIMITED' (homepage trademark credit)",
+        "Independent security report (CyberInsider, secondhand) describing a custom-domain takeover risk when a branded QR domain is abandoned — not confirmed first-party or whether fixed"
+      ]
+    },
+    "qrcode-chimp": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "QRcodeChimp",
+        "url": "https://www.qrcodechimp.com",
+        "alive": true,
+        "operator": "QRcodeChimp (contact: support@qrcodechimp.com; operating company name not stated on pages read)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Permanent \"Free Forever\" plan at $0/month: unlimited static QR codes, 10 dynamic QR codes, 1,000 scans/month combined, 1 digital business card, 5 form responses/month, basic analytics, 1 account, 2 folders, 1024x1024 max download resolution, 2MB max upload.",
+        "paidFrom": "Starter plan, US$9.99/month billed monthly or US$6.99/month billed yearly; includes 50 dynamic QR codes and 10,000 scans/month.",
+        "evidence": {
+          "url": "https://www.qrcodechimp.com/pricing",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Terms of Service page not located at a stable first-party URL; help-center article confirms commercial use is allowed · commercial: yes · attribution: required (credit or link to QRcodeChimp on generated codes) · no restriction found on listing/linking the tool itself in a directory",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://help.qrcodechimp.com/article/281-can-i-use-the-qr-codes-generated-in-the-qrcodechimp-platform-for-commercial-purposes",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "qrcode-chimp",
+        "type": "Tool",
+        "category": "Marketing",
+        "title": "QRcodeChimp",
+        "description": "QR code platform for business cards, menus and campaigns, with a free tier of 10 trackable dynamic codes plus analytics and bulk tools.",
+        "tags": [
+          "productivity",
+          "web",
+          "automation"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Free permanent tier with unlimited static codes and 10 trackable/editable dynamic QR codes (1,000 scans/month combined)",
+          "Shape, color, logo and sticker customization, including a 3D code effect",
+          "Scan tracking by time, location and device, with folders for organization",
+          "Bulk upload/download via spreadsheet, exporting as ZIP or PDF",
+          "Templated solutions: digital business cards, vCard Plus, PDF, Google Maps/Review links and landing pages",
+          "States SOC 2 Type II certification, encryption, MFA and GDPR compliance"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact or fuzzy Simple Icons match for 'QRCode Chimp'"
+        }
+      },
+      "unverified": [
+        "Full Terms of Service content (stable URL not found; relied on a help-center article for the commercial-use/attribution clause)",
+        "Operating company/legal entity name behind QRcodeChimp",
+        "SOC 2 Type II and GDPR compliance claims are self-reported on the pricing/homepage; not independently verified"
+      ]
+    },
+    "qrcode-monkey": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "QRCode Monkey",
+        "url": "https://www.qrcode-monkey.com",
+        "alive": true,
+        "operator": "QRCode Monkey GmbH, Pariser Str. 47, 10719 Berlin, Germany (HRB 40482, Dresden)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Fully free static QR code generator: custom colors, logos, frames, high-res PNG/SVG/PDF/EPS export, no account required; first-party copy states it 'can be used for commercial and print purposes'. No pricing/plans page exists on the site itself — there is no paid tier hosted by QRCode Monkey.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.qrcode-monkey.com",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No formal license; free generator · commercial: yes (site states codes usable for commercial/print purposes) · attribution: not required · site's own page content (not QR codes) is restricted to private non-commercial copying per Imprint",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.qrcode-monkey.com/en/imprint",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "qrcode-monkey",
+        "type": "Tool",
+        "category": "Marketing",
+        "title": "QRCode Monkey — Free Custom QR Code Generator",
+        "description": "Free browser-based QR code generator with custom colors, logos, and frames. Static codes, high-res export, no account needed, free for commercial/print use.",
+        "tags": [
+          "graphic-design",
+          "print-design",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Custom QR code colors, patterns, logos, and frame styles",
+          "High-resolution export as PNG, SVG, PDF, or EPS",
+          "Free for commercial and print use with no account required",
+          "Adjustable error-correction level to keep codes scannable with logo overlays",
+          "Supports URL, vCard, WiFi, email, SMS, and other QR content types",
+          "Separate paid API/dynamic-QR product offered via a partner site (app.qr-code-generator.com), not required for the free static generator"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no exact match in Simple Icons (check-icon.mjs); no site SVG sourced"
+        }
+      },
+      "unverified": [
+        "No dedicated /pricing, /terms, or /faq pages resolved on the site (all returned 404) — free-tier and commercial-use claims are based on homepage marketing copy and the Imprint page only.",
+        "Whether dynamic/trackable QR codes exist directly on qrcode-monkey.com or only via the linked partner (app.qr-code-generator.com) was not independently confirmed beyond the linked signup URLs seen in page source."
+      ]
+    },
+    "qrkit": {
+      "researchedOn": "2026-10-23",
+      "verdict": "blocked",
+      "verdictReason": "Could not confidently resolve a real website: web search only surfaces an Apple App Store listing (iOS app 'QR Code Generator - QRKit', developer MasterMind Software LLC) plus a privacy/terms page on a mismatched domain (mdssoftware.co vs. a contact email on mastermindsoftware.co); no dedicated QRKit web tool/homepage found to apply the pricing/terms/free-tier checks to.",
+      "site": {
+        "name": "QRKit (QR Code Generator - QRKit, iOS app)",
+        "url": null,
+        "alive": null,
+        "operator": "MasterMind Software LLC (per App Store listing)"
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://apps.apple.com/us/app/qr-code-generator-qrkit/id1552588126",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": null,
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "No official QRKit website found — only an Apple App Store listing and a privacy/terms page on mdssoftware.co with a mismatched contact domain (mastermindsoftware.co) seen in a related CodeScan listing by the same developer.",
+        "Could not determine if there is a web-based version of this tool at all, so pricing/free-tier/license could not be checked against first-party pages per the research steps.",
+        "Could not run a dedicated scam/malware/shutdown safety search specific to a confirmed site since no site URL was resolved."
+      ]
+    },
+    "qrocodile": {
+      "researchedOn": "2026-10-23",
+      "verdict": "blocked",
+      "verdictReason": "Site renders as an empty/JS-only page via WebFetch (only the <title> tag content was retrievable, no body, navigation, footer, or links on repeated fetches of both the homepage and /pricing, which returned 404) — could not read pricing, license/terms, or confirm the operator.",
+      "site": {
+        "name": "QRocodile",
+        "url": "https://qrocodile.io",
+        "alive": null,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://qrocodile.io",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": null,
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "Homepage content could not be read beyond the page <title> ('Free QR Code Generator — Animated, 60+ Styles | QRocodile') — the page appears to be a client-side-rendered app that WebFetch cannot execute JavaScript for.",
+        "/pricing returned HTTP 404; no terms/license page could be located or read.",
+        "A web search for independent reviews found only a PeerPush listing restating the vendor's own marketing copy (free, no watermark) — treated as second-hand/unverified, not used to override the blocked verdict."
+      ]
+    },
+    "quant-ux": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Quant UX",
+        "url": "https://www.quant-ux.com",
+        "alive": true,
+        "operator": "Klaus Schaefers (per GitHub repo KlausSchaefers/quant-ux copyright notice)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Open-source and free to use: unlimited prototypes, unlimited user tests, a prototyping canvas, real-time collaboration, analytics and questionnaires. No paid plan or enterprise tier is advertised on the pricing page.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.quant-ux.com/pricing",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "GPL-3.0 (self-hosted/open source) · commercial: yes · attribution: required (must preserve copyright/license notices) · limit: copyleft — distributed modifications must also be released under GPL-3.0 with source available",
+        "openSource": true,
+        "spdx": "GPL-3.0",
+        "evidence": {
+          "url": "https://raw.githubusercontent.com/KlausSchaefers/quant-ux/master/LICENSE",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "quant-ux",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Quant UX",
+        "description": "Open-source research, usability-testing and prototyping tool for gathering data-driven feedback on designs.",
+        "tags": [
+          "prototyping",
+          "ui-ux",
+          "open-source",
+          "collaboration"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Click-through prototyping canvas for building interactive mockups",
+          "Moderated and unmoderated user testing with session recording",
+          "Built-in analytics on click paths, heatmaps and task completion",
+          "Questionnaires/surveys for collecting qualitative feedback",
+          "Real-time collaboration on shared prototypes",
+          "Self-hostable, GPL-3.0 open-source codebase"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no exact Simple Icons match (closest fuzzy: x); no site SVG asset was sourced in this research pass"
+        }
+      },
+      "unverified": [
+        "Whether Quant UX offers any paid/enterprise tier beyond the free open-source product — pricing page only describes a single free offering",
+        "Exact operator/company entity behind quant-ux.com beyond the individual GitHub copyright holder",
+        "Recent commit/release activity on the GitHub repo (commit dates were not visible in the fetched page)",
+        "Icon/logo asset — no exact Simple Icons match found; site SVG not sourced"
+      ]
+    },
+    "quarkly": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Quarkly",
+        "url": "https://quarkly.io",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free plan described as \"forever, no trial\", no credit card required: 3 projects per account, 5 pages and 5 components per project, unlimited exports, 500MB or 100 files of hosting, project access via share link, unlimited collaborators.",
+        "paidFrom": "$14/month billed annually ($168/year), or $18/month billed monthly (Basic plan)",
+        "evidence": {
+          "url": "http://quarkly.io/pricing/",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial use: not independently verified · attribution: not stated · limit: site's own /terms and /legal pages both returned 404 during this research pass, so no first-party ToS text could be read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://quarkly.io/terms",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "quarkly",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Quarkly",
+        "description": "No-code/low-code builder for websites and web apps that exports working React code, with hosting and sharing built in.",
+        "tags": [
+          "no-code",
+          "website-builder",
+          "ui-ux"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Visual drag-and-drop editor that outputs real React/JSX code",
+          "Free-forever plan covering up to 3 projects with built-in hosting",
+          "Component-based page building (5 pages/5 components per project on free plan)",
+          "Share-link project access and unlimited collaborators",
+          "Export to code with no cap on the free tier",
+          "Discord and GitHub community presence for support"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no exact Simple Icons match (closest fuzzy: r); no site SVG asset was sourced in this research pass"
+        }
+      },
+      "unverified": [
+        "Operator/company legal entity behind quarkly.io — not named on the site itself; a third-party directory (eu-startups.com, second-hand) names it as a SaaS headquartered in Limassol, Cyprus, founded Jan 2022, not confirmed first-party",
+        "Terms of Service / commercial-use and listing restrictions — /terms and /legal both 404'd during this research pass",
+        "Whether any clause restricts third-party listing/linking (could not be read)"
+      ]
+    },
+    "quick-time-converter": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Quick Time Converter",
+        "url": "https://quicktimeconverter.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Fully free web tool with no pricing page found anywhere on the site; ad-supported via Google AdSense. Lets users visually compare timezones and find meeting times with an interactive slider.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://quicktimeconverter.com",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Site Terms of Service · commercial use: restricted for reuse of site materials (\"personal, non-commercial transitory viewing only\") · attribution: not required · limit: generic boilerplate ToS language limiting re-download/reuse of site content, not a restriction on using the tool itself or on third parties linking/listing it",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://quicktimeconverter.com/terms",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "quick-time-converter",
+        "type": "Utility",
+        "category": "Productivity",
+        "title": "Quick Time Converter",
+        "description": "Free web tool to visually compare timezones side by side and find overlapping meeting times with an interactive slider.",
+        "tags": [
+          "web",
+          "productivity"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Interactive slider to compare multiple timezones at once",
+          "Visual overlap view for finding shared meeting-time windows",
+          "Time-in-a-place lookup for quick single-location checks",
+          "No account or sign-up required to use the core tool",
+          "Fully free, ad-supported (Google AdSense)"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs returned no exact match (fuzzy hits: quicktime, c, cplusplus, r, rte, v, e — none are a genuine match); no site SVG asset was sourced in this research pass"
+        }
+      },
+      "unverified": [
+        "Operator/company or individual behind quicktimeconverter.com — not named anywhere on homepage, About page, or footer (only a bare copyright line)",
+        "Icon/logo asset — no genuine Simple Icons match; site SVG not sourced",
+        "Name collision risk: despite the name, this is a timezone-comparison tool, not a file/video format converter — worth double-checking it isn't confused with unrelated 'QuickTime converter' malware-adjacent search results (those referred to unrelated file-converter sites, not this one)"
+      ]
+    },
+    "radian-ui-avatars": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list-sibling",
+      "verdictReason": "Resource section of radianui.com (not a separate domain/product), but it is a distinct, self-contained free avatar-image library worth its own entry rather than folding into a Radian UI component-library entry (which doesn't exist in RL yet).",
+      "site": {
+        "name": "Radian UI Avatars",
+        "url": "https://radianui.com/resources/avatar",
+        "alive": true,
+        "operator": "Radian UI"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All 200+ (216 counted on page) illustrated avatar images are free to browse, copy, and use; no account or payment required.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://radianui.com/resources/avatar",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No explicit license/terms page found · commercial: unclear · attribution: not stated · page is titled \"Free Open Source Avatar Library\" but links no license text",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://radianui.com/resources/avatar",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "radian-ui-avatars",
+        "type": "Icon Set",
+        "category": "Design",
+        "title": "Radian UI Avatars",
+        "description": "Free, open-source library of 200+ illustrated avatar images from Radian UI, with one-click copy and Figma/GitHub access.",
+        "tags": [
+          "icon-library",
+          "open-source",
+          "ui-ux",
+          "graphic-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "200+ hand-illustrated avatar/face images",
+          "\"Random Color\" filter for avatar variations",
+          "One-click copy-to-clipboard for each avatar",
+          "\"Copy Random Avatar\" quick-pick button",
+          "Figma preview and GitHub source available",
+          "No signup or payment required"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact or close Simple Icons match for \"Radian\"/\"Radian UI\""
+        }
+      },
+      "unverified": [
+        "No dedicated license/terms page was found; commercial-use permission is implied by \"Open Source\" wording only, not stated explicitly.",
+        "Homepage FAQ includes a question \"Is Radian UI free for commercial projects?\" but the answer text could not be retrieved (page content cut off / not rendered).",
+        "Exact avatar count: page title claims \"200+\" but the fetch counted 216 distinct images."
+      ]
+    },
+    "radix": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Radix UI",
+        "url": "https://www.radix-ui.com",
+        "alive": true,
+        "operator": "WorkOS"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "The entire library is free: unstyled accessible Primitives plus the pre-styled Themes component library, full documentation, and Figma/playground access. No paid tier exists.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.radix-ui.com",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT · commercial: yes · attribution: not required · no clause restricting redistribution or linking",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/radix-ui/themes/blob/main/LICENSE",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "radix",
+        "type": "Library",
+        "category": "Development",
+        "title": "Radix UI",
+        "description": "Open-source, accessible React component primitives and a themeable UI library for building consistent, production-ready interfaces.",
+        "tags": [
+          "design-systems",
+          "open-source",
+          "ui-ux",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Unstyled, accessible React primitives (dialogs, dropdowns, tooltips, etc.)",
+          "Pre-styled \"Themes\" component library built on top of the primitives",
+          "Built-in keyboard navigation and ARIA accessibility handling",
+          "Customizable via CSS variables and design tokens",
+          "Full documentation site and interactive playground",
+          "MIT-licensed and free for commercial use"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "radixui",
+          "fillColor": "#161618",
+          "bgColor": null,
+          "source": "check-icon.mjs exact match for \"Radix UI\""
+        }
+      },
+      "unverified": [
+        "No canonical-URL confirmation beyond the homepage itself; some internal links are relative."
+      ]
+    },
+    "random-user": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Random User Generator",
+        "url": "https://randomuser.me",
+        "alive": true,
+        "operator": "RandomAPI (designed by Arron Hunt, developed by Keith Armstrong)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Free, open API with no signup or API key required; up to 5,000 generated user records per request.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://randomuser.me",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT (API server source, RandomAPI/Randomuser.me-Node repo) · commercial: yes per MIT · attribution: not required · avatar photos are sourced from UI Faces' \"authorized\" section, with usage details deferred to the UI Faces FAQ (not independently verified)",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/RandomAPI/Randomuser.me-Node/blob/master/LICENSE",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "random-user",
+        "type": "API",
+        "category": "Development",
+        "title": "Random User",
+        "description": "Free API that generates realistic fake user profiles — names, addresses, emails, and photos — for prototyping and test data.",
+        "tags": [
+          "open-source",
+          "stock-photos",
+          "prototyping",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Generates realistic fake names, addresses, emails, logins, and phone numbers",
+          "Returns a matching randomized headshot photo per generated user",
+          "Up to 5,000 user records per API request",
+          "No API key, account, or payment required",
+          "JSON output suitable for mockups, demos, and automated tests",
+          "Open-source server code (MIT licensed)"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact or close Simple Icons match for \"Random User\"/\"randomuser\""
+        }
+      },
+      "unverified": [
+        "No explicit commercial-use or attribution statement on randomuser.me itself for the generated photos; the site defers to the UI Faces FAQ, which was not read (out of first-party scope for this tool).",
+        "Whether randomuser.me enforces any rate limiting beyond the 5,000-per-request cap was not stated on the pages read."
+      ]
+    },
+    "randoma11y": {
+      "researchedOn": "2026-10-23",
+      "verdict": "blocked",
+      "verdictReason": "Home page is an empty JS shell (WebFetch only returns the <title> tag, no body/meta/links) and pricing/terms/about pages could not be reached as first-party sources; could not verify pricing or license directly.",
+      "site": {
+        "name": "RandomA11y",
+        "url": "https://randoma11y.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://randoma11y.com",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": null,
+        "spdx": null,
+        "evidence": {
+          "url": "https://randoma11y.com",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "Home page (https://randoma11y.com) renders no readable content via WebFetch beyond the page title - likely a client-side-rendered app that needs JS execution we can't perform safely as a fetch.",
+        "Third-party sources (AlternativeTo, toolfolio.io, Smashing Newsletter) describe it as a free, open-source tool built by Components AI that generates WCAG/APCA-compliant accessible color pairs, but these are second-hand and unverified against a first-party page.",
+        "Could not confirm license terms, open-source repo URL, or whether Components AI (the stated maker) is still operating/maintaining the project.",
+        "Could not verify HTTPS cert details or check for a bot-check specifically - the issue observed was an empty/JS-only page rather than a block page."
+      ]
+    },
+    "ranked-ai": {
+      "researchedOn": "2026-10-23",
+      "verdict": "blocked",
+      "verdictReason": "\"Ranked AI\" is ambiguous - web search surfaces multiple distinct products (an SEO rank-tracking SaaS referenced only via a third-party directory listing at neura.market, a separate \"Ranked.AI\" content/backlinks service, and unrelated AI-tool ranking directories like RankMyAI and AI Got Ranked) with no official site URL found for any of them; could not confidently resolve which tool is meant or confirm a working first-party domain.",
+      "site": {
+        "name": null,
+        "url": null,
+        "alive": null,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": null,
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": null,
+        "spdx": null,
+        "evidence": {
+          "url": null,
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "No official first-party website could be found for a product unambiguously named \"Ranked AI\".",
+        "neura.market lists a \"Ranked AI\" SEO SaaS product but is itself a third-party directory, not the tool's own site, and no outbound link to an official domain was found in search results.",
+        "Could not confirm whether this is the same tool the backlog entry refers to, or a different/renamed/defunct product."
+      ]
+    },
+    "rapidnative": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "RapidNative",
+        "url": "https://www.rapidnative.com",
+        "alive": true,
+        "operator": "Shaper (per terms-and-conditions, legal contact legal@shaper.studio)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free forever, no card required: 20 AI credits/month (capped at 5/day, 10 on day one), up to 5 screens per project (login/signup screens excluded from the cap), unlimited active projects at 2 MB storage each. No React Native code export on free tier, and previews show a \"Built with RapidNative\" badge. Free projects are public by default and remixable by other users.",
+        "paidFrom": "$20/month (or $119/year) for the Starter plan, which adds code export, publishing, and more credits/storage.",
+        "evidence": {
+          "url": "https://www.rapidnative.com/pricing",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS (Shaper Terms & Conditions) · commercial: yes (internal business/personal use licensed; no reselling the service itself) · attribution: not required · limit: free-tier projects are public/remixable by default and carry a \"Built with RapidNative\" badge",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.rapidnative.com/terms-and-conditions",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "rapidnative",
+        "type": "AI Tool",
+        "category": "Development",
+        "title": "RapidNative - AI React Native app builder",
+        "description": "Describe an app in plain English, from a sketch, image or PRD, and get a working React Native/Expo app with backend, ready to export and publish.",
+        "tags": [
+          "ai-tool",
+          "no-code",
+          "prototyping",
+          "ios",
+          "android",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Generates a React Native + Expo app from a text prompt, sketch, image, or PRD",
+          "Provisions a backend alongside the app: database, authentication, and file storage",
+          "Exports real React Native code and supports publishing to the App Store and Google Play",
+          "Free tier gives 20 AI credits/month and up to 5 screens per project with no card required",
+          "Paid plans add code export, more AI credits, more storage, and removal of the free-tier badge",
+          "Offers import/conversion paths from tools like Lovable, Bolt.new, v0, Base44 and Bubble into React Native"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact Simple Icons match (closest fuzzy hits: e, d, pi, r, rapid, v, none usable). No SVG was downloaded per untrusted-fetch rules; needs manual icon sourcing from the owner or site brand-assets page (https://www.rapidnative.com/brand-assets)."
+        }
+      },
+      "unverified": [
+        "Whether 'Shaper' is RapidNative's full legal company name or just the SaaS platform brand behind it - only inferred from the terms page's legal entity references.",
+        "Exact wording of any export/scraping restriction on generated app code was not found; terms only address reselling the Service itself, not restrictions on apps built with it.",
+        "No scam/malware/shutdown signal found in a web search, but the search returned no RapidNative-specific results at all (clean, but unconfirmed by independent coverage)."
+      ]
     }
   }
 }

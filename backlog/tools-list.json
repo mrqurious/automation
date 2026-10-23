@@ -41260,7 +41260,7 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -41286,8 +41286,8 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Flowjam's actual product is a bespoke launch-video production service starting at $20,000 per project with no recurring plan; the /library page is a free marketing gallery/portfolio, not a usable free tier of a product, so it does not meet RL's real-permanent-free-tier bar.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
@@ -41442,7 +41442,7 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -41518,7 +41518,7 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -41544,8 +41544,8 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "No permanent free tier — only a one-time 68-credit signup bonus with no stated recurring allowance; all subscription tiers (Basic $6/mo and up) and pay-as-you-go packs are paid.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -41572,8 +41572,8 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Resolved to promptwatch.com (AI search visibility / GEO platform); no confirmed usable free plan — pricing page shows only a 7-day free trial on paid plans ($95/mo and up) and an undocumented $0 'Explore' entry with no listed features, so treated as trial/paid-only.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -41624,7 +41624,7 @@
           "file": "Productivity Tools for Design and Product Teams.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -41652,8 +41652,8 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Resolved to propal.io (AI proposal tool for agencies/freelancers); pricing page confirms only a 7-day free trial, no permanent free tier, so it fails the real-free-tier requirement for listing.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -41678,8 +41678,8 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "proportio.app returns only the bare domain string with no body text, headings, nav, or footer content on repeated fetches of both the home page and /pricing (which 404s) - an empty/JS-only page that could not be read first-party.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
@@ -41704,7 +41704,7 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -41756,7 +41756,7 @@
           "file": "Productivity Tools for Design and Product Teams.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -41782,7 +41782,7 @@
           "file": "Best UX Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -41860,7 +41860,7 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -41886,8 +41886,8 @@
           "file": "Learn UI_UX Design_ Courses, Guides & Best Practices.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Growth.Design's site-wide Terms of Service require organizations to request written permission (allow 2-3 weeks) before linking to the site at all, and separately prohibit commercial/public use of its content without written consent — an unusual clause that directly affects whether RL may list/link it.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
@@ -41912,7 +41912,7 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -41938,7 +41938,7 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -41964,8 +41964,8 @@
           "file": "Free Stock Images & Video Websites _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Home page (served at public.work, which 301-redirects to the canonical www.cosmos.so/public-work shell) rendered usable marketing copy, but every deeper route (pricing/explore/start/terms-of-service) also 301s to that same root URL and the static HTML returned there contains no actual page body for those routes (client-side-rendered SPA, JS not executed by fetch tools) — confirmed by direct curl of https://public.work/pw-terms-of-service, which returned only a near-empty shell with the nav label 'Terms of Service' and no clause text. Could not verify license/ToS content or pricing/free-tier limits as required, so the tool is blocked rather than listed.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
@@ -41992,7 +41992,7 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -42018,7 +42018,7 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -42044,7 +42044,7 @@
           "file": "Best UX Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -42070,7 +42070,7 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -42096,7 +42096,7 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -42122,7 +42122,7 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -42148,7 +42148,7 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -42174,7 +42174,7 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -42228,8 +42228,8 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Could not confidently resolve a real website: web search only surfaces an Apple App Store listing (iOS app 'QR Code Generator - QRKit', developer MasterMind Software LLC) plus a privacy/terms page on a mismatched domain (mdssoftware.co vs. a contact email on mastermindsoftware.co); no dedicated QRKit web tool/homepage found to apply the pricing/terms/free-tier checks to.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -42254,8 +42254,8 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Site renders as an empty/JS-only page via WebFetch (only the <title> tag content was retrievable, no body, navigation, footer, or links on repeated fetches of both the homepage and /pricing, which returned 404) — could not read pricing, license/terms, or confirm the operator.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
@@ -42280,7 +42280,7 @@
           "file": "Best UX Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -42306,7 +42306,7 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -42384,7 +42384,7 @@
           "file": "Productivity Tools for Design and Product Teams.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -42436,8 +42436,8 @@
           "file": "Free Stock Images & Video Websites _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "researched",
+      "notes": "Resource section of radianui.com (not a separate domain/product), but it is a distinct, self-contained free avatar-image library worth its own entry rather than folding into a Radian UI component-library entry (which doesn't exist in RL yet).",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
@@ -42488,7 +42488,7 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -42540,7 +42540,7 @@
           "file": "Best UX Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -42566,8 +42566,8 @@
           "file": "Best Color Tools and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Home page is an empty JS shell (WebFetch only returns the <title> tag, no body/meta/links) and pricing/terms/about pages could not be reached as first-party sources; could not verify pricing or license directly.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
@@ -42594,8 +42594,8 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "\"Ranked AI\" is ambiguous - web search surfaces multiple distinct products (an SEO rank-tracking SaaS referenced only via a third-party directory listing at neura.market, a separate \"Ranked.AI\" content/backlinks service, and unrelated AI-tool ranking directories like RankMyAI and AI Got Ranked) with no official site URL found for any of them; could not confidently resolve which tool is meant or confirm a working first-party domain.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -42620,7 +42620,7 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
