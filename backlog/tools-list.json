@@ -47006,8 +47006,8 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "researched",
+      "notes": "Free-to-browse curated gallery of web design examples; alive and HTTPS; no terms/license page restricting listing. Flag: conceptually a near-duplicate of SiteInspire (also researched this round) and of RL's existing Awwwards/Dribbble/Behance inspiration-gallery entries — owner should decide if the category needs another gallery.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
@@ -47032,8 +47032,8 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Cannot confirm a real permanent free tier: the official /pricing page returns 404, homepage CTAs only say 'free' with no plan details, and third-party directories conflict (some call it freemium, others paid-only). Treating as trial/unclear-tier rather than inventing a free-tier claim.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -47058,8 +47058,8 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Homepage loaded once, but every subsequent page (submit, sponsorship, about, privacy) consistently returned HTTP 429 across repeated attempts with a pause in between — rate-limiting/anti-scraping behavior that prevented reading pricing and terms. Not attempting to bypass per instructions.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
@@ -47110,7 +47110,7 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -47136,7 +47136,7 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -47188,8 +47188,8 @@
           "file": "Learn UI_UX Design_ Courses, Guides & Best Practices.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "The YouTube channel URL returned only generic site navigation/footer markup through the fetcher, not the channel's actual name, description, or video list, per the known limitation of this fetcher on YouTube channel pages. Could not verify what the channel is, whether it is alive, or any pricing/license facts.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
@@ -47214,7 +47214,7 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -47266,7 +47266,7 @@
           "file": "Best UX Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -47318,8 +47318,8 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Paid-only for the general public: cheapest general plan is Go at $10.75/month billed annually, and no trial is advertised on the pricing page. The only free tier (SketchUp for Schools) requires a K-12 Google Workspace for Education or Microsoft Education account, so it is not a generally accessible permanent free tier.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -47344,8 +47344,8 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "researched",
+      "notes": "Free SVG illustration library, commercial use allowed, no attribution required, no dup in RL.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
@@ -47370,8 +47370,8 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "researched",
+      "notes": "Free, open-source agent-skills directory run by Vercel; no listing restriction; no RL dup. Flagged a real safety finding in unverified.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
@@ -47448,8 +47448,8 @@
           "file": "Productivity Tools for Design and Product Teams.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "researched",
+      "notes": "Alive, HTTPS, real permanent free tier, no listing restriction found, no RL dup (checked carefully given it's a well-known platform).",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -47474,8 +47474,8 @@
           "file": "Best Design Blogs & Magazines for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "researched",
+      "notes": "Distinct URL, nav and designer audience from the main Slack entry; free content blog, alive, HTTPS, no listing restriction found.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
@@ -47502,8 +47502,8 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "No permanent free tier: homepage/pricing offers only a 14-day free trial before requiring a paid plan ($5/mo and up).",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",

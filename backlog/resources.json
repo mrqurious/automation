@@ -97475,6 +97475,768 @@
         "No canonical URL tag was found; the given www.sinwaver.com URL was used as-is.",
         "Icon not set because no exact Simple Icons match and no logo asset URL was verified; route left as none pending a manual icon decision."
       ]
+    },
+    "site-of-sites": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": "Free-to-browse curated gallery of web design examples; alive and HTTPS; no terms/license page restricting listing. Flag: conceptually a near-duplicate of SiteInspire (also researched this round) and of RL's existing Awwwards/Dribbble/Behance inspiration-gallery entries — owner should decide if the category needs another gallery.",
+      "site": {
+        "name": "Site of Sites",
+        "url": "https://www.siteofsites.co",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Browsing the gallery (611+ sites), collections, events, agency listings, blog, and glossary is free with no login required. A 'Submit' form lets designers submit their own site; no fee is shown (the submit page's full content could not be extracted — likely a client-rendered form).",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.siteofsites.co",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No dedicated terms/license page found (· /terms and /privacy both 404) · commercial-use/listing restrictions: none found · attribution: not stated",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.siteofsites.co/terms",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "site-of-sites",
+        "type": "Website",
+        "category": "Design",
+        "title": "Site of Sites — Web Design Inspiration Gallery",
+        "description": "A curated gallery of standout websites, browsable by industry, style, type, and platform, for finding web design inspiration.",
+        "tags": [
+          "inspiration",
+          "web",
+          "visual-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Curated gallery of hundreds of websites",
+          "Filter by industry, design style, site type, and platform (e.g. Webflow, Wix, Framer, Shopify)",
+          "Themed collections of sites",
+          "Agency directory and design events listings",
+          "Design glossary and blog",
+          "Open submission form for designers to add their own site"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact Simple Icons match (check-icon.mjs exit 1); first-party logo/SVG not fetched or sanitized this round — needs follow-up before publish."
+        }
+      },
+      "unverified": [
+        "Whether the designer submission form has a fee (page content was truncated/client-rendered, could not confirm)",
+        "Operator/company behind the site (only a contact email and Instagram handle were visible)",
+        "No terms/license page exists (/terms and /privacy both 404) — commercial-use stance is genuinely unconfirmed, not just unread",
+        "Icon/logo asset not sourced — route left as none pending a real favicon/logo fetch"
+      ]
+    },
+    "siteforge": {
+      "researchedOn": "2026-10-24",
+      "verdict": "skip",
+      "verdictReason": "Cannot confirm a real permanent free tier: the official /pricing page returns 404, homepage CTAs only say 'free' with no plan details, and third-party directories conflict (some call it freemium, others paid-only). Treating as trial/unclear-tier rather than inventing a free-tier claim.",
+      "site": {
+        "name": "SiteForge",
+        "url": "https://siteforge.io",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://siteforge.io/pricing",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": "SiteForge Terms of Service · commercial: not addressed explicitly (customer owns tool output, but SiteForge owns platform content/IP and may reuse customer content/data for model training and case studies) · attribution: not required · limit: content reuse clause (SiteForge may use customer results to refine its AI model and for case studies)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://siteforge.io/terms-of-service",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "unverified": [
+        "Actual pricing plans and lowest paid price — official /pricing page 404s and no price figure was found anywhere first-party",
+        "Whether the 'free' CTA is a real permanent free tier, a limited free action count, or a time-boxed trial",
+        "Third-party aggregators disagree on free-vs-paid classification, none cite a primary source",
+        "No negative safety findings (scam/malware/shutdown/acquisition) turned up in search — this is not itself a reason to list given the unresolved pricing question"
+      ]
+    },
+    "siteinspire": {
+      "researchedOn": "2026-10-24",
+      "verdict": "blocked",
+      "verdictReason": "Homepage loaded once, but every subsequent page (submit, sponsorship, about, privacy) consistently returned HTTP 429 across repeated attempts with a pause in between — rate-limiting/anti-scraping behavior that prevented reading pricing and terms. Not attempting to bypass per instructions.",
+      "site": {
+        "name": "Siteinspire",
+        "url": "https://www.siteinspire.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.siteinspire.com/sponsorship",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": "Could not read /terms, /about, or /privacy (HTTP 429 on every attempt) · commercial/listing restrictions unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.siteinspire.com/about",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "Submission fee / sponsorship pricing (site returned 429 on /submit and /sponsorship on multiple attempts)",
+        "Terms/license page content (429 on /about, /privacy)",
+        "Second-hand third-party comparison sites (not first-party, so only noted not relied on) suggest submissions are free and that Premium Profiles ($250/mo) and Job listings ($100-300/mo) are the paid offerings, but this is unconfirmed first-party and explicitly second-hand",
+        "Operator/company behind the site",
+        "No negative safety findings (scam/malware/shutdown/acquisition) turned up in search"
+      ]
+    },
+    "siter": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Siter",
+        "url": "https://siter.io",
+        "alive": true,
+        "operator": "Designmodo Inc."
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "One site at name.getsiter.com with Siter.io badge, up to 3 pages, one form (10 submissions/month, captcha), 1 GB visitor traffic/month, 14 days of cookieless analytics, 100 one-time AI credits, HTTPS, single user, hidden from search engines unless indexing is turned on. No card required.",
+        "paidFrom": "Solo plan, $7/month billed yearly (or $8/month billed monthly)",
+        "evidence": {
+          "url": "https://siter.io/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Siter.io Terms of Service · commercial: yes (paid subscriptions, auto-renewing) · attribution: not required · fair-use clause bars using the service as a file host/CDN or directing automated traffic at a site",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://siter.io/terms",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "siter",
+        "type": "AI Tool",
+        "category": "Design",
+        "title": "Siter – AI website builder for creatives",
+        "description": "Design on a free-form canvas or have AI build pages from a prompt, with per-device layouts, forms, and a free single-site tier.",
+        "tags": [
+          "website-builder",
+          "ai-tool",
+          "no-code",
+          "web",
+          "ui-ux"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Free-form visual canvas for page design",
+          "AI page generation from a text prompt, kept as editable elements",
+          "Separate layouts per device: desktop, tablet, mobile",
+          "Built-in forms with captcha protection",
+          "Cookieless visitor analytics",
+          "Publish to a getsiter.com subdomain or a connected custom domain"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no exact Simple Icons match for \"Siter\" or \"Siter.io\" (closest fuzzy hits: e, r); no verified first-party SVG was pulled in this pass"
+        }
+      },
+      "unverified": [
+        "Whether free-plan AI credits ever renew or are strictly one-time was stated once on the pricing page but not cross-confirmed on a second page",
+        "Icon/logo asset not sourced yet — needs a real iconSvg/iconUrl pull from siter.io before publish"
+      ]
+    },
+    "sitesee": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "SiteSee",
+        "url": "https://sitesee.co",
+        "alive": true,
+        "operator": "SiteSee"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "The entire gallery (browsing, filtering by category and color, Chrome extension, newsletter) is free to use; no pricing page or paid tier exists.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://sitesee.co",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "SiteSee Terms · commercial: not addressed · attribution: not required of visitors · screenshots are third-party content (\"© their respective owners\"), no license granted to reuse them",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://sitesee.co/terms",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "sitesee",
+        "type": "Website",
+        "category": "Design",
+        "title": "SiteSee – curated website design inspiration gallery",
+        "description": "A free, curated gallery of modern website screenshots you can filter by category or color, each linking through to the live site.",
+        "tags": [
+          "inspiration",
+          "web",
+          "ui-ux",
+          "design-templates"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Curated gallery of real website screenshots",
+          "Filter by site category (agency, shop, portfolio, app, and more)",
+          "Filter by dominant color",
+          "Each entry links out to the live site",
+          "Companion Chrome extension for browsing inspiration",
+          "Newsletter highlighting featured sites"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no exact Simple Icons match for \"SiteSee\" (closest fuzzy hit: e); no verified first-party SVG was pulled in this pass"
+        }
+      },
+      "unverified": [
+        "Whether the site has any sign-in/account features beyond browsing was not fully explored (home page mentions a sign-in option)",
+        "Icon/logo asset not sourced yet — needs a real iconSvg/iconUrl pull from sitesee.co before publish"
+      ]
+    },
+    "sketch-together": {
+      "researchedOn": "2026-10-24",
+      "verdict": "blocked",
+      "verdictReason": "The YouTube channel URL returned only generic site navigation/footer markup through the fetcher, not the channel's actual name, description, or video list, per the known limitation of this fetcher on YouTube channel pages. Could not verify what the channel is, whether it is alive, or any pricing/license facts.",
+      "site": {
+        "name": "Sketch Together",
+        "url": "https://www.youtube.com/channel/UCZHkx_OyRXHb1D3XTqOidRw",
+        "alive": null,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.youtube.com/channel/UCZHkx_OyRXHb1D3XTqOidRw",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.youtube.com/channel/UCZHkx_OyRXHb1D3XTqOidRw",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "Channel identity, content focus, activity status, and any monetization/pricing were all unreadable through the cloud fetcher",
+        "One safety web search for \"Sketch Together\" turned up only an unrelated Twitch streamer named Sketch, no hits on this specific channel either way"
+      ]
+    },
+    "sketchfab": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Sketchfab",
+        "url": "https://sketchfab.com",
+        "alive": true,
+        "operator": "Epic Games, Inc. (reported 2021 acquisition; exact legal entity named in site footer could not be reliably confirmed)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Basic plan, free forever: 10 uploads/month (downloads don't count toward the limit), 100MB max file size per model, 10 annotations; no private models",
+        "paidFrom": "$15/month (Pro plan, billed yearly at $180/year); month-to-month price not shown on pricing page",
+        "evidence": {
+          "url": "https://sketchfab.com/plans",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Sketchfab Terms of Service (proprietary) · commercial: no, general commercial exploitation of the Services/content is barred without prior written permission (Sec. 3.3) · attribution: not required for Sketchfab Content (creators waive right of paternity, Sec. 4.4) · scraping/mining/aggregating Sketchfab Content or User Content is prohibited (Sec. 5.13)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://sketchfab.com/terms",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "sketchfab",
+        "type": "Website",
+        "category": "Design",
+        "title": "Sketchfab",
+        "description": "Host, view, and share 3D and AR models in the browser with an embeddable viewer, plus a marketplace for buying and selling ready-made 3D assets.",
+        "tags": [
+          "stock-3d-models",
+          "collaboration",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Browser-based 3D viewer with AR and VR support for instant previewing of models",
+          "Built-in editor for lighting, materials, animation, and annotations",
+          "Team workspace for collaborating on and managing shared 3D asset libraries",
+          "Embeddable viewer widget for showcasing models on external websites",
+          "Marketplace (via Fab) for buying and selling 3D models"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "sketchfab",
+          "fillColor": "#1CAAD9",
+          "bgColor": null,
+          "source": "scripts/check-icon.mjs (exact match)"
+        }
+      },
+      "unverified": [
+        "Exact corporate operator entity named in the site footer (fetched text suggested 'KitBash SF Operations LLC', which conflicts with the widely reported 2021 Epic Games acquisition; not confirmed from a primary source)",
+        "Monthly (non-annual) Pro billing price not shown on the pricing page",
+        "bgColor for the icon not chosen/contrast-checked; left null for the owner/build step"
+      ]
+    },
+    "sketchize": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Sketchize",
+        "url": "https://sketchize.com",
+        "alive": true,
+        "operator": "Halil İbrahim Çakıroğlu (credited as creator in footer; no company entity named)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entirely free: downloadable/printable PDF wireframe sketch sheets (individual or bundled zip), no account or payment required; a 'Buy Me a Coffee' / GitHub Sponsors link is an optional donation, not a paid tier",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://sketchize.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Mixed open licenses stated in site footer · commercial: yes (SIL OFL 1.1 for the sheets, MIT for the code, and CC BY 3.0 for documentation are all commercial-use-permitting) · attribution: required under CC BY 3.0 for documentation; OFL/MIT have their own notice requirements · no clause restricting third-party listing/linking found",
+        "openSource": true,
+        "spdx": null,
+        "evidence": {
+          "url": "https://sketchize.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "sketchize",
+        "type": "Template",
+        "category": "Design",
+        "title": "Sketchize",
+        "description": "Free printable wireframe sketch sheets for phone, tablet, desktop, and browser layouts, for roughing out UI ideas by hand before going digital.",
+        "tags": [
+          "design-templates",
+          "prototyping",
+          "ui-ux",
+          "print-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Printable PDF sketch sheets pre-formatted for phone, tablet, desktop-browser, and generic sketchpad layouts",
+          "Supports fast, low-fidelity wireframing away from a screen before moving to a digital tool",
+          "Open-source sheets (SIL OFL 1.1) and code (MIT) hosted on GitHub for community contributions",
+          "Available as individual sheet downloads or one bundled zip of every sheet set",
+          "No account, install, or software needed — just download and print"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "scripts/check-icon.mjs: no exact or close match in Simple Icons; site SVG/logo not extracted or sanitized"
+        }
+      },
+      "unverified": [
+        "No dedicated terms/privacy page found beyond the footer's license notices",
+        "One 'Download All' link on the site points to a misspelled GitHub path (github.com/sefishprimate/Sketchize vs the correct github.com/selfishprimate/sketchize), so it may be broken",
+        "Icon/logo not sourced — no Simple Icons match and site SVG not fetched/sanitized"
+      ]
+    },
+    "sketchup": {
+      "researchedOn": "2026-10-24",
+      "verdict": "skip",
+      "verdictReason": "Paid-only for the general public: cheapest general plan is Go at $10.75/month billed annually, and no trial is advertised on the pricing page. The only free tier (SketchUp for Schools) requires a K-12 Google Workspace for Education or Microsoft Education account, so it is not a generally accessible permanent free tier.",
+      "site": {
+        "name": "SketchUp",
+        "url": "https://sketchup.trimble.com",
+        "alive": true,
+        "operator": "Trimble Inc. (acquired SketchUp from Google in 2012, per third-party reporting)"
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": "No generally accessible permanent free tier. 'SketchUp for Schools' is free but gated to K-12 institutions with a Google Workspace for Education or Microsoft Education account.",
+        "paidFrom": "$10.75/month (Go plan, billed annually); higher tiers Pro ($33.25/mo), Studio ($71.58/mo), plus add-ons (Scan, Civil Contractor, Advanced Workflows) and education/university pricing",
+        "evidence": {
+          "url": "https://sketchup.trimble.com/plans-and-pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary Trimble software license; commercial use requires a paid subscription (not independently verified beyond the pricing page — terms/license page not fetched given the skip verdict)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://sketchup.trimble.com/plans-and-pricing",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "Terms of service / EULA page not fetched (skip verdict reached on pricing grounds alone)",
+        "Exact Trimble legal entity name not confirmed first-party (footer was not fully captured)",
+        "Monthly (non-annual) billing prices for Go/Pro/Studio not shown on the pricing page"
+      ]
+    },
+    "sketchvalley": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": "Free SVG illustration library, commercial use allowed, no attribution required, no dup in RL.",
+      "site": {
+        "name": "SketchValley",
+        "url": "https://sketchvalley.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire illustration library (3D, hand-drawn, flat-style SVGs) and the built-in SVG editor/AI generator are free to use, with no signup required.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://sketchvalley.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "SketchValley custom license · commercial: yes · attribution: not required (appreciated but optional) · limit: illustrations can't be resold/redistributed as a standalone product (e.g. an icon pack)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://sketchvalley.com/license/",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "sketchvalley",
+        "type": "Stock Media",
+        "category": "Design",
+        "title": "SketchValley - Free 3D & Hand-Drawn SVG Illustrations",
+        "description": "A free library of 3D, hand-drawn, and flat-style SVG illustrations with a built-in editor and AI generator, usable in commercial work without attribution.",
+        "tags": [
+          "stock-illustrations",
+          "graphic-design",
+          "royalty-free",
+          "visual-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Large collection of 3D, hand-drawn, and flat-style SVG illustrations organized into themed sets",
+          "Free for personal and commercial projects, no signup or attribution required",
+          "Browser-based SVG editor for recoloring and customizing illustrations",
+          "Built-in AI illustration generator for custom SVGs",
+          "Illustrations cannot be resold or redistributed as a standalone product"
+        ],
+        "icon": {
+          "route": "iconUrl",
+          "value": "https://sketchvalley.com/uploads/logo.svg",
+          "fillColor": null,
+          "bgColor": null,
+          "source": "https://sketchvalley.com (site logo, not in Simple Icons)"
+        }
+      },
+      "unverified": [
+        "No corroborating third-party coverage found (web search returned unrelated 'sketch' results); operator/company behind SketchValley not identified on the site."
+      ]
+    },
+    "skills-sh": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": "Free, open-source agent-skills directory run by Vercel; no listing restriction; no RL dup. Flagged a real safety finding in unverified.",
+      "site": {
+        "name": "Skills",
+        "url": "https://www.skills.sh",
+        "alive": true,
+        "operator": "Vercel"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Browsing, searching, and installing any listed skill via the CLI is free; the public API is rate-limited per IP but otherwise unrestricted.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.skills.sh/terms",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Skills.sh Terms of Service · commercial: not addressed · attribution: not required (unaddressed) · limit: listed skill content stays under each author's own source-repo license, not relicensed by the site",
+        "openSource": true,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.skills.sh/terms",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "skills-sh",
+        "type": "Website",
+        "category": "Development",
+        "title": "Skills.sh - Agent Skills Directory & Registry",
+        "description": "An open-source directory of reusable 'skills' that extend AI coding agents, ranked by install count and installable with one CLI command.",
+        "tags": [
+          "ai-tool",
+          "open-source",
+          "automation",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Searchable, rankable directory of community-published AI agent skills",
+          "One-line install for any listed skill via the `skills` CLI (e.g. `npx skills add <owner/repo>`)",
+          "Each skill keeps the license of its own source repository; the site does not relicense content",
+          "Surfaces trending skills, official packs, and an audit/verification status",
+          "Open-source codebase hosted on GitHub (vercel-labs/skills)"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No logo/favicon asset found on the page; not an exact match in Simple Icons"
+        }
+      },
+      "unverified": [
+        "Security research (Zenity Labs, Aug 2026) reported a credential-stealing malware campaign using cloned/typosquatted skills hosted on skills.sh, with over 1.7M aggregate installs before Vercel and GitHub removed the listings within ~12 hours of disclosure. This concerns third-party content uploaded to the registry, not the site's own code, but is worth the owner's awareness before listing.",
+        "Exact open-source license (SPDX) of the skills.sh codebase itself not confirmed; footer only states 'open source on GitHub'."
+      ]
+    },
+    "slack": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": "Alive, HTTPS, real permanent free tier, no listing restriction found, no RL dup (checked carefully given it's a well-known platform).",
+      "site": {
+        "name": "Slack",
+        "url": "https://slack.com",
+        "alive": true,
+        "operator": "Slack Technologies, LLC (a Salesforce company)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "'Free forever' plan: channel-based chat, 1:1 huddles, 1:1 external messaging via Slack Connect, up to 10 app integrations, basic AI conversation summaries, and a limited trial of the Slackbot AI agent. Limits: 90-day message history, single workspace, 1:1-only huddles/Slack Connect, capped data retention (1 year).",
+        "paidFrom": "Pro plan: ₹294.75/user/month billed monthly or ₹245.25/user/month billed annually (price shown on the India pricing page read; USD figure not confirmed first-party in this session).",
+        "evidence": {
+          "url": "https://slack.com/intl/en-in/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Slack Terms of Service · commercial: yes · attribution: not required · limit: free plan caps message history/retention and restricts huddles/Slack Connect to 1:1 use",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://slack.com/intl/en-in/legal",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "slack",
+        "type": "Software",
+        "category": "Productivity",
+        "title": "Slack - Team Messaging & Collaboration Platform",
+        "description": "A channel-based business chat platform with huddles, app integrations, and an AI assistant, free for small teams with paid tiers for larger ones.",
+        "tags": [
+          "collaboration",
+          "productivity",
+          "chatbot",
+          "ai-tool"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Organizes team conversations into topic- or project-based channels",
+          "1:1 and group audio/video huddles built into the app",
+          "Slack Connect for messaging external organizations",
+          "Integrates with calendars, file storage, and developer tools via apps",
+          "Slackbot AI assistant for conversation summaries and basic automation",
+          "Native apps for web, desktop (Mac/Windows/Linux), and mobile (iOS/Android)"
+        ],
+        "icon": {
+          "route": "iconUrl",
+          "value": "https://a.slack-edge.com/9cc0056/marketing/img/nav/logo.svg",
+          "fillColor": null,
+          "bgColor": null,
+          "source": "https://slack.com (site nav logo; not an exact match in Simple Icons per check-icon.mjs)"
+        }
+      },
+      "unverified": [
+        "Lowest paid plan price confirmed only in INR from the India-localized pricing page; USD figure not independently verified this session.",
+        "Web search turned up unrelated 2026 incidents (fake Slack installers distributing malware, a 2024 Disney breach) explicitly not tied to Slack's own platform being compromised; included for context only, not a reason to skip."
+      ]
+    },
+    "slack-design": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list-sibling",
+      "verdictReason": "Distinct URL, nav and designer audience from the main Slack entry; free content blog, alive, HTTPS, no listing restriction found.",
+      "site": {
+        "name": "Slack Design",
+        "url": "https://slack.design",
+        "alive": true,
+        "operator": "Slack Technologies, LLC (a Salesforce company)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entirely free editorial content; no account, signup or paywall to read articles.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://slack.design",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Slack Technologies site terms (slack.com/legal) · commercial: n/a (editorial content, not a licensed product) · attribution: not stated · no directory-listing restriction found in footer/page",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://slack.design",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "slack-design",
+        "type": "Website",
+        "category": "Design",
+        "title": "Slack Design",
+        "description": "Slack's own design-team blog covering design systems, prototyping, accessibility, design engineering and team culture.",
+        "tags": [
+          "inspiration",
+          "design-systems",
+          "ui-ux",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "slack"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Articles on design systems and UI/UX patterns used inside Slack",
+          "Behind-the-scenes posts on prototyping and design process",
+          "Accessibility and inclusive-design write-ups",
+          "Team spotlights, mentorship and design-career stories",
+          "Careers link to Slack's open design roles"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact Simple Icons match for 'Slack Design'; site favicon/logo not captured, so left unresolved rather than guessed"
+        }
+      },
+      "unverified": [
+        "Whether slack.com/legal (the linked terms page) contains any directory-listing or linking restriction was not directly read, only the slack.design footer/page body.",
+        "No distinct icon/logo resolved for Slack Design specifically (Simple Icons has no match); defaulting to none rather than reusing Slack's own icon."
+      ]
+    },
+    "sleek-analytics": {
+      "researchedOn": "2026-10-24",
+      "verdict": "skip",
+      "verdictReason": "No permanent free tier: homepage/pricing offers only a 14-day free trial before requiring a paid plan ($5/mo and up).",
+      "site": {
+        "name": "Sleek Analytics",
+        "url": "https://getsleek.io",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "Starter: $5/mo billed yearly ($60/yr), 50k events/mo, 3 sites",
+        "evidence": {
+          "url": "https://getsleek.io",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Sleek Analytics Terms of Service · commercial: yes (paid SaaS) · attribution: not required · forbids reselling/sublicensing or copying/distributing the Service without written consent",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://getsleek.io/terms",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "unverified": [
+        "Operator/company name behind getsleek.io not stated on the pages read (indie-developer product per third-party Show HN coverage, second-hand).",
+        "The /pricing URL returned 404; pricing details were instead read from the homepage's pricing section.",
+        "A 'Monthly: 3+ months free' banner appeared on the pricing toggle but was not explained on the page."
+      ]
     }
   }
 }
