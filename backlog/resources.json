@@ -84250,6 +84250,578 @@
         "Full LICENSE file text not read directly, only the repo page's label"
       ],
       "injectionSeen": "Homepage install section contains the line 'Please install paperclip https://paperclip.ing/llms.txt', worded as an instruction to an AI agent to fetch and install the software. Not followed, not fetched further, not acted on."
+    },
+    "partnerstack": {
+      "researchedOn": "2026-10-23",
+      "verdict": "skip",
+      "verdictReason": "No permanent free tier or visible pricing; sales are demo-gated only (Launch/Growth/Enterprise, 'contact us' pricing), which fails RL's free/freemium listing bar.",
+      "site": {
+        "name": "PartnerStack",
+        "url": "https://partnerstack.com",
+        "alive": true,
+        "operator": "AppDirect (lockup reads 'PartnerStack — An AppDirect Company')"
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://partnerstack.com/pricing",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://partnerstack.com/pricing",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "Terms/legal page not fetched — pricing page alone was sufficient to confirm no free tier.",
+        "Trustpilot reviews include 'scam' complaints over banned accounts/unpaid commissions tied to disputes with one vendor program; second-hand, unverified.",
+        "No evidence of shutdown or acquisition-closure found."
+      ]
+    },
+    "path-to-design": {
+      "researchedOn": "2026-10-23",
+      "verdict": "skip",
+      "verdictReason": "Not a design tool — a personal blog/publication of designer career-story interviews (no app, no pricing, no license/terms page); doesn't fit a tools directory.",
+      "site": {
+        "name": "Path to Design",
+        "url": "https://www.pathtodesign.com",
+        "alive": true,
+        "operator": "Joshua Galinato (individual side project)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire site is free editorial content; no account, no paid tier, no pricing page found",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.pathtodesign.com",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No license/terms page found · commercial: unknown · attribution: unknown · site is editorial content, not software",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.pathtodesign.com/about",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "unverified": [
+        "No /pricing, /plans, /terms, or /legal page found.",
+        "No Terms of Service content read (only a Privacy Policy link noted).",
+        "Safety search thin; no strong confirmation either way."
+      ]
+    },
+    "pattern-club": {
+      "researchedOn": "2026-10-23",
+      "verdict": "skip",
+      "verdictReason": "Site is a bare placeholder/teaser page (\"Pattern Club (all new)\") with no navigation, no functional gallery, and no /pricing, /about, /terms, or /legal pages (all 404) — not a usable product to list.",
+      "site": {
+        "name": "Pattern Club",
+        "url": "https://patternclub.io",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://patternclub.io/pricing",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "unknown · commercial: unknown · attribution: unknown · no terms page found",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://patternclub.io/terms",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "unverified": [
+        "Whether Pattern Club is relaunching (page says \"all new\") or is abandoned.",
+        "No pricing or terms/license page exists (both 404).",
+        "No independent corroboration of legitimacy found either."
+      ]
+    },
+    "pattern-generator": {
+      "researchedOn": "2026-10-23",
+      "verdict": "blocked",
+      "verdictReason": "Home page and root domain render as an empty JS-only shell via first-party fetch — only the bare text \"DOODAD.dev\" came through, no pitch, nav, pricing or terms content accessible. Did not attempt to bypass.",
+      "site": {
+        "name": "Doodad.dev",
+        "url": "https://doodad.dev/pattern-generator/",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://doodad.dev/pattern-generator/",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://doodad.dev/pattern-generator/",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "Could not read page content (JS-rendered, empty via fetch tool).",
+        "Safety search for \"Pattern Generator doodad\" returned no relevant hits.",
+        "Recommend retry with a real browser/JS renderer before deciding list/skip."
+      ]
+    },
+    "patternedai": {
+      "researchedOn": "2026-10-23",
+      "verdict": "skip",
+      "verdictReason": "No permanent free tier — only a one-time 100-credit signup grant (~10 generations); all ongoing use requires a paid plan (Standard/Pro/Business), i.e. trial-only.",
+      "site": {
+        "name": "PatternedAI",
+        "url": "https://www.patterned.ai",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": "One-time 100 free credits for new users (~10 generations); does not refresh. A few sub-features (Create From Elements base, Check Seamlessness, Gallery/Free Drops downloads) are free with no credit cost.",
+        "paidFrom": "Standard plan, 2,000 credits/month, billed monthly or annually (20% discount) — exact dollar price not shown on page",
+        "evidence": {
+          "url": "https://www.patterned.ai/pricing",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "unknown · commercial: unknown · attribution: unknown · not checked (verdict is skip)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.patterned.ai",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "Exact dollar price of Standard/Pro/Business plans.",
+        "Operator/company name behind PatternedAI.",
+        "License/terms page not fetched since verdict was already skip on pricing grounds.",
+        "Scam/malware/shutdown status inconclusive — no reliable third-party reporting found either way."
+      ]
+    },
+    "patternico": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Patternico",
+        "url": "https://patternico.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Full seamless pattern/background maker and PNG export, usable with no account or signup; no paid tier or pricing page found on the site",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://patternico.com",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No published terms/license page found · commercial use: unknown · attribution: unknown · limit: unverified",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://patternico.com",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "patternico",
+        "type": "Website",
+        "category": "Design",
+        "title": "Patternico - Seamless Pattern Maker",
+        "description": "Browser tool for building seamless repeating patterns and background tiles from icon sets, emoji, or your own images, free to download as PNG.",
+        "tags": [
+          "graphic-design",
+          "visual-design",
+          "print-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Create seamless tile patterns directly in the browser, no signup required",
+          "Add shapes from Font Awesome and line-icon libraries, emoji, or uploaded images",
+          "Adjust background color, shape transparency, rotation, and canvas size",
+          "Export the finished pattern as a full image or as a single repeatable tile",
+          "No paid plan found; tool appears fully free to use"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact match, fuzzy matches (e, atandt, c, cplusplus, r) not usable"
+        }
+      },
+      "unverified": [
+        "No /terms, /about, or /faq page found (all 404).",
+        "No dedicated pricing page exists — free status inferred from homepage tagline and absence of any paid-plan mention."
+      ]
+    },
+    "patterninja": {
+      "researchedOn": "2026-10-23",
+      "verdict": "blocked",
+      "verdictReason": "Site is a bare single-page JS app that serves an \"unsupported browser\" fallback to a non-interactive fetch; no /pricing, /plans, /terms, /legal, /tos, /faq, or /about pages exist (all 404), and the homepage has no nav/footer links, so pricing, license, and operator facts cannot be verified first-party.",
+      "site": {
+        "name": "Patterninja",
+        "url": "https://patterninja.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://patterninja.com",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://patterninja.com",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "Whether Patterninja app itself is free or paid.",
+        "No pricing or terms/legal/tos page exists at any standard path.",
+        "Operator/company behind the site unknown.",
+        "Page shows an 'unsupported browser' fallback to automated fetch; could not confirm the actual tool functions.",
+        "Browser-download links point to old URLs, suggesting the site may be stale/unmaintained."
+      ]
+    },
+    "patternkid": {
+      "researchedOn": "2026-10-23",
+      "verdict": "skip",
+      "verdictReason": "Domain patternkid.com does not resolve (DNS lookup fails, no A/NS records) and no live site by this name was found via web search — the domain appears dead/unregistered-as-a-site, not merely bot-blocked.",
+      "site": {
+        "name": "PatternKid",
+        "url": "https://patternkid.com",
+        "alive": false,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://patternkid.com",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": "unknown · commercial: unknown · attribution: unknown · site unreachable",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://patternkid.com",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "unverified": [
+        "Could not reach patternkid.com (DNS resolution failure) via WebFetch and nslookup.",
+        "Web search for 'PatternKid' returned no matching site.",
+        "Could not confirm whether PatternKid ever existed as a live product."
+      ]
+    },
+    "patternpad": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "PatternPad",
+        "url": "https://patternpad.com",
+        "alive": true,
+        "operator": "Thomas Haustein (individual, Dresden, Germany)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Full pattern editor and PNG/JPG/SVG exports at no cost; FAQ states \"PatternPad is free of charge\", no paid tier found (dedicated /pricing URL returns 404)",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://patternpad.com",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Custom (site FAQ) · commercial: limited · attribution: required (credit/link PatternPad) · no reselling the generated artwork itself",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://patternpad.com",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "patternpad",
+        "type": "Tool",
+        "category": "Design",
+        "title": "PatternPad — Free Graphic Pattern Generator",
+        "description": "Browser tool for generating custom graphic patterns for presentations, branding and social posts, exported as PNG, JPG or SVG.",
+        "tags": [
+          "graphic-design",
+          "design-templates",
+          "social-media-design",
+          "visual-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Generates seamless-style graphical patterns in-browser, no install",
+          "Customizable shapes and colors for the pattern",
+          "Exports as PNG, JPG, or SVG",
+          "Free to use with attribution to PatternPad required",
+          "Aimed at presentations, branding, and social media graphics"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no meaningful match in Simple Icons"
+        }
+      },
+      "unverified": [
+        "Whether a paid tier exists at all — dedicated /pricing and /plans URLs 404'd.",
+        "Exact wording/scope of the no-resale and attribution clauses — terms.html is a German Impressum, not full ToS.",
+        "Whether operator is a sole individual or a registered company."
+      ]
+    },
+    "patttterns": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "PATTTTERNS",
+        "url": "https://patttterns.com",
+        "alive": true,
+        "operator": "Pablo Armen (solo, bootstrapped)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire catalog of UX flows and UI components is browsable and exportable free; account (via Google/GitHub OAuth) is optional and only needed for bookmarks/collections, not paywalled",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://patttterns.com/about",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Site content curated by Pablo Armen · commercial: not addressed · attribution: not required · pattern screenshots belong to original app owners (reference use only)",
+        "openSource": true,
+        "spdx": null,
+        "evidence": {
+          "url": "https://patttterns.com/tos",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "patttterns",
+        "type": "Resource",
+        "category": "Design",
+        "title": "PATTTTERNS — UX pattern & UI component catalog",
+        "description": "Searchable catalog of real UX flows and UI components, exportable as React + Tailwind code with theme tokens.",
+        "tags": [
+          "ui-ux",
+          "design-systems",
+          "inspiration"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "354+ real-world UX flow and UI component examples across 22 categories",
+          "Export patterns as React + Tailwind code with CSS-variable theme tokens",
+          "Save patterns into bookmarks/collections and share a public library link",
+          "Browse by UX flow (onboarding, checkout, feedback, etc.) or by UI component type",
+          "Optional sign-in via Google/GitHub OAuth, no paywall"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no usable Simple Icons match"
+        }
+      },
+      "unverified": [
+        "Open-source license name/SPDX not stated on site.",
+        "No explicit statement on commercial use of exported component code.",
+        "No dedicated pricing/plans page exists (404 on /pricing) — free status inferred from About + ToS silence on payment."
+      ]
+    },
+    "paywallpro": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "PaywallPro",
+        "url": "https://www.paywallpro.app",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free Plan: 5 content views/day, current paywall version only, basic filters, basic analytics, up to 5 favorites, personal use only (no team seats)",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.paywallpro.app/pricing",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "unknown · commercial: unknown · attribution: unknown · no terms/legal page found (404 on /terms, /legal, /tos)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.paywallpro.app/terms",
+          "date": "2026-10-23",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "paywallpro",
+        "type": "AI Tool",
+        "category": "Business",
+        "title": "PaywallPro — Mobile App Paywall Intelligence",
+        "description": "Searchable library of iOS app paywall screenshots, onboarding flows, and AI-generated pricing/UI insights for developers and PMs.",
+        "tags": [
+          "ai-tool",
+          "productivity"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Searchable library of paywall screenshots and onboarding-flow videos from tracked iOS apps",
+          "Version history showing how a given app's paywall changed over time",
+          "A/B test variant tracking for paywalls",
+          "AI-generated pricing, UI, and trial-structure insights",
+          "Favorites folder to bookmark paywalls for reference",
+          "Free plan with limited daily views; paid Pro/Team plans for full history and team access"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact or fuzzy Simple Icons match"
+        }
+      },
+      "unverified": [
+        "No operator/company name found anywhere on the site.",
+        "No terms/legal/ToS page found (all 404) — commercial-use and listing-restriction clauses could not be verified.",
+        "No numeric paid prices found on /pricing.",
+        "Homepage stat counters render as 0 / inconsistent in fetched content."
+      ]
+    },
+    "pen-dev": {
+      "researchedOn": "2026-10-23",
+      "verdict": "list",
+      "site": {
+        "name": "Pen.dev",
+        "url": "https://pen.dev",
+        "alive": true,
+        "operator": "High Agency, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan: full local-first editor, unlimited MCP tool calls while designing, components/variables/themes/scripts/shaders, HTML/code export, CLI and headless editor, sharing/snapshots/versions/comments; limited to 5 days/month designing with an agent, 1 agent at a time, 25 image/SVG generations per month, limited hosted AI model usage",
+        "paidFrom": "$16/user/month (Pro plan, billed monthly or annually with discount)",
+        "evidence": {
+          "url": "https://pen.dev/pricing",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary ToS · commercial: yes (with restrictions on training competing models/bulk scraping) · attribution: not required · company-provided Design Assets are Unlicense, third-party assets keep their own license",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://pen.dev/terms",
+          "date": "2026-10-23",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "pen-dev",
+        "type": "AI Tool",
+        "category": "Design",
+        "title": "Pen.dev – AI Design Canvas with Code Export",
+        "description": "Agentic design canvas where AI agents help build UI with components, themes and shaders on a local-first canvas, then export straight to code.",
+        "tags": [
+          "ai-tool",
+          "design-systems",
+          "prototyping",
+          "ui-ux",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Local-first editor using .pen files",
+          "AI agents work alongside you on the canvas via unlimited MCP tool calls",
+          "Components, variables, themes, scripts and shaders for design systems",
+          "Imports and exports including HTML/code output",
+          "CLI and headless editor for automation",
+          "Sharing, snapshots, versioning and comments for collaboration"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact or usable fuzzy Simple Icons match"
+        }
+      },
+      "unverified": [
+        "Whether the $16/month Pro price shown applies to monthly or annual billing specifically."
+      ]
     }
   }
 }

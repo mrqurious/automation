@@ -38268,8 +38268,8 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "No permanent free tier or visible pricing; sales are demo-gated only (Launch/Growth/Enterprise, 'contact us' pricing), which fails RL's free/freemium listing bar.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -38294,8 +38294,8 @@
           "file": "Best Design Blogs & Magazines for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Not a design tool — a personal blog/publication of designer career-story interviews (no app, no pricing, no license/terms page); doesn't fit a tools directory.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
@@ -38320,8 +38320,8 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Site is a bare placeholder/teaser page (\"Pattern Club (all new)\") with no navigation, no functional gallery, and no /pricing, /about, /terms, or /legal pages (all 404) — not a usable product to list.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
@@ -38346,8 +38346,8 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Home page and root domain render as an empty JS-only shell via first-party fetch — only the bare text \"DOODAD.dev\" came through, no pitch, nav, pricing or terms content accessible. Did not attempt to bypass.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
@@ -38372,8 +38372,8 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "No permanent free tier — only a one-time 100-credit signup grant (~10 generations); all ongoing use requires a paid plan (Standard/Pro/Business), i.e. trial-only.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -38398,7 +38398,7 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -38424,8 +38424,8 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Site is a bare single-page JS app that serves an \"unsupported browser\" fallback to a non-interactive fetch; no /pricing, /plans, /terms, /legal, /tos, /faq, or /about pages exist (all 404), and the homepage has no nav/footer links, so pricing, license, and operator facts cannot be verified first-party.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
@@ -38450,8 +38450,8 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Domain patternkid.com does not resolve (DNS lookup fails, no A/NS records) and no live site by this name was found via web search — the domain appears dead/unregistered-as-a-site, not merely bot-blocked.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
@@ -38476,7 +38476,7 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -38502,7 +38502,7 @@
           "file": "Learn UI_UX Design_ Courses, Guides & Best Practices.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
@@ -38528,7 +38528,7 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
@@ -38580,7 +38580,7 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
