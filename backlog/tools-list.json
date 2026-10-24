@@ -49152,12 +49152,12 @@
           "file": "Best Color Tools and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "story-to-design",
@@ -49204,12 +49204,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "No first-party pricing page exists on the site (/pricing and /termsofuse both 404). The only pricing signal is the App Store listing, which shows the app is free to download but all real functionality (3D scene generation, AI styles, asset library use) is gated behind credit packs ($15.99-$49.99) or subscriptions ($19.99/mo, $114.99/yr) with no confirmed permanent free tier of usable functionality - this reads as trial/demo-gated rather than a genuine free tier.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "storyblocks",
@@ -49256,12 +49256,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "storychief",
@@ -49308,12 +49308,12 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "storytale",
@@ -49334,12 +49334,12 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Paid-only: storytale.io is a subscription graphics library (illustrations, vectors, 3D objects, mockups) with no free tier mentioned anywhere on the home or /plans pages; only a Black Friday discount off an unstated subscription price. No permanent free tier confirmed, so it fails the 'list' bar.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "storytribe",
@@ -49360,12 +49360,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "stratify",
@@ -49412,12 +49412,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "streamline",
@@ -49486,12 +49486,12 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "stringate",
@@ -49512,12 +49512,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Site is alive and the tool itself (generative design-token/morphing-interface tool) looks legitimate, but no pricing or free-tier information exists anywhere on the public site: the home page never mentions free/paid/signup/waitlist, and /pricing returns HTTP 404. The only entry point, \"Open Stringate\", links to /login, so the actual app is behind a login wall we were not able to inspect (no account, no bot-check bypass per rules). Cannot confirm the 'real permanent free tier' required for a `list` verdict, and it isn't clearly paid-only either — needs the owner to either accept listing with pricing as [placeholder] pending a signup check, or pass.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "stripo",
@@ -49538,12 +49538,12 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "stroke",
@@ -49564,12 +49564,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "stubborn-generator",
@@ -49590,12 +49590,12 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "studio-ai",
@@ -49616,12 +49616,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "studio-innate",
@@ -49668,12 +49668,12 @@
           "file": "Best Mockup Sites for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "studio-innate-3d-mockups",
@@ -49720,12 +49720,12 @@
           "file": "Free Stock Images & Video Websites _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "subcolor",
@@ -49746,12 +49746,12 @@
           "file": "Best Color Tools and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Alive but a one-off, unmaintained hobby toy: its manifest.json names it \"Colors between two colors\" — a single-purpose gradient-between-two-colors generator, with no description, no license, 0 GitHub stars, and no commits since 2019-12-29. Too thin to serve as a standalone directory resource.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "subframe",
@@ -49772,12 +49772,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "substratum",
@@ -49798,12 +49798,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "sudtipos",
@@ -49850,12 +49850,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "supa-colors",
@@ -49876,12 +49876,12 @@
           "file": "Best Color Tools and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "supa-palette",
@@ -49928,12 +49928,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "supanext",
@@ -49956,12 +49956,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "could not resolve site — directory page https://digitool.co/tool/supanext/ returned HTTP 403 on first fetch and on retry, so the real target URL for this site:null entry could not be confirmed. Web search turned up a same-named but unrelated-looking paid Next.js/Supabase SaaS starter kit (AlternativeTo/Toolify/G2 listings, $99-$249 one-time, developer \"Jake Prins\"), but without the directory page it cannot be confirmed this is the same tool referenced by the backlog entry, so no rl block was drafted.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "supares",
@@ -49982,12 +49982,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "trial-only — the 'Free' plan is a one-time signup quota (10 credits, 64MP cap), not a renewing/permanent free tier. supares.com itself states: \"Free plan with one-time quota just to get started\" and the FAQ confirms every account starts with a one-time allotment; all other tiers are paid monthly subscriptions ($9-$99/mo) or one-time credit packs ($9-$79). No permanent free tier exists, so it fails the list bar.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "supawazap",
@@ -50010,12 +50010,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "trial-only / continuity risk — supawazap.com (resolved from the digitool.co listing via a FutureTools.io redirect, since digitool.co itself returned HTTP 403) describes only a free Chrome Web Store install with unstated feature limits plus a one-time-unlock 'Pro' license ($29, discounted from $99, advertised with artificial '5 of 30 left' scarcity); no functional permanent free tier is documented. Independent listing trustmrr.com/startup/supawazap-whatsapp-web-crm additionally shows the product currently being marketed for outright sale ('Code + Website + Domain'), with 'No active subscriptions' and a stale/expired LemonSqueezy API key as of the data snapshot — raising doubt about ongoing support, which fails the list bar even setting the free-tier question aside.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "super",
@@ -50036,12 +50036,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "super-designer",
@@ -50062,12 +50062,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "supercons",
@@ -50112,12 +50112,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "No confirmed permanent free tier: homepage only offers 'Get Started' / 'Book a live demo', the /pricing URL 404s, and the FAQ billing answer isn't shown; pricing is handled via sales contact (help@supercraft.ai), which reads as paid/enterprise-only or trial-only, not a listable free product.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "supercut",
@@ -50140,12 +50140,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "could not resolve site: digitool.co/tool/supercut/ returned HTTP 403 Forbidden on first fetch and again on retry, so the real outbound URL for this tool could not be confirmed (web search turned up several unrelated same-named products: supercut.ai AI video editor, supercut.video screen recorder, Supademo's 'Supercut' clip repurposer, GIPHY Super Cut — no way to tell which one digitool.co links to without reading the page)",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "superdesign",
@@ -50166,12 +50166,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "app.superdesign.dev redirects (307) to superdesign.dev, but that page and its /pricing route are fully JS-rendered client apps — WebFetch returns only the HTML <title> ('Superdesign - AI Product Design Agent | UI from a Prompt') with zero body text, on both the home page and the pricing page, and again on retry. No first-party pricing, license, or feature text could be read.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "superflow",
@@ -50192,12 +50192,12 @@
           "file": "Best UX Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "superlist",
@@ -50218,12 +50218,12 @@
           "file": "Productivity Tools for Design and Product Teams.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "supernova",
@@ -50244,12 +50244,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "superposition",
@@ -50270,12 +50270,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "supersparks",
@@ -50296,12 +50296,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "supply-family",
@@ -50350,12 +50350,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "could not resolve site - https://digitool.co/tool/surfer/ returned HTTP 403 (bot check) on two separate fetch attempts, and web search could not independently locate the digitool.co listing or confirm whether it points to surferseo.com or a different 'Surfer' product",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "surfer-seo",
@@ -50402,12 +50402,12 @@
           "file": "Learn UI_UX Design_ Courses, Guides & Best Practices.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "https://suxnetwork.notion.site returned only the bare word 'Notion' with no body content on two separate fetch attempts (including a guessed sub-page path) - the page is a client-side-rendered Notion site that the fetch tool could not read; web search also failed to surface indexed content from the domain",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "svelteplot",
@@ -59927,16 +59927,16 @@
     "byStatus": {
       "deferred-trial": 232,
       "deferred-paid": 217,
-      "blocked": 492,
+      "blocked": 498,
       "drafted": 557,
-      "rejected": 199,
+      "rejected": 205,
       "in-rl": 33,
-      "researched": 197,
-      "todo": 352
+      "researched": 221,
+      "todo": 316
     },
     "todoByPriority": {
       "P3": 30,
-      "P2": 322
+      "P2": 286
     }
   }
 }

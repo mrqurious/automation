@@ -100661,6 +100661,2669 @@
         "Operator/company"
       ],
       "injectionSeen": null
+    },
+    "storied-colors": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Storied Colors",
+        "url": "https://storiedcolors.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Full access to the color catalogue ('The Color Index'), search by name/year/origin/hex/chemistry, and an optional newsletter; no paywall or account found anywhere on the site.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://storiedcolors.com/about",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No formal license/terms page found · commercial use: unclear (content site, no stated terms) · attribution: not stated · limit: no ToS to confirm redistribution rules",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://storiedcolors.com/about",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "storied-colors",
+        "type": "Website",
+        "category": "Design",
+        "title": "Storied Colors",
+        "description": "An online catalogue of pigments and colors, posting one documented color a day with its history, hex code, and provenance.",
+        "tags": [
+          "color-palette",
+          "inspiration"
+        ],
+        "relatedResources": [
+          "fontpair"
+        ],
+        "similarResources": [
+          "awwwards",
+          "dribbble"
+        ],
+        "keyFeatures": [
+          "Daily-updated index of named colors and pigments with documented history and provenance",
+          "Each entry lists a catalogue number, date, origin, and hex code",
+          "Search/browse by name, year, origin, hex, or chemistry",
+          "Free to browse with no account or paywall",
+          "Optional newsletter, described on-site as ad-free"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "checked Simple Icons - no match (check-icon.mjs exit 1, closest matches unrelated single-letter icons)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown/acquisition reports found. One third-party link roundup (adactio.com, June 2026) describes it as a single-author color catalogue project; no red flags."
+      },
+      "sources": [
+        {
+          "url": "https://storiedcolors.com",
+          "date": "2026-10-24",
+          "note": "home page content, description, feature list, tagline"
+        },
+        {
+          "url": "https://storiedcolors.com/about",
+          "date": "2026-10-24",
+          "note": "checked for pricing/terms - none present"
+        },
+        {
+          "url": "https://adactio.com/links/archive/2026/06/17",
+          "date": "2026-10-24",
+          "note": "third-party mention describing it as a single-author color documentation project (via web search, not fetched directly)"
+        }
+      ],
+      "unverified": [
+        "Operator/author identity not disclosed on the pages fetched",
+        "No formal terms-of-use/license page found, so redistribution/linking terms are unconfirmed",
+        "Full catalogue scope (About/Methodology/Contact page contents) not fetched in detail"
+      ],
+      "injectionSeen": null
+    },
+    "storyblocker": {
+      "researchedOn": "2026-10-24",
+      "verdict": "skip",
+      "verdictReason": "No first-party pricing page exists on the site (/pricing and /termsofuse both 404). The only pricing signal is the App Store listing, which shows the app is free to download but all real functionality (3D scene generation, AI styles, asset library use) is gated behind credit packs ($15.99-$49.99) or subscriptions ($19.99/mo, $114.99/yr) with no confirmed permanent free tier of usable functionality - this reads as trial/demo-gated rather than a genuine free tier.",
+      "site": {
+        "name": "Storyblocker",
+        "url": "https://www.storyblocker.com",
+        "alive": true,
+        "operator": null
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown/acquisition reports found for 'Storyblocker'. iOS-only app (App Store ID 6445825105), free to download with in-app purchases."
+      },
+      "sources": [
+        {
+          "url": "https://www.storyblocker.com/",
+          "date": "2026-10-24",
+          "note": "home page content, feature list, nav/footer links"
+        },
+        {
+          "url": "https://www.storyblocker.com/pricing",
+          "date": "2026-10-24",
+          "note": "404 - no pricing page exists"
+        },
+        {
+          "url": "https://www.storyblocker.com/terms",
+          "date": "2026-10-24",
+          "note": "404 - guessed path, actual footer link is /termsofuse (not fetched)"
+        },
+        {
+          "url": "https://apps.apple.com/us/app/storyblocker/id6445825105",
+          "date": "2026-10-24",
+          "note": "App Store listing: free download, in-app credit packs and subscriptions, no stated free functional tier"
+        }
+      ],
+      "unverified": [
+        "Actual /termsofuse, /privacypolicy, and /licenseagreement page contents not fetched (guessed wrong path first, did not retry due to Tier A fetch budget)",
+        "Whether any free credits/features are granted on signup is unknown"
+      ],
+      "injectionSeen": null
+    },
+    "storybook": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Storybook",
+        "url": "https://storybook.js.org",
+        "alive": true,
+        "operator": "Open-source project maintained by the Storybook/Chromatic community (chromatic.com runs the paid 'Enterprise'/Chromatic visual-testing add-on; core Storybook itself is independently open source)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "The core Storybook tool (component development, testing, documentation) is fully free and open source for any team size, per the home page's 'open source and free' claim.",
+        "paidFrom": "Enterprise/Chromatic visual-testing add-on linked from the nav (chromatic.com) - price not shown on storybook.js.org itself",
+        "evidence": {
+          "url": "https://storybook.js.org",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT · commercial: yes · attribution: required (copyright/license notice retained) · limit: provided \"as is\" with no warranty",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/storybookjs/storybook/blob/next/LICENSE",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "storybook",
+        "type": "Tool",
+        "category": "Development",
+        "title": "Storybook",
+        "description": "An open-source frontend workshop for building, testing, and documenting UI components in isolation, used by frontend teams of any size.",
+        "tags": [
+          "open-source",
+          "web",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "codesandbox",
+          "stackblitz"
+        ],
+        "similarResources": [
+          "codesandbox",
+          "stackblitz"
+        ],
+        "keyFeatures": [
+          "Build and preview UI components in isolation from the rest of the app",
+          "Interaction testing, visual testing, and auto-generated documentation for components",
+          "MIT-licensed, free and open source for teams of any size",
+          "Reports roughly 80 million installs/month and over 2,000 contributors on the project's own stats",
+          "Optional paid Chromatic integration for hosted visual-regression testing",
+          "Framework-agnostic: works across many JS/frontend frameworks"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "storybook",
+          "fillColor": "#FF4785",
+          "bgColor": null,
+          "source": "Simple Icons (check-icon.mjs exact match)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/shutdown/acquisition reports. A Snyk advisory covers a past arbitrary-code-injection vulnerability in older versions (fixed in 7.6.23/8.6.17/9.1.19/10.2.10+); not a current safety issue for the project or for listing it."
+      },
+      "sources": [
+        {
+          "url": "https://storybook.js.org",
+          "date": "2026-10-24",
+          "note": "home page: description, audience, pricing claim, Enterprise/Chromatic link, install/contributor stats, version"
+        },
+        {
+          "url": "https://github.com/storybookjs/storybook/blob/next/LICENSE",
+          "date": "2026-10-24",
+          "note": "confirmed MIT license text and copyright line"
+        }
+      ],
+      "unverified": [
+        "Exact relationship/ownership between the Storybook project and Chromatic (company) not explained on the fetched pages",
+        "Chromatic/Enterprise pricing not read (out of scope - it's a separate product, not Storybook itself)"
+      ],
+      "injectionSeen": null
+    },
+    "storyset": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Storyset",
+        "url": "https://storyset.com",
+        "alive": true,
+        "operator": "Freepik Company S.L."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "All illustration styles (Rafiki, Bro, Amico, Pana, Cuate) downloadable free with mandatory attribution to Storyset; online editor for recoloring/customizing.",
+        "paidFrom": "No price shown on Storyset itself; attribution-free/unlimited use requires a Flaticon premium subscription (linked off-site), price not confirmed on this fetch.",
+        "evidence": {
+          "url": "https://storyset.com/faqs",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Storyset free license · commercial: yes · attribution: required on free tier (removable via linked Flaticon premium) · one limit: must credit Storyset whenever a free illustration is used",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://storyset.com/faqs",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "storyset",
+        "type": "Stock Media",
+        "category": "Design",
+        "title": "Storyset",
+        "description": "Freepik-family library of free, recolorable illustration sets (Rafiki, Bro, Amico, Pana, Cuate) for web, product and slide design, with an online customizer and Figma plugin.",
+        "tags": [
+          "stock-illustrations",
+          "graphic-design",
+          "design-templates"
+        ],
+        "relatedResources": [
+          "undraw",
+          "unsplash"
+        ],
+        "similarResources": [
+          "undraw"
+        ],
+        "keyFeatures": [
+          "Five distinct illustration styles (Rafiki, Bro, Amico, Pana, Cuate) across business, education, medical, tech and people categories",
+          "Online editor to recolor shapes/skin tones and toggle background (hidden, simple, detailed)",
+          "Built-in animation tool that exports animated versions of illustrations",
+          "Figma plugin to drop illustrations straight into design files",
+          "Free download with attribution; attribution-free use available via a linked Flaticon premium subscription",
+          "Pinterest-save and SVG/PNG export for editing in any vector tool"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no Simple Icons match for Storyset (closest hits unrelated: Ory, single letters) - use site SVG or ask owner"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Freepik-family site; standard consumer illustration library, no scam/malware/shutdown signals found."
+      },
+      "sources": [
+        {
+          "url": "https://storyset.com",
+          "date": "2026-10-24",
+          "note": "home page description, styles, features, lack of visible pricing link"
+        },
+        {
+          "url": "https://storyset.com/faqs",
+          "date": "2026-10-24",
+          "note": "attribution requirement for free use, Flaticon premium removes attribution, Freepik Company copyright in footer"
+        }
+      ],
+      "unverified": [
+        "Exact price of the Flaticon premium tier that removes attribution was not confirmed (off Storyset's own pages).",
+        "Whether Storyset already has an equivalent/sibling entry under a different Freepik-family RL resource was checked via rl-index --find (no match for 'Storyset' or 'Freepik')."
+      ],
+      "injectionSeen": null
+    },
+    "storytale": {
+      "researchedOn": "2026-10-24",
+      "verdict": "skip",
+      "verdictReason": "Paid-only: storytale.io is a subscription graphics library (illustrations, vectors, 3D objects, mockups) with no free tier mentioned anywhere on the home or /plans pages; only a Black Friday discount off an unstated subscription price. No permanent free tier confirmed, so it fails the 'list' bar.",
+      "site": {
+        "name": "Storytale",
+        "url": "https://storytale.io",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://storytale.io/plans",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Storytale subscription license · commercial: yes (personal and commercial projects incl. client work/advertising) · attribution: not mentioned · one limit: a Team plan is required for 2+ users",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://storytale.io/plans",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown signals found; standard paid design-asset subscription site."
+      },
+      "sources": [
+        {
+          "url": "https://storytale.io",
+          "date": "2026-10-24",
+          "note": "home page positioning: graphics library for designers/startups/corporates, custom orders offered"
+        },
+        {
+          "url": "https://storytale.io/plans",
+          "date": "2026-10-24",
+          "note": "no free plan, no listed prices (only '-50% Black Friday' promo), commercial-use terms, team-plan requirement"
+        }
+      ],
+      "unverified": [
+        "Exact subscription prices were not visible on the fetched /plans page (graphics-only layout, text not extracted).",
+        "Whether a time-limited free trial exists was not confirmed either way; page shows no free tier of any kind, trial or permanent."
+      ],
+      "injectionSeen": null
+    },
+    "storytribe": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "StoryTribe",
+        "url": "https://storytribeapp.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free Plan ($0, no billing): 100 monthly AI credits, unlimited projects capped at 10 shots per project, watermarked downloads.",
+        "paidFrom": "Pro Yearly at $12.99/month (billed yearly); Studio Yearly at $23/month (billed yearly) for teams.",
+        "evidence": {
+          "url": "https://storytribeapp.com/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "StoryTribe ToS not read in this pass · commercial use not explicitly confirmed · attribution not mentioned · one limit: free plan downloads are watermarked",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://storytribeapp.com/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "storytribe",
+        "type": "App",
+        "category": "Filming",
+        "title": "StoryTribe",
+        "description": "AI storyboard tool that turns a script into editable shot-by-shot boards, with reusable character/location libraries, a shot list, and animatic export for filmmakers and agencies.",
+        "tags": [
+          "collaboration",
+          "video-template",
+          "ai-tool"
+        ],
+        "relatedResources": [
+          "mixkit"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Converts a pasted or written script into an AI-drafted storyboard with editable character, background and prop layers",
+          "Reusable library of characters, locations and props for visual consistency across projects",
+          "Spreadsheet-style shot list with fields like shot size, angle and status",
+          "Plays boards back as an animatic with optional AI voiceover and music, exportable as MP4",
+          "Shared team workspace with free guest access for clients to comment, pinned to specific shots",
+          "Imports scripts from Final Draft, Fountain, Word or plain text; exports boards as PDF, PowerPoint, shot-list spreadsheet or Final Draft"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no Simple Icons match for StoryTribe (closest hits unrelated: Ory, single letters) - use site SVG or ask owner"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown signals found; no news coverage of the app surfaced either way."
+      },
+      "sources": [
+        {
+          "url": "https://storytribeapp.com",
+          "date": "2026-10-24",
+          "note": "home page positioning, feature list (script-to-storyboard, library, shot list, animatic, collaboration, import/export)"
+        },
+        {
+          "url": "https://storytribeapp.com/pricing",
+          "date": "2026-10-24",
+          "note": "Free Plan terms (100 AI credits, 10 shots/project, watermark) and paid Pro/Studio prices"
+        }
+      ],
+      "unverified": [
+        "Commercial-use and attribution terms were not confirmed from a dedicated ToS/license page (only the pricing page was read for Tier A within the 4-fetch budget).",
+        "No operator/company name was found on the fetched pages.",
+        "ownerNote: no RL tag exists yet specifically for 'storyboard' or 'pre-production/filmmaking AI tool' - used collaboration + video-template + ai-tool as closest existing tags; a dedicated 'storyboard' tag may be worth adding if more such tools appear."
+      ],
+      "injectionSeen": null
+    },
+    "straw-page": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Straw.Page",
+        "url": "https://straw.page",
+        "alive": true,
+        "operator": "Individual maker (Twitter handle \"okozzie_\"); no company name given"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Build and publish a site with the drag-and-drop editor, no signup required",
+        "paidFrom": "$49/year (Premium: custom domains, analytics, more)",
+        "evidence": {
+          "url": "https://straw.page",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Straw.Page Terms of Use · commercial: not addressed for sites you build · attribution: not required · limit: the ToS grants only a personal, non-commercial license to Straw.Page's own site materials (not to the output you build with it)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://terms.straw.page",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "straw-page",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Straw.Page",
+        "description": "No-signup, drag-and-drop website builder for quick personal or small-business sites, landing pages and blogs.",
+        "tags": [
+          "website-builder",
+          "no-code",
+          "web"
+        ],
+        "relatedResources": [
+          "webflow",
+          "squarespace",
+          "framer"
+        ],
+        "similarResources": [
+          "webflow-templates"
+        ],
+        "keyFeatures": [
+          "Drag-and-drop editor that also works on mobile",
+          "No signup required to start building",
+          "Free tier covers building and publishing a basic site",
+          "Premium plan ($49/year) adds custom domains and analytics",
+          "Positioned for casual, personal and experimental sites rather than enterprise builds"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact or credible Simple Icons match (check-icon.mjs exit 1; only generic single-letter/substring candidates like \"e\", \"r\" — not the brand). Needs site favicon/SVG or owner-supplied asset."
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown signals found in search; search mostly returned unrelated results for the generic domain string."
+      },
+      "sources": [
+        {
+          "url": "https://straw.page",
+          "date": "2026-10-24",
+          "note": "product description, free/no-signup claim, Premium $49/year price"
+        },
+        {
+          "url": "https://straw.page/pricing",
+          "date": "2026-10-24",
+          "note": "pricing page has no plan details without login; confirms no further free/paid breakdown public"
+        },
+        {
+          "url": "https://terms.straw.page",
+          "date": "2026-10-24",
+          "note": "license/commercial-use language, no listing/linking restriction found"
+        }
+      ],
+      "unverified": [
+        "Exact premium feature list beyond custom domains/analytics",
+        "Whether Terms' 'personal, non-commercial' clause is meant to restrict use of the builder itself or just Straw.Page's own site content (read as the latter)"
+      ],
+      "injectionSeen": null
+    },
+    "streamline-illustrations": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Streamline Illustrations",
+        "url": "https://app.streamlinehq.com/illustrations",
+        "alive": true,
+        "operator": "Streamline (legal entity name not stated on fetched pages)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "16 free illustration sets plus one open-source set (Sketchvalley, Creative Commons-licensed); usable without a paid plan",
+        "paidFrom": "Premium/Pro illustration sets require a subscription (exact current price not retrieved; pricing page returned HTTP 429 on repeated attempts)",
+        "evidence": {
+          "url": "https://www.streamlinehq.com/illustrations",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Streamline Premium License (for paid sets) · commercial: yes, unlimited projects, with a per-project cap (reported 50 illustrations/project before an extended license is needed) · attribution: not required for premium, required for free sets · open-source set (Sketchvalley) under Creative Commons",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://help.streamlinehq.com/en/articles/5354366-streamline-premium-licenses",
+          "date": "2026-10-24",
+          "confidence": "second-hand"
+        }
+      },
+      "rl": {
+        "slug": "streamline-illustrations",
+        "type": "Stock Media",
+        "category": "Design",
+        "title": "Streamline Illustrations",
+        "description": "Illustration library with 30,000+ vector assets across multiple styles, with free, open-source and premium commercial sets.",
+        "tags": [
+          "stock-illustrations",
+          "graphic-design",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "undraw",
+          "unsplash",
+          "pixabay"
+        ],
+        "similarResources": [
+          "undraw"
+        ],
+        "keyFeatures": [
+          "Over 30,000 illustrations across style families (Realistic, Abstract, Playful, UX-focused)",
+          "16 free sets plus one fully open-source set (Sketchvalley, CC-licensed)",
+          "Premium sets covered by a commercial license with per-project asset caps",
+          "Delivered as SVG, PNG and vector formats",
+          "\"Streamline UX\" line aimed at functional product/app illustration use cases"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact or credible Simple Icons match (check-icon.mjs exit 1; only generic candidates like \"e\", \"ea\", \"line\", \"r\" — not the brand). Needs site favicon/SVG or owner-supplied asset."
+        },
+        "siblings": [
+          {
+            "name": "Streamline Icons",
+            "url": "https://app.streamlinehq.com/icons",
+            "note": "sibling section of the same product (icons rather than illustrations); no existing RL entry found (rl-index --find streamline returned no match) — could become its own future RL entry, researched separately."
+          }
+        ]
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown signals found; Streamline is an established, long-running icon/illustration vendor per search results referencing its help docs and pricing-experiment pages."
+      },
+      "sources": [
+        {
+          "url": "https://www.streamlinehq.com/illustrations",
+          "date": "2026-10-24",
+          "note": "catalog description, free/open-source/pro set breakdown, ~30,416 asset count, formats"
+        },
+        {
+          "url": "https://app.streamlinehq.com/illustrations",
+          "date": "2026-10-24",
+          "note": "attempted first (HTTP 429 twice, transient rate limit); www. host succeeded instead"
+        },
+        {
+          "url": "https://help.streamlinehq.com/en/articles/5354366-streamline-premium-licenses",
+          "date": "2026-10-24",
+          "note": "premium license commercial-use terms and per-project caps (via search snippet, not directly fetched — second-hand)"
+        }
+      ],
+      "unverified": [
+        "Exact current subscription price (pricing page not retrieved: 429)",
+        "Legal company/operator name",
+        "Precise wording of the free-set attribution requirement"
+      ],
+      "injectionSeen": null
+    },
+    "stringate": {
+      "researchedOn": "2026-10-24",
+      "verdict": "needs-owner",
+      "verdictReason": "Site is alive and the tool itself (generative design-token/morphing-interface tool) looks legitimate, but no pricing or free-tier information exists anywhere on the public site: the home page never mentions free/paid/signup/waitlist, and /pricing returns HTTP 404. The only entry point, \"Open Stringate\", links to /login, so the actual app is behind a login wall we were not able to inspect (no account, no bot-check bypass per rules). Cannot confirm the 'real permanent free tier' required for a `list` verdict, and it isn't clearly paid-only either — needs the owner to either accept listing with pricing as [placeholder] pending a signup check, or pass.",
+      "site": {
+        "name": "Stringate",
+        "url": "https://stringate.com",
+        "alive": true,
+        "operator": "Hayk (hayk.design) — maker credited on the site; no legal company name given"
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown signals found in search (query returned unrelated results for the generic word \"stringate\"); site itself resolves normally over HTTPS with no suspicious redirects."
+      },
+      "sources": [
+        {
+          "url": "https://stringate.com",
+          "date": "2026-10-24",
+          "note": "product description (\"Generative Morphing Interface Design\"), feature list (System Snapshots, Randomize, Prototyping, Generate with AI), maker credit \"Hayk\" / hayk.design; confirmed no free/pricing/signup wording and that the CTA links to /login"
+        },
+        {
+          "url": "https://stringate.com/pricing",
+          "date": "2026-10-24",
+          "note": "HTTP 404 — no dedicated pricing page exists"
+        }
+      ],
+      "unverified": [
+        "Whether a free tier exists at all (requires login to check, out of scope for this research)",
+        "Legal operator/company name",
+        "License/commercial-use terms for designs produced with the tool"
+      ],
+      "injectionSeen": null
+    },
+    "stripo": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Stripo",
+        "url": "https://stripo.email",
+        "alive": true,
+        "operator": "Stripo (Stripo Inc.)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free plan with no fixed term of validity: 2 members, 4 exports/month, 5 test emails/day, 10 stored emails. Excludes premium templates and support chat.",
+        "paidFrom": "Basic $20/month ($200/year) - 2 members, 50 exports/month, 50 test emails/day, 50 stored emails, includes premium templates",
+        "evidence": {
+          "url": "https://stripo.email/pricing/",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: yes (on paid/free plans) · attribution: not required · free plan is feature-limited, not a trial",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://stripo.email/pricing/",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "stripo",
+        "type": "Tool",
+        "category": "Marketing",
+        "title": "Stripo",
+        "description": "Drag-and-drop HTML email template builder with custom code editing, ESP export, testing, and team collaboration for marketers.",
+        "tags": [
+          "template",
+          "design-templates",
+          "web",
+          "no-code"
+        ],
+        "relatedResources": [
+          "canva",
+          "webflow"
+        ],
+        "similarResources": [
+          "figma",
+          "canva-templates"
+        ],
+        "keyFeatures": [
+          "Drag-and-drop email editor plus a custom HTML/CSS mode",
+          "Exports finished templates to 90+ email service providers",
+          "Built-in email testing before sending",
+          "Team collaboration with shared accounts and comments",
+          "Plugin and API for embedding the editor into other products",
+          "Library of premium templates on paid plans"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no real match (only a nonsensical single-letter fuzzy hit 'R'); fall back to none, owner can supply a favicon-based iconUrl if wanted"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Stripo is sometimes confused with the unrelated payments company Stripe in search; no scam/malware/shutdown signals found for Stripo itself."
+      },
+      "sources": [
+        {
+          "url": "https://stripo.email",
+          "date": "2026-10-24",
+          "note": "product description, audience, links to pricing"
+        },
+        {
+          "url": "https://stripo.email/pricing/",
+          "date": "2026-10-24",
+          "note": "free and paid plan details, confirmed free plan has no fixed term"
+        }
+      ],
+      "unverified": [
+        "Exact export/email limits on the Prime (contact-sales) tier",
+        "Whether the plugin/API has separate pricing from the editor"
+      ],
+      "injectionSeen": null
+    },
+    "stroke": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Stroke",
+        "url": "https://stroke.abhii.space",
+        "alive": true,
+        "operator": "abhishek (github.com/abhix4, site abhii.space)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire tool is free to use in the browser; generated React component code is free to copy and use.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://stroke.abhii.space",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No LICENSE file in the public GitHub repo · commercial use: unclear (no explicit grant, but the site's purpose is generating code you own) · attribution: not required",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://github.com/abhix4/stroke",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "stroke",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Stroke",
+        "description": "Draw hand-drawn strokes on a canvas and export the animation as a ready-to-paste React/Next.js SVG component.",
+        "tags": [
+          "web",
+          "ui-ux",
+          "open-source"
+        ],
+        "relatedResources": [
+          "excalidraw",
+          "dribbble"
+        ],
+        "similarResources": [
+          "figma",
+          "excalidraw"
+        ],
+        "keyFeatures": [
+          "Canvas for freehand drawing of logos, signatures or illustrations",
+          "Generates a React/Next.js component that replays the stroke as an SVG animation",
+          "Built on top of the Motion animation library",
+          "Output is resizable and recolorable via className and color props",
+          "Public source code available on GitHub"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no real match (only a nonsensical single-letter fuzzy hit); no logo graphic on the site beyond a text wordmark"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Source is viewable on a real, linked GitHub account; no scam/malware signals in search. Repo has no visible commit-date info or LICENSE file (both noted as unverified)."
+      },
+      "sources": [
+        {
+          "url": "https://stroke.abhii.space",
+          "date": "2026-10-24",
+          "note": "product description, usage instructions, links to GitHub repo and creator profile"
+        },
+        {
+          "url": "https://github.com/abhix4/stroke",
+          "date": "2026-10-24",
+          "note": "confirmed repo exists, no LICENSE file, 10 commits, Next.js project description"
+        }
+      ],
+      "unverified": [
+        "Whether the project is actively maintained (commit dates not visible)",
+        "Exact open-source license, if any, for the generated/underlying code",
+        "Whether abhii.space is definitively the same 'abhishek' who owns github.com/abhix4 (strongly implied by the site's own link, not independently confirmed via a third party)"
+      ],
+      "injectionSeen": null
+    },
+    "stubborn-generator": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Stubborn Generator (Stubborn Constructor)",
+        "url": "https://craftwork.design/product/stubborn-generator",
+        "alive": true,
+        "operator": "Craftwork Studio / Craftwork Design"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Fully free illustration generator: 10 boy characters, 10 girl characters, 5 robots, and 20 background scenes, combinable and exportable as editable SVG/PNG (Figma, Sketch, Illustrator).",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://craftwork.design/product/stubborn-generator",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Craftwork Commercial License (applies to free packs too) · commercial: yes (client work, apps, ads, up to 20-person team) · attribution: not required · no resale/redistribution of the assets themselves",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://craftwork.design/license",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "stubborn-generator",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Stubborn Generator",
+        "description": "Free illustration generator that mixes customizable characters and background scenes into editable SVG/PNG mascot-style illustrations.",
+        "tags": [
+          "stock-illustrations",
+          "graphic-design",
+          "design-templates"
+        ],
+        "relatedResources": [
+          "undraw",
+          "canva-templates"
+        ],
+        "similarResources": [
+          "undraw",
+          "pixabay"
+        ],
+        "keyFeatures": [
+          "Drag-and-drop combination of characters and background scenes",
+          "25 characters total: 10 boys, 10 girls, 5 robots",
+          "20 background scenes to pair with characters",
+          "Exports as editable SVG and PNG",
+          "Source files editable in Figma, Sketch, or Adobe Illustrator",
+          "Free under Craftwork's standard commercial license (no resale of the raw assets)"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no real match (only nonsensical fuzzy hits); no simple vector wordmark logo suitable for iconLib"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Craftwork is an established design-asset marketplace; no scam/malware/shutdown signals found."
+      },
+      "sources": [
+        {
+          "url": "https://craftwork.design/product/stubborn-generator",
+          "date": "2026-10-24",
+          "note": "product description, feature counts, free pricing"
+        },
+        {
+          "url": "https://craftwork.design/license",
+          "date": "2026-10-24",
+          "note": "commercial license terms applying to free packs, resale/redistribution restriction"
+        }
+      ],
+      "unverified": [
+        "Whether Craftwork's Terms of Use (fetch failed once, retried via /license only) impose any additional restriction specific to directory-site listing beyond the bulk-copy/mirroring prohibition already noted"
+      ],
+      "injectionSeen": null
+    },
+    "studio-ai": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Studio.Design",
+        "url": "https://studio.design",
+        "alive": true,
+        "operator": "Studio Inc."
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free site plan: 50 pages, 5GB storage, 100 CMS items, 3 models, 100 form responses, 1-day version history, 15-day analytics; publishes to a studio.site subdomain with a Studio badge, no custom domain.",
+        "paidFrom": "Mini plan from $5/month (billed annually; $10/month billed monthly), adds a custom domain.",
+        "evidence": {
+          "url": "https://studio.design/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Studio.Design Terms of Service · commercial: yes (you keep ownership of your site content, selling via your site is allowed) · attribution: not required · grants Studio a license to host/feature your site, trademark use needs written consent",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://studio.design/terms",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "studio-ai",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Studio.Design",
+        "description": "No-code website builder with a visual design editor, built-in CMS, one-click hosting, and a designer template marketplace.",
+        "tags": [
+          "website-builder",
+          "no-code",
+          "design-templates",
+          "web"
+        ],
+        "relatedResources": [
+          "webflow",
+          "squarespace",
+          "framer"
+        ],
+        "similarResources": [
+          "webflow-templates",
+          "framer-templates"
+        ],
+        "keyFeatures": [
+          "Visual Design Editor with pixel-level layout control and built-in animation tools",
+          "Collaborative CMS with real-time editing and publishing",
+          "One-click hosting with coding and server setup handled automatically",
+          "Imports Figma files and Lottie animations directly into a project",
+          "Marketplace of free and paid templates built by independent designers",
+          "Per-page SEO tools including auto-generated sitemaps"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact or usable Simple Icons match (check-icon.mjs \"Studio\" returned unrelated fuzzy hits: androidstudio, beekeeperstudio, lmstudio, obsstudio, radstudio, reasonstudios, robloxstudio)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition reports found; search results were about unrelated products with similar names (studiodesigns.com furniture, @asyncapi/studio npm package, CamStudio)."
+      },
+      "sources": [
+        {
+          "url": "https://studio.design",
+          "date": "2026-10-24",
+          "note": "product description, feature list, brand name (Studio.Design / STUDIO)"
+        },
+        {
+          "url": "https://studio.design/pricing",
+          "date": "2026-10-24",
+          "note": "site and workspace plan prices and limits"
+        },
+        {
+          "url": "https://studio.design/terms",
+          "date": "2026-10-24",
+          "note": "content ownership, commercial-use terms, trademark/endorsement restrictions (first 100k chars only; DPA section not read)"
+        }
+      ],
+      "unverified": [
+        "Studio.design terms page was truncated at 100,000 characters; the Data Processing Addendum and any remaining sections were not read.",
+        "No explicit directory-listing/linking clause found either way; inferred permitted from absence of restriction plus trademark-use clause requiring consent for using STUDIO's marks."
+      ],
+      "injectionSeen": null
+    },
+    "studio-innate-scene-editor": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Studio Innate",
+        "url": "https://shop.studioinnate.com/online-editor/",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free account (sign-up, no card) can try and export selected mockups/effects at high resolution, including video, from the Scene and 3D editors, with a Font Builder demo; restricted to the non-commercial Free Licence (personal portfolio, one personal social account, unsold personal prints/gifts only).",
+        "paidFrom": "Effects Pro from $12/month (or $10.08/month billed yearly) adds a commercial licence and unlimited imports/exports for the Effects Generators; Full Pro Suite (all editors) from $40.25/month billed yearly.",
+        "evidence": {
+          "url": "https://shop.studioinnate.com/pricing/",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Studio Innate Licences page · commercial: no on Free tier / yes on Standard (paid) tier · attribution: not stated · redistribution of source assets/templates forbidden on all tiers",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://shop.studioinnate.com/licences/",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "studio-innate-scene-editor",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Studio Innate Scene Editor",
+        "description": "Browser-based streetwear mockup generator with 2D/3D scene editors, mockup-to-video, an AI photoshoot tool, and a font builder.",
+        "tags": [
+          "graphic-design",
+          "visual-design",
+          "ai-tool",
+          "design-templates"
+        ],
+        "relatedResources": [
+          "figma",
+          "canva-templates"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "2D Scene Editor with 226+ apparel mockups (t-shirts, hoodies, crewnecks, hangers, flatlays)",
+          "3D Mockup Editor with 25+ 3D product mockups and still/video capture",
+          "Mockup-to-Video export for turning static designs into motion content",
+          "AI Photoshoot tool for generating product photography scenes",
+          "Font Builder for creating custom typefaces",
+          "Asset Store with 700+ downloadable PSD, 3D, vector, and motion files"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No Simple Icons match (check-icon.mjs \"Studio Innate\" returned only unrelated single-letter fuzzy hits: /e/, D)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition reports found; search returned unrelated results (Lumma Stealer takedown, old spyware FTC cases, CamStudio)."
+      },
+      "sources": [
+        {
+          "url": "https://shop.studioinnate.com/online-editor/",
+          "date": "2026-10-24",
+          "note": "product description, editor features, mockup library counts"
+        },
+        {
+          "url": "https://shop.studioinnate.com/pricing/",
+          "date": "2026-10-24",
+          "note": "individual and team/studio plan prices, free-plan summary, AI credit top-ups"
+        },
+        {
+          "url": "https://shop.studioinnate.com/terms-conditions/",
+          "date": "2026-10-24",
+          "note": "general terms: ownership/licence reference, no-redistribution and no-scraping clauses"
+        },
+        {
+          "url": "https://shop.studioinnate.com/licences/",
+          "date": "2026-10-24",
+          "note": "Free vs Standard/Commercial licence terms, confirming Free tier is non-commercial"
+        }
+      ],
+      "unverified": [
+        "Company/operator name behind Studio Innate not stated on the pages read.",
+        "Whether attribution is required under any licence tier is not addressed on the Licences page.",
+        "Pricing page's free-tier comparison table had an apparent internal inconsistency (lists 'unlimited exports' for free tier elsewhere, contradicting 'selected mockups only'); relied on the Licences page and the clearer free-tier description for this entry."
+      ],
+      "injectionSeen": null
+    },
+    "styled-stock": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Styled Stock",
+        "url": "https://styledstock.co",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All catalog photos are labeled FREE and downloadable with no account/payment required; newsletter signup offers additional exclusive free photos. No paid bundles, subscriptions, or memberships found on the site.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://styledstock.co/shop/",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Styledstock licence · commercial: yes (commercial and non-commercial use allowed) · attribution: not required (a link back is appreciated but optional) · no resale/redistribution of the photos or on other free-stock sites",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://styledstock.co/license-privacy/",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "styled-stock",
+        "type": "Stock Media",
+        "category": "Photography",
+        "title": "Styled Stock",
+        "description": "Free feminine-styled stock photo library for bloggers and marketers, usable commercially without attribution.",
+        "tags": [
+          "stock-photos",
+          "royalty-free",
+          "stock"
+        ],
+        "relatedResources": [
+          "pexels",
+          "pixabay",
+          "unsplash"
+        ],
+        "similarResources": [
+          "pexels",
+          "pixabay"
+        ],
+        "keyFeatures": [
+          "Catalog of feminine-styled lifestyle and business stock photos, free to download",
+          "License permits commercial and non-commercial use without attribution",
+          "Newsletter delivers additional exclusive free photos",
+          "Photos can be cropped, text/logo overlays added, and used in client deliverables",
+          "Blog with marketing and blogging content for the target audience"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No Simple Icons match (check-icon.mjs \"Styled Stock\" returned only unrelated single-character fuzzy hits: /e/, C, C++, D, ty)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition reports found; search returned unrelated results (an unrelated 'StableStock' scam-warning blog, old FTC spyware cases, Lumma Stealer takedown)."
+      },
+      "sources": [
+        {
+          "url": "https://styledstock.co",
+          "date": "2026-10-24",
+          "note": "product description, catalog, newsletter offer"
+        },
+        {
+          "url": "https://styledstock.co/license-privacy/",
+          "date": "2026-10-24",
+          "note": "license terms: commercial use, attribution, resale/redistribution restrictions"
+        },
+        {
+          "url": "https://styledstock.co/shop/",
+          "date": "2026-10-24",
+          "note": "confirmed no paid bundles/memberships found"
+        }
+      ],
+      "unverified": [
+        "Operator/company name behind Styled Stock not stated on the pages read.",
+        "Whether a paid 'society'/membership tier exists elsewhere on the site beyond the shop and license pages checked."
+      ],
+      "injectionSeen": null
+    },
+    "subcolor": {
+      "researchedOn": "2026-10-24",
+      "verdict": "skip",
+      "verdictReason": "Alive but a one-off, unmaintained hobby toy: its manifest.json names it \"Colors between two colors\" — a single-purpose gradient-between-two-colors generator, with no description, no license, 0 GitHub stars, and no commits since 2019-12-29. Too thin to serve as a standalone directory resource.",
+      "site": {
+        "name": "Subcolor",
+        "url": "https://subcolor.github.io",
+        "alive": true,
+        "operator": "individual GitHub user \"subcolor\" (GitHub user id 45875873), person/operator name not disclosed"
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Static GitHub Pages site serving a small React app; no login, no payments, no download prompts. No scam/malware signal found in search."
+      },
+      "sources": [
+        {
+          "url": "https://subcolor.github.io/",
+          "date": "2026-10-24",
+          "note": "Rendered page shows only the title text \"Subcolor\" via WebFetch (React SPA); raw HTML confirms a JS-only create-react-app shell with a <title>Subcolor</title> and no server-rendered content."
+        },
+        {
+          "url": "https://subcolor.github.io/manifest.json",
+          "date": "2026-10-24",
+          "note": "App manifest: short_name \"Subcolor\", name \"Colors between two colors\" — confirms the tool's single function (generating a gradient/range of colors between two input colors)."
+        },
+        {
+          "url": "https://api.github.com/users/subcolor",
+          "date": "2026-10-24",
+          "note": "GitHub user \"subcolor\" exists, created 2018-12-14, 1 public repo, no bio/company/blog info given."
+        },
+        {
+          "url": "https://api.github.com/users/subcolor/repos",
+          "date": "2026-10-24",
+          "note": "Single repo subcolor/subcolor.github.io: license: null, 0 stars, 0 forks, no description, last pushed 2019-12-29 — confirms abandoned/unmaintained status and absence of any license."
+        }
+      ],
+      "unverified": [
+        "No pricing concept applies (static free tool); not scored against RL pricing enums because verdict is skip.",
+        "No way to confirm the identity of the operator behind the GitHub account beyond the username \"subcolor\".",
+        "Could not find any linked documentation, blog post, or changelog describing intended use beyond the manifest name."
+      ],
+      "injectionSeen": null
+    },
+    "subframe": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Subframe",
+        "url": "https://www.subframe.com",
+        "alive": true,
+        "operator": "Atomic Design Inc"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan ($0/month): 1 project, unlimited viewers and editors, can use your own Claude or Codex subscription for AI, plus a limited amount of Subframe's own AI credits.",
+        "paidFrom": "Pro plan: $20 per editor / month — unlimited projects, 6x the AI credits of Free, and multiple themes per project.",
+        "evidence": {
+          "url": "https://www.subframe.com/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS (Atomic Design Inc Terms of Service) · commercial: yes (paid Pro tier exists for team/commercial use) · attribution: not required · limit: no redistribution/sublicensing of the Service itself; output ownership (designs/generated code) is not explicitly addressed in the ToS, only \"Customer Data\" ownership is",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://policies.subframe.com/tos",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "subframe",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Subframe",
+        "description": "Desktop app combining a design canvas, AI coding agent, and built-in browser so designers can build real React UI with their own components and code.",
+        "tags": [
+          "ui-ux",
+          "design-systems",
+          "prototyping",
+          "ai-tool",
+          "collaboration"
+        ],
+        "relatedResources": [
+          "figma",
+          "framer",
+          "webflow"
+        ],
+        "similarResources": [
+          "figma",
+          "framer"
+        ],
+        "keyFeatures": [
+          "Visual design canvas that outputs directly into your own React codebase and design tokens, rather than a separate design file",
+          "Built-in AI coding agent that can use your own Claude or Codex subscription to generate or edit components",
+          "Integrated browser pane inside the app for previewing and iterating on the live build",
+          "Supports multiple themes per project on the Pro plan for building multi-brand or multi-mode UI",
+          "Unlimited viewers and editors even on the free single-project plan, aimed at small teams reviewing work together"
+        ],
+        "icon": {
+          "route": "iconUrl",
+          "value": "https://www.subframe.com/favicon.ico",
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no Simple Icons match for \"Subframe\" (exit 1, but closest matches — e, fsharp, r, ram — are unrelated single-letter/short icons, not genuine fuzzy hits); used the site's own favicon.ico (HTTP 200, confirmed via curl) instead of a bogus iconLib slug."
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown signal found in search (results were unrelated to this product). Terms of Service hosted on policies.subframe.com, reachable, dated last-updated 2026-01-22."
+      },
+      "sources": [
+        {
+          "url": "https://www.subframe.com",
+          "date": "2026-10-24",
+          "note": "Home page: product description, tagline \"Design & build in one tool\", target users (designers/builders who ship web software, esp. React), use cases."
+        },
+        {
+          "url": "https://www.subframe.com/pricing",
+          "date": "2026-10-24",
+          "note": "Free vs Pro plan details and prices."
+        },
+        {
+          "url": "https://policies.subframe.com/tos",
+          "date": "2026-10-24",
+          "note": "Terms of Service: operator name (Atomic Design Inc), commercial-use clauses, data/feedback licensing, no restriction found on third-party directory listing."
+        },
+        {
+          "url": "https://www.subframe.com/favicon.ico",
+          "date": "2026-10-24",
+          "note": "Confirmed via curl HTTP 200 as a usable icon source since no Simple Icons match exists."
+        }
+      ],
+      "unverified": [
+        "Exact amount of \"limited AI credits\" on the Free plan is not stated on the pricing page.",
+        "ToS does not explicitly state who owns generated code/design output beyond 'Customer Data'; treated as unresolved but not blocking since no listing restriction exists.",
+        "No independent safety/news coverage found either way (absence of negative signal, not a positive confirmation)."
+      ],
+      "injectionSeen": null
+    },
+    "substratum": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Substratum",
+        "url": "https://substratum.app",
+        "alive": true,
+        "operator": "Substratum (company name as used in its own Terms; legal entity not further specified)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Personal plan: free, includes 500 \"blocks\" (saved items), 2 guest team members, and unlimited viewers.",
+        "paidFrom": "Team plan: $4.98 per user / month — unlimited blocks (up to 500GB), unlimited team members, unlimited viewers.",
+        "evidence": {
+          "url": "https://substratum.app",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS (Substratum Terms and Conditions) · commercial: not explicitly addressed (no clause barring commercial use) · attribution: not required · limit: users retain rights to their own uploaded content, but terms grant the company a license to use/modify/publicly perform that content on the service",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://substratum.app/terms-and-conditions",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "substratum",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Substratum",
+        "description": "Visual bookmarking app for saving, tagging and sharing images, videos and design inspiration, with a browser clipper and a Mac app.",
+        "tags": [
+          "inspiration",
+          "collaboration",
+          "visual-design",
+          "mac"
+        ],
+        "relatedResources": [
+          "behance",
+          "dribbble",
+          "awwwards"
+        ],
+        "similarResources": [
+          "behance",
+          "dribbble"
+        ],
+        "keyFeatures": [
+          "Save images, videos and GIFs from the web into organized, taggable collections (\"blocks\")",
+          "Shareable library links so a collection can be sent to others without transferring individual files",
+          "Runs in-browser and as a native Mac app (Windows app listed as coming soon at time of research)",
+          "Free Personal plan includes 500 blocks and 2 guest team members for light personal or small-team use",
+          "Team plan adds unlimited members/viewers and up to 500GB of storage for shared asset libraries (e.g. logos, brand files)"
+        ],
+        "icon": {
+          "route": "iconUrl",
+          "value": "https://substratum.app/favicon.png",
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no Simple Icons match for \"Substratum\" (exit 1; closest match was only the unrelated single-letter \"r\" icon). Used the site's own favicon.png referenced in the page <link rel=\"icon\"> tag instead of a bogus iconLib slug."
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown signal found; search results about \"Substratum\" referred to an unrelated SUB cryptocurrency, not this app. Terms and privacy pages are live on the apex domain."
+      },
+      "sources": [
+        {
+          "url": "https://substratum.app",
+          "date": "2026-10-24",
+          "note": "Home page: product description, target users (individuals collecting inspiration; teams sharing design assets), pricing tiers and prices, platform availability (browser, Mac, Windows coming soon)."
+        },
+        {
+          "url": "https://substratum.app/terms-and-conditions",
+          "date": "2026-10-24",
+          "note": "Terms: operator name/contact email, content licensing terms, no restriction found on third-party linking/listing."
+        },
+        {
+          "url": "https://substratum.app/",
+          "date": "2026-10-24",
+          "note": "curl of homepage HTML: confirmed link to /terms-and-conditions, /privacy-policy, and favicon.png path."
+        }
+      ],
+      "unverified": [
+        "Legal entity name behind \"Substratum\" (e.g. incorporation details) is not stated on the site.",
+        "Exact feature cutoff between Personal and Team beyond blocks/members/storage is not itemized further on the page text retrieved.",
+        "Did not find an explicit 'no commercial use' or 'no third-party listing' clause, but the terms also do not explicitly grant a listing right — treated as unrestricted by default per the verdict rules since nothing forbids it."
+      ],
+      "injectionSeen": null
+    },
+    "suno": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Suno",
+        "url": "https://suno.com",
+        "alive": true,
+        "operator": "Suno, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free plan: up to 10 songs/day, no credit card required (personal, non-commercial use only).",
+        "paidFrom": "Pro and Premier paid tiers exist (prices not listed on the fetched page); add commercial use rights, more monthly songs, Song Editor, stem separation, Suno Studio (Premier).",
+        "evidence": {
+          "url": "https://suno.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Suno Terms of Service · commercial: yes, but only for Output obtained as a Pro/Premier permitted download within quota · attribution: not required · limit: Free/Basic tier output is personal/non-commercial only, and all remixes are personal/non-commercial regardless of tier",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://suno.com/terms",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "suno",
+        "type": "AI Tool",
+        "category": "Filming",
+        "title": "Suno",
+        "description": "AI music generator that turns a text prompt, lyrics or mood into a full song with vocals and instrumentation, for creators needing quick custom tracks.",
+        "tags": [
+          "ai-tool",
+          "stock-music"
+        ],
+        "relatedResources": [
+          "mixkit",
+          "pixabay"
+        ],
+        "similarResources": [
+          "mixkit",
+          "pixabay"
+        ],
+        "keyFeatures": [
+          "Generates complete songs (vocals + instrumentation) from a text prompt, genre/mood tags, or your own lyrics",
+          "Free plan allows up to 10 song generations per day with no card required",
+          "Paid Pro/Premier tiers add commercial-use rights within monthly quota, priority generation and a Song Editor",
+          "Premier tier adds Suno Studio, a multitrack editor, MIDI export and Persona Voices",
+          "Supports remixing existing tracks and uploading audio (up to 8 minutes on paid tiers)",
+          "Stem separation available on paid tiers for isolating vocals/instruments"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "suno",
+          "fillColor": "#000000",
+          "bgColor": null,
+          "source": "scripts/check-icon.mjs exact match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "July 2026 reporting (Have I Been Pwned / cyberdaily.au) describes a prior data breach affecting ~55M user records (names, emails, partial payment data) and separate allegations of unlicensed training-data scraping; both are ongoing controversies, not a shutdown or acquisition. Noted for the owner, does not block listing."
+      },
+      "sources": [
+        {
+          "url": "https://suno.com",
+          "date": "2026-10-24",
+          "note": "product description, free plan (10 songs/day), Pro/Premier feature lists"
+        },
+        {
+          "url": "https://suno.com/terms",
+          "date": "2026-10-24",
+          "note": "commercial-use restrictions, output ownership by tier, remix licensing"
+        },
+        {
+          "url": "https://www.cyberdaily.au/security/13943-suno-data-breach-affecting-55m-users-reveals-how-ai-giant-was-scraping-songs-illegally-for-training",
+          "date": "2026-10-24",
+          "note": "safety search: 2026 data breach and scraping allegations, no shutdown/acquisition found"
+        }
+      ],
+      "unverified": [
+        "Exact Pro/Premier prices in USD were not shown on the fetched home page text."
+      ],
+      "injectionSeen": null
+    },
+    "supa-colors": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Supa Colors",
+        "url": "https://supacolors.studio",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Cadet plan (free, no expiry mentioned): 1 color system, 1 collection, up to 25 palettes per collection, CSS export, community support.",
+        "paidFrom": "Pilot $59/year (~$4.92/mo): unlimited systems/collections, up to 50 palettes/collection, import, all export formats.",
+        "evidence": {
+          "url": "https://supacolors.studio",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No separate license/ToS page found on the fetched pricing content · commercial: not stated · attribution: not stated · limit: free Cadet plan capped at 1 color system / 1 collection / 25 palettes",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://supacolors.studio",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "supa-colors",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Supa Colors",
+        "description": "Web tool for building OKLCH-based color systems with WCAG/APCA contrast scoring and export to CSS, Tailwind, Figma Variables and more.",
+        "tags": [
+          "color-palette",
+          "design-systems",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "figma",
+          "fontpair"
+        ],
+        "similarResources": [
+          "figma-community",
+          "fontpair"
+        ],
+        "keyFeatures": [
+          "Generates color scales using OKLCH with P3 wide-gamut support and sRGB fallback",
+          "Scores contrast against WCAG and APCA standards",
+          "Exports to 10 formats including CSS, Tailwind v4, Figma Variables and W3C DTCG JSON",
+          "Ships preset scale patterns modeled on systems like Tailwind and Radix, plus custom curves",
+          "Includes a batch generator and a Figma plugin",
+          "Free Cadet plan covers 1 color system / 1 collection (up to 25 palettes); paid plans add unlimited systems, import, and team workspaces"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "scripts/check-icon.mjs: no exact or meaningfully close Simple Icons match (closest hits were unrelated single-letter icons)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown/acquisition reports found; search engine returned unrelated results for the name, consistent with a small/niche product rather than a red flag."
+      },
+      "sources": [
+        {
+          "url": "https://supacolors.studio",
+          "date": "2026-10-24",
+          "note": "product description, feature list, free Cadet plan and paid Pilot/Crew/Fleet pricing"
+        }
+      ],
+      "unverified": [
+        "No dedicated license/ToS/commercial-use page was found or fetched; commercial-use terms for exported color systems are not confirmed.",
+        "Operator/company name behind Supa Colors not confirmed beyond an X account link (x.com/angeloldesigns)."
+      ],
+      "injectionSeen": null
+    },
+    "supahero": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Supahero",
+        "url": "https://www.supahero.io",
+        "alive": true,
+        "operator": "screensdesign.com (per site footer/description)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Browsing and searching the hero-section gallery is free with no account wall found; the site's /pricing page is paid advertising placements for products wanting to be featured on Supahero, not a paywall on using the resource itself.",
+        "paidFrom": "Featured Badge $79/30 days, Premium Spot $149/30 days, Featured Spot $279/30 days (site-placement ads, not a subscription to use the gallery).",
+        "evidence": {
+          "url": "https://www.supahero.io/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No ToS/license page fetched · commercial: not stated · attribution: not stated · limit: unknown — curated hero-section examples may themselves be copyrighted by the sites they showcase",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.supahero.io",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "supahero",
+        "type": "Resource",
+        "category": "Design",
+        "title": "Supahero",
+        "description": "Curated gallery of website hero sections from real products, for browsing design inspiration and patterns before building a landing page.",
+        "tags": [
+          "inspiration",
+          "ui-ux",
+          "web"
+        ],
+        "relatedResources": [
+          "dribbble",
+          "awwwards"
+        ],
+        "similarResources": [
+          "dribbble",
+          "behance",
+          "awwwards"
+        ],
+        "keyFeatures": [
+          "Curated, searchable collection of real-world website hero sections (e.g. Stripe, Linear)",
+          "Free to browse with no account wall observed",
+          "Separate navigation sections for Tools and Templates alongside the hero gallery",
+          "Site is positioned as part of screensdesign.com, described as a large UX app/screen library",
+          "Paid placement tiers exist for products wanting featured visibility, not for end users browsing"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "scripts/check-icon.mjs: no exact or meaningfully close Simple Icons match"
+        },
+        "siblings": [
+          {
+            "candidate": "Supahero Templates",
+            "note": "The site has a distinct /templates section (landing-page templates) separate from the hero-section gallery; could warrant its own RL entry. Flagged, not drafted."
+          }
+        ]
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown/acquisition reports found; search returned unrelated results for the name."
+      },
+      "sources": [
+        {
+          "url": "https://www.supahero.io",
+          "date": "2026-10-24",
+          "note": "product description, operator note (screensdesign.com), nav structure (Tools/Templates/Pricing/Submit)"
+        },
+        {
+          "url": "https://www.supahero.io/pricing",
+          "date": "2026-10-24",
+          "note": "confirmed /pricing is paid site-placement advertising for featured products, not a paywall for browsing"
+        }
+      ],
+      "unverified": [
+        "No ToS/license page was fetched, so copyright/attribution terms for the showcased hero sections and the company legal name behind screensdesign.com are unconfirmed.",
+        "Whether the Templates section merits a separate RL listing (flagged as a possible sibling, not confirmed)."
+      ],
+      "injectionSeen": null
+    },
+    "supanext": {
+      "researchedOn": "2026-10-24",
+      "verdict": "blocked",
+      "verdictReason": "could not resolve site — directory page https://digitool.co/tool/supanext/ returned HTTP 403 on first fetch and on retry, so the real target URL for this site:null entry could not be confirmed. Web search turned up a same-named but unrelated-looking paid Next.js/Supabase SaaS starter kit (AlternativeTo/Toolify/G2 listings, $99-$249 one-time, developer \"Jake Prins\"), but without the directory page it cannot be confirmed this is the same tool referenced by the backlog entry, so no rl block was drafted.",
+      "site": {
+        "name": "Supanext",
+        "url": null,
+        "alive": null,
+        "operator": null
+      },
+      "safety": {
+        "https": null,
+        "clonerisk": "none",
+        "notes": "No safety search performed against an unconfirmed site; candidate (unconfirmed) product found via AlternativeTo/Toolify/G2 shows no scam/malware/shutdown reports."
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/supanext/",
+          "date": "2026-10-24",
+          "note": "directory page — returned HTTP 403 Forbidden on fetch and on retry"
+        },
+        {
+          "url": "https://alternativeto.net/software/supanext/about",
+          "date": "2026-10-24",
+          "note": "search snippet describing a same-named product: Next.js + Supabase SaaS/AI starter kit, paid, one-time $99-$249, by Jake Prins — not confirmed to be the same tool"
+        }
+      ],
+      "unverified": [
+        "Real site URL for the digitool.co 'Supanext' listing — never resolved.",
+        "Whether the AlternativeTo/Toolify 'SupaNext' starter-kit listing is the same product as the digitool.co entry."
+      ],
+      "injectionSeen": null
+    },
+    "supares": {
+      "researchedOn": "2026-10-24",
+      "verdict": "skip",
+      "verdictReason": "trial-only — the 'Free' plan is a one-time signup quota (10 credits, 64MP cap), not a renewing/permanent free tier. supares.com itself states: \"Free plan with one-time quota just to get started\" and the FAQ confirms every account starts with a one-time allotment; all other tiers are paid monthly subscriptions ($9-$99/mo) or one-time credit packs ($9-$79). No permanent free tier exists, so it fails the list bar.",
+      "site": {
+        "name": "SupaRes",
+        "url": "https://supares.com",
+        "alive": true,
+        "operator": "Optidash GmbH"
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": "One-time signup quota only (10 credits, 64MP limit) — not renewing, not permanent",
+        "paidFrom": "$9/month (Basic, 100 credits) or $9 one-time (20 credits)",
+        "evidence": {
+          "url": "https://supares.com/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: yes (paid plans) · attribution: not required · users retain ownership of uploaded images",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://supares.com/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown reports found; site uses reCAPTCHA and standard Stripe billing. Operated by Optidash GmbH."
+      },
+      "sources": [
+        {
+          "url": "https://supares.com",
+          "date": "2026-10-24",
+          "note": "home page: AI image enhancement (upscaling, face enhancement, noise/JPEG artifact removal), operator Optidash GmbH"
+        },
+        {
+          "url": "https://supares.com/pricing",
+          "date": "2026-10-24",
+          "note": "full pricing table confirming one-time-only free quota, paid subscription and credit-pack tiers, no-contract terms, image-ownership statement"
+        },
+        {
+          "url": "web search: SupaRes scam OR malware OR shutting down OR acquired Optidash",
+          "date": "2026-10-24",
+          "note": "no relevant results — no safety concerns found"
+        }
+      ],
+      "unverified": [
+        "Full Terms of Service / Privacy Policy text (linked but not fetched)."
+      ],
+      "injectionSeen": null
+    },
+    "supawazap": {
+      "researchedOn": "2026-10-24",
+      "verdict": "skip",
+      "verdictReason": "trial-only / continuity risk — supawazap.com (resolved from the digitool.co listing via a FutureTools.io redirect, since digitool.co itself returned HTTP 403) describes only a free Chrome Web Store install with unstated feature limits plus a one-time-unlock 'Pro' license ($29, discounted from $99, advertised with artificial '5 of 30 left' scarcity); no functional permanent free tier is documented. Independent listing trustmrr.com/startup/supawazap-whatsapp-web-crm additionally shows the product currently being marketed for outright sale ('Code + Website + Domain'), with 'No active subscriptions' and a stale/expired LemonSqueezy API key as of the data snapshot — raising doubt about ongoing support, which fails the list bar even setting the free-tier question aside.",
+      "site": {
+        "name": "Supawazap",
+        "url": "https://supawazap.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": "Chrome extension installs free but page does not state which features work without a license; effectively unverified/likely limited",
+        "paidFrom": "$29 one-time lifetime license (discounted from $99, limited-offer pricing)",
+        "evidence": {
+          "url": "https://supawazap.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No malware/scam reports found in search. However the product is currently listed for resale with 'No active subscriptions' reported (trustmrr.com, data snapshot dated Jul 19 2026), and marketing uses artificial scarcity ('5 remaining of first 30') — flagged as a continuity/trust concern, not confirmed malicious."
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/supawazap/",
+          "date": "2026-10-24",
+          "note": "directory page — returned HTTP 403 Forbidden, could not be read directly"
+        },
+        {
+          "url": "https://www.futuretools.io/tools/supawazap",
+          "date": "2026-10-24",
+          "note": "resolved the real site to supawazap.com; listed feature summary"
+        },
+        {
+          "url": "https://supawazap.com",
+          "date": "2026-10-24",
+          "note": "home page: WhatsApp Web CRM/automation Chrome extension, free install + $29 one-time Pro license, data stored locally"
+        },
+        {
+          "url": "https://trustmrr.com/startup/supawazap-whatsapp-web-crm",
+          "date": "2026-10-24",
+          "note": "third-party listing marketing the product for sale ('Code + Website + Domain'), reporting no active subscriptions and a stale LemonSqueezy data snapshot"
+        },
+        {
+          "url": "web search: Supawazap scam OR malware OR shutting down OR acquired",
+          "date": "2026-10-24",
+          "note": "no relevant results — no direct safety reports found"
+        }
+      ],
+      "unverified": [
+        "Exact feature set available in the free (unlicensed) install.",
+        "Full Terms of Service / Privacy Policy text (referenced but not fetched).",
+        "Whether the product is actually sold/transferred to a new operator."
+      ],
+      "injectionSeen": null
+    },
+    "super": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Super",
+        "url": "https://super.so",
+        "alive": true,
+        "operator": "Super Publishing Co."
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "One free site, free forever, no credit card required: responsive site, unlimited pages, hosting on super.site, theme customization, support for any Notion page, a 'Made with Super' badge.",
+        "paidFrom": "Personal site $16/month (or $144/year); adds custom domain, custom code, password-protected pages, custom fonts, RSS/Atom feeds, memberships, badge removal. Pro site $28/month adds manual publish control, advanced search, file uploads, hidden pages, multi-language. Custom solutions from $50+.",
+        "evidence": {
+          "url": "https://super.so/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: yes (build sites for clients/business use) · attribution: not required (badge on free plan only, removable on paid) · limit: one active free site per account",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://super.so/terms",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "super",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Super",
+        "description": "Turns a Notion page into a fast, customizable website with themes, custom domains, and membership logins, no code required.",
+        "tags": [
+          "no-code",
+          "website-builder"
+        ],
+        "relatedResources": [
+          "webflow",
+          "squarespace"
+        ],
+        "similarResources": [
+          "framer"
+        ],
+        "keyFeatures": [
+          "Publishes any Notion page as a live website synced to later Notion edits",
+          "No-code theme customization plus optional custom code for paid plans",
+          "Custom domains, SSL, password-protected pages, and a cookie consent banner",
+          "Membership logins for gated content on paid plans",
+          "Automatic social sharing cards and search-friendly HTML for SEO",
+          "RSS/Atom feeds and multi-language support on higher tiers"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs returned no exact match; fuzzy candidates (Apache Superset, Supercell, Super User) are unrelated brands, so not used per 'never invent logos' rule"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown signals found in search; terms bar scraping/reselling the service itself but say nothing against directory listings."
+      },
+      "sources": [
+        {
+          "url": "https://super.so",
+          "date": "2026-10-24",
+          "note": "product description, free-forever claim, feature list, user count"
+        },
+        {
+          "url": "https://super.so/pricing",
+          "date": "2026-10-24",
+          "note": "free vs paid plan details and prices"
+        },
+        {
+          "url": "https://super.so/terms",
+          "date": "2026-10-24",
+          "note": "checked for commercial-use / linking restrictions"
+        }
+      ],
+      "unverified": [
+        "Exact company HQ/location not stated on site beyond 'Super Publishing Co.'"
+      ],
+      "injectionSeen": null
+    },
+    "super-designer": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Super Designer",
+        "url": "https://superdesigner.co",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All 30+ tools (gradients, backgrounds, patterns, CSS shadows, border radius, OG images, favicons, avatars, etc.) are free, no account needed, no tiers or limits stated.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://superdesigner.co",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No published terms of service found · commercial: unknown (output usage rights not stated) · attribution: not stated · limit: none observed",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://superdesigner.co/privacy",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "super-designer",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Super Designer",
+        "description": "A free collection of 30+ browser tools for generating gradients, patterns, shadows, OG images, favicons, and avatars, no account required.",
+        "tags": [
+          "graphic-design",
+          "design-templates"
+        ],
+        "relatedResources": [
+          "canva-templates",
+          "figma"
+        ],
+        "similarResources": [
+          "figma-community"
+        ],
+        "keyFeatures": [
+          "30+ standalone generators: gradients, mesh gradients, patterns, CSS box-shadow, border-radius, OG images, favicons, avatars",
+          "No sign-up or account needed to use any tool",
+          "Instant export as PNG, SVG, or ZIP, or copy generated CSS directly",
+          "Curated resource libraries for gradients, mesh gradients, color palettes, and CSS shapes",
+          "Aimed at both developers (code output) and designers (image assets)"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs returned no exact match; fuzzy candidates (D, IGN, R) are unrelated, so not used per 'never invent logos' rule"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown signals found in search. Operator/company identity not disclosed on site beyond the brand name and a Twitter handle (@superdesignerco)."
+      },
+      "sources": [
+        {
+          "url": "https://superdesigner.co",
+          "date": "2026-10-24",
+          "note": "product description, free-forever claim, tool list, user count"
+        },
+        {
+          "url": "https://superdesigner.co/privacy",
+          "date": "2026-10-24",
+          "note": "checked for commercial-use / licensing / listing restrictions; none found"
+        }
+      ],
+      "unverified": [
+        "Operator/company name behind Super Designer",
+        "Whether generated assets/code have any usage restriction (no terms page found)"
+      ],
+      "injectionSeen": null
+    },
+    "supercraft": {
+      "researchedOn": "2026-10-24",
+      "verdict": "skip",
+      "verdictReason": "No confirmed permanent free tier: homepage only offers 'Get Started' / 'Book a live demo', the /pricing URL 404s, and the FAQ billing answer isn't shown; pricing is handled via sales contact (help@supercraft.ai), which reads as paid/enterprise-only or trial-only, not a listable free product.",
+      "site": {
+        "name": "Supercraft",
+        "url": "https://supercraft.ai",
+        "alive": true,
+        "operator": "CERELYZE, INC. (New York City)"
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown signals found. Note: a separate, unrelated 'Supercraft' AI-services company based in Delhi appears in CB Insights search results — not to be confused with supercraft.ai/Cerelyze Inc."
+      },
+      "sources": [
+        {
+          "url": "https://supercraft.ai",
+          "date": "2026-10-24",
+          "note": "product description, operator, lack of visible pricing/free tier"
+        },
+        {
+          "url": "https://supercraft.ai/pricing",
+          "date": "2026-10-24",
+          "note": "returned HTTP 404"
+        }
+      ],
+      "unverified": [
+        "Whether any free trial or free tier exists behind the 'Book a live demo' flow"
+      ],
+      "injectionSeen": null
+    },
+    "supercut": {
+      "researchedOn": "2026-10-24",
+      "verdict": "blocked",
+      "verdictReason": "could not resolve site: digitool.co/tool/supercut/ returned HTTP 403 Forbidden on first fetch and again on retry, so the real outbound URL for this tool could not be confirmed (web search turned up several unrelated same-named products: supercut.ai AI video editor, supercut.video screen recorder, Supademo's 'Supercut' clip repurposer, GIPHY Super Cut — no way to tell which one digitool.co links to without reading the page)",
+      "site": {
+        "name": "Supercut",
+        "url": null,
+        "alive": null,
+        "operator": null
+      },
+      "safety": {
+        "https": null,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown reports found for any of the candidate 'Supercut' products in a general web search; not conclusive since the actual target tool is unresolved."
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/supercut/",
+          "date": "2026-10-24",
+          "note": "directory page for Supercut; returned 403 Forbidden on fetch and on retry, no content retrieved"
+        }
+      ],
+      "unverified": [
+        "Real site URL for this specific 'Supercut' listing on digitool.co",
+        "Pricing, license, features — cannot research without knowing which product this is"
+      ],
+      "injectionSeen": null
+    },
+    "superdesign": {
+      "researchedOn": "2026-10-24",
+      "verdict": "blocked",
+      "verdictReason": "app.superdesign.dev redirects (307) to superdesign.dev, but that page and its /pricing route are fully JS-rendered client apps — WebFetch returns only the HTML <title> ('Superdesign - AI Product Design Agent | UI from a Prompt') with zero body text, on both the home page and the pricing page, and again on retry. No first-party pricing, license, or feature text could be read.",
+      "site": {
+        "name": "Superdesign",
+        "url": "https://superdesign.dev/",
+        "alive": true,
+        "operator": null
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown reports found in web search. Note: third-party sources (Capterra, SourcePulse, a Korean dev-forum post) describe an older, separately-licensed, now-unmaintained open-source VS Code/IDE extension of the same name (github.com/superdesigndev/superdesign, license disputed between 'other'/AGPLv3/unstated) that is a different product from the current hosted web app at superdesign.dev — these should not be conflated if this tool is researched again."
+      },
+      "sources": [
+        {
+          "url": "https://app.superdesign.dev",
+          "date": "2026-10-24",
+          "note": "307 redirect to https://superdesign.dev/"
+        },
+        {
+          "url": "https://superdesign.dev/",
+          "date": "2026-10-24",
+          "note": "JS-only page, WebFetch returned only the page <title>, no body text"
+        },
+        {
+          "url": "https://superdesign.dev/pricing",
+          "date": "2026-10-24",
+          "note": "JS-only page, WebFetch returned only the single word 'Superdesign', no pricing content"
+        }
+      ],
+      "unverified": [
+        "Whether superdesign.dev's current hosted app has a permanent free tier (third-party Capterra listing claims 'Free Trial, Free Version, Pro $20/mo flat' but this is second-hand, not confirmed first-party)",
+        "License/ToS for the hosted web app",
+        "Whether the hosted web app and the archived open-source GitHub extension of the same name should be treated as one RL entry or are unrelated"
+      ],
+      "injectionSeen": null
+    },
+    "superflow": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Superflow",
+        "url": "https://usesuperflow.ai/",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Starter plan is $0/seat/month, no credit card required for the 10-day trial; guests are free on every plan. QA agents, monitoring, and most third-party integrations (Asana, ClickUp, Monday, webhooks) are not available on Starter.",
+        "paidFrom": "Growth plan, $29/seat/month billed monthly ($24/seat/month billed annually)",
+        "evidence": {
+          "url": "https://usesuperflow.ai/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: yes (paid B2B product) · attribution: not required · one limit: free Starter tier excludes QA agents and most integrations",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://usesuperflow.ai/terms",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "superflow",
+        "type": "AI Tool",
+        "category": "Productivity",
+        "title": "Superflow",
+        "description": "AI-powered review tool that turns a QA checklist into agents checking site changes, routing findings for approval before clients see them.",
+        "tags": [
+          "ai-tool",
+          "collaboration",
+          "project-management",
+          "automation"
+        ],
+        "relatedResources": [
+          "asana"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Converts a team's QA checklist into AI agents that automatically check website changes",
+          "Reviews live and staging sites, PDFs, images, videos, and Lottie animations",
+          "Routes flagged issues to approvers before client-facing sign-off",
+          "Syncs comments and findings with Asana, ClickUp, Monday, and Slack",
+          "Guest reviewers can approve without needing a paid seat",
+          "Per-site QA agent monitoring available as an add-on ($14/site/month)"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact or usable fuzzy match in Simple Icons (closest matches 'e', 'fsharp', 'r' are irrelevant)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition reports found in web search; unrelated same-named products (Lyzr's 'SuperFlow' workflow builder, a Shopify 'Superflow' automation app, a UK company 'Superflows' marked Acquired on CB Insights) exist and were excluded as not the same product."
+      },
+      "sources": [
+        {
+          "url": "https://www.usesuperflow.com",
+          "date": "2026-10-24",
+          "note": "301 redirect to https://usesuperflow.ai/"
+        },
+        {
+          "url": "https://usesuperflow.ai/",
+          "date": "2026-10-24",
+          "note": "product description, who it's for, pricing summary, links to pricing/security/tools pages"
+        },
+        {
+          "url": "https://usesuperflow.ai/pricing",
+          "date": "2026-10-24",
+          "note": "plan names, Starter $0 free tier limits, Growth $29/$24 per seat price"
+        },
+        {
+          "url": "https://usesuperflow.ai/terms",
+          "date": "2026-10-24",
+          "note": "attempted fetch; page only echoed a pointer to the full terms doc, no commercial-use/listing clause text retrieved"
+        }
+      ],
+      "unverified": [
+        "Legal operator/company name behind usesuperflow.ai",
+        "Full terms-of-service text (commercial use / listing clauses) — fetch returned no body content",
+        "Exact Starter-plan feature list beyond 'QA agents and monitoring not included'"
+      ],
+      "injectionSeen": null
+    },
+    "superlist": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Superlist",
+        "url": "https://www.superlist.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free forever: up to 5 private/shared lists, up to 5 people per shared list, unlimited tasks and notes, Mac/iOS/Android/Web, 25MB uploads / 500MB storage.",
+        "paidFrom": "Basic $5/person/month ($59/yr): unlimited lists, all integrations, unlimited team members, voice AI, 100MB uploads / 25GB storage. Super $21/person/month ($249/yr) adds unlimited AI meeting notes and AI chat.",
+        "evidence": {
+          "url": "https://www.superlist.com/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: yes (personal/team use per ToS) · attribution: not required · no clause found forbidding listing/linking",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.superlist.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "superlist",
+        "type": "Tool",
+        "category": "Productivity",
+        "title": "Superlist",
+        "description": "Task manager combining to-do lists, notes and AI-generated action items from voice notes and meetings, for individuals, families and teams.",
+        "tags": [
+          "productivity",
+          "project-management",
+          "collaboration"
+        ],
+        "relatedResources": [
+          "notion",
+          "asana",
+          "airtable"
+        ],
+        "similarResources": [
+          "notion",
+          "coda"
+        ],
+        "keyFeatures": [
+          "Tasks and notes linked together so context stays with each task",
+          "Infinitely nested lists and subtasks for breaking down large goals",
+          "Quick add by typing or speaking, with a voice assistant",
+          "AI-generated action items and meeting-note summaries (paid tiers)",
+          "Recurring tasks, reminders and home/lock-screen widgets",
+          "Real-time collaboration and offline support across Mac, Web, iOS, Android"
+        ],
+        "icon": {
+          "route": "iconSvg",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact/fuzzy match in Simple Icons (check-icon exit 1, closest: e, perl, r — not real matches); use site's own logo SVG, sanitized."
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown signals found in search; site reachable, HTTPS, pricing page consistent with home page claims."
+      },
+      "sources": [
+        {
+          "url": "https://www.superlist.com",
+          "date": "2026-10-24",
+          "note": "product description, features, platforms"
+        },
+        {
+          "url": "https://www.superlist.com/pricing",
+          "date": "2026-10-24",
+          "note": "free tier confirmed permanent, paid tier pricing"
+        }
+      ],
+      "unverified": [
+        "Legal operator/company name behind Superlist not stated on the page (only 'from the creators of Wunderlist')."
+      ],
+      "injectionSeen": null
+    },
+    "supernova": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Supernova",
+        "url": "https://www.supernova.io",
+        "alive": true,
+        "operator": "Supernova.io Inc."
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Starter (free): 3 editors, public docs site, 20 documentation pages, 1 design system, 1 Storybook source, 3 Figma data sources, 1,000 workspace credits/month, 1 consumer MCP server.",
+        "paidFrom": "Pro $399/month: 10 editors, 200 private consumers, unlimited doc pages, custom domain, 2 design systems, 10 Figma sources, 10,000 workspace credits/month. Enterprise is contact-sales.",
+        "evidence": {
+          "url": "https://www.supernova.io/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: yes · attribution: not required · no clause found forbidding listing/linking",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.supernova.io/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "supernova",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Supernova",
+        "description": "Design system and documentation platform syncing Figma, tokens and code components, with MCP servers so AI coding agents build from the same source of truth.",
+        "tags": [
+          "design-systems",
+          "ui-ux",
+          "collaboration"
+        ],
+        "relatedResources": [
+          "figma",
+          "figma-community",
+          "framer"
+        ],
+        "similarResources": [
+          "figma-community"
+        ],
+        "keyFeatures": [
+          "Connects Figma, design variables, Storybook and code components in one workspace",
+          "Keeps design tokens in sync between design and code across multiple brands",
+          "Publishes living documentation with page history and real-time collaboration",
+          "Serves filtered MCP servers so AI agents (Cursor, Copilot, Claude Code) query only relevant design-system knowledge",
+          "Code automations export tokens and open pull requests automatically",
+          "Adoption analytics show which tokens and components teams actually use"
+        ],
+        "icon": {
+          "route": "iconSvg",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact/fuzzy match in Simple Icons (check-icon exit 1, closest: e, r, v — not real matches); use site's own logo SVG, sanitized."
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown signals found in search (unrelated 'Supernova' malware and torrent-site results are a different, unrelated entity)."
+      },
+      "sources": [
+        {
+          "url": "https://www.supernova.io",
+          "date": "2026-10-24",
+          "note": "product description, operator name, feature pillars"
+        },
+        {
+          "url": "https://www.supernova.io/pricing",
+          "date": "2026-10-24",
+          "note": "free Starter tier and paid tier details"
+        }
+      ],
+      "unverified": [],
+      "injectionSeen": null
+    },
+    "superposition": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Superposition",
+        "url": "https://superposition.design",
+        "alive": true,
+        "operator": "Firstversionist B.V."
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Core desktop app (macOS, Windows, Linux) that extracts design tokens from existing websites is free and the page states it will remain free; a separate design-system-generator extension is planned as a future paid add-on (not yet released).",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://superposition.design",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary freeware desktop app · commercial: yes (no restriction found) · attribution: not required · open-source status not stated on site",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://superposition.design",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "superposition",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Superposition",
+        "description": "Free desktop app that extracts design tokens — colors, type, spacing — from any existing website and exports them to CSS, JS, Figma and Adobe XD.",
+        "tags": [
+          "design-systems",
+          "color-palette",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "figma",
+          "dribbble",
+          "awwwards"
+        ],
+        "similarResources": [
+          "figma-community"
+        ],
+        "keyFeatures": [
+          "Extracts color, typography, spacing and other tokens directly from a live website",
+          "Click-to-copy CSS values for any extracted token",
+          "Exports tokens to CSS, Sass, JavaScript, Figma and Adobe XD",
+          "Plugins available for Adobe XD, Figma and Sketch",
+          "Free desktop app for macOS, Windows and Linux",
+          "Upcoming (paid) design-system generator for documenting and exporting a full shareable system"
+        ],
+        "icon": {
+          "route": "iconSvg",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact/fuzzy match in Simple Icons (check-icon exit 1, closest: e, posit, r — not real matches); use site's own logo SVG, sanitized."
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown signals found in search (unrelated crypto/banking-malware 'Super*' results are different products)."
+      },
+      "sources": [
+        {
+          "url": "https://superposition.design",
+          "date": "2026-10-24",
+          "note": "product description, free pricing claim, operator/publisher name, feature list"
+        }
+      ],
+      "unverified": [
+        "Whether the app is open source is not stated anywhere on the site.",
+        "Exact Sketch/Swift/Android export availability — site lists these as 'planned', not yet shipped."
+      ],
+      "injectionSeen": null
+    },
+    "supersparks": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Supersparks",
+        "url": "https://www.supersparks.io",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free forever on .webflow.io staging domains only (not custom/production domains); free tier caps around 1k page views/month and 20-100 posts/month depending on block. Custom-domain use requires a paid plan (Basic $14-19, PRO $29-39, PREMIUM $52-69, top plan $109-149/mo, pricing page shows two unlabeled price columns likely monthly vs annual) or a 7-day trial.",
+        "paidFrom": "$14/mo (Basic plan, lower of two unlabeled price columns shown on pricing page)",
+        "evidence": {
+          "url": "https://www.supersparks.io/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: yes (as paying/staging customer) · attribution: not required · limit: custom-domain publishing requires a paid subscription or 7-day trial",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.supersparks.io/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "supersparks",
+        "type": "App",
+        "category": "Design",
+        "title": "Supersparks",
+        "description": "No-code Webflow apps adding comments, reviews, community posting, upvoting and an audio player, styled natively in the Webflow Designer.",
+        "tags": [
+          "no-code",
+          "website-builder",
+          "web"
+        ],
+        "relatedResources": [
+          "webflow",
+          "webflow-templates"
+        ],
+        "similarResources": [
+          "webflow"
+        ],
+        "keyFeatures": [
+          "Native Webflow elements for comments, ratings and reviews, styled directly in the Designer (no iframe widget like Disqus)",
+          "Community posting, upvoting and favoriting for UGC directories and forums",
+          "CMS-driven audio player component",
+          "Integrates with Memberstack and Outseta for member accounts/gating",
+          "Free to use indefinitely on .webflow.io staging domains for testing before going live"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "checked via scripts/check-icon.mjs - no exact or close Simple Icons match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition results found for 'Supersparks' specifically; unrelated general Webflow-phishing-abuse news surfaced in the safety search."
+      },
+      "sources": [
+        {
+          "url": "https://www.supersparks.io",
+          "date": "2026-10-24",
+          "note": "product description, feature list, who it's for"
+        },
+        {
+          "url": "https://www.supersparks.io/pricing",
+          "date": "2026-10-24",
+          "note": "pricing tiers, free-tier scope (staging domains), trial terms"
+        }
+      ],
+      "unverified": [
+        "Operator/company name behind Supersparks not stated on the site",
+        "Which of the two unlabeled price columns on the pricing page is monthly vs. annual billing",
+        "Formal Terms of Service / license page not found (supersparks.io/terms returned 404); no explicit no-listing clause found but not exhaustively searched",
+        "Whether early-access waitlist modal ('early access has closed... 50% off first month') reflects current status or stale copy"
+      ],
+      "injectionSeen": null
+    },
+    "surfer": {
+      "researchedOn": "2026-10-24",
+      "verdict": "blocked",
+      "verdictReason": "could not resolve site - https://digitool.co/tool/surfer/ returned HTTP 403 (bot check) on two separate fetch attempts, and web search could not independently locate the digitool.co listing or confirm whether it points to surferseo.com or a different 'Surfer' product",
+      "site": {
+        "name": "Surfer",
+        "url": null,
+        "alive": null,
+        "operator": null
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Not evaluated - directory listing page could not be read."
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/surfer/",
+          "date": "2026-10-24",
+          "note": "attempted fetch twice, both returned HTTP 403"
+        }
+      ],
+      "unverified": [
+        "Whether digitool.co's 'Surfer' listing refers to Surfer SEO (surferseo.com) or a different product",
+        "Surfer SEO's own pricing/free-tier status was not checked since the source tool id in this batch is scoped to the digitool.co listing, not surferseo.com directly"
+      ],
+      "injectionSeen": null
+    },
+    "sustainable-ux-playbook": {
+      "researchedOn": "2026-10-24",
+      "verdict": "blocked",
+      "verdictReason": "https://suxnetwork.notion.site returned only the bare word 'Notion' with no body content on two separate fetch attempts (including a guessed sub-page path) - the page is a client-side-rendered Notion site that the fetch tool could not read; web search also failed to surface indexed content from the domain",
+      "site": {
+        "name": "Sustainable UX Playbook",
+        "url": "https://suxnetwork.notion.site",
+        "alive": true,
+        "operator": "SUX Network (unconfirmed - per third-party secondhand source only, not independently verified first-party)"
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": null
+      },
+      "sources": [
+        {
+          "url": "https://suxnetwork.notion.site",
+          "date": "2026-10-24",
+          "note": "fetched twice; page shell loaded but no body content rendered"
+        },
+        {
+          "url": "https://suxnetwork.notion.site/Sustainable-UX-Playbook",
+          "date": "2026-10-24",
+          "note": "guessed sub-page path, same empty result"
+        }
+      ],
+      "unverified": [
+        "Actual content of the playbook (sections, tools, guidance) - page would not render",
+        "Whether site is operated by SUX Network / sustainableuxnetwork.com (secondhand claim from a third-party profile, not confirmed first-party)",
+        "Whether the playbook is finished or still 'in progress' as one secondhand source suggested vs. 'already available' per another"
+      ],
+      "injectionSeen": null
     }
   }
 }
