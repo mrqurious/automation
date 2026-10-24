@@ -108492,6 +108492,2561 @@
         "Whether the hyperlink-authorization clause is meant to cover factual directory listings or only unauthorized reproduction of site content was not clarified anywhere on the site"
       ],
       "injectionSeen": null
+    },
+    "tolt-io": {
+      "researchedOn": "2026-10-24",
+      "verdict": "skip",
+      "verdictReason": "Paid-only SaaS (affiliate/referral tracking for SaaS startups). No permanent free tier — only a 14-day free trial; plans start at $99/month (Growth) rising to $199/month (Pro) plus custom Enterprise. Also note the brand has rebranded/redirected tolt.io -> tolt.com (301).",
+      "site": {
+        "name": "Tolt",
+        "url": "https://tolt.com",
+        "alive": true,
+        "operator": "Tolt (company; exact legal entity not stated on fetched pages)"
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown reports found for tolt.io/tolt.com in a safety search; domain now 301-redirects tolt.io to tolt.com, which reads as a rebrand, not a shutdown."
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/tolt-io/",
+          "date": "2026-10-24",
+          "note": "Directory page attempted to resolve the tool's real site; blocked by the site's own bot protection (HTTP 403) on two attempts."
+        },
+        {
+          "url": "https://tolt.io",
+          "date": "2026-10-24",
+          "note": "Search result confirms tolt.io exists as the tool's domain; /pricing on this domain 301-redirects to tolt.com/pricing."
+        },
+        {
+          "url": "https://tolt.com/pricing",
+          "date": "2026-10-24",
+          "note": "First-party pricing page: Growth $99/mo, Pro $199/mo, Enterprise custom; 14-day free trial, no free plan."
+        },
+        {
+          "url": "web search: tolt.io affiliate referral software",
+          "date": "2026-10-24",
+          "note": "Confirms Tolt is a SaaS affiliate/referral platform integrating with Stripe, Paddle, Chargebee; Capterra lists starting price ~$49 (older figure) with free trial and no free version."
+        }
+      ],
+      "unverified": [
+        "digitool.co directory page itself could not be read (403 Forbidden both attempts) so the exact listing text/outbound link as shown on that specific directory page is unconfirmed; resolved the tool's identity via direct search instead.",
+        "Exact legal operator/company name behind Tolt not confirmed from a fetched first-party 'About' page."
+      ],
+      "injectionSeen": null
+    },
+    "tommy-geoco": {
+      "researchedOn": "2026-10-24",
+      "verdict": "needs-owner",
+      "verdictReason": "This is a bare YouTube channel for an individual (Tommy Geoco, aka 'Designer Tom' — a product designer/educator, ex-Marine, co-founder of StreamPro (acquired by Streamlabs), and founder of UX Tools / uxtools.co). RL's model lists tools/sites, not personal creator channels, so whether to list this as a resource (and if so, under what type/category — e.g. a 'Course'/'Resource' style entry, or redirect the listing to his actual site designertom.io or uxtools.co instead of the YouTube channel) is an owner judgment call, not a research-decidable fact.",
+      "site": {
+        "name": "Tommy Geoco (Designer Tom)",
+        "url": "https://www.youtube.com/@designertom",
+        "alive": true,
+        "operator": "Tommy Geoco (individual)"
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware signals found; this is a mainstream, well-documented public figure's channel (~170K subscribers per third-party tracker)."
+      },
+      "sources": [
+        {
+          "url": "https://www.youtube.com/@designertom",
+          "date": "2026-10-24",
+          "note": "Direct fetch only returned the channel name; YouTube's About/stats are JS-rendered and not retrievable via plain fetch."
+        },
+        {
+          "url": "https://sponsorradar.com/channels/designertom",
+          "date": "2026-10-24",
+          "note": "Second-hand: lists @designertom at ~170K subscribers, described as a design/tech channel."
+        },
+        {
+          "url": "web search: Tommy Geoco designer tom youtube about",
+          "date": "2026-10-24",
+          "note": "Confirms identity: product designer, ex-Marine, StreamPro co-founder (acquired by Streamlabs), founder of UX Tools (uxtools.co); personal site designertom.io."
+        }
+      ],
+      "unverified": [
+        "Live subscriber count not independently confirmed (only third-party tracker, which may lag).",
+        "Whether RL intends to list people/channels at all, or only his site(s) (designertom.io / uxtools.co), is unresolved — needs an owner decision, not research."
+      ],
+      "injectionSeen": null
+    },
+    "tone": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Tone",
+        "url": "https://t-o-n-e.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "The entire site is a free, no-login color-inspiration browser: palettes grouped into mood/scene sets (Ocean, Desert, Rock, Street, Sky, Bright, Dark) with hue filters (Orange, Yellow, Green, Teal, Turquoise, Blue, Violet, Brown, Beige, White, Gray) and a 'mark/save' feature. No paywall, login, or upgrade prompt encountered anywhere on the page.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://t-o-n-e.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://t-o-n-e.com",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "tone",
+        "type": "Website",
+        "category": "Design",
+        "title": "Tone",
+        "description": "A free single-page color-inspiration browser organized into mood sets like Ocean, Desert and Street, filterable by hue, for designers hunting a palette.",
+        "tags": [
+          "color-palette",
+          "inspiration"
+        ],
+        "relatedResources": [
+          "fontpair"
+        ],
+        "similarResources": [
+          "awwwards",
+          "dribbble",
+          "behance"
+        ],
+        "keyFeatures": [
+          "Browses color palettes grouped into named mood/scene sets (Ocean, Desert, Rock, Street, Sky, Bright, Dark)",
+          "Filters palettes by individual hue (Orange, Yellow, Green, Teal, Turquoise, Blue, Violet, Brown, Beige, White, Gray)",
+          "Lets a visitor 'mark' palettes to collect a shortlist within the session",
+          "No account, login, or payment required to browse or mark palettes"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "checked Simple Icons — no match; site's own logo mark is a reload-link image, not a retrievable brand SVG from the fetched page"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown reports found; static single-page site with no login or downloads."
+      },
+      "sources": [
+        {
+          "url": "https://t-o-n-e.com",
+          "date": "2026-10-24",
+          "note": "First-party: confirmed what the tool does, its filter/mood categories, and that it is free with no pricing/paywall present."
+        },
+        {
+          "url": "https://t-o-n-e.com/about",
+          "date": "2026-10-24",
+          "note": "404 Not Found — no dedicated About page exists at this path."
+        },
+        {
+          "url": "web search: t-o-n-e.com color tool who made it creator",
+          "date": "2026-10-24",
+          "note": "No results found for the domain; operator/creator could not be identified by any source."
+        },
+        {
+          "url": "web search: \"t-o-n-e.com\" scam OR malware OR shutdown",
+          "date": "2026-10-24",
+          "note": "No safety concerns found for this domain."
+        }
+      ],
+      "unverified": [
+        "No operator/company name, About page, or license/terms page found anywhere on the site — could not confirm who runs it or under what terms, beyond the page being openly browsable with no restrictions encountered.",
+        "No logo/brand asset could be confirmed for an icon; Simple Icons has no match and the page's own logo element is a page-reload control, not a clean brand mark to sanitize as iconSvg."
+      ],
+      "injectionSeen": null
+    },
+    "toolcraft": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Toolcraft",
+        "url": "https://toolcraft.sh",
+        "alive": true,
+        "operator": "Pixel Point"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire kit is free and open source (MIT); no paid tiers or plans found on the site.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://github.com/pixel-point/toolcraft",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT · commercial: yes · attribution: not required · permissive open-source license",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/pixel-point/toolcraft",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "toolcraft",
+        "type": "Tool",
+        "category": "Development",
+        "title": "Toolcraft",
+        "description": "Open-source MIT starter kit for building custom AI-powered design tools (canvas, layers, timeline) with coding agents like Claude, Cursor, or Codex.",
+        "tags": [
+          "ai-tool",
+          "open-source"
+        ],
+        "relatedResources": [
+          "codesandbox",
+          "stackblitz",
+          "excalidraw"
+        ],
+        "similarResources": [
+          "codesandbox",
+          "stackblitz"
+        ],
+        "keyFeatures": [
+          "Ships a full app architecture (canvas, toolbar, layer system, timeline, keyframe workflows) rather than just UI components",
+          "Scaffolds a new project instantly with a single command: npx @pixel-point/toolcraft create",
+          "Embeds instructions so AI coding agents (Claude, Cursor, Codex) can extend the generated app",
+          "MIT-licensed and free to use, with a public GitHub repo (950+ stars)",
+          "Public gallery and case studies (e.g. work referencing Neon, Databricks) showing apps built on it"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no real match for 'Toolcraft' in Simple Icons (reported fuzzy matches c/cplusplus/fsharp/r are unrelated single-letter language logos, not a genuine fuzzy hit); recommend using the site's own SVG logo (iconSvg) after manual review, flagging to owner."
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition reports found in search. Open-source MIT repo with 950+ GitHub stars."
+      },
+      "sources": [
+        {
+          "url": "https://toolcraft.sh",
+          "date": "2026-10-24",
+          "note": "home page: what it is, who it's for, nav links, no pricing page found"
+        },
+        {
+          "url": "https://github.com/pixel-point/toolcraft",
+          "date": "2026-10-24",
+          "note": "license (MIT), description, star count"
+        }
+      ],
+      "unverified": [
+        "No dedicated pricing/license/terms page on toolcraft.sh itself; license confirmed via GitHub repo instead.",
+        "FAQ answers on commercial use and file privacy are collapsed/truncated on the home page and could not be read in full."
+      ],
+      "injectionSeen": null
+    },
+    "traceui": {
+      "researchedOn": "2026-10-24",
+      "verdict": "skip",
+      "verdictReason": "No confirmed permanent free tier. No dedicated pricing page exists; the only pricing signal anywhere on the site is the marketing line 'Free to start, no credit card' on the home page, with no stated free-credit amount, usage limit, or confirmation that free use persists beyond an initial trial. This reads as a typical AI-generation trial-to-paid funnel rather than a verified permanent free tier, so it does not meet the bar for 'list'.",
+      "site": {
+        "name": "TraceUI",
+        "url": "https://traceui.app",
+        "alive": true,
+        "operator": null
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition reports found in search (search mostly returned unrelated 'Traced'/contact-tracing-app results)."
+      },
+      "sources": [
+        {
+          "url": "https://traceui.app",
+          "date": "2026-10-24",
+          "note": "home page: product description, nav links, searched for pricing tiers/credits/limits - none found"
+        },
+        {
+          "url": "https://traceui.app/terms.html",
+          "date": "2026-10-24",
+          "note": "ToS: ownership of generated output, acceptable use, no pricing or listing restrictions"
+        }
+      ],
+      "unverified": [
+        "Whether a persistent free tier exists beyond an initial trial/credit allotment - no pricing page or credit count found.",
+        "Who operates TraceUI (no company/operator name found on site)."
+      ],
+      "injectionSeen": null
+    },
+    "trainual": {
+      "researchedOn": "2026-10-24",
+      "verdict": "blocked",
+      "verdictReason": "could not resolve site - the directory page https://digitool.co/tool/trainual/ returned HTTP 403 Forbidden on both the initial fetch and the retry, so the real destination URL for this tool could not be confirmed from the required source.",
+      "site": {
+        "name": "Trainual",
+        "url": null,
+        "alive": null,
+        "operator": null
+      },
+      "safety": {
+        "https": null,
+        "clonerisk": "none",
+        "notes": "Not assessed - directory page blocked before any real site could be identified. A web search independently suggests a company called Trainual operates at trainual.com (onboarding/training software), but per task rules the site must be resolved from the given directory page itself, which was inaccessible, so this was not used to set site.url."
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/trainual/",
+          "date": "2026-10-24",
+          "note": "attempted twice (initial + retry); both returned HTTP 403 Forbidden, no content retrieved"
+        }
+      ],
+      "unverified": [
+        "Real destination URL for the 'Trainual' listing on digitool.co.",
+        "Whether digitool.co's Trainual entry refers to the well-known trainual.com onboarding/training SaaS or a different product."
+      ],
+      "injectionSeen": null
+    },
+    "transhumans": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Transhumans",
+        "url": "https://www.transhumans.xyz",
+        "alive": true,
+        "operator": "Pablo Stanley (part of the humankind/robotos projects)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All ~50 illustrations downloadable individually as SVG or PNG, plus a bundled full-set download via Gumroad; no account needed.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.transhumans.xyz",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "CC0 1.0 · commercial: yes · attribution: not required · public-domain dedication, no warranty",
+        "openSource": false,
+        "spdx": "CC0-1.0",
+        "evidence": {
+          "url": "https://www.transhumans.xyz",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "transhumans",
+        "type": "Stock Media",
+        "category": "Design",
+        "title": "Transhumans",
+        "description": "A free, CC0-licensed collection of 50+ punk sci-fi illustrations of augmented characters by Pablo Stanley, downloadable as SVG or PNG.",
+        "tags": [
+          "stock-illustrations",
+          "graphic-design"
+        ],
+        "relatedResources": [
+          "undraw"
+        ],
+        "similarResources": [
+          "undraw",
+          "pixabay",
+          "unsplash"
+        ],
+        "keyFeatures": [
+          "Over 50 original illustrations of punk sci-fi, body-augmented characters",
+          "Each piece downloadable individually as SVG or PNG",
+          "CC0 1.0 license: free for personal and commercial use, no attribution required",
+          "Full set available as one bundled download via Gumroad",
+          "Links out to Blush for recoloring the art and to a print/merch shop for physical products"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact or usable fuzzy Simple Icons match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown reports found; search results matched the name 'Stanley' to an unrelated malware kit, not this project."
+      },
+      "sources": [
+        {
+          "url": "https://www.transhumans.xyz",
+          "date": "2026-10-24",
+          "note": "description, CC0 license statement, download formats, Gumroad bundle, creator"
+        }
+      ],
+      "unverified": [
+        "Exact illustration count (page says 'about 50', not an exact figure)",
+        "Whether a newsletter signup implies future paid content"
+      ],
+      "injectionSeen": null
+    },
+    "transitions-dev": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Transitions.dev",
+        "url": "https://transitions.dev",
+        "alive": true,
+        "operator": "Jakub Antalík (GitHub: Jakubantalik/transitions.dev)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Core transitions library with copy-ready snippets, the free coding skill, and the Motion Agent for personal use, plus 100 AI Builder credits/month; no account required for `npx transitions-dev add <name>`.",
+        "paidFrom": "$12/mo (also annual with 2 months free, or $149 one-time lifetime per seat) for Pro: all 43+ transitions, Pro skill, 600 AI Builder credits/month, and a commercial license",
+        "evidence": {
+          "url": "https://transitions.dev/pro.html",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Custom (MIT tooling + restricted transition snippets) · commercial: yes · attribution: not required · may not redistribute the library itself as a competing transitions library/kit",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://github.com/Jakubantalik/transitions.dev",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "transitions-dev",
+        "type": "Library",
+        "category": "Development",
+        "title": "Transitions.dev",
+        "description": "A library of 43+ copy-ready UI transitions for React, Next.js and TypeScript, installable via CLI, with a free core set and a paid Pro tier.",
+        "tags": [
+          "ui-ux",
+          "web"
+        ],
+        "relatedResources": [
+          "framer",
+          "figma"
+        ],
+        "similarResources": [
+          "framer",
+          "codepen",
+          "codesandbox"
+        ],
+        "keyFeatures": [
+          "43+ production-ready UI transitions, installable one at a time via `npx transitions-dev add <name>`",
+          "Free tier needs no account: core library, a coding-agent skill, and a Motion Agent for personal use",
+          "Pro tier ($12/mo, annual, or $149 lifetime/seat) unlocks every transition, more AI Builder credits, and a commercial license",
+          "Motion Agent can scan a codebase for motion issues and propose fixes as pull requests",
+          "CLI and agent tooling are MIT-licensed; the transition snippets carry a no-redistribution-as-competing-library clause",
+          "AI-assisted Builder generates custom transition components, with a monthly AI-credit allowance per tier"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact or usable fuzzy Simple Icons match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown reports found; one unrelated phishing domain ('cloud-trnst-tools') surfaced only by name similarity."
+      },
+      "sources": [
+        {
+          "url": "https://transitions.dev",
+          "date": "2026-10-24",
+          "note": "product overview: library, Builder, Motion Agent, Motion Skill"
+        },
+        {
+          "url": "https://transitions.dev/pro.html",
+          "date": "2026-10-24",
+          "note": "pricing: Free vs Pro tiers, monthly/annual/lifetime prices"
+        },
+        {
+          "url": "https://github.com/Jakubantalik/transitions.dev",
+          "date": "2026-10-24",
+          "note": "license summary (MIT tooling, restricted redistribution of transitions), free-tier CLI usage without account"
+        }
+      ],
+      "unverified": [
+        "Exact SPDX identifier / full LICENSE file text (README summary only, full file not read)",
+        "Which specific transitions are Pro-only"
+      ],
+      "injectionSeen": null
+    },
+    "trending-design": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Trending Design",
+        "url": "https://trending.design",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "The entire site (browsing all curated entries across categories) is free, with no account, paywall, or pricing page; the site is monetized via affiliate commissions on outbound purchase links.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://trending.design",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "n/a — editorial/curation site, no software license; affiliate-link disclosure on /affiliate page",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://trending.design",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "trending-design",
+        "type": "Website",
+        "category": "Design",
+        "title": "Trending Design",
+        "description": "An independently curated list of design books, documentaries and design-adjacent tech products, with affiliate links out to buy each one.",
+        "tags": [
+          "inspiration"
+        ],
+        "relatedResources": [
+          "awwwards",
+          "behance"
+        ],
+        "similarResources": [
+          "awwwards",
+          "behance",
+          "dribbble"
+        ],
+        "keyFeatures": [
+          "Curates design-related books, documentaries, and tech gear (cameras, synths, speakers) for designers",
+          "Organized into three categories: Design Documentaries, Design Books, and Design Tech",
+          "Each entry links out to a retailer (mostly Amazon) to purchase",
+          "Fully free to browse, no account or signup required",
+          "Monetized through disclosed affiliate commissions on outbound purchase links"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact or usable fuzzy Simple Icons match",
+          "ownerNote": "Resource is a curated affiliate product list rather than a software tool; closest existing tag used is 'inspiration' — flagging in case a dedicated tag (e.g. 'curated-lists') is wanted."
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown reports found; unrelated malvertising domains ('trendtweakonlinenews.com', 'trendthreadlink.com') surfaced only by name similarity."
+      },
+      "sources": [
+        {
+          "url": "https://trending.design",
+          "date": "2026-10-24",
+          "note": "site purpose, categories, affiliate disclosure, lack of pricing/accounts"
+        }
+      ],
+      "unverified": [
+        "Site operator/company identity (not disclosed on the page)",
+        "Update frequency / how often new items are added"
+      ],
+      "injectionSeen": null
+    },
+    "trickle": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Trickle",
+        "url": "https://trickle.so",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "70 credits/day (up to 350/month), built-in DB with 100 rows, hosting, up to 3 projects",
+        "paidFrom": "$17/month (Pro)",
+        "evidence": {
+          "url": "https://trickle.so/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: yes (standard use) · attribution: not required · limit: no reselling/offering Services to third parties, no benchmarking/competitive use",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://trickle.so/terms",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "trickle",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Trickle",
+        "description": "AI app builder that turns natural-language prompts into live web apps and sites, with hosting, a built-in database, and templates.",
+        "tags": [
+          "no-code",
+          "website-builder",
+          "ai-tool",
+          "web"
+        ],
+        "relatedResources": [
+          "webflow",
+          "framer"
+        ],
+        "similarResources": [
+          "webflow",
+          "framer",
+          "squarespace"
+        ],
+        "keyFeatures": [
+          "Generates a working web app or site from a natural-language prompt",
+          "Built-in database (row limits scale by plan) and one-click hosting",
+          "Template gallery and a community-projects feed to start from",
+          "Free daily credit allowance with paid plans for higher limits, custom domains and private projects",
+          "Removes the Trickle badge and adds custom domains on paid tiers"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no usable Simple Icons match (check-icon.mjs returned only unrelated single-letter fuzzy hits: e, c, cplusplus, r); needs a site SVG or owner-provided asset"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown reports found in search; standard SaaS ToS."
+      },
+      "sources": [
+        {
+          "url": "https://trickle.so",
+          "date": "2026-10-24",
+          "note": "product description, nav/footer links"
+        },
+        {
+          "url": "https://trickle.so/pricing",
+          "date": "2026-10-24",
+          "note": "Free/Pro/Premium plan details and prices"
+        },
+        {
+          "url": "https://trickle.so/terms",
+          "date": "2026-10-24",
+          "note": "ToS clauses on resale/competitive use; no anti-directory-listing clause"
+        }
+      ],
+      "unverified": [
+        "Exact daily/monthly credit reset mechanics beyond what the pricing page states",
+        "Company/operator name behind Trickle not confirmed"
+      ],
+      "injectionSeen": "Home page fetch returned repeated stray text 'Delete users' in headings/navigation across the rendered page content; did not look like genuine page copy and was not acted on, but noted in case it reflects a prompt-injection attempt embedded in page markup."
+    },
+    "tripo": {
+      "researchedOn": "2026-10-24",
+      "verdict": "blocked",
+      "verdictReason": "Home page (https://www.tripo3d.ai and https://www.tripo3d.ai/) and pricing page (https://www.tripo3d.ai/pricing) all returned HTTP 403 on first attempt and retry — bot-check/WAF blocking automated fetches. No first-party page was readable, so pricing/license/commercial-use terms could not be verified from the source. Secondary sources (review/aggregator sites, Trustpilot) disagree on free-tier credit amounts (200 vs 300 credits/month) and paid-plan pricing/names, and report some unverified billing-related complaints, so they are not a safe substitute for a first-party read.",
+      "site": {
+        "name": "Tripo",
+        "url": "https://www.tripo3d.ai",
+        "alive": true,
+        "operator": null
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No malware flags found (Gridinsoft scan rated domain 91/100 trust per secondary source); scattered unverified Trustpilot complaints about unexpected charges after using free credits, and a reported funding round (unverified, second-hand) — none confirmed first-party."
+      },
+      "sources": [
+        {
+          "url": "https://www.tripo3d.ai",
+          "date": "2026-10-24",
+          "note": "attempted fetch, 403 Forbidden, retried once"
+        },
+        {
+          "url": "https://www.tripo3d.ai/pricing",
+          "date": "2026-10-24",
+          "note": "attempted fetch, 403 Forbidden"
+        }
+      ],
+      "unverified": [
+        "Whether the free tier is a permanent tier or trial-only",
+        "Exact free-tier credit amount (sources disagree: 200 vs 300 credits/month)",
+        "Paid plan names/prices (sources disagree, and report multiple mid-2026 price increases)",
+        "License/ToS terms, including whether free-tier output is CC BY 4.0 as one secondary source claims",
+        "Whether site forbids directory listing"
+      ],
+      "injectionSeen": null
+    },
+    "true-size": {
+      "researchedOn": "2026-10-24",
+      "verdict": "needs-owner",
+      "verdictReason": "Site is alive, free to use, and not a duplicate of an existing RL resource, but its Terms and Conditions contain a direct contradiction: one clause bans using the website/content 'for any commercial purpose without the prior written consent of True Size,' while a later license clause grants rights for 'personal and commercial purposes.' RL operating a commercial directory and quoting the tool's size-reference data in a description could plausibly fall under the commercial-use restriction. This is the kind of ambiguous ToS clause that needs an owner call before listing.",
+      "site": {
+        "name": "True Size",
+        "url": "https://www.truesize.io",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire site (paper/business-card/banner/screen size reference, unit toggle, search) is free to use; no paid plan found, only a voluntary crypto donation ('Support us') section",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.truesize.io",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary content · commercial: ambiguous (contradictory clauses) · attribution: not stated · limit: no automated scraping/crawling, license is non-exclusive/revocable",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.truesize.io/terms-and-conditions",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown reports found; small reference-data site."
+      },
+      "sources": [
+        {
+          "url": "https://www.truesize.io",
+          "date": "2026-10-24",
+          "note": "product description, feature list, no pricing mentioned"
+        },
+        {
+          "url": "https://www.truesize.io/terms-and-conditions",
+          "date": "2026-10-24",
+          "note": "conflicting commercial-use clauses, anti-scraping clause"
+        }
+      ],
+      "unverified": [
+        "Site operator/company name",
+        "Whether the commercial-use restriction would actually apply to a directory listing (legal interpretation, not researched)"
+      ],
+      "injectionSeen": null
+    },
+    "trupeer": {
+      "researchedOn": "2026-10-24",
+      "verdict": "skip",
+      "verdictReason": "Only a 10-day free trial on the pricing page (1,000 AI credits, 5-min recordings), not a permanent free tier; cheapest paid plan is Pro at $40-49/month. Fails the 'list' bar for a real permanent free tier.",
+      "site": {
+        "name": "Trupeer",
+        "url": "https://www.trupeer.ai/",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": "10-day trial only (1,000 AI credits/month, recordings up to 5 minutes) - not permanent",
+        "paidFrom": "Pro $40/month (yearly billing) or $49/month (monthly billing)",
+        "evidence": {
+          "url": "https://www.trupeer.ai/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition results found in a targeted search; one third-party directory (futuretools.io) flagged unverified, unconfirmed concerns about review manipulation, noted here but not corroborated."
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/trupeer/",
+          "date": "2026-10-24",
+          "note": "attempted to resolve site via directory page; returned HTTP 403, could not read"
+        },
+        {
+          "url": "https://www.trupeer.ai/",
+          "date": "2026-10-24",
+          "note": "resolved real site via web search; homepage description, nav links to pricing and privacy-policy/terms"
+        },
+        {
+          "url": "https://www.trupeer.ai/pricing",
+          "date": "2026-10-24",
+          "note": "pricing tiers: Free (10-day trial), Pro $40-49/mo, Scale $199-249/mo, Enterprise custom, Knowledge Base add-ons"
+        },
+        {
+          "url": "https://autoritas.net/en/?p=231477",
+          "date": "2026-10-24",
+          "note": "search result confirming trupeer.ai as the product site"
+        }
+      ],
+      "unverified": [
+        "digitool.co directory page itself (403 Forbidden, never read) so could not confirm it was the source that should have resolved the site",
+        "Whether the futuretools.io review-manipulation flag is substantiated",
+        "License/ToS text was not separately opened (combined privacy-policy/terms link seen but not fetched); moot since verdict is skip"
+      ],
+      "injectionSeen": null
+    },
+    "tubik-blog": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Tubik Blog",
+        "url": "https://blog.tubikstudio.com",
+        "alive": true,
+        "operator": "Tubik (Tubik Studio), a design agency"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All articles, case studies, and archives are free to read; optional email signup for updates, no payment anywhere on the site",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://blog.tubikstudio.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary content · commercial: not applicable (editorial content, not software) · attribution: required for reuse · limit: footer states text/graphics belong to Tubik and cannot be reused by other sites without permission and a source link",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://tubikstudio.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "tubik-blog",
+        "type": "Website",
+        "category": "Design",
+        "title": "Tubik Blog",
+        "description": "Design agency blog with UI/UX, branding and illustration articles plus real client case studies, useful for design inspiration and process examples.",
+        "tags": [
+          "inspiration",
+          "ui-ux",
+          "graphic-design",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "dribbble",
+          "behance",
+          "awwwards"
+        ],
+        "similarResources": [
+          "dribbble",
+          "behance"
+        ],
+        "keyFeatures": [
+          "Articles across UI/UX, branding, animation, illustration, web development and business topics",
+          "Client case studies (e.g. Transform9, Preezy) showing real design process and outcomes",
+          "Archive going back to 2015 with tag-based browsing",
+          "Free downloadable design e-books/books on logo design, web design and design for business",
+          "Weekly email digest signup",
+          "Linked agency services page ('Hire us') for readers who want the studio's design work"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs \"Tubik\" returned only a fuzzy match to 'tubi' (Tubi, an unrelated video-streaming brand) - rejecting that match as a false positive from name similarity rather than using an unrelated logo; no exact Simple Icons entry for Tubik/Tubik Studio"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Targeted safety search returned no results about Tubik specifically (only unrelated hits for other blogs/companies); no scam/malware/shutdown/acquisition signal found."
+      },
+      "sources": [
+        {
+          "url": "https://blog.tubikstudio.com",
+          "date": "2026-10-24",
+          "note": "site content, categories, archive range, books, email signup, no pricing/paywall"
+        },
+        {
+          "url": "https://tubikstudio.com",
+          "date": "2026-10-24",
+          "note": "operator (Tubik Studio design agency), footer copyright/reuse notice, no separate ToS page"
+        }
+      ],
+      "unverified": [
+        "Whether the 'Hire us' / contact-form service offering has any separate commercial terms - not read, not relevant to listing the blog itself",
+        "check-icon.mjs gave a fuzzy match ('tubi') that was judged unrelated and discarded rather than used; owner may want to supply a real Tubik logo via iconSvg/iconUrl instead"
+      ],
+      "injectionSeen": null
+    },
+    "twist": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Twist",
+        "url": "https://www.twist.com",
+        "alive": true,
+        "operator": "Todoist Inc. (Doist)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free plan at $0/user/month: up to 1 month of comment/message history, up to 5 integrations, 5 GB file storage, standard support",
+        "paidFrom": "Unlimited plan, $6/user/month (monthly or yearly billing toggle)",
+        "evidence": {
+          "url": "https://www.twist.com/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS (Todoist Inc. Terms of Service) · commercial: yes (product is sold commercially) · attribution: not required · limit: Terms don't address third-party directory listings/links directly, only restrict reuse of Todoist's own materials/logos without authorization",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.todoist.com/terms-of-service",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "twist",
+        "type": "Tool",
+        "category": "Productivity",
+        "title": "Twist",
+        "description": "Asynchronous, thread-based team messaging app from Doist that organizes conversations by topic to cut down on real-time chat noise.",
+        "tags": [
+          "collaboration",
+          "project-management",
+          "productivity"
+        ],
+        "relatedResources": [
+          "asana",
+          "notion",
+          "miro"
+        ],
+        "similarResources": [
+          "notion",
+          "coda"
+        ],
+        "keyFeatures": [
+          "Threaded conversations kept separate from channels, instead of one scrolling live chat",
+          "Channels to group discussions by topic, project or client",
+          "Notification-light inbox designed to reduce real-time interruption pressure",
+          "One-on-one direct messages alongside team threads",
+          "Integrations with tools like Google Drive, GitHub and Asana",
+          "Free plan plus a single paid 'Unlimited' tier with full history and unlimited integrations/storage"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs \"Twist\" returned NOT FOUND (exit 2) - no Simple Icons entry"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Targeted safety search found no scam/malware/shutdown/acquisition for Doist's Twist; the one 'shut down' hit (9to5Mac) is an unrelated hardware product that also happens to be named Twist. Doist is described as bootstrapped and profitable, app still live and published."
+      },
+      "sources": [
+        {
+          "url": "https://www.twist.com",
+          "date": "2026-10-24",
+          "note": "product description, feature list, link to pricing page"
+        },
+        {
+          "url": "https://www.twist.com/pricing",
+          "date": "2026-10-24",
+          "note": "Free $0/user/mo and Unlimited $6/user/mo plan details"
+        },
+        {
+          "url": "https://www.todoist.com/terms-of-service",
+          "date": "2026-10-24",
+          "note": "confirmed operating entity (Todoist Inc.) and that Twist is covered by these Terms; no directory-listing prohibition found"
+        }
+      ],
+      "unverified": [
+        "Whether yearly billing changes the $6/user/month price for the Unlimited plan - toggle present but exact yearly figure not shown on the page as fetched"
+      ],
+      "injectionSeen": null
+    },
+    "type-design-resources": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Type Design Resources",
+        "url": "https://typedesignresources.com",
+        "alive": true,
+        "operator": "Justin Penner (justinpenner.ca), community-contributed via GitHub repo justinpenner/type-design-resources"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire directory is free to browse; it is a curated list of links to learning materials, software, communities and business resources for type design (individual linked tools/software may themselves be free or paid, noted per-listing).",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://typedesignresources.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "CC BY 4.0 (editorial content) · commercial: yes · attribution: required · code/design licensed separately via GitHub LICENSE.md",
+        "openSource": true,
+        "spdx": "CC-BY-4.0",
+        "evidence": {
+          "url": "https://typedesignresources.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "type-design-resources",
+        "type": "Resource",
+        "category": "Design",
+        "title": "Type Design Resources",
+        "description": "A free, community-curated directory of learning materials, software, communities and business guides for type designers and font makers.",
+        "tags": [
+          "typography",
+          "graphic-design"
+        ],
+        "relatedResources": [
+          "fontpair",
+          "google-fonts"
+        ],
+        "similarResources": [
+          "fontpair"
+        ],
+        "keyFeatures": [
+          "Curated links covering beginner guides, books, workshops, full-time programs and coaching for learning type design",
+          "Lists of commercial and free/open-source font editors with prices and platforms noted per entry",
+          "Directory of type design communities, conferences, associations, podcasts and streamers",
+          "Technical reference links for character design, OpenType feature programming, kerning, proofing and font engineering",
+          "Business-side guidance links for naming, open-sourcing, licensing and starting a type foundry",
+          "Open, collaborative list maintained on GitHub; editorial content licensed CC BY 4.0"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact or usable Simple Icons match (check-icon.mjs exit 1, only generic single-letter fuzzy matches); use site favicon/SVG if a listing proceeds."
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown reports found in a web search; static link-directory site."
+      },
+      "sources": [
+        {
+          "url": "https://typedesignresources.com",
+          "date": "2026-10-24",
+          "note": "Site structure, sections, footer license note and operator credit"
+        }
+      ],
+      "unverified": [
+        "Whether the site has a separate about/FAQ page beyond the homepage and footer was not checked."
+      ],
+      "injectionSeen": null
+    },
+    "type-lol": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "type.lol",
+        "url": "https://type.lol",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Free to browse index of 1,100+ independent type foundries, 23,000+ typefaces and 3,300+ designers, with specimen previews and industry write-ups; no paywall encountered on the pages fetched.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://type.lol",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Not stated on pages fetched · commercial use/listing restriction: none found · attribution: unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://type.lol",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "type-lol",
+        "type": "Resource",
+        "category": "Design",
+        "title": "type.lol",
+        "description": "A free, browsable index of independent type foundries, typefaces and designers, with specimen previews and type-industry write-ups.",
+        "tags": [
+          "typography",
+          "inspiration"
+        ],
+        "relatedResources": [
+          "fontpair",
+          "google-fonts"
+        ],
+        "similarResources": [
+          "fontpair"
+        ],
+        "keyFeatures": [
+          "Indexes 1,100+ independent type foundries and 23,000+ typefaces",
+          "Lists 3,300+ type designers alongside their foundries",
+          "Shows real specimens so visitors can preview typefaces in context before visiting the foundry site",
+          "Publishes short studies on type history and classification (e.g. a Plantin deep-dive, a type-classification breakdown)",
+          "Links out directly to independent foundries such as Typotheque, Emigre and TypeTogether"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact or usable Simple Icons match (check-icon.mjs exit 1, only generic single-letter fuzzy matches); use site favicon/SVG if a listing proceeds."
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown reports found in a web search; operator/entity behind the site was not identified from the homepage content fetched."
+      },
+      "sources": [
+        {
+          "url": "https://type.lol",
+          "date": "2026-10-24",
+          "note": "Site description, scope (foundries/typefaces/designers counts), and that it links to About/Changelog pages"
+        }
+      ],
+      "unverified": [
+        "Site operator/owner was not identified (About page content wasn't returned by the fetch).",
+        "No license or terms page was found on the pages fetched; absence of a listing/linking restriction is based only on not finding one, not a confirmed clause."
+      ],
+      "injectionSeen": null
+    },
+    "type01": {
+      "researchedOn": "2026-10-24",
+      "verdict": "skip",
+      "verdictReason": "Primarily a paid print magazine (TYPEONE Magazine) and merchandise store with a shopping cart; no confirmed permanent free tool/resource tier matching RL's schema — the free blog articles and YouTube channel function as marketing for the paid magazine/store rather than a standalone listable resource. Pricing for the magazine/store items was not disclosed on the pages fetched, and no license/ToS page covering commercial use or listing was found.",
+      "site": {
+        "name": "TYPE01",
+        "url": "https://type-01.com",
+        "alive": true,
+        "operator": "TYPE01 (copyright 2026); related sites TYPE01 Studio (type01studio.com) and Type Department (type-department.com); legal entity not named on pages fetched"
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown reports found in a web search (search results surfaced only unrelated '01net' and other coincidental name matches)."
+      },
+      "sources": [
+        {
+          "url": "https://type-01.com",
+          "date": "2026-10-24",
+          "note": "Site structure: magazine, articles/interviews, store, Type Tutorials (YouTube), subscribe, customer portal"
+        },
+        {
+          "url": "https://type-01.com/magazine",
+          "date": "2026-10-24",
+          "note": "Checked for subscription price/free tier/terms; none disclosed in fetched content"
+        }
+      ],
+      "unverified": [
+        "Exact magazine subscription and store prices were not found on the pages fetched.",
+        "No Privacy Policy/Refunds & Returns/ToS page content was read in detail, so commercial-use/listing restrictions are unconfirmed either way."
+      ],
+      "injectionSeen": null
+    },
+    "typeflow": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Typeflow",
+        "url": "https://typeflow.tools",
+        "alive": true,
+        "operator": "Algo (algo.tv)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Fully free browser tool, no account or payment; Algo states 'Cloud costs are on us.'",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://algo.tv/cavalry",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No published license/ToS specific to Typeflow · commercial: unknown · attribution: not required · no blocking clause found",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://algo.tv/cavalry",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "typeflow",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Typeflow",
+        "description": "Free browser tool that generates kinetic typography animations from your text, built on Cavalry by studio Algo.",
+        "tags": [
+          "typography",
+          "visual-design",
+          "template"
+        ],
+        "relatedResources": [
+          "canva",
+          "fontpair",
+          "google-fonts"
+        ],
+        "similarResources": [
+          "canva"
+        ],
+        "keyFeatures": [
+          "Type custom text and preview animated typography live in the browser",
+          "Choose from community-contributed animation scenes built in Cavalry by several motion designers",
+          "Swap color palettes to match a brand or mood",
+          "Randomize button generates new animation variations instantly",
+          "Renders the final animation as a video file emailed to you",
+          "No signup or software install required, runs entirely in-browser"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no Simple Icons match (exit 1, closest fuzzy matches irrelevant)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown reports found; it is a demo/marketing project by an active studio (Algo)."
+      },
+      "sources": [
+        {
+          "url": "https://typeflow.tools",
+          "date": "2026-10-24",
+          "note": "Homepage title only, confirms name/domain; otherwise JS-rendered with little static text."
+        },
+        {
+          "url": "https://algo.tv/cavalry",
+          "date": "2026-10-24",
+          "note": "First-party description of what Typeflow is, who made it, free status, and contributing artists."
+        }
+      ],
+      "unverified": [
+        "Exact license/terms covering commercial reuse of Typeflow's output were not read (not surfaced on fetched pages).",
+        "Whether Typeflow will remain live long-term (framed by its own maker as a demo/proof-of-concept) is unconfirmed."
+      ],
+      "injectionSeen": null
+    },
+    "typeform": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Typeform",
+        "url": "https://www.typeform.com",
+        "alive": true,
+        "operator": "TYPEFORM, S.L.U. (Barcelona)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "A 'Free' plan exists per the pricing FAQ, described only as 'basic features with a limited number of responses per month'; exact caps not stated on the fetched page.",
+        "paidFrom": "Basic $39/mo (or $28/mo billed yearly), 100 responses/mo, 1 user",
+        "evidence": {
+          "url": "https://www.typeform.com/pricing/",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Typeform Terms of Use · commercial: yes (SaaS used by 150,000+ businesses per their own marketing) · attribution: not required · ToS text itself not read (fetch 404'd)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.typeform.com",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "typeform",
+        "type": "Tool",
+        "category": "Productivity",
+        "title": "Typeform",
+        "description": "Conversational form and survey builder with AI-assisted creation, lead automation, and research workflows for businesses.",
+        "tags": [
+          "no-code",
+          "automation",
+          "productivity"
+        ],
+        "relatedResources": [
+          "airtable",
+          "calendly",
+          "coda"
+        ],
+        "similarResources": [
+          "airtable",
+          "calendly"
+        ],
+        "keyFeatures": [
+          "Drag-and-drop builder for conversational, one-question-at-a-time forms and surveys",
+          "AI-assisted form creation and response analysis (Intelligent Forms)",
+          "Growth Flow automates lead enrichment, segmentation, and follow-up sequences",
+          "Research Flow runs AI-moderated research studies and generates reports",
+          "Integrates with HubSpot, Slack, Zapier, Calendly, and Stripe",
+          "Free plan with limited monthly responses, plus paid tiers from Basic through Enterprise"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "typeform",
+          "fillColor": "#262627",
+          "bgColor": null,
+          "source": "check-icon.mjs: exact match (exit 0)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "A 2018 data breach (partial survey-data backups exposed) is historical; no 2026 scam/malware/shutdown/acquisition reports found."
+      },
+      "sources": [
+        {
+          "url": "https://www.typeform.com",
+          "date": "2026-10-24",
+          "note": "Product overview: Intelligent Forms, Growth Flow, Research Flow; customer count and integrations."
+        },
+        {
+          "url": "https://www.typeform.com/pricing/",
+          "date": "2026-10-24",
+          "note": "Paid tiers (Basic/Plus/Business/Talent/Growth Flow/Enterprise) and mention of a Free plan in the FAQ."
+        }
+      ],
+      "unverified": [
+        "Exact response cap and feature list of the Free plan (page states it exists but not the limit).",
+        "Full Terms of Use text (fetch returned 404 at the URL tried) — no blocking clause found elsewhere, but not directly confirmed."
+      ],
+      "injectionSeen": null
+    },
+    "typefully": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Typefully",
+        "url": "https://typefully.com",
+        "alive": true,
+        "operator": "Typefully (resolved via web search; the given directory page digitool.co/tool/typefully/ returned HTTP 403 and could not be read directly)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free plan exists; secondary sources (checked Oct 2026) report ~10 posts/month, no AI features, 1 social set.",
+        "paidFrom": "Creator plan reported at $99/year (billed yearly), 1,000 posts/month, AI and analytics; exact current figures not confirmed first-party (pricing page is JS-rendered and returned no pricing text to the fetch tool).",
+        "evidence": {
+          "url": "https://opentweet.io/blog/typefully-pricing-2026",
+          "date": "2026-10-24",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "Typefully Terms & Privacy Policy exists (support.typefully.com) · commercial: yes (marketed as a business/creator SaaS tool) · attribution: not required · contents of ToS not read",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://support.typefully.com",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "typefully",
+        "type": "AI Tool",
+        "category": "Productivity",
+        "title": "Typefully",
+        "description": "AI-assisted writing and scheduling tool for X, LinkedIn, Threads, and Bluesky posts and threads, with analytics.",
+        "tags": [
+          "ai-tool",
+          "writing",
+          "automation"
+        ],
+        "relatedResources": [
+          "chatgpt",
+          "claude-ai",
+          "calendly"
+        ],
+        "similarResources": [
+          "chatgpt",
+          "claude-ai"
+        ],
+        "keyFeatures": [
+          "Compose and visually preview X/Twitter threads before publishing",
+          "AI writing assistance and post idea suggestions",
+          "Visual content queue for scheduling posts and threads",
+          "Cross-post the same content to LinkedIn, Threads, Bluesky, and other networks",
+          "Built-in analytics for published posts and threads",
+          "Free tier (reported around 10 posts/month) plus paid Creator and Business plans"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no Simple Icons match (exit 1, closest fuzzy matches irrelevant)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition reports found; cited as an X (Twitter) developer success story."
+      },
+      "sources": [
+        {
+          "url": "https://typefully.com",
+          "date": "2026-10-24",
+          "note": "Confirms official domain via web search (homepage/pricing are JS-rendered, fetch returned nav only)."
+        },
+        {
+          "url": "https://docs.x.com/success-stories/typefully",
+          "date": "2026-10-24",
+          "note": "Referenced in search results as X's own case study confirming Typefully is a legitimate, active X-ecosystem tool."
+        },
+        {
+          "url": "https://opentweet.io/blog/typefully-pricing-2026",
+          "date": "2026-10-24",
+          "note": "Second-hand pricing breakdown (Free/Creator/Business/Enterprise) dated October 17, 2026."
+        }
+      ],
+      "unverified": [
+        "Could not resolve the tool via the given directory page digitool.co/tool/typefully/ (HTTP 403); official URL and facts were instead corroborated via web search and third-party sources (X's own developer docs, pricing-tracking sites).",
+        "Exact current pricing figures are second-hand only; Typefully's own pricing page is JS-rendered and did not return pricing text to the fetch tool.",
+        "Full Terms & Privacy Policy content not read (only the collection listing was reachable)."
+      ],
+      "injectionSeen": null
+    },
+    "typeroom": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Typeroom",
+        "url": "https://www.typeroom.eu",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire site (articles, Archive, Search) is readable with no account or paywall; newsletter/community sign-up is optional. Site appears ad-supported (\"Advertise here\" link).",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.typeroom.eu",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Editorial content site · commercial: n/a (not a licensable tool) · attribution: not applicable · no license/ToS page found",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.typeroom.eu",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "typeroom",
+        "type": "Resource",
+        "category": "Design",
+        "title": "Typeroom",
+        "description": "A typography magazine with curated articles, archives and community features on type design, letterforms and typographic history.",
+        "tags": [
+          "typography",
+          "inspiration"
+        ],
+        "relatedResources": [
+          "fontpair",
+          "google-fonts"
+        ],
+        "similarResources": [
+          "awwwards",
+          "behance"
+        ],
+        "keyFeatures": [
+          "Three content sections: Scanner (news/discovery), Inspiration, and Origins (type history)",
+          "Searchable Archive of past articles",
+          "Covers letterform archives, legibility research, letterpress exhibitions and type heritage",
+          "Optional community sign-up and newsletter",
+          "Linked to Parachute (parachutefonts.com) via a \"Powered by Parachute\" credit, relationship unspecified",
+          "Ad-supported (site includes an \"Advertise here\" link)"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: NOT FOUND, only weak generic matches (ty/e/r)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown reports found in search; site is a long-running typography editorial brand."
+      },
+      "sources": [
+        {
+          "url": "https://www.typeroom.eu",
+          "date": "2026-10-24",
+          "note": "Site structure, sections, free access, ads, Parachute credit"
+        }
+      ],
+      "unverified": [
+        "Operator/company behind Typeroom not named on the page",
+        "Exact relationship to Parachute (parachutefonts.com) not stated",
+        "No dedicated license/ToS page found to confirm linking policy"
+      ],
+      "injectionSeen": null
+    },
+    "typescale": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Typescale",
+        "url": "https://typescale.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Core type-scale generator usable without login: choose a scale ratio (all but Golden Ratio), set responsive breakpoints, pick fonts/weights/line-height/letter-spacing/colors, preview layouts, and export CSS.",
+        "paidFrom": "\"Go Pro\" unlocks at least the 1.618 Golden Ratio scale; exact Pro price not shown on the page and /pricing returned 404.",
+        "evidence": {
+          "url": "https://typescale.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Typescale ToS · commercial: yes (non-exclusive, non-transferable, revocable license to use the site \"for their own purposes\") · attribution: not required · limit: no modifying/mirroring/reverse-engineering site materials and no claiming a business relationship with Typescale",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://typescale.com/terms-of-service",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "typescale",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Typescale",
+        "description": "A web-based typographic scale generator that turns a chosen ratio and base size into responsive CSS with live blog/landing-page previews.",
+        "tags": [
+          "typography",
+          "design-systems",
+          "web"
+        ],
+        "relatedResources": [
+          "google-fonts",
+          "fontpair"
+        ],
+        "similarResources": [
+          "figma",
+          "webflow"
+        ],
+        "keyFeatures": [
+          "Pick a type-scale ratio from Minor Second (1.067) to Perfect Fifth (1.5), plus a Pro-only Golden Ratio (1.618)",
+          "Set independent font sizes per responsive breakpoint",
+          "Choose body/heading fonts with weight, line-height, letter-spacing, color and background controls",
+          "Live preview as a blog post or landing page, in mobile or desktop view",
+          "One-click CSS export",
+          "Optional account for Boards, Bookmarks, Likes and an Explore feed of saved scales"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: NOT FOUND, only weak generic matches (e/c/cplusplus/ty)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown/acquisition reports found; distinct from the unrelated Framer community plugin of the same generic name."
+      },
+      "sources": [
+        {
+          "url": "https://typescale.com",
+          "date": "2026-10-24",
+          "note": "Features, free vs Pro-gated Golden Ratio, account-gated Boards"
+        },
+        {
+          "url": "https://typescale.com/terms-of-service",
+          "date": "2026-10-24",
+          "note": "License grant, commercial-use terms, no explicit linking/directory policy"
+        }
+      ],
+      "unverified": [
+        "Exact Pro price (no public pricing page; /pricing returned 404)",
+        "Operator/company legal name behind Typescale",
+        "Whether features beyond the Golden Ratio scale are also Pro-gated"
+      ],
+      "injectionSeen": null
+    },
+    "typescale-ai": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Typescale AI",
+        "url": "https://typescale.ai",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Full generator usable with no account: base size, scale ratio, rounding, per-level (H1-H6/body/small) fine-tuning, leading/tracking, theme/contrast checker, layout previews, AI scale suggestions, and code export (CSS variables / JSON tokens). Login is only required to save and share a scale.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://typescale.ai",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No ToS/license page found on the site (only /login and /faq links) · commercial: unknown · attribution: unknown · one limit: none stated",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://typescale.ai/faq",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "typescale-ai",
+        "type": "AI Tool",
+        "category": "Design",
+        "title": "Typescale AI",
+        "description": "An AI-assisted visual typography scale and design-token generator that exports CSS variables or Style Dictionary-compatible JSON for web UI.",
+        "tags": [
+          "typography",
+          "design-systems",
+          "ai-tool"
+        ],
+        "relatedResources": [
+          "google-fonts",
+          "fontpair"
+        ],
+        "similarResources": [
+          "typescale",
+          "figma"
+        ],
+        "keyFeatures": [
+          "Visual scale builder: base size, scale ratio (e.g. 1.250 Major Third), and rounding modes (integer, floor/ceil, 4px grid)",
+          "Per-level fine-tuning for H1-H6, body and small text, plus heading/body leading and tracking",
+          "Built-in WCAG contrast checker against chosen background/text colors",
+          "Layout previews across typography, article, dashboard and landing-page templates, in desktop/mobile/fluid modes",
+          "\"AI Typescale Suggest\" for AI-generated scale suggestions",
+          "Exports CSS variables or Style Dictionary-compatible JSON design tokens; save-and-share requires login"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: NOT FOUND, only weak generic matches (e/c/cplusplus/ea/ty)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown reports found. Confirmed as a distinct product from typescale.com: different feature set (AI suggest, JSON/Style Dictionary tokens, WCAG checker, dashboard/article layouts) and no shared branding or cross-links found between the two sites."
+      },
+      "sources": [
+        {
+          "url": "https://typescale.ai",
+          "date": "2026-10-24",
+          "note": "Feature set, no pricing/account wall for core tool"
+        },
+        {
+          "url": "https://typescale.ai/faq",
+          "date": "2026-10-24",
+          "note": "Feature descriptions, copyright line \"© 2026 Typescale AI\", no pricing/ToS content"
+        }
+      ],
+      "unverified": [
+        "No license/Terms of Service page could be located on the site",
+        "Operator/company behind Typescale AI not named",
+        "Whether any paid tier exists (none observed, but site has no pricing page to confirm permanence of the free tier)",
+        "Relationship, if any, to typescale.com beyond the similar name and product category"
+      ],
+      "injectionSeen": null
+    },
+    "typespecimens": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Type Specimens",
+        "url": "https://typespecimens.xyz",
+        "alive": true,
+        "operator": "Studio Boulton, supported by Google Fonts"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Full access to the specimen gallery, journal articles, and the Specimen Builder tool with no paywall or signup required to browse; optional free weekly newsletter.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://typespecimens.xyz",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No formal license/terms page found · commercial: not addressed · attribution: not stated · limit: unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://typespecimens.xyz/about",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "typespecimens",
+        "type": "Website",
+        "category": "Design",
+        "title": "Type Specimens",
+        "description": "A curated gallery and research project documenting type specimens, with a journal and a free online Specimen Builder tool.",
+        "tags": [
+          "typography",
+          "inspiration",
+          "graphic-design"
+        ],
+        "relatedResources": [
+          "awwwards",
+          "behance"
+        ],
+        "similarResources": [
+          "fontpair",
+          "google-fonts"
+        ],
+        "keyFeatures": [
+          "Curated gallery of type specimens from studios and foundries",
+          "Journal with articles on what specimens are and how they're used",
+          "Free online Specimen Builder tool to generate your own specimen layouts",
+          "Weekly newsletter covering new specimen submissions",
+          "Backed/supported by Google Fonts"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No genuine Simple Icons brand match; check-icon.mjs fuzzy hits (e, c, cplusplus, ens, ty) are unrelated substrings, not the brand. Recommend site favicon/logo as iconUrl if the owner wants a real mark."
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": null
+      },
+      "sources": [
+        {
+          "url": "https://typespecimens.xyz",
+          "date": "2026-10-24",
+          "note": "home page: what it is, who runs it, free browsing"
+        },
+        {
+          "url": "https://typespecimens.xyz/about",
+          "date": "2026-10-24",
+          "note": "checked for terms/license/pricing — none found"
+        }
+      ],
+      "unverified": [
+        "Whether the Specimen Builder has any paid tier — not stated anywhere found.",
+        "Full terms/license details may live on an uninspected Colophon page."
+      ],
+      "injectionSeen": null
+    },
+    "typespiration": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Typespiration",
+        "url": "https://typespiration.com",
+        "alive": true,
+        "operator": "Rafal Tomal"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Browsing the full showcase of web typography combinations, font pairings, color palettes and ready-to-use CSS snippets is free, with no signup required; a free PDF guide is offered via email signup.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://typespiration.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No formal license/terms page found · commercial: not addressed · attribution: not stated · limit: individual font licenses (e.g. Minion Pro, Calluna) are separate from the site itself",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://typespiration.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "typespiration",
+        "type": "Website",
+        "category": "Design",
+        "title": "Typespiration",
+        "description": "A showcase of web typography pairings and color palettes with ready-to-use CSS code, created by designer Rafal Tomal.",
+        "tags": [
+          "typography",
+          "inspiration",
+          "web"
+        ],
+        "relatedResources": [
+          "awwwards",
+          "behance"
+        ],
+        "similarResources": [
+          "fontpair",
+          "google-fonts"
+        ],
+        "keyFeatures": [
+          "Gallery of web typography combinations with matching color palettes",
+          "Ready-to-use CSS code for each featured font pairing",
+          "Free downloadable PDF guide of popular Google Font pairs",
+          "Linked external web typography course",
+          "Mostly built around freely licensed Google Fonts, with some premium fonts noted separately"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No genuine Simple Icons brand match; check-icon.mjs fuzzy hits (e, pi, r, ty) are unrelated substrings, not the brand. Recommend site favicon/logo as iconUrl if the owner wants a real mark."
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": null
+      },
+      "sources": [
+        {
+          "url": "https://typespiration.com",
+          "date": "2026-10-24",
+          "note": "home page: what it is, operator, free content, course link"
+        }
+      ],
+      "unverified": [
+        "Price of the linked 'Web Typography Course' — not shown on the fetched page.",
+        "Licensing terms for non-Google-Fonts typefaces featured (e.g. Minion Pro, Calluna) — not covered by the site itself."
+      ],
+      "injectionSeen": null
+    },
+    "typewolf": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Typewolf",
+        "url": "https://www.typewolf.com",
+        "alive": true,
+        "operator": "Jeremiah Shoaf"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free access to 1,000+ font pages, all-fonts/all-sites directories, popularity lists, font recommendations, search, blog, the Free Fonts guide, and Site of the Day / blog RSS feeds.",
+        "paidFrom": "The 'Flawless Typography Checklist' guide is listed on the /guides page; separate paid products by the author are also linked from there.",
+        "evidence": {
+          "url": "https://typewolf.com/about",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No formal license/terms page found · commercial: not addressed · attribution: not stated · limit: site earns affiliate commissions on MyFonts/Adobe Fonts links shown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://typewolf.com/about",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "typewolf",
+        "type": "Website",
+        "category": "Design",
+        "title": "Typewolf",
+        "description": "A font recommendation and typography trends site with font lookbooks, a popularity-ranked directory, and daily featured sites with fonts identified.",
+        "tags": [
+          "typography",
+          "inspiration",
+          "web"
+        ],
+        "relatedResources": [
+          "awwwards",
+          "dribbble"
+        ],
+        "similarResources": [
+          "fontpair",
+          "google-fonts"
+        ],
+        "keyFeatures": [
+          "Font recommendation lists and curated lookbooks by style",
+          "Popularity-ranked directory of over 1,000 font pages",
+          "'Site of the Day' feature showing real websites with their fonts identified",
+          "Free Fonts guide and typography blog",
+          "Weekly newsletter and RSS feeds",
+          "Paid 'Flawless Typography Checklist' and other guides for deeper reference"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No genuine Simple Icons brand match; check-icon.mjs fuzzy hits (e, ty, fsharp) are unrelated substrings, not the brand. Recommend site favicon/logo as iconUrl if the owner wants a real mark."
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": null
+      },
+      "sources": [
+        {
+          "url": "https://www.typewolf.com",
+          "date": "2026-10-24",
+          "note": "home page: what it is, scale (350k monthly visitors), operator"
+        },
+        {
+          "url": "https://typewolf.com/about",
+          "date": "2026-10-24",
+          "note": "free vs paid breakdown, affiliate disclosure, submission policy, media kit"
+        }
+      ],
+      "unverified": [
+        "Exact price/availability of the Flawless Typography Checklist today — a $399 figure appeared in the home-page fetch but wasn't confirmed on the /about or /guides pages read.",
+        "Full submission/listing terms beyond 'reply to the newsletter email'."
+      ],
+      "injectionSeen": null
+    },
+    "typmo": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "TypMo",
+        "url": "https://typmo.com",
+        "alive": true,
+        "operator": "Adit (founder, per Product Hunt maker post)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan lets users try the Co-pilot and Prompt Planner features (per founder's Product Hunt launch post)",
+        "paidFrom": "Unlimited access offered at a holiday-discount price of $39.99/year (per founder's Product Hunt launch post; may be a limited-time price, not the standing price)",
+        "evidence": {
+          "url": "https://www.producthunt.com/p/introduce-yourself/hello-product-hunt-i-m-adit-founder-of-typmo",
+          "date": "2026-10-24",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial use: yes (output is the user's own UI spec/prompts) · attribution: not required · limit: free plan is feature-limited (Co-pilot/Prompt Planner only)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.producthunt.com/p/introduce-yourself/hello-product-hunt-i-m-adit-founder-of-typmo",
+          "date": "2026-10-24",
+          "confidence": "second-hand"
+        }
+      },
+      "rl": {
+        "slug": "typmo",
+        "type": "AI Tool",
+        "category": "Design",
+        "title": "TypMo",
+        "description": "AI wireframing tool that turns Markdown-style text syntax or sketches into structured, prompt-ready UI specs for AI coding assistants.",
+        "tags": [
+          "ui-ux",
+          "prototyping",
+          "ai-tool"
+        ],
+        "relatedResources": [
+          "figma",
+          "framer"
+        ],
+        "similarResources": [
+          "figjam",
+          "miro"
+        ],
+        "keyFeatures": [
+          "Writes UI structure in a simple Markdown-like text syntax instead of dragging pixels",
+          "Three-stage workflow: Structure, Validate, Generate",
+          "60+ pre-defined components to assemble screens and flows quickly",
+          "Generates implementation-ready prompts/specs for AI coding tools (e.g. to hand off to an LLM-based app builder)",
+          "Accepts rough sketches as an alternate input to text syntax"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact/fuzzy Simple Icons match for TypMo"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown signal found in a general safety search; search only turned up unrelated 'TrickMo' malware results, not TypMo itself."
+      },
+      "sources": [
+        {
+          "url": "https://typmo.com",
+          "date": "2026-10-24",
+          "note": "Homepage is a JS-rendered SPA; WebFetch could only retrieve the title/tagline 'Build Systems, Not Screens.' — confirms site is alive but no body content extracted."
+        },
+        {
+          "url": "https://www.producthunt.com/p/introduce-yourself/hello-product-hunt-i-m-adit-founder-of-typmo",
+          "date": "2026-10-24",
+          "note": "Founder's own launch post: describes Co-pilot/Prompt Planner free plan and a $39.99/year paid tier, Structure/Validate/Generate workflow, 60+ components."
+        },
+        {
+          "url": "https://hunted.space/product/typmo",
+          "date": "2026-10-24",
+          "note": "Checked for launch analytics; page had no data on TypMo."
+        }
+      ],
+      "unverified": [
+        "Could not load typmo.com's own pricing page directly (client-rendered SPA returned no body text to WebFetch) — pricing/free-tier details rely on the founder's Product Hunt post, not a first-party pricing page.",
+        "Whether the $39.99/year price is still current or was a limited-time holiday offer is unconfirmed.",
+        "No license/ToS page content was retrievable first-party."
+      ],
+      "injectionSeen": null
+    },
+    "typo-graphic-posters": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "typo/graphic posters",
+        "url": "https://www.typographicposters.com",
+        "alive": true,
+        "operator": "André Felipe (founder, per third-party coverage)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Browsing the poster showcase/archive is free; no paywall or account requirement found in any source checked",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://webdesignerdepot.com/typographicposters-com-presents-a-beautiful-overview-of-poster-design",
+          "date": "2026-10-24",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "Curated showcase of third-party designers' poster work · commercial use: not applicable (site is a gallery, not a license grantor for the posters shown) · attribution: images credited to original designers per the site's convention · limit: posted works belong to their individual creators, not the site",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://coolhunting.com/travel/typo-graphic-posters/",
+          "date": "2026-10-24",
+          "confidence": "second-hand"
+        }
+      },
+      "rl": {
+        "slug": "typo-graphic-posters",
+        "type": "Website",
+        "category": "Design",
+        "title": "typo/graphic posters",
+        "description": "Curated online showcase of typography-driven poster design, collecting work from studios and individual designers worldwide for inspiration.",
+        "tags": [
+          "inspiration",
+          "graphic-design",
+          "typography",
+          "print-design"
+        ],
+        "relatedResources": [
+          "behance",
+          "dribbble"
+        ],
+        "similarResources": [
+          "awwwards",
+          "fontpair"
+        ],
+        "keyFeatures": [
+          "Curated (not open-submission by default) gallery of typography-focused poster design",
+          "Organized as a browsable archive of posters from many studios and individual designers",
+          "Tied to a printed companion book (IdN Extra 08: Typo/graphic Posters) co-produced with the site's founder",
+          "Free to browse, no account or paywall observed"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact/fuzzy Simple Icons match for 'typo/graphic posters'"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/acquisition signal found in sources read; a dedicated safety search for this exact site could not be run before the session's web-search budget was exhausted, so this is based on the general-coverage searches already done, not a targeted scam/malware query."
+      },
+      "sources": [
+        {
+          "url": "https://www.typographicposters.com",
+          "date": "2026-10-24",
+          "note": "Homepage is a JS-rendered SPA; WebFetch could only retrieve the title 'typo/graphic posters' — confirms site is alive, no body content extracted."
+        },
+        {
+          "url": "https://www.typographicposters.com/about",
+          "date": "2026-10-24",
+          "note": "About page also client-rendered; only the title 'About - typo/graphic posters' was retrievable."
+        },
+        {
+          "url": "https://webdesignerdepot.com/typographicposters-com-presents-a-beautiful-overview-of-poster-design",
+          "date": "2026-10-24",
+          "note": "Third-party review describing the site as a curated poster-design showcase founded by André Felipe, selected under strict design standards."
+        },
+        {
+          "url": "https://coolhunting.com/travel/typo-graphic-posters/",
+          "date": "2026-10-24",
+          "note": "Describes the Typo/Graphic archive as an online collection of poster design by studios and individual designers; notes its own post removed images for copyright reasons and links back to the source site."
+        },
+        {
+          "url": "https://shop.idnworld.com/?p=854",
+          "note": "IdN Extra 08: Typo/graphic Posters book listing, co-produced with the site's founder.",
+          "date": "2026-10-24"
+        }
+      ],
+      "unverified": [
+        "Could not retrieve first-party pricing/ToS/submission-terms pages directly (client-rendered SPA returned no body text to WebFetch).",
+        "Whether the site currently accepts open submissions, and under what terms/rights it takes from submitters, is unconfirmed — all submission-terms info is unavailable, not just unread.",
+        "Current operator/maintenance status beyond the historical André Felipe association is unconfirmed (coverage found is from 2014-era articles)."
+      ],
+      "injectionSeen": null
+    },
+    "typograph": {
+      "researchedOn": "2026-10-24",
+      "verdict": "blocked",
+      "verdictReason": "typograph.studio is a JS-only SPA; three separate fetches (homepage, /pricing, /en) each returned only a bare page title ('AI Font Generator & Custom Font Creator | Typograph') with no body text, pricing, or license content extractable. The /pricing URL additionally returned an unrelated page title ('Turbofy® - Build as fast as you can think'), suggesting either a routing/redirect issue or shared hosting infrastructure that could not be resolved from here. Web search turned up only an Instagram account and generic AI-font-tool competitor results, no independent confirmation of typograph.studio's own pricing or terms.",
+      "site": {
+        "name": "Typograph",
+        "url": "https://typograph.studio",
+        "alive": true,
+        "operator": null
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware signal found, but a dedicated safety search for 'typograph.studio' could not be completed before the session's web-search budget was exhausted."
+      },
+      "sources": [
+        {
+          "url": "https://typograph.studio",
+          "date": "2026-10-24",
+          "note": "Client-rendered SPA; only page title retrievable, confirms it's an AI font generator/custom font creator tool."
+        },
+        {
+          "url": "https://typograph.studio/pricing",
+          "date": "2026-10-24",
+          "note": "Returned an unrelated page title ('Turbofy®'), not Typograph's own pricing content — could not confirm free tier or paid plans."
+        },
+        {
+          "url": "https://typograph.studio/en",
+          "date": "2026-10-24",
+          "note": "Same SPA title-only result as homepage."
+        },
+        {
+          "url": "https://www.instagram.com/typograph_studio/",
+          "date": "2026-10-24",
+          "note": "Social account (~924 followers, 10 posts) describing it as a type-design tool the team wanted to exist; no pricing info."
+        }
+      ],
+      "unverified": [
+        "No pricing/free-tier/paid-plan info retrievable from any first-party page.",
+        "No license/terms info for AI-generated fonts (commercial use rights, attribution requirements) retrievable.",
+        "The /pricing route returning an unrelated 'Turbofy' title is unexplained and should be re-checked manually (possible broken route, A/B test, or shared template bug) before any owner decision to list."
+      ],
+      "injectionSeen": null
+    },
+    "typographica": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Typographica",
+        "url": "https://typographica.org",
+        "alive": true,
+        "operator": "Stephen Coles (editor), with Caren Litherland (editor) and Chris Hamamoto (designer)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Full site access (type reviews, book reviews, archives) is free; the site asks for voluntary donations/sponsorship support but does not gate content behind a paywall.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://typographica.org",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Editorial content copyright Stephen Coles or each author as noted, all rights reserved · commercial: not applicable (content/review site, not software) · attribution: not required for linking · no ToS or robots restriction against listing/linking was found",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://typographica.org",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "typographica",
+        "type": "Website",
+        "category": "Design",
+        "title": "Typographica",
+        "description": "An independent editorial site reviewing new typefaces and type books, with browsable archives for designers researching fonts.",
+        "tags": [
+          "typography",
+          "inspiration"
+        ],
+        "relatedResources": [
+          "fontpair",
+          "google-fonts"
+        ],
+        "similarResources": [
+          "awwwards",
+          "fontpair"
+        ],
+        "keyFeatures": [
+          "In-depth critical reviews of new and notable typefaces written by practicing type critics",
+          "Annual \"typefaces of the year\" retrospective lists dating back to 2004",
+          "Archive browsable by designer, foundry, classification, and script",
+          "Reviews of typography and type-design books",
+          "Essays, interviews, and tributes covering the type design community",
+          "Links to sister projects such as Fonts In Use and the Typographica Library"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs returned exit 1 with only generic single-letter fuzzy matches (c, cplusplus, r, ty) that are not meaningful matches for \"Typographica\"; no usable Simple Icons entry. Recommend a site SVG/favicon route decided by the owner."
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Long-running (since 2002), well-known independent type-criticism site; no scam/malware/shutdown signals found in search."
+      },
+      "sources": [
+        {
+          "url": "https://typographica.org",
+          "date": "2026-10-24",
+          "note": "Home page: scope, content types, no paywall, donation/sponsorship ask"
+        },
+        {
+          "url": "https://typographica.org/colophon/",
+          "date": "2026-10-24",
+          "note": "Attempted colophon/editors page, returned 404 on this path"
+        }
+      ],
+      "unverified": [
+        "No explicit terms-of-use or license page was located; absence of a restriction was inferred from the lack of any ToS link, not from reading one.",
+        "Could not confirm the exact current editor roster beyond what the home page colophon area showed."
+      ],
+      "injectionSeen": null
+    },
+    "ubersuggest": {
+      "researchedOn": "2026-10-24",
+      "verdictReason": "Both neilpatel.com/ubersuggest and neilpatel.com/pricing returned HTTP 403 to the fetch tool on first attempt and on retry; this looks like bot/WAF protection rather than a transient error. Per the no-bot-check-bypass rule, could not reach first-party pricing or terms pages to confirm the permanent free tier and license terms needed for a `list` verdict.",
+      "verdict": "blocked",
+      "site": {
+        "name": "Ubersuggest",
+        "url": "https://neilpatel.com/ubersuggest",
+        "alive": true,
+        "operator": "Neil Patel Digital (per third-party listings; not confirmed first-party)"
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Search turned up customer complaints about upselling/refunds (treated as unverified personal reviews, not confirmed fraud) but no credible malware, shutdown, or acquisition signal."
+      },
+      "sources": [
+        {
+          "url": "https://neilpatel.com/ubersuggest",
+          "date": "2026-10-24",
+          "note": "Fetch attempt returned HTTP 403"
+        },
+        {
+          "url": "https://neilpatel.com/ubersuggest/",
+          "date": "2026-10-24",
+          "note": "Retry, same URL variant, returned HTTP 403"
+        },
+        {
+          "url": "https://neilpatel.com/pricing/",
+          "date": "2026-10-24",
+          "note": "Fetch attempt for pricing page returned HTTP 403"
+        }
+      ],
+      "unverified": [
+        "Free-tier existence and current pricing tiers (third-party aggregators disagree between $12/mo, $29/mo basic, and $290 lifetime figures) — none confirmed against the official pricing page.",
+        "Operator/company name and any licensing or listing restrictions — not confirmed first-party.",
+        "Not confirmed whether Ubersuggest is already covered by another RL entry under a different umbrella (e.g. an SEO-tools bundle); rl-index --find \"Ubersuggest\" returned no match."
+      ],
+      "injectionSeen": null
+    },
+    "udemy": {
+      "researchedOn": "2026-10-24",
+      "verdictReason": "www.udemy.com (root, /courses/, /terms/) returned HTTP 403 to the fetch tool on repeated attempts, consistent with bot/WAF protection rather than a transient error. Per the no-bot-check-bypass rule, could not reach first-party pricing/terms pages. Separately, search results indicate Udemy is in the process of being acquired by Coursera (expected to close H2 2026), which is a material pending-ownership-change fact worth flagging to the owner even once the site becomes reachable.",
+      "verdict": "blocked",
+      "site": {
+        "name": "Udemy",
+        "url": "https://www.udemy.com",
+        "alive": true,
+        "operator": "Udemy, Inc. (pending acquisition by Coursera per 2026 reporting; not yet confirmed closed)"
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "A 2026 security notice (Udemy's Japanese subsidiary, dated 2026-07-01) disclosed a social-engineering attack with unauthorized access to part of Udemy's IT environment and leaked business contact information; this is a disclosed incident, not a sign the service itself is unsafe to list. Also found reports of phishing campaigns that spoof Udemy course notifications (third-party, unrelated to the legitimate site's integrity)."
+      },
+      "sources": [
+        {
+          "url": "https://www.udemy.com",
+          "date": "2026-10-24",
+          "note": "Fetch attempt returned HTTP 403"
+        },
+        {
+          "url": "https://www.udemy.com/courses/",
+          "date": "2026-10-24",
+          "note": "Retry on a different path, returned HTTP 403"
+        },
+        {
+          "url": "https://www.udemy.com/terms/",
+          "date": "2026-10-24",
+          "note": "Attempted terms page, returned HTTP 403"
+        }
+      ],
+      "unverified": [
+        "Official pricing/terms page content — not confirmed first-party.",
+        "Whether the Coursera acquisition has closed as of 2026-10-24 — search results only confirmed an agreement expected to close H2 2026, not a closing date.",
+        "Free-course policy details (2-hour cap, loss of certificates/Q&A) came from Udemy's instructor-facing docs via search summary, not a direct first-party fetch — flagged as second-hand confidence."
+      ],
+      "injectionSeen": null
+    },
+    "ueye": {
+      "researchedOn": "2026-10-24",
+      "verdict": "skip",
+      "verdictReason": "Not a standalone tool: '/app/course/ueye' is a specific course slug inside DesignCourse's paid course catalog (Gary Simon's UI/UX education platform). DesignCourse itself mixes a free YouTube channel, a free design challenge, and paid project courses/coaching, but the uEye URL is an internal app route, not a product with its own identity, pricing, or license to evaluate. Fits 'Course' type in principle but there is no first-party page describing 'uEye' as a distinct offering (the app route returned only generic nav/course-catalog content), so there are no verifiable facts to list.",
+      "site": {
+        "name": "DesignCourse",
+        "url": "https://designcourse.com/app/course/ueye",
+        "alive": true,
+        "operator": "Gary Simon / DesignCourse"
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": null
+      },
+      "sources": [
+        {
+          "url": "https://designcourse.com/app/course/ueye",
+          "date": "2026-10-24",
+          "note": "Page is the app shell: nav to '2026 AI · UI Challenge', 'Browse all courses', 'Sprint Training', FAQ, blog, contact, sign-in link. No content specific to a course named 'uEye' rendered as fetchable text."
+        },
+        {
+          "url": "https://designcourse.com",
+          "date": "2026-10-24",
+          "note": "Home page: DesignCourse is an online UI/UX education platform by Gary Simon; free AI·UI design challenge, paid full project courses and paid 1-on-1 sprint training/coaching; no prices shown on home page; also runs a free YouTube channel (1M+ subs)."
+        }
+      ],
+      "unverified": [
+        "Whether 'uEye' is an actual named course title, a UI library/template pack, or just an internal route id — the fetched page did not resolve to course-specific content.",
+        "Whether the content behind this route is free or paid.",
+        "Whether this route requires sign-in to view."
+      ],
+      "injectionSeen": null
+    },
+    "ui-and-ux-designer-jobs": {
+      "researchedOn": "2026-10-24",
+      "verdict": "skip",
+      "verdictReason": "Domain no longer hosts its own site: uiuxdesignerjobs.com returns an HTTP 301 permanent redirect to https://weworkremotely.com/categories/remote-ux-ui-design-jobs, i.e. the original job board (if it ever existed under this name) is dead and the domain now just forwards traffic to a third-party job board (We Work Remotely) that is unrelated and would need its own separate research/consideration. Nothing to list under this id/URL.",
+      "site": {
+        "name": "UI & UX Designer Jobs",
+        "url": "https://uiuxdesignerjobs.com",
+        "alive": false,
+        "operator": null
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "301 redirect to weworkremotely.com, a known legitimate site, so no phishing/clone risk, but the original resource no longer exists at this URL."
+      },
+      "sources": [
+        {
+          "url": "https://uiuxdesignerjobs.com",
+          "date": "2026-10-24",
+          "note": "Fetch returned a 301 Moved Permanently redirect to https://weworkremotely.com/categories/remote-ux-ui-design-jobs; no independent site content at the original domain."
+        }
+      ],
+      "unverified": [
+        "Whether uiuxdesignerjobs.com ever operated as a standalone job board before being redirected.",
+        "Who currently owns the domain registration."
+      ],
+      "injectionSeen": null
+    },
+    "ui-bakery": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "UI Bakery",
+        "url": "https://uibakery.io",
+        "alive": true,
+        "operator": "UI Bakery"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free plan at $0/developer: unlimited apps and data-source connections, unlimited public app users, a hosted database, community support, plus limited monthly AI trial credits.",
+        "paidFrom": "Builder plan from $20/developer/month (billed annually; $25 billed monthly), adding AI usage credits, environments, app export, roles, and up to 50 workspace view seats. Self-hosted also offers a free tier with unlimited seats.",
+        "evidence": {
+          "url": "https://uibakery.io/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS/self-hosted product · commercial: yes (paid plans are for commercial/business use) · attribution: not required · free plan is capped by AI credits and feature set, not by time",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://uibakery.io/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "ui-bakery",
+        "type": "Tool",
+        "category": "Development",
+        "title": "UI Bakery",
+        "description": "Low-code platform for building internal tools fast: admin panels, CRUD apps, dashboards and forms wired to your own data and APIs.",
+        "tags": [
+          "no-code",
+          "automation",
+          "web"
+        ],
+        "relatedResources": [
+          "airtable",
+          "coda",
+          "webflow"
+        ],
+        "similarResources": [
+          "airtable",
+          "coda",
+          "webflow"
+        ],
+        "keyFeatures": [
+          "Drag-and-drop builder for internal apps: admin panels, CRUD tools, dashboards, approval workflows",
+          "Connects directly to existing databases and APIs instead of requiring data migration",
+          "Free plan with unlimited apps, data connections and public app users, plus a hosted database",
+          "Role-based access control, SSO and audit logs on paid tiers for business/regulated use",
+          "Both cloud-hosted and self-hosted deployment options, including a free self-hosted tier",
+          "Built-in AI usage credits on paid plans for AI-assisted app building"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact Simple Icons match for 'UI Bakery'; only weak single-letter fuzzy hits ('e', 'r') returned, not a meaningful brand match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition signals found in a dedicated safety search; only unrelated results returned."
+      },
+      "sources": [
+        {
+          "url": "https://uibakery.io",
+          "date": "2026-10-24",
+          "note": "Home page: describes UI Bakery as a low-code platform for building internal tools on top of existing data, aimed at teams needing admin panels/CRUD apps/dashboards; mentions SSO, RBAC, audit logs, self-hosted option."
+        },
+        {
+          "url": "https://uibakery.io/pricing",
+          "date": "2026-10-24",
+          "note": "Pricing page: Free plan (permanent, $0), Builder ($20-25/dev/mo), Team ($35-40/dev/mo), Enterprise (custom); self-hosted free tier and self-hosted Team pricing."
+        }
+      ],
+      "unverified": [
+        "Founding company/legal entity name behind UI Bakery beyond the product brand itself.",
+        "Exact AI trial credit amount on the free plan (page said 'monthly AI trial credits' without a number in the fetched summary)."
+      ],
+      "injectionSeen": null
     }
   }
 }

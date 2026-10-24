@@ -10,13 +10,13 @@ Generated 2026-10-24 by `scripts/backlog-build.mjs` from `backlog/tools-list.jso
 
 | Status | Count | Meaning |
 |---|---:|---|
-| `todo` | 244 | in the research queue (free / freemium / beta) |
+| `todo` | 208 | in the research queue (free / freemium / beta) |
 | `in-rl` | 33 | already in ResourcesList (matched by site or slug) — skip, maybe use for related/similar links |
 | `deferred-paid` | 217 | labelled **Paid** only — parked |
 | `deferred-trial` | 232 | labelled **Free Trial** only — parked until a real free tier is confirmed |
-| `researching` / `researched` / `drafted` / `rejected` / `blocked` | 0 / 268 / 557 / 217 / 511 | set by research sessions |
+| `researching` / `researched` / `drafted` / `rejected` / `blocked` | 0 / 291 / 557 / 223 / 518 | set by research sessions |
 
-Queue by priority: **P1** 0 (free/freemium, listed on 2+ pages) · **P2** 214 (free/freemium, 1 page) · **P3** 30 (beta).
+Queue by priority: **P1** 0 (free/freemium, listed on 2+ pages) · **P2** 178 (free/freemium, 1 page) · **P3** 30 (beta).
 
 ## What happens if a tool is not processed (and why)
 
@@ -1585,19 +1585,53 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | todays.design | todays.design | Free | 1 | P2 | researched |
 | Tokens Studio | tokens.studio | Free + Paid | 1 | P2 | researched |
 | Told | told.club | Freemium | 1 | P2 | blocked |
+| Tolt.io | via Digitool | Free tier listed | 1 | P2 | rejected |
+| Tommy Geoco | youtube.com | Free | 1 | P2 | blocked |
+| Tone | t-o-n-e.com | Free | 1 | P2 | researched |
+| Toolcraft | toolcraft.sh | Free | 1 | P2 | researched |
+| TraceUI | traceui.app | Freemium | 1 | P2 | rejected |
+| Trainual | via Digitool | Free tier listed | 1 | P2 | blocked |
+| Transhumans | transhumans.xyz | Free | 1 | P2 | researched |
+| Transitions.dev | transitions.dev | Free + Paid | 1 | P2 | researched |
+| Trending Design | trending.design | Free | 1 | P2 | researched |
+| Trickle | trickle.so | Freemium | 1 | P2 | researched |
+| Tripo | tripo3d.ai | Freemium | 1 | P2 | blocked |
+| True Size | truesize.io | Free | 1 | P2 | blocked |
+| Trupeer | via Digitool | Free tier listed | 1 | P2 | rejected |
+| Tubik Blog | blog.tubikstudio.com | Free | 1 | P2 | researched |
+| Twist | twist.com | Freemium | 1 | P2 | researched |
+| Type Design Resources | typedesignresources.com | Free | 1 | P2 | researched |
+| type.lol | type.lol | Free + Paid | 1 | P2 | researched |
+| TYPE01 | type-01.com | Free | 1 | P2 | rejected |
 | Typedream | typedream.com | Freemium | 2 | P1 | drafted |
+| Typeflow | typeflow.tools | Free | 1 | P2 | researched |
+| Typeform | typeform.com | Freemium | 1 | P2 | researched |
+| Typefully | via Digitool | Free tier listed | 1 | P2 | researched |
+| Typeroom | typeroom.eu | Free | 1 | P2 | researched |
+| Typescale | typescale.com | Free + Paid | 1 | P2 | researched |
+| Typescale AI | typescale.ai | Free | 1 | P2 | researched |
+| Typespecimens | typespecimens.xyz | Free | 1 | P2 | researched |
+| Typespiration | typespiration.com | Free | 1 | P2 | researched |
 | typeui.sh | typeui.sh | Free + Paid / Freemium | 2 | P1 | drafted |
+| Typewolf | typewolf.com | Free | 1 | P2 | researched |
+| TypMo | typmo.com | Freemium | 1 | P2 | researched |
+| typo/graphic posters | typographicposters.com | Free | 1 | P2 | researched |
+| Typograph | typograph.studio | Free | 1 | P2 | blocked |
+| Typographica | typographica.org | Free | 1 | P2 | researched |
+| Ubersuggest | neilpatel.com | Free + Paid | 1 | P2 | blocked |
+| Udemy | udemy.com | Free + Paid | 1 | P2 | blocked |
+| uEye | designcourse.com | Free | 1 | P2 | rejected |
+| UI & UX Designer Jobs | uiuxdesignerjobs.com | Free | 1 | P2 | rejected |
+| UI Bakery | uibakery.io | Freemium | 1 | P2 | researched |
 | Visily | visily.ai | Freemium | 2 | P1 | drafted |
 | Wispr Flow | ref.wisprflow.ai | Free tier listed / Freemium | 2 | P1 | drafted |
 
-## Research queue (244)
+## Research queue (208)
 
-### Best AI Design Tools for Designers (27)
+### Best AI Design Tools for Designers (25)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Trickle | trickle.so | Freemium | 1 | P2 |
-| Tripo | tripo3d.ai | Freemium | 1 | P2 |
 | UI Skills | ui-skills.com | Free | 1 | P2 |
 | Uiverse Design | uiverse.io | Free + Paid | 1 | P2 |
 | Uizard | uizard.io | Freemium | 1 | P2 |
@@ -1624,22 +1658,19 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | PromptBase | promptbase.com |  | 1 | P3 |
 | Stitch | stitch.withgoogle.com | Beta | 1 | P3 |
 
-### Best Color Tools and Inspiration for Designers (5)
+### Best Color Tools and Inspiration for Designers (4)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Tone | t-o-n-e.com | Free | 1 | P2 |
 | UI Colors | uicolors.app | Free + Paid | 1 | P2 |
 | Volume | volumecolor.io | Free | 1 | P2 |
 | WebGradients | webgradients.com | Free | 1 | P2 |
 | Who Can Use | whocanuse.com | Free | 1 | P2 |
 
-### Best Design Blogs & Magazines for Designers (17)
+### Best Design Blogs & Magazines for Designers (15)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Tubik Blog | blog.tubikstudio.com | Free | 1 | P2 |
-| Typeroom | typeroom.eu | Free | 1 | P2 |
 | Usability Geek | usabilitygeek.com | Free | 1 | P2 |
 | ustwo | ustwo.com | Free | 1 | P2 |
 | UX Collective | uxdesign.cc | Free | 1 | P2 |
@@ -1656,25 +1687,20 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Webflow Blog | webflow.partnerlinks.io | Free | 1 | P2 |
 | Wepresent | wepresent.wetransfer.com | Free | 1 | P2 |
 
-### Best Design Communities for Designers (6)
+### Best Design Communities for Designers (5)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| UI & UX Designer Jobs | uiuxdesignerjobs.com | Free | 1 | P2 |
 | UI/UX Jobs Board | uiuxjobsboard.com | Free + Paid | 1 | P2 |
 | Upwork | upwork.com | Free + Paid | 1 | P2 |
 | UX Gigs | uxgigs.co | Free | 1 | P2 |
 | WeLoveProduct | weloveproduct.co | Freemium | 1 | P2 |
 | Woody | woodyjobs.com | Freemium | 1 | P2 |
 
-### Best Design Tools Across Disciplines (26)
+### Best Design Tools Across Disciplines (22)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Toolcraft | toolcraft.sh | Free | 1 | P2 |
-| Transitions.dev | transitions.dev | Free + Paid | 1 | P2 |
-| True Size | truesize.io | Free | 1 | P2 |
-| Typeflow | typeflow.tools | Free | 1 | P2 |
 | UI Skeleton Gallery | brandbird.app | Free | 1 | P2 |
 | uicorn | uicorn.com | Free | 1 | P2 |
 | Unicorn Studio | unicorn.studio | Freemium | 1 | P2 |
@@ -1698,19 +1724,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Sesame | sesame.design | Beta | 1 | P3 |
 | Visual | visual.app | Beta | 1 | P3 |
 
-### Best Free Font Libraries and Inspiration for Designers (16)
+### Best Free Font Libraries and Inspiration for Designers (7)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Type Design Resources | typedesignresources.com | Free | 1 | P2 |
-| type.lol | type.lol | Free + Paid | 1 | P2 |
-| Typescale | typescale.com | Free + Paid | 1 | P2 |
-| Typescale AI | typescale.ai | Free | 1 | P2 |
-| Typespecimens | typespecimens.xyz | Free | 1 | P2 |
-| Typespiration | typespiration.com | Free | 1 | P2 |
-| Typewolf | typewolf.com | Free | 1 | P2 |
-| Typograph | typograph.studio | Free | 1 | P2 |
-| Typographica | typographica.org | Free | 1 | P2 |
 | Uncut | uncut.wtf | Free | 1 | P2 |
 | Variable Fonts | v-fonts.com | Free | 1 | P2 |
 | Velvetyne | velvetyne.fr | Free | 1 | P2 |
@@ -1760,11 +1777,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Wannathis Mockups | wannathis.one | Free + Paid | 1 | P2 |
 | WhiteUI.Store | gumroad.com | Free + Paid | 1 | P2 |
 
-### Best No-Code Website Builders (17)
+### Best No-Code Website Builders (16)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| UI Bakery | uibakery.io | Freemium | 1 | P2 |
 | UI Snippets | ui-snippets.dev | Free | 1 | P2 |
 | Universe | univer.se | Freemium | 1 | P2 |
 | Versoly | versoly.com | Freemium | 1 | P2 |
@@ -1782,20 +1798,17 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Revyme | revyme.com | Beta | 1 | P3 |
 | Zoah | zoah.com | Beta | 1 | P3 |
 
-### Best Open Source Illustration Libraries (3)
+### Best Open Source Illustration Libraries (2)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Transhumans | transhumans.xyz | Free | 1 | P2 |
 | UI8 - Illustrations | ui8.net | Free + Paid | 1 | P2 |
 | Vackground | vackground.com | Free + Paid | 1 | P2 |
 
-### Best UX Tools for Designers (20)
+### Best UX Tools for Designers (18)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Typeform | typeform.com | Freemium | 1 | P2 |
-| TypMo | typmo.com | Freemium | 1 | P2 |
 | UI Generator | uigenerator.org | Free | 1 | P2 |
 | uilogos | uilogos.co | Free | 1 | P2 |
 | Useberry | useberry.com | Freemium | 1 | P2 |
@@ -1815,13 +1828,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Zen Flowchart | zenflowchart.com | Freemium | 1 | P2 |
 | Stratify | trystratify.com | Beta | 1 | P3 |
 
-### Design Inspiration Sites for UI, Web, Graphic & Branding (18)
+### Design Inspiration Sites for UI, Web, Graphic & Branding (15)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Trending Design | trending.design | Free | 1 | P2 |
-| TYPE01 | type-01.com | Free | 1 | P2 |
-| typo/graphic posters | typographicposters.com | Free | 1 | P2 |
 | UI.live | ui.live | Free | 1 | P2 |
 | UIBits.co | uibits.co | Free | 1 | P2 |
 | Unsection | unsection.com | Freemium | 1 | P2 |
@@ -1851,14 +1861,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Vidsplay | vidsplay.com | Free | 1 | P2 |
 | ZapSplat | zapsplat.com | Freemium | 1 | P2 |
 
-### Free Tools (13)
+### Free Tools (9)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Tolt.io | via Digitool | Free tier listed | 1 | P2 |
-| Trainual | via Digitool | Free tier listed | 1 | P2 |
-| Trupeer | via Digitool | Free tier listed | 1 | P2 |
-| Typefully | via Digitool | Free tier listed | 1 | P2 |
 | Unicorn Platform | via Digitool | Free tier listed | 1 | P2 |
 | UptimeRobot | via Digitool | Free tier listed | 1 | P2 |
 | UserCall | via Digitool | Free tier listed | 1 | P2 |
@@ -1869,13 +1875,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Xano | via Digitool | Free tier listed | 1 | P2 |
 | Xero | via Digitool | Free tier listed (Digitool "Premium" badge) | 1 | P2 |
 
-### Learn UI/UX Design: Courses, Guides & Best Practices (17)
+### Learn UI/UX Design: Courses, Guides & Best Practices (14)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Tommy Geoco | youtube.com | Free | 1 | P2 |
-| Udemy | udemy.com | Free + Paid | 1 | P2 |
-| uEye | designcourse.com | Free | 1 | P2 |
 | UI Challenge | uichallenges.design | Free | 1 | P2 |
 | UI Coach | uicoach.io | Free | 1 | P2 |
 | UI Tips | uidesign.tips | Free | 1 | P2 |
@@ -1891,12 +1894,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | uxtoast | uxtoast.com | Free | 1 | P2 |
 | We are Colorblind | wearecolorblind.com | Free | 1 | P2 |
 
-### Marketing Tools for Designers & Creative Teams (11)
+### Marketing Tools for Designers & Creative Teams (9)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| TraceUI | traceui.app | Freemium | 1 | P2 |
-| Ubersuggest | neilpatel.com | Free + Paid | 1 | P2 |
 | Unlayer | unlayer.com | Freemium | 1 | P2 |
 | Visme | visme.co | Freemium | 1 | P2 |
 | VistaCreate | create.vista.com | Freemium | 1 | P2 |
@@ -1907,11 +1908,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Zubtitle | zubtitle.com | Freemium | 1 | P2 |
 | Pomelli | labs.google.com | Beta | 1 | P3 |
 
-### Productivity Tools for Design and Product Teams (9)
+### Productivity Tools for Design and Product Teams (8)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Twist | twist.com | Freemium | 1 | P2 |
 | Vendo | vendo.run | Freemium | 1 | P2 |
 | Voyager | voyager.so | Freemium | 1 | P2 |
 | Walling | walling.app | Freemium | 1 | P2 |
