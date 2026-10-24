@@ -103324,6 +103324,2679 @@
         "Whether the playbook is finished or still 'in progress' as one secondhand source suggested vs. 'already available' per another"
       ],
       "injectionSeen": null
+    },
+    "svelteplot": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "SveltePlot",
+        "url": "https://svelteplot.dev",
+        "alive": true,
+        "operator": "Gregor Aisch (individual maintainer)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Fully free, open-source npm library; no paid tier exists.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://svelteplot.dev",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "ISC · commercial: yes · attribution: not required for use (copyright/permission notice must be retained in copies of the source) · no warranty",
+        "openSource": true,
+        "spdx": "ISC",
+        "evidence": {
+          "url": "https://github.com/svelteplot/svelteplot/blob/main/LICENSE.md",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "svelteplot",
+        "type": "Library",
+        "category": "Development",
+        "title": "SveltePlot",
+        "description": "Svelte-native charting library using grammar-of-graphics principles, for developers building reactive data visualizations in Svelte apps.",
+        "tags": [
+          "open-source",
+          "web"
+        ],
+        "relatedResources": [
+          "stackblitz",
+          "codesandbox"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Layered grammar-of-graphics API inspired by Observable Plot, composing charts from marks and scales",
+          "Native Svelte components (no wrapper/adapter layer) for reactive, SSR-friendly charts",
+          "ISC-licensed open source, free to use including commercially",
+          "Active GitHub project (400+ stars) with ongoing releases and a Discord community",
+          "Distributed as an npm package for drop-in use in Svelte/SvelteKit projects"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "svelte",
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons (fuzzy match via check-icon.mjs; no dedicated SveltePlot icon exists, used Svelte logo as closest match)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": null
+      },
+      "sources": [
+        {
+          "url": "https://svelteplot.dev",
+          "date": "2026-10-24",
+          "note": "product description, GitHub repo link"
+        },
+        {
+          "url": "https://github.com/svelteplot/svelteplot",
+          "date": "2026-10-24",
+          "note": "README description, star count (405), author"
+        },
+        {
+          "url": "https://github.com/svelteplot/svelteplot/blob/main/LICENSE.md",
+          "date": "2026-10-24",
+          "note": "ISC license text confirmed (permission to use/copy/modify/distribute for any purpose with or without fee)"
+        }
+      ],
+      "unverified": [
+        "Exact npm weekly download count (npmjs.com blocked the fetch with a 403)"
+      ],
+      "injectionSeen": null
+    },
+    "svg-backgrounds": {
+      "researchedOn": "2026-10-24",
+      "verdict": "blocked",
+      "verdictReason": "Site returns HTTP 403 (bot-check) on both the homepage and the /backgrounds/ pricing-adjacent page; retried once per tool, still blocked. Could not verify pricing or license first-party.",
+      "site": {
+        "name": "SVG Backgrounds",
+        "url": "https://www.svgbackgrounds.com/backgrounds/",
+        "alive": true,
+        "operator": null
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown reports found in a safety search; generic SVG-malware news articles returned but none reference this domain specifically."
+      },
+      "sources": [
+        {
+          "url": "https://www.svgbackgrounds.com/backgrounds/",
+          "date": "2026-10-24",
+          "note": "WebFetch returned HTTP 403"
+        },
+        {
+          "url": "https://www.svgbackgrounds.com/",
+          "date": "2026-10-24",
+          "note": "WebFetch homepage also returned HTTP 403 (retry)"
+        }
+      ],
+      "unverified": [
+        "Pricing: third-party directories (not re-verified first-party) suggest a free tier requiring attribution/backlink plus a paid 'All Access' membership (~$60/yr) removing attribution; one other directory claims CC BY 4.0 licensing for the free assets. These two accounts conflict and neither was confirmed on the official site, so not used.",
+        "License/commercial-use terms — could not load terms page",
+        "Operator / company identity"
+      ],
+      "injectionSeen": null
+    },
+    "svg-doodle-drawings": {
+      "researchedOn": "2026-10-24",
+      "verdict": "skip",
+      "verdictReason": "Site is a near-empty, unconfigured WordPress install: sitemap shows only the homepage, the default WP 'sample-page', and the default 'hello-world' placeholder post — no About, Terms, License, Contact, or FAQ pages exist anywhere on the site. No way to verify commercial-use/attribution terms for the doodles, and the site shows no signs of being a maintained real product rather than default scaffolding.",
+      "site": {
+        "name": "Svg DooDle Drawings",
+        "url": "https://svgicon.net",
+        "alive": true,
+        "operator": null
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware reports found for svgicon.net specifically in a safety search."
+      },
+      "sources": [
+        {
+          "url": "https://svgicon.net/",
+          "date": "2026-10-24",
+          "note": "homepage describes a free collection of doodle SVGs in categories (Lines, Abstract, Circles, Arrows, Brush); page text is only ~594 chars, no footer/nav links beyond the logo"
+        },
+        {
+          "url": "https://svgicon.net/sitemap.xml",
+          "date": "2026-10-24",
+          "note": "sitemap index: posts, pages, category taxonomy, users sitemaps"
+        },
+        {
+          "url": "https://svgicon.net/wp-sitemap-posts-page-1.xml",
+          "date": "2026-10-24",
+          "note": "only 2 pages exist: homepage and default WP 'sample-page'"
+        },
+        {
+          "url": "https://svgicon.net/wp-sitemap-posts-post-1.xml",
+          "date": "2026-10-24",
+          "note": "only 1 post exists: default WP 'hello-world' placeholder"
+        }
+      ],
+      "unverified": [
+        "License/usage terms for the doodles — no license or terms page exists on the site to check"
+      ],
+      "injectionSeen": null
+    },
+    "svg-doodles": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "SVG Doodles",
+        "url": "https://svgdoodles.com",
+        "alive": true,
+        "operator": "Michael Andreuzza"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All 217 hand-drawn SVG doodles are browsable and usable with no account, signup, or payment.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://svgdoodles.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No license page found on site · commercial use: unstated · attribution: unstated · verify with creator before commercial use",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://svgdoodles.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "svg-doodles",
+        "type": "Stock Media",
+        "category": "Design",
+        "title": "SVG Doodles",
+        "description": "A free gallery of 217 hand-drawn SVG doodles to browse and drop into designs for a casual, sketched look.",
+        "tags": [
+          "stock-illustrations",
+          "stock-vectors",
+          "graphic-design"
+        ],
+        "relatedResources": [
+          "undraw",
+          "pixabay"
+        ],
+        "similarResources": [
+          "thesvg"
+        ],
+        "keyFeatures": [
+          "217 hand-drawn SVG doodles in one browsable gallery",
+          "Drag-to-scroll browsing with a click-to-view detail panel per doodle",
+          "Free to use with no account or signup required",
+          "Created and maintained by designer Michael Andreuzza"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons: no exact or usable fuzzy match (checked 2026-10-24); check-icon returned only single-letter fuzzy noise (e, d, svg, v)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No malware/scam/shutdown signals found. Site is a simple static gallery credited to a named individual designer with linked personal sites (michaelandreuzza.com, lexingtonthemes.com)."
+      },
+      "sources": [
+        {
+          "url": "https://svgdoodles.com",
+          "date": "2026-10-24",
+          "note": "home page: description, doodle count, free claim, creator credit"
+        },
+        {
+          "url": "https://svgdoodles.com/license",
+          "date": "2026-10-24",
+          "note": "attempted dedicated license page: 404, no such page exists"
+        },
+        {
+          "url": "web-search: \"SVG Doodles\" svgdoodles.com license commercial use",
+          "date": "2026-10-24",
+          "note": "no first-party license text found; AlternativeTo listing (second-hand) calls it Proprietary and Free, doesn't confirm commercial terms"
+        },
+        {
+          "url": "web-search: \"SVG Doodles\" scam OR malware OR shutting down OR acquired michaelandreuzza",
+          "date": "2026-10-24",
+          "note": "no safety concerns found, results unrelated to the tool"
+        }
+      ],
+      "unverified": [
+        "No explicit license/usage terms (commercial use, attribution) found on the site itself; AlternativeTo (second-hand) calls it a free proprietary product but gives no terms text.",
+        "Target audience is implied (designers/developers) but not explicitly named on the page."
+      ],
+      "injectionSeen": null
+    },
+    "svg-gobbler": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "SVG Gobbler",
+        "url": "https://www.svggobbler.com",
+        "alive": true,
+        "operator": "Ross Moody"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Full feature set (find, collect, optimize, edit, export SVGs from any webpage) free with no account or payment; no pricing page exists because there is no paid tier.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.svggobbler.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Apache-2.0 (open source) · commercial: yes · attribution: required per Apache-2.0 · no clause against listing/linking found",
+        "openSource": true,
+        "spdx": "Apache-2.0",
+        "evidence": {
+          "url": "https://github.com/rossmoody/svg-gobbler",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "svg-gobbler",
+        "type": "Extension",
+        "category": "Design",
+        "title": "SVG Gobbler",
+        "description": "A free, open-source browser extension that finds every SVG on a webpage, then lets you optimize, edit, and export them.",
+        "tags": [
+          "extensions",
+          "graphic-design",
+          "open-source"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Scans any open webpage and collects every SVG it finds into one view",
+          "Cleans and minifies collected SVGs using SVGO",
+          "Built-in editor for adjusting paths and attributes before export",
+          "Exports to SVG, PNG, WEBP, JPEG, or minified data URIs",
+          "Open source under Apache-2.0, published on GitHub",
+          "Available as a browser extension for Chrome, Edge, Brave, and Firefox (desktop only)"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons: no exact or usable fuzzy match (checked 2026-10-24); check-icon returned only single-letter fuzzy noise (e, go, obb, r, svg, v)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Name collides with unrelated 'eGobbler' malvertising campaign and general 'malicious SVG' phishing coverage in search results, but none of that coverage references this tool; no scam/malware/shutdown signal tied to SVG Gobbler itself."
+      },
+      "sources": [
+        {
+          "url": "https://www.svggobbler.com",
+          "date": "2026-10-24",
+          "note": "home page: what it does, free claim, browser support, user count, FAQ on export formats and acceptable use"
+        },
+        {
+          "url": "https://www.svggobbler.com/pricing",
+          "date": "2026-10-24",
+          "note": "no pricing page exists (404) — consistent with the tool being fully free with no paid tier"
+        },
+        {
+          "url": "https://github.com/rossmoody/svg-gobbler",
+          "date": "2026-10-24",
+          "note": "repo description, Apache-2.0 license link, README stating the extension is free"
+        },
+        {
+          "url": "web-search: \"SVG Gobbler\" scam OR malware OR shutting down OR acquired",
+          "date": "2026-10-24",
+          "note": "no safety concerns found; results were about unrelated SVG-malware campaigns and an unrelated 'eGobbler' malvertising operation"
+        }
+      ],
+      "unverified": [
+        "Home page FAQ says the tool is 'intended for personal, educational, or legitimate professional use' and cautions against using scraped SVGs to infringe copyright or for unauthorized commercial use — this reads as a caution about third-party SVG content the tool extracts, not a restriction on the tool's own license or on listing it; flagging since it touches commercial use.",
+        "Home page cites both '75,000+' and '50,000+' users in different sections — inconsistent, so exact user count unverified."
+      ],
+      "injectionSeen": null
+    },
+    "svg-hub": {
+      "researchedOn": "2026-10-24",
+      "verdict": "blocked",
+      "verdictReason": "svghub.vercel.app returns an empty page on fetch (JS-only Vercel app, client-side rendered with no server-rendered content); retried once, still empty; web.archive.org unavailable to this session as a fallback; web search could not confirm which 'SVG Hub' project this URL actually serves (multiple same-named projects exist, e.g. an unrelated 70+ hand-drawn-elements library and a separate 'SVGHub' asset browser, neither confirmed as this specific Vercel deployment).",
+      "site": {
+        "name": "SVG Hub",
+        "url": "https://svghub.vercel.app",
+        "alive": true,
+        "operator": null
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Could not evaluate content; no safety signal found or refuted. Domain is a generic Vercel preview/deploy subdomain, which itself is not a red flag but is less durable than a custom domain."
+      },
+      "sources": [
+        {
+          "url": "https://svghub.vercel.app",
+          "date": "2026-10-24",
+          "note": "fetched twice, both times returned empty page content (JS-only render)"
+        },
+        {
+          "url": "https://web.archive.org/web/2026/https://svghub.vercel.app",
+          "date": "2026-10-24",
+          "note": "attempted as fallback; this tool/session cannot fetch web.archive.org"
+        },
+        {
+          "url": "web-search: \"SVG Hub\" svghub.vercel.app icons library",
+          "date": "2026-10-24",
+          "note": "no result matched the exact URL; found two differently-described 'SVG Hub'/'SVGHub' projects elsewhere, neither confirmed as this deployment"
+        }
+      ],
+      "unverified": [
+        "What SVG Hub actually offers (icon library vs. hand-drawn elements vs. asset browser) could not be confirmed — the live page renders nothing fetchable and no cached/first-party text was found.",
+        "Whether this is a stable, maintained project (vs. an abandoned preview deploy) is unknown given the vercel.app subdomain and empty page."
+      ],
+      "injectionSeen": null
+    },
+    "svg-waves": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "SVG Waves",
+        "url": "https://svgwave.in",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Full generator usable with no plan, signup, or payment; home page tagline calls it \"a free & beautiful gradient SVG wave Generator\"",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://svgwave.in",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://svgwave.in",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "svg-waves",
+        "type": "Tool",
+        "category": "Design",
+        "title": "SVG Waves",
+        "description": "Free browser generator for customizable gradient SVG wave shapes, used as website section dividers and backgrounds.",
+        "tags": [
+          "graphic-design",
+          "web",
+          "stock-vectors"
+        ],
+        "relatedResources": [
+          "figma",
+          "canva",
+          "pixabay"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Adjustable number of wave layers with configurable crest and trough counts",
+          "Gradient and solid color fill controls",
+          "Live preview with a randomize button for quick variations",
+          "Exports as SVG or PNG for direct use in web/design projects",
+          "No signup, account, or payment required"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact match; only generic single-letter/file-format fuzzy hits (e, svg, v), not treated as a real brand match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": null
+      },
+      "sources": [
+        {
+          "url": "https://svgwave.in",
+          "date": "2026-10-24",
+          "note": "home page content, tagline, free claim; no nav/footer links were renderable in fetched text"
+        },
+        {
+          "url": "https://github.com/anup-a/svgwave",
+          "date": "2026-10-24",
+          "note": "search turned up a same-named small open-source wave generator project; could not confirm it is the code behind this specific domain"
+        }
+      ],
+      "unverified": [
+        "Site operator/company identity not found (no about/contact page reachable)",
+        "No license or terms page could be located for svgwave.in; license.line left null",
+        "Could not confirm whether svgwave.in is run on the github.com/anup-a/svgwave open-source project or is unrelated"
+      ],
+      "injectionSeen": null
+    },
+    "svgator": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "SVGator",
+        "url": "https://www.svgator.com",
+        "alive": true,
+        "operator": "SVGator (company name not independently confirmed beyond brand)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Full animation editor, every animator tool, unlimited static SVG exports, asset library, and free animation templates; no credit card required. Animated exports are not included free.",
+        "paidFrom": "Starter plan at $20/month billed yearly, adding vector/animated SVG exports (CSS/JS), Lottie JSON, React Native and Flutter exports, SVG Player API, interactive animations",
+        "evidence": {
+          "url": "https://www.svgator.com/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial use: paid plans only (per third-party summary) · attribution: not required on paid plans · free-plan exports are limited to static, non-animated use",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://licenseorg.com/guide/design-graphics/svgator",
+          "date": "2026-10-24",
+          "confidence": "second-hand"
+        }
+      },
+      "rl": {
+        "slug": "svgator",
+        "type": "Tool",
+        "category": "Design",
+        "title": "SVGator",
+        "description": "Browser-based SVG animation editor for building vector animations and micro-interactions, with exports to CSS, Lottie, and React.",
+        "tags": [
+          "graphic-design",
+          "visual-design",
+          "web"
+        ],
+        "relatedResources": [
+          "figma",
+          "canva",
+          "excalidraw"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "No-code, visual SVG animation editor in the browser",
+          "Free plan includes the full editor, unlimited static SVG exports, asset library, and templates",
+          "Paid plans unlock animated SVG export to CSS and JS plus Lottie JSON, React Native, and Flutter formats",
+          "SVG Player API for embedding interactive animations on sites",
+          "Built-in animation templates to start projects faster"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact match; fuzzy hits (r, svg, v) are generic letter/format icons, not SVGator's brand mark"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": null
+      },
+      "sources": [
+        {
+          "url": "https://www.svgator.com/pricing",
+          "date": "2026-10-24",
+          "note": "free vs Starter plan features and price"
+        },
+        {
+          "url": "https://licenseorg.com/guide/design-graphics/svgator",
+          "date": "2026-10-24",
+          "note": "third-party summary of free-plan commercial-use restriction, used since svgator.com/terms, /terms-of-service, /legal/terms-of-service, and /about all returned 404"
+        }
+      ],
+      "unverified": [
+        "Official SVGator terms-of-service page could not be located (multiple guessed URLs returned 404); commercial-use/attribution details rest on a second-hand source only",
+        "Legal operating company name behind the SVGator brand not confirmed first-party"
+      ],
+      "injectionSeen": null
+    },
+    "svgl": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "SVGL",
+        "url": "https://www.svgl.app",
+        "alive": true,
+        "operator": "pheralb (Pablo Hdez), open-source maintainer"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire logo library, website, and public API are free to use; no paid tier exists",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.svgl.app",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT · commercial: yes · attribution: not required for use of the site/API; original repo copyright notice applies to the codebase",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://raw.githubusercontent.com/pheralb/svgl/main/LICENSE",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "svgl",
+        "type": "Icon Set",
+        "category": "Design",
+        "title": "SVGL",
+        "description": "Open-source, searchable library of colorful SVG logos for brands and dev tools, with a public API and framework packages.",
+        "tags": [
+          "icon-library",
+          "open-source",
+          "stock-vectors"
+        ],
+        "relatedResources": [
+          "simple-icons",
+          "iconify",
+          "material-symbols"
+        ],
+        "similarResources": [
+          "thesvg",
+          "fontawesome"
+        ],
+        "keyFeatures": [
+          "670+ colorful SVG logos for brands, AI tools, dev tools, and design software, organized by category",
+          "Fully open-source (MIT) and free, built with SvelteKit and Tailwind CSS",
+          "Public API (svgl.app/api) for programmatic logo lookup",
+          "Community packages/extensions for React, Vue, Svelte, Figma, VSCode, and Raycast",
+          "Logos can be submitted or contributed via the GitHub repository"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact match; only generic letter fuzzy hits (svg, v), not SVGL's own mark"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": null
+      },
+      "sources": [
+        {
+          "url": "https://www.svgl.app",
+          "date": "2026-10-24",
+          "note": "home page description, logo count, categories, GitHub/API links"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/pheralb/svgl/main/LICENSE",
+          "date": "2026-10-24",
+          "note": "confirmed MIT license, copyright holder Pablo Hdez"
+        },
+        {
+          "url": "https://digitool.co/tool/svgl/",
+          "date": "2026-10-24",
+          "note": "directory page returned HTTP 403, could not be read; real site resolved instead via web search"
+        }
+      ],
+      "unverified": [
+        "Directory page digitool.co/tool/svgl/ was blocked (403); site identity resolved independently via search and GitHub instead",
+        "Catalog size (670+ logos) is from the live site count on the date read and will drift over time"
+      ],
+      "injectionSeen": null
+    },
+    "svgviewer": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "SVGViewer",
+        "url": "https://www.svgviewer.dev",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Full browser-based SVG viewer/editor/optimizer, AI-assisted editing and creation, and exports (React, React Native, PNG, Data URI) with no pricing page or paywall found anywhere on the site.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.svgviewer.dev",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "SVGViewer ToS · commercial: service itself may not be resold/exploited; exported SVG commercial use not addressed · attribution: not required for using the tool · limit: public uploads get a nonexclusive license granted to other SVGViewer users",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.svgviewer.dev/terms",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "svgviewer",
+        "type": "Tool",
+        "category": "Design",
+        "title": "SVGViewer",
+        "description": "Browser-based SVG viewer, editor and optimizer with AI-assisted edits, a licensed SVG directory, and export to React, PNG or Data URI.",
+        "tags": [
+          "graphic-design",
+          "visual-design",
+          "web",
+          "ai-tool"
+        ],
+        "relatedResources": [
+          "thesvg",
+          "iconify",
+          "figma"
+        ],
+        "similarResources": [
+          "thesvg"
+        ],
+        "keyFeatures": [
+          "Browse a directory of SVGs filterable by license (MIT, CC0, Apache, GPL, OFL, public domain)",
+          "Rotate, flip, recolor and resize SVGs directly in the browser",
+          "Optimize/minify SVG code and prettify markup",
+          "AI-assisted editing (describe a change) and AI-assisted SVG creation",
+          "Export or copy SVGs as React components, React Native, PNG, or Data URI"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no real brand match in Simple Icons (closest candidates e/r/svg/v are generic substring hits, not the SVGViewer logo); use the site's own favicon/SVG if a logo asset is sourced"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown/acquisition reports found for svgviewer.dev; search results returned only generic SVG-malware-vector articles unrelated to this domain."
+      },
+      "sources": [
+        {
+          "url": "https://www.svgviewer.dev",
+          "date": "2026-10-24",
+          "note": "product description, features (editor, AI edit/create, SVG directory with license filters, export formats)"
+        },
+        {
+          "url": "https://www.svgviewer.dev/terms",
+          "date": "2026-10-24",
+          "note": "ToS: no resale/exploitation of the Service, content licensing for public uploads, scraping rules, age 13+"
+        },
+        {
+          "url": "https://www.svgviewer.dev/pricing",
+          "date": "2026-10-24",
+          "note": "404 — no dedicated pricing page exists, consistent with the tool being free"
+        }
+      ],
+      "unverified": [
+        "Operator/company behind SVGViewer not stated on the pages fetched.",
+        "Whether commercial use of SVGs created/downloaded on the site (outside the SVGViewer platform) is explicitly permitted — ToS only covers use of the Service itself and content shared publicly on it."
+      ],
+      "injectionSeen": null
+    },
+    "swash": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Swash",
+        "url": "https://swashmotion.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Full editor with core presets/fonts, up to 3 projects, video export up to 720p/30fps (watermarked), plus a few watermark-free exports per month — presented as an ongoing plan, not a trial ('No card, no trial clock').",
+        "paidFrom": "Pro at $12/month: unlimited projects, 4K/60fps export without watermark, premium presets/templates/fonts, 7-day free trial.",
+        "evidence": {
+          "url": "https://swashmotion.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Swash Terms of service (linked at /app/terms, full text not reviewed) · commercial: not explicitly addressed on marketing pages · attribution: not stated · limit: free tier caps resolution at 720p/30fps and watermarks most exports",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://swashmotion.com/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "swash",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Swash",
+        "description": "Browser-based motion design editor for kinetic typography — pick a preset, enter text, add shaders or sound, and export video.",
+        "tags": [
+          "visual-design",
+          "typography",
+          "video-template"
+        ],
+        "relatedResources": [
+          "canva",
+          "mixkit"
+        ],
+        "similarResources": [
+          "canva"
+        ],
+        "keyFeatures": [
+          "Preset-driven kinetic typography animations with editable vector text",
+          "Shaders, animated backgrounds, galleries and widgets to combine with text",
+          "Built-in sound library for pairing audio with animated type",
+          "Figma import plugin that brings in text and layouts while keeping type editable",
+          "Works without an account; signing in saves projects and unlocks community templates",
+          "Video export up to 4K/60fps on the paid tier"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs returned no match at all (exit 2, no fuzzy candidates) for 'Swash' in Simple Icons; would need the site's own logo asset"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown/acquisition evidence found for swashmotion.com. Note: an unrelated browser extension also named 'Swash' (data-for-pay, on addons.mozilla.org) exists but is a different product with no confirmed connection to swashmotion.com — flagging so it isn't confused with this tool."
+      },
+      "sources": [
+        {
+          "url": "https://swashmotion.com",
+          "date": "2026-10-24",
+          "note": "product description, features, free/Figma-import claims"
+        },
+        {
+          "url": "https://swashmotion.com/pricing",
+          "date": "2026-10-24",
+          "note": "Free vs Pro tier details, confirms permanent free tier with no card/trial requirement"
+        }
+      ],
+      "unverified": [
+        "Full terms of service / commercial-use license for exported videos (ToS page content not reviewed in detail).",
+        "Company/operator behind Swash not named on pages fetched.",
+        "Exact number of 'watermark-free exports per month' on the free tier not specified by the page."
+      ],
+      "injectionSeen": null
+    },
+    "sweetfont": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Sweetfont",
+        "url": "https://sweetfont.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire site (browsing/filtering Google Fonts by Flavor and Vibe) is free with no pricing, account, or paywall found.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://sweetfont.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No site-level license/terms page found · commercial: underlying fonts are Google Fonts (typically OFL/Apache-licensed at the font level, not verified per-font here) · attribution: not required by the site itself · limit: site has no stated ToS",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://sweetfont.com/about",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "sweetfont",
+        "type": "Website",
+        "category": "Design",
+        "title": "Sweetfont",
+        "description": "Browse Google Fonts by mood — filter by 'Flavor' (Playful, Formal, Warm, Futuristic) and 'Vibe' (Elegant, Rugged, Loud, Quiet) to find a typeface.",
+        "tags": [
+          "typography",
+          "web"
+        ],
+        "relatedResources": [
+          "fontpair",
+          "google-fonts"
+        ],
+        "similarResources": [
+          "fontpair"
+        ],
+        "keyFeatures": [
+          "Filters Google Fonts by 'Flavor' (Playful, Formal, Warm, Futuristic)",
+          "Filters by 'Vibe' (Elegant, Rugged, Loud, Quiet)",
+          "Pulls live from the Google Fonts catalog",
+          "Presented as a free tribute/revival of a 2022 Hacker News project of the same name"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no real brand match (closest candidates e/fsharp are unrelated generic substring hits); use the site's own favicon/SVG if a logo asset is sourced"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown/acquisition evidence found for sweetfont.com; search results were all unrelated domains (sweetestflirt.com, sweet-passion-escort.de, etc.)."
+      },
+      "sources": [
+        {
+          "url": "https://sweetfont.com",
+          "date": "2026-10-24",
+          "note": "product description, Flavor/Vibe filters"
+        },
+        {
+          "url": "https://sweetfont.com/about",
+          "date": "2026-10-24",
+          "note": "origin story (tribute to a 2022 Hacker News project), confirms no pricing/license text on the page"
+        }
+      ],
+      "unverified": [
+        "Operator identity not confirmed — the only personal link (@cooperx86 on X) is not explicitly stated to belong to the site owner.",
+        "No explicit statement that the service will stay free indefinitely, though no payment mechanism exists on the site today.",
+        "Per-font licensing is whatever Google Fonts itself provides (not re-verified per font by this research)."
+      ],
+      "injectionSeen": null
+    },
+    "swishy": {
+      "researchedOn": "2026-10-24",
+      "verdict": "skip",
+      "verdictReason": "Paid-only tool: home page and third-party pricing snippets show tiers starting at $8/mo (Beginner, billed yearly), $24/mo (Pro), and a $399 lifetime option, with no $0 permanent free plan. The pricing page itself (swishy.ai/pricing) returned 404/connection-reset on repeated direct fetches, so pricing is confirmed second-hand via search snippet only.",
+      "site": {
+        "name": "Swishy",
+        "url": "https://www.swishy.ai",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "$8/month (Beginner, billed yearly) per third-party pricing snippet",
+        "evidence": {
+          "url": "https://swishy.ai/pricing",
+          "date": "2026-10-24",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": null,
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown reports found; search for the name alone returned unrelated results."
+      },
+      "sources": [
+        {
+          "url": "https://www.swishy.ai",
+          "date": "2026-10-24",
+          "note": "home page: AI motion-design/animation tool, kinetic typography and social clips, no pricing shown on page"
+        },
+        {
+          "url": "https://swishy.ai/pricing",
+          "date": "2026-10-24",
+          "note": "attempted direct fetch 3x: 403/404/ECONNRESET each time, could not read first-party pricing content"
+        }
+      ],
+      "unverified": [
+        "Exact current plan names/prices for Swishy (only available via search-engine cache snippet, not a direct first-party fetch)",
+        "Whether any legacy free tier ever existed"
+      ],
+      "injectionSeen": null
+    },
+    "synder": {
+      "researchedOn": "2026-10-24",
+      "verdict": "skip",
+      "verdictReason": "Resolved real site (synder.com, an accounting/bookkeeping-automation tool for e-commerce sellers) via web search after the directory page digitool.co/tool/synder/ returned HTTP 403 on fetch. Multiple third-party pricing aggregators (linkmybooks.com, dupple.com, subscribed.fyi) and Synder's own accountant pricing page agree there is no permanent free plan — only a 15-day free trial, no credit card required, with paid tiers starting at $65/month (Basic, up to 500 transactions/month). One aggregator explicitly lists 'Forever free plan: No'.",
+      "site": {
+        "name": "Synder",
+        "url": "https://synder.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "$65/month (Basic, up to 500 transactions/month, monthly billing)",
+        "evidence": {
+          "url": "https://linkmybooks.com/blog/synder-pricing",
+          "date": "2026-10-24",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": null,
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition reports for Synder; the only name collision found was with an unrelated, defunct company 'Syndera'."
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/synder/",
+          "date": "2026-10-24",
+          "note": "directory page returned HTTP 403, could not resolve site from it directly"
+        },
+        {
+          "url": "https://synder.com",
+          "date": "2026-10-24",
+          "note": "resolved via web search as the real Synder product: accounting automation for online sellers, SOC2 Type2, 15-day free trial"
+        },
+        {
+          "url": "https://synder.com/pricing",
+          "date": "2026-10-24",
+          "note": "direct fetch returned HTTP 403 (bot protection); pricing details taken from third-party aggregators instead"
+        },
+        {
+          "url": "https://linkmybooks.com/blog/synder-pricing",
+          "date": "2026-10-24",
+          "note": "third-party summary: 15-day free trial, no forever-free plan, Basic $65/mo for up to 500 transactions"
+        }
+      ],
+      "unverified": [
+        "Exact first-party current pricing (synder.com/pricing blocked the fetch; relied on third-party aggregator pages)",
+        "Whether the digitool.co listing refers to this same synder.com product or a different 'Synder' tool"
+      ],
+      "injectionSeen": null
+    },
+    "synthesia": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Synthesia",
+        "url": "https://www.synthesia.io",
+        "alive": true,
+        "operator": "Synthesia Limited (London-based AI video company, founded 2017)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Basic plan, $0/month, no credit card required: 500 credits/month (~10 min of AI video or dubbing), 3 survey responses, pre-built templates/avatars, share-link output; videos carry a Synthesia watermark",
+        "paidFrom": "Starter $29/month (billed monthly) / $18/month billed yearly, 1,250 credits/month, removes watermark and adds downloads",
+        "evidence": {
+          "url": "https://www.synthesia.io/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Synthesia Customer Terms of Service · commercial: yes (customer owns generated video output as Customer Data) · attribution: not required · limit: use of Synthesia's stock avatars/content in outputs is under a limited, non-sublicensable license tied to an active or completed subscription",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.synthesia.io/legal/customer-terms-of-service",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "synthesia",
+        "type": "AI Tool",
+        "category": "Productivity",
+        "title": "Synthesia",
+        "description": "AI video platform that turns text into videos with AI avatars and voiceovers in 140+ languages, for business training, marketing and comms.",
+        "tags": [
+          "ai-tool",
+          "automation",
+          "productivity"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Generates talking-avatar videos from a text script in 140+ languages",
+          "Translates and dubs existing videos into other languages with lip-sync",
+          "Free Basic plan with 500 credits/month and no credit card required (watermarked output)",
+          "Interactive 'Sessions' for AI-avatar roleplays and surveys, used for training/HR",
+          "API access for programmatic video creation, dubbing and interactive avatars",
+          "Pre-built templates and a library of stock AI avatars"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no usable Simple Icons match for 'Synthesia' (closest suggestion was a single unrelated letter); recommend sourcing an iconSvg from Synthesia's own brand/press page instead"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware findings. Adobe explored a ~$3B acquisition in 2025 but talks failed and the deal did not close; company remains independent and operating, reporting $150m+ ARR."
+      },
+      "sources": [
+        {
+          "url": "https://www.synthesia.io",
+          "date": "2026-10-24",
+          "note": "home page: product description, audience (L&D, HR, sales enablement, marketing, IT, comms), API mention"
+        },
+        {
+          "url": "https://www.synthesia.io/pricing",
+          "date": "2026-10-24",
+          "note": "plan names, prices, Basic plan free-tier details and credit allowances"
+        },
+        {
+          "url": "https://www.synthesia.io/legal/customer-terms-of-service",
+          "date": "2026-10-24",
+          "note": "commercial-use/ownership of output, attribution, no anti-listing clause"
+        }
+      ],
+      "unverified": [
+        "Exact current yearly credit totals for Starter/Pro (the pricing page shows two slightly inconsistent figures for yearly allowances)",
+        "Whether a dedicated 'templates' section should be a sibling RL entry (not explored beyond the main pricing/home pages, Tier A scope only)"
+      ],
+      "injectionSeen": null
+    },
+    "synthymental": {
+      "researchedOn": "2026-10-24",
+      "verdict": "skip",
+      "verdictReason": "Not a single coherent tool: synthymental.com is a personal portfolio page by a motion designer (Daniil, Belgrade) linking to a handful of unrelated small experiments (pewpew, signal, vision, a font, typeMatch). No pricing, no license, no clear scope that fits RL's one-resource schema; the 'about' page confirms it is 'my personal project', not a product.",
+      "site": {
+        "name": "Synthymental",
+        "url": "https://synthymental.com",
+        "alive": true,
+        "operator": "Daniil (independent motion designer / creative coder, Belgrade, Serbia)"
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown results found in search; site is a small personal portfolio."
+      },
+      "sources": [
+        {
+          "url": "https://synthymental.com",
+          "date": "2026-10-24",
+          "note": "home page: nav list of sub-projects (pewpew, signal v3, vision v1, heavy mental font, typeMatch), no pricing/license"
+        },
+        {
+          "url": "https://synthymental.com/about",
+          "date": "2026-10-24",
+          "note": "confirms it's a personal project by Daniil, a motion designer; no pricing/license/product description"
+        }
+      ],
+      "unverified": [
+        "What pewpew, signal, vision, and typeMatch actually do (pages not individually fetched; home page gave no descriptions)",
+        "Whether 'Heavy Mental Font' alone would qualify as a separate RL font resource"
+      ],
+      "injectionSeen": null
+    },
+    "system-color-picker": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "System Color Picker",
+        "url": "https://sindresorhus.com/system-color-picker",
+        "alive": true,
+        "operator": "Sindre Sorhus (independent open-source developer)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Full app is free with no ads: sample any on-screen color, copy as Hex/HSL/RGB/OKLCH/CMYK, save palettes, recent-color history, menu bar or window mode, global keyboard shortcuts, macOS Shortcuts support.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://sindresorhus.com/system-color-picker",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary freeware · commercial: not applicable (personal utility app, no redistribution rights granted) · attribution: not required · the app itself is no longer open source (per its GitHub README), though older releases remain on GitHub",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://github.com/sindresorhus/System-Color-Picker",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "system-color-picker",
+        "type": "Software",
+        "category": "Design",
+        "title": "System Color Picker",
+        "description": "Free macOS app by Sindre Sorhus that extends the system color picker with Hex, HSL, RGB, OKLCH and CMYK, palettes and shortcuts.",
+        "tags": [
+          "mac",
+          "color-palette",
+          "productivity"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Sample any color on screen and copy it as Hex, HSL, RGB, OKLCH, or CMYK",
+          "Save and organize custom color palettes",
+          "Keeps a history of recently picked colors",
+          "Runs from the menu bar or a small floating window",
+          "Global keyboard shortcuts plus macOS Shortcuts app support",
+          "Completely free, no ads, built by prolific open-source maintainer Sindre Sorhus"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons has no exact or close match for this tool; no sanitized first-party SVG fetched"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition results; only unrelated malware reports about differently-named color-picker browser extensions and npm packages."
+      },
+      "sources": [
+        {
+          "url": "https://sindresorhus.com/system-color-picker",
+          "date": "2026-10-24",
+          "note": "product description, free pricing, features, Mac App Store link id1545870783, note about a separate non-App-Store 2.2.0 build"
+        },
+        {
+          "url": "https://github.com/sindresorhus/System-Color-Picker",
+          "date": "2026-10-24",
+          "note": "README states the app 'is no longer open-source'; repo now hosts only older release downloads and issue tracking"
+        }
+      ],
+      "unverified": [
+        "Exact date the app stopped being open source",
+        "Whether the current closed-source build differs functionally from the last open-source release"
+      ],
+      "injectionSeen": null
+    },
+    "tabbied": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list-sibling",
+      "site": {
+        "name": "Tabbied",
+        "url": "https://tabbied.com",
+        "alive": true,
+        "operator": "tabbied (small team/individual publishing under the 'tabbied-design' GitHub org; no legal entity name shown)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All 377+ website templates and all patterns are free to customize in-browser and download (HTML/CSS or React for templates; PNG/SVG/React for patterns). No account or payment required.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://tabbied.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Custom license · commercial: yes (templates/patterns may be used in personal and client commercial work) · attribution: not required · may not be resold, bundled into a theme/marketplace/website-builder product, or redistributed as source/downloads separate from a finished site",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://tabbied.com/terms-of-service/",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "tabbied",
+        "type": "Template",
+        "category": "Design",
+        "title": "Tabbied",
+        "description": "Free HTML/CSS and React website templates and patterns for small businesses and tradespeople, customizable in-browser and free to download.",
+        "tags": [
+          "website-templates",
+          "website-builder",
+          "template",
+          "web"
+        ],
+        "relatedResources": [
+          "framer-templates",
+          "webflow-templates"
+        ],
+        "similarResources": [
+          "framer-templates",
+          "webflow-templates"
+        ],
+        "keyFeatures": [
+          "377+ free website templates aimed at small businesses and trades (cafés, salons, pet care, tattoo studios, landscapers, plumbers, electricians, etc.)",
+          "Customize colors and patterns directly in the browser before downloading",
+          "Export finished sites as plain HTML/CSS or as React components",
+          "Download standalone decorative patterns as PNG, SVG, or React for use outside the templates",
+          "Developer docs for wiring templates/patterns into existing codebases",
+          "Commercial use on finished/client sites is allowed with no attribution required"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons has no exact or close match for this tool; no sanitized first-party SVG fetched"
+        },
+        "siblings": [
+          {
+            "name": "Tabbied Patterns",
+            "url": "https://tabbied.com/patterns/",
+            "reason": "Distinct nav section offering a standalone, downloadable pattern library (PNG/SVG/React) usable outside the website-template product — a different value proposition (stock pattern/graphic asset) that could stand as its own RL entry under stock-vectors-style tags."
+          }
+        ]
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition results found. ToS forbids reselling templates as a theme/marketplace product or offering them in third-party template collections/website builders -- this restricts redistributing the downloadable files, not linking to Tabbied's own site from a directory, so an RL entry (a link, not a redistribution of files) does not appear to violate it."
+      },
+      "sources": [
+        {
+          "url": "https://tabbied.com",
+          "date": "2026-10-24",
+          "note": "home page description, feature list, free pricing statement, nav links"
+        },
+        {
+          "url": "https://tabbied.com/terms-of-service/",
+          "date": "2026-10-24",
+          "note": "license terms: commercial use allowed, no attribution required, resale/marketplace/theme-bundling and separate-redistribution forbidden, AI-training/recreation forbidden, patterns and MCP server under separate open licenses (e.g. MIT)"
+        }
+      ],
+      "unverified": [
+        "Legal company/entity name behind Tabbied (footer only shows a copyright line, no registered name)",
+        "Whether the ToS's marketplace/collection restriction could be read to also forbid an RL directory listing -- read as applying to redistributing the downloadable files/themes themselves, not to a link in a directory, but this is an interpretation, not an explicit carve-out in the text"
+      ],
+      "injectionSeen": null
+    },
+    "tabular": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Tabular",
+        "url": "https://tabular.email",
+        "alive": true,
+        "operator": "Tabular Marketing B.V. (Rotterdam, Netherlands)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free forever plan: 3 stored emails, 3 exports/month, 5 email previews/day",
+        "paidFrom": "Plus plan, €24.17/month billed yearly",
+        "evidence": {
+          "url": "https://tabular.email/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Tabular ToS Art. 15.2 · commercial: not explicitly addressed (non-exclusive, non-transferable license to use the service) · attribution: not required · limit: Art. 7.3 restricts use to client's own organisation/company",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://tabular.email/legal/tos",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "tabular",
+        "type": "Tool",
+        "category": "Marketing",
+        "title": "Tabular",
+        "description": "A drag-and-drop email template builder that creates responsive HTML emails tested across 50+ clients, for marketers and developers.",
+        "tags": [
+          "template",
+          "design-templates",
+          "no-code",
+          "web"
+        ],
+        "relatedResources": [
+          "canva-templates",
+          "figma-community"
+        ],
+        "similarResources": [
+          "notion-templates"
+        ],
+        "keyFeatures": [
+          "Drag-and-drop editor for responsive HTML emails with no coding required",
+          "Separate mobile layouts and reusable content blocks",
+          "Dynamic personalization using variables from your sending platform",
+          "Generated HTML tested across 50+ email clients, including older Outlook versions",
+          "Direct integrations with 20+ email service providers (Mailchimp, HubSpot, Klaviyo)",
+          "Free forever plan with limited exports/previews; paid plans start at €24.17/month"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no exact match; closest fuzzy hit was a single letter ('r'), not a usable brand match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": null
+      },
+      "sources": [
+        {
+          "url": "https://tabular.email",
+          "date": "2026-10-24",
+          "note": "product description, feature claims"
+        },
+        {
+          "url": "https://tabular.email/pricing",
+          "date": "2026-10-24",
+          "note": "pricing tiers and free tier limits"
+        },
+        {
+          "url": "https://tabular.email/legal/tos",
+          "date": "2026-10-24",
+          "note": "ToS terms, operator entity"
+        }
+      ],
+      "unverified": [
+        "Exact export/preview limits on paid tiers beyond what's shown on the pricing page; whether ToS Art. 8.3 anti-spam clause affects any usage"
+      ],
+      "injectionSeen": null
+    },
+    "tailgrids": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Tailgrids",
+        "url": "https://tailgrids.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Essentials tier: 100% free and open-source, core components and blocks, lifetime access via GitHub/NPM",
+        "paidFrom": "All-Access, $199 one-time payment (single user)",
+        "evidence": {
+          "url": "https://tailgrids.com/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Tailgrids license page · commercial: yes, unlimited client projects · attribution: not required (Tailgrids credit may be removed) · limit: no resale, redistribution, sublicensing, or use in website builders/UI generators",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://tailgrids.com/license",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "tailgrids",
+        "type": "Library",
+        "category": "Design",
+        "title": "Tailgrids",
+        "description": "A React and Tailwind CSS UI component library with 600+ blocks and templates plus a companion Figma design system.",
+        "tags": [
+          "ui-ux",
+          "design-systems",
+          "open-source",
+          "web"
+        ],
+        "relatedResources": [
+          "figma",
+          "webflow"
+        ],
+        "similarResources": [
+          "framer"
+        ],
+        "keyFeatures": [
+          "600+ React + Tailwind CSS UI components, blocks and page templates",
+          "Companion Figma design system with 900+ components, tokens and variants",
+          "CLI for scaffolding projects and adding components",
+          "Free, open-source Essentials tier with lifetime updates via GitHub/NPM",
+          "One-time paid All-Access tier unlocks all pro blocks, templates and the Figma file",
+          "Commercial use allowed on unlimited client projects; resale/redistribution of components is not allowed"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no exact match; fuzzy hits ('d', 'lg', 'r') were single/double letters, not a usable brand match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": null
+      },
+      "sources": [
+        {
+          "url": "https://tailgrids.com",
+          "date": "2026-10-24",
+          "note": "product description, feature claims"
+        },
+        {
+          "url": "https://tailgrids.com/pricing",
+          "date": "2026-10-24",
+          "note": "pricing tiers and free tier terms"
+        },
+        {
+          "url": "https://tailgrids.com/license",
+          "date": "2026-10-24",
+          "note": "license/commercial-use terms"
+        }
+      ],
+      "unverified": [
+        "Company/operator name behind Tailgrids was not found on fetched pages",
+        "Whether free vs. pro components have different license terms"
+      ],
+      "injectionSeen": null
+    },
+    "taplink": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Taplink",
+        "url": "https://taplink.at",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "BASIC plan: free permanently, pre-designed themes, unlimited links, text blocks, messaging/social links, maps, page view stats, QR code",
+        "paidFrom": "PRO plan, exact monthly price not shown on pricing page (billed quarterly/half-yearly/annually with discounts for longer terms)",
+        "evidence": {
+          "url": "http://taplink.at/pricing/",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Terms of service not confirmed: the ToS pages at taplink.at and the taplink.cc mirror could not be read (one returned a bot-check redirect loop) · commercial: not confirmed · attribution: not confirmed",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://taplink.at/terms",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "taplink",
+        "type": "Tool",
+        "category": "Marketing",
+        "title": "Taplink",
+        "description": "A link-in-bio page builder for Instagram and TikTok profiles, letting creators and brands share multiple links, products and content from one page.",
+        "tags": [
+          "website-builder",
+          "social-media-design",
+          "no-code",
+          "web"
+        ],
+        "relatedResources": [
+          "canva",
+          "squarespace"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Mobile-friendly link-in-bio page builder with no coding required",
+          "Free Basic plan includes unlimited links, text blocks, maps, page-view stats and a QR code",
+          "Pro tier adds professional templates, media blocks, price lists and custom HTML",
+          "Business tier adds digital products, lead forms, payment acceptance, a built-in CRM and custom domains",
+          "Click analytics and branding removal available on paid tiers"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs returned no match at all (exit 2)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "ToS fetch hit a bot-check challenge page on the taplink.cc mirror; not treated as a block since the homepage and pricing page were both readable and no injection or malicious content was seen"
+      },
+      "sources": [
+        {
+          "url": "https://taplink.at",
+          "date": "2026-10-24",
+          "note": "product description, feature claims"
+        },
+        {
+          "url": "http://taplink.at/pricing/",
+          "date": "2026-10-24",
+          "note": "pricing tiers and free tier terms"
+        }
+      ],
+      "unverified": [
+        "Exact monthly price of PRO/BUSINESS tiers",
+        "Full terms of service / commercial-use clause (page blocked by bot-check on retry)",
+        "Operator/company name"
+      ],
+      "injectionSeen": null
+    },
+    "taprefer": {
+      "researchedOn": "2026-10-24",
+      "verdict": "skip",
+      "verdictReason": "No permanent free tier: the only $0 plan ('Basic') is explicitly framed as 'Try before you upgrade' with access to only a few of the 10,400+ programs; the real product is a one-time paid lifetime deal ($109 one-time, discounted from $495, no refunds). Paid-only in practice.",
+      "site": {
+        "name": "TapRefer",
+        "url": "https://taprefer.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": "'Basic' $0 plan labeled 'Try before you upgrade', access to 'a few programs' only plus search/filter/bookmarks - functions as a trial, not a full permanent free tier",
+        "paidFrom": "$109 one-time (discounted from $495; one earlier review also cited $67/$129 lifetime-deal pricing at different times)",
+        "evidence": {
+          "url": "https://taprefer.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://taprefer.com",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown reports found in search; directory page (https://digitool.co/tool/taprefer/) returned HTTP 403 so it could not be used to verify the site, but the taprefer.com site itself was confirmed directly and is alive."
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/taprefer/",
+          "date": "2026-10-24",
+          "note": "Directory page - returned HTTP 403 Forbidden, could not be read"
+        },
+        {
+          "url": "https://taprefer.com",
+          "date": "2026-10-24",
+          "note": "Home/pricing page - product description, Basic/Pro plan details, refund policy ('due to the nature of the product we sell, we do not offer refunds')"
+        },
+        {
+          "url": "https://affninja.com/taprefer-review/",
+          "date": "2026-10-24",
+          "note": "Third-party review confirming taprefer.com as the official domain and mentioning differing historical lifetime-deal prices ($67, $129)"
+        }
+      ],
+      "unverified": [
+        "Whether the Basic $0 plan persists indefinitely or is time-limited",
+        "Exact current one-time price (page showed $109 but third-party reviews cite $67/$129 from other points in time, and a countdown of '83 remaining' suggesting a limited-time promo)",
+        "Terms of Service / Privacy Policy contents (linked but not read)",
+        "Operator/company behind TapRefer"
+      ],
+      "injectionSeen": null
+    },
+    "taskade": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Taskade",
+        "url": "https://www.taskade.com",
+        "alive": true,
+        "operator": "Taskade (company, name not further specified on pages read)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Up to 3 live apps with hosting and a database, client sign-in on every app, 10 automation runs/month, 1 AI agent, 2 people, 250MB storage, 7-day version history, pay-as-you-go AI credits starting at 0",
+        "paidFrom": "Pro $10/month ($120/year billed annually)",
+        "evidence": {
+          "url": "https://www.taskade.com/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS - commercial: yes - attribution: not required - page states everything built is yours to use commercially",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.taskade.com/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "taskade",
+        "type": "AI Tool",
+        "category": "Productivity",
+        "title": "Taskade",
+        "description": "AI workspace that builds live apps, dashboards, and client portals from a text prompt, with built-in AI agents and no-code automations.",
+        "tags": [
+          "ai-tool",
+          "productivity",
+          "automation",
+          "no-code",
+          "collaboration",
+          "project-management"
+        ],
+        "relatedResources": [
+          "coda",
+          "airtable",
+          "notion"
+        ],
+        "similarResources": [
+          "coda",
+          "asana",
+          "chatgpt"
+        ],
+        "keyFeatures": [
+          "Generates full-stack apps (CRMs, trackers, booking tools, storefronts) from a single text prompt, no coding required",
+          "Branded client portals with built-in sign-in and custom domains",
+          "Live dashboards that update data in real time",
+          "Publishable/embeddable AI agents with custom tools and persistent memory",
+          "No-code automations with branching, looping and retry logic across 100+ integrations (Stripe, Slack, GitHub, Google Sheets)",
+          "Community app cloning with optional Stripe checkout built in"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact or fuzzy Simple Icons match (closest unrelated matches only)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No evidence of shutdown, acquisition, or malware. Search surfaced customer complaints (AppSumo lifetime-deal reviews alleging a bait-and-switch on AI-agent access and credit limits) and a generic domain-risk note that its form-builder/hosting features could in theory be abused by third parties for phishing content, which is a general SaaS risk note, not a confirmed compromise of Taskade itself."
+      },
+      "sources": [
+        {
+          "url": "https://www.taskade.com",
+          "date": "2026-10-24",
+          "note": "Product description, feature overview, target audience"
+        },
+        {
+          "url": "https://www.taskade.com/pricing",
+          "date": "2026-10-24",
+          "note": "Full pricing table, free plan limits, commercial-use statement"
+        }
+      ],
+      "unverified": [
+        "Legal entity / operator name behind Taskade",
+        "Whether AppSumo lifetime-deal complaints reflect an ongoing policy change affecting new free-tier signups"
+      ],
+      "injectionSeen": null
+    },
+    "taste-lab": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Taste Lab",
+        "url": "https://www.tastelab.xyz",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire tool appears free to use; home page describes it as a side project and links only to a 'Buy Me a Coffee' support page, no paid plan or pricing page found (dedicated /pricing path returns 404)",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.tastelab.xyz",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.tastelab.xyz",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "taste-lab",
+        "type": "AI Tool",
+        "category": "Development",
+        "title": "Taste Lab",
+        "description": "Extracts a website's design DNA - colors, type, spacing, shadows and the reasoning behind them - as a doc AI coding agents like Cursor or Copilot can follow.",
+        "tags": [
+          "ai-tool",
+          "design-systems",
+          "web"
+        ],
+        "relatedResources": [
+          "figma",
+          "codepen",
+          "codesandbox"
+        ],
+        "similarResources": [
+          "figma-community",
+          "iconfinder",
+          "fontawesome"
+        ],
+        "keyFeatures": [
+          "Takes a URL and generates a design map covering colors, typography, spacing, radius and shadows",
+          "Produces 'Taste DNA' principles explaining the reasoning and trade-offs behind each design choice, not just raw values",
+          "Outputs both a .md and a .json file for reuse",
+          "Formats output specifically for AI coding tools such as Cursor, Claude Code and GitHub Copilot",
+          "Aimed at people building with AI agents who want generated designs to match a given site's style on pages the agent hasn't seen before"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact or fuzzy Simple Icons match (closest unrelated match only)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition reports found; search only surfaced unrelated same-named entities (a Spanish sensory-research consultancy, a Zurich art project, and 'Tasty Labs' acquired by Walmart in 2013 - none tied to tastelab.xyz)."
+      },
+      "sources": [
+        {
+          "url": "https://www.tastelab.xyz",
+          "date": "2026-10-24",
+          "note": "Product description, feature list, free/side-project framing, Buy Me a Coffee link"
+        },
+        {
+          "url": "https://www.tastelab.xyz/pricing",
+          "date": "2026-10-24",
+          "note": "Returned HTTP 404 - confirms no dedicated pricing page / paid plan page exists"
+        }
+      ],
+      "unverified": [
+        "Operator/author identity (page did not identify a company or individual by name in the fetched content)",
+        "Whether any usage limits or rate limits apply to the free tool",
+        "License/terms of use for generated output"
+      ],
+      "injectionSeen": null
+    },
+    "taste-skill": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Taste Skill",
+        "url": "https://www.tasteskill.dev",
+        "alive": true,
+        "operator": "Leon Lin and blueemi (GitHub: Leonxlnx)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All SKILL.md skills are free and open source (install via `npx skills add Leonxlnx/taste-skill`). Companion desktop app TasteCode is in free public beta for macOS and Windows.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.tasteskill.dev",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT · commercial: yes · attribution: not required (per MIT) · footer states \"MIT licensed\"",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://www.tasteskill.dev",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "taste-skill",
+        "type": "AI Tool",
+        "category": "Development",
+        "title": "Taste Skill",
+        "description": "Open-source MIT SKILL.md files that guide AI coding agents (Claude Code, Cursor, Codex) to produce less generic, higher-taste UI instead of default \"AI slop\" designs.",
+        "tags": [
+          "ai-tool",
+          "open-source",
+          "design-systems",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "chatgpt",
+          "claude-ai"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "13 install-ready skills: default v2, legacy v1, a GPT/Codex-tuned variant, a redesign-audit skill, an image-to-code skill, and style presets (minimalist, brutalist, soft)",
+          "v2 adds brief inference and guidance on when to reach for a design system (Material, shadcn) versus native CSS",
+          "Handles dark mode and runs a pre-flight checklist before the agent outputs code",
+          "Installs with a single `npx skills add` command for Cursor, Claude Code and Codex",
+          "TasteCode: a free-beta desktop workspace pairing a local design agent with Claude Code, Codex or Grok",
+          "MIT licensed, source on GitHub, sponsorship optional"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons (checked, no match)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/shutdown/acquisition reports found for tasteskill.dev. Third-party security scans (Socket, Snyk) of the GitHub skill rate it medium risk, not malicious: the install step fetches and executes code from the upstream GitHub repo, and a related image-gen skill in the same family was flagged critical for a suspicious download URL — worth a note to the owner but not a reason to skip the site listing itself."
+      },
+      "sources": [
+        {
+          "url": "https://www.tasteskill.dev",
+          "date": "2026-10-24",
+          "note": "home page: description, operator, skills list, TasteCode, MIT license footer"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22Taste+Skill%22+tasteskill.dev+scam+OR+malware+OR+%22shutting+down%22+OR+acquired",
+          "date": "2026-10-24",
+          "note": "safety search; no scam/shutdown reports for tasteskill.dev; third-party security scans of the underlying GitHub skill rated medium risk"
+        }
+      ],
+      "unverified": [
+        "Exact GitHub repo contents/README not fetched directly (only the homepage's description of the license and repo).",
+        "Whether TasteCode will remain free after beta is not stated."
+      ],
+      "injectionSeen": null
+    },
+    "technigo": {
+      "researchedOn": "2026-10-24",
+      "verdict": "skip",
+      "verdictReason": "Primarily a paid coding/design/cybersecurity bootcamp and course provider (Cybersecurity Officer Bootcamp, AI Productivity Bootcamp, YH courses, self-paced paid courses). The homepage lists some free items (a free coding workshop, one YH cybersecurity course badged as a time-boxed Nordic promotion, free guides/templates, and October-only \"Cybermånaden\" events), but a direct fetch of the resources page returned a 404, so none of these could be confirmed as a permanent, no-login free resource stable enough to carry its own RL listing. Does not meet the 'real permanent free tier' bar for a RL entry; the core product is paid.",
+      "site": {
+        "name": "Technigo",
+        "url": "https://www.technigo.io",
+        "alive": true,
+        "operator": "Technigo AB (Scandinavian tech-education provider)"
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition reports found in search."
+      },
+      "sources": [
+        {
+          "url": "https://www.technigo.io",
+          "date": "2026-10-24",
+          "note": "home page: paid bootcamps/courses list and mentions of free coding course, free guides/templates, October free events"
+        },
+        {
+          "url": "https://www.technigo.io/free-resources",
+          "date": "2026-10-24",
+          "note": "guessed free-resources URL returned a 404 'Oops, nothing here' page; could not confirm free resource details or access terms"
+        },
+        {
+          "url": "https://www.google.com/search?q=Technigo+bootcamp+scam+OR+malware+OR+%22shutting+down%22+OR+acquired",
+          "date": "2026-10-24",
+          "note": "safety search; no relevant results about Technigo"
+        }
+      ],
+      "unverified": [
+        "Exact URL and access terms (login/email-gate) for Technigo's free guides, templates and free coding course were not confirmed.",
+        "Whether the 'free' cybersecurity YH course is genuinely no-cost or just heavily subsidized/time-limited."
+      ],
+      "injectionSeen": null
+    },
+    "ted-talks": {
+      "researchedOn": "2026-10-24",
+      "verdict": "needs-owner",
+      "verdictReason": "Site is alive, clearly legitimate and free to browse (ad- and partner-supported, with an optional paid 'TED Member' tier for extras), so it is not a pricing/safety problem. The blocker is fit: it is a general educational talks/media platform, not a design/dev/business/productivity tool or asset resource, and none of RL's 9 existing categories (Design, Development, Filming, Photography, Productivity, Marketing, Business, Finance, Personal) or its current 'Personal' entries (privacy tools like Bitwarden/Brave) match it. Listing it would mean stretching an existing category or adding a new one (e.g. an 'Education'/'Learning' category) — flagging to the owner rather than deciding unilaterally. The TED Talks Usage Policy and Terms of Use pages (linked from the homepage) were not fetched, so license terms for reusing talk content are also unconfirmed.",
+      "site": {
+        "name": "TED",
+        "url": "https://www.ted.com",
+        "alive": true,
+        "operator": "TED (nonprofit organization)"
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No malware/shutdown/acquisition reports. One relevant but unrelated-to-the-site item: a 2025 TEDx licensing scam in Dubai (fake event charging speakers up to $25,000), which TED itself condemned and which led to the local organizers' TEDx licence being revoked — this is about a rogue TEDx licensee, not about ted.com or TED Talks content."
+      },
+      "sources": [
+        {
+          "url": "https://www.ted.com",
+          "date": "2026-10-24",
+          "note": "home page: what TED offers (talks, TED-Ed, TEDx, podcasts, TED Member paid tier), ad/partner-supported model"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22TED+Talks%22+scam+OR+malware+OR+%22shutting+down%22+OR+acquired+2026",
+          "date": "2026-10-24",
+          "note": "safety search; found an unrelated 2025 fake-TEDx speaker-fee scam in Dubai, condemned by TED, no issues with ted.com itself"
+        }
+      ],
+      "unverified": [
+        "Content of the 'TED Talks Usage Policy' and 'TED.com Terms of Use' pages (linked but not fetched) — so exact reuse/embedding/commercial-use terms are not confirmed.",
+        "Which RL category (existing or new) the owner would want this filed under."
+      ],
+      "injectionSeen": null
+    },
+    "tegaki": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Tegaki",
+        "url": "https://tegaki.ink/",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "The Tegaki library (npm package) and the browser-based Tegaki Studio generator are both free to use; the site lists no paid plan or tier.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://tegaki.ink/",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT (library code) · commercial: yes · attribution: required · bundled fonts ship under their own separate open font licenses",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/gkurt/tegaki",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "tegaki",
+        "type": "Library",
+        "category": "Development",
+        "title": "Tegaki",
+        "description": "Open-source library and generator that animates text as realistic handwriting on the web, stroke by stroke, while keeping it selectable.",
+        "tags": [
+          "open-source",
+          "web",
+          "typography"
+        ],
+        "relatedResources": [
+          "google-fonts",
+          "fontpair",
+          "excalidraw"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Extracts stroke order, direction and width directly from a font and animates them over real, selectable text",
+          "Supports Latin, right-to-left, Indic and CJK scripts",
+          "Framework adapters for React, Svelte, Vue, Solid, Astro, Nuxt and web components, plus a vanilla JS API",
+          "CLI that outputs standalone animated SVG files",
+          "Controllable timing, streaming text support, and plugins for styling the ink",
+          "Free browser-based 'Tegaki Studio' generator for trying the effect without writing code"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "checked Simple Icons — no real match (closest hit was a single-letter 'e', not a genuine fuzzy match)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Safety search for \"Tegaki\" + scam/malware/shutdown/acquired returned no results about this project at all (only unrelated Japanese malware-scam news from other decades); no negative signal found."
+      },
+      "sources": [
+        {
+          "url": "https://gkurt.com/tegaki/",
+          "date": "2026-10-24",
+          "note": "original URL given, 301-redirects permanently to tegaki.ink"
+        },
+        {
+          "url": "https://tegaki.ink/",
+          "date": "2026-10-24",
+          "note": "home page: description, features, framework/CLI support, confirms free/open-source, no paid tier shown"
+        },
+        {
+          "url": "https://github.com/gkurt/tegaki",
+          "date": "2026-10-24",
+          "note": "MIT license, 3.3k stars/124 forks, active, owner account 'gkurt'"
+        }
+      ],
+      "unverified": [
+        "Real name/identity of the author/operator behind the 'gkurt' GitHub account and tegaki.ink is not stated anywhere first-party",
+        "Exact individual open font licenses for each bundled font were not individually checked"
+      ],
+      "injectionSeen": null
+    },
+    "tempo": {
+      "researchedOn": "2026-10-24",
+      "verdict": "blocked",
+      "verdictReason": "tempolabs.ai 301-redirects to tempo.new (now branded \"Tempo — The IDE for the whole team\"), which is a JS-rendered app shell: three separate fetch attempts (home page twice, /pricing once) all returned only the page title with no body text, navigation, or pricing content. No first-party pricing/license text could be retrieved without executing the page's JS, so this cannot be verified for a listing decision.",
+      "site": {
+        "name": "Tempo",
+        "url": "https://www.tempo.new/",
+        "alive": true,
+        "operator": "Tempo Labs, Inc. (per third-party sources; not independently confirmed first-party)"
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition signal found; third-party aggregator pages (nocode.mba, aiidelist.com, etc.) describe it as an active AI coding IDE, consistent with a YC-backed startup, not a dead or risky site."
+      },
+      "sources": [
+        {
+          "url": "https://www.tempolabs.ai",
+          "date": "2026-10-24",
+          "note": "301 redirect confirmed to tempo.new"
+        },
+        {
+          "url": "https://www.tempo.new/",
+          "date": "2026-10-24",
+          "note": "home page — JS app shell, only title text retrievable"
+        },
+        {
+          "url": "https://www.tempo.new/pricing",
+          "date": "2026-10-24",
+          "note": "pricing page — same JS app shell, only title text retrievable"
+        }
+      ],
+      "unverified": [
+        "Whether Tempo has a genuine permanent free tier vs. only a limited trial — third-party guides (nocode.mba and others) describe a 30-credits/month free plan, but this is second-hand, not first-party-confirmed",
+        "License/terms of service content — not retrievable",
+        "Exact operator/company legal name"
+      ],
+      "injectionSeen": null
+    },
+    "tessera": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Tessera",
+        "url": "https://tesserapatterns.com",
+        "alive": true,
+        "operator": "Dennis Müller (SwiftedMind)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free to download for iPad and Mac; usable without payment, with a single in-app purchase gate unlocking all features.",
+        "paidFrom": "$9.99 one-time in-app purchase (\"Access all Features\")",
+        "evidence": {
+          "url": "https://apps.apple.com/us/app/tessera-seamless-patterns/id6756501042",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary commercial app (App Store EULA) · commercial use of the app itself: n/a, it's a paid-feature consumer app · attribution: not required · one limit: full feature set requires the $9.99 in-app purchase",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://apps.apple.com/us/app/tessera-seamless-patterns/id6756501042",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "tessera",
+        "type": "App",
+        "category": "Design",
+        "title": "Tessera",
+        "description": "iPad and Mac app for building seamless, tileable patterns and wallpapers from shapes, images, text and symbols, with template and palette libraries.",
+        "tags": [
+          "graphic-design",
+          "ios",
+          "mac",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "figma",
+          "canva-templates",
+          "behance"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "42 built-in pattern templates or a blank canvas to start from",
+          "Organic, Grid, Mosaic and Single Symbol layout modes for repeating tiles or fixed-size wallpapers",
+          "44 built-in symbol presets plus custom image and SVG import",
+          "Library of 100+ color palettes",
+          "Exports as PNG (up to 8x scale), PDF, or an editable .tessera project file",
+          "Free to download with a one-time $9.99 in-app purchase to unlock all features"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "checked Simple Icons — no real match (closest hits were single letters 'e'/'r', not genuine fuzzy matches)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition signal found; distributed through Apple's App Store under developer Dennis Müller / SwiftedMind, a known indie iOS developer with other apps on the store."
+      },
+      "sources": [
+        {
+          "url": "https://tesserapatterns.com",
+          "date": "2026-10-24",
+          "note": "home page: description, features, template/symbol/palette counts, export formats, operator credit (SwiftedMind), App Store link"
+        },
+        {
+          "url": "https://apps.apple.com/us/app/tessera-seamless-patterns/id6756501042",
+          "date": "2026-10-24",
+          "note": "App Store listing: free download, $9.99 'Access all Features' IAP, developer name Dennis Müller, Graphics & Design category"
+        }
+      ],
+      "unverified": [
+        "Exact scope of what the free tier excludes vs. what the $9.99 IAP unlocks beyond the marketing copy's generic feature list",
+        "Whether a desktop-only (non-App-Store) download exists"
+      ],
+      "injectionSeen": null
+    },
+    "tesseract-by-mirage": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Tesseract by Mirage",
+        "url": "https://mirage.app/tesseract",
+        "alive": true,
+        "operator": "Mirage (NYC-based AI video company, maker of the Captions app; CEO Gaurav Misra)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "The local Tesseract creative engine (preview and rendering) is free and requires no Mirage account; agent/model usage costs are the user's own. Captions' separate hosted services are not part of this free scope.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://mirage.app/tesseract",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Not stated on the product page · commercial use: unclear · attribution: unclear · a linked GitHub repo and Captions legal pages were not reviewed",
+        "openSource": null,
+        "spdx": null,
+        "evidence": {
+          "url": "https://mirage.app/tesseract",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "tesseract-by-mirage",
+        "type": "AI Tool",
+        "category": "Filming",
+        "title": "Tesseract by Mirage",
+        "description": "Free local creative engine that lets AI agents (ChatGPT, Claude, etc.) edit video, build motion graphics, and design static graphics like thumbnails.",
+        "tags": [
+          "ai-tool",
+          "graphic-design",
+          "mac",
+          "windows",
+          "linux"
+        ],
+        "relatedResources": [
+          "chatgpt",
+          "claude-ai",
+          "figma"
+        ],
+        "similarResources": [
+          "canva-templates"
+        ],
+        "keyFeatures": [
+          "Directs video and design edits through an AI agent (ChatGPT, Claude, or other supported agents) instead of manual timeline editing",
+          "Creates videos, motion graphics, and static assets such as thumbnails, social graphics, and brand kits",
+          "Keeps projects editable afterward, so text, layers, timing, and sound can be revised later",
+          "Runs locally on macOS, Windows, and Linux, with local preview/rendering requiring no Mirage account",
+          "Can export to Premiere Pro (.prproj) and, experimentally, to After Effects (.aep)",
+          "Built on the same native engine that powers Mirage's Captions app"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact or meaningful Simple Icons match (check-icon.mjs returned only unrelated single-letter fuzzy hits); needs a sourced SVG/favicon."
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown/acquisition signals found; unrelated 'Mirage' threat-actor and ad-fraud reports in search results are a different, unrelated use of the word 'Mirage'."
+      },
+      "sources": [
+        {
+          "url": "https://mirage.app/tesseract",
+          "date": "2026-10-24",
+          "note": "Product description, free-engine claims, platform support, export formats"
+        },
+        {
+          "url": "https://fortune.com/press-releases/mirage-tesseract-video-creation-ai-agents-2026-09-22/",
+          "date": "2026-10-24",
+          "note": "Confirms operator (Mirage), launch date 2026-09-22, relationship to Captions app, CEO quote"
+        }
+      ],
+      "unverified": [
+        "No commercial-use/license terms confirmed for Tesseract output (GitHub repo and Captions Terms/Privacy pages linked but not reviewed)",
+        "Whether 'Mirage' or 'Captions' (the flagship paid app) should separately be added to RL is out of scope for this entry but worth owner attention",
+        "Exact category fit (Filming vs Design) is a judgment call since Tesseract spans both video and static design"
+      ],
+      "injectionSeen": "The mirage.app/tesseract page included a 'Copy setup prompt' block instructing an agent to install Tesseract and verify a checksum; not acted on, only noted."
+    },
+    "textcortex-ai": {
+      "researchedOn": "2026-10-24",
+      "verdict": "blocked",
+      "verdictReason": "textcortex.com returns HTTP 403 (bot-check/WAF) on the homepage (two attempts) and the pricing page (two attempts); help.textcortex.com's pricing article also returned 403. web.archive.org is unreachable from this environment. No first-party page could be read after retries, and bypassing bot checks is not permitted, so pricing/license facts could not be verified first-party.",
+      "site": {
+        "name": "TextCortex AI",
+        "url": "https://textcortex.com",
+        "alive": true,
+        "operator": null
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition signals found in search results; results were mostly the vendor's own (Japanese-language) marketing pages."
+      },
+      "sources": [
+        {
+          "url": "https://help.textcortex.com/hc/en-us/articles/21719941813393-Plans-pricing-explained",
+          "date": "2026-10-24",
+          "note": "Attempted fetch for pricing; blocked (403)"
+        },
+        {
+          "url": "https://www.g2.com/compare/textcortex-vs-texta-ai-ai-powered-content-generation-tool",
+          "date": "2026-10-24",
+          "note": "Second-hand (not first-party) search snippet suggesting a free plan exists: ~20 creations/day, 50MB RAG storage, paid tiers from roughly $5.59-29.99/mo depending on source; not independently confirmed"
+        }
+      ],
+      "unverified": [
+        "All pricing figures are second-hand only (search snippets from G2/SaaSWorthy/etc.), not confirmed against textcortex.com itself",
+        "License/ToS terms for listing/linking not reviewed at all",
+        "Whether TextCortex duplicates an existing RL writing-assistant entry not confirmed beyond rl-index.mjs --find (no match found)"
+      ],
+      "injectionSeen": null
+    },
+    "texturelabs": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Texturelabs",
+        "url": "https://texturelabs.org",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free downloadable textures (brick, concrete, grunge, metal, paper, water, wood, halftones, etc.) in multiple sizes as JPG/PNG, plus free tutorials and tools; a free account adds favorites and newsletter signup.",
+        "paidFrom": "Paid 'Bulk Downloads / Lossless Textures' option exists; no price shown on the pages read.",
+        "evidence": {
+          "url": "https://texturelabs.org",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Texturelabs custom license · commercial: yes (broadcast, products for sale, books/posters, ads, apparel) · attribution: not required · limit: no resale/redistribution of the raw textures (no texture packs, competing texture sites, stock use, or standalone products)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://texturelabs.org/terms/",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "texturelabs",
+        "type": "Stock Media",
+        "category": "Design",
+        "title": "Texturelabs",
+        "description": "Free library of high-resolution textures (brick, concrete, grunge, metal, paper, wood and more) plus design tutorials, for designers and artists in Photoshop or After Effects.",
+        "tags": [
+          "stock",
+          "graphic-design",
+          "print-design"
+        ],
+        "relatedResources": [
+          "pexels",
+          "unsplash",
+          "pixabay"
+        ],
+        "similarResources": [
+          "pexels",
+          "pixabay"
+        ],
+        "keyFeatures": [
+          "Free downloadable textures across categories like brick, concrete, grunge, metal, paper, water, and wood",
+          "Textures available in multiple resolutions (small to x-large) as JPG or PNG, including transparent overlays",
+          "Commercial use allowed without attribution, for broadcast video, products for sale, books/posters, ads, and apparel",
+          "No resale or redistribution of the raw textures themselves (can't be repackaged as a texture pack or stock product)",
+          "Includes original video tutorials (e.g. Photoshop gradient maps, After Effects displacement effects)",
+          "Also offers paid bulk/lossless downloads and tools such as an After Effects template"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact or meaningful Simple Icons match (check-icon.mjs returned only unrelated single-letter fuzzy hits); needs a sourced SVG/favicon."
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown/acquisition signals found; the only tangential search hit was an unrelated open-source project 'texturelab' (different name/spelling)."
+      },
+      "sources": [
+        {
+          "url": "https://texturelabs.org",
+          "date": "2026-10-24",
+          "note": "Site purpose, texture categories/sizes, free vs. paid bulk downloads, tutorials/tools"
+        },
+        {
+          "url": "https://texturelabs.org/terms/",
+          "date": "2026-10-24",
+          "note": "License terms: commercial use allowed, no attribution required, no redistribution/resale"
+        }
+      ],
+      "unverified": [
+        "Exact price of the paid 'Bulk Downloads / Lossless Textures' tier not found on pages read",
+        "Site operator/company name not identified on the pages read",
+        "A linked license-agreement URL on one page pointed to a localhost address and could not be used; /terms/ was used instead"
+      ],
+      "injectionSeen": null
+    },
+    "textures": {
+      "researchedOn": "2026-10-24",
+      "verdict": "blocked",
+      "verdictReason": "Four separate first-party fetches (library, pricing, how-it-works, terms-of-use pages) each returned only the generic homepage hero tagline with no real page text — consistent with a JS-rendered or bot-walled site that WebFetch cannot read. Could not confirm current pricing, current free-tier credit limits, or license terms first-party. Second-hand community sources (forum posts, 2020-2026) describe a real but limited free tier (registered account, small/sample-size downloads, historically ~15 credits/day) with full-size/commercial downloads gated behind paid Premium Credits, and an 'Indie license' revenue cap mentioned in an older terms excerpt — but none of this is first-party confirmed, so it is not safe to finalize an RL entry.",
+      "site": {
+        "name": "Textures.com",
+        "url": "https://www.textures.com/library",
+        "alive": true,
+        "operator": null
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition reports found for textures.com itself; unrelated similarly-named domains (publicdomaintextures.com, texture-packs.com) turned up in search but are different sites."
+      },
+      "sources": [
+        {
+          "url": "https://www.textures.com/library",
+          "date": "2026-10-24",
+          "note": "Homepage only rendered tagline 'Textures for 3D, graphic design and Photoshop!'; no pricing/free-tier text retrievable."
+        },
+        {
+          "url": "https://www.textures.com/pricing",
+          "date": "2026-10-24",
+          "note": "Fetch returned the same generic tagline, no pricing table content."
+        },
+        {
+          "url": "https://www.textures.com/about/how-it-works",
+          "date": "2026-10-24",
+          "note": "Fetch returned the same generic tagline, no free-tier mechanics text."
+        },
+        {
+          "url": "https://www.textures.com/about/terms-of-use",
+          "date": "2026-10-24",
+          "note": "Fetch returned the same generic tagline, no license/terms text."
+        }
+      ],
+      "unverified": [
+        "Current pricing plans and Premium Credit prices — not retrievable first-party.",
+        "Whether the free tier is still offered as described in 2020-2026 community posts (some report it no longer works for new accounts).",
+        "Exact license terms (Indie license revenue cap) — only seen in a second-hand forum excerpt, not read on the actual ToS page.",
+        "Site operator/company name."
+      ],
+      "injectionSeen": null
+    },
+    "the-brand-identity": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list-sibling",
+      "site": {
+        "name": "The Brand Identity",
+        "url": "https://the-brandidentity.com",
+        "alive": true,
+        "operator": "The Brand Identity Group Ltd"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "All editorial content (case studies, interviews, type/feature coverage, newsletter) is free to read with no account required.",
+        "paidFrom": "Store items from $19 (mockups); ebooks from $30; presentation decks from $25; motion templates from $36.",
+        "evidence": {
+          "url": "https://the-brandidentity.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Site Terms (\"Legal terms\") · commercial: no (content reuse/reposting restricted; Marks cannot be used in advertising/commercial manner) · attribution: not stated · limit: members may not re-post Brand Identity content on another website, but ordinary directory linking to the homepage is not restricted",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://the-brandidentity.com/legal",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "the-brand-identity",
+        "type": "Website",
+        "category": "Design",
+        "title": "The Brand Identity",
+        "description": "A branding and graphic design showcase with case studies, designer interviews, and a store of mockups, decks and templates.",
+        "tags": [
+          "inspiration",
+          "graphic-design",
+          "typography"
+        ],
+        "relatedResources": [
+          "behance",
+          "dribbble",
+          "awwwards"
+        ],
+        "similarResources": [
+          "dribbble",
+          "awwwards"
+        ],
+        "keyFeatures": [
+          "Case studies of brand identity and packaging projects from studios worldwide",
+          "Long-form interviews with designers and studio founders (\"Features\")",
+          "Coverage of new typeface and type foundry releases",
+          "Store selling mockups, presentation decks, motion templates and design ebooks",
+          "Job board for design roles with salary-transparent listings",
+          "Daily newsletter (via Beehiiv) rounding up projects, jobs and store drops"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact or usable fuzzy Simple Icons match (closest candidates were unrelated single letters)"
+        },
+        "siblings": [
+          "Store (the-brandidentity.com/store) is a distinct paid marketplace for mockups, presentation decks, motion templates and ebooks — separate enough in purpose from the editorial/showcase site that it could warrant its own RL entry if the owner wants a 'Template' type listing; confirmed via top-nav 'Store' link and store pricing page."
+        ]
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/shutdown/acquisition reports found; operator is a registered company (The Brand Identity Group Ltd, UAE jurisdiction per legal terms)."
+      },
+      "sources": [
+        {
+          "url": "https://the-brandidentity.com",
+          "date": "2026-10-24",
+          "note": "Site purpose, nav/footer structure, store pricing samples, operator social links."
+        },
+        {
+          "url": "https://the-brandidentity.com/legal",
+          "date": "2026-10-24",
+          "note": "Legal terms: content reuse restrictions, Marks usage restriction, UAE governing law, copyright notice."
+        },
+        {
+          "url": "https://the-brandidentity.com/about",
+          "date": "2026-10-24",
+          "note": "Returned 404 — no separate About page at this path."
+        }
+      ],
+      "unverified": [
+        "Exact founding year/history beyond what search results describe (started as an Instagram account in 2015, per third-party uiuxshowcase.com/fontsinuse.com mentions, not first-party-confirmed).",
+        "Whether 'Legal terms' page's UAE jurisdiction reflects the operator's actual registration vs. just governing-law choice."
+      ],
+      "injectionSeen": null
+    },
+    "the-component-gallery": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "The Component Gallery",
+        "url": "https://component.gallery",
+        "alive": true,
+        "operator": "Iain Bean"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire site (60+ component types, 95 design systems, 2,671+ examples) is free to browse with no account, login or payment.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://component.gallery",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No published content license or ToS found · commercial: not stated · attribution: not stated · limit: About page frames the examples as reference/inspiration, not as ready-to-use library code",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://component.gallery/about",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "component-gallery",
+        "type": "Website",
+        "category": "Design",
+        "title": "The Component Gallery",
+        "description": "A free reference library of UI components pulled from real design systems, for naming and designing consistent interface patterns.",
+        "tags": [
+          "design-systems",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "figma-community",
+          "dribbble",
+          "awwwards"
+        ],
+        "similarResources": [
+          "figma",
+          "webflow-templates"
+        ],
+        "keyFeatures": [
+          "Catalogs 60+ component types (carousel, accordion, pagination, tabs, popover, etc.) with real examples",
+          "Draws examples from 95 published design systems, including Shopify Polaris, Elastic UI and Red Hat's design system",
+          "Over 2,600 real-world component examples for pattern and naming reference",
+          "Built with Astro and Airtable, hosted on Cloudflare Pages, with Pagefind-powered search",
+          "Open Contribute page for suggesting new design systems or corrections",
+          "No account, login or payment required to browse"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact or usable fuzzy Simple Icons match (closest candidates were unrelated single letters/abbreviations)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/shutdown/acquisition reports found; maintained by a named individual (Iain Bean) with a public GitHub repo (inbn/component-gallery)."
+      },
+      "sources": [
+        {
+          "url": "https://component.gallery",
+          "date": "2026-10-24",
+          "note": "Site scope, stats (60 components/95 systems/2,671 examples), example design systems and components."
+        },
+        {
+          "url": "https://component.gallery/about",
+          "date": "2026-10-24",
+          "note": "Site purpose, creator attribution, tech stack, lack of stated license/terms."
+        },
+        {
+          "url": "https://github.com/inbn/component-gallery",
+          "date": "2026-10-24",
+          "note": "Confirms source repo, Astro/Airtable stack, no LICENSE file for content; Airtable DB backing the live data is private."
+        }
+      ],
+      "unverified": [
+        "Whether the GitHub repo's code license (none found in the listing) differs from the live site content's status.",
+        "Whether 'Iain Bean' operates the site solely as an individual or under any studio/company name."
+      ],
+      "injectionSeen": null
     }
   }
 }

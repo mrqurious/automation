@@ -10,13 +10,13 @@ Generated 2026-10-24 by `scripts/backlog-build.mjs` from `backlog/tools-list.jso
 
 | Status | Count | Meaning |
 |---|---:|---|
-| `todo` | 316 | in the research queue (free / freemium / beta) |
+| `todo` | 280 | in the research queue (free / freemium / beta) |
 | `in-rl` | 33 | already in ResourcesList (matched by site or slug) — skip, maybe use for related/similar links |
 | `deferred-paid` | 217 | labelled **Paid** only — parked |
 | `deferred-trial` | 232 | labelled **Free Trial** only — parked until a real free tier is confirmed |
-| `researching` / `researched` / `drafted` / `rejected` / `blocked` | 0 / 221 / 557 / 205 / 498 | set by research sessions |
+| `researching` / `researched` / `drafted` / `rejected` / `blocked` | 0 / 245 / 557 / 211 / 504 | set by research sessions |
 
-Queue by priority: **P1** 0 (free/freemium, listed on 2+ pages) · **P2** 286 (free/freemium, 1 page) · **P3** 30 (beta).
+Queue by priority: **P1** 0 (free/freemium, listed on 2+ pages) · **P2** 250 (free/freemium, 1 page) · **P3** 30 (beta).
 
 ## What happens if a tool is not processed (and why)
 
@@ -1512,24 +1512,54 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Supersparks | supersparks.io | Freemium | 1 | P2 | researched |
 | Surfer | via Digitool | Free tier listed | 1 | P2 | blocked |
 | Sustainable UX Playbook | suxnetwork.notion.site | Free | 1 | P2 | blocked |
+| SveltePlot | svelteplot.dev | Free | 1 | P2 | researched |
+| SVG Backgrounds | svgbackgrounds.com | Free + Paid | 1 | P2 | blocked |
+| Svg DooDle Drawings | svgicon.net | Free | 1 | P2 | rejected |
+| SVG Doodles | svgdoodles.com | Free | 1 | P2 | researched |
+| SVG Gobbler | svggobbler.com | Free | 1 | P2 | researched |
+| SVG Hub | svghub.vercel.app | Free | 1 | P2 | blocked |
+| SVG Waves | svgwave.in | Free | 1 | P2 | researched |
+| SVGator | svgator.com | Freemium | 1 | P2 | researched |
+| SVGL | via Digitool | Free tier listed | 1 | P2 | researched |
+| SVGViewer | svgviewer.dev | Free | 1 | P2 | researched |
+| Swash | swashmotion.com | Freemium | 1 | P2 | researched |
+| Sweetfont | sweetfont.com | Free | 1 | P2 | researched |
+| Swishy | swishy.ai | Freemium | 1 | P2 | rejected |
+| Synder | via Digitool | Free tier listed | 1 | P2 | rejected |
+| Synthesia | synthesia.io | Freemium | 1 | P2 | researched |
+| Synthymental | synthymental.com | Free | 1 | P2 | rejected |
+| System Color Picker | sindresorhus.com | Free | 1 | P2 | researched |
+| Tabbied | tabbied.com | Free | 1 | P2 | researched |
+| Tabular | tabular.email | Freemium | 1 | P2 | researched |
+| Tailgrids | tailgrids.com | Free + Paid | 1 | P2 | researched |
+| Taplink | taplink.at | Freemium | 1 | P2 | researched |
+| TapRefer | via Digitool | Free tier listed | 1 | P2 | rejected |
+| Taskade | taskade.com | Freemium | 1 | P2 | researched |
+| Taste Lab | tastelab.xyz | Free | 1 | P2 | researched |
+| Taste Skill | tasteskill.dev | Free | 1 | P2 | researched |
+| Technigo | technigo.io | Free + Paid | 1 | P2 | rejected |
+| TED Talks | ted.com | Free | 1 | P2 | blocked |
+| Tegaki | gkurt.com | Free | 1 | P2 | researched |
+| Tempo | tempolabs.ai | Freemium | 1 | P2 | blocked |
+| Tessera | tesserapatterns.com | Free + Paid | 1 | P2 | researched |
+| Tesseract by Mirage | mirage.app | Free | 1 | P2 | researched |
+| TextCortex AI | textcortex.com | Freemium | 1 | P2 | blocked |
+| Texturelabs | texturelabs.org | Free + Paid | 1 | P2 | researched |
+| Textures | textures.com | Free + Paid | 1 | P2 | blocked |
+| The Brand Identity | the-brandidentity.com | Free | 1 | P2 | researched |
+| The Component Gallery | component.gallery | Free | 1 | P2 | researched |
 | The FWA Awards | thefwa.com | Paid / Free | 2 | P1 | blocked |
 | Typedream | typedream.com | Freemium | 2 | P1 | drafted |
 | typeui.sh | typeui.sh | Free + Paid / Freemium | 2 | P1 | drafted |
 | Visily | visily.ai | Freemium | 2 | P1 | drafted |
 | Wispr Flow | ref.wisprflow.ai | Free tier listed / Freemium | 2 | P1 | drafted |
 
-## Research queue (316)
+## Research queue (280)
 
-### Best AI Design Tools for Designers (36)
+### Best AI Design Tools for Designers (30)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Swishy | swishy.ai | Freemium | 1 | P2 |
-| Synthesia | synthesia.io | Freemium | 1 | P2 |
-| Taskade | taskade.com | Freemium | 1 | P2 |
-| Taste Lab | tastelab.xyz | Free | 1 | P2 |
-| Taste Skill | tasteskill.dev | Free | 1 | P2 |
-| Tesseract by Mirage | mirage.app | Free | 1 | P2 |
 | The UX of AI | uxofai.com | Free | 1 | P2 |
 | Tila | tila.ai | Freemium | 1 | P2 |
 | Tinker | tinker.com | Free | 1 | P2 |
@@ -1561,11 +1591,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | PromptBase | promptbase.com |  | 1 | P3 |
 | Stitch | stitch.withgoogle.com | Beta | 1 | P3 |
 
-### Best Color Tools and Inspiration for Designers (6)
+### Best Color Tools and Inspiration for Designers (5)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| System Color Picker | sindresorhus.com | Free | 1 | P2 |
 | Tone | t-o-n-e.com | Free | 1 | P2 |
 | UI Colors | uicolors.app | Free + Paid | 1 | P2 |
 | Volume | volumecolor.io | Free | 1 | P2 |
@@ -1608,16 +1637,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | WeLoveProduct | weloveproduct.co | Freemium | 1 | P2 |
 | Woody | woodyjobs.com | Freemium | 1 | P2 |
 
-### Best Design Tools Across Disciplines (35)
+### Best Design Tools Across Disciplines (29)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| SVG Gobbler | svggobbler.com | Free | 1 | P2 |
-| SVGator | svgator.com | Freemium | 1 | P2 |
-| SVGViewer | svgviewer.dev | Free | 1 | P2 |
-| Swash | swashmotion.com | Freemium | 1 | P2 |
-| Synthymental | synthymental.com | Free | 1 | P2 |
-| Tegaki | gkurt.com | Free | 1 | P2 |
 | Theatre.js | theatrejs.com | Free | 1 | P2 |
 | Tiny PNG | tinypng.com | Freemium | 1 | P2 |
 | Tokens Studio | tokens.studio | Free + Paid | 1 | P2 |
@@ -1648,11 +1671,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Sesame | sesame.design | Beta | 1 | P3 |
 | Visual | visual.app | Beta | 1 | P3 |
 
-### Best Free Font Libraries and Inspiration for Designers (21)
+### Best Free Font Libraries and Inspiration for Designers (20)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Sweetfont | sweetfont.com | Free | 1 | P2 |
 | The good line-height | thegoodlineheight.com | Free | 1 | P2 |
 | The League of Moveable Type | theleagueofmoveabletype.com | Free | 1 | P2 |
 | Times New Arial | timesnewarial.liebermannkiepereddemann.de | Free | 1 | P2 |
@@ -1715,12 +1737,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Wannathis Mockups | wannathis.one | Free + Paid | 1 | P2 |
 | WhiteUI.Store | gumroad.com | Free + Paid | 1 | P2 |
 
-### Best No-Code Website Builders (21)
+### Best No-Code Website Builders (19)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Tailgrids | tailgrids.com | Free + Paid | 1 | P2 |
-| Tempo | tempolabs.ai | Freemium | 1 | P2 |
 | Tilda | tilda.cc | Freemium | 1 | P2 |
 | Tile | tile.dev | Freemium | 1 | P2 |
 | UI Bakery | uibakery.io | Freemium | 1 | P2 |
@@ -1741,19 +1761,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Revyme | revyme.com | Beta | 1 | P3 |
 | Zoah | zoah.com | Beta | 1 | P3 |
 
-### Best Open Source Illustration Libraries (13)
+### Best Open Source Illustration Libraries (4)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| SVG Backgrounds | svgbackgrounds.com | Free + Paid | 1 | P2 |
-| Svg DooDle Drawings | svgicon.net | Free | 1 | P2 |
-| SVG Doodles | svgdoodles.com | Free | 1 | P2 |
-| SVG Hub | svghub.vercel.app | Free | 1 | P2 |
-| SVG Waves | svgwave.in | Free | 1 | P2 |
-| Tabbied | tabbied.com | Free | 1 | P2 |
-| Tessera | tesserapatterns.com | Free + Paid | 1 | P2 |
-| Texturelabs | texturelabs.org | Free + Paid | 1 | P2 |
-| Textures | textures.com | Free + Paid | 1 | P2 |
 | Thiings | thiings.co | Free | 1 | P2 |
 | Transhumans | transhumans.xyz | Free | 1 | P2 |
 | UI8 - Illustrations | ui8.net | Free + Paid | 1 | P2 |
@@ -1786,12 +1797,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Zen Flowchart | zenflowchart.com | Freemium | 1 | P2 |
 | Stratify | trystratify.com | Beta | 1 | P3 |
 
-### Design Inspiration Sites for UI, Web, Graphic & Branding (23)
+### Design Inspiration Sites for UI, Web, Graphic & Branding (21)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| SveltePlot | svelteplot.dev | Free | 1 | P2 |
-| The Brand Identity | the-brandidentity.com | Free | 1 | P2 |
 | The Index | theindex.website | Free | 1 | P2 |
 | The Whimsical Web | whimsical.club | Free | 1 | P2 |
 | Tiny Blocks | tinyblocks.cc | Free | 1 | P2 |
@@ -1828,13 +1837,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Vidsplay | vidsplay.com | Free | 1 | P2 |
 | ZapSplat | zapsplat.com | Freemium | 1 | P2 |
 
-### Free Tools (21)
+### Free Tools (18)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| SVGL | via Digitool | Free tier listed | 1 | P2 |
-| Synder | via Digitool | Free tier listed | 1 | P2 |
-| TapRefer | via Digitool | Free tier listed | 1 | P2 |
 | thinkstack.AI | via Digitool | Free tier listed | 1 | P2 |
 | ThumbnailTest | via Digitool | Free tier listed | 1 | P2 |
 | Tiiny Host | via Digitool | Free tier listed | 1 | P2 |
@@ -1854,13 +1860,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Xano | via Digitool | Free tier listed | 1 | P2 |
 | Xero | via Digitool | Free tier listed (Digitool "Premium" badge) | 1 | P2 |
 
-### Learn UI/UX Design: Courses, Guides & Best Practices (27)
+### Learn UI/UX Design: Courses, Guides & Best Practices (24)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Technigo | technigo.io | Free + Paid | 1 | P2 |
-| TED Talks | ted.com | Free | 1 | P2 |
-| The Component Gallery | component.gallery | Free | 1 | P2 |
 | The Design System Guide | thedesignsystem.guide | Free + Paid | 1 | P2 |
 | The Ethical Design Handover Kit | kits.driftime.com | Free | 1 | P2 |
 | The Futur | youtube.com | Free | 1 | P2 |
@@ -1886,13 +1889,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | uxtoast | uxtoast.com | Free | 1 | P2 |
 | We are Colorblind | wearecolorblind.com | Free | 1 | P2 |
 
-### Marketing Tools for Designers & Creative Teams (15)
+### Marketing Tools for Designers & Creative Teams (12)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Tabular | tabular.email | Freemium | 1 | P2 |
-| Taplink | taplink.at | Freemium | 1 | P2 |
-| TextCortex AI | textcortex.com | Freemium | 1 | P2 |
 | TinyURL | tinyurl.com | Freemium | 1 | P2 |
 | TraceUI | traceui.app | Freemium | 1 | P2 |
 | Ubersuggest | neilpatel.com | Free + Paid | 1 | P2 |

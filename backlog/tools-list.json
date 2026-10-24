@@ -50428,12 +50428,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "svg-backgrounds",
@@ -50454,12 +50454,12 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Site returns HTTP 403 (bot-check) on both the homepage and the /backgrounds/ pricing-adjacent page; retried once per tool, still blocked. Could not verify pricing or license first-party.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "svg-doodle-drawings",
@@ -50480,12 +50480,12 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Site is a near-empty, unconfigured WordPress install: sitemap shows only the homepage, the default WP 'sample-page', and the default 'hello-world' placeholder post — no About, Terms, License, Contact, or FAQ pages exist anywhere on the site. No way to verify commercial-use/attribution terms for the doodles, and the site shows no signs of being a maintained real product rather than default scaffolding.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "svg-doodles",
@@ -50506,12 +50506,12 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "svg-gobbler",
@@ -50532,12 +50532,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "svg-hub",
@@ -50558,12 +50558,12 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "svghub.vercel.app returns an empty page on fetch (JS-only Vercel app, client-side rendered with no server-rendered content); retried once, still empty; web.archive.org unavailable to this session as a fallback; web search could not confirm which 'SVG Hub' project this URL actually serves (multiple same-named projects exist, e.g. an unrelated 70+ hand-drawn-elements library and a separate 'SVGHub' asset browser, neither confirmed as this specific Vercel deployment).",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "svg-repo",
@@ -50608,12 +50608,12 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "svgator",
@@ -50634,12 +50634,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "svgl",
@@ -50662,12 +50662,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "svgviewer",
@@ -50688,12 +50688,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "swash",
@@ -50714,12 +50714,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "sweetfont",
@@ -50740,12 +50740,12 @@
           "file": "Best Free Font Libraries and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "swift-publisher",
@@ -50818,12 +50818,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Paid-only tool: home page and third-party pricing snippets show tiers starting at $8/mo (Beginner, billed yearly), $24/mo (Pro), and a $399 lifetime option, with no $0 permanent free plan. The pricing page itself (swishy.ai/pricing) returned 404/connection-reset on repeated direct fetches, so pricing is confirmed second-hand via search snippet only.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "swiss-typefaces",
@@ -50896,12 +50896,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Resolved real site (synder.com, an accounting/bookkeeping-automation tool for e-commerce sellers) via web search after the directory page digitool.co/tool/synder/ returned HTTP 403 on fetch. Multiple third-party pricing aggregators (linkmybooks.com, dupple.com, subscribed.fyi) and Synder's own accountant pricing page agree there is no permanent free plan — only a 15-day free trial, no credit card required, with paid tiers starting at $65/month (Basic, up to 500 transactions/month). One aggregator explicitly lists 'Forever free plan: No'.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "synthesia",
@@ -50922,12 +50922,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "synthymental",
@@ -50948,12 +50948,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Not a single coherent tool: synthymental.com is a personal portfolio page by a motion designer (Daniil, Belgrade) linking to a handful of unrelated small experiments (pewpew, signal, vision, a font, typeMatch). No pricing, no license, no clear scope that fits RL's one-resource schema; the 'about' page confirms it is 'my personal project', not a product.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "system-color-picker",
@@ -50974,12 +50974,12 @@
           "file": "Best Color Tools and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "t2m",
@@ -51026,12 +51026,12 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "tabler-icons",
@@ -51076,12 +51076,12 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "tailgrids",
@@ -51102,12 +51102,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "tailwind-plus",
@@ -51180,12 +51180,12 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "taprefer",
@@ -51208,12 +51208,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "No permanent free tier: the only $0 plan ('Basic') is explicitly framed as 'Try before you upgrade' with access to only a few of the 10,400+ programs; the real product is a one-time paid lifetime deal ($109 one-time, discounted from $495, no refunds). Paid-only in practice.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "taskade",
@@ -51234,12 +51234,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "taste-lab",
@@ -51260,12 +51260,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "taste-skill",
@@ -51286,12 +51286,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "technigo",
@@ -51312,12 +51312,12 @@
           "file": "Learn UI_UX Design_ Courses, Guides & Best Practices.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Primarily a paid coding/design/cybersecurity bootcamp and course provider (Cybersecurity Officer Bootcamp, AI Productivity Bootcamp, YH courses, self-paced paid courses). The homepage lists some free items (a free coding workshop, one YH cybersecurity course badged as a time-boxed Nordic promotion, free guides/templates, and October-only \"Cybermånaden\" events), but a direct fetch of the resources page returned a 404, so none of these could be confirmed as a permanent, no-login free resource stable enough to carry its own RL listing. Does not meet the 'real permanent free tier' bar for a RL entry; the core product is paid.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "ted-talks",
@@ -51338,12 +51338,12 @@
           "file": "Learn UI_UX Design_ Courses, Guides & Best Practices.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Site is alive, clearly legitimate and free to browse (ad- and partner-supported, with an optional paid 'TED Member' tier for extras), so it is not a pricing/safety problem. The blocker is fit: it is a general educational talks/media platform, not a design/dev/business/productivity tool or asset resource, and none of RL's 9 existing categories (Design, Development, Filming, Photography, Productivity, Marketing, Business, Finance, Personal) or its current 'Personal' entries (privacy tools like Bitwarden/Brave) match it. Listing it would mean stretching an existing category or adding a new one (e.g. an 'Education'/'Learning' category) — flagging to the owner rather than deciding unilaterally. The TED Talks Usage Policy and Terms of Use pages (linked from the homepage) were not fetched, so license terms for reusing talk content are also unconfirmed.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "teeline-fonts",
@@ -51390,12 +51390,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "teleporthq",
@@ -51442,12 +51442,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "tempolabs.ai 301-redirects to tempo.new (now branded \"Tempo — The IDE for the whole team\"), which is a JS-rendered app shell: three separate fetch attempts (home page twice, /pricing once) all returned only the page title with no body text, navigation, or pricing content. No first-party pricing/license text could be retrieved without executing the page's JS, so this cannot be verified for a listing decision.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "tendem",
@@ -51494,12 +51494,12 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "tesseract-by-mirage",
@@ -51520,12 +51520,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "textcortex-ai",
@@ -51546,12 +51546,12 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "textcortex.com returns HTTP 403 (bot-check/WAF) on the homepage (two attempts) and the pricing page (two attempts); help.textcortex.com's pricing article also returned 403. web.archive.org is unreachable from this environment. No first-party page could be read after retries, and bypassing bot checks is not permitted, so pricing/license facts could not be verified first-party.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "texturelabs",
@@ -51572,12 +51572,12 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "textures",
@@ -51598,12 +51598,12 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Four separate first-party fetches (library, pricing, how-it-works, terms-of-use pages) each returned only the generic homepage hero tagline with no real page text — consistent with a JS-rendered or bot-walled site that WebFetch cannot read. Could not confirm current pricing, current free-tier credit limits, or license terms first-party. Second-hand community sources (forum posts, 2020-2026) describe a real but limited free tier (registered account, small/sample-size downloads, historically ~15 credits/day) with full-size/commercial downloads gated behind paid Premium Credits, and an 'Indie license' revenue cap mentioned in an older terms excerpt — but none of this is first-party confirmed, so it is not safe to finalize an RL entry.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "the-brand-identity",
@@ -51624,12 +51624,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "the-brand-identity-store",
@@ -51702,12 +51702,12 @@
           "file": "Learn UI_UX Design_ Courses, Guides & Best Practices.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "the-design-blog",
@@ -59927,16 +59927,16 @@
     "byStatus": {
       "deferred-trial": 232,
       "deferred-paid": 217,
-      "blocked": 498,
+      "blocked": 504,
       "drafted": 557,
-      "rejected": 205,
+      "rejected": 211,
       "in-rl": 33,
-      "researched": 221,
-      "todo": 316
+      "researched": 245,
+      "todo": 280
     },
     "todoByPriority": {
       "P3": 30,
-      "P2": 286
+      "P2": 250
     }
   }
 }
