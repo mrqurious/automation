@@ -105997,6 +105997,2501 @@
         "Whether 'Iain Bean' operates the site solely as an individual or under any studio/company name."
       ],
       "injectionSeen": null
+    },
+    "the-design-blog": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": "Live HTTPS editorial design blog, free to browse, no listing/linking restriction found, not a duplicate of an existing RL resource, fits existing RL type/category (Resource/Design).",
+      "site": {
+        "name": "The Design Blog",
+        "url": "https://thedsgnblog.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All featured posts, archive, and resources sections are free to browse; a voluntary 'Buy Me a Coffee' support link and a separate merch shop (thedsgnshop.com) exist but are not required to read the site.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://thedsgnblog.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No formal license published · commercial: not stated · attribution: not stated · footer states 'all images copyright to their respective owners'",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://thedsgnblog.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "the-design-blog",
+        "type": "Resource",
+        "category": "Design",
+        "title": "The Design Blog",
+        "description": "An editorial design blog spotlighting branding, packaging, and digital/web projects from across the creative industry, free to browse.",
+        "tags": [
+          "inspiration",
+          "visual-design",
+          "graphic-design"
+        ],
+        "relatedResources": [
+          "behance",
+          "dribbble",
+          "awwwards"
+        ],
+        "similarResources": [
+          "behance",
+          "dribbble"
+        ],
+        "keyFeatures": [
+          "Rotating feature posts covering branding, packaging, interior/product design, and digital/web work",
+          "Archive of past featured projects organized for browsing",
+          "Dedicated Creatives and Resources sections highlighting people and tools in the industry",
+          "Newsletter signup for new feature alerts",
+          "Open submission form for creatives to pitch their own work to be featured"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs returned no exact or meaningful fuzzy match (closest hits were single letters 'e'/'d' and substring 'ign' - not a real brand icon); recommend site SVG or owner-provided logo instead"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown/acquisition reports found; web search for the exact domain returned no hits, only unrelated similarly-named sites."
+      },
+      "sources": [
+        {
+          "url": "https://thedsgnblog.com",
+          "date": "2026-10-24",
+          "note": "Home page: mission statement, featured content scope, footer credits, support/shop/newsletter links"
+        }
+      ],
+      "unverified": [
+        "Site operator/owning entity behind 'ONNO' credit not confirmed",
+        "Terms & Cookies / Privacy Policy page contents not read (linked but not fetched) - exact reuse/linking terms for blog content unconfirmed",
+        "Whether 'Shop' (thedsgnshop.com) sells anything relevant was not checked"
+      ],
+      "injectionSeen": null
+    },
+    "the-design-system-guide": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": "Live HTTPS site with a substantial permanent free tier (knowledge base, build-a-design-system guide, podcast, free/open-source tool roundup) alongside paid courses; no listing/linking restriction found; not a duplicate; fits existing RL type/category (Resource/Design).",
+      "site": {
+        "name": "The Design System Guide",
+        "url": "https://thedesignsystem.guide",
+        "alive": true,
+        "operator": "Romina Kavcic"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Knowledge base, 'Build a Design System' guide, design system metrics guide, research interview questions, podcast, and a curated resources/tools list (several explicitly free/open-source like Flowbite, Figma Autoname, Wanda, KickstartDS, Penpot) are free to browse.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://thedesignsystem.guide/resources",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No formal license published for the site's own content · commercial: not stated · attribution: not stated",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://thedesignsystem.guide",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "the-design-system-guide",
+        "type": "Resource",
+        "category": "Design",
+        "title": "The Design System Guide",
+        "description": "Romina Kavcic's hub of free guides, a knowledge base, podcast, and curated tool roundup for building and scaling design systems, plus paid courses.",
+        "tags": [
+          "design-systems",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "figma-community",
+          "dribbble",
+          "figma"
+        ],
+        "similarResources": [
+          "figma-community"
+        ],
+        "keyFeatures": [
+          "Free step-by-step 'Build a Design System' guide and knowledge base",
+          "Curated roundup of design system tools and libraries, many free or open-source (Flowbite, Penpot, KickstartDS, Wanda)",
+          "Design System Metrics guide and research interview question bank for practitioners",
+          "DSG Podcast covering design systems topics",
+          "Paid courses on design tokens, an agentic/AI-assisted design systems workflow, and a design system inventory (Airtable-based)"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs returned no exact or meaningful fuzzy match (closest hits were single letters 'e'/'d', substrings 'ign'/'mg' - not a real brand icon); recommend site SVG or owner-provided logo instead"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown/acquisition reports found; search shows an active Substack (16K+ subscribers) and ongoing podcast activity, plus a 2024 Smashing Magazine feature on the author."
+      },
+      "sources": [
+        {
+          "url": "https://thedesignsystem.guide",
+          "date": "2026-10-24",
+          "note": "Home page: courses, learning sections, author credit, no pricing shown"
+        },
+        {
+          "url": "https://thedesignsystem.guide/resources",
+          "date": "2026-10-24",
+          "note": "Resources page: free/open-source vs paid status of listed tools"
+        }
+      ],
+      "unverified": [
+        "Exact prices of the paid courses (Design Tokens Course, AI/agentic design systems course, Design System Inventory) not shown on the pages fetched",
+        "Whether the site content itself (text/guides) carries any reuse restriction was not confirmed - no terms page found"
+      ],
+      "injectionSeen": null
+    },
+    "the-ethical-design-handover-kit": {
+      "researchedOn": "2026-10-24",
+      "verdict": "blocked",
+      "verdictReason": "The listed URL (kits.driftime.com/ethical-design-handover-kit/) is a JS-rendered page that returned no body content on fetch, and after retry still returned only a one-line title. The underlying delivery pages (a Notion site and a Gumroad listing found via search) are likewise JS-rendered and returned no usable first-party text on direct fetch, so pricing, license, and contents could not be verified first-party.",
+      "site": {
+        "name": "The Ethical Design Handover Kit",
+        "url": "https://kits.driftime.com/ethical-design-handover-kit/",
+        "alive": true,
+        "operator": "Driftime (design and impact agency)"
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown reports found for Driftime or the kit via web search; driftime.com itself resolves and describes a real agency with paid brand/web/reporting packages (unrelated to this kit)."
+      },
+      "sources": [
+        {
+          "url": "https://kits.driftime.com/ethical-design-handover-kit/",
+          "date": "2026-10-24",
+          "note": "Primary target page - fetched twice, returned only the page title, no body text (JS-rendered)"
+        },
+        {
+          "url": "https://driftime.notion.site/The-Ethical-Design-Kit-b2047ad0c4914f1ea52ed9015941e0d9",
+          "date": "2026-10-24",
+          "note": "Notion-hosted version of the kit found via search - fetched, returned only the word 'Notion' and a divider, no content (JS-rendered)"
+        },
+        {
+          "url": "https://driftime.gumroad.com/l/ethical-design-kit",
+          "date": "2026-10-24",
+          "note": "Gumroad listing found via search - fetched, returned only the listing title, no price or content (JS-rendered)"
+        },
+        {
+          "url": "https://driftime.com",
+          "date": "2026-10-24",
+          "note": "Driftime's main site - confirms the agency is real and active, but page does not mention this kit"
+        }
+      ],
+      "unverified": [
+        "Pricing: a web-search snippet (not a direct first-party fetch) suggested a Gumroad price of '£0+' and described the kit as a free Notion toolkit obtained via newsletter signup - this is second-hand and not independently confirmed by direct fetch",
+        "License/terms of use for the kit's content - not found on any directly-fetched page",
+        "Exact contents of the kit beyond a search-engine-cached description (process + resources sections) - not confirmed first-party",
+        "Whether access requires a mandatory newsletter/email signup (a soft gate) - search snippets imply this but it was not directly observed"
+      ],
+      "injectionSeen": null
+    },
+    "the-futur": {
+      "researchedOn": "2026-10-24",
+      "verdict": "needs-owner",
+      "verdictReason": "The Futur is a bare YouTube channel (education/business content for creatives, ~1.9M subscribers per third-party sources), not a tool/site with its own pricing or license page. RL's model lists tools/sites/resources, not individual YouTube channels — owner judgment needed on whether to list as a 'Resource' or 'Website' type pointing at the channel, or skip entirely.",
+      "site": {
+        "name": "The Futur",
+        "url": "https://www.youtube.com/user/TheSkoolRocks",
+        "alive": true,
+        "operator": "Chris Do / The Futur team (per third-party sources)"
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/shutdown/malware signals found; third-party sources describe it as an active, long-running education business (community pricing ~$449/quarter per outseta.com)."
+      },
+      "sources": [
+        {
+          "url": "https://www.youtube.com/user/TheSkoolRocks",
+          "date": "2026-10-24",
+          "note": "Fetched channel page; page returned only title/nav, no about/subscriber/content details (JS-rendered)."
+        },
+        {
+          "url": "https://outseta.com/posts/how-the-futur-built-a-1m-community",
+          "date": "2026-10-24",
+          "note": "Third-party description of The Futur as an education platform/community with paid membership tiers; not first-party."
+        }
+      ],
+      "unverified": [
+        "First-party confirmation of channel content/focus (home page JS-rendered, returned no body text)",
+        "Current subscriber count",
+        "Whether owner wants bare YouTube channels in RL at all"
+      ],
+      "injectionSeen": null
+    },
+    "the-good-line-height": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "The Good Line-Height",
+        "url": "https://www.thegoodlineheight.com",
+        "alive": true,
+        "operator": "Fran Pérez (franperez.me)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Full browser-based line-height calculator (font size, ratio, grid row height inputs, live result, grid toggle, dark mode) usable directly with no signup, account or payment; includes a free Figma plugin.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.thegoodlineheight.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No license/terms page found · commercial use: unstated · attribution: not required (no terms visible) · tool usable without restriction on the page itself",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.thegoodlineheight.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "the-good-line-height",
+        "type": "Tool",
+        "category": "Design",
+        "title": "The Good Line-Height",
+        "description": "Free browser tool that calculates the ideal line-height for a given font size and grid, with a companion Figma plugin.",
+        "tags": [
+          "typography",
+          "design-systems"
+        ],
+        "relatedResources": [
+          "fontpair",
+          "google-fonts"
+        ],
+        "similarResources": [
+          "figma"
+        ],
+        "keyFeatures": [
+          "Calculates line-height from font size, ratio and grid row height inputs",
+          "Live preview grid overlay to check text-to-grid alignment",
+          "Dark mode toggle ('Turn the lights OFF')",
+          "Companion Figma plugin for the same calculation inside Figma",
+          "No signup or account required to use"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact/relevant Simple Icons match (fuzzy hits 'e','d','eight','go','line' are spurious substring matches, not the brand); no distinct logo graphic found on page to use as iconSvg."
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/shutdown/malware signals found in search."
+      },
+      "sources": [
+        {
+          "url": "https://www.thegoodlineheight.com",
+          "date": "2026-10-24",
+          "note": "Home page: tool description, inputs/features, creator credit, link to sibling project thegoodcolors.com"
+        }
+      ],
+      "unverified": [
+        "No explicit license/terms text found on site",
+        "Whether thegoodcolors.com (linked sibling project by same creator) merits its own RL entry — not fetched/verified, flagging only as a lead, not a confirmed sibling"
+      ],
+      "injectionSeen": null
+    },
+    "the-history-of-ui": {
+      "researchedOn": "2026-10-24",
+      "verdict": "blocked",
+      "verdictReason": "Site (history.user-interface.io, 308-redirects to history.vpon.me) renders via JS and returned only the page title ('The History of User Interfaces') with no body text, timeline content, pricing, license, or creator info on two separate fetch attempts (including a retry requesting raw/embedded content).",
+      "site": {
+        "name": "The History of UI",
+        "url": "https://history.user-interface.io",
+        "alive": true,
+        "operator": null
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/shutdown/malware signals found; search queries returned unrelated results (Coyote banking-trojan UI-automation abuse is a different, unrelated 'UI' topic)."
+      },
+      "sources": [
+        {
+          "url": "https://history.user-interface.io",
+          "date": "2026-10-24",
+          "note": "308 permanent redirect to https://history.vpon.me/"
+        },
+        {
+          "url": "https://history.vpon.me/",
+          "date": "2026-10-24",
+          "note": "Fetched twice (incl. a retry asking for raw/embedded content); both times only the page title was returned, no body/timeline/pricing/license content — page is JS-rendered and did not resolve for the fetch tool."
+        }
+      ],
+      "unverified": [
+        "Actual site content/purpose beyond the title",
+        "Pricing, license, operator/creator identity",
+        "Whether this is a duplicate of an existing RL resource (rl-index --find found no match on the name, but content was never seen to confirm category fit)"
+      ],
+      "injectionSeen": null
+    },
+    "the-index": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "The Index",
+        "url": "https://theindex.website",
+        "alive": true,
+        "operator": "Museum Department (founded 2023 by Joakim Jansson and Johan Mårtensson)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Free to browse the full directory of design studios, type foundries and creatives; no account needed for visitors.",
+        "paidFrom": "Studios pay a $25 fee to submit for inclusion (no guarantee of being featured) - not a user-facing plan.",
+        "evidence": {
+          "url": "https://theindex.website/information",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Curated directory, not licensed assets · commercial: n/a · attribution: n/a · no reuse license stated for site content",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://theindex.website",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "the-index",
+        "type": "Website",
+        "category": "Design",
+        "title": "The Index",
+        "description": "Curated gallery of design studios, type foundries and creative agencies worldwide, browsable by specialty and location.",
+        "tags": [
+          "inspiration",
+          "graphic-design"
+        ],
+        "relatedResources": [
+          "behance",
+          "awwwards",
+          "dribbble"
+        ],
+        "similarResources": [
+          "awwwards",
+          "dribbble"
+        ],
+        "keyFeatures": [
+          "Directory of 80+ design studios, type foundries and creative agencies filterable by Graphic Design, Type Design and Miscellaneous",
+          "Each listing shows studio location, founding year, approximate team size and specialties",
+          "'Latest' and 'Latest Shuffle' sections surface newly added studios",
+          "Newsletter covering typography and design-industry updates",
+          "Studios can submit for inclusion for a $25 fee, with no guarantee of being featured"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons (checked 2026-10-24, no match)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": null
+      },
+      "sources": [
+        {
+          "url": "https://theindex.website",
+          "date": "2026-10-24",
+          "note": "home page: what the directory offers, listing counts, categories"
+        },
+        {
+          "url": "https://theindex.website/information",
+          "date": "2026-10-24",
+          "note": "submission fee, founders, operator (Museum Department)"
+        }
+      ],
+      "unverified": [
+        "Whether the nav 'Subscribe' link is a paid or free newsletter signup - not read",
+        "Full Terms/Privacy pages not reviewed"
+      ],
+      "injectionSeen": null
+    },
+    "the-last-museum": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "The Last Museum",
+        "url": "https://lastmuseum.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Free search across roughly 6.3 million indexed artworks; public-domain works can be viewed/downloaded at preview resolution, in-copyright works show thumbnails only.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://lastmuseum.com/about",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Aggregated museum content · commercial: varies by artwork · attribution: check source museum · public-domain items follow Wikimedia Foundation's PD-art position (US)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://lastmuseum.com/about",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "the-last-museum",
+        "type": "Website",
+        "category": "Design",
+        "title": "The Last Museum",
+        "description": "Free search engine for museum artworks, indexing millions of public-domain and copyrighted pieces museums have already published online.",
+        "tags": [
+          "inspiration",
+          "stock-photos"
+        ],
+        "relatedResources": [
+          "unsplash",
+          "pexels",
+          "pixabay"
+        ],
+        "similarResources": [
+          "pexels",
+          "pixabay"
+        ],
+        "keyFeatures": [
+          "Full-text and keyword search across more than 6 million artworks indexed from museums' public websites",
+          "Date filter spanning from 3000 BC to the present",
+          "Browse by Discover, Artists and Cultures sections",
+          "Public-domain works viewable/downloadable at preview resolution; in-copyright works limited to thumbnails that link to the source museum",
+          "Not affiliated with any museum; rights holders can request removal by email"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons (checked 2026-10-24, no match)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": null
+      },
+      "sources": [
+        {
+          "url": "https://lastmuseum.com",
+          "date": "2026-10-24",
+          "note": "home page: search scope, browse sections, featured artworks"
+        },
+        {
+          "url": "https://lastmuseum.com/about",
+          "date": "2026-10-24",
+          "note": "free-to-use statement, public-domain basis, operator stance, takedown process"
+        }
+      ],
+      "unverified": [
+        "Operator identity (company/person) not disclosed on the site",
+        "Terms of Service and Privacy Policy not reviewed in full"
+      ],
+      "injectionSeen": null
+    },
+    "the-league-of-moveable-type": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "The League of Moveable Type",
+        "url": "https://www.theleagueofmoveabletype.com",
+        "alive": true,
+        "operator": "Micah Rich / The League of Moveable Type, with individual contributors"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Full catalogue of fonts (e.g. Raleway, League Spartan, Ostrich Sans) free to download and use, including commercially.",
+        "paidFrom": "Typography courses, a membership, and a 'Making Sense of Font Licensing' guide are offered as paid/optional products; no price shown on the pages read.",
+        "evidence": {
+          "url": "https://www.theleagueofmoveabletype.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "SIL Open Font License · commercial: yes · attribution: not required by OFL · fonts may not be resold as font files on their own",
+        "openSource": true,
+        "spdx": "OFL-1.1",
+        "evidence": {
+          "url": "https://www.theleagueofmoveabletype.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "the-league-of-moveable-type",
+        "type": "Font",
+        "category": "Design",
+        "title": "The League of Moveable Type",
+        "description": "Free, open-source type foundry offering OFL-licensed fonts for commercial and personal use, plus paid typography courses.",
+        "tags": [
+          "typography",
+          "open-source"
+        ],
+        "relatedResources": [
+          "google-fonts",
+          "fontpair"
+        ],
+        "similarResources": [
+          "google-fonts"
+        ],
+        "keyFeatures": [
+          "Catalogue of free, open-source fonts including Raleway (20 styles), League Spartan (9 styles) and Ostrich Sans (9 styles)",
+          "All fonts licensed under the SIL Open Font License, usable commercially without attribution",
+          "Paid typography courses and a membership for building type-design skills",
+          "Weekly newsletter covering typography news, tutorials and resources",
+          "Paid guide on font-licensing fundamentals ('Making Sense of Font Licensing')"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons (checked 2026-10-24, no match)"
+        },
+        "siblings": [
+          {
+            "note": "Courses/membership section is a distinct paid product (type 'Course' exists in RL enums) and could warrant its own entry; not confirmed with pricing, left for owner.",
+            "evidence": "https://www.theleagueofmoveabletype.com (nav: courses/membership)"
+          }
+        ]
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": null
+      },
+      "sources": [
+        {
+          "url": "https://www.theleagueofmoveabletype.com",
+          "date": "2026-10-24",
+          "note": "home page: foundry description, OFL license statement, operator/copyright, font catalogue examples, courses/membership mention"
+        }
+      ],
+      "unverified": [
+        "Exact price of courses/membership not shown on the pages read",
+        "/licensing and /fonts URLs returned 404 on this site; full OFL legal text was not fetched directly from theleagueofmoveabletype.com (OFL 1.1 is the standard, well-known license referenced by name)"
+      ],
+      "injectionSeen": null
+    },
+    "the-micropedia": {
+      "researchedOn": "2026-10-24",
+      "verdict": "skip",
+      "verdictReason": "Out of scope for RL: this is a community-driven encyclopedia of microaggressions run by Zulu Alpha Kilo Inc. for a diversity/inclusion education nonprofit effort, not a design/dev/marketing/business/finance/personal creator tool. No existing RL category (Design, Development, Filming, Photography, Productivity, Marketing, Business, Finance, Personal) genuinely fits its purpose, and it is not a software tool, template, or stock-media resource. Free to use but not a fit for this directory's scope.",
+      "site": {
+        "name": "The Micropedia",
+        "url": "https://www.themicropedia.org",
+        "alive": true,
+        "operator": "Zulu Alpha Kilo Inc. (contact@themicropedia.org), in partnership with the Black Business and Professional Association, the Canadian Congress on Diversity and Inclusion, the Diversity Institute, and Pride at Work Canada"
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown reports found in a dedicated safety search; only unrelated similarly-named domains surfaced."
+      },
+      "sources": [
+        {
+          "url": "https://www.themicropedia.org",
+          "date": "2026-10-24",
+          "note": "home page content, purpose, operator, privacy policy, no terms of use/license page found"
+        }
+      ],
+      "unverified": [
+        "No explicit terms of use or content license page beyond the privacy policy was found"
+      ],
+      "injectionSeen": null
+    },
+    "the-ultimate-guide-to-ux-research": {
+      "researchedOn": "2026-10-24",
+      "verdict": "skip",
+      "verdictReason": "This is a content-marketing chapter hosted on maze.co promoting Maze's own SaaS product (CTAs for 'Request a demo', 'Get started free', 'Try Maze for free', embedded product feature callouts and employee quotes). It is a marketing sub-page, not a standalone free resource/tool with its own identity. Maze itself is not currently in RL (confirmed via rl-index --find maze); listing a promotional sub-page of an unlisted paid product ahead of (or instead of) the product itself is not appropriate, and the page carries no independent permanent free tier of its own.",
+      "site": {
+        "name": "The Ultimate Guide to UX Research (Maze)",
+        "url": "https://maze.co/guides/ux-research/",
+        "alive": true,
+        "operator": "Maze (maze.co)"
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": null
+      },
+      "sources": [
+        {
+          "url": "https://maze.co/guides/ux-research/",
+          "date": "2026-10-24",
+          "note": "page content, confirmed it is a Maze marketing/guide chapter with product CTAs, not a standalone tool"
+        }
+      ],
+      "unverified": [],
+      "injectionSeen": null
+    },
+    "the-ux-cookbook": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "The UX Cookbook",
+        "url": "https://theuxcookbook.com",
+        "alive": true,
+        "operator": "UX team at the University of Arizona Libraries (UX@UA community); contact Bob Liu"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire site and all recipes are free to read, no account or payment required.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://theuxcookbook.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "CC BY 4.0 · commercial: yes · attribution: required · must credit The UX Cookbook / UX@UA",
+        "openSource": false,
+        "spdx": "CC-BY-4.0",
+        "evidence": {
+          "url": "https://theuxcookbook.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "the-ux-cookbook",
+        "type": "Resource",
+        "category": "Design",
+        "title": "The UX Cookbook",
+        "description": "A free, CC-licensed collection of bite-sized UX recipes covering research, content strategy, prototyping and visual design for designers and researchers.",
+        "tags": [
+          "ui-ux",
+          "writing"
+        ],
+        "relatedResources": [
+          "dribbble"
+        ],
+        "similarResources": [
+          "figma-community"
+        ],
+        "keyFeatures": [
+          "Recipes grouped into Content strategy, Data & analytics, Prototyping & visual design, and Research & testing",
+          "Covers concrete methods like A/B testing, card sorting, personas, surveys, and writing for the web",
+          "Includes a 'Pocket Recipe' on designing accessible websites",
+          "Maintained by the UX@UA community at the University of Arizona Libraries",
+          "Content licensed under CC BY 4.0, so recipes can be reused and adapted with attribution"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact or meaningful fuzzy Simple Icons match (only unrelated single-letter fuzzy hits)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown reports found; academic .edu-affiliated project."
+      },
+      "sources": [
+        {
+          "url": "https://theuxcookbook.com",
+          "date": "2026-10-24",
+          "note": "site purpose, content structure, operator, CC BY 4.0 license statement"
+        }
+      ],
+      "unverified": [],
+      "injectionSeen": null
+    },
+    "the-ux-of-ai": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "The UX of AI",
+        "url": "https://uxofai.com",
+        "alive": true,
+        "operator": "Lennart Ziburski"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire single-page site is free to read, no account, no paid tier of any kind.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://uxofai.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No license stated (editorial content) · commercial: not addressed · attribution: not addressed · page links to a Privacy Policy and Legal Notice not reviewed",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://uxofai.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "the-ux-of-ai",
+        "type": "Resource",
+        "category": "Design",
+        "title": "The UX of AI",
+        "description": "A short primer on designing trustworthy AI products: core principles like explainability, user control and data protection, each linked to deeper reading.",
+        "tags": [
+          "ui-ux",
+          "inspiration"
+        ],
+        "relatedResources": [
+          "figma-community",
+          "fontpair"
+        ],
+        "similarResources": [
+          "dribbble",
+          "awwwards"
+        ],
+        "keyFeatures": [
+          "Summarizes about 15 core UX principles for AI-powered products (explain results, communicate confidence, keep users in control)",
+          "Each principle links out to deeper articles, talks, and guidelines from sources like Google Design and Distill",
+          "Covers data protection and consent considerations for AI interfaces",
+          "Single static page, no sign-up or account needed",
+          "Made by designer Lennart Ziburski in 2018, still live as a reference page"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no meaningful Simple Icons match (closest suggestions e/fsharp/x/xo are unrelated), 2026-10-24"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Web search for scam/malware/shutdown/acquired turned up nothing relevant to uxofai.com; no results about this specific site at all."
+      },
+      "sources": [
+        {
+          "url": "https://uxofai.com",
+          "date": "2026-10-24",
+          "note": "home page content, author credit, structure, no pricing/login"
+        }
+      ],
+      "unverified": [
+        "Contents of the site's Privacy Policy and Legal Notice pages (not fetched) — may contain terms about reuse/linking, not expected to block a directory listing.",
+        "Whether the site has been updated since 2018 beyond the 'Made 2018' credit."
+      ],
+      "injectionSeen": null
+    },
+    "the-whimsical-web": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "The Whimsical Web",
+        "url": "https://whimsical.club",
+        "alive": true,
+        "operator": "Max Boeck (mxb.dev)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire directory is free to browse, submit to, and subscribe to via RSS; no account or paid tier.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://whimsical.club",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No content license stated on-site · commercial: not addressed · attribution: not addressed · underlying code is open on GitHub (maxboeck/whimsical) but no LICENSE file reviewed",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://whimsical.club/about",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "the-whimsical-web",
+        "type": "Website",
+        "category": "Design",
+        "title": "The Whimsical Web",
+        "description": "A curated gallery of playful, personality-filled websites, each with a screenshot and a short note on what makes it fun; open to submissions.",
+        "tags": [
+          "inspiration",
+          "web"
+        ],
+        "relatedResources": [
+          "awwwards",
+          "behance"
+        ],
+        "similarResources": [
+          "dribbble"
+        ],
+        "keyFeatures": [
+          "Curated list of joyful, offbeat personal and project websites",
+          "Each entry gets a screenshot plus a short write-up on what's delightful about it",
+          "Open submission form for readers to suggest new sites",
+          "RSS feed to follow new additions, plus pagination through older entries",
+          "Source code hosted openly on GitHub (maxboeck/whimsical)"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no meaningful Simple Icons match (closest suggestions e/c/cplusplus/msi are unrelated), 2026-10-24"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Web search for scam/malware/shutdown turned up only unrelated lookalike domains (different 'whimsical'/'whimsy' named scam/shopping sites); nothing about whimsical.club itself."
+      },
+      "sources": [
+        {
+          "url": "https://whimsical.club",
+          "date": "2026-10-24",
+          "note": "home page: what the directory is, entries, submission/RSS links"
+        },
+        {
+          "url": "https://whimsical.club/about",
+          "date": "2026-10-24",
+          "note": "operator credit (@mxbck), purpose statement, GitHub link; no licensing/commercial terms found"
+        }
+      ],
+      "unverified": [
+        "Whether the GitHub repo's LICENSE (not opened) says anything about reuse of the directory's content or screenshots.",
+        "No explicit statement anywhere about permission to link to the site (none found that forbids it either)."
+      ],
+      "injectionSeen": null
+    },
+    "theatre-js": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Theatre.js",
+        "url": "https://www.theatrejs.com",
+        "alive": true,
+        "operator": "Theatre.js Oy (Helsinki)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Fully free and open source; no paid plan, seat, or usage limit found on the site.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.theatrejs.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Dual-licensed · core library (@theatre/core, what ships in production) is Apache-2.0 · commercial: yes · attribution: required (per Apache-2.0) · the dev-only Studio editor package is separately AGPL-3.0, not shipped in production bundles",
+        "openSource": true,
+        "spdx": "Apache-2.0",
+        "evidence": {
+          "url": "https://github.com/theatre-js/theatre/blob/main/LICENSE",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "theatre-js",
+        "type": "Library",
+        "category": "Development",
+        "title": "Theatre.js",
+        "description": "An open-source JavaScript animation library for cinematic motion design, with a sequence/dope-sheet editor and graph editor for any web stack.",
+        "tags": [
+          "open-source",
+          "web",
+          "ui-ux"
+        ],
+        "ownerNote": "No existing RL tag covers 'animation library' specifically; used open-source + web + ui-ux as the closest existing tags instead of inventing a new one.",
+        "relatedResources": [
+          "codesandbox",
+          "stackblitz"
+        ],
+        "similarResources": [
+          "excalidraw"
+        ],
+        "keyFeatures": [
+          "Animates plain JavaScript variables, so it works with any stack from THREE.js 3D scenes to plain DOM/React UI",
+          "Studio editor adds a sequence editor, dope sheet, and graph editor for tuning keyframes visually",
+          "Built-in easing presets and an extensible property editor for custom value types",
+          "Core runtime library is Apache-2.0 licensed and free for commercial use; ~7,700 GitHub stars at time of research",
+          "Studio (the visual editor) is a separate dev-dependency package under AGPL-3.0, not included in production builds"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no meaningful Simple Icons match (closest suggestions e/ea/ejs/r are unrelated), 2026-10-24"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Web search for scam/malware/shutdown/acquired returned only unrelated results (an old FTC 'anti-spyware' case, the unrelated Polyfill.io supply-chain attack, and a Shakespeare theatre ransomware story); nothing about Theatre.js itself."
+      },
+      "sources": [
+        {
+          "url": "https://www.theatrejs.com",
+          "date": "2026-10-24",
+          "note": "home page: what it is, maintainer (Theatre.js Oy), GitHub star count, no pricing mentioned"
+        },
+        {
+          "url": "https://github.com/theatre-js/theatre/blob/main/LICENSE",
+          "date": "2026-10-24",
+          "note": "LICENSE file contains two license texts: Apache-2.0 for the main project, AGPL-3.0 for theatre/studio specifically"
+        },
+        {
+          "url": "https://www.theatrejs.com/docs/latest/manual/Studio",
+          "date": "2026-10-24",
+          "note": "Studio docs describe the editor UI; no licensing or pricing text on this page"
+        }
+      ],
+      "unverified": [
+        "Whether Theatre.js Oy sells a separate commercial license for using Studio in a closed-source product (no pricing/commercial-license page found on the official site; third-party mirrors suggest the Studio package is dev-only and excluded from shipped bundles, so this may not matter in practice).",
+        "Exact AGPL version suffix (file text doesn't add 'or later' as an SPDX tag, though the boilerplate includes 'or at your option any later version' wording)."
+      ],
+      "injectionSeen": null
+    },
+    "thiings": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Thiings",
+        "url": "https://www.thiings.co",
+        "alive": true,
+        "operator": "Liinks.co (made by Charlie from Liinks)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Download individual icons one at a time, personal/non-commercial use only, visible attribution to thiings.co required",
+        "paidFrom": "Indie lifetime license $49 (one-time) for full collection + commercial use, no attribution; Business $199; Enterprise custom",
+        "evidence": {
+          "url": "https://www.thiings.co/terms",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Thiings custom license · commercial: no on free tier, yes on paid lifetime licenses · attribution: required on free tier, not required on paid · free downloads are non-commercial only and limited to individual icons",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.thiings.co/terms",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "thiings",
+        "type": "Icon Set",
+        "category": "Design",
+        "title": "Thiings",
+        "description": "A growing library of 10,000+ free AI-generated 3D icons, with a one-time paid license for commercial use and the full collection.",
+        "tags": [
+          "icon-library",
+          "stock-3d-models"
+        ],
+        "relatedResources": [
+          "lucide-icons",
+          "remix-icon",
+          "simple-icons"
+        ],
+        "similarResources": [
+          "pixabay"
+        ],
+        "keyFeatures": [
+          "10,000+ AI-generated 3D icons covering everyday objects, brands, and concepts",
+          "Free tier lets you download individual icons for personal, non-commercial use with attribution",
+          "One-time paid lifetime license (from $49) unlocks the full collection, commercial use, and no attribution requirement",
+          "Icons ship with JSON metadata and come in digital, print, and web-ready formats",
+          "Paid buyers get all future icon updates included"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact or usable fuzzy Simple Icons match (exit 2)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown reports found in a web safety search."
+      },
+      "sources": [
+        {
+          "url": "https://www.thiings.co",
+          "date": "2026-10-24",
+          "note": "Homepage: '10,000+ Free AI-Generated 3D Icons' collection description"
+        },
+        {
+          "url": "https://www.thiings.co/terms",
+          "date": "2026-10-24",
+          "note": "Full license terms: free tier limits, paid lifetime license tiers and prices, restrictions"
+        }
+      ],
+      "unverified": [
+        "Terms page itself flags an internal inconsistency between its Section 7 revenue thresholds and its tier list for Business/Enterprise exclusions; not resolved by the page."
+      ],
+      "injectionSeen": null
+    },
+    "thinkstack-ai": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Thinkstack AI",
+        "url": "https://www.thinkstack.ai",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free forever plan: 1 chatbot, 250 message credits/month, 500,000 knowledge-base characters; no time-limited trial for premium features",
+        "paidFrom": "Basic $16/month (or $160/year); Pro $90/month; Ultra $299/month; Enterprise custom",
+        "evidence": {
+          "url": "https://www.thinkstack.ai/pricing.html",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "SaaS terms of service (not an open license) · commercial: yes · attribution: not required · free plan is capped by message credits and chatbot count, not by a time limit",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.thinkstack.ai/pricing.html",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "thinkstack-ai",
+        "type": "AI Tool",
+        "category": "Business",
+        "title": "Thinkstack AI",
+        "description": "A no-code AI chatbot builder trained on your own site and documents, for lead capture, support, and customer engagement.",
+        "tags": [
+          "chatbot",
+          "ai-tool",
+          "automation",
+          "no-code"
+        ],
+        "relatedResources": [
+          "chatgpt",
+          "claude-ai"
+        ],
+        "similarResources": [
+          "coda"
+        ],
+        "keyFeatures": [
+          "Trains a chatbot on your website, PDFs, CSVs, and Q&A pairs with no code required",
+          "Permanent free plan with 1 chatbot, 250 message credits, and 500,000 knowledge-base characters",
+          "Intent-based Actions trigger preset flows for lead capture, support tickets, and sales contact",
+          "Embeds on websites and integrates with WhatsApp, Slack, and WordPress",
+          "Supports 90+ languages and recently added GPT-5.2 for chatbot responses"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact match; fuzzy candidates (c, cplusplus) are unrelated single-letter icons, not a usable brand match (exit 1, treated as none per judgment)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown reports found; original digitool.co directory page returned HTTP 403 so the real URL was confirmed via search and the site's own pricing page instead."
+      },
+      "sources": [
+        {
+          "url": "https://www.thinkstack.ai/pricing.html",
+          "date": "2026-10-24",
+          "note": "Free-forever plan limits and paid plan prices"
+        },
+        {
+          "url": "https://linkedin.com/company/thinkstack-ai",
+          "date": "2026-10-24",
+          "note": "Company description, founding year, product overview (second-hand)"
+        }
+      ],
+      "unverified": [
+        "digitool.co/tool/thinkstack-ai/ (the given source page) returned HTTP 403 Forbidden on fetch; the real URL www.thinkstack.ai was confirmed instead via web search and the site's own pricing page.",
+        "Operator/company legal name not confirmed first-party."
+      ],
+      "injectionSeen": null
+    },
+    "thousand-faces-club": {
+      "researchedOn": "2026-10-24",
+      "verdict": "skip",
+      "verdictReason": "Thousand Faces Club is a creator-economy newsletter/publication (blog, Fireside Chats, masterclasses, merch) with no pricing page and no license/terms of use beyond a copyright footer notice. It is not a software tool, template, or resource with a verifiable pricing tier or license, so it does not fit RL's resource schema (which needs a pricing label and license evidence).",
+      "site": {
+        "name": "Thousand Faces Club",
+        "url": "https://www.thousandfaces.club",
+        "alive": true,
+        "operator": "TFC (no legal entity or founder named on-site)"
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown reports found in a web safety search."
+      },
+      "sources": [
+        {
+          "url": "https://www.thousandfaces.club",
+          "date": "2026-10-24",
+          "note": "Homepage describing the publication, its content formats, and the absence of any pricing or terms page"
+        }
+      ],
+      "unverified": [
+        "No pricing or license/terms page exists on the site to verify a free/paid model.",
+        "No named operator or legal entity found."
+      ],
+      "injectionSeen": null
+    },
+    "thumbnailtest": {
+      "researchedOn": "2026-10-24",
+      "verdict": "skip",
+      "verdictReason": "paid-only: resolved site thumbnailtest.com has no free tier, only a 14-day money-back guarantee on paid plans starting at $29/mo",
+      "site": {
+        "name": "Thumbnail Test",
+        "url": "https://thumbnailtest.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "$29/mo (Basic, monthly billing); $32/mo billed yearly",
+        "evidence": {
+          "url": "https://thumbnailtest.com/pricing/",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": null,
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition reports found in search."
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/thumbnailtest/",
+          "date": "2026-10-24",
+          "note": "directory page returned HTTP 403, could not be fetched directly"
+        },
+        {
+          "url": "https://thumbnailtest.com/pricing/",
+          "date": "2026-10-24",
+          "note": "three paid plans (Basic $29, Pro $49, Business $99/mo), no free plan, 14-day money-back guarantee"
+        },
+        {
+          "url": "https://thumbnailtest.com",
+          "date": "2026-10-24",
+          "note": "confirmed no free trial/plan mentioned on home page, tagline '#1 YouTube A/B Testing Tool'"
+        }
+      ],
+      "unverified": [
+        "Could not directly fetch digitool.co/tool/thumbnailtest/ (403 Forbidden); resolved thumbnailtest.com via web search instead and treated it as the intended tool given the exact name match and subject match.",
+        "License/terms page not read (not needed given paid-only skip verdict)."
+      ],
+      "injectionSeen": null
+    },
+    "tiiny-host": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Tiiny Host",
+        "url": "https://tiiny.host",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "1 active static site project, 3MB (10MB zipped) size limit, hosted on a myname.tiiny.site subdomain",
+        "paidFrom": "$5/mo (Tiny plan, billed annually); $9/mo billed monthly",
+        "evidence": {
+          "url": "https://tiiny.host/compare/",
+          "date": "2026-10-24",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: yes (reselling the service itself requires consent) · attribution: not required · personal-use restriction applies only to TIINY.HOST's own site content, not to sites you host",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://tiiny.host/termsofservice.html",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "tiiny-host",
+        "type": "Tool",
+        "category": "Development",
+        "title": "Tiiny Host",
+        "description": "Drag-and-drop static site, document, and file hosting that publishes a shareable HTTPS link in seconds, no server setup needed.",
+        "tags": [
+          "web",
+          "no-code"
+        ],
+        "relatedResources": [
+          "webflow",
+          "squarespace"
+        ],
+        "similarResources": [
+          "framer"
+        ],
+        "keyFeatures": [
+          "Drag a zip or single file onto the homepage to deploy a static site or share a document instantly",
+          "Automatic HTTPS on every hosted site, including the free myname.tiiny.site subdomain",
+          "Custom domain support and password protection on paid plans",
+          "API upload and an MCP/agent-facing publishing skill for automated deploys",
+          "Built for static sites and file sharing only, not dynamic/server-rendered apps"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: NOT FOUND in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "A phish.report abuse-contact listing shows tiiny.host accepts abuse reports for phishing pages hosted by its users (as any file host would); no evidence the service itself is malicious, scam, shutting down, or acquired."
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/tiiny-host/",
+          "date": "2026-10-24",
+          "note": "directory page returned HTTP 403, could not be fetched directly"
+        },
+        {
+          "url": "https://tiiny.host",
+          "date": "2026-10-24",
+          "note": "home page tagline only, JS-rendered, minimal content fetchable"
+        },
+        {
+          "url": "https://tiiny.host/compare/",
+          "date": "2026-10-24",
+          "note": "via web search summary: free tier = 1 project, 3MB/10MB zip limit; paid tiers Tiny/Solo/Pro/Pro Max from $5-$74/mo annual"
+        },
+        {
+          "url": "https://tiiny.host/termsofservice.html",
+          "date": "2026-10-24",
+          "note": "prohibits reselling the service, prohibits malware/illegal content/executables, no clause forbidding third-party directory listing"
+        },
+        {
+          "url": "https://phish.report/contacts/tiiny-dot-host",
+          "date": "2026-10-24",
+          "note": "abuse-report contact page, confirms it's a legitimate hosting platform with an abuse process"
+        }
+      ],
+      "unverified": [
+        "Could not directly fetch digitool.co/tool/tiiny-host/ (403); resolved tiiny.host via web search given exact name match.",
+        "Pricing page (tiiny.host/pricing) returned only a tagline when fetched directly (JS-rendered); plan prices taken second-hand from tiiny.host/compare/ via search summary, not read first-party in full.",
+        "Operator/company name behind Tiiny Host not confirmed from a fetched page."
+      ],
+      "injectionSeen": null
+    },
+    "tila": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Tila",
+        "url": "https://tila.ai",
+        "alive": true,
+        "operator": "TOVIE MOBILE OY (Espoo, Finland), signs off as the Tila Team"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "450 welcome credits on signup, then 50 credits/day; after credits run out, a permanent free 'eco-mode' remains with a free language model and image generation",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://tila.ai",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS (Tila Terms of Service, TOVIE MOBILE OY) · commercial: service may be used for business needs per its own definition · attribution: not required · age limit: 18+ or legal capacity required",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://tila-files.s3.dualstack.eu-central-1.amazonaws.com/docs/Tila_Terms_of_Service.pdf",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "tila",
+        "type": "AI Tool",
+        "category": "Productivity",
+        "title": "Tila",
+        "description": "Infinite visual canvas that puts many AI models and agents (text, image, video, audio) in one workspace to plan, build, and convert content.",
+        "tags": [
+          "ai-tool",
+          "whiteboard",
+          "automation"
+        ],
+        "relatedResources": [
+          "chatgpt",
+          "claude-ai"
+        ],
+        "similarResources": [
+          "excalidraw",
+          "tldraw"
+        ],
+        "keyFeatures": [
+          "Infinite visual canvas workspace similar to Miro/Figma for arranging AI outputs",
+          "Access to multiple third-party models in one place (GPT-4o, Claude, Gemini, Flux, Kling, ElevenLabs, per the homepage)",
+          "Agents that can plan multi-step tasks, search the web, and run code",
+          "Converts content between formats, e.g. turning meeting audio into a mind map",
+          "Free 'eco-mode' keeps a free language model and image generation available after paid credits run out"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: NOT FOUND in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition reports found for 'Tila' or tila.ai specifically; unrelated results were about fake-AI-tool malware campaigns impersonating other brands (Luma AI, Canva Dream Lab), not Tila."
+      },
+      "sources": [
+        {
+          "url": "https://tila.ai",
+          "date": "2026-10-24",
+          "note": "home page: product description, operator (Tovie Mobile), credit/free-tier description, footer legal links"
+        },
+        {
+          "url": "https://tila.ai/pricing",
+          "date": "2026-10-24",
+          "note": "page shows only a per-model usage-cost rate table, no plan names/prices; confirms this is a credit-consumption model, not separate plan tiers"
+        },
+        {
+          "url": "https://tila-files.s3.dualstack.eu-central-1.amazonaws.com/docs/Tila_Terms_of_Service.pdf",
+          "date": "2026-10-24",
+          "note": "full ToS PDF (last updated 30.04.2025): operator TOVIE MOBILE OY Finland, free tier confirmed in Section 5, prohibited-use list, no clause against third-party directory listing"
+        }
+      ],
+      "unverified": [
+        "Exact paid-plan prices/credit-package costs not found on a readable pricing page (tila.ai/pricing only shows per-model usage rates, not bundled plan prices); rlLabel set to Freemium based on confirmed free tier plus paid credit purchases mentioned in ToS Section 5.",
+        "Privacy Policy PDF not read (ToS only)."
+      ],
+      "injectionSeen": null
+    },
+    "tilda": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Tilda",
+        "url": "https://tilda.cc",
+        "alive": true,
+        "operator": "Tilda Publishing"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "1 website built only from a limited set of 'key' blocks, with a 'Made on Tilda' badge",
+        "paidFrom": "$10/month (Personal, billed annually; $15/month month-to-month)",
+        "evidence": {
+          "url": "https://tilda.cc/pricing/",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Tilda Publishing SaaS · commercial: yes (sites you build can be used commercially) · attribution: not required (the 'Made on Tilda' badge is removable on annual Personal/Business plans) · limit: free plan is capped at 1 site, key blocks only, and keeps the badge",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://tilda.cc/pricing/",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "tilda",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Tilda",
+        "description": "No-code website builder for landing pages, online stores and blogs, with AI tools that draft pages, copy and images from a prompt.",
+        "tags": [
+          "website-builder",
+          "no-code",
+          "ai-tool",
+          "web"
+        ],
+        "relatedResources": [
+          "framer"
+        ],
+        "similarResources": [
+          "webflow",
+          "squarespace"
+        ],
+        "keyFeatures": [
+          "Drag-and-drop, block-based page builder with pre-designed templates",
+          "AI tools that generate a page, copy or images from a short text description",
+          "Built-in CRM, membership areas and online-course hosting",
+          "Online store support with payment and marketing integrations",
+          "Static HTML code export on the Business plan for self-hosting"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "tildapublishing",
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs fuzzy match (exit 1) for 'Tilda' -> 'tildapublishing'"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "A third-party scanner (Guard/offseq) rated tilda.cc 'Moderate Risk' (64/100) for weak security headers, not a confirmed threat; another scanner rated the related tilda.ws domain clean. No reports of Tilda itself being malware/scam, shut down, or acquired. Main reported risk is that third parties sometimes abuse user-hosted Tilda subdomains for phishing — unrelated to the core product."
+      },
+      "sources": [
+        {
+          "url": "https://tilda.cc",
+          "date": "2026-10-24",
+          "note": "product description, feature list, operator (Tilda Publishing)"
+        },
+        {
+          "url": "https://tilda.cc/pricing/",
+          "date": "2026-10-24",
+          "note": "free vs paid plan details, badge removal, code export, data retention"
+        }
+      ],
+      "unverified": [
+        "Business plan website count is inconsistent on the pricing page itself (table says 5 websites, FAQ text says '2+ websites') — not resolved by any first-party source checked",
+        "Exact ToS/commercial-use clause text was not fetched directly; inferred from the pricing page only"
+      ],
+      "injectionSeen": null
+    },
+    "tile": {
+      "researchedOn": "2026-10-24",
+      "verdict": "blocked",
+      "verdictReason": "https://www.tile.dev and https://www.tile.dev/docs both render as a JS-only page that returns no content beyond a bare 'Tile' title, even after a retry on a second URL. Could not confirm the product's description, category, pricing, license, or that it's distinct from the unrelated Tile Bluetooth-tracker brand. Web search for 'tile.dev' turned up no independent coverage either.",
+      "site": {
+        "name": "Tile",
+        "url": "https://www.tile.dev",
+        "alive": true,
+        "operator": null
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition signals found for the tile.dev domain specifically; search results for 'Tile' mostly concern the unrelated Tile Inc. Bluetooth tracker (owned by Life360), confirming they are different entities."
+      },
+      "sources": [
+        {
+          "url": "https://www.tile.dev",
+          "date": "2026-10-24",
+          "note": "home page rendered empty (title 'Tile' only)"
+        },
+        {
+          "url": "https://www.tile.dev/docs",
+          "date": "2026-10-24",
+          "note": "docs page also rendered empty"
+        }
+      ],
+      "unverified": [
+        "Product description, audience, category, pricing/free-tier, open-source status, and operator — none could be read from the site",
+        "Whether this is the design-token/CSS tool referenced in the brief, since the site itself gave no confirming content"
+      ],
+      "injectionSeen": null
+    },
+    "times-new-arial": {
+      "researchedOn": "2026-10-24",
+      "verdict": "needs-owner",
+      "verdictReason": "The font's own page gives two inconsistent availability statements — 'We are open to share this font for selected education projects or collaborations' vs 'Times New Arial is only available for selected educational projects' — with no public download, no price, and no general commercial license; access is by direct email request only. This is a license/availability ambiguity that affects whether it can be listed at all (RL would need to decide whether a request-only, non-guaranteed asset qualifies as a listable Font resource), so it needs an owner decision rather than a researcher call.",
+      "site": {
+        "name": "Times New Arial",
+        "url": "https://timesnewarial.liebermannkiepereddemann.de",
+        "alive": true,
+        "operator": "Liebermann Kiepe Reddemann (design studio); produced by Elias Hanzer"
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/acquisition signals found. Appears to be a legitimate design-studio portfolio/concept piece (a variable font blending Times and Arial, part of the studio's visual identity) rather than a general-availability product."
+      },
+      "sources": [
+        {
+          "url": "https://timesnewarial.liebermannkiepereddemann.de",
+          "date": "2026-10-24",
+          "note": "product description (variable font blending Times + Arial with interpolation sliders), creator/producer credits, and the two conflicting availability statements"
+        }
+      ],
+      "unverified": [
+        "Whether any public or commercial license exists beyond the 'selected educational projects' / 'selected collaborations' language",
+        "Whether a downloadable font file is ever distributed outside direct studio contact, and on what terms",
+        "A third-party site (cufonfonts.com) separately lists an unrelated 'Times New Arial' font as 'free for personal use' with no credited designer — this appears to be a different, unaffiliated listing, not evidence about this studio's font's license"
+      ],
+      "injectionSeen": null
+    },
+    "tines": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Tines",
+        "url": "https://tines.com",
+        "alive": true,
+        "operator": "Tines"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free edition: unlimited users, spaces and connectors, up to 3 live workflows, plus a one-time $50 AI usage allowance.",
+        "paidFrom": "Paid editions require booking a demo; no public price listed.",
+        "evidence": {
+          "url": "https://www.tines.com/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Tines Terms of Service (SaaS) · commercial: yes · attribution: not required · free edition capped at 3 live workflows",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://tines.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "tines",
+        "type": "Tool",
+        "category": "Productivity",
+        "title": "Tines",
+        "description": "No-code workflow automation platform for building AI agents and secure integrations with built-in IT/Security governance.",
+        "tags": [
+          "automation",
+          "ai-tool",
+          "no-code"
+        ],
+        "relatedResources": [
+          "notion",
+          "coda",
+          "calendly"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Visual no-code workflow and AI agent builder",
+          "Free edition with unlimited users, spaces and connectors",
+          "Free edition includes 3 live workflows plus a one-time $50 AI allowance",
+          "Built for IT and Security teams needing audit visibility and governance",
+          "Paid editions support bringing your own AI model and flexible deployment",
+          "Used by companies such as Coinbase, Databricks, Reddit and Snowflake"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact or usable fuzzy match in Simple Icons (check-icon.mjs exit 1, closest fuzzy results unrelated); use site favicon/SVG manually."
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown signals found; only unrelated name collisions (e.g. a 2008 'Iwebtines' spyware bundler, unrelated to this company)."
+      },
+      "sources": [
+        {
+          "url": "https://tines.com",
+          "date": "2026-10-24",
+          "note": "product description, customers, sign-up CTA"
+        },
+        {
+          "url": "https://www.tines.com/pricing",
+          "date": "2026-10-24",
+          "note": "Free edition and Paid editions details"
+        }
+      ],
+      "unverified": [
+        "Exact paid plan pricing (requires a sales demo, not published)."
+      ],
+      "injectionSeen": null
+    },
+    "tinker": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Tinker",
+        "url": "https://www.tinker.com",
+        "alive": true,
+        "operator": "Shopify Inc. (and regional Shopify entities)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Completely free to download and use on iOS and Android; all creative AI tools included at no cost per the site FAQ.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.tinker.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Shopify Terms of Service (Tinker Services) · commercial: content-use rights only, no revenue share · attribution: not required · no reverse engineering or automated scraping",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.tinker.com/terms",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "tinker",
+        "type": "App",
+        "category": "Design",
+        "title": "Tinker",
+        "description": "Free Shopify mobile app with AI tools for generating product videos, images, 3D models and comics from your phone.",
+        "tags": [
+          "ai-tool",
+          "ios",
+          "android"
+        ],
+        "relatedResources": [
+          "coda",
+          "chatgpt",
+          "claude-ai"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "AI Product Morph Video generator for turning photos into product demo videos",
+          "Virtual Try-on Generator for apparel and product shots",
+          "3D Floor Plan Generator",
+          "Additional generators such as a Rap Ad Creator and comic tools",
+          "Free to download and use on iOS 15+ and Android 10+",
+          "Sign in with email or an existing Shopify account; export or share projects to social media"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact Simple Icons match; fuzzy result 'tinkercad' is a different, unrelated product. Use site favicon/SVG manually."
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Operated by Shopify; no scam/malware/shutdown signals found in search."
+      },
+      "sources": [
+        {
+          "url": "https://www.tinker.com",
+          "date": "2026-10-24",
+          "note": "product description, free-use FAQ, operator hint via Shopify logo"
+        },
+        {
+          "url": "https://www.tinker.com/terms",
+          "date": "2026-10-24",
+          "note": "Shopify terms of service, licensing and commercial-use clauses, legal entity by region"
+        }
+      ],
+      "unverified": [
+        "Whether any premium/paid tier exists beyond what the FAQ states (site only describes it as fully free)."
+      ],
+      "injectionSeen": null
+    },
+    "tinkerfont": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Tinkerfont",
+        "url": "https://www.tinkerfont.com",
+        "alive": true,
+        "operator": "Mighil (mighil.com)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Free to install and use; every feature available without payment; optional supporter contributions via Dodo Payments.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.tinkerfont.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No dedicated license/ToS page found (only a privacy policy) · commercial: not specified · attribution: not required per available copy · free to install and use",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.tinkerfont.com/privacy",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "tinkerfont",
+        "type": "Extension",
+        "category": "Design",
+        "title": "Tinkerfont",
+        "description": "Browser extension to inspect, scan and swap fonts on any live webpage before changing your stylesheet, with no account needed.",
+        "tags": [
+          "typography",
+          "extensions",
+          "web"
+        ],
+        "relatedResources": [
+          "google-fonts",
+          "fontpair",
+          "fontawesome"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Inspect a page's typography: family, color and contrast on right-clicked text",
+          "Scan a page to list every font in use with counts",
+          "Swap in over 1,900 Bunny Fonts or upload custom .woff2/.woff/.ttf/.otf files",
+          "Scope font swaps to selected areas of a page",
+          "Save swaps per hostname and share setups with teammates via expiring links",
+          "No accounts and no data collection; settings stored locally in the browser"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact Simple Icons match (check-icon.mjs exit 1, closest fuzzy results unrelated); use site favicon/SVG manually."
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown signals found in search; small independent maker (Mighil) with a stated no-accounts, no-tracking privacy stance."
+      },
+      "sources": [
+        {
+          "url": "https://www.tinkerfont.com",
+          "date": "2026-10-24",
+          "note": "feature list (Inspect/Scan/Swap/Scope/Save & Share), free-to-use claim, operator credit"
+        },
+        {
+          "url": "https://www.tinkerfont.com/privacy",
+          "date": "2026-10-24",
+          "note": "privacy/data practices, no accounts, local storage, share-link expiry, operator contact"
+        }
+      ],
+      "unverified": [
+        "No explicit software license or terms-of-service document was found beyond the privacy policy and homepage copy."
+      ],
+      "injectionSeen": null
+    },
+    "tiny-blocks": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Tiny Blocks",
+        "url": "https://tinyblocks.cc",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Browsing the full gallery of e-commerce store screenshots, filtering by platform/industry/color, and visiting linked live stores is free with no paywall observed.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://tinyblocks.cc",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No published license · commercial use: not stated · attribution: not required · site content is curated screenshots of third-party stores, no reuse terms published",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://tinyblocks.cc",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "tiny-blocks",
+        "type": "Website",
+        "category": "Design",
+        "title": "Tiny Blocks",
+        "description": "A browsable gallery of notable e-commerce store designs, filterable by platform, industry and color, for design inspiration.",
+        "tags": [
+          "inspiration",
+          "graphic-design",
+          "web"
+        ],
+        "relatedResources": [
+          "awwwards",
+          "dribbble",
+          "behance"
+        ],
+        "similarResources": [
+          "awwwards",
+          "dribbble",
+          "behance"
+        ],
+        "keyFeatures": [
+          "Curated collection of e-commerce store homepage screenshots",
+          "Filter stores by platform (Shopify, WooCommerce, Squarespace, custom)",
+          "Filter by industry and dominant color palette",
+          "Direct links out to each live store",
+          "Visitors can submit their own shop for inclusion",
+          "Companion blog with design commentary"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no Simple Icons match (closest fuzzy hits C / C++ are unrelated)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown reports found in search; site is a static screenshot gallery with outbound links only."
+      },
+      "sources": [
+        {
+          "url": "https://tinyblocks.cc",
+          "date": "2026-10-24",
+          "note": "home page: what the site is, filters, submit-shop option, no pricing/license text"
+        },
+        {
+          "url": "web search: \"tinyblocks.cc\" scam OR malware OR \"shutting down\" OR acquired",
+          "date": "2026-10-24",
+          "note": "no adverse reports found"
+        }
+      ],
+      "unverified": [
+        "No dedicated pricing or license/terms page found beyond a Privacy Policy/Imprint footer link whose contents weren't fetched.",
+        "Site operator/owner not identified on the page."
+      ],
+      "injectionSeen": null
+    },
+    "tiny-png": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "TinyPNG",
+        "url": "https://tinypng.com",
+        "alive": true,
+        "operator": "Tinify / TinyPNG team"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "The web compression/conversion tool is free for everyone: up to 20 images per batch, 5 MB max per image, and up to 3 format conversions, with uploads auto-deleted after 48 hours.",
+        "paidFrom": "Paid 'Web Pro' and 'Web Ultra' tiers remove bulk/format-conversion limits on the web tool; separate Developer API and Image CDN plans are priced on their own pages (not detailed on the home page).",
+        "evidence": {
+          "url": "https://tinypng.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial use: yes (compressed images can be used commercially; paid API/CDN plans exist for business use) · attribution: not required · limit: uploaded images are auto-deleted after 48 hours, one account/license can't be shared across multiple emails",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://tinypng.com",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "tiny-png",
+        "type": "Utility",
+        "category": "Productivity",
+        "title": "TinyPNG",
+        "description": "Online tool that compresses and converts PNG, JPG, WebP, AVIF and JXL images to shrink file size while keeping visual quality, plus an API and CDN.",
+        "tags": [
+          "web",
+          "productivity"
+        ],
+        "relatedResources": [
+          "ilovepdf"
+        ],
+        "similarResources": [
+          "ilovepdf"
+        ],
+        "keyFeatures": [
+          "Drag-and-drop lossy compression for PNG, JPG, WebP, AVIF and JXL",
+          "Free web tool: up to 20 images per batch, 5 MB each, 3 format conversions",
+          "Developer API for programmatic batch compression",
+          "Image CDN for automatic on-the-fly optimization",
+          "Official WordPress and Figma plugins",
+          "Uploaded images auto-deleted after 48 hours for privacy"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no Simple Icons match (exit 2)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Long-established, well-known service; no scam/malware/shutdown reports found in search."
+      },
+      "sources": [
+        {
+          "url": "https://tinypng.com",
+          "date": "2026-10-24",
+          "note": "home page: product description, free tier limits, paid tiers, license/account terms, 48h retention policy"
+        },
+        {
+          "url": "web search: \"TinyPNG\" scam OR malware OR \"shutting down\" OR acquired",
+          "date": "2026-10-24",
+          "note": "no adverse reports found; confirmed not a duplicate via rl-index.mjs --find tinypng (no match)"
+        }
+      ],
+      "unverified": [
+        "Exact Web Pro / Web Ultra prices not read (home page didn't list numbers; separate pricing page not fetched).",
+        "Developer API / Image CDN pricing not read."
+      ],
+      "injectionSeen": null
+    },
+    "tinyadz": {
+      "researchedOn": "2026-10-24",
+      "verdict": "skip",
+      "verdictReason": "Directory page (digitool.co/tool/tinyadz/) returned HTTP 403 on two attempts; real site was instead resolved via a third-party AI-agent directory to tinyadz.com, which itself has no working pricing page (404) and states no free tier (sign-up only, no plan details). An independent trust-scan (Scam Detector) flags tinyadz.com with a low trust score (~16/100) and a blacklist-engine hit for a domain registered only in Oct 2024. Combined lack of a confirmed permanent free tier and the safety flag means it does not meet the bar to list.",
+      "site": {
+        "name": "TinyAdz",
+        "url": "https://tinyadz.com",
+        "alive": true,
+        "operator": null
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "suspicious",
+        "notes": "Scam Detector third-party scan gives tinyadz.com a low trust score (~15.9/100) and reports a blacklist-engine flag; domain registered October 2024. No confirmed scam reports, but signal is negative enough to avoid listing without owner review."
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/tinyadz/",
+          "date": "2026-10-24",
+          "note": "directory page blocked with HTTP 403 on first fetch and on retry"
+        },
+        {
+          "url": "https://aiagentsdirectory.com/agent/tinyadz",
+          "date": "2026-10-24",
+          "note": "third-party directory listing gave the real URL tinyadz.com and described it as a free/open-access ad network, but gave no verified pricing detail"
+        },
+        {
+          "url": "https://tinyadz.com",
+          "date": "2026-10-24",
+          "note": "home page: ad marketplace for publishers/advertisers, payout terms ($100 minimum, 30-day payout, fraud policy), no stated free tier or license"
+        },
+        {
+          "url": "https://tinyadz.com/pricing",
+          "date": "2026-10-24",
+          "note": "pricing page returned HTTP 404"
+        },
+        {
+          "url": "web search: \"tinyadz.com\" scam OR malware OR \"shutting down\" OR acquired OR reddit",
+          "date": "2026-10-24",
+          "note": "Scam Detector third-party score ~15.9/100 with blacklist-engine flag; AlternativeTo lists it as an ad network aka 'TinyAds' with no reviews; no confirmed fraud reports"
+        }
+      ],
+      "unverified": [
+        "Whether digitool.co's listing actually points to tinyadz.com or a different, same-named product (page itself was never readable due to 403).",
+        "TinyAdz's actual pricing/fee structure for advertisers and publishers (no working pricing page found).",
+        "Whether the low Scam Detector trust score reflects a real issue or just automated heuristics on a young domain."
+      ],
+      "injectionSeen": null
+    },
+    "tinyurl": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "TinyURL",
+        "url": "https://tinyurl.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free plan: URL shortening, permanent short links on the shared tinyurl.com domain, custom aliases, QR code generation, basic link history; links do not expire by default.",
+        "paidFrom": "Paid 'Pro' tier (reported ~$16/mo by third-party listings) adds branded/custom domains, editable destination URLs, detailed click analytics, tagging and API access; Bulk and Enterprise tiers also listed.",
+        "evidence": {
+          "url": "https://www.g2.com/products/tinyurl/pricing",
+          "date": "2026-10-24",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "Proprietary hosted service · commercial: likely yes (no restriction found) · attribution: not required · limit: could not verify exact ToS wording",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://tinyurl.com",
+          "date": "2026-10-24",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "tinyurl",
+        "type": "Tool",
+        "category": "Marketing",
+        "title": "TinyURL",
+        "description": "Long-running free URL shortener with branded short links, custom aliases, QR codes and click analytics for sharing and tracking links.",
+        "tags": [
+          "productivity",
+          "web"
+        ],
+        "relatedResources": [
+          "ilovepdf",
+          "calendly",
+          "coda"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Shortens long URLs into permanent tinyurl.com links on the free plan",
+          "Custom aliases so short links can be made memorable or on-brand",
+          "QR code generation for each shortened link",
+          "Click/visit analytics and link history (deeper analytics reserved for paid tiers)",
+          "Paid tiers add branded custom domains, editable destinations and API access"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs returned no real match (exit 1 'fuzzy' hit was the single letter 'R', not a genuine TinyURL mark); treating as no library icon, use site SVG/ask owner"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "One of the oldest, best-known URL shorteners (since 2002). No credible reports of TinyURL itself being malware/scam; general web commentary warns that any URL shortener (including TinyURL) can be abused by third parties to mask malicious destination links — this is a known property of the category, not specific to TinyURL."
+      },
+      "sources": [
+        {
+          "url": "https://tinyurl.com",
+          "date": "2026-10-24",
+          "note": "homepage title confirms URL shortener/branded links/analytics; page is heavily JS-rendered so WebFetch only returned title+logo"
+        },
+        {
+          "url": "https://www.g2.com/products/tinyurl/pricing",
+          "date": "2026-10-24",
+          "note": "free vs Pro/Bulk/Enterprise plan breakdown (second-hand, G2 page dated Jan 2026)"
+        },
+        {
+          "url": "https://www.capterra.com/p/228765/TinyURL/pricing/",
+          "date": "2026-10-24",
+          "note": "corroborates free plan + ~$16/mo Pro plan, 4 plans total (second-hand)"
+        }
+      ],
+      "unverified": [
+        "Could not load tinyurl.com/pricing or tinyurl.com/terms directly (404s) — exact current price points and ToS commercial-use/linking language unverified, taken from third-party review sites instead",
+        "Exact operator/company name behind TinyURL not confirmed from a first-party page"
+      ],
+      "injectionSeen": null
+    },
+    "tl-dv": {
+      "researchedOn": "2026-10-24",
+      "verdict": "blocked",
+      "verdictReason": "could not resolve site: the designated directory page https://digitool.co/tool/tldv/ returned HTTP 403 Forbidden on the initial fetch and again on retry, so the tool's official URL could not be confirmed through the specified source",
+      "site": {
+        "name": "tl;dv",
+        "url": null,
+        "alive": null,
+        "operator": null
+      },
+      "safety": {
+        "https": null,
+        "clonerisk": "none",
+        "notes": "Not assessed — directory resolution step failed before any safety check could be performed against a confirmed first-party URL."
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/tldv/",
+          "date": "2026-10-24",
+          "note": "403 Forbidden on two attempts (bot check / access denial), could not read page content"
+        }
+      ],
+      "unverified": [
+        "Could not resolve tl;dv's real site from the required directory page due to repeated 403 responses",
+        "A general web search independently surfaced tldv.io as a likely official site for an AI meeting recorder named tl;dv, but this was not confirmed via the specified directory source and per the task rules a site: null tool that can't be resolved from the directory page is marked blocked rather than guessed"
+      ],
+      "injectionSeen": null
+    },
+    "toaster": {
+      "researchedOn": "2026-10-24",
+      "verdict": "skip",
+      "verdictReason": "Maker (Fragment) was acquired by Superlist (acqui-hire) — Fragment's own site (fragmentapp.io) confirms the acquisition and frames it as the founders/team joining Superlist, with no statement about the Toaster product's own continuity. No pricing page exists on tstr.design (none found/linked), and the terms page (app.tstr.design/terms) is a client-rendered SPA that returned no readable content via fetch, so commercial terms and continued-operation status could not be verified. Given the acquisition and inability to confirm an active, documented free tier or terms, this is too uncertain to list.",
+      "site": {
+        "name": "Toaster",
+        "url": "https://tstr.design",
+        "alive": true,
+        "operator": "Fragment (acquired by Superlist); contact founders@fragmentapp.io"
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Site itself loads fine and has an active 'Sign up for free' flow at app.tstr.design/login, so it is not dead in the DNS-fail sense, but the acquisition plus missing pricing/terms content makes its status as a maintained, listable product unclear."
+      },
+      "sources": [
+        {
+          "url": "https://tstr.design",
+          "date": "2026-10-24",
+          "note": "homepage: describes Figma-prototype analytics/tracking links, has a banner 'Toaster team has joined Superlist' linking to fragmentapp.io, no pricing link"
+        },
+        {
+          "url": "https://fragmentapp.io",
+          "date": "2026-10-24",
+          "note": "confirms Fragment was acquired by Superlist, 'AI-first solutions' partnership framing, founders join Superlist team; does not mention Toaster's product fate"
+        },
+        {
+          "url": "https://app.tstr.design/terms",
+          "date": "2026-10-24",
+          "note": "terms page is JS-only; fetch returned no body content beyond the page title"
+        }
+      ],
+      "unverified": [
+        "Whether Toaster is still actively maintained/supported post-acquisition, or just left running unmaintained",
+        "Any free-tier limits or paid pricing (no pricing page found anywhere on the site)",
+        "Commercial-use / linking terms (terms page unreadable via fetch)"
+      ],
+      "injectionSeen": null
+    },
+    "todays-design": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "todays.design",
+        "url": "https://todays.design",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Full use of posting, voting, commenting, following, and claiming the daily featured slot with a free account; no paid tier found anywhere on the site.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://todays.design",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No published terms/license page found · commercial use: unclear · attribution: unclear · no explicit restriction on linking or listing found",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://todays.design/about",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "todays-design",
+        "type": "Website",
+        "category": "Design",
+        "title": "todays.design",
+        "description": "A daily design showcase where members post work, vote for favorites, and claim the day's featured spot, with explore feeds and a designer directory.",
+        "tags": [
+          "inspiration",
+          "graphic-design",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "dribbble",
+          "behance",
+          "awwwards"
+        ],
+        "similarResources": [
+          "dribbble",
+          "behance",
+          "awwwards"
+        ],
+        "keyFeatures": [
+          "Daily \"claim the day\" slot where one post becomes that date's featured design, archived forever in a calendar view",
+          "Explore feed and hashtag browsing for discovering new community work",
+          "Designer directory highlighting top and featured contributors",
+          "Upvoting, commenting, and following between members",
+          "Free to join and post, with no paid tier currently offered"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No Simple Icons match (closest hits were single letters, not usable); no first-party SVG logo fetched per untrusted-content rules"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown signals found; search returned only unrelated similarly-named domains."
+      },
+      "sources": [
+        {
+          "url": "https://todays.design",
+          "date": "2026-10-24",
+          "note": "Home page features, daily claim mechanic, explore/designer directory, no pricing mentioned"
+        },
+        {
+          "url": "https://todays.design/about",
+          "date": "2026-10-24",
+          "note": "About page; no operator entity, no terms/license, no pricing"
+        }
+      ],
+      "unverified": [
+        "Legal operator/entity behind the site is not disclosed anywhere checked",
+        "No formal terms of service or privacy policy page was located"
+      ],
+      "injectionSeen": null
+    },
+    "tokens-studio": {
+      "researchedOn": "2026-10-24",
+      "verdict": "list",
+      "site": {
+        "name": "Tokens Studio",
+        "url": "https://tokens.studio/studio",
+        "alive": true,
+        "operator": "Tokens Studio"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Studio \"Start free\" plan: 1 editor seat, unlimited viewers, 1 project with 1 active branch, 1 theme group (2 theme options), 1 export configuration, Studio platform access. The companion Figma plugin's core features are also free to use indefinitely.",
+        "paidFrom": "€39/month billed annually (Team plan) for the Studio platform; the Figma plugin's advanced features require a separate paid Pro license (price not listed on the pages checked).",
+        "evidence": {
+          "url": "https://tokens.studio/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Figma plugin (tokens-studio/figma-plugin repo): MIT · commercial: yes · attribution: not required. Studio web platform: proprietary SaaS; its own terms page (/legal/terms) returned 404 so its license text is unconfirmed.",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://github.com/orgs/tokens-studio/repositories",
+          "date": "2026-10-24",
+          "confidence": "second-hand"
+        }
+      },
+      "rl": {
+        "slug": "tokens-studio",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Tokens Studio",
+        "description": "A design-tokens platform for modeling token relationships and multi-brand theming across Figma, Penpot, and other apps, exporting dev-ready tokens via CI/CD.",
+        "tags": [
+          "design-systems",
+          "ui-ux",
+          "extensions"
+        ],
+        "relatedResources": [
+          "figma",
+          "figma-community"
+        ],
+        "similarResources": [
+          "figma",
+          "figma-community"
+        ],
+        "keyFeatures": [
+          "Models token relationships, inheritance, and conditional logic instead of flat key-value token lists",
+          "Multi-brand theming support from a single token source",
+          "Plugin/integration support for Figma, Penpot, Framer, Blender, and Microsoft/Adobe apps",
+          "Exports developer-ready tokens for Web, iOS, and Android through CI/CD pipelines",
+          "Figma plugin's core features are free and MIT-licensed on GitHub; Pro features and the Studio web app are paid add-ons",
+          "Project- and branch-based workflows with team seats on the Studio platform"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No Simple Icons match (closest hits were single letters/unrelated acronyms); no first-party SVG logo fetched per untrusted-content rules"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition signals found; search results were all unrelated crypto \"token\" projects."
+      },
+      "sources": [
+        {
+          "url": "https://tokens.studio/studio",
+          "date": "2026-10-24",
+          "note": "Product description, platform/plugin split, supported apps"
+        },
+        {
+          "url": "https://tokens.studio/pricing",
+          "date": "2026-10-24",
+          "note": "Full pricing table (Start free / Team / Organization / Enterprise)"
+        },
+        {
+          "url": "https://github.com/orgs/tokens-studio/repositories",
+          "date": "2026-10-24",
+          "note": "Confirms figma-plugin repo is MIT-licensed, separate from the proprietary Studio SaaS"
+        }
+      ],
+      "unverified": [
+        "Studio web platform's own terms of service could not be loaded (/legal/terms returned 404), so its license/ToS text is unconfirmed",
+        "Figma plugin Pro license price was not found on the pages checked",
+        "Whether linking/listing in a third-party directory is restricted was not found explicitly anywhere"
+      ],
+      "injectionSeen": null
+    },
+    "told": {
+      "researchedOn": "2026-10-24",
+      "verdict": "needs-owner",
+      "verdictReason": "Told's legal notice page (https://www.told.club/legal) states that reproduction, use, or adaptation of site content is 'strictly prohibited' without consent, and that creating hyperlinks to the site 'can be done only with the prior written authorization of the Editor.' That directly conflicts with listing Told with a live link in a public directory without obtaining that permission first, so this needs an owner decision before an RL entry is drafted. (Otherwise the tool itself looks listable: alive HTTPS site, confirmed permanent free tier, no safety red flags, not a duplicate in RL.)",
+      "site": {
+        "name": "Told",
+        "url": "https://www.told.club",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free plan: 1 source, 1 seat, 1 survey or product tour, 500 views/month, 2 languages, 3 months data retention, in-product/email/long-form surveys; excludes audience targeting, premium questions, mobile SDK, badge removal, and priority support.",
+        "paidFrom": "Starter plan from €49/month (yearly billing) / €59/month (monthly billing); Expert and custom Enterprise tiers above that.",
+        "evidence": {
+          "url": "https://www.told.club/pricing",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Told legal notice · commercial use of the service itself not addressed · reuse of site content: prohibited without written consent · linking to the site: requires prior written authorization of the Editor",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.told.club/legal",
+          "date": "2026-10-24",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition signals found; search results were all unrelated (Clubhouse-malware, unrelated takedown stories)."
+      },
+      "sources": [
+        {
+          "url": "https://www.told.club",
+          "date": "2026-10-24",
+          "note": "Product overview: in-app surveys, product tours, AI-assisted writing, 19M+ responses / 600+ customers claim, GDPR/SOC2 claim"
+        },
+        {
+          "url": "https://www.told.club/pricing",
+          "date": "2026-10-24",
+          "note": "Full pricing table (Free / Starter / Expert / Enterprise) and feature limits per tier"
+        },
+        {
+          "url": "https://www.told.club/legal",
+          "date": "2026-10-24",
+          "note": "Legal notice containing the no-reproduction and no-hyperlink-without-authorization clauses"
+        }
+      ],
+      "unverified": [
+        "No legal entity, founders, or headquarters location found on the pages checked",
+        "GDPR/SOC2 compliance and the 19M+ responses / 600+ customers figures are the vendor's own unverified claims",
+        "Whether the hyperlink-authorization clause is meant to cover factual directory listings or only unauthorized reproduction of site content was not clarified anywhere on the site"
+      ],
+      "injectionSeen": null
     }
   }
 }
