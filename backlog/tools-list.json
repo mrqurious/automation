@@ -55431,12 +55431,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "uptimerobot",
@@ -55459,12 +55459,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "upwork",
@@ -55485,12 +55485,12 @@
           "file": "Best Design Communities for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "The given URL (https://www.upwork.com/i/how-it-works/freelancer/) and even the bare upwork.com homepage returned HTTP 403 Forbidden on every fetch attempt (one retry made), consistent with bot-check protection. Separately, even if access were possible: Upwork is a freelance marketplace that takes a 0-15% fee on freelancer earnings, not a free standalone tool/resource of the kind RL otherwise lists, so this would likely need an owner decision on fit even once readable.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "usability-geek",
@@ -55511,12 +55511,12 @@
           "file": "Best Design Blogs & Magazines for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Not a tool/software/resource — it is an editorial UX/usability blog (articles, guest posts, course links). No product, pricing, or license to evaluate; does not fit RL's resource types.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "useanimations",
@@ -55537,12 +55537,12 @@
           "file": "Best Free Open Source Icon Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "useberry",
@@ -55563,12 +55563,12 @@
           "file": "Best UX Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "user-persona",
@@ -55589,12 +55589,12 @@
           "file": "Free Stock Images & Video Websites _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "userbit",
@@ -55615,12 +55615,12 @@
           "file": "Best UX Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "userbit.com is a JS-rendered page that returns only the <title> tag (\"UX Repository and Tools for agencies & freelancers | UserBit\") to the fetch tool, both for the home page and /pricing, even after retrying with different prompts and URL paths — no body content, nav, or pricing text is reachable. Third-party listings (GetApp, Capterra, Fitgap, SoftwareAdvice) give conflicting accounts of whether there's a true free tier (GetApp: free plan with 1 project + 5 AI automations; Fitgap: free tier capped at 30 people/30 interviews/50 notes; some list a paid plan from $20/mo) — none of this is first-party so it isn't enough to confirm a listable free tier per the Tier A rules.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "userbrain",
@@ -55641,12 +55641,12 @@
           "file": "Best UX Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Paid-only: pricing page lists only paid plans (Starter $49/mo, Plus $249/mo, Flex $1,100/yr, Enterprise custom) plus a 30-day free trial requiring no credit card — there is no permanent free tier, so it fails the 'list' bar.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "usercall",
@@ -55669,12 +55669,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "No permanent free tier: plans start at $89/mo with only a one-time free first interview as a trial; paid-only for ongoing use.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "usermaven",
@@ -55697,12 +55697,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "No pricing, free tier, or trial disclosed anywhere on site; sales-only (\"book a demo\"/\"get a quote\") model, paid-only.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "usertesting",
@@ -55749,12 +55749,12 @@
           "file": "Best Design Blogs & Magazines for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "ux-bites",
@@ -55775,12 +55775,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Paid-only: the UX Bites library at builtformars.com/ux-bites requires a BFM+ subscription (Individual/Teams plans, no prices disclosed) to access the full set of examples; the page itself shows only 12 of 1,496 bites as a teaser. The only confirmed free items are a separate newsletter and a Figma plugin (requires a BFM+ account), neither of which is the UX Bites feature being evaluated. No permanent free tier for the actual product.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "ux-challenges",
@@ -55801,12 +55801,12 @@
           "file": "Learn UI_UX Design_ Courses, Guides & Best Practices.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "ux-check",
@@ -55827,12 +55827,12 @@
           "file": "Best UX Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "ux-collective",
@@ -55853,12 +55853,12 @@
           "file": "Best Design Blogs & Magazines for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "ux-gigs",
@@ -55879,12 +55879,12 @@
           "file": "Best Design Communities for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "ux-hints",
@@ -55905,12 +55905,12 @@
           "file": "Learn UI_UX Design_ Courses, Guides & Best Practices.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "ux-lex",
@@ -55931,12 +55931,12 @@
           "file": "Learn UI_UX Design_ Courses, Guides & Best Practices.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "ux-magazine",
@@ -55957,12 +55957,12 @@
           "file": "Best Design Blogs & Magazines for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "ux-mastery",
@@ -55983,12 +55983,12 @@
           "file": "Best Design Blogs & Magazines for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "ux-matters",
@@ -56009,12 +56009,12 @@
           "file": "Best Design Blogs & Magazines for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "ux-metrics",
@@ -56035,12 +56035,12 @@
           "file": "Best UX Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "ux-movement",
@@ -56061,12 +56061,12 @@
           "file": "Best Design Blogs & Magazines for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "ux-myths",
@@ -56087,12 +56087,12 @@
           "file": "Best Design Blogs & Magazines for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "ux-pilot",
@@ -56113,12 +56113,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "No confirmed permanent free tier: the site's own copy only shows 'get started for free' / 'it's free' marketing language with no limits stated, and multiple independent third-party reviews (June 2026 review, Stork.ai listing) consistently describe the free offering as a one-time signup grant of ~45 credits (no recurring free quota), i.e. a trial/demo rather than RL's required permanent free tier. Paid plans start around $12-15/mo. Direct fetch of the pricing page (/plans) returned only nav/footer text, not the plan table, so this could not be confirmed first-party either way.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "ux-planet",
@@ -56139,12 +56139,12 @@
           "file": "Best Design Blogs & Magazines for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "ux-studio",
@@ -56165,12 +56165,12 @@
           "file": "Best Design Blogs & Magazines for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "ux-tools",
@@ -56191,12 +56191,12 @@
           "file": "Learn UI_UX Design_ Courses, Guides & Best Practices.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "ux-trends",
@@ -56217,12 +56217,12 @@
           "file": "Learn UI_UX Design_ Courses, Guides & Best Practices.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "https://trends.uxdesign.cc returns HTTP 404 on fetch (confirmed on retry) - the URL does not resolve to a live standalone page. The content it would have covered (UX Collective's annual trends/State-of-UX writeups) lives as tagged articles within uxdesign.cc itself, which is being researched separately this round as UX Collective - so even if the URL worked, this would be a sub-page/duplicate of that resource, not a distinct listing.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "uxcel",
@@ -56243,12 +56243,12 @@
           "file": "Learn UI_UX Design_ Courses, Guides & Best Practices.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "uxdummy",
@@ -56269,12 +56269,12 @@
           "file": "Best UX Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Dead as an independent tool: uxdummy.com now 301-redirects permanently to an unrelated third-party product, https://appiqa.com/tools/ux-persona-studio (operator: Appiqa). That page itself refers to 'legacy fake name generators like UXDummy or FakeNameGenerator' as a distinct, prior thing it supersedes, confirming UXDummy no longer operates as its own site/product. Nothing to list under the UXDummy brand; the Appiqa tool it redirects to is a different product and out of scope for this task.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "uxia",
@@ -56295,12 +56295,12 @@
           "file": "Best UX Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "No permanent free tier: pricing page offers only a one-time free trial test ('Experience the power of Uxia with one free test', limited tests/credits/testers), then 'Custom' (quote-based) and 'Managed research' (contact for price) plans. Paid-only / trial-only product, fails the 'list' requirement for a confirmed permanent free tier.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "uxmagic",
@@ -56373,12 +56373,12 @@
           "file": "Learn UI_UX Design_ Courses, Guides & Best Practices.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Site returned HTTP 429 Too Many Requests on both the initial fetch and the one allowed retry (tried both https://www.uxsnaps.com and https://uxsnaps.com/). No first-party content could be read. A web search for pricing turned up only one indirect third-party listing (a directory submission site, productcool.com) describing it as 'a platform for UI/UX breakdowns of well-known apps' (reverse-engineering design patterns/microinteractions from apps like Netflix, Airbnb, Discord), but no pricing or license details were found there.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "uxtoast",
@@ -59927,16 +59927,16 @@
     "byStatus": {
       "deferred-trial": 232,
       "deferred-paid": 217,
-      "blocked": 524,
+      "blocked": 527,
       "drafted": 557,
-      "rejected": 226,
+      "rejected": 235,
       "in-rl": 33,
-      "researched": 318,
-      "todo": 172
+      "researched": 340,
+      "todo": 138
     },
     "todoByPriority": {
       "P3": 30,
-      "P2": 142
+      "P2": 108
     }
   }
 }

@@ -113745,6 +113745,2374 @@
         "Full terms of the commercial/monetization clearance claim beyond the attribution credit"
       ],
       "injectionSeen": null
+    },
+    "upscale-media": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Upscale.media",
+        "url": "https://www.upscale.media",
+        "alive": true,
+        "operator": "Shopsense Retail Technologies Limited (PixelBin, subsidiary of Reliance Retail Ventures Limited)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "3 credits and 3 downloads per month when signed in; guests can upscale one image per day without an account, outputs are not watermarked. Max input 5,000x5,000px (guest) / 10,000x10,000px (signed-in) at 2x.",
+        "paidFrom": "₹399 one-time for 60 credits, or ₹3,099/year subscription (≈₹0.41/credit); enterprise is a custom quote.",
+        "evidence": {
+          "url": "https://www.upscale.media/pricing",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS Terms of Use · commercial: yes (no clause against commercial use of outputs found) · attribution: not required · no clause forbidding listing/linking",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://upscale.media/terms-of-use",
+          "date": "2026-10-27",
+          "confidence": "second-hand"
+        }
+      },
+      "rl": {
+        "slug": "upscale-media",
+        "type": "AI Tool",
+        "category": "Photography",
+        "title": "Upscale.media",
+        "description": "AI image (and short video) upscaler that enlarges low-resolution photos up to 8x and sharpens, deblurs or restores them, free with a monthly credit allowance.",
+        "tags": [
+          "ai-tool",
+          "graphic-design",
+          "visual-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "2x, 4x and 8x AI upscaling for photos, with no watermark on outputs",
+          "Accepts short videos (up to 1 minute) for upscaling, not just stills",
+          "Extra one-click tools: sharpen, deblur, colourize old photos, restore damaged photos, face enhancement",
+          "Works without an account for one image a day; signing in raises the max resolution and unlocks bulk processing",
+          "Monthly free credit allowance, plus pay-as-you-go or subscription credit packs for heavier use"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons has no real match (closest suggestions were unrelated single letters); owner should supply a site SVG or decide manually"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown reports found in a web search; site is live and operated by a known retail-tech subsidiary."
+      },
+      "sources": [
+        {
+          "url": "https://www.upscale.media",
+          "date": "2026-10-27",
+          "note": "product description, free-without-account limits"
+        },
+        {
+          "url": "https://www.upscale.media/pricing",
+          "date": "2026-10-27",
+          "note": "free credits/downloads, paid credit packs and subscription prices"
+        },
+        {
+          "url": "https://upscale.media/terms-of-use",
+          "date": "2026-10-27",
+          "note": "operator identity and terms scope, via search snippet (page itself 404'd on direct fetch)"
+        }
+      ],
+      "unverified": [
+        "Whether free-tier outputs are watermarked is not stated on the pricing page (guest/free text implies no watermark but it's not explicit)",
+        "Full terms-of-use text could not be fetched directly (404 on https://upscale.media/terms-of-use); relied on a search-engine snippet summary"
+      ],
+      "injectionSeen": null
+    },
+    "uptimerobot": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "UptimeRobot",
+        "url": "https://uptimerobot.com",
+        "alive": true,
+        "operator": "UptimeRobot s.r.o. (acquired by itrinity, a Czech/Slovak company, in late 2019)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "50 monitors, 5-minute check interval, HTTP/port/ping/keyword/API/UDP/DNS/dependency monitoring, 1 status page, 3 months data retention, up to 5 integrations, no SMS/voice credits included.",
+        "paidFrom": "Solo plan $9/month billed annually (10-50 monitors depending on tier; $10/month billed monthly); Team $35/mo, Scale $65/mo, Enterprise is a custom quote.",
+        "evidence": {
+          "url": "https://uptimerobot.com/pricing/",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS Terms of Service / Fair Use Policy · commercial: yes, explicitly allowed for any size business · attribution: not required · limit: reselling/rebranding the monitoring service, status pages, alerts or API data is restricted",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://uptimerobot.com/terms-fair-use/",
+          "date": "2026-10-27",
+          "confidence": "second-hand"
+        }
+      },
+      "rl": {
+        "slug": "uptimerobot",
+        "type": "Tool",
+        "category": "Development",
+        "title": "UptimeRobot",
+        "description": "Website and server uptime monitor that checks sites every 5 minutes on its free plan and alerts you by email when something goes down.",
+        "tags": [
+          "web",
+          "automation",
+          "productivity"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Free plan covers up to 50 monitors at a 5-minute check interval",
+          "Multiple monitor types: HTTP, port, ping, keyword, API, UDP, DNS and dependency checks",
+          "SSL certificate and domain expiration monitoring included free",
+          "One public status page per account on the free tier",
+          "Paid plans add more monitors, shorter check intervals, team seats and SMS/voice alerting"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "Simple Icons has no real match (closest suggestions, e.g. 'ups', are a different unrelated brand); owner should supply a site SVG or decide manually"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware reports. It was acquired by itrinity in late 2019 (still operating, not shut down); one former customer (mySites.guru) publicly complained about reliability and a large price increase after the acquisition, but this is a single second-hand account, not independent confirmation."
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/uptimerobot/",
+          "date": "2026-10-27",
+          "note": "resolved the directory listing to the canonical uptimerobot.com URL"
+        },
+        {
+          "url": "https://uptimerobot.com/pricing/",
+          "date": "2026-10-27",
+          "note": "free plan limits and paid tier prices"
+        },
+        {
+          "url": "https://uptimerobot.com/terms-fair-use/",
+          "date": "2026-10-27",
+          "note": "commercial-use permission and resale/rebrand restriction, via search snippet"
+        }
+      ],
+      "unverified": [
+        "Full official terms/fair-use text was not fetched directly; relied on a search-engine summary of uptimerobot.com/terms and /terms-fair-use/",
+        "mySites.guru's reliability/price-increase complaint is unverified second-hand commentary, included only as context, not as a safety finding"
+      ],
+      "injectionSeen": null
+    },
+    "upwork": {
+      "researchedOn": "2026-10-27",
+      "verdict": "blocked",
+      "verdictReason": "The given URL (https://www.upwork.com/i/how-it-works/freelancer/) and even the bare upwork.com homepage returned HTTP 403 Forbidden on every fetch attempt (one retry made), consistent with bot-check protection. Separately, even if access were possible: Upwork is a freelance marketplace that takes a 0-15% fee on freelancer earnings, not a free standalone tool/resource of the kind RL otherwise lists, so this would likely need an owner decision on fit even once readable.",
+      "site": {
+        "name": "Upwork",
+        "url": "https://www.upwork.com/i/how-it-works/freelancer/",
+        "alive": null,
+        "operator": "Upwork Inc."
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware signal found; 403s are consistent with standard bot-protection (e.g. Cloudflare/Akamai), not a sign the site itself is compromised."
+      },
+      "sources": [
+        {
+          "url": "https://www.upwork.com/i/how-it-works/freelancer/",
+          "date": "2026-10-27",
+          "note": "direct fetch returned 403 Forbidden, retried once, same result"
+        },
+        {
+          "url": "https://www.upwork.com/",
+          "date": "2026-10-27",
+          "note": "homepage also returned 403 Forbidden, confirming the block is not page-specific"
+        }
+      ],
+      "unverified": [
+        "Could not first-party-verify pricing/fee details directly; a web search surfaced Upwork's own stated figures (free to join, 0-15% freelancer service fee, 10 free Connects/month, Freelancer Plus plan ~$19.99/month) but these are second-hand (search-engine summary), not a direct page read, so they are not used to populate a pricing block here"
+      ],
+      "injectionSeen": null
+    },
+    "usability-geek": {
+      "researchedOn": "2026-10-27",
+      "verdict": "skip",
+      "verdictReason": "Not a tool/software/resource — it is an editorial UX/usability blog (articles, guest posts, course links). No product, pricing, or license to evaluate; does not fit RL's resource types.",
+      "site": {
+        "name": "Usability Geek",
+        "url": "https://usabilitygeek.com",
+        "alive": true,
+        "operator": null
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Standard content/blog site; no scam or malware signal found."
+      },
+      "sources": [
+        {
+          "url": "https://usabilitygeek.com",
+          "date": "2026-10-27",
+          "note": "Confirmed site is a UX/usability blog with articles, not a tool; links to third-party UX courses but shows no pricing of its own."
+        }
+      ],
+      "unverified": [
+        "Whether the site owner/operator has changed ownership; not material to the skip decision."
+      ],
+      "injectionSeen": null
+    },
+    "useanimations": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "useAnimations",
+        "url": "https://useanimations.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All ~300 animated icons are free to use; no paid plan is advertised on the site.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://useanimations.com",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT · commercial: yes · attribution: not required (appreciated) · must keep license notice if redistributing the files themselves",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://useanimations.com/licencing-and-terms",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "useanimations",
+        "type": "Icon Set",
+        "category": "Design",
+        "title": "useAnimations",
+        "description": "Free MIT-licensed library of ~300 animated icons as Lottie JSON or SVG, with ready-made packages for React and shadcn/ui.",
+        "tags": [
+          "icon-library",
+          "open-source",
+          "design-systems"
+        ],
+        "relatedResources": [
+          "iconify",
+          "lucide-icons",
+          "remix-icon"
+        ],
+        "similarResources": [
+          "material-symbols",
+          "simple-icons",
+          "thesvg"
+        ],
+        "keyFeatures": [
+          "Around 300 animated icons grouped into categories like alerts, navigation, action, media, weather, and social",
+          "Each icon supports an interaction mode such as loop, click-toggle, click-replay, hover, hover-replay, or hover-loop",
+          "Ships as Lottie JSON for animation players, plus static SVGs for each icon state",
+          "React package (react-useanimations) via npm install, and a shadcn/ui install path via the shadcn CLI",
+          "MIT licensed for personal and commercial use, including modification and redistribution in kits/themes"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no exact or genuine fuzzy Simple Icons match for 'useAnimations' (closest suggestions 'e', 'ea', 'nim' are unrelated); use site SVG/logo if the owner wants one added manually."
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown reports found; safety search returned only unrelated results about animation-themed malware lures in general, not this project."
+      },
+      "sources": [
+        {
+          "url": "https://useanimations.com",
+          "date": "2026-10-27",
+          "note": "Product description, icon categories, formats, install methods, free pricing"
+        },
+        {
+          "url": "https://useanimations.com/licencing-and-terms",
+          "date": "2026-10-27",
+          "note": "MIT license terms, commercial use allowed, attribution not required"
+        }
+      ],
+      "unverified": [
+        "No GitHub repo URL was found linked from the site itself; license page is the first-party source used instead.",
+        "Whether a separate templates/showcase page exists that would warrant a sibling entry — none was found."
+      ],
+      "injectionSeen": null
+    },
+    "useberry": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Useberry",
+        "url": "https://www.useberry.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free plan (€0): 10 responses/month, 1 seat (expandable to 20), 1 project, 3 versions per project, 5 blocks. No credit card required to sign up.",
+        "paidFrom": "Growth plan from €83/month billed yearly (€996/year): 300 responses/month, unlimited projects/versions/blocks, 5 interviews/month, 10 transcription hours/month, 20GB storage.",
+        "evidence": {
+          "url": "https://www.useberry.com/pricing",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: yes (paid plans) · attribution: not required · free tier is capped at 10 responses/month, not usable for serious commercial testing volume",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.useberry.com/pricing",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "useberry",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Useberry",
+        "description": "UX research and usability testing platform for card sorting, tree testing, first-click, five-second, preference, and A/B tests on designs and prototypes.",
+        "tags": [
+          "ui-ux",
+          "prototyping"
+        ],
+        "relatedResources": [
+          "figma",
+          "figma-community",
+          "framer"
+        ],
+        "similarResources": [
+          "figma-community",
+          "dribbble",
+          "webflow"
+        ],
+        "keyFeatures": [
+          "Supports both live moderated sessions and self-paced unmoderated usability studies",
+          "Built-in test types: card sorting, tree testing, first-click, five-second test, preference/A-B test, and surveys",
+          "Session recordings with click tracking and user-flow analysis",
+          "Reports include success rates, task completion times, and other usability metrics",
+          "Free plan available with no credit card required; paid plans add interviews, transcription hours, and more recording storage",
+          "Aimed at product designers, UX researchers, product managers, and educators/students"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no exact or genuine fuzzy Simple Icons match for 'Useberry' (closest suggestions 'e', 'r' are unrelated); use site SVG/logo if the owner wants one added manually."
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition reports found; safety search returned only unrelated FTC spyware-case results."
+      },
+      "sources": [
+        {
+          "url": "https://www.useberry.com",
+          "date": "2026-10-27",
+          "note": "Product description, feature list, intended users, free sign-up claim"
+        },
+        {
+          "url": "https://www.useberry.com/pricing",
+          "date": "2026-10-27",
+          "note": "Free plan limits and Growth/Business/Enterprise paid plan details"
+        }
+      ],
+      "unverified": [
+        "Exact feature gating details for Business/Enterprise AI features (listed as 'coming soon' at time of research).",
+        "Company operator/legal entity name not confirmed from a dedicated About/legal page."
+      ],
+      "injectionSeen": null
+    },
+    "user-persona": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "UserPersona.dev",
+        "url": "https://userpersona.dev",
+        "alive": true,
+        "operator": "UserPersona.dev (made in Canada; cross-promotes a separate product, Dishlist)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Full AI persona generator is free to use: enter a product/service description, get a generated persona, edit any field, export as an image. No paid tier or account mentioned.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://userpersona.dev",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No published license/ToS page found · commercial use: not addressed · attribution: not required (none stated) · limit: none stated",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://userpersona.dev",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "user-persona",
+        "type": "AI Tool",
+        "category": "Design",
+        "title": "User Persona",
+        "description": "Free AI tool that generates an editable user persona (goals, traits, bio) from a short product description, exportable as an image.",
+        "tags": [
+          "ai-tool",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "figma",
+          "chatgpt"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Generates a full user persona from a one-line product/service description",
+          "Uses AI to fill in persona fields like goals, traits and background",
+          "Every generated field is manually editable before export",
+          "Exports the finished persona as an image for decks or docs",
+          "No account or payment required to use"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no usable Simple Icons match (closest hits were single-letter unrelated icons 'e' and 'r')"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown reports found; small single-purpose site."
+      },
+      "sources": [
+        {
+          "url": "https://userpersona.dev",
+          "date": "2026-10-27",
+          "note": "product description, free-to-use confirmation, operator note, copyright year"
+        }
+      ],
+      "unverified": [
+        "No separate pricing or license/ToS page exists to confirm commercial-use terms; treated as free/no-restriction based on the home page only."
+      ],
+      "injectionSeen": null
+    },
+    "userbit": {
+      "researchedOn": "2026-10-27",
+      "verdict": "blocked",
+      "verdictReason": "userbit.com is a JS-rendered page that returns only the <title> tag (\"UX Repository and Tools for agencies & freelancers | UserBit\") to the fetch tool, both for the home page and /pricing, even after retrying with different prompts and URL paths — no body content, nav, or pricing text is reachable. Third-party listings (GetApp, Capterra, Fitgap, SoftwareAdvice) give conflicting accounts of whether there's a true free tier (GetApp: free plan with 1 project + 5 AI automations; Fitgap: free tier capped at 30 people/30 interviews/50 notes; some list a paid plan from $20/mo) — none of this is first-party so it isn't enough to confirm a listable free tier per the Tier A rules.",
+      "site": {
+        "name": "UserBit",
+        "url": "https://userbit.com",
+        "alive": true,
+        "operator": "UserBit (UX repository and tools for agencies & freelancers, per page title)"
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/acquisition reports found in search; site itself just didn't render readable content for this tool."
+      },
+      "sources": [
+        {
+          "url": "https://userbit.com",
+          "date": "2026-10-27",
+          "note": "page title only; body not retrievable"
+        },
+        {
+          "url": "https://userbit.com/pricing",
+          "date": "2026-10-27",
+          "note": "page title only; body not retrievable"
+        },
+        {
+          "url": "https://www.getapp.com/all-software/a/userbit/",
+          "date": "2026-10-27",
+          "note": "third-party listing claiming a free plan (1 project, 5 AI automations) and a usage-based paid plan from $20/mo — not first-party, not used to decide verdict"
+        },
+        {
+          "url": "https://us.fitgap.com/products/010871/userbit",
+          "date": "2026-10-27",
+          "note": "third-party listing with a different, tighter free-tier description (30 people/30 interviews/50 notes) and Pro tier by contact-sales only"
+        }
+      ],
+      "unverified": [
+        "Whether userbit.com currently has a genuine permanent free tier, and its paid pricing, since the first-party site would not render for this tool.",
+        "Whether the product is still actively maintained (third-party review pages have mixed recency)."
+      ],
+      "injectionSeen": null
+    },
+    "userbrain": {
+      "researchedOn": "2026-10-27",
+      "verdict": "skip",
+      "verdictReason": "Paid-only: pricing page lists only paid plans (Starter $49/mo, Plus $249/mo, Flex $1,100/yr, Enterprise custom) plus a 30-day free trial requiring no credit card — there is no permanent free tier, so it fails the 'list' bar.",
+      "site": {
+        "name": "Userbrain",
+        "url": "https://www.userbrain.com",
+        "alive": true,
+        "operator": "Userbrain (Graz, Austria-based remote user-testing company)"
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition reports found; search surfaced only unrelated results (old company funding news, unrelated malware stories named InstallBrain) and a third-party aggregator (moge.ai) describing it as an active unmoderated user-testing platform."
+      },
+      "sources": [
+        {
+          "url": "https://www.userbrain.com",
+          "date": "2026-10-27",
+          "note": "product description: remote user testing, recruiting testers, AI-assisted testing, automated reports"
+        },
+        {
+          "url": "https://www.userbrain.com/pricing",
+          "date": "2026-10-27",
+          "note": "pricing plans and confirmation that only a free trial (not a free tier) is offered"
+        }
+      ],
+      "unverified": [],
+      "injectionSeen": null
+    },
+    "usercall": {
+      "researchedOn": "2026-10-27",
+      "verdict": "skip",
+      "verdictReason": "No permanent free tier: plans start at $89/mo with only a one-time free first interview as a trial; paid-only for ongoing use.",
+      "site": {
+        "name": "Usercall",
+        "url": "https://www.usercall.co",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "$89/mo (Lite plan, 100 credits/month, interviews up to 12 minutes)",
+        "evidence": {
+          "url": "https://www.usercall.co/pricing",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": null,
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown reports found in a web search."
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/usercall/",
+          "date": "2026-10-27",
+          "note": "resolved real site URL (usercall.co)"
+        },
+        {
+          "url": "https://www.usercall.co",
+          "date": "2026-10-27",
+          "note": "product description, audience"
+        },
+        {
+          "url": "https://www.usercall.co/pricing",
+          "date": "2026-10-27",
+          "note": "plan prices and confirmation of no permanent free tier"
+        }
+      ],
+      "unverified": [
+        "Operator/company name behind Usercall not stated on the pages fetched."
+      ],
+      "injectionSeen": null
+    },
+    "usermaven": {
+      "researchedOn": "2026-10-27",
+      "verdict": "skip",
+      "verdictReason": "No pricing, free tier, or trial disclosed anywhere on site; sales-only (\"book a demo\"/\"get a quote\") model, paid-only.",
+      "site": {
+        "name": "Usermaven",
+        "url": "https://usermaven.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://usermaven.com/pricing",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": null,
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown reports found in a web search."
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/usermaven/",
+          "date": "2026-10-27",
+          "note": "resolved real site URL (usermaven.com)"
+        },
+        {
+          "url": "https://usermaven.com",
+          "date": "2026-10-27",
+          "note": "product description, audience"
+        },
+        {
+          "url": "https://usermaven.com/pricing",
+          "date": "2026-10-27",
+          "note": "confirmed no listed prices, no free tier/trial, demo-only CTAs"
+        }
+      ],
+      "unverified": [
+        "Exact pricing never published on the public pricing page (sales-quote model)."
+      ],
+      "injectionSeen": null
+    },
+    "ustwo": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "ustwo",
+        "url": "https://www.ustwo.com/blog/",
+        "alive": true,
+        "operator": "ustwo (design and digital product agency)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All blog articles are free to read, no login or paywall observed; optional free newsletter via Substack.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.ustwo.com/blog/",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "ustwo blog content · commercial: not applicable (editorial reading, not reusable assets) · attribution: not required · limit: content is agency-owned commentary, not licensed for reuse/republishing",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.ustwo.com/blog/",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "ustwo-blog",
+        "type": "Website",
+        "category": "Design",
+        "title": "ustwo Insights Blog",
+        "description": "Editorial blog from design agency ustwo covering design systems, AI's effect on design, digital health, and product strategy essays.",
+        "tags": [
+          "inspiration",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "awwwards",
+          "behance",
+          "dribbble"
+        ],
+        "similarResources": [
+          "awwwards",
+          "behance",
+          "dribbble"
+        ],
+        "keyFeatures": [
+          "Staff-written articles on design systems, product strategy, and digital health",
+          "Commentary on how AI is changing design practice, search, and trust",
+          "Coverage of sustainability and ethics topics like emissions-estimation tooling for AI",
+          "Free to read with no login or paywall",
+          "Optional free newsletter sign-up via Substack"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: NOT FOUND in Simple Icons (exit 2)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown reports found in a web search; well-known design agency."
+      },
+      "sources": [
+        {
+          "url": "https://www.ustwo.com/blog/",
+          "date": "2026-10-27",
+          "note": "site description, content types, access/paywall check"
+        }
+      ],
+      "unverified": [
+        "Whether every historical article on the blog remains free (only the current listing/previews were checked)."
+      ],
+      "injectionSeen": null
+    },
+    "ux-bites": {
+      "researchedOn": "2026-10-27",
+      "verdict": "skip",
+      "verdictReason": "Paid-only: the UX Bites library at builtformars.com/ux-bites requires a BFM+ subscription (Individual/Teams plans, no prices disclosed) to access the full set of examples; the page itself shows only 12 of 1,496 bites as a teaser. The only confirmed free items are a separate newsletter and a Figma plugin (requires a BFM+ account), neither of which is the UX Bites feature being evaluated. No permanent free tier for the actual product.",
+      "site": {
+        "name": "UX Bites (Built for Mars)",
+        "url": "https://builtformars.com/ux-bites",
+        "alive": true,
+        "operator": "Built for Mars Ltd (Company No. 12731987, England and Wales)"
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://builtformars.com/pricing",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No published license/ToS found on the page · commercial: unknown · attribution: unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://builtformars.com/ux-bites",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown reports found; company has an 'about' page and registered company number."
+      },
+      "sources": [
+        {
+          "url": "https://builtformars.com/ux-bites",
+          "date": "2026-10-27",
+          "note": "Describes UX Bites as a library of 1,496 contextualised UX examples, shows only 12 for free, rest gated."
+        },
+        {
+          "url": "https://builtformars.com/pricing",
+          "date": "2026-10-27",
+          "note": "Individual/Teams plans, no prices shown in fetched text; free newsletter and free Figma plugin (account required) listed separately from the library."
+        }
+      ],
+      "unverified": [
+        "Actual subscription prices were not visible in the fetched pricing page text.",
+        "Whether 'UX Bites' as a weekly email (separate from the library) is itself fully free was not directly confirmed."
+      ],
+      "injectionSeen": null
+    },
+    "ux-challenges": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "UX Challenges",
+        "url": "https://uxtools.co/challenges",
+        "alive": true,
+        "operator": "UX Tools (Jordan Bowman and Taylor Palmer, per third-party 2021 coverage; not confirmed first-party)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All 18 challenge briefs (Understand/Ideate/Test/Implement) are openly viewable with no login, signup, or paywall observed on the listing or on an individual challenge page (user-interview).",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://uxtools.co/challenges/user-interview",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No formal license/ToS text found (a 'Privacy & Terms' link exists but its content wasn't retrievable) · commercial: not stated · attribution: not stated",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://uxtools.co/challenges",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "ux-challenges",
+        "type": "Course",
+        "category": "Design",
+        "title": "UX Challenges",
+        "description": "Free, scenario-based UX practice exercises covering research, ideation, testing and implementation, for designers building a portfolio.",
+        "tags": [
+          "ui-ux",
+          "prototyping"
+        ],
+        "relatedResources": [
+          "figma-community",
+          "dribbble"
+        ],
+        "similarResources": [
+          "figma-community"
+        ],
+        "keyFeatures": [
+          "18 standalone challenge briefs grouped into Understand, Ideate, Test, and Implement stages",
+          "Each brief gives a product scenario, a concrete deliverable, and an 'extra credit' stretch goal",
+          "No signup or payment required to view or start a challenge",
+          "Suggests optional supporting tools (e.g. Miro, Notion, Dovetail, Figma) and linked tutorials per challenge",
+          "Produces portfolio-ready case-study material for both beginner and experienced designers"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact or usable fuzzy match in Simple Icons for 'UX Challenges' or 'UX Tools'; recommend site favicon/logo capture if an icon is required."
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown reports found; third-party mentions (DEV.to launch post, SaaSHub listings, a 2021 French write-up) describe it as a legitimate, still-referenced practice resource."
+      },
+      "sources": [
+        {
+          "url": "https://uxtools.co/challenges",
+          "date": "2026-10-27",
+          "note": "Lists all 18 challenge titles; no pricing, login, or payment indicators."
+        },
+        {
+          "url": "https://uxtools.co/challenges/user-interview",
+          "date": "2026-10-27",
+          "note": "Confirms a specific challenge is fully viewable with no gate; gives scenario/deliverable structure."
+        },
+        {
+          "url": "https://uxtools.co",
+          "date": "2026-10-27",
+          "note": "Home page frames UX Challenges as one section of the broader UX Tools site (newsletter, tools directory, challenges)."
+        }
+      ],
+      "unverified": [
+        "Operator identity (Jordan Bowman / Taylor Palmer) comes from third-party 2021 coverage, not a first-party about/team page that was reachable.",
+        "No first-party page explicitly states the challenges are free forever vs. just not yet monetized.",
+        "This is a sub-section of uxtools.co, which a parallel teammate is researching as its own RL candidate ('ux-tools') this same round; if both get merged, the owner should decide whether UX Challenges stays a separate entry or becomes a 'siblings' note on the ux-tools resource to avoid near-duplicate listings."
+      ],
+      "injectionSeen": null
+    },
+    "ux-check": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "UX Check",
+        "url": "https://www.uxcheck.co",
+        "alive": true,
+        "operator": "Chris Gallello (Seattle)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "The Chrome extension is stated as 'Free for personal & commercial use'; no paid plan is listed anywhere on the site.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.uxcheck.co",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No formal license/ToS published (terms/privacy pages 404) · commercial: yes (stated 'free for personal & commercial use') · attribution: not required (no terms found requiring it)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.uxcheck.co",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "ux-check",
+        "type": "Extension",
+        "category": "Design",
+        "title": "UX Check",
+        "description": "Free Chrome extension for running heuristic evaluations of any website against Nielsen's 10 usability heuristics or a custom checklist.",
+        "tags": [
+          "ui-ux",
+          "extensions"
+        ],
+        "relatedResources": [
+          "figma-community"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Runs a heuristic evaluation using Nielsen's 10 usability heuristics or a user-defined custom list",
+          "Lets you click directly on page elements to flag and annotate issues",
+          "Saves annotated screenshots of flagged issues",
+          "Exports findings to a Word document for reporting",
+          "Free for both personal and commercial use, no account required"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact or usable fuzzy match in Simple Icons for 'UX Check'; recommend site favicon/logo capture if an icon is required."
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware reports for uxcheck.co or the chrisgallello Chrome extension; a similarly-named but unrelated extension ('UX Check Guru') was flagged elsewhere — distinct product, noted to avoid confusion."
+      },
+      "sources": [
+        {
+          "url": "https://www.uxcheck.co",
+          "date": "2026-10-27",
+          "note": "Describes the extension, states free for personal & commercial use, names Chris Gallello as creator."
+        },
+        {
+          "url": "https://www.uxcheck.co/terms",
+          "date": "2026-10-27",
+          "note": "404 — no terms page found."
+        },
+        {
+          "url": "https://www.uxcheck.co/privacy",
+          "date": "2026-10-27",
+          "note": "404 — no privacy page found."
+        },
+        {
+          "url": "https://chromewebstore.google.com/detail/ux-check/giekhiebdpmljgchjojblnekkcgpdobp",
+          "date": "2026-10-27",
+          "note": "JS-rendered listing did not return details directly; web-search snippet (second-hand) indicated version 1.0.16, last updated June 2019."
+        }
+      ],
+      "unverified": [
+        "Chrome Web Store listing could not be fetched directly (JS-only page); last-update info (~2019) is second-hand via search snippet, raising a possible staleness/maintenance question.",
+        "No formal terms of service or privacy policy page exists (both 404), so license nuances (e.g. data collected by the extension) are unconfirmed.",
+        "Could not confirm whether this is still the same uxcheck.co product referenced by the 2019-era Chrome extension or a newer rebuild."
+      ],
+      "injectionSeen": null
+    },
+    "ux-collective": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "UX Collective",
+        "url": "https://uxdesign.cc",
+        "alive": true,
+        "operator": "Fabricio Teixeira and Caio Braga (independent editors)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All editorial content is readable for free; it is a Medium-hosted publication (some individual Medium articles may sit behind Medium's own metered paywall, which is a Medium platform behavior, not a UX Collective fee)",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://uxdesign.cc/about",
+          "date": "2026-10-27",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "Independent editorial publication · commercial use: n/a (read-only content) · attribution: standard copyright, no explicit reuse/commercial license published · limit: no API or dataset, just articles",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://uxdesign.cc/submit-your-article-to-uxdesign-cc-abea95d3a1ba",
+          "date": "2026-10-27",
+          "confidence": "second-hand"
+        }
+      },
+      "rl": {
+        "slug": "ux-collective",
+        "type": "Resource",
+        "category": "Design",
+        "title": "UX Collective",
+        "description": "Independent design publication curating UX, product and visual design articles and case studies from a wide range of practitioner voices.",
+        "tags": [
+          "ui-ux",
+          "inspiration",
+          "writing"
+        ],
+        "relatedResources": [
+          "dribbble",
+          "behance"
+        ],
+        "similarResources": [
+          "fontpair"
+        ],
+        "keyFeatures": [
+          "Curated articles on UX, product and visual design from independent contributors, not brand/marketing posts",
+          "Case studies with a stated takeaway rather than pure portfolio pieces",
+          "Weekly newsletter roundup of top design reads",
+          "Ad-free editorial stance, aimed at makers (designers, researchers, developers, PMs) rather than business audiences",
+          "Companion DOC publication for longer in-depth pieces"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no Simple Icons match for 'UX Collective'"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Direct WebFetch of uxdesign.cc returned HTTP 403 (likely bot-check on the fetch tool's UA); confirmed alive and active via search results citing live 2026 newsletter/article pages."
+      },
+      "sources": [
+        {
+          "url": "https://uxdesign.cc/about",
+          "date": "2026-10-27",
+          "note": "Mission, editors, audience description (via search snippet, direct fetch was 403)"
+        },
+        {
+          "url": "https://uxdesign.cc/why-and-how-to-publish-with-the-ux-collective-8c8d1dd018a7",
+          "date": "2026-10-27",
+          "note": "Submission policy: no product promotion/brand posts, audience/follower figures"
+        },
+        {
+          "url": "https://uxdesign.cc/collective-update-the-return-to-blogging-and-a-more-personal-web-d4bc2a845284",
+          "date": "2026-10-27",
+          "note": "Confirms site actively publishing/updating in 2026"
+        }
+      ],
+      "unverified": [
+        "Could not directly fetch uxdesign.cc (403 on tool fetch) — all facts sourced second-hand via search snippets of the site's own pages",
+        "No explicit terms-of-use/license page found; copyright/reuse terms for site content not confirmed",
+        "Medium's own paywall behavior on individual articles not independently verified"
+      ],
+      "injectionSeen": null
+    },
+    "ux-gigs": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "UX Gigs",
+        "url": "https://uxgigs.co",
+        "alive": true,
+        "operator": "Simon Austerberry (credited as site builder; business operator not stated)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Browsing all job listings and salary/day-rate guides is free, no account required",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://uxgigs.co",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No published terms of use or license page found · commercial use: n/a (job board, no reusable assets) · attribution: company logos credited to Logo.dev · limit: email-alert subscription terms not disclosed",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://uxgigs.co",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "ux-gigs",
+        "type": "Website",
+        "category": "Design",
+        "title": "UX Gigs",
+        "description": "UK job board aggregating UX, UI, product design and research roles from 230+ company career pages, updated daily, with salary guides.",
+        "tags": [
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "dribbble"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Daily-updated listings for UX, UI, product design and UX research roles, junior to head of design",
+          "Roles pulled directly from 230+ companies' own career pages; closed roles are removed automatically",
+          "In-house and agency positions across the UK",
+          "Salary and day-rate guides derived from aggregated listing data",
+          "Optional email alerts for new roles",
+          "No account required to browse"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no Simple Icons match for 'UX Gigs'"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown signals found in search; small, single-builder site"
+      },
+      "sources": [
+        {
+          "url": "https://uxgigs.co",
+          "date": "2026-10-27",
+          "note": "Home page: scope, update cadence, free browsing, builder credit, salary guide, email alerts"
+        }
+      ],
+      "unverified": [
+        "Business/legal operator behind the site (vs. just the credited builder) not stated on-site",
+        "Whether the email-alert subscription is free or paid is not stated on-site",
+        "No terms-of-use/license page found to confirm no restriction on linking/listing"
+      ],
+      "injectionSeen": null
+    },
+    "ux-hints": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "UX Hints",
+        "url": "https://uxhints.com",
+        "alive": true,
+        "operator": "Paul Capcan"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All hints and cheat sheets are readable for free; optional newsletter subscription",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://uxhints.com",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No published terms of use or license page found beyond a privacy policy · commercial use: n/a (editorial hints/cheat sheets) · attribution: not required · limit: content reuse terms not disclosed",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://uxhints.com",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "ux-hints",
+        "type": "Resource",
+        "category": "Design",
+        "title": "UX Hints",
+        "description": "Bite-sized hints and cheat sheets on UX product design, covering accessibility, UX laws, user testing, typography and UX careers.",
+        "tags": [
+          "ui-ux",
+          "inspiration"
+        ],
+        "relatedResources": [
+          "fontpair"
+        ],
+        "similarResources": [
+          "figma-community"
+        ],
+        "keyFeatures": [
+          "Short, scannable hints and cheat sheets rather than long-form articles",
+          "Covers accessibility, UX laws, user testing, typography and UX career topics",
+          "Curated by a single author (Paul Capcan)",
+          "Free to browse, no account needed",
+          "Optional newsletter for new hints"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no Simple Icons match for 'UX Hints'"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown signals found in search; small, single-author site"
+      },
+      "sources": [
+        {
+          "url": "https://uxhints.com",
+          "date": "2026-10-27",
+          "note": "Home page: tagline, content topics, author credit, privacy policy link, newsletter"
+        }
+      ],
+      "unverified": [
+        "No terms-of-use/license page found to confirm no restriction on linking/listing",
+        "Business entity (if any) behind the single-author site not stated"
+      ],
+      "injectionSeen": null
+    },
+    "ux-lex": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "UX Lexicon",
+        "url": "https://www.curiositytank.com/ux-lexicon",
+        "alive": true,
+        "operator": "Curiosity Tank"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire glossary, acronym decoder and weekly terms email are free to browse with no sign-up required.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.curiositytank.com/ux-lexicon",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Curiosity Tank Terms & Conditions · commercial: no · attribution: not required · personal non-commercial use only, no automated/robot copying without written consent",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.curiositytank.com/terms-conditions",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "ux-lexicon",
+        "type": "Resource",
+        "category": "Design",
+        "title": "UX Lexicon",
+        "description": "An evolving glossary of UX research terms and acronyms built by practitioners, for researchers and designers who need quick, reliable definitions.",
+        "tags": [
+          "ui-ux",
+          "inspiration"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Browsable A-Z glossary of UX research terms, filterable by category (data gathering method, outputs, process, tools, role)",
+          "Acronym decoder for common UX and research abbreviations",
+          "Weekly new-terms email list",
+          "Crowd-sourced definitions credited to around 80 contributing UX practitioners",
+          "Open feedback channel to suggest missing or unclear terms"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no real Simple Icons match (only unrelated single-letter fuzzy hits e/c/x); no safe logo to use"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown signals found; site run by Curiosity Tank, an established UX consulting firm."
+      },
+      "sources": [
+        {
+          "url": "https://www.curiositytank.com/ux-lexicon",
+          "date": "2026-10-27",
+          "note": "what the glossary is, free access, contributors, features"
+        },
+        {
+          "url": "https://www.curiositytank.com/terms-conditions",
+          "date": "2026-10-27",
+          "note": "license/terms: personal non-commercial use, no scraping, no linking/directory clause"
+        }
+      ],
+      "unverified": [
+        "Exact launch date of the glossary beyond 'work began September 2019'",
+        "Whether any part of the lexicon itself (vs. Curiosity Tank's consulting services) is ever paywalled"
+      ],
+      "injectionSeen": null
+    },
+    "ux-magazine": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "UX Magazine",
+        "url": "https://uxmag.com",
+        "alive": true,
+        "operator": "UX Magazine (Robb Wilson and Josh Tyson named in About)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Articles, the weekly 'UX Brief' newsletter and most podcast episodes are free; a free membership ('Join free') unlocks member-only essays. No paid tier was found.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://uxmag.com",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "UX Magazine Terms of Service · commercial: no · attribution: not required · personal non-commercial use only; data gathering/scraping strictly prohibited; linking allowed under revocable permission (no framing/mirroring, no implied endorsement)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://uxmag.com/terms-of-service",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "ux-magazine",
+        "type": "Resource",
+        "category": "Design",
+        "title": "UX Magazine",
+        "description": "A UX and AI-focused online magazine with articles, podcast episodes and member essays covering design, research and emerging AI interaction patterns.",
+        "tags": [
+          "ui-ux",
+          "inspiration"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Articles and essays on UX and AI-driven design from practitioners and the Invisible Machines podcast team",
+          "Weekly free 'UX Brief' newsletter",
+          "Free membership sign-up unlocks member-only essays",
+          "Podcast episodes focused on the intersection of AI and UX"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no real Simple Icons match (only unrelated single-letter fuzzy hits e/x); no safe logo to use"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown signals found; distinct from the similarly-named UXmatters site."
+      },
+      "sources": [
+        {
+          "url": "https://uxmag.com",
+          "date": "2026-10-27",
+          "note": "what the site is, free vs. member content, operator names"
+        },
+        {
+          "url": "https://uxmag.com/terms-of-service",
+          "date": "2026-10-27",
+          "note": "license/terms: non-commercial use, scraping ban, conditional linking permission"
+        }
+      ],
+      "unverified": [
+        "Whether a paid membership tier exists beyond the free one found on the homepage",
+        "Legal entity name behind 'UX Magazine' beyond the named editors"
+      ],
+      "injectionSeen": null
+    },
+    "ux-mastery": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "UX Mastery",
+        "url": "https://uxmastery.com",
+        "alive": true,
+        "operator": "UX Mastery & Co"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Articles, forum access and resource pages are free to read.",
+        "paidFrom": "Paid monthly UX Mastery Membership (forum perks, ebooks, templates, private webinars, industry discounts) - exact price not shown on fetched pages",
+        "evidence": {
+          "url": "https://uxmastery.com/terms/",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "UX Mastery Terms and Conditions · commercial: no · attribution: not required · site content not for commercial copying/resale; linking to the site is explicitly allowed without consent",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://uxmastery.com/terms/",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "ux-mastery",
+        "type": "Resource",
+        "category": "Design",
+        "title": "UX Mastery",
+        "description": "An online learning community for human-centred designers with free articles and forums, plus a paid membership offering templates, webinars and discounts.",
+        "tags": [
+          "ui-ux",
+          "inspiration"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Free articles on UX design, research, careers and soft skills",
+          "Community forums for UX practitioners to discuss and get feedback",
+          "Paid membership tier unlocking ebooks, templates, private webinars and industry discounts",
+          "Curated resource pages pointing to external UX courses and tools"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no real Simple Icons match (only unrelated single-letter fuzzy hits e/r/x); no safe logo to use"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown signals found; unrelated to an unconnected print book also titled 'UX Mastery' found in search results."
+      },
+      "sources": [
+        {
+          "url": "https://uxmastery.com",
+          "date": "2026-10-27",
+          "note": "what the site is, free content, shop/forum links, operator"
+        },
+        {
+          "url": "https://uxmastery.com/terms/",
+          "date": "2026-10-27",
+          "note": "license/terms: linking explicitly allowed, commercial copying restricted, paid membership details"
+        }
+      ],
+      "unverified": [
+        "Exact price of the UX Mastery Membership",
+        "Whether UX Mastery still sells its own courses directly vs. only promoting Interaction Design Foundation courses"
+      ],
+      "injectionSeen": null
+    },
+    "ux-matters": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "UXmatters",
+        "url": "https://www.uxmatters.com",
+        "alive": true,
+        "operator": "Pabini Gabriel-Petit (Founder, Publisher & Editor in Chief)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All articles, columns and the glossary are free to read; funded by sponsorship, advertising and Patreon donations, no paywall or login required.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.uxmatters.com/about-us/",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "All rights reserved (articles) · commercial: no (content reuse not licensed) · attribution: not stated · limit: reading/linking only, no reuse license given",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.uxmatters.com",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "ux-matters",
+        "type": "Website",
+        "category": "Design",
+        "title": "UXmatters",
+        "description": "Long-running UX publication with articles, columns and a glossary on design, research, strategy and process, free to read.",
+        "tags": [
+          "ui-ux",
+          "inspiration"
+        ],
+        "relatedResources": [
+          "dribbble"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Articles and columns on UX design, research, strategy and process from many contributing authors",
+          "A UX glossary of terms",
+          "Author pages aggregating each contributor's articles",
+          "Free newsletter signup",
+          "Topic-based browsing (e.g. community, strategy, process)"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact or usable fuzzy Simple Icons match (closest hits were unrelated single letters)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Operates since 2005, no scam/malware/shutdown reports found; a 2020-era editorial controversy caused a brief suspension but site resumed and remains active."
+      },
+      "sources": [
+        {
+          "url": "https://www.uxmatters.com",
+          "date": "2026-10-27",
+          "note": "homepage content, founder credit, copyright footer"
+        },
+        {
+          "url": "https://www.uxmatters.com/about-us/",
+          "date": "2026-10-27",
+          "note": "editorial vision statement: free of charge for everyone"
+        }
+      ],
+      "unverified": [
+        "Exact hosting/legal entity behind the site beyond the named founder is not stated on the pages read.",
+        "No explicit content-reuse/license terms page was found."
+      ],
+      "injectionSeen": null
+    },
+    "ux-metrics": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "UX Metrics",
+        "url": "https://uxmetrics.com",
+        "alive": true,
+        "operator": "UX Metrics, LLC"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan forever, no credit card: all research methods available but limited to 1 study per method, 3 participant responses per study, 1 seat.",
+        "paidFrom": "Pro plan $49/seat/month ($499/seat/year) for unlimited studies, responses and team seats plus full report exports.",
+        "evidence": {
+          "url": "https://uxmetrics.com/pricing",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: yes (paid plans) · attribution: not required · limit: free tier capped at 1 study/method and 3 responses/study",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://uxmetrics.com/pricing",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "ux-metrics",
+        "type": "Tool",
+        "category": "Design",
+        "title": "UX Metrics",
+        "description": "Self-serve UX research platform for card sorts, tree tests, surveys, first-click and preference tests, with a free limited plan for researchers and PMs.",
+        "tags": [
+          "ui-ux",
+          "collaboration"
+        ],
+        "relatedResources": [
+          "figma",
+          "webflow"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Card sorting, tree testing, surveys, first-click, five-second, preference, prototype and live website tests",
+          "Session recording and user interviews",
+          "AI-assisted study drafting",
+          "Central research repository for storing and organizing study results",
+          "Participant recruiting via panel, shareable links or on-site intercepts",
+          "Read-only REST API and an MCP connection for AI agents"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact or usable fuzzy Simple Icons match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition reports found; search returned no results specific to this domain (limited evidence either way)."
+      },
+      "sources": [
+        {
+          "url": "https://uxmetrics.com",
+          "date": "2026-10-27",
+          "note": "product feature list, operator name, user-count claim"
+        },
+        {
+          "url": "https://uxmetrics.com/pricing",
+          "date": "2026-10-27",
+          "note": "free vs Pro plan details, prices, limits"
+        }
+      ],
+      "unverified": [
+        "Full Terms of Service / Privacy Policy text was not read (only linked from the homepage), so any listing/linking restriction is unconfirmed.",
+        "The claimed '17,214 users' figure is the vendor's own unverified marketing claim."
+      ],
+      "injectionSeen": null
+    },
+    "ux-movement": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "UX Movement",
+        "url": "https://uxmovement.com",
+        "alive": true,
+        "operator": "Anthony Tseng (founder), independent publication since 2010"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Website articles are free to read with no paywall or login; a separate Substack newsletter edition offers an optional paid tier for extra content, but the main site itself is free.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://uxmovement.com/about/",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "All rights reserved (articles) · commercial: no (content reuse not licensed) · attribution: not stated · limit: reading/linking only, includes paid sponsor posts",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://uxmovement.com",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "ux-movement",
+        "type": "Website",
+        "category": "Design",
+        "title": "UX Movement",
+        "description": "UX design publication teaching how to make interfaces more intuitive, with articles on forms, navigation, buttons, content and mobile design.",
+        "tags": [
+          "ui-ux",
+          "inspiration"
+        ],
+        "relatedResources": [
+          "dribbble"
+        ],
+        "similarResources": [
+          "ux-matters"
+        ],
+        "keyFeatures": [
+          "Articles organized by topic: forms, navigation, buttons, content, mobile, wireframes and UX thinking",
+          "Free email newsletter via Substack (with an optional paid tier for extra content)",
+          "RSS feed for following new posts",
+          "Sponsored/paid articles clearly separated under a Sponsors category",
+          "Active publication history dating back to 2010"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact or usable fuzzy Simple Icons match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition reports found; active since 2010 with a large newsletter following."
+      },
+      "sources": [
+        {
+          "url": "https://uxmovement.com",
+          "date": "2026-10-27",
+          "note": "homepage categories, sponsor content disclosure, copyright footer"
+        },
+        {
+          "url": "https://uxmovement.com/about/",
+          "date": "2026-10-27",
+          "note": "founder, publication history, no paywall stated on main site"
+        }
+      ],
+      "unverified": [
+        "Whether the Substack paid tier gates any content that also appears on the main uxmovement.com site is unconfirmed.",
+        "No explicit content-reuse/license terms page was found."
+      ],
+      "injectionSeen": null
+    },
+    "ux-myths": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "UX Myths",
+        "url": "https://uxmyths.com",
+        "alive": true,
+        "operator": "Zoltán Gócza and Zoltán Kollin (UX practitioners)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire site (myth list, about page, linked posters) is free to read, no account or paywall",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://uxmyths.com/about",
+          "date": "2026-10-27",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "No explicit site license · commercial: n/a (editorial content, not software) · attribution: not required to link · don't reproduce article text verbatim",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://uxmyths.com/about",
+          "date": "2026-10-27",
+          "confidence": "second-hand"
+        }
+      },
+      "rl": {
+        "slug": "ux-myths",
+        "type": "Resource",
+        "category": "Design",
+        "title": "UX Myths",
+        "description": "A curated list of common UX misconceptions, each debunked with evidence, for designers who want to move team debates from opinion to data.",
+        "tags": [
+          "ui-ux",
+          "inspiration"
+        ],
+        "relatedResources": [
+          "figma-community",
+          "fontpair"
+        ],
+        "similarResources": [
+          "dribbble"
+        ],
+        "keyFeatures": [
+          "Lists dozens of widely-held UX misconceptions, each explained and debunked with reasoning or evidence",
+          "Written and maintained by UX practitioners Zoltán Gócza and Zoltán Kollin",
+          "Links to free downloadable myth-busting poster designs made by a third-party designer",
+          "Works as a quick reference to settle opinion-based design arguments with research-backed counterpoints",
+          "Simple, text-first site with no login, paywall or account needed to read any entry"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: NOT FOUND in Simple Icons; closest fuzzy match ('x') is not a genuine brand match, so no icon library asset used"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown reports found via web search; long-running, well-known UX reference site"
+      },
+      "sources": [
+        {
+          "url": "https://uxmyths.com/about",
+          "date": "2026-10-27",
+          "note": "Site purpose, authors, free access (via search snippet, direct fetch returned HTTP 403 bot check)"
+        },
+        {
+          "url": "https://uxmyths.com",
+          "date": "2026-10-27",
+          "note": "Direct fetch attempt - blocked with 403"
+        }
+      ],
+      "unverified": [
+        "Last-updated date / how actively the myth list is maintained today - not confirmed first-party (direct fetch blocked)",
+        "Exact myth count (sources cite 32-34) not independently verified"
+      ],
+      "injectionSeen": null
+    },
+    "ux-pilot": {
+      "researchedOn": "2026-10-27",
+      "verdict": "skip",
+      "verdictReason": "No confirmed permanent free tier: the site's own copy only shows 'get started for free' / 'it's free' marketing language with no limits stated, and multiple independent third-party reviews (June 2026 review, Stork.ai listing) consistently describe the free offering as a one-time signup grant of ~45 credits (no recurring free quota), i.e. a trial/demo rather than RL's required permanent free tier. Paid plans start around $12-15/mo. Direct fetch of the pricing page (/plans) returned only nav/footer text, not the plan table, so this could not be confirmed first-party either way.",
+      "site": {
+        "name": "UX Pilot",
+        "url": "https://uxpilot.ai",
+        "alive": true,
+        "operator": "UX Pilot AI (support@uxpilot.ai; no legal entity/location named on site)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Reported by third parties as a one-time ~45 credit grant (no card required), not a recurring monthly free allowance - not independently confirmed first-party",
+        "paidFrom": "~$12-15/mo (Standard plan, annual billing) per third-party reviews - not independently confirmed first-party",
+        "evidence": {
+          "url": "https://uxpilot.ai/plans",
+          "date": "2026-10-27",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": "Terms of Service linked from site but text not retrieved · commercial use / listing restrictions unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://uxpilot.ai",
+          "date": "2026-10-27",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition reports found via web search; appears to be an actively operating AI design SaaS"
+      },
+      "sources": [
+        {
+          "url": "https://uxpilot.ai",
+          "date": "2026-10-27",
+          "note": "Home page copy: product description, free-start marketing language, footer/operator contact"
+        },
+        {
+          "url": "https://uxpilot.ai/plans",
+          "date": "2026-10-27",
+          "note": "Pricing page fetch twice returned only nav/footer, no plan table (JS-rendered content not captured)"
+        }
+      ],
+      "unverified": [
+        "Actual free-tier credit count and whether it ever renews (third-party sources disagree: 45 vs 90 credits)",
+        "Exact paid plan prices (third-party sources disagree: Standard $12 vs $14 vs $15/mo)",
+        "Terms of Service content (commercial-use / listing restrictions)"
+      ],
+      "injectionSeen": null
+    },
+    "ux-planet": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "UX Planet",
+        "url": "https://uxplanet.org",
+        "alive": true,
+        "operator": "Edited by Nick Babich (product designer), with a roster of contributing writers"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Publication content is free to read; hosted on a Medium-based platform (Medium's own metered paywall may apply to a minority of member-only posts, not the publication itself)",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://uxplanet.org/about",
+          "date": "2026-10-27",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "Standard copyright on published articles · commercial: n/a (editorial content, not software) · attribution: not required to link · don't reproduce article text verbatim",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://uxplanet.org/about",
+          "date": "2026-10-27",
+          "confidence": "second-hand"
+        }
+      },
+      "rl": {
+        "slug": "ux-planet",
+        "type": "Website",
+        "category": "Design",
+        "title": "UX Planet",
+        "description": "A UX/UI design publication with daily articles, case studies and tutorials on product design, research and design tools, edited by Nick Babich.",
+        "tags": [
+          "ui-ux",
+          "inspiration"
+        ],
+        "relatedResources": [
+          "dribbble",
+          "behance",
+          "awwwards"
+        ],
+        "similarResources": [
+          "dribbble"
+        ],
+        "keyFeatures": [
+          "Publishes frequent articles on UX research, UI design, product strategy and design case studies",
+          "Draws on a large roster of contributing designers rather than a single author",
+          "Organizes past content into yearly and monthly archives for browsing by period",
+          "Edited by Nick Babich, a practicing product designer, giving an editorial through-line",
+          "Covers emerging design tools and techniques aimed at working UX/UI practitioners"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: NOT FOUND in Simple Icons; fuzzy matches ('planet', 'plane', 'dotnet') are not genuine brand matches, so no icon library asset used"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown reports found via web search; long-running, well-known UX publication since ~2014"
+      },
+      "sources": [
+        {
+          "url": "https://uxplanet.org/about",
+          "date": "2026-10-27",
+          "note": "Editor name and publication description (via search snippet, direct fetch returned HTTP 403 bot check)"
+        },
+        {
+          "url": "https://uxplanet.org",
+          "date": "2026-10-27",
+          "note": "Direct fetch attempt - blocked with 403"
+        }
+      ],
+      "unverified": [
+        "Whether any articles sit behind Medium's member-only paywall (could not confirm first-party due to 403 on direct fetch)",
+        "Current publishing cadence / activity level in 2026 not independently confirmed first-party"
+      ],
+      "injectionSeen": null
+    },
+    "ux-studio": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "UX Studio",
+        "url": "https://uxstudioteam.com/ux-blog/",
+        "alive": true,
+        "operator": "UX studio (Budapest-based UX/UI design and research agency)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All blog articles, case studies and newsletter are free to read with no paywall",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://uxstudioteam.com/ux-blog/",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "UX studio blog · commercial: yes (no restriction found) · attribution: not required · content is editorial, reuse not implied",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://uxstudioteam.com/privacy-policy",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "ux-studio",
+        "type": "Website",
+        "category": "Design",
+        "title": "UX Studio",
+        "description": "Free UX/UI blog from a design agency covering SaaS, AI, research methods and case studies for product and design teams.",
+        "tags": [
+          "ui-ux",
+          "inspiration"
+        ],
+        "relatedResources": [
+          "dribbble",
+          "behance"
+        ],
+        "similarResources": [
+          "fontpair"
+        ],
+        "keyFeatures": [
+          "Articles on UX research methods, SaaS UX and AI-in-design topics",
+          "Case studies from the agency's own client work",
+          "Newsletter with design and research insights",
+          "Free to browse with no account or paywall",
+          "Written by a mix of in-house UX researchers and designers"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no genuine Simple Icons match (only unrelated single-letter fuzzy hits D/X)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition reports found in search"
+      },
+      "sources": [
+        {
+          "url": "https://uxstudioteam.com/ux-blog/",
+          "date": "2026-10-27",
+          "note": "site purpose, content type, free access, operator (UX studio, Budapest)"
+        },
+        {
+          "url": "https://uxstudioteam.com/privacy-policy",
+          "date": "2026-10-27",
+          "note": "checked for any link/listing or commercial-use restriction - none found"
+        }
+      ],
+      "unverified": [
+        "Full terms-of-use document (only privacy policy was readable) was not located; no restrictive clause found in what was read"
+      ],
+      "injectionSeen": null
+    },
+    "ux-tools": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "UX Tools",
+        "url": "https://uxtools.co",
+        "alive": true,
+        "operator": "Likely run by Tom Geoco (\"designertom\"/\"tommygeoco\" social handles linked from the site; not explicitly confirmed on-page)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Articles, podcast, surveys and community content are free; free newsletter subscription",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://uxtools.co",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "UX Tools editorial content · commercial: yes (no restriction found) · attribution: not required · no reuse license implied",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://uxtools.co",
+          "date": "2026-10-27",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "ux-tools",
+        "type": "Website",
+        "category": "Design",
+        "title": "UX Tools",
+        "description": "Design publication with articles, a podcast and annual surveys on design tools, careers and workflows for UX/product designers.",
+        "tags": [
+          "ui-ux",
+          "inspiration"
+        ],
+        "relatedResources": [
+          "dribbble",
+          "awwwards"
+        ],
+        "similarResources": [
+          "ux-studio"
+        ],
+        "keyFeatures": [
+          "Articles on design tools, workflows and design careers",
+          "\"Dive Radio\" podcast covering design and hiring topics",
+          "Annual Design Tools Survey and State of Design Jobs Survey",
+          "Free newsletter with tool news and early access",
+          "Community section for designers"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no genuine Simple Icons match (only unrelated single-letter fuzzy hit X)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition reports found in search"
+      },
+      "sources": [
+        {
+          "url": "https://uxtools.co",
+          "date": "2026-10-27",
+          "note": "site purpose, content sections, free access, claimed readership size"
+        },
+        {
+          "url": "https://uxtools.co/privacy",
+          "date": "2026-10-27",
+          "note": "attempted fetch for terms/license - returned 404, not read"
+        }
+      ],
+      "unverified": [
+        "Site operator identity (inferred only from linked social handles, not confirmed by an About page)",
+        "Privacy/terms page content (URL returned 404)"
+      ],
+      "injectionSeen": null
+    },
+    "ux-trends": {
+      "researchedOn": "2026-10-27",
+      "verdict": "skip",
+      "verdictReason": "https://trends.uxdesign.cc returns HTTP 404 on fetch (confirmed on retry) - the URL does not resolve to a live standalone page. The content it would have covered (UX Collective's annual trends/State-of-UX writeups) lives as tagged articles within uxdesign.cc itself, which is being researched separately this round as UX Collective - so even if the URL worked, this would be a sub-page/duplicate of that resource, not a distinct listing.",
+      "site": {
+        "name": "UX Trends",
+        "url": "https://trends.uxdesign.cc",
+        "alive": false,
+        "operator": "UX Collective / uxdesign.cc (per web search results)"
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No content reachable to assess beyond the 404 response"
+      },
+      "sources": [
+        {
+          "url": "https://trends.uxdesign.cc",
+          "date": "2026-10-27",
+          "note": "initial fetch returned HTTP 404"
+        },
+        {
+          "url": "https://trends.uxdesign.cc/",
+          "date": "2026-10-27",
+          "note": "retry with trailing slash - still HTTP 404"
+        }
+      ],
+      "unverified": [
+        "Whether trends.uxdesign.cc ever existed as a standalone subdomain or was always just informal shorthand for uxdesign.cc's trends-tagged articles"
+      ],
+      "injectionSeen": null
+    },
+    "uxcel": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Uxcel",
+        "url": "https://uxcel.com/courses",
+        "alive": true,
+        "operator": "Uxcel, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Starter plan (free, no credit card required): first level of every course, skill assessments, projects and peer feedback.",
+        "paidFrom": "Pro (monthly/yearly, price not shown as a concrete figure on the pricing page at fetch time) and a one-time Lifetime Pro plan; both include full access to 60+ courses and certificates.",
+        "evidence": {
+          "url": "https://uxcel.com/pricing",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS course platform · commercial use: yes (learning content for professional use) · attribution: not required · limit: paid content gated behind Pro/Lifetime Pro plans",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://uxcel.com/pricing",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "uxcel",
+        "type": "Course",
+        "category": "Design",
+        "title": "Uxcel",
+        "description": "Self-paced online courses on UX design, product management and AI skills, with assessments, certificates and a free Starter tier.",
+        "tags": [
+          "ui-ux",
+          "prototyping"
+        ],
+        "relatedResources": [
+          "figma",
+          "dribbble",
+          "framer"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "60+ short, self-paced interactive courses covering UX design, product management and AI skills",
+          "Free Starter plan gives access to the first level of every course plus skill assessments, no card required",
+          "Shareable certificates on course completion, with 9 structured career paths on paid plans",
+          "Mentor-led project reviews and peer feedback built into courses",
+          "Mobile app access and a library of AI product/UX agent skills on the Pro plan",
+          "Team/business plan for organizations training multiple designers at once"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact or fuzzy Simple Icons match for Uxcel"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown reports found in web search; site is live and operating normally."
+      },
+      "sources": [
+        {
+          "url": "https://uxcel.com/courses",
+          "date": "2026-10-27",
+          "note": "What the platform is, who it's for, course catalog description"
+        },
+        {
+          "url": "https://uxcel.com/pricing",
+          "date": "2026-10-27",
+          "note": "Free Starter tier details, Pro/Lifetime Pro plan features"
+        }
+      ],
+      "unverified": [
+        "Exact Pro and Lifetime Pro prices were not visible in the fetched pricing page content (shown as placeholders) — needs a follow-up check before quoting a number.",
+        "Whether the free Starter tier is explicitly described as 'permanent' by Uxcel is not stated; it has no listed end date and no card requirement, treated as a permanent free tier for this verdict."
+      ],
+      "injectionSeen": null
+    },
+    "uxdummy": {
+      "researchedOn": "2026-10-27",
+      "verdict": "skip",
+      "verdictReason": "Dead as an independent tool: uxdummy.com now 301-redirects permanently to an unrelated third-party product, https://appiqa.com/tools/ux-persona-studio (operator: Appiqa). That page itself refers to 'legacy fake name generators like UXDummy or FakeNameGenerator' as a distinct, prior thing it supersedes, confirming UXDummy no longer operates as its own site/product. Nothing to list under the UXDummy brand; the Appiqa tool it redirects to is a different product and out of scope for this task.",
+      "site": {
+        "name": "UXDummy",
+        "url": "https://uxdummy.com",
+        "alive": false,
+        "operator": "Appiqa (current owner of the domain; original UXDummy operator unknown)"
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Domain now owned/redirected by Appiqa; no scam or malware reports found in web search for UXDummy. Redirect itself is not malicious, just a brand/product change."
+      },
+      "sources": [
+        {
+          "url": "https://uxdummy.com",
+          "date": "2026-10-27",
+          "note": "301 redirect target observed: https://appiqa.com/tools/ux-persona-studio"
+        },
+        {
+          "url": "https://appiqa.com/tools/ux-persona-studio",
+          "date": "2026-10-27",
+          "note": "Confirms current page is a different product (Appiqa UX Persona Studio) and explicitly calls UXDummy a 'legacy' fake name generator"
+        }
+      ],
+      "unverified": [
+        "No confirmation found of exactly when uxdummy.com stopped operating independently or whether it was formally acquired by Appiqa vs. the domain simply being repurposed."
+      ],
+      "injectionSeen": null
+    },
+    "uxia": {
+      "researchedOn": "2026-10-27",
+      "verdict": "skip",
+      "verdictReason": "No permanent free tier: pricing page offers only a one-time free trial test ('Experience the power of Uxia with one free test', limited tests/credits/testers), then 'Custom' (quote-based) and 'Managed research' (contact for price) plans. Paid-only / trial-only product, fails the 'list' requirement for a confirmed permanent free tier.",
+      "site": {
+        "name": "Uxia",
+        "url": "https://www.uxia.app",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.uxia.app/pricing",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.uxia.app/pricing",
+          "date": "2026-10-27",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition signals found in a general web search; search returned unrelated results (no coverage of this specific tool either way)."
+      },
+      "sources": [
+        {
+          "url": "https://www.uxia.app",
+          "date": "2026-10-27",
+          "note": "Product description: UX testing platform with AI-moderated interviews (synthetic + human participants), accessibility checks, surveys, card sorting, MCP integration for AI agents; 'Trusted by +900 product teams'."
+        },
+        {
+          "url": "https://www.uxia.app/pricing",
+          "date": "2026-10-27",
+          "note": "Pricing tiers: free one-test trial (not a permanent free plan), Custom (quote-based, unlimited tests/credits/audiences/testers), Managed research (contact for price)."
+        }
+      ],
+      "unverified": [
+        "License/ToS content not read beyond link presence (Terms of Service, Privacy Policy, Security Policy, Cookie Policy links exist on homepage but were not fetched since verdict is skip on pricing grounds)."
+      ],
+      "injectionSeen": null
+    },
+    "uxsnaps": {
+      "researchedOn": "2026-10-27",
+      "verdict": "blocked",
+      "verdictReason": "Site returned HTTP 429 Too Many Requests on both the initial fetch and the one allowed retry (tried both https://www.uxsnaps.com and https://uxsnaps.com/). No first-party content could be read. A web search for pricing turned up only one indirect third-party listing (a directory submission site, productcool.com) describing it as 'a platform for UI/UX breakdowns of well-known apps' (reverse-engineering design patterns/microinteractions from apps like Netflix, Airbnb, Discord), but no pricing or license details were found there.",
+      "site": {
+        "name": "UXSnaps",
+        "url": "https://www.uxsnaps.com",
+        "alive": null,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": null,
+        "freeTier": null,
+        "paidFrom": null,
+        "evidence": {
+          "url": null,
+          "date": "2026-10-27",
+          "confidence": "not-read"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": null,
+          "date": "2026-10-27",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No malware/scam/shutdown/acquisition signals found; site itself could not be reached to verify further (persistent 429)."
+      },
+      "sources": [
+        {
+          "url": "https://www.uxsnaps.com",
+          "date": "2026-10-27",
+          "note": "Fetch attempt returned HTTP 429, no content retrieved."
+        },
+        {
+          "url": "https://www.productcool.com/product/uxsnaps",
+          "date": "2026-10-27",
+          "note": "Third-party directory listing (not first-party) describing UXSnaps as a UI/UX breakdown tool for popular apps; found via web search, not fetched directly."
+        }
+      ],
+      "unverified": [
+        "Pricing, license/ToS, free tier existence, exact product description, operator — all unverified due to persistent 429 blocking first-party access."
+      ],
+      "injectionSeen": null
     }
   }
 }
