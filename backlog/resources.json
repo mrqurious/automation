@@ -119045,6 +119045,2495 @@
         "Print edition (Visuelle Editions) price not found"
       ],
       "injectionSeen": null
+    },
+    "voicenotes": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "Voicenotes",
+        "url": "https://voicenotes.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Basic plan ($0): unlimited recordings, 100 transcription minutes/week, 100+ languages, 30-day note history",
+        "paidFrom": "Pro $9/user/month (unlimited minutes, live transcription, MCP, integrations); Enterprise $24/user/month (SSO/SCIM, admin controls)",
+        "evidence": {
+          "url": "https://voicenotes.com/pricing",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: yes (paid tiers include team/enterprise billing) · attribution: not required · limit: free tier capped at 100 transcription minutes/week",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://voicenotes.com/pricing",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "voicenotes",
+        "type": "AI Tool",
+        "category": "Productivity",
+        "title": "Voicenotes",
+        "description": "AI meeting notetaker that joins calls without a bot, turning voice into transcripts, summaries and action items for private meetings.",
+        "tags": [
+          "ai-tool",
+          "productivity",
+          "automation"
+        ],
+        "relatedResources": [
+          "chatgpt",
+          "claude-ai",
+          "coda"
+        ],
+        "similarResources": [
+          "chatgpt",
+          "claude-ai"
+        ],
+        "keyFeatures": [
+          "Captures Zoom, Teams, Google Meet, Webex and Slack calls without a bot joining the meeting",
+          "Generates summaries, action items and follow-up drafts right after the meeting ends",
+          "Transcribes in 60+ languages with automatic language detection",
+          "Keeps a searchable history of past meeting notes",
+          "Ships native apps for macOS, Windows, iOS, Android, web and smartwatch",
+          "Holds SOC 2 Type II and GDPR compliance; states recordings are not used to train AI models"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No clean Simple Icons match; check-icon.mjs fuzzy hits were generic single letters (v, note), not the brand mark"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Trustpilot shows user complaints about trial cancellation/refund friction, not malware or a shutdown; company reply on the review page describes a 14-day/under-6-hours refund policy"
+      },
+      "sources": [
+        {
+          "url": "https://voicenotes.com",
+          "date": "2026-10-27",
+          "note": "product description, feature list, platforms, compliance claims"
+        },
+        {
+          "url": "https://voicenotes.com/pricing",
+          "date": "2026-10-27",
+          "note": "Basic/Pro/Enterprise plan details and prices"
+        },
+        {
+          "url": "https://digitool.co/tool/voicenotes/",
+          "date": "2026-10-27",
+          "note": "resolved real site URL (voicenotes.com) from directory listing"
+        },
+        {
+          "url": "https://br.trustpilot.com/review/voicenotes.com",
+          "date": "2026-10-27",
+          "note": "safety check search result; user complaints about refunds, no malware/shutdown evidence"
+        }
+      ],
+      "unverified": [
+        "Exact refund-dispute details from Trustpilot reviews are user-reported and unverified"
+      ],
+      "injectionSeen": null
+    },
+    "vokal": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "Vokal",
+        "url": "https://vokal.co",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "A free plan exists per the pricing-page FAQ ('there is also a free plan available'); exact minute/export limits are not stated on the page",
+        "paidFrom": "Starter $16/month (or $12/month billed yearly, $144/yr): 5-min videos, 20 min/month, 1080p; Pro $32/month (or $24/month billed yearly, $288/yr): 20-min videos, 120 min/month, 1080p",
+        "evidence": {
+          "url": "https://vokal.co/pricing",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: yes (used for social media marketing videos) · attribution: not required · limit: free plan's exact caps undisclosed on site",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://vokal.co/pricing",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "vokal",
+        "type": "Tool",
+        "category": "Filming",
+        "title": "Vokal",
+        "description": "Video editor that turns podcasts and other audio into social videos with waveform animations, auto subtitles and templates.",
+        "tags": [
+          "video-template",
+          "social-media-design",
+          "template"
+        ],
+        "relatedResources": [
+          "canva-templates",
+          "canva",
+          "mixkit"
+        ],
+        "similarResources": [
+          "canva",
+          "mixkit"
+        ],
+        "keyFeatures": [
+          "Converts raw audio into social-ready video with animated waveform visuals",
+          "Auto-generates subtitles transcribed from video or audio in multiple languages",
+          "Offers premium templates with images, video, stickers, GIFs and text overlays",
+          "Includes built-in stock video and photo library",
+          "Adds time-progress bars for podcast/episode-style videos",
+          "Exports for Facebook, Instagram, YouTube, TikTok and LinkedIn formats"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No clean Simple Icons match; check-icon.mjs fuzzy hit was a generic single letter (v), not the brand mark"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No malware/shutdown/acquisition reports found for vokal.co; unrelated search hits were for a different domain, vokaal.com (a vocal-sample marketplace with unrelated seller-payment complaints)"
+      },
+      "sources": [
+        {
+          "url": "https://vokal.co",
+          "date": "2026-10-27",
+          "note": "product description, feature list, audience"
+        },
+        {
+          "url": "https://vokal.co/pricing",
+          "date": "2026-10-27",
+          "note": "Starter/Pro prices and the FAQ mention of a free plan"
+        }
+      ],
+      "unverified": [
+        "Exact free-plan limits (minutes, export resolution, watermark) are not stated anywhere on vokal.co"
+      ],
+      "injectionSeen": null
+    },
+    "volume": {
+      "researchedOn": "2026-10-27",
+      "verdict": "blocked",
+      "verdictReason": "volumecolor.io is a pure client-rendered (JS-only) single-page app; fetching the home page and pricing page returned only the HTML <title> tag with no body content, navigation, or pricing text, even after retrying with a different extraction prompt. Could not verify pricing, license, or feature claims first-party.",
+      "site": {
+        "name": "Volume",
+        "url": "https://www.volumecolor.io",
+        "alive": true,
+        "operator": null
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition reports found in search; third-party listings (Product Hunt, BetaList) describe a same-named '3D OKLCH color palette' product and a related Figma plugin, but neither confirms they are the same site or operator as volumecolor.io, and neither is a first-party source"
+      },
+      "sources": [
+        {
+          "url": "https://www.volumecolor.io",
+          "date": "2026-10-27",
+          "note": "home page fetch returned only page title: 'Volume – 3D OKLCH Color Palette Creator'"
+        },
+        {
+          "url": "https://www.volumecolor.io/pricing",
+          "date": "2026-10-27",
+          "note": "pricing page fetch returned no content"
+        },
+        {
+          "url": "https://www.producthunt.com/products/new-figma-plugin-volume",
+          "date": "2026-10-27",
+          "note": "third-party listing for a possibly-related Figma plugin called Volume; not confirmed as same product/site"
+        },
+        {
+          "url": "https://betalist.com/startups/volume",
+          "date": "2026-10-27",
+          "note": "third-party listing describing a '3D OKLCH color palette generator' called Volume; did not confirm volumecolor.io as the URL"
+        }
+      ],
+      "unverified": [
+        "Actual page content, pricing, license terms, and whether this is the same product as the Product Hunt/BetaList 'Volume' listings"
+      ],
+      "injectionSeen": null
+    },
+    "volume-mockups": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "Volume Mockups",
+        "url": "https://volumemockups.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free mockups page offers ~16 high-resolution device mockups (MacBook/iPhone scenes), usable for personal and commercial projects, no sign-up or limit stated.",
+        "paidFrom": "$19/mo 'All Access' subscription for the full library (234+ mockups incl. animated formats) and future releases; page notes the shown price is for annual billing.",
+        "evidence": {
+          "url": "https://volumemockups.com/free-mockups",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Volume Mockups custom license · commercial: yes · attribution: not required · no reselling/redistributing source files or using them to train AI models",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://volumemockups.com/licenses",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "volume-mockups",
+        "type": "Template",
+        "category": "Design",
+        "title": "Volume Mockups",
+        "description": "Subscription library of device mockups for iPhone, MacBook and Studio Display, with a browser-based compositor to drop in designs and export PNG or MP4.",
+        "tags": [
+          "design-templates",
+          "graphic-design",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "canva-templates",
+          "figma-community"
+        ],
+        "similarResources": [
+          "canva-templates"
+        ],
+        "keyFeatures": [
+          "230+ device mockups covering iPhone, MacBook and Studio Display in static and animated formats",
+          "Browser-based Mockup Compositor to drop a design into a mockup and export as PNG or MP4",
+          "Free section with roughly 16 mockups usable for personal and commercial work",
+          "Commercial license with no attribution required on all paid downloads",
+          "All Access subscription at $19/mo covering the full library and future releases"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no Simple Icons match (check-icon.mjs exit 1, closest matches were single-letter glyphs with no real relation to the brand)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": null
+      },
+      "sources": [
+        {
+          "url": "https://volumemockups.com",
+          "date": "2026-10-27",
+          "note": "product description, audience, main pricing figure"
+        },
+        {
+          "url": "https://volumemockups.com/free-mockups",
+          "date": "2026-10-27",
+          "note": "confirms permanent free tier of ~16 mockups"
+        },
+        {
+          "url": "https://volumemockups.com/licenses",
+          "date": "2026-10-27",
+          "note": "license terms (commercial use, no attribution, restrictions)"
+        }
+      ],
+      "unverified": [
+        "Whether the free mockups page is guaranteed permanent vs. subject to change was not explicitly stated, only inferred from no stated expiry/signup.",
+        "Operator/company behind the site not stated on the pages fetched.",
+        "check-icon.mjs returned only single-letter fuzzy matches (e, c, cplusplus, ups, v) with no real relation to the brand; treated as no match."
+      ],
+      "injectionSeen": null
+    },
+    "voxdeck": {
+      "researchedOn": "2026-10-27",
+      "verdict": "blocked",
+      "verdictReason": "Home page renders real content (first-party, confirms it's an AI presentation/slide maker with 'Try for free' CTAs), but the pricing page (/pricing link target not resolvable from footer/nav) and both agreement pages (/agreement/termsofuse, /agreement/privacypolicy) return only the page title with no body content even after retry — the site appears to be a JS-rendered SPA that this fetch tool cannot execute. Could not confirm whether the free option is a permanent tier or a time-limited trial, and could not read any license/commercial-use terms, so a list/skip verdict cannot be made responsibly.",
+      "site": {
+        "name": "VoxDeck",
+        "url": "https://www.voxdeck.ai",
+        "alive": true,
+        "operator": null
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No safety-search hits (name too generic/small to distinguish from unrelated 'Vox AI' products); no evidence of malware, scam, shutdown or acquisition found."
+      },
+      "sources": [
+        {
+          "url": "https://www.voxdeck.ai",
+          "date": "2026-10-27",
+          "note": "product description, audience (education/marketing/finance/research), 'Try for free' CTAs, footer link paths"
+        },
+        {
+          "url": "https://www.voxdeck.ai/pricing",
+          "date": "2026-10-27",
+          "note": "attempted fetch, returned only page title, no plan/price data"
+        },
+        {
+          "url": "https://www.voxdeck.ai/agreement/termsofuse",
+          "date": "2026-10-27",
+          "note": "attempted fetch, returned only page title, no terms text"
+        }
+      ],
+      "unverified": [
+        "No first-party pricing figures or plan names obtained.",
+        "No first-party license/commercial-use terms obtained.",
+        "Third-party aggregator pages (not used as sources per rules) suggest a freemium model but conflict with each other and are not dated/first-party, so not relied on."
+      ],
+      "injectionSeen": null
+    },
+    "voyager": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "Voyager",
+        "url": "https://voyager.so",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan, no card required: 1,000 credits/month per workspace, capped at 500 credits per 5-hour window, no rollover, limited parallel generations; video generation requires the user's own provider key (e.g. fal, Google). Page notes the free plan 'may change or end at any time'.",
+        "paidFrom": "Starter $19/mo (1,800 credits), Creator $49/mo (4,900 credits), Ultra $149/mo (16,000 credits), GigaMax $500/mo (60,000 credits); 15% off on annual billing; Team and Enterprise by quote.",
+        "evidence": {
+          "url": "https://voyager.so/pricing",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No published software license found · commercial use not addressed on pages fetched · desktop app (macOS) distributed via download, no open-source license stated",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://voyager.so",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "voyager",
+        "type": "AI Tool",
+        "category": "Filming",
+        "title": "Voyager",
+        "description": "Desktop AI harness that connects models like Claude, ChatGPT or its own agent to creative apps (Blender, DaVinci Resolve, Unreal, After Effects, Ableton) for editing and motion work.",
+        "tags": [
+          "ai-tool",
+          "automation"
+        ],
+        "relatedResources": [
+          "chatgpt",
+          "claude-ai"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Connects AI models (Claude, ChatGPT, Kimi, DeepSeek) or Voyager's own agent directly to creative apps such as Blender, DaVinci Resolve, Unreal Engine, After Effects and Ableton Live",
+          "Learns from user-selected skills and keeps a working memory across sessions",
+          "Free plan with 1,000 credits/month, no card required, or bring-your-own Claude/ChatGPT key",
+          "Paid tiers from $19/mo scaling credits up to a $500/mo GigaMax plan, plus Team and Enterprise options",
+          "macOS desktop app; example use cases include trailer cutting, previs, title animation, product ads and color grading"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no Simple Icons match (check-icon.mjs exit 1, closest matches were single-letter glyphs with no real relation to the brand)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Safety search returned results about the unrelated, defunct crypto broker 'Voyager Digital' and an unrelated 2005 computer worm named 'Voyager'; none relate to voyager.so. No evidence of malware, scam, shutdown or acquisition for this product."
+      },
+      "sources": [
+        {
+          "url": "https://voyager.so",
+          "date": "2026-10-27",
+          "note": "product description, audience, platform (macOS), free-plan headline"
+        },
+        {
+          "url": "https://voyager.so/pricing",
+          "date": "2026-10-27",
+          "note": "full plan list, prices, free-plan limits"
+        }
+      ],
+      "unverified": [
+        "No explicit software/commercial-use license statement found on the pages fetched; Terms/Privacy footer links were not opened.",
+        "Operator/company name behind Voyager not stated on the pages fetched.",
+        "check-icon.mjs returned only single-letter fuzzy matches (e, r, v) with no real relation to the brand; treated as no match."
+      ],
+      "injectionSeen": null
+    },
+    "vybe": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "Vybe",
+        "url": "https://www.vybe.build",
+        "alive": true,
+        "operator": "Vybe AI, Inc. (Delaware; San Francisco)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "$0/month, 1,000 credits refilled monthly (no rollover), no credit card required, agents in Slack channels, every model with smart routing, unlimited teammates",
+        "paidFrom": "Starter $20/month (2,000 credits); Pro $50/month; Team $100/month; Enterprise custom",
+        "evidence": {
+          "url": "https://www.vybe.build/pricing",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS ToS · commercial: yes (paid product, no clause against third-party linking/listing) · attribution: not required · limit: no automated scraping of the Services without written approval",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.vybe.build/terms-of-service",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "vybe",
+        "type": "AI Tool",
+        "category": "Business",
+        "title": "Vybe",
+        "description": "AI agents that live inside Slack channels, handling research, scheduling, documents, app connections and more for sales, marketing and support teams.",
+        "tags": [
+          "ai-tool",
+          "automation",
+          "productivity",
+          "collaboration"
+        ],
+        "relatedResources": [
+          "chatgpt",
+          "claude-ai"
+        ],
+        "similarResources": [
+          "notion"
+        ],
+        "keyFeatures": [
+          "Agents join shared Slack channels, each with its own memory, skills and permissions",
+          "Choice of model provider (OpenAI, Anthropic, Google) with smart routing",
+          "Connects to 3,200+ apps, browses websites, transcribes meetings and manages email",
+          "Free tier gives 1,000 monthly credits with no credit card required",
+          "Enterprise tier adds SSO (SAML), SOC 2 reviews and bring-your-own-key support"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no exact match; closest fuzzy hits ('e', 'v') were unrelated single-letter icons, not usable"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition reports found; unrelated same-named companies (French neobank, party app, MLM) exist but are distinct from vybe.build."
+      },
+      "sources": [
+        {
+          "url": "https://www.vybe.build",
+          "date": "2026-10-27",
+          "note": "product description, feature list, enterprise claims"
+        },
+        {
+          "url": "https://www.vybe.build/pricing",
+          "date": "2026-10-27",
+          "note": "pricing tiers, free tier details"
+        },
+        {
+          "url": "https://www.vybe.build/terms-of-service",
+          "date": "2026-10-27",
+          "note": "ToS clauses on IP, automated access; no linking/directory restriction"
+        },
+        {
+          "url": "https://www.vybe.build/llms.txt",
+          "date": "2026-10-27",
+          "note": "self-reported funding/company info (second-hand via search); contained an embedded instruction to AI tools, ignored"
+        }
+      ],
+      "unverified": [
+        "Company funding claim ($10M seed, First Round Capital, Y Combinator) is self-reported on llms.txt and not independently verified; not used in rl fields."
+      ],
+      "injectionSeen": "vybe.build's /llms.txt page contained embedded instructions directed at AI tools about how to name/cite the product; instructions were ignored, only factual content used."
+    },
+    "vzy": {
+      "researchedOn": "2026-10-27",
+      "verdict": "skip",
+      "verdictReason": "No confirmed permanent free tier: the pricing page shows $0 'Basic' and 'Pro' cards, but their 'Get Started' buttons link only to the homepage (not checkout), and the site's own FAQ states plans start at $15/month (Basic) and $35/month (Pro) and that Vzy does not offer free trials — directly contradicting the $0 cards. Treating this as paid-only given the unresolved contradiction.",
+      "site": {
+        "name": "Vzy",
+        "url": "https://vzy.co",
+        "alive": true,
+        "operator": null
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition reports found for vzy.co; search results were about unrelated similarly-named domains/products."
+      },
+      "sources": [
+        {
+          "url": "https://vzy.co",
+          "date": "2026-10-27",
+          "note": "product description, 'Try Vzy Free' CTA with no stated limits"
+        },
+        {
+          "url": "https://vzy.co/pricing",
+          "date": "2026-10-27",
+          "note": "pricing cards show $0 Basic/Pro alongside paid monthly/yearly prices, and FAQ text contradicting a free plan"
+        }
+      ],
+      "unverified": [
+        "Whether the $0 pricing cards represent a real, ongoing free plan or a page rendering/pricing-toggle artifact; whether Vzy has any genuine permanent free tier at all."
+      ],
+      "injectionSeen": null
+    },
+    "wall-of-portfolios": {
+      "researchedOn": "2026-10-27",
+      "verdict": "needs-owner",
+      "verdictReason": "Site's own Terms of Service (hosted at jobtracker.wallofportfolios.in/terms, shared with its Job Tracker product) say content/Services 'may not be exploited for any commercial purpose whatsoever' and 'may not be used in connection with any commercial endeavors' without express prior written permission, and require authorization for 'framing of or linking to the Services.' RL listing this site (a directory site that itself links out commercially) could run into that clause; needs the owner's call on whether to list, or to seek the site's permission first (contact: support@wallofportfolios.in).",
+      "site": {
+        "name": "Wall of Portfolios",
+        "url": "https://www.wallofportfolios.in",
+        "alive": true,
+        "operator": null
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition reports found."
+      },
+      "sources": [
+        {
+          "url": "https://www.wallofportfolios.in",
+          "date": "2026-10-27",
+          "note": "product description: portfolio discovery/showcase site with Job Tracker and Case Studies sections, free submission CTA"
+        },
+        {
+          "url": "https://jobtracker.wallofportfolios.in/terms",
+          "date": "2026-10-27",
+          "note": "ToS clauses on commercial use restriction and linking/framing requiring written permission"
+        }
+      ],
+      "unverified": [
+        "Whether a paid tier exists anywhere on the site beyond the free submission CTA; no pricing page was found (404 at /pricing).",
+        "Whether the company would grant permission for a directory listing/link — not contacted."
+      ],
+      "injectionSeen": null
+    },
+    "walling": {
+      "researchedOn": "2026-10-27",
+      "verdict": "blocked",
+      "verdictReason": "walling.app is a JS-only SPA; both the home page and /pricing returned only a page title (\"Walling - Organize & Present Your Ideas\") and a logo with no body content, even after retrying on a second URL. Could not confirm pricing/license first-party. Third-party listings (Capterra/GetApp) suggest it is a visual workspace tool with a free tier and ~$5-8/mo paid plans, but that is second-hand and insufficient to write a verified rl block.",
+      "site": {
+        "name": "Walling",
+        "url": "https://walling.app",
+        "alive": true,
+        "operator": null
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown signals found in a web search; page is simply a client-rendered app shell that this tool cannot execute."
+      },
+      "sources": [
+        {
+          "url": "https://walling.app",
+          "date": "2026-10-27",
+          "note": "Homepage returned only title tag + logo image, no extractable body text"
+        },
+        {
+          "url": "https://walling.app/pricing",
+          "date": "2026-10-27",
+          "note": "Pricing page returned identical minimal content as homepage (same SPA shell)"
+        }
+      ],
+      "unverified": [
+        "Pricing plans and any free-tier limits (first-party page is JS-only and unreadable by the fetch tool)",
+        "License/commercial-use terms",
+        "Third-party sources (Capterra, GetApp) describe Walling as a visual workspace for organizing ideas/notes/projects with a free plan and paid tiers around $5-8/month per user, but this is second-hand and not confirmed on walling.app itself"
+      ],
+      "injectionSeen": null
+    },
+    "wannathis": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Wannathis",
+        "url": "https://wannathis.one",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "A permanent library of free mockups and free 3D illustrations (72 free mockups / 70 free 3D illustrations in the catalog as of this check), usable for personal purposes only per the site's license page.",
+        "paidFrom": "Individual packs from $36-$48 one-off, or Pro Access subscription from $12/month (billed yearly) for unlimited downloads of the full 5,000+ mockup/illustration catalog with commercial use rights.",
+        "evidence": {
+          "url": "https://wannathis.one/pro-access",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Custom license · commercial: yes (paid tiers) / no (free \"Freebies\") · attribution: not mentioned · free assets are personal-use only, resale/sublicensing and AI-model training always prohibited",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://wannathis.one/license",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "wannathis",
+        "type": "Stock Media",
+        "category": "Design",
+        "title": "Wannathis",
+        "description": "Library of device, branding and print mockups plus 3D illustrations for designers and agencies, with free assets and a paid Pro Access plan for commercial use.",
+        "tags": [
+          "design-templates",
+          "graphic-design",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "canva-templates",
+          "figma-community"
+        ],
+        "similarResources": [
+          "behance",
+          "figma"
+        ],
+        "keyFeatures": [
+          "Catalog of 1,400+ mockups (iPhone, MacBook, iPad, print, packaging, billboard, apparel and more) plus hundreds of 3D illustrations",
+          "Free mockups and free 3D illustrations available for personal use without a subscription",
+          "Figma plugin and a browser-based 'Mockup online' editor for placing designs into mockups without desktop software",
+          "Pro Access subscription unlocks unlimited downloads of the full catalog with commercial-use rights",
+          "Custom mockup ordering service for bespoke presentation needs",
+          "Motion Grid tool for animated mockup/illustration output"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: NOT FOUND in Simple Icons (exit 2)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown signals found in a web search."
+      },
+      "sources": [
+        {
+          "url": "https://wannathis.one",
+          "date": "2026-10-27",
+          "note": "Product description, audience, catalog structure, free vs paid sections"
+        },
+        {
+          "url": "https://wannathis.one/license",
+          "date": "2026-10-27",
+          "note": "License terms: commercial use by tier, free-tier personal-use-only restriction, resale/AI-training prohibition"
+        },
+        {
+          "url": "https://wannathis.one/pro-access",
+          "date": "2026-10-27",
+          "note": "Pro Access pricing tiers ($12/$19/$83 per month billed yearly) and what each includes"
+        },
+        {
+          "url": "https://wannathis.one/mockups",
+          "date": "2026-10-27",
+          "note": "Mockups section is a page/catalog within the main site, not a separate destination (shared header/footer/nav, breadcrumb Home/Mockups)"
+        }
+      ],
+      "unverified": [
+        "Exact current count of free vs. paid items (observed 72 free mockups / 70 free 3D illustrations at time of check; catalog totals change)",
+        "Quarterly billing price for Pro Access (site states a quarterly option exists but does not list its price)",
+        "Company/operator name behind Wannathis (not stated on the pages checked)"
+      ],
+      "injectionSeen": null
+    },
+    "wannathis-mockups": {
+      "researchedOn": "2026-10-27",
+      "verdict": "skip",
+      "verdictReason": "section of wannathis.one, not a separate destination: /mockups shares the main site's header, footer, nav, login, license and pricing (Pro Access) with the rest of wannathis.one, and is simply the mockup-catalog view (filterable by category) rather than a distinct product, audience, or policy surface. Covered by the wannathis entry in this batch.",
+      "site": {
+        "name": "Wannathis Mockups",
+        "url": "https://wannathis.one/mockups",
+        "alive": true,
+        "operator": null
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Same site as wannathis.one; see that entry's safety check."
+      },
+      "sources": [
+        {
+          "url": "https://wannathis.one/mockups",
+          "date": "2026-10-27",
+          "note": "Confirmed this is the mockup catalog page of wannathis.one, sharing nav/footer/license/pricing with the main site"
+        }
+      ],
+      "unverified": [],
+      "injectionSeen": null
+    },
+    "wargames-terminal-fonts": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "WarGames Terminal Fonts",
+        "url": "https://mw.rat.bz/wgterm/",
+        "alive": true,
+        "operator": "Michael Walden"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Full font pack (Normal, Double, Raster families; desktop .fon/.otf/.ttf and web .woff/.woff2 files) is a free download, no account or payment.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://mw.rat.bz/wgterm/",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "CC BY-NC-SA 4.0 · commercial: no · attribution: required · limit: noncommercial use only, adaptations must share-alike",
+        "openSource": false,
+        "spdx": "CC-BY-NC-SA-4.0",
+        "evidence": {
+          "url": "https://mw.rat.bz/wgterm/",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "wargames-terminal-fonts",
+        "type": "Font",
+        "category": "Design",
+        "title": "WarGames Terminal Fonts",
+        "description": "Free font pack recreating the on-screen terminal text from the 1983 film WarGames, with desktop and web formats for retro-terminal designs.",
+        "tags": [
+          "typography",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "google-fonts"
+        ],
+        "similarResources": [
+          "fontpair"
+        ],
+        "keyFeatures": [
+          "Three font families — Normal, Double, and Raster — covering a full 95-character printable ASCII set",
+          "v2.0 pack bundles nine desktop formats (.fon, .otf, .ttf) and six web formats (.woff, .woff2)",
+          "Includes a suggested CRT monitor color scheme to pair with the fonts for an authentic retro-terminal look",
+          "Film screenshots and transcribed on-screen text provided as reference alongside the fonts",
+          "Licensed CC BY-NC-SA 4.0 for noncommercial, attributed, share-alike reuse"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No Simple Icons match (check-icon returned unrelated single-letter fuzzy matches); needs a manually sourced logo/wordmark if the owner wants one."
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Personal single-author hobby page; no download-wall or executable-installer pattern observed, ZIP download of font files directly linked."
+      },
+      "sources": [
+        {
+          "url": "https://mw.rat.bz/wgterm/",
+          "date": "2026-10-27",
+          "note": "Description, font families/formats, license text, pricing (free), operator."
+        }
+      ],
+      "unverified": [
+        "Exact wording of the full CC BY-NC-SA 4.0 deed as applied (page states the license name/terms but the fetch did not show the full legal text page)."
+      ],
+      "injectionSeen": null
+    },
+    "watermark-remover": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "Watermark Remover",
+        "url": "https://www.watermarkremover.io",
+        "alive": true,
+        "operator": "Shopsense Retail Technologies Limited (Pixelbin)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Ongoing free use: up to 2 images/day without an account, plus 3 free credits and 3 free downloads per month with an account — not a one-time trial.",
+        "paidFrom": "₹399 one-time for 30 credits, or ₹1,999/year subscription for 1,200 credits; enterprise custom pricing.",
+        "evidence": {
+          "url": "https://www.watermarkremover.io/pricing",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: no (ToS/FAQ says watermark-free output should not be used commercially without the original owner's consent) · attribution: not required · limit: subject to Acceptable Use Policy",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.watermarkremover.io",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "watermark-remover",
+        "type": "AI Tool",
+        "category": "Photography",
+        "title": "Watermark Remover",
+        "description": "AI tool that auto-detects and removes watermarks, logos and text overlays from images, PDFs and short videos, no manual masking needed.",
+        "tags": [
+          "ai-tool",
+          "graphic-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Automatically detects watermark regions so users don't have to mark them by hand",
+          "Handles images (PNG, JPEG, WebP, HEIC up to 5,000×5,000px), PDFs up to 25 pages, and videos up to 2 minutes",
+          "Accepts direct file uploads or image URLs as input",
+          "Free daily use without an account, plus a monthly free-credit allowance for signed-in users",
+          "Paid one-time credit packs and yearly subscriptions for higher-volume or bulk/batch processing",
+          "Enterprise tier with custom pricing for bulk commercial use"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No Simple Icons match (check-icon returned unrelated single-letter fuzzy matches); needs a manually sourced logo if the owner wants one."
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown reports found for the official watermarkremover.io site or its operator Pixelbin/Shopsense; unrelated malware reports found in search concern unofficial 'mod APK' and third-party 'Sora2 watermark remover' tools, not this site."
+      },
+      "sources": [
+        {
+          "url": "https://www.watermarkremover.io",
+          "date": "2026-10-27",
+          "note": "What it does, operator, input formats, free-tier framing."
+        },
+        {
+          "url": "https://www.watermarkremover.io/pricing",
+          "date": "2026-10-27",
+          "note": "Free tier limits and paid credit-pack/subscription pricing."
+        }
+      ],
+      "unverified": [
+        "No USD-equivalent pricing shown on the page (only INR); exact Acceptable Use Policy / Caution Notice contents not readable from the fetch."
+      ],
+      "injectionSeen": null
+    },
+    "watermelon-ui": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "Watermelon UI",
+        "url": "https://ui.watermelon.sh",
+        "alive": true,
+        "operator": "WatermelonCorp"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire platform (animated components, copy-paste blocks, dashboards, templates) is described as free for the community to browse and use; no paid tier is mentioned on the site.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://ui.watermelon.sh",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT · commercial: yes · attribution: not required · limit: per MIT license terms on the source repo",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/WatermelonCorp/watermelon-platform",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "watermelon-ui",
+        "type": "Library",
+        "category": "Design",
+        "title": "Watermelon UI",
+        "description": "Open-source React UI platform with animated components, copy-paste blocks, dashboards and templates for building interfaces quickly.",
+        "tags": [
+          "design-systems",
+          "ui-ux",
+          "open-source",
+          "web"
+        ],
+        "relatedResources": [
+          "figma-community",
+          "dribbble"
+        ],
+        "similarResources": [
+          "webflow-templates"
+        ],
+        "keyFeatures": [
+          "Library of animated React components meant to be copy-pasted directly into a project",
+          "Ready-made dashboard and page templates alongside individual components",
+          "Open-source under MIT license, source maintained publicly on GitHub",
+          "Free for the community to browse and use, no account or paywall mentioned",
+          "Positioned as implementation reference as well as drop-in code, not just a visual gallery"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No Simple Icons match (check-icon returned unrelated single-letter fuzzy matches); needs a manually sourced logo if the owner wants one."
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown reports found; web search for the product name plus risk terms returned only unrelated results."
+      },
+      "sources": [
+        {
+          "url": "https://ui.watermelon.sh",
+          "date": "2026-10-27",
+          "note": "What it is, free-for-community pricing framing, operator (WatermelonCorp), pointer to GitHub source."
+        },
+        {
+          "url": "https://github.com/WatermelonCorp/watermelon-platform",
+          "date": "2026-10-27",
+          "note": "Confirmed MIT license on the source repository."
+        }
+      ],
+      "unverified": [
+        "Whether any premium/pro tier exists beyond what the homepage states (homepage shows no paid plan, but a dedicated pricing page was not found/checked separately)."
+      ],
+      "injectionSeen": null
+    },
+    "we-are-colorblind": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "We are Colorblind",
+        "url": "https://wearecolorblind.com",
+        "alive": true,
+        "operator": "Tom van Beveren (Predictable Chaos)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "All articles, examples and accessibility write-ups are free to read; a 'free quick color blindness check' of a product is available on request via the contact page.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://wearecolorblind.com",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No published license page · commercial: n/a (editorial content site, not software) · attribution: not required · no clause found forbidding linking or listing",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://wearecolorblind.com",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "we-are-colorblind",
+        "type": "Resource",
+        "category": "Design",
+        "title": "We Are Colorblind",
+        "description": "Articles and real examples showing how interfaces, charts and diagrams read to colorblind users, plus a free check request for your own product.",
+        "tags": [
+          "ui-ux",
+          "inspiration"
+        ],
+        "relatedResources": [
+          "dribbble",
+          "behance",
+          "awwwards"
+        ],
+        "similarResources": [
+          "fontpair"
+        ],
+        "keyFeatures": [
+          "Articles and case studies on how color choices affect colorblind users in real products",
+          "Before/after breakdowns of charts, UI and diagrams reworked for colorblind-friendly color use",
+          "Free, request-based quick color blindness check of a submitted product via the contact form",
+          "Paid consultancy service for businesses wanting a deeper design review (price not published, by request)",
+          "Practical patterns and suggestions for choosing accessible color palettes"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact or sensible fuzzy Simple Icons match (check-icon.mjs returned only unrelated single-letter matches: e, c, cplusplus, d, ea, r); needs a manual icon or site favicon, flagging for owner."
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam, malware, shutdown or acquisition reports found in search; a Similarweb snapshot from mid-2026 still shows the site active."
+      },
+      "sources": [
+        {
+          "url": "https://wearecolorblind.com",
+          "date": "2026-10-27",
+          "note": "Home page: what the site is, operator, free check offer, consultancy mention, copyright notice"
+        },
+        {
+          "url": "https://wearecolorblind.com/consultancy",
+          "date": "2026-10-27",
+          "note": "Attempted to read a dedicated consultancy/pricing page; returned HTTP 404 (page does not exist at this path)"
+        }
+      ],
+      "unverified": [
+        "Exact price or scope of the paid consultancy service (not published; by request only)",
+        "No dedicated pricing or license/terms page could be located",
+        "Whether 'Predictable Chaos' is a formal business entity or just a personal project name"
+      ],
+      "injectionSeen": null
+    },
+    "webbed-briefs": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Webbed Briefs",
+        "url": "https://briefs.video",
+        "alive": true,
+        "operator": "Heydon Pickering"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All video episodes and the RSS feed are free to watch/follow; no paywall or login found. A separate Teemill merchandise store sells related physical goods but is not required to watch the videos.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://briefs.video",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No published license page · commercial: n/a (personal video series, not software) · attribution: not required · no clause found forbidding linking or listing",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://briefs.video",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "webbed-briefs",
+        "type": "Resource",
+        "category": "Development",
+        "title": "Webbed Briefs",
+        "description": "Short free videos by Heydon Pickering explaining web technologies and how to use them well, with a free RSS feed for new episodes.",
+        "tags": [
+          "web"
+        ],
+        "relatedResources": [
+          "codepen",
+          "awwwards"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Short, single-topic videos explaining one web technology or technique at a time",
+          "Written and hosted by web accessibility expert Heydon Pickering",
+          "Free RSS feed to follow new episodes as they're published",
+          "No login, paywall or signup required to watch",
+          "Optional companion merchandise store (Teemill), separate from the video content"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact or sensible fuzzy Simple Icons match (check-icon.mjs returned only unrelated single-letter/short matches: e, d, fsharp, obb, r); needs a manual icon or site favicon, flagging for owner."
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam, malware, shutdown or acquisition reports found in search; search returned only unrelated results about other sites."
+      },
+      "sources": [
+        {
+          "url": "https://briefs.video",
+          "date": "2026-10-27",
+          "note": "Home page: what Webbed Briefs is, operator (Heydon Pickering), subscription via Buttondown, Teemill merch mention"
+        },
+        {
+          "url": "https://briefs.video/about",
+          "date": "2026-10-27",
+          "note": "Attempted to read an about/terms page for more operator/license detail; returned HTTP 404 (page does not exist at this path)"
+        }
+      ],
+      "unverified": [
+        "Whether any episodes are ever gated or paid (no evidence found either way beyond the free home page)",
+        "No dedicated license/terms page could be located",
+        "Update frequency / whether the series is still actively publishing new episodes"
+      ],
+      "injectionSeen": null
+    },
+    "webdesigner-news": {
+      "researchedOn": "2026-10-27",
+      "verdict": "blocked",
+      "verdictReason": "Both https://webdesignernews.com/category/design/ and the bare homepage https://webdesignernews.com returned HTTP 429 Too Many Requests on first attempt and again on retry (rate-limit / bot-protection wall); no first-party content could be read to confirm pricing, operator or license.",
+      "site": {
+        "name": "Webdesigner News",
+        "url": "https://webdesignernews.com/category/design/",
+        "alive": null,
+        "operator": null
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown reports found in search; search results were dominated by an unrelated, defunct site with a similar name ('Designer News', formerly owned by LayerVault, later sold to We Work Remotely and shut down) plus unrelated web-design-firm scam complaints. Nothing found specifically about webdesignernews.com."
+      },
+      "sources": [
+        {
+          "url": "https://webdesignernews.com/category/design/",
+          "date": "2026-10-27",
+          "note": "First fetch attempt: HTTP 429 Too Many Requests"
+        },
+        {
+          "url": "https://webdesignernews.com",
+          "date": "2026-10-27",
+          "note": "Retry on bare homepage: HTTP 429 Too Many Requests"
+        }
+      ],
+      "unverified": [
+        "Whether the site is currently alive/maintained",
+        "Pricing/free-tier status",
+        "Operator identity",
+        "License/terms of use",
+        "Whether this is the same project as, or distinct from, the unrelated now-defunct 'Designer News' (designernews.co)"
+      ],
+      "injectionSeen": null
+    },
+    "webdesignerdepot": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Web Designer Depot",
+        "url": "https://webdesignerdepot.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire site is a free-to-read design blog/magazine; optional free newsletter signup, no paid tier or membership found.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://webdesignerdepot.com",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Site Terms · commercial: no (personal use only per ToS) · attribution: not applicable (directory link, not content reuse) · limit: content may not be copied/redistributed without written permission",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://webdesignerdepot.com/legal/",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "webdesignerdepot",
+        "type": "Website",
+        "category": "Design",
+        "title": "Web Designer Depot",
+        "description": "A long-running design blog covering web design, UX, visual/UI design, freelancing, and front-end development trends.",
+        "tags": [
+          "inspiration",
+          "web"
+        ],
+        "relatedResources": [
+          "awwwards",
+          "behance"
+        ],
+        "similarResources": [
+          "dribbble",
+          "fontpair"
+        ],
+        "keyFeatures": [
+          "Articles organized into five sections: AI & Tech, Freelancing & Clients, UX & Usability, Visual & UI Design, Web Development",
+          "Multiple named contributing writers publishing regularly",
+          "Free newsletter signup for a community of designers",
+          "No login or paywall required to read articles"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact or usable fuzzy match in Simple Icons"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition reports found in a targeted web search."
+      },
+      "sources": [
+        {
+          "url": "https://webdesignerdepot.com",
+          "date": "2026-10-27",
+          "note": "confirmed site is a free design blog/magazine, five content categories, no pricing/membership"
+        },
+        {
+          "url": "https://webdesignerdepot.com/about/",
+          "date": "2026-10-27",
+          "note": "about page checked for operator/company name - none stated"
+        },
+        {
+          "url": "https://webdesignerdepot.com/legal/",
+          "date": "2026-10-27",
+          "note": "terms of use: personal non-commercial use license, content copying prohibited without permission, liability cap"
+        }
+      ],
+      "unverified": [
+        "Operator/company name behind Web Designer Depot not disclosed on site",
+        "Founding date not stated"
+      ],
+      "injectionSeen": null
+    },
+    "webflow-ai": {
+      "researchedOn": "2026-10-27",
+      "verdict": "skip",
+      "verdictReason": "Duplicate: try.webflow.com/ai-features is an affiliate-tagged marketing redirect to webflow.com/ai, a feature-marketing sub-page of Webflow, which is already listed in RL (slug 'webflow').",
+      "site": {
+        "name": "Webflow AI",
+        "url": "https://try.webflow.com/ai-features",
+        "alive": true,
+        "operator": "Webflow, Inc."
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "URL carries affiliate/tracking parameters (utm_medium=affiliate, ps_partner_key) and 302-redirects to webflow.com/ai."
+      },
+      "sources": [
+        {
+          "url": "https://try.webflow.com/ai-features",
+          "date": "2026-10-27",
+          "note": "confirmed 302 redirect to https://www.webflow.com/ai with affiliate tracking params"
+        }
+      ],
+      "unverified": [],
+      "injectionSeen": null
+    },
+    "webflow-blog": {
+      "researchedOn": "2026-10-27",
+      "verdict": "skip",
+      "verdictReason": "Duplicate: webflow.partnerlinks.io/blog-toools is an affiliate redirect to webflow.com/blog, the official blog sub-page of Webflow, which is already listed in RL (slug 'webflow'). Not a distinct product worth a separate RL entry.",
+      "site": {
+        "name": "Webflow Blog",
+        "url": "https://webflow.com/blog",
+        "alive": true,
+        "operator": "Webflow, Inc."
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Given URL is an affiliate tracking link (webflow.partnerlinks.io) that 302-redirects to the clean canonical https://webflow.com/blog."
+      },
+      "sources": [
+        {
+          "url": "https://webflow.partnerlinks.io/blog-toools",
+          "date": "2026-10-27",
+          "note": "confirmed 302 redirect to https://webflow.com/blog with affiliate tracking params"
+        }
+      ],
+      "unverified": [],
+      "injectionSeen": null
+    },
+    "webfont": {
+      "researchedOn": "2026-10-27",
+      "verdict": "blocked",
+      "verdictReason": "webfontapp.com returns a JS-rendered shell with no readable content after two fetch attempts (only the single word \"Webfont\" extracted each time). Could not confirm pricing, license, or feature claims first-party. Secondary source (AlternativeTo) suggests it is a macOS-only desktop app (icon-font/SVG-sprite builder) with a proprietary freemium/one-time-purchase model, not independently verified.",
+      "site": {
+        "name": "Webfont",
+        "url": "https://webfontapp.com",
+        "alive": true,
+        "operator": null
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware reports found for webfontapp.com specifically; unrelated malware campaigns about generic 'missing font' browser popups turned up in search but do not reference this domain."
+      },
+      "sources": [
+        {
+          "url": "https://webfontapp.com",
+          "date": "2026-10-27",
+          "note": "attempted twice; page returned only the word 'Webfont', no pricing/license/feature text extractable (likely JS-only landing page)"
+        },
+        {
+          "url": "https://alternativeto.net/software/webfont/about",
+          "date": "2026-10-27",
+          "note": "second-hand description: macOS app for building/managing custom SVG icon fonts and sprites; listed as Proprietary/Freemium with a one-time perpetual-license purchase and a limited free version"
+        }
+      ],
+      "unverified": [
+        "Actual pricing figures and free-tier limits (second-hand source only, not confirmed on webfontapp.com itself)",
+        "Whether this is a web tool or a macOS-only desktop app (affects RL fit)",
+        "License/ToS text — none readable from the fetched page"
+      ],
+      "injectionSeen": null
+    },
+    "webgradients": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "WebGradients",
+        "url": "https://webgradients.com",
+        "alive": true,
+        "operator": "Itmeo (gradient collection credited to designer Dima Braven)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All 180 CSS gradients with copyable cross-browser CSS, the Color Palette tool, and design-pack downloads (Sketch/Photoshop/Figma) are free to use; no paid tier or account is required.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://webgradients.com",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "WebGradients (Dima Braven / Itmeo) · commercial: yes · attribution: not required · stated \"free for commercial or personal use\"",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://webgradients.com",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "webgradients",
+        "type": "Resource",
+        "category": "Design",
+        "title": "WebGradients",
+        "description": "A free library of 180 ready-made CSS gradients with copyable cross-browser code, plus a color-palette tool and Sketch/Photoshop/Figma packs for designers and front-end developers.",
+        "tags": [
+          "color-palette",
+          "design-templates",
+          "web",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "fontpair",
+          "framer-vectors"
+        ],
+        "similarResources": [
+          "fontpair"
+        ],
+        "keyFeatures": [
+          "180 curated CSS gradients, each with ready-to-copy cross-browser CSS code",
+          "Built-in Color Palette tool for picking and exporting color combinations",
+          "Downloadable design packs for Sketch, Photoshop, and Figma",
+          "Free for personal or commercial use with no account or login required",
+          "Simple one-click copy workflow aimed at designers and front-end developers"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no real Simple Icons match for 'WebGradients' (only unrelated single-letter fuzzy hits e/d/r); recommend site favicon/SVG if the owner wants an icon"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware reports found. Site content is a legitimate, long-running (10-year, per its own claim) design resource; third-party tools it advertises on palette pages (Specify, Rally, Qatalog) have separately shut down/been acquired, but that is unrelated to WebGradients itself."
+      },
+      "sources": [
+        {
+          "url": "https://webgradients.com",
+          "date": "2026-10-27",
+          "note": "home page: what it is, free pricing, license line, design packs, operator"
+        }
+      ],
+      "unverified": [
+        "Exact wording/scope of the linked Privacy and Terms pages (not fetched)",
+        "Whether there is a genuinely distinct RL-worthy sibling in the Color Palette sub-tool (considered but not split out — same site, same free offering)"
+      ],
+      "injectionSeen": null
+    },
+    "website-carbon-calculator": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Website Carbon Calculator",
+        "url": "https://www.websitecarbon.com",
+        "alive": true,
+        "operator": "Wholegrain Digital (operated by Scamper Ltd, London, UK)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Unlimited free carbon-footprint estimates for any web page URL, using the Sustainable Web Design Model (v4); no account or payment needed.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.websitecarbon.com",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Website Carbon (Wholegrain Digital / Scamper Ltd) · commercial: unclear · attribution: not required · no explicit license/ToS text found on the page",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.websitecarbon.com",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "website-carbon-calculator",
+        "type": "Utility",
+        "category": "Development",
+        "title": "Website Carbon Calculator",
+        "description": "A free tool that estimates a web page's carbon footprint per page view, helping developers and site owners measure and reduce their site's environmental impact.",
+        "tags": [
+          "web",
+          "productivity"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Estimates grams of CO2 produced per page view for any URL, free and with no signup",
+          "Uses the Sustainable Web Design Model (currently v4) for its carbon calculations",
+          "Shows examples of efficient, low-carbon sites for comparison",
+          "Notes whether a site is hosted on green/renewable-energy hosting",
+          "Built and maintained by sustainability-focused web agency Wholegrain Digital"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no real Simple Icons match for 'Website Carbon Calculator' (only unrelated single-letter/C++ fuzzy hits); recommend site favicon/SVG if the owner wants an icon"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware reports found for websitecarbon.com. A similarly-named but unrelated company, CarbonCancel (Amsterdam carbon-offset service), was found to have shut down in search results — confirmed as a different company, not Website Carbon Calculator."
+      },
+      "sources": [
+        {
+          "url": "https://www.websitecarbon.com",
+          "date": "2026-10-27",
+          "note": "home page: what it does, free pricing statement, operator/company details, hosting note"
+        }
+      ],
+      "unverified": [
+        "No explicit license or terms-of-use text was found on the fetched page (only a Privacy Policy link, contents not read)",
+        "Whether commercial/business use of the calculator's output (e.g. in a paid report) carries any restriction"
+      ],
+      "injectionSeen": null
+    },
+    "website-headlines": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Website Headlines",
+        "url": "https://websiteheadlines.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire gallery (screenshots, tags, filters) is browsable with no account, paywall, or plan mentioned anywhere on the site.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://websiteheadlines.com",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No stated license · commercial use: not addressed · attribution: not required · limit: Terms prohibit copying, modifying, distributing or misusing site content",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://websiteheadlines.com/terms",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "website-headlines",
+        "type": "Website",
+        "category": "Design",
+        "title": "Website Headlines",
+        "description": "Curated gallery of real website headline examples with screenshots and tags, for SaaS, B2B, and DTC copywriting inspiration.",
+        "tags": [
+          "inspiration",
+          "web",
+          "writing"
+        ],
+        "relatedResources": [
+          "awwwards",
+          "dribbble",
+          "behance"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Curated library of real-world website headline examples with full-page screenshots",
+          "Filterable/taggable by headline meaning or structure",
+          "Focused on SaaS, B2B and DTC brand copy",
+          "Free to browse with no account or paywall"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact or usable fuzzy Simple Icons match (closest suggestions were generic single-letter icons)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition reports found; unrelated malvertising domains with similar-sounding names surfaced in search but are not this site."
+      },
+      "sources": [
+        {
+          "url": "https://websiteheadlines.com",
+          "date": "2026-10-27",
+          "note": "home page: what the tool does, no pricing/plans mentioned"
+        },
+        {
+          "url": "https://websiteheadlines.com/terms",
+          "date": "2026-10-27",
+          "note": "terms page: no explicit commercial-use/listing clause, prohibits copying/redistributing content"
+        }
+      ],
+      "unverified": [
+        "Site operator/company not identified anywhere on the page",
+        "No exact or confident fuzzy brand icon match in Simple Icons"
+      ],
+      "injectionSeen": null
+    },
+    "websitevice": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Websitevice",
+        "url": "https://websitevice.com",
+        "alive": true,
+        "operator": "Likely run by Devluc (devluc.com), who lists Websitevice among their projects; not explicitly confirmed on websitevice.com itself"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire gallery of website design examples, organized by category, is browsable free with no account or paywall mentioned.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://websitevice.com",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No stated license · commercial use: not addressed · attribution: not required · limit: none stated",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://websitevice.com",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "websitevice",
+        "type": "Website",
+        "category": "Design",
+        "title": "Websitevice",
+        "description": "Gallery of real-world website design examples by category (agency, SaaS, portfolio, restaurant and more), for makers wanting results-focused inspiration.",
+        "tags": [
+          "inspiration",
+          "web"
+        ],
+        "relatedResources": [
+          "awwwards",
+          "dribbble",
+          "behance"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Real-world website examples organized by category (agency, SaaS, portfolio, restaurant, artist)",
+          "Each entry links to the live example site with a short description",
+          "Positioned toward makers who want results-driven design, not award-chasing",
+          "Free to browse, no account required"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact or usable fuzzy Simple Icons match (closest suggestions were generic single-letter icons)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition reports found specific to this site; search mostly returned unrelated similarly-named domains (webs.com, vice.com)."
+      },
+      "sources": [
+        {
+          "url": "https://websitevice.com",
+          "date": "2026-10-27",
+          "note": "home page: what the tool does, category structure, sponsors, no pricing"
+        },
+        {
+          "url": "https://devluc.com",
+          "date": "2026-10-27",
+          "note": "operator's profile page lists Websitevice among their projects (~5K monthly visitors), not a formal ownership statement"
+        }
+      ],
+      "unverified": [
+        "Operator/ownership not explicitly confirmed on websitevice.com itself (inferred from devluc.com profile listing)",
+        "No terms of service page found on the site",
+        "No exact or confident fuzzy brand icon match in Simple Icons"
+      ],
+      "injectionSeen": null
+    },
+    "webstudio": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "verdictReason": "",
+      "site": {
+        "name": "Webstudio",
+        "url": "https://webstudio.is",
+        "alive": true,
+        "operator": "Webstudio, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Hobby plan (free): unlimited projects/pages, wstd.io subdomain, project export and sharing, 250MB asset storage, no custom domain. Self-hosting the open-source core is also free.",
+        "paidFrom": "Pro plan from $15/month (billed yearly): custom domains, 100,000 page views/month, 20GB storage, CMS, staging, backups",
+        "evidence": {
+          "url": "https://aisotools.com/blog/webstudio-review-2026",
+          "date": "2026-10-27",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "AGPL-3.0-or-later (core) · commercial: yes · attribution: not required (copyleft, not attribution-licensed) · limit: optional sdk-components-animation package is proprietary and requires a separate EULA",
+        "openSource": true,
+        "spdx": "AGPL-3.0-or-later",
+        "evidence": {
+          "url": "https://github.com/webstudio-is/webstudio",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "webstudio",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Webstudio",
+        "description": "Open-source, AGPL-licensed visual website builder you can self-host or run hosted, with a free Hobby tier and paid plans for custom domains and traffic.",
+        "tags": [
+          "website-builder",
+          "no-code",
+          "open-source",
+          "web"
+        ],
+        "relatedResources": [
+          "webflow",
+          "framer",
+          "squarespace"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Visual, no-code website builder with a free self-hostable, AGPL-3.0 open-source core",
+          "Free Hobby plan: unlimited projects/pages on a wstd.io subdomain, export, 250MB storage",
+          "Paid Pro/Team plans add custom domains, higher page-view and storage limits, CMS and staging",
+          "Can be self-hosted anywhere or run on Webstudio's own hosted service",
+          "One optional component package (sdk-components-animation) is proprietary, not AGPL"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact or usable fuzzy Simple Icons match (closest suggestions were generic single-letter icons)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition reports for webstudio.is itself. One community help-forum thread noted a showcased third-party example site (not Webstudio's own platform) had its old domain lapse and get taken over by a scam Amazon-clone; Webstudio's team said they fixed the link. Not a compromise of Webstudio."
+      },
+      "sources": [
+        {
+          "url": "https://github.com/webstudio-is/webstudio",
+          "date": "2026-10-27",
+          "note": "README: AGPL-3.0-or-later core license, open-source, self-host or hosted, proprietary animation component exception"
+        },
+        {
+          "url": "https://aisotools.com/blog/webstudio-review-2026",
+          "date": "2026-10-27",
+          "note": "third-party review (updated Aug 2026): Hobby/Pro/Team plan details and prices, since webstudio.is itself returned HTTP 403 to automated fetches after two attempts"
+        },
+        {
+          "url": "https://help.webstudio.is/the-highlighted-website-example-leads-to-a-scam-amazon-ripoff-website-YnxBNfgdNFL9",
+          "date": "2026-10-27",
+          "note": "community forum thread: a showcased example site's old domain was taken over by scammers, unrelated to Webstudio's own platform; team said fixed"
+        }
+      ],
+      "unverified": [
+        "Could not load webstudio.is or webstudio.is/pricing directly (HTTP 403 on two attempts, likely bot protection); pricing figures are second-hand from a third-party review, not confirmed first-party on the official pricing page",
+        "No exact or confident fuzzy brand icon match in Simple Icons"
+      ],
+      "injectionSeen": null
+    },
+    "webwave": {
+      "researchedOn": "2026-10-27",
+      "verdict": "skip",
+      "verdictReason": "Trial-only, not freemium: WebWave's own pricing page states a 14-day free trial (no credit card) with full editor/template access, but after the trial the site is paused and a paid Starter/Pro/Business plan is required to keep it live and remove branding. No permanent free tier.",
+      "site": {
+        "name": "WebWave",
+        "url": "https://webwave.me",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": "14-day free trial only, not permanent",
+        "paidFrom": "From ~$3.50/mo (One Pager, first-year discounted rate)",
+        "evidence": {
+          "url": "https://webwave.me/pricing",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://webwave.me/pricing",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Trustpilot shows a mixed/low score (~2.5/5) with some complaints of unresponsive support and a suspected lifetime-deal issue on an AppSumo Q&A thread; no confirmed malware, shutdown, or acquisition found."
+      },
+      "sources": [
+        {
+          "url": "https://webwave.me",
+          "date": "2026-10-27",
+          "note": "product description, AI builder, since 2012"
+        },
+        {
+          "url": "https://webwave.me/pricing",
+          "date": "2026-10-27",
+          "note": "confirms trial-only model, no permanent free tier, plan pricing"
+        },
+        {
+          "url": "https://at.trustpilot.com/review/webwavecms.com",
+          "date": "2026-10-27",
+          "note": "safety search result, mixed reviews, no confirmed malware/shutdown"
+        }
+      ],
+      "unverified": [
+        "Legal operating entity/owner name not found on site",
+        "Whether the '60% cheaper' offer is ongoing or time-limited"
+      ],
+      "injectionSeen": null
+    },
+    "webzooo": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Webzooo",
+        "url": "https://webzooo.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire gallery is free to browse; no paid plan or account mentioned anywhere on the site",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://webzooo.com",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No published ToS/license page found · commercial use: not addressed · attribution: not addressed · site only states browsing is free",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://webzooo.com/about",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "webzooo",
+        "type": "Website",
+        "category": "Design",
+        "title": "Webzooo",
+        "description": "A searchable gallery of 4,000+ real website designs across 33 industries, browsable by color, for designers hunting layout and palette inspiration.",
+        "tags": [
+          "inspiration",
+          "web"
+        ],
+        "relatedResources": [
+          "awwwards",
+          "behance",
+          "dribbble"
+        ],
+        "similarResources": [
+          "awwwards",
+          "behance"
+        ],
+        "keyFeatures": [
+          "Browse a curated catalogue of 4,000+ live website screenshots",
+          "Filter sites by industry across 33 categories",
+          "Search designs by hex color/palette rather than keyword",
+          "Free to browse with no account or paywall observed"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact or usable fuzzy match in Simple Icons (closest result 'e' is not a genuine match)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Safety search for 'Webzooo' returned no relevant results (only similarly-named unrelated domains like aluzoo.net, portalzoo.com flagged for other reasons); nothing ties those to this site."
+      },
+      "sources": [
+        {
+          "url": "https://webzooo.com",
+          "date": "2026-10-27",
+          "note": "product description, free-to-explore FAQ answer"
+        },
+        {
+          "url": "https://webzooo.com/about",
+          "date": "2026-10-27",
+          "note": "checked for owner/ToS/license info - none found"
+        }
+      ],
+      "unverified": [
+        "Site operator/owner identity",
+        "Any terms on reuse of catalogued screenshots",
+        "Whether a paid tier might exist but wasn't surfaced on pages checked"
+      ],
+      "injectionSeen": null
+    },
+    "weebly": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Weebly",
+        "url": "https://www.weebly.com",
+        "alive": true,
+        "operator": "Square, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free plan at $0/mo with free SSL, third-party embed code, and community-forum support; no custom domain, limited storage, Square ads shown",
+        "paidFrom": "Personal plan from $13/mo billed annually",
+        "evidence": {
+          "url": "https://www.weebly.com/pricing",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Square/Weebly Terms of Service · commercial use: yes (building and running a commercial website is the product's purpose) · attribution: not required · Square ads/branding shown unless on a paid plan",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.weebly.com/pricing",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "weebly",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Weebly",
+        "description": "A drag-and-drop website and online-store builder owned by Square, with a permanent free plan for small businesses and creators getting online.",
+        "tags": [
+          "website-builder",
+          "no-code"
+        ],
+        "relatedResources": [
+          "squarespace",
+          "webflow",
+          "framer"
+        ],
+        "similarResources": [
+          "squarespace",
+          "webflow"
+        ],
+        "keyFeatures": [
+          "Drag-and-drop editor for pages, blogs and online stores",
+          "Permanent free plan (Free SSL, community support, third-party embeds)",
+          "Built-in e-commerce with Square payments integration",
+          "SEO tools and lead-capture forms included on paid tiers",
+          "Mobile app editing (owned by Square, part of the Square product suite)"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact match; closest fuzzy result ('e') is not a genuine brand match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Weebly had a 2016 credential breach (reported by TechCrunch, since remediated/old) and some phishing abuse of user-created free sites (unrelated to the core product); recent coverage (Oct 2025) notes platform uncertainty under Square and mobile-app removal from stores, but the web builder and pricing page are live today."
+      },
+      "sources": [
+        {
+          "url": "https://www.weebly.com",
+          "date": "2026-10-27",
+          "note": "homepage description, Square ownership statement"
+        },
+        {
+          "url": "https://www.weebly.com/pricing",
+          "date": "2026-10-27",
+          "note": "confirms $0/mo Free plan with no stated time limit, paid tier pricing"
+        },
+        {
+          "url": "https://techcrunch.com/2016/10/20/weebly-hacked-43-million-credentials-stolen/",
+          "date": "2026-10-27",
+          "note": "2016 breach history, safety search result"
+        },
+        {
+          "url": "https://www.websitebuilderexpert.com/news/is-weebly-shutting-down/",
+          "date": "2026-10-27",
+          "note": "Oct 2025 coverage: not shutting down currently, but platform future under Square uncertain; mobile app removal Dec 1 2025"
+        }
+      ],
+      "unverified": [
+        "Exact free-plan feature list (pricing table rendered as flattened text, feature-to-plan mapping inferred)",
+        "Long-term roadmap/support commitment under Square beyond what's reported"
+      ],
+      "injectionSeen": null
+    },
+    "wegic": {
+      "researchedOn": "2026-10-27",
+      "verdict": "blocked",
+      "verdictReason": "Homepage (wegic.ai and www.wegic.ai) returns a redirect loop (>10 redirects) via fetch, and the pricing page (wegic.ai/pricing) renders as an empty JS shell with no pricing content in the fetched markup (only a nav link and a discount popup). First-party pricing/free-tier terms could not be confirmed after two attempts (apex domain, www subdomain, and the pricing page itself). Third-party aggregators (Capterra, SaaSWorthy, Findstack, VideoSDK) disagree on free-tier credit amounts (70 vs 120 credits/month) and paid prices ($9.90-$69.90/mo across different listings), which is not usable as first-party evidence.",
+      "site": {
+        "name": "Wegic",
+        "url": "https://wegic.ai",
+        "alive": true,
+        "operator": null
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown signals found in a safety search; third-party review/aggregator sites (Capterra, SaaSWorthy, Findstack) all describe it as an active AI website builder, but figures conflict across them."
+      },
+      "sources": [
+        {
+          "url": "https://wegic.ai",
+          "date": "2026-10-27",
+          "note": "Fetch failed: too many redirects"
+        },
+        {
+          "url": "https://www.wegic.ai",
+          "date": "2026-10-27",
+          "note": "Fetch failed: too many redirects (retry on www subdomain)"
+        },
+        {
+          "url": "https://wegic.ai/pricing",
+          "date": "2026-10-27",
+          "note": "Fetched but page is a JS shell; no pricing tiers, prices, or free-tier terms present in the rendered markup"
+        }
+      ],
+      "unverified": [
+        "Whether Wegic has a permanent free tier or only a credit-limited trial",
+        "Actual paid plan names and prices",
+        "License/ToS terms (commercial use, listing/linking restrictions)"
+      ],
+      "injectionSeen": null
+    },
+    "weje": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Weje",
+        "url": "https://weje.io",
+        "alive": true,
+        "operator": "HyperTech, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Full access to the collaborative whiteboard (boards, cards, lists, connections) with no paid tiers shown; homepage states 'Now Weje is absolutely FREE, just sign up' and 'Weje is now completely free.' No usage limits or paid plan are listed anywhere on the site.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://weje.io",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Weje ToS · commercial: unknown (not read) · attribution: not required · limit: none found",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://weje.io/terms",
+          "date": "2026-10-27",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "weje",
+        "type": "Tool",
+        "category": "Productivity",
+        "title": "Weje",
+        "description": "Free online whiteboard for teams: endless boards with cards, lists, sticky notes, mind maps and Kanban flows for brainstorming and project work.",
+        "tags": [
+          "whiteboard",
+          "collaboration",
+          "project-management"
+        ],
+        "relatedResources": [
+          "miro",
+          "figjam",
+          "excalidraw"
+        ],
+        "similarResources": [
+          "tldraw",
+          "notion"
+        ],
+        "keyFeatures": [
+          "Endless canvas boards combining task cards, lists and visual connections",
+          "Built-in templates for Kanban boards, mind maps, brainstorming and moodboards",
+          "Sticky notes and freeform drawing for whiteboard-style sessions",
+          "Positions itself for 'horizontal team' workflows rather than hierarchical project trees",
+          "Entire product currently offered free with no paid tier advertised"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact or usable fuzzy match in Simple Icons (closest hit was a generic single-letter 'e', not a real match)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown signals found in a safety search for 'weje'."
+      },
+      "sources": [
+        {
+          "url": "https://weje.io",
+          "date": "2026-10-27",
+          "note": "Product description, use cases, and 'completely free' claim"
+        },
+        {
+          "url": "https://weje.io/pricing",
+          "date": "2026-10-27",
+          "note": "No pricing tiers present; only optional hosting donations ($19 one-time, $9/mo, or any amount via PayPal) and a repeat of the 'completely free' statement"
+        }
+      ],
+      "unverified": [
+        "Whether 'free' is a permanent commitment or a time-limited promotion (no end date stated)",
+        "Full terms-of-service content (weje.io/terms returned 404 on the path tried; not read)",
+        "Whether any feature limits apply under the free plan"
+      ],
+      "injectionSeen": null
+    },
+    "weloveproduct": {
+      "researchedOn": "2026-10-27",
+      "verdict": "needs-owner",
+      "verdictReason": "WeLoveProduct is a job board for product/UX roles, not a design/dev tool, template, or asset — RL's existing categories (Design, Development, Filming, Photography, Productivity, Marketing, Business, Finance, Personal) and tags have no 'jobs'/'job-board' concept, so listing it would need a new tag (or at minimum stretching an existing one, e.g. 'productivity'). Separately, the core value (seeing the full job list) appears gated: the site says 'Upgrade to view more jobs' behind a premium plan, and no pricing page content was retrievable to confirm what the free tier actually includes versus what requires payment. Recommend the owner decide (a) whether job boards fit RL's scope at all, and (b) if so, what tag/category to use.",
+      "site": {
+        "name": "WeLoveProduct",
+        "url": "https://weloveproduct.co",
+        "alive": true,
+        "operator": null
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown signals found in a safety search; search for 'weloveproduct' returned no relevant hits at all (name may be too niche for general web search)."
+      },
+      "sources": [
+        {
+          "url": "https://weloveproduct.co",
+          "date": "2026-10-27",
+          "note": "Confirmed it's a job board for product managers/designers/UX researchers/writers, listing ~12,335 active jobs; 'Upgrade to view more jobs' banner implies gating"
+        },
+        {
+          "url": "https://weloveproduct.co/premium",
+          "date": "2026-10-27",
+          "note": "Fetched but page only shows sign-up (Google/LinkedIn) with no pricing figures or plan details"
+        }
+      ],
+      "unverified": [
+        "Premium plan price and exact feature gating (how many jobs are free to view)",
+        "Whether there is any permanent free tier beyond a limited job list",
+        "License/terms content (not read)"
+      ],
+      "injectionSeen": null
+    },
+    "wepresent": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "WePresent",
+        "url": "https://wepresent.wetransfer.com",
+        "alive": true,
+        "operator": "WeTransfer"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All editorial content (films, photo essays, artist features) is free to read/watch with no account or paywall; only an optional newsletter signup is offered.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://wepresent.wetransfer.com",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "WeTransfer Terms of Service · commercial: not applicable (editorial content, not a licensed product) · attribution: not required to read/share · no account or payment needed to view content",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://wetransfer.com/legal",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "wepresent",
+        "type": "Website",
+        "category": "Design",
+        "title": "WePresent",
+        "description": "WeTransfer's free editorial platform publishing original short films, photo essays, and artist features for creative inspiration.",
+        "tags": [
+          "inspiration",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "behance",
+          "dribbble"
+        ],
+        "similarResources": [
+          "awwwards"
+        ],
+        "keyFeatures": [
+          "Publishes original short films, photo essays, and long-form features commissioned with working artists rather than aggregated content",
+          "Content is organized into recurring editorial series covering art, design, film, and culture",
+          "No paywall, login, or account needed to read articles or watch films",
+          "Optional email newsletter and RSS feed for new releases",
+          "Backed and run by WeTransfer, drawing on the company's creative-industry audience"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no genuine Simple Icons match for 'Wepresent' (closest hits were generic single-letter icons 'e'/'r', not a real brand match)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": null
+      },
+      "sources": [
+        {
+          "url": "https://wepresent.wetransfer.com",
+          "date": "2026-10-27",
+          "note": "homepage: what the site is, operator, free access, newsletter/submission form, no paywall"
+        },
+        {
+          "url": "https://wetransfer.com/legal",
+          "date": "2026-10-27",
+          "note": "attempted to check legal terms page for listing/linking restrictions; page returned only a bare heading, no substantive restriction found"
+        }
+      ],
+      "unverified": [
+        "No formal statement that content will remain free permanently (assumed stable per current site behavior, no paywall seen)",
+        "Exact corporate operator beyond 'WeTransfer' (e.g. specific legal entity) not confirmed"
+      ],
+      "injectionSeen": null
+    },
+    "weweb": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "WeWeb",
+        "url": "https://www.weweb.io",
+        "alive": true,
+        "operator": "WeWeb Inc."
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Permanent free plan (no trial, no credit card) for personal projects: visual drag-and-drop editor, API/data integration, responsive web apps, coded-component import, 1M AI tokens/month, publishing to a WeWeb Cloud subdomain with 1,000 total sessions, and chat support.",
+        "paidFrom": "Essential plan $20/developer/month billed annually (adds code export, GitHub sync, daily backups, paid hosting); hosting itself starts separately at $13/app/month.",
+        "evidence": {
+          "url": "https://pricing.weweb.io/",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "WeWeb Terms and Conditions · commercial: yes (customer retains IP rights to apps/content they publish) · attribution: not required · use of WeWeb's name/trademark requires the company's prior consent (standard clause)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.weweb.io/terms-and-conditions",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "weweb",
+        "type": "Tool",
+        "category": "Design",
+        "title": "WeWeb",
+        "description": "AI-powered no-code platform that builds web apps from prompts, refined in a visual editor, with a permanent free plan for personal projects.",
+        "tags": [
+          "no-code",
+          "website-builder",
+          "ai-tool",
+          "web"
+        ],
+        "relatedResources": [
+          "webflow",
+          "framer",
+          "squarespace"
+        ],
+        "similarResources": [
+          "airtable"
+        ],
+        "keyFeatures": [
+          "Generates a starting app (UI, data connections, basic logic) from a natural-language prompt",
+          "Visual drag-and-drop editor for refining layouts, components, and interactions after generation",
+          "Imports custom coded components and connects to services like Airtable, Xano, Supabase, and REST APIs",
+          "Publishes to WeWeb Cloud or exports a self-hosted Vue.js single-page application",
+          "Free plan includes 1,000 total sessions on a WeWeb subdomain with no credit card required",
+          "Claims SOC2, HIPAA, and GDPR compliance aimed at team/enterprise customers"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no genuine Simple Icons match for 'WeWeb' (closest hit was the generic single-letter icon 'e', not a real brand match)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "One 2023 community-forum incident where a WeWeb-hosted customer subdomain was briefly flagged by Google Safe Browsing after a user abused it for a scam; WeWeb removed the user and the flag was lifted within about a day. Not an issue with the WeWeb product/site itself."
+      },
+      "sources": [
+        {
+          "url": "https://www.weweb.io",
+          "date": "2026-10-27",
+          "note": "homepage: what WeWeb is, who it's for, operator"
+        },
+        {
+          "url": "https://pricing.weweb.io/",
+          "date": "2026-10-27",
+          "note": "pricing page: free plan permanence and contents, paid tiers and prices"
+        },
+        {
+          "url": "https://www.weweb.io/terms-and-conditions",
+          "date": "2026-10-27",
+          "note": "terms: commercial/IP ownership of built apps, trademark-use clause"
+        },
+        {
+          "url": "https://community.weweb.io/t/weweb-deceptive-site-blocked-by-chrome/2187",
+          "date": "2026-10-27",
+          "note": "safety check: 2023 Google Safe Browsing flag on a customer subdomain, resolved by WeWeb within ~1 day"
+        }
+      ],
+      "unverified": [
+        "Enterprise plan pricing (custom, not published)",
+        "Whether a plain factual directory link/name mention would be read as 'use of the Company's trademark' under terms §8.10.1 was not tested directly with WeWeb; treated as a standard nominative listing per this repo's existing directory norms"
+      ],
+      "injectionSeen": null
+    },
+    "what-font-is": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "WhatFontIs",
+        "url": "https://www.whatfontis.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free, ad-supported tier: up to 5 font identifications per day, no account required for basic use.",
+        "paidFrom": "PRO membership (price not listed on the public pricing section; offered via a 'free 7-day trial'): unlimited searches, ad-free, custom text previews, advanced filters, up to 100 results per search.",
+        "evidence": {
+          "url": "https://www.whatfontis.com",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "WhatFontIs Terms of Use · commercial: governed by each matched font's own license, not by WhatFontIs · attribution: not required to use the site · no bots/scraping of pages or results, and no use of results to train AI/ML models",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.whatfontis.com/terms.html",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "what-font-is",
+        "type": "Tool",
+        "category": "Design",
+        "title": "WhatFontIs",
+        "description": "AI font-matching tool that identifies fonts from an uploaded image and links to free or paid sources, with a limited daily free search tier.",
+        "tags": [
+          "typography",
+          "ai-tool"
+        ],
+        "relatedResources": [
+          "fontpair",
+          "google-fonts"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Upload an image containing text and get AI-matched font suggestions from a claimed database of 1.2M+ fonts",
+          "Returns up to 60+ visually similar font matches, each linking to a free or paid download source",
+          "Free tier allows 5 font identifications per day, supported by ads, no account required for basic use",
+          "PRO membership removes ads and ad limits, enabling unlimited searches, custom text previews, and up to 100 results per search",
+          "Extra accuracy options (skip-crop, 'I feel lucky') are gated behind a free account sign-in"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no genuine Simple Icons match for 'What Font Is' (closest hit was the unrelated 'fsharp' icon)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": null
+      },
+      "sources": [
+        {
+          "url": "https://www.whatfontis.com",
+          "date": "2026-10-27",
+          "note": "homepage: what the tool does, free tier daily limit, PRO trial mention, sign-in prompts"
+        },
+        {
+          "url": "https://www.whatfontis.com/terms.html",
+          "date": "2026-10-27",
+          "note": "terms of use: font-license deferral, no-scraping/no-AI-training clause, user content license, opt-out for model training"
+        }
+      ],
+      "unverified": [
+        "Exact PRO membership price (not published on the pages checked, only a '7-day free trial' mention)",
+        "The claimed '1.2 million font' database size is the vendor's own figure, not independently verified",
+        "Site operator/company name behind WhatFontIs not stated on the pages checked"
+      ],
+      "injectionSeen": null
     }
   }
 }

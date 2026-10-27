@@ -57709,12 +57709,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "vokal",
@@ -57735,12 +57735,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "volume",
@@ -57761,12 +57761,12 @@
           "file": "Best Color Tools and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "volumecolor.io is a pure client-rendered (JS-only) single-page app; fetching the home page and pricing page returned only the HTML <title> tag with no body content, navigation, or pricing text, even after retrying with a different extraction prompt. Could not verify pricing, license, or feature claims first-party.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "volume-mockups",
@@ -57787,12 +57787,12 @@
           "file": "Best Mockup Sites for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "voxdeck",
@@ -57813,12 +57813,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Home page renders real content (first-party, confirms it's an AI presentation/slide maker with 'Try for free' CTAs), but the pricing page (/pricing link target not resolvable from footer/nav) and both agreement pages (/agreement/termsofuse, /agreement/privacypolicy) return only the page title with no body content even after retry — the site appears to be a JS-rendered SPA that this fetch tool cannot execute. Could not confirm whether the free option is a permanent tier or a time-limited trial, and could not read any license/commercial-use terms, so a list/skip verdict cannot be made responsibly.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "voyager",
@@ -57839,12 +57839,12 @@
           "file": "Productivity Tools for Design and Product Teams.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "vybe",
@@ -57865,12 +57865,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "vyond",
@@ -57917,12 +57917,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "No confirmed permanent free tier: the pricing page shows $0 'Basic' and 'Pro' cards, but their 'Get Started' buttons link only to the homepage (not checkout), and the site's own FAQ states plans start at $15/month (Basic) and $35/month (Pro) and that Vzy does not offer free trials — directly contradicting the $0 cards. Treating this as paid-only given the unresolved contradiction.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "vzy-icons",
@@ -57967,12 +57967,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Site's own Terms of Service (hosted at jobtracker.wallofportfolios.in/terms, shared with its Job Tracker product) say content/Services 'may not be exploited for any commercial purpose whatsoever' and 'may not be used in connection with any commercial endeavors' without express prior written permission, and require authorization for 'framing of or linking to the Services.' RL listing this site (a directory site that itself links out commercially) could run into that clause; needs the owner's call on whether to list, or to seek the site's permission first (contact: support@wallofportfolios.in).",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "walling",
@@ -57993,12 +57993,12 @@
           "file": "Productivity Tools for Design and Product Teams.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "walling.app is a JS-only SPA; both the home page and /pricing returned only a page title (\"Walling - Organize & Present Your Ideas\") and a logo with no body content, even after retrying on a second URL. Could not confirm pricing/license first-party. Third-party listings (Capterra/GetApp) suggest it is a visual workspace tool with a free tier and ~$5-8/mo paid plans, but that is second-hand and insufficient to write a verified rl block.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "wannathis",
@@ -58019,12 +58019,12 @@
           "file": "Best Mockup Sites for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "wannathis-mockups",
@@ -58045,12 +58045,12 @@
           "file": "Best Mockup Sites for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "section of wannathis.one, not a separate destination: /mockups shares the main site's header, footer, nav, login, license and pricing (Pro Access) with the rest of wannathis.one, and is simply the mockup-catalog view (filterable by category) rather than a distinct product, audience, or policy surface. Covered by the wannathis entry in this batch.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "wargames-terminal-fonts",
@@ -58071,12 +58071,12 @@
           "file": "Best Free Font Libraries and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "watermark-remover",
@@ -58097,12 +58097,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "watermelon-ui",
@@ -58123,12 +58123,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "we-are-colorblind",
@@ -58149,12 +58149,12 @@
           "file": "Learn UI_UX Design_ Courses, Guides & Best Practices.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "webbed-briefs",
@@ -58175,12 +58175,12 @@
           "file": "Best Design Blogs & Magazines for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "webdesigner-news",
@@ -58201,12 +58201,12 @@
           "file": "Best Design Blogs & Magazines for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Both https://webdesignernews.com/category/design/ and the bare homepage https://webdesignernews.com returned HTTP 429 Too Many Requests on first attempt and again on retry (rate-limit / bot-protection wall); no first-party content could be read to confirm pricing, operator or license.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "webdesignerdepot",
@@ -58227,12 +58227,12 @@
           "file": "Best Design Blogs & Magazines for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "webflow",
@@ -58288,12 +58288,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Duplicate: try.webflow.com/ai-features is an affiliate-tagged marketing redirect to webflow.com/ai, a feature-marketing sub-page of Webflow, which is already listed in RL (slug 'webflow').",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "webflow-blog",
@@ -58314,12 +58314,12 @@
           "file": "Best Design Blogs & Magazines for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Duplicate: webflow.partnerlinks.io/blog-toools is an affiliate redirect to webflow.com/blog, the official blog sub-page of Webflow, which is already listed in RL (slug 'webflow'). Not a distinct product worth a separate RL entry.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "webfont",
@@ -58340,12 +58340,12 @@
           "file": "Best Free Open Source Icon Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "webfontapp.com returns a JS-rendered shell with no readable content after two fetch attempts (only the single word \"Webfont\" extracted each time). Could not confirm pricing, license, or feature claims first-party. Secondary source (AlternativeTo) suggests it is a macOS-only desktop app (icon-font/SVG-sprite builder) with a proprietary freemium/one-time-purchase model, not independently verified.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "webgradients",
@@ -58366,12 +58366,12 @@
           "file": "Best Color Tools and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "website-carbon-calculator",
@@ -58392,12 +58392,12 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "website-headlines",
@@ -58418,12 +58418,12 @@
           "file": "Best UX Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "websitevice",
@@ -58444,12 +58444,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "webstudio",
@@ -58470,12 +58470,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "webwave",
@@ -58496,12 +58496,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Trial-only, not freemium: WebWave's own pricing page states a 14-day free trial (no credit card) with full editor/template access, but after the trial the site is paused and a paid Starter/Pro/Business plan is required to keep it live and remove branding. No permanent free tier.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "webzooo",
@@ -58522,12 +58522,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "weebly",
@@ -58548,12 +58548,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "wegic",
@@ -58574,12 +58574,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Homepage (wegic.ai and www.wegic.ai) returns a redirect loop (>10 redirects) via fetch, and the pricing page (wegic.ai/pricing) renders as an empty JS shell with no pricing content in the fetched markup (only a nav link and a discount popup). First-party pricing/free-tier terms could not be confirmed after two attempts (apex domain, www subdomain, and the pricing page itself). Third-party aggregators (Capterra, SaaSWorthy, Findstack, VideoSDK) disagree on free-tier credit amounts (70 vs 120 credits/month) and paid prices ($9.90-$69.90/mo across different listings), which is not usable as first-party evidence.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "weje",
@@ -58600,12 +58600,12 @@
           "file": "Productivity Tools for Design and Product Teams.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "weloveproduct",
@@ -58626,12 +58626,12 @@
           "file": "Best Design Communities for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "WeLoveProduct is a job board for product/UX roles, not a design/dev tool, template, or asset — RL's existing categories (Design, Development, Filming, Photography, Productivity, Marketing, Business, Finance, Personal) and tags have no 'jobs'/'job-board' concept, so listing it would need a new tag (or at minimum stretching an existing one, e.g. 'productivity'). Separately, the core value (seeing the full job list) appears gated: the site says 'Upgrade to view more jobs' behind a premium plan, and no pricing page content was retrievable to confirm what the free tier actually includes versus what requires payment. Recommend the owner decide (a) whether job boards fit RL's scope at all, and (b) if so, what tag/category to use.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "wepresent",
@@ -58652,12 +58652,12 @@
           "file": "Best Design Blogs & Magazines for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "weweb",
@@ -58678,12 +58678,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "what-font-is",
@@ -58704,12 +58704,12 @@
           "file": "Best Free Font Libraries and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "what-the-font",
@@ -59927,16 +59927,16 @@
     "byStatus": {
       "deferred-trial": 232,
       "deferred-paid": 217,
-      "blocked": 531,
+      "blocked": 539,
       "drafted": 557,
-      "rejected": 237,
+      "rejected": 242,
       "in-rl": 33,
-      "researched": 370,
-      "todo": 102
+      "researched": 393,
+      "todo": 66
     },
     "todoByPriority": {
       "P3": 30,
-      "P2": 72
+      "P2": 36
     }
   }
 }

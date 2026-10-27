@@ -10,13 +10,13 @@ Generated 2026-10-27 by `scripts/backlog-build.mjs` from `backlog/tools-list.jso
 
 | Status | Count | Meaning |
 |---|---:|---|
-| `todo` | 102 | in the research queue (free / freemium / beta) |
+| `todo` | 66 | in the research queue (free / freemium / beta) |
 | `in-rl` | 33 | already in ResourcesList (matched by site or slug) — skip, maybe use for related/similar links |
 | `deferred-paid` | 217 | labelled **Paid** only — parked |
 | `deferred-trial` | 232 | labelled **Free Trial** only — parked until a real free tier is confirmed |
-| `researching` / `researched` / `drafted` / `rejected` / `blocked` | 0 / 370 / 557 / 237 / 531 | set by research sessions |
+| `researching` / `researched` / `drafted` / `rejected` / `blocked` | 0 / 393 / 557 / 242 / 539 | set by research sessions |
 
-Queue by priority: **P1** 0 (free/freemium, listed on 2+ pages) · **P2** 72 (free/freemium, 1 page) · **P3** 30 (beta).
+Queue by priority: **P1** 0 (free/freemium, listed on 2+ pages) · **P2** 36 (free/freemium, 1 page) · **P3** 30 (beta).
 
 ## What happens if a tool is not processed (and why)
 
@@ -1730,18 +1730,50 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Visualist | visualistapp.com | Freemium | 1 | P2 | researched |
 | VisualSitemaps | visualsitemaps.com | Freemium | 1 | P2 | researched |
 | Visuelle | visuelle.co.uk | Free | 1 | P2 | researched |
+| Voicenotes | via Digitool | Free tier listed | 1 | P2 | researched |
+| Vokal | vokal.co | Freemium | 1 | P2 | researched |
+| Volume | volumecolor.io | Free | 1 | P2 | blocked |
+| Volume Mockups | volumemockups.com | Free + Paid | 1 | P2 | researched |
+| VoxDeck | voxdeck.ai | Freemium | 1 | P2 | blocked |
+| Voyager | voyager.so | Freemium | 1 | P2 | researched |
+| Vybe | vybe.build | Freemium | 1 | P2 | researched |
+| Vzy | vzy.co | Freemium | 1 | P2 | rejected |
+| Wall of portfolios | wallofportfolios.in | Free | 1 | P2 | blocked |
+| Walling | walling.app | Freemium | 1 | P2 | blocked |
+| Wannathis | wannathis.one | Free + Paid | 1 | P2 | researched |
+| Wannathis Mockups | wannathis.one | Free + Paid | 1 | P2 | rejected |
+| WarGames Terminal Fonts | mw.rat.bz | Free | 1 | P2 | researched |
+| Watermark Remover | watermarkremover.io | Freemium | 1 | P2 | researched |
+| Watermelon UI | ui.watermelon.sh | Free | 1 | P2 | researched |
+| We are Colorblind | wearecolorblind.com | Free | 1 | P2 | researched |
+| Webbed Briefs 😂 | briefs.video | Free | 1 | P2 | researched |
+| Webdesigner News | webdesignernews.com | Free | 1 | P2 | blocked |
+| WebDesignerDepot | webdesignerdepot.com | Free | 1 | P2 | researched |
+| Webflow AI | try.webflow.com | Freemium | 1 | P2 | rejected |
+| Webflow Blog | webflow.partnerlinks.io | Free | 1 | P2 | rejected |
+| Webfont | webfontapp.com | Free + Paid | 1 | P2 | blocked |
+| WebGradients | webgradients.com | Free | 1 | P2 | researched |
+| Website Carbon Calculator | websitecarbon.com | Free | 1 | P2 | researched |
+| Website Headlines | websiteheadlines.com | Free | 1 | P2 | researched |
+| Websitevice | websitevice.com | Free | 1 | P2 | researched |
+| Webstudio | webstudio.is | Freemium | 1 | P2 | researched |
+| WebWave | webwave.me | Freemium | 1 | P2 | rejected |
+| Webzooo | webzooo.com | Free | 1 | P2 | researched |
+| Weebly | weebly.com | Freemium | 1 | P2 | researched |
+| Wegic | wegic.ai | Freemium | 1 | P2 | blocked |
+| Weje | weje.io | Free | 1 | P2 | researched |
+| WeLoveProduct | weloveproduct.co | Freemium | 1 | P2 | blocked |
+| Wepresent | wepresent.wetransfer.com | Free | 1 | P2 | researched |
+| WeWeb | weweb.io | Freemium | 1 | P2 | researched |
+| What Font Is | whatfontis.com | Free + Paid | 1 | P2 | researched |
 | Wispr Flow | ref.wisprflow.ai | Free tier listed / Freemium | 2 | P1 | drafted |
 
-## Research queue (102)
+## Research queue (66)
 
-### Best AI Design Tools for Designers (11)
+### Best AI Design Tools for Designers (7)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Vybe | vybe.build | Freemium | 1 | P2 |
-| Webflow AI | try.webflow.com | Freemium | 1 | P2 |
-| WebWave | webwave.me | Freemium | 1 | P2 |
-| Wegic | wegic.ai | Freemium | 1 | P2 |
 | Whisker | whisker.spatialkittens.com | Freemium | 1 | P2 |
 | Wonder | wonder.design | Freemium | 1 | P2 |
 | YouWare | youware.com | Freemium | 1 | P2 |
@@ -1750,38 +1782,22 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | PromptBase | promptbase.com |  | 1 | P3 |
 | Stitch | stitch.withgoogle.com | Beta | 1 | P3 |
 
-### Best Color Tools and Inspiration for Designers (3)
+### Best Color Tools and Inspiration for Designers (1)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Volume | volumecolor.io | Free | 1 | P2 |
-| WebGradients | webgradients.com | Free | 1 | P2 |
 | Who Can Use | whocanuse.com | Free | 1 | P2 |
 
-### Best Design Blogs & Magazines for Designers (5)
+### Best Design Communities for Designers (1)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Webbed Briefs 😂 | briefs.video | Free | 1 | P2 |
-| Webdesigner News | webdesignernews.com | Free | 1 | P2 |
-| WebDesignerDepot | webdesignerdepot.com | Free | 1 | P2 |
-| Webflow Blog | webflow.partnerlinks.io | Free | 1 | P2 |
-| Wepresent | wepresent.wetransfer.com | Free | 1 | P2 |
-
-### Best Design Communities for Designers (2)
-
-| Tool | Site | Pricing label | Pages | Pri |
-|---|---|---|---:|---|
-| WeLoveProduct | weloveproduct.co | Freemium | 1 | P2 |
 | Woody | woodyjobs.com | Freemium | 1 | P2 |
 
-### Best Design Tools Across Disciplines (11)
+### Best Design Tools Across Disciplines (8)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Vokal | vokal.co | Freemium | 1 | P2 |
-| VoxDeck | voxdeck.ai | Freemium | 1 | P2 |
-| Watermark Remover | watermarkremover.io | Freemium | 1 | P2 |
 | Womp | womp.com | Freemium | 1 | P2 |
 | World in Dots | worldindots.com | Free | 1 | P2 |
 | WZRD | wzrd.to | Freemium | 1 | P2 |
@@ -1791,20 +1807,17 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Sesame | sesame.design | Beta | 1 | P3 |
 | Visual | visual.app | Beta | 1 | P3 |
 
-### Best Free Font Libraries and Inspiration for Designers (4)
+### Best Free Font Libraries and Inspiration for Designers (2)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| WarGames Terminal Fonts | mw.rat.bz | Free | 1 | P2 |
-| What Font Is | whatfontis.com | Free + Paid | 1 | P2 |
 | What the Font | apps.apple.com | Free | 1 | P2 |
 | Words of Type | wiki.wordsoftype.com | Free | 1 | P2 |
 
-### Best Free Open Source Icon Libraries (18)
+### Best Free Open Source Icon Libraries (17)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Webfont | webfontapp.com | Free + Paid | 1 | P2 |
 | Phosphor Icons | phosphoricons.com |  | 1 | P3 |
 | Pikaicons | pikaicons.com |  | 1 | P3 |
 | Pixelarticons | pixelarticons.com |  | 1 | P3 |
@@ -1823,24 +1836,16 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Unicode Arrows | unicodearrows.com |  | 1 | P3 |
 | Vzy Icons | icons.vzy.co |  | 1 | P3 |
 
-### Best Mockup Sites for Designers (4)
+### Best Mockup Sites for Designers (1)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Volume Mockups | volumemockups.com | Free + Paid | 1 | P2 |
-| Wannathis | wannathis.one | Free + Paid | 1 | P2 |
-| Wannathis Mockups | wannathis.one | Free + Paid | 1 | P2 |
 | WhiteUI.Store | gumroad.com | Free + Paid | 1 | P2 |
 
-### Best No-Code Website Builders (13)
+### Best No-Code Website Builders (8)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Vzy | vzy.co | Freemium | 1 | P2 |
-| Watermelon UI | ui.watermelon.sh | Free | 1 | P2 |
-| Webstudio | webstudio.is | Freemium | 1 | P2 |
-| Weebly | weebly.com | Freemium | 1 | P2 |
-| WeWeb | weweb.io | Freemium | 1 | P2 |
 | Wix | wix.com | Freemium | 1 | P2 |
 | Wized | wized.com | Freemium | 1 | P2 |
 | Ycode | ycode.com | Free + Paid | 1 | P2 |
@@ -1850,11 +1855,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Revyme | revyme.com | Beta | 1 | P3 |
 | Zoah | zoah.com | Beta | 1 | P3 |
 
-### Best UX Tools for Designers (7)
+### Best UX Tools for Designers (6)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Website Headlines | websiteheadlines.com | Free | 1 | P2 |
 | Whimsical | whimsical.com | Freemium | 1 | P2 |
 | Wireframe Examples | wireframe-examples.com | Free + Paid | 1 | P2 |
 | Wireframe.cc | wireframe.cc | Freemium | 1 | P2 |
@@ -1862,13 +1866,10 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 | Zen Flowchart | zenflowchart.com | Freemium | 1 | P2 |
 | Stratify | trystratify.com | Beta | 1 | P3 |
 
-### Design Inspiration Sites for UI, Web, Graphic & Branding (5)
+### Design Inspiration Sites for UI, Web, Graphic & Branding (2)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Wall of portfolios | wallofportfolios.in | Free | 1 | P2 |
-| Websitevice | websitevice.com | Free | 1 | P2 |
-| Webzooo | webzooo.com | Free | 1 | P2 |
 | World Brand Design Society | worldbranddesign.com | Free | 1 | P2 |
 | YouPic | youpic.com | Free | 1 | P2 |
 
@@ -1878,39 +1879,28 @@ Cost of leaving the **whole backlog** unprocessed: ResourcesList does not grow a
 |---|---|---|---:|---|
 | ZapSplat | zapsplat.com | Freemium | 1 | P2 |
 
-### Free Tools (4)
+### Free Tools (3)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Voicenotes | via Digitool | Free tier listed | 1 | P2 |
 | WOZCODE | via Digitool | Free tier listed | 1 | P2 |
 | Xano | via Digitool | Free tier listed | 1 | P2 |
 | Xero | via Digitool | Free tier listed (Digitool "Premium" badge) | 1 | P2 |
 
-### Learn UI/UX Design: Courses, Guides & Best Practices (1)
+### Marketing Tools for Designers & Creative Teams (5)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| We are Colorblind | wearecolorblind.com | Free | 1 | P2 |
-
-### Marketing Tools for Designers & Creative Teams (6)
-
-| Tool | Site | Pricing label | Pages | Pri |
-|---|---|---|---:|---|
-| Website Carbon Calculator | websitecarbon.com | Free | 1 | P2 |
 | Writesonic | writesonic.com | Freemium | 1 | P2 |
 | Zaap | app.zaap.ai | Freemium | 1 | P2 |
 | Zebracat | zebracat.ai | Freemium | 1 | P2 |
 | Zubtitle | zubtitle.com | Freemium | 1 | P2 |
 | Pomelli | labs.google.com | Beta | 1 | P3 |
 
-### Productivity Tools for Design and Product Teams (7)
+### Productivity Tools for Design and Product Teams (4)
 
 | Tool | Site | Pricing label | Pages | Pri |
 |---|---|---|---:|---|
-| Voyager | voyager.so | Freemium | 1 | P2 |
-| Walling | walling.app | Freemium | 1 | P2 |
-| Weje | weje.io | Free | 1 | P2 |
 | World Time Buddy | worldtimebuddy.com | Free | 1 | P2 |
 | Xnapper | xnapper.com | Freemium | 1 | P2 |
 | Zoom | zoom.us | Freemium | 1 | P2 |
