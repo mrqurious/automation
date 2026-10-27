@@ -111047,6 +111047,2704 @@
         "Exact AI trial credit amount on the free plan (page said 'monthly AI trial credits' without a number in the fetched summary)."
       ],
       "injectionSeen": null
+    },
+    "ui-bundle": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "UIBundle",
+        "url": "https://uibundle.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Many listings are labeled FREE (admin templates, UI kits, wireframe kits, icon packs) and can be downloaded without payment.",
+        "paidFrom": "Paid listings range roughly from $6 (effects/add-ons) to $59 (admin template bundles); priced per item, not a subscription.",
+        "evidence": {
+          "url": "https://uibundle.com",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "UIBundle license · commercial: yes · attribution: not required · may not resell/redistribute files",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://uibundle.com/license",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "uibundle",
+        "type": "Resource",
+        "category": "Design",
+        "title": "UIBundle",
+        "description": "Marketplace of UI kits, wireframe kits, fonts, icons, mockups and templates from independent designers, many free, for commercial use.",
+        "tags": [
+          "design-templates",
+          "ui-ux",
+          "icon-library",
+          "graphic-design"
+        ],
+        "relatedResources": [
+          "figma-community",
+          "canva-templates",
+          "webflow-templates"
+        ],
+        "similarResources": [
+          "figma-community"
+        ],
+        "keyFeatures": [
+          "Marketplace of over 1,600 design assets (UI kits, wireframe kits, mockups, icons, fonts, 3D assets, illustrations) from 400+ independent designers",
+          "Large catalog of free, permanently-downloadable resources alongside paid items priced individually",
+          "License allows personal and commercial use including client work, with no attribution required",
+          "Creators can open a shop to sell or share their own design resources",
+          "Includes design-tips articles alongside the asset catalog"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no real brand match (closest fuzzy hits were 'bun'/'e'/'d', unrelated to UIBundle's logo); recommend iconSvg from site favicon/logo instead, needs owner confirmation"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown reports found; search returned only unrelated historical spyware-bundler stories under similar generic terms."
+      },
+      "sources": [
+        {
+          "url": "https://uibundle.com",
+          "date": "2026-10-27",
+          "note": "homepage: marketplace description, item/listing counts, free-labeled listings, prices"
+        },
+        {
+          "url": "https://uibundle.com/license",
+          "date": "2026-10-27",
+          "note": "license terms: commercial use allowed, no attribution required, no resale/redistribution"
+        }
+      ],
+      "unverified": [
+        "Operator/company behind UIBundle not identified on the page fetched.",
+        "No confirmed Simple Icons brand logo; icon route needs owner decision (iconSvg from site favicon vs none)."
+      ],
+      "injectionSeen": null
+    },
+    "ui-challenge": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "UI Challenges",
+        "url": "https://www.uichallenges.design",
+        "alive": true,
+        "operator": "Andre (named in site footer; full identity not confirmed)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Fully free: generate challenges, check in, build a streak, and share to the gallery, with no credit card and no trial timer, per the site's own FAQ text.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.uichallenges.design",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No formal license published for the site's use; it is a free practice tool, not a content-licensing product",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.uichallenges.design",
+          "date": "2026-10-27",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "ui-challenges",
+        "type": "Website",
+        "category": "Design",
+        "title": "UI Challenges",
+        "description": "Free daily UI/UX design practice site with generated briefs, streak tracking, a community gallery, and a leaderboard.",
+        "tags": [
+          "ui-ux",
+          "productivity"
+        ],
+        "relatedResources": [
+          "dribbble",
+          "figma-community"
+        ],
+        "similarResources": [
+          "dribbble"
+        ],
+        "keyFeatures": [
+          "On-demand brief generator filtered by difficulty (easy/medium/hard) and category",
+          "Guided practice schedules of 7, 30, 100, or 365 days with reminders",
+          "Streak-based check-ins that are private by default, with an option to publish",
+          "Community gallery and a leaderboard ranked by completions and likes",
+          "Public designer profiles at /u/username",
+          "Entirely free to use, with no credit card or trial timer required"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no real brand match (closest fuzzy hits were 'e'/'c'/'cplusplus'/'hal', unrelated); recommend iconSvg from site logo, needs owner confirmation"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown reports found; search returned unrelated results about a Windows malware family and other 'UI challenge' portfolio pages."
+      },
+      "sources": [
+        {
+          "url": "https://www.uichallenges.design",
+          "date": "2026-10-27",
+          "note": "homepage: feature list, free-forever FAQ line, designer count claim, challenge formats"
+        }
+      ],
+      "unverified": [
+        "Terms of Service page returned HTTP 404 at /terms, so no formal ToS text could be reviewed for listing/linking restrictions.",
+        "Operator identity beyond the first name 'Andre' in the footer not confirmed.",
+        "5,959+ designer-usage claim is the site's own unverified figure."
+      ],
+      "injectionSeen": null
+    },
+    "ui-coach": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "UI Coach",
+        "url": "https://uicoach.io",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Core site sections (Challenges, Learn, UX Laws & Principles, Inspiration collections, Resources directory, job/portfolio pages) carry no pricing or access-restriction text and appear to be free to browse/use.",
+        "paidFrom": "UI Coach PRO membership: $9/month (stated as a limited-time offer, regular price $20/month) for premium resources, priority support, advanced features, collaboration and analytics tools.",
+        "evidence": {
+          "url": "https://uicoach.io/pricing",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No license/ToS text published on pages fetched; site links an Affiliate disclosure page only",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://uicoach.io",
+          "date": "2026-10-27",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "ui-coach",
+        "type": "Website",
+        "category": "Design",
+        "title": "UI Coach",
+        "description": "Design-skills hub with UI practice challenges, UX law references, curated inspiration, and a resource directory, with an optional paid PRO tier.",
+        "tags": [
+          "ui-ux",
+          "inspiration",
+          "design-systems"
+        ],
+        "relatedResources": [
+          "dribbble",
+          "figma-community"
+        ],
+        "similarResources": [
+          "dribbble",
+          "ui-challenge"
+        ],
+        "keyFeatures": [
+          "Practice challenges for building UI design skills",
+          "Learn section and a reference library of UX laws and principles",
+          "Curated inspiration collections: award-winning designs, font pairings, color palettes",
+          "Resources directory covering icons, illustrations, mockups, UI kits, design systems, 3D assets, animations and stock photos",
+          "Job-finding and portfolio-building pages aimed at designers",
+          "Optional PRO membership adds premium templates, collaboration, analytics and white-label branding"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no real brand match (closest fuzzy hits were 'c'/'cplusplus', unrelated); recommend iconSvg from site logo, needs owner confirmation"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown reports found for uicoach.io; search results were about an unrelated 'UniCoach' (Germany, acquired/liquidated 2021) and an unrelated Windows malware family named Coyote."
+      },
+      "sources": [
+        {
+          "url": "https://uicoach.io",
+          "date": "2026-10-27",
+          "note": "homepage: site sections, 'trusted by' claim, Buy Me a Coffee donation link, no pricing shown"
+        },
+        {
+          "url": "https://uicoach.io/pricing",
+          "date": "2026-10-27",
+          "note": "PRO membership price ($9/mo intro, $20/mo regular) and included features"
+        },
+        {
+          "url": "https://uicoach.io/challenges",
+          "date": "2026-10-27",
+          "note": "checked whether challenges require payment; page had no pricing or access-restriction text"
+        }
+      ],
+      "unverified": [
+        "No explicit statement that Challenges/Learn/Resources sections are free forever vs. gated after signup; inferred from absence of paywall text on those pages.",
+        "'Trusted by leading companies' and 'thousands of designers and teams' claims are the site's own unverified marketing copy.",
+        "Operator/company behind UI Coach not identified on pages fetched.",
+        "pricing page contained an embedded instruction-like formatting directive in the fetched text, which was ignored (see injectionSeen)."
+      ],
+      "injectionSeen": "The /pricing page's fetched text included an embedded instruction attempting to influence output formatting; it was ignored as untrusted page content, not a real instruction from the user."
+    },
+    "ui-colors": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "UI Colors",
+        "url": "https://uicolors.app",
+        "alive": true,
+        "operator": "Erik (indie dev, Twitter @erikdevries_nl) — no company named"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Generate Tailwind color scales (brand, neutral, status) from any base color with random/harmony generation; a 'Upgrade to Pro' link and locked items ('Unlock custom font selection', add extra color scales) gate some extras.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://uicolors.app",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No published license/ToS page found · commercial use: not addressed on site · attribution: not required (not stated) · limit: Pro-tier scope and price not disclosed anywhere on the site",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://uicolors.app",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "ui-colors",
+        "type": "Tool",
+        "category": "Design",
+        "title": "UI Colors",
+        "description": "Free Tailwind CSS color generator that builds brand, neutral and status color scales from any base color for design systems.",
+        "tags": [
+          "color-palette",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "fontpair"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Generates full Tailwind-style color scales (e.g. 50-950) from a single base color",
+          "Builds separate brand, neutral and status color sets for a design system",
+          "Random color and color-harmony generation modes",
+          "Offers a companion API and a Figma plugin for pulling palettes into design files",
+          "Shadcn/ui theme helper for applying generated colors to components",
+          "Pro tier unlocks custom font selection and extra color scale add-ons (price not published)"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs exit 1, but closest Simple Icons matches ('c', 'cplusplus', 'r') are unrelated single-letter icons, not a real brand match"
+        },
+        "siblings": [],
+        "ownerNote": "No RL tag exactly fits 'tailwind/color-generator'; used closest existing tag 'color-palette'. Icon: no usable Simple Icons match despite exit 1 — recommend site favicon/SVG if a logo is wanted."
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": null
+      },
+      "sources": [
+        {
+          "url": "https://uicolors.app",
+          "date": "2026-10-27",
+          "note": "Home page: what the tool does, Pro upsell links, operator credit"
+        }
+      ],
+      "unverified": [
+        "Exact Pro tier price and feature list not published anywhere on the site",
+        "Whether 'Add a neutral/status color scale' prompts require Pro or are just free UI prompts",
+        "No explicit license/ToS document found to confirm commercial-use terms"
+      ],
+      "injectionSeen": null
+    },
+    "ui-faces": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "UI Faces",
+        "url": "https://www.uifaces.co",
+        "alive": true,
+        "operator": "mighty.tools (per site footer)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "321 AI-generated avatar images (Human, Alien, Cartoon, Abstract, Popular categories) free to download individually for design mockups/prototypes.",
+        "paidFrom": "$3 one-time for a ZIP of all 321 avatars; separate 'curated avatar collections' sold in limited one-time runs with a perpetual commercial license.",
+        "evidence": {
+          "url": "https://www.uifaces.co",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Custom site license · commercial: free avatars are described as for mockups and the site says it is 'not recommended for use in public, live projects', while purchased collections grant a 'non-exclusive, perpetual commercial license' · attribution: not required · limit: free vs. paid commercial-use scope is inconsistently worded on the licenses page",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.uifaces.co/licenses",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "ui-faces",
+        "type": "Stock Media",
+        "category": "Design",
+        "title": "UI Faces",
+        "description": "Free AI-generated avatar images across human, cartoon and abstract styles, built for filling design mockups and prototypes.",
+        "tags": [
+          "stock-photos",
+          "ui-ux"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "321 free AI-generated avatars across Human, Alien, Cartoon, Abstract and Popular categories",
+          "One-by-one free downloads, or a single $3 ZIP of the full set",
+          "Figma and Adobe Express plugins for dropping avatars straight into design files",
+          "Occasional paid 'curated avatar collections' sold as limited one-time runs with a commercial license",
+          "Avatars explicitly framed as placeholder 'fake profile pictures' for mockups, not real people"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs exit 1, closest matches ('e', 'c', 'cplusplus', 'ce', 'fsharp') are unrelated single-letter/abbreviation icons, not a real brand match"
+        },
+        "siblings": [],
+        "ownerNote": "No existing RL tag for 'avatars' or 'mockup-assets'; used closest existing tags 'stock-photos' + 'ui-ux'. Flagging for owner: the licenses page's free-tier wording ('not recommended for use in public, live projects') sits oddly next to the paid tier's 'perpetual commercial license' — worth a read before publishing the description if precision on allowed use matters."
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": null
+      },
+      "sources": [
+        {
+          "url": "https://www.uifaces.co",
+          "date": "2026-10-27",
+          "note": "Home page: avatar categories, pricing for ZIP/collections, operator credit, plugins"
+        },
+        {
+          "url": "https://www.uifaces.co/licenses",
+          "date": "2026-10-27",
+          "note": "License terms for free vs. paid avatars, attribution, restrictions"
+        }
+      ],
+      "unverified": [
+        "Whether the inconsistency between 'not recommended for live projects' and the paid collections' commercial license is intentional or just loose wording",
+        "Whether mighty.tools is the sole operator or a reseller/parent brand"
+      ],
+      "injectionSeen": null
+    },
+    "ui-generator": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "UI Generator",
+        "url": "https://uigenerator.org",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Every interface mockup, device frame, angle and export size (PNG/JPG/WebP, including transparent background) is free with no account required.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://uigenerator.org",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No formal license/ToS document found · commercial use: page states exported mockup images can be used in commercial projects · attribution: not required (not stated) · limit: claim is made only on the home page/FAQ, no separate license page to verify",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://uigenerator.org",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "ui-generator",
+        "type": "Tool",
+        "category": "Design",
+        "title": "UI Generator",
+        "description": "Free mockup generator that places app screenshots into iPhone, MacBook, browser or frameless device frames for landing pages and pitches.",
+        "tags": [
+          "ui-ux",
+          "graphic-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Places uploaded app/interface screenshots into iPhone, MacBook, browser-window or no-frame mockups",
+          "Multiple angle and device options for dashboards, finance apps, CRMs, chat and shop UIs",
+          "Exports PNG, JPG or WebP, including transparent backgrounds",
+          "No account, sign-up or watermark required for any export size",
+          "Runs client-side: uploaded screenshots are processed in-browser and not uploaded to a server"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs exit 1, closest matches ('e', 'r') are unrelated single-letter icons, not a real brand match"
+        },
+        "siblings": [],
+        "ownerNote": "No dedicated 'mockup-generator' tag exists in RL; used closest existing tags 'ui-ux' + 'graphic-design'. Operator/company behind the site could not be identified from the page."
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": null
+      },
+      "sources": [
+        {
+          "url": "https://uigenerator.org",
+          "date": "2026-10-27",
+          "note": "Home page: feature list, free-for-everything claim, commercial-use FAQ line, client-side processing note"
+        }
+      ],
+      "unverified": [
+        "Operator/company behind the site is not disclosed anywhere on the page",
+        "No standalone license or terms-of-use document to verify the commercial-use claim beyond the home page wording"
+      ],
+      "injectionSeen": null
+    },
+    "ui-sfx": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "UI SFX",
+        "url": "https://uisfx.com",
+        "alive": true,
+        "operator": "Yuki Capital (yukicapital.com); GitHub repo under romainsimon"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire library (936 sounds, 12 sonic styles, 78 semantic UI cues) is free: installable via npm, usable for live web synthesis, or MP3/Ogg files copied directly into a project. No paid tier.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://uisfx.com",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT (code) / CC0 (audio) · commercial: yes · attribution: not required · no listing/linking restriction seen",
+        "openSource": true,
+        "spdx": "MIT / CC0-1.0",
+        "evidence": {
+          "url": "https://uisfx.com",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "ui-sfx",
+        "type": "Library",
+        "category": "Design",
+        "title": "UI SFX",
+        "description": "Open-source library of 900+ interface sound effects for web, mobile, SaaS and game UIs, free to install via npm or copy as MP3/Ogg.",
+        "tags": [
+          "stock-sfx",
+          "ui-ux",
+          "open-source"
+        ],
+        "relatedResources": [
+          "mixkit",
+          "pixabay"
+        ],
+        "similarResources": [
+          "mixkit"
+        ],
+        "keyFeatures": [
+          "936 sound effects across 12 sonic styles (\"feels\")",
+          "78 semantic UI cues covering 72 one-shots and 6 looping sounds",
+          "Installable via npm for live synthesis, or MP3/Ogg files copied directly into a project",
+          "Zero runtime dependencies",
+          "MIT-licensed code and CC0-licensed audio, so reuse and modification are unrestricted"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No Simple Icons match (closest fuzzy hits were unrelated: fsharp, x); no reliable brand SVG found on the page to copy without fetching/sanitizing an asset — leaving for owner/RL SVG-sanitize step."
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown signals found in search; small open-source project, GitHub-sponsors funded."
+      },
+      "sources": [
+        {
+          "url": "https://uisfx.com",
+          "date": "2026-10-27",
+          "note": "Description, sound counts, install methods, license labels (MIT/CC0), operator attribution, sponsorship note"
+        }
+      ],
+      "unverified": [
+        "Exact relationship/affiliation between Yuki Capital and the romainsimon GitHub account not independently confirmed beyond the page's own attribution."
+      ],
+      "injectionSeen": "Page included an unrelated promotional banner for a third-party site (attentionplease.lol) at the top; not an instruction-injection attempt, just ad content, ignored."
+    },
+    "ui-skeleton-gallery": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "UI Skeleton Gallery (Brandbird)",
+        "url": "https://www.brandbird.app/tools/ui-skeleton-gallery",
+        "alive": true,
+        "operator": "Brandbird"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "The entire gallery of SVG skeleton-loader elements (avatars, buttons, text, cards, reviews, media placeholders) is free to copy, download and use, per the page's own FAQ.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.brandbird.app/tools/ui-skeleton-gallery",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No named license (site terms) · commercial: yes (FAQ explicitly allows personal and commercial projects) · attribution: not stated · no listing/linking restriction seen",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.brandbird.app/tools/ui-skeleton-gallery",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "ui-skeleton-gallery",
+        "type": "Template",
+        "category": "Design",
+        "title": "UI Skeleton Gallery",
+        "description": "Free gallery of customizable SVG skeleton-loader elements (avatars, buttons, cards, text) for wireframes, exportable as SVG, PNG or JPG.",
+        "tags": [
+          "design-templates",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "figma-community",
+          "canva-templates"
+        ],
+        "similarResources": [
+          "figma-community"
+        ],
+        "keyFeatures": [
+          "Ready-made SVG skeleton-loader elements: avatars, buttons, text blocks, cards, reviews, media placeholders",
+          "Exportable as SVG, PNG or JPG for drop-in use in wireframes and mockups",
+          "Embeddable CSS snippet for developers who want the loader animation directly in code",
+          "Explicitly licensed by the page's FAQ for both personal and commercial projects",
+          "Part of the larger Brandbird design-tool suite, linked from the same page"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No Simple Icons match (closest fuzzy hits unrelated: e, r, skeleton, ton); Brandbird brand mark would need to be pulled and sanitized from the site, not done here."
+        },
+        "siblings": [
+          {
+            "note": "Brandbird itself (https://www.brandbird.app) is not yet in RL. This page is one free feature/tool of that larger product; the main Brandbird app (screenshot/mockup generator etc.) could be its own separate RL entry if the owner wants broader coverage — flagging for owner decision rather than adding unresearched."
+          }
+        ]
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown signals found in search for 'brandbird app'."
+      },
+      "sources": [
+        {
+          "url": "https://www.brandbird.app/tools/ui-skeleton-gallery",
+          "date": "2026-10-27",
+          "note": "Description, free-tier FAQ line, export formats, CSS embed note, commercial-use statement"
+        }
+      ],
+      "unverified": [
+        "Whether this sub-page is best classified as 'Template' vs. 'Resource' in RL's schema is a judgment call — own-words bullets are based on the FAQ and sidebar only.",
+        "No independent confirmation that Brandbird as a company is stable/not shutting down beyond the live, working page."
+      ],
+      "injectionSeen": null
+    },
+    "ui-skills": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "UI Skills",
+        "url": "https://www.ui-skills.com",
+        "alive": true,
+        "operator": "Unnamed on-site; GitHub repo github.com/ibelick/ui-skills (public, MIT-licensed, 9.8k+ stars)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "CLI (npx ui-skills), MCP connection, skill registry, Design.md files, Learn playbook and llms.txt are all presented without any price; the underlying GitHub repo is public and MIT-licensed.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.ui-skills.com",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT (GitHub repo) · commercial: yes · attribution: not required (standard MIT) · no listing/linking restriction seen",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/ibelick/ui-skills",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "ui-skills",
+        "type": "AI Tool",
+        "category": "Development",
+        "title": "UI Skills",
+        "description": "Open-source catalog of design-engineering skills (accessibility, motion, performance) for AI coding agents, installed via a CLI or MCP connection.",
+        "tags": [
+          "ai-tool",
+          "ui-ux",
+          "open-source"
+        ],
+        "relatedResources": [
+          "figma",
+          "chatgpt"
+        ],
+        "similarResources": [
+          "figma-community"
+        ],
+        "keyFeatures": [
+          "CLI (npx ui-skills) to pull curated design-engineering skills into a project",
+          "MCP connection so AI coding agents can query the skill catalog directly",
+          "Skills cover topics such as accessibility, motion and performance",
+          "Includes design-system reference files (Design.md) and a 'Learn' playbook of UI tips",
+          "Public GitHub repo (ibelick/ui-skills) with 9.8k+ stars, MIT licensed"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no exact or fuzzy Simple Icons match for 'UI Skills' (exit 2)."
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "A third-party Socket security audit (via skills.sh, dated 2026-06-14) flagged the 'ui-skills-root' skill-loader component as a low-severity supply-chain concern (it pulls external instruction content through a CLI) but found no credential theft or exfiltration. Not a scam/malware finding against the site itself."
+      },
+      "sources": [
+        {
+          "url": "https://www.ui-skills.com",
+          "date": "2026-10-27",
+          "note": "Description of CLI/MCP/registry, Design.md, Learn playbook, jobs board, footer copyright"
+        },
+        {
+          "url": "https://github.com/ibelick/ui-skills",
+          "date": "2026-10-27",
+          "note": "Confirms MIT license, public repo, star count"
+        },
+        {
+          "url": "https://www.ui-skills.com/pricing",
+          "date": "2026-10-27",
+          "note": "Returned HTTP 404 — no dedicated pricing page exists, consistent with the product being free"
+        }
+      ],
+      "unverified": [
+        "No explicit statement anywhere on-site that the product will always remain free (absence of a pricing page is treated as evidence, not proof).",
+        "Legal operator/company behind ui-skills.com is not named on the site; only the GitHub maintainer (ibelick) is identifiable."
+      ],
+      "injectionSeen": null
+    },
+    "ui-snippets": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "UI Snippets",
+        "url": "https://www.ui-snippets.dev",
+        "alive": true,
+        "operator": "Emil Kowalski (personal project)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire site is free to browse; every animation's CSS/JS is copyable via right-click with no account, sign-up or paywall.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.ui-snippets.dev",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No explicit license shown on the site itself · commercial use: not addressed · attribution: not stated · limit: reuse terms for the copied snippets are unverified",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.ui-snippets.dev",
+          "date": "2026-10-27",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "ui-snippets",
+        "type": "Resource",
+        "category": "Design",
+        "title": "UI Snippets",
+        "description": "A free gallery of copyable CSS/JS micro-interactions and hover animations for developers and designers to reuse in UI work.",
+        "tags": [
+          "ui-ux",
+          "inspiration"
+        ],
+        "relatedResources": [
+          "dribbble",
+          "awwwards",
+          "behance"
+        ],
+        "similarResources": [
+          "figma-community"
+        ],
+        "keyFeatures": [
+          "Right-click any animation on the page to copy its underlying CSS/JS code",
+          "Collection of small UI micro-interactions: hover effects, pulsing elements, button animations",
+          "Built and maintained by developer Emil Kowalski as a personal side project",
+          "No sign-up or account required to browse or copy snippets"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "checked Simple Icons via check-icon.mjs: no exact match, closest results were single unrelated letters"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown reports found in web search; site is a small, long-standing personal demo page."
+      },
+      "sources": [
+        {
+          "url": "https://www.ui-snippets.dev",
+          "date": "2026-10-27",
+          "note": "What the site is, pricing (none/free), creator attribution"
+        },
+        {
+          "url": "web-search: \"ui-snippets.dev\" scam OR malware OR \"shutting down\"",
+          "date": "2026-10-27",
+          "note": "No matches for the site; no safety red flags surfaced"
+        }
+      ],
+      "unverified": [
+        "Could not confirm a license for the snippet code itself; a linked GitHub repo (emilkowalski/ui-snippets) returned 404 when fetched directly",
+        "No dedicated pricing or terms page exists to double-check the free claim beyond the homepage"
+      ],
+      "injectionSeen": null
+    },
+    "ui-store-design": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "UI Store Design",
+        "url": "https://www.uistore.design",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All 648+ listed design resources (UI kits, templates, icons, illustrations, mockups, wireframes) are presented as free to download; no account needed to browse.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.uistore.design",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No single site-wide license; it is a directory of third-party free resources, each with its own terms · commercial use: varies per listed item · attribution: varies per item · limit: must check each individual resource's own license page",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.uistore.design",
+          "date": "2026-10-27",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "ui-store-design",
+        "type": "Website",
+        "category": "Design",
+        "title": "UI Store Design",
+        "description": "A free directory of 600+ curated UI kits, templates, mockups and design resources for Figma, Sketch, Webflow and Adobe XD.",
+        "tags": [
+          "ui-ux",
+          "design-templates"
+        ],
+        "relatedResources": [
+          "figma-community",
+          "webflow-templates",
+          "dribbble"
+        ],
+        "similarResources": [
+          "figma-community"
+        ],
+        "keyFeatures": [
+          "Catalog of 648+ free design resources: UI kits, landing pages, icons, illustrations, mockups, wireframes",
+          "Filterable by target design tool, including Figma, Sketch, Webflow, Framer and Adobe XD",
+          "All listed items presented as free to download, no account required to browse",
+          "Organized into categories such as dashboards, apps and ecommerce templates"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "checked Simple Icons via check-icon.mjs: no exact match, closest results were unrelated short strings"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Web search surfaced only unrelated lookalike-domain scam reports (e.g. uioaz.com, uirzmel.com); nothing tied to uistore.design itself. Page carries sponsored placements (Webflow, Mobbin banner ad) but these are clearly marked ads, not the catalog content."
+      },
+      "sources": [
+        {
+          "url": "https://www.uistore.design",
+          "date": "2026-10-27",
+          "note": "What the site is, resource count, categories, free pricing claim, sponsored-ad presence"
+        },
+        {
+          "url": "web-search: \"uistore.design\" scam OR malware OR \"shutting down\" OR acquired",
+          "date": "2026-10-27",
+          "note": "No safety reports found for this domain"
+        }
+      ],
+      "unverified": [
+        "Individual listed resources' own licenses were not verified one by one",
+        "Site operator/company identity not stated on the page checked"
+      ],
+      "injectionSeen": null
+    },
+    "ui-tips": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "verdictReason": "Parent site uidesign.tips (\"UI Design Tips\") is not already in RL (checked via rl-index.mjs --find), so this sub-page is not a duplicate; listing the tips collection itself as instructed.",
+      "site": {
+        "name": "UI Tips (uidesign.tips)",
+        "url": "https://www.uidesign.tips/ui-tips",
+        "alive": true,
+        "operator": "Jim Raptis"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All tips on the page are free to read, with no login or paywall; a free newsletter sign-up is also offered.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.uidesign.tips/ui-tips",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No explicit license or reuse terms; only a copyright notice (\"©2026\" Jim Raptis) is shown · commercial use: not addressed · attribution: not specified · limit: content appears intended for reading/reference, not redistribution",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.uidesign.tips/ui-tips",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "ui-tips",
+        "type": "Resource",
+        "category": "Design",
+        "title": "UI Tips",
+        "description": "A free, example-based collection of short UI/UX design tips on buttons, forms, color, typography and hierarchy, from uidesign.tips.",
+        "tags": [
+          "ui-ux",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "dribbble",
+          "awwwards",
+          "figma-community"
+        ],
+        "similarResources": [
+          "figma-community"
+        ],
+        "keyFeatures": [
+          "Short, example-driven tips on UI/UX fundamentals: buttons, cards, forms, color and typography",
+          "Tag-based browsing (e.g. ux, forms, accessibility) to find tips by topic",
+          "Written by designer Jim Raptis as part of the broader uidesign.tips site",
+          "Each tip links out to its own dedicated page with a worked example"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "checked Simple Icons via check-icon.mjs: no match found (exit 2)"
+        },
+        "siblings": [
+          {
+            "note": "Parent site uidesign.tips also has separate UX Tips, Articles and Newsletter sections visible in the page nav, which could warrant their own RL entries if the owner wants the whole site covered rather than just this /ui-tips sub-page."
+          }
+        ]
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Web search surfaced only unrelated lookalike-domain malware reports (e.g. uidhome.top); nothing tied to uidesign.tips itself. Page also promotes third-party products (MagicPattern, gradients.fm, BrandBird, PH Launch Checklist) as ads, not part of the tips content."
+      },
+      "sources": [
+        {
+          "url": "https://www.uidesign.tips/ui-tips",
+          "date": "2026-10-27",
+          "note": "Page content, author attribution, pricing/terms (none beyond copyright notice), related site sections"
+        },
+        {
+          "url": "web-search: \"uidesign.tips\" scam OR malware OR \"shutting down\" OR acquired",
+          "date": "2026-10-27",
+          "note": "No safety reports found for this domain"
+        },
+        {
+          "url": "rl-index.mjs --find \"UI Design Tips\"",
+          "date": "2026-10-27",
+          "note": "Confirmed parent site is not already an RL resource"
+        }
+      ],
+      "unverified": [
+        "Whether uidesign.tips' newsletter or any other section of the parent site has a paid offering was not confirmed",
+        "Whether the owner wants the parent site listed instead of, or in addition to, this /ui-tips sub-page (flagged as a sibling note)"
+      ],
+      "injectionSeen": null
+    },
+    "ui-live": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "UI.live",
+        "url": "https://ui.live",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire platform (post designs, explore, trending, leaderboard) is usable with no price or plan mentioned; labeled \"Beta\".",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://ui.live",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No published license/ToS found on the site · commercial: unknown · attribution: unknown · no stated limit",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://ui.live",
+          "date": "2026-10-27",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "ui-live",
+        "type": "Website",
+        "category": "Design",
+        "title": "UI.live",
+        "description": "A beta community site where designers post UI work, browse trending submissions and climb a leaderboard for exposure.",
+        "tags": [
+          "ui-ux",
+          "inspiration"
+        ],
+        "relatedResources": [
+          "dribbble",
+          "behance"
+        ],
+        "similarResources": [
+          "dribbble",
+          "awwwards"
+        ],
+        "keyFeatures": [
+          "Post UI/UX design work to a public feed",
+          "Browse a Trending section of popular submissions",
+          "Explore page for discovering other designers' work",
+          "Leaderboard ranking for top contributors",
+          "Currently in public Beta"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no Simple Icons match (check-icon exit 1 returned only unrelated single-letter fuzzy matches e/v); no in-page SVG logo confirmed"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/shutdown/acquisition reports found; no security or safety flags turned up in search."
+      },
+      "sources": [
+        {
+          "url": "https://ui.live",
+          "date": "2026-10-27",
+          "note": "home page: beta community platform, post/trend/explore/leaderboard features, no pricing or terms shown"
+        }
+      ],
+      "unverified": [
+        "No operator/company name found anywhere on the site",
+        "No license or terms of service page found/linked",
+        "Could not confirm whether the free posting/browsing stays free long-term after Beta ends"
+      ],
+      "injectionSeen": null
+    },
+    "ui-ux-jobs-board": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "UI/UX Jobs Board",
+        "url": "https://uiuxjobsboard.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Browsing and applying to job listings is open with no login, fee, or plan mentioned; only employers posting jobs are charged (amount not published; ToS says job-posting purchases are non-refundable).",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://uiuxjobsboard.com",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Site-wide ToS: content licensed for personal, non-commercial viewing only · commercial: no (for site content reuse) · attribution: not required · limit: no copying/mirroring/redistributing site materials",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://uiuxjobsboard.com/terms-of-service",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "ui-ux-jobs-board",
+        "type": "Website",
+        "category": "Design",
+        "title": "UI/UX Jobs Board",
+        "description": "A free job board listing UI, UX, product design and UX writing roles from startups and larger companies, with a blog and salary guide.",
+        "tags": [
+          "ui-ux",
+          "web"
+        ],
+        "relatedResources": [
+          "dribbble",
+          "behance"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Curated listings for UI, UX, product design, UX research and UX writing roles",
+          "Free, open browsing with no login required",
+          "Salary guide resource for designers",
+          "Design-tools resource page and blog",
+          "Paid job-posting option for employers (\"Post a job\" / /hire)"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no Simple Icons match (check-icon exit 1 returned only unrelated single-letter fuzzy matches d/r/x); no in-page SVG logo confirmed"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown reports found for uiuxjobsboard.com; only unrelated job-board-scam articles surfaced in search."
+      },
+      "sources": [
+        {
+          "url": "https://uiuxjobsboard.com",
+          "date": "2026-10-27",
+          "note": "home page: job board scope, footer links, no pricing text for job seekers"
+        },
+        {
+          "url": "https://uiuxjobsboard.com/terms-of-service",
+          "date": "2026-10-27",
+          "note": "ToS: personal/non-commercial content license, no anti-linking clause, non-refundable job-posting purchases"
+        }
+      ],
+      "unverified": [
+        "No operator/company name found on site or in ToS",
+        "Exact employer job-posting price not published on any fetched page (/hire and /post-a-job both returned 404 for direct pricing text)",
+        "Founding year 2018 claim is the site's own unverified marketing copy"
+      ],
+      "injectionSeen": null
+    },
+    "ui8": {
+      "researchedOn": "2026-10-27",
+      "verdict": "blocked",
+      "verdictReason": "ui8.net returned HTTP 403 Forbidden on two separate fetch attempts (bot/WAF check), so pricing, free-tier and license pages could not be read first-party.",
+      "site": {
+        "name": "UI8",
+        "url": "https://ui8.net",
+        "alive": true,
+        "operator": null
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown reports found; search only surfaced an unrelated lookalike domain (xtui8.com) flagged separately by a reputation scanner, not ui8.net itself."
+      },
+      "sources": [
+        {
+          "url": "https://ui8.net",
+          "date": "2026-10-27",
+          "note": "home page fetch returned 403 Forbidden (attempt 1)"
+        },
+        {
+          "url": "https://ui8.net",
+          "date": "2026-10-27",
+          "note": "home page fetch retried, returned 403 Forbidden again (attempt 2)"
+        }
+      ],
+      "unverified": [
+        "Could not confirm whether UI8 has a genuine permanent free tier/weekly freebies section vs. being paid-only",
+        "Could not confirm license terms or whether UI8 is already a known duplicate-worthy fit for RL",
+        "Could not distinguish ui8.net's own bot-check policy from any site health issue"
+      ],
+      "injectionSeen": null
+    },
+    "ui8-illustrations": {
+      "researchedOn": "2026-10-27",
+      "verdict": "skip",
+      "verdictReason": "category filter page of ui8.net, not a distinct destination",
+      "site": {
+        "name": "UI8 - Illustrations (category page)",
+        "url": "https://ui8.net/category/illustrations",
+        "alive": true,
+        "operator": "UI8 LLC (ui8.net marketplace)"
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Direct fetch returned HTTP 403 (bot-check on this category URL); ui8.net itself is a well-known, long-running design marketplace. No scam/malware/shutdown signals found in search."
+      },
+      "sources": [
+        {
+          "url": "https://ui8.net/category/illustrations",
+          "date": "2026-10-27",
+          "note": "attempted fetch, returned 403 bot-check; URL path confirms this is a /category/ filter view of the ui8.net marketplace"
+        }
+      ],
+      "unverified": [
+        "Could not directly load page content due to 403 bot-check; verdict based on URL structure (a marketplace category filter, not a standalone product/site) per task instruction to treat ui8.net category pages conservatively as skip."
+      ],
+      "injectionSeen": null
+    },
+    "uibits-co": {
+      "researchedOn": "2026-10-27",
+      "verdict": "needs-owner",
+      "verdictReason": "UIBits.co is an email newsletter (hosted on beehiiv, 'UI/UX Design Inspiration and Design Newsletter', ~6000+ subscribers) rather than a tool, template set, or browsable resource. RL has no 'newsletter' type/category and no existing newsletter-type listings (checked via rl-index --related; closest entries like awwwards/dribbble/fontpair are galleries or resource hubs, not subscription newsletters). Site is alive, free to subscribe, no listing-forbidding clause seen, but fitting it into RL's current schema (type/category choice) is a judgment call for the owner rather than a research-level decision.",
+      "site": {
+        "name": "UIBits.co",
+        "url": "https://uibits.co",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Free email subscription; no paid tier or paywall mentioned on homepage.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://uibits.co",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No license/ToS page found on homepage · commercial: unverified · attribution: unverified",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://uibits.co",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown signals found in search; hosted on beehiiv, a mainstream newsletter platform."
+      },
+      "sources": [
+        {
+          "url": "https://uibits.co",
+          "date": "2026-10-27",
+          "note": "homepage: identifies as a design newsletter, subscribe CTA, no pricing or license text beyond a copyright line"
+        }
+      ],
+      "unverified": [
+        "Operator/author identity not shown on homepage.",
+        "No pricing page or ToS/license page found to confirm commercial-use or listing terms beyond the homepage.",
+        "Whether RL wants to list email newsletters at all (no type/category fits well; closest would be type 'Resource' or 'Website', category Design, tag 'inspiration', but none of those cleanly describe a subscription newsletter)."
+      ],
+      "injectionSeen": null
+    },
+    "uicorn": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "uicorn",
+        "url": "https://uicorn.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All nine tools (CSS gradient generator, color palette extractor, WCAG contrast checker, modular scale calculator, and others) are free to use with no account or registration required.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://uicorn.com",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No formal software license published · commercial: not explicitly addressed (only a liability disclaimer telling users to verify outputs before production/commercial use) · attribution: not required · limit: no license/ToS page found beyond an Imprint footer link",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://uicorn.com/imprint",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "uicorn",
+        "type": "Tool",
+        "category": "Design",
+        "title": "uicorn",
+        "description": "Free, no-signup collection of browser-based CSS, color, and typography tools for designers, including a gradient generator and contrast checker.",
+        "tags": [
+          "color-palette",
+          "typography",
+          "ui-ux",
+          "web"
+        ],
+        "relatedResources": [
+          "fontpair"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "CSS gradient generator for building custom gradient code",
+          "Color palette extractor that pulls a palette from an uploaded image, processed locally in the browser",
+          "WCAG contrast checker for verifying accessible color combinations",
+          "Modular scale calculator for consistent typography sizing",
+          "Nine tools total, covering CSS, color, typography, layout and print use cases",
+          "No account, sign-up, or image upload to a server required; tools run client-side"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs exit 1 but fuzzy matches (c, cplusplus, r) are unrelated name collisions, not a real icon match; no site SVG logo confirmed, so route left as none pending owner/manual icon pick"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown signals found in search. Site states tools run locally and no data/images are uploaded."
+      },
+      "sources": [
+        {
+          "url": "https://uicorn.com",
+          "date": "2026-10-27",
+          "note": "homepage: tool list, free-forever claim, no-signup claim, local-processing claim"
+        },
+        {
+          "url": "https://uicorn.com/imprint",
+          "date": "2026-10-27",
+          "note": "checked for license/ToS/commercial-use language; found only copyright notice and a liability disclaimer"
+        }
+      ],
+      "unverified": [
+        "Exact operator/company name behind uicorn.com not confirmed.",
+        "No formal commercial-use permission statement found beyond the liability disclaimer; treated as free tool with no listing-forbidding clause."
+      ],
+      "injectionSeen": null
+    },
+    "uilogos": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "uilogos",
+        "url": "https://www.uilogos.co",
+        "alive": true,
+        "operator": "Independent creator (@realvjy); credited to Overlayz studio (overlayz.studio)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Full set of 25+ placeholder logos (mark + logotype, black variants), SVG/PNG download, click-to-copy, Figma plugin, and a zip/GitHub download of the whole set — no paid tier observed.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.uilogos.co",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "CC-BY-4.0 · commercial: yes · attribution: required · must credit uilogos when reused outside mockups",
+        "openSource": false,
+        "spdx": "CC-BY-4.0",
+        "evidence": {
+          "url": "https://www.uilogos.co",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "uilogos",
+        "type": "Resource",
+        "category": "Design",
+        "title": "uilogos",
+        "description": "Free placeholder logo library (marks + logotypes) for mockups and presentations, downloadable as SVG/PNG with a Figma plugin.",
+        "tags": [
+          "graphic-design",
+          "design-templates"
+        ],
+        "relatedResources": [
+          "figma-community",
+          "canva-templates",
+          "behance"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "25+ \"lorem ipsum for logos\" placeholder marks and logotypes, each with a black variant",
+          "SVG and PNG downloads plus one-click copy of the logo markup",
+          "Figma plugin to drop placeholder logos straight into a design file",
+          "Full set available as a single zip download and on GitHub",
+          "Licensed CC-BY-4.0, usable in personal and commercial projects with attribution"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs fuzzy match ('go') is an unrelated short-string collision, not a real brand icon; use site SVG/favicon instead"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown signals found in web search; search returned unrelated results only."
+      },
+      "sources": [
+        {
+          "url": "https://www.uilogos.co",
+          "date": "2026-10-27",
+          "note": "home page: product description, format list, Figma plugin, CC-BY-4.0 license mention, no paid tier"
+        }
+      ],
+      "unverified": [
+        "Dedicated /license or /pricing page returned 404 on this fetch; license terms taken from the home page's own license statement only.",
+        "Exact attribution wording/requirements not independently confirmed beyond the home page's CC-BY-4.0 mention."
+      ],
+      "injectionSeen": null
+    },
+    "uiverse": {
+      "researchedOn": "2026-10-27",
+      "verdict": "blocked",
+      "verdictReason": "Home page (https://uiverse.io) and /about both returned HTTP 403 on first attempt and on a retry — consistent with a bot-check wall (e.g. Cloudflare) blocking the fetch tool. No first-party page content could be read.",
+      "site": {
+        "name": "Uiverse",
+        "url": "https://uiverse.io",
+        "alive": true,
+        "operator": null
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Web search for scam/malware/shutdown terms returned only unrelated phishing-domain results (e.g. 'universe.us', 'unioswep.com'); nothing found about uiverse.io itself."
+      },
+      "sources": [
+        {
+          "url": "https://uiverse.io",
+          "date": "2026-10-27",
+          "note": "HTTP 403 on two attempts, no content retrieved"
+        },
+        {
+          "url": "https://uiverse.io/about",
+          "date": "2026-10-27",
+          "note": "HTTP 403, no content retrieved"
+        }
+      ],
+      "unverified": [
+        "Pricing, license, and feature details could not be verified because the site blocked automated fetches (bot check) on every attempt.",
+        "Whether uiverse.io is still the correct canonical URL / fully operational could not be confirmed beyond the 403 response (which implies the server is up)."
+      ],
+      "injectionSeen": null
+    },
+    "uiverse-design": {
+      "researchedOn": "2026-10-27",
+      "verdict": "blocked",
+      "verdictReason": "Same site as uiverse (uiverse.io/design/ is a section of uiverse.io). Could not evaluate whether it deserves a separate list-sibling entry because the parent site itself returned HTTP 403 on every fetch attempt (bot check), so the /design/ section was not independently fetched either.",
+      "site": {
+        "name": "Uiverse Design",
+        "url": "https://uiverse.io/design/",
+        "alive": true,
+        "operator": null
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No fetch succeeded; no safety signal beyond the general uiverse.io search which showed nothing adverse."
+      },
+      "sources": [
+        {
+          "url": "https://uiverse.io/design/",
+          "note": "not fetched — parent domain blocked by bot check on repeated attempts, so this section was not attempted separately",
+          "date": "2026-10-27"
+        }
+      ],
+      "unverified": [
+        "Whether /design/ is a distinct enough destination from the rest of uiverse.io to warrant its own RL entry — could not be assessed without reading either page.",
+        "All pricing/license/feature facts for this section are unknown pending a successful fetch."
+      ],
+      "injectionSeen": null
+    },
+    "uizard": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "Uizard",
+        "url": "https://uizard.io",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free for everyone: 3 AI generations/month, up to 2 projects, 5 screens per project, 10 templates, 5 custom templates, Autodesigner 1.5 engine, 1x-resolution exports.",
+        "paidFrom": "Pro at $12/month billed annually (500 AI generations/month, up to 100 projects, private projects, all templates); Business at $39/month; Enterprise is custom.",
+        "evidence": {
+          "url": "https://uizard.io/pricing/",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Uizard · commercial: yes (SaaS, own account) · attribution: not required · limit: free tier caps AI generations/month and project count",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://uizard.io/pricing/",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "uizard",
+        "type": "AI Tool",
+        "category": "Design",
+        "title": "Uizard",
+        "description": "AI-powered UI design tool that turns text prompts, screenshots or hand-drawn wireframes into editable, multi-screen prototypes.",
+        "tags": [
+          "ai-tool",
+          "ui-ux",
+          "prototyping"
+        ],
+        "relatedResources": [
+          "figma",
+          "framer",
+          "webflow"
+        ],
+        "similarResources": [
+          "figma",
+          "framer"
+        ],
+        "keyFeatures": [
+          "Generates multi-screen, editable prototypes from a text description",
+          "Autodesigner lets you select a component and describe a change for AI to apply it",
+          "Screenshot Scanner turns app/website screenshots into editable mockups",
+          "Wireframe Scanner converts hand-drawn sketches into digital designs",
+          "Generates new visual themes for an existing project",
+          "Free plan available with capped monthly AI generations"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no Simple Icons match (check-icon exit 1, closest matches were unrelated single-letter icons)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": null
+      },
+      "sources": [
+        {
+          "url": "https://uizard.io",
+          "date": "2026-10-27",
+          "note": "product description, feature list, audience"
+        },
+        {
+          "url": "https://uizard.io/pricing/",
+          "date": "2026-10-27",
+          "note": "pricing tiers and free-tier limits"
+        }
+      ],
+      "unverified": [
+        "Whether Pro has a monthly (non-annual) price point was not visible on the fetched portion of the pricing page."
+      ],
+      "injectionSeen": null
+    },
+    "ultramock": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "Ultramock",
+        "url": "https://www.ultramock.io",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan: full browser editor, 3 image/video exports per 24 hours, watermarked exports, images up to 1920px / video up to 720p30, 3 of 19 3D device models, 14 of 23 backgrounds, flat (no-device) mode, cloud projects limited to current browser session.",
+        "paidFrom": "Pro at $10/mo billed yearly ($120/yr) or $20/mo billed monthly: transparent exports, premium assets, higher resolutions, saved custom setups.",
+        "evidence": {
+          "url": "https://www.ultramock.io/pricing",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Ultramock · commercial: yes (SaaS, exported images/video are yours to use) · attribution: not required · limit: free tier exports are watermarked and capped at 3 per 24h",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.ultramock.io/pricing",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "ultramock",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Ultramock",
+        "description": "Browser-based tool that turns app and website screenshots into realistic 3D device mockup images and short videos for launches and social posts.",
+        "tags": [
+          "graphic-design",
+          "visual-design",
+          "social-media-design"
+        ],
+        "relatedResources": [
+          "behance",
+          "canva",
+          "figma"
+        ],
+        "similarResources": [
+          "canva"
+        ],
+        "keyFeatures": [
+          "Renders screenshots into realistic 3D device mockups with lighting and depth of field in the browser",
+          "Camera, focus and motion controls, including camera movement generated from drawn focus areas",
+          "Visual effects such as color grading, bloom, grain and sharpening",
+          "Starter templates, with saved custom setups on the paid plan",
+          "High-resolution image and video export",
+          "Beta MCP control for connecting to AI tools (Pro)"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no Simple Icons match (check-icon exit 1, closest matches were unrelated single-letter icons)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": null
+      },
+      "sources": [
+        {
+          "url": "https://www.ultramock.io",
+          "date": "2026-10-27",
+          "note": "product description, feature list, audience"
+        },
+        {
+          "url": "https://www.ultramock.io/pricing",
+          "date": "2026-10-27",
+          "note": "pricing tiers, free-tier limits"
+        }
+      ],
+      "unverified": [],
+      "injectionSeen": null
+    },
+    "unblast": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "Unblast",
+        "url": "https://unblast.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Browsing and downloading the library (mockups, fonts, icons, graphics, templates, color palettes, image converters) does not require an account; Unblast-made resources are free for personal and commercial use.",
+        "paidFrom": "Some third-party-submitted resources on the site have premium versions or separate commercial licenses set by their original authors; price not disclosed site-wide.",
+        "evidence": {
+          "url": "https://unblast.com",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Unblast · commercial: yes for Unblast-made resources, varies by author for submitted resources · attribution: not required for Unblast-made resources (but link-back requested if reshared) · limit: direct hosting of download files elsewhere is barred without permission",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://unblast.com/license/",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "unblast",
+        "type": "Resource",
+        "category": "Design",
+        "title": "Unblast",
+        "description": "Free design resource library of mockups, fonts, icons, vector graphics and templates, with licenses that vary by resource and no account required to download.",
+        "tags": [
+          "design-templates",
+          "graphic-design",
+          "icon-library",
+          "stock-vectors"
+        ],
+        "relatedResources": [
+          "canva-templates",
+          "figma-community",
+          "fontawesome"
+        ],
+        "similarResources": [
+          "canva-templates",
+          "figma-community"
+        ],
+        "keyFeatures": [
+          "Device, apparel, book, packaging, billboard and business-card mockups",
+          "Fonts in sans serif, serif, display and script styles",
+          "Icons in colored, monoline and isometric styles",
+          "Vector graphics, illustrations, patterns and textures",
+          "Templates for brand guidelines, resumes, social media, logos and websites",
+          "Color palettes and free online image converters; no account needed to download, licenses vary per resource"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "no Simple Icons match (check-icon exit 2)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": null
+      },
+      "sources": [
+        {
+          "url": "https://unblast.com",
+          "date": "2026-10-27",
+          "note": "site description, categories offered, account requirements"
+        },
+        {
+          "url": "https://unblast.com/license/",
+          "date": "2026-10-27",
+          "note": "licensing, commercial use, attribution, redistribution terms"
+        }
+      ],
+      "unverified": [
+        "Exact terms of the separate 'redistribution' page linked from the license page were not read (not fetched); resale policy for third-party assets is unclear and left per-author."
+      ],
+      "injectionSeen": null
+    },
+    "uncut": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "Uncut",
+        "url": "https://uncut.wtf",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire catalogue of 163 typefaces (Sans Serif, Serif, Monospace, Display) is free to browse and download.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://uncut.wtf",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Per-font copyright retained by creators · commercial: yes (site states \"free for commercial use\") · attribution: not required (not stated) · licensing questions go to each font's creator",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://uncut.wtf/legal",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "uncut",
+        "type": "Font",
+        "category": "Design",
+        "title": "Uncut",
+        "description": "A free catalogue of 163 contemporary typefaces (sans, serif, monospace, display) that are free for commercial use.",
+        "tags": [
+          "typography"
+        ],
+        "relatedResources": [
+          "fontpair"
+        ],
+        "similarResources": [
+          "google-fonts"
+        ],
+        "keyFeatures": [
+          "163 typefaces organized into Sans Serif, Serif, Monospace and Display categories",
+          "Grid or list browsing with search across the catalogue",
+          "All fonts listed as free for commercial use, with copyright retained by individual creators",
+          "Community \"Submit a font\" option for designers to add their own typefaces"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact or credible fuzzy match in Simple Icons (check-icon.mjs returned only unrelated single-letter matches); needs a manual site-logo SVG pick."
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown/acquisition reports found for uncut.wtf specifically; search results were about unrelated font-malware campaigns on other domains."
+      },
+      "sources": [
+        {
+          "url": "https://uncut.wtf",
+          "date": "2026-10-27",
+          "note": "Home page: catalogue size, categories, browsing, free-for-commercial-use tagline"
+        },
+        {
+          "url": "https://uncut.wtf/legal",
+          "date": "2026-10-27",
+          "note": "Legal page: licensing points to individual font creators, copyright statement, no attribution requirement stated"
+        }
+      ],
+      "unverified": [
+        "Full contents of the /legal page beyond the summarized points were not independently re-verified line by line.",
+        "Whether any individual font within the catalogue carries stricter per-font terms than the general \"free for commercial use\" claim."
+      ],
+      "injectionSeen": null
+    },
+    "understanding-accessibility": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "Understanding Accessibility",
+        "url": "https://www.understandingaccessibility.com",
+        "alive": true,
+        "operator": "Alaïs de Saint Louvant, with Studio Lutalica and Lattimore + Friends"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "The entire guide (five topic areas: colours, typefaces, media, layout, development) is free to read with no account or payment.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.understandingaccessibility.com",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No license stated · commercial: n/a (free educational content, not software) · attribution: not required · footer \"Terms and Conditions\"/\"Cookie Policy\" links are placeholders with no terms text",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.understandingaccessibility.com",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "understanding-accessibility",
+        "type": "Resource",
+        "category": "Design",
+        "title": "Understanding Accessibility",
+        "description": "A free guide teaching web designers the basics of accessibility across colour, typography, media, layout and development.",
+        "tags": [
+          "ui-ux",
+          "web"
+        ],
+        "relatedResources": [
+          "figma-community"
+        ],
+        "similarResources": [
+          "awwwards"
+        ],
+        "keyFeatures": [
+          "Covers five accessibility topics: colour, typefaces, media, layout and development",
+          "Each topic links out to further resources and real-world examples",
+          "Written for web designers rather than developers or legal/compliance teams",
+          "Created by Alaïs de Saint Louvant with Studio Lutalica and Lattimore + Friends, based on accessibility problems observed across many sites",
+          "Free to use, no account or payment required"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact or credible fuzzy match in Simple Icons (check-icon.mjs returned only unrelated single-letter/acronym matches); needs a manual site-logo SVG pick."
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown/acquisition reports found for understandingaccessibility.com specifically; search results were about unrelated accessibility vendors (accessiBe, Level Access)."
+      },
+      "sources": [
+        {
+          "url": "https://www.understandingaccessibility.com",
+          "date": "2026-10-27",
+          "note": "Home page: purpose, five topic areas, authorship, free access, footer links"
+        }
+      ],
+      "unverified": [
+        "Footer \"Terms and Conditions\" and \"Cookie Policy\" links point to placeholder targets with no actual terms text, so no formal ToS could be reviewed.",
+        "Exact relationship/ownership of Studio Lutalica and Lattimore + Friends to the site (e.g. whether either operates it commercially) not confirmed beyond the credit line.",
+        "Footer shows a 2023 copyright notice; not confirmed whether content has been updated since then."
+      ],
+      "injectionSeen": null
+    },
+    "unicorn-icons": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "Unicorn Icons",
+        "url": "https://unicornicons.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Starter plan: 100 free icons, no card required, lifetime updates and access to new free icons; attribution to Unicorn Icons required.",
+        "paidFrom": "$59 one-time for the Solo plan (1 seat) — shown as a promotional price discounted from $129, stated to rise to $69 after the current batch; one-time payment, no subscription.",
+        "evidence": {
+          "url": "https://unicornicons.com",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Unicorn Icons custom license · commercial: explicitly granted on Pro/paid plans, not explicitly addressed for the free plan · attribution: required on the free plan · redistribution/resale of icons as standalone files or packs is prohibited for all users",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://unicornicons.com/license",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "unicorn-icons",
+        "type": "Icon Set",
+        "category": "Design",
+        "title": "Unicorn Icons",
+        "description": "A library of 400+ animated Lottie and Rive icons with a color editor and framework-ready exports; free starter tier, one-time paid packs.",
+        "tags": [
+          "icon-library",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "lucide-icons",
+          "material-symbols",
+          "remix-icon"
+        ],
+        "similarResources": [
+          "iconify",
+          "simple-icons",
+          "thesvg"
+        ],
+        "keyFeatures": [
+          "400+ animated icons delivered as Lottie JSON and Rive files",
+          "Browser-based color editor for recoloring icons before export",
+          "Export formats include Lottie, Rive, SVG, GIF, WebM and PNG",
+          "Framework-ready exports for React, Vue, Next.js, iOS, Android and Flutter",
+          "Free Starter plan with 100 icons, no card required, attribution required",
+          "One-time paid plans (Solo/Team/Enterprise) add a commercial license, more icons and lifetime updates"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact or credible fuzzy match in Simple Icons (check-icon.mjs returned only unrelated single-letter/acronym matches); needs a manual site-logo SVG pick."
+        },
+        "siblings": [],
+        "ownerNote": "Free Starter tier's commercial-use rights are not explicitly stated on /license (only attribution is specified there); the explicit 'use in any personal or commercial project' grant is listed under the Pro plan section. Worth confirming with the owner before publishing whether the free tier is safe to describe as commercial-use-friendly, or whether the description should stay neutral on that point (current description avoids claiming commercial rights for the free tier)."
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown/acquisition reports found for unicornicons.com specifically; search results were about unrelated 'Unicorn'-named malware/scam products on other domains."
+      },
+      "sources": [
+        {
+          "url": "https://unicornicons.com",
+          "date": "2026-10-27",
+          "note": "Home page: product description, formats, framework exports, pricing tiers and amounts"
+        },
+        {
+          "url": "https://unicornicons.com/license",
+          "date": "2026-10-27",
+          "note": "License page: Free plan attribution requirement, Pro plan commercial grant, prohibited redistribution/resale"
+        }
+      ],
+      "unverified": [
+        "Whether the free Starter tier's 100 icons may be used in commercial projects (license page addresses attribution for Free plan but only explicitly grants commercial use under Pro).",
+        "Which formats (e.g. whether Rive is included) are available in the free 100 icons versus paid packs.",
+        "Exact current price after the stated promotional period ends (page says Solo rises from $59 to $69, Team from $129 to $149, Enterprise from $199 to $229, with no date given for when)."
+      ],
+      "injectionSeen": null
+    },
+    "unicorn-platform": {
+      "researchedOn": "2026-10-27",
+      "verdict": "skip",
+      "verdictReason": "Free \"Lurker\" plan explicitly allows 0 published websites on the official pricing page — it's a drafting sandbox, not a usable free tier (no way to get a live site without paying), so it fails the real-permanent-free-tier bar.",
+      "site": {
+        "name": "Unicorn Platform",
+        "url": "https://unicornplatform.com/",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": "\"Lurker\" plan, $0: 0 published websites, 10 pages/site, 10 blog posts, SSL/CDN, custom code — cannot actually publish a live site",
+        "paidFrom": "Maker plan $14/mo (or $9/mo billed yearly), 1 published website",
+        "evidence": {
+          "url": "https://unicornplatform.com/pricing",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://unicornplatform.com/pricing",
+          "date": "2026-10-27",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown signal found; unrelated 'Unicorn' malware-group and scam-app results in search are different entities."
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/unicorn-platform/",
+          "date": "2026-10-27",
+          "note": "resolved the real vendor URL (unicornplatform.com) behind the directory's tracked redirect"
+        },
+        {
+          "url": "https://unicornplatform.com/pricing",
+          "date": "2026-10-27",
+          "note": "free plan limits (0 published sites) and paid tier prices"
+        }
+      ],
+      "unverified": [
+        "Terms of Service / commercial-use license text not read directly (pricing page had no license clause)",
+        "Whether Digitool's description text was pasted marketing copy — not reused in this entry"
+      ],
+      "injectionSeen": null
+    },
+    "unicorn-studio": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Unicorn Studio",
+        "url": "https://www.unicorn.studio",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan ($0): access to 75+ effects, up to 8 publishes (carry Unicorn branding), image exports + limited video export, personal/non-commercial use only",
+        "paidFrom": "Legend plan: $20/month billed monthly or $168/year — unlimited unbranded publishes, commercial license, JSON/HQ video export",
+        "evidence": {
+          "url": "https://www.unicorn.studio/docs/pricing/",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Unicorn Studio Free plan · commercial: no (personal/non-commercial only) · attribution: required (Unicorn branding on free publishes) · paid Legend plan adds a commercial license and removes branding",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.unicorn.studio/docs/pricing/",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "unicorn-studio",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Unicorn Studio",
+        "description": "No-code WebGL tool for building interactive shader-based graphics and animated scenes to embed on websites.",
+        "tags": [
+          "no-code",
+          "visual-design",
+          "web",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "webflow",
+          "framer"
+        ],
+        "similarResources": [
+          "framer",
+          "webflow"
+        ],
+        "keyFeatures": [
+          "75+ built-in WebGL/shader effects for interactive, animated scenes without writing code",
+          "Layer-based canvas with real-time preview of the finished effect",
+          "Publishes as embeddable code, or exports as an image or video",
+          "\"Unicorn Agent\" AI assistant and an MCP integration for agent-driven scene edits",
+          "Free plan allows up to 8 branded publishes for personal/non-commercial use; paid Legend plan removes branding, adds a commercial license, JSON export and HQ video export"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact match; fuzzy candidates (c, cplusplus, d, r) are unrelated letter-mark icons, not a real logo match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown signal found in search."
+      },
+      "sources": [
+        {
+          "url": "https://www.unicorn.studio",
+          "date": "2026-10-27",
+          "note": "homepage tagline only (JS-rendered page returned minimal text to the fetcher)"
+        },
+        {
+          "url": "https://www.unicorn.studio/docs/pricing/",
+          "date": "2026-10-27",
+          "note": "free vs Legend plan features, prices, and the personal/non-commercial license restriction on the free plan"
+        }
+      ],
+      "unverified": [
+        "Full homepage marketing copy could not be read directly (JS-rendered, fetcher returned only the title) — description was written from the pricing/docs page and secondary sources instead",
+        "Exact runtime size (~29kb gzipped) came from a secondary source, not confirmed first-party"
+      ],
+      "injectionSeen": null
+    },
+    "universe": {
+      "researchedOn": "2026-10-27",
+      "verdict": "skip",
+      "verdictReason": "Universe (univer.se / universeapp.com) is shutting down: the vendor's own shutdown notice says the service winds down through 2026, blocks new signups/subscriptions/domains within weeks, and cancels all subscriptions by Dec 31, 2026 — dead/sunsetting product, not worth a new RL listing.",
+      "site": {
+        "name": "Universe",
+        "url": "https://univer.se",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan existed ($0): one site/portfolio/link-in-bio page, mailing list, unlimited blocks, SEO tools — moot given shutdown",
+        "paidFrom": "Base $12/mo ($72/yr), Pro $25/mo ($200/yr), Complete $50/mo ($500/yr) — moot given shutdown",
+        "evidence": {
+          "url": "https://univer.se",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://universeapp.com/shutdown",
+          "date": "2026-10-27",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Service is in a vendor-announced wind-down (sites stay up only through end of 2026; new site creation, subscriptions and domain registrations being blocked in the coming weeks)."
+      },
+      "sources": [
+        {
+          "url": "https://univer.se",
+          "date": "2026-10-27",
+          "note": "homepage links directly to the shutdown notice; summarized product, free/paid tiers"
+        },
+        {
+          "url": "https://universeapp.com/shutdown",
+          "date": "2026-10-27",
+          "note": "official wind-down timeline: no new sites/subscriptions/domains soon, all subscriptions cancelled by 2026-12-31, export tools provided"
+        }
+      ],
+      "unverified": [
+        "Exact date within '2026' that new-site-creation blocking begins ('within the coming weeks' from the day the notice was read, 2026-10-27, not a fixed date)"
+      ],
+      "injectionSeen": null
+    },
+    "unlayer": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "Unlayer",
+        "url": "https://unlayer.com",
+        "alive": true,
+        "operator": "Unlayer Inc. (implied by terms/EULA text, operator name not stated on fetched pages)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Forever-free plan with Email, Page, Popup, and Document builders; no credit card required; export/bandwidth limits not specified on the pricing page",
+        "paidFrom": "Launch plan $250/mo (5,000 exports/mo, 1TB bandwidth, 14-day trial); Scale $750/mo; Optimize $2,000/mo; custom Enterprise",
+        "evidence": {
+          "url": "https://unlayer.com/pricing",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Unlayer Terms of Service · commercial: yes (embed in your own product under your branding) · attribution: effectively required on Free plan (Unlayer may insert its logo/link per Sec 24.2) · limit: cannot resell the Software as a stand-alone product/service (Sec 3.3)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://unlayer.com/terms",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "unlayer",
+        "type": "Tool",
+        "category": "Development",
+        "title": "Unlayer",
+        "description": "Embeddable drag-and-drop editor SDK for emails, pages, popups, and documents that software teams add into their own products.",
+        "tags": [
+          "no-code",
+          "web",
+          "ui-ux",
+          "design-systems"
+        ],
+        "relatedResources": [
+          "codepen",
+          "codesandbox",
+          "stackblitz"
+        ],
+        "similarResources": [
+          "webflow",
+          "framer",
+          "squarespace"
+        ],
+        "keyFeatures": [
+          "Embeddable drag-and-drop builders for emails, web pages, popups, and documents",
+          "SDK, REST API, and CLI for integrating the editor and generating exports programmatically",
+          "React, Angular, and Vue components for faster front-end integration",
+          "AI-assisted writing and layout suggestions (not available on the free plan)",
+          "Built-in template library plus export to HTML, PDF, or image",
+          "Forever-free plan for the core builders, with no credit card required"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no exact match; closest fuzzy hits ('e', 'r') are unrelated single-letter icons, not a real brand match, so skipping iconLib"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition reports found in search"
+      },
+      "sources": [
+        {
+          "url": "https://unlayer.com",
+          "date": "2026-10-27",
+          "note": "product description, use cases, free-to-start messaging"
+        },
+        {
+          "url": "https://unlayer.com/pricing",
+          "date": "2026-10-27",
+          "note": "pricing tiers and free-plan confirmation"
+        },
+        {
+          "url": "https://unlayer.com/terms",
+          "date": "2026-10-27",
+          "note": "commercial-use grant, resale limit, attribution/branding clause"
+        }
+      ],
+      "unverified": [
+        "Exact export/bandwidth limits on the Free plan are not stated on the pricing page",
+        "No explicit clause found addressing third-party directory listings/links (only resale-as-standalone-product restriction found)"
+      ],
+      "injectionSeen": null
+    },
+    "unreal-engine": {
+      "researchedOn": "2026-10-27",
+      "verdict": "blocked",
+      "verdictReason": "unrealengine.com returned HTTP 403 (bot-check) on the home page and the /en-US/ localized home page, and again on the EULA and FAQ pages, across two separate fetch attempts (one retry each). No first-party page could be read to confirm the current free-tier terms or the royalty revenue threshold, so Tier A could not be completed from a trustworthy source. Confirmed via rl-index.mjs that Unreal Engine is not already in RL.",
+      "site": {
+        "name": "Unreal Engine",
+        "url": "https://www.unrealengine.com",
+        "alive": true,
+        "operator": "Epic Games, Inc."
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "WebSearch found only an old (2016) Epic Games forum breach and a 2020 Apple-v-Epic legal argument calling Unreal Engine a 'trojan horse' risk (not a confirmed malware finding), plus an unrelated Steam impersonation-scam listing of a fake paid UE5 demo; no 2026 shutdown/acquisition/scam news"
+      },
+      "sources": [
+        {
+          "url": "https://www.unrealengine.com",
+          "date": "2026-10-27",
+          "note": "attempted fetch, returned HTTP 403"
+        },
+        {
+          "url": "https://www.unrealengine.com/en-US/",
+          "date": "2026-10-27",
+          "note": "retry attempt, returned HTTP 403"
+        },
+        {
+          "url": "https://www.unrealengine.com/en-US/eula",
+          "date": "2026-10-27",
+          "note": "attempted fetch for royalty/license terms, returned HTTP 403"
+        },
+        {
+          "url": "https://www.unrealengine.com/en-US/faq",
+          "date": "2026-10-27",
+          "note": "retry attempt for pricing/royalty FAQ, returned HTTP 403"
+        }
+      ],
+      "unverified": [
+        "Current free-tier terms and royalty revenue threshold not confirmed first-party (site blocked WebFetch); known from general knowledge that UE has historically used a 5% royalty above a revenue threshold, but this must be re-verified first-party before any RL entry is drafted",
+        "check-icon.mjs independently found an exact Simple Icons match (slug: unrealengine, fillColor #0E1128) if this entry is revisited later"
+      ],
+      "injectionSeen": null
+    },
+    "unsection": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "Unsection",
+        "url": "https://www.unsection.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free forever: browse up to 30 sections per category, up to 30 filter/search results, save up to 100 inspirations, unlimited folders",
+        "paidFrom": "Pro $9/month; Lifetime $99 one-time",
+        "evidence": {
+          "url": "https://www.unsection.com/pricing",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No published Terms/Legal page found (both /terms and /legal returned 404) · commercial use: not applicable — a browsable design-inspiration gallery, not licensed software · attribution: not required to view · limit: unknown, could not verify ToS",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.unsection.com/terms",
+          "date": "2026-10-27",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "unsection",
+        "type": "Website",
+        "category": "Design",
+        "title": "Unsection",
+        "description": "A searchable gallery of 5,400+ individual website sections—heroes, pricing tables, footers—for design inspiration by section, not full page.",
+        "tags": [
+          "inspiration",
+          "website-templates",
+          "web",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "framer-templates",
+          "webflow-templates"
+        ],
+        "similarResources": [
+          "awwwards",
+          "dribbble",
+          "behance"
+        ],
+        "keyFeatures": [
+          "Over 5,400 individual website section examples rather than full-page screenshots",
+          "Filter by section type: hero, feature, CTA, footer, pricing, navbar, FAQ, team, and more",
+          "Filter by industry and visual style",
+          "Save favorite sections into personal folders",
+          "Free-forever browsing plan, with Pro ($9/mo) or Lifetime ($99) removing browse limits"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no exact match; closest fuzzy hits ('e', 'c', 'cplusplus') are unrelated single-letter/language icons, not a real brand match, so skipping iconLib"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition reports found in search"
+      },
+      "sources": [
+        {
+          "url": "https://www.unsection.com",
+          "date": "2026-10-27",
+          "note": "product description, section types, free-membership messaging"
+        },
+        {
+          "url": "https://www.unsection.com/pricing",
+          "date": "2026-10-27",
+          "note": "pricing tiers and free-forever confirmation"
+        },
+        {
+          "url": "https://www.unsection.com/terms",
+          "date": "2026-10-27",
+          "note": "attempted fetch for terms, returned HTTP 404"
+        },
+        {
+          "url": "https://www.unsection.com/legal",
+          "date": "2026-10-27",
+          "note": "retry attempt for a legal/terms page, returned HTTP 404"
+        }
+      ],
+      "unverified": [
+        "No Terms of Service or legal page could be located (both /terms and /legal 404); cannot fully confirm absence of a directory-listing restriction",
+        "Operator/company name behind Unsection not stated on fetched pages"
+      ],
+      "injectionSeen": null
+    },
+    "untitled-ui": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "Untitled UI",
+        "url": "https://www.untitledui.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free Figma UI kit (1 user, basic styles/components, no variables/dark mode), free open-source React component library (non-PRO pages), and 1,100+ free SVG icons, avatars and logos. Permanent, not a trial.",
+        "paidFrom": "PRO Figma kit from $129 (solo), PRO React library from $349 (solo), PRO icons from $59 (solo); higher Studio/Business/Enterprise tiers scale by seat count. One-time purchase with lifetime updates.",
+        "evidence": {
+          "url": "https://www.untitledui.com/pricing",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Untitled UI Standard License · commercial: yes · attribution: not required · free tier limited to 1 user, no redistribution/resale of source files",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.untitledui.com/pricing",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "untitled-ui",
+        "type": "Library",
+        "category": "Design",
+        "title": "Untitled UI",
+        "description": "Design system with a 10,000+ component Figma UI kit and an open-source React/Tailwind component library, with a permanent free tier for both.",
+        "tags": [
+          "ui-ux",
+          "design-systems",
+          "design-templates",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "figma",
+          "figma-community"
+        ],
+        "similarResources": [
+          "webflow-templates"
+        ],
+        "keyFeatures": [
+          "10,000+ component and variant Figma UI kit with a free single-user tier",
+          "Open-source React component library built on React Aria and Tailwind CSS",
+          "1,100+ free SVG icons plus free avatar and logo mockup assets",
+          "PRO tiers are one-time purchases with lifetime updates, from solo to enterprise seats",
+          "Integration guides for Next.js, Vite, TanStack Start and AI app builders",
+          "MCP server for use with Claude Code and Cursor"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: NOT FOUND in Simple Icons (exit 1, weak fuzzy matches only) - use site SVG/ask owner"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Untitled UI's own blog publishes scam warnings about impersonators using lookalike domains (e.g. a misspelled Gumroad clone) and fake checkout stores; this is the vendor warning users, not a problem with untitledui.com itself."
+      },
+      "sources": [
+        {
+          "url": "https://www.untitledui.com",
+          "date": "2026-10-27",
+          "note": "product description, free vs PRO breakdown, supported frameworks"
+        },
+        {
+          "url": "https://www.untitledui.com/pricing",
+          "date": "2026-10-27",
+          "note": "exact tier prices and licensing terms for Figma kit, React library, icons"
+        }
+      ],
+      "unverified": [
+        "Exact wording of the Standard License and separate Enterprise EULA was not read in full (pricing page truncated at ~100k chars)."
+      ],
+      "injectionSeen": null
+    },
+    "untools": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "Untools",
+        "url": "https://untools.co",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "The full site - about two dozen thinking/decision-making framework pages (Six Thinking Hats, Eisenhower Matrix, Iceberg Model, Cynefin, OODA loop, Minto Pyramid, etc.) - is free to read with no signup. Joining the newsletter unlocks 3 free printable templates.",
+        "paidFrom": "A one-time-payment 'complete thinking toolkit' bundle with 20+ templates, member guides and future updates; exact price not confirmed on the pages fetched.",
+        "evidence": {
+          "url": "https://untools.co",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No stated license · commercial: not addressed · attribution: not addressed · site content is read-only reference material, no redistribution terms published",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://untools.co",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "untools",
+        "type": "Website",
+        "category": "Business",
+        "title": "Untools",
+        "description": "A free reference site collecting thinking and decision-making frameworks like Six Thinking Hats and the Eisenhower Matrix, plus a paid printable template toolkit.",
+        "tags": [
+          "productivity",
+          "inspiration"
+        ],
+        "relatedResources": [
+          "notion-templates"
+        ],
+        "similarResources": [
+          "awwwards",
+          "behance"
+        ],
+        "keyFeatures": [
+          "About two dozen free framework pages grouped by systems thinking, decision making, problem solving and communication",
+          "Covers well-known models such as the Eisenhower Matrix, Cynefin, OODA loop and Minto Pyramid",
+          "3 free printable templates for newsletter subscribers",
+          "One-time-payment toolkit bundle with 20+ templates and member guides",
+          "No signup required to read the framework explanations themselves"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: NOT FOUND in Simple Icons (exit 2, no match) - use site SVG/ask owner"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No operator/company name disclosed on the pages fetched; no scam/malware/shutdown reports found in search."
+      },
+      "sources": [
+        {
+          "url": "https://untools.co",
+          "date": "2026-10-27",
+          "note": "list of tools, free vs paid toolkit description, lack of stated operator/license"
+        }
+      ],
+      "unverified": [
+        "Operator/company behind the site",
+        "Exact price of the paid toolkit bundle",
+        "Whether any license/attribution terms exist for using the free framework content"
+      ],
+      "injectionSeen": null
+    },
+    "uppbeat": {
+      "researchedOn": "2026-10-27",
+      "verdict": "needs-owner",
+      "verdictReason": "Site is alive and has a permanent free tier, but the free license requires per-video attribution (a credit pasted in the description) and excludes brand/business/sponsored channels, and direct first-party fetches of the pricing/licensing pages returned HTTP 429 twice - the numbers below come from second-hand sources (third-party comparison sites), not a confirmed first-party read. Flagging for the owner to decide whether to proceed on second-hand confidence or wait and retry the first-party pricing/license pages before drafting the RL entry.",
+      "site": {
+        "name": "Uppbeat",
+        "url": "https://uppbeat.io",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan for individuals: 3 downloads per month (renewed monthly), access to ~25% of the music catalog, excludes sound effects, and excludes brand channels/business accounts/sponsored content. Each free download requires pasting a one-time Uppbeat Credit in the video description.",
+        "paidFrom": "Paid tiers (Essentials/Creator/Pro) reported around $6.99-$17.99/month depending on billing cycle and source; paid plans remove the attribution requirement.",
+        "evidence": {
+          "url": "https://uppbeat.io/pricing",
+          "date": "2026-10-27",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "Uppbeat free license · commercial: limited (individuals only, excludes brand/business/sponsored use) · attribution: required (credit in description) · paid tiers remove attribution requirement",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://uppbeat.io/pricing",
+          "date": "2026-10-27",
+          "confidence": "second-hand"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown reports found; first-party pricing and licensing pages could not be fetched directly (HTTP 429 on two attempts each), so pricing/license figures are second-hand only."
+      },
+      "sources": [
+        {
+          "url": "https://uppbeat.io",
+          "date": "2026-10-27",
+          "note": "attempted first-party fetch, returned HTTP 429 twice"
+        },
+        {
+          "url": "https://uppbeat.io/pricing",
+          "date": "2026-10-27",
+          "note": "attempted first-party fetch, returned HTTP 429 twice; figures instead taken from web search summarizing third-party comparison sites (hellothematic.com, toolradar.com, uppbeat.io's own blog posts as quoted by search)"
+        }
+      ],
+      "unverified": [
+        "Exact current paid tier prices (sources disagree: $6.99/$9.99/$17.99 monthly vs $5.59/$7.99/$13.99 annual-billing figures from an older blog snapshot)",
+        "Exact free-tier catalog percentage (25% per official page per search summary vs 30% per a third-party guide)",
+        "Exact free download count per month (3 per most sources vs 10 per one third-party guide)",
+        "Operator/company name",
+        "Full terms of the commercial/monetization clearance claim beyond the attribution credit"
+      ],
+      "injectionSeen": null
     }
   }
 }

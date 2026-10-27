@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24",
+  "generated": "2026-10-27",
   "note": "Source data copied from saved third-party directory pages (untrusted). Not verified: every field needs the research pass in system/backlog-research.md.",
   "pages": [
     {
@@ -54231,12 +54231,12 @@
           "file": "Best Mockup Sites for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "ui-challenge",
@@ -54257,12 +54257,12 @@
           "file": "Learn UI_UX Design_ Courses, Guides & Best Practices.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "ui-coach",
@@ -54283,12 +54283,12 @@
           "file": "Learn UI_UX Design_ Courses, Guides & Best Practices.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "ui-colors",
@@ -54309,12 +54309,12 @@
           "file": "Best Color Tools and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "ui-faces",
@@ -54335,12 +54335,12 @@
           "file": "Free Stock Images & Video Websites _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "ui-generator",
@@ -54361,12 +54361,12 @@
           "file": "Best UX Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "ui-sfx",
@@ -54387,12 +54387,12 @@
           "file": "Free Stock Images & Video Websites _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "ui-skeleton-gallery",
@@ -54413,12 +54413,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "ui-skills",
@@ -54439,12 +54439,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "ui-snippets",
@@ -54465,12 +54465,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "ui-store-design",
@@ -54491,12 +54491,12 @@
           "file": "Best Mockup Sites for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "ui-tips",
@@ -54517,12 +54517,12 @@
           "file": "Learn UI_UX Design_ Courses, Guides & Best Practices.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "researched",
+      "notes": "Parent site uidesign.tips (\"UI Design Tips\") is not already in RL (checked via rl-index.mjs --find), so this sub-page is not a duplicate; listing the tips collection itself as instructed.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "ui-live",
@@ -54543,12 +54543,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "ui-ux-assets",
@@ -54595,12 +54595,12 @@
           "file": "Best Design Communities for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "ui2code-ai",
@@ -54647,12 +54647,12 @@
           "file": "Best Mockup Sites for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "ui8.net returned HTTP 403 Forbidden on two separate fetch attempts (bot/WAF check), so pricing, free-tier and license pages could not be read first-party.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "ui8-illustrations",
@@ -54673,12 +54673,12 @@
           "file": "Best Open Source Illustration Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "category filter page of ui8.net, not a distinct destination",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "uibits-co",
@@ -54699,12 +54699,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "UIBits.co is an email newsletter (hosted on beehiiv, 'UI/UX Design Inspiration and Design Newsletter', ~6000+ subscribers) rather than a tool, template set, or browsable resource. RL has no 'newsletter' type/category and no existing newsletter-type listings (checked via rl-index --related; closest entries like awwwards/dribbble/fontpair are galleries or resource hubs, not subscription newsletters). Site is alive, free to subscribe, no listing-forbidding clause seen, but fitting it into RL's current schema (type/category choice) is a judgment call for the owner rather than a research-level decision.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "uicons",
@@ -54749,12 +54749,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "uilogos",
@@ -54775,12 +54775,12 @@
           "file": "Best UX Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "uiverse",
@@ -54801,12 +54801,12 @@
           "file": "Best Mockup Sites for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Home page (https://uiverse.io) and /about both returned HTTP 403 on first attempt and on a retry — consistent with a bot-check wall (e.g. Cloudflare) blocking the fetch tool. No first-party page content could be read.",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "uiverse-design",
@@ -54827,12 +54827,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Same site as uiverse (uiverse.io/design/ is a section of uiverse.io). Could not evaluate whether it deserves a separate list-sibling entry because the parent site itself returned HTTP 403 on every fetch attempt (bot check), so the /design/ section was not independently fetched either.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "uizard",
@@ -54853,12 +54853,12 @@
           "file": "Best AI Design Tools for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "uizze",
@@ -54905,12 +54905,12 @@
           "file": "Best Mockup Sites for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "unblast",
@@ -54931,12 +54931,12 @@
           "file": "Best Mockup Sites for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "unbounce",
@@ -54983,12 +54983,12 @@
           "file": "Best Free Font Libraries and Inspiration for Designers.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "understanding-accessibility",
@@ -55009,12 +55009,12 @@
           "file": "Learn UI_UX Design_ Courses, Guides & Best Practices.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "free",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "undraw",
@@ -55085,12 +55085,12 @@
           "file": "Best Free Open Source Icon Libraries _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "unicorn-platform",
@@ -55113,12 +55113,12 @@
           "file": "Free Tools _ Digitool.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Free \"Lurker\" plan explicitly allows 0 published websites on the official pricing page — it's a drafting sandbox, not a usable free tier (no way to get a live site without paying), so it fails the real-permanent-free-tier bar.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "unicorn-studio",
@@ -55139,12 +55139,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "uniqode",
@@ -55191,12 +55191,12 @@
           "file": "Best No-Code Website Builders _ Toools.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "rejected",
+      "notes": "Universe (univer.se / universeapp.com) is shutting down: the vendor's own shutdown notice says the service winds down through 2026, blocks new signups/subscriptions/domains within weeks, and cancels all subscriptions by Dec 31, 2026 — dead/sunsetting product, not worth a new RL listing.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "unlayer",
@@ -55217,12 +55217,12 @@
           "file": "Marketing Tools for Designers & Creative Teams _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "unreal-engine",
@@ -55243,12 +55243,12 @@
           "file": "Best Design Tools Across Disciplines _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "unrealengine.com returned HTTP 403 (bot-check) on the home page and the /en-US/ localized home page, and again on the EULA and FAQ pages, across two separate fetch attempts (one retry each). No first-party page could be read to confirm the current free-tier terms or the royalty revenue threshold, so Tier A could not be completed from a trustworthy source. Confirmed via rl-index.mjs that Unreal Engine is not already in RL.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "unsection",
@@ -55269,12 +55269,12 @@
           "file": "Design Inspiration Sites for UI, Web, Graphic & Branding _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "unsplash",
@@ -55327,12 +55327,12 @@
           "file": "Best Mockup Sites for Designers _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "untools",
@@ -55353,12 +55353,12 @@
           "file": "Learn UI_UX Design_ Courses, Guides & Best Practices.html"
         }
       ],
-      "status": "todo",
+      "status": "researched",
       "notes": "",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "upfluence",
@@ -55405,12 +55405,12 @@
           "file": "Free Stock Images & Video Websites _ TOOOLS.design.html"
         }
       ],
-      "status": "todo",
-      "notes": "",
+      "status": "blocked",
+      "notes": "Site is alive and has a permanent free tier, but the free license requires per-video attribution (a credit pasted in the description) and excludes brand/business/sponsored channels, and direct first-party fetches of the pricing/licensing pages returned HTTP 429 twice - the numbers below come from second-hand sources (third-party comparison sites), not a confirmed first-party read. Flagging for the owner to decide whether to proceed on second-hand confidence or wait and retry the first-party pricing/license pages before drafting the RL entry.",
       "pricingBucket": "freemium",
       "rlSlug": null,
       "priority": "P2",
-      "hasResearch": false
+      "hasResearch": true
     },
     {
       "id": "upscale-media",
@@ -59927,16 +59927,16 @@
     "byStatus": {
       "deferred-trial": 232,
       "deferred-paid": 217,
-      "blocked": 518,
+      "blocked": 524,
       "drafted": 557,
-      "rejected": 223,
+      "rejected": 226,
       "in-rl": 33,
-      "researched": 291,
-      "todo": 208
+      "researched": 318,
+      "todo": 172
     },
     "todoByPriority": {
       "P3": 30,
-      "P2": 178
+      "P2": 142
     }
   }
 }
