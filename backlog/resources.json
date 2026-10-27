@@ -116113,6 +116113,2938 @@
         "Pricing, license/ToS, free tier existence, exact product description, operator — all unverified due to persistent 429 blocking first-party access."
       ],
       "injectionSeen": null
+    },
+    "uxtoast": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "uxtoast",
+        "url": "https://www.uxtoast.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All lessons, articles, and the Figma starter file viewed were free with no paywall encountered; no pricing page or paid plan found anywhere on the site.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.uxtoast.com/courses",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No license/terms page found (home, /about, /privacy all 404) · commercial: unknown · attribution: unknown · no stated limit",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.uxtoast.com",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "uxtoast",
+        "type": "Course",
+        "category": "Design",
+        "title": "uxtoast",
+        "description": "Free online lessons and articles on UX/UI fundamentals, Figma tutorials, and design laws, with a companion mobile app.",
+        "tags": [
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "figma-community",
+          "figma"
+        ],
+        "similarResources": [
+          "dribbble"
+        ],
+        "keyFeatures": [
+          "Free lessons on UX/UI design laws (Hick's, Fitts's, Tesler's, Jakob's)",
+          "Figma tutorials covering getting started, intermediate skills, and prototyping/handover",
+          "UI design articles on Gestalt principles, accessibility, and typography",
+          "Double Diamond design-process explainer",
+          "Free 'Sourdough' Figma starter file for responsive landing pages",
+          "Companion mobile app (iOS/Android) for on-the-go learning, 100,000+ users claimed"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact match, closest fuzzy hits (x/e/ea) are unrelated to the brand name, so skipping iconLib"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown signals found in search; site itself gave no operator identity, which is unverified below."
+      },
+      "sources": [
+        {
+          "url": "https://www.uxtoast.com",
+          "date": "2026-10-27",
+          "note": "home page description of lessons/courses offering and mobile app"
+        },
+        {
+          "url": "https://www.uxtoast.com/courses",
+          "date": "2026-10-27",
+          "note": "courses listing, no pricing shown"
+        },
+        {
+          "url": "https://www.uxtoast.com/about",
+          "date": "2026-10-27",
+          "note": "404 Not Found - no operator/about info available"
+        },
+        {
+          "url": "https://www.uxtoast.com/privacy",
+          "date": "2026-10-27",
+          "note": "404 Not Found - no privacy/terms info available"
+        }
+      ],
+      "unverified": [
+        "Operator/company behind uxtoast not identified (no About page found)",
+        "No terms-of-use or license page found; commercial-use/redistribution stance on the Sourdough Figma file is unknown",
+        "Whether any paid tier exists elsewhere on the site (not found during this check)"
+      ],
+      "injectionSeen": null
+    },
+    "uxtweak": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "UXtweak",
+        "url": "https://www.uxtweak.com",
+        "alive": true,
+        "operator": "UXtweak (Slovak company, per third-party press coverage)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free plan at $0/month: 1 seat, 15 responses/month, 1 concurrent study, unmoderated tools only, results viewable 14 days, data stored 12 months; explicitly not a time-limited trial (FAQ says a lapsed paid plan reverts to Free).",
+        "paidFrom": "Business plan (price not shown on page - 'Pricing is temporarily unavailable'); Custom/Enterprise plan is quote-based.",
+        "evidence": {
+          "url": "https://www.uxtweak.com/pricing",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary hosted SaaS · commercial: yes · attribution: not required · free tier capped at 15 responses/month, unmoderated-only",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.uxtweak.com",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "uxtweak",
+        "type": "Tool",
+        "category": "Design",
+        "title": "UXtweak",
+        "description": "UX research platform for usability testing, card sorting, tree testing, heatmaps, and participant recruiting via a global user panel.",
+        "tags": [
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "figma"
+        ],
+        "similarResources": [
+          "figma-community"
+        ],
+        "keyFeatures": [
+          "Moderated and unmoderated usability testing, interviews, and surveys",
+          "Card sorting, tree testing, preference tests, and five-second tests",
+          "Session recording with heatmaps, path analysis, and funnel metrics",
+          "User Panel participant recruiting across 130+ countries with 2,000+ targeting attributes",
+          "Insights editor and password-protected links for sharing findings",
+          "Permanent free plan for small-scale unmoderated studies"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact match, closest fuzzy hits (e/ea/x) are unrelated to the brand name, so skipping iconLib"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition signals found; third-party press confirms it as an operating, break-even Slovak startup with 10,000+ registered users."
+      },
+      "sources": [
+        {
+          "url": "https://www.uxtweak.com",
+          "date": "2026-10-27",
+          "note": "home page overview of research tools and panel"
+        },
+        {
+          "url": "https://www.uxtweak.com/pricing",
+          "date": "2026-10-27",
+          "note": "pricing plans - Free, Business, Custom"
+        },
+        {
+          "url": "https://cc.cz/odflaknuteho-softwaru-je-vic-nez-dobreho-hlasi-slovensky-uxtweak-pro-lepsi-weby-a-aplikace-ho-vyuziva-10-tisic-klientu/",
+          "date": "2026-10-27",
+          "note": "third-party coverage confirming company is active, Slovak-based, 10,000+ users, profitable"
+        }
+      ],
+      "unverified": [
+        "Exact Business plan starting price not shown on pricing page ('temporarily unavailable')",
+        "Full Terms of Service / DPA contents not read (linked but not opened)"
+      ],
+      "injectionSeen": null
+    },
+    "v0": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "v0",
+        "url": "https://v0.app",
+        "alive": true,
+        "operator": "Vercel Inc."
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free plan at $0/month: access to v0, deploy to Vercel, Design Mode visual editing, GitHub sync, capped at 7 messages/day. Presented as an ongoing plan, not a trial.",
+        "paidFrom": "Plus plan at $30/user/month (adds all models, monthly/daily credits, team billing, chat sharing).",
+        "evidence": {
+          "url": "https://v0.app/pricing",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS (Vercel) · commercial: yes · attribution: not required · free tier capped at 7 messages/day",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://v0.app/pricing",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "v0",
+        "type": "AI Tool",
+        "category": "Development",
+        "title": "v0",
+        "description": "Vercel's AI agent that builds full-stack apps and UIs from text or wireframes, with live preview and one-click deploy.",
+        "tags": [
+          "ai-tool",
+          "web"
+        ],
+        "relatedResources": [
+          "chatgpt",
+          "claude-ai",
+          "framer"
+        ],
+        "similarResources": [
+          "framer",
+          "webflow"
+        ],
+        "keyFeatures": [
+          "Generates UIs and full-stack code from text descriptions, wireframes, or mockups",
+          "Live preview of generated apps with visual (Design Mode) editing",
+          "One-click deploy to Vercel's hosting infrastructure",
+          "Connects to external backends, databases, and APIs for data-driven apps",
+          "Built on Next.js, Tailwind CSS, and shadcn/ui; supports GitHub sync",
+          "Automatic error detection and fixing in generated code"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "v0",
+          "fillColor": "#000000",
+          "bgColor": null,
+          "source": "check-icon.mjs exact match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No evidence of v0 itself being a scam or malware; forum complaints are about billing/credit disputes and unrelated phishing pages hosted on other *.vercel.app subdomains, not v0's own product. Confirmed not already in RL via rl-index --find."
+      },
+      "sources": [
+        {
+          "url": "https://v0.app",
+          "date": "2026-10-27",
+          "note": "home page description of product and audience"
+        },
+        {
+          "url": "https://v0.app/pricing",
+          "date": "2026-10-27",
+          "note": "pricing plans - Free, Plus, Business, Enterprise"
+        },
+        {
+          "url": "https://community.vercel.com/t/is-v0-dev-a-development-tool-or-just-a-credit-burning-scam/21087",
+          "date": "2026-10-27",
+          "note": "forum complaints about credits/billing, not evidence of fraud by v0 itself"
+        }
+      ],
+      "unverified": [
+        "Formal Terms of Service / license text not opened directly (relied on pricing page + general Vercel ToS awareness)"
+      ],
+      "injectionSeen": null
+    },
+    "vackground": {
+      "researchedOn": "2026-10-27",
+      "verdict": "blocked",
+      "verdictReason": "vackground.com refused the connection over HTTPS (ECONNREFUSED) and returned HTTP 403 over plain HTTP from this environment, on first try and on retry. No first-party page (home, pricing, license) could be read, so pricing, license, and current operating status cannot be verified first-party. Second-hand (2022) sources describe it as a paid-per-item marketplace for vector/SVG background images and surface patterns (no free tier found), run under the Unsplash handle @vackground; current ownership/operator is unconfirmed.",
+      "site": {
+        "name": "Vackground",
+        "url": "https://vackground.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "unspecified amount per background (pay-per-item), per 2022 third-party article",
+        "evidence": {
+          "url": "https://wwwhatsnew.com/2022/08/27/alpha-vackground-para-encontrar-imagenes-para-usar-como-fondo-en-tu-proyecto-web/",
+          "date": "2022-08-27",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "Per-background commercial license (claimed) · commercial: yes (per 2022 article) · attribution: not required (per 2022 article) · unverified first-party",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://wwwhatsnew.com/2022/08/27/alpha-vackground-para-encontrar-imagenes-para-usar-como-fondo-en-tu-proyecto-web/",
+          "date": "2022-08-27",
+          "confidence": "second-hand"
+        }
+      },
+      "safety": {
+        "https": false,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown signals found in web search. HTTPS endpoint refuses connections (ECONNREFUSED); HTTP endpoint returns 403, consistent with a bot-check/WAF block rather than a confirmed takedown, but could not be confirmed either way first-party."
+      },
+      "sources": [
+        {
+          "url": "https://vackground.com",
+          "date": "2026-10-27",
+          "note": "ECONNREFUSED on HTTPS fetch (WebFetch and curl), both attempts"
+        },
+        {
+          "url": "http://vackground.com/",
+          "date": "2026-10-27",
+          "note": "curl returned HTTP 403 (server alive, request blocked)"
+        },
+        {
+          "url": "https://wwwhatsnew.com/2022/08/27/alpha-vackground-para-encontrar-imagenes-para-usar-como-fondo-en-tu-proyecto-web/",
+          "date": "2022-08-27",
+          "note": "Only available description: paid vector/SVG background-image and pattern marketplace, per-item purchase with license, 60-day refund guarantee, no attribution required"
+        },
+        {
+          "url": "https://unsplash.com/es/@vackground",
+          "date": "2026-10-27",
+          "note": "Confirms the @vackground account exists and links out to vackground.com, offering abstract/generative background images"
+        }
+      ],
+      "unverified": [
+        "Current pricing, free tier, license full text, and operator identity (site unreachable first-party)",
+        "Whether the site is still operating as described in the 2022 article or has changed since"
+      ],
+      "injectionSeen": null
+    },
+    "varchive": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Varchive",
+        "url": "https://varchive.ai/apps",
+        "alive": true,
+        "operator": "Cameron Moll"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire site (News, Gallery, Software directory, newsletter, RSS feed) is free to read and use; no paid tier or login observed.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://varchive.ai/apps",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Site content copyright Cameron Moll 2025-2026 · commercial: not applicable (editorial/curation site, not licensed software) · attribution: not stated · no listing/linking restriction found",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://varchive.ai/apps",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "varchive",
+        "type": "Website",
+        "category": "Design",
+        "title": "Varchive",
+        "description": "A curated feed of AI design news, an AI-made work gallery, and a directory of AI-powered creative software, run by designer Cameron Moll.",
+        "tags": [
+          "inspiration",
+          "ai-tool"
+        ],
+        "relatedResources": [
+          "awwwards",
+          "dribbble",
+          "behance"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Curated news digest tracking AI developments relevant to designers",
+          "Gallery section showcasing AI-assisted creative work submitted by the community",
+          "Software section directory of AI-powered design and creative apps",
+          "Free newsletter and RSS feed for following new posts",
+          "Open \"Submit Your Work\" page for creators to add their own gallery entries"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact or usable Simple Icons match (check-icon.mjs only returned unrelated single-letter fuzzy matches: e, arc, c, cplusplus, hive, r, v). Recommend site favicon or a manual SVG."
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown signals found in web search; site is a small editorial/curation project, not software distribution."
+      },
+      "sources": [
+        {
+          "url": "https://varchive.ai/apps",
+          "date": "2026-10-27",
+          "note": "Site structure (News/Gallery/Software), operator/copyright notice, newsletter and RSS mentions, no pricing shown"
+        }
+      ],
+      "unverified": [
+        "No dedicated 'pricing' or 'terms' page exists to check for an explicit no-listing clause; inferred free/open from the absence of any paywall or login"
+      ],
+      "injectionSeen": null
+    },
+    "variable-fonts": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Variable Fonts (v-fonts.com)",
+        "url": "https://v-fonts.com",
+        "alive": true,
+        "operator": "HEX Projects LLC (Nick Sherman)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Browsing the full directory (377+ variable font entries, filtering by tag/designer/publisher/character set/license) is free; the site itself takes only optional 'buy me a pizza' donations. Pricing/licensing of individual listed fonts varies per font and is shown per entry.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://v-fonts.com",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Site content copyright HEX Projects LLC · commercial: using the directory itself is free for anyone · attribution: not required to browse · individual font licenses (open source/paid/trial/bundled) vary per listing and must be checked separately",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://v-fonts.com",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "variable-fonts",
+        "type": "Font",
+        "category": "Design",
+        "title": "Variable Fonts (v-fonts.com)",
+        "description": "A browsable directory of 370+ variable fonts with live axis previews and each font's designer, publisher, license, and release date.",
+        "tags": [
+          "typography"
+        ],
+        "relatedResources": [
+          "google-fonts",
+          "fontpair"
+        ],
+        "similarResources": [
+          "google-fonts"
+        ],
+        "keyFeatures": [
+          "Live in-browser preview of each font's variable axes where the browser supports OpenType variation",
+          "Filter and browse by tag, designer, publisher, character set, or license",
+          "Each entry lists release date, license type, and a link out to the font's own info page",
+          "Covers both open-source and paid/trial/bundled variable fonts side by side",
+          "Independently maintained directory funded by optional donations, not a paid product"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No exact or usable Simple Icons match (check-icon.mjs only returned unrelated single-letter fuzzy matches: fsharp, v). Recommend site favicon or a manual SVG."
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown signals found in web search; long-running independent reference site (HEX Projects)."
+      },
+      "sources": [
+        {
+          "url": "https://v-fonts.com",
+          "date": "2026-10-27",
+          "note": "Site description, feature list, entry count (377), donation link, HEX Projects LLC / Nick Sherman credit, per-font license variability"
+        }
+      ],
+      "unverified": [
+        "Exact launch date and update cadence of the directory",
+        "Whether HEX Franklin Variable (the one font designed by the site's editor) should be treated as a sibling listing"
+      ],
+      "injectionSeen": null
+    },
+    "variant": {
+      "researchedOn": "2026-10-27",
+      "verdict": "blocked",
+      "verdictReason": "Site is JS-rendered/account-gated past the homepage. Both the bare and www pricing URLs returned only a title tag and a 'Sign in or sign up' link with no pricing content, even after a retry with a different URL variant. Cannot confirm a permanent free tier first-party (third-party reviews disagree: one says free tier + paid from $25/mo, another says code export is paid-only). Not enough first-party evidence to list.",
+      "site": {
+        "name": "Variant",
+        "url": "https://variant.com",
+        "alive": true,
+        "operator": null
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition signals found in a safety search; results were all about unrelated topics (fake AI tool malware campaigns, an unrelated ransomware strain). Homepage itself is legitimate-looking, just JS-gated."
+      },
+      "sources": [
+        {
+          "url": "https://variant.com",
+          "date": "2026-10-27",
+          "note": "Homepage tagline only: 'Endless designs for your ideas, just scroll.' No product/pricing detail rendered."
+        },
+        {
+          "url": "https://variant.com/pricing",
+          "date": "2026-10-27",
+          "note": "Returned only title + sign-in link, no pricing content."
+        },
+        {
+          "url": "https://www.variant.com/pricing",
+          "date": "2026-10-27",
+          "note": "Retry with www subdomain, same empty result."
+        }
+      ],
+      "unverified": [
+        "Whether Variant has a permanent free tier (third-party reviews conflict; not confirmed first-party).",
+        "Whether code/HTML/React export is free or paid-only.",
+        "Any license/ToS terms (page never reached)."
+      ],
+      "injectionSeen": null
+    },
+    "vectary": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Vectary",
+        "url": "https://www.vectary.com",
+        "alive": true,
+        "operator": "Vectary"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free plan: 5 projects, 1 workspace seat, Studio + Canvas, 3D import, private share links, animations/interactions, material optimization, project analyzer. No monthly AI credits included.",
+        "paidFrom": "Starter plan (price not shown in fetched text): 25 projects, 2 seats, Studio + Canvas AI Beta, 3,000 monthly AI credits, commenting/notifications. Team and custom-priced Business tiers above that.",
+        "evidence": {
+          "url": "https://www.vectary.com/pricing",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Vectary Terms of Service · commercial: yes (Free plan designs are for your 'internal purposes'; cloneable Public Projects are licensed CC0 and explicitly allow commercial use) · attribution: not required · limit: Free-plan project use is restricted to internal purposes unless shared as a cloneable CC0 Public Project",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.vectary.com/terms-of-service",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "vectary",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Vectary",
+        "description": "Browser-based 3D design platform for building interactive 3D presentations, product configurators and app-free Web AR experiences.",
+        "tags": [
+          "prototyping",
+          "visual-design",
+          "ai-tool",
+          "collaboration"
+        ],
+        "relatedResources": [
+          "figma",
+          "canva",
+          "miro"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Studio tool for building interactive 3D presentations with real-time rendering and animations",
+          "3D product configurators for customizable visualizations",
+          "App-free Web AR lets anyone view designs in physical space from a smartphone, no app install needed",
+          "Imports common 3D/CAD formats such as GLB, OBJ and STEP",
+          "Canvas (beta) adds AI tools for early-stage ideation and concept validation",
+          "Shared team workspaces with role-based access and (on higher tiers) SSO"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "vectary",
+          "fillColor": "#6100FF",
+          "bgColor": null,
+          "source": "scripts/check-icon.mjs exact match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition signals found; safety search returned only unrelated results (a ransomware strain coincidentally named 'Vect')."
+      },
+      "sources": [
+        {
+          "url": "https://www.vectary.com",
+          "date": "2026-10-27",
+          "note": "Product description: Canvas (ideation/AI), Studio (3D build/render), Workspaces (team/enterprise)."
+        },
+        {
+          "url": "https://www.vectary.com/pricing",
+          "date": "2026-10-27",
+          "note": "Free/Starter/Team/Business tier breakdown."
+        },
+        {
+          "url": "https://www.vectary.com/terms-of-service",
+          "date": "2026-10-27",
+          "note": "Commercial-use and IP-ownership terms for Free plan and Public Projects."
+        }
+      ],
+      "unverified": [
+        "Exact $/month price for Starter and Team tiers (not shown in fetched pricing text, only Free's confusing '$25/Month' label which looked like a page-rendering artifact).",
+        "Whether the Free plan requires a credit card to sign up."
+      ],
+      "injectionSeen": null
+    },
+    "vecteezy": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Vecteezy",
+        "url": "https://www.vecteezy.com",
+        "alive": true,
+        "operator": "Eezy LLC (per third-party scanner; not independently confirmed first-party)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free membership can download stock vectors/photos/videos with a per-day cap (commonly reported as 10 files/day) under the Free License, with attribution required.",
+        "paidFrom": "Pro subscription, commonly reported around $9/month billed annually or $14/month billed monthly, with a 7-day free trial reported by some reviewers; raises/removes attribution requirement and daily caps.",
+        "evidence": {
+          "url": "https://www.vecteezy.com/licensing-agreement",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Vecteezy Free License · commercial: yes, with limitations (no resale products, print runs capped at 50 copies, video/film production budgets capped at $1,000, non-exclusive logo use allowed) · attribution: required (credit the creator under the Terms of Use; upgrade to Pro Standard License if attribution isn't possible) · limit: see above caps",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.vecteezy.com/licensing-agreement",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "vecteezy",
+        "type": "Stock Media",
+        "category": "Design",
+        "title": "Vecteezy",
+        "description": "Stock marketplace for vectors, photos, videos, templates and icons, with a capped free tier (attribution required) and an unlimited Pro plan.",
+        "tags": [
+          "stock-vectors",
+          "stock-photos",
+          "stock-videos",
+          "royalty-free"
+        ],
+        "relatedResources": [
+          "pixabay",
+          "unsplash",
+          "mixkit"
+        ],
+        "similarResources": [
+          "pexels"
+        ],
+        "keyFeatures": [
+          "Library spanning vectors, stock photos, videos, motion graphics, templates, PSDs and SVGs",
+          "Free membership downloads under a Free License that permits limited personal and commercial use with attribution",
+          "Pro subscription removes the attribution requirement and raises/removes daily download caps (reports vary on exact limit)",
+          "Editorial and royalty-free licensing tracks depending on the asset",
+          "Design bundles and templates alongside individual assets",
+          "Browser-based search and preview; browsing doesn't require an account, downloading does"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "scripts/check-icon.mjs: no exact match; fuzzy suggestions (e, c, cplusplus, v) are single/short-code icons unrelated to the Vecteezy brand, so not used — use the site SVG or ask the owner"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Third-party scanner (malwaretips.com) rates it safe (95/100), notes domain registered since 2007, owner listed as Eezy LLC. No scam/malware/shutdown/acquisition reports found in search."
+      },
+      "sources": [
+        {
+          "url": "https://www.vecteezy.com",
+          "date": "2026-10-27",
+          "note": "Site description: stock marketplace for vectors/photos/videos/templates/etc."
+        },
+        {
+          "url": "https://www.vecteezy.com/licensing-agreement",
+          "date": "2026-10-27",
+          "note": "Free License terms: attribution required, commercial use with limitations (resale, print run, production budget caps)."
+        },
+        {
+          "url": "https://www.vecteezy.com/pricing",
+          "date": "2026-10-27",
+          "note": "404 — pricing page not at this path."
+        },
+        {
+          "url": "https://www.vecteezy.com/plans",
+          "date": "2026-10-27",
+          "note": "404 — plans page not at this path."
+        }
+      ],
+      "unverified": [
+        "Exact free-tier daily download cap (second-hand reviewers report 10/day; not confirmed on a first-party pricing page since it 404'd at the two guessed paths).",
+        "Exact Pro price and Pro download cap (second-hand sources disagree: some say 200/day, others say unlimited).",
+        "Whether there is a dedicated templates sub-section deserving its own RL sibling entry — not explored this round."
+      ],
+      "injectionSeen": null
+    },
+    "vecti": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "Vecti",
+        "url": "https://vecti.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Starter plan, $0/mo: up to 5 projects, 1 additional editor (2 editors total), unlimited viewers, link sharing, no credit card required.",
+        "paidFrom": "Professional plan: $9/mo billed annually (or $12/mo billed monthly) for unlimited projects, sharing permissions and priority support. Pay-per-editor pricing model; education/open-source discounts available on request.",
+        "evidence": {
+          "url": "https://vecti.com",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Vecti Terms of Service (eff. 2026-01-09) · commercial: not addressed · attribution: not required · limit: no copying/modifying/redistributing/reverse-engineering the Service without written permission",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://vecti.com/terms",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "vecti",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Vecti",
+        "description": "Browser-based collaborative UX/UI design tool for turning workflows into visual prototypes, with a free plan for solo creators and small teams.",
+        "tags": [
+          "ui-ux",
+          "prototyping",
+          "collaboration"
+        ],
+        "relatedResources": [
+          "figma",
+          "webflow",
+          "framer"
+        ],
+        "similarResources": [
+          "figjam",
+          "miro"
+        ],
+        "keyFeatures": [
+          "Real-time collaborative editing for UX/UI design projects",
+          "Link sharing with unlimited viewers on any plan",
+          "Pay-per-editor pricing instead of flat per-seat licensing",
+          "Free Starter plan with up to 5 projects and 2 editors, no card required",
+          "Education and open-source discounts available on request"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no real Simple Icons match for 'Vecti' (only unrelated single-letter fuzzy hits e, c, v); site SVG would need manual sourcing/sanitizing before listing"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Safety search returned only an unrelated ransomware group ('Vect') and one Korean product-launch aggregator link; no scam/malware/shutdown reports tied to vecti.com."
+      },
+      "sources": [
+        {
+          "url": "https://vecti.com",
+          "date": "2026-10-27",
+          "note": "product description, free/paid plan pricing, feature claims"
+        },
+        {
+          "url": "https://vecti.com/terms",
+          "date": "2026-10-27",
+          "note": "ToS clauses on licensing and restrictions"
+        }
+      ],
+      "unverified": [
+        "Whether a commercial-use restriction exists was not addressed in the ToS excerpt fetched; full pricing page (vecti.com/pricing) 404'd, pricing taken from homepage section instead."
+      ],
+      "injectionSeen": null
+    },
+    "vectormaker": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "Vectormaker",
+        "url": "https://vectormaker.co",
+        "alive": true,
+        "operator": "SVG Repo LLC"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Fully free web app: upload a PNG, choose steps and color scheme, no account, paywall, or stated usage limit found on the page.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://vectormaker.co",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Output under Unlicense (public domain-equivalent) · backend code under MIT · commercial: yes (both licenses permit commercial use) · attribution: not required",
+        "openSource": true,
+        "spdx": "Unlicense",
+        "evidence": {
+          "url": "https://vectormaker.co",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "vectormaker",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Vectormaker",
+        "description": "Free web app that traces PNG images into colored SVG vector files using the Potrace algorithm, useful for turning logos or art into flat vector graphics.",
+        "tags": [
+          "graphic-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Converts raster PNG images into colored SVG vector files",
+          "Uses the Potrace algorithm to trace edges into vector paths",
+          "Fills traced paths with colors sampled from the original image",
+          "No signup or payment required to use",
+          "Output SVGs released under the Unlicense; backend source is MIT-licensed"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no real Simple Icons match for 'Vectormaker' (only unrelated fuzzy hits e, c, make, r, v)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Safety search returned only generic articles about SVG files as a malware vector in general (phishing/attacker-crafted SVGs), nothing specific to vectormaker.co."
+      },
+      "sources": [
+        {
+          "url": "https://vectormaker.co",
+          "date": "2026-10-27",
+          "note": "product description, licensing (Unlicense/MIT), operator (SVG Repo LLC), footer copyright"
+        }
+      ],
+      "unverified": [
+        "No pricing/terms/ToS page exists on the site to double-check for hidden limits or a commercial-use clause beyond the stated Unlicense/MIT notices.",
+        "ownerNote: RL has no dedicated 'image converter' or 'svg' tag; used closest existing tag 'graphic-design' only."
+      ],
+      "injectionSeen": null
+    },
+    "vectr": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "Vectr",
+        "url": "https://vectr.com",
+        "alive": true,
+        "operator": "Pixlr Pte Ltd (Vectr acquired by 123RF/Pixlr group in 2017)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan reported by multiple third-party sources: limited storage (~30MB), limited elements, ads shown, core vector editing (paths, shapes, text); credits required only to open EPS/AI/PDF/SVGZ files per the site's own FAQ.",
+        "paidFrom": "Paid tiers reported around $4-$10/mo (sources vary: $3.99/$9.99 Plus/Premium per one source, $4/$8 per another) for AI tools, background removal, and higher limits.",
+        "evidence": {
+          "url": "https://www.softwaresuggest.com/vectr",
+          "date": "2026-10-27",
+          "confidence": "second-hand"
+        }
+      },
+      "license": {
+        "line": "Standard hosted-SaaS terms (not independently fetched) · commercial: not verified · attribution: not verified · limit: unknown",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://vectr.com/terms",
+          "date": "2026-10-27",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "vectr",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Vectr",
+        "description": "Cloud-based vector graphics editor with AI image-to-vector, background removal and logo generation, built for real-time collaborative design work.",
+        "tags": [
+          "graphic-design",
+          "visual-design",
+          "collaboration"
+        ],
+        "relatedResources": [
+          "figma",
+          "canva",
+          "behance"
+        ],
+        "similarResources": [
+          "excalidraw",
+          "tldraw"
+        ],
+        "keyFeatures": [
+          "Browser-based vector editor with cross-device sync",
+          "Real-time collaboration on shared design files",
+          "AI tools for image-to-vector conversion and background removal",
+          "AI image and logo generation built into the editor",
+          "Text-to-vector graphic generation",
+          "Credit-based access for opening EPS, AI, PDF and SVGZ files"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no real Simple Icons match for 'Vectr' (only unrelated fuzzy hits e, c, r, v)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Search confirms Vectr Labs Inc. was acquired by 123RF in 2017 and remains active (now under Pixlr); no scam/malware/shutdown reports. Unrelated ransomware group 'Vect' repeatedly polluted search results — not to be confused with this tool."
+      },
+      "sources": [
+        {
+          "url": "https://vectr.com",
+          "date": "2026-10-27",
+          "note": "product description, feature list, operator (Pixlr Pte Ltd), FAQ credit note"
+        },
+        {
+          "url": "https://www.softwaresuggest.com/vectr",
+          "date": "2026-10-27",
+          "note": "second-hand pricing: free tier (30MB, limited elements, ads) and two paid tiers"
+        },
+        {
+          "url": "https://www.preqin.com/data/profile/asset/vectr-labs-inc-/188097",
+          "date": "2026-10-27",
+          "note": "confirms 123RF acquired Vectr Labs Inc. in Nov 2017; company still active"
+        }
+      ],
+      "unverified": [
+        "vectr.com/pricing and /terms render as an empty JS shell to the fetch tool ('Vectr.' only) — could not independently confirm exact current price points or ToS/commercial-use clause first-party; relying on third-party pricing sources which disagree somewhat on exact dollar amounts (all agree a free tier exists).",
+        "Exact current owner/operator name (Pixlr Pte Ltd vs. 123RF) not fully disambiguated first-party."
+      ],
+      "injectionSeen": null
+    },
+    "veeso-ai": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "Veeso AI",
+        "url": "https://veeso.ai",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free plan: 100 refresh credits daily plus 300 bonus credits for new users, full-featured editor, standard export with a Veeso watermark badge, up to 5 asset images per generation (Beta); limited to personal and non-commercial use.",
+        "paidFrom": "Pro at $16.67/mo (billed yearly) or higher monthly price: 6,000 credits/mo + 100 daily refresh credits, removes watermark, adds commercial license, advanced export (PPT/SVG/HTML), multi-page generation up to 20 pages.",
+        "evidence": {
+          "url": "https://veeso.ai/pricing",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: no on free plan (personal/non-commercial only), yes on Pro+ · attribution: Veeso badge required on free-plan exports · limit: free output can't be used commercially",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://veeso.ai/pricing",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "veeso-ai",
+        "type": "AI Tool",
+        "category": "Design",
+        "title": "Veeso AI",
+        "description": "AI tool that turns raw text into editable, production-ready designs - social posts, slides, reports and newsletters - without an image generator.",
+        "tags": [
+          "ai-tool",
+          "graphic-design",
+          "design-templates",
+          "social-media-design"
+        ],
+        "relatedResources": [
+          "canva",
+          "figma"
+        ],
+        "similarResources": [
+          "canva-templates"
+        ],
+        "keyFeatures": [
+          "Converts plain text input into multi-page, editable design layouts rather than generated images",
+          "Automatic content hierarchy and formatting for social posts, presentations, reports and brochures",
+          "Free daily refresh credits (100/day) with a full-featured editor on the free plan",
+          "Paid plans add commercial licensing, watermark removal, and PPT/SVG/HTML export",
+          "Brand kit management and API access on the top Ultra tier"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No Simple Icons match (exit 1 fuzzy hits were generic single-letter icons, not a real brand match); needs a custom/site SVG."
+        },
+        "siblings": [],
+        "ownerNote": "No existing RL tag distinguishes 'AI design-from-text' tools from general design tools; used closest existing tags (ai-tool, graphic-design, design-templates, social-media-design)."
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown signal found in search; too new/small for much third-party coverage."
+      },
+      "sources": [
+        {
+          "url": "https://veeso.ai",
+          "date": "2026-10-27",
+          "note": "product description, who it's for (FAQ), free-plan mention"
+        },
+        {
+          "url": "https://veeso.ai/pricing",
+          "date": "2026-10-27",
+          "note": "pricing tiers and free-plan limits"
+        },
+        {
+          "url": "https://veeso.ai/terms",
+          "date": "2026-10-27",
+          "note": "checked for listing/commercial-use restrictions; page returned only a heading and last-updated date, no body text was retrievable via fetch"
+        }
+      ],
+      "unverified": [
+        "Full Terms of Service body text could not be read (fetch only returned the heading/last-updated date) - no clause found prohibiting directory listing, but not fully confirmed.",
+        "Pricing page has an internal inconsistency: Pro plan text says unused credits roll over, but FAQ says credits do not roll over - not resolved.",
+        "Company/operator name behind Veeso AI not stated on the pages fetched."
+      ],
+      "injectionSeen": null
+    },
+    "velvetyne": {
+      "researchedOn": "2026-10-27",
+      "verdict": "blocked",
+      "verdictReason": "Every page fetched on velvetyne.fr (home, /fonts/, /about/faq/) returned only a French/English strike-solidarity statement ('EN GRÈVE') with no font catalog, pricing, or license text - the site currently appears to be replaced by a protest takeover page site-wide (common on French strike days) rather than its normal content. Retried with 3 different paths, all returned the identical banner, so first-party license confirmation (OFL vs GPL vs the foundry's own 'Fellowship License') could not be done. Secondary sources (search results citing licenseorg.com and the foundry's own FAQ mirror) describe Velvetyne as a real, long-running libre/open-source type foundry with per-font licenses (mostly OFL, some GPL, some under a separate restrictive Fellowship License) - but these are second-hand and not sufficient per the first-party rule.",
+      "site": {
+        "name": "Velvetyne",
+        "url": "https://velvetyne.fr",
+        "alive": true,
+        "operator": null
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware signal; well-known foundry per search results, just currently showing a strike statement instead of the font catalog."
+      },
+      "sources": [
+        {
+          "url": "https://velvetyne.fr",
+          "date": "2026-10-27",
+          "note": "returned only the strike statement, no catalog"
+        },
+        {
+          "url": "https://velvetyne.fr/fonts/",
+          "date": "2026-10-27",
+          "note": "same strike statement, no font names or license text"
+        },
+        {
+          "url": "https://velvetyne.fr/about/faq/",
+          "date": "2026-10-27",
+          "note": "same strike statement, no FAQ content"
+        }
+      ],
+      "unverified": [
+        "Whether individual Velvetyne fonts are uniformly OFL or mixed with GPL/Fellowship License per-font terms - needs a direct re-check once the site shows normal content.",
+        "Whether the foundry's 'Fellowship License' (which search results say restricts public redistribution) applies to any fonts that would otherwise be listed - matters for an RL entry since it affects the free/open-source claim.",
+        "Whether this protest takeover is a short-term strike-day action or a longer site change - suggest retrying in a few days."
+      ],
+      "injectionSeen": null
+    },
+    "vendo": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "Vendo",
+        "url": "https://vendo.run",
+        "alive": true,
+        "operator": "Aisle Technologies, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free plan ($0, \"forever\"): $5/month of usage (~100 agent turns) with a hard cap (\"Hard stop at $5 - a clear error, never a bill\"); the single-player/self-hosted agent is free and open source.",
+        "paidFrom": "Pro at $49/month ($490/year): adds snapshot sharing, live collaboration, publishing to an org registry, and a basic console.",
+        "evidence": {
+          "url": "https://vendo.run/pricing",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Apache-2.0 (core/single-player agent) · commercial: yes · attribution: per Apache-2.0 (notice retention) · limit: multiplayer/collaboration features are paid-cloud-only, not covered by the open-source license",
+        "openSource": true,
+        "spdx": "Apache-2.0",
+        "evidence": {
+          "url": "https://raw.githubusercontent.com/runvendo/vendo/main/LICENSE",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "vendo",
+        "type": "Tool",
+        "category": "Development",
+        "title": "Vendo",
+        "description": "Open-source customization layer that lets a SaaS product's own end users build micro-apps and automations on top of it, running under their existing permissions.",
+        "tags": [
+          "open-source",
+          "automation",
+          "ai-tool",
+          "no-code"
+        ],
+        "relatedResources": [
+          "notion",
+          "calendly"
+        ],
+        "similarResources": [
+          "codesandbox",
+          "stackblitz"
+        ],
+        "keyFeatures": [
+          "End users describe what they need in natural language and Vendo assembles working micro-apps, actions and automations",
+          "Generated apps run as the signed-in customer and inherit that customer's existing permissions (no privilege escalation)",
+          "Setup via `npx vendo init`, which reads the host app's code, theme and API; Next.js supported out of the box",
+          "Can run inside your product's own UI, inside Claude or ChatGPT, or on a schedule",
+          "Single-player core agent is Apache-2.0 and self-hostable; paid tiers add collaboration, an org registry, governance and SOC 2 controls"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "No Simple Icons match (exit 1 fuzzy hits were generic single-letter icons, not a real brand match); needs a custom/site SVG."
+        },
+        "siblings": [],
+        "ownerNote": "RL has no 'agent-builder' or 'end-user-customization' tag; used closest existing tags (open-source, automation, ai-tool, no-code)."
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown signal found; GitHub org is runvendo/vendo, Apache-2.0 confirmed directly from LICENSE file. A third-party mirror site (tomevault.io) incorrectly labeled it MIT - first-party LICENSE file confirms Apache-2.0, so that mismatch is noted but resolved in favor of the first-party source."
+      },
+      "sources": [
+        {
+          "url": "https://vendo.run",
+          "date": "2026-10-27",
+          "note": "product description, who it's for, setup flow"
+        },
+        {
+          "url": "https://vendo.run/pricing",
+          "date": "2026-10-27",
+          "note": "pricing tiers, free-tier cap, paid-tier features"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/runvendo/vendo/main/LICENSE",
+          "date": "2026-10-27",
+          "note": "confirmed Apache-2.0 license text directly"
+        }
+      ],
+      "unverified": [
+        "Exact relationship/legal entity details beyond the footer's 'Aisle Technologies, Inc.' were not checked further.",
+        "SOC 2 Type II status is described on the pricing page as 'audit in progress,' not yet completed - noted as a limit, not a blocker."
+      ],
+      "injectionSeen": null
+    },
+    "venly": {
+      "researchedOn": "2026-10-27",
+      "verdict": "skip",
+      "verdictReason": "paid-only: no permanent free tier. Pricing page lists Developer at $99/mo (annual) as the cheapest plan; no free plan is offered. Also a B2B blockchain/wallet-infrastructure API product, not a consumer-facing tool typical of RL's existing categories.",
+      "site": {
+        "name": "Venly",
+        "url": "https://venly.io",
+        "alive": true,
+        "operator": "Venly"
+      },
+      "pricing": {
+        "rlLabel": "Paid",
+        "freeTier": null,
+        "paidFrom": "$99/mo (billed annually) or $124/mo monthly, Developer plan",
+        "evidence": {
+          "url": "https://venly.io/pricing",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://venly.io",
+          "date": "2026-10-27",
+          "confidence": "not-read"
+        }
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No safety/scam signals found; dedicated enterprise blockchain vendor site."
+      },
+      "sources": [
+        {
+          "url": "https://digitool.co/tool/venly/",
+          "date": "2026-10-27",
+          "note": "resolved real site as venly.io and got a basic feature description"
+        },
+        {
+          "url": "https://venly.io/pricing",
+          "date": "2026-10-27",
+          "note": "pricing tiers: Developer $99/mo, Professional $199/mo, Scale $499/mo, Premium custom; no free plan"
+        }
+      ],
+      "unverified": [
+        "venly.io/terms returned 404; license/ToS clause on listing/linking not directly confirmed, but moot since verdict is skip for pricing"
+      ],
+      "injectionSeen": null
+    },
+    "veo-google-flow": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Google Flow",
+        "url": "https://flow.google.com",
+        "alive": true,
+        "operator": "Google"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "50 Flow credits per day, with or without a subscription, usable for image generation, the Flow Agent, and Veo 3.1 Lite/Fast/Quality video generation (credits do not roll over; video generation may be restricted during peak hours ~2-5pm UTC for non-subscribers).",
+        "paidFrom": "Bundled into Google AI Plus/Pro/Ultra subscriptions (third-party reporting cites ~$7.99-$19.99/mo and up for additional monthly credit pools; not confirmed first-party on a dedicated Flow pricing page).",
+        "evidence": {
+          "url": "https://support.google.com/flow/answer/16526234?hl=en",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Google Terms of Service · commercial: not directly confirmed on fetched pages · attribution: not required · generated content rights governed by Google's generative AI terms (not independently verified)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://flow.google.com",
+          "date": "2026-10-27",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "google-flow",
+        "type": "AI Tool",
+        "category": "Filming",
+        "title": "Google Flow (Veo)",
+        "description": "Google's AI filmmaking tool for turning text or images into short video clips with Veo, plus image generation and an AI creative agent.",
+        "tags": [
+          "ai-tool",
+          "web"
+        ],
+        "relatedResources": [
+          "chatgpt",
+          "claude-ai"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Text-to-video and image-to-video generation powered by Google's Veo models (Lite, Fast, Quality tiers)",
+          "Built-in image generation alongside video tools",
+          "A conversational 'Flow Agent' for guided creation",
+          "50 free daily credits for every user, subscriber or not, refreshing once used (no rollover)",
+          "Deeper access and larger monthly credit pools via Google AI Plus/Pro/Ultra subscriptions"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "google",
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs fuzzy match (exit 1); closest brand match is Google itself since Flow has no distinct Simple Icons glyph"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Official Google product under flow.google.com / support.google.com; no scam or shutdown signals found."
+      },
+      "sources": [
+        {
+          "url": "https://flow.google.com",
+          "date": "2026-10-27",
+          "note": "homepage framing: 'AI Creative Studio for Video, Images & Custom Tools'"
+        },
+        {
+          "url": "https://support.google.com/flow/answer/16526234?hl=en",
+          "date": "2026-10-27",
+          "note": "first-party confirmation of the 50 credits/day free allowance available with or without a subscription, its daily refresh/no-rollover behavior, and peak-hour video restriction for non-subscribers"
+        },
+        {
+          "url": "https://www.mindstudio.ai/blog/google-flow-pricing-credits-tiers-explained",
+          "date": "2026-10-27",
+          "note": "third-party cross-check of paid subscription credit tiers (treated as not-first-party, used only for paidFrom context)"
+        }
+      ],
+      "unverified": [
+        "Exact paid subscription prices for Google AI Plus/Pro/Ultra as they apply to Flow specifically were not confirmed on a first-party Flow pricing page (only via third-party aggregator blogs)",
+        "Commercial-use terms for Flow-generated video were not directly read on a dedicated license/ToS page"
+      ],
+      "injectionSeen": null
+    },
+    "versoly": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Versoly",
+        "url": "https://versoly.com",
+        "alive": true,
+        "operator": "Versoly"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Starter plan, $0/mo: Versoly subdomain (versoly.page), 1,000 visits/mo, 3 static pages, 50 CMS items, 50 form submissions, with Versoly branding shown on the site.",
+        "paidFrom": "$9/mo (Mini plan, billed monthly) for a custom domain and higher limits; Pro $19/mo, Advanced $49/mo",
+        "evidence": {
+          "url": "https://versoly.com/pricing",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": null,
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://versoly.com/pricing",
+          "date": "2026-10-27",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "versoly",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Versoly",
+        "description": "A no-code website and landing-page builder with a drag-and-drop editor, CMS, and a free starter plan for small sites.",
+        "tags": [
+          "website-builder",
+          "no-code"
+        ],
+        "relatedResources": [
+          "webflow",
+          "framer",
+          "squarespace"
+        ],
+        "similarResources": [],
+        "keyFeatures": [
+          "Drag-and-drop editor with 300+ blocks and 50+ components",
+          "CMS-driven website and blog support",
+          "Free Starter plan (Versoly subdomain, branding shown, limited pages/items)",
+          "Custom domain, Stripe Checkout, and code export on paid plans",
+          "10+ starter templates to build from"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no meaningful match (exit 1; closest candidates were single letters e/r/v, not a real brand glyph) - use site SVG or ask owner"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/shutdown signals found; small no-code website builder, active site with current pricing and FAQ pages."
+      },
+      "sources": [
+        {
+          "url": "https://versoly.com",
+          "date": "2026-10-27",
+          "note": "product description, 'Create your website for free' framing, footer copyright"
+        },
+        {
+          "url": "https://versoly.com/pricing",
+          "date": "2026-10-27",
+          "note": "full tier breakdown, confirms Starter is a genuine $0 permanent plan with branding and limits, FAQ states 'Yes, Versoly is free'"
+        }
+      ],
+      "unverified": [
+        "No dedicated license/ToS page was read; commercial-use terms and legal entity name were not directly confirmed",
+        "Whether the free Starter plan's branding popup/subdomain restriction forbids commercial use was not explicitly stated on the pages read"
+      ],
+      "injectionSeen": null
+    },
+    "vgpu": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "vgpu",
+        "url": "https://vgpu.sh",
+        "alive": true,
+        "operator": "Vercel Labs (GitHub org vercel-labs)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Fully free, open-source npm package (MIT); no paid tier exists",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://github.com/vercel-labs/vgpu",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "MIT · commercial: yes · attribution: required (keep license/copyright notice) · one limit: no warranty",
+        "openSource": true,
+        "spdx": "MIT",
+        "evidence": {
+          "url": "https://github.com/vercel-labs/vgpu",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "vgpu",
+        "type": "Library",
+        "category": "Development",
+        "title": "vgpu",
+        "description": "Open-source TypeScript WebGPU library giving one composable API for browser canvases, headless Node.js and serverless runtimes, built for AI agents.",
+        "tags": [
+          "open-source",
+          "ai-tool",
+          "web"
+        ],
+        "relatedResources": [
+          "codesandbox",
+          "stackblitz"
+        ],
+        "similarResources": [
+          "codesandbox",
+          "stackblitz"
+        ],
+        "keyFeatures": [
+          "Single Gpu context object that runs the same way in browser, headless Node.js, and serverless/test environments",
+          "Typed imports for WGSL shader files instead of raw strings",
+          "Covers shaders, 3D scenes, GPU tensors, neural networks, and math visualization",
+          "CLI (npx vgpu) for discovering and copying runnable examples",
+          "Ships a read-only hosted MCP server plus an OpenAPI description and an LLM-oriented docs index, aimed at letting AI agents use the library directly",
+          "MIT-licensed, public GitHub repo under the vercel-labs org"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs exit 1 but only candidate was a spurious single-letter 'v' substring match (not a real brand icon); no exact Simple Icons entry for vgpu"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Public MIT-licensed GitHub repo (vercel-labs/vgpu); no scam/malware/shutdown signal found in search"
+      },
+      "sources": [
+        {
+          "url": "https://vgpu.sh",
+          "date": "2026-10-27",
+          "note": "product description, CLI usage, MCP/OpenAPI/docs links"
+        },
+        {
+          "url": "https://github.com/vercel-labs/vgpu",
+          "date": "2026-10-27",
+          "note": "MIT license, open-source status, maintainer org, what the library does"
+        }
+      ],
+      "unverified": [
+        "No individual maintainer or company name beyond the vercel-labs GitHub org; exact relationship to Vercel Inc. not confirmed on-page"
+      ],
+      "injectionSeen": null
+    },
+    "vibe": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "Vibe (Mistral AI)",
+        "url": "https://mistral.ai/products/vibe/",
+        "alive": true,
+        "operator": "Mistral AI"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free plan: web/mobile access, limited chat messages and web searches, limited agentic coding sessions, basic image generation/editing, 100+ connectors, access to Mistral Studio",
+        "paidFrom": "Pro $14.99/month (excl. tax); Team $24.99/user/month; Enterprise is quote-only",
+        "evidence": {
+          "url": "https://mistral.ai/pricing",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: yes (per ToS/plan) · attribution: not required · one limit: usage subject to fair-usage limits and Mistral's Terms of Service",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://mistral.ai/pricing",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "mistral-vibe",
+        "type": "AI Tool",
+        "category": "Productivity",
+        "title": "Mistral Vibe",
+        "description": "Mistral AI's chat assistant and coding agent (formerly Le Chat), combining research, document/data work and agentic coding with a free daily-limited tier.",
+        "tags": [
+          "chatbot",
+          "ai-tool",
+          "automation",
+          "productivity"
+        ],
+        "relatedResources": [
+          "coda"
+        ],
+        "similarResources": [
+          "chatgpt",
+          "claude-ai"
+        ],
+        "keyFeatures": [
+          "Chat assistant for research, document/deck creation, data analysis and email drafting, plus reusable multi-step workflow agents",
+          "Agentic coding: builds features end-to-end, writes tests, opens pull requests asynchronously, and handles codebase translation/migrations",
+          "100+ tool integrations (email, calendar, Slack, GitHub, Jira) via connectors and MCP compatibility",
+          "Voice input powered by Mistral's Voxtral model",
+          "Free tier with daily message/search/coding limits; paid Pro/Team tiers add higher limits and storage",
+          "Enterprise option for on-prem or private-cloud deployment with fine-tuning via Mistral Forge"
+        ],
+        "icon": {
+          "route": "iconLib",
+          "value": "mistralai",
+          "fillColor": "#FA520F",
+          "bgColor": null,
+          "source": "check-icon.mjs exact match"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Official Mistral AI product page; no scam/malware/shutdown signal found"
+      },
+      "sources": [
+        {
+          "url": "https://mistral.ai/products/vibe/",
+          "date": "2026-10-27",
+          "note": "product description, tier names, feature list, integrations"
+        },
+        {
+          "url": "https://mistral.ai/pricing",
+          "date": "2026-10-27",
+          "note": "free-tier inclusions and Pro/Team/Enterprise prices"
+        }
+      ],
+      "unverified": [
+        "Exact daily message/search/coding-session limits for the Free tier are not published as hard numbers (third-party outlets only estimate, e.g. ~25 messages/day); not used here as fact"
+      ],
+      "injectionSeen": null
+    },
+    "vibecode": {
+      "researchedOn": "2026-10-27",
+      "verdict": "skip",
+      "verdictReason": "Trial-only, not a permanent free tier: the pricing page states only the first app build is free for new accounts, after which all usage requires a paid Plus/Pro/Max credit plan ($20-$200/month).",
+      "site": {
+        "name": "Vibecode",
+        "url": "https://www.vibecodeapp.com",
+        "alive": true,
+        "operator": "Not A Number Labs Incorporated"
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown signal found in search; general 'vibe coding' security concerns found in search results are about the category, not this specific app"
+      },
+      "sources": [
+        {
+          "url": "https://www.vibecodeapp.com",
+          "date": "2026-10-27",
+          "note": "product description, templates, native iOS, mobile app, operator name"
+        },
+        {
+          "url": "https://www.vibecodeapp.com/pricing",
+          "date": "2026-10-27",
+          "note": "confirmed only first build is free; all paid tiers Plus/Pro/Max $20-$200/month"
+        }
+      ],
+      "unverified": [
+        "License/Terms of Service and Refund Policy text not read beyond their existence as linked pages"
+      ],
+      "injectionSeen": null
+    },
+    "vibeprompt": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "VibePrompt",
+        "url": "https://vibeprompts.dev",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire library (286 prompts across 15 categories) is free to browse and copy; no signup, login, or paywall encountered.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://vibeprompts.dev",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No published license/ToS found · commercial use: not stated · attribution: not stated · limit: usage terms for the prompts/snippets are undocumented",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://vibeprompts.dev",
+          "date": "2026-10-27",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "vibeprompt",
+        "type": "Resource",
+        "category": "Development",
+        "title": "VibePrompt",
+        "description": "Free library of 280+ copy-paste Tailwind CSS layout prompts (auth, pricing, heroes, dashboards) to feed into AI coding tools.",
+        "tags": [
+          "ai-tool",
+          "template",
+          "web"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "286 ready-made prompts across 15 layout categories (auth forms, pricing tables, hero sections, dashboards, onboarding, footers)",
+          "Prompts are written to return Tailwind CSS markup when pasted into an AI coding/vibe-coding tool",
+          "Includes a few utility-page prompts beyond layouts, e.g. a command palette, regex tester, and cron schedule builder",
+          "No signup or login required to browse or copy prompts",
+          "Simple single-page library with no account system or saved history"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact Simple Icons match; closest results were generic single-letter icons (e, r, v), not a real brand mark"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown signals found in search; site is a static prompt list with no downloads or logins requested."
+      },
+      "sources": [
+        {
+          "url": "https://vibeprompts.dev",
+          "date": "2026-10-27",
+          "note": "home page: 286 prompts, 15 categories, Tailwind CSS output, footer copyright, no pricing/terms"
+        },
+        {
+          "url": "https://vibeprompts.dev/about",
+          "date": "2026-10-27",
+          "note": "attempted fetch for operator/terms info; returned 404"
+        }
+      ],
+      "unverified": [
+        "Who operates vibeprompts.dev (no about/contact page found)",
+        "Whether reuse of the prompt text itself carries any license restriction (no ToS page found)"
+      ],
+      "injectionSeen": null
+    },
+    "vidclue": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Vidclue",
+        "url": "https://vidclue.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Full idea library (17 categories of short-form video concepts) is free to browse; no signup or paywall encountered. Links out to an external tally.so form for \"more resources,\" unrelated to this library.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://vidclue.com",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No published license/ToS found · commercial use: not stated · attribution: not stated · limit: usage terms for the idea descriptions are undocumented",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://vidclue.com",
+          "date": "2026-10-27",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "vidclue",
+        "type": "Resource",
+        "category": "Marketing",
+        "title": "Vidclue",
+        "description": "Free library of short-form video content ideas for brands, organized into 17 categories like interactive, educational, and comedy formats.",
+        "tags": [
+          "inspiration",
+          "social-media-design"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "17 categories of short-form video concepts, each with its own idea page",
+          "Interactive formats such as 'Guess the answer' and 'Asking for opinions'",
+          "Educational formats such as 'Explain like I'm five' and 'Data animation'",
+          "Comedy formats such as 'Trend parody' and 'Comedy sketch'",
+          "Covers creative devices too: camera movements, shot angles, and editing/motion styles",
+          "No signup or login required to browse"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact Simple Icons match; closest results were generic single-letter icons (e, c, c++, d, v), not a real brand mark"
+        },
+        "siblings": [],
+        "ownerNote": "No tag exists specifically for 'video content ideas/inspiration'; used the closest existing tags (inspiration, social-media-design). Category chosen as Marketing (brand/business short-form content) rather than Filming since the site targets marketers, not filmmakers/editors."
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "No scam/malware/shutdown signals found in search; site is a static idea list, no downloads or logins requested."
+      },
+      "sources": [
+        {
+          "url": "https://vidclue.com",
+          "date": "2026-10-27",
+          "note": "home page: 17 idea categories, description as a short-form video inspiration library for brands/businesses, link to external tally.so form"
+        }
+      ],
+      "unverified": [
+        "Who operates vidclue.com (no about/contact page found)",
+        "Whether reuse of the idea descriptions carries any license restriction (no ToS page found)"
+      ],
+      "injectionSeen": null
+    },
+    "videezy": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Videezy",
+        "url": "https://www.videezy.com",
+        "alive": true,
+        "operator": "Eezy LLC (also operates Vecteezy and Brusheezy)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Free HD/4K stock video clips and some After Effects/.mogrt templates, downloadable without payment (account signup required for download, per site convention).",
+        "paidFrom": "\"Join Pro\" membership unlocks premium/Pro clips and attribution-free commercial licensing; exact price not shown on the pages fetched.",
+        "evidence": {
+          "url": "https://www.videezy.com",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Videezy Standard License · commercial: yes (per secondhand license-summary sources, varies by clip) · attribution: required for free clips, not required for Pro clips · limit: some free clips may be editorial-use only, check each clip's own license before use",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://licenseorg.com/guide/video/videezy",
+          "date": "2026-10-27",
+          "confidence": "second-hand"
+        }
+      },
+      "rl": {
+        "slug": "videezy",
+        "type": "Stock Media",
+        "category": "Filming",
+        "title": "Videezy",
+        "description": "Free HD and 4K stock video clips plus After Effects and Premiere Pro templates; free clips need attribution, Pro membership removes it.",
+        "tags": [
+          "stock-videos",
+          "royalty-free",
+          "stock"
+        ],
+        "relatedResources": [
+          "mixkit",
+          "pexels",
+          "pixabay"
+        ],
+        "similarResources": [
+          "mixkit",
+          "pexels",
+          "pixabay"
+        ],
+        "keyFeatures": [
+          "Free HD and 4K stock video clips across categories like technology, people, backgrounds, abstract, and lab/science footage",
+          "After Effects templates: lower thirds, openers, titles, and social media templates",
+          "Premiere Pro .mogrt motion graphics templates",
+          "Free clips generally require visible Videezy attribution; terms vary per clip",
+          "Pro membership unlocks premium clips and attribution-free commercial licensing",
+          "Part of the Eezy LLC network alongside Vecteezy and Brusheezy"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact Simple Icons match; closest results were generic single-letter icons (e, d, v), not a real brand mark"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "checked-ok",
+        "notes": "Well-established site (part of Eezy LLC / Vecteezy network); no scam/malware signals found. Not previously in RL per rl-index.mjs --find."
+      },
+      "sources": [
+        {
+          "url": "https://www.videezy.com",
+          "date": "2026-10-27",
+          "note": "home page: free HD/4K footage framing, category list, AE/.mogrt templates, Eezy LLC footer copyright, Join Pro link"
+        },
+        {
+          "url": "https://www.videezy.com/license",
+          "date": "2026-10-27",
+          "note": "attempted fetch of a dedicated license page; returned 404, so could not confirm license wording first-party"
+        },
+        {
+          "url": "https://licenseorg.com/guide/video/videezy",
+          "date": "2026-10-27",
+          "note": "second-hand license summary: free clips need attribution and may be editorial-only per clip; Pro clips don't require attribution"
+        }
+      ],
+      "unverified": [
+        "Exact Pro membership price (not shown on pages fetched)",
+        "First-party license page wording (the /license path 404'd; relied on a second-hand license-summary site)",
+        "Whether all free clips allow commercial use or only some (sources say it varies per clip)"
+      ],
+      "injectionSeen": null
+    },
+    "vidfly": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Vidfly",
+        "url": "https://vidfly.ai",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Permanent free plan: 100 initial tokens plus 10-30 daily reward tokens, basic AI tools, 1 concurrent task, 5-second video duration, 720p export, 10 GB storage, projects kept 30 days; outputs are watermarked and limited to non-commercial use.",
+        "paidFrom": "Basic plan ~$17/mo (billed monthly, discounted from $20 list) or $204/yr, 2,000 tokens/month, removes watermark, grants commercial-use license.",
+        "evidence": {
+          "url": "https://vidfly.ai/pricing",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Vidfly Terms of Use · commercial: yes on paid plans only, no on free plan · attribution: not stated · limit: free-plan outputs are watermarked and restricted to personal/non-commercial use",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://vidfly.ai/pricing",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "vidfly",
+        "type": "AI Tool",
+        "category": "Filming",
+        "title": "Vidfly",
+        "description": "AI video platform that generates clips from text, images or avatars using models like Veo, Sora, Kling and Runway, plus lip-sync and effects.",
+        "tags": [
+          "ai-tool",
+          "automation"
+        ],
+        "relatedResources": [],
+        "similarResources": [],
+        "keyFeatures": [
+          "Text-to-video, image-to-video and AI avatar generation routed through multiple third-party models (Veo, Sora, Kling, Runway)",
+          "Built-in lip-sync and video effects tools",
+          "Token-based credit system with a free daily allowance and paid tiers for more tokens",
+          "Free plan outputs are watermarked and non-commercial; paid plans unlock commercial use and remove the watermark",
+          "720p export on free plan"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs returned no exact match; closest 'fuzzy' hits were generic single-letter icons (d, fsharp, v), not a real Vidfly logo match, so route left as none pending a real asset"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition reports found in search; name collides in search results with unrelated 'Vidar' malware and 'VidMate' app, which are different products."
+      },
+      "sources": [
+        {
+          "url": "https://vidfly.ai",
+          "date": "2026-10-27",
+          "note": "product description, model list, FAQ on free plan watermark and commercial use"
+        },
+        {
+          "url": "https://vidfly.ai/pricing",
+          "date": "2026-10-27",
+          "note": "pricing tiers, token limits, free vs paid feature breakdown, commercial-use gating"
+        },
+        {
+          "url": "web search: \"Vidfly\" scam OR malware OR \"shutting down\" OR acquired",
+          "date": "2026-10-27",
+          "note": "no adverse safety findings for Vidfly specifically"
+        }
+      ],
+      "unverified": [
+        "Exact operator/company behind Vidfly not stated on fetched pages.",
+        "Whether monthly billing actually charges the discounted or list price was ambiguous on the pricing page (struck-through prices shown but billing cadence for that exact figure unclear).",
+        "No dedicated 'ai-video' or 'video-generation' tag exists in RL yet; closest existing tag used is 'ai-tool' plus 'automation' (ownerNote: a more specific tag may be worth adding later)."
+      ],
+      "injectionSeen": null
+    },
+    "vidsplay": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "verdictReason": null,
+      "site": {
+        "name": "Vidsplay",
+        "url": "https://www.vidsplay.com",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "All core stock video clips (Nature, Backgrounds and Textures, Animals, Transportation, etc.) are free to download, described as updated weekly; site also promotes a 15% Shutterstock discount as an affiliate upsell, not a Vidsplay paid tier.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://www.vidsplay.com",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Vidsplay custom license · commercial: yes (personal and commercial projects) · attribution: required (credit link to Vidsplay.com) · limit: footage may not be resold/redistributed as-is, only reused after adding substantial value (e.g. editing into a larger project)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.vidsplay.com/terms",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "vidsplay",
+        "type": "Stock Media",
+        "category": "Filming",
+        "title": "Vidsplay",
+        "description": "Free stock video library with weekly updates across nature, backgrounds, animals and transportation, usable commercially with a required credit link.",
+        "tags": [
+          "stock-videos",
+          "royalty-free",
+          "stock"
+        ],
+        "relatedResources": [
+          "mixkit",
+          "pexels",
+          "pixabay"
+        ],
+        "similarResources": [
+          "mixkit",
+          "pexels",
+          "pixabay"
+        ],
+        "keyFeatures": [
+          "Free stock video clips organized into categories such as Nature, Backgrounds and Textures, Animals, and Transportation",
+          "Library updated weekly with new free clips",
+          "Footage usable in personal and commercial projects provided a visible credit link to Vidsplay.com is included",
+          "Clips may not be resold or redistributed as-is; must be incorporated into a larger edited project",
+          "Promotes a 15%-off affiliate discount code for premium Shutterstock footage as a separate paid option"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs returned no exact match; closest 'fuzzy' hits were generic single-letter icons (d, v), not a real Vidsplay logo match, so route left as none pending a real asset"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition reports found in search; unrelated to the 2009-era 'VideoPlay' malware or the unrelated 'Videasy.to' shutdown that surfaced in the same search."
+      },
+      "sources": [
+        {
+          "url": "https://www.vidsplay.com",
+          "date": "2026-10-27",
+          "note": "site description, categories, free clip claim, Shutterstock affiliate discount"
+        },
+        {
+          "url": "https://www.vidsplay.com/terms",
+          "date": "2026-10-27",
+          "note": "license terms: commercial use allowed, attribution required, no resale/redistribution as-is"
+        },
+        {
+          "url": "web search: \"Vidsplay\" scam OR malware OR \"shutting down\" OR acquired",
+          "date": "2026-10-27",
+          "note": "no adverse safety findings for Vidsplay specifically"
+        }
+      ],
+      "unverified": [
+        "Operator/company behind Vidsplay not stated on fetched pages.",
+        "Exact scope of 'royalty free' wording on the homepage beyond the terms page's attribution/no-resale clauses not independently confirmed line-by-line."
+      ],
+      "injectionSeen": null
+    },
+    "viewbug": {
+      "researchedOn": "2026-10-27",
+      "verdict": "blocked",
+      "verdictReason": "Both https://www.viewbug.com/fame and the root https://www.viewbug.com returned HTTP 403 Forbidden on fetch, consistent with a bot check, on two separate attempts (one retry). No first-party content could be read, so pricing, license and feature facts cannot be verified.",
+      "site": {
+        "name": "Viewbug",
+        "url": "https://www.viewbug.com/fame",
+        "alive": true,
+        "operator": null
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Web search surfaced only unrelated FTC/scareware cases and user complaints on a third-party complaints site (ComplaintsBoard) alleging refund disputes and photo-reuse concerns; these are unverified individual claims, not confirmed findings, and are not from a regulator or security firm."
+      },
+      "sources": [
+        {
+          "url": "https://www.viewbug.com/fame",
+          "date": "2026-10-27",
+          "note": "attempted fetch, returned 403 Forbidden"
+        },
+        {
+          "url": "https://www.viewbug.com",
+          "date": "2026-10-27",
+          "note": "retry attempt on site root, also returned 403 Forbidden"
+        },
+        {
+          "url": "web search: \"Viewbug\" scam OR malware OR \"shutting down\" OR acquired",
+          "date": "2026-10-27",
+          "note": "no confirmed shutdown/acquisition/malware finding; only unverified third-party complaints about refunds and photo use"
+        }
+      ],
+      "unverified": [
+        "Could not confirm pricing/membership tiers for the Fame program.",
+        "Could not confirm license/terms language (commercial use, attribution, listing restrictions).",
+        "Could not confirm whether this would be a duplicate of or distinct from any existing photography-contest resource in RL (rl-index.mjs --find \"Viewbug\" found no match, but full feature comparison wasn't possible without page content)."
+      ],
+      "injectionSeen": null
+    },
+    "viewport-ui": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "Viewport UI",
+        "url": "https://viewport-ui.design",
+        "alive": true,
+        "operator": "Fer and Eryc (curators, since 2023)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire gallery (624+ curated UI design shots) is browsable at no cost; no account, paywall or pricing page found.",
+        "paidFrom": null,
+        "evidence": {
+          "url": "http://viewportui.com/",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Curated design gallery · commercial: n/a (links to external designer credits, no license to list a design gallery itself) · attribution: each shot credited to its creator · limit: site has no stated ToS/license page in the fetched content",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "http://viewportui.com/",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "viewport-ui",
+        "type": "Website",
+        "category": "Design",
+        "title": "Viewport UI",
+        "description": "A curated gallery of 600+ UI design shots, filterable by kind, font, style and industry, for designers hunting for inspiration.",
+        "tags": [
+          "inspiration",
+          "design-systems",
+          "ui-ux"
+        ],
+        "relatedResources": [
+          "dribbble",
+          "awwwards",
+          "behance"
+        ],
+        "similarResources": [
+          "dribbble",
+          "behance",
+          "awwwards"
+        ],
+        "keyFeatures": [
+          "624+ curated UI design shots, each credited to its original designer",
+          "Filter by kind (Brand, Component, Desktop, Mobile, Motion, Web)",
+          "Filter by typography style (Sans, Serif, Mono, Cursive, Big Type)",
+          "Filter by visual style (Dark, Light, Glass, iOS, Retro, Minimalist)",
+          "Filter by industry (SaaS, Finance, E-commerce, Healthcare, Travel)",
+          "No account or sign-up required to browse"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no exact or usable fuzzy match (only unrelated single-letter icons); use site SVG/ask owner"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Canonical domain redirects http(s)://viewport-ui.design -> http://viewportui.com/ (301). The target loaded fine over plain HTTP in the fetch; owner should confirm HTTPS works on viewportui.com before listing the bare domain."
+      },
+      "sources": [
+        {
+          "url": "https://viewport-ui.design",
+          "date": "2026-10-27",
+          "note": "confirmed 301 redirect to viewportui.com"
+        },
+        {
+          "url": "http://viewportui.com/",
+          "date": "2026-10-27",
+          "note": "home page content: gallery description, filters, curators, no pricing/license text present"
+        }
+      ],
+      "unverified": [
+        "No license/ToS page was found in the fetched content; whether linking/embedding individual shots requires permission is unconfirmed.",
+        "Whether the live site actually serves HTTPS on viewportui.com (fetch only showed an http:// response) is unconfirmed.",
+        "No safety/scam search hits returned anything specific to this site (query returned unrelated results)."
+      ],
+      "injectionSeen": null
+    },
+    "viggle": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "Viggle",
+        "url": "https://viggle.ai",
+        "alive": true,
+        "operator": null
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "5 free video generations/day, 1 generation at a time, limited multi-track sessions, 5-minute Real-Time Swap, 7-day asset/generation storage, max 1-minute upload, watermarked output.",
+        "paidFrom": "Pro at $7.99/month (80 credits); Live $15.99/month (200 credits); Max $63.99/month (800 credits); separate PINOC product from $10.39/month; API pay-as-you-go at $0.01/credit with 100 free credits for new accounts.",
+        "evidence": {
+          "url": "https://viggle.ai/pricing",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: not stated on home/pricing pages (ToS page not fetched) · attribution: not stated · limit: free tier output is watermarked",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://viggle.ai",
+          "date": "2026-10-27",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "viggle",
+        "type": "AI Tool",
+        "category": "Filming",
+        "title": "Viggle",
+        "description": "AI \"Spatial GenAI\" platform that swaps characters into videos, animates them with motion capture, and builds 3D scenes from text or a photo.",
+        "tags": [
+          "ai-tool",
+          "video-template",
+          "web"
+        ],
+        "relatedResources": [
+          "mixkit",
+          "chatgpt",
+          "claude-ai"
+        ],
+        "similarResources": [
+          "mixkit"
+        ],
+        "keyFeatures": [
+          "Meme Maker: swaps a character into an existing video and drives it with motion",
+          "PINOC: a 3D creative engine that generates worlds, characters and motion from text, a photo, or a clip",
+          "Real-Time Swap for live character/motion swapping (limited to 5 minutes on the free tier)",
+          "Game templates that let users remix playable scenes with their own characters",
+          "Developer API for character swapping and motion capture, billed pay-as-you-go at $0.01/credit",
+          "Paid tiers remove the output watermark and raise daily/monthly generation credits"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no exact or usable fuzzy match (only unrelated single-letter icons); use site SVG/ask owner"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Safety search for \"Viggle\" mostly surfaced an unrelated, older \"Viggle\" TV-rewards/Perk-points app that ceased operations in Dec 2019 (per a Slickdeals forum repost, not an official source) — that appears to be a different, now-defunct company/product sharing the name, not viggle.ai. No scam/malware/shutdown signal found for the current viggle.ai Spatial GenAI platform."
+      },
+      "sources": [
+        {
+          "url": "https://viggle.ai",
+          "date": "2026-10-27",
+          "note": "product description: Meme Maker, PINOC, Games, API; claimed 50M+ users, named brand users"
+        },
+        {
+          "url": "https://viggle.ai/pricing",
+          "date": "2026-10-27",
+          "note": "exact tier prices, credits, and free-tier limits"
+        }
+      ],
+      "unverified": [
+        "ToS/commercial-use clause not read directly (not fetched); unclear if generated character/motion content has any usage restriction for commercial posting.",
+        "Operator/company name behind viggle.ai not confirmed from the fetched pages.",
+        "The 2019 'Viggle' shutdown found in safety search is very likely an unrelated older product (TV check-in rewards app) and not the current AI platform, but this is not fully confirmed first-party."
+      ],
+      "injectionSeen": null
+    },
+    "visla": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "Visla",
+        "url": "https://www.visla.us",
+        "alive": true,
+        "operator": "Visla, Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan includes base monthly credits (no top-ups), public avatars, free stock library, exports up to 1080p, 3GB/1-hour media uploads, folder management and core recording/editing tools, but output carries a Visla watermark and no premium stock (Storyblocks/Getty) or custom voices.",
+        "paidFrom": "Pro, Business and Enterprise tiers exist (watermark removal, premium stock, custom voices, higher limits); exact dollar prices are not shown on the pricing page — Enterprise requires a sales demo.",
+        "evidence": {
+          "url": "https://www.visla.us/pricing",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: not explicitly stated (no commercial-use clause on pricing page) · attribution: not required · limit: free-plan videos carry the Visla watermark",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.visla.us/pricing",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "visla",
+        "type": "AI Tool",
+        "category": "Filming",
+        "title": "Visla",
+        "description": "AI video creation and editing platform for teams, combining screen/camera recording, an AI Video Agent, scene-based editing and collaboration.",
+        "tags": [
+          "ai-tool",
+          "video-template",
+          "collaboration",
+          "web"
+        ],
+        "relatedResources": [
+          "mixkit",
+          "coda",
+          "miro"
+        ],
+        "similarResources": [
+          "mixkit"
+        ],
+        "keyFeatures": [
+          "Screen, camera, and step-by-step tutorial recording built in",
+          "AI Video Agent generates and edits video from prompts/footage",
+          "Scene-based, non-linear editing with public AI avatars on every plan",
+          "Free stock footage/music library, with Storyblocks and Getty Images on paid tiers",
+          "Team collaboration features: folder management, content labeling, search, YouTube import",
+          "SOC 2 Type II compliance and SSO support for business customers"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs found no exact or usable fuzzy match (only unrelated single-letter icons); use site SVG/ask owner"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "Safety search for \"Visla\" returned no relevant results at all (search engine matched on \"Visa\" instead); no scam/malware/shutdown/acquisition signal found either way."
+      },
+      "sources": [
+        {
+          "url": "https://www.visla.us",
+          "date": "2026-10-27",
+          "note": "product overview: recording, AI Video Agent, scene editing, collaboration; audiences (business teams, education)"
+        },
+        {
+          "url": "https://www.visla.us/pricing",
+          "date": "2026-10-27",
+          "note": "free-tier feature list and limits, paid-tier feature deltas, no dollar prices shown, refund/credit policy notes"
+        }
+      ],
+      "unverified": [
+        "Exact dollar prices for Pro/Business tiers were not shown on the pricing page (only feature deltas); Enterprise price requires a sales demo.",
+        "No explicit commercial-use clause found on the pages fetched; Terms of Service/Refund Policy were linked but not read directly.",
+        "Safety search returned nothing usable due to 'Visla'/'Visa' query ambiguity; not a confirmed clean result, just an absence of negative signal."
+      ],
+      "injectionSeen": null
+    },
+    "visme": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "Visme",
+        "url": "https://www.visme.co",
+        "alive": true,
+        "operator": "Easy WebContent, LLC (d/b/a Visme)"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Basic plan: unlimited projects, 500MB storage, 50 slides/pages per project, downloads limited to JPG/PNG/PDF, 10 AI credits/month, limited templates and assets, Visme watermark on exports",
+        "paidFrom": "Starter plan, $12.25/person/month billed annually ($147/yr); monthly billing is higher",
+        "evidence": {
+          "url": "https://www.visme.co/pricing/",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: yes (paid plans; free plan allows use but adds a watermark) · attribution: not required · limit: free plan restricted to JPG/PNG/PDF export with watermark",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.visme.co/pricing/",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "visme",
+        "type": "Tool",
+        "category": "Design",
+        "title": "Visme",
+        "description": "AI-powered design platform for presentations, infographics, documents, charts, and social graphics, built for marketers and educators.",
+        "tags": [
+          "ai-tool",
+          "graphic-design",
+          "design-templates",
+          "social-media-design",
+          "collaboration"
+        ],
+        "relatedResources": [
+          "canva",
+          "figma",
+          "canva-templates"
+        ],
+        "similarResources": [
+          "canva"
+        ],
+        "keyFeatures": [
+          "AI Designer generates a ready-to-use design from a text prompt",
+          "Data visualization tools turn statistics into charts and infographics",
+          "Thousands of templates across 50+ content types (presentations, docs, social graphics, video)",
+          "Brand Wizard applies brand fonts, colors, and logo, and can pull brand assets from a website URL",
+          "Content calendar for scheduling and publishing social media content",
+          "Real-time collaboration with comments and shared asset libraries"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact/usable Simple Icons match (only generic single-letter fuzzy hits); site logo not extracted (no SVG asset path verified)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No shutdown/acquisition/malware reports found. One Trustpilot reviewer (late 2025, JA Trustpilot) called the free plan \"a scam\" because of download limits; Visme replied explaining the free-plan restrictions. Treated as a pricing complaint, not a security issue."
+      },
+      "sources": [
+        {
+          "url": "https://www.visme.co",
+          "date": "2026-10-27",
+          "note": "product description, target audience, feature list, ownership (Easy WebContent, LLC)"
+        },
+        {
+          "url": "https://www.visme.co/pricing/",
+          "date": "2026-10-27",
+          "note": "free Basic plan details, Starter plan price"
+        },
+        {
+          "url": "https://jp.trustpilot.com/review/visme.co",
+          "date": "2026-10-27",
+          "note": "safety search result; customer complaint about free-plan limits, no fraud/malware/shutdown findings"
+        }
+      ],
+      "unverified": [
+        "Exact monthly (non-annual) Starter price not read",
+        "No official logo/icon asset path verified; Simple Icons has no Visme entry"
+      ],
+      "injectionSeen": null
+    },
+    "vistacreate": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "VistaCreate",
+        "url": "https://create.vista.com",
+        "alive": true,
+        "operator": "Crello Ltd. (per site footer); product of Vista/Cimpress group, which acquired Depositphotos/Crello in 2021 per Wikipedia"
+      },
+      "pricing": {
+        "rlLabel": "Free + Paid",
+        "freeTier": "Starter plan ($0/mo, 1 seat): 100K design templates, 1M photos/videos/vectors, 1 brand kit, 10GB project storage, AI tools (Image Generator, AI Writer, Object Remover, Background Remover, Object Grabber), Sticker Maker, one-click resizer, version history, HD download",
+        "paidFrom": "Pro plan, $10/month for up to 10 seats (billed monthly); annual billing advertised as 23% cheaper but exact annual price not shown on page",
+        "evidence": {
+          "url": "https://create.vista.com/plans/",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Proprietary SaaS · commercial: yes (Starter and Pro both usable commercially per plan page) · attribution: not required · limit: full stock library, resizing across all formats, and 10-person team collaboration are Pro-only",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://create.vista.com/plans/",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "vistacreate",
+        "type": "Tool",
+        "category": "Design",
+        "title": "VistaCreate",
+        "description": "Free online graphic design tool with templates, AI image and background tools, and a brand kit, for social, print, and marketplace sellers.",
+        "tags": [
+          "graphic-design",
+          "design-templates",
+          "ai-tool",
+          "social-media-design",
+          "collaboration"
+        ],
+        "relatedResources": [
+          "canva",
+          "canva-templates",
+          "figma"
+        ],
+        "similarResources": [
+          "canva"
+        ],
+        "keyFeatures": [
+          "100K+ templates for social media, print, and web formats (200K+ on Pro)",
+          "AI tools: image generator, AI writer, object remover, background remover, object grabber",
+          "Access to a large stock library of photos, videos, and vectors (1M free, 170M+ on Pro)",
+          "Brand Kit for storing brand colors, fonts, and logos",
+          "One-click resizing, sticker maker, and basic animation/video editing",
+          "Scheduling and posting designs directly to social media"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact/usable Simple Icons match (only generic single-letter fuzzy hits); site logo not extracted (no SVG asset path verified)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown reports found for VistaCreate itself. Wikipedia confirms the 2021 rebrand from Crello to VistaCreate after Vistaprint's acquisition of Depositphotos/related companies; this is an ownership change, not a shutdown."
+      },
+      "sources": [
+        {
+          "url": "https://create.vista.com",
+          "date": "2026-10-27",
+          "note": "product description, feature list, footer copyright (Crello Ltd.)"
+        },
+        {
+          "url": "https://create.vista.com/plans/",
+          "date": "2026-10-27",
+          "note": "free Starter plan details, Pro plan price"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/VistaCreate",
+          "date": "2026-10-27",
+          "note": "safety/ownership search result: Crello -> VistaCreate rebrand after Vistaprint/Depositphotos acquisition, 2021"
+        }
+      ],
+      "unverified": [
+        "Exact annual Pro price not shown on the plans page",
+        "Precise corporate relationship between Crello Ltd. and VistaPrint not stated on-site",
+        "No official logo/icon asset path verified; Simple Icons has no VistaCreate entry"
+      ],
+      "injectionSeen": null
+    },
+    "visual-journal": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "Visual Journal",
+        "url": "https://visualjournal.it",
+        "alive": true,
+        "operator": "Alessandro Scarpellini (Italian art director / design manager)"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire site is free to read; no ads or sponsorships; optional voluntary support via Buy Me A Coffee",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://visualjournal.it",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Editorial showcase site · commercial: n/a (not a licensed asset/tool, just a curated blog) · attribution: not applicable · limit: submissions are curated/reviewed, not guaranteed publication",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://visualjournal.it",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "visual-journal",
+        "type": "Website",
+        "category": "Design",
+        "title": "Visual Journal",
+        "description": "Curated blog showcasing branding and graphic design projects from around the world, run by an independent art director.",
+        "tags": [
+          "inspiration",
+          "graphic-design",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "awwwards",
+          "behance",
+          "dribbble"
+        ],
+        "similarResources": [
+          "behance"
+        ],
+        "keyFeatures": [
+          "Hand-picked showcase of branding and graphic design projects from studios worldwide",
+          "Editorial review process for project submissions",
+          "No ads or sponsorships; optional reader support via Buy Me A Coffee",
+          "Companion social channels on Instagram, X, Tumblr, and LinkedIn"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs: no exact/usable Simple Icons match (only generic single-letter fuzzy hits); site logo not extracted (no SVG asset path verified)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown reports found. Footer attribution differed between two cached copies of the site ('By Forma & Co' vs 'By L2') in search-indexed pages; cause unclear (possible site redesign/credit change over time), not flagged as a security concern."
+      },
+      "sources": [
+        {
+          "url": "https://visualjournal.it",
+          "date": "2026-10-27",
+          "note": "site purpose, submission policy, no-ads statement, operator identity"
+        }
+      ],
+      "unverified": [
+        "Reason for differing footer design-credit ('Forma & Co' vs 'L2') between indexed page copies not confirmed",
+        "No official logo/icon asset path verified; Simple Icons has no entry for a generic blog name like this"
+      ],
+      "injectionSeen": null
+    },
+    "visualist": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "Visualist",
+        "url": "https://www.visualistapp.com",
+        "alive": true,
+        "operator": "Visualist (London-based company)"
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free plan: $0/mo, 100 credits/month, documents/files, Vai assistant, 500 files, 7-day history, no card required",
+        "paidFrom": "$30/mo (Core plan, 1,000 credits/mo, 7-day trial)",
+        "evidence": {
+          "url": "https://www.visualistapp.com/pricing",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "Visualist Terms of Service · commercial: yes (internal business/approved client work) · attribution: not required · limit: no resale/sublicensing/service-bureau use of the Service, no training competing AI systems",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://www.visualistapp.com/legal/terms",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "visualist",
+        "type": "AI Tool",
+        "category": "Design",
+        "title": "Visualist",
+        "description": "AI workspace for interior designers, stylists, and event planners to manage client work, concepts, renders, and communication.",
+        "tags": [
+          "ai-tool",
+          "visual-design",
+          "project-management",
+          "collaboration"
+        ],
+        "relatedResources": [
+          "notion",
+          "canva"
+        ],
+        "similarResources": [
+          "airtable",
+          "coda"
+        ],
+        "keyFeatures": [
+          "Vai, an AI assistant trained on a studio's own past client work and taste, helps with concepts and client communication",
+          "Client Hub bundles booking, forms, proposals, and a 'Concierge' messaging flow per project",
+          "Automatic notetaker captures meeting and call notes",
+          "Credit-based usage (100 free credits/mo) scales up through Core and Growth plans for small teams",
+          "Document and file storage with history retention length tied to plan tier"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs exit 2, no match (closest fuzzy: alist, v)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown/acquisition reports found; third-party listings (trade show exhibitor page, job board) describe it as an active London company."
+      },
+      "sources": [
+        {
+          "url": "https://www.visualistapp.com",
+          "date": "2026-10-27",
+          "note": "product description, audience, footer links"
+        },
+        {
+          "url": "https://www.visualistapp.com/pricing",
+          "date": "2026-10-27",
+          "note": "pricing tiers, confirmed permanent Free plan"
+        },
+        {
+          "url": "https://www.visualistapp.com/legal/terms",
+          "date": "2026-10-27",
+          "note": "commercial-use, resale, and AI-training clauses"
+        }
+      ],
+      "unverified": [
+        "Current company status (funding, team size) beyond 2022-era third-party listings not re-verified first-party"
+      ],
+      "injectionSeen": null
+    },
+    "visualsitemaps": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "VisualSitemaps",
+        "url": "https://visualsitemaps.com",
+        "alive": true,
+        "operator": "VisualSitemaps Inc."
+      },
+      "pricing": {
+        "rlLabel": "Freemium",
+        "freeTier": "Free: 25 page crawls/month (25-page max sitemap), unlimited Flow Boards and domain crawls, 3 users, 2-level crawl depth, private-site crawling, PDF/CSV/JSON export, no credit card required",
+        "paidFrom": "$29/mo (Mini plan), or $22/mo billed yearly",
+        "evidence": {
+          "url": "https://app.visualsitemaps.com/pricing/",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "VisualSitemaps Terms of Service · commercial: yes (internal business/approved client work) · attribution: not required · limit: no resale/service-bureau use, no building a competing product without permission",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://visualsitemaps.com/terms/",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "rl": {
+        "slug": "visualsitemaps",
+        "type": "Tool",
+        "category": "Design",
+        "title": "VisualSitemaps",
+        "description": "Crawls a website to generate a visual sitemap with HD page screenshots, plus UX flow-canvas maps, for design and SEO teams.",
+        "tags": [
+          "ui-ux",
+          "prototyping",
+          "web",
+          "collaboration"
+        ],
+        "relatedResources": [
+          "figma",
+          "miro"
+        ],
+        "similarResources": [
+          "figjam",
+          "airtable"
+        ],
+        "keyFeatures": [
+          "Crawls a public or password-protected site to build a visual sitemap with page-level screenshots",
+          "Flow Canvas lets teams sketch and annotate user-journey maps alongside the sitemap",
+          "Optional AI-generated 'optimized map' suggestions, including a bring-your-own-key mode",
+          "Exports to PDF, CSV, and JSON; supports scheduled recrawls and side-by-side visual comparisons",
+          "Free plan covers 25 pages/month with no credit card required; paid tiers raise crawl limits and add seats"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs exit 2, no match (closest fuzzy: /e/, v)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware reports found. A futuretools.io directory listing was checked directly and contains no flag or warning (only upvotes and a 'free tier' note) despite a search snippet implying one existed."
+      },
+      "sources": [
+        {
+          "url": "https://visualsitemaps.com",
+          "date": "2026-10-27",
+          "note": "product description, audiences, feature overview"
+        },
+        {
+          "url": "https://app.visualsitemaps.com/pricing/",
+          "date": "2026-10-27",
+          "note": "pricing tiers and free-plan feature list"
+        },
+        {
+          "url": "https://visualsitemaps.com/terms/",
+          "date": "2026-10-27",
+          "note": "license/commercial-use and affiliate clauses"
+        }
+      ],
+      "unverified": [
+        "Company size/location beyond what the Terms state (VisualSitemaps Inc. and affiliates)"
+      ],
+      "injectionSeen": null
+    },
+    "visuelle": {
+      "researchedOn": "2026-10-27",
+      "verdict": "list",
+      "site": {
+        "name": "Visuelle",
+        "url": "https://visuelle.co.uk",
+        "alive": true,
+        "operator": "Visuelle (founded 2007 by David Bennett), UK"
+      },
+      "pricing": {
+        "rlLabel": "Free",
+        "freeTier": "Entire showcase site and gallery content is free to browse, no account required",
+        "paidFrom": null,
+        "evidence": {
+          "url": "https://visuelle.co.uk",
+          "date": "2026-10-27",
+          "confidence": "first-party"
+        }
+      },
+      "license": {
+        "line": "No published terms/license page found · commercial: unknown · attribution: unknown · showcased project images remain copyright of the credited studios/photographers (per-image credits seen on homepage)",
+        "openSource": false,
+        "spdx": null,
+        "evidence": {
+          "url": "https://visuelle.co.uk",
+          "date": "2026-10-27",
+          "confidence": "not-read"
+        }
+      },
+      "rl": {
+        "slug": "visuelle",
+        "type": "Website",
+        "category": "Design",
+        "title": "Visuelle",
+        "description": "Curated showcase of branding, typography, editorial, digital, and motion design work from studios and independent creatives.",
+        "tags": [
+          "inspiration",
+          "graphic-design",
+          "typography",
+          "visual-design"
+        ],
+        "relatedResources": [
+          "behance",
+          "dribbble"
+        ],
+        "similarResources": [
+          "awwwards",
+          "fontpair"
+        ],
+        "keyFeatures": [
+          "Regularly updated gallery of branding, editorial, digital, and motion design projects",
+          "Open to creative submissions from designers and studios worldwide via email",
+          "Publishes an annual print edition (Visuelle Editions) alongside the website",
+          "Create Great podcast featuring interviews with designers and studios"
+        ],
+        "icon": {
+          "route": "none",
+          "value": null,
+          "fillColor": null,
+          "bgColor": null,
+          "source": "check-icon.mjs exit 2, no match (closest fuzzy: /e/, v)"
+        },
+        "siblings": []
+      },
+      "safety": {
+        "https": true,
+        "clonerisk": "none",
+        "notes": "No scam/malware/shutdown reports found; searches surfaced only unrelated design-magazine shutdown/acquisition stories (Design Week, Grafik, Design Milk), none about Visuelle."
+      },
+      "sources": [
+        {
+          "url": "https://visuelle.co.uk",
+          "date": "2026-10-27",
+          "note": "site description, founder/history, audience, submission contact, socials"
+        }
+      ],
+      "unverified": [
+        "No Terms/Privacy/License page could be located on the site (no footer legal links found); per-image copyright ownership of individual showcased works",
+        "Print edition (Visuelle Editions) price not found"
+      ],
+      "injectionSeen": null
     }
   }
 }
